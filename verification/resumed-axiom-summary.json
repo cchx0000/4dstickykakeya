@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T10:36:17.121645+00:00",
-  "previous_checkpoint": "8f8e7976eae4894d3193f47332c773157f08f179",
+  "generated_at_utc": "2026-10-02T10:43:28.645833+00:00",
+  "previous_checkpoint": "16066d983f7d05efb6b688d904e97796c581fc24",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 780,
+  "total_new_checked_declarations": 822,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -53,7 +53,8 @@
     "verification/angular-residual-excess-readback.log": 6,
     "verification/residual-phase-localization-axioms.log": 40,
     "verification/actual-shell-graph-axioms.log": 12,
-    "verification/actual-residual-phase-localization-axioms.log": 13
+    "verification/actual-residual-phase-localization-axioms.log": 13,
+    "verification/residual-affine-rescaling-readback.log": 42
   },
   "checks": [
     {
@@ -6252,6 +6253,384 @@
         "Quot.sound"
       ],
       "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.physicalSlope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedSlope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedIntercept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.physicalSlope_normalizedSlope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedSlope_physicalSlope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedSlope_root",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedIntercept_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_secants",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.collisionTime_smul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.collisionResidual_smul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_collisionTime",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_collisionResidual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_shell_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_residual_time_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.inverse_secant_weight_rescale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_residualContentWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.weightedResidualContent_rescale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.frontAffineMap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.frontUnscale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.frontUnscale_leftInverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.frontUnscale_rightInverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.frontAffineEquiv",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.heightCoordinates",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.frontAffineEquiv4",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_frontPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_front_spatial",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.measurable_normalizedSlope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.measurable_normalizedIntercept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.weightedResidualContent_map_normalized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.map_volume_normalizedSlope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedSource",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedSource_isProbability",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedSource_le_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedSource_eq_real_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedSource_le_real_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_frontPoint_mem_image_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedDirectedGraph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedSource_prod",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedDirectedGraph_le_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedDirectedGraph_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedDirectedGraph_real_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalizedDirectedGraph_mass_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-affine-rescaling-readback.log"
     }
   ],
   "source_sha256": {
@@ -6304,7 +6683,8 @@
     "Theorems/Thm_StickyKakeya4_angular_residual_excess.lean": "3b05affed2aba51f93c3a89a9bc0faa1eeebdb0e0f16983f9719778cbf39f587",
     "Theorems/Thm_StickyKakeya4_residual_phase_localization.lean": "ca620be2df688715516dd07f969f1e03b5707d2d1c9948b68bd98fa814710efc",
     "Theorems/Thm_StickyKakeya4_actual_shell_graph.lean": "785261d9047c0cc7b0b4b094e632f94282289f3559e33f256c96162d2beadca9",
-    "Theorems/Thm_StickyKakeya4_actual_residual_phase_localization.lean": "eb18be867ad176872ebbddf8cba8967e9e914af6ba625b9e3d945e98d286a0f6"
+    "Theorems/Thm_StickyKakeya4_actual_residual_phase_localization.lean": "eb18be867ad176872ebbddf8cba8967e9e914af6ba625b9e3d945e98d286a0f6",
+    "Theorems/Thm_StickyKakeya4_residual_affine_rescaling.lean": "58bdcc443eebec93bf924fe90d8f1daa62d76dee2d9a5a0beea22d47497b007d"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -6330,5 +6710,5 @@
       "StickyKakeya4.sticky_kakeya_four_dimensional"
     ]
   },
-  "resumed_phase_declaration_count": 689
+  "resumed_phase_declaration_count": 731
 }

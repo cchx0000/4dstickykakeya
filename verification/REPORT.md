@@ -3,6 +3,29 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Exact physical rescaling and normalized source law
+
+`ResidualAffineRescaling` proves the actual common affine coordinate change
+for a selected source block: slopes and intercepts are translated and divided
+by the same positive scale. Closest collision times are unchanged, residuals
+are divided by that scale, and the angular shell and literal weighted
+residual content have their exact transformed formulas. A fixed affine
+equivalence of E4 carries the physical front points and their support sets.
+This is a coordinate change of the whole physical configuration, not a
+reduction of the inherited error in its original coordinates.
+
+The normalized source is an actual probability measure. Its domination by
+`(tau^3/m) * volume` follows from exact three-dimensional Lebesgue scaling
+and the original source domination, not a density hypothesis. The normalized
+directed edge law is product-dominated and has exactly original edge mass
+`/ m^2`, at most one. The first-hit graph is kept explicitly directed.
+
+All **42** declarations passed strict compilation and standard-only axiom
+readbacks, bringing the cumulative checked count to **822**. The source,
+exact-command logs and readback are indexed in
+[resumed-axiom-summary.json](resumed-axiom-summary.json).
+No moving-scale support limit or final transverse charge is claimed.
+
 ## Actual-source localization without cover or density certificates
 
 `ActualResidualPhaseLocalization.sticky_datum_exists_uniform_actual_shell_localization`

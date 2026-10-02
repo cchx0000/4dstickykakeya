@@ -1,0 +1,4 @@
+
+# Verified command
+ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_residual_affine_rescaling.olean Theorems/Thm_StickyKakeya4_residual_affine_rescaling.lean > verification/residual-affine-rescaling-strict.log 2>&1
+# Verified exit status: 0

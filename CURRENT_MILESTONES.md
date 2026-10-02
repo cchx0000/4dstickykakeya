@@ -55,7 +55,10 @@ arbitrary descendants is asserted. See
 source now supplies every positive literal angular-shell graph and a genuine
 localized dense block, with derived cubic normalized density cost
 `O(tau^(-zeta))`; no cover or proximity certificate is assumed in that
-original-data endpoint.
+original-data endpoint. The actual affine rescaling now preserves
+collision times, scales residuals exactly, constructs the normalized source
+probability with derived density, and preserves the normalized directed
+graph mass and product domination.
 
 ## 5. Finite occurrence-flow conservation
 
@@ -155,8 +158,8 @@ it does not complete the requested internal proof.
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
 tracked build at `95e104e5` passed all **163** committed modules and **8,870** Lake
-jobs; the subsequent constructed and actual-source localization modules have strict checks;
-there are now **780** checked new declarations with only standard logical
+jobs; the subsequent localization and exact physical rescaling modules have strict checks;
+there are now **822** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the
