@@ -1,0 +1,96 @@
+ELAN_HOME=/workspace/shared/lean-tools/elan
+PATH=/workspace/shared/lean-tools/elan/bin:$PATH
+XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+$ lake env lean -DautoImplicit=false verification/LowInterceptEntropyEscapeReadback.lean
+StickyKakeya4.LowInterceptEntropyEscape.HasLowInterceptEntropy (b : StickyKakeya4.E3 → StickyKakeya4.E3) (s₀ : ℝ)
+  (A : Set StickyKakeya4.E3) : Prop
+StickyKakeya4.LowInterceptEntropyEscape.physical_ball_mass_le_of_coveringNumber
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [MeasureTheory.IsFiniteMeasure σ] (hσ : σ ≤ MeasureTheory.volume)
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (A : Set StickyKakeya4.E3)
+  (hA : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, a ∈ A) (s₀ u v r g ε : ℝ) (x : StickyKakeya4.E4) (C : ENNReal) (hC : C ≠ ⊤)
+  (hr : 0 < r) (hr1 : r ≤ 1) (hg : 0 < g) (hε : 0 < ε) (hgap : ∀ s ∈ Set.Icc u v, g ≤ |s - s₀|)
+  (hentropy :
+    StickyKakeya4.coveringNumber (StickyKakeya4.LowInterceptEntropyEscape.centeredInterceptImage b s₀ A) r ≤
+      C * ENNReal.ofReal r ^ (-ε)) :
+  (StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure σ b u v) (Metric.ball x r) ≤
+    StickyKakeya4.LowInterceptEntropyEscape.geometricConstant g * (C + 1) * ENNReal.ofReal r ^ (4 - ε)
+StickyKakeya4.LowInterceptEntropyEscape.sourceFrontMeasure_global_ball_bound
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [MeasureTheory.IsFiniteMeasure σ] (hσ : σ ≤ MeasureTheory.volume)
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (A : Set StickyKakeya4.E3)
+  (hA : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, a ∈ A) (s₀ u v g ε : ℝ) (hg : 0 < g) (hε : 0 < ε) (hε4 : ε < 4)
+  (hgap : ∀ s ∈ Set.Icc u v, g ≤ |s - s₀|)
+  (hentropy : StickyKakeya4.LowInterceptEntropyEscape.HasLowInterceptEntropy b s₀ A) :
+  ∃ D,
+    D ≠ ⊤ ∧
+      ∀ (x : StickyKakeya4.E4) (r : ℝ),
+        0 < r →
+          (StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure σ b u v) (Metric.ball x r) ≤
+            D * ENNReal.ofReal r ^ (4 - ε)
+StickyKakeya4.LowInterceptEntropyEscape.frontProbability_global_ball_bound (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  [MeasureTheory.IsFiniteMeasure σ] (hσpos : 0 < σ Set.univ) (hσ : σ ≤ MeasureTheory.volume)
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (A : Set StickyKakeya4.E3)
+  (hA : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, a ∈ A) (s₀ u v g ε : ℝ) (huv : u < v) (hg : 0 < g) (hε : 0 < ε) (hε4 : ε < 4)
+  (hgap : ∀ s ∈ Set.Icc u v, g ≤ |s - s₀|)
+  (hentropy : StickyKakeya4.LowInterceptEntropyEscape.HasLowInterceptEntropy b s₀ A) :
+  ∃ D,
+    D ≠ ⊤ ∧
+      ∀ (x : StickyKakeya4.E4) (r : ℝ),
+        0 < r →
+          (StickyKakeya4.LowInterceptEntropyEscape.frontProbability σ b u v) (Metric.ball x r) ≤
+            D * ENNReal.ofReal r ^ (4 - ε)
+StickyKakeya4.LowInterceptEntropyEscape.front_dimH_eq_four_of_low_intercept_entropy
+  (ambient : Set StickyKakeya4.MarkedLine) (hcompact : IsCompact ambient) (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  [MeasureTheory.IsFiniteMeasure σ] (hσpos : 0 < σ Set.univ) (hσ : σ ≤ MeasureTheory.volume)
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (A : Set StickyKakeya4.E3) (hAmeas : MeasurableSet A)
+  (hA : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, a ∈ A) (s₀ u v g : ℝ) (huv : u < v) (hg : 0 < g)
+  (hgap : ∀ s ∈ Set.Icc u v, g ≤ |s - s₀|)
+  (hsupport :
+    ∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+      ∀ s ∈ Set.Icc u v, StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient)
+  (hentropy : StickyKakeya4.LowInterceptEntropyEscape.HasLowInterceptEntropy b s₀ A) :
+  dimH (StickyKakeya4.unitFront ambient) = 4
+'StickyKakeya4.LowInterceptEntropyEscape.centeredInterceptImage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.HasLowInterceptEntropy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.fiber_mass_le_finite_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.physical_ball_mass_le_finite_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.geometricConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.geometricConstant_ne_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.physical_ball_mass_le_card_mul_fourth_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.physical_ball_mass_le_of_coveringNumber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.sourceFrontMeasure_global_ball_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.frontProbability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.sourceFrontMeasure_mass_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.frontProbability_isProbability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.frontProbability_global_ball_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.frontProbability_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.front_frostman_of_low_intercept_entropy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LowInterceptEntropyEscape.front_dimH_eq_four_of_low_intercept_entropy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Observed exit status: 0

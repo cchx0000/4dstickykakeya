@@ -115,7 +115,10 @@ residual power estimate itself remains open. No slicing axiom or assumed
 measurable Frostman kernel is used. The full vector-family escape is now also
 checked from original normalized open-cap condition (340), including genuine
 compactness and exact support. Obtaining that synchronized vector bound or
-routing its failure remains geometric work.
+routing its failure remains geometric work. A further checked geometric
+exit derives actual front Frostman bounds directly from subpower covering of
+one fixed centered-intercept image. This premise is not known for the general
+remaining source branch and is not added to the final theorem.
 
 ## 8. Original compact marked closure and axiom audit
 
@@ -127,8 +130,9 @@ it does not complete the requested internal proof.
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
 tracked build at `988b02c` passed all **142** committed modules and **8,849** Lake
-jobs. The **527** checked new declarations have only standard logical axioms
-or no axioms. The actual residual-cycle adapter derives all four contact
+jobs. The subsequent low-intercept entropy escape has dedicated strict checks;
+there are now **543** checked new declarations with only standard logical
+axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the
 two main closure declarations; the unconditional theorem remains incomplete.

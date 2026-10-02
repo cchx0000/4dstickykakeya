@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T08:08:53.034588+00:00",
-  "previous_checkpoint": "988b02c54eee4e5d0864890cb9a4996fa54cd9fb",
+  "generated_at_utc": "2026-10-02T08:19:10.011955+00:00",
+  "previous_checkpoint": "70ad8cd4f8e9ff2327fac713e12a848ab6162e74",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 527,
+  "total_new_checked_declarations": 543,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -29,7 +29,8 @@
     "verification/rooted-four-cycle-measure-axioms.log": 18,
     "verification/contact-cycle-rigidity-axioms.log": 16,
     "verification/rooted-cycle-witness-kernel-readback.log": 32,
-    "verification/actual-residual-cycle-witness-readback.log": 39
+    "verification/actual-residual-cycle-witness-readback.log": 39,
+    "verification/low-intercept-entropy-escape-axioms.log": 16
   },
   "checks": [
     {
@@ -3951,6 +3952,150 @@
         "Quot.sound"
       ],
       "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.centeredInterceptImage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.HasLowInterceptEntropy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.fiber_mass_le_finite_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.physical_ball_mass_le_finite_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.geometricConstant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.geometricConstant_ne_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.physical_ball_mass_le_card_mul_fourth_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.physical_ball_mass_le_of_coveringNumber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.sourceFrontMeasure_global_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.frontProbability",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.sourceFrontMeasure_mass_ne_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.frontProbability_isProbability",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.frontProbability_global_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.frontProbability_supported",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.front_frostman_of_low_intercept_entropy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LowInterceptEntropyEscape.front_dimH_eq_four_of_low_intercept_entropy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/low-intercept-entropy-escape-axioms.log"
     }
   ],
   "source_sha256": {
@@ -3979,7 +4124,8 @@
     "Theorems/Thm_StickyKakeya4_rooted_four_cycle_measure.lean": "4a01d606d4dbde5de4e4ed97914eb8fee8eda67c3c04db0b5f772afa98656737",
     "Theorems/Thm_StickyKakeya4_contact_cycle_rigidity.lean": "b7d3db6d15ebf36593ee6e98a322788feb9f734611163031a753157e30c3d05a",
     "Theorems/Thm_StickyKakeya4_rooted_cycle_witness_kernel.lean": "f79dfae977c8ca68a7862ffff11c2116a844f83614cf7c178dae3faf791f529b",
-    "Theorems/Thm_StickyKakeya4_actual_residual_cycle_witness.lean": "919ea59c94edb399edbba495343efc7169ada9ba82ac60dcdaea7d0baef72e03"
+    "Theorems/Thm_StickyKakeya4_actual_residual_cycle_witness.lean": "919ea59c94edb399edbba495343efc7169ada9ba82ac60dcdaea7d0baef72e03",
+    "Theorems/Thm_StickyKakeya4_low_intercept_entropy_escape.lean": "b0b20bf3495b382b1f5e89ecde61dc261ffb48d8a077f83ab0381160c27cc322"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -4000,5 +4146,5 @@
     "exit_code": 1,
     "log": "verification/rigidity-main-axiom-gate.log"
   },
-  "resumed_phase_declaration_count": 436
+  "resumed_phase_declaration_count": 452
 }

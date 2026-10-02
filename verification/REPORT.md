@@ -3,6 +3,28 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Low-centered-intercept entropy escape checkpoint
+
+`LowInterceptEntropyEscape` now proves a concrete geometric exit: a fixed
+positive bounded-density slope source whose centered-intercept image has
+arbitrarily small covering exponents carries a genuine front measure with
+ball bounds `C_epsilon r^(4-epsilon)` on a separated time interval.
+The proof extracts actual finite covers, derives synchronized direction-cap
+preimages, pays their Lebesgue volume and the `2r` time window, handles large
+radii by total mass, and normalizes that same physical pushforward. Its
+support is the original compact front, and the resulting Hausdorff dimension
+is four. No differentiability or substitute source measure is assumed.
+
+This module passed strict compilation and all **16** public readbacks, with
+standard logical axioms only. The cumulative checked count is **543**. The
+last full tracked build is the 142-module `988b02c` checkpoint; this added
+module has its dedicated strict source and readback logs.
+
+The fixed-source entropy premise is explicit and is **not** deduced from the
+main theorem's packing hypothesis or the manuscript's remaining branch.
+Obtaining that exit or a genuinely weighted paid alternative remains open.
+The final theorem and its existing WZ dependency are unchanged.
+
 ## Actual weighted-residual graph and marked-cycle checkpoint
 
 The new `ActualResidualCycleWitness` adapter starts from the existing physical

@@ -130,8 +130,9 @@ It contains the full range of f and its closure. At radius 2^(-N), only
 This follows directly from #{k:m_k<=N}=o(N), with the finitely many small
 N absorbed into C_eta. In particular C has upper box dimension zero.
 
-Choose a fixed compact time interval J separated from zero, within an
-available marked interval after a fixed affine rescaling if necessary.
+Choose J=[1/4,3/8]. For a in [0,1]^3, the Euclidean unit segment
+starting at (b(a),0) in direction (a,1)/sqrt(1+|a|^2) contains this entire
+parameter interval, since its upper Reeb parameter is at least 1/2.
 For a projection ball B(y,R) and s in J,
 
     b(a)+s a in B(y,R)
@@ -150,8 +151,10 @@ length, so the resulting genuine front measure obeys
     Lambda(B((y,s),R)) <= C_{eta,J} R^(4-eta).
 
 Its support is contained in the compact front of the closed carrier.
-This proves the full-dimensional Frostman conclusion for the model
-without a Lipschitz selector piece or an approximate derivative.
+The same measure satisfies this estimate for every eta>0, proving
+Hausdorff dimension four without a Lipschitz selector piece or an
+approximate derivative. An endpoint exponent-4 Frostman bound is not
+asserted.
 
 One can also check the normalized directions of each color bush directly.
 For a dyadic first-coordinate interval of length 2^(-N), a compatible
