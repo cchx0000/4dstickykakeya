@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_three_matrix_inverse_bounds
+
+#check @StickyKakeya4.threeMatrix_adjugate_entry_abs_le
+#check @StickyKakeya4.threeMatrix_det_ne_zero
+#check @StickyKakeya4.threeMatrix_inv_entry_abs_le
+#check @StickyKakeya4.threeMatrix_solution_entry_abs_le
+#check @StickyKakeya4.threeMatrix_mul_inv_entry_abs_le
+
+#print axioms StickyKakeya4.threeMatrix_adjugate_entry_abs_le
+#print axioms StickyKakeya4.threeMatrix_det_ne_zero
+#print axioms StickyKakeya4.threeMatrix_inv_entry_abs_le
+#print axioms StickyKakeya4.threeMatrix_solution_entry_abs_le
+#print axioms StickyKakeya4.threeMatrix_mul_inv_entry_abs_le

@@ -181,5 +181,31 @@ must be audited separately.
 Uniformly choosing the next distinguished coordinate before a geometric cut
 also preserves the unconditional old law by exchangeability. Its successful
 output is an old-law submeasure. Repeating on unused old submeasures is a
-possible way to avoid amplifying rare witness densities, but a fractional
-submeasure exhaustion and all paid estimates must be justified explicitly.
+possible way to avoid amplifying rare witness densities, and genuine fractional-submeasure exhaustion is now checked. All paid
+estimates for the witness joint laws must still be justified explicitly.
+
+
+## Genuine contact-cycle rigidity and its availability boundary
+
+A physical four-cycle has extra structure absent from an arbitrary 3-plane:
+its horizontal and vertical edge sums are zero. If its first three horizontal
+edges form an invertible frame, the identity
+`sum_(i<3) (t_i-t_3) alpha_i = sum_i collision_error_i`
+controls all old edge times without cubic four-time interpolation. Explicit
+3x3 adjugate bounds are checked; the physical time and scalar-plane consequence
+is being formalized with the original errors and times fixed.
+
+This does not by itself provide sufficiently nondegenerate rooted cycles.
+For two separated radial direction caps of radius
+`T=r^((2-eta)/6)`, the cross graph has mass of order `r^(2-eta)` while every
+alternating cycle determinant is `O(T^2)`. For the relevant exponents this is
+smaller than a mesoscopic `Delta=r^d`, `d<1/6`. The model has a genuine Frostman
+exit; it refutes an unconditional nondegenerate-witness shortcut, not the main
+theorem. The paper's arbitrary-threshold route still requires actual payment
+or Frostman routing of its other alternatives.
+
+Canonical scalar packets attached to an old collision time correctly preserve
+physical support, but do not supply the determinant-small new rank-loss packet
+or its original weighted anchor/cycle law required by the transverse paid
+comparison. They can simplify support bookkeeping; they cannot be relabeled
+as those paid-ledger witnesses.

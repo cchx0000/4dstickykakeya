@@ -82,8 +82,11 @@ root-weighted summation/termination, as explained in the two new research notes.
 Still open: the actual geometric routing kernels and cuts, their conservation
 and root/support invariants, stopping schedule, and paid/cross-cap bounds.
 The finite-index probability and weighted growth/star split are now proved;
-actual common-target occurrence kernels and subsequent geometric routing are
-being connected. No missing bound is replaced by a hidden capacity field.
+actual common-target kernels now sample whole original occurrences from
+aggregate disintegration. Their inherited half/quarter mass bounds and distinct
+physical sources are proved; post-cut fresh marginals are only dominated.
+Genuine submeasure exhaustion avoids unnecessary rare-event normalization.
+Subsequent geometric routing remains open. No missing bound is replaced by a hidden capacity field.
 
 ## 7. Relative residual / Frostman alternative
 

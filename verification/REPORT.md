@@ -3,6 +3,30 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual common-target occurrence kernel checkpoint
+
+The common-target star is now constructed from actual source-cut old measures,
+not supplied as an abstract probability certificate. Original selector masses
+`q_i = sigma(S_i)` give the target domination and actual index laws. Aggregate
+target disintegration samples entire old occurrences, preserving source,
+target, collision time, and inherited flags. All three fresh marginals equal
+the original aggregate before cuts. On the high-multiplicity set `N >= 24`,
+the distinct-source cut retains at least half of the inherited marginal; a
+half-mass high branch therefore retains at least one quarter of the old mass.
+Post-cut fresh marginals are asserted only to be dominated, not stationary.
+Disjoint genuine source cuts imply distinct physical sources.
+
+`SubmeasureRoutingExhaustion` now exhausts a finite occurrence by genuine
+positive submeasure outputs, with no uniform fraction, hereditary eligibility,
+or rare-event normalization. `NormalizedTargetGrowth` supplies the stationary
+index probability and layer-free positive growth alternative. Explicit 3x3
+adjugate bounds are also checked for the next physical contact-cycle step.
+
+There are now **422** checked new declaration readbacks (some definitions use
+no axioms; every nonempty axiom list is standard-only). Genuine contact-cycle
+time/plane rigidity and mesoscopic nondegenerate-or-paid availability remain
+separate geometric obligations under active investigation.
+
 ## Verified whole-support reversal checkpoint
 
 `QualitativeUnionGrowthTermination` adds 23 standard-only readbacks. It derives

@@ -1,0 +1,14 @@
+Command: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH lake env lean -DautoImplicit=false verification/SubmeasureRoutingExhaustionReadback.lean
+'StickyKakeya4.SubmeasureRoutingExhaustion.exists_half_maximal_submeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.SubmeasureRoutingExhaustion.exists_submeasure_routing_exhaustion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.SubmeasureRoutingExhaustion.exhaustive_markov_extensions_preserve_occurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.SubmeasureRoutingExhaustion.exhaustive_markov_extensions_preserve_endpoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Exit status: 0 (confirmed)

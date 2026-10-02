@@ -1,0 +1,25 @@
+COMMAND: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH lake env lean -DautoImplicit=false verification/ThreeMatrixInverseBoundsReadback.lean
+@StickyKakeya4.threeMatrix_adjugate_entry_abs_le : ∀ {A : Matrix (Fin 3) (Fin 3) ℝ} {M : ℝ},
+  0 ≤ M → (∀ (i j : Fin 3), |A i j| ≤ M) → ∀ (i j : Fin 3), |A.adjugate i j| ≤ 2 * M ^ 2
+@StickyKakeya4.threeMatrix_det_ne_zero : ∀ {A : Matrix (Fin 3) (Fin 3) ℝ} {Δ : ℝ}, 0 < Δ → Δ ≤ |A.det| → A.det ≠ 0
+@StickyKakeya4.threeMatrix_inv_entry_abs_le : ∀ {A : Matrix (Fin 3) (Fin 3) ℝ} {M Δ : ℝ},
+  0 ≤ M → 0 < Δ → (∀ (i j : Fin 3), |A i j| ≤ M) → Δ ≤ |A.det| → ∀ (i j : Fin 3), |A⁻¹ i j| ≤ 2 * M ^ 2 / Δ
+@StickyKakeya4.threeMatrix_solution_entry_abs_le : ∀ {A : Matrix (Fin 3) (Fin 3) ℝ} {u v : Fin 3 → ℝ} {M Δ ε : ℝ},
+  0 ≤ M →
+    0 < Δ →
+      0 ≤ ε →
+        (∀ (i j : Fin 3), |A i j| ≤ M) →
+          Δ ≤ |A.det| → A.mulVec u = v → (∀ (i : Fin 3), |v i| ≤ ε) → ∀ (j : Fin 3), |u j| ≤ 6 * M ^ 2 * ε / Δ
+@StickyKakeya4.threeMatrix_mul_inv_entry_abs_le : ∀ {A B : Matrix (Fin 3) (Fin 3) ℝ} {M Δ E : ℝ},
+  0 ≤ M →
+    0 < Δ →
+      0 ≤ E →
+        (∀ (i j : Fin 3), |A i j| ≤ M) →
+          Δ ≤ |A.det| → (∀ (i j : Fin 3), |B i j| ≤ E) → ∀ (i j : Fin 3), |(B * A⁻¹) i j| ≤ 6 * M ^ 2 * E / Δ
+'StickyKakeya4.threeMatrix_adjugate_entry_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.threeMatrix_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.threeMatrix_inv_entry_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.threeMatrix_solution_entry_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.threeMatrix_mul_inv_entry_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_STATUS: 0

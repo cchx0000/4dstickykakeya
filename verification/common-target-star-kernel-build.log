@@ -1,0 +1,12 @@
+⚠ [2985/3328] Replayed Theorems.Thm_StickyKakeya4_old_neighbor_disintegration
+warning: Theorems/Thm_StickyKakeya4_old_neighbor_disintegration.lean:134:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [3490/3491] Built Theorems.Thm_StickyKakeya4_normalized_target_growth (2.5s)
+✔ [3491/3491] Built Theorems.Thm_StickyKakeya4_common_target_star_kernel (3.7s)
+Build completed successfully (3491 jobs).

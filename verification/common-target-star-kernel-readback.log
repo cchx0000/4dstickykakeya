@@ -1,0 +1,757 @@
+@StickyKakeya4.FourDistinctSources.measure_triple_event_eq_ofReal_tripleProbability : ∀ {A : Type u_1} {I : Type u_2}
+  [inst : MeasurableSpace A] [inst_1 : Fintype I] [inst_2 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (μ : MeasureTheory.Measure A) [MeasureTheory.IsFiniteMeasure μ] (idx : A → I),
+  Measurable idx →
+    ∀ (E : I → I → I → Prop),
+      (μ.prod (μ.prod μ)) {u | E (idx u.1) (idx u.2.1) (idx u.2.2)} =
+        ENNReal.ofReal (StickyKakeya4.FourDistinctSources.tripleProbability (fun j => (μ (idx ⁻¹' {j})).toReal) E)
+@StickyKakeya4.FourDistinctSources.measure_fourDistinct_eq_ofReal : ∀ {A : Type u_1} {I : Type u_2}
+  [inst : MeasurableSpace A] [inst_1 : Fintype I] [inst_2 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (μ : MeasureTheory.Measure A) [MeasureTheory.IsProbabilityMeasure μ] (idx : A → I),
+  Measurable idx →
+    ∀ (i : I),
+      (μ.prod (μ.prod μ)) {u | StickyKakeya4.FourDistinctSources.FourDistinct i (idx u.1) (idx u.2.1) (idx u.2.2)} =
+        ENNReal.ofReal (StickyKakeya4.FourDistinctSources.fourDistinctProbability (fun j => (μ (idx ⁻¹' {j})).toReal) i)
+@StickyKakeya4.FourDistinctSources.measure_fourDistinct_ge_half_of_normalizedWeights : ∀ {A : Type u_1} {I : Type u_2}
+  [inst : MeasurableSpace A] [inst_1 : Fintype I] [inst_2 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (μ : MeasureTheory.Measure A) [MeasureTheory.IsProbabilityMeasure μ] (idx : A → I),
+  Measurable idx →
+    ∀ (w : I → ℝ),
+      (∀ (j : I), 0 ≤ w j) →
+        (∀ (j : I), w j ≤ 1) →
+          (∀ (j : I), (μ (idx ⁻¹' {j})).toReal = StickyKakeya4.FourDistinctSources.normalizedWeights w j) →
+            ∀ (K : ℝ),
+              12 ≤ K →
+                K ≤ ∑ j, w j →
+                  ∀ (i : I),
+                    1 / 2 ≤
+                      (μ.prod (μ.prod μ))
+                        {u | StickyKakeya4.FourDistinctSources.FourDistinct i (idx u.1) (idx u.2.1) (idx u.2.2)}
+@StickyKakeya4.FourDistinctSources.measure_fourDistinct_ge_half_of_ennreal_weights : ∀ {A : Type u_1} {I : Type u_2}
+  [inst : MeasurableSpace A] [inst_1 : Fintype I] [inst_2 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (μ : MeasureTheory.Measure A) [MeasureTheory.IsProbabilityMeasure μ] (idx : A → I),
+  Measurable idx →
+    ∀ (w : I → ENNReal),
+      (∀ (j : I), w j ≤ 1) →
+        (∀ (j : I), μ (idx ⁻¹' {j}) = w j / ∑ k, w k) →
+          ∀ (K : ℝ),
+            12 ≤ K →
+              ENNReal.ofReal K ≤ ∑ j, w j →
+                ∀ (i : I),
+                  1 / 2 ≤
+                    (μ.prod (μ.prod μ))
+                      {u | StickyKakeya4.FourDistinctSources.FourDistinct i (idx u.1) (idx u.2.1) (idx u.2.2)}
+@StickyKakeya4.FourDistinctSources.measure_fourDistinct_toReal_ge_half_of_ennreal_weights : ∀ {A : Type u_1}
+  {I : Type u_2} [inst : MeasurableSpace A] [inst_1 : Fintype I] [inst_2 : MeasurableSpace I]
+  [MeasurableSingletonClass I] (μ : MeasureTheory.Measure A) [MeasureTheory.IsProbabilityMeasure μ] (idx : A → I),
+  Measurable idx →
+    ∀ (w : I → ENNReal),
+      (∀ (j : I), w j ≤ 1) →
+        (∀ (j : I), μ (idx ⁻¹' {j}) = w j / ∑ k, w k) →
+          ∀ (K : ℝ),
+            12 ≤ K →
+              ENNReal.ofReal K ≤ ∑ j, w j →
+                ∀ (i : I),
+                  1 / 2 ≤
+                    ((μ.prod (μ.prod μ))
+                        {u | StickyKakeya4.FourDistinctSources.FourDistinct i (idx u.1) (idx u.2.1) (idx u.2.2)}).toReal
+@StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.atom_density : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X),
+  Measurable target →
+    ∀ (A : Set Ω),
+      MeasurableSet A →
+        ((MeasureTheory.Measure.map target Γ).withDensity fun x =>
+            ((MeasureTheory.Measure.map (fun ω => (target ω, ω)) Γ).condKernel x) A) =
+          MeasureTheory.Measure.map target (Γ.restrict A)
+@StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.weighted_ratio_ae : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] (σ μ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] (f g k : X → ENNReal),
+  Measurable f →
+    Measurable g →
+      Measurable k →
+        μ = σ.withDensity f → μ.withDensity k = σ.withDensity g → (∀ᵐ (x : X) ∂μ, f x ≠ ⊤) → k =ᵐ[μ] fun x => g x / f x
+@StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.index_partition : ∀ {Ω : Type u_1} {I : Type u_2}
+  [inst : MeasurableSpace Ω] [Fintype I] [inst_2 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (Γ : MeasureTheory.Measure Ω) (idx : Ω → I),
+  Measurable idx → Γ = MeasureTheory.Measure.sum fun i => Γ.restrict (idx ⁻¹' {i})
+@StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.total_target_density : ∀ {Ω : Type u_1} {X : Type u_2}
+  {I : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : Fintype I]
+  [inst_3 : MeasurableSpace I] [MeasurableSingletonClass I] (σ : MeasureTheory.Measure X) (Γ : MeasureTheory.Measure Ω)
+  (target : Ω → X),
+  Measurable target →
+    ∀ (idx : Ω → I),
+      Measurable idx →
+        ∀ (e : I → X → ENNReal),
+          (∀ (i : I), Measurable (e i)) →
+            (∀ (i : I), MeasureTheory.Measure.map target (Γ.restrict (idx ⁻¹' {i})) = σ.withDensity (e i)) →
+              MeasureTheory.Measure.map target Γ = σ.withDensity fun x => ∑ i, e i x
+@StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.conditional_index_ratio_ae : ∀ {Ω : Type u_1}
+  {X : Type u_2} {I : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω]
+  [inst_3 : Nonempty Ω] [inst_4 : Fintype I] [inst_5 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] (Γ : MeasureTheory.Measure Ω)
+  [inst_8 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X),
+  Measurable target →
+    ∀ (idx : Ω → I),
+      Measurable idx →
+        ∀ (e : I → X → ENNReal),
+          (∀ (i : I), Measurable (e i)) →
+            (∀ (i : I) (x : X), e i x ≠ ⊤) →
+              (∀ (i : I), MeasureTheory.Measure.map target (Γ.restrict (idx ⁻¹' {i})) = σ.withDensity (e i)) →
+                ∀ (i : I),
+                  (fun x =>
+                      ((MeasureTheory.Measure.map (fun ω => (target ω, ω)) Γ).condKernel x)
+                        (idx ⁻¹' {i})) =ᵐ[MeasureTheory.Measure.map target Γ]
+                    fun x => e i x / ∑ j, e j x
+@StickyKakeya4.CommonTargetStarKernel.targetOccurrence : {Ω : Type u_1} →
+  {X : Type u_2} →
+    [inst : MeasurableSpace Ω] →
+      [inst_1 : MeasurableSpace X] → MeasureTheory.Measure Ω → (Ω → X) → MeasureTheory.Measure (X × Ω)
+@StickyKakeya4.CommonTargetStarKernel.targetOccurrence_isFinite : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] (Γ : MeasureTheory.Measure Ω)
+  [MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X),
+  MeasureTheory.IsFiniteMeasure (StickyKakeya4.CommonTargetStarKernel.targetOccurrence Γ target)
+@StickyKakeya4.CommonTargetStarKernel.targetOccurrence_fst : ∀ {Ω : Type u_1} {X : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] (Γ : MeasureTheory.Measure Ω) (target : Ω → X),
+  (StickyKakeya4.CommonTargetStarKernel.targetOccurrence Γ target).fst = MeasureTheory.Measure.map target Γ
+@StickyKakeya4.CommonTargetStarKernel.source_cut_joint_le : ∀ {Ω : Type u_1} {X : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] (Γ : MeasureTheory.Measure Ω)
+  (source target : Ω → X),
+  Measurable source →
+    Measurable target →
+      ∀ (S : Set X),
+        MeasurableSet S →
+          MeasureTheory.Measure.map (fun ω => (source ω, target ω)) Γ ≤ σ.prod σ →
+            MeasureTheory.Measure.map (fun ω => (source ω, target ω)) (Γ.restrict (source ⁻¹' S)) ≤
+              (σ.restrict S).prod σ
+@StickyKakeya4.CommonTargetStarKernel.target_le_selector_source_mass : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ]
+  (Γ : MeasureTheory.Measure Ω) (source target : Ω → X),
+  Measurable source →
+    Measurable target →
+      ∀ (S : Set X),
+        MeasureTheory.Measure.map (fun ω => (source ω, target ω)) Γ ≤ (σ.restrict S).prod σ →
+          MeasureTheory.Measure.map target Γ ≤ σ S • σ
+@StickyKakeya4.CommonTargetStarKernel.source_piece_genuine : ∀ {Ω : Type u_1} {X : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] (Γ : MeasureTheory.Measure Ω)
+  (source target : Ω → X),
+  Measurable source →
+    Measurable target →
+      ∀ (S : Set X),
+        MeasurableSet S →
+          MeasureTheory.Measure.map (fun ω => (source ω, target ω)) Γ ≤ (σ.restrict S).prod σ →
+            ∀ᵐ (ω : Ω) ∂Γ, source ω ∈ S
+@StickyKakeya4.CommonTargetStarKernel.normalized_target_le_selector : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] (σ : MeasureTheory.Measure X)
+  [MeasureTheory.IsFiniteMeasure σ] (Γ : MeasureTheory.Measure Ω) (source target : Ω → X),
+  Measurable source →
+    Measurable target →
+      ∀ (S : Set X),
+        σ S ≠ 0 →
+          MeasureTheory.Measure.map (fun ω => (source ω, target ω)) Γ ≤ (σ.restrict S).prod σ →
+            (σ S)⁻¹ • MeasureTheory.Measure.map target Γ ≤ σ
+@StickyKakeya4.CommonTargetStarKernel.boundedWeight : {X : Type u_1} →
+  [inst : MeasurableSpace X] → MeasureTheory.Measure X → MeasureTheory.Measure X → X → ENNReal
+@StickyKakeya4.CommonTargetStarKernel.measurable_boundedWeight : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  (σ ν : MeasureTheory.Measure X), Measurable (StickyKakeya4.CommonTargetStarKernel.boundedWeight σ ν)
+@StickyKakeya4.CommonTargetStarKernel.boundedWeight_le_one : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  (σ ν : MeasureTheory.Measure X) (x : X), StickyKakeya4.CommonTargetStarKernel.boundedWeight σ ν x ≤ 1
+@StickyKakeya4.CommonTargetStarKernel.boundedWeight_density : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ],
+  ∀ ν ≤ σ, σ.withDensity (StickyKakeya4.CommonTargetStarKernel.boundedWeight σ ν) = ν
+@StickyKakeya4.CommonTargetStarKernel.sourceWeight : {Ω : Type u_1} →
+  {X : Type u_2} →
+    [inst : MeasurableSpace Ω] →
+      [inst_1 : MeasurableSpace X] → MeasureTheory.Measure X → MeasureTheory.Measure Ω → (Ω → X) → Set X → X → ENNReal
+@StickyKakeya4.CommonTargetStarKernel.sourceWeight_density : ∀ {Ω : Type u_1} {X : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ]
+  (Γ : MeasureTheory.Measure Ω) (source target : Ω → X),
+  Measurable source →
+    Measurable target →
+      ∀ (S : Set X),
+        σ S ≠ 0 →
+          MeasureTheory.Measure.map (fun ω => (source ω, target ω)) Γ ≤ (σ.restrict S).prod σ →
+            σ.withDensity (StickyKakeya4.CommonTargetStarKernel.sourceWeight σ Γ target S) =
+              (σ S)⁻¹ • MeasureTheory.Measure.map target Γ
+@StickyKakeya4.CommonTargetStarKernel.sourceWeight_target_density : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] (σ : MeasureTheory.Measure X)
+  [MeasureTheory.IsFiniteMeasure σ] (Γ : MeasureTheory.Measure Ω) (source target : Ω → X),
+  Measurable source →
+    Measurable target →
+      ∀ (S : Set X),
+        σ S ≠ 0 →
+          MeasureTheory.Measure.map (fun ω => (source ω, target ω)) Γ ≤ (σ.restrict S).prod σ →
+            (σ.withDensity fun x => σ S * StickyKakeya4.CommonTargetStarKernel.sourceWeight σ Γ target S x) =
+              MeasureTheory.Measure.map target Γ
+@StickyKakeya4.CommonTargetStarKernel.occurrenceFiber : {Ω : Type u_1} →
+  {X : Type u_2} →
+    [inst : MeasurableSpace Ω] →
+      [inst_1 : MeasurableSpace X] →
+        [StandardBorelSpace Ω] →
+          [Nonempty Ω] →
+            (Γ : MeasureTheory.Measure Ω) → [MeasureTheory.IsFiniteMeasure Γ] → (Ω → X) → ProbabilityTheory.Kernel X Ω
+@StickyKakeya4.CommonTargetStarKernel.occurrenceFiber_isMarkov : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X),
+  ProbabilityTheory.IsMarkovKernel (StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target)
+@StickyKakeya4.CommonTargetStarKernel.occurrence_fiber_disintegration : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X),
+  (MeasureTheory.Measure.map target Γ).compProd (StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) =
+    StickyKakeya4.CommonTargetStarKernel.targetOccurrence Γ target
+@StickyKakeya4.CommonTargetStarKernel.occurrence_fiber_graph_ae : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X),
+  Measurable target →
+    ∀ (G : Set (X × Ω)),
+      MeasurableSet G →
+        (∀ᵐ (ω : Ω) ∂Γ, (target ω, ω) ∈ G) →
+          ∀ᵐ (x : X) ∂MeasureTheory.Measure.map target Γ,
+            ∀ᵐ (ω : Ω) ∂(StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) x, (x, ω) ∈ G
+@StickyKakeya4.CommonTargetStarKernel.occurrence_fiber_same_target : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  [MeasurableEq X] (Γ : MeasureTheory.Measure Ω) [inst_5 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X),
+  Measurable target →
+    ∀ᵐ (x : X) ∂MeasureTheory.Measure.map target Γ,
+      ∀ᵐ (ω : Ω) ∂(StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) x, target ω = x
+@StickyKakeya4.CommonTargetStarKernel.occurrence_fiber_graph_on_positive_weight : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (σ : MeasureTheory.Measure X) (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ]
+  (target : Ω → X),
+  Measurable target →
+    ∀ (q : ENNReal) (w : X → ENNReal),
+      Measurable w →
+        σ.withDensity w = q⁻¹ • MeasureTheory.Measure.map target Γ →
+          ∀ (G : Set (X × Ω)),
+            MeasurableSet G →
+              (∀ᵐ (ω : Ω) ∂Γ, (target ω, ω) ∈ G) →
+                ∀ᵐ (x : X) ∂σ,
+                  w x ≠ 0 → ∀ᵐ (ω : Ω) ∂(StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) x, (x, ω) ∈ G
+@StickyKakeya4.CommonTargetStarKernel.indexMeasure : {X : Type u_1} →
+  {I : Type u_2} → [Fintype I] → [inst : MeasurableSpace I] → (I → X → ENNReal) → I → X → MeasureTheory.Measure I
+@StickyKakeya4.CommonTargetStarKernel.indexKernel : {X : Type u_1} →
+  {I : Type u_2} →
+    [inst : MeasurableSpace X] →
+      [Fintype I] →
+        [inst_2 : MeasurableSpace I] →
+          (w : I → X → ENNReal) →
+            (∀ (i : I), Measurable (w i)) → (∀ (i : I) (x : X), w i x ≤ 1) → I → ProbabilityTheory.Kernel X I
+@StickyKakeya4.CommonTargetStarKernel.indexKernel_apply : ∀ {X : Type u_1} {I : Type u_2} [inst : MeasurableSpace X]
+  [inst_1 : Fintype I] [inst_2 : MeasurableSpace I] (w : I → X → ENNReal) (hw : ∀ (i : I), Measurable (w i))
+  (hbound : ∀ (i : I) (x : X), w i x ≤ 1) (default : I) (x : X),
+  (StickyKakeya4.CommonTargetStarKernel.indexKernel w hw hbound default) x =
+    StickyKakeya4.CommonTargetStarKernel.indexMeasure w default x
+@StickyKakeya4.CommonTargetStarKernel.indexKernel_isMarkov : ∀ {X : Type u_1} {I : Type u_2} [inst : MeasurableSpace X]
+  [inst_1 : Fintype I] [inst_2 : MeasurableSpace I] (w : I → X → ENNReal) (hw : ∀ (i : I), Measurable (w i))
+  (hbound : ∀ (i : I) (x : X), w i x ≤ 1) (default : I),
+  ProbabilityTheory.IsMarkovKernel (StickyKakeya4.CommonTargetStarKernel.indexKernel w hw hbound default)
+@StickyKakeya4.CommonTargetStarKernel.indexKernel_singleton : ∀ {X : Type u_1} {I : Type u_2} [inst : MeasurableSpace X]
+  [inst_1 : Fintype I] [inst_2 : MeasurableSpace I] [MeasurableSingletonClass I] (w : I → X → ENNReal)
+  (hw : ∀ (i : I), Measurable (w i)) (hbound : ∀ (i : I) (x : X), w i x ≤ 1) (default : I) (x : X),
+  ∑ j, w j x ≠ 0 →
+    ∀ (i : I), ((StickyKakeya4.CommonTargetStarKernel.indexKernel w hw hbound default) x) {i} = w i x / ∑ j, w j x
+@StickyKakeya4.CommonTargetStarKernel.indexKernel_ae_nonzero : ∀ {X : Type u_1} {I : Type u_2}
+  [inst : MeasurableSpace X] [inst_1 : Fintype I] [inst_2 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (w : I → X → ENNReal) (hw : ∀ (i : I), Measurable (w i)) (hbound : ∀ (i : I) (x : X), w i x ≤ 1) (default : I)
+  (x : X),
+  ∑ j, w j x ≠ 0 → ∀ᵐ (i : I) ∂(StickyKakeya4.CommonTargetStarKernel.indexKernel w hw hbound default) x, w i x ≠ 0
+@StickyKakeya4.CommonTargetStarKernel.occurrenceFamily : {Ω : Type u_1} →
+  {X : Type u_2} →
+    {I : Type u_3} →
+      [inst : MeasurableSpace Ω] →
+        [inst_1 : MeasurableSpace X] →
+          [Fintype I] →
+            [inst_3 : MeasurableSpace I] →
+              [MeasurableSingletonClass I] →
+                [StandardBorelSpace Ω] →
+                  [Nonempty Ω] →
+                    (Γ : I → MeasureTheory.Measure Ω) →
+                      [∀ (i : I), MeasureTheory.IsFiniteMeasure (Γ i)] → (Ω → X) → ProbabilityTheory.Kernel (X × I) Ω
+@StickyKakeya4.CommonTargetStarKernel.occurrenceFamily_isMarkov : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : Fintype I] [inst_3 : MeasurableSpace I]
+  [inst_4 : MeasurableSingletonClass I] [inst_5 : StandardBorelSpace Ω] [inst_6 : Nonempty Ω]
+  (Γ : I → MeasureTheory.Measure Ω) [inst_7 : ∀ (i : I), MeasureTheory.IsFiniteMeasure (Γ i)] (target : Ω → X),
+  ProbabilityTheory.IsMarkovKernel (StickyKakeya4.CommonTargetStarKernel.occurrenceFamily Γ target)
+@StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel : {Ω : Type u_1} →
+  {X : Type u_2} →
+    {I : Type u_3} →
+      [inst : MeasurableSpace Ω] →
+        [inst_1 : MeasurableSpace X] →
+          [Fintype I] →
+            [inst_3 : MeasurableSpace I] →
+              [MeasurableSingletonClass I] →
+                [StandardBorelSpace Ω] →
+                  [Nonempty Ω] →
+                    (Γ : I → MeasureTheory.Measure Ω) →
+                      [∀ (i : I), MeasureTheory.IsFiniteMeasure (Γ i)] →
+                        (Ω → X) →
+                          (w : I → X → ENNReal) →
+                            (∀ (i : I), Measurable (w i)) →
+                              (∀ (i : I) (x : X), w i x ≤ 1) → I → ProbabilityTheory.Kernel X (I × Ω)
+@StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel_isMarkov : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : Fintype I] [inst_3 : MeasurableSpace I]
+  [inst_4 : MeasurableSingletonClass I] [inst_5 : StandardBorelSpace Ω] [inst_6 : Nonempty Ω]
+  (Γ : I → MeasureTheory.Measure Ω) [inst_7 : ∀ (i : I), MeasureTheory.IsFiniteMeasure (Γ i)] (target : Ω → X)
+  (w : I → X → ENNReal) (hw : ∀ (i : I), Measurable (w i)) (hbound : ∀ (i : I) (x : X), w i x ≤ 1) (default : I),
+  ProbabilityTheory.IsMarkovKernel
+    (StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel Γ target w hw hbound default)
+@StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel_index : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : Fintype I] [inst_3 : MeasurableSpace I]
+  [inst_4 : MeasurableSingletonClass I] [inst_5 : StandardBorelSpace Ω] [inst_6 : Nonempty Ω]
+  (Γ : I → MeasureTheory.Measure Ω) [inst_7 : ∀ (i : I), MeasureTheory.IsFiniteMeasure (Γ i)] (target : Ω → X)
+  (w : I → X → ENNReal) (hw : ∀ (i : I), Measurable (w i)) (hbound : ∀ (i : I) (x : X), w i x ≤ 1) (default : I)
+  (x : X),
+  MeasureTheory.Measure.map Prod.fst
+      ((StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel Γ target w hw hbound default) x) =
+    (StickyKakeya4.CommonTargetStarKernel.indexKernel w hw hbound default) x
+@StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel_index_mass : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : Fintype I] [inst_3 : MeasurableSpace I]
+  [inst_4 : MeasurableSingletonClass I] [inst_5 : StandardBorelSpace Ω] [inst_6 : Nonempty Ω]
+  (Γ : I → MeasureTheory.Measure Ω) [inst_7 : ∀ (i : I), MeasureTheory.IsFiniteMeasure (Γ i)] (target : Ω → X)
+  (w : I → X → ENNReal) (hw : ∀ (i : I), Measurable (w i)) (hbound : ∀ (i : I) (x : X), w i x ≤ 1) (default : I)
+  (x : X),
+  ∑ j, w j x ≠ 0 →
+    ∀ (i : I),
+      ((StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel Γ target w hw hbound default) x)
+          (Prod.fst ⁻¹' {i}) =
+        w i x / ∑ j, w j x
+@StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel_ae : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : Fintype I] [inst_3 : MeasurableSpace I]
+  [inst_4 : MeasurableSingletonClass I] [inst_5 : StandardBorelSpace Ω] [inst_6 : Nonempty Ω]
+  (Γ : I → MeasureTheory.Measure Ω) [inst_7 : ∀ (i : I), MeasureTheory.IsFiniteMeasure (Γ i)] (target : Ω → X)
+  (w : I → X → ENNReal) (hw : ∀ (i : I), Measurable (w i)) (hbound : ∀ (i : I) (x : X), w i x ≤ 1) (default : I)
+  (x : X),
+  ∑ j, w j x ≠ 0 →
+    ∀ (G : Set (I × Ω)),
+      MeasurableSet G →
+        (∀ (i : I),
+            w i x ≠ 0 → ∀ᵐ (ω : Ω) ∂(StickyKakeya4.CommonTargetStarKernel.occurrenceFiber (Γ i) target) x, (i, ω) ∈ G) →
+          ∀ᵐ (p : I × Ω) ∂(StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel Γ target w hw hbound default) x,
+            p ∈ G
+@StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel : {Ω : Type u_1} →
+  {X : Type u_2} →
+    [inst : MeasurableSpace Ω] →
+      [inst_1 : MeasurableSpace X] →
+        [StandardBorelSpace Ω] →
+          [Nonempty Ω] →
+            (Γ : MeasureTheory.Measure Ω) →
+              [MeasureTheory.IsFiniteMeasure Γ] → (Ω → X) → ProbabilityTheory.Kernel X (Ω × Ω × Ω)
+@StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel_isMarkov : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X),
+  ProbabilityTheory.IsMarkovKernel (StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel Γ target)
+@StickyKakeya4.CommonTargetStarKernel.starExtension : {Ω : Type u_1} →
+  {X : Type u_2} →
+    [inst : MeasurableSpace Ω] →
+      [inst_1 : MeasurableSpace X] →
+        [StandardBorelSpace Ω] →
+          [Nonempty Ω] →
+            (Γ : MeasureTheory.Measure Ω) →
+              [MeasureTheory.IsFiniteMeasure Γ] →
+                (target : Ω → X) → Measurable target → MeasureTheory.Measure (Ω × Ω × Ω × Ω)
+@StickyKakeya4.CommonTargetStarKernel.star_extension_original : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X)
+  (htarget : Measurable target),
+  MeasureTheory.Measure.map Prod.fst (StickyKakeya4.CommonTargetStarKernel.starExtension Γ target htarget) = Γ
+@StickyKakeya4.CommonTargetStarKernel.single_fresh_stationary : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X)
+  (htarget : Measurable target),
+  MeasureTheory.Measure.map Prod.snd
+      (Γ.compProd ((StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target).comap target htarget)) =
+    Γ
+@StickyKakeya4.CommonTargetStarKernel.triple_fiber_first : ∀ {Ω : Type u_1} {X : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω] (Γ : MeasureTheory.Measure Ω)
+  [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X) (x : X),
+  MeasureTheory.Measure.map Prod.fst ((StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel Γ target) x) =
+    (StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) x
+@StickyKakeya4.CommonTargetStarKernel.triple_fiber_second : ∀ {Ω : Type u_1} {X : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω] (Γ : MeasureTheory.Measure Ω)
+  [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X) (x : X),
+  MeasureTheory.Measure.map (fun p => p.2.1)
+      ((StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel Γ target) x) =
+    (StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) x
+@StickyKakeya4.CommonTargetStarKernel.triple_fiber_third : ∀ {Ω : Type u_1} {X : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω] (Γ : MeasureTheory.Measure Ω)
+  [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X) (x : X),
+  MeasureTheory.Measure.map (fun p => p.2.2)
+      ((StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel Γ target) x) =
+    (StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) x
+@StickyKakeya4.CommonTargetStarKernel.star_fresh_stationary : ∀ {Ω : Type u_1} {X : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω] (Γ : MeasureTheory.Measure Ω)
+  [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X) (htarget : Measurable target)
+  (coordinate : Ω × Ω × Ω → Ω),
+  Measurable coordinate →
+    (∀ (x : X),
+        MeasureTheory.Measure.map coordinate
+            ((StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel Γ target) x) =
+          (StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) x) →
+      MeasureTheory.Measure.map (fun p => coordinate p.2)
+          (StickyKakeya4.CommonTargetStarKernel.starExtension Γ target htarget) =
+        Γ
+@StickyKakeya4.CommonTargetStarKernel.star_all_fresh_stationary : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X)
+  (htarget : Measurable target),
+  MeasureTheory.Measure.map (fun p => p.2.1) (StickyKakeya4.CommonTargetStarKernel.starExtension Γ target htarget) = Γ ∧
+    MeasureTheory.Measure.map (fun p => p.2.2.1) (StickyKakeya4.CommonTargetStarKernel.starExtension Γ target htarget) =
+        Γ ∧
+      MeasureTheory.Measure.map (fun p => p.2.2.2)
+          (StickyKakeya4.CommonTargetStarKernel.starExtension Γ target htarget) =
+        Γ
+@StickyKakeya4.CommonTargetStarKernel.star_cut_fresh_le : ∀ {Ω : Type u_1} {X : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω] (Γ : MeasureTheory.Measure Ω)
+  [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X) (htarget : Measurable target)
+  (coordinate : Ω × Ω × Ω → Ω),
+  Measurable coordinate →
+    (∀ (x : X),
+        MeasureTheory.Measure.map coordinate
+            ((StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel Γ target) x) =
+          (StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) x) →
+      ∀ (E : Set (Ω × Ω × Ω × Ω)),
+        MeasureTheory.Measure.map (fun p => coordinate p.2)
+            ((StickyKakeya4.CommonTargetStarKernel.starExtension Γ target htarget).restrict E) ≤
+          Γ
+@StickyKakeya4.CommonTargetStarKernel.star_extension_genuine : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X)
+  (htarget : Measurable target) (G : Set (X × Ω)),
+  MeasurableSet G →
+    (∀ᵐ (ω : Ω) ∂Γ, (target ω, ω) ∈ G) →
+      ∀ᵐ (p : Ω × Ω × Ω × Ω) ∂StickyKakeya4.CommonTargetStarKernel.starExtension Γ target htarget,
+        (target p.1, p.2.1) ∈ G ∧ (target p.1, p.2.2.1) ∈ G ∧ (target p.1, p.2.2.2) ∈ G
+@StickyKakeya4.CommonTargetStarKernel.star_extension_common_target : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  [MeasurableEq X] (Γ : MeasureTheory.Measure Ω) [inst_5 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X)
+  (htarget : Measurable target),
+  ∀ᵐ (p : Ω × Ω × Ω × Ω) ∂StickyKakeya4.CommonTargetStarKernel.starExtension Γ target htarget,
+    target p.2.1 = target p.1 ∧ target p.2.2.1 = target p.1 ∧ target p.2.2.2 = target p.1
+@StickyKakeya4.CommonTargetStarKernel.starSuccess : {Ω : Type u_1} → {I : Type u_2} → (Ω → I) → Set (Ω × Ω × Ω × Ω)
+@StickyKakeya4.CommonTargetStarKernel.measurableSet_starSuccess : ∀ {Ω : Type u_1} {I : Type u_2}
+  [inst : MeasurableSpace Ω] [Fintype I] [inst_2 : MeasurableSpace I] [MeasurableSingletonClass I] (index : Ω → I),
+  Measurable index → MeasurableSet (StickyKakeya4.CommonTargetStarKernel.starSuccess index)
+@StickyKakeya4.CommonTargetStarKernel.stationary_fiber_distinct_probability : ∀ {Ω : Type u_1} {X : Type u_2}
+  {I : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω]
+  [inst_3 : Nonempty Ω] [inst_4 : Fintype I] [inst_5 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] (Γ : MeasureTheory.Measure Ω)
+  [inst_8 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X),
+  Measurable target →
+    ∀ (index : Ω → I),
+      Measurable index →
+        ∀ (e : I → X → ENNReal),
+          (∀ (i : I), Measurable (e i)) →
+            (∀ (i : I) (x : X), e i x ≠ ⊤) →
+              (∀ (i : I), MeasureTheory.Measure.map target (Γ.restrict (index ⁻¹' {i})) = σ.withDensity (e i)) →
+                ∀ᵐ (x : X) ∂MeasureTheory.Measure.map target Γ,
+                  ∀ (i : I),
+                    ((StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel Γ target) x)
+                        {p | StickyKakeya4.FourDistinctSources.FourDistinct i (index p.1) (index p.2.1) (index p.2.2)} =
+                      ENNReal.ofReal
+                        (StickyKakeya4.FourDistinctSources.fourDistinctProbability
+                          (fun j => (e j x / ∑ k, e k x).toReal) i)
+@StickyKakeya4.CommonTargetStarKernel.restrict_source_compProd : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (μ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite μ] {L : Type u_2} [inst_2 : MeasurableSpace L]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsSFiniteKernel κ] (H : Set Ω),
+  MeasurableSet H → (μ.restrict H).compProd κ = (μ.compProd κ).restrict (Prod.fst ⁻¹' H)
+@StickyKakeya4.CommonTargetStarKernel.retainedStar : {Ω : Type u_1} →
+  {X : Type u_2} →
+    {I : Type u_3} →
+      [inst : MeasurableSpace Ω] →
+        [inst_1 : MeasurableSpace X] →
+          [StandardBorelSpace Ω] →
+            [Nonempty Ω] →
+              (Γ : MeasureTheory.Measure Ω) →
+                [MeasureTheory.IsFiniteMeasure Γ] →
+                  (target : Ω → X) → Measurable target → (Ω → I) → Set Ω → MeasureTheory.Measure (Ω × Ω × Ω × Ω)
+@StickyKakeya4.CommonTargetStarKernel.retainedStar_le_full : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X)
+  (htarget : Measurable target) (index : Ω → I) (H : Set Ω),
+  MeasurableSet H →
+    StickyKakeya4.CommonTargetStarKernel.retainedStar Γ target htarget index H ≤
+      StickyKakeya4.CommonTargetStarKernel.starExtension Γ target htarget
+@StickyKakeya4.CommonTargetStarKernel.retainedStar_original_le : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X)
+  (htarget : Measurable target) (index : Ω → I) (H : Set Ω),
+  MeasureTheory.Measure.map Prod.fst (StickyKakeya4.CommonTargetStarKernel.retainedStar Γ target htarget index H) ≤
+    Γ.restrict H
+@StickyKakeya4.CommonTargetStarKernel.retainedStar_original_ge_half : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  [inst_4 : Fintype I] [inst_5 : MeasurableSpace I] [MeasurableSingletonClass I] (σ : MeasureTheory.Measure X)
+  [MeasureTheory.IsFiniteMeasure σ] (Γ : MeasureTheory.Measure Ω) [inst_8 : MeasureTheory.IsFiniteMeasure Γ]
+  (target : Ω → X) (htarget : Measurable target) (index : Ω → I),
+  Measurable index →
+    ∀ (e : I → X → ENNReal),
+      (∀ (i : I), Measurable (e i)) →
+        (∀ (i : I) (x : X), e i x ≠ ⊤) →
+          (∀ (i : I), MeasureTheory.Measure.map target (Γ.restrict (index ⁻¹' {i})) = σ.withDensity (e i)) →
+            ∀ (H : Set Ω),
+              MeasurableSet H →
+                (∀ ω ∈ H,
+                    1 / 2 ≤
+                      StickyKakeya4.FourDistinctSources.fourDistinctProbability
+                        (fun j => (e j (target ω) / ∑ k, e k (target ω)).toReal) (index ω)) →
+                  (1 / 2) • Γ.restrict H ≤
+                    MeasureTheory.Measure.map Prod.fst
+                      (StickyKakeya4.CommonTargetStarKernel.retainedStar Γ target htarget index H)
+@StickyKakeya4.CommonTargetStarKernel.retainedStar_fresh_le : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X)
+  (htarget : Measurable target) (index : Ω → I) (H : Set Ω),
+  MeasurableSet H →
+    ∀ (coordinate : Ω × Ω × Ω → Ω),
+      Measurable coordinate →
+        (∀ (x : X),
+            MeasureTheory.Measure.map coordinate
+                ((StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel Γ target) x) =
+              (StickyKakeya4.CommonTargetStarKernel.occurrenceFiber Γ target) x) →
+          MeasureTheory.Measure.map (fun p => coordinate p.2)
+              (StickyKakeya4.CommonTargetStarKernel.retainedStar Γ target htarget index H) ≤
+            Γ
+@StickyKakeya4.CommonTargetStarKernel.source_index_genuine : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [Fintype I] [inst_3 : MeasurableSpace I]
+  [MeasurableSingletonClass I] (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] (Γ : MeasureTheory.Measure Ω)
+  (source target : Ω → X),
+  Measurable source →
+    Measurable target →
+      ∀ (index : Ω → I),
+        Measurable index →
+          ∀ (S : I → Set X),
+            (∀ (i : I), MeasurableSet (S i)) →
+              (∀ (i : I),
+                  MeasureTheory.Measure.map (fun ω => (source ω, target ω)) (Γ.restrict (index ⁻¹' {i})) ≤
+                    (σ.restrict (S i)).prod σ) →
+                ∀ᵐ (ω : Ω) ∂Γ, source ω ∈ S (index ω)
+@StickyKakeya4.CommonTargetStarKernel.retainedStar_genuine : ∀ {Ω : Type u_1} {X : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω] [inst_3 : Nonempty Ω]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (target : Ω → X)
+  (htarget : Measurable target) (index : Ω → I) (H : Set Ω),
+  MeasurableSet H →
+    ∀ (G : Set (X × Ω)),
+      MeasurableSet G →
+        (∀ᵐ (ω : Ω) ∂Γ, (target ω, ω) ∈ G) →
+          ∀ᵐ (p : Ω × Ω × Ω × Ω) ∂StickyKakeya4.CommonTargetStarKernel.retainedStar Γ target htarget index H,
+            (target p.1, p.2.1) ∈ G ∧ (target p.1, p.2.2.1) ∈ G ∧ (target p.1, p.2.2.2) ∈ G
+@StickyKakeya4.CommonTargetStarKernel.retainedStar_four_distinct_physical_sources : ∀ {Ω : Type u_1} {X : Type u_2}
+  {I : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω]
+  [inst_3 : Nonempty Ω] [Fintype I] [inst_5 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] (Γ : MeasureTheory.Measure Ω)
+  [inst_8 : MeasureTheory.IsFiniteMeasure Γ] (source target : Ω → X),
+  Measurable source →
+    ∀ (htarget : Measurable target) (index : Ω → I),
+      Measurable index →
+        ∀ (S : I → Set X),
+          (∀ (i : I), MeasurableSet (S i)) →
+            (Pairwise fun i j => Disjoint (S i) (S j)) →
+              (∀ (i : I),
+                  MeasureTheory.Measure.map (fun ω => (source ω, target ω)) (Γ.restrict (index ⁻¹' {i})) ≤
+                    (σ.restrict (S i)).prod σ) →
+                ∀ (H : Set Ω),
+                  MeasurableSet H →
+                    ∀ᵐ (p : Ω × Ω × Ω × Ω) ∂StickyKakeya4.CommonTargetStarKernel.retainedStar Γ target htarget index H,
+                      StickyKakeya4.FourDistinctSources.FourDistinct (source p.1) (source p.2.1) (source p.2.2.1)
+                        (source p.2.2.2)
+@StickyKakeya4.CommonTargetStarKernel.selector_cut_retainedStar_original_ge_half : ∀ {Ω : Type u_1} {X : Type u_2}
+  {I : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω]
+  [inst_3 : Nonempty Ω] [inst_4 : Fintype I] [inst_5 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] (Γ : MeasureTheory.Measure Ω)
+  [inst_8 : MeasureTheory.IsFiniteMeasure Γ] (source target : Ω → X),
+  Measurable source →
+    ∀ (htarget : Measurable target) (index : Ω → I),
+      Measurable index →
+        ∀ (S : I → Set X),
+          (∀ (i : I),
+              MeasureTheory.Measure.map (fun ω => (source ω, target ω)) (Γ.restrict (index ⁻¹' {i})) ≤
+                (σ.restrict (S i)).prod σ) →
+            ∀ (q K : ℝ),
+              0 < q →
+                24 ≤ K →
+                  (∀ (i : I), q ≤ (σ (S i)).toReal) →
+                    (∀ (i : I), (σ (S i)).toReal ≤ 2 * q) →
+                      ∀ (H : Set Ω),
+                        MeasurableSet H →
+                          (∀ ω ∈ H,
+                              ENNReal.ofReal K ≤
+                                ∑ i,
+                                  StickyKakeya4.CommonTargetStarKernel.sourceWeight σ (Γ.restrict (index ⁻¹' {i}))
+                                    target (S i) (target ω)) →
+                            (1 / 2) • Γ.restrict H ≤
+                              MeasureTheory.Measure.map Prod.fst
+                                (StickyKakeya4.CommonTargetStarKernel.retainedStar Γ target htarget index H)
+@StickyKakeya4.CommonTargetStarKernel.selector_cut_retainedStar_mass_ge_quarter : ∀ {Ω : Type u_1} {X : Type u_2}
+  {I : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace Ω]
+  [inst_3 : Nonempty Ω] [inst_4 : Fintype I] [inst_5 : MeasurableSpace I] [MeasurableSingletonClass I]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] (Γ : MeasureTheory.Measure Ω)
+  [inst_8 : MeasureTheory.IsFiniteMeasure Γ] (source target : Ω → X),
+  Measurable source →
+    ∀ (htarget : Measurable target) (index : Ω → I),
+      Measurable index →
+        ∀ (S : I → Set X),
+          (∀ (i : I),
+              MeasureTheory.Measure.map (fun ω => (source ω, target ω)) (Γ.restrict (index ⁻¹' {i})) ≤
+                (σ.restrict (S i)).prod σ) →
+            ∀ (q K : ℝ),
+              0 < q →
+                24 ≤ K →
+                  (∀ (i : I), q ≤ (σ (S i)).toReal) →
+                    (∀ (i : I), (σ (S i)).toReal ≤ 2 * q) →
+                      ∀ (H : Set Ω),
+                        MeasurableSet H →
+                          (∀ ω ∈ H,
+                              ENNReal.ofReal K ≤
+                                ∑ i,
+                                  StickyKakeya4.CommonTargetStarKernel.sourceWeight σ (Γ.restrict (index ⁻¹' {i}))
+                                    target (S i) (target ω)) →
+                            1 / 2 * Γ Set.univ ≤ Γ H →
+                              1 / 4 * Γ Set.univ ≤
+                                (StickyKakeya4.CommonTargetStarKernel.retainedStar Γ target htarget index H) Set.univ
+'StickyKakeya4.FourDistinctSources.measure_triple_event_eq_ofReal_tripleProbability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FourDistinctSources.measure_fourDistinct_eq_ofReal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FourDistinctSources.measure_fourDistinct_ge_half_of_normalizedWeights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FourDistinctSources.measure_fourDistinct_ge_half_of_ennreal_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FourDistinctSources.measure_fourDistinct_toReal_ge_half_of_ennreal_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.atom_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.weighted_ratio_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.index_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.total_target_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.ConditionalIndexDensity.conditional_index_ratio_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.targetOccurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.targetOccurrence_isFinite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.targetOccurrence_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.source_cut_joint_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.target_le_selector_source_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.source_piece_genuine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.normalized_target_le_selector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.boundedWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.measurable_boundedWeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.boundedWeight_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.boundedWeight_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.sourceWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.sourceWeight_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.sourceWeight_target_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.occurrenceFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.occurrenceFiber_isMarkov' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.occurrence_fiber_disintegration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.occurrence_fiber_graph_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.occurrence_fiber_same_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.occurrence_fiber_graph_on_positive_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.indexMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.indexKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.indexKernel_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.indexKernel_isMarkov' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.indexKernel_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.indexKernel_ae_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.occurrenceFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.occurrenceFamily_isMarkov' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel_isMarkov' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel_index' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel_index_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.taggedOccurrenceKernel_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.tripleOccurrenceKernel_isMarkov' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.starExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.star_extension_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.single_fresh_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.triple_fiber_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.triple_fiber_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.triple_fiber_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.star_fresh_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.star_all_fresh_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.star_cut_fresh_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.star_extension_genuine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.star_extension_common_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.starSuccess' does not depend on any axioms
+'StickyKakeya4.CommonTargetStarKernel.measurableSet_starSuccess' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.stationary_fiber_distinct_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.restrict_source_compProd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.retainedStar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.retainedStar_le_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.retainedStar_original_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.retainedStar_original_ge_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.retainedStar_fresh_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.source_index_genuine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.retainedStar_genuine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.retainedStar_four_distinct_physical_sources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.selector_cut_retainedStar_original_ge_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTargetStarKernel.selector_cut_retainedStar_mass_ge_quarter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+VERIFIED_COMMAND: lake env lean -DautoImplicit=false verification/CommonTargetStarKernelReadback.lean
+EXIT_STATUS: 0
