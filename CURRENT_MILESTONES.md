@@ -210,3 +210,12 @@ heavy times, even a growing subpower-separated set. Its conditional fixed-q
 near-time charge cites the original manuscript's external Guth--Wang--Zahl
 three-dimensional shaded theorem, which is not formalized in this project.
 The full coupled-selector root-time charge remains unproved.
+
+A subsequent [scalar-pencil projection audit](docs/SCALAR_PENCIL_PROJECTION_AUDIT.md)
+checks a different direct continuum route against primary restricted-projection
+and convolution-inverse results. Their hypotheses or exponents do not supply
+the missing correlated estimate. A projected Renyi moment of order
+`1+theta`, `0<theta<1/3`, would suffice and is compatible with the radial
+Frostman escape; proving it from the actual packing-three source remains
+open. This is a handwritten sufficient-target analysis, not a new Lean
+lemma or an imported axiom.

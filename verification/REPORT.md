@@ -34,6 +34,23 @@ all **177 modules** and **8,886 jobs**, exit 0. Its exact source snapshot is
 see [rooted-heavy-default-build.log](rooted-heavy-default-build.log).
 All module hashes in `final-status.json` match that checked snapshot.
 
+## Direct continuum projection and lower-moment audit
+
+A separate primary-literature check is recorded in
+[SCALAR_PENCIL_PROJECTION_AUDIT.md](../docs/SCALAR_PENCIL_PROJECTION_AUDIT.md).
+The actual scalar pencil fails the generic Schubert-avoidance assumption;
+newer weaker hypotheses retain an insufficient exponent. Available
+convolution-inverse conclusions require an independent-convolution input or
+leave the original phase support, so they cannot be inserted into the
+same-source heavy-bush argument without a new proved transfer.
+
+The note derives a source-faithful sufficient endpoint: a bound on the
+actual projected `1+theta` moment, with `0<theta<1/3`, implies summable
+root-time heavy-event masses. It verifies compatibility with the radial
+escape and explains the unresolved cross-bush overlap factor. That moment
+bound itself is unproved. No source code or verification result changed
+for this handwritten audit; the original theorem remains incomplete.
+
 ## Actual finite routing captures half the original source-edge mass
 
 `exists_quantitative_source_bush_cover` now constructs a finite family of
