@@ -24,7 +24,11 @@ construct mass-preserving geometric routing.
 
 Original Proposition 3.1 gives a Borel selector inside the compact datum.
 The existing reduction is compiled and has standard-only axiom readback.
-Retain the original compact ambient front for weak limits and the final theorem.
+The new actual-slope construction instead pulls the selector through normalized
+`(a,1)`, restricts ordinary slope Lebesgue measure to a positive marked-center
+bin, and derives a common front slab of length `3/8`. The source is finite,
+nonzero, dominated by Lebesgue measure, and has slopes bounded by one. Its
+physical pushforward is supported literally on the original compact front.
 The stronger Borel-selector-only target is explicitly archived in
 `verification/ARCHIVED_TARGETS.md`; it is not assumed as an axiom.
 
@@ -32,9 +36,9 @@ The stronger Borel-selector-only target is explicitly archived in
 
 The general weighted residual-content function and its measurability are
 checked, retaining collision-time windows, inverse-secant weights, and the
-nonzero-secant cutoff. Instantiation on the full original selector/occurrence
-construction and its geometric power bound remain open. Existing shaded
-sources do not automatically supply this measure-level input.
+nonzero-secant cutoff. The actual selector supplies a proved bounded-density slope source and
+measurable intercept. The geometric power bound for its weighted residual
+content remains open. Existing shaded sources do not automatically supply it.
 
 ## 5. Finite occurrence-flow conservation
 
@@ -62,6 +66,11 @@ extensions and disjoint fractional restrictions. The actual old-neighbor
 conditional law and degree-density disintegration are now constructed with
 standard-Borel kernels. A checked fixed-angle guardrail shows that shrinking
 terminal caps alone leaves all unpaid root mass in the cross-cap complement.
+A checked physical separated-time bush theorem now pays all old targets,
+not only same-cap targets. Fresh independent genuine flags also have checked
+measure-valued separation/retention bounds while inherited labels stay intact.
+Their global geometric use still requires the designated-flag comparison and
+root-weighted summation/termination, as explained in the two new research notes.
 Still open: the actual geometric routing kernels and cuts, their conservation
 and root/support invariants, stopping schedule, and paid/cross-cap bounds. None is replaced by a hidden capacity field.
 
@@ -76,8 +85,13 @@ actual slope measure dominated by three-dimensional Lebesgue measure. A
 residual power bound of exponent `2 - η` consequently gives averaged collision
 sublevels of exponent `3 - η` and finite averaged transverse `t`-energy for
 `0 < t < 3 - η`. These new analytical implications are strictly checked.
-The geometric residual power estimate, positive supported source construction,
-and final energy-to-front dimension passage remain open.
+The actual supported source is now constructed. A direct spacetime collision
+estimate supplies one extra power of radius and finite physical E4 energy;
+bounded-potential restriction supplies a supported Frostman probability. The
+resulting original residual criterion now proves `dimH(unitFront ambient)=4`
+from the literal residual bounds on that constructed source. The geometric
+residual power estimate itself remains open. No slicing axiom or assumed
+measurable Frostman kernel is used.
 
 ## 8. Original compact marked closure and axiom audit
 

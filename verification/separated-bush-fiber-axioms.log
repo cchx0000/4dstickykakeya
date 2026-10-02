@@ -1,0 +1,17 @@
+'StickyKakeya4.SeparatedBushFiber.scaled_fiber_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SeparatedBushFiber.collision_at_packet_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SeparatedBushFiber.source_mem_fiber_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SeparatedBushFiber.measurable_fiberCenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SeparatedBushFiber.measurableSet_fiberCapSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SeparatedBushFiber.product_fiberCapSet_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SeparatedBushFiber.occurrence_mass_le_fiber_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.SeparatedBushFiber.source_near_target_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SeparatedBushFiber.physical_packet_occurrence_le_cubic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH lake env lean -DautoImplicit=false verification/SeparatedBushFiberReadback.lean
+Exit status: 0 (confirmed)
+Result: all nine declarations use only propext, Classical.choice, and Quot.sound

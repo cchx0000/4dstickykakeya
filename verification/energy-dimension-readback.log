@@ -1,0 +1,65 @@
+COMMAND: lake env lean -DautoImplicit=false verification/EnergyDimensionReadback.lean
+StickyKakeya4.EnergyDimension.exists_supported_frostman_probability_of_finite_energy.{u_1} {X : Type u_1}
+  [MetricSpace X] [MeasurableSpace X] [BorelSpace X] [SecondCountableTopology X] (μ : MeasureTheory.Measure X)
+  [MeasureTheory.IsFiniteMeasure μ] (hμ : μ ≠ 0) (s : Set X) (hsupport : μ sᶜ = 0) (t : ℝ) (ht : 0 < t)
+  (henergy : ∫⁻ (x : X), StickyKakeya4.EnergyDimension.inverseDistancePotential μ t x ∂μ < ⊤) :
+  ∃ ν,
+    MeasureTheory.IsProbabilityMeasure ν ∧
+      ν sᶜ = 0 ∧ ∃ C, C ≠ ⊤ ∧ ∀ (a : X) (r : ℝ), 0 < r → ν (Metric.ball a r) ≤ C * ENNReal.ofReal r ^ t
+StickyKakeya4.EnergyDimension.le_dimH_of_supported_finite_energy (μ : MeasureTheory.Measure StickyKakeya4.E4)
+  [MeasureTheory.IsFiniteMeasure μ] (hμ : μ ≠ 0) (s : Set StickyKakeya4.E4) (hsupport : μ sᶜ = 0) (t : NNReal)
+  (ht : 0 < t)
+  (henergy : ∫⁻ (x : StickyKakeya4.E4), StickyKakeya4.EnergyDimension.inverseDistancePotential μ (↑t) x ∂μ < ⊤) :
+  ↑t ≤ dimH s
+'StickyKakeya4.EnergyDimension.ball_mass_le_potential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.EnergyDimension.restrict_ball_growth_of_bounded_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.EnergyDimension.exists_bounded_potential_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.EnergyDimension.exists_supported_frostman_probability_of_finite_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.EnergyDimension.le_dimH_of_supported_finite_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.EnergyDimension.hasFrontFrostmanMeasures_of_supported_finite_energies
+  (selector : Set StickyKakeya4.MarkedLine)
+  (henergy :
+    ∀ (ε : ℝ),
+      0 < ε →
+        ε < 4 →
+          ∃ μ,
+            MeasureTheory.IsFiniteMeasure μ ∧
+              μ ≠ 0 ∧
+                μ (StickyKakeya4.unitFront selector)ᶜ = 0 ∧
+                  ∫⁻ (x : StickyKakeya4.E4), StickyKakeya4.EnergyDimension.inverseDistancePotential μ (4 - ε) x ∂μ <
+                    ⊤) :
+  StickyKakeya4.HasFrontFrostmanMeasures selector
+StickyKakeya4.EnergyDimension.dimH_ge_four_of_supported_finite_energies (selector : Set StickyKakeya4.MarkedLine)
+  (henergy :
+    ∀ (ε : ℝ),
+      0 < ε →
+        ε < 4 →
+          ∃ μ,
+            MeasureTheory.IsFiniteMeasure μ ∧
+              μ ≠ 0 ∧
+                μ (StickyKakeya4.unitFront selector)ᶜ = 0 ∧
+                  ∫⁻ (x : StickyKakeya4.E4), StickyKakeya4.EnergyDimension.inverseDistancePotential μ (4 - ε) x ∂μ <
+                    ⊤) :
+  4 ≤ dimH (StickyKakeya4.unitFront selector)
+'StickyKakeya4.EnergyDimension.exists_bounded_measurable_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.EnergyDimension.hasFrontFrostmanMeasures_of_supported_finite_energies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.EnergyDimension.dimH_ge_four_of_supported_finite_energies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.EnergyDimension.measurable_inverseDistancePotential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE: 0

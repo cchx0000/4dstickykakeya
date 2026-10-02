@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_separated_bush_fiber
+
+#print axioms StickyKakeya4.SeparatedBushFiber.scaled_fiber_displacement
+#print axioms StickyKakeya4.SeparatedBushFiber.collision_at_packet_center
+#print axioms StickyKakeya4.SeparatedBushFiber.source_mem_fiber_cap
+#print axioms StickyKakeya4.SeparatedBushFiber.measurable_fiberCenter
+#print axioms StickyKakeya4.SeparatedBushFiber.measurableSet_fiberCapSet
+#print axioms StickyKakeya4.SeparatedBushFiber.product_fiberCapSet_le
+#print axioms StickyKakeya4.SeparatedBushFiber.occurrence_mass_le_fiber_cap
+#print axioms StickyKakeya4.SeparatedBushFiber.source_near_target_line
+#print axioms StickyKakeya4.SeparatedBushFiber.physical_packet_occurrence_le_cubic

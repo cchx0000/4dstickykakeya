@@ -1,0 +1,149 @@
+Command: lake env lean -DautoImplicit=false verification/ActualSlopeSourceReadback.lean
+StickyKakeya4.ActualSlopeSource.heightPoint : StickyKakeya4.E3 → ℝ → StickyKakeya4.E4
+StickyKakeya4.ActualSlopeSource.heightPoint_castSucc : ∀ (x : StickyKakeya4.E3) (s : ℝ) (i : Fin 3),
+  (StickyKakeya4.ActualSlopeSource.heightPoint x s).ofLp i.castSucc = x.ofLp i
+StickyKakeya4.ActualSlopeSource.heightPoint_last : ∀ (x : StickyKakeya4.E3) (s : ℝ),
+  (StickyKakeya4.ActualSlopeSource.heightPoint x s).ofLp (Fin.last 3) = s
+StickyKakeya4.ActualSlopeSource.measurable_northSlopeLift : Measurable StickyKakeya4.northSlopeLift
+StickyKakeya4.ActualSlopeSource.measurable_northSlopeDirection : Measurable StickyKakeya4.northSlopeDirection
+StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth : ∀ (a : StickyKakeya4.E3),
+  (↑(StickyKakeya4.northSlopeDirection a)).ofLp 3 = ‖StickyKakeya4.northSlopeLift a‖⁻¹
+StickyKakeya4.ActualSlopeSource.northSlopeLift_zero_norm : ‖StickyKakeya4.northSlopeLift 0‖ = 1
+@StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth_ge_half : ∀ {a : StickyKakeya4.E3},
+  a ∈ Metric.ball 0 1 → 1 / 2 ≤ (↑(StickyKakeya4.northSlopeDirection a)).ofLp 3
+StickyKakeya4.ActualSlopeSource.measurable_northGraphIntercept : Measurable StickyKakeya4.northGraphIntercept
+StickyKakeya4.ActualSlopeSource.slopeLine : (selector : Set StickyKakeya4.MarkedLine) →
+  MeasurableSet selector →
+    (∀ line ∈ selector, StickyKakeya4.IsValidLine line) →
+      StickyKakeya4.IsDirectionSelector selector → StickyKakeya4.E3 → StickyKakeya4.MarkedLine
+StickyKakeya4.ActualSlopeSource.measurable_slopeLine : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector),
+  Measurable (StickyKakeya4.ActualSlopeSource.slopeLine selector hmeas hvalid hselector)
+StickyKakeya4.ActualSlopeSource.slopeLine_mem : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (a : StickyKakeya4.E3),
+  StickyKakeya4.ActualSlopeSource.slopeLine selector hmeas hvalid hselector a ∈ selector
+StickyKakeya4.ActualSlopeSource.direction_slopeLine : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (a : StickyKakeya4.E3),
+  StickyKakeya4.direction (StickyKakeya4.ActualSlopeSource.slopeLine selector hmeas hvalid hselector a) =
+    ↑(StickyKakeya4.northSlopeDirection a)
+StickyKakeya4.ActualSlopeSource.slope_slopeLine : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (a : StickyKakeya4.E3),
+  StickyKakeya4.northGraphSlope (StickyKakeya4.ActualSlopeSource.slopeLine selector hmeas hvalid hselector a) = a
+StickyKakeya4.ActualSlopeSource.sourceSet : (selector : Set StickyKakeya4.MarkedLine) →
+  MeasurableSet selector →
+    (∀ line ∈ selector, StickyKakeya4.IsValidLine line) →
+      StickyKakeya4.IsDirectionSelector selector → ℤ → Set StickyKakeya4.E3
+StickyKakeya4.ActualSlopeSource.measurableSet_sourceSet : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (k : ℤ),
+  MeasurableSet (StickyKakeya4.ActualSlopeSource.sourceSet selector hmeas hvalid hselector k)
+StickyKakeya4.ActualSlopeSource.exists_positive_sourceSet : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector),
+  ∃ k, MeasureTheory.volume (StickyKakeya4.ActualSlopeSource.sourceSet selector hmeas hvalid hselector k) ≠ 0
+StickyKakeya4.ActualSlopeSource.sourceMeasure : (selector : Set StickyKakeya4.MarkedLine) →
+  MeasurableSet selector →
+    (∀ line ∈ selector, StickyKakeya4.IsValidLine line) →
+      StickyKakeya4.IsDirectionSelector selector → ℤ → MeasureTheory.Measure StickyKakeya4.E3
+StickyKakeya4.ActualSlopeSource.sourceMeasure_isFinite : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (k : ℤ),
+  MeasureTheory.IsFiniteMeasure (StickyKakeya4.ActualSlopeSource.sourceMeasure selector hmeas hvalid hselector k)
+StickyKakeya4.ActualSlopeSource.sourceMeasure_le_volume : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (k : ℤ),
+  StickyKakeya4.ActualSlopeSource.sourceMeasure selector hmeas hvalid hselector k ≤ MeasureTheory.volume
+StickyKakeya4.ActualSlopeSource.sourceMeasure_slope_norm_le_one : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (k : ℤ),
+  ∀ᵐ (a : StickyKakeya4.E3) ∂StickyKakeya4.ActualSlopeSource.sourceMeasure selector hmeas hvalid hselector k, ‖a‖ ≤ 1
+StickyKakeya4.ActualSlopeSource.sourceMeasure_mass_pos : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (k : ℤ),
+  MeasureTheory.volume (StickyKakeya4.ActualSlopeSource.sourceSet selector hmeas hvalid hselector k) ≠ 0 →
+    0 < (StickyKakeya4.ActualSlopeSource.sourceMeasure selector hmeas hvalid hselector k) Set.univ
+StickyKakeya4.ActualSlopeSource.intercept : (selector : Set StickyKakeya4.MarkedLine) →
+  MeasurableSet selector →
+    (∀ line ∈ selector, StickyKakeya4.IsValidLine line) →
+      StickyKakeya4.IsDirectionSelector selector → StickyKakeya4.E3 → StickyKakeya4.E3
+StickyKakeya4.ActualSlopeSource.measurable_intercept : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector),
+  Measurable (StickyKakeya4.ActualSlopeSource.intercept selector hmeas hvalid hselector)
+StickyKakeya4.ActualSlopeSource.sourceSet_contains_slab : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (k : ℤ) {a : StickyKakeya4.E3},
+  a ∈ StickyKakeya4.ActualSlopeSource.sourceSet selector hmeas hvalid hselector k →
+    StickyKakeya4.ContainsWZHeightSlab (StickyKakeya4.ActualSlopeSource.slopeLine selector hmeas hvalid hselector a)
+      (Set.Icc (↑k / 8 - 1 / 8) (↑k / 8 + 1 / 4))
+StickyKakeya4.ActualSlopeSource.graph_eq_wzGraphPoint : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (a : StickyKakeya4.E3) (s : ℝ),
+  StickyKakeya4.ActualSlopeSource.heightPoint
+      (StickyKakeya4.ActualSlopeSource.intercept selector hmeas hvalid hselector a + s • a) s =
+    StickyKakeya4.wzGraphPoint (StickyKakeya4.ActualSlopeSource.slopeLine selector hmeas hvalid hselector a) s
+StickyKakeya4.ActualSlopeSource.source_graph_mem_unitFront : ∀ (selector : Set StickyKakeya4.MarkedLine)
+  (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+  (hselector : StickyKakeya4.IsDirectionSelector selector) (k : ℤ),
+  ∀ᵐ (a : StickyKakeya4.E3) ∂StickyKakeya4.ActualSlopeSource.sourceMeasure selector hmeas hvalid hselector k,
+    ∀ s ∈ Set.Icc (↑k / 8 - 1 / 8) (↑k / 8 + 1 / 4),
+      StickyKakeya4.ActualSlopeSource.heightPoint
+          (StickyKakeya4.ActualSlopeSource.intercept selector hmeas hvalid hselector a + s • a) s ∈
+        StickyKakeya4.unitFront selector
+StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_slope_source : ∀ (ambient : Set StickyKakeya4.MarkedLine),
+  IsCompact ambient →
+    (∀ line ∈ ambient, StickyKakeya4.IsValidLine line) →
+      StickyKakeya4.FullDirection ambient →
+        ∃ σ b u v,
+          MeasureTheory.IsFiniteMeasure σ ∧
+            0 < σ Set.univ ∧
+              σ ≤ MeasureTheory.volume ∧
+                Measurable b ∧
+                  v - u = 3 / 8 ∧
+                    (∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) ∧
+                      ∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+                        ∀ s ∈ Set.Icc u v,
+                          StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient
+'StickyKakeya4.ActualSlopeSource.heightPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.heightPoint_castSucc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.heightPoint_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.measurable_northSlopeLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.measurable_northSlopeDirection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.northSlopeLift_zero_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth_ge_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.measurable_northGraphIntercept' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.slopeLine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.measurable_slopeLine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.slopeLine_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.direction_slopeLine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.slope_slopeLine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.sourceSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.measurableSet_sourceSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.exists_positive_sourceSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.sourceMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.sourceMeasure_isFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.sourceMeasure_le_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.sourceMeasure_slope_norm_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.sourceMeasure_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.intercept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.measurable_intercept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.sourceSet_contains_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.graph_eq_wzGraphPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.source_graph_mem_unitFront' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_slope_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Exit status: 0

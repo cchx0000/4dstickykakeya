@@ -1,8 +1,19 @@
 {
-  "generated_at_utc": "2026-10-02T05:30:11.049652+00:00",
-  "previous_checkpoint": "b7989bcd40f3c0c38dd1ee582c10e746c022842d",
-  "new_declaration_count": 11,
+  "generated_at_utc": "2026-10-02T05:46:47.205283+00:00",
+  "previous_checkpoint": "10f6063609713daa0ab278a4e8ba2199face3bf8",
+  "new_declaration_count_since_full_build": 107,
   "previous_checked_declaration_count": 91,
+  "total_new_checked_declarations": 198,
+  "declarations_per_log": {
+    "verification/residual-energy-axioms.log": 7,
+    "verification/residual-sublevel-axioms.log": 4,
+    "verification/actual-slope-source-axioms.log": 28,
+    "verification/energy-dimension-readback.log": 9,
+    "verification/spacetime-collision-energy-axioms.log": 16,
+    "verification/original-residual-criterion-axioms.log": 12,
+    "verification/independent-flag-separation-readback.log": 22,
+    "verification/separated-bush-fiber-axioms.log": 9
+  },
   "checks": [
     {
       "declaration": "StickyKakeya4.zero_level_measure_eq_zero_of_sublevel_power",
@@ -102,12 +113,884 @@
         "Quot.sound"
       ],
       "log": "verification/residual-sublevel-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.heightPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.heightPoint_castSucc",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.heightPoint_last",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.measurable_northSlopeLift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.measurable_northSlopeDirection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.northSlopeLift_zero_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth_ge_half",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.measurable_northGraphIntercept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.slopeLine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.measurable_slopeLine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.slopeLine_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.direction_slopeLine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.slope_slopeLine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sourceSet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.measurableSet_sourceSet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.exists_positive_sourceSet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sourceMeasure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sourceMeasure_isFinite",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sourceMeasure_le_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sourceMeasure_slope_norm_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sourceMeasure_mass_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.intercept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.measurable_intercept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sourceSet_contains_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.graph_eq_wzGraphPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.source_graph_mem_unitFront",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_slope_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EnergyDimension.ball_mass_le_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/energy-dimension-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EnergyDimension.restrict_ball_growth_of_bounded_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/energy-dimension-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EnergyDimension.exists_bounded_potential_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/energy-dimension-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EnergyDimension.exists_supported_frostman_probability_of_finite_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/energy-dimension-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EnergyDimension.le_dimH_of_supported_finite_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/energy-dimension-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EnergyDimension.exists_bounded_measurable_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/energy-dimension-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EnergyDimension.hasFrontFrostmanMeasures_of_supported_finite_energies",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/energy-dimension-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EnergyDimension.dimH_ge_four_of_supported_finite_energies",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/energy-dimension-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EnergyDimension.measurable_inverseDistancePotential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/energy-dimension-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.map_inverse_energy_eq_distance_pair_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ae_finite_map_inverse_energy_of_finite_time_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.spacetimeLift_castSucc",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.spacetimeLift_last",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.spacetimeLift_sub",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.spacetimeLift_norm_sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measurable_spacetimeLift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.spacetimeLift_collision_coordinates",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measurable_slopeSpacetimePoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.spacetime_collision_imp_same_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.spacetime_time_fiber_volume_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.spacetime_source_row_mass_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.spacetime_pair_sublevel_le_time_collision",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.finite_inverse_energy_of_local_sublevel_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.finite_spacetime_pair_energy_of_averaged_sublevel_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.finite_spacetime_front_energy_of_averaged_sublevel_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/spacetime-collision-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.frontParam",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.measurable_frontParam",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_isFinite",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_univ",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_ne_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_supported",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.HasResidualPowerBounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_finite_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.front_frostman_of_residual_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.front_dimH_eq_four_of_residual_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OriginalResidualCriterion.compact_full_direction_residual_reduction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/original-residual-criterion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.freshExtension",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.fresh_labels_rectangle",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.fresh_extension_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.fresh_extension_observable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.disintegrated_fresh_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.fresh_extension_genuine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.restricted_fresh_genuine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.restricted_original_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.restricted_original_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.le_restricted_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.complement_original_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.closeNormals",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.measurableSet_closeNormals",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.close_normals_fiber_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.close_original_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.separated_original_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.separated_normals_ae",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.separated_mass_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.separated_mass_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.close_observable_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.separated_observable_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.IndependentFlagSeparation.endpoint_normal_law_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/independent-flag-separation-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SeparatedBushFiber.scaled_fiber_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/separated-bush-fiber-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SeparatedBushFiber.collision_at_packet_center",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/separated-bush-fiber-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SeparatedBushFiber.source_mem_fiber_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/separated-bush-fiber-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SeparatedBushFiber.measurable_fiberCenter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/separated-bush-fiber-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SeparatedBushFiber.measurableSet_fiberCapSet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/separated-bush-fiber-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SeparatedBushFiber.product_fiberCapSet_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/separated-bush-fiber-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SeparatedBushFiber.occurrence_mass_le_fiber_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/separated-bush-fiber-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SeparatedBushFiber.source_near_target_line",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/separated-bush-fiber-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SeparatedBushFiber.physical_packet_occurrence_le_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/separated-bush-fiber-axioms.log"
     }
   ],
   "source_sha256": {
     "Theorems/Thm_StickyKakeya4_residual_energy.lean": "61d81e87716a725173c68479df6f5cf3cf35a847fc0fa82086d8113f04d91645",
-    "Theorems/Thm_StickyKakeya4_residual_sublevel_power.lean": "a9c8e8ab12f4962a13f30e03f0b31ab46e74bce742ae35e5b2b891e59ab95ad7"
+    "Theorems/Thm_StickyKakeya4_residual_sublevel_power.lean": "a9c8e8ab12f4962a13f30e03f0b31ab46e74bce742ae35e5b2b891e59ab95ad7",
+    "Theorems/Thm_StickyKakeya4_actual_slope_source.lean": "eba23a7eb33cb65b2d80c8f30774ae9743686c3eeb67769620d9fb1b31aaaafb",
+    "Theorems/Thm_StickyKakeya4_energy_dimension.lean": "b9a8f352863cdc3842f39347a51bb4f518c803b578b2caaf53dec4fda647952d",
+    "Theorems/Thm_StickyKakeya4_spacetime_collision_energy.lean": "bdc902c227233f9de2c8383af9597da9534fa0e714e43d251ce14d8ba60d4442",
+    "Theorems/Thm_StickyKakeya4_original_residual_criterion.lean": "670671abe1d5a5718f51af25361e7d321bd9da05751c54341507eee313bf4df3",
+    "Theorems/Thm_StickyKakeya4_independent_flag_separation.lean": "42e850fe0f24eef2083624b855b4a8480b27c33a0a0c88c78a03c9def930d58e",
+    "Theorems/Thm_StickyKakeya4_separated_bush_fiber.lean": "133d8688d1b2e29229549d56364a5fb88f06d1ff4cdfac76a43f10b9f04a4aad"
   },
   "full_build_rerun": false,
-  "final_main_project_axiom_removed": false
+  "final_main_project_axiom_removed": false,
+  "targeted_lake_build_status": "running",
+  "targeted_lake_build_log_pending_commit": "verification/analytic-closure-build.log"
 }

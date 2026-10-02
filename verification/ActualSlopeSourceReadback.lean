@@ -1,0 +1,59 @@
+import Theorems.Thm_StickyKakeya4_actual_slope_source
+
+#check @StickyKakeya4.ActualSlopeSource.heightPoint
+#check @StickyKakeya4.ActualSlopeSource.heightPoint_castSucc
+#check @StickyKakeya4.ActualSlopeSource.heightPoint_last
+#check @StickyKakeya4.ActualSlopeSource.measurable_northSlopeLift
+#check @StickyKakeya4.ActualSlopeSource.measurable_northSlopeDirection
+#check @StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth
+#check @StickyKakeya4.ActualSlopeSource.northSlopeLift_zero_norm
+#check @StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth_ge_half
+#check @StickyKakeya4.ActualSlopeSource.measurable_northGraphIntercept
+#check @StickyKakeya4.ActualSlopeSource.slopeLine
+#check @StickyKakeya4.ActualSlopeSource.measurable_slopeLine
+#check @StickyKakeya4.ActualSlopeSource.slopeLine_mem
+#check @StickyKakeya4.ActualSlopeSource.direction_slopeLine
+#check @StickyKakeya4.ActualSlopeSource.slope_slopeLine
+#check @StickyKakeya4.ActualSlopeSource.sourceSet
+#check @StickyKakeya4.ActualSlopeSource.measurableSet_sourceSet
+#check @StickyKakeya4.ActualSlopeSource.exists_positive_sourceSet
+#check @StickyKakeya4.ActualSlopeSource.sourceMeasure
+#check @StickyKakeya4.ActualSlopeSource.sourceMeasure_isFinite
+#check @StickyKakeya4.ActualSlopeSource.sourceMeasure_le_volume
+#check @StickyKakeya4.ActualSlopeSource.sourceMeasure_slope_norm_le_one
+#check @StickyKakeya4.ActualSlopeSource.sourceMeasure_mass_pos
+#check @StickyKakeya4.ActualSlopeSource.intercept
+#check @StickyKakeya4.ActualSlopeSource.measurable_intercept
+#check @StickyKakeya4.ActualSlopeSource.sourceSet_contains_slab
+#check @StickyKakeya4.ActualSlopeSource.graph_eq_wzGraphPoint
+#check @StickyKakeya4.ActualSlopeSource.source_graph_mem_unitFront
+#check @StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_slope_source
+
+#print axioms StickyKakeya4.ActualSlopeSource.heightPoint
+#print axioms StickyKakeya4.ActualSlopeSource.heightPoint_castSucc
+#print axioms StickyKakeya4.ActualSlopeSource.heightPoint_last
+#print axioms StickyKakeya4.ActualSlopeSource.measurable_northSlopeLift
+#print axioms StickyKakeya4.ActualSlopeSource.measurable_northSlopeDirection
+#print axioms StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth
+#print axioms StickyKakeya4.ActualSlopeSource.northSlopeLift_zero_norm
+#print axioms StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth_ge_half
+#print axioms StickyKakeya4.ActualSlopeSource.measurable_northGraphIntercept
+#print axioms StickyKakeya4.ActualSlopeSource.slopeLine
+#print axioms StickyKakeya4.ActualSlopeSource.measurable_slopeLine
+#print axioms StickyKakeya4.ActualSlopeSource.slopeLine_mem
+#print axioms StickyKakeya4.ActualSlopeSource.direction_slopeLine
+#print axioms StickyKakeya4.ActualSlopeSource.slope_slopeLine
+#print axioms StickyKakeya4.ActualSlopeSource.sourceSet
+#print axioms StickyKakeya4.ActualSlopeSource.measurableSet_sourceSet
+#print axioms StickyKakeya4.ActualSlopeSource.exists_positive_sourceSet
+#print axioms StickyKakeya4.ActualSlopeSource.sourceMeasure
+#print axioms StickyKakeya4.ActualSlopeSource.sourceMeasure_isFinite
+#print axioms StickyKakeya4.ActualSlopeSource.sourceMeasure_le_volume
+#print axioms StickyKakeya4.ActualSlopeSource.sourceMeasure_slope_norm_le_one
+#print axioms StickyKakeya4.ActualSlopeSource.sourceMeasure_mass_pos
+#print axioms StickyKakeya4.ActualSlopeSource.intercept
+#print axioms StickyKakeya4.ActualSlopeSource.measurable_intercept
+#print axioms StickyKakeya4.ActualSlopeSource.sourceSet_contains_slab
+#print axioms StickyKakeya4.ActualSlopeSource.graph_eq_wzGraphPoint
+#print axioms StickyKakeya4.ActualSlopeSource.source_graph_mem_unitFront
+#print axioms StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_slope_source

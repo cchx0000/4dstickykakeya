@@ -3,6 +3,42 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual-source analytical closure checkpoint
+
+The original analytic reduction is now proved through genuine front measures:
+
+- `actual_slope_source` constructs a positive finite slope-Lebesgue source,
+  a measurable intercept, slopes bounded by one, and a common marked-front
+  slab of length `3/8` directly from a compact valid full-direction datum
+- `spacetime_collision_energy` gains the extra dimension by a checked `2 rho`
+  target-time fibre bound, rather than invoking an unformalized slicing theorem
+- `energy_dimension` extracts a positive bounded-potential restriction and
+  normalizes it to a Frostman probability with the exact original support
+- `original_residual_criterion.compact_full_direction_residual_reduction`
+  constructs that actual source and proves that its literal codimension-two
+  residual bounds imply `dimH (unitFront ambient) = 4`
+
+The geometric residual estimate is still a premise of that last implication.
+It has not been derived from packing dimension, and the public main theorem
+still retains its original WZ project axiom.
+
+Two further local advances are checked: `separated_bush_fiber` pays all targets
+of one physical separated-time packet with the inherited old collision error;
+`independent_flag_separation` preserves the full old occurrence law under fresh
+independent flags and gives measure-valued discarded/retained bounds. The
+[designated-flag research note](../docs/INDEPENDENT_FLAG_CROSSCAP_REROUTING.md)
+explains the source-level geometric extension and the unresolved bush-return
+summation/termination. The packet-free tube-volume estimate in the earlier
+note remains a handwritten result, not a Lean-certified theorem.
+
+The expanded [resumed readback inventory](resumed-axiom-summary.json) gives the
+exact declaration list and source hashes: 107 further readbacks, for 198 new
+checked declarations in total. All are standard-only. A dependency-aware Lake
+rebuild of the analytical closure and two local geometric targets is running;
+its terminal log will be added at the next checkpoint. All individual strict
+source/readback checks above have already passed. The historical all-module
+snapshot remains below.
+
 ## Resumed analytical progress after b7989bcd
 
 The next two modules have strict source builds and standard-only axiom
@@ -173,8 +209,9 @@ proved for the actual geometric occurrence tree, or a genuinely terminating
 replacement rerouting argument controlling those old pairs. Assuming that
 numerical bound in a certificate is not a proof of it.
 
-Geometric residual power bounds and the final energy-to-front dimension
-passage remain unproved. The generic inverse-energy step of the historical
+Geometric residual power bounds remain unproved. The finite-energy and
+energy-to-front dimension passage are now proved, as described above. The
+generic inverse-energy step of the historical
 [draft](../drafts/README.md) has since been implemented and strictly verified
 in `residual_energy`; the draft itself remains an uncompiled historical text.
 

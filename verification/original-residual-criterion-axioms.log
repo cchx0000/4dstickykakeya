@@ -1,0 +1,49 @@
+$ lake env lean -DautoImplicit=false verification/OriginalResidualCriterionReadback.lean
+StickyKakeya4.OriginalResidualCriterion.compact_full_direction_residual_reduction
+  (ambient : Set StickyKakeya4.MarkedLine) (hcompact : IsCompact ambient)
+  (hvalid : ∀ line ∈ ambient, StickyKakeya4.IsValidLine line) (hfull : StickyKakeya4.FullDirection ambient) :
+  ∃ σ b u v,
+    MeasureTheory.IsFiniteMeasure σ ∧
+      0 < σ Set.univ ∧
+        σ ≤ MeasureTheory.volume ∧
+          Measurable b ∧
+            v - u = 3 / 8 ∧
+              (∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) ∧
+                (∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+                    ∀ s ∈ Set.Icc u v,
+                      StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient) ∧
+                  (StickyKakeya4.OriginalResidualCriterion.HasResidualPowerBounds σ b u v →
+                    dimH (StickyKakeya4.unitFront ambient) = 4)
+'StickyKakeya4.OriginalResidualCriterion.frontParam' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.measurable_frontParam' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_isFinite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_univ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.HasResidualPowerBounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.sourceFrontMeasure_finite_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.front_frostman_of_residual_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.front_dimH_eq_four_of_residual_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OriginalResidualCriterion.compact_full_direction_residual_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_STATUS: 0

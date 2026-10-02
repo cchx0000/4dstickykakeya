@@ -41,8 +41,10 @@ specialization, and residual collision/Tonelli bridge now have strict readbacks.
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
 last complete 116-module project build passed. Later analytical additions have
-targeted strict checks: bounded direction density plus the original residual
-power estimate now yields finite averaged transverse energy. The final-theorem axiom audit
+targeted strict checks: an actual positive bounded-density source plus the
+original residual power estimate now yields supported four-dimensional
+Frostman closure through finite spacetime energy. The source is constructed;
+the geometric residual estimate remains open. The final-theorem axiom audit
 still fails because the main closure uses the WZ project axiom.
 `scripts/check-axioms.sh` makes that failure explicit.
 

@@ -1,0 +1,17 @@
+Command: lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_actual_slope_source.olean Theorems/Thm_StickyKakeya4_actual_slope_source.lean
+Environment: ELAN_HOME=/workspace/shared/lean-tools/elan; PATH=$ELAN_HOME/bin:$PATH; XDG_CACHE_HOME=/workspace/shared/lean-tools/cache; LEAN_NUM_THREADS=2
+
+Theorems/Thm_StickyKakeya4_actual_slope_source.lean:67:34: warning: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+Theorems/Thm_StickyKakeya4_actual_slope_source.lean:206:69: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Exit status: 0

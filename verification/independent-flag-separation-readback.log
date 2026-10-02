@@ -1,0 +1,287 @@
+@StickyKakeya4.IndependentFlagSeparation.freshExtension : {Ω : Type u_1} →
+  {L : Type u_2} →
+    {R : Type u_3} →
+      [inst : MeasurableSpace Ω] →
+        [inst_1 : MeasurableSpace L] →
+          [inst_2 : MeasurableSpace R] →
+            MeasureTheory.Measure Ω →
+              ProbabilityTheory.Kernel Ω L → ProbabilityTheory.Kernel Ω R → MeasureTheory.Measure (Ω × L × R)
+@StickyKakeya4.IndependentFlagSeparation.fresh_labels_rectangle : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R)
+  [ProbabilityTheory.IsMarkovKernel η] (ω : Ω) (s : Set L) (t : Set R), ((κ.prod η) ω) (s ×ˢ t) = (κ ω) s * (η ω) t
+@StickyKakeya4.IndependentFlagSeparation.fresh_extension_original : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] (Γ : MeasureTheory.Measure Ω)
+  [MeasureTheory.SFinite Γ] (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ]
+  (η : ProbabilityTheory.Kernel Ω R) [ProbabilityTheory.IsMarkovKernel η],
+  MeasureTheory.Measure.map Prod.fst (StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η) = Γ
+@StickyKakeya4.IndependentFlagSeparation.fresh_extension_observable : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  {Y : Type u_4} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R]
+  [inst_3 : MeasurableSpace Y] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R)
+  [ProbabilityTheory.IsMarkovKernel η] (endpoint : Ω → Y),
+  Measurable endpoint →
+    MeasureTheory.Measure.map (fun p => endpoint p.1) (StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η) =
+      MeasureTheory.Measure.map endpoint Γ
+@StickyKakeya4.IndependentFlagSeparation.disintegrated_fresh_original : ∀ {L : Type u_1} {R : Type u_2} {X : Type u_3}
+  [inst : MeasurableSpace L] [inst_1 : MeasurableSpace R] [inst_2 : MeasurableSpace X] [inst_3 : StandardBorelSpace X]
+  [inst_4 : Nonempty X] (Γ : MeasureTheory.Measure (X × X)) [inst_5 : MeasureTheory.IsFiniteMeasure Γ]
+  (κ : ProbabilityTheory.Kernel (X × X) L) [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel (X × X) R)
+  [ProbabilityTheory.IsMarkovKernel η],
+  MeasureTheory.Measure.map Prod.fst
+      (StickyKakeya4.IndependentFlagSeparation.freshExtension
+        (Γ.fst.compProd (StickyKakeya4.OldNeighborDisintegration.oldNeighbor Γ)) κ η) =
+    Γ
+@StickyKakeya4.IndependentFlagSeparation.fresh_extension_genuine : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] (Γ : MeasureTheory.Measure Ω)
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R)
+  [ProbabilityTheory.IsMarkovKernel η] (G₁ : Set (Ω × L)),
+  MeasurableSet G₁ →
+    ∀ (G₂ : Set (Ω × R)),
+      MeasurableSet G₂ →
+        (∀ (ω : Ω), ∀ᵐ (l : L) ∂κ ω, (ω, l) ∈ G₁) →
+          (∀ (ω : Ω), ∀ᵐ (r : R) ∂η ω, (ω, r) ∈ G₂) →
+            ∀ᵐ (p : Ω × L × R) ∂StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η,
+              (p.1, p.2.1) ∈ G₁ ∧ (p.1, p.2.2) ∈ G₂
+@StickyKakeya4.IndependentFlagSeparation.restricted_fresh_genuine : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] (Γ : MeasureTheory.Measure Ω)
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R)
+  [ProbabilityTheory.IsMarkovKernel η] (G₁ : Set (Ω × L)),
+  MeasurableSet G₁ →
+    ∀ (G₂ : Set (Ω × R)),
+      MeasurableSet G₂ →
+        (∀ (ω : Ω), ∀ᵐ (l : L) ∂κ ω, (ω, l) ∈ G₁) →
+          (∀ (ω : Ω), ∀ᵐ (r : R) ∂η ω, (ω, r) ∈ G₂) →
+            ∀ (B : Set (Ω × L × R)),
+              ∀ᵐ (p : Ω × L × R) ∂(StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η).restrict B,
+                (p.1, p.2.1) ∈ G₁ ∧ (p.1, p.2.2) ∈ G₂
+@StickyKakeya4.IndependentFlagSeparation.restricted_original_apply : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsSFiniteKernel κ] (B : Set (Ω × L)),
+  MeasurableSet B →
+    ∀ (s : Set Ω),
+      MeasurableSet s →
+        (MeasureTheory.Measure.map Prod.fst ((Γ.compProd κ).restrict B)) s = ∫⁻ (ω : Ω) in s, (κ ω) (Prod.mk ω ⁻¹' B) ∂Γ
+@StickyKakeya4.IndependentFlagSeparation.restricted_original_le : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsSFiniteKernel κ] (B : Set (Ω × L)),
+  MeasurableSet B →
+    ∀ (c : ENNReal),
+      (∀ (ω : Ω), (κ ω) (Prod.mk ω ⁻¹' B) ≤ c) → MeasureTheory.Measure.map Prod.fst ((Γ.compProd κ).restrict B) ≤ c • Γ
+@StickyKakeya4.IndependentFlagSeparation.le_restricted_original : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsSFiniteKernel κ] (B : Set (Ω × L)),
+  MeasurableSet B →
+    ∀ (a : ENNReal),
+      (∀ (ω : Ω), a ≤ (κ ω) (Prod.mk ω ⁻¹' B)) → a • Γ ≤ MeasureTheory.Measure.map Prod.fst ((Γ.compProd κ).restrict B)
+@StickyKakeya4.IndependentFlagSeparation.complement_original_ge : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] (B : Set (Ω × L)),
+  MeasurableSet B →
+    ∀ (c : ENNReal),
+      (∀ (ω : Ω), (κ ω) (Prod.mk ω ⁻¹' B) ≤ c) →
+        (1 - c) • Γ ≤ MeasureTheory.Measure.map Prod.fst ((Γ.compProd κ).restrict Bᶜ)
+@StickyKakeya4.IndependentFlagSeparation.closeNormals : {Ω : Type u_1} →
+  {L : Type u_2} → {R : Type u_3} → {N : Type u_4} → [MetricSpace N] → (Ω × L → N) → (Ω × R → N) → ℝ → Set (Ω × L × R)
+@StickyKakeya4.IndependentFlagSeparation.measurableSet_closeNormals : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] {N : Type u_4}
+  [inst_3 : MetricSpace N] [inst_4 : MeasurableSpace N] [BorelSpace N] [SecondCountableTopology N] (n₁ : Ω × L → N),
+  Measurable n₁ →
+    ∀ (n₂ : Ω × R → N),
+      Measurable n₂ → ∀ (θ : ℝ), MeasurableSet (StickyKakeya4.IndependentFlagSeparation.closeNormals n₁ n₂ θ)
+@StickyKakeya4.IndependentFlagSeparation.close_normals_fiber_le : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] {N : Type u_4}
+  [inst_3 : MetricSpace N] [inst_4 : MeasurableSpace N] [BorelSpace N] [SecondCountableTopology N]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R)
+  [ProbabilityTheory.IsMarkovKernel η] (n₁ : Ω × L → N),
+  Measurable n₁ →
+    ∀ (n₂ : Ω × R → N),
+      Measurable n₂ →
+        ∀ (θ : ℝ) (c : ENNReal),
+          (∀ (ω : Ω) (z : N), (κ ω) {l | dist (n₁ (ω, l)) z ≤ θ} ≤ c) →
+            ∀ (ω : Ω), ((κ.prod η) ω) (Prod.mk ω ⁻¹' StickyKakeya4.IndependentFlagSeparation.closeNormals n₁ n₂ θ) ≤ c
+@StickyKakeya4.IndependentFlagSeparation.close_original_le : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] {N : Type u_4}
+  [inst_3 : MetricSpace N] [inst_4 : MeasurableSpace N] [BorelSpace N] [SecondCountableTopology N]
+  (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R) [ProbabilityTheory.IsMarkovKernel η]
+  (n₁ : Ω × L → N),
+  Measurable n₁ →
+    ∀ (n₂ : Ω × R → N),
+      Measurable n₂ →
+        ∀ (θ : ℝ) (c : ENNReal),
+          (∀ (ω : Ω) (z : N), (κ ω) {l | dist (n₁ (ω, l)) z ≤ θ} ≤ c) →
+            MeasureTheory.Measure.map Prod.fst
+                ((StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η).restrict
+                  (StickyKakeya4.IndependentFlagSeparation.closeNormals n₁ n₂ θ)) ≤
+              c • Γ
+@StickyKakeya4.IndependentFlagSeparation.separated_original_ge : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] {N : Type u_4}
+  [inst_3 : MetricSpace N] [inst_4 : MeasurableSpace N] [BorelSpace N] [SecondCountableTopology N]
+  (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R) [ProbabilityTheory.IsMarkovKernel η]
+  (n₁ : Ω × L → N),
+  Measurable n₁ →
+    ∀ (n₂ : Ω × R → N),
+      Measurable n₂ →
+        ∀ (θ : ℝ) (c : ENNReal),
+          (∀ (ω : Ω) (z : N), (κ ω) {l | dist (n₁ (ω, l)) z ≤ θ} ≤ c) →
+            (1 - c) • Γ ≤
+              MeasureTheory.Measure.map Prod.fst
+                ((StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η).restrict
+                  (StickyKakeya4.IndependentFlagSeparation.closeNormals n₁ n₂ θ)ᶜ)
+@StickyKakeya4.IndependentFlagSeparation.separated_normals_ae : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] {N : Type u_4}
+  [inst_3 : MetricSpace N] [inst_4 : MeasurableSpace N] [BorelSpace N] [SecondCountableTopology N]
+  (Γ : MeasureTheory.Measure Ω) (κ : ProbabilityTheory.Kernel Ω L) (η : ProbabilityTheory.Kernel Ω R) (n₁ : Ω × L → N),
+  Measurable n₁ →
+    ∀ (n₂ : Ω × R → N),
+      Measurable n₂ →
+        ∀ (θ : ℝ),
+          ∀ᵐ (p :
+            Ω ×
+              L ×
+                R) ∂(StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η).restrict
+              (StickyKakeya4.IndependentFlagSeparation.closeNormals n₁ n₂ θ)ᶜ,
+            θ < dist (n₁ (p.1, p.2.1)) (n₂ (p.1, p.2.2))
+@StickyKakeya4.IndependentFlagSeparation.separated_mass_ge : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] {N : Type u_4}
+  [inst_3 : MetricSpace N] [inst_4 : MeasurableSpace N] [BorelSpace N] [SecondCountableTopology N]
+  (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R) [ProbabilityTheory.IsMarkovKernel η]
+  (n₁ : Ω × L → N),
+  Measurable n₁ →
+    ∀ (n₂ : Ω × R → N),
+      Measurable n₂ →
+        ∀ (θ : ℝ) (c : ENNReal),
+          (∀ (ω : Ω) (z : N), (κ ω) {l | dist (n₁ (ω, l)) z ≤ θ} ≤ c) →
+            (1 - c) * Γ Set.univ ≤
+              ((StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η).restrict
+                  (StickyKakeya4.IndependentFlagSeparation.closeNormals n₁ n₂ θ)ᶜ)
+                Set.univ
+@StickyKakeya4.IndependentFlagSeparation.separated_mass_pos : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R] {N : Type u_4}
+  [inst_3 : MetricSpace N] [inst_4 : MeasurableSpace N] [BorelSpace N] [SecondCountableTopology N]
+  (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ],
+  0 < Γ Set.univ →
+    ∀ (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R)
+      [ProbabilityTheory.IsMarkovKernel η] (n₁ : Ω × L → N),
+      Measurable n₁ →
+        ∀ (n₂ : Ω × R → N),
+          Measurable n₂ →
+            ∀ (θ : ℝ),
+              ∀ c < 1,
+                (∀ (ω : Ω) (z : N), (κ ω) {l | dist (n₁ (ω, l)) z ≤ θ} ≤ c) →
+                  0 <
+                    ((StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η).restrict
+                        (StickyKakeya4.IndependentFlagSeparation.closeNormals n₁ n₂ θ)ᶜ)
+                      Set.univ
+@StickyKakeya4.IndependentFlagSeparation.close_observable_le : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  {Y : Type u_4} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R]
+  [inst_3 : MeasurableSpace Y] {N : Type u_5} [inst_4 : MetricSpace N] [inst_5 : MeasurableSpace N] [BorelSpace N]
+  [SecondCountableTopology N] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R) [ProbabilityTheory.IsMarkovKernel η]
+  (n₁ : Ω × L → N),
+  Measurable n₁ →
+    ∀ (n₂ : Ω × R → N),
+      Measurable n₂ →
+        ∀ (θ : ℝ) (c : ENNReal),
+          (∀ (ω : Ω) (z : N), (κ ω) {l | dist (n₁ (ω, l)) z ≤ θ} ≤ c) →
+            ∀ (endpoint : Ω → Y),
+              Measurable endpoint →
+                MeasureTheory.Measure.map (fun p => endpoint p.1)
+                    ((StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η).restrict
+                      (StickyKakeya4.IndependentFlagSeparation.closeNormals n₁ n₂ θ)) ≤
+                  c • MeasureTheory.Measure.map endpoint Γ
+@StickyKakeya4.IndependentFlagSeparation.separated_observable_ge : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  {Y : Type u_4} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R]
+  [inst_3 : MeasurableSpace Y] {N : Type u_5} [inst_4 : MetricSpace N] [inst_5 : MeasurableSpace N] [BorelSpace N]
+  [SecondCountableTopology N] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel Ω R) [ProbabilityTheory.IsMarkovKernel η]
+  (n₁ : Ω × L → N),
+  Measurable n₁ →
+    ∀ (n₂ : Ω × R → N),
+      Measurable n₂ →
+        ∀ (θ : ℝ) (c : ENNReal),
+          (∀ (ω : Ω) (z : N), (κ ω) {l | dist (n₁ (ω, l)) z ≤ θ} ≤ c) →
+            ∀ (endpoint : Ω → Y),
+              Measurable endpoint →
+                (1 - c) • MeasureTheory.Measure.map endpoint Γ ≤
+                  MeasureTheory.Measure.map (fun p => endpoint p.1)
+                    ((StickyKakeya4.IndependentFlagSeparation.freshExtension Γ κ η).restrict
+                      (StickyKakeya4.IndependentFlagSeparation.closeNormals n₁ n₂ θ)ᶜ)
+@StickyKakeya4.IndependentFlagSeparation.endpoint_normal_law_separation : ∀ {Ω : Type u_1} {L : Type u_2} {R : Type u_3}
+  {X : Type u_4} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace R]
+  [inst_3 : MeasurableSpace X] {N : Type u_5} [inst_4 : MetricSpace N] [inst_5 : MeasurableSpace N] [BorelSpace N]
+  [SecondCountableTopology N] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ] (left right : Ω → X)
+  (hleft : Measurable left) (hright : Measurable right) (κ : ProbabilityTheory.Kernel X L)
+  [ProbabilityTheory.IsMarkovKernel κ] (η : ProbabilityTheory.Kernel X R) [ProbabilityTheory.IsMarkovKernel η]
+  (n₁ : L → N),
+  Measurable n₁ →
+    ∀ (n₂ : R → N),
+      Measurable n₂ →
+        ∀ (θ : ℝ) (c : ENNReal),
+          (∀ (ω : Ω) (z : N), (MeasureTheory.Measure.map n₁ (κ (left ω))) (Metric.closedBall z θ) ≤ c) →
+            have μ :=
+              StickyKakeya4.IndependentFlagSeparation.freshExtension Γ (κ.comap left hleft) (η.comap right hright);
+            have B := StickyKakeya4.IndependentFlagSeparation.closeNormals (fun p => n₁ p.2) (fun p => n₂ p.2) θ;
+            MeasureTheory.Measure.map Prod.fst μ = Γ ∧
+              MeasureTheory.Measure.map Prod.fst (μ.restrict B) ≤ c • Γ ∧
+                (1 - c) • Γ ≤ MeasureTheory.Measure.map Prod.fst (μ.restrict Bᶜ)
+'StickyKakeya4.IndependentFlagSeparation.freshExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.fresh_labels_rectangle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.fresh_extension_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.fresh_extension_observable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.disintegrated_fresh_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.fresh_extension_genuine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.restricted_fresh_genuine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.restricted_original_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.restricted_original_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.le_restricted_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.complement_original_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.closeNormals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.measurableSet_closeNormals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.close_normals_fiber_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.close_original_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.separated_original_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.separated_normals_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.separated_mass_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.separated_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.close_observable_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.separated_observable_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.IndependentFlagSeparation.endpoint_normal_law_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+VERIFIED_COMMAND: lake env lean -DautoImplicit=false verification/IndependentFlagSeparationReadback.lean
+EXIT_STATUS: 0

@@ -1,0 +1,113 @@
+$ lake env lean -DautoImplicit=false verification/SpacetimeCollisionEnergyReadback.lean
+StickyKakeya4.map_inverse_energy_eq_distance_pair_integral.{u_1, u_2} {X : Type u_1} {Y : Type u_2} [MeasurableSpace X]
+  [PseudoMetricSpace Y] [MeasurableSpace Y] [BorelSpace Y] [SecondCountableTopology Y] (μ : MeasureTheory.Measure X)
+  [MeasureTheory.IsFiniteMeasure μ] (g : X → Y) (hg : Measurable g) (t : ℝ) :
+  ∫⁻ (y : Y), ∫⁻ (z : Y), edist y z ^ (-t) ∂MeasureTheory.Measure.map g μ ∂MeasureTheory.Measure.map g μ =
+    ∫⁻ (p : X × X), ENNReal.ofReal (dist (g p.1) (g p.2)) ^ (-t) ∂μ.prod μ
+StickyKakeya4.ae_finite_map_inverse_energy_of_finite_time_pair_energy.{u_1, u_2, u_3} {S : Type u_1} {X : Type u_2}
+  {Y : Type u_3} [MeasurableSpace S] [MeasurableSpace X] [PseudoMetricSpace Y] [MeasurableSpace Y] [BorelSpace Y]
+  [SecondCountableTopology Y] (τ : MeasureTheory.Measure S) (μ : MeasureTheory.Measure X)
+  [MeasureTheory.IsFiniteMeasure μ] (g : S × X → Y) (hg : Measurable g) (t : ℝ)
+  (henergy :
+    ∫⁻ (p : S × X × X), ENNReal.ofReal (dist (g (p.1, p.2.1)) (g (p.1, p.2.2))) ^ (-t) ∂τ.prod (μ.prod μ) < ⊤) :
+  ∀ᵐ (s : S) ∂τ,
+    ∫⁻ (y : Y),
+        ∫⁻ (z : Y),
+          edist y z ^
+            (-t) ∂MeasureTheory.Measure.map (fun x => g (s, x)) μ ∂MeasureTheory.Measure.map (fun x => g (s, x)) μ <
+      ⊤
+StickyKakeya4.spacetimeLift_castSucc (y : StickyKakeya4.E3) (s : ℝ) (i : Fin 3) :
+  (StickyKakeya4.spacetimeLift y s).ofLp i.castSucc = y.ofLp i
+StickyKakeya4.spacetimeLift_last (y : StickyKakeya4.E3) (s : ℝ) :
+  (StickyKakeya4.spacetimeLift y s).ofLp (Fin.last 3) = s
+StickyKakeya4.spacetimeLift_sub (y z : StickyKakeya4.E3) (s t : ℝ) :
+  StickyKakeya4.spacetimeLift y s - StickyKakeya4.spacetimeLift z t = StickyKakeya4.spacetimeLift (y - z) (s - t)
+StickyKakeya4.spacetimeLift_norm_sq (y : StickyKakeya4.E3) (s : ℝ) :
+  ‖StickyKakeya4.spacetimeLift y s‖ ^ 2 = ‖y‖ ^ 2 + s ^ 2
+StickyKakeya4.measurable_spacetimeLift : Measurable fun p => StickyKakeya4.spacetimeLift p.1 p.2
+StickyKakeya4.spacetimeLift_collision_coordinates (y z : StickyKakeya4.E3) (s t ρ : ℝ) (hρ : 0 ≤ ρ)
+  (h : ‖StickyKakeya4.spacetimeLift y s - StickyKakeya4.spacetimeLift z t‖ ≤ ρ) : ‖y - z‖ ≤ ρ ∧ |s - t| ≤ ρ
+StickyKakeya4.measurable_slopeSpacetimePoint (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) :
+  Measurable (StickyKakeya4.slopeSpacetimePoint b)
+StickyKakeya4.spacetime_collision_imp_same_time (b : StickyKakeya4.E3 → StickyKakeya4.E3) (a a' : StickyKakeya4.E3)
+  (s s' A ρ : ℝ) (hρ : 0 ≤ ρ) (hA : ‖a'‖ ≤ A)
+  (h : ‖StickyKakeya4.slopeSpacetimePoint b (s, a) - StickyKakeya4.slopeSpacetimePoint b (s', a')‖ ≤ ρ) :
+  |s - s'| ≤ ρ ∧ ‖b a - b a' + s • (a - a')‖ ≤ (1 + A) * ρ
+StickyKakeya4.spacetime_time_fiber_volume_le (b : StickyKakeya4.E3 → StickyKakeya4.E3) (a a' : StickyKakeya4.E3)
+  (s u v A ρ : ℝ) (hρ : 0 ≤ ρ) (hA : ‖a'‖ ≤ A) :
+  (MeasureTheory.volume.restrict (Set.Icc u v))
+      {s' | ‖StickyKakeya4.slopeSpacetimePoint b (s, a) - StickyKakeya4.slopeSpacetimePoint b (s', a')‖ ≤ ρ} ≤
+    if ‖b a - b a' + s • (a - a')‖ ≤ (1 + A) * ρ then ENNReal.ofReal (2 * ρ) else 0
+StickyKakeya4.spacetime_source_row_mass_le (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  [MeasureTheory.IsFiniteMeasure σ] (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (a : StickyKakeya4.E3)
+  (s u v A ρ : ℝ) (hρ : 0 ≤ ρ) (hA : ∀ᵐ (a' : StickyKakeya4.E3) ∂σ, ‖a'‖ ≤ A) :
+  ((MeasureTheory.volume.restrict (Set.Icc u v)).prod σ)
+      {p | ‖StickyKakeya4.slopeSpacetimePoint b (s, a) - StickyKakeya4.slopeSpacetimePoint b p‖ ≤ ρ} ≤
+    ENNReal.ofReal (2 * ρ) * σ {a' | ‖b a - b a' + s • (a - a')‖ ≤ (1 + A) * ρ}
+StickyKakeya4.spacetime_pair_sublevel_le_time_collision (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  [MeasureTheory.IsFiniteMeasure σ] (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (u v A ρ : ℝ)
+  (hρ : 0 ≤ ρ) (hA : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ A) :
+  (((MeasureTheory.volume.restrict (Set.Icc u v)).prod σ).prod ((MeasureTheory.volume.restrict (Set.Icc u v)).prod σ))
+      {p | ‖StickyKakeya4.slopeSpacetimePoint b p.1 - StickyKakeya4.slopeSpacetimePoint b p.2‖ ≤ ρ} ≤
+    ENNReal.ofReal (2 * ρ) * ∫⁻ (s : ℝ) in Set.Icc u v, (σ.prod σ) {p | ‖b p.1 - b p.2 + s • (p.1 - p.2)‖ ≤ (1 + A) * ρ}
+StickyKakeya4.finite_inverse_energy_of_local_sublevel_power.{u_1} {X : Type u_1} [MeasurableSpace X]
+  (μ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure μ] (f : X → ℝ) (hf : Measurable f)
+  (hf0 : ∀ (x : X), 0 ≤ f x) (C q t R : ℝ) (hC : 0 ≤ C) (ht : 0 < t) (htq : t < q) (hR : 0 < R)
+  (hsub : ∀ (r : ℝ), 0 < r → r < R → μ {x | f x ≤ r} ≤ ENNReal.ofReal (C * r ^ q)) :
+  ∫⁻ (x : X), ENNReal.ofReal (f x) ^ (-t) ∂μ < ⊤
+StickyKakeya4.finite_spacetime_pair_energy_of_averaged_sublevel_power (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  [MeasureTheory.IsFiniteMeasure σ] (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (u v A C q t : ℝ)
+  (hA : 0 ≤ A) (hslopes : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ A) (hC : 0 ≤ C) (hq : 0 < q) (ht : 0 < t)
+  (htq : t < q + 1)
+  (hsub :
+    ∀ (r : ℝ),
+      0 < r →
+        r < 1 →
+          ∫⁻ (s : ℝ) in Set.Icc u v, (σ.prod σ) {p | ‖b p.1 - b p.2 + s • (p.1 - p.2)‖ ≤ r} ≤
+            ENNReal.ofReal (C * r ^ q)) :
+  ∫⁻ (p : (ℝ × StickyKakeya4.E3) × ℝ × StickyKakeya4.E3),
+      ENNReal.ofReal ‖StickyKakeya4.slopeSpacetimePoint b p.1 - StickyKakeya4.slopeSpacetimePoint b p.2‖ ^
+        (-t) ∂((MeasureTheory.volume.restrict (Set.Icc u v)).prod σ).prod
+        ((MeasureTheory.volume.restrict (Set.Icc u v)).prod σ) <
+    ⊤
+StickyKakeya4.finite_spacetime_front_energy_of_averaged_sublevel_power (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  [MeasureTheory.IsFiniteMeasure σ] (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (u v A C q t : ℝ)
+  (hA : 0 ≤ A) (hslopes : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ A) (hC : 0 ≤ C) (hq : 0 < q) (ht : 0 < t)
+  (htq : t < q + 1)
+  (hsub :
+    ∀ (r : ℝ),
+      0 < r →
+        r < 1 →
+          ∫⁻ (s : ℝ) in Set.Icc u v, (σ.prod σ) {p | ‖b p.1 - b p.2 + s • (p.1 - p.2)‖ ≤ r} ≤
+            ENNReal.ofReal (C * r ^ q)) :
+  ∫⁻ (x : StickyKakeya4.E4),
+      ∫⁻ (y : StickyKakeya4.E4),
+        edist x y ^
+          (-t) ∂MeasureTheory.Measure.map (StickyKakeya4.slopeSpacetimePoint b)
+          ((MeasureTheory.volume.restrict (Set.Icc u v)).prod
+            σ) ∂MeasureTheory.Measure.map (StickyKakeya4.slopeSpacetimePoint b)
+        ((MeasureTheory.volume.restrict (Set.Icc u v)).prod σ) <
+    ⊤
+'StickyKakeya4.map_inverse_energy_eq_distance_pair_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ae_finite_map_inverse_energy_of_finite_time_pair_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.spacetimeLift_castSucc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.spacetimeLift_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.spacetimeLift_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.spacetimeLift_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measurable_spacetimeLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.spacetimeLift_collision_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measurable_slopeSpacetimePoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.spacetime_collision_imp_same_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.spacetime_time_fiber_volume_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.spacetime_source_row_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.spacetime_pair_sublevel_le_time_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.finite_inverse_energy_of_local_sublevel_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.finite_spacetime_pair_energy_of_averaged_sublevel_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.finite_spacetime_front_energy_of_averaged_sublevel_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Exit code: 0
