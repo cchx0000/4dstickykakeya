@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_compact_packing_power_piece
+
+#print axioms StickyKakeya4.compact_packingDim_lt_extract_eventual_power_piece
+#print axioms StickyKakeya4.compact_packingDim_lt_extract_power_piece
+#print axioms StickyKakeya4.compact_packingDim_le_three_extract_power_piece
+
+#check StickyKakeya4.compact_packingDim_lt_extract_eventual_power_piece
+#check StickyKakeya4.compact_packingDim_lt_extract_power_piece
+#check StickyKakeya4.compact_packingDim_le_three_extract_power_piece

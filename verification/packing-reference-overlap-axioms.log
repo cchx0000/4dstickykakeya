@@ -1,0 +1,22 @@
+$ lake env lean -DautoImplicit=false verification/PackingReferenceOverlapReadback.lean
+'StickyKakeya4.image_separated_card_le_finite_cover_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_uniform_separated_ball_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_uniform_separated_ball_overlap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.sum_measure_le_mul_of_multiplicity_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.card_mul_le_mul_measure_of_mass_lower_and_overlap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.exists_uniform_separated_ball_overlap_bound.{u_1} (E : Type u_1) [NormedAddCommGroup E] [NormedSpace ℝ E]
+  [ProperSpace E] :
+  ∃ K,
+    ∀ (tau : ℝ),
+      0 < tau →
+        ∀ (centers : Finset E),
+          (∀ x ∈ centers, ∀ y ∈ centers, x ≠ y → tau / 2 ≤ dist x y) →
+            ∀ (p : E), {c ∈ centers | p ∈ Metric.ball c tau}.card ≤ K
+StickyKakeya4.card_mul_le_mul_measure_of_mass_lower_and_overlap.{u_1, u_2} {A : Type u_1} {I : Type u_2}
+  [MeasurableSpace A] (mu : MeasureTheory.Measure A) (indices : Finset I) (family : I → Set A) (target : Set A)
+  (a : ENNReal) (K : ℕ) (hmeasurable : ∀ i ∈ indices, MeasurableSet (family i))
+  (hsubset : ∀ i ∈ indices, family i ⊆ target) (hlower : ∀ i ∈ indices, a ≤ mu (family i))
+  (hoverlap : ∀ (x : A), {i ∈ indices | x ∈ family i}.card ≤ K) : ↑indices.card * a ≤ ↑K * mu target
+exit=0

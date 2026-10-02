@@ -1,0 +1,20 @@
+'StickyKakeya4.AngularResidualExcess.eventually_log_shell_cost_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualExcess.eventually_shell_excess_of_full_excess' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualExcess.scaled_radius_le_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.AngularResidualExcess.angular_loss_le_scaled_radius_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualExcess.arbitrarily_fine_shell_excess_of_full_excess' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualExcess.arbitrarily_fine_shell_excess_of_dimH_lt_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+# Verified command
+ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache lake env lean -DautoImplicit=false verification/angular-residual-excess-readback.lean > verification/angular-residual-excess-readback.log 2>&1
+# Verified exit status: 0

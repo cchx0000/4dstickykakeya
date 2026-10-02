@@ -1,0 +1,33 @@
+$ lake env lean -DautoImplicit=false verification/PackingVerticalCountReadback.lean
+'StickyKakeya4.direction_ball_card_mul_le_of_mass_lower_and_overlap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ennreal_cubic_reference_power_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_uniform_vertical_reference_count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.coversAtRadius_mono_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_hereditary_reference_subfamily_with_vertical_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.exists_uniform_vertical_reference_count_bound.{u_1, u_2} {E : Type u_1} {Y : Type u_2}
+  [NormedAddCommGroup E] [NormedSpace ℝ E] [ProperSpace E] [MeasurableSpace E] [BorelSpace E] [PseudoMetricSpace Y]
+  [MeasurableSpace Y] [BorelSpace Y] (nu : MeasureTheory.Measure E) (q : E → Y) (hq : Measurable q)
+  (hlip : LipschitzWith 1 q) (c D : ENNReal) (hc : 0 < c) (hctop : c ≠ ⊤) (hDtop : D ≠ ⊤) (zeta : ℝ)
+  (hdirection :
+    ∀ (theta : Y) (r : ℝ), 0 < r → (MeasureTheory.Measure.map q nu) (Metric.ball theta r) ≤ D * ENNReal.ofReal r ^ 3) :
+  ∃ A,
+    A ≠ ⊤ ∧
+      ∀ (tau : ℝ),
+        0 < tau →
+          ∀ (centers : Finset E),
+            (∀ x ∈ centers, ∀ y ∈ centers, x ≠ y → tau / 2 ≤ dist x y) →
+              (∀ x ∈ centers, c * (ENNReal.ofReal tau).rpow (3 + zeta) ≤ nu (Metric.ball x tau)) →
+                ∀ (theta : Y), ↑{x ∈ centers | q x ∈ Metric.ball theta tau}.card ≤ A * (ENNReal.ofReal tau).rpow (-zeta)
+StickyKakeya4.exists_hereditary_reference_subfamily_with_vertical_count.{u_1, u_2} {E : Type u_1} {Y : Type u_2}
+  [PseudoMetricSpace E] [PseudoMetricSpace Y] (s t : Set E) (hts : t ⊆ s) (tau : ℝ) (centers : Finset E)
+  (hcover : StickyKakeya4.coversAtRadius s tau centers) (q : E → Y) (A : ENNReal) (zeta : ℝ)
+  (hcount : ∀ (theta : Y), ↑{x ∈ centers | q x ∈ Metric.ball theta tau}.card ≤ A * (ENNReal.ofReal tau).rpow (-zeta)) :
+  ∃ retained ⊆ centers,
+    StickyKakeya4.coversAtRadius t tau retained ∧
+      (∀ x ∈ retained, ∃ y ∈ t, y ∈ Metric.ball x tau) ∧
+        ∀ (theta : Y), ↑{x ∈ retained | q x ∈ Metric.ball theta tau}.card ≤ A * (ENNReal.ofReal tau).rpow (-zeta)
+exit=0

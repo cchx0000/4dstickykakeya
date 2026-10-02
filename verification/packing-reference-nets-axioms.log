@@ -1,0 +1,21 @@
+$ lake env lean -DautoImplicit=false verification/PackingReferenceNetsReadback.lean
+'StickyKakeya4.exists_supported_cover_of_finite_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_supported_separated_net_of_finite_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.coveringNumber_le_extract_supported_separated_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.coveringNumber_bounds_extract_supported_separated_nets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.finset_nonempty_of_coversAtRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.coveringNumber_bounds_extract_supported_separated_nets.{u_1, u_2} {X : Type u_1} {I : Type u_2}
+  [PseudoMetricSpace X] (s : Set X) (tau : I → ℝ) (B : I → ENNReal) (htau : ∀ (i : I), 0 < tau i)
+  (hB : ∀ (i : I), B i ≠ ⊤) (hbound : ∀ (i : I), StickyKakeya4.coveringNumber s (tau i / 4) ≤ B i) :
+  ∃ nets,
+    ∀ (i : I),
+      (∀ x ∈ nets i, x ∈ s) ∧
+        (∀ x ∈ nets i, ∀ y ∈ nets i, x ≠ y → tau i / 2 ≤ dist x y) ∧
+          StickyKakeya4.coversAtRadius s (tau i) (nets i) ∧ ↑(nets i).card < B i + 1
+exit=0

@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_packing_vertical_count
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.direction_ball_card_mul_le_of_mass_lower_and_overlap
+#print axioms StickyKakeya4.ennreal_cubic_reference_power_cancel
+#print axioms StickyKakeya4.exists_uniform_vertical_reference_count_bound
+#print axioms StickyKakeya4.coversAtRadius_mono_set
+#print axioms StickyKakeya4.exists_hereditary_reference_subfamily_with_vertical_count
+
+#check StickyKakeya4.exists_uniform_vertical_reference_count_bound
+#check StickyKakeya4.exists_hereditary_reference_subfamily_with_vertical_count

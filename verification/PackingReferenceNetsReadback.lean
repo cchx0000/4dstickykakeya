@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_packing_reference_nets
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.exists_supported_cover_of_finite_cover
+#print axioms StickyKakeya4.exists_supported_separated_net_of_finite_cover
+#print axioms StickyKakeya4.coveringNumber_le_extract_supported_separated_net
+#print axioms StickyKakeya4.coveringNumber_bounds_extract_supported_separated_nets
+#print axioms StickyKakeya4.finset_nonempty_of_coversAtRadius
+
+#check StickyKakeya4.coveringNumber_bounds_extract_supported_separated_nets

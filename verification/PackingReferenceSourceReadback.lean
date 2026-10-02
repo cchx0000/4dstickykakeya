@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_packing_reference_source
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.PackingReferenceSource.dyadicRadius
+#print axioms StickyKakeya4.PackingReferenceSource.dyadicRadius_pos
+#print axioms StickyKakeya4.PackingReferenceSource.ofReal_dyadicRadius
+#print axioms StickyKakeya4.PackingReferenceSource.dyadicScale_le_one
+#print axioms StickyKakeya4.PackingReferenceSource.exists_dyadic_reference_source
+#print axioms StickyKakeya4.PackingReferenceSource.unit_power_cover_implies_dyadic
+#print axioms StickyKakeya4.PackingReferenceSource.exists_packingDim_le_three_reference_source

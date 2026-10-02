@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_actual_reference_vertical_count
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.ActualSlopeSource.actual_source_dyadic_vertical_count
+#print axioms StickyKakeya4.ActualSlopeSource.actual_reference_cover_is_hereditary
+#print axioms StickyKakeya4.ActualSlopeSource.sticky_datum_exists_actual_vertical_reference_source

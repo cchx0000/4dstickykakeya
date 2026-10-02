@@ -3,6 +3,41 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Original packing hypothesis now supplies the fixed reference source
+
+The new original-data endpoint starts only from `IsStickyDatum ambient` and
+an arbitrary fixed `zeta > 0`. It constructs a positive measurable slope set
+`B`, the literal source `volume.restrict B`, and the original direction--offset
+carrier map. Its occupied separated dyadic net balls have lower reference
+mass `c tau^(3+zeta)`; their direction-ball counts are at most
+`A tau^(-zeta)`, uniformly in scale. Every later subset is covered by a live
+subfamily with the same upper count. The lower mass is asserted only for the
+fixed reference source, not for arbitrary descendants.
+
+This removes a missing source-regularization premise and avoids division by
+the mass of a later residual graph in the support-counting step. The proof
+uses genuine countable trimming, compact power-cover extraction from packing
+dimension, supported nets, overlap, and the actual north-direction density.
+The original marked segments retain their full common slab pointwise on B.
+
+A literal angular-shell module also constructs a logarithmic shell carrying
+the residual content after paying the short inverse-secant tail. A physical
+carrier lemma derives O(tau) proximity of each residual-shell edge in the
+original direction--offset carrier, keeping its actual old collision time
+and residual. The direct dimension-deficit composition now constructs arbitrarily fine
+shells with normalized radius `r = rho/tau` tending to zero, literal shell
+content exceeding `rho^(2-eta/2)`, and the exact scale-loss conversion
+`tau^(-zeta) <= r^(-4*zeta/eta)`. These are inputs to the next localized graph
+construction; shell mass and scale separation are proved rather than assumed.
+
+All **78** declarations in these twelve modules passed strict compilation
+and standard-only axiom readback, bringing the cumulative count to **715**.
+The nine-module reference construction has its own manifest and scope guide:
+[PACKING_REFERENCE_SOURCE_CHECKPOINT.md](PACKING_REFERENCE_SOURCE_CHECKPOINT.md).
+[PACKING_REFERENCE_SOURCE.md](../docs/PACKING_REFERENCE_SOURCE.md) explains the
+mathematics and the remaining anchor-reuse distinction. No final weighted
+transverse payment or removal of the existing WZ axiom is claimed.
+
 ## Quantitative residual-excess seed and integrated cover functional
 
 `NoFrostmanResidualExcess` now derives an arbitrarily fine excessive residual

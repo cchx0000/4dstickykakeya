@@ -1,0 +1,45 @@
+$ lake env lean -DautoImplicit=false verification/CompactPackingPowerPieceReadback.lean
+'StickyKakeya4.compact_packingDim_lt_extract_eventual_power_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.compact_packingDim_lt_extract_power_piece' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.compact_packingDim_le_three_extract_power_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.compact_packingDim_lt_extract_eventual_power_piece.{u_1} {Y : Type u_1} [MetricSpace Y]
+  [MeasurableSpace Y] (ν : MeasureTheory.Measure Y) (S : Set Y) (hS : IsCompact S) (hνS : 0 < ν S) {b : ENNReal}
+  (hpack : StickyKakeya4.packingDim S < b) :
+  ∃ K ⊆ S,
+    IsCompact K ∧
+      0 < ν K ∧
+        ∃ d < b,
+          d ≠ ⊤ ∧
+            ∃ C,
+              C ≠ ⊤ ∧
+                ∀ᶠ (r : ℝ) in nhdsWithin 0 (Set.Ioi 0),
+                  StickyKakeya4.coveringNumber K r ≤ C * (ENNReal.ofReal (r / 2)).rpow (-d.toReal)
+StickyKakeya4.compact_packingDim_lt_extract_power_piece.{u_1} {Y : Type u_1} [MetricSpace Y] [MeasurableSpace Y]
+  (ν : MeasureTheory.Measure Y) (S : Set Y) (hS : IsCompact S) (hνS : 0 < ν S) {b : ENNReal}
+  (hpack : StickyKakeya4.packingDim S < b) :
+  ∃ K ⊆ S,
+    IsCompact K ∧
+      0 < ν K ∧
+        ∃ d < b,
+          d ≠ ⊤ ∧
+            ∃ C,
+              C ≠ ⊤ ∧
+                ∀ (r : ℝ),
+                  0 < r → r ≤ 1 → StickyKakeya4.coveringNumber K r ≤ C * (ENNReal.ofReal (r / 2)).rpow (-d.toReal)
+StickyKakeya4.compact_packingDim_le_three_extract_power_piece.{u_1} {Y : Type u_1} [MetricSpace Y] [MeasurableSpace Y]
+  (ν : MeasureTheory.Measure Y) (S : Set Y) (hS : IsCompact S) (hνS : 0 < ν S) (hpack : StickyKakeya4.packingDim S ≤ 3)
+  {slack : ENNReal} (hslack : 0 < slack) :
+  ∃ K ⊆ S,
+    IsCompact K ∧
+      0 < ν K ∧
+        ∃ d < 3 + slack,
+          d ≠ ⊤ ∧
+            ∃ C,
+              C ≠ ⊤ ∧
+                ∀ (r : ℝ),
+                  0 < r → r ≤ 1 → StickyKakeya4.coveringNumber K r ≤ C * (ENNReal.ofReal (r / 2)).rpow (-d.toReal)
+exit=0

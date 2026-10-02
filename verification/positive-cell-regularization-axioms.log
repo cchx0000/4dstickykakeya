@@ -1,0 +1,47 @@
+$ lake env lean -DautoImplicit=false verification/PositiveCellRegularizationReadback.lean
+'StickyKakeya4.PositiveCellRegularization.stage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.stage_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.stage_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.measurableSet_stage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.firstCharge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.measure_firstCharge_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.stage_inter_subset_firstCharge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.stage_compl_subset_firstCharges' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.measurableSet_retained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.measure_retained_compl_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.retained_cell_zero_or_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.measure_retained_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.exists_positive_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.exists_positive_restriction_of_finite_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.dyadicScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.multiscale_weight_ne_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.exists_multiscale_positive_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveCellRegularization.exists_clean_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+exit=0

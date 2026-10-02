@@ -45,6 +45,14 @@ nonzero-secant cutoff. The actual selector supplies a proved bounded-density slo
 measurable intercept. The geometric power bound for its weighted residual
 content remains open. Existing shaded sources do not automatically supply it.
 
+The original packing hypothesis now constructs one fixed positive reference
+source before any residual graph: literal `volume|B`, original carrier map,
+pointwise common slab, occupied lower-mass nets, and uniform vertical counts
+`A tau^(-zeta)`. Live subfamilies preserve the upper support counts for every
+later subset. No later graph-mass denominator is used, and no lower mass for
+arbitrary descendants is asserted. See
+[the reference-source guide](docs/PACKING_REFERENCE_SOURCE.md).
+
 ## 5. Finite occurrence-flow conservation
 
 The scalar forest ledger is compiled. The new measure-valued ledger is compiled
@@ -144,7 +152,7 @@ Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
 tracked build at `5af3ed9` passed all **149** committed modules and **8,856** Lake
 jobs; subsequent residual-excess and cover-functional modules have strict checks;
-there are now **637** checked new declarations with only standard logical
+there are now **715** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the

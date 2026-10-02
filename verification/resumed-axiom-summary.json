@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T09:45:26.121437+00:00",
-  "previous_checkpoint": "5af3ed97a3d2d213a52b01f7afebe87f8d27690d",
+  "generated_at_utc": "2026-10-02T10:10:33.675070+00:00",
+  "previous_checkpoint": "d9760db7490a054701554dd4ac2b3f8b6e19bb27",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 637,
+  "total_new_checked_declarations": 715,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -38,7 +38,19 @@
     "verification/no-frostman-weighted-residual-decay-axioms.log": 4,
     "verification/hausdorff-bush-routing-axioms.log": 30,
     "verification/no-frostman-residual-excess-axioms.log": 6,
-    "verification/cover-routed-residual-readback.log": 5
+    "verification/cover-routed-residual-readback.log": 5,
+    "verification/positive-cell-regularization-axioms.log": 19,
+    "verification/packing-reference-nets-axioms.log": 5,
+    "verification/compact-packing-power-piece-axioms.log": 3,
+    "verification/packing-reference-source-axioms.log": 7,
+    "verification/actual-packing-reference-source-axioms.log": 5,
+    "verification/packing-reference-overlap-axioms.log": 5,
+    "verification/packing-vertical-count-axioms.log": 5,
+    "verification/north-slope-direction-density-axioms.log": 6,
+    "verification/actual-reference-vertical-count-axioms.log": 3,
+    "verification/angular-residual-shell-readback.log": 10,
+    "verification/residual-carrier-proximity-axioms.log": 4,
+    "verification/angular-residual-excess-readback.log": 6
   },
   "checks": [
     {
@@ -4950,6 +4962,708 @@
         "Quot.sound"
       ],
       "log": "verification/cover-routed-residual-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.stage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.stage_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.stage_antitone",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.measurableSet_stage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.firstCharge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.measure_firstCharge_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.stage_inter_subset_firstCharge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.stage_compl_subset_firstCharges",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.retained",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.measurableSet_retained",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.measure_retained_compl_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.retained_cell_zero_or_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.measure_retained_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.exists_positive_restriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.exists_positive_restriction_of_finite_weight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.dyadicScale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.multiscale_weight_ne_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.exists_multiscale_positive_restriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveCellRegularization.exists_clean_restriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_supported_cover_of_finite_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_supported_separated_net_of_finite_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.coveringNumber_le_extract_supported_separated_net",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.coveringNumber_bounds_extract_supported_separated_nets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.finset_nonempty_of_coversAtRadius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.compact_packingDim_lt_extract_eventual_power_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compact-packing-power-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.compact_packingDim_lt_extract_power_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compact-packing-power-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.compact_packingDim_le_three_extract_power_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compact-packing-power-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PackingReferenceSource.dyadicRadius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PackingReferenceSource.dyadicRadius_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PackingReferenceSource.ofReal_dyadicRadius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PackingReferenceSource.dyadicScale_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PackingReferenceSource.exists_dyadic_reference_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PackingReferenceSource.unit_power_cover_implies_dyadic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PackingReferenceSource.exists_packingDim_le_three_reference_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.slopeCarrierMap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.measurable_slopeCarrierMap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.slopeCarrierMap_mem_lineCarrier",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_reference_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sticky_datum_exists_actual_reference_restriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-packing-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.image_separated_card_le_finite_cover_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-overlap-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_uniform_separated_ball_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-overlap-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_uniform_separated_ball_overlap_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-overlap-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.sum_measure_le_mul_of_multiplicity_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-overlap-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.card_mul_le_mul_measure_of_mass_lower_and_overlap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-reference-overlap-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.direction_ball_card_mul_le_of_mass_lower_and_overlap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-vertical-count-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ennreal_cubic_reference_power_cancel",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-vertical-count-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_uniform_vertical_reference_count_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-vertical-count-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.coversAtRadius_mono_set",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-vertical-count-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_hereditary_reference_subfamily_with_vertical_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packing-vertical-count-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.northSlopeLift_norm_le_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/north-slope-direction-density-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth_ge_half_of_norm_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/north-slope-direction-density-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.northSlopeDirection_inverse_dist_le_six_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/north-slope-direction-density-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.northSlopeDirection_cap_preimage_subset_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/north-slope-direction-density-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.northSlopeDirection_map_ball_le_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/north-slope-direction-density-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.exists_northSlopeDirection_cubic_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/north-slope-direction-density-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.actual_source_dyadic_vertical_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-reference-vertical-count-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.actual_reference_cover_is_hereditary",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-reference-vertical-count-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sticky_datum_exists_actual_vertical_reference_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-reference-vertical-count-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.short_inverse_tail_le_of_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.slope_pair_short_inverse_tail_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.slope_pair_secant_pos_ae",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.slope_pair_short_inverse_tail_including_diagonal_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.angularShellContent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.exists_dyadic_shell_of_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.weightedResidualContent_le_short_tail_add_shells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.exists_shell_carrying_residual_content",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.exists_slope_shell_carrying_residual_content",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualShell.exists_bounded_dyadic_slope_shell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-shell-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.offset_eq_fixedHeightPoint_sub_projection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-carrier-proximity-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.offset_dist_le_point_direction_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-carrier-proximity-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.fixedHeightPoint_norm_le_offset_height_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-carrier-proximity-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.residual_shell_carrier_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-carrier-proximity-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualExcess.eventually_log_shell_cost_small",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-excess-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualExcess.eventually_shell_excess_of_full_excess",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-excess-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualExcess.scaled_radius_le_rpow",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-excess-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualExcess.angular_loss_le_scaled_radius_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-excess-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualExcess.arbitrarily_fine_shell_excess_of_full_excess",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-excess-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AngularResidualExcess.arbitrarily_fine_shell_excess_of_dimH_lt_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/angular-residual-excess-readback.log"
     }
   ],
   "source_sha256": {
@@ -4987,7 +5701,19 @@
     "Theorems/Thm_StickyKakeya4_no_frostman_weighted_residual_decay.lean": "86a327b0afe9a853f3c00505ddbcf55bf15a32802b817edaf9224049105e9bde",
     "Theorems/Thm_StickyKakeya4_hausdorff_bush_routing.lean": "c2457ebba1c73748fcf1a1ff299f038d9561d8c10edc7aafad51d859156654e8",
     "Theorems/Thm_StickyKakeya4_no_frostman_residual_excess.lean": "399d23e628087732513dc0629e4c60d0d354815d686be849d770a6b0dc70811f",
-    "Theorems/Thm_StickyKakeya4_cover_routed_residual_bound.lean": "f8444714ad5e961a898723bdfe4748770ac05b01a60cfa69936fa450d7200e5c"
+    "Theorems/Thm_StickyKakeya4_cover_routed_residual_bound.lean": "f8444714ad5e961a898723bdfe4748770ac05b01a60cfa69936fa450d7200e5c",
+    "Theorems/Thm_StickyKakeya4_positive_cell_regularization.lean": "1177e4c99e839a23260eedbba0f474204118b4c7a833db4ea7e047f0e5f50c35",
+    "Theorems/Thm_StickyKakeya4_packing_reference_nets.lean": "6c9bc28ebf1ace33fc7a789a3bec277b554ac2ee39574a195c0d65a9d0615d87",
+    "Theorems/Thm_StickyKakeya4_compact_packing_power_piece.lean": "1a0482b4f59a177b82b6960e0e6470c8daf8bcb87775a98e1436a800446e044f",
+    "Theorems/Thm_StickyKakeya4_packing_reference_source.lean": "46494ba920c86fb03a849b21387be5073e69d2565a382b3db13726e288e4ff07",
+    "Theorems/Thm_StickyKakeya4_actual_packing_reference_source.lean": "64cf6b7546d1e2cf9f81330fc4caa6b64d7306ec9de512fb8613cdbbb7dd32e4",
+    "Theorems/Thm_StickyKakeya4_packing_reference_overlap.lean": "2e5c65c247cd6d0f0058ec4dc52fbfb9040038307a52212fa78879fa1340408c",
+    "Theorems/Thm_StickyKakeya4_packing_vertical_count.lean": "c98a3f994444eaef5310d0176dc49a9784c89d4f8e7c012bff46355eb093c46c",
+    "Theorems/Thm_StickyKakeya4_north_slope_direction_density.lean": "c78246ee9d034f5255b0041e72062685b0c0cd7653f55038de6c74ca31f70db2",
+    "Theorems/Thm_StickyKakeya4_actual_reference_vertical_count.lean": "d1bfb36e121b98c57d7fcfe4c7635306552cf2a04cdf75fa993b1f989828fa05",
+    "Theorems/Thm_StickyKakeya4_angular_residual_shell.lean": "c6bf461f35616d82052a2a8c55d33948e920e105cbee2e6171df2ee934c88214",
+    "Theorems/Thm_StickyKakeya4_residual_carrier_proximity.lean": "9ba941732e530de601633c36931f2cae5cdcc7a2eaae711a2448345369026941",
+    "Theorems/Thm_StickyKakeya4_angular_residual_excess.lean": "3b05affed2aba51f93c3a89a9bc0faa1eeebdb0e0f16983f9719778cbf39f587"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -5008,5 +5734,5 @@
     "exit_code": 1,
     "log": "verification/rigidity-main-axiom-gate.log"
   },
-  "resumed_phase_declaration_count": 546
+  "resumed_phase_declaration_count": 624
 }

@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_actual_packing_reference_source
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.ActualSlopeSource.slopeCarrierMap
+#print axioms StickyKakeya4.ActualSlopeSource.measurable_slopeCarrierMap
+#print axioms StickyKakeya4.ActualSlopeSource.slopeCarrierMap_mem_lineCarrier
+#print axioms StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_reference_source
+#print axioms StickyKakeya4.ActualSlopeSource.sticky_datum_exists_actual_reference_restriction

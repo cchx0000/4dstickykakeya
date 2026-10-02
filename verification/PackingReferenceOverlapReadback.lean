@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_packing_reference_overlap
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.image_separated_card_le_finite_cover_card
+#print axioms StickyKakeya4.exists_uniform_separated_ball_card_bound
+#print axioms StickyKakeya4.exists_uniform_separated_ball_overlap_bound
+#print axioms StickyKakeya4.sum_measure_le_mul_of_multiplicity_bound
+#print axioms StickyKakeya4.card_mul_le_mul_measure_of_mass_lower_and_overlap
+
+#check StickyKakeya4.exists_uniform_separated_ball_overlap_bound
+#check StickyKakeya4.card_mul_le_mul_measure_of_mass_lower_and_overlap

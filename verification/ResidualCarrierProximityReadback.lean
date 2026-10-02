@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_residual_carrier_proximity
+set_option autoImplicit false
+#print axioms StickyKakeya4.offset_eq_fixedHeightPoint_sub_projection
+#print axioms StickyKakeya4.offset_dist_le_point_direction_dist
+#print axioms StickyKakeya4.fixedHeightPoint_norm_le_offset_height_bound
+#print axioms StickyKakeya4.residual_shell_carrier_dist_le

@@ -1,0 +1,96 @@
+{
+  "modules": [
+    {
+      "module": "Theorems/Thm_StickyKakeya4_positive_cell_regularization.lean",
+      "public_declarations": 19,
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true,
+      "readback": "verification/PositiveCellRegularizationReadback.lean",
+      "source_log": "verification/positive-cell-regularization-strict.log",
+      "axiom_log": "verification/positive-cell-regularization-axioms.log"
+    },
+    {
+      "module": "Theorems/Thm_StickyKakeya4_packing_reference_nets.lean",
+      "public_declarations": 5,
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true,
+      "readback": "verification/PackingReferenceNetsReadback.lean",
+      "source_log": "verification/packing-reference-nets-build.log",
+      "axiom_log": "verification/packing-reference-nets-axioms.log"
+    },
+    {
+      "module": "Theorems/Thm_StickyKakeya4_compact_packing_power_piece.lean",
+      "public_declarations": 3,
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true,
+      "readback": "verification/CompactPackingPowerPieceReadback.lean",
+      "source_log": "verification/compact-packing-power-piece-build.log",
+      "axiom_log": "verification/compact-packing-power-piece-axioms.log"
+    },
+    {
+      "module": "Theorems/Thm_StickyKakeya4_packing_reference_source.lean",
+      "public_declarations": 7,
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true,
+      "readback": "verification/PackingReferenceSourceReadback.lean",
+      "source_log": "verification/packing-reference-source-strict.log",
+      "axiom_log": "verification/packing-reference-source-axioms.log"
+    },
+    {
+      "module": "Theorems/Thm_StickyKakeya4_actual_packing_reference_source.lean",
+      "public_declarations": 5,
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true,
+      "readback": "verification/ActualPackingReferenceSourceReadback.lean",
+      "source_log": "verification/actual-packing-reference-source-strict.log",
+      "axiom_log": "verification/actual-packing-reference-source-axioms.log"
+    },
+    {
+      "module": "Theorems/Thm_StickyKakeya4_packing_reference_overlap.lean",
+      "public_declarations": 5,
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true,
+      "readback": "verification/PackingReferenceOverlapReadback.lean",
+      "source_log": "verification/packing-reference-overlap-build.log",
+      "axiom_log": "verification/packing-reference-overlap-axioms.log"
+    },
+    {
+      "module": "Theorems/Thm_StickyKakeya4_packing_vertical_count.lean",
+      "public_declarations": 5,
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true,
+      "readback": "verification/PackingVerticalCountReadback.lean",
+      "source_log": "verification/packing-vertical-count-build.log",
+      "axiom_log": "verification/packing-vertical-count-axioms.log"
+    },
+    {
+      "module": "Theorems/Thm_StickyKakeya4_north_slope_direction_density.lean",
+      "public_declarations": 6,
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true,
+      "readback": "verification/NorthSlopeDirectionDensityReadback.lean",
+      "source_log": "verification/north-slope-direction-density-build.log",
+      "axiom_log": "verification/north-slope-direction-density-axioms.log"
+    },
+    {
+      "module": "Theorems/Thm_StickyKakeya4_actual_reference_vertical_count.lean",
+      "public_declarations": 3,
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true,
+      "readback": "verification/ActualReferenceVerticalCountReadback.lean",
+      "source_log": "verification/actual-reference-vertical-count-strict.log",
+      "axiom_log": "verification/actual-reference-vertical-count-axioms.log"
+    }
+  ],
+  "total_public_declarations": 58,
+  "scope": "Targeted strict build and complete public-declaration axiom audit of nine new modules; no full-project or final-theorem success is asserted."
+}

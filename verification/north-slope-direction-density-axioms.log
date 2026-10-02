@@ -1,0 +1,30 @@
+$ lake env lean -DautoImplicit=false verification/NorthSlopeDirectionDensityReadback.lean
+'StickyKakeya4.ActualSlopeSource.northSlopeLift_norm_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.northSlopeDirection_fourth_ge_half_of_norm_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.northSlopeDirection_inverse_dist_le_six_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.northSlopeDirection_cap_preimage_subset_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.northSlopeDirection_map_ball_le_cubic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.exists_northSlopeDirection_cubic_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.ActualSlopeSource.northSlopeDirection_map_ball_le_cubic (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  (hσ : σ ≤ MeasureTheory.volume) (hslopes : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) (theta : StickyKakeya4.E4) (r : ℝ) :
+  (MeasureTheory.Measure.map (fun a => ↑(StickyKakeya4.northSlopeDirection a)) σ) (Metric.ball theta r) ≤
+    ENNReal.ofReal (Real.pi * 4 / 3) * 12 ^ 3 * ENNReal.ofReal r ^ 3
+StickyKakeya4.ActualSlopeSource.exists_northSlopeDirection_cubic_density (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  (hσ : σ ≤ MeasureTheory.volume) (hslopes : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) :
+  ∃ D,
+    D ≠ ⊤ ∧
+      ∀ (theta : StickyKakeya4.E4) (r : ℝ),
+        0 < r →
+          (MeasureTheory.Measure.map (fun a => ↑(StickyKakeya4.northSlopeDirection a)) σ) (Metric.ball theta r) ≤
+            D * ENNReal.ofReal r ^ 3
+exit=0

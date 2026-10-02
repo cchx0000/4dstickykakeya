@@ -1,0 +1,30 @@
+'StickyKakeya4.AngularResidualShell.short_inverse_tail_le_of_cubic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualShell.slope_pair_short_inverse_tail_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualShell.slope_pair_secant_pos_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.AngularResidualShell.slope_pair_short_inverse_tail_including_diagonal_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualShell.angularShellContent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.AngularResidualShell.exists_dyadic_shell_of_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualShell.weightedResidualContent_le_short_tail_add_shells' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualShell.exists_shell_carrying_residual_content' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualShell.exists_slope_shell_carrying_residual_content' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AngularResidualShell.exists_bounded_dyadic_slope_shell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+# Verified command
+ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache lake env lean -DautoImplicit=false verification/angular-residual-shell-readback.lean > verification/angular-residual-shell-readback.log 2>&1
+# Verified exit status: 0
