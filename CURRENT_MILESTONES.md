@@ -52,7 +52,9 @@ shadings. The new global terminal theorem is compiled and axiom-checked:
 - a single global reversal allowance changes 8 to 16
 
 The integrated forest theorem derives that terminal budget from nodewise
-conservation. Still open: the actual hereditary routing construction,
+conservation. Checked Markov-kernel lemmas now derive inherited endpoint
+preservation and density-root domination for actual probability-label
+extensions and disjoint fractional restrictions. Still open: the actual hereditary routing construction,
 endpoint-preserving extensions, geometric root/support hypotheses, stopping
 schedule, and paid/cross-cap bounds. None is replaced by a hidden capacity field.
 

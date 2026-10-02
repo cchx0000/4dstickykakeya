@@ -1,0 +1,134 @@
+@StickyKakeya4.MarkovEndpointPreservation.extension_fst : ∀ {Ω : Type u_1} {L : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace L] (μ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite μ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ],
+  MeasureTheory.Measure.map Prod.fst (μ.compProd κ) = μ
+@StickyKakeya4.MarkovEndpointPreservation.extension_endpoint : ∀ {Ω : Type u_1} {L : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace Y] (μ : MeasureTheory.Measure Ω)
+  [MeasureTheory.SFinite μ] (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] (endpoint : Ω → Y),
+  Measurable endpoint →
+    MeasureTheory.Measure.map (fun p => endpoint p.1) (μ.compProd κ) = MeasureTheory.Measure.map endpoint μ
+@StickyKakeya4.MarkovEndpointPreservation.extension_mass : ∀ {Ω : Type u_1} {L : Type u_2} [inst : MeasurableSpace Ω]
+  [inst_1 : MeasurableSpace L] (μ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite μ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ], (μ.compProd κ) Set.univ = μ Set.univ
+@StickyKakeya4.MarkovEndpointPreservation.submeasure_endpoint_le : ∀ {Ω : Type u_1} {L : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace Y] (μ : MeasureTheory.Measure Ω)
+  [MeasureTheory.SFinite μ] (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ],
+  ∀ ν ≤ μ.compProd κ,
+    ∀ (endpoint : Ω → Y),
+      Measurable endpoint → MeasureTheory.Measure.map (fun p => endpoint p.1) ν ≤ MeasureTheory.Measure.map endpoint μ
+@StickyKakeya4.MarkovEndpointPreservation.restriction_endpoint_le : ∀ {Ω : Type u_1} {L : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace Y] (μ : MeasureTheory.Measure Ω)
+  [MeasureTheory.SFinite μ] (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] (s : Set (Ω × L))
+  (endpoint : Ω → Y),
+  Measurable endpoint →
+    MeasureTheory.Measure.map (fun p => endpoint p.1) ((μ.compProd κ).restrict s) ≤ MeasureTheory.Measure.map endpoint μ
+@StickyKakeya4.MarkovEndpointPreservation.density_le : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (μ : MeasureTheory.Measure Ω) {f : Ω → ENNReal}, (∀ᵐ (x : Ω) ∂μ, f x ≤ 1) → μ.withDensity f ≤ μ
+@StickyKakeya4.MarkovEndpointPreservation.fractional_endpoint_le : ∀ {Ω : Type u_1} {L : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace Y] (μ : MeasureTheory.Measure Ω)
+  [MeasureTheory.SFinite μ] (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ]
+  {f : Ω × L → ENNReal},
+  (∀ᵐ (p : Ω × L) ∂μ.compProd κ, f p ≤ 1) →
+    ∀ (endpoint : Ω → Y),
+      Measurable endpoint →
+        MeasureTheory.Measure.map (fun p => endpoint p.1) ((μ.compProd κ).withDensity f) ≤
+          MeasureTheory.Measure.map endpoint μ
+@StickyKakeya4.MarkovEndpointPreservation.fractional_extension_endpoint_le : ∀ {Ω : Type u_1} {L : Type u_2}
+  {Y : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace Y] {N : Type u_4}
+  [inst_3 : MeasurableSpace N] (μ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite μ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsMarkovKernel κ] {f : Ω × L → ENNReal},
+  (∀ᵐ (p : Ω × L) ∂μ.compProd κ, f p ≤ 1) →
+    ∀ (η : ProbabilityTheory.Kernel (Ω × L) N) [ProbabilityTheory.IsMarkovKernel η] (endpoint : Ω → Y),
+      Measurable endpoint →
+        MeasureTheory.Measure.map (fun p => endpoint p.1.1) (((μ.compProd κ).withDensity f).compProd η) ≤
+          MeasureTheory.Measure.map endpoint μ
+@StickyKakeya4.MarkovEndpointPreservation.sum_subrestrictions_le : ∀ {Ω : Type u_1} {I : Type u_2}
+  [inst : MeasurableSpace Ω] [Countable I] (μ : MeasureTheory.Measure Ω) (pieces : I → Set Ω),
+  (∀ (i : I), MeasurableSet (pieces i)) →
+    (Pairwise fun i j => Disjoint (pieces i) (pieces j)) →
+      ∀ (ν : I → MeasureTheory.Measure Ω), (∀ (i : I), ν i ≤ μ.restrict (pieces i)) → MeasureTheory.Measure.sum ν ≤ μ
+@StickyKakeya4.MarkovEndpointPreservation.sum_endpoint_le : ∀ {Ω : Type u_1} {Y : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace Y] (μ : MeasureTheory.Measure Ω)
+  (ν : I → MeasureTheory.Measure Ω),
+  MeasureTheory.Measure.sum ν ≤ μ →
+    ∀ (endpoint : Ω → Y),
+      Measurable endpoint →
+        (MeasureTheory.Measure.sum fun i => MeasureTheory.Measure.map endpoint (ν i)) ≤
+          MeasureTheory.Measure.map endpoint μ
+@StickyKakeya4.MarkovEndpointPreservation.sum_extensions_endpoint_le : ∀ {Ω : Type u_1} {Y : Type u_2} {I : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace Y] (Labels : I → Type u_4)
+  [inst_2 : (i : I) → MeasurableSpace (Labels i)] (μ : MeasureTheory.Measure Ω) (ν : I → MeasureTheory.Measure Ω)
+  [∀ (i : I), MeasureTheory.SFinite (ν i)],
+  MeasureTheory.Measure.sum ν ≤ μ →
+    ∀ (κ : (i : I) → ProbabilityTheory.Kernel Ω (Labels i)) [∀ (i : I), ProbabilityTheory.IsMarkovKernel (κ i)]
+      (endpoint : Ω → Y),
+      Measurable endpoint →
+        (MeasureTheory.Measure.sum fun i => MeasureTheory.Measure.map (fun p => endpoint p.1) ((ν i).compProd (κ i))) ≤
+          MeasureTheory.Measure.map endpoint μ
+@StickyKakeya4.MarkovEndpointPreservation.root_density_le_product : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  (σ : MeasureTheory.Measure X) {h : X × X → ENNReal},
+  (∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) → (σ.prod σ).withDensity h ≤ σ.prod σ
+@StickyKakeya4.MarkovEndpointPreservation.root_extension_endpoint_eq : ∀ {L : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace L] [inst_1 : MeasurableSpace X] (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ]
+  (h : X × X → ENNReal) (κ : ProbabilityTheory.Kernel (X × X) L) [ProbabilityTheory.IsMarkovKernel κ],
+  MeasureTheory.Measure.map Prod.fst (((σ.prod σ).withDensity h).compProd κ) = (σ.prod σ).withDensity h
+@StickyKakeya4.MarkovEndpointPreservation.root_extension_endpoint_le_product : ∀ {L : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace L] [inst_1 : MeasurableSpace X] (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ]
+  {h : X × X → ENNReal},
+  (∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) →
+    ∀ (κ : ProbabilityTheory.Kernel (X × X) L) [ProbabilityTheory.IsMarkovKernel κ],
+      MeasureTheory.Measure.map Prod.fst (((σ.prod σ).withDensity h).compProd κ) ≤ σ.prod σ
+@StickyKakeya4.MarkovEndpointPreservation.root_submeasure_endpoint_le_product : ∀ {L : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace L] [inst_1 : MeasurableSpace X] (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ]
+  {h : X × X → ENNReal},
+  (∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) →
+    ∀ (κ : ProbabilityTheory.Kernel (X × X) L) [ProbabilityTheory.IsMarkovKernel κ],
+      ∀ ν ≤ ((σ.prod σ).withDensity h).compProd κ, MeasureTheory.Measure.map Prod.fst ν ≤ σ.prod σ
+@StickyKakeya4.MarkovEndpointPreservation.root_disjoint_subrestrictions_endpoint_le_product : ∀ {L : Type u_1}
+  {X : Type u_2} {I : Type u_3} [inst : MeasurableSpace L] [inst_1 : MeasurableSpace X] [Countable I]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] {h : X × X → ENNReal},
+  (∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) →
+    ∀ (κ : ProbabilityTheory.Kernel (X × X) L) [ProbabilityTheory.IsMarkovKernel κ] (pieces : I → Set ((X × X) × L)),
+      (∀ (i : I), MeasurableSet (pieces i)) →
+        (Pairwise fun i j => Disjoint (pieces i) (pieces j)) →
+          ∀ (ν : I → MeasureTheory.Measure ((X × X) × L)),
+            (∀ (i : I), ν i ≤ (((σ.prod σ).withDensity h).compProd κ).restrict (pieces i)) →
+              (MeasureTheory.Measure.sum fun i => MeasureTheory.Measure.map Prod.fst (ν i)) ≤ σ.prod σ
+'StickyKakeya4.MarkovEndpointPreservation.extension_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.extension_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.extension_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.submeasure_endpoint_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.restriction_endpoint_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.density_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.fractional_endpoint_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.fractional_extension_endpoint_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.sum_subrestrictions_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.sum_endpoint_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.sum_extensions_endpoint_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.root_density_le_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.root_extension_endpoint_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.root_extension_endpoint_le_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.root_submeasure_endpoint_le_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MarkovEndpointPreservation.root_disjoint_subrestrictions_endpoint_le_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

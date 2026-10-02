@@ -258,3 +258,22 @@ cutoffs; its intended next step is the Tonelli residual-content integral bound.
 The Markov draft uses actual probability-kernel extensions to preserve endpoint
 marginals and transfers a bounded root density to product-measure domination.
 Successful checks and any corrections will be recorded in later checkpoints.
+
+## Checked probability-label preservation
+
+The Markov draft mentioned in the preceding checkpoint is now compiled with
+16 standard-only axiom readbacks, saved in `markov-endpoint-axioms.log`. The
+residual draft's status remains separate and pending.
+
+The checked Markov results use `Measure.compProd` with genuine Markov kernels:
+original marginals and every measurable inherited endpoint law are preserved
+exactly. Fractional restrictions, subsequent probability extensions,
+destination-specific label spaces, and countable disjoint label-dependent cuts
+preserve the original measure budget. A root edge density bounded by one is
+proved dominated by the original selector product, and the endpoint budget
+survives those actual constructions.
+
+This still does not construct the original geometric routing or its
+disintegration in equation (419). It supplies the explicit probability-kernel
+calculus once those kernels and cuts are supplied, without assuming a false
+bound on the normalized old-neighbor density.

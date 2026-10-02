@@ -53,16 +53,16 @@ for index, name in enumerate(order, 1):
         print(f'[{index}/{len(order)}] BLOCKED {name}: {", ".join(blocked)}', flush=True)
     else:
         print(f'[{index}/{len(order)}] BUILDING {name}', flush=True)
-        result = subprocess.run(['lake', 'build', name], cwd=ROOT,
-                                stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-                                text=True)
         logfile = LOGS / (name + '.log')
-        logfile.write_text(result.stdout)
+        with logfile.open('w') as output:
+            result = subprocess.run(['lake', 'build', name], cwd=ROOT,
+                                    stdout=output, stderr=subprocess.STDOUT,
+                                    text=True)
         label = 'passed' if result.returncode == 0 else 'failed'
         status[name] = {'status': label, 'exit_code': result.returncode,
                         'log': str(logfile.relative_to(ROOT))}
         print(f'[{index}/{len(order)}] {label.upper()} {name}', flush=True)
         if result.returncode:
-            print(result.stdout[-12000:], flush=True)
+            print(logfile.read_text()[-12000:], flush=True)
     (LOGS / 'status.json').write_text(json.dumps(status, indent=2) + '\n')
 sys.exit(1 if any(s['status'] != 'passed' for s in status.values()) else 0)
