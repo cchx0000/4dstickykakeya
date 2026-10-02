@@ -1,0 +1,45 @@
+StickyKakeya4.SphereTerminalBand.closedBall_le_cubic (σ : MeasureTheory.Measure { theta // ‖theta‖ = 1 })
+  (hσ : σ ≤ ↑StickyKakeya4.normSphereProbability) (theta : { theta // ‖theta‖ = 1 }) {T : ℝ} (hT : 0 < T)
+  (hTsmall : 3 * T ≤ 1) :
+  σ (Metric.closedBall theta (2 * T)) ≤ 27 * StickyKakeya4.metricSphereCapConstant * ENNReal.ofReal T ^ 3
+StickyKakeya4.SphereTerminalBand.product_band_le_cubic (σ : MeasureTheory.Measure { theta // ‖theta‖ = 1 })
+  [MeasureTheory.SFinite σ] (hσ : σ ≤ ↑StickyKakeya4.normSphereProbability) {T : ℝ} (hT : 0 < T) (hTsmall : 3 * T ≤ 1) :
+  (σ.prod σ) (StickyKakeya4.GlobalTerminalBand.directionBand id (2 * T)) ≤
+    27 * StickyKakeya4.metricSphereCapConstant * σ Set.univ * ENNReal.ofReal T ^ 3
+StickyKakeya4.SphereTerminalBand.terminal_mass_le_cubic.{u_1} {I : Type u_1}
+  (σ : MeasureTheory.Measure { theta // ‖theta‖ = 1 }) [MeasureTheory.SFinite σ]
+  (hσ : σ ≤ ↑StickyKakeya4.normSphereProbability)
+  (root : MeasureTheory.Measure ({ theta // ‖theta‖ = 1 } × { theta // ‖theta‖ = 1 }))
+  (terminal : I → MeasureTheory.Measure ({ theta // ‖theta‖ = 1 } × { theta // ‖theta‖ = 1 })) {T : ℝ} (hT : 0 < T)
+  (hTsmall : 3 * T ≤ 1) (hbudget : MeasureTheory.Measure.sum terminal ≤ root) (hroot : root ≤ σ.prod σ)
+  (hsupport : ∀ (i : I), (terminal i) (StickyKakeya4.GlobalTerminalBand.directionBand id (2 * T))ᶜ = 0) :
+  ∑' (i : I), (terminal i) Set.univ ≤ 27 * StickyKakeya4.metricSphereCapConstant * σ Set.univ * ENNReal.ofReal T ^ 3
+StickyKakeya4.SphereTerminalBand.terminal_mass_le_quadratic.{u_1} {I : Type u_1}
+  (σ : MeasureTheory.Measure { theta // ‖theta‖ = 1 }) [MeasureTheory.SFinite σ]
+  (hσ : σ ≤ ↑StickyKakeya4.normSphereProbability)
+  (root : MeasureTheory.Measure ({ theta // ‖theta‖ = 1 } × { theta // ‖theta‖ = 1 }))
+  (terminal : I → MeasureTheory.Measure ({ theta // ‖theta‖ = 1 } × { theta // ‖theta‖ = 1 })) (q : ENNReal) {T : ℝ}
+  (hT : 0 < T) (hTsmall : 3 * T ≤ 1) (hbudget : MeasureTheory.Measure.sum terminal ≤ root) (hroot : root ≤ σ.prod σ)
+  (hsupport : ∀ (i : I), (terminal i) (StickyKakeya4.GlobalTerminalBand.directionBand id (2 * T))ᶜ = 0)
+  (hscale : ENNReal.ofReal T ^ 3 ≤ σ Set.univ * q) :
+  ∑' (i : I), (terminal i) Set.univ ≤ 27 * StickyKakeya4.metricSphereCapConstant * σ Set.univ ^ 2 * q
+StickyKakeya4.SphereTerminalBand.measure_forest_terminal_mass_le_quadratic.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {n : ℕ} (tree : StickyKakeya4.NestedCarrierTree n) (incoming paid terminal : Fin n → MeasureTheory.Measure Ω)
+  (hconserve : ∀ (i : Fin n), incoming i = paid i + terminal i + ∑ j, if tree.parent j = some i then incoming j else 0)
+  (endpoint : Ω → { theta // ‖theta‖ = 1 } × { theta // ‖theta‖ = 1 }) (hendpoint : Measurable endpoint)
+  (σ : MeasureTheory.Measure { theta // ‖theta‖ = 1 }) [MeasureTheory.SFinite σ]
+  (hσ : σ ≤ ↑StickyKakeya4.normSphereProbability) (q : ENNReal) {T : ℝ} (hT : 0 < T) (hTsmall : 3 * T ≤ 1)
+  (hroot : MeasureTheory.Measure.map endpoint (∑ i, if tree.parent i = none then incoming i else 0) ≤ σ.prod σ)
+  (hsupport :
+    ∀ (i : Fin n),
+      (MeasureTheory.Measure.map endpoint (terminal i)) (StickyKakeya4.GlobalTerminalBand.directionBand id (2 * T))ᶜ =
+        0)
+  (hscale : ENNReal.ofReal T ^ 3 ≤ σ Set.univ * q) :
+  ∑ i, (terminal i) Set.univ ≤ 27 * StickyKakeya4.metricSphereCapConstant * σ Set.univ ^ 2 * q
+'StickyKakeya4.SphereTerminalBand.closedBall_le_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SphereTerminalBand.product_band_le_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SphereTerminalBand.terminal_mass_le_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SphereTerminalBand.terminal_mass_le_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.SphereTerminalBand.measure_forest_terminal_mass_le_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

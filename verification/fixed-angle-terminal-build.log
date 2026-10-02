@@ -1,0 +1,10 @@
+Verified sequentially with ELAN_HOME=/workspace/shared/lean-tools/elan, XDG_CACHE_HOME=/workspace/shared/lean-tools/cache, LEAN_NUM_THREADS=2.
+lake env lean -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_fixed_angle_terminal_vanishing.olean Theorems/Thm_StickyKakeya4_fixed_angle_terminal_vanishing.lean
+Source compilation: exit 0; no Lean diagnostics.
+lake env lean verification/FixedAngleTerminalReadback.lean
+Readback compilation: exit 0; statements and axiom lists are in fixed-angle-terminal-axioms.log.
+962dfa6303c27bfcddb3fb57f2188b2d25a28dd40188a5b390d3608c8abd6224  Theorems/Thm_StickyKakeya4_fixed_angle_terminal_vanishing.lean
+335ee766cab33a0399e3740f4b81faedbb83cf02e10868aade56d86c02b02eee  verification/FixedAngleTerminalReadback.lean
+
+Strictness refinement: lake env lean -DautoImplicit=false Theorems/Thm_StickyKakeya4_fixed_angle_terminal_vanishing.lean
+Explicit autoImplicit=false source compilation: exit 0

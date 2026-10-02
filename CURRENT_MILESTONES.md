@@ -54,7 +54,11 @@ shadings. The new global terminal theorem is compiled and axiom-checked:
 The integrated forest theorem derives that terminal budget from nodewise
 conservation. Checked Markov-kernel lemmas now derive inherited endpoint
 preservation and density-root domination for actual probability-label
-extensions and disjoint fractional restrictions. Still open: the actual hereditary routing construction,
+extensions and disjoint fractional restrictions. The actual old-neighbor
+conditional law and degree-density disintegration are now constructed with
+standard-Borel kernels. A checked fixed-angle guardrail shows that shrinking
+terminal caps alone leaves all unpaid root mass in the cross-cap complement.
+Still open: the actual hereditary routing construction,
 endpoint-preserving extensions, geometric root/support hypotheses, stopping
 schedule, and paid/cross-cap bounds. None is replaced by a hidden capacity field.
 

@@ -277,3 +277,47 @@ This still does not construct the original geometric routing or its
 disintegration in equation (419). It supplies the explicit probability-kernel
 calculus once those kernels and cuts are supplied, without assuming a false
 bound on the normalized old-neighbor density.
+
+## Constructed old-neighbor conditional law
+
+`Thm_StickyKakeya4_old_neighbor_disintegration` now compiles and has seventeen
+standard-only declaration readbacks. For finite ordered-pair measures on a
+nonempty standard-Borel endpoint space, it defines the actual old-neighbor
+Markov kernel via `condKernel` and proves the exact equation-(419)
+disintegration. For a measurable root density `h <= 1`, it derives the source
+degree density and root finiteness rather than assuming them. Attached
+probability labels preserve the original joint edge law exactly.
+
+The source marginal is at most `sigma` when `sigma` is a probability. For
+unnormalized finite `sigma`, the checked bound correctly includes the factor
+`sigma(univ)`. No pointwise domination of the conditional neighbor kernel by
+`sigma` is asserted.
+
+## Checked fixed-angle cross-cap guardrail
+
+`Thm_StickyKakeya4_fixed_angle_terminal_vanishing` compiles and all seven axiom
+readbacks use only standard logical axioms. A root supported on direction
+separation at least `tau` gives zero mass to the direction band of radius
+`R < tau`. Its complementary-band mass equals its entire mass. Consequently
+a cross-band bound by `B` is equivalent to a bound on the whole root mass, and
+budgeted terminal measures supported in that small band vanish.
+
+This formalizes why terminal cap contraction alone cannot pay the original
+root graph's cross-cap branch. It does not refute a separately proved geometric
+payment estimate or the final theorem. The source audit's new section 8 records
+the exact unresolved first-exit weighted cross-cap estimate and why the
+source's separated-polarization candidates do not supply it without additional
+hypotheses.
+
+## Strict local-check checkpoint
+
+The old-neighbor and fixed-angle source files additionally passed explicit
+`-DautoImplicit=false` checks, matching Prove2Me. Markov endpoint preservation
+also passed the actual Lake target build with the package options enabled.
+
+The residual and canonical-sphere source drafts are included in this backup
+checkpoint after successful explicit strict source compilation. Their final
+readback confirmation is tracked separately; no final-theorem or whole-project
+completion is inferred from those source checks. The full baseline pass has
+22/109 targets passed, with twelve independent late-target prebuilds also
+successful at this checkpoint; it is still running.

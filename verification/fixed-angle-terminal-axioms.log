@@ -1,0 +1,69 @@
+StickyKakeya4.FixedAngleTerminalVanishing.root_strict_band_eq_zero_of_ae.{u_1, u_2} {X : Type u_1} {D : Type u_2}
+  [MeasurableSpace X] [PseudoMetricSpace D] (root : MeasureTheory.Measure (X × X)) (direction : X → D) (tau : ℝ)
+  (hseparation : ∀ᵐ (p : X × X) ∂root, tau ≤ dist (direction p.1) (direction p.2)) :
+  root {p | dist (direction p.1) (direction p.2) < tau} = 0
+StickyKakeya4.FixedAngleTerminalVanishing.root_directionBand_eq_zero.{u_1, u_2} {X : Type u_1} {D : Type u_2}
+  [MeasurableSpace X] [PseudoMetricSpace D] (root : MeasureTheory.Measure (X × X)) (direction : X → D) {R tau : ℝ}
+  (hseparation : root {p | dist (direction p.1) (direction p.2) < tau} = 0) (hR : R < tau) :
+  root (StickyKakeya4.GlobalTerminalBand.directionBand direction R) = 0
+StickyKakeya4.FixedAngleTerminalVanishing.root_compl_directionBand_eq_univ.{u_1, u_2} {X : Type u_1} {D : Type u_2}
+  [MeasurableSpace X] [PseudoMetricSpace D] [MeasurableSpace D] [BorelSpace D] [SecondCountableTopology D]
+  (root : MeasureTheory.Measure (X × X)) {direction : X → D} (hdirection : Measurable direction) {R tau : ℝ}
+  (hseparation : root {p | dist (direction p.1) (direction p.2) < tau} = 0) (hR : R < tau) :
+  root (StickyKakeya4.GlobalTerminalBand.directionBand direction R)ᶜ = root Set.univ
+StickyKakeya4.FixedAngleTerminalVanishing.root_compl_directionBand_le_iff.{u_1, u_2} {X : Type u_1} {D : Type u_2}
+  [MeasurableSpace X] [PseudoMetricSpace D] [MeasurableSpace D] [BorelSpace D] [SecondCountableTopology D]
+  (root : MeasureTheory.Measure (X × X)) {direction : X → D} (hdirection : Measurable direction) {R tau : ℝ}
+  (B : ENNReal) (hseparation : root {p | dist (direction p.1) (direction p.2) < tau} = 0) (hR : R < tau) :
+  root (StickyKakeya4.GlobalTerminalBand.directionBand direction R)ᶜ ≤ B ↔ root Set.univ ≤ B
+StickyKakeya4.FixedAngleTerminalVanishing.terminal_mass_eq_zero_of_fixed_angle.{u_1, u_2, u_3} {X : Type u_1}
+  {D : Type u_2} {I : Type u_3} [MeasurableSpace X] [PseudoMetricSpace D] [MeasurableSpace D] [BorelSpace D]
+  [SecondCountableTopology D] (root : MeasureTheory.Measure (X × X)) (terminal : I → MeasureTheory.Measure (X × X))
+  {direction : X → D} (hdirection : Measurable direction) {R tau : ℝ}
+  (hseparation : root {p | dist (direction p.1) (direction p.2) < tau} = 0) (hR : R < tau)
+  (hbudget : MeasureTheory.Measure.sum terminal ≤ root)
+  (hsupport : ∀ (i : I), (terminal i) (StickyKakeya4.GlobalTerminalBand.directionBand direction R)ᶜ = 0) :
+  ∑' (i : I), (terminal i) Set.univ = 0
+StickyKakeya4.FixedAngleTerminalVanishing.terminal_eq_zero_of_fixed_angle.{u_1, u_2, u_3} {X : Type u_1} {D : Type u_2}
+  {I : Type u_3} [MeasurableSpace X] [PseudoMetricSpace D] [MeasurableSpace D] [BorelSpace D]
+  [SecondCountableTopology D] (root : MeasureTheory.Measure (X × X)) (terminal : I → MeasureTheory.Measure (X × X))
+  {direction : X → D} (hdirection : Measurable direction) {R tau : ℝ}
+  (hseparation : root {p | dist (direction p.1) (direction p.2) < tau} = 0) (hR : R < tau)
+  (hbudget : MeasureTheory.Measure.sum terminal ≤ root)
+  (hsupport : ∀ (i : I), (terminal i) (StickyKakeya4.GlobalTerminalBand.directionBand direction R)ᶜ = 0) (i : I) :
+  terminal i = 0
+StickyKakeya4.FixedAngleTerminalVanishing.terminal_mass_eq_zero_of_same_cap.{u_1, u_2, u_3} {X : Type u_1}
+  {D : Type u_2} {I : Type u_3} [MeasurableSpace X] [PseudoMetricSpace D] [MeasurableSpace D] [BorelSpace D]
+  [SecondCountableTopology D] (root : MeasureTheory.Measure (X × X)) (terminal : I → MeasureTheory.Measure (X × X))
+  {direction : X → D} (hdirection : Measurable direction) (center : I → D) (radius : I → ℝ) {T tau : ℝ}
+  (hseparation : root {p | dist (direction p.1) (direction p.2) < tau} = 0) (hT : 2 * T < tau)
+  (hbudget : MeasureTheory.Measure.sum terminal ≤ root) (hradius : ∀ (i : I), radius i ≤ T)
+  (hcaps :
+    ∀ (i : I),
+      (terminal i)
+          {p |
+              direction p.1 ∈ Metric.closedBall (center i) (radius i) ∧
+                direction p.2 ∈ Metric.closedBall (center i) (radius i)}ᶜ =
+        0) :
+  ∑' (i : I), (terminal i) Set.univ = 0
+'StickyKakeya4.FixedAngleTerminalVanishing.root_strict_band_eq_zero_of_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedAngleTerminalVanishing.root_directionBand_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedAngleTerminalVanishing.root_compl_directionBand_eq_univ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedAngleTerminalVanishing.root_compl_directionBand_le_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedAngleTerminalVanishing.terminal_mass_eq_zero_of_fixed_angle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedAngleTerminalVanishing.terminal_eq_zero_of_fixed_angle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedAngleTerminalVanishing.terminal_mass_eq_zero_of_same_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

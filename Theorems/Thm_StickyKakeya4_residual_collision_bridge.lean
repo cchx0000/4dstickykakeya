@@ -114,8 +114,9 @@ theorem measurableSet_collisionTimeFiber (J : Set ℝ) (hJ : MeasurableSet J)
 
 /-- The pointwise density from Definition 6.26, retaining the off-diagonal
 condition explicitly.  `Jplus` is the enlarged longitudinal time window. -/
-def residualContentWeight (Jplus : Set ℝ) (α β : E3) (ρ : ℝ) : ℝ≥0∞ :=
-  if α ≠ 0 ∧ ‖collisionResidual α β‖ ≤ ρ ∧ collisionTime α β ∈ Jplus
+def residualContentWeight (Jplus : Set ℝ) (α β : E3) (ρ : ℝ) : ℝ≥0∞ := by
+  classical
+  exact if α ≠ 0 ∧ ‖collisionResidual α β‖ ≤ ρ ∧ collisionTime α β ∈ Jplus
   then (ENNReal.ofReal ‖α‖)⁻¹ else 0
 
 /-- The weighted residual content of a measure on endpoint-pair data.
@@ -132,11 +133,19 @@ theorem collisionTimeFiber_volume_le_residualContentWeight
     volume (collisionTimeFiber (Icc u v) α β ρ) ≤
       ENNReal.ofReal (2 * ρ) * residualContentWeight (Icc (u - d) (v + d)) α β ρ := by
   have h := collisionTimeFiber_volume_le_fixed_buffer α β hα u v d ρ hρ hbuffer
+  have hformula : ENNReal.ofReal (2 * ρ / ‖α‖) =
+      ENNReal.ofReal (2 * ρ) * (ENNReal.ofReal ‖α‖)⁻¹ := by
+    rw [ENNReal.ofReal_div_of_pos (norm_pos_iff.mpr hα), div_eq_mul_inv]
   by_cases hc : ‖collisionResidual α β‖ ≤ ρ ∧
       collisionTime α β ∈ Icc (u - d) (v + d)
-  · simpa [residualContentWeight, hα, hc, ENNReal.ofReal_div_of_pos
-      (norm_pos_iff.mpr hα), div_eq_mul_inv] using h
-  · simpa [residualContentWeight, hα, hc] using h
+  · rw [if_pos hc] at h
+    have hp : α ≠ 0 ∧ ‖collisionResidual α β‖ ≤ ρ ∧
+        collisionTime α β ∈ Icc (u - d) (v + d) := ⟨hα, hc⟩
+    simpa only [residualContentWeight, if_pos hp, hformula] using h
+  · rw [if_neg hc] at h
+    have hn : ¬ (α ≠ 0 ∧ ‖collisionResidual α β‖ ≤ ρ ∧
+        collisionTime α β ∈ Icc (u - d) (v + d)) := fun hh => hc hh.2
+    simpa only [residualContentWeight, if_neg hn, mul_zero] using h
 
 /-- Integrated collision-fibre estimate.  The quantitative angular-buffer
 hypothesis is stated almost everywhere, so the measure may already have
@@ -194,8 +203,8 @@ theorem lintegral_collision_mass_eq_fiber_volume
       have hs : MeasurableSet {x | ‖β x + s • α x‖ ≤ ρ} :=
         measurableSet_le (by fun_prop) measurable_const
       symm
-      simpa only [f, lintegral_indicator_const hs, one_mul]
-    _ = ∫⁻ x, ∫⁻ s in Icc u v, f s x ∂μ :=
+      simp only [f, lintegral_indicator_const hs, one_mul]
+    _ = ∫⁻ x, (∫⁻ s in Icc u v, f s x) ∂μ :=
       lintegral_lintegral_swap hfm.aemeasurable
     _ = ∫⁻ x, volume (collisionTimeFiber (Icc u v) (α x) (β x) ρ) ∂μ :=
       lintegral_congr hfiber
@@ -261,12 +270,72 @@ theorem measurable_residualContentWeight
     (hα : Measurable α) (hβ : Measurable β)
     (Jplus : Set ℝ) (hJplus : MeasurableSet Jplus) (ρ : ℝ) :
     Measurable (fun x => residualContentWeight Jplus (α x) (β x) ρ) := by
+  classical
+  unfold residualContentWeight
   have hz : MeasurableSet {x | α x ≠ 0} :=
     (measurableSet_eq_fun hα measurable_const).compl
   have hr : MeasurableSet {x | ‖collisionResidual (α x) (β x)‖ ≤ ρ} :=
     measurableSet_le (measurable_collisionResidual_comp α β hα hβ).norm measurable_const
   have ht : MeasurableSet {x | collisionTime (α x) (β x) ∈ Jplus} :=
     hJplus.preimage (measurable_collisionTime_comp α β hα hβ)
-  exact Measurable.ite (hz.inter (hr.inter ht)) hα.norm.ennreal_ofReal.inv measurable_const
+  exact Measurable.ite (hz.inter (hr.inter ht)) hα.norm.ennreal_ofReal.inv
+    (measurable_const (a := (0 : ℝ≥0∞)))
+
+/-- A full fibre bound with an explicit near-direction error.  This avoids
+assuming an angular cutoff: directions closer than `ρ/d` are paid by the
+length of the original time interval. -/
+theorem collisionTimeFiber_volume_le_residual_plus_near
+    (α β : E3) (u v d ρ : ℝ) (hd : 0 < d) (hρ : 0 ≤ ρ) :
+    volume (collisionTimeFiber (Icc u v) α β ρ) ≤
+      ENNReal.ofReal (2 * ρ) * residualContentWeight (Icc (u - d) (v + d)) α β ρ +
+        if ‖α‖ ≤ ρ / d then ENNReal.ofReal (v - u) else 0 := by
+  by_cases hn : ‖α‖ ≤ ρ / d
+  · rw [if_pos hn]
+    calc
+      volume (collisionTimeFiber (Icc u v) α β ρ) ≤ volume (Icc u v) :=
+        measure_mono (fun _ hs => hs.1)
+      _ = ENNReal.ofReal (v - u) := Real.volume_Icc
+      _ ≤ _ := le_add_self
+  · rw [if_neg hn, add_zero]
+    have ha : α ≠ 0 := by
+      intro ha
+      apply hn
+      simp only [ha, norm_zero]
+      exact div_nonneg hρ hd.le
+    have hb : ρ ≤ d * ‖α‖ := by
+      have hlt : ρ / d < ‖α‖ := lt_of_not_ge hn
+      have hm := (div_lt_iff₀ hd).mp hlt
+      nlinarith
+    exact collisionTimeFiber_volume_le_residualContentWeight α β ha u v d ρ hρ hb
+
+/-- The unrestricted averaged near-collision mass is bounded by residual
+content plus the explicit small-angular-separation error.  For the paper's
+three-dimensional bounded direction density, the latter is the term to
+bound cubically in `ρ/d`; that density estimate is not assumed here. -/
+theorem averaged_collision_mass_le_residual_plus_near
+    {X : Type*} [MeasurableSpace X] (μ : Measure X) [SFinite μ]
+    (α β : X → E3) (hαm : Measurable α) (hβm : Measurable β)
+    (u v d ρ : ℝ) (hd : 0 < d) (hρ : 0 ≤ ρ) :
+    (∫⁻ s in Icc u v, μ {x | ‖β x + s • α x‖ ≤ ρ}) ≤
+      ENNReal.ofReal (2 * ρ) *
+        weightedResidualContent μ α β (Icc (u - d) (v + d)) ρ +
+      ENNReal.ofReal (v - u) * μ {x | ‖α x‖ ≤ ρ / d} := by
+  rw [lintegral_collision_mass_eq_fiber_volume μ α β hαm hβm]
+  have hnear : MeasurableSet {x | ‖α x‖ ≤ ρ / d} :=
+    measurableSet_le hαm.norm measurable_const
+  have hweight := measurable_residualContentWeight α β hαm hβm
+    (Icc (u - d) (v + d)) measurableSet_Icc ρ
+  calc
+    (∫⁻ x, volume (collisionTimeFiber (Icc u v) (α x) (β x) ρ) ∂μ) ≤
+        ∫⁻ x, ENNReal.ofReal (2 * ρ) *
+          residualContentWeight (Icc (u - d) (v + d)) (α x) (β x) ρ +
+          {x | ‖α x‖ ≤ ρ / d}.indicator (fun _ => ENNReal.ofReal (v - u)) x ∂μ := by
+      apply lintegral_mono
+      intro x
+      exact collisionTimeFiber_volume_le_residual_plus_near (α x) (β x) u v d ρ hd hρ
+    _ = _ := by
+      rw [lintegral_add_left (hweight.const_mul _) _,
+        lintegral_const_mul' _ _ ENNReal.ofReal_ne_top, lintegral_indicator_const hnear]
+      rfl
 
 end StickyKakeya4

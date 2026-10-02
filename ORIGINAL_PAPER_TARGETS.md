@@ -190,3 +190,63 @@ The following are specific proof obligations for the manuscript-to-Lean translat
 8. Do not report unconditional completion while the final proof still uses `wang_zakharov_published_volume_estimate` or another project-specific replacement axiom
 
 This document supersedes the claim that the eight previous milestone formulations are a verbatim mathematical contract from the original paper. It does not supersede the original final theorem or certify that the remaining original arguments are correct.
+
+## 8. Follow-on audit: cross-cap payment is still a geometric obligation
+
+This targeted check follows the constructive replacement of the terminal same-cap estimate. The global terminal-band and measure-valued forest lemmas do not pay the complementary old-neighbor cross-cap occurrences.
+
+### Exact source locations
+
+- **Proposition 9.1, p. 107**, label `prop:v081-bush-tree-edge-carleson-criterion`, assumes `M_cross <= C m^2 r^(2-o(1))` in addition to the corresponding paid budget
+- **Corollary 9.12, p. 112**, label `cor:v081-separated-fiber-cap-aggregation`, and equation `eq:v081-separated-fiber-internal-edge`, bound the part whose old target is in the same enlarged source cap by `C m T^3`. The complement is identified as one aggregate cross-cap graph. No quadratic bound on that complement is proved there
+- **Corollary 9.13, p. 113**, label `cor:v081-separated-window-strict-progress`, makes the moving source caps smaller. It retains an aggregate-cross routing alternative, rather than estimating that alternative's total mass
+- **Corollary 9.28, pp. 121–122**, label `cor:v081-same-window-carrier-reduction`, routes same-window occurrences to paid parts or smaller-cap children. The inherited old target is retained as a mark; the smaller cap assertion concerns the source directions
+- **Proposition 9.29, pp. 122–123**, label `thm:v081-cross-generation-edge-flow-conservation`, assigns occurrences whose old neighbor leaves a child cap to `M_cross`. The telescoping identity preserves their mass; it does not prove the quadratic cross-cap budget assumed in Proposition 9.1
+
+A search of the full source and inspection of its cross-cap and cross-branch candidates found no explicit theorem supplying that global quadratic budget for all varying-cap generations and their original occurrence weights.
+
+### Fixed-angle root edges make the remaining obligation visible
+
+The root collision kernel in **Proposition 7.76, p. 72**, equation **(305)**, label `eq:v078-low-output-normalized-maslov-graph`, contains the factor
+
+```text
+1_{tau0 <= |a-a'| <= C_U}
+```
+
+Thus every retained original root edge has direction separation at least the fixed shell cutoff `tau0 > 0`. Actual occurrence restrictions and probability extensions retaining those original endpoints preserve this support property.
+
+Suppose a terminal source cap has radius `T` with `2T < tau0`. If both original endpoints lay in that cap, the triangle inequality would give
+
+```text
+|a-a'| <= 2T < tau0
+```
+
+contradicting the root support. The original same-cap terminal measure is therefore zero. Every terminal occurrence not already paid or discarded is cross-cap.
+
+This is an exact implication of the manuscript's root support and the cap geometry; it does not use a speculative counterexample to the full Kakeya statement. It shows why source-cap contraction alone cannot prove the missing estimate. On a fixed-angle root shell, once the caps are sufficiently small, the cross-cap term can be the entire unpaid old-edge remainder.
+
+### Why nearby results do not supply the missing payment
+
+**Proposition 8.48, pp. 101–102**, label `prop:v081-cross-branch-polarization-decoupling`, concerns two restrictions with masses bounded below by a fixed positive `theta`, and old polarization normals lying in separated compact sets `N1`, `N2` with a positive separation `c0`. Its conclusion is small cross-graph mass **or** another physical-bush/angular/horizontal/transverse route. It is not an unconditional numerical bound on the cross graph.
+
+Separation of two **direction caps** does not imply separation of their **old polarization normals**. Distinct direction caps can occupy the same affine polarization plane, or planes with the same normal and different offsets. The paper's cross-cap designation contains no hypothesis imposing separated normal sets. Nor does the varying-cap construction establish a scale-independent positive mass for every pair of source pieces.
+
+**Corollary 8.49, p. 102**, label `cor:v081-nonatomic-polarization-component-reduction`, partitions by polarization labels and leaves coherent components for further routing. It does not turn arbitrary cross-cap old edges into a globally paid quadratic family.
+
+**Corollary 7.31, p. 50**, the dense tangential cross-collision estimate, requires a common vertical branch cap and dense shadings at every relevant weight/color/multiplicity level. Its bound has the factor `B W^(2-epsilon-o(1)) sqrt(m1*m2)`. These hypotheses and normalization are not supplied for the entire old-neighbor cross-cap exit measure. It cannot be inserted as a general cross-cap payment lemma.
+
+### Concrete next theorem required
+
+One possible completion target is a theorem on the **actual constructed occurrence tree**, with its original contact incidences and inherited flag laws, proving
+
+```text
+sum_v Exit_v(univ) <= C_eta * m^2 * r^(2-eta)
+```
+
+where `Exit_v` are disjoint first-exit restrictions of the original root occurrence whose old neighbor leaves the current source cap. The hypotheses must be derived from the original compact sticky datum and the relevant failure branch. Assuming this numerical estimate as a certificate field is not a proof of it.
+
+An alternative is to keep cross-cap mass active and construct a genuinely terminating geometric rerouting argument. That would need a progress measure or summable geometric charge which controls the original cross-cap pairs, beyond shrinking the source cap. The existing conservation theorem then becomes useful accounting for such a construction.
+
+Replacing the old neighbor by a newly sampled fine-collision neighbor is a different operation. It would require a controlled transport argument proving how the original occurrence is charged and how product-measure domination survives. The density-at-most-two fact for a new kernel relative to a normalized bush does not give a uniform density bound relative to the original direction measure.
+
+Accordingly, this audit identifies an unresolved original-paper-to-Lean geometric step. It does not assert that the final dimension theorem is false. The root-preserving terminal-band repair remains valid and useful, but cannot independently eliminate `M_cross`.

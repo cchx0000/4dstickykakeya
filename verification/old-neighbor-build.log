@@ -1,0 +1,150 @@
+Theorems/Thm_StickyKakeya4_old_neighbor_disintegration.lean:134:2: warning: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+@StickyKakeya4.OldNeighborDisintegration.oldNeighbor : {X : Type u_1} →
+  [inst : MeasurableSpace X] →
+    [StandardBorelSpace X] →
+      [Nonempty X] →
+        (Γ : MeasureTheory.Measure (X × X)) → [MeasureTheory.IsFiniteMeasure Γ] → ProbabilityTheory.Kernel X X
+@StickyKakeya4.OldNeighborDisintegration.oldNeighbor_isMarkov : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  [inst_1 : StandardBorelSpace X] [inst_2 : Nonempty X] (Γ : MeasureTheory.Measure (X × X))
+  [inst_3 : MeasureTheory.IsFiniteMeasure Γ],
+  ProbabilityTheory.IsMarkovKernel (StickyKakeya4.OldNeighborDisintegration.oldNeighbor Γ)
+@StickyKakeya4.OldNeighborDisintegration.old_neighbor_disintegration : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  [inst_1 : StandardBorelSpace X] [inst_2 : Nonempty X] (Γ : MeasureTheory.Measure (X × X))
+  [inst_3 : MeasureTheory.IsFiniteMeasure Γ], Γ.fst.compProd (StickyKakeya4.OldNeighborDisintegration.oldNeighbor Γ) = Γ
+@StickyKakeya4.OldNeighborDisintegration.old_neighbor_mass : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  [inst_1 : StandardBorelSpace X] [inst_2 : Nonempty X] (Γ : MeasureTheory.Measure (X × X))
+  [inst_3 : MeasureTheory.IsFiniteMeasure Γ] (x : X),
+  ((StickyKakeya4.OldNeighborDisintegration.oldNeighbor Γ) x) Set.univ = 1
+@StickyKakeya4.OldNeighborDisintegration.old_neighbor_rectangle : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  [inst_1 : StandardBorelSpace X] [inst_2 : Nonempty X] (Γ : MeasureTheory.Measure (X × X))
+  [inst_3 : MeasureTheory.IsFiniteMeasure Γ] {s t : Set X},
+  MeasurableSet s →
+    MeasurableSet t → Γ (s ×ˢ t) = ∫⁻ (x : X) in s, ((StickyKakeya4.OldNeighborDisintegration.oldNeighbor Γ) x) t ∂Γ.fst
+@StickyKakeya4.OldNeighborDisintegration.labeled_old_endpoint_eq : ∀ {X : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace X] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace X] [inst_3 : Nonempty X]
+  (Γ : MeasureTheory.Measure (X × X)) [inst_4 : MeasureTheory.IsFiniteMeasure Γ]
+  (η : ProbabilityTheory.Kernel (X × X) L) [ProbabilityTheory.IsMarkovKernel η],
+  MeasureTheory.Measure.map Prod.fst
+      ((Γ.fst.compProd (StickyKakeya4.OldNeighborDisintegration.oldNeighbor Γ)).compProd η) =
+    Γ
+@StickyKakeya4.OldNeighborDisintegration.labeled_old_observable_eq : ∀ {X : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace X] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace X] [inst_3 : Nonempty X]
+  {Y : Type u_3} [inst_4 : MeasurableSpace Y] (Γ : MeasureTheory.Measure (X × X))
+  [inst_5 : MeasureTheory.IsFiniteMeasure Γ] (η : ProbabilityTheory.Kernel (X × X) L)
+  [ProbabilityTheory.IsMarkovKernel η] (f : X × X → Y),
+  Measurable f →
+    MeasureTheory.Measure.map (fun p => f p.1)
+        ((Γ.fst.compProd (StickyKakeya4.OldNeighborDisintegration.oldNeighbor Γ)).compProd η) =
+      MeasureTheory.Measure.map f Γ
+@StickyKakeya4.OldNeighborDisintegration.root_source_density : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] {h : X × X → ENNReal},
+  Measurable h → ((σ.prod σ).withDensity h).fst = σ.withDensity fun x => ∫⁻ (y : X), h (x, y) ∂σ
+@StickyKakeya4.OldNeighborDisintegration.root_isFinite : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] {h : X × X → ENNReal},
+  (∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) → MeasureTheory.IsFiniteMeasure ((σ.prod σ).withDensity h)
+@StickyKakeya4.OldNeighborDisintegration.root_source_le_scaled : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] {h : X × X → ENNReal},
+  (∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) → ((σ.prod σ).withDensity h).fst ≤ σ Set.univ • σ
+@StickyKakeya4.OldNeighborDisintegration.root_source_le : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.IsProbabilityMeasure σ] {h : X × X → ENNReal},
+  (∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) → ((σ.prod σ).withDensity h).fst ≤ σ
+@StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor : {X : Type u_1} →
+  [inst : MeasurableSpace X] →
+    [StandardBorelSpace X] →
+      [Nonempty X] →
+        (σ : MeasureTheory.Measure X) →
+          [MeasureTheory.IsFiniteMeasure σ] →
+            {h : X × X → ENNReal} → (∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) → ProbabilityTheory.Kernel X X
+@StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor_isMarkov : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  [inst_1 : StandardBorelSpace X] [inst_2 : Nonempty X] (σ : MeasureTheory.Measure X)
+  [inst_3 : MeasureTheory.IsFiniteMeasure σ] {h : X × X → ENNReal} (hh : ∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1),
+  ProbabilityTheory.IsMarkovKernel (StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor σ hh)
+@StickyKakeya4.OldNeighborDisintegration.root_disintegration : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  [inst_1 : StandardBorelSpace X] [inst_2 : Nonempty X] (σ : MeasureTheory.Measure X)
+  [inst_3 : MeasureTheory.IsFiniteMeasure σ] {h : X × X → ENNReal} (hh : ∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1),
+  ((σ.prod σ).withDensity h).fst.compProd (StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor σ hh) =
+    (σ.prod σ).withDensity h
+@StickyKakeya4.OldNeighborDisintegration.root_degree_disintegration : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  [inst_1 : StandardBorelSpace X] [inst_2 : Nonempty X] (σ : MeasureTheory.Measure X)
+  [inst_3 : MeasureTheory.IsFiniteMeasure σ] {h : X × X → ENNReal},
+  Measurable h →
+    ∀ (hh : ∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1),
+      (σ.withDensity fun x => ∫⁻ (y : X), h (x, y) ∂σ).compProd
+          (StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor σ hh) =
+        (σ.prod σ).withDensity h
+@StickyKakeya4.OldNeighborDisintegration.root_labeled_endpoint_eq : ∀ {X : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace X] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace X] [inst_3 : Nonempty X]
+  (σ : MeasureTheory.Measure X) [inst_4 : MeasureTheory.IsFiniteMeasure σ] {h : X × X → ENNReal}
+  (hh : ∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) (η : ProbabilityTheory.Kernel (X × X) L)
+  [ProbabilityTheory.IsMarkovKernel η],
+  MeasureTheory.Measure.map Prod.fst
+      ((((σ.prod σ).withDensity h).fst.compProd (StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor σ hh)).compProd
+        η) =
+    (σ.prod σ).withDensity h
+@StickyKakeya4.OldNeighborDisintegration.root_labeled_endpoint_le_product : ∀ {X : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace X] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace X] [inst_3 : Nonempty X]
+  (σ : MeasureTheory.Measure X) [inst_4 : MeasureTheory.IsFiniteMeasure σ] {h : X × X → ENNReal}
+  (hh : ∀ᵐ (p : X × X) ∂σ.prod σ, h p ≤ 1) (η : ProbabilityTheory.Kernel (X × X) L)
+  [ProbabilityTheory.IsMarkovKernel η],
+  MeasureTheory.Measure.map Prod.fst
+      ((((σ.prod σ).withDensity h).fst.compProd (StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor σ hh)).compProd
+        η) ≤
+    σ.prod σ
+'StickyKakeya4.OldNeighborDisintegration.oldNeighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.oldNeighbor_isMarkov' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.old_neighbor_disintegration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.old_neighbor_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.old_neighbor_rectangle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.labeled_old_endpoint_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.labeled_old_observable_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.root_source_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.root_isFinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.root_source_le_scaled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.root_source_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor_isMarkov' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.root_disintegration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.root_degree_disintegration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.root_labeled_endpoint_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.OldNeighborDisintegration.root_labeled_endpoint_le_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Exit status: 0
+
+Strict source verification command: lake env lean -DautoImplicit=false Theorems/Thm_StickyKakeya4_old_neighbor_disintegration.lean
+Theorems/Thm_StickyKakeya4_old_neighbor_disintegration.lean:134:2: warning: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+Strict source verification exit status: 0
