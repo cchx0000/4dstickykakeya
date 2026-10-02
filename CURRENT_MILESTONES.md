@@ -10,8 +10,9 @@ The earlier eight-item proposal is preserved in `PROVE2ME_TARGETS.md`.
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input
-for the original residual-content route. A new quantitative collision-time
-fiber bound is being developed; its status is tracked separately.
+for the original residual-content route. The quantitative collision-time fiber bound and its Tonelli integration are
+now strictly compiled and axiom-checked; they retain explicit near-direction
+and time-window terms.
 
 ## 2. Contact/Maslov incidence
 
@@ -67,8 +68,9 @@ schedule, and paid/cross-cap bounds. None is replaced by a hidden capacity field
 Follow Corollary 9.31 and the residual-content criterion, rather than requiring
 the false arbitrary-shading universal estimate. Conditional finite-scale
 Frostman implications already in the repository do not prove their missing
-inputs. A concrete residual collision-time bridge is being checked, but the
-finite-energy, slicing, and geometric alternative are still open.
+inputs. The concrete residual collision-time bridge is checked, including its explicit
+near-direction error; finite-energy, slicing, residual power bounds, and the
+geometric alternative are still open.
 
 ## 8. Original compact marked closure and axiom audit
 

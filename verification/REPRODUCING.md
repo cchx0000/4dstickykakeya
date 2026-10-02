@@ -9,7 +9,8 @@ An API account is not needed for the local checks below.
 lake update
 lake exe cache get
 ./scripts/check-environment.sh
-./scripts/build-sequential.py
+# Linux: optional bounded parallel aggregate build (requires flock)
+STICKY_BUILD_JOBS=3 ./scripts/build-bounded.sh Definitions Theorems Solutions
 lake build
 ./scripts/check-axioms.sh
 ```
@@ -34,3 +35,8 @@ not a proof of that input.
 For an isolated elan installation, set `ELAN_HOME` and add `$ELAN_HOME/bin` to
 `PATH` before these commands. `XDG_CACHE_HOME` can place the Mathlib download
 cache outside the checkout. Do not commit toolchains, caches, or credentials.
+
+The bounded helper uses temporary symlinks to the official elan toolchain and
+a three-slot file-lock semaphore. It does not patch Lean or alter its kernel.
+The default ordinary `lake build` also works after the library-glob correction.
+`build-sequential.py` remains available for isolated dependency-first diagnostics.

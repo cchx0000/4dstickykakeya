@@ -1,0 +1,76 @@
+$ lake env lean -DautoImplicit=false verification/ResidualCollisionReadback.lean
+StickyKakeya4.collision_sublevel_localization (α β : StickyKakeya4.E3) (hα : α ≠ 0) (ρ s : ℝ) (hρ : 0 ≤ ρ)
+  (hs : ‖β + s • α‖ ≤ ρ) : |StickyKakeya4.collisionTime α β - s| ≤ ρ / ‖α‖ ∧ ‖StickyKakeya4.collisionResidual α β‖ ≤ ρ
+StickyKakeya4.collisionTimeFiber_volume_le (J : Set ℝ) (α β : StickyKakeya4.E3) (hα : α ≠ 0) (ρ : ℝ) (hρ : 0 ≤ ρ) :
+  MeasureTheory.volume (StickyKakeya4.collisionTimeFiber J α β ρ) ≤ ENNReal.ofReal (2 * ρ / ‖α‖)
+StickyKakeya4.collisionTimeFiber_volume_le_localized (α β : StickyKakeya4.E3) (hα : α ≠ 0) (u v ρ : ℝ) (hρ : 0 ≤ ρ) :
+  MeasureTheory.volume (StickyKakeya4.collisionTimeFiber (Set.Icc u v) α β ρ) ≤
+    if
+        ‖StickyKakeya4.collisionResidual α β‖ ≤ ρ ∧
+          StickyKakeya4.collisionTime α β ∈ Set.Icc (u - ρ / ‖α‖) (v + ρ / ‖α‖) then
+      ENNReal.ofReal (2 * ρ / ‖α‖)
+    else 0
+StickyKakeya4.collisionTimeFiber_volume_le_fixed_buffer (α β : StickyKakeya4.E3) (hα : α ≠ 0) (u v d ρ : ℝ) (hρ : 0 ≤ ρ)
+  (hbuffer : ρ ≤ d * ‖α‖) :
+  MeasureTheory.volume (StickyKakeya4.collisionTimeFiber (Set.Icc u v) α β ρ) ≤
+    if ‖StickyKakeya4.collisionResidual α β‖ ≤ ρ ∧ StickyKakeya4.collisionTime α β ∈ Set.Icc (u - d) (v + d) then
+      ENNReal.ofReal (2 * ρ / ‖α‖)
+    else 0
+StickyKakeya4.residualContentWeight (Jplus : Set ℝ) (α β : StickyKakeya4.E3) (ρ : ℝ) : ENNReal
+StickyKakeya4.weightedResidualContent.{u_1} {X : Type u_1} [MeasurableSpace X] (μ : MeasureTheory.Measure X)
+  (α β : X → StickyKakeya4.E3) (Jplus : Set ℝ) (ρ : ℝ) : ENNReal
+StickyKakeya4.lintegral_collision_mass_eq_fiber_volume.{u_1} {X : Type u_1} [MeasurableSpace X]
+  (μ : MeasureTheory.Measure X) [MeasureTheory.SFinite μ] (α β : X → StickyKakeya4.E3) (hα : Measurable α)
+  (hβ : Measurable β) (u v ρ : ℝ) :
+  ∫⁻ (s : ℝ) in Set.Icc u v, μ {x | ‖β x + s • α x‖ ≤ ρ} =
+    ∫⁻ (x : X), MeasureTheory.volume (StickyKakeya4.collisionTimeFiber (Set.Icc u v) (α x) (β x) ρ) ∂μ
+StickyKakeya4.averaged_collision_mass_le_weightedResidualContent.{u_1} {X : Type u_1} [MeasurableSpace X]
+  (μ : MeasureTheory.Measure X) [MeasureTheory.SFinite μ] (α β : X → StickyKakeya4.E3) (hαm : Measurable α)
+  (hβm : Measurable β) (u v d ρ : ℝ) (hρ : 0 ≤ ρ) (hα : ∀ᵐ (x : X) ∂μ, α x ≠ 0)
+  (hbuffer : ∀ᵐ (x : X) ∂μ, ρ ≤ d * ‖α x‖) :
+  ∫⁻ (s : ℝ) in Set.Icc u v, μ {x | ‖β x + s • α x‖ ≤ ρ} ≤
+    ENNReal.ofReal (2 * ρ) * StickyKakeya4.weightedResidualContent μ α β (Set.Icc (u - d) (v + d)) ρ
+StickyKakeya4.collision_norm_lower_outside_enlarged_interval (α β : StickyKakeya4.E3) (hα : α ≠ 0) (u v d s : ℝ)
+  (hs : s ∈ Set.Icc u v) (ht : StickyKakeya4.collisionTime α β ∉ Set.Icc (u - d) (v + d)) : d * ‖α‖ ≤ ‖β + s • α‖
+StickyKakeya4.measurable_residualContentWeight.{u_1} {X : Type u_1} [MeasurableSpace X] (α β : X → StickyKakeya4.E3)
+  (hα : Measurable α) (hβ : Measurable β) (Jplus : Set ℝ) (hJplus : MeasurableSet Jplus) (ρ : ℝ) :
+  Measurable fun x => StickyKakeya4.residualContentWeight Jplus (α x) (β x) ρ
+'StickyKakeya4.collision_sublevel_localization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.collisionTimeFiber_subset_closest_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.collisionTimeFiber_volume_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.collisionTimeFiber_nonempty_imp_residual_and_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.collisionTimeFiber_volume_le_localized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.collisionTimeFiber_volume_le_fixed_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measurableSet_collisionTimeFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.collisionTimeFiber_volume_le_residualContentWeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.lintegral_collisionTimeFiber_le_weightedResidualContent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.lintegral_collision_mass_eq_fiber_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.averaged_collision_mass_le_weightedResidualContent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.collision_norm_lower_of_closest_time_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.collision_norm_lower_outside_enlarged_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.measurable_collisionTime_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measurable_collisionResidual_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measurable_residualContentWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.averaged_collision_mass_le_residual_plus_near.{u_1} {X : Type u_1} [MeasurableSpace X]
+  (μ : MeasureTheory.Measure X) [MeasureTheory.SFinite μ] (α β : X → StickyKakeya4.E3) (hαm : Measurable α)
+  (hβm : Measurable β) (u v d ρ : ℝ) (hd : 0 < d) (hρ : 0 ≤ ρ) :
+  ∫⁻ (s : ℝ) in Set.Icc u v, μ {x | ‖β x + s • α x‖ ≤ ρ} ≤
+    ENNReal.ofReal (2 * ρ) * StickyKakeya4.weightedResidualContent μ α β (Set.Icc (u - d) (v + d)) ρ +
+      ENNReal.ofReal (v - u) * μ {x | ‖α x‖ ≤ ρ / d}
+'StickyKakeya4.collisionTimeFiber_volume_le_residual_plus_near' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.averaged_collision_mass_le_residual_plus_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+Exit code: 0

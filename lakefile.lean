@@ -13,6 +13,12 @@ require LeanFormalizations from git
   "dd46c17a2a034d7bfa0df02e7f77834d35592864"
 
 lean_lib «Definitions» where
+  globs := #[.submodules `Definitions]
+
+@[default_target]
 lean_lib «Theorems» where
+  globs := #[.submodules `Theorems]
+
 @[default_target]
 lean_lib «Solutions» where
+  globs := #[.submodules `Solutions]

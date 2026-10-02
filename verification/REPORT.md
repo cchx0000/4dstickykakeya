@@ -321,3 +321,48 @@ readback confirmation is tracked separately; no final-theorem or whole-project
 completion is inferred from those source checks. The full baseline pass has
 22/109 targets passed, with twelve independent late-target prebuilds also
 successful at this checkpoint; it is still running.
+
+## All nine new modules: strict checks complete
+
+The residual and canonical-sphere readbacks are now complete as well. Across
+nine new modules, 91 declaration readbacks contain only `propext`,
+`Classical.choice`, and `Quot.sound`. Their names and exact evidence files are
+listed in `verification/new-axiom-summary.json`. This list deliberately excludes
+the final main theorem, whose legacy project-axiom dependency is not removed.
+
+The residual bridge proves the actual averaged collision estimate
+
+```text
+integral_[u,v] mu{norm(beta + s alpha) <= rho} ds
+  <= 2 rho Z_rho^[u-d,v+d](mu)
+     + max(v-u,0) mu{norm(alpha) <= rho/d}.
+```
+
+It keeps the near-direction contribution explicit, rather than silently
+throwing those pairs away. The shell version removes it under the stated
+almost-everywhere nonzero-secant and buffer hypotheses. Residual power bounds,
+inverse-energy/slicing closure, and the geometric cross-cap budget are not proved.
+
+The sphere specialization derives the cubic and quadratic terminal estimates
+from domination by the actual canonical sphere probability, with `0<T` and
+`3T<=1`. An unnormalized canonical restriction example is checked. This removes
+the abstract all-radius density input for that concrete source model, while
+retaining the actual routing/root/support/stopping-scale obligations.
+
+## Aggregate build configuration repair
+
+A genuine repository configuration defect was reproduced: the three Lean
+libraries used default root globs despite lacking `Definitions.lean`,
+`Theorems.lean`, and `Solutions.lean`, so aggregate builds failed with
+"some modules have bad imports". Explicit submodule globs fix this. Theorems and
+Solutions are now both default targets, so newly added theorem modules are not
+silently excluded from `lake build`. Pins and mathematical statements are unchanged.
+The Definitions library build passed after the fix.
+
+The initial dependency-first pass reached 31 successful modules; fourteen
+independent late-target prebuilds also passed. It was then deliberately stopped
+and replaced by one aggregate Lake graph, avoiding repeated graph scans. A
+three-slot compiler semaphore in `scripts/build-bounded.sh` bounds memory while
+using the unmodified official Lean executable through temporary sysroot links.
+A no-build smoke probe confirmed cache reuse. The full aggregate build is still
+running, and its terminal outcome remains required before declaring a full pass.

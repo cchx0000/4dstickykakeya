@@ -33,6 +33,8 @@ pair measure, so terminal caps may move and overlap. These are intermediate
 results with explicit hypotheses, not an unconditional completion of the main theorem.
 A measure-valued finite forest ledger now derives the terminal root budget from
 nodewise conservation and connects it to the global quadratic bound.
+The old-neighbor disintegration, Markov restriction calculus, canonical-sphere
+specialization, and residual collision/Tonelli bridge now have strict readbacks.
 
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. A complete

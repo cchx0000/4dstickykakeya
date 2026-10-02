@@ -1,0 +1,828 @@
+{
+  "generated_at_utc": "2026-10-02T04:24:34.886553+00:00",
+  "source_commit": "23d748e8d8ed6c36f4d443a17d790f89adcdf5f1",
+  "checked_declarations": 91,
+  "project_specific_axioms_in_these_declarations": false,
+  "final_main_theorem_included": false,
+  "declarations": [
+    {
+      "declaration": "StickyKakeya4.commonShadingRestriction_isFractional",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/common-shading-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.sourceFunction_commonShadingRestriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/common-shading-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.sourceMass_commonShadingRestriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/common-shading-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.sourceUnion_commonShadingRestriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/common-shading-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.sourceEnergy_commonShadingRestriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/common-shading-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.commonShading_union_bound_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/common-shading-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.commonShading_energy_bound_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/common-shading-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EdgeMarginalObstruction.baseWeight_probability",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/edge-marginal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EdgeMarginalObstruction.edgeDensity_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/edge-marginal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EdgeMarginalObstruction.masses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/edge-marginal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.EdgeMarginalObstruction.marginal_product_bound_fails",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/edge-marginal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.sum_le_of_disjoint_restrictions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.sum_map_le_map_of_sum_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.terminal_mass_le_root_band",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.mem_directionBand_of_same_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.band_support_of_cap_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.product_band_le_of_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.product_band_le_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.terminal_mass_le_product_band",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.terminal_mass_le_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.terminal_mass_le_cubic_with_reversal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.GlobalTerminalBand.terminal_mass_le_quadratic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/global-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measure_edge_flow_conservation_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/measure-edge-flow-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measure_lossless_edge_flow_carleson",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/measure-edge-flow-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measure_terminal_flow_le_root",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/measure-edge-flow-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measure_terminal_flow_map_le_root",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/measure-edge-flow-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measure_terminal_flow_map_le_of_root_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/measure-edge-flow-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measure_forest_terminal_mass_le_quadratic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/measure-edge-flow-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.extension_fst",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.extension_endpoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.extension_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.submeasure_endpoint_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.restriction_endpoint_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.density_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.fractional_endpoint_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.fractional_extension_endpoint_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.sum_subrestrictions_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.sum_endpoint_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.sum_extensions_endpoint_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.root_density_le_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.root_extension_endpoint_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.root_extension_endpoint_le_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.root_submeasure_endpoint_le_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MarkovEndpointPreservation.root_disjoint_subrestrictions_endpoint_le_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/markov-endpoint-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.oldNeighbor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.oldNeighbor_isMarkov",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.old_neighbor_disintegration",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.old_neighbor_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.old_neighbor_rectangle",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.labeled_old_endpoint_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.labeled_old_observable_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.root_source_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.root_isFinite",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.root_source_le_scaled",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.root_source_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.rootOldNeighbor_isMarkov",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.root_disintegration",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.root_degree_disintegration",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.root_labeled_endpoint_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.OldNeighborDisintegration.root_labeled_endpoint_le_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/old-neighbor-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedAngleTerminalVanishing.root_strict_band_eq_zero_of_ae",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/fixed-angle-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedAngleTerminalVanishing.root_directionBand_eq_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/fixed-angle-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedAngleTerminalVanishing.root_compl_directionBand_eq_univ",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/fixed-angle-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedAngleTerminalVanishing.root_compl_directionBand_le_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/fixed-angle-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedAngleTerminalVanishing.terminal_mass_eq_zero_of_fixed_angle",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/fixed-angle-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedAngleTerminalVanishing.terminal_eq_zero_of_fixed_angle",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/fixed-angle-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedAngleTerminalVanishing.terminal_mass_eq_zero_of_same_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/fixed-angle-terminal-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SphereTerminalBand.closedBall_le_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/sphere-terminal-strict-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SphereTerminalBand.product_band_le_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/sphere-terminal-strict-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SphereTerminalBand.terminal_mass_le_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/sphere-terminal-strict-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SphereTerminalBand.terminal_mass_le_quadratic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/sphere-terminal-strict-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SphereTerminalBand.measure_forest_terminal_mass_le_quadratic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/sphere-terminal-strict-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collision_sublevel_localization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collisionTimeFiber_subset_closest_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collisionTimeFiber_volume_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collisionTimeFiber_nonempty_imp_residual_and_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collisionTimeFiber_volume_le_localized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collisionTimeFiber_volume_le_fixed_buffer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measurableSet_collisionTimeFiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collisionTimeFiber_volume_le_residualContentWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.lintegral_collisionTimeFiber_le_weightedResidualContent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.lintegral_collision_mass_eq_fiber_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.averaged_collision_mass_le_weightedResidualContent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collision_norm_lower_of_closest_time_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collision_norm_lower_outside_enlarged_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measurable_collisionTime_comp",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measurable_collisionResidual_comp",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measurable_residualContentWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collisionTimeFiber_volume_le_residual_plus_near",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.averaged_collision_mass_le_residual_plus_near",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "evidence": "verification/residual-collision-axioms.log"
+    }
+  ]
+}
