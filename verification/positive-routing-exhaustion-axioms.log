@@ -1,0 +1,27 @@
+'StickyKakeya4.PositiveRoutingExhaustion.exists_countable_routing_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveRoutingExhaustion.exists_disjoint_routing_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveRoutingExhaustion.exists_routing_measure_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveRoutingExhaustion.exhaustive_markov_extensions_preserve_occurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveRoutingExhaustion.source_piece_positive_of_lower_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveRoutingExhaustion.positive_route_withDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveRoutingExhaustion.source_density_routing_exhaustion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveRoutingExhaustion.finite_truncation_arbitrarily_small_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH lake env lean -DautoImplicit=false verification/PositiveRoutingExhaustionReadback.lean
+Exit status: 0 (confirmed)

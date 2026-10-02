@@ -1,0 +1,6 @@
+COMMAND: lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_positive_bush_frostman.olean Theorems/Thm_StickyKakeya4_positive_bush_frostman.lean
+Theorems/Thm_StickyKakeya4_positive_bush_frostman.lean:212:49: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+
+EXIT_CODE: 0

@@ -69,6 +69,11 @@ terminal caps alone leaves all unpaid root mass in the cross-cap complement.
 A checked physical separated-time bush theorem now pays all old targets,
 not only same-cap targets. Fresh independent genuine flags also have checked
 measure-valued separation/retention bounds while inherited labels stay intact.
+Positive-event conditional kernels now preserve the full old occurrence on
+the positive-success base. Positive hereditary source cuts admit exact
+countable exhaustion and arbitrary finite-tail truncation without a uniform
+retained fraction. These are constructed measure operations; actual geometric
+success and quantitative paid/cross estimates remain separate.
 Their global geometric use still requires the designated-flag comparison and
 root-weighted summation/termination, as explained in the two new research notes.
 Still open: the actual geometric routing kernels and cuts, their conservation
@@ -89,7 +94,9 @@ The actual supported source is now constructed. A direct spacetime collision
 estimate supplies one extra power of radius and finite physical E4 energy;
 bounded-potential restriction supplies a supported Frostman probability. The
 resulting original residual criterion now proves `dimH(unitFront ambient)=4`
-from the literal residual bounds on that constructed source. The geometric
+from the literal residual bounds on that constructed source. A further genuine geometric escape is now checked: uniformly positive
+individual shrinking bushes force full front dimension. This does not assume
+a fixed mass in each member of a merely positive-total-mass family. The geometric
 residual power estimate itself remains open. No slicing axiom or assumed
 measurable Frostman kernel is used.
 

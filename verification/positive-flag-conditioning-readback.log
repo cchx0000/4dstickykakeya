@@ -1,0 +1,235 @@
+@StickyKakeya4.PositiveFlagConditioning.successProbability : {Ω : Type u_1} →
+  {L : Type u_2} →
+    [inst : MeasurableSpace Ω] → [inst_1 : MeasurableSpace L] → ProbabilityTheory.Kernel Ω L → Set (Ω × L) → Ω → ENNReal
+@StickyKakeya4.PositiveFlagConditioning.positiveSource : {Ω : Type u_1} →
+  {L : Type u_2} →
+    [inst : MeasurableSpace Ω] → [inst_1 : MeasurableSpace L] → ProbabilityTheory.Kernel Ω L → Set (Ω × L) → Set Ω
+@StickyKakeya4.PositiveFlagConditioning.measurable_successProbability : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (κ : ProbabilityTheory.Kernel Ω L)
+  [ProbabilityTheory.IsSFiniteKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E → Measurable (StickyKakeya4.PositiveFlagConditioning.successProbability κ E)
+@StickyKakeya4.PositiveFlagConditioning.measurableSet_positiveSource : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (κ : ProbabilityTheory.Kernel Ω L)
+  [ProbabilityTheory.IsSFiniteKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E → MeasurableSet (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E)
+@StickyKakeya4.PositiveFlagConditioning.successfulMeasure : {Ω : Type u_1} →
+  {L : Type u_2} →
+    [inst : MeasurableSpace Ω] →
+      [inst_1 : MeasurableSpace L] →
+        MeasureTheory.Measure Ω → ProbabilityTheory.Kernel Ω L → Set (Ω × L) → MeasureTheory.Measure (Ω × L)
+@StickyKakeya4.PositiveFlagConditioning.successful_source_density : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsSFiniteKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    (StickyKakeya4.PositiveFlagConditioning.successfulMeasure Γ κ E).fst =
+      Γ.withDensity (StickyKakeya4.PositiveFlagConditioning.successProbability κ E)
+@StickyKakeya4.PositiveFlagConditioning.successful_source_null_iff : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsSFiniteKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    ∀ (s : Set Ω),
+      MeasurableSet s →
+        ((StickyKakeya4.PositiveFlagConditioning.successfulMeasure Γ κ E).fst s = 0 ↔
+          (Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E)) s = 0)
+@StickyKakeya4.PositiveFlagConditioning.successful_source_ae_iff : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsSFiniteKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    ∀ (p : Ω → Prop),
+      (∀ᵐ (ω : Ω) ∂(StickyKakeya4.PositiveFlagConditioning.successfulMeasure Γ κ E).fst, p ω) ↔
+        ∀ᵐ (ω : Ω) ∂Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E), p ω
+@StickyKakeya4.PositiveFlagConditioning.successful_source_equivalent : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] (Γ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Γ]
+  (κ : ProbabilityTheory.Kernel Ω L) [ProbabilityTheory.IsSFiniteKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    (Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E)).AbsolutelyContinuous
+        (StickyKakeya4.PositiveFlagConditioning.successfulMeasure Γ κ E).fst ∧
+      (StickyKakeya4.PositiveFlagConditioning.successfulMeasure Γ κ E).fst.AbsolutelyContinuous
+        (Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E))
+@StickyKakeya4.PositiveFlagConditioning.conditionedKernel : {Ω : Type u_1} →
+  {L : Type u_2} →
+    [inst : MeasurableSpace Ω] →
+      [inst_1 : MeasurableSpace L] →
+        [StandardBorelSpace L] →
+          [Nonempty L] →
+            (Γ : MeasureTheory.Measure Ω) →
+              [MeasureTheory.IsFiniteMeasure Γ] →
+                (κ : ProbabilityTheory.Kernel Ω L) →
+                  [ProbabilityTheory.IsMarkovKernel κ] → Set (Ω × L) → ProbabilityTheory.Kernel Ω L
+@StickyKakeya4.PositiveFlagConditioning.successful_disintegration : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  (StickyKakeya4.PositiveFlagConditioning.successfulMeasure Γ κ E).fst.compProd
+      (StickyKakeya4.PositiveFlagConditioning.conditionedKernel Γ κ E) =
+    StickyKakeya4.PositiveFlagConditioning.successfulMeasure Γ κ E
+@StickyKakeya4.PositiveFlagConditioning.conditionedExtension : {Ω : Type u_1} →
+  {L : Type u_2} →
+    [inst : MeasurableSpace Ω] →
+      [inst_1 : MeasurableSpace L] →
+        [StandardBorelSpace L] →
+          [Nonempty L] →
+            (Γ : MeasureTheory.Measure Ω) →
+              [MeasureTheory.IsFiniteMeasure Γ] →
+                (κ : ProbabilityTheory.Kernel Ω L) →
+                  [ProbabilityTheory.IsMarkovKernel κ] → Set (Ω × L) → MeasureTheory.Measure (Ω × L)
+@StickyKakeya4.PositiveFlagConditioning.conditioned_extension_equivalent : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    (StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ κ E).AbsolutelyContinuous
+        (StickyKakeya4.PositiveFlagConditioning.successfulMeasure Γ κ E) ∧
+      (StickyKakeya4.PositiveFlagConditioning.successfulMeasure Γ κ E).AbsolutelyContinuous
+        (StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ κ E)
+@StickyKakeya4.PositiveFlagConditioning.conditioned_extension_success : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E → ∀ᵐ (p : Ω × L) ∂StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ κ E, p ∈ E
+@StickyKakeya4.PositiveFlagConditioning.conditioned_kernel_success : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    ∀ᵐ (ω : Ω) ∂Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E),
+      ∀ᵐ (l : L) ∂(StickyKakeya4.PositiveFlagConditioning.conditionedKernel Γ κ E) ω, (ω, l) ∈ E
+@StickyKakeya4.PositiveFlagConditioning.conditioned_kernel_success_mass : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    ∀ᵐ (ω : Ω) ∂Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E),
+      ((StickyKakeya4.PositiveFlagConditioning.conditionedKernel Γ κ E) ω) (Prod.mk ω ⁻¹' E) = 1
+@StickyKakeya4.PositiveFlagConditioning.conditioned_restrict_success : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    (StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ κ E).restrict E =
+      StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ κ E
+@StickyKakeya4.PositiveFlagConditioning.conditioned_extension_original : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasureTheory.Measure.map Prod.fst (StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ κ E) =
+    Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E)
+@StickyKakeya4.PositiveFlagConditioning.conditioned_extension_observable : ∀ {Ω : Type u_1} {L : Type u_2}
+  {Y : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : MeasurableSpace Y]
+  [inst_3 : StandardBorelSpace L] [inst_4 : Nonempty L] (Γ : MeasureTheory.Measure Ω)
+  [inst_5 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_6 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)) (endpoint : Ω → Y),
+  Measurable endpoint →
+    MeasureTheory.Measure.map (fun p => endpoint p.1)
+        (StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ κ E) =
+      MeasureTheory.Measure.map endpoint (Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E))
+@StickyKakeya4.PositiveFlagConditioning.conditioned_extension_mass : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  (StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ κ E) Set.univ =
+    Γ (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E)
+@StickyKakeya4.PositiveFlagConditioning.conditioned_extension_genuine : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    ∀ (P : Ω × L → Prop),
+      (∀ᵐ (p : Ω × L) ∂Γ.compProd κ, P p) →
+        ∀ᵐ (p : Ω × L) ∂StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ κ E, P p
+@StickyKakeya4.PositiveFlagConditioning.conditioned_subsource_law : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [inst_2 : StandardBorelSpace L] [inst_3 : Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [inst_4 : MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [inst_5 : ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    ∀ (ν : MeasureTheory.Measure Ω) [MeasureTheory.SFinite ν],
+      ν.AbsolutelyContinuous (Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E)) →
+        (∀ᵐ (p : Ω × L) ∂ν.compProd (StickyKakeya4.PositiveFlagConditioning.conditionedKernel Γ κ E), p ∈ E) ∧
+          MeasureTheory.Measure.map Prod.fst
+              (ν.compProd (StickyKakeya4.PositiveFlagConditioning.conditionedKernel Γ κ E)) =
+            ν
+@StickyKakeya4.PositiveFlagConditioning.exists_lossless_positive_conditioning : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [StandardBorelSpace L] [Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    ∃ η,
+      ProbabilityTheory.IsMarkovKernel η ∧
+        (∀ᵐ (p : Ω × L) ∂(Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E)).compProd η, p ∈ E) ∧
+          MeasureTheory.Measure.map Prod.fst
+              ((Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E)).compProd η) =
+            Γ.restrict (StickyKakeya4.PositiveFlagConditioning.positiveSource κ E)
+@StickyKakeya4.PositiveFlagConditioning.exists_lossless_conditioning_of_ae_positive : ∀ {Ω : Type u_1} {L : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace L] [StandardBorelSpace L] [Nonempty L]
+  (Γ : MeasureTheory.Measure Ω) [MeasureTheory.IsFiniteMeasure Γ] (κ : ProbabilityTheory.Kernel Ω L)
+  [ProbabilityTheory.IsMarkovKernel κ] (E : Set (Ω × L)),
+  MeasurableSet E →
+    (∀ᵐ (ω : Ω) ∂Γ, 0 < StickyKakeya4.PositiveFlagConditioning.successProbability κ E ω) →
+      ∃ η,
+        ProbabilityTheory.IsMarkovKernel η ∧
+          (∀ᵐ (p : Ω × L) ∂Γ.compProd η, p ∈ E) ∧ MeasureTheory.Measure.map Prod.fst (Γ.compProd η) = Γ
+'StickyKakeya4.PositiveFlagConditioning.successProbability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.positiveSource' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.measurable_successProbability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.measurableSet_positiveSource' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.successfulMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.successful_source_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.successful_source_null_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.successful_source_ae_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.successful_source_equivalent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditionedKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.successful_disintegration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditionedExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_extension_equivalent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_extension_success' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_kernel_success' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_kernel_success_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_restrict_success' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_extension_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_extension_observable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_extension_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_extension_genuine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.conditioned_subsource_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.exists_lossless_positive_conditioning' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveFlagConditioning.exists_lossless_conditioning_of_ae_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+VERIFIED_COMMAND: lake env lean -DautoImplicit=false verification/PositiveFlagConditioningReadback.lean
+EXIT_STATUS: 0

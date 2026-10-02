@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-10-02T05:46:47.205283+00:00",
-  "previous_checkpoint": "10f6063609713daa0ab278a4e8ba2199face3bf8",
-  "new_declaration_count_since_full_build": 107,
+  "generated_at_utc": "2026-10-02T06:09:31.735334+00:00",
+  "previous_checkpoint": "9c24070dcf80414987d2aad49e1ec2611fbb1f65",
+  "new_declaration_count_since_full_build": 160,
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 198,
+  "total_new_checked_declarations": 251,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -12,7 +12,11 @@
     "verification/spacetime-collision-energy-axioms.log": 16,
     "verification/original-residual-criterion-axioms.log": 12,
     "verification/independent-flag-separation-readback.log": 22,
-    "verification/separated-bush-fiber-axioms.log": 9
+    "verification/separated-bush-fiber-axioms.log": 9,
+    "verification/actual-slope-source-bounds-axioms.log": 7,
+    "verification/positive-routing-exhaustion-axioms.log": 8,
+    "verification/positive-flag-conditioning-readback.log": 24,
+    "verification/positive-bush-readback.log": 14
   },
   "checks": [
     {
@@ -977,6 +981,483 @@
         "Quot.sound"
       ],
       "log": "verification/separated-bush-fiber-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.horizontalProjection_heightPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-bounds-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.norm_northGraphIntercept_le_twice_offset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-bounds-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.compact_offset_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-bounds-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sourceMeasure_intercept_le_twice_offset_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-bounds-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.sourceMeasure_intercept_bound_of_compact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-bounds-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.intercept_bound_of_compact_front_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-bounds-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_slope_source_bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-slope-source-bounds-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveRoutingExhaustion.exists_countable_routing_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-routing-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveRoutingExhaustion.exists_disjoint_routing_partition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-routing-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveRoutingExhaustion.exists_routing_measure_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-routing-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveRoutingExhaustion.exhaustive_markov_extensions_preserve_occurrence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-routing-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveRoutingExhaustion.source_piece_positive_of_lower_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-routing-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveRoutingExhaustion.positive_route_withDensity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-routing-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveRoutingExhaustion.source_density_routing_exhaustion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-routing-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveRoutingExhaustion.finite_truncation_arbitrarily_small_tail",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-routing-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.successProbability",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.positiveSource",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.measurable_successProbability",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.measurableSet_positiveSource",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.successfulMeasure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.successful_source_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.successful_source_null_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.successful_source_ae_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.successful_source_equivalent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditionedKernel",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.successful_disintegration",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditionedExtension",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_extension_equivalent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_extension_success",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_kernel_success",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_kernel_success_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_restrict_success",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_extension_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_extension_observable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_extension_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_extension_genuine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.conditioned_subsource_law",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.exists_lossless_positive_conditioning",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveFlagConditioning.exists_lossless_conditioning_of_ae_positive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-flag-conditioning-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.exists_separated_subinterval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.exact_bush_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.exact_bush_collision_mass_le_cubic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.exact_bush_averaged_collision_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.front_frostman_of_positive_exact_bush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.front_dimH_eq_four_of_positive_exact_bush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.front_frostman_of_positive_exact_bush_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.front_dimH_eq_four_of_positive_exact_bush_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.exact_bush_mass_ge_of_convergent_approximate_bushes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.approximate_bush_center_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.exists_positive_exact_bush_of_shrinking_bushes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.front_frostman_of_shrinking_positive_bushes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.front_frostman_of_shrinking_positive_bushes_of_bounded_intercept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PositiveBush.front_dimH_eq_four_of_shrinking_positive_bushes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/positive-bush-readback.log"
     }
   ],
   "source_sha256": {
@@ -987,10 +1468,29 @@
     "Theorems/Thm_StickyKakeya4_spacetime_collision_energy.lean": "bdc902c227233f9de2c8383af9597da9534fa0e714e43d251ce14d8ba60d4442",
     "Theorems/Thm_StickyKakeya4_original_residual_criterion.lean": "670671abe1d5a5718f51af25361e7d321bd9da05751c54341507eee313bf4df3",
     "Theorems/Thm_StickyKakeya4_independent_flag_separation.lean": "42e850fe0f24eef2083624b855b4a8480b27c33a0a0c88c78a03c9def930d58e",
-    "Theorems/Thm_StickyKakeya4_separated_bush_fiber.lean": "133d8688d1b2e29229549d56364a5fb88f06d1ff4cdfac76a43f10b9f04a4aad"
+    "Theorems/Thm_StickyKakeya4_separated_bush_fiber.lean": "133d8688d1b2e29229549d56364a5fb88f06d1ff4cdfac76a43f10b9f04a4aad",
+    "Theorems/Thm_StickyKakeya4_actual_slope_source_bounds.lean": "e9a096d56ce5b0ab629fc9f7b38a3842710ec2a035f901b75d5f37a0d603f484",
+    "Theorems/Thm_StickyKakeya4_positive_routing_exhaustion.lean": "0e967e598f9a13f56118bba9f4e3a742f5214c74b4f451d66f0edb38079d4525",
+    "Theorems/Thm_StickyKakeya4_positive_flag_conditioning.lean": "54b17c8222e857b98766bd9a9f808a256d4e98eac160638bce480f3533ced2b1",
+    "Theorems/Thm_StickyKakeya4_positive_bush_frostman.lean": "08f14b7f53b75c1045082b092dc1c869274000bcb2703ee12727536696134e8f"
   },
-  "full_build_rerun": false,
+  "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
-  "targeted_lake_build_status": "running",
-  "targeted_lake_build_log_pending_commit": "verification/analytic-closure-build.log"
+  "targeted_lake_build_status": "passed",
+  "targeted_lake_build_exit_code": 0,
+  "targeted_lake_build_jobs": 8754,
+  "targeted_lake_build_log": "verification/analytic-closure-build.log",
+  "full_tracked_build": {
+    "source_commit": "9c24070dcf80414987d2aad49e1ec2611fbb1f65",
+    "module_count": 124,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8831,
+    "log": "verification/tracked-closure-build.log"
+  },
+  "latest_main_axiom_gate": {
+    "status": "failed_existing_WZ_axiom",
+    "exit_code": 1,
+    "log": "verification/closure-main-axiom-gate.log"
+  }
 }

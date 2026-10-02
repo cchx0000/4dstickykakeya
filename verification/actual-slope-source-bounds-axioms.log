@@ -1,0 +1,73 @@
+Command: lake env lean -DautoImplicit=false verification/ActualSlopeSourceBoundsReadback.lean
+StickyKakeya4.ActualSlopeSource.horizontalProjection_heightPoint : ∀ (x : StickyKakeya4.E3) (s : ℝ),
+  StickyKakeya4.horizontalProjection (StickyKakeya4.ActualSlopeSource.heightPoint x s) = x
+StickyKakeya4.ActualSlopeSource.norm_northGraphIntercept_le_twice_offset : ∀ (line : StickyKakeya4.MarkedLine),
+  ‖StickyKakeya4.northGraphSlope line‖ ≤ 1 → ‖StickyKakeya4.northGraphIntercept line‖ ≤ 2 * ‖StickyKakeya4.offset line‖
+StickyKakeya4.ActualSlopeSource.compact_offset_bound : ∀ (ambient : Set StickyKakeya4.MarkedLine),
+  IsCompact ambient → ∃ R, 0 ≤ R ∧ ∀ line ∈ ambient, ‖StickyKakeya4.offset line‖ ≤ R
+StickyKakeya4.ActualSlopeSource.sourceMeasure_intercept_le_twice_offset_bound : ∀
+  (ambient selector : Set StickyKakeya4.MarkedLine) (hmeas : MeasurableSet selector)
+  (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line) (hselector : StickyKakeya4.IsDirectionSelector selector),
+  selector ⊆ ambient →
+    ∀ (R : ℝ),
+      (∀ line ∈ ambient, ‖StickyKakeya4.offset line‖ ≤ R) →
+        ∀ (k : ℤ),
+          ∀ᵐ (a : StickyKakeya4.E3) ∂StickyKakeya4.ActualSlopeSource.sourceMeasure selector hmeas hvalid hselector k,
+            ‖StickyKakeya4.ActualSlopeSource.intercept selector hmeas hvalid hselector a‖ ≤ 2 * R
+StickyKakeya4.ActualSlopeSource.sourceMeasure_intercept_bound_of_compact : ∀ (ambient : Set StickyKakeya4.MarkedLine),
+  IsCompact ambient →
+    ∀ (selector : Set StickyKakeya4.MarkedLine) (hmeas : MeasurableSet selector)
+      (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line)
+      (hselector : StickyKakeya4.IsDirectionSelector selector),
+      selector ⊆ ambient →
+        ∃ B,
+          0 ≤ B ∧
+            ∀ (k : ℤ),
+              ∀ᵐ (a :
+                StickyKakeya4.E3) ∂StickyKakeya4.ActualSlopeSource.sourceMeasure selector hmeas hvalid hselector k,
+                ‖StickyKakeya4.ActualSlopeSource.intercept selector hmeas hvalid hselector a‖ ≤ B
+StickyKakeya4.ActualSlopeSource.intercept_bound_of_compact_front_support : ∀ (ambient : Set StickyKakeya4.MarkedLine),
+  IsCompact ambient →
+    ∀ (σ : MeasureTheory.Measure StickyKakeya4.E3) (b : StickyKakeya4.E3 → StickyKakeya4.E3) (s : ℝ),
+      (∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) →
+        (∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+            StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient) →
+          ∃ B, 0 ≤ B ∧ ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖b a‖ ≤ B
+StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_slope_source_bounded : ∀
+  (ambient : Set StickyKakeya4.MarkedLine),
+  IsCompact ambient →
+    (∀ line ∈ ambient, StickyKakeya4.IsValidLine line) →
+      StickyKakeya4.FullDirection ambient →
+        ∃ σ b u v B,
+          MeasureTheory.IsFiniteMeasure σ ∧
+            0 < σ Set.univ ∧
+              σ ≤ MeasureTheory.volume ∧
+                Measurable b ∧
+                  v - u = 3 / 8 ∧
+                    0 ≤ B ∧
+                      (∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) ∧
+                        (∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖b a‖ ≤ B) ∧
+                          ∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+                            ∀ s ∈ Set.Icc u v,
+                              StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈
+                                StickyKakeya4.unitFront ambient
+'StickyKakeya4.ActualSlopeSource.horizontalProjection_heightPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.norm_northGraphIntercept_le_twice_offset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.compact_offset_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualSlopeSource.sourceMeasure_intercept_le_twice_offset_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.sourceMeasure_intercept_bound_of_compact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.intercept_bound_of_compact_front_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.compact_full_direction_actual_slope_source_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Exit status: 0

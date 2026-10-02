@@ -3,6 +3,31 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Positive occurrence routing checkpoint
+
+Four further checked modules add 53 standard-only declaration readbacks:
+
+- `actual_slope_source_bounds` derives a uniform intercept bound from the
+  original compact front and offers a sharpened actual-source construction
+- `positive_routing_exhaustion` proves exact countable disjoint exhaustion from
+  positive hereditary outputs, transfers it through actual source densities,
+  preserves old endpoints/marks, and gives finite truncation at any positive
+  absolute tail. It assumes no uniform retained fraction or branch count
+- `positive_flag_conditioning` constructs the actual conditioned Markov law on
+  the positive-success base, preserves its full original occurrence marginal,
+  and reuses the same law on absolutely continuous hereditary restrictions
+
+- `positive_bush_frostman` proves a genuine geometric escape: one sequence of
+  shrinking individual physical bushes with a fixed positive mass lower bound
+  yields full original-front dimension. Compactness, the exact limiting bush,
+  a separated time interval, and supported Frostman measures are all derived
+
+There are now 251 checked new declarations in total. These routing tools do
+not establish positivity of a geometric success event or any global paid/cross
+estimate. Merely positive aggregate bush-family mass is not the individual
+bush hypothesis just proved. A fresh main-theorem audit still exits 1 for the same two WZ-dependent
+closures; see [closure-main-axiom-gate.log](closure-main-axiom-gate.log).
+
 ## Actual-source analytical closure checkpoint
 
 The original analytic reduction is now proved through genuine front measures:
@@ -17,6 +42,10 @@ The original analytic reduction is now proved through genuine front measures:
 - `original_residual_criterion.compact_full_direction_residual_reduction`
   constructs that actual source and proves that its literal codimension-two
   residual bounds imply `dimH (unitFront ambient) = 4`
+
+The [geometric repair ledger](../docs/GEOMETRIC_REPAIR_LEDGER.md) records
+failed resampling bounds, the aggregate union-growth invariant, and the next
+concrete bush/Frostman exit.
 
 The geometric residual estimate is still a premise of that last implication.
 It has not been derived from packing dimension, and the public main theorem
@@ -33,10 +62,14 @@ note remains a handwritten result, not a Lean-certified theorem.
 
 The expanded [resumed readback inventory](resumed-axiom-summary.json) gives the
 exact declaration list and source hashes: 107 further readbacks, for 198 new
-checked declarations in total. All are standard-only. A dependency-aware Lake
-rebuild of the analytical closure and two local geometric targets is running;
-its terminal log will be added at the next checkpoint. All individual strict
-source/readback checks above have already passed. The historical all-module
+checked declarations in total. All are standard-only. The dependency-aware Lake
+rebuild of the analytical closure and two local geometric targets passed:
+8,754 jobs, exit 0. See [analytic-closure-build.log](analytic-closure-build.log).
+All individual strict source/readback checks above also passed.
+The subsequent full tracked-module build at `9c24070` passed for all 124
+committed project modules: 8,831 jobs, exit 0. See
+[tracked-closure-build.log](tracked-closure-build.log). Active uncommitted
+research modules were not part of that snapshot. The older 116-module
 snapshot remains below.
 
 ## Resumed analytical progress after b7989bcd

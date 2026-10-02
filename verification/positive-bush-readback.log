@@ -1,0 +1,67 @@
+COMMAND: lake env lean -DautoImplicit=false verification/PositiveBushReadback.lean
+'StickyKakeya4.PositiveBush.exists_separated_subinterval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveBush.exact_bush_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveBush.exact_bush_collision_mass_le_cubic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveBush.exact_bush_averaged_collision_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveBush.front_frostman_of_positive_exact_bush' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveBush.front_dimH_eq_four_of_positive_exact_bush' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.PositiveBush.front_dimH_eq_four_of_positive_exact_bush (ambient : Set StickyKakeya4.MarkedLine)
+  (hcompact : IsCompact ambient) (σ : MeasureTheory.Measure StickyKakeya4.E3) [MeasureTheory.IsFiniteMeasure σ]
+  (hσpos : 0 < σ Set.univ) (hσ : σ ≤ MeasureTheory.volume) (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b)
+  (hslopes : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) (u v s₀ : ℝ) (huv : u < v) (c : StickyKakeya4.E3)
+  (hsupport :
+    ∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+      ∀ s ∈ Set.Icc u v, StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient)
+  (hbush : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, b a + s₀ • a = c) : dimH (StickyKakeya4.unitFront ambient) = 4
+'StickyKakeya4.PositiveBush.front_frostman_of_positive_exact_bush_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveBush.front_dimH_eq_four_of_positive_exact_bush_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveBush.exact_bush_mass_ge_of_convergent_approximate_bushes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveBush.approximate_bush_center_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PositiveBush.exists_positive_exact_bush_of_shrinking_bushes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveBush.front_frostman_of_shrinking_positive_bushes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.PositiveBush.front_frostman_of_shrinking_positive_bushes (ambient : Set StickyKakeya4.MarkedLine)
+  (hcompact : IsCompact ambient) (σ : MeasureTheory.Measure StickyKakeya4.E3) [MeasureTheory.IsFiniteMeasure σ]
+  (hσ : σ ≤ MeasureTheory.volume) (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b)
+  (hslopes : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) (u v : ℝ) (huv : u < v)
+  (hsupport :
+    ∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+      ∀ s ∈ Set.Icc u v, StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient)
+  (S : ℝ) (s : ℕ → ℝ) (c : ℕ → StickyKakeya4.E3) (R : ℕ → ℝ) (hs : ∀ (n : ℕ), |s n| ≤ S)
+  (hR : Filter.Tendsto R Filter.atTop (nhds 0)) (p : ENNReal) (hp : 0 < p)
+  (hmass : ∀ (n : ℕ), p ≤ σ {a | ‖b a + s n • a - c n‖ ≤ R n}) : StickyKakeya4.HasFrontFrostmanMeasures ambient
+'StickyKakeya4.PositiveBush.front_frostman_of_shrinking_positive_bushes_of_bounded_intercept' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveBush.front_dimH_eq_four_of_shrinking_positive_bushes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.PositiveBush.front_dimH_eq_four_of_shrinking_positive_bushes (ambient : Set StickyKakeya4.MarkedLine)
+  (hcompact : IsCompact ambient) (σ : MeasureTheory.Measure StickyKakeya4.E3) [MeasureTheory.IsFiniteMeasure σ]
+  (hσ : σ ≤ MeasureTheory.volume) (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b)
+  (hslopes : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) (u v : ℝ) (huv : u < v)
+  (hsupport :
+    ∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+      ∀ s ∈ Set.Icc u v, StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient)
+  (S : ℝ) (s : ℕ → ℝ) (c : ℕ → StickyKakeya4.E3) (R : ℕ → ℝ) (hs : ∀ (n : ℕ), |s n| ≤ S)
+  (hR : Filter.Tendsto R Filter.atTop (nhds 0)) (p : ENNReal) (hp : 0 < p)
+  (hmass : ∀ (n : ℕ), p ≤ σ {a | ‖b a + s n • a - c n‖ ≤ R n}) : dimH (StickyKakeya4.unitFront ambient) = 4
+
+EXIT_CODE: 0
