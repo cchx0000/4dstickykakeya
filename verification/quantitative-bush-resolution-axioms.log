@@ -1,0 +1,8 @@
+$ lake env lean -DautoImplicit=false verification/QuantitativeBushResolutionReadback.lean
+'StickyKakeya4.exists_physical_bush_piece_above_relative_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.original_source_mass_ge_of_relative_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.original_source_resolution_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_quantitative_source_bush_resolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+VERIFIED_LEAN_EXIT_CODE=0

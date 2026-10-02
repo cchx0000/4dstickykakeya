@@ -1,0 +1,6 @@
+ELAN_HOME=/workspace/shared/lean-tools/elan XDG_CACHE_HOME=/workspace/shared/lean-tools/cache PATH=$ELAN_HOME/bin:$PATH flock /tmp/4dstickykakeya-lean.lock lake env lean -DautoImplicit=false verification/ActualHalfEdgeBushSeedReadback.lean
+'StickyKakeya4.ActualHalfEdgeBushSeed.bush_power_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualHalfEdgeBushSeed.sticky_deficit_exists_half_edge_bush_seed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+exit=0

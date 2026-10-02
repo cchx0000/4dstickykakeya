@@ -1,0 +1,61 @@
+Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:42:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:91:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:91:66: warning: This simp argument is unused:
+  Set.mem_univ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_setOf_eq, Set.mem_compl_iff, Set.mem_prod, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:91:80: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_setOf_eq, Set.mem_compl_iff, Set.mem_prod, Set.mem_univ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:130:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:178:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:223:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:223:15: warning: This simp argument is unused:
+  Set.mem_setOf_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_compl_iff, Set.mem_prod, Set.mem_univ, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:253:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+--- Executed verification command and observed completion ---
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+$ export ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache; lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_quantitative_bush_cover.olean Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean 2>&1 | tee verification/quantitative-bush-cover-build.log
+Observed exec session: 70691
+VERIFIED EXIT_CODE: 0 (recorded pipeline completion; complete strict compiler output above contains no errors)

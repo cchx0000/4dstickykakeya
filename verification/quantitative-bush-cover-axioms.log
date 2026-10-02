@@ -1,0 +1,19 @@
+'StickyKakeya4.original_graph_restrict_source_square_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_physical_bush_piece_in_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.original_edge_mass_captured_by_sources' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.original_graph_restriction_preserves_domination_and_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.exists_quantitative_physical_bush_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.original_graph_restrict_source_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_physical_bush_piece_in_source_remainder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.original_source_edge_mass_captured' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_quantitative_source_bush_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+--- Executed verification command and observed completion ---
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+$ set -o pipefail; export ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache; lake env lean -DautoImplicit=false verification/TimeAveragedBushReadback.lean 2>&1 | tee verification/time-averaged-bush-axioms.log; lake env lean -DautoImplicit=false verification/QuantitativeBushCoverReadback.lean 2>&1 | tee verification/quantitative-bush-cover-axioms.log
+Observed exec session: 15188
+VERIFIED EXIT_CODE: 0 (recorded strict readback batch completion; both complete declaration sets independently audited standard-only)

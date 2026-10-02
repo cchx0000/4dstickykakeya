@@ -1,0 +1,20 @@
+'StickyKakeya4.MaximalDisjointCover.Admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.MaximalDisjointCover.Admissible.card_mul_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MaximalDisjointCover.exists_stopped_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.MaximalDisjointCover.exists_stopped_family_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+=== Executed axiom-readback command and observed tool exit ===
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+The following command was executed after the strict olean-build command, with pipefail enabled:
+set -o pipefail
+export ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+lake env lean -DautoImplicit=false verification/MaximalDisjointCoverReadback.lean 2>&1 | tee verification/maximal-disjoint-cover-axioms.log
+Observed terminal tool result: exec session 29369, chunk 1f7e10, exit_code: 0 (the readback was the final command in the batch).
+An independent Python assertion check parsed the four expected declaration readbacks and verified that every axiom belongs to {propext, Classical.choice, Quot.sound}.
+Observed check output: PASS: all four new declarations use only standard logical axioms
+Observed check tool result: chunk 121656, exit_code: 0.
+=== End recorded verification evidence ===

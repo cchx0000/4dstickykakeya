@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_actual_half_edge_bush_seed
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.ActualHalfEdgeBushSeed.bush_power_bounds
+#print axioms StickyKakeya4.ActualHalfEdgeBushSeed.sticky_deficit_exists_half_edge_bush_seed

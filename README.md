@@ -50,8 +50,8 @@ premises, but the global weighted transverse charge remains open.
 
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
-last complete build, at `95e104e5`, passed all **163 tracked project modules**
-and **8,870 Lake jobs**. Subsequent modules have dedicated strict checks.
+last complete build, at `ce848a9`, passed all **171 tracked project modules**
+and **8,878 Lake jobs**. Subsequent modules have dedicated strict checks.
 The fresh final-theorem axiom gate still fails exactly because the two main
 closure declarations use the preexisting WZ project axiom.
 `scripts/check-axioms.sh` makes that failure explicit. The original final

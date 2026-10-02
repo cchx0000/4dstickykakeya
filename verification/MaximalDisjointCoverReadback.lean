@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_maximal_disjoint_cover
+
+#print axioms StickyKakeya4.MaximalDisjointCover.Admissible
+#print axioms StickyKakeya4.MaximalDisjointCover.Admissible.card_mul_le_one
+#print axioms StickyKakeya4.MaximalDisjointCover.exists_stopped_family
+#print axioms StickyKakeya4.MaximalDisjointCover.exists_stopped_family_card_le

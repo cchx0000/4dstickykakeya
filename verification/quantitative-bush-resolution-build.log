@@ -1,0 +1,18 @@
+$ lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.olean Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.lean
+Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.lean:34:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.lean:136:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+VERIFIED_LEAN_EXIT_CODE=0

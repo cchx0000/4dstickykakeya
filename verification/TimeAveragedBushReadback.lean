@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_time_averaged_bush
+
+#print axioms StickyKakeya4.physicalAffineBush
+#print axioms StickyKakeya4.measurableSet_physicalAffineBush
+#print axioms StickyKakeya4.closest_interval_subset_collisionTimeFiber
+#print axioms StickyKakeya4.collisionTimeFiber_volume_ge_of_residual
+#print axioms StickyKakeya4.time_averaged_root_collision_mass_ge
+#print axioms StickyKakeya4.product_collision_mass_eq_bush_average
+#print axioms StickyKakeya4.time_averaged_physical_bush_mass_ge
+#print axioms StickyKakeya4.exists_physicalAffineBush_mass_gt_of_budget
+#print axioms StickyKakeya4.exists_physicalAffineBush_mass_gt
+#print axioms StickyKakeya4.product_collision_mass_eq_source_bush_average
+#print axioms StickyKakeya4.time_averaged_source_bush_mass_ge
+#print axioms StickyKakeya4.exists_source_bush_mass_gt_of_budget

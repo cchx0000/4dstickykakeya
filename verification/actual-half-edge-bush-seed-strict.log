@@ -1,0 +1,2 @@
+ELAN_HOME=/workspace/shared/lean-tools/elan XDG_CACHE_HOME=/workspace/shared/lean-tools/cache PATH=$ELAN_HOME/bin:$PATH flock /tmp/4dstickykakeya-lean.lock lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_actual_half_edge_bush_seed.olean Theorems/Thm_StickyKakeya4_actual_half_edge_bush_seed.lean
+exit=0

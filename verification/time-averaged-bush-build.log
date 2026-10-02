@@ -1,0 +1,36 @@
+Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:61:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:61:32: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:110:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:164:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:209:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+--- Executed verification command and observed completion ---
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+$ export ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache; lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_time_averaged_bush.olean Theorems/Thm_StickyKakeya4_time_averaged_bush.lean
+Observed exec session: 94954
+VERIFIED EXIT_CODE: 0 (direct strict Lean command; tool completion verified)

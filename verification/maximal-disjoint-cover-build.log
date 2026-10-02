@@ -1,0 +1,18 @@
+
+=== Executed verification commands and observed tool exits ===
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+
+Initial strict-source invocation:
+export ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+lake env lean -DautoImplicit=false Theorems/Thm_StickyKakeya4_maximal_disjoint_cover.lean 2>&1 | tee verification/maximal-disjoint-cover-build.log
+Observed terminal tool result: exec session 23016, chunk 71b17f, exit_code: 0; no compiler diagnostics. This is the observed pipeline exit, not a separately captured Lean exit.
+
+Subsequent olean-build and axiom-readback batch (exact executed commands):
+set -o pipefail
+export ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_maximal_disjoint_cover.olean Theorems/Thm_StickyKakeya4_maximal_disjoint_cover.lean 2>&1 | tee verification/maximal-disjoint-cover-build.log
+lake env lean -DautoImplicit=false verification/MaximalDisjointCoverReadback.lean 2>&1 | tee verification/maximal-disjoint-cover-axioms.log
+Observed terminal tool result: exec session 29369, chunk 1f7e10, exit_code: 0.
+Observed build evidence: no compiler diagnostics; emitted olean existed at .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_maximal_disjoint_cover.olean (172808 bytes), and the following axiom readback imported it successfully.
+Exit status scope: the batch/readback pipeline exit_code was recorded as 0; the olean-build command did not print a separate per-command exit marker.
+=== End recorded verification evidence ===

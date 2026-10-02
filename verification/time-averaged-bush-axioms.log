@@ -1,0 +1,18 @@
+'StickyKakeya4.physicalAffineBush' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measurableSet_physicalAffineBush' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.closest_interval_subset_collisionTimeFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.collisionTimeFiber_volume_ge_of_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.time_averaged_root_collision_mass_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.product_collision_mass_eq_bush_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.time_averaged_physical_bush_mass_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_physicalAffineBush_mass_gt_of_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_physicalAffineBush_mass_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.product_collision_mass_eq_source_bush_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.time_averaged_source_bush_mass_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.exists_source_bush_mass_gt_of_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+--- Executed verification command and observed completion ---
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+$ set -o pipefail; export ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache; lake env lean -DautoImplicit=false verification/TimeAveragedBushReadback.lean 2>&1 | tee verification/time-averaged-bush-axioms.log; lake env lean -DautoImplicit=false verification/QuantitativeBushCoverReadback.lean 2>&1 | tee verification/quantitative-bush-cover-axioms.log
+Observed exec session: 15188
+VERIFIED EXIT_CODE: 0 (recorded strict readback batch completion; both complete declaration sets independently audited standard-only)

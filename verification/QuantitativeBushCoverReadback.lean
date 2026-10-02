@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_quantitative_bush_cover
+
+#print axioms StickyKakeya4.original_graph_restrict_source_square_le
+#print axioms StickyKakeya4.exists_physical_bush_piece_in_remainder
+#print axioms StickyKakeya4.original_edge_mass_captured_by_sources
+#print axioms StickyKakeya4.original_graph_restriction_preserves_domination_and_support
+#print axioms StickyKakeya4.exists_quantitative_physical_bush_cover
+#print axioms StickyKakeya4.original_graph_restrict_source_le
+#print axioms StickyKakeya4.exists_physical_bush_piece_in_source_remainder
+#print axioms StickyKakeya4.original_source_edge_mass_captured
+#print axioms StickyKakeya4.exists_quantitative_source_bush_cover

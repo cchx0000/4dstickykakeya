@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T11:13:12.976658+00:00",
-  "previous_checkpoint": "fdc15270b247dac121758a624cf4b5694277b1db",
+  "generated_at_utc": "2026-10-02T11:49:36.157158+00:00",
+  "previous_checkpoint": "ce848a9ba2eba697eebc7ebac4a6cd93f0e8f263",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 840,
+  "total_new_checked_declarations": 871,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -58,7 +58,12 @@
     "verification/actual-excessive-local-graph-axioms.log": 5,
     "verification/local-seed-absorption-axioms.log": 7,
     "verification/front-affine-dimension-axioms.log": 4,
-    "verification/source-chart-carrier-lipschitz-axioms.log": 2
+    "verification/source-chart-carrier-lipschitz-axioms.log": 2,
+    "verification/time-averaged-bush-axioms.log": 12,
+    "verification/maximal-disjoint-cover-axioms.log": 4,
+    "verification/quantitative-bush-cover-axioms.log": 9,
+    "verification/actual-half-edge-bush-seed-axioms.log": 2,
+    "verification/quantitative-bush-resolution-axioms.log": 4
   },
   "checks": [
     {
@@ -6797,6 +6802,285 @@
         "Quot.sound"
       ],
       "log": "verification/source-chart-carrier-lipschitz-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.physicalAffineBush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.measurableSet_physicalAffineBush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.closest_interval_subset_collisionTimeFiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.collisionTimeFiber_volume_ge_of_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.time_averaged_root_collision_mass_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.product_collision_mass_eq_bush_average",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.time_averaged_physical_bush_mass_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_physicalAffineBush_mass_gt_of_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_physicalAffineBush_mass_gt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.product_collision_mass_eq_source_bush_average",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.time_averaged_source_bush_mass_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_source_bush_mass_gt_of_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-averaged-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MaximalDisjointCover.Admissible",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/maximal-disjoint-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MaximalDisjointCover.Admissible.card_mul_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/maximal-disjoint-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MaximalDisjointCover.exists_stopped_family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/maximal-disjoint-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MaximalDisjointCover.exists_stopped_family_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/maximal-disjoint-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.original_graph_restrict_source_square_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_physical_bush_piece_in_remainder",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.original_edge_mass_captured_by_sources",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.original_graph_restriction_preserves_domination_and_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_quantitative_physical_bush_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.original_graph_restrict_source_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_physical_bush_piece_in_source_remainder",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.original_source_edge_mass_captured",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_quantitative_source_bush_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualHalfEdgeBushSeed.bush_power_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-half-edge-bush-seed-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualHalfEdgeBushSeed.sticky_deficit_exists_half_edge_bush_seed",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-half-edge-bush-seed-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_physical_bush_piece_above_relative_tail",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-resolution-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.original_source_mass_ge_of_relative_tail",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-resolution-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.original_source_resolution_decomposition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-resolution-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_quantitative_source_bush_resolution",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/quantitative-bush-resolution-axioms.log"
     }
   ],
   "source_sha256": {
@@ -6854,7 +7138,12 @@
     "Theorems/Thm_StickyKakeya4_actual_excessive_local_graph.lean": "956c6490b1a11490879be1557dce800f8a2d52a6d991dd916dfd8d9d9f0db94c",
     "Theorems/Thm_StickyKakeya4_local_seed_absorption.lean": "8f74a717ed7d77776ad2e34b28f56e848fff8f15c18557e31559ff6f83462c83",
     "Theorems/Thm_StickyKakeya4_front_affine_dimension_transport.lean": "7a990eafd344971832a264f3c7184781a084573d46f715517164240b9825caa2",
-    "Theorems/Thm_StickyKakeya4_source_chart_carrier_lipschitz.lean": "759fbed77884a411ccad9dad1cfe87073372095938952bd12f319cce096ad0c8"
+    "Theorems/Thm_StickyKakeya4_source_chart_carrier_lipschitz.lean": "759fbed77884a411ccad9dad1cfe87073372095938952bd12f319cce096ad0c8",
+    "Theorems/Thm_StickyKakeya4_time_averaged_bush.lean": "1437141c5e316eb00bca8a8140719c9f9fe7d150194d3995bcf23e68815bf385",
+    "Theorems/Thm_StickyKakeya4_maximal_disjoint_cover.lean": "3bc4d0f3204329024622c6f9e032df7af8de90ef67ced0f1c7e507f0da044f8e",
+    "Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean": "3f839e1c1a563dc368e713b003376ce4459ce0e2b12d61f1bb25bdb62325119a",
+    "Theorems/Thm_StickyKakeya4_actual_half_edge_bush_seed.lean": "2051ff9c796708a549bb5045884b77442fe75480ce42d5e31fa4eeeac89170da",
+    "Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.lean": "9910b83636c9d67d0c514d9c7081e2f7fa1534fb7c7f802489eb31abbb2d5268"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -6863,12 +7152,12 @@
   "targeted_lake_build_jobs": 8754,
   "targeted_lake_build_log": "verification/analytic-closure-build.log",
   "full_tracked_build": {
-    "source_commit": "95e104e5a6f074a0a60fc7932052c28913ae29a6",
-    "module_count": 163,
+    "source_commit": "ce848a9ba2eba697eebc7ebac4a6cd93f0e8f263",
+    "module_count": 171,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8870,
-    "log": "verification/reference-source-full-build.log"
+    "lake_jobs": 8878,
+    "log": "verification/excessive-seed-full-build.log"
   },
   "latest_main_axiom_gate": {
     "source_commit": "95e104e5a6f074a0a60fc7932052c28913ae29a6",
@@ -6880,5 +7169,5 @@
       "StickyKakeya4.sticky_kakeya_four_dimensional"
     ]
   },
-  "resumed_phase_declaration_count": 749
+  "resumed_phase_declaration_count": 780
 }

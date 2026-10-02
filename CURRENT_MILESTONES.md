@@ -71,7 +71,16 @@ The scalar forest ledger is compiled. The new measure-valued ledger is compiled
 and has standard-only axiom readback. Nodewise equality of measures implies the
 terminal root-measure budget and its preservation under a fixed endpoint map.
 This is an actual proved implication. Constructing the original geometric
-routing forest satisfying that conservation remains open.
+routing forest satisfying the required paid/cross bounds remains open.
+A genuine finite first-stage source route is now constructed: time averaging
+and maximal disjoint bush extraction capture at least half the original
+ordered graph mass, in at most `4 L/(r M)` physical `2r` source bushes. Its
+source-only restrictions retain every original target and have exact
+complement bookkeeping; geometric payment of those moving bushes is separate. Its original-data composition now constructs this route
+from `IsStickyDatum` and a strict front deficit, retaining superquadratic
+root mass with power-controlled source pieces and family count. A further actual
+finite source resolution leaves any prescribed relative tail theta, with
+explicit count and source-mass floors and exact kept-plus-tail conservation.
 
 ## 6. Source-faithful routing and terminal / paid / cross budgets
 
@@ -162,9 +171,9 @@ it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
-tracked build at `95e104e5` passed all **163** committed modules and **8,870** Lake
-jobs; the subsequent localization and exact physical rescaling modules have strict checks;
-there are now **840** checked new declarations with only standard logical
+tracked build at `ce848a9` passed all **171** committed modules and **8,878** Lake
+jobs; the subsequent physical bush-cover modules have strict checks;
+there are now **871** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the

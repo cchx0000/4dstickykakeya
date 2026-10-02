@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_quantitative_bush_resolution
+
+#print axioms StickyKakeya4.exists_physical_bush_piece_above_relative_tail
+#print axioms StickyKakeya4.original_source_mass_ge_of_relative_tail
+#print axioms StickyKakeya4.original_source_resolution_decomposition
+#print axioms StickyKakeya4.exists_quantitative_source_bush_resolution

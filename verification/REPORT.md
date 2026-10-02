@@ -3,6 +3,53 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual finite routing captures half the original source-edge mass
+
+`exists_quantitative_source_bush_cover` now constructs a finite family of
+pairwise disjoint measurable source pieces from the actual product-dominated
+root graph, at its unchanged residual scale `r`. Every piece is contained
+in a physical `2r` bush. For root mass M and buffered time-window length L,
+
+    each source piece has mass >= r M/(4 L),
+    number of pieces <= 4 L/(r M),
+    original graph mass in sourceUnion x univ >= M/2.
+
+The old target is never replaced or deleted. The remaining measure is the
+literal source-complement restriction and has mass at most M/2. First time
+averaging supplies a quantitatively positive bush; finite maximality then
+constructs the family. There is no assumed finite stopping certificate,
+rare-cycle normalization, or new descendant-density input.
+
+The local averaging, finite maximal-family helper, and source-only/induced
+cover modules passed strict compilation and all **25** standard-only
+readbacks. With the two-declaration original-data composition below, the
+cumulative count is **871**. The full tracked build
+at `ce848a9` passed all **171** modules and **8,878** Lake jobs, exit 0; see
+[excessive-seed-full-build.log](excessive-seed-full-build.log).
+The subsequent cover and original-data composition modules have dedicated
+strict checks. The two-declaration
+`ActualHalfEdgeBushSeed.sticky_deficit_exists_half_edge_bush_seed` also removes
+the given-root premise: from only the original sticky datum and strict front
+deficit, it constructs source pieces of mass at least `r^(3-eta/8)`, at most
+`r^(-3+eta/8)` pieces, and retained original directed mass at least
+`r^(2-eta/8)`. The retained measure is literally `G|(sourceUnion x univ)`,
+with every old target and residual bound unchanged. Its two standard-only
+readbacks are included in the cumulative count.
+
+The arbitrary-tail theorem `exists_quantitative_source_bush_resolution` is
+also certified, with four further standard-only readbacks. For any
+`0 < theta < 1`, it constructs source pieces of mass at least
+`r theta M/(2L)`, count at most `2L/(r theta M)`, and the exact original-root
+decomposition `kept + tail = Gamma`, with tail at most `theta M` and kept
+mass at least `(1-theta)M`. Both branches remain original submeasures and
+retain all target coordinates. These four checks are included in the
+cumulative count. The mathematical mechanism and its limits are described in
+[TIME_AVERAGED_HALF_EDGE_BUSH_COVER.md](../docs/TIME_AVERAGED_HALF_EDGE_BUSH_COVER.md).
+
+This is an actual finite linear-old-mass source construction. It does not
+bound the aggregate cross-cap charge of the resulting moving bushes or
+complete the final geometric contradiction.
+
 ## Complete original-data excessive local graph seed
 
 `ActualExcessiveLocalGraph.sticky_deficit_exists_excessive_directed_seed`

@@ -1,0 +1,18 @@
+{
+  "modules": [
+    {
+      "source": "Theorems/Thm_StickyKakeya4_actual_half_edge_bush_seed.lean",
+      "source_sha256": "2051ff9c796708a549bb5045884b77442fe75480ce42d5e31fa4eeeac89170da",
+      "public_declarations": 2,
+      "readback": "verification/ActualHalfEdgeBushSeedReadback.lean",
+      "strict_log": "verification/actual-half-edge-bush-seed-strict.log",
+      "axiom_log": "verification/actual-half-edge-bush-seed-axioms.log",
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true
+    }
+  ],
+  "total_public_declarations": 2,
+  "entrypoint": "StickyKakeya4.ActualHalfEdgeBushSeed.sticky_deficit_exists_half_edge_bush_seed",
+  "scope": "From IsStickyDatum and dimH(unitFront ambient)<4 alone, construct arbitrarily fine actual normalized directed root graphs, probability sources, and finite pairwise disjoint physical 2r bush source pieces. Every piece has source mass at least r^(3-eta/8); count is at most r^(-3+eta/8). The same original directed G is restricted only to the measurable source union U times univ, retaining all old targets and at least half its mass, hence at least r^(2-eta/8). Exact cover constant is 35/2. Root and captured graphs retain original error r, shell, and closest-time support. Actual affine front lineage, strict front dimension deficit, fixed chart bound, and density tax r^(-eta/8) remain explicit. No graph symmetry, global paid/cross-cap estimate, or moving-limit support transfer is claimed."
+}
