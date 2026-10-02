@@ -1,0 +1,40 @@
+$ lake env lean -DautoImplicit=false verification/RootedFourCycleMeasureReadback.lean
+StickyKakeya4.RootedFourCycle.ae_rootSuccess_pos.{u_1, u_2} {X : Type u_1} {Y : Type u_2} [MeasurableSpace X]
+  [MeasurableSpace Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y) [MeasureTheory.IsProbabilityMeasure μ]
+  [MeasureTheory.IsProbabilityMeasure ν] (h : X × Y → ENNReal) (hh : Measurable h) (hbound : ∀ (p : X × Y), h p ≤ 1) :
+  ∀ᵐ (p : X × Y) ∂(μ.prod ν).withDensity h, 0 < StickyKakeya4.RootedFourCycle.rootSuccess μ ν h p
+StickyKakeya4.RootedFourCycle.rooted_measure_mass_ge_edge_mass_pow_four.{u_1, u_2} {X : Type u_1} {Y : Type u_2}
+  [MeasurableSpace X] [MeasurableSpace Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y)
+  [MeasureTheory.IsProbabilityMeasure μ] [MeasureTheory.IsProbabilityMeasure ν] (h : X × Y → ENNReal)
+  (hh : Measurable h) (hbound : ∀ (p : X × Y), h p ≤ 1) :
+  ((μ.prod ν).withDensity h) Set.univ ^ 4 ≤
+    ((μ.prod ν).withDensity (StickyKakeya4.RootedFourCycle.rootedDensity μ ν h)) Set.univ
+'StickyKakeya4.RootedFourCycle.sq_lintegral_le_lintegral_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.codegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.measurable_codegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.lintegral_codegree_eq_degree_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedFourCycle.cycleMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.edge_mass_pow_four_le_cycleMass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedFourCycle.rootSuccess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.rootedDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.measurable_rootSuccess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.measurable_rootedDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.rootSuccess_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.rootedDensity_le_old' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.rooted_measure_le_old' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.codegree_sq_eq_four_edge_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedFourCycle.cycleMass_eq_lintegral_rootedDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedFourCycle.rooted_measure_mass_ge_edge_mass_pow_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedFourCycle.rootSuccess_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedFourCycle.ae_rootSuccess_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT_STATUS: 0

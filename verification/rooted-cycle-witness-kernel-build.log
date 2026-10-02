@@ -1,0 +1,19 @@
+⚠ [3483/3490] Replayed Theorems.Thm_StickyKakeya4_old_neighbor_disintegration
+warning: Theorems/Thm_StickyKakeya4_old_neighbor_disintegration.lean:134:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [3489/3490] Built Theorems.Thm_StickyKakeya4_rooted_four_cycle_measure (2.7s)
+✔ [3490/3490] Built Theorems.Thm_StickyKakeya4_rooted_cycle_witness_kernel (2.9s)
+Build completed successfully (3490 jobs).
+
+--- Executed command and verified exit status ---
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+export ELAN_HOME=/workspace/shared/lean-tools/elan
+export PATH="$ELAN_HOME/bin:$PATH"
+lake build Theorems.Thm_StickyKakeya4_rooted_cycle_witness_kernel
+Confirmed command exit status: 0

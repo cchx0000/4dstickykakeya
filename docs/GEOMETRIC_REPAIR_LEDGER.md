@@ -193,7 +193,9 @@ edges form an invertible frame, the identity
 `sum_(i<3) (t_i-t_3) alpha_i = sum_i collision_error_i`
 controls all old edge times without cubic four-time interpolation. Explicit
 3x3 adjugate bounds are checked; the physical time and scalar-plane consequence
-is being formalized with the original errors and times fixed.
+is now strictly checked with the original errors and times fixed. The time
+error is at most `24 M^2 r_0 / Delta`, and the actual graph-plane error is
+`6 M^2 r_0 / Delta + 144 M^5 r_0 / Delta^2`.
 
 This does not by itself provide sufficiently nondegenerate rooted cycles.
 For two separated radial direction caps of radius
@@ -209,3 +211,22 @@ physical support, but do not supply the determinant-small new rank-loss packet
 or its original weighted anchor/cycle law required by the transverse paid
 comparison. They can simplify support bookkeeping; they cannot be relabeled
 as those paid-ledger witnesses.
+
+
+## Actual rooted-cycle witnesses now checked
+
+The bipartite C4 estimate and a bad-edge restriction argument show that almost
+every edge of a bounded measurable graph has positive rooted-cycle witness
+density. An actual conditioned Markov extension appends only fresh opposite
+vertices to the whole inherited occurrence. It preserves all old endpoint,
+time, and flag observables, and gives four distinct physical vertices for
+diffuse selector laws and a zero-diagonal graph. This supplies real graph
+witnesses, but neither a mesoscopic determinant lower bound nor uniformly
+bounded conditioned witness density.
+
+Even an exhaustive cycle coupling with every edge marginal equal to the old
+law cannot generally retain a bounded four-vertex product density. For a
+complete bipartite rectangle of old mass `M`, the cycle support has product
+mass `M^2`, so a coupling of total mass `M` requires density at least `1/M`
+somewhere. Any paid comparison must therefore control the actual old-edge
+charge or the new joint law separately.

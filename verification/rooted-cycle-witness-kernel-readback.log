@@ -1,0 +1,443 @@
+@StickyKakeya4.RootedCycleWitnessKernel.Diffuse.fresh_pair_ae_ne : ∀ {X : Type u_1} {Y : Type u_2}
+  [inst : MeasurableSpace X] [inst_1 : MeasurableSpace Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y)
+  [MeasureTheory.NullSingletonClass μ] [MeasureTheory.NullSingletonClass ν] (x : X) (y : Y),
+  ∀ᵐ (q : X × Y) ∂μ.prod ν, q.1 ≠ x ∧ q.2 ≠ y
+@StickyKakeya4.RootedCycleWitnessKernel.Diffuse.fresh_pair_measure_one : ∀ {X : Type u_1} {Y : Type u_2}
+  [inst : MeasurableSpace X] [inst_1 : MeasurableSpace Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y)
+  [MeasureTheory.IsProbabilityMeasure μ] [MeasureTheory.IsProbabilityMeasure ν] [MeasureTheory.NullSingletonClass μ]
+  [MeasureTheory.NullSingletonClass ν] (x : X) (y : Y), (μ.prod ν) {q | q.1 ≠ x ∧ q.2 ≠ y} = 1
+@StickyKakeya4.RootedCycleWitnessKernel.Diffuse.extension_ae_ne : ∀ {X : Type u_1} {Y : Type u_2} {Ω : Type u_3}
+  [inst : MeasurableSpace X] [inst_1 : MeasurableSpace Y] [inst_2 : MeasurableSpace Ω] [MeasurableEq X] [MeasurableEq Y]
+  (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y) [MeasureTheory.NullSingletonClass μ]
+  [MeasureTheory.NullSingletonClass ν] (Γ : MeasureTheory.Measure Ω) (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ᵐ (p : Ω × X × Y) ∂Γ.compProd (ProbabilityTheory.Kernel.const Ω (μ.prod ν)),
+      p.2.1 ≠ (endpoint p.1).1 ∧ p.2.2 ≠ (endpoint p.1).2
+@StickyKakeya4.RootedCycleWitnessKernel.Diffuse.positive_cycle_fourDistinct : ∀ {X : Type u_1} (h : X × X → ENNReal),
+  (∀ (x : X), h (x, x) = 0) →
+    ∀ {x y z w : X},
+      0 < h (x, y) →
+        0 < h (z, y) →
+          0 < h (z, w) → 0 < h (x, w) → z ≠ x → w ≠ y → StickyKakeya4.FourDistinctSources.FourDistinct x y z w
+@StickyKakeya4.RootedCycleWitnessKernel.Diffuse.extension_ae_cycle_distinct : ∀ {X : Type u_1} {Ω : Type u_2}
+  [inst : MeasurableSpace X] [inst_1 : MeasurableSpace Ω] [MeasurableEq X] (μ ν : MeasureTheory.Measure X)
+  [MeasureTheory.NullSingletonClass μ] [MeasureTheory.NullSingletonClass ν] (Γ : MeasureTheory.Measure Ω)
+  (endpoint : Ω → X × X),
+  Measurable endpoint →
+    ∀ (h : X × X → ENNReal),
+      (∀ (x : X), h (x, x) = 0) →
+        ∀ᵐ (p : Ω × X × X) ∂Γ.compProd (ProbabilityTheory.Kernel.const Ω (μ.prod ν)),
+          0 < h (endpoint p.1) ∧
+              0 < h (p.2.1, (endpoint p.1).2) ∧ 0 < h (p.2.1, p.2.2) ∧ 0 < h ((endpoint p.1).1, p.2.2) →
+            StickyKakeya4.FourDistinctSources.FourDistinct (endpoint p.1).1 (endpoint p.1).2 p.2.1 p.2.2
+@StickyKakeya4.RootedCycleWitnessKernel.Diffuse.ac_extension_ae_cycle_distinct : ∀ {X : Type u_1} {Ω : Type u_2}
+  [inst : MeasurableSpace X] [inst_1 : MeasurableSpace Ω] [MeasurableEq X] (μ ν : MeasureTheory.Measure X)
+  [MeasureTheory.NullSingletonClass μ] [MeasureTheory.NullSingletonClass ν] (Γ : MeasureTheory.Measure Ω)
+  (endpoint : Ω → X × X),
+  Measurable endpoint →
+    ∀ (h : X × X → ENNReal),
+      (∀ (x : X), h (x, x) = 0) →
+        ∀ (ξ : MeasureTheory.Measure (Ω × X × X)),
+          ξ.AbsolutelyContinuous (Γ.compProd (ProbabilityTheory.Kernel.const Ω (μ.prod ν))) →
+            (∀ᵐ (p : Ω × X × X) ∂ξ,
+                0 < h (endpoint p.1) ∧
+                  0 < h (p.2.1, (endpoint p.1).2) ∧ 0 < h (p.2.1, p.2.2) ∧ 0 < h ((endpoint p.1).1, p.2.2)) →
+              ∀ᵐ (p : Ω × X × X) ∂ξ,
+                StickyKakeya4.FourDistinctSources.FourDistinct (endpoint p.1).1 (endpoint p.1).2 p.2.1 p.2.2
+@StickyKakeya4.RootedCycleWitnessKernel.witnessEvent : {Ω : Type u_1} →
+  {X : Type u_2} → {Y : Type u_3} → (Ω → X × Y) → (X × Y → ENNReal) → Set (Ω × X × Y)
+@StickyKakeya4.RootedCycleWitnessKernel.measurableSet_witnessEvent : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h → MeasurableSet (StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint h)
+@StickyKakeya4.RootedCycleWitnessKernel.freshVertexKernel : {Ω : Type u_1} →
+  {X : Type u_2} →
+    {Y : Type u_3} →
+      [inst : MeasurableSpace Ω] →
+        [inst_1 : MeasurableSpace X] →
+          [inst_2 : MeasurableSpace Y] →
+            MeasureTheory.Measure X → MeasureTheory.Measure Y → ProbabilityTheory.Kernel Ω (X × Y)
+@StickyKakeya4.RootedCycleWitnessKernel.freshVertexKernel_isMarkov : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [MeasureTheory.IsProbabilityMeasure μ] [MeasureTheory.IsProbabilityMeasure ν],
+  ProbabilityTheory.IsMarkovKernel (StickyKakeya4.RootedCycleWitnessKernel.freshVertexKernel μ ν)
+@StickyKakeya4.RootedCycleWitnessKernel.rootSuccess_le_event_probability : ∀ {Ω : Type u_1} {X : Type u_2}
+  {Y : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y]
+  (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y) [MeasureTheory.IsProbabilityMeasure μ]
+  [MeasureTheory.IsProbabilityMeasure ν] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          ∀ (ω : Ω),
+            StickyKakeya4.RootedFourCycle.rootSuccess μ ν h (endpoint ω) ≤
+              StickyKakeya4.PositiveFlagConditioning.successProbability
+                (StickyKakeya4.RootedCycleWitnessKernel.freshVertexKernel μ ν)
+                (StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint h) ω
+@StickyKakeya4.RootedCycleWitnessKernel.ae_witness_probability_pos : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [MeasureTheory.IsProbabilityMeasure μ] [MeasureTheory.IsProbabilityMeasure ν]
+  (Γ : MeasureTheory.Measure Ω) (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            ∀ᵐ (ω : Ω) ∂Γ,
+              0 <
+                StickyKakeya4.PositiveFlagConditioning.successProbability
+                  (StickyKakeya4.RootedCycleWitnessKernel.freshVertexKernel μ ν)
+                  (StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint h) ω
+@StickyKakeya4.RootedCycleWitnessKernel.ae_root_edge_pos : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) (Γ : MeasureTheory.Measure Ω) (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h → MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h → ∀ᵐ (ω : Ω) ∂Γ, 0 < h (endpoint ω)
+@StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessKernel : {Ω : Type u_1} →
+  {X : Type u_2} →
+    {Y : Type u_3} →
+      [inst : MeasurableSpace Ω] →
+        [inst_1 : MeasurableSpace X] →
+          [inst_2 : MeasurableSpace Y] →
+            [StandardBorelSpace X] →
+              [StandardBorelSpace Y] →
+                [Nonempty X] →
+                  [Nonempty Y] →
+                    (μ : MeasureTheory.Measure X) →
+                      (ν : MeasureTheory.Measure Y) →
+                        [MeasureTheory.IsProbabilityMeasure μ] →
+                          [MeasureTheory.IsProbabilityMeasure ν] →
+                            (Γ : MeasureTheory.Measure Ω) →
+                              [MeasureTheory.IsFiniteMeasure Γ] →
+                                (Ω → X × Y) → (X × Y → ENNReal) → ProbabilityTheory.Kernel Ω (X × Y)
+@StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessKernel_isMarkov : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [inst_3 : StandardBorelSpace X]
+  [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y) (h : X × Y → ENNReal),
+  ProbabilityTheory.IsMarkovKernel (StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessKernel μ ν Γ endpoint h)
+@StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension : {Ω : Type u_1} →
+  {X : Type u_2} →
+    {Y : Type u_3} →
+      [inst : MeasurableSpace Ω] →
+        [inst_1 : MeasurableSpace X] →
+          [inst_2 : MeasurableSpace Y] →
+            [StandardBorelSpace X] →
+              [StandardBorelSpace Y] →
+                [Nonempty X] →
+                  [Nonempty Y] →
+                    (μ : MeasureTheory.Measure X) →
+                      (ν : MeasureTheory.Measure Y) →
+                        [MeasureTheory.IsProbabilityMeasure μ] →
+                          [MeasureTheory.IsProbabilityMeasure ν] →
+                            (Γ : MeasureTheory.Measure Ω) →
+                              [MeasureTheory.IsFiniteMeasure Γ] →
+                                (Ω → X × Y) → (X × Y → ENNReal) → MeasureTheory.Measure (Ω × X × Y)
+@StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension_isFinite : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [inst_3 : StandardBorelSpace X]
+  [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y) (h : X × Y → ENNReal),
+  MeasureTheory.IsFiniteMeasure (StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h)
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_original : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [inst_3 : StandardBorelSpace X]
+  [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y) (h : X × Y → ENNReal),
+  MeasureTheory.Measure.map Prod.fst (StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h) =
+    Γ
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_observable : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  {T : Type u_4} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y]
+  [inst_3 : MeasurableSpace T] [inst_4 : StandardBorelSpace X] [inst_5 : StandardBorelSpace Y] [inst_6 : Nonempty X]
+  [inst_7 : Nonempty Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y)
+  [inst_8 : MeasureTheory.IsProbabilityMeasure μ] [inst_9 : MeasureTheory.IsProbabilityMeasure ν]
+  (Γ : MeasureTheory.Measure Ω) [inst_10 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y) (h : X × Y → ENNReal)
+  (f : Ω → T),
+  Measurable f →
+    MeasureTheory.Measure.map (fun p => f p.1)
+        (StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h) =
+      MeasureTheory.Measure.map f Γ
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_inherited : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [inst_3 : StandardBorelSpace X]
+  [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y) (h : X × Y → ENNReal) (P : Ω → Prop),
+  (∀ᵐ (ω : Ω) ∂Γ, P ω) →
+    ∀ᵐ (p : Ω × X × Y) ∂StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h, P p.1
+@StickyKakeya4.RootedCycleWitnessKernel.conditioned_extension_eq_rooted : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [inst_3 : StandardBorelSpace X]
+  [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            StickyKakeya4.PositiveFlagConditioning.conditionedExtension Γ
+                (StickyKakeya4.RootedCycleWitnessKernel.freshVertexKernel μ ν)
+                (StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint h) =
+              StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_success : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [inst_3 : StandardBorelSpace X]
+  [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            ∀ᵐ (p : Ω × X × Y) ∂StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h,
+              p ∈ StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint h
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_kernel_success_mass : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [inst_3 : StandardBorelSpace X]
+  [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            ∀ᵐ (ω : Ω) ∂Γ,
+              ((StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessKernel μ ν Γ endpoint h) ω)
+                  (Prod.mk ω ⁻¹' StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint h) =
+                1
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_subsource_witness : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [inst_3 : StandardBorelSpace X]
+  [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            ∀ (Λ : MeasureTheory.Measure Ω) [MeasureTheory.SFinite Λ],
+              Λ.AbsolutelyContinuous Γ →
+                (∀ᵐ (p :
+                    Ω ×
+                      X × Y) ∂Λ.compProd (StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessKernel μ ν Γ endpoint h),
+                    p ∈ StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint h) ∧
+                  MeasureTheory.Measure.map Prod.fst
+                      (Λ.compProd (StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessKernel μ ν Γ endpoint h)) =
+                    Λ
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_absolutelyContinuous : ∀ {Ω : Type u_1} {X : Type u_2}
+  {Y : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y]
+  [inst_3 : StandardBorelSpace X] [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y]
+  (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            (StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h).AbsolutelyContinuous
+              (Γ.compProd (StickyKakeya4.RootedCycleWitnessKernel.freshVertexKernel μ ν))
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_all_edges_pos : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [inst_3 : StandardBorelSpace X]
+  [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y] (μ : MeasureTheory.Measure X)
+  (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            ∀ᵐ (p : Ω × X × Y) ∂StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h,
+              0 < h (endpoint p.1) ∧ 0 < h (p.2.1, (endpoint p.1).2) ∧ 0 < h p.2 ∧ 0 < h ((endpoint p.1).1, p.2.2)
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_old_edge_support : ∀ {Ω : Type u_1} {X : Type u_2}
+  {Y : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y]
+  [inst_3 : StandardBorelSpace X] [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y]
+  (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [inst_9 : MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            ∀ (G : Set (X × Y)),
+              (∀ (p : X × Y), 0 < h p → p ∈ G) →
+                ∀ᵐ (p : Ω × X × Y) ∂StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h,
+                  endpoint p.1 ∈ G ∧ (p.2.1, (endpoint p.1).2) ∈ G ∧ p.2 ∈ G ∧ ((endpoint p.1).1, p.2.2) ∈ G
+@StickyKakeya4.RootedCycleWitnessKernel.exists_rooted_witness_kernel : ∀ {Ω : Type u_1} {X : Type u_2} {Y : Type u_3}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y] [StandardBorelSpace X]
+  [StandardBorelSpace Y] [Nonempty X] [Nonempty Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y)
+  [MeasureTheory.IsProbabilityMeasure μ] [MeasureTheory.IsProbabilityMeasure ν] (Γ : MeasureTheory.Measure Ω)
+  [MeasureTheory.IsFiniteMeasure Γ] (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            ∃ κ,
+              ProbabilityTheory.IsMarkovKernel κ ∧
+                (∀ᵐ (p : Ω × X × Y) ∂Γ.compProd κ, p ∈ StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint h) ∧
+                  MeasureTheory.Measure.map Prod.fst (Γ.compProd κ) = Γ
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_opposite_distinct : ∀ {Ω : Type u_1} {X : Type u_2}
+  {Y : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y]
+  [inst_3 : StandardBorelSpace X] [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y]
+  (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] [MeasureTheory.NullSingletonClass μ]
+  [MeasureTheory.NullSingletonClass ν] (Γ : MeasureTheory.Measure Ω) [inst_11 : MeasureTheory.IsFiniteMeasure Γ]
+  (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            ∀ᵐ (p : Ω × X × Y) ∂StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h,
+              p.2.1 ≠ (endpoint p.1).1 ∧ p.2.2 ≠ (endpoint p.1).2
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_restrict_opposite_distinct : ∀ {Ω : Type u_1} {X : Type u_2}
+  {Y : Type u_3} [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : MeasurableSpace Y]
+  [inst_3 : StandardBorelSpace X] [inst_4 : StandardBorelSpace Y] [inst_5 : Nonempty X] [inst_6 : Nonempty Y]
+  (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y) [inst_7 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_8 : MeasureTheory.IsProbabilityMeasure ν] [MeasureTheory.NullSingletonClass μ]
+  [MeasureTheory.NullSingletonClass ν] (Γ : MeasureTheory.Measure Ω) [inst_11 : MeasureTheory.IsFiniteMeasure Γ]
+  (endpoint : Ω → X × Y),
+  Measurable endpoint →
+    ∀ (h : X × Y → ENNReal),
+      Measurable h →
+        (∀ (p : X × Y), h p ≤ 1) →
+          MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+            (StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h).restrict
+                {p | p.2.1 ≠ (endpoint p.1).1 ∧ p.2.2 ≠ (endpoint p.1).2} =
+              StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_four_distinct : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace X] [inst_3 : Nonempty X]
+  (μ ν : MeasureTheory.Measure X) [inst_4 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_5 : MeasureTheory.IsProbabilityMeasure ν] [MeasureTheory.NullSingletonClass μ]
+  [MeasureTheory.NullSingletonClass ν] (Γ : MeasureTheory.Measure Ω) [inst_8 : MeasureTheory.IsFiniteMeasure Γ]
+  (endpoint : Ω → X × X),
+  Measurable endpoint →
+    ∀ (h : X × X → ENNReal),
+      Measurable h →
+        (∀ (p : X × X), h p ≤ 1) →
+          (∀ (x : X), h (x, x) = 0) →
+            MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+              ∀ᵐ (p : Ω × X × X) ∂StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h,
+                StickyKakeya4.FourDistinctSources.FourDistinct (endpoint p.1).1 (endpoint p.1).2 p.2.1 p.2.2
+@StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_restrict_four_distinct : ∀ {Ω : Type u_1} {X : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace X] [inst_2 : StandardBorelSpace X] [inst_3 : Nonempty X]
+  (μ ν : MeasureTheory.Measure X) [inst_4 : MeasureTheory.IsProbabilityMeasure μ]
+  [inst_5 : MeasureTheory.IsProbabilityMeasure ν] [MeasureTheory.NullSingletonClass μ]
+  [MeasureTheory.NullSingletonClass ν] (Γ : MeasureTheory.Measure Ω) [inst_8 : MeasureTheory.IsFiniteMeasure Γ]
+  (endpoint : Ω → X × X),
+  Measurable endpoint →
+    ∀ (h : X × X → ENNReal),
+      Measurable h →
+        (∀ (p : X × X), h p ≤ 1) →
+          (∀ (x : X), h (x, x) = 0) →
+            MeasureTheory.Measure.map endpoint Γ ≤ (μ.prod ν).withDensity h →
+              (StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h).restrict
+                  {p | StickyKakeya4.FourDistinctSources.FourDistinct (endpoint p.1).1 (endpoint p.1).2 p.2.1 p.2.2} =
+                StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension μ ν Γ endpoint h
+'StickyKakeya4.RootedCycleWitnessKernel.Diffuse.fresh_pair_ae_ne' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.Diffuse.fresh_pair_measure_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.Diffuse.extension_ae_ne' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.Diffuse.positive_cycle_fourDistinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.Diffuse.extension_ae_cycle_distinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.Diffuse.ac_extension_ae_cycle_distinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.witnessEvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.measurableSet_witnessEvent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.freshVertexKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.freshVertexKernel_isMarkov' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rootSuccess_le_event_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.ae_witness_probability_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.ae_root_edge_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessKernel_isMarkov' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension_isFinite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_observable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_inherited' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.conditioned_extension_eq_rooted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_success' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_kernel_success_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_subsource_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_absolutelyContinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_all_edges_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_old_edge_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.exists_rooted_witness_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_opposite_distinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_restrict_opposite_distinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_four_distinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedCycleWitnessKernel.rooted_extension_restrict_four_distinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+--- Executed command and verified exit status ---
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+export ELAN_HOME=/workspace/shared/lean-tools/elan
+export PATH="$ELAN_HOME/bin:$PATH"
+lake env lean -DautoImplicit=false verification/RootedCycleWitnessKernelReadback.lean
+Confirmed command exit status: 0

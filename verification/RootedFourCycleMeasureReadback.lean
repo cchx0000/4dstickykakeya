@@ -1,0 +1,22 @@
+import Theorems.Thm_StickyKakeya4_rooted_four_cycle_measure
+
+#check StickyKakeya4.RootedFourCycle.ae_rootSuccess_pos
+#check StickyKakeya4.RootedFourCycle.rooted_measure_mass_ge_edge_mass_pow_four
+#print axioms StickyKakeya4.RootedFourCycle.sq_lintegral_le_lintegral_sq
+#print axioms StickyKakeya4.RootedFourCycle.codegree
+#print axioms StickyKakeya4.RootedFourCycle.measurable_codegree
+#print axioms StickyKakeya4.RootedFourCycle.lintegral_codegree_eq_degree_square
+#print axioms StickyKakeya4.RootedFourCycle.cycleMass
+#print axioms StickyKakeya4.RootedFourCycle.edge_mass_pow_four_le_cycleMass
+#print axioms StickyKakeya4.RootedFourCycle.rootSuccess
+#print axioms StickyKakeya4.RootedFourCycle.rootedDensity
+#print axioms StickyKakeya4.RootedFourCycle.measurable_rootSuccess
+#print axioms StickyKakeya4.RootedFourCycle.measurable_rootedDensity
+#print axioms StickyKakeya4.RootedFourCycle.rootSuccess_le_one
+#print axioms StickyKakeya4.RootedFourCycle.rootedDensity_le_old
+#print axioms StickyKakeya4.RootedFourCycle.rooted_measure_le_old
+#print axioms StickyKakeya4.RootedFourCycle.codegree_sq_eq_four_edge_integral
+#print axioms StickyKakeya4.RootedFourCycle.cycleMass_eq_lintegral_rootedDensity
+#print axioms StickyKakeya4.RootedFourCycle.rooted_measure_mass_ge_edge_mass_pow_four
+#print axioms StickyKakeya4.RootedFourCycle.rootSuccess_mono
+#print axioms StickyKakeya4.RootedFourCycle.ae_rootSuccess_pos

@@ -1,0 +1,41 @@
+'StickyKakeya4.ContactCycleRigidity.edgeMatrix_det_eq_anchored' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.sum_edges_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.time_difference_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.residual_sum_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.residual_sum_coordinate_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.old_times_cluster' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.old_times_pairwise_cluster' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.edgeMatrix_bound_of_direction_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.graphSlope_maps_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.scalar_graph_error_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.reference_residual_frame_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.graphSlope_scalar_error_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.scalar_graph_time_coherence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.graphSlope_scalar_error_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.old_times_in_scalar_label_packet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ContactCycleRigidity.old_edges_collide_at_scalar_label' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH lake env lean -DautoImplicit=false verification/ContactCycleRigidityReadback.lean
+Exit status: 0 (confirmed)

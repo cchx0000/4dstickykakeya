@@ -3,6 +3,41 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Root-faithful four-cycle geometry checkpoint
+
+Actual physical contact cycles now yield old-time rigidity without replacing
+root errors by an auxiliary scale. With horizontal entries bounded by `M`,
+frame determinant at least `Delta > 0`, and all four old collision errors at
+most `r_0`, the checked time bound is `24 M^2 r_0 / Delta`. The actual graph
+plane is within `6 M^2 r_0 / Delta + 144 M^5 r_0 / Delta^2` of a scalar graph.
+A scalar-label cell therefore puts every original edge in one time packet,
+and reevaluating those same edges at its center retains the explicit error.
+For bounded `M` and `Delta = r_0^d`, `d < 1/6`, this is compatible with the
+terminal cap scale `r_0^(2/3)`.
+
+`RootedFourCycle` proves the bipartite C4 lower bound `M^4`, actual rooted
+marginal domination by the old graph law, and positive witness density at
+almost every old edge. `RootedCycleWitnessKernel` constructs a genuine Markov
+extension rooted at the full old occurrence, preserving every original
+endpoint, collision time, and flag law. Its cycle edges belong to the original
+graph. Diffuse selector laws and a zero diagonal give four distinct vertices.
+Conditioning is only asserted to preserve absolute continuity, not a bounded
+fresh product density.
+
+All three modules passed strict compilation and axiom readback: 18, 16, and
+32 checked declarations respectively. The cumulative checked count is **488**;
+all axiom lists are empty or contain only `propext`, `Classical.choice`, and
+`Quot.sound`. These targeted checks extend the most recent full tracked build;
+a new full tracked build is pending.
+
+The remaining step is substantive geometry: producing a mesoscopic
+nondegenerate root cycle, or a genuinely paid/Frostman alternative, from the
+actual non-paid occurrence. Generic C4 positivity does not supply that
+threshold. The fixed smooth two-patch test in
+[CONTACT_CYCLE_RIGIDITY_AND_THRESHOLD.md](../docs/CONTACT_CYCLE_RIGIDITY_AND_THRESHOLD.md)
+explains why the no-Frostman/weighted rank-loss branch is essential.
+The unchanged final theorem still has its preexisting WZ project axiom.
+
 ## Actual common-target occurrence kernel checkpoint
 
 The common-target star is now constructed from actual source-cut old measures,

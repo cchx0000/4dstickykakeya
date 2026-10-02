@@ -17,8 +17,13 @@ and time-window terms.
 
 ## 2. Contact/Maslov incidence
 
-Existing matrix-pencil/Maslov incidence theorem compiled. This alone does not
-construct mass-preserving geometric routing.
+Existing matrix-pencil/Maslov incidence theorem compiled. Actual rooted C4
+witnesses now preserve the whole inherited old occurrence and give four
+distinct vertices under diffuse/zero-diagonal hypotheses. Genuine
+nondegenerate contact cycles have checked original-time clustering and
+scalar-plane error `O_M(r_0/Delta^2)`. Mesoscopic nondegenerate-or-paid/Frostman
+availability remains unproved; these inputs do not yet construct the complete
+mass-preserving geometric routing.
 
 ## 3. Borel selector and compact ambient front
 
