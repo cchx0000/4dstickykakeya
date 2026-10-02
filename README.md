@@ -17,6 +17,26 @@ The latest Prove2Me main target and eight milestones, their dependency graph,
 the uniform finite-scale target, and the remaining no-WZ closure gates are recorded in
 [PROVE2ME_TARGETS.md](PROVE2ME_TARGETS.md).
 
+## Source-faithful verification checkpoint (2026-10-02)
+
+The original [Chenxi Cai manuscript](https://cchx0000.github.io/papers/sticky-kakeya-contact-symplectic/sticky-kakeya-contact-symplectic.pdf)
+is the final specification. [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md)
+records the exact correspondence and remaining proof obligations. In particular,
+its occurrence-measure restrictions must not be replaced by arbitrary physical
+shading deletion. The compact marked main theorem is unchanged.
+
+New kernel-checked intermediate results include a common-shading obstruction,
+a finite conditional-marginal normalization test, and a **global terminal-band
+bound**. The latter derives a cubic terminal budget from one original endpoint
+pair measure, so terminal caps may move and overlap. These are intermediate
+results with explicit hypotheses, not an unconditional completion of the main theorem.
+
+See [verification/REPORT.md](verification/REPORT.md) for executed checks and
+[verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. A complete
+project build and final-theorem axiom audit are tracked separately from focused
+lemma checks. `scripts/check-axioms.sh` fails when the final proof retains a
+project-specific axiom.
+
 ## Current formalization
 
 The main no-WZ development now includes:

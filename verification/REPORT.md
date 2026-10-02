@@ -131,8 +131,9 @@ than replacing the main theorem by a weaker result.
 The source audit now prioritizes the paper's **finite-depth occurrence-tree**
 route. The stronger infinite continuation below is a gap in the older proposed
 route, not a mandatory prerequisite for every proof of the original theorem.
-The aggregate terminal repair is being formalized using root-pair domination
+The aggregate terminal repair has now been formalized using root-pair domination
 and endpoint support, avoiding the invalid per-node conditional normalization.
+Its application to the actual geometric stopping construction remains open.
 
 - `PrunedCommonHeightAnalyticFourCycleContinuation` has no constructor from the
   finite alternatives elsewhere in the repository, and its tree carries no
@@ -201,3 +202,25 @@ The first checkpoint is remotely backed up on branch
 proofs on that same independent branch. The original `main` branch is unchanged.
 The stronger historical selector signature is preserved explicitly in
 `verification/ARCHIVED_TARGETS.md`.
+
+## Constructive global terminal repair
+
+`Thm_StickyKakeya4_global_terminal_band` is compiled and has eleven standard-axiom
+readbacks. Its hypotheses explicitly retain a single original endpoint pair:
+
+- terminal measures sum to a submeasure of the root occurrence measure
+- the root is dominated by the original selector product measure
+- every terminal pair lies in the inherited-direction `2T` band
+- original-selector direction-ball masses are at most `C R^3`
+
+It proves total terminal mass at most `8 C m T^3`, and at most `8 C m^2 q` when
+`T^3 <= m q`. A version with one global endpoint reversal budget has factor 16.
+Cap centers can vary and caps can overlap. Supporting lemmas derive the budget
+from countably many disjoint restrictions and preserve it under a fixed
+measurable endpoint projection. The proof uses product-measure sections/Tonelli,
+not an unjustified bound on normalized old-neighbor kernels.
+
+Still needed for the original main theorem: the actual finite stopping tree,
+endpoint-preserving occurrence restrictions/extensions, root domination,
+terminal support/stopping scale, and paid/cross-cap budgets. This theorem alone
+does not instantiate those geometric obligations.

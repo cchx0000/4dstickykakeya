@@ -1,0 +1,69 @@
+StickyKakeya4.GlobalTerminalBand.sum_le_of_disjoint_restrictions.{u_1, u_3} {X : Type u_1} {I : Type u_3}
+  [MeasurableSpace X] [Countable I] (root : MeasureTheory.Measure X) (terminal : I → MeasureTheory.Measure X)
+  (pieces : I → Set X) (hpieces : ∀ (i : I), MeasurableSet (pieces i))
+  (hdisjoint : Pairwise fun i j => Disjoint (pieces i) (pieces j))
+  (hterminal : ∀ (i : I), terminal i ≤ root.restrict (pieces i)) : MeasureTheory.Measure.sum terminal ≤ root
+StickyKakeya4.GlobalTerminalBand.sum_map_le_map_of_sum_le.{u_1, u_3, u_4} {X : Type u_1} {I : Type u_3}
+  [MeasurableSpace X] {Y : Type u_4} [MeasurableSpace Y] (root : MeasureTheory.Measure X)
+  (terminal : I → MeasureTheory.Measure X) {endpoint : X → Y} (hendpoint : Measurable endpoint)
+  (hbudget : MeasureTheory.Measure.sum terminal ≤ root) :
+  (MeasureTheory.Measure.sum fun i => MeasureTheory.Measure.map endpoint (terminal i)) ≤
+    MeasureTheory.Measure.map endpoint root
+StickyKakeya4.GlobalTerminalBand.terminal_mass_le_root_band.{u_1, u_3} {X : Type u_1} {I : Type u_3} [MeasurableSpace X]
+  (root : MeasureTheory.Measure X) (terminal : I → MeasureTheory.Measure X) (band : Set X) (hband : MeasurableSet band)
+  (hbudget : MeasureTheory.Measure.sum terminal ≤ root) (hsupport : ∀ (i : I), (terminal i) bandᶜ = 0) :
+  ∑' (i : I), (terminal i) Set.univ ≤ root band
+StickyKakeya4.GlobalTerminalBand.product_band_le_of_ball_bound.{u_1, u_2} {X : Type u_1} {D : Type u_2}
+  [MeasurableSpace X] [PseudoMetricSpace D] [MeasurableSpace D] [BorelSpace D] [SecondCountableTopology D]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] {direction : X → D} (hdirection : Measurable direction)
+  (R : ℝ) (B : ENNReal) (hball : ∀ (a : D), σ (direction ⁻¹' Metric.closedBall a R) ≤ B) :
+  (σ.prod σ) (StickyKakeya4.GlobalTerminalBand.directionBand direction R) ≤ B * σ Set.univ
+StickyKakeya4.GlobalTerminalBand.terminal_mass_le_cubic.{u_1, u_2, u_3} {X : Type u_1} {D : Type u_2} {I : Type u_3}
+  [MeasurableSpace X] [PseudoMetricSpace D] [MeasurableSpace D] [BorelSpace D] [SecondCountableTopology D]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] (root : MeasureTheory.Measure (X × X))
+  (terminal : I → MeasureTheory.Measure (X × X)) {direction : X → D} (hdirection : Measurable direction) (C : ENNReal)
+  {T : ℝ} (hT : 0 ≤ T) (hbudget : MeasureTheory.Measure.sum terminal ≤ root) (hroot : root ≤ σ.prod σ)
+  (hsupport : ∀ (i : I), (terminal i) (StickyKakeya4.GlobalTerminalBand.directionBand direction (2 * T))ᶜ = 0)
+  (hdensity : ∀ (a : D) (R : ℝ), 0 ≤ R → σ (direction ⁻¹' Metric.closedBall a R) ≤ C * ENNReal.ofReal R ^ 3) :
+  ∑' (i : I), (terminal i) Set.univ ≤ 8 * C * σ Set.univ * ENNReal.ofReal T ^ 3
+StickyKakeya4.GlobalTerminalBand.terminal_mass_le_cubic_with_reversal.{u_1, u_2, u_3} {X : Type u_1} {D : Type u_2}
+  {I : Type u_3} [MeasurableSpace X] [PseudoMetricSpace D] [MeasurableSpace D] [BorelSpace D]
+  [SecondCountableTopology D] (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ]
+  (root : MeasureTheory.Measure (X × X)) (terminal : I → MeasureTheory.Measure (X × X)) {direction : X → D}
+  (hdirection : Measurable direction) (C : ENNReal) {T : ℝ} (hT : 0 ≤ T)
+  (hbudget : MeasureTheory.Measure.sum terminal ≤ root + MeasureTheory.Measure.map Prod.swap root)
+  (hroot : root ≤ σ.prod σ)
+  (hsupport : ∀ (i : I), (terminal i) (StickyKakeya4.GlobalTerminalBand.directionBand direction (2 * T))ᶜ = 0)
+  (hdensity : ∀ (a : D) (R : ℝ), 0 ≤ R → σ (direction ⁻¹' Metric.closedBall a R) ≤ C * ENNReal.ofReal R ^ 3) :
+  ∑' (i : I), (terminal i) Set.univ ≤ 16 * C * σ Set.univ * ENNReal.ofReal T ^ 3
+StickyKakeya4.GlobalTerminalBand.terminal_mass_le_quadratic.{u_1, u_2, u_3} {X : Type u_1} {D : Type u_2} {I : Type u_3}
+  [MeasurableSpace X] [PseudoMetricSpace D] [MeasurableSpace D] [BorelSpace D] [SecondCountableTopology D]
+  (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] (root : MeasureTheory.Measure (X × X))
+  (terminal : I → MeasureTheory.Measure (X × X)) {direction : X → D} (hdirection : Measurable direction) (C q : ENNReal)
+  {T : ℝ} (hT : 0 ≤ T) (hbudget : MeasureTheory.Measure.sum terminal ≤ root) (hroot : root ≤ σ.prod σ)
+  (hsupport : ∀ (i : I), (terminal i) (StickyKakeya4.GlobalTerminalBand.directionBand direction (2 * T))ᶜ = 0)
+  (hdensity : ∀ (a : D) (R : ℝ), 0 ≤ R → σ (direction ⁻¹' Metric.closedBall a R) ≤ C * ENNReal.ofReal R ^ 3)
+  (hscale : ENNReal.ofReal T ^ 3 ≤ σ Set.univ * q) : ∑' (i : I), (terminal i) Set.univ ≤ 8 * C * σ Set.univ ^ 2 * q
+'StickyKakeya4.GlobalTerminalBand.sum_le_of_disjoint_restrictions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.sum_map_le_map_of_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.terminal_mass_le_root_band' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.mem_directionBand_of_same_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.band_support_of_cap_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.product_band_le_of_ball_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.product_band_le_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.terminal_mass_le_product_band' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.terminal_mass_le_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.terminal_mass_le_cubic_with_reversal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.GlobalTerminalBand.terminal_mass_le_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]

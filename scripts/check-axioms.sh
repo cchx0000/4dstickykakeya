@@ -12,8 +12,21 @@ import pathlib, re, sys
 text = pathlib.Path(sys.argv[1]).read_text()
 allowed = {'propext', 'Classical.choice', 'Quot.sound'}
 reads = re.findall(r"'([^']+)' depends on axioms: \[(.*?)\]", text, re.S)
-if not reads:
-    sys.exit('FAIL: no axiom readback was found')
+expected = {
+    'StickyKakeya4.exact_collision_identity',
+    'StickyKakeya4.borel_selector_reduction',
+    'StickyKakeya4.packing_selector_to_finite_scale_sources',
+    'StickyKakeya4.hereditary_finite_scale_to_frostman',
+    'StickyKakeya4.selector_closure',
+    'StickyKakeya4.sticky_kakeya_four_dimensional',
+    'StickyKakeya4.commonShading_union_bound_iff',
+    'StickyKakeya4.commonShading_energy_bound_iff',
+}
+seen = {name for name, _ in reads}
+seen.update(re.findall(r"'([^']+)' does not depend on any axioms", text))
+missing = expected - seen
+if missing:
+    sys.exit('FAIL: missing axiom readbacks: ' + ', '.join(sorted(missing)))
 failed = False
 for name, raw in reads:
     extra = {x.strip() for x in raw.split(',') if x.strip()} - allowed
