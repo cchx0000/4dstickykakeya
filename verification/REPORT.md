@@ -25,8 +25,9 @@ Actual polarization witnesses remain necessary for the transverse comparison.
 
 Strict compilation, the isolated 8,756-job build, and all 39 readbacks passed,
 exit 0. The cumulative new checked count is **527**, with standard logical
-axioms or no axioms only. The last full tracked build remains the 141-module
-`5ac4351` run, followed by this one strictly checked module.
+axioms or no axioms only. The full tracked build at `988b02c` then passed all **142** committed modules
+and **8,849** Lake jobs, exit 0; see
+[residual-cycle-checkpoint-full-build.log](residual-cycle-checkpoint-full-build.log).
 
 [REMAINING_WEIGHTED_GEOMETRY.md](../docs/REMAINING_WEIGHTED_GEOMETRY.md) records
 the remaining source-exact obstacles: the `L/H` pruning cost, missing
@@ -34,6 +35,16 @@ same-tolerance growth, a finite row/column cycling test, the intermediate-time
 gap caused by retained root error, and the extra loss budget needed by the
 density-product tail inference. These tests do not disprove the main theorem.
 The required old-weighted paid/Frostman alternative is still unproved.
+
+The additional source-level test
+[DISTRIBUTED_BUSH_REGULARITY_TEST.md](../docs/DISTRIBUTED_BUSH_REGULARITY_TEST.md)
+constructs a fixed critical-covering selector with no positive Lipschitz
+restriction, despite distributed scalar bushes. It has a genuine entropy-based
+Frostman escape. This rules out a classical-differentiability shortcut; it is a
+handwritten, checked construction, not a claimed Lean theorem. The remaining
+manuscript branch has not been shown to provide its stronger low-intercept
+entropy property.
+
 
 ## Root-faithful four-cycle geometry checkpoint
 
