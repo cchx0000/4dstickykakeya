@@ -16,9 +16,9 @@ support is the original compact front, and the resulting Hausdorff dimension
 is four. No differentiability or substitute source measure is assumed.
 
 This module passed strict compilation and all **16** public readbacks, with
-standard logical axioms only. The cumulative checked count is **543**. The
-last full tracked build is the 142-module `988b02c` checkpoint; this added
-module has its dedicated strict source and readback logs.
+standard logical axioms only. The cumulative checked count is **543**. The full tracked build at `c78c22c` then passed all **143** committed modules
+and **8,850** Lake jobs, exit 0; see
+[entropy-checkpoint-full-build.log](entropy-checkpoint-full-build.log).
 
 The fixed-source entropy premise is explicit and is **not** deduced from the
 main theorem's packing hypothesis or the manuscript's remaining branch.

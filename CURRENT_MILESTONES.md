@@ -129,8 +129,8 @@ it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
-tracked build at `988b02c` passed all **142** committed modules and **8,849** Lake
-jobs. The subsequent low-intercept entropy escape has dedicated strict checks;
+tracked build at `c78c22c` passed all **143** committed modules and **8,850** Lake
+jobs, including the low-intercept entropy escape;
 there are now **543** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
