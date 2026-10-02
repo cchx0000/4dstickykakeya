@@ -27,8 +27,12 @@ fresh product density.
 All three modules passed strict compilation and axiom readback: 18, 16, and
 32 checked declarations respectively. The cumulative checked count is **488**;
 all axiom lists are empty or contain only `propext`, `Classical.choice`, and
-`Quot.sound`. These targeted checks extend the most recent full tracked build;
-a new full tracked build is pending.
+`Quot.sound`. The full tracked build of `5ac4351` then passed for all **141** committed
+modules, **8,848** Lake jobs, exit 0; see
+[rigidity-checkpoint-full-build.log](rigidity-checkpoint-full-build.log).
+The repeated main axiom gate exited 1 for exactly the two unchanged closure
+declarations that retain the preexisting WZ axiom; see
+[rigidity-main-axiom-gate.log](rigidity-main-axiom-gate.log).
 
 The remaining step is substantive geometry: producing a mesoscopic
 nondegenerate root cycle, or a genuinely paid/Frostman alternative, from the
