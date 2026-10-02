@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T14:08:44.702498+00:00",
-  "previous_checkpoint": "f3bce999757899032f3e029cf0d4cc7860ded877",
+  "generated_at_utc": "2026-10-02T14:57:47.545958+00:00",
+  "previous_checkpoint": "7399d49df775354416a2039f026c66509f61dc2b",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 901,
+  "total_new_checked_declarations": 961,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -67,7 +67,12 @@
     "verification/rooted-heavy-limsup-axioms.log": 11,
     "verification/exact-packing-reference-piece-axioms.log": 13,
     "verification/subpower-reference-nets-axioms.log": 5,
-    "verification/actual-subpower-reference-source-axioms.log": 1
+    "verification/actual-subpower-reference-source-axioms.log": 1,
+    "verification/line-tube-inverse-potential-axioms.log": 11,
+    "verification/moving-focus-energy-escape-axioms.log": 23,
+    "verification/affine-focus-energy-escape-readback.log": 15,
+    "verification/hairbrush-compact-decay-axioms.log": 7,
+    "verification/no-frostman-uniform-hairbrush-axioms.log": 4
   },
   "checks": [
     {
@@ -7355,6 +7360,546 @@
         "Quot.sound"
       ],
       "log": "verification/actual-subpower-reference-source-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.local_residual_tube_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.local_residual_tube_mass_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.cubic_le_interpolated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.tube_le_interpolated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.local_residual_tube_mass_le_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.inverse_integral_le_of_power_sublevel",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.root_distance_pos_ae",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.affine_residual_tube_inverse_potential_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.residual_tube_inverse_potential_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.exists_uniform_line_tube_inverse_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LineTubeInversePotential.exists_uniform_affine_line_tube_inverse_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/line-tube-inverse-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.measurable_movingFocusIntercept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.measurableSet_goodFocusTimes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_isFiniteMeasure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.good_time_fiber_volume_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_mass_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_ne_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.moving_focus_collision_line_localization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.measurableSet_rootTimeCollision",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.rootTimeCollision_mass_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.rootTimeCollision_mass_le_line_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_pair_sublevel_le_root_collisions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_pair_sublevel_le_of_potential_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.moving_focus_pair_sublevel_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.moving_focus_finite_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.moving_focus_finite_front_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.moving_focus_original_front_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.moving_focus_original_front_dimH_eq_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.original_spacetime_map_eq_of_ae_moving_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.original_front_dimH_eq_four_of_ae_moving_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.original_goodSourceTime_map_eq_of_ae_moving_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.original_finite_front_energy_of_ae_moving_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.MovingFocusEnergyEscape.original_front_frostman_of_ae_moving_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/moving-focus-energy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.measurable_affineFocusIntercept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.lineResidual_reference_root",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.affine_focus_collision_line_localization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.rootTimeCollision_mass_le_line_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.goodSourceTime_pair_sublevel_le_of_potential_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.affine_focus_pair_sublevel_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.affine_focus_finite_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.affine_focus_finite_front_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.affine_focus_original_front_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.affine_focus_original_front_dimH_eq_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.original_spacetime_map_eq_of_ae_affine_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.original_front_dimH_eq_four_of_ae_affine_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.original_goodSourceTime_map_eq_of_ae_affine_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.original_finite_front_energy_of_ae_affine_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.AffineFocusEnergyEscape.original_front_frostman_of_ae_affine_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/affine-focus-energy-escape-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HairbrushCompactDecay.isClosed_windowRelation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hairbrush-compact-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HairbrushCompactDecay.measurableSet_hairbrush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hairbrush-compact-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HairbrushCompactDecay.hairbrush_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hairbrush-compact-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HairbrushCompactDecay.iInter_hairbrush_eq_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hairbrush-compact-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HairbrushCompactDecay.hairbrush_reference_shift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hairbrush-compact-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HairbrushCompactDecay.exact_mass_ge_of_convergent_hairbrushes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hairbrush-compact-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HairbrushCompactDecay.uniform_small_hairbrush_mass_of_exact_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hairbrush-compact-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanUniformHairbrush.exact_contact_eq_affine_focus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-uniform-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanUniformHairbrush.exact_hairbrush_null_of_front_dimH_ne_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-uniform-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanUniformHairbrush.uniform_hairbrush_decay_of_front_dimH_ne_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-uniform-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanUniformHairbrush.sticky_datum_exists_actual_uniform_hairbrush_decay",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-uniform-hairbrush-axioms.log"
     }
   ],
   "source_sha256": {
@@ -7421,7 +7966,12 @@
     "Theorems/Thm_StickyKakeya4_rooted_heavy_limsup.lean": "54d757d44a55a5115952572cef98f49e7b88666d42d956d187ce45f2c00ab59b",
     "Theorems/Thm_StickyKakeya4_exact_packing_reference_piece.lean": "161526c288030e518259f741f2a9ee842a676d3c0a55bbd66ad52d37614c2d21",
     "Theorems/Thm_StickyKakeya4_subpower_reference_nets.lean": "5dba7df1f7e1aec6b92d4f1e06a8bd03dbdea1e6006437326f6ed5f99f7efa4e",
-    "Theorems/Thm_StickyKakeya4_actual_subpower_reference_source.lean": "86c9ed0875392a731bcbb7bdecb64161ea06f1d248075b75f706b553030057ea"
+    "Theorems/Thm_StickyKakeya4_actual_subpower_reference_source.lean": "86c9ed0875392a731bcbb7bdecb64161ea06f1d248075b75f706b553030057ea",
+    "Theorems/Thm_StickyKakeya4_line_tube_inverse_potential.lean": "1e86f9661618db3519b983df21421633ccf37951c1ba7ae2d458e67980209cce",
+    "Theorems/Thm_StickyKakeya4_moving_focus_energy_escape.lean": "ea71d922f6bed8e294a83e1fd4841a7e936bc8657ef277b9833c662eef0e5098",
+    "Theorems/Thm_StickyKakeya4_affine_focus_energy_escape.lean": "684275d682dca4c9e63c95ca9bd7a886ee572be521348673fbbbf16ec86e2659",
+    "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
+    "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -7430,29 +7980,44 @@
   "targeted_lake_build_jobs": 8754,
   "targeted_lake_build_log": "verification/analytic-closure-build.log",
   "full_tracked_build": {
-    "source_base_commit": "f3bce999757899032f3e029cf0d4cc7860ded877",
+    "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_exact_packing_reference_piece.lean": "161526c288030e518259f741f2a9ee842a676d3c0a55bbd66ad52d37614c2d21",
-      "Theorems/Thm_StickyKakeya4_subpower_reference_nets.lean": "5dba7df1f7e1aec6b92d4f1e06a8bd03dbdea1e6006437326f6ed5f99f7efa4e",
-      "Theorems/Thm_StickyKakeya4_actual_subpower_reference_source.lean": "86c9ed0875392a731bcbb7bdecb64161ea06f1d248075b75f706b553030057ea"
+      "Theorems/Thm_StickyKakeya4_line_tube_inverse_potential.lean": "1e86f9661618db3519b983df21421633ccf37951c1ba7ae2d458e67980209cce",
+      "Theorems/Thm_StickyKakeya4_moving_focus_energy_escape.lean": "ea71d922f6bed8e294a83e1fd4841a7e936bc8657ef277b9833c662eef0e5098",
+      "Theorems/Thm_StickyKakeya4_affine_focus_energy_escape.lean": "684275d682dca4c9e63c95ca9bd7a886ee572be521348673fbbbf16ec86e2659",
+      "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
+      "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     },
-    "module_count": 180,
+    "module_count": 185,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8889,
+    "lake_jobs": 8894,
     "command": "STICKY_BUILD_JOBS=2 ./scripts/build-bounded.sh",
-    "log": "verification/subpower-reference-default-build.log",
-    "scope": "Default lake build of 177 unchanged project modules at the base commit plus the three specified new all-slack reference sources; exact source hashes recorded below."
+    "log": "verification/hairbrush-escape-default-build.log",
+    "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
   },
   "latest_main_axiom_gate": {
-    "source_commit": "b03888e109b7e45f4b1bdff3fc4b0f13f277f580",
+    "status": "failed_project_axiom_remains",
     "exit_code": 1,
-    "log": "verification/physical-bush-main-axiom-gate.log",
-    "remaining_project_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
-    "affected_declarations": [
-      "StickyKakeya4.selector_closure",
-      "StickyKakeya4.sticky_kakeya_four_dimensional"
-    ]
+    "failures": [
+      {
+        "theorem": "StickyKakeya4.selector_closure",
+        "axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+      },
+      {
+        "theorem": "StickyKakeya4.sticky_kakeya_four_dimensional",
+        "axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+      }
+    ],
+    "log": "verification/hairbrush-escape-main-axiom-gate.log",
+    "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_line_tube_inverse_potential.lean": "1e86f9661618db3519b983df21421633ccf37951c1ba7ae2d458e67980209cce",
+      "Theorems/Thm_StickyKakeya4_moving_focus_energy_escape.lean": "ea71d922f6bed8e294a83e1fd4841a7e936bc8657ef277b9833c662eef0e5098",
+      "Theorems/Thm_StickyKakeya4_affine_focus_energy_escape.lean": "684275d682dca4c9e63c95ca9bd7a886ee572be521348673fbbbf16ec86e2659",
+      "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
+      "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
+    }
   },
-  "resumed_phase_declaration_count": 810
+  "resumed_phase_declaration_count": 870
 }

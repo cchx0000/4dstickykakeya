@@ -187,6 +187,43 @@ be a bad physical configuration. It does not show that the manuscript's
 remaining coupled rank-loss branch has a fixed triangular representation.
 No such classification has been proved.
 
+### Coordinatewise Borel escape with the actual low moment
+
+There is a complementary class with arbitrary nonlinear diagonal entries.
+Let sigma be a probability supported in a box `B=I_1 x I_2 x I_3`, with
+`sigma<=D Lebesgue`, and let
+
+    b(a)=(f_1(a_1),f_2(a_2),f_3(a_3))
+
+for bounded Borel functions. Write lambda_i for normalized Lebesgue on I_i
+and `M=D|B|`. Let q_(i,k)(t) be the r-grid masses of the scalar projection
+`x -> f_i(x)+tx`, and put `S_i=sum_k q_(i,k)^(1+theta)` and
+`E_i=sum_k q_(i,k)^2`. Domination by the product reference gives
+
+    S_r(theta) <= M^(1+theta) integral_J product_i S_i(t) dt.
+
+For `0<theta<=1`, Jensen with the q_(i,k) as probability weights gives
+`S_i<=E_i^theta`. Two scalar trajectories in one r-grid interval have
+separation less than r, so Tonelli and the exact collision-time length give
+
+    integral_J E_i(t) dt
+      <= integral integral min{|J|,2r/|x-y|} d lambda_i(x) d lambda_i(y)
+      <= C_(I_i,J) r log(e/r).
+
+The diagonal is null. The last inequality splits `|x-y|<=2r/|J|` from its
+complement. Holder with three factors, then concavity for `3theta<=1`, gives
+
+    S_r(theta)
+      <= M^(1+theta) |J|^(1-3theta) product_i (integral_J E_i)^theta
+      <= C_(D,B,J,theta) r^(3theta) log(e/r)^(3theta),
+         0<theta<=1/3.
+
+The actual source need not be a product measure; bounded domination is enough.
+The original heavy-root comparison gives summable dyadic charge for every
+`beta<3`. This proves a continuum-time escape for the coordinatewise digit-
+resonance examples, but not for an arbitrary coupled intercept. This argument
+is handwritten and independently checked, not a new Lean declaration.
+
 ## 4. Primary-source theorem check
 
 The following checks concern applicability, not just matching vocabulary.

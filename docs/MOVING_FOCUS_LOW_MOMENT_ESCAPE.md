@@ -1,10 +1,14 @@
 # Moving-focus low moments with the original source
 
-Date: 2026-10-02. Status: checked handwritten argument, **not Lean-certified**.
-No Lean declarations or axioms are added here. This is a sufficient geometric
-class, not a proof of the general Sticky Kakeya theorem or of the missing
-general moment estimate. The source, selector, physical times, and supported
-front remain the original ones throughout.
+Date: 2026-10-02. Status: the low-moment and low-center-entropy arguments
+in Sections 1--7 are independently checked handwritten proofs. A separate
+finite-energy proof of the fixed-center/reference-line escape is now
+Lean-certified, as described in Section 9. The exact-null and uniform-decay
+consequences in Section 8 also have an original-data implementation.
+These are sufficient geometric escape classes, not a proof of the general
+Sticky Kakeya theorem or its missing general moment estimate. No new axiom
+or final hypothesis is added. The source, selector, physical times, and
+supported front remain the original ones throughout.
 
 ## 1. Statement on a fixed slope annulus
 
@@ -421,3 +425,211 @@ does not prove that bound, assert its present literature status, or prove an
 equivalence with every formulation of the Kakeya maximal conjecture. It does
 show why arbitrary abstract measure concentration is not by itself a valid
 counterexample satisfying the selector and horizontal-density constraints.
+
+## 8. Exact reference hairbrushes and uniform qualitative decay
+
+This is a further **handwritten, not Lean-certified** consequence of the
+moving-focus escape. It is a necessary condition under a hypothetical
+strict front deficit, not a closing power estimate.
+
+Fix one finite source `sigma<=D Lebesgue_3` with bounded slope support and a
+Borel selector `b`. Assume its phase graph is contained, up to a source-null
+set, in a compact phase carrier `Gamma`. Let `J` be the one common marked
+interval, with `|J|>0`, and suppose the literal source-time pushforward
+
+    (a,t) -> (b(a)+t a,t),    (a,t) distributed by sigma x dt|J,
+
+is supported on the original compact front `K`. Assume
+
+    dim_H K < 4.                                        (8.1)
+
+A completed-measurable selector can be replaced by a Borel version on a
+source-null set; none of the mass or supported-measure conclusions changes.
+No new source is chosen as the transverse error tends to zero.
+
+Let `I` be any fixed **nonempty compact collision-time set**, and let
+`T_I=max_{tau in I}|tau|`. It need not be contained in the marked interval
+`J`. For phase points `z=(a,b)` and `z_0=(a_0,b_0)`, define
+
+    d_I(z,z_0) = min_(tau in I) |b-b_0+tau(a-a_0)|,
+    H_r(z_0) = {a : d_I((a,b(a)),z_0) <= r}.            (8.2)
+
+The minimum exists by compactness of `I`. Each `H_r(z_0)` is measurable.
+In particular `H_0(z_0)` is the exact reference hairbrush, allowing each
+source line to have its own collision time.
+
+### Every fixed reference has zero exact hairbrush mass
+
+Under (8.1), for **every fixed** `z_0` in phase space,
+
+    sigma(H_0(z_0)) = 0.                                (8.3)
+
+The reference need not itself belong to the selected graph or its carrier.
+Suppose instead that this mass were positive. The single slope `a=a_0` is
+source-null by horizontal absolute continuity. Away from that slope, the
+exact collision time is unique and is the measurable function
+
+    tau(a) = -(b(a)-b_0) dot (a-a_0) / |a-a_0|^2.      (8.4)
+
+On `H_0(z_0)` it belongs to `I` and satisfies
+
+    b(a) = b_0 - tau(a)(a-a_0).                        (8.5)
+
+Exhausting the nonzero translated slopes by annuli supplies one fixed
+positive source restriction with `kappa<=|a-a_0|<=R_0`, for suitable fixed
+`kappa>0` and finite `R_0`. Its translated source in `v=a-a_0` still has
+density at most `D`, and `|tau|<=T_I` uniformly.
+
+The fixed affine spacetime shear
+
+    S_(a_0)(x,t) = (x-t a_0,t)
+
+sends these actual source trajectories to
+
+    (b(a)+t(a-a_0),t) = (b_0+(t-tau(a))v,t).           (8.6)
+
+This is precisely the moving radial-time class proved in Sections 1--3,
+with one fixed center `b_0` and arbitrary bounded measurable focus times.
+The restricted source-time law remains supported on `S_(a_0)(K)`. The
+shear is bi-Lipschitz and that front is compact, so it has the same Hausdorff
+dimension as `K`. Section 6 forces its dimension to be four, contradicting
+(8.1). This proves (8.3).
+
+Thus positive-mass exact hairbrush escape does not require synchronizing
+all source lines to one common collision time. The same fixed source
+restriction and its original marked slab suffice. Packing dimension three
+is not used in this particular necessary consequence.
+
+### Uniformity over a compact reference range
+
+Let `Z` be any fixed nonempty compact range of reference phase points; it
+may in particular equal the original compact carrier `Gamma`. Then
+
+    lim_(r down to 0) sup_(z_0 in Z) sigma(H_r(z_0)) = 0.   (8.7)
+
+Here is the continuity and compactness argument, including its uniformity.
+For `z=(a,b)`, `w=(abar,bbar)` and reference points `z_0=(a_0,b_0)`,
+`w_0=(abar_0,bbar_0)`, comparison at the same candidate time gives
+
+    |d_I(z,z_0)-d_I(w,w_0)|
+      <= |b-bbar| + |b_0-bbar_0|
+           + T_I (|a-abar|+|a_0-abar_0|).             (8.8)
+
+Thus `d_I` is jointly continuous; more particularly it is Lipschitz in the
+reference, with a modulus independent of the source phase point. The latter
+fact is stronger than the uniform continuity supplied by compactness of
+`Gamma x Z`.
+
+If (8.7) failed, there would be a positive `epsilon`, scales `r_n` tending
+to zero, and references `z_n in Z` with
+`sigma(H_(r_n)(z_n))>=epsilon`. Pass to a subsequence with `z_n->z_* in Z`
+and put
+
+    delta_n = |b_n-b_*| + T_I |a_n-a_*|.
+
+Equation (8.8) yields the source-set inclusion
+
+    H_(r_n)(z_n) subset H_(r_n+delta_n)(z_*).           (8.9)
+
+Since `r_n+delta_n->0`, finiteness of `sigma` and continuity from above of
+the sets `{d_I((a,b(a)),z_*)<=s}` as `s` decreases to zero force the
+right-hand masses to tend to `sigma(H_0(z_*))=0`, contradicting epsilon.
+This proves (8.7). The source carrier's compactness is compatible with all
+the stated original hypotheses; the stronger reference-Lipschitz bound
+shows that the final uniformity step itself only needs a finite source and
+a compact reference range.
+
+This conclusion is uniform even if the reference point varies with scale.
+It establishes only **qualitative** decay for the one fixed source and
+collision-time window. No polynomial modulus, comparison with the shrinking
+heavy-bush threshold `r^beta`, or summable bound on the actual rooted
+heavy-event probabilities is established. In particular, (8.7) is not the
+general quantitative closure required by the original argument.
+
+
+## 9. A finite-energy route after one actual off-focus restriction
+
+The moving-focus escape can also be proved without building a general Renyi
+moment API. On a positive annular source choose a fixed `g>0` smaller than
+one quarter of the marked-slab length, and retain the actual source/time pairs
+with `|t-tau(a)|>=g`. This measurable restriction has positive mass: for
+each a it removes at most `2g` of time. It is not a new product source or a
+replacement focus time.
+
+For a spacetime pair collision of radius r, bounded slopes reduce its leaf-
+time fiber to length at most `2r` and its same-time spatial error to `O(r)`.
+At a retained root, the leaf slope lies in a radius-`O(r/(kappa g))` tube
+around the original root line, independently of time. The remaining time
+fiber contributes `O(r)/|a-a'|`.
+
+The actual weighted tube estimate now has a Lean-checked proof in
+`line_tube_inverse_potential`: for every `0<epsilon<1`, unit-supported
+`sigma<=volume`, any affine line through the root a, and `0<delta<=1`,
+
+    integral_(line tube of residual width 2delta) |x-a|^(-1) d sigma(x)
+       <= 81 (4pi/3) (1+1/epsilon) delta^(2-epsilon).
+
+The infinite value at x=a is retained, and its source mass is proved zero.
+A shifted scalar grid gives local tube mass `O(delta^2 s)`, while the cubic
+source bound gives `O(s^3)`. Interpolation
+
+    min{s^3,delta^2 s} <= delta^(2-epsilon) s^(1+epsilon)
+
+and quantitative layer cake prove the displayed inverse-potential bound.
+Thus the retained actual spacetime law has pair-collision sublevels
+`O_epsilon(r^(4-epsilon))`, leading to finite energy at every exponent below
+four and a supported Frostman escape by the existing analytical lemmas.
+
+The `moving_focus_energy_escape` and `affine_focus_energy_escape` modules
+prove the actual pair-sublevel estimate, finite energies at every exponent
+below four, supported Frostman measures, and dimension four on the literal
+original support. Their final wrappers allow the given selector to agree
+with the representation only almost everywhere. No sublevel/potential bound
+is a premise of those final statements, and the measurable focus-time map
+need not be bounded.
+
+The `hairbrush_compact_decay` module proves the existential contact relation
+closed and its compact-reference measure limit. The
+`no_frostman_uniform_hairbrush` module combines this with the actual affine
+escape: a front dimension deficit forces exact-null for every reference,
+then uniform qualitative maximum-row decay. Its original-data endpoint
+constructs one fixed positive source from `IsStickyDatum` before either the
+compact reference family or the compact collision window is chosen.
+The full general sticky closure remains unproved; the low-entropy-center
+extension of Section 4 has not been silently counted as Lean-certified.
+
+
+## 10. Uniform qualitative decay does not supply a power rate
+
+The necessity of a further geometric argument is already visible on a smooth
+packing-three source. On the unit slope ball with ordinary Lebesgue measure,
+fix a unit vector e and set
+
+    b(a)=f(|a|)e,    f(s)=exp(-1/s^2) for s>0, f(0)=0.
+
+This graph is smooth, has a bounded Lipschitz constant, and has a compact
+packing-three carrier with uniform reference regularity. For every reference
+`(a_0,b_0)`, its exact variable-time hairbrush is null. Indeed, contacts with
+`t!=0` put a in the fixed affine plane
+`a_0+span{b_0,e}`, of dimension at most two. Contacts with `t=0` require
+`f(|a|)e=b_0`; strict radial monotonicity makes this a sphere, the origin,
+or the empty set, each of three-volume zero.
+
+Thus it satisfies pointwise exact-null and the compact-uniform decay
+conclusion of Section 8. But for the reference `(0,0)` and any window
+containing zero, its residual-r hairbrush contains the ball
+
+    |a| <= (log(1/r))^(-1/2).
+
+Its mass is at least a fixed multiple of `(log(1/r))^(-3/2)`, larger than
+every positive power of r at small scales. No uniform power modulus follows
+from exact-null, compactness, bounded direction density, or even smooth
+minimal phase packing alone.
+
+The example has a genuine four-dimensional front: at almost every source
+point, `det(Db(a)+tI)` is a monic cubic in t, and the smooth spacetime map
+is locally nonsingular for almost every time. It therefore does not satisfy
+the hypothetical front deficit and does not refute the intended main
+alternative. A complete proof must still use that deficit collectively,
+or identify an actual escape, instead of upgrading qualitative decay to a
+numerical root-weighted budget without a new argument.

@@ -1,0 +1,51 @@
+'StickyKakeya4.AffineFocusEnergyEscape.measurable_affineFocusIntercept' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.lineResidual_reference_root' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.affine_focus_collision_line_localization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.rootTimeCollision_mass_le_line_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.goodSourceTime_pair_sublevel_le_of_potential_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.affine_focus_pair_sublevel_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.affine_focus_finite_pair_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.affine_focus_finite_front_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.affine_focus_original_front_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.affine_focus_original_front_dimH_eq_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.original_spacetime_map_eq_of_ae_affine_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.original_front_dimH_eq_four_of_ae_affine_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.original_goodSourceTime_map_eq_of_ae_affine_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.original_finite_front_energy_of_ae_affine_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.AffineFocusEnergyEscape.original_front_frostman_of_ae_affine_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+--- Reproduction record (successful run) ---
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/AffineFocusEnergyEscapeReadback.lean
+Confirmed exit code: 0
+Result: All 15 exported theorems use only propext, Classical.choice, and Quot.sound
+Readback SHA-256: 91d61943d7b9e761e69138ae6132137d7b75c0a858f5b78956a8feed93c4fa70

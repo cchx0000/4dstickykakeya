@@ -1,0 +1,37 @@
+'StickyKakeya4.LineTubeInversePotential.local_residual_tube_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.local_residual_tube_mass_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.cubic_le_interpolated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.tube_le_interpolated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.local_residual_tube_mass_le_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.inverse_integral_le_of_power_sublevel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.root_distance_pos_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.affine_residual_tube_inverse_potential_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.residual_tube_inverse_potential_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.exists_uniform_line_tube_inverse_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.LineTubeInversePotential.exists_uniform_affine_line_tube_inverse_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+--- Reproduction record (successful run) ---
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+Environment: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+Command: lake env lean -DautoImplicit=false verification/LineTubeInversePotentialReadback.lean
+Confirmed exit code: 0
+Result: All eleven declarations use only propext, Classical.choice, Quot.sound
+Source SHA-256: 1e86f9661618db3519b983df21421633ccf37951c1ba7ae2d458e67980209cce

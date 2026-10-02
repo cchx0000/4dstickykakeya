@@ -181,6 +181,25 @@ exit derives actual front Frostman bounds directly from subpower covering of
 one fixed centered-intercept image. This premise is not known for the general
 remaining source branch and is not added to the final theorem.
 
+The line-hairbrush branch is now closed by a separate checked geometric
+argument, without a common contact time. A positive source with
+`b(a)=c-tau(a)(a-v0)` almost everywhere has an actual supported dimension-four
+escape for any measurable `tau`. Restricting the original source/time law
+away from each source's own focus yields finite energies below four; the
+inverse-distance tube bound is derived, not assumed. Its contrapositive now
+gives exact-null for **every** reference line under front deficit, and compact
+reference families have uniform qualitative maximum-row decay. The original-
+data endpoint constructs its fixed source and common slab before the compact
+reference family and collision window are selected.
+
+These five modules add 60 standard-only readbacks. They do not convert
+qualitative decay into a power rate or aggregate individually vanishing
+hairbrushes. The smooth flat-selector stress test in
+[the moving-focus guide](docs/MOVING_FOCUS_LOW_MOMENT_ESCAPE.md#10-uniform-qualitative-decay-does-not-supply-a-power-rate)
+shows why that numerical inference needs an additional argument. The test
+has a full-dimensional front and is not a counterexample under the actual
+front-deficit hypothesis.
+
 ## 8. Original compact marked closure and axiom audit
 
 Use Theorem 9.32's intended residual/Frostman closure and transfer the conclusion
@@ -190,10 +209,10 @@ it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
-default build passed all **180** project modules and **8,889** Lake jobs,
-including the simultaneous all-slack reference source, rooted recurrence,
-and all physical bush-cover modules;
-there are now **901** checked new declarations with only standard logical
+default build passed all **185** project modules and **8,894** Lake jobs,
+including the line-hairbrush escape, simultaneous all-slack reference source,
+rooted recurrence, and all physical bush-cover modules;
+there are now **961** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the
@@ -249,8 +268,10 @@ bounded vertical-entropy potential alone does not pay repeated increments.
 Macroscopic blocks avoid that particular scale mismatch but still require a
 new source-sensitive projection or incidence estimate.
 
-These are handwritten proofs, not new Lean-certified declarations. Neither
-geometric representation has been derived for the general unpaid branch.
+The low-moment/center-entropy and triangular proofs remain handwritten.
+The fixed-center and affine-reference escape now also have the separate
+Lean-certified finite-energy proof described above. Neither representation
+has been derived for the general unpaid branch.
 The final theorem and its existing WZ axiom dependency are unchanged.
 
 The [rooted entropy-stopping construction](docs/ROOTED_ENTROPY_STOPPING_FRONTIER.md)

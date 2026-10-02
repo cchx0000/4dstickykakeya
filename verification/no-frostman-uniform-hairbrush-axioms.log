@@ -1,0 +1,35 @@
+COMMAND: lake env lean -DautoImplicit=false verification/NoFrostmanUniformHairbrushReadback.lean
+'StickyKakeya4.NoFrostmanUniformHairbrush.exact_contact_eq_affine_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanUniformHairbrush.exact_hairbrush_null_of_front_dimH_ne_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanUniformHairbrush.uniform_hairbrush_decay_of_front_dimH_ne_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanUniformHairbrush.sticky_datum_exists_actual_uniform_hairbrush_decay' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.NoFrostmanUniformHairbrush.sticky_datum_exists_actual_uniform_hairbrush_decay
+  (ambient : Set StickyKakeya4.MarkedLine) (hsticky : StickyKakeya4.IsStickyDatum ambient)
+  (hdim : dimH (StickyKakeya4.unitFront ambient) ≠ 4) :
+  ∃ σ b u v,
+    MeasureTheory.IsFiniteMeasure σ ∧
+      0 < σ Set.univ ∧
+        σ ≤ MeasureTheory.volume ∧
+          Measurable b ∧
+            v - u = 3 / 8 ∧
+              (∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) ∧
+                (∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+                    ∀ s ∈ Set.Icc u v,
+                      StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient) ∧
+                  ∀ (I : Set ℝ),
+                    IsCompact I →
+                      I.Nonempty →
+                        ∀ (Z : Set StickyKakeya4.HairbrushCompactDecay.Phase),
+                          IsCompact Z →
+                            ∀ (p : ENNReal),
+                              0 < p →
+                                ∃ r, 0 < r ∧ ∀ z ∈ Z, σ (StickyKakeya4.HairbrushCompactDecay.hairbrush b I z r) < p
+EXIT_CODE=0

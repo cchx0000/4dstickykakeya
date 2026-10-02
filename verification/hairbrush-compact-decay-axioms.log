@@ -1,0 +1,17 @@
+COMMAND: lake env lean -DautoImplicit=false verification/HairbrushCompactDecayReadback.lean
+'StickyKakeya4.HairbrushCompactDecay.isClosed_windowRelation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HairbrushCompactDecay.measurableSet_hairbrush' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HairbrushCompactDecay.hairbrush_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HairbrushCompactDecay.iInter_hairbrush_eq_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HairbrushCompactDecay.hairbrush_reference_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HairbrushCompactDecay.exact_mass_ge_of_convergent_hairbrushes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HairbrushCompactDecay.uniform_small_hairbrush_mass_of_exact_null' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_CODE=0

@@ -3,6 +3,46 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual line-hairbrush escape and every-reference decay
+
+The new affine-focus theorem proves a supported dimension-four escape for
+`b(a)=c-tau(a)(a-v0)` on a positive annular bounded-density source, with arbitrary
+measurable source-dependent contact times. It retains a fixed positive part
+of the actual source/time product away from each source's own focus. A proved
+inverse-distance tube estimate then gives pair-collision sublevels
+`C_epsilon r^(4-epsilon)`, finite energies below four, and supported Frostman
+measures. The final statements assume neither the tube nor sublevel bound.
+The actual selector may agree with the representation only almost everywhere.
+
+The geometric estimate is explicit: for unit-supported `sigma<=volume` and
+any affine line through the root, its residual-`2delta` tube has inverse-
+distance mass at most `81(4pi/3)(1+1/epsilon) delta^(2-epsilon)`.
+The infinite diagonal singularity is preserved and shown null.
+
+`NoFrostmanUniformHairbrush.sticky_datum_exists_actual_uniform_hairbrush_decay`
+now starts only from the original sticky datum and front dimension not four.
+It constructs one actual positive source and the original `3/8` marked slab.
+Every compact family of reference lines and every nonempty compact collision
+window then has uniform qualitative maximum-row decay. Exact contact is null
+for every individual reference, including references outside the carrier.
+Contact times may vary with the source and need not lie in the marked slab.
+
+All **60** declarations across the five new modules passed strict compilation
+and standard-only axiom readback. The cumulative count is **961**. The full
+default build passed **185 modules**, **8,894 jobs**, exit 0; see
+[hairbrush-escape-default-build.log](hairbrush-escape-default-build.log).
+Its exact source snapshot is `7399d49d` plus the five source hashes recorded
+there and in `final-status.json`. All earlier source hashes are unchanged.
+The fresh [main axiom gate](hairbrush-escape-main-axiom-gate.log) still fails
+with exit 1 on precisely the two main closures retaining the preexisting WZ
+project axiom. The main theorem is not declared complete.
+
+This closes a real positive-line-hairbrush branch without a common-time or
+four-cycle premise. It does not provide the missing numerical aggregation
+for individually vanishing hairbrushes. The [moving-focus guide](../docs/MOVING_FOCUS_LOW_MOMENT_ESCAPE.md)
+separates the checked finite-energy route from its handwritten low-moment
+extension and supplies a smooth stress test against inventing a power rate.
+
 ## One actual reference source for all positive slacks
 
 `ActualSubpowerReferenceSource.sticky_datum_exists_actual_subpower_reference_source`
@@ -22,7 +62,7 @@ actual direction-density and overlap lemmas give the vertical counts.
 explains the exact quantifiers and limits.
 
 All **19** new declarations passed strict compilation and standard-only axiom
-readback. The cumulative count is **901**. The complete default build passed
+readback. The cumulative count is **901**. That checkpoint's complete default build passed
 all **180** modules and **8,889** jobs, exit 0; see
 [subpower-reference-default-build.log](subpower-reference-default-build.log).
 The exact snapshot is `f3bce999` plus the three source hashes in that log and

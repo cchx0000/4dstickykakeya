@@ -1,0 +1,84 @@
+'StickyKakeya4.MovingFocusEnergyEscape.measurable_movingFocusIntercept' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.measurableSet_goodFocusTimes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_isFiniteMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.good_time_fiber_volume_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_mass_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.moving_focus_collision_line_localization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.measurableSet_rootTimeCollision' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.rootTimeCollision_mass_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.rootTimeCollision_mass_le_line_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_pair_sublevel_le_root_collisions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.goodSourceTime_pair_sublevel_le_of_potential_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.moving_focus_pair_sublevel_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.moving_focus_finite_pair_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.moving_focus_finite_front_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.moving_focus_original_front_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.moving_focus_original_front_dimH_eq_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.original_spacetime_map_eq_of_ae_moving_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.original_front_dimH_eq_four_of_ae_moving_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.original_goodSourceTime_map_eq_of_ae_moving_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.original_finite_front_energy_of_ae_moving_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.MovingFocusEnergyEscape.original_front_frostman_of_ae_moving_focus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+
+--- Verification provenance (appended; verified runs were not repeated) ---
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+ELAN_HOME=/workspace/shared/lean-tools/elan
+PATH=/workspace/shared/lean-tools/elan/bin:$PATH
+XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+Lean toolchain: leanprover/lean4:v4.33.1
+Source: Theorems/Thm_StickyKakeya4_moving_focus_energy_escape.lean
+Source SHA-256: ea71d922f6bed8e294a83e1fd4841a7e936bc8657ef277b9833c662eef0e5098
+Readback source: verification/MovingFocusEnergyEscapeReadback.lean
+Readback SHA-256: 82f5486de9358562e1a3e1a5ffff328b86c782e52f2e5fe08144723bf61bf5d9
+Exact verification command:
+export ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+lake env lean -DwarningAsError=true verification/MovingFocusEnergyEscapeReadback.lean > verification/moving-focus-energy-escape-axioms.log 2>&1
+Confirmed readback exit status: 0
+Checked 23 declarations; all depend only on propext, Classical.choice, Quot.sound

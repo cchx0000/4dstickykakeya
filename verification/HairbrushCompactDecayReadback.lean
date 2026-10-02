@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_hairbrush_compact_decay
+
+#print axioms StickyKakeya4.HairbrushCompactDecay.isClosed_windowRelation
+#print axioms StickyKakeya4.HairbrushCompactDecay.measurableSet_hairbrush
+#print axioms StickyKakeya4.HairbrushCompactDecay.hairbrush_mono
+#print axioms StickyKakeya4.HairbrushCompactDecay.iInter_hairbrush_eq_exact
+#print axioms StickyKakeya4.HairbrushCompactDecay.hairbrush_reference_shift
+#print axioms StickyKakeya4.HairbrushCompactDecay.exact_mass_ge_of_convergent_hairbrushes
+#print axioms StickyKakeya4.HairbrushCompactDecay.uniform_small_hairbrush_mass_of_exact_null
