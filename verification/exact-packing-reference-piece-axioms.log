@@ -1,0 +1,54 @@
+'StickyKakeya4.upperMinkowskiDim_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.upperMinkowskiDim_closure_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.upperMinkowskiDim_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.coveringNumber_union_le_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.upperMinkowskiDim_union_le_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.upperMinkowskiDim_accumulate_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.compact_countable_cover_extract_small_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.compact_countable_constraints_extract_small_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.compact_packingDim_lt_extract_small_loss_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.compact_packingDim_le_three_extract_exact_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.compact_packingDim_le_three_extract_positive_exact_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.packing_carrier_extract_exact_small_loss_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.packing_carrier_extract_exact_fraction_piece' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.compact_packingDim_lt_extract_small_loss_piece.{u_1} {Y : Type u_1} [MetricSpace Y] [MeasurableSpace Y]
+  [BorelSpace Y] (ν : MeasureTheory.Measure Y) [MeasureTheory.IsFiniteMeasure ν] (K : Set Y) (hK : IsCompact K)
+  {b : ENNReal} (hpack : StickyKakeya4.packingDim K < b) {ε : ENNReal} (hε : 0 < ε) :
+  ∃ S ⊆ K, IsCompact S ∧ ν (K \ S) < ε ∧ StickyKakeya4.upperMinkowskiDim S < b
+StickyKakeya4.compact_packingDim_le_three_extract_exact_piece.{u_1} {Y : Type u_1} [MetricSpace Y] [MeasurableSpace Y]
+  [BorelSpace Y] (ν : MeasureTheory.Measure Y) [MeasureTheory.IsFiniteMeasure ν] (K : Set Y) (hK : IsCompact K)
+  (hpack : StickyKakeya4.packingDim K ≤ 3) {ε : ENNReal} (hε : 0 < ε) :
+  ∃ S ⊆ K, IsCompact S ∧ ν (K \ S) < ε ∧ StickyKakeya4.upperMinkowskiDim S ≤ 3
+StickyKakeya4.compact_packingDim_le_three_extract_positive_exact_piece.{u_1} {Y : Type u_1} [MetricSpace Y]
+  [MeasurableSpace Y] [BorelSpace Y] (ν : MeasureTheory.Measure Y) [MeasureTheory.IsFiniteMeasure ν] (K : Set Y)
+  (hK : IsCompact K) (hmass : 0 < ν K) (hpack : StickyKakeya4.packingDim K ≤ 3) :
+  ∃ S ⊆ K, IsCompact S ∧ 0 < ν S ∧ StickyKakeya4.upperMinkowskiDim S ≤ 3
+StickyKakeya4.packing_carrier_extract_exact_small_loss_piece.{u_1, u_2} {X : Type u_1} {Y : Type u_2}
+  [MeasurableSpace X] [MetricSpace Y] [MeasurableSpace Y] [BorelSpace Y] (μ : MeasureTheory.Measure X)
+  [MeasureTheory.IsFiniteMeasure μ] (f : X → Y) (hf : Measurable f) (K : Set Y) (hK : IsCompact K)
+  (hsupport : μ (f ⁻¹' K)ᶜ = 0) (hpack : StickyKakeya4.packingDim K ≤ 3) {ε : ENNReal} (hε : 0 < ε) :
+  ∃ S ⊆ K, IsCompact S ∧ μ (f ⁻¹' S)ᶜ < ε ∧ StickyKakeya4.upperMinkowskiDim S ≤ 3
+StickyKakeya4.packing_carrier_extract_exact_fraction_piece.{u_1, u_2} {X : Type u_1} {Y : Type u_2} [MeasurableSpace X]
+  [MetricSpace Y] [MeasurableSpace Y] [BorelSpace Y] (μ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure μ]
+  (f : X → Y) (hf : Measurable f) (K : Set Y) (hK : IsCompact K) (hsupport : μ (f ⁻¹' K)ᶜ = 0)
+  (hpack : StickyKakeya4.packingDim K ≤ 3) (M : ENNReal) (hM : M < μ Set.univ) :
+  ∃ S ⊆ K, IsCompact S ∧ M < μ (f ⁻¹' S) ∧ StickyKakeya4.upperMinkowskiDim S ≤ 3
+
+--- Confirmed execution record ---
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+Environment: ELAN_HOME=/workspace/shared/lean-tools/elan; PATH=/workspace/shared/lean-tools/elan/bin:$PATH; XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+Command: lake env lean -DautoImplicit=false verification/ExactPackingReferencePieceReadback.lean
+Confirmed exit code: 0
+Source SHA-256: 161526c288030e518259f741f2a9ee842a676d3c0a55bbd66ad52d37614c2d21
+Readback SHA-256: 66c835e96dbecbb8b825009d981dbe1afc1222271a2e16463f813806bd83afce
+Recorded from completed successful execution; no rerun performed.

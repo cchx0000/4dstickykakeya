@@ -1,7 +1,9 @@
 # A fixed regular reference source from the original packing hypothesis
 
 This note describes the checked reference-source construction and its scope.
-It does not claim the remaining transverse/root-weighted estimate.
+Sections 1--6 explain the initial per-slack version; Section 7 gives the new
+quantifier strengthening to one source and one net sequence for every positive
+slack. Neither version proves the remaining transverse/root-weighted estimate.
 
 ## 1. The source is chosen before a residual graph
 
@@ -81,9 +83,10 @@ live reference cells cannot increase any count. This is why the upper
 support estimate is genuinely hereditary even though the lower mass bound
 is not. No division by a later old-occurrence mass is present.
 
-The slack is an arbitrarily small fixed power chosen before the source.
-This does not assert one universal source with a simultaneous subpower bound
-for every slack, or a uniform bound on the density of normalized descendants.
+In this initial version the slack is a small fixed power chosen before the
+source. The new construction in Section 7 removes that quantifier limitation:
+one fixed source now has simultaneous subpower bounds for every slack.
+Neither version gives a uniform density bound for normalized descendants.
 
 ## 5. Consequences for the original finite-scale argument
 
@@ -124,3 +127,78 @@ normalizing a small descendant preserve its direction-density constant.
 A genuine quantitative root-weighted charge, or a supported Frostman escape
 for the remaining geometric branch, is still required. The original final
 statement and its preexisting external WZ dependency have not been changed.
+
+
+## 7. Strengthening: one source for all positive slacks
+
+The new `exact_packing_reference_piece`, `subpower_reference_nets`, and
+`actual_subpower_reference_source` modules reverse the previous quantifier
+order. The actual original-data endpoint now selects the positive source,
+compact carrier, and reference nets **before** any exponent slack:
+
+    exists B, K, nets, for every zeta>0,
+      exists c_zeta>0, D_zeta<infinity, A_zeta<infinity,
+      for every dyadic radius tau,
+        #nets_tau <= D_zeta tau^(-3-zeta),
+        occupied reference mass >= c_zeta tau^(3+zeta),
+        vertical count <= A_zeta tau^(-zeta).
+
+The measure is still literally `volume.restrict B`. The slope-selected
+carrier map, the pointwise original-front slab of length `3/8`, and the
+unit slope bound are retained. Neither the source nor its nets depend on
+`zeta`. The finite constants may depend arbitrarily on it.
+
+### An exact critical compact piece in measure
+
+For each integer k, packing dimension at most three supplies a countable
+cover by pieces of upper box dimension below `3+2^(-k)`. Intersect with the
+original compact carrier and close the pieces. Closure preserves upper box
+dimension and keeps the sets compact inside that carrier.
+
+A finite initial union of this countable cover misses less than any
+prescribed positive source mass. Choose those losses summably across k,
+then intersect the finite unions. The result is one compact subset losing
+less than a prescribed epsilon of the original carrier mass. For every k,
+it lies in a finite union of upper-box-dimension-below-`3+2^(-k)` pieces.
+Its upper Minkowski dimension is therefore at most three.
+
+No regularity of the finite measure is required for this approximation.
+An endpoint covering estimate `N_tau<=C tau^(-3)` is **not** asserted:
+upper dimension at most three supplies every positive exponent slack, with
+its own finite coefficient, rather than attainment of the defining infimum.
+
+### One simultaneous pruning
+
+Extract the supported separated reference nets against the actual covering
+number itself. Their cardinalities then inherit all the positive-slack
+bounds simultaneously, rather than inheriting only a chosen power bound.
+
+For reciprocal-integer exponents `delta_k=1/(k+1)`, give each level-n cell
+weight `tau_n^(3+delta_k)`. Its total weight across all levels and cells is
+finite, using the upper-cardinality estimate with slack `delta_k/2`.
+Multiply each k-family by a positive factor so that its total budget is at
+most `2^(-k)`, and sum these families cellwise. One further common positive
+factor makes the total deletion budget smaller than half the source mass.
+
+Apply the already checked overlapping-cell pruning once to this combined
+weight. Every occupied cell of the retained source has at least every
+individual weighted lower bound. Given any positive `zeta`, choose k with
+`delta_k<zeta`; monotonicity of powers for `tau<=1` gives the required
+`c_zeta tau^(3+zeta)` lower bound on this same source. Remove the countable
+union of zero-mass cells as before, without changing the retained measure.
+
+The existing bounded-overlap and actual slope-volume argument then gives
+`A_zeta tau^(-zeta)` vertical counts. Restricting to live reference cells
+continues to preserve this upper support bound for arbitrary subsets.
+Lower masses still concern only the one fixed reference source.
+
+### What this repairs and what it does not
+
+This eliminates the need to choose different reference sources after
+changing a small exponent. It supplies a genuinely fixed subpower reference
+for macroscopic entropy blocks and later geometric tests.
+It does not make the normalized law of a tiny descendant uniformly bounded,
+does not bound the distinct old-anchor reuse through a cell, and does not
+remove the inverse completion-density cost of a conditioned cycle law.
+The final root-weighted geometric or supported-Frostman alternative remains
+unproved.

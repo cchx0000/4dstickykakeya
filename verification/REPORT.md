@@ -3,6 +3,37 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## One actual reference source for all positive slacks
+
+`ActualSubpowerReferenceSource.sticky_datum_exists_actual_subpower_reference_source`
+starts only from the original `IsStickyDatum`. It selects one positive literal
+`volume.restrict B`, one compact carrier of upper Minkowski dimension at most
+three, and one separated dyadic net sequence. Every positive exponent slack
+then has finite cardinality and vertical-count constants and a positive
+occupied-mass coefficient on **that same source and those same nets**.
+The original pointwise marked-front slab of length `3/8` is preserved.
+
+The construction closes the prior reference-source quantifier limitation.
+First, finite unions from each countable packing cover lose summably small
+mass; their intersection is one compact critical-dimension piece. Second,
+a countable mixture of all exponent cell budgets is pruned once. Existing
+actual direction-density and overlap lemmas give the vertical counts.
+[The reference-source guide](../docs/PACKING_REFERENCE_SOURCE.md#7-strengthening-one-source-for-all-positive-slacks)
+explains the exact quantifiers and limits.
+
+All **19** new declarations passed strict compilation and standard-only axiom
+readback. The cumulative count is **901**. The complete default build passed
+all **180** modules and **8,889** jobs, exit 0; see
+[subpower-reference-default-build.log](subpower-reference-default-build.log).
+The exact snapshot is `f3bce999` plus the three source hashes in that log and
+`final-status.json`. Earlier source hashes are unchanged. The build replays
+preexisting linter warnings; none is a proof failure.
+
+This strengthens the original inputs without a new hypothesis. It does not
+control the normalized law of an arbitrary tiny descendant, packet reuse,
+or the coupled root-time geometric charge. The final main theorem still has
+its preexisting WZ project-axiom dependency; no final proof is claimed.
+
 ## Actual front deficit forces recurrent heavy source-time events
 
 `RootedHeavyLimsup.sticky_datum_exists_actual_rooted_heavy_limsup` starts
@@ -27,7 +58,7 @@ contradiction. The independently audited handwritten
 [frontier note](../docs/ROOTED_TIME_RECURRENCE_FRONTIER.md) tests why finite-time
 synchronization loses indispensable continuum information and identifies
 the still-unproved collective root-time charge. No new project axiom or
-change to the final theorem is made. The latest complete default build passed
+change to the final theorem is made. That checkpoint's complete default build passed
 all **177 modules** and **8,886 jobs**, exit 0. Its exact source snapshot is
 `d3babc1` plus the new module with SHA256
 `54d757d44a55a5115952572cef98f49e7b88666d42d956d187ce45f2c00ab59b`;
@@ -72,9 +103,8 @@ also gives an independently audited, full-original-root stopping split from
 actual pointwise physical entropy deficits. It avoids rare-success division
 but does not prove that the resulting stopped blocks are geometrically paid.
 
-No Lean files changed in this documentation checkpoint; the last full
-177-module build and 882 standard-only readbacks remain the current executed
-checks. The main theorem still depends on its preexisting WZ project axiom.
+No Lean files changed in that documentation checkpoint; its then-current
+executed checks were the 177-module build and 882 standard-only readbacks. The main theorem still depends on its preexisting WZ project axiom.
 
 ## Actual finite routing captures half the original source-edge mass
 

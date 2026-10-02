@@ -1,0 +1,68 @@
+COMMAND: lake env lean -DautoImplicit=false verification/ActualSubpowerReferenceSourceReadback.lean
+'StickyKakeya4.ActualSubpowerReferenceSource.sticky_datum_exists_actual_subpower_reference_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.ActualSubpowerReferenceSource.sticky_datum_exists_actual_subpower_reference_source
+  (ambient : Set StickyKakeya4.MarkedLine) (hsticky : StickyKakeya4.IsStickyDatum ambient) :
+  ∃ selector,
+    ∃ (hmeas : MeasurableSet selector) (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line) (hselector :
+      StickyKakeya4.IsDirectionSelector selector),
+      selector ⊆ ambient ∧
+        ∃ k B K nets,
+          MeasurableSet B ∧
+            B ⊆ StickyKakeya4.ActualSlopeSource.sourceSet selector hmeas hvalid hselector k ∧
+              0 < MeasureTheory.volume B ∧
+                MeasureTheory.IsFiniteMeasure (MeasureTheory.volume.restrict B) ∧
+                  K ⊆ StickyKakeya4.lineCarrier ambient ∧
+                    IsCompact K ∧
+                      StickyKakeya4.upperMinkowskiDim K ≤ 3 ∧
+                        B ⊆ StickyKakeya4.ActualSlopeSource.slopeCarrierMap selector hmeas hvalid hselector ⁻¹' K ∧
+                          (∀ a ∈ B, ‖a‖ ≤ 1) ∧
+                            (∀ a ∈ B,
+                                ∀ s ∈ Set.Icc (↑k / 8 - 1 / 8) (↑k / 8 + 1 / 4),
+                                  StickyKakeya4.ActualSlopeSource.heightPoint
+                                      (StickyKakeya4.ActualSlopeSource.intercept selector hmeas hvalid hselector a +
+                                        s • a)
+                                      s ∈
+                                    StickyKakeya4.unitFront ambient) ∧
+                              (∀ (n : ℕ),
+                                  (∀ y ∈ nets n, y ∈ K) ∧
+                                    (∀ y ∈ nets n,
+                                        ∀ z ∈ nets n,
+                                          y ≠ z → StickyKakeya4.PackingReferenceSource.dyadicRadius n / 2 ≤ dist y z) ∧
+                                      StickyKakeya4.coversAtRadius
+                                        (StickyKakeya4.ActualSlopeSource.slopeCarrierMap selector hmeas hvalid
+                                            hselector ''
+                                          B)
+                                        (StickyKakeya4.PackingReferenceSource.dyadicRadius n) (nets n)) ∧
+                                ∀ (ζ : ℝ),
+                                  0 < ζ →
+                                    ∃ c D A,
+                                      0 < c ∧
+                                        c ≤ 1 ∧
+                                          D ≠ ⊤ ∧
+                                            A ≠ ⊤ ∧
+                                              ∀ (n : ℕ),
+                                                ↑(nets n).card ≤
+                                                    D *
+                                                      StickyKakeya4.PositiveCellRegularization.dyadicScale n ^
+                                                        (-(3 + ζ)) ∧
+                                                  (∀ y ∈ nets n,
+                                                      c *
+                                                          StickyKakeya4.PositiveCellRegularization.dyadicScale n ^
+                                                            (3 + ζ) ≤
+                                                        (MeasureTheory.Measure.map
+                                                            (StickyKakeya4.ActualSlopeSource.slopeCarrierMap selector
+                                                              hmeas hvalid hselector)
+                                                            (MeasureTheory.volume.restrict B))
+                                                          (Metric.ball y
+                                                            (StickyKakeya4.PackingReferenceSource.dyadicRadius n))) ∧
+                                                    ∀ (theta : StickyKakeya4.E4),
+                                                      ↑{y ∈ nets n |
+                                                              y.1 ∈
+                                                                Metric.ball theta
+                                                                  (StickyKakeya4.PackingReferenceSource.dyadicRadius
+                                                                    n)}.card ≤
+                                                        A *
+                                                          StickyKakeya4.PositiveCellRegularization.dyadicScale n ^ (-ζ)
+EXIT_CODE=0

@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_subpower_reference_nets
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.SubpowerReferenceNets.exists_simultaneous_positive_restriction
+#print axioms StickyKakeya4.SubpowerReferenceNets.exists_subpower_positive_restriction
+#print axioms StickyKakeya4.SubpowerReferenceNets.exists_dyadic_subpower_reference_source
+#print axioms StickyKakeya4.SubpowerReferenceNets.upperMinkowskiDim_le_three_dyadic_cover
+#print axioms StickyKakeya4.SubpowerReferenceNets.exists_upperMinkowskiDim_le_three_reference_source

@@ -65,6 +65,14 @@ probability-source density at most `r^(-eta/8)`, and a fixed bounded chart.
 The original front deficit persists on each fixed affine image. The geometric
 contradiction from that actual seed remains unproved.
 
+This is now strengthened to one reference source for **every** positive
+slack: the new exact-critical compact-piece construction and simultaneous
+weighted pruning select one literal `volume|B` and one net sequence before
+`zeta` is chosen. The original-data endpoint derives upper box dimension at
+most three, all positive-slack occupied masses, and subpower vertical counts
+on that same source. The 19 new declarations have standard-only readbacks;
+no normalized-descendant density or root-weighted charge is inferred.
+
 The strict front deficit now also forces a stronger recurrent input on one
 fixed original source. For some `0 < beta < 3`, almost every original
 source/time pair has a physical `2r` bush heavier than every fixed
@@ -182,9 +190,10 @@ it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
-default build passed all **177** project modules and **8,886** Lake jobs,
-including the rooted recurrence and all physical bush-cover modules;
-there are now **882** checked new declarations with only standard logical
+default build passed all **180** project modules and **8,889** Lake jobs,
+including the simultaneous all-slack reference source, rooted recurrence,
+and all physical bush-cover modules;
+there are now **901** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the

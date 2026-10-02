@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_actual_subpower_reference_source
+
+#print axioms StickyKakeya4.ActualSubpowerReferenceSource.sticky_datum_exists_actual_subpower_reference_source
+#check StickyKakeya4.ActualSubpowerReferenceSource.sticky_datum_exists_actual_subpower_reference_source

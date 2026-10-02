@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T13:00:15.202224+00:00",
-  "previous_checkpoint": "d3babc159829620def2a070185c1766656df14a9",
+  "generated_at_utc": "2026-10-02T14:08:44.702498+00:00",
+  "previous_checkpoint": "f3bce999757899032f3e029cf0d4cc7860ded877",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 882,
+  "total_new_checked_declarations": 901,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -64,7 +64,10 @@
     "verification/quantitative-bush-cover-axioms.log": 9,
     "verification/actual-half-edge-bush-seed-axioms.log": 2,
     "verification/quantitative-bush-resolution-axioms.log": 4,
-    "verification/rooted-heavy-limsup-axioms.log": 11
+    "verification/rooted-heavy-limsup-axioms.log": 11,
+    "verification/exact-packing-reference-piece-axioms.log": 13,
+    "verification/subpower-reference-nets-axioms.log": 5,
+    "verification/actual-subpower-reference-source-axioms.log": 1
   },
   "checks": [
     {
@@ -7181,6 +7184,177 @@
         "Quot.sound"
       ],
       "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.upperMinkowskiDim_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.upperMinkowskiDim_closure_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.upperMinkowskiDim_closure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.coveringNumber_union_le_add",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.upperMinkowskiDim_union_le_max",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.upperMinkowskiDim_accumulate_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.compact_countable_cover_extract_small_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.compact_countable_constraints_extract_small_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.compact_packingDim_lt_extract_small_loss_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.compact_packingDim_le_three_extract_exact_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.compact_packingDim_le_three_extract_positive_exact_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.packing_carrier_extract_exact_small_loss_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.packing_carrier_extract_exact_fraction_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/exact-packing-reference-piece-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SubpowerReferenceNets.exists_simultaneous_positive_restriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/subpower-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SubpowerReferenceNets.exists_subpower_positive_restriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/subpower-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SubpowerReferenceNets.exists_dyadic_subpower_reference_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/subpower-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SubpowerReferenceNets.upperMinkowskiDim_le_three_dyadic_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/subpower-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.SubpowerReferenceNets.exists_upperMinkowskiDim_le_three_reference_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/subpower-reference-nets-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSubpowerReferenceSource.sticky_datum_exists_actual_subpower_reference_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-subpower-reference-source-axioms.log"
     }
   ],
   "source_sha256": {
@@ -7244,7 +7418,10 @@
     "Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean": "3f839e1c1a563dc368e713b003376ce4459ce0e2b12d61f1bb25bdb62325119a",
     "Theorems/Thm_StickyKakeya4_actual_half_edge_bush_seed.lean": "2051ff9c796708a549bb5045884b77442fe75480ce42d5e31fa4eeeac89170da",
     "Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.lean": "9910b83636c9d67d0c514d9c7081e2f7fa1534fb7c7f802489eb31abbb2d5268",
-    "Theorems/Thm_StickyKakeya4_rooted_heavy_limsup.lean": "54d757d44a55a5115952572cef98f49e7b88666d42d956d187ce45f2c00ab59b"
+    "Theorems/Thm_StickyKakeya4_rooted_heavy_limsup.lean": "54d757d44a55a5115952572cef98f49e7b88666d42d956d187ce45f2c00ab59b",
+    "Theorems/Thm_StickyKakeya4_exact_packing_reference_piece.lean": "161526c288030e518259f741f2a9ee842a676d3c0a55bbd66ad52d37614c2d21",
+    "Theorems/Thm_StickyKakeya4_subpower_reference_nets.lean": "5dba7df1f7e1aec6b92d4f1e06a8bd03dbdea1e6006437326f6ed5f99f7efa4e",
+    "Theorems/Thm_StickyKakeya4_actual_subpower_reference_source.lean": "86c9ed0875392a731bcbb7bdecb64161ea06f1d248075b75f706b553030057ea"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -7253,17 +7430,19 @@
   "targeted_lake_build_jobs": 8754,
   "targeted_lake_build_log": "verification/analytic-closure-build.log",
   "full_tracked_build": {
-    "source_base_commit": "d3babc159829620def2a070185c1766656df14a9",
+    "source_base_commit": "f3bce999757899032f3e029cf0d4cc7860ded877",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_rooted_heavy_limsup.lean": "54d757d44a55a5115952572cef98f49e7b88666d42d956d187ce45f2c00ab59b"
+      "Theorems/Thm_StickyKakeya4_exact_packing_reference_piece.lean": "161526c288030e518259f741f2a9ee842a676d3c0a55bbd66ad52d37614c2d21",
+      "Theorems/Thm_StickyKakeya4_subpower_reference_nets.lean": "5dba7df1f7e1aec6b92d4f1e06a8bd03dbdea1e6006437326f6ed5f99f7efa4e",
+      "Theorems/Thm_StickyKakeya4_actual_subpower_reference_source.lean": "86c9ed0875392a731bcbb7bdecb64161ea06f1d248075b75f706b553030057ea"
     },
-    "module_count": 177,
+    "module_count": 180,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8886,
-    "command": "STICKY_BUILD_JOBS=3 ./scripts/build-bounded.sh",
-    "log": "verification/rooted-heavy-default-build.log",
-    "scope": "Default lake build of 176 unchanged modules at the base commit plus the specified new rooted_heavy_limsup source; exact source hashes recorded below."
+    "lake_jobs": 8889,
+    "command": "STICKY_BUILD_JOBS=2 ./scripts/build-bounded.sh",
+    "log": "verification/subpower-reference-default-build.log",
+    "scope": "Default lake build of 177 unchanged project modules at the base commit plus the three specified new all-slack reference sources; exact source hashes recorded below."
   },
   "latest_main_axiom_gate": {
     "source_commit": "b03888e109b7e45f4b1bdff3fc4b0f13f277f580",
@@ -7275,5 +7454,5 @@
       "StickyKakeya4.sticky_kakeya_four_dimensional"
     ]
   },
-  "resumed_phase_declaration_count": 791
+  "resumed_phase_declaration_count": 810
 }
