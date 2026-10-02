@@ -10,7 +10,8 @@ The earlier eight-item proposal is preserved in `PROVE2ME_TARGETS.md`.
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input
-for the original residual-content route. The quantitative collision-time fiber bound and its Tonelli integration are
+for the original residual-content route. The quantitative collision-time fiber
+bound and its Tonelli integration are
 now strictly compiled and axiom-checked; they retain explicit near-direction
 and time-window terms.
 
@@ -22,16 +23,18 @@ construct mass-preserving geometric routing.
 ## 3. Borel selector and compact ambient front
 
 Original Proposition 3.1 gives a Borel selector inside the compact datum.
+The existing reduction is compiled and has standard-only axiom readback.
 Retain the original compact ambient front for weak limits and the final theorem.
 The stronger Borel-selector-only target is explicitly archived in
 `verification/ARCHIVED_TARGETS.md`; it is not assumed as an axiom.
 
 ## 4. Original source measure and residual content
 
-Translate Definition 6.26 with its original source measure, collision-time
-window, inverse-secant weight, and diagonal exclusions. Existing finite shaded
-sources are not automatically a substitute for this measure-level object.
-The residual/Frostman connection remains to be completed.
+The general weighted residual-content function and its measurability are
+checked, retaining collision-time windows, inverse-secant weights, and the
+nonzero-secant cutoff. Instantiation on the full original selector/occurrence
+construction and its geometric power bound remain open. Existing shaded
+sources do not automatically supply this measure-level input.
 
 ## 5. Finite occurrence-flow conservation
 
@@ -59,16 +62,16 @@ extensions and disjoint fractional restrictions. The actual old-neighbor
 conditional law and degree-density disintegration are now constructed with
 standard-Borel kernels. A checked fixed-angle guardrail shows that shrinking
 terminal caps alone leaves all unpaid root mass in the cross-cap complement.
-Still open: the actual hereditary routing construction,
-endpoint-preserving extensions, geometric root/support hypotheses, stopping
-schedule, and paid/cross-cap bounds. None is replaced by a hidden capacity field.
+Still open: the actual geometric routing kernels and cuts, their conservation
+and root/support invariants, stopping schedule, and paid/cross-cap bounds. None is replaced by a hidden capacity field.
 
 ## 7. Relative residual / Frostman alternative
 
 Follow Corollary 9.31 and the residual-content criterion, rather than requiring
 the false arbitrary-shading universal estimate. Conditional finite-scale
 Frostman implications already in the repository do not prove their missing
-inputs. The concrete residual collision-time bridge is checked, including its explicit
+inputs. The concrete residual collision-time bridge is checked, including its
+explicit
 near-direction error; finite-energy, slicing, residual power bounds, and the
 geometric alternative are still open.
 
@@ -80,5 +83,6 @@ to the original compact front. The current legacy route still uses
 it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
-kernel readback with no project-specific axioms or `sorryAx`. The full build and
-that final readback remain separate checks from the successful new lemmas.
+kernel readback with no project-specific axioms or `sorryAx`. The full
+116-module build now passes. The final readback still reports the WZ
+project axiom; the unconditional theorem remains incomplete.

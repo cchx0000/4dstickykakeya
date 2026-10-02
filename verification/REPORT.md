@@ -1,368 +1,183 @@
-# Prove2Me / 4D Sticky Kakeya verification report
+# Prove2Me / 4D Sticky Kakeya: final verification checkpoint
 
-Date: 2026-10-02 UTC. Baseline: `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
+Date: 2026-10-02 UTC. Original baseline:
+`d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
-## Executive result
+## Result
 
-The repository's eight-milestone proposal is not complete. The user has designated the original paper as the final authority; see `ORIGINAL_PAPER_TARGETS.md`. In particular, milestone
-6's estimate for **every fractional shading restriction** is too strong: a
-common-ball restriction of many distinct radial lines has mass/union ratio equal
-to the number of lines. This is a mathematical obstruction, separate from the
-repairable Lean API mismatches. The final theorem currently depends on the
-project axiom `wang_zakharov_published_volume_estimate`.
+- **Full local project build: passed.** All 116 current Lean modules build;
+  the explicit aggregate run completed 8,826 Lake jobs, exit 0
+- **Ordinary `lake build`: passed.** The default targets completed 8,825 jobs,
+  exit 0, after repairing the library configuration
+- **New proofs: 91 declaration readbacks across nine modules use only**
+  `propext`, `Classical.choice`, and `Quot.sound`
+- **Final unconditional theorem: not complete.** The axiom gate exits 1 because
+  both `selector_closure` and `sticky_kakeya_four_dimensional` still use
+  `StickyKakeya4.wang_zakharov_published_volume_estimate`
+- **No Prove2Me server proof was submitted.** Local verification is complete;
+  authenticated platform access and mission synchronization were not configured
 
-No Lean target statement, definition, or project axiom has been silently weakened or removed. The old milestone proposal must be corrected where it does not match the original paper. No server proof has been submitted. The user has explicitly authorized progress commits and pushes to an independent work branch; publication status is recorded separately.
+The final main theorem and the original core definitions were preserved exactly.
+The main Solution's statement is also unchanged. Compilation success is not an
+unconditional proof: the missing source-level geometric estimate described below
+must be proved before the legacy project axiom can be removed.
 
-## Environment
+Machine-readable results: [final-status.json](final-status.json).
 
-- Lean: `leanprover/lean4:v4.33.1`, release commit
+## Environment and source standard
+
+- Lean `leanprover/lean4:v4.33.1`, release commit
   `819816b2e0a3bf405af45ae5c7af2491d8f5bee6`
-- Mathlib: `0df444a360eaa60ab8c11dca51a86af692955474`
-- LeanFormalizations: `dd46c17a2a034d7bfa0df02e7f77834d35592864`
-- Official Prove2Me workspace: commit
+- Mathlib `0df444a360eaa60ab8c11dca51a86af692955474`
+- LeanFormalizations `dd46c17a2a034d7bfa0df02e7f77834d35592864`
+- Official Prove2Me workspace commit
   `4bb28221f86306b70b58f8119c4413025d09b302`, skill/API version `0.11.6`
-- Public API health response: status `ok`, version `0.11.6`, observed
+- Public API health returned `ok`, version `0.11.6`, at
   `2026-10-02T03:02:07Z`
-- Local verification does not require a Prove2Me account. Authenticated mission
-  lookup and server verification were not configured: no API credential was
-  supplied, generated, stored, or transmitted.
 
-Official setup references:
-[Lean setup](https://github.com/prove2me/prove2me_workspace/blob/main/references/lean-setup.md),
-[API setup](https://github.com/prove2me/prove2me_workspace/blob/main/references/setup.md).
+The original Chenxi Cai manuscript is the final mathematical standard.
+[ORIGINAL_PAPER_TARGETS.md](../ORIGINAL_PAPER_TARGETS.md) records the PDF hash,
+source links, exact pages/TeX labels, correspondence, and proof gaps.
+[CURRENT_MILESTONES.md](../CURRENT_MILESTONES.md) is the current working ledger.
+The older proposal remains visible in `PROVE2ME_TARGETS.md`.
 
-The workspace layout already matches Prove2Me. A platform submission must match
-its target's exact statement and must not import that same target theorem. A
-successful local compile is neither platform acceptance nor proof that imported
-project axioms are absent.
+Official environment references:
+[Lean setup](https://github.com/prove2me/prove2me_workspace/blob/main/references/lean-setup.md)
+and [API setup](https://github.com/prove2me/prove2me_workspace/blob/main/references/setup.md).
+No credential was supplied, generated, saved, or transmitted. Lack of platform
+authentication is separate from the mathematical obstruction; it does not
+prevent local proof checking.
 
-## Repository milestone audit (not the original paper's statement)
+## Build and entry-point repairs
 
-1. Exact collision identity: theorem and solution present; compile/readback
-   status is recorded below.
-2. Matrix-pencil/Maslov incidence: theorem and solution present.
-3. Borel selector reduction: theorem and solution present.
-4. Packing selector to sources: current interface constructs a measure supported
-   on a **compact ambient front**, not necessarily the Borel selector front as
-   requested. Same-radius localization is present, but this support distinction
-   matters for milestone 8.
-5. Lossless edge-flow accounting: finite forest theorem present. This algebraic
-   ledger does not itself construct the geometric payments.
-6. Uniform hereditary bound: current `HasUniformMarkedSourceEstimate` contains
-   only the union/mass inequality, omitting the requested quadratic energy
-   inequality. Its named theorem proves a disjunction with Frostman or an
-   unresolved concentration boundary, not the universal estimate. Arbitrary
-   shading thinning makes the proposed universal estimate false.
-7. Frostman upgrade: valid as a conditional implication from coherent sources
-   supported on the desired front plus the uniform estimate. This does not
-   establish the missing uniform hypothesis. The solution entry had stale API
-   and epsilon bookkeeping, repaired without changing its selector conclusion.
-8. Borel selector closure: the current theorem takes a compact ambient family
-   and concludes full dimension of its front. The historical proposal instead asks for the selector's own front without compactness. The original-paper audit shows that stronger statement is not the source's explicit closure theorem. The Solution entry now follows the compact-ambient interface needed by the unchanged main theorem; it remains a WZ-dependent legacy proof.
+1. The Lean libraries previously used default root globs despite having no
+   `Definitions.lean`, `Theorems.lean`, or `Solutions.lean`. Aggregate builds
+   therefore failed with “some modules have bad imports.” Explicit submodule
+   globs fix this, and both Theorems and Solutions are now default targets
+2. The main Solution now calls the existing compact-ambient closure with the
+   correct arguments. Its statement is unchanged
+3. The conditional Frostman Solution now uses
+   `HasCoherentFiniteScaleSources selector selector`, preserving its intended
+   support, and matches the source exponent `epsilon/10`
+4. The obsolete Borel-only selector Solution was aligned with the compact-ambient
+   interface appropriate to the unchanged main theorem. The stronger historical
+   signature is explicitly retained as unresolved in
+   [ARCHIVED_TARGETS.md](ARCHIVED_TARGETS.md)
+5. A bounded Linux build helper runs one Lake graph with at most three Lean
+   compilers, using the untouched official compiler through temporary sysroot
+   links. Cache reuse and subsequent ordinary Lake builds were verified
 
-## Common-shading obstruction
+Pins, core definitions, and the original main theorem file were not changed.
+There are existing style/deprecation warnings; there are no compiler errors in
+the completed full build.
 
-### Kernel-checkable finite algebra
+## Nine new checked modules
 
-`Theorems/Thm_StickyKakeya4_common_shading_obstruction.lean` defines a restriction
-which replaces all shadings by the same measurable set `B`, provided `B` lies
-inside every original shading. It preserves thickness, actual lines, affine
-marks, tree, and weights. Thus it satisfies the **existing**
-`IsFractionalSourceRestriction` definition.
+The exact declarations and axiom lists are indexed in
+[new-axiom-summary.json](new-axiom-summary.json). All nine sources were checked
+under the project's strict implicit-variable configuration, either through Lake
+or explicit `-DautoImplicit=false` compilation.
 
-For `n > 0`, unit weights, and `0 < volume B < infinity`, its calculation is:
+- `common_shading_obstruction` — 7 readbacks. For a common finite positive
+  shading and unit weights, both proposed overlap bounds force their coefficient
+  to be at least the number of lines. This isolates the arbitrary-thinning defect
+- `edge_marginal_obstruction` — 4 readbacks. A two-point probability calculation
+  shows that bounded joint edge density does not imply domination by its own
+  source marginal times the original target probability
+- `global_terminal_band` — 11 readbacks. Root endpoint-measure domination and
+  direction-ball density yield an aggregate `8 C m T^3` terminal estimate and
+  `8 C m^2 q` when `T^3 <= m q`. A global reversal allowance has factor 16;
+  moving or overlapping cap centers require no bounded-overlap hypothesis
+- `measure_edge_flow` — 6 readbacks. Nodewise equality of measures on a finite
+  occurrence forest yields terminal root-measure domination, preserved by one
+  fixed endpoint map, and the integrated quadratic terminal estimate
+- `markov_endpoint_preservation` — 16 readbacks. Actual Markov probability-label
+  extensions preserve old endpoint laws. Fractional restrictions, subsequent
+  extensions, different destination label spaces, and disjoint label-dependent
+  cuts preserve the original measure budget
+- `old_neighbor_disintegration` — 17 readbacks. `condKernel` constructs the actual
+  old-neighbor Markov law and equation-(419) disintegration. The source marginal
+  is the exact degree-density measure. Its bound is `lambda <= sigma` for a
+  probability base, and `(sigma univ) * sigma` for an unnormalized finite base
+- `fixed_angle_terminal_vanishing` — 7 readbacks. Below the root's fixed angular
+  cutoff, same-band terminals vanish while the complementary-band mass equals
+  the entire root mass. Thus terminal shrinking alone cannot pay cross-cap mass
+- `sphere_terminal_band` — 5 readbacks. The actual canonical surface probability
+  supplies the density estimate: for an unnormalized dominated source and
+  `0<T`, `3T<=1`, the bounds are `27 C m T^3` and `27 C m^2 q`. An actual canonical
+  restriction example and the finite-forest integration are checked
+- `residual_collision_bridge` — 18 readbacks. Exact collision-fiber localization,
+  measurability, and Tonelli give the source-faithful estimate
 
-- `F_R = n * 1_B`
-- `sourceMass R = n * volume B`
-- `sourceUnion R = B`
-- `integral F_R^2 = n^2 * volume B`
-- both `sourceMass R <= K * volume(sourceUnion R)` and
-  `integral F_R^2 <= K * sourceMass R` are equivalent to `n <= K`
+  ```text
+  integral_[u,v] mu{norm(beta+s alpha) <= rho} ds
+    <= 2 rho Z_rho^[u-d,v+d](mu)
+       + max(v-u,0) mu{norm(alpha) <= rho/d}.
+  ```
 
-This module deliberately does **not** claim to formalize the whole geometric
-asymptotic counterexample. It isolates the exact defect in unrestricted thinning.
+  The near-direction contribution is explicit. The shell version removes it
+  under its stated a.e. nonzero-secant and buffer hypotheses
 
-### Geometric family (mathematical audit, not yet a Lean theorem)
+These are proved components. They are not yet substituted for the WZ branch in
+the public main theorem, because the required geometric construction and
+cross-cap estimate are still absent.
 
-Take the full radial selector
-`Gamma = {((theta, 0), 0) : norm theta = 1}`. It is compact, Borel, valid, and
-full-direction. Its unmarked carrier is isometric to the unit 3-sphere and has
-packing dimension 3. Let `a = 1/10`, `delta = a/m`, and choose the `m^3` directions
+## Exact remaining mathematical obstruction
 
-`theta(q) = (q,1)/sqrt(1 + norm(q)^2)`,
-`q in {0, a/m, ..., a(m-1)/m}^3`.
+The original paper's Proposition 9.1 (p. 107) assumes a quadratic relative
+cross-cap budget. Proposition 9.29 (pp. 122–123) accounts for old-neighbor exits
+but does not itself establish that budget.
 
-The chart and its inverse have uniform Lipschitz constants on this fixed box.
-Therefore the number of these directions in any radius `r >= delta` ball is at
-most `C (r/delta)^3`; carrier covering numbers are at most `C r^-3`, with one
-constant independent of `m`. Both satisfy the admissibility bounds with exponent
-`3 + epsilon/10`. Set all weights to 1, offsets and affine marks to zero, and
-use a forest of singleton carrier cells. Give each root its full closed
-delta-neighborhood of the unit segment as shading. Its volume is at least
-`(4*pi/3) delta^3`, hence at least `delta^(3 + epsilon/10)` for `delta < 1`.
-The total root source mass also stays between positive finite constants
-independent of `m`.
+The root graph in Proposition 7.76, equation (305), has a fixed lower angular
+cutoff. When terminal caps shrink below that cutoff, every unremoved original
+edge is cross-cap. The new checked guardrail proves the underlying measure
+identity. Conservation and terminal cap shrinking cannot alone make that mass
+small.
 
-Every such tube contains `B(0,delta/2)`. Restrict every shading to that common
-ball without changing anything else. The exact finite calculation above gives
-`n = m^3 = (a/delta)^3`. Taking output exponent `epsilon = 1`, the proposed
-uniform estimate would force `a^3 <= A delta^2` for all sufficiently small
-delta, which contradicts fixed finite `A` as `delta` tends to zero.
-
-This counterexample does not contradict the final sticky-Kakeya dimension
-claim: the radial front is a four-dimensional ball. Nor does it contradict the
-published dense-shading volume theorem. Wang--Zakharov's
-[Theorem 1.2](https://arxiv.org/pdf/2609.22035) requires delta^eta-dense shadings;
-the common ball has relative tube density on the order of delta and fails that
-hypothesis when eta is small. A dense-shading theorem does not supply the
-arbitrary-thinning or quadratic-energy estimates requested here.
-
-The original manuscript's precise hereditary object is an ordered edge-occurrence
-measure carrying conditional flags (Lemma 8.56, Proposition 9.29, Appendix A),
-not arbitrary physical shading deletion. Its closure runs through the relative
-residual/Frostman alternative (Corollary 9.31) and the residual criterion
-(Theorem 9.32). The displayed tube inequalities are an overstrong repository
-translation. This counterexample does **not** refute the manuscript's main theorem.
-The authoritative target ledger is being aligned with the actual paper rather
-than replacing the main theorem by a weaker result.
-
-## Other no-WZ closure gaps
-
-The source audit now prioritizes the paper's **finite-depth occurrence-tree**
-route. The stronger infinite continuation below is a gap in the older proposed
-route, not a mandatory prerequisite for every proof of the original theorem.
-The aggregate terminal repair has now been formalized using root-pair domination
-and endpoint support, avoiding the invalid per-node conditional normalization.
-Its application to the actual geometric stopping construction remains open.
-
-- `PrunedCommonHeightAnalyticFourCycleContinuation` has no constructor from the
-  finite alternatives elsewhere in the repository, and its tree carries no
-  source-mass retention data.
-- `arbitrarilyCollapsed` supplies some node and vector for each threshold. It
-  does not establish deep, positive-mass collapse along a common surviving branch.
-- The vector-centre estimates assume one clustered centre ball and disjoint
-  sources. Uniform accounting across moving-centre clusters is still missing.
-- The three-packet ledger assumes generation decay and local/root charge
-  estimates. Actual-source half-removal is not connected to those assumptions
-  by a generation constructor.
-- The public routing/Frostman/boundary trichotomy is obtained by case splits;
-  axiom-clean readback of that trichotomy cannot eliminate its boundary branch.
-- `selector_closure` still invokes the WZ axiom-backed branch.
-
-## Changes made
-
-- Updated the main Solution's call to the existing compact-ambient closure;
-  its theorem statement is unchanged. This remains a legacy axiom-dependent route.
-- Corrected the obsolete Borel-only selector Solution to the source-faithful compact-ambient auxiliary interface; the final compact marked theorem is unchanged.
-- Updated the conditional Frostman Solution to
-  `HasCoherentFiniteScaleSources selector selector`, preserving its intended
-  selector-front support, and aligned the source exponent with epsilon/10.
-- Added the common-shading calculation and exact necessary-coefficient lemmas.
-- Added `scripts/check-environment.sh` and a fail-closed
-  `scripts/check-axioms.sh`, plus `verification/AxiomReadback.lean`.
-
-## Executed checks
-
-- Lean/Lake version commands: passed
-- Official pinned dependency checkout: passed
-- Public Prove2Me health: passed
-- Shell script syntax and Python script compilation: passed
-- `git diff --check`: passed
-- Mathlib prebuilt cache: all 8,690 files downloaded and decompressed
-- `Solutions.SmokeTest`: passed (2.4 seconds)
-- `Definitions.Def_sticky_kakeya4_core`: passed
-- `Thm_StickyKakeya4_common_shading_obstruction`: passed
-- `Solutions.Sol_StickyKakeya4_hereditary_finite_scale_to_frostman`: passed
-- `Thm_StickyKakeya4_exact_collision_identity`: passed
-- `Thm_StickyKakeya4_lossless_edge_flow_carleson`: passed
-- `Thm_StickyKakeya4_edge_marginal_obstruction`: passed after correcting noncomputable numeric definitions
-- Common-shading readback: all 7 declarations use only `propext`, `Classical.choice`, `Quot.sound`
-- Edge-marginal readback: all 4 declarations use only those standard logical axioms
-- Full 109-module dependency-first build: in progress
-- Final theorem readback: pending; no final proof-completion claim
-
-Build and kernel results will be updated after the cache and checks complete.
-Source inspection and API health are not substitutes for them.
-
-## Original-paper measure normalization check
-
-The original-paper audit identifies a conditional-kernel normalization step in
-Proposition 9.29, equation (453), requiring additional justification. The new
-`Thm_StickyKakeya4_edge_marginal_obstruction` module records a two-point finite
-probability example: base weights 1/2, edge density 1 only on (0,0), source
-marginal mass 1/4, cap mass 1/2, and same-cap edge mass 1/4 > 1/8. It tests only
-the generic domination inference, not all geometric hypotheses of the paper.
-Its compilation/readback status is recorded with the other checks.
-
-## Progress backup
-
-The first checkpoint is remotely backed up on branch
-`prove2me/original-paper-audit-2026-10-02`, commit
-`5329da8cf4c53771390c26ef81594ffdf9076bdb`. Later checkpoints refine tests and
-proofs on that same independent branch. The original `main` branch is unchanged.
-The stronger historical selector signature is preserved explicitly in
-`verification/ARCHIVED_TARGETS.md`.
-
-## Constructive global terminal repair
-
-`Thm_StickyKakeya4_global_terminal_band` is compiled and has eleven standard-axiom
-readbacks. Its hypotheses explicitly retain a single original endpoint pair:
-
-- terminal measures sum to a submeasure of the root occurrence measure
-- the root is dominated by the original selector product measure
-- every terminal pair lies in the inherited-direction `2T` band
-- original-selector direction-ball masses are at most `C R^3`
-
-It proves total terminal mass at most `8 C m T^3`, and at most `8 C m^2 q` when
-`T^3 <= m q`. A version with one global endpoint reversal budget has factor 16.
-Cap centers can vary and caps can overlap. Supporting lemmas derive the budget
-from countably many disjoint restrictions and preserve it under a fixed
-measurable endpoint projection. The proof uses product-measure sections/Tonelli,
-not an unjustified bound on normalized old-neighbor kernels.
-
-Still needed for the original main theorem: the actual finite stopping tree,
-endpoint-preserving occurrence restrictions/extensions, root domination,
-terminal support/stopping scale, and paid/cross-cap budgets. This theorem alone
-does not instantiate those geometric obligations.
-
-## Measure-valued finite forest integration
-
-`Thm_StickyKakeya4_measure_edge_flow` has compiled with six standard-axiom
-readbacks. Exact conservation at each node is an equality of measures on one
-fixed occurrence space. Evaluating every test set and applying the scalar
-lossless forest ledger proves a measure-valued terminal budget. One fixed
-measurable endpoint map preserves it.
-
-`measure_forest_terminal_mass_le_quadratic` then derives the terminal
-`8 C m^2 q` bound directly from that conservation and the separate root-product,
-terminal-support, original-density, and stopping-scale hypotheses. It does not
-assume the terminal budget as an input. Actual routing/conservation and the
-paid/cross-cap estimates still have to be constructed from the original geometry.
-
-The full build is being accelerated by two independent late-target prebuild
-batches alongside the dependency-first pass. At most three baseline compiler
-jobs are scheduled; focused proof checks are separate. Every final target will
-still be checked by the full dependency pass and the final aggregate build.
-
-## Active proof drafts backed up separately
-
-The next checkpoint also snapshots work in progress in
-`Thm_StickyKakeya4_residual_collision_bridge` and
-`Thm_StickyKakeya4_markov_endpoint_preservation`. At this snapshot their final
-compilation and axiom readbacks are **pending**. They must not be counted among
-the 28 already checked new declarations above.
-
-The residual draft implements closest-time interval localization and a
-factor-two physical collision-fiber estimate, with residual/time-window
-cutoffs; its intended next step is the Tonelli residual-content integral bound.
-The Markov draft uses actual probability-kernel extensions to preserve endpoint
-marginals and transfers a bounded root density to product-measure domination.
-Successful checks and any corrections will be recorded in later checkpoints.
-
-## Checked probability-label preservation
-
-The Markov draft mentioned in the preceding checkpoint is now compiled with
-16 standard-only axiom readbacks, saved in `markov-endpoint-axioms.log`. The
-residual draft's status remains separate and pending.
-
-The checked Markov results use `Measure.compProd` with genuine Markov kernels:
-original marginals and every measurable inherited endpoint law are preserved
-exactly. Fractional restrictions, subsequent probability extensions,
-destination-specific label spaces, and countable disjoint label-dependent cuts
-preserve the original measure budget. A root edge density bounded by one is
-proved dominated by the original selector product, and the endpoint budget
-survives those actual constructions.
-
-This still does not construct the original geometric routing or its
-disintegration in equation (419). It supplies the explicit probability-kernel
-calculus once those kernels and cuts are supplied, without assuming a false
-bound on the normalized old-neighbor density.
-
-## Constructed old-neighbor conditional law
-
-`Thm_StickyKakeya4_old_neighbor_disintegration` now compiles and has seventeen
-standard-only declaration readbacks. For finite ordered-pair measures on a
-nonempty standard-Borel endpoint space, it defines the actual old-neighbor
-Markov kernel via `condKernel` and proves the exact equation-(419)
-disintegration. For a measurable root density `h <= 1`, it derives the source
-degree density and root finiteness rather than assuming them. Attached
-probability labels preserve the original joint edge law exactly.
-
-The source marginal is at most `sigma` when `sigma` is a probability. For
-unnormalized finite `sigma`, the checked bound correctly includes the factor
-`sigma(univ)`. No pointwise domination of the conditional neighbor kernel by
-`sigma` is asserted.
-
-## Checked fixed-angle cross-cap guardrail
-
-`Thm_StickyKakeya4_fixed_angle_terminal_vanishing` compiles and all seven axiom
-readbacks use only standard logical axioms. A root supported on direction
-separation at least `tau` gives zero mass to the direction band of radius
-`R < tau`. Its complementary-band mass equals its entire mass. Consequently
-a cross-band bound by `B` is equivalent to a bound on the whole root mass, and
-budgeted terminal measures supported in that small band vanish.
-
-This formalizes why terminal cap contraction alone cannot pay the original
-root graph's cross-cap branch. It does not refute a separately proved geometric
-payment estimate or the final theorem. The source audit's new section 8 records
-the exact unresolved first-exit weighted cross-cap estimate and why the
-source's separated-polarization candidates do not supply it without additional
-hypotheses.
-
-## Strict local-check checkpoint
-
-The old-neighbor and fixed-angle source files additionally passed explicit
-`-DautoImplicit=false` checks, matching Prove2Me. Markov endpoint preservation
-also passed the actual Lake target build with the package options enabled.
-
-The residual and canonical-sphere source drafts are included in this backup
-checkpoint after successful explicit strict source compilation. Their final
-readback confirmation is tracked separately; no final-theorem or whole-project
-completion is inferred from those source checks. The full baseline pass has
-22/109 targets passed, with twelve independent late-target prebuilds also
-successful at this checkpoint; it is still running.
-
-## All nine new modules: strict checks complete
-
-The residual and canonical-sphere readbacks are now complete as well. Across
-nine new modules, 91 declaration readbacks contain only `propext`,
-`Classical.choice`, and `Quot.sound`. Their names and exact evidence files are
-listed in `verification/new-axiom-summary.json`. This list deliberately excludes
-the final main theorem, whose legacy project-axiom dependency is not removed.
-
-The residual bridge proves the actual averaged collision estimate
+The separated-polarization results require additional hypotheses not supplied
+by separation of direction caps, and retain further routing alternatives. The
+source audit identifies no theorem paying the full varying-generation,
+old-weighted first-exit measure. A concrete missing target is
 
 ```text
-integral_[u,v] mu{norm(beta + s alpha) <= rho} ds
-  <= 2 rho Z_rho^[u-d,v+d](mu)
-     + max(v-u,0) mu{norm(alpha) <= rho/d}.
+sum_v Exit_v(univ) <= C_eta m^2 r^(2-eta),
 ```
 
-It keeps the near-direction contribution explicit, rather than silently
-throwing those pairs away. The shell version removes it under the stated
-almost-everywhere nonzero-secant and buffer hypotheses. Residual power bounds,
-inverse-energy/slicing closure, and the geometric cross-cap budget are not proved.
+proved for the actual geometric occurrence tree, or a genuinely terminating
+replacement rerouting argument controlling those old pairs. Assuming that
+numerical bound in a certificate is not a proof of it.
 
-The sphere specialization derives the cubic and quadratic terminal estimates
-from domination by the actual canonical sphere probability, with `0<T` and
-`3T<=1`. An unnormalized canonical restriction example is checked. This removes
-the abstract all-radius density input for that concrete source model, while
-retaining the actual routing/root/support/stopping-scale obligations.
+Geometric residual power bounds and the final inverse-energy/slicing closure
+also remain unproved. An uncompiled analytical draft is preserved explicitly
+outside all build targets in [drafts](../drafts/README.md); it is not counted as
+a verified result.
 
-## Aggregate build configuration repair
+This is a blocker to completing the supplied proof, not a disproof of the final
+Sticky Kakeya theorem.
 
-A genuine repository configuration defect was reproduced: the three Lean
-libraries used default root globs despite lacking `Definitions.lean`,
-`Theorems.lean`, and `Solutions.lean`, so aggregate builds failed with
-"some modules have bad imports". Explicit submodule globs fix this. Theorems and
-Solutions are now both default targets, so newly added theorem modules are not
-silently excluded from `lake build`. Pins and mathematical statements are unchanged.
-The Definitions library build passed after the fix.
+## Executed checks and evidence
 
-The initial dependency-first pass reached 31 successful modules; fourteen
-independent late-target prebuilds also passed. It was then deliberately stopped
-and replaced by one aggregate Lake graph, avoiding repeated graph scans. A
-three-slot compiler semaphore in `scripts/build-bounded.sh` bounds memory while
-using the unmodified official Lean executable through temporary sysroot links.
-A no-build smoke probe confirmed cache reuse. The full aggregate build is still
-running, and its terminal outcome remains required before declaring a full pass.
+- [Environment and smoke test](environment.log): passed
+- [Full aggregate build](aggregate-build.log): passed, 8,826 jobs, exit 0
+- [Default build](default-build.log): passed, 8,825 jobs, exit 0
+- [Final theorem/axiom gate](final-axiom-gate.log): failed, exit 1, because the
+  two closure declarations retain the WZ project axiom
+- [New-declaration axiom summary](new-axiom-summary.json): 91 standard-only
+  readbacks; individual full readback logs are linked there
+- Core/main file preservation and main Solution statement comparison: passed
+- Shell syntax, Python compilation, and whitespace checks: passed
+
+The exact collision, Maslov incidence, Borel selector reduction, source
+construction, lossless flow, and conditional Frostman implication were also
+read back with only standard logical axioms. This does not prove their missing
+geometric inputs or eliminate the final WZ dependency.
+
+## Reproduction and backup
+
+See [REPRODUCING.md](REPRODUCING.md). `scripts/check-axioms.sh` deliberately fails
+until the final theorem's transitive project axiom is eliminated.
+
+All source progress is backed up on the independent branch
+[prove2me/original-paper-audit-2026-10-02](https://github.com/cchx0000/4dstickykakeya/tree/prove2me/original-paper-audit-2026-10-02).
+The original `main` branch is unchanged. No merge or platform proof submission
+was performed.

@@ -1,0 +1,509 @@
+{
+  "generated_at_utc": "2026-10-02T05:05:33.021229+00:00",
+  "source_commit_before_report": "59879dec1df461ac4acfca7e8da0296b02f9ed22",
+  "project_module_count": 116,
+  "aggregate_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8826,
+    "command": "STICKY_BUILD_JOBS=3 ./scripts/build-bounded.sh Definitions Theorems Solutions",
+    "log": "verification/aggregate-build.log"
+  },
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "command": "lake build",
+    "log": "verification/default-build.log"
+  },
+  "new_declaration_axiom_checks": {
+    "count": 91,
+    "status": "standard_logical_axioms_only",
+    "evidence": "verification/new-axiom-summary.json"
+  },
+  "final_theorem_axiom_gate": {
+    "status": "failed_project_axiom_remains",
+    "exit_code": 1,
+    "failures": [
+      {
+        "theorem": "StickyKakeya4.selector_closure",
+        "axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+      },
+      {
+        "theorem": "StickyKakeya4.sticky_kakeya_four_dimensional",
+        "axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+      }
+    ],
+    "log": "verification/final-axiom-gate.log"
+  },
+  "original_core_unchanged": true,
+  "original_main_theorem_file_unchanged": true,
+  "main_solution_statement_unchanged": true,
+  "prove2me_authenticated": false,
+  "prove2me_submissions": 0,
+  "modules": {
+    "Definitions.Def_sticky_kakeya4_core": {
+      "status": "passed",
+      "source_sha256": "81aba0265acd2bd4b9d34ecec7030e57a029b6738039e6b142e65388ed450a02"
+    },
+    "Solutions.SmokeTest": {
+      "status": "passed",
+      "source_sha256": "62fba69d1fe75532f3946253a7951852c75ee801b02279fe71f1f4f6a2c70237"
+    },
+    "Solutions.Sol_StickyKakeya4_borel_selector_reduction": {
+      "status": "passed",
+      "source_sha256": "00368f5a207b889826be664fdb161311a382935c5f2e13fb51e5067847e9bf60"
+    },
+    "Solutions.Sol_StickyKakeya4_exact_collision_identity": {
+      "status": "passed",
+      "source_sha256": "0c809ee5dc03c8aa2e4c36e949934f02d384fef1692aa7d7ed39d1f3189f2721"
+    },
+    "Solutions.Sol_StickyKakeya4_hereditary_finite_scale_to_frostman": {
+      "status": "passed",
+      "source_sha256": "64c9a3a8eea0205cdd99c5218a53543b0bd77b7d330c13faca9e0269b3885c4b"
+    },
+    "Solutions.Sol_StickyKakeya4_lossless_edge_flow_carleson": {
+      "status": "passed",
+      "source_sha256": "5111fd28f74e8f8abd3df226a0d8bae76b86771724377ea3dd3369bd2e8b90d6"
+    },
+    "Solutions.Sol_StickyKakeya4_maslov_incidence_equivalence": {
+      "status": "passed",
+      "source_sha256": "32186d8d10f72a3d054a3852d24fb1693690b98c8f55cd4c169c922677076d2d"
+    },
+    "Solutions.Sol_StickyKakeya4_selector_closure": {
+      "status": "passed",
+      "source_sha256": "b27f01032ea359dcf7324626053719c35d5a2ce0a90f1a74a54496cbbe8eee9e"
+    },
+    "Solutions.Sol_StickyKakeya4_sticky_kakeya_four_dimensional": {
+      "status": "passed",
+      "source_sha256": "3b5354050c6ff1ac6ef8398f55468fd665dcabd44198f5125daea4b3e71808f8"
+    },
+    "Theorems.Ext_BrunnMinkowski": {
+      "status": "passed",
+      "source_sha256": "f5ab7a77a5e66bd6da963b523a2328b37cf947254b427633bbf10754bc88f4df"
+    },
+    "Theorems.Thm_StickyKakeya4_actual_source_collision_packet": {
+      "status": "passed",
+      "source_sha256": "86004893eb9ae1f8a85edbf89c7017d1142371fadbfaf48f581539742407e6b8"
+    },
+    "Theorems.Thm_StickyKakeya4_actual_source_collision_tower": {
+      "status": "passed",
+      "source_sha256": "6aefceb0d6a916515e262181d7295f9f0b5a863e301cde3a3b7d1c4abb19f398"
+    },
+    "Theorems.Thm_StickyKakeya4_borel_selector_foundations": {
+      "status": "passed",
+      "source_sha256": "1444aeb39ab7038cd8dca2714da46a0e7cf6dc4a943e96a4b22daa89dfd9a66e"
+    },
+    "Theorems.Thm_StickyKakeya4_borel_selector_reduction": {
+      "status": "passed",
+      "source_sha256": "284d5f8a592ea3f47ef642a735eb2b7dd558d709647de6b45cdcc6a2dc629ce2"
+    },
+    "Theorems.Thm_StickyKakeya4_canonical_sphere_measure": {
+      "status": "passed",
+      "source_sha256": "1dbe6c2dd74c3d2eed860e74a58253e4f2e2de530a3363513b6398ce8cb2d231"
+    },
+    "Theorems.Thm_StickyKakeya4_carrier_piece_probability": {
+      "status": "passed",
+      "source_sha256": "d108740a57964be8b5beaa77f338a947e229ebec2bd7238f317cea0521d5c4d8"
+    },
+    "Theorems.Thm_StickyKakeya4_coherent_boundary_shrinking_packets": {
+      "status": "passed",
+      "source_sha256": "46180c3b1cb73b4068234a32a6dc4f81890d8276c88b3a9eca258b2d481a0f92"
+    },
+    "Theorems.Thm_StickyKakeya4_coherent_boundary_source_collision": {
+      "status": "passed",
+      "source_sha256": "311f3baa3e2302aca88112834238bb9d2e84a494466f5a354afe7e8d448c2c00"
+    },
+    "Theorems.Thm_StickyKakeya4_collision_edge_contact_residual": {
+      "status": "passed",
+      "source_sha256": "f25d88eadad90576f7cfe2d036b07618105e61d189d2ea79c3567b673da9a75a"
+    },
+    "Theorems.Thm_StickyKakeya4_collision_edge_fixed_height_control": {
+      "status": "passed",
+      "source_sha256": "5065d4d9dd6334d9eaa1dae7065a3700c89061e81c06e1173821868081056498"
+    },
+    "Theorems.Thm_StickyKakeya4_collision_flow_overlap_witness": {
+      "status": "passed",
+      "source_sha256": "3589e845c30e29e46c85adebd43c48b60de701bfe4c0cac748732d002c8a8255"
+    },
+    "Theorems.Thm_StickyKakeya4_collision_heavy_edge_decomposition": {
+      "status": "passed",
+      "source_sha256": "072957234118dfd69931028d2b64a3586474857ae90582f066f67bc0290e0601"
+    },
+    "Theorems.Thm_StickyKakeya4_collision_routing_failure_counterexamples": {
+      "status": "passed",
+      "source_sha256": "84ce4b0b2b42dc930e66a97cc1db27006e9c7715af3836b92219d6c877dd78af"
+    },
+    "Theorems.Thm_StickyKakeya4_collision_support_cardinality": {
+      "status": "passed",
+      "source_sha256": "5e4f8dde5f89a3ebccf91a4057dc4af4c9ff881bdd026c517750949c3c041f4f"
+    },
+    "Theorems.Thm_StickyKakeya4_collision_time_coherent_motion": {
+      "status": "passed",
+      "source_sha256": "0a16423f220a307c80e11da853976f303f453f4ec95788c029702935f9d31c1b"
+    },
+    "Theorems.Thm_StickyKakeya4_common_height_collision_time_routing": {
+      "status": "passed",
+      "source_sha256": "54782613e126b333f6444514d9aeb4313ad040e9c1a0f9387144702dfccda1e1"
+    },
+    "Theorems.Thm_StickyKakeya4_common_height_collision_tower": {
+      "status": "passed",
+      "source_sha256": "de252acbd75fe5e13f7e915ef59621be7963a9660723d8ade9bd176d2925ff10"
+    },
+    "Theorems.Thm_StickyKakeya4_common_shading_obstruction": {
+      "status": "passed",
+      "source_sha256": "4f91cdd5622626efc08f3283ad0e208edd0f7b99725e5445045afe723635913f"
+    },
+    "Theorems.Thm_StickyKakeya4_compact_front": {
+      "status": "passed",
+      "source_sha256": "13faaee426a54cceafeea59fdd58da63ee06ad2d68f0719acbbc9028230801b4"
+    },
+    "Theorems.Thm_StickyKakeya4_conditioned_boundary_packet_chain": {
+      "status": "passed",
+      "source_sha256": "1181b7ff29acedd0d1f64595153e17dab2fa4541cc292647a4ce8e5cfe1ce5c4"
+    },
+    "Theorems.Thm_StickyKakeya4_conditioned_boundary_packet_extension": {
+      "status": "passed",
+      "source_sha256": "1674c71cc8fa8568467b68401c1426210d9ab7e577046ff29904a14f2cd976e4"
+    },
+    "Theorems.Thm_StickyKakeya4_conditioned_boundary_packet_mass": {
+      "status": "passed",
+      "source_sha256": "d1bcfc4bda2b35bdddee327177b1d20faeb3f8a85313baab5c64990183f785f2"
+    },
+    "Theorems.Thm_StickyKakeya4_conditioned_packet_center_control": {
+      "status": "passed",
+      "source_sha256": "1787b8e316cc53f3b210b0a251873528a1325db2e070788d02301285bdad3af8"
+    },
+    "Theorems.Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence": {
+      "status": "passed",
+      "source_sha256": "20f9cb3ef162ba052485ce519dcdbc8b368e9f2a3a48473f6a59855e98cbc236"
+    },
+    "Theorems.Thm_StickyKakeya4_countable_ball_normalized_escape": {
+      "status": "passed",
+      "source_sha256": "811e5414bd615533c988c6ee2e3601ce58453fdaf8d092e6385263cdb3d64c93"
+    },
+    "Theorems.Thm_StickyKakeya4_countable_ball_stopping": {
+      "status": "passed",
+      "source_sha256": "87b69145a5ba685736bc2d8c5fc4a61f8b91b15b8748d1983f1c75472ccc3771"
+    },
+    "Theorems.Thm_StickyKakeya4_countable_mass_stopping_prefix": {
+      "status": "passed",
+      "source_sha256": "d6bcd9ce388b657dd11532ce8594046656e52d9543f8733952dad35c5b2f783c"
+    },
+    "Theorems.Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure": {
+      "status": "passed",
+      "source_sha256": "d5254661599f6e1f52cd1dba0a06dd49e973e49004fdfc0152dd69422de69b85"
+    },
+    "Theorems.Thm_StickyKakeya4_dense_bipartite_genuine_four_cycle": {
+      "status": "passed",
+      "source_sha256": "96953f53d50a3f39cec1da6a5dfda65f73ef36de196bbf6314d2df7e75c6bb29"
+    },
+    "Theorems.Thm_StickyKakeya4_dense_collision_relation_tower": {
+      "status": "passed",
+      "source_sha256": "f5b5be9b3328b1bc55e5ab85d26d3d62c0cde485f57685db2cd42b954c528364"
+    },
+    "Theorems.Thm_StickyKakeya4_dense_relation_marked_four_cycle": {
+      "status": "passed",
+      "source_sha256": "4bd8f80cff6ac82223aaf8230b552fe9f76b4c3eb3d9b96ddf2bc6a0472a18a5"
+    },
+    "Theorems.Thm_StickyKakeya4_dimension_witness_extraction": {
+      "status": "passed",
+      "source_sha256": "148036aa9274f44e250bcb7c7237b9660df96cd8b9ed5d4d4a6dc85eb87a2307"
+    },
+    "Theorems.Thm_StickyKakeya4_edge_flow_certificate_to_uniform_bound": {
+      "status": "passed",
+      "source_sha256": "2f64c72ad87b81fbc947ed87371c4e7eb1186bf03797a836d3dc0693b06902bd"
+    },
+    "Theorems.Thm_StickyKakeya4_edge_marginal_obstruction": {
+      "status": "passed",
+      "source_sha256": "cf44b3e36534964bad4610061a8d9b8478853b738ff9e7b030f69c9c61fab3c5"
+    },
+    "Theorems.Thm_StickyKakeya4_exact_collision_identity": {
+      "status": "passed",
+      "source_sha256": "d0acbe15e1d9a877ccd8aa2a51d641f46a71cd2335d2f41f29f9d02c167eeda2"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_four_sample_three_packet": {
+      "status": "passed",
+      "source_sha256": "83fbbfa597adf32d5e2932e6755018d1dca4623e494186609504146b8e040da6"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_mass_conserving_stopping": {
+      "status": "passed",
+      "source_sha256": "12dae3acd5d60b8866b8040aa3f2a441c153e7c5352044321e39c6b8d2b77d80"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_scale_source_mass": {
+      "status": "passed",
+      "source_sha256": "72912704fd89a85e02a65ea7fbc90f512905b566b1d411a4c482b2d77c39c50f"
+    },
+    "Theorems.Thm_StickyKakeya4_fixed_angle_terminal_vanishing": {
+      "status": "passed",
+      "source_sha256": "962dfa6303c27bfcddb3fb57f2188b2d25a28dd40188a5b390d3608c8abd6224"
+    },
+    "Theorems.Thm_StickyKakeya4_four_cycle_contact_frame": {
+      "status": "passed",
+      "source_sha256": "e122fb5e275f0f3a2af1891aa76f69a41069eae9a16f0f508c5a9c60c34068b3"
+    },
+    "Theorems.Thm_StickyKakeya4_four_probe_boundary_firewall": {
+      "status": "passed",
+      "source_sha256": "0930487c7d99ad6f65adfe4dd490295616e573b5e49f85b286d39f6719ac899b"
+    },
+    "Theorems.Thm_StickyKakeya4_four_probe_boundary_limit": {
+      "status": "passed",
+      "source_sha256": "cceea59fcc1ad838a0d9c25b401153ca8d4341292aa644d204636d9a65c1ec26"
+    },
+    "Theorems.Thm_StickyKakeya4_four_probe_cauchy_extraction": {
+      "status": "passed",
+      "source_sha256": "97690e674b5d73acb7631931145c150e9596af3c0e7855018321456a94c2d154"
+    },
+    "Theorems.Thm_StickyKakeya4_fresh_return_tower_extraction": {
+      "status": "passed",
+      "source_sha256": "40c760b467a2abe278a30da79608eecaafd8f08c4438661d4a936067c1995296"
+    },
+    "Theorems.Thm_StickyKakeya4_front_countable_stopping_dichotomy": {
+      "status": "passed",
+      "source_sha256": "324954086c5d04d1ed911fa825e9bee62718a45724d2e690cbc13c834b6492e7"
+    },
+    "Theorems.Thm_StickyKakeya4_front_direction_cap_firewall": {
+      "status": "passed",
+      "source_sha256": "4a78455576f4fc78a0aaaf4a3beeffee3b9e45ce00fac6d628a021137f4c85bd"
+    },
+    "Theorems.Thm_StickyKakeya4_front_direction_fibre_ball_firewall": {
+      "status": "passed",
+      "source_sha256": "6912f19ec5bfe783d8752f05ef705f9fe5d3a487e2b07ec64296ecc9e865662c"
+    },
+    "Theorems.Thm_StickyKakeya4_front_fibre_lower_bound": {
+      "status": "passed",
+      "source_sha256": "7d9c7d389790e5f91b31b240a624b70d6d66c1ad3cd1148e3b790f24baf94990"
+    },
+    "Theorems.Thm_StickyKakeya4_front_parameter_probability": {
+      "status": "passed",
+      "source_sha256": "f1d9ff1100790eeefad0b036d904414fa27976e16578a2a8d46040256abfa7f0"
+    },
+    "Theorems.Thm_StickyKakeya4_front_parametrization": {
+      "status": "passed",
+      "source_sha256": "6e26782715c8fa467628e21512fe32633a2726d08ee393a7cf6da93a2fd90458"
+    },
+    "Theorems.Thm_StickyKakeya4_front_two_probe_direction_firewall": {
+      "status": "passed",
+      "source_sha256": "ba77c19265079d755f88202a02d8ce77ff6c9e1a09542795b211b1325287f883"
+    },
+    "Theorems.Thm_StickyKakeya4_frostman_mass_distribution": {
+      "status": "passed",
+      "source_sha256": "7fd1f955a2a9e772351dff6567be0eb209977ab0e6b4fc9a61bf35f6f2c7f0d5"
+    },
+    "Theorems.Thm_StickyKakeya4_global_terminal_band": {
+      "status": "passed",
+      "source_sha256": "7facc119e696dba5bcce824c669a77df90bf3ed849c815150199a32ee155d4b4"
+    },
+    "Theorems.Thm_StickyKakeya4_heavy_collision_marked_four_cycle": {
+      "status": "passed",
+      "source_sha256": "3a6040751d74e11dcbe40773a65d37c1cb74ab8163a823aa6bcd8adffb0c6ace"
+    },
+    "Theorems.Thm_StickyKakeya4_hereditary_finite_scale_to_frostman": {
+      "status": "passed",
+      "source_sha256": "e3c10e21748ea7e58aac72c3c2a6a3e0f1ff806d3218338a7d7120aed8b6e8b8"
+    },
+    "Theorems.Thm_StickyKakeya4_law_level_return_budget": {
+      "status": "passed",
+      "source_sha256": "f45e1148b491efe64d88fa121ddf9c62c268bd95cacad987acfbb3c723a81e3b"
+    },
+    "Theorems.Thm_StickyKakeya4_lexicographic_selector": {
+      "status": "passed",
+      "source_sha256": "bdb07f98ba98a4dd2aa593795eec9d8675970eed3e5f5470993ef5610f8607d9"
+    },
+    "Theorems.Thm_StickyKakeya4_lossless_edge_flow_carleson": {
+      "status": "passed",
+      "source_sha256": "e2c7caa0ecd6e73ad07a0db6ae9560cdb5d46441e9a22015784a9d692bdafeff"
+    },
+    "Theorems.Thm_StickyKakeya4_marked_carrier_inverse": {
+      "status": "passed",
+      "source_sha256": "f63e7e89d314bc9e9e3d183615cee15fad019722da5ed1f9beeccf584e4c4f13"
+    },
+    "Theorems.Thm_StickyKakeya4_marked_four_cycle_return_tower": {
+      "status": "passed",
+      "source_sha256": "75abbc7edf4283f5a00efd1943a01713c13fe00f1de779e645eb28014ae97ca0"
+    },
+    "Theorems.Thm_StickyKakeya4_markov_endpoint_preservation": {
+      "status": "passed",
+      "source_sha256": "11858e2c7f300e8cf77e9eeeb11e5bff7cc7112a543e660fbfbc6d8257e9ad95"
+    },
+    "Theorems.Thm_StickyKakeya4_maslov_incidence_equivalence": {
+      "status": "passed",
+      "source_sha256": "b068ad98279cc2c86c930d39262ac50a1164cfbc9a5f945ff61032a4e29404ce"
+    },
+    "Theorems.Thm_StickyKakeya4_measurable_selector_parametrization": {
+      "status": "passed",
+      "source_sha256": "af25f5eb76d021aaef5cbceeb86a4ac7518d8b1f6c8c231c98ffb83af28fe41b"
+    },
+    "Theorems.Thm_StickyKakeya4_measure_edge_flow": {
+      "status": "passed",
+      "source_sha256": "bf8d32ad61b0d66aa3837a8f3cd5d361c47751eb541a4b6a10a8b166d070517d"
+    },
+    "Theorems.Thm_StickyKakeya4_measured_conditioned_boundary_packet": {
+      "status": "passed",
+      "source_sha256": "14243e86bccdde53962d954bda22960cb05f39294ed4482c7edc00b4c227a84f"
+    },
+    "Theorems.Thm_StickyKakeya4_normalized_collision_relation_packet": {
+      "status": "passed",
+      "source_sha256": "5a453527925a58fd5921f858cb75fc03bedb9099cc46923c7766705d52a3cb79"
+    },
+    "Theorems.Thm_StickyKakeya4_north_conditioned_boundary_packet_chain": {
+      "status": "passed",
+      "source_sha256": "1860cdba8023ece6ff679e2bb4328105d01ddfed8577f30e951f6fa2874fef5b"
+    },
+    "Theorems.Thm_StickyKakeya4_north_conditioned_boundary_probe_control": {
+      "status": "passed",
+      "source_sha256": "75b35ad46cce3f4cbb4e4f8300814c3851d1313d1085062bbfff4e14c1824d9d"
+    },
+    "Theorems.Thm_StickyKakeya4_north_graph_contact_coordinates": {
+      "status": "passed",
+      "source_sha256": "95d7a6d0b29ebfd4ce98c5d8483e30960808d5be8209e5c2c9930566e608c1fb"
+    },
+    "Theorems.Thm_StickyKakeya4_old_neighbor_disintegration": {
+      "status": "passed",
+      "source_sha256": "537d1847133d822fa6d0638de3e0ed64dbd2e17d6a4a93b0e4b13560fd3c3db3"
+    },
+    "Theorems.Thm_StickyKakeya4_packing_dimension_lower_bound": {
+      "status": "passed",
+      "source_sha256": "422e9488110520af5a4800a09b3e9b2d239a1954df94d6d50a1ca676d078b081"
+    },
+    "Theorems.Thm_StickyKakeya4_packing_piece_return_budget": {
+      "status": "passed",
+      "source_sha256": "4e69a7ab8976c7169ceb1ac8db0f878ff5a45856c07d726081919e0dd1136a5f"
+    },
+    "Theorems.Thm_StickyKakeya4_packing_piece_two_probe_firewall": {
+      "status": "passed",
+      "source_sha256": "3250e621957ac25c4794c9af80497782eb248e01c463f788d29a9cbb3886ea4e"
+    },
+    "Theorems.Thm_StickyKakeya4_packing_selector_to_finite_scale_sources": {
+      "status": "passed",
+      "source_sha256": "a13707b124a1ebfe09d9981ac571284c4c7cd03d0b50816100b041372a7475f9"
+    },
+    "Theorems.Thm_StickyKakeya4_parametrized_source_return_budget": {
+      "status": "passed",
+      "source_sha256": "6694e2660868cddaab31af287d32d769aa28248237f21b80434e8f8b0dedc289"
+    },
+    "Theorems.Thm_StickyKakeya4_positive_carrier_piece": {
+      "status": "passed",
+      "source_sha256": "8e9c1319d0b7e9f938208d52532eab89a99e234aca8dd5f3a925d4ef5c56ddd5"
+    },
+    "Theorems.Thm_StickyKakeya4_quantitative_conditioned_boundary_packet_chain": {
+      "status": "passed",
+      "source_sha256": "29620c3698de6fd9f5894fe36f2a76878c3e12625ff47917db42eba08bb101ec"
+    },
+    "Theorems.Thm_StickyKakeya4_quantitative_north_return_firewall": {
+      "status": "passed",
+      "source_sha256": "f796c774fb164c0c06a1cb0915bb8281eca2e93a3f14ee6f15a9bf0d2b77ffcf"
+    },
+    "Theorems.Thm_StickyKakeya4_quantitative_return_budget": {
+      "status": "passed",
+      "source_sha256": "d3a1848c9d17f60bf0ae8684e4be3fae4376a482784d2fbf024c920869500bfb"
+    },
+    "Theorems.Thm_StickyKakeya4_raw_collision_support": {
+      "status": "passed",
+      "source_sha256": "7d9229fb3f3a322a24e747ae6956a14375da96987308c512ef8372df708bc8a4"
+    },
+    "Theorems.Thm_StickyKakeya4_residual_collision_bridge": {
+      "status": "passed",
+      "source_sha256": "9ad11f82373ab41883f9602454ac6a757ab8e39d246b2edce9a9828a04271af8"
+    },
+    "Theorems.Thm_StickyKakeya4_retained_cell_return_firewall": {
+      "status": "passed",
+      "source_sha256": "6f7b0ece3a701b72e745af4e747aa079f10b97b8e6ec7d689c3abb0784b8206e"
+    },
+    "Theorems.Thm_StickyKakeya4_retained_parameter_cell_source": {
+      "status": "passed",
+      "source_sha256": "05170899beec23a965604d9ef9f65620078514bc55d89cc13e3e1756a69a08df"
+    },
+    "Theorems.Thm_StickyKakeya4_retained_source_readback": {
+      "status": "passed",
+      "source_sha256": "a95952f5a5868405c96e0b6484faff39c4415a12e6a119ff1d766576d1b369e4"
+    },
+    "Theorems.Thm_StickyKakeya4_selector_carrier_measure": {
+      "status": "passed",
+      "source_sha256": "8403108e44a146389eaaf2e86241e88b68051bb1cddbcc58d16469a280b1d522"
+    },
+    "Theorems.Thm_StickyKakeya4_selector_closure": {
+      "status": "passed",
+      "source_sha256": "9369b4e8dd887587aae295370cde3eb913315aae1c328c3ec2a46c8e01f20c13"
+    },
+    "Theorems.Thm_StickyKakeya4_selector_covering_lower_bound": {
+      "status": "passed",
+      "source_sha256": "4cebaef34921a32a518ccab59be26731a316d07e69c42d30b5539963ed6364cc"
+    },
+    "Theorems.Thm_StickyKakeya4_separated_collision_relation_packet": {
+      "status": "passed",
+      "source_sha256": "c0c5ba45be605bd89f870569ac92c1844213dbf5d421c3c1982bab683eaaa12c"
+    },
+    "Theorems.Thm_StickyKakeya4_source_marked_collision_edges": {
+      "status": "passed",
+      "source_sha256": "735e0970d922bcb789df5137e90ed7b1a522fee824894dd948743aa9f19ab2e2"
+    },
+    "Theorems.Thm_StickyKakeya4_source_point_contact_cycle_routing": {
+      "status": "passed",
+      "source_sha256": "d875346d794e5265426cb91d2f2bf3d463f60bfa888d4e5ecbb62639b7894c78"
+    },
+    "Theorems.Thm_StickyKakeya4_source_point_three_packet_routing": {
+      "status": "passed",
+      "source_sha256": "a21077a3a5490fe221337e1101fdc04f83d111c2d93021b8a9e5c96f1319c746"
+    },
+    "Theorems.Thm_StickyKakeya4_sphere_terminal_band": {
+      "status": "passed",
+      "source_sha256": "c1a35784dca6acd08f31e07d2b2a139d1b16aac1cebc0fac1258f10eecc1489a"
+    },
+    "Theorems.Thm_StickyKakeya4_sticky_kakeya_four_dimensional": {
+      "status": "passed",
+      "source_sha256": "ee2a4e6eee6164fb70bc4ed4d33d940a4e0a8dad1c4e8d3747047e698fb47932"
+    },
+    "Theorems.Thm_StickyKakeya4_three_packet_half_mass": {
+      "status": "passed",
+      "source_sha256": "704090887aa25a5f9e0a85d07352fe41a8683fd5c67a9105e07e01af21156a6d"
+    },
+    "Theorems.Thm_StickyKakeya4_three_packet_return_carleson": {
+      "status": "passed",
+      "source_sha256": "3bce5194f692bdd9e738eae20d1463300596f73bba97987a1349d3b608cd38de"
+    },
+    "Theorems.Thm_StickyKakeya4_three_packet_support": {
+      "status": "passed",
+      "source_sha256": "24b76214a8b6d2636ee117912f726a4d9e7ec665770617489e9a239332921e4f"
+    },
+    "Theorems.Thm_StickyKakeya4_uniform_collision_edge_time": {
+      "status": "passed",
+      "source_sha256": "72164a88507e466e2c158e834e001d833df377146249f0e407c90ed4b6b5b812"
+    },
+    "Theorems.Thm_StickyKakeya4_uniform_marked_source_hereditary_finite_scale": {
+      "status": "passed",
+      "source_sha256": "3befc69aa3c7d6e9dfa38bc3f7e9475fe63cc98bd4b4c2b0b99320f1af0242b3"
+    },
+    "Theorems.Thm_StickyKakeya4_vector_center_boundary_continuation": {
+      "status": "passed",
+      "source_sha256": "48cc00894e4a463cad7fba10b4184e3552abd465d0816de7e141265ee413dd04"
+    },
+    "Theorems.Thm_StickyKakeya4_vector_center_carleson": {
+      "status": "passed",
+      "source_sha256": "566b38ae1201a6835322054a11e577f909b8a6d03510f563083aeaee8b21bf0a"
+    },
+    "Theorems.Thm_StickyKakeya4_wang_zakharov_finite_interface": {
+      "status": "passed",
+      "source_sha256": "a81fa522e75cee3ffcaadf80e1ba9a31a3bba6a61b352177bf458ed3623e5e5e"
+    },
+    "Theorems.Thm_StickyKakeya4_wz_boundary_concentration_packet": {
+      "status": "passed",
+      "source_sha256": "d6bf4fbefadefef02b64e3193671a4167531229beb13d16976436e024d5a8609"
+    },
+    "Theorems.Thm_StickyKakeya4_wz_carrier_pruning": {
+      "status": "passed",
+      "source_sha256": "5e42c51a706794a9c3f98f29df62f10a538a66397dfb5f1a1d22673bf9ed0c04"
+    },
+    "Theorems.Thm_StickyKakeya4_wz_common_slab": {
+      "status": "passed",
+      "source_sha256": "b23516ab6a3199a3ab6ea98ca68d1f182f4b321e5a90492463a10f4c89f91367"
+    },
+    "Theorems.Thm_StickyKakeya4_wz_common_slab_localization": {
+      "status": "passed",
+      "source_sha256": "5c0937d826b22fea820e182386c7fc2562e78e049d9447212a37d2550e79dde8"
+    },
+    "Theorems.Thm_StickyKakeya4_wz_readback_bookkeeping": {
+      "status": "passed",
+      "source_sha256": "a087f2e0b5cfb1b5b876255e6f51a6fc05ec183e4fd91cfd73daa4739becb9bc"
+    }
+  }
+}

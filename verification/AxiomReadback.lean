@@ -1,11 +1,16 @@
 import Theorems.Thm_StickyKakeya4_sticky_kakeya_four_dimensional
 import Theorems.Thm_StickyKakeya4_common_shading_obstruction
+import Theorems.Thm_StickyKakeya4_maslov_incidence_equivalence
+import Theorems.Thm_StickyKakeya4_lossless_edge_flow_carleson
 
 -- Printing a theorem checks its exact binders/conclusion as well as its name.
 #check @StickyKakeya4.sticky_kakeya_four_dimensional
 #check @StickyKakeya4.selector_closure
-#check @StickyKakeya4.HasUniformMarkedSourceEstimate
+#print StickyKakeya4.IsStickyDatum
+#print StickyKakeya4.HasUniformMarkedSourceEstimate
 #print axioms StickyKakeya4.exact_collision_identity
+#print axioms StickyKakeya4.maslov_incidence_equivalence
+#print axioms StickyKakeya4.lossless_edge_flow_carleson
 #print axioms StickyKakeya4.borel_selector_reduction
 #print axioms StickyKakeya4.packing_selector_to_finite_scale_sources
 #print axioms StickyKakeya4.hereditary_finite_scale_to_frostman

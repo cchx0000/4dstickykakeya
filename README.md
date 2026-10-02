@@ -13,16 +13,18 @@ the project axiom
 that dependency by closing the weighted, source-hereditary Carleson branch
 internally.
 
-The latest Prove2Me main target and eight milestones, their dependency graph,
-the uniform finite-scale target, and the remaining no-WZ closure gates are recorded in
-[PROVE2ME_TARGETS.md](PROVE2ME_TARGETS.md).
+The earlier Prove2Me proposal is preserved in
+[PROVE2ME_TARGETS.md](PROVE2ME_TARGETS.md). The source-faithful current targets
+and verified progress are recorded in
+[CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
 ## Source-faithful verification checkpoint (2026-10-02)
 
 The original [Chenxi Cai manuscript](https://cchx0000.github.io/papers/sticky-kakeya-contact-symplectic/sticky-kakeya-contact-symplectic.pdf)
 is the final specification. [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md)
 records the exact correspondence and remaining proof obligations.
-[CURRENT_MILESTONES.md](CURRENT_MILESTONES.md) is the working source-faithful ledger. In particular,
+[CURRENT_MILESTONES.md](CURRENT_MILESTONES.md) is the working source-faithful
+ledger. In particular,
 its occurrence-measure restrictions must not be replaced by arbitrary physical
 shading deletion. The compact marked main theorem is unchanged.
 
@@ -37,10 +39,10 @@ The old-neighbor disintegration, Markov restriction calculus, canonical-sphere
 specialization, and residual collision/Tonelli bridge now have strict readbacks.
 
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
-[verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. A complete
-project build and final-theorem axiom audit are tracked separately from focused
-lemma checks. `scripts/check-axioms.sh` fails when the final proof retains a
-project-specific axiom.
+[verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
+complete 116-module project build now passes. The final-theorem axiom audit
+still fails because the main closure uses the WZ project axiom.
+`scripts/check-axioms.sh` makes that failure explicit.
 
 ## Current formalization
 

@@ -3,10 +3,12 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 lake build Theorems.Thm_StickyKakeya4_sticky_kakeya_four_dimensional \
-  Theorems.Thm_StickyKakeya4_common_shading_obstruction
+  Theorems.Thm_StickyKakeya4_common_shading_obstruction \
+  Theorems.Thm_StickyKakeya4_maslov_incidence_equivalence \
+  Theorems.Thm_StickyKakeya4_lossless_edge_flow_carleson
 log=$(mktemp)
 trap 'rm -f "$log"' EXIT
-lake env lean verification/AxiomReadback.lean | tee "$log"
+lake env lean -DautoImplicit=false verification/AxiomReadback.lean | tee "$log"
 python3 - "$log" <<'PY'
 import pathlib, re, sys
 text = pathlib.Path(sys.argv[1]).read_text()
@@ -14,6 +16,8 @@ allowed = {'propext', 'Classical.choice', 'Quot.sound'}
 reads = re.findall(r"'([^']+)' depends on axioms: \[(.*?)\]", text, re.S)
 expected = {
     'StickyKakeya4.exact_collision_identity',
+    'StickyKakeya4.maslov_incidence_equivalence',
+    'StickyKakeya4.lossless_edge_flow_carleson',
     'StickyKakeya4.borel_selector_reduction',
     'StickyKakeya4.packing_selector_to_finite_scale_sources',
     'StickyKakeya4.hereditary_finite_scale_to_frostman',
