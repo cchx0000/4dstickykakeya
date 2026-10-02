@@ -23,11 +23,13 @@ rare-cycle normalization, or new descendant-density input.
 The local averaging, finite maximal-family helper, and source-only/induced
 cover modules passed strict compilation and all **25** standard-only
 readbacks. With the two-declaration original-data composition below, the
-cumulative count is **871**. The full tracked build
-at `ce848a9` passed all **171** modules and **8,878** Lake jobs, exit 0; see
-[excessive-seed-full-build.log](excessive-seed-full-build.log).
-The subsequent cover and original-data composition modules have dedicated
-strict checks. The two-declaration
+cumulative count is **871**. The latest default build
+at `b03888e` passed all **176** modules and **8,885** Lake jobs, exit 0; see
+[physical-bush-default-build.log](physical-bush-default-build.log).
+This includes all cover and original-data composition modules. The fresh
+[final axiom gate](physical-bush-main-axiom-gate.log) at that same commit
+failed with exit 1, exactly on the two main closures retaining the existing
+WZ project axiom. The two-declaration
 `ActualHalfEdgeBushSeed.sticky_deficit_exists_half_edge_bush_seed` also removes
 the given-root premise: from only the original sticky datum and strict front
 deficit, it constructs source pieces of mass at least `r^(3-eta/8)`, at most
@@ -49,6 +51,20 @@ cumulative count. The mathematical mechanism and its limits are described in
 This is an actual finite linear-old-mass source construction. It does not
 bound the aggregate cross-cap charge of the resulting moving bushes or
 complete the final geometric contradiction.
+
+## Checked limit of the next count-based inference
+
+[DISJOINT_BUSH_COUNT_REUSE_TEST.md](../docs/DISJOINT_BUSH_COUNT_REUSE_TEST.md)
+contains independently audited handwritten deductions. Fixed-time bins permit
+both preserved endpoints to lie in one common physical bush, with a precise
+counting cost. A single fixed binary selector nevertheless meets the improved
+cover data, strong reference packing, exact-collision nullity and hereditary
+residual excess while violating a universal quadratic graph bound. Its actual
+compact front has a supported four-dimensional Frostman escape. Thus the test
+does not contradict the final theorem; it isolates the need for a collective
+quantitative consequence of its actual strict front deficit. The sharp
+two-time persistence bound only reaches a square-root threshold.
+No Lean declaration or final theorem was changed for this note.
 
 ## Complete original-data excessive local graph seed
 

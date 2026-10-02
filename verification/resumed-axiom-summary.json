@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-02T11:49:36.157158+00:00",
-  "previous_checkpoint": "ce848a9ba2eba697eebc7ebac4a6cd93f0e8f263",
+  "generated_at_utc": "2026-10-02T12:33:42.831014+00:00",
+  "previous_checkpoint": "b03888e109b7e45f4b1bdff3fc4b0f13f277f580",
   "previous_checked_declaration_count": 91,
   "total_new_checked_declarations": 871,
   "declarations_per_log": {
@@ -7152,17 +7152,19 @@
   "targeted_lake_build_jobs": 8754,
   "targeted_lake_build_log": "verification/analytic-closure-build.log",
   "full_tracked_build": {
-    "source_commit": "ce848a9ba2eba697eebc7ebac4a6cd93f0e8f263",
-    "module_count": 171,
+    "source_commit": "b03888e109b7e45f4b1bdff3fc4b0f13f277f580",
+    "module_count": 176,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8878,
-    "log": "verification/excessive-seed-full-build.log"
+    "lake_jobs": 8885,
+    "command": "STICKY_BUILD_JOBS=3 ./scripts/build-bounded.sh",
+    "log": "verification/physical-bush-default-build.log",
+    "scope": "Default lake build of all tracked project modules; no untracked Lean drafts were present."
   },
   "latest_main_axiom_gate": {
-    "source_commit": "95e104e5a6f074a0a60fc7932052c28913ae29a6",
+    "source_commit": "b03888e109b7e45f4b1bdff3fc4b0f13f277f580",
     "exit_code": 1,
-    "log": "verification/reference-source-main-axiom-gate.log",
+    "log": "verification/physical-bush-main-axiom-gate.log",
     "remaining_project_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
     "affected_declarations": [
       "StickyKakeya4.selector_closure",

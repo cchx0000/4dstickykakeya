@@ -171,10 +171,24 @@ it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
-tracked build at `ce848a9` passed all **171** committed modules and **8,878** Lake
-jobs; the subsequent physical bush-cover modules have strict checks;
+default build at `b03888e` passed all **176** committed modules and **8,885** Lake
+jobs, including all physical bush-cover and original-data composition modules;
 there are now **871** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the
 two main closure declarations; the unconditional theorem remains incomplete.
+
+## Geometric stress test after the finite source route
+
+The independently audited [count/reuse test](docs/DISJOINT_BUSH_COUNT_REUSE_TEST.md)
+proves a source-faithful fixed-time-bin refinement and its exact counting cost.
+It also constructs one fixed packing-three selector satisfying the new bush
+bounds, null exact collisions, qualitative decay, and hereditary residual
+excess, while its front has a genuine four-dimensional Frostman escape.
+The example does not satisfy the strict dimension-deficit hypothesis and is
+not a counterexample to the main theorem. It shows that those intermediate
+properties, even with two-time persistence, do not by themselves yield the
+aggregate quadratic payment. A collective quantitative use of the actual
+front dimension deficit remains necessary. This note is handwritten, not a
+new kernel-checked declaration.
