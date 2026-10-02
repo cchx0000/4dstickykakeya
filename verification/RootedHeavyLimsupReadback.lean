@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_rooted_heavy_limsup
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.RootedHeavyLimsup.radius_pos
+#print axioms StickyKakeya4.RootedHeavyLimsup.exists_dyadic_enclosure
+#print axioms StickyKakeya4.RootedHeavyLimsup.measure_zero_of_uniform_dyadic_growth
+#print axioms StickyKakeya4.RootedHeavyLimsup.ae_dyadic_heavy_of_dimH_lt
+#print axioms StickyKakeya4.RootedHeavyLimsup.ae_dyadic_heavy_ennreal_of_dimH_lt
+#print axioms StickyKakeya4.RootedHeavyLimsup.sourceFrontMeasure_ball_le_rooted_mass
+#print axioms StickyKakeya4.RootedHeavyLimsup.ae_rooted_heavy_limsup_of_front_dimH_lt
+#print axioms StickyKakeya4.RootedHeavyLimsup.tsum_measure_eq_top_of_ae_recurrent
+#print axioms StickyKakeya4.RootedHeavyLimsup.rooted_heavy_event_mass_tsum_eq_top
+#print axioms StickyKakeya4.RootedHeavyLimsup.exists_rooted_exponent_of_dimH_lt_four
+#print axioms StickyKakeya4.RootedHeavyLimsup.sticky_datum_exists_actual_rooted_heavy_limsup

@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T12:33:42.831014+00:00",
-  "previous_checkpoint": "b03888e109b7e45f4b1bdff3fc4b0f13f277f580",
+  "generated_at_utc": "2026-10-02T13:00:15.202224+00:00",
+  "previous_checkpoint": "d3babc159829620def2a070185c1766656df14a9",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 871,
+  "total_new_checked_declarations": 882,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -63,7 +63,8 @@
     "verification/maximal-disjoint-cover-axioms.log": 4,
     "verification/quantitative-bush-cover-axioms.log": 9,
     "verification/actual-half-edge-bush-seed-axioms.log": 2,
-    "verification/quantitative-bush-resolution-axioms.log": 4
+    "verification/quantitative-bush-resolution-axioms.log": 4,
+    "verification/rooted-heavy-limsup-axioms.log": 11
   },
   "checks": [
     {
@@ -7081,6 +7082,105 @@
         "Quot.sound"
       ],
       "log": "verification/quantitative-bush-resolution-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.radius_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.exists_dyadic_enclosure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.measure_zero_of_uniform_dyadic_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.ae_dyadic_heavy_of_dimH_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.ae_dyadic_heavy_ennreal_of_dimH_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.sourceFrontMeasure_ball_le_rooted_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.ae_rooted_heavy_limsup_of_front_dimH_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.tsum_measure_eq_top_of_ae_recurrent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.rooted_heavy_event_mass_tsum_eq_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.exists_rooted_exponent_of_dimH_lt_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RootedHeavyLimsup.sticky_datum_exists_actual_rooted_heavy_limsup",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rooted-heavy-limsup-axioms.log"
     }
   ],
   "source_sha256": {
@@ -7143,7 +7243,8 @@
     "Theorems/Thm_StickyKakeya4_maximal_disjoint_cover.lean": "3bc4d0f3204329024622c6f9e032df7af8de90ef67ced0f1c7e507f0da044f8e",
     "Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean": "3f839e1c1a563dc368e713b003376ce4459ce0e2b12d61f1bb25bdb62325119a",
     "Theorems/Thm_StickyKakeya4_actual_half_edge_bush_seed.lean": "2051ff9c796708a549bb5045884b77442fe75480ce42d5e31fa4eeeac89170da",
-    "Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.lean": "9910b83636c9d67d0c514d9c7081e2f7fa1534fb7c7f802489eb31abbb2d5268"
+    "Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.lean": "9910b83636c9d67d0c514d9c7081e2f7fa1534fb7c7f802489eb31abbb2d5268",
+    "Theorems/Thm_StickyKakeya4_rooted_heavy_limsup.lean": "54d757d44a55a5115952572cef98f49e7b88666d42d956d187ce45f2c00ab59b"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -7152,14 +7253,17 @@
   "targeted_lake_build_jobs": 8754,
   "targeted_lake_build_log": "verification/analytic-closure-build.log",
   "full_tracked_build": {
-    "source_commit": "b03888e109b7e45f4b1bdff3fc4b0f13f277f580",
-    "module_count": 176,
+    "source_base_commit": "d3babc159829620def2a070185c1766656df14a9",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_rooted_heavy_limsup.lean": "54d757d44a55a5115952572cef98f49e7b88666d42d956d187ce45f2c00ab59b"
+    },
+    "module_count": 177,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8885,
+    "lake_jobs": 8886,
     "command": "STICKY_BUILD_JOBS=3 ./scripts/build-bounded.sh",
-    "log": "verification/physical-bush-default-build.log",
-    "scope": "Default lake build of all tracked project modules; no untracked Lean drafts were present."
+    "log": "verification/rooted-heavy-default-build.log",
+    "scope": "Default lake build of 176 unchanged modules at the base commit plus the specified new rooted_heavy_limsup source; exact source hashes recorded below."
   },
   "latest_main_axiom_gate": {
     "source_commit": "b03888e109b7e45f4b1bdff3fc4b0f13f277f580",
@@ -7171,5 +7275,5 @@
       "StickyKakeya4.sticky_kakeya_four_dimensional"
     ]
   },
-  "resumed_phase_declaration_count": 780
+  "resumed_phase_declaration_count": 791
 }

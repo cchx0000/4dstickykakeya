@@ -48,11 +48,19 @@ first-hit phase localization selects a positive dense block without a
 number-of-cells loss. These constructions remove source and routing input
 premises, but the global weighted transverse charge remains open.
 
+The latest additional checked result derives recurrent heavy bushes for
+almost every original source/time pair directly from strict front dimension
+deficit, with a divergent sum of their source-time masses. This preserves
+continuum time information on one fixed actual source. The aggregate
+root-time charge needed to contradict it is still open; finite collections
+of heavy times cannot replace that information.
+
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
-latest default build, at `b03888e`, passed all **176 tracked project modules**
-and **8,885 Lake jobs**, including the complete finite bush-cover construction.
-The fresh final-theorem axiom gate at the same source commit still fails exactly because the two main
+latest default build passed all **177 project modules** and **8,886 Lake jobs**,
+including the complete finite bush-cover and rooted-recurrence constructions.
+The exact source snapshot is recorded in `verification/rooted-heavy-default-build.log`.
+The final-theorem axiom gate at `b03888e` still fails exactly because the two main
 closure declarations use the preexisting WZ project axiom.
 `scripts/check-axioms.sh` makes that failure explicit. The original final
 statement has not been weakened and no new project axiom has been added.

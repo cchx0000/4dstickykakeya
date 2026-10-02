@@ -1,0 +1,30 @@
+ELAN_HOME=/workspace/shared/lean-tools/elan PATH=$ELAN_HOME/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+lake env lean -DautoImplicit=false verification/RootedHeavyLimsupReadback.lean
+'StickyKakeya4.RootedHeavyLimsup.radius_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.exists_dyadic_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.measure_zero_of_uniform_dyadic_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.ae_dyadic_heavy_of_dimH_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.ae_dyadic_heavy_ennreal_of_dimH_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.sourceFrontMeasure_ball_le_rooted_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.ae_rooted_heavy_limsup_of_front_dimH_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.tsum_measure_eq_top_of_ae_recurrent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.rooted_heavy_event_mass_tsum_eq_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.exists_rooted_exponent_of_dimH_lt_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RootedHeavyLimsup.sticky_datum_exists_actual_rooted_heavy_limsup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+exit 0

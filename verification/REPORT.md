@@ -3,6 +3,37 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual front deficit forces recurrent heavy source-time events
+
+`RootedHeavyLimsup.sticky_datum_exists_actual_rooted_heavy_limsup` starts
+only from the original sticky datum and strict front dimension deficit. It
+constructs one positive finite source dominated by slope Lebesgue measure,
+a common slab of length `3/8`, and `0 < beta < 3`. For product-almost every
+original source/time pair, its actual physical `2r` bush exceeds every fixed
+`C r^beta` coefficient at arbitrarily fine dyadic `r`. The masses of these
+actual source-time events have divergent sum for every finite C.
+
+The proof uses actual finite Hausdorff covers, the literal spacetime
+pushforward, and the already proved time-fibre bound. No slicing theorem,
+new source at each scale, or heavy-event hypothesis is introduced. The
+Borel--Cantelli consequence keeps both source and time measures. All **11**
+new declarations passed strict compilation, dependency-aware Lake build,
+and standard-only axiom readback. The cumulative count is **882**; see
+[rooted-heavy-limsup-build.log](rooted-heavy-limsup-build.log) and
+[rooted-heavy-limsup-axioms.log](rooted-heavy-limsup-axioms.log).
+
+This is a stronger constructed contradiction input, not its geometric
+contradiction. The independently audited handwritten
+[frontier note](../docs/ROOTED_TIME_RECURRENCE_FRONTIER.md) tests why finite-time
+synchronization loses indispensable continuum information and identifies
+the still-unproved collective root-time charge. No new project axiom or
+change to the final theorem is made. The latest complete default build passed
+all **177 modules** and **8,886 jobs**, exit 0. Its exact source snapshot is
+`d3babc1` plus the new module with SHA256
+`54d757d44a55a5115952572cef98f49e7b88666d42d956d187ce45f2c00ab59b`;
+see [rooted-heavy-default-build.log](rooted-heavy-default-build.log).
+All module hashes in `final-status.json` match that checked snapshot.
+
 ## Actual finite routing captures half the original source-edge mass
 
 `exists_quantitative_source_bush_cover` now constructs a finite family of

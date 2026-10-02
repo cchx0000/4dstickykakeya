@@ -65,6 +65,17 @@ probability-source density at most `r^(-eta/8)`, and a fixed bounded chart.
 The original front deficit persists on each fixed affine image. The geometric
 contradiction from that actual seed remains unproved.
 
+The strict front deficit now also forces a stronger recurrent input on one
+fixed original source. For some `0 < beta < 3`, almost every original
+source/time pair has a physical `2r` bush heavier than every fixed
+`C r^beta` at arbitrarily small dyadic radii. The sum of the actual
+source-times-Lebesgue-time measures of these heavy events diverges. Both
+conclusions are derived from the actual front dimension deficit, not assumed
+as a slicing or density input. The final endpoint constructs the positive
+source and its common slab from the original sticky datum. Eleven strict
+standard-only readbacks certify `rooted_heavy_limsup`; this new module has a
+dedicated dependency-aware build and the full 177-module default build.
+
 ## 5. Finite occurrence-flow conservation
 
 The scalar forest ledger is compiled. The new measure-valued ledger is compiled
@@ -171,9 +182,9 @@ it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
-default build at `b03888e` passed all **176** committed modules and **8,885** Lake
-jobs, including all physical bush-cover and original-data composition modules;
-there are now **871** checked new declarations with only standard logical
+default build passed all **177** project modules and **8,886** Lake jobs,
+including the rooted recurrence and all physical bush-cover modules;
+there are now **882** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the
@@ -192,3 +203,10 @@ properties, even with two-time persistence, do not by themselves yield the
 aggregate quadratic payment. A collective quantitative use of the actual
 front dimension deficit remains necessary. This note is handwritten, not a
 new kernel-checked declaration.
+
+The [rooted-time frontier audit](docs/ROOTED_TIME_RECURRENCE_FRONTIER.md)
+explains why this continuum recurrence cannot be replaced by finitely many
+heavy times, even a growing subpower-separated set. Its conditional fixed-q
+near-time charge cites the original manuscript's external Guth--Wang--Zahl
+three-dimensional shaded theorem, which is not formalized in this project.
+The full coupled-selector root-time charge remains unproved.
