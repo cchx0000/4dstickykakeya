@@ -1,6 +1,15 @@
 # Prove2Me proof structure and targets
 
-This file is the proof contract for the formalization. It follows the latest
+> **Source-of-truth update (2026-10-02):** The user has designated the original
+> manuscript as the final standard. See [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md)
+> for exact source references and the current correspondence audit. In particular,
+> the arbitrary-shading estimate in milestone 6 below is an overstrong repository
+> translation, not a theorem statement found in the paper. The paper's precise
+> hereditary object is a marked edge-occurrence measure, and its main closure
+> uses a relative residual/Frostman alternative. The historical proposal below
+> is retained visibly for comparison, not silently treated as the source theorem.
+
+This file records the earlier proof contract proposed for the formalization. It follows the latest
 Prove2Me proposal: one main theorem and eight milestones, together with the
 stronger internal interfaces needed to make them form one unconditional chain.
 

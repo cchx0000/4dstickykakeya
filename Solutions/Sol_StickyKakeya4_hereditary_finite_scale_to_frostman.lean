@@ -1,6 +1,7 @@
 import Definitions.Def_sticky_kakeya4_core
 
 open MeasureTheory Set
+
 open StickyKakeya4
 
 theorem solution
@@ -9,12 +10,13 @@ theorem solution
     (hvalid : ∀ line ∈ selector, IsValidLine line)
     (hselector : IsDirectionSelector selector)
     (hpacking : packingDim (lineCarrier selector) = 3)
-    (hsources : HasCoherentFiniteScaleSources selector)
+    (hsources : HasCoherentFiniteScaleSources selector selector)
     (huniform : HasUniformMarkedSourceEstimate selector) :
     HasFrontFrostmanMeasures selector := by
   intro ε hε hε4
+  have hεsource : 0 < ε / 10 := by linarith
   obtain ⟨Cpack, hCpack0, hCpackTop, μ, hμprob, hμsupport,
-      δs, hδs, hsourcesδ⟩ := hsources ε hε
+      δs, hδs, hsourcesδ⟩ := hsources (ε / 10) hεsource
   obtain ⟨A, hA0, hATop, δu, hδu, huniformδ⟩ :=
     huniform ε hε Cpack hCpack0 hCpackTop
   let δ₀ : ℝ := min δs (min δu (1 / 3 : ℝ))
@@ -55,7 +57,7 @@ theorem solution
         rw [hDδ]
         exact le_trans hrsmall hδ₀u
       have hRmass :=
-        (huniformδ n D R hDδu hDselector hDadmissible hRrestriction).2
+        huniformδ n D R hDδu hDselector hDadmissible hRrestriction
       have htwo_three : 2 * r < 3 * r := by nlinarith
       have hvolume :
           volume (sourceUnion R) ≤

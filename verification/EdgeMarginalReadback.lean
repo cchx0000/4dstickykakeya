@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_edge_marginal_obstruction
+#print StickyKakeya4.EdgeMarginalObstruction.marginal_product_bound_fails
+#print axioms StickyKakeya4.EdgeMarginalObstruction.baseWeight_probability
+#print axioms StickyKakeya4.EdgeMarginalObstruction.edgeDensity_le_one
+#print axioms StickyKakeya4.EdgeMarginalObstruction.masses
+#print axioms StickyKakeya4.EdgeMarginalObstruction.marginal_product_bound_fails

@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_common_shading_obstruction
+#print StickyKakeya4.commonShading_union_bound_iff
+#print StickyKakeya4.commonShading_energy_bound_iff
+#print axioms StickyKakeya4.commonShadingRestriction_isFractional
+#print axioms StickyKakeya4.sourceFunction_commonShadingRestriction
+#print axioms StickyKakeya4.sourceMass_commonShadingRestriction
+#print axioms StickyKakeya4.sourceUnion_commonShadingRestriction
+#print axioms StickyKakeya4.sourceEnergy_commonShadingRestriction
+#print axioms StickyKakeya4.commonShading_union_bound_iff
+#print axioms StickyKakeya4.commonShading_energy_bound_iff
