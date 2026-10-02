@@ -72,7 +72,10 @@ measure-valued separation/retention bounds while inherited labels stay intact.
 Positive-event conditional kernels now preserve the full old occurrence on
 the positive-success base. Positive hereditary source cuts admit exact
 countable exhaustion and arbitrary finite-tail truncation without a uniform
-retained fraction. These are constructed measure operations; actual geometric
+retained fraction. A qualitative two-stage reversal lemma now derives the
+whole-support cap from actual pair domination, retains a finite majority of
+selector support, and excludes a second excessive support-growth reversal.
+These are constructed measure operations; actual geometric
 success and quantitative paid/cross estimates remain separate.
 Their global geometric use still requires the designated-flag comparison and
 root-weighted summation/termination, as explained in the two new research notes.

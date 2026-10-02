@@ -3,6 +3,22 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Verified whole-support reversal checkpoint
+
+`QualitativeUnionGrowthTermination` adds 23 standard-only readbacks. It derives
+source/target support containment from actual dominated/reversed pair laws,
+exhausts the whole positive-density source support, chooses a finite cover of
+more than half its selector mass, and proves the two-stage support-growth
+contradiction. This is a qualitative internal termination result, not a global
+paid or cross-cap estimate. It does not substitute a small edge-mass tail for
+large selector-support coverage.
+
+The full tracked build of `ba379c5` passed for all **133** committed modules,
+8,840 Lake jobs, exit 0. Evidence:
+[vector-checkpoint-full-build.log](vector-checkpoint-full-build.log).
+The subsequent qualitative module has its own strict source/readback checks.
+There are now **333** checked new declaration readbacks, all standard-only.
+
 ## Full vector-family and growth/star checkpoint
 
 The full original Theorem 8.11 analytic escape is now checked in its literal

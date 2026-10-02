@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-10-02T06:32:29.349104+00:00",
-  "previous_checkpoint": "ab04b55d31b0f0104e3abf797614f6d68e2f6ece",
-  "new_declaration_count_since_full_build": 219,
+  "generated_at_utc": "2026-10-02T06:47:37.687369+00:00",
+  "previous_checkpoint": "ba379c575e8d1bef15e57037bd76172ef2a14f20",
+  "new_declaration_count_since_full_build": 242,
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 310,
+  "total_new_checked_declarations": 333,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -21,7 +21,8 @@
     "verification/four-distinct-sources-axioms.log": 23,
     "verification/weighted-growth-star-axioms.log": 12,
     "verification/vector-bush-frostman-axioms.log": 13,
-    "verification/vector-bush-escape-axioms.log": 4
+    "verification/vector-bush-escape-axioms.log": 4,
+    "verification/qualitative-union-growth-termination-axioms.log": 23
   },
   "checks": [
     {
@@ -1994,6 +1995,213 @@
         "Quot.sound"
       ],
       "log": "verification/positive-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.densitySupport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.density_support_sdiff_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.density_support_ae_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.density_support_measure_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.density_support_real_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.submeasure_density_support_sdiff_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.withDensity_compl_densitySupport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.submeasure_endpoint_density_support_sdiff_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.reversal_source_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.reversal_target_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.reversed_labeled_source_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.reversed_labeled_submeasure_target_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.reversed_labeled_target_support_sdiff_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.reversed_labeled_target_support_real_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.source_density_support_restrict_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.source_cut_trim_to_density_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.exhaustive_source_partition_selector_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.finite_selector_cover_gt_half",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.two_growths_impossible_of_support_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.no_two_whole_support_growths",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.finiteSelectorSupport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.finite_exhaustive_reversal_blocks_second_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.QualitativeUnionGrowthTermination.positive_routing_forces_qualitative_termination",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/qualitative-union-growth-termination-axioms.log"
     }
   ],
   "source_sha256": {
@@ -2013,7 +2221,8 @@
     "Theorems/Thm_StickyKakeya4_four_distinct_sources.lean": "e535812ca0320cc0cdadd3e56a5d82c28223a7b7cf7e6c90cca7b973bb71b223",
     "Theorems/Thm_StickyKakeya4_weighted_growth_star_split.lean": "f6f14b395903e6a96f1592cd7217c662b5b98e53f7140902c35f36311f5217c8",
     "Theorems/Thm_StickyKakeya4_vector_bush_frostman.lean": "7a7c32324c94530e1d5e793a97f9033cd3d2ceef6e668be6f53a8d1cb9292ad8",
-    "Theorems/Thm_StickyKakeya4_vector_bush_escape.lean": "3eb6762b099245825becce7fdd2f21d7bef291bb8ab55bec269cedb29eac3cd2"
+    "Theorems/Thm_StickyKakeya4_vector_bush_escape.lean": "3eb6762b099245825becce7fdd2f21d7bef291bb8ab55bec269cedb29eac3cd2",
+    "Theorems/Thm_StickyKakeya4_qualitative_union_growth_termination.lean": "35b7c4269dd22759c13ab6741ca15b39c2df6c22ae5e6457c3e4b7bdc99f0668"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -2022,12 +2231,12 @@
   "targeted_lake_build_jobs": 8754,
   "targeted_lake_build_log": "verification/analytic-closure-build.log",
   "full_tracked_build": {
-    "source_commit": "9c24070dcf80414987d2aad49e1ec2611fbb1f65",
-    "module_count": 124,
+    "source_commit": "ba379c575e8d1bef15e57037bd76172ef2a14f20",
+    "module_count": 133,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8831,
-    "log": "verification/tracked-closure-build.log"
+    "lake_jobs": 8840,
+    "log": "verification/vector-checkpoint-full-build.log"
   },
   "latest_main_axiom_gate": {
     "status": "failed_existing_WZ_axiom",

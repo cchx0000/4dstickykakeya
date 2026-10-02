@@ -160,3 +160,26 @@ bushes and total masses tending to zero. It does not assume a fixed positive
 mass in any individual bush. The unresolved geometric task is to obtain the
 synchronized vector condition or route its coherent hairbrush failure with
 all inherited old errors and weights intact.
+
+## Conditioning and stationary-star density guardrail
+
+Lossless conditioning of a positive fresh-label event preserves the inherited
+occurrence marginal and genuine support, but can multiply fresh witness density
+by `1/q(success)`. Numerical estimates for the unconditioned cycle/product law
+must therefore be reproved or charged after that conditioning. Qualitative
+incidence conclusions alone do not preserve a quantitative paid estimate.
+
+On a comparable source layer, sampling the actual aggregate target-conditional
+law `p_i=e_i/(sum_j e_j)` has an advantage over the auxiliary law proportional
+to `e_i/q_i`: each fresh whole-occurrence marginal is exactly the aggregate old
+law **before cuts**. At normalized multiplicity at least 24 its maximal index
+atom is at most `2/N`, giving at least one-half probability of four distinct
+indices. A later distinctness cut or conditioning does not automatically retain
+that fresh-marginal stationarity; the inherited marginal and the fresh marginals
+must be audited separately.
+
+Uniformly choosing the next distinguished coordinate before a geometric cut
+also preserves the unconditional old law by exchangeability. Its successful
+output is an old-law submeasure. Repeating on unused old submeasures is a
+possible way to avoid amplifying rare witness densities, but a fractional
+submeasure exhaustion and all paid estimates must be justified explicitly.
