@@ -333,3 +333,79 @@ transverse intersection tubes or to charge it directly. It must keep the
 original edge/occurrence weights and distinguish support entropy from the
 mass of a newly normalized restriction. This note proves no such
 no-Frostman implication and imposes no extra assumption on the final theorem.
+
+## 7. Audit of the proposed planar-fiber alternative
+
+A different proposed use of transverse packets is to obtain planar Kakeya
+slices, rather than a small direction union. The radial example supports that
+idea in its special geometry: after fixing u, both a and b lie on R u, and
+the associated physical lines lie in the two-plane R u times R_s. The label
+u has two parameters. The following observations identify the first missing
+steps in transferring this idea to the manuscript. They do not rule out a
+future slicing argument.
+
+With unit normals n_1,n_2, write the two affine phase packets as
+
+    n_i dot a = c_i^a,       n_i dot b = c_i^b,       i=1,2,
+
+up to errors t_i, and assume |n_1 cross n_2| >= theta > 0. Their exact affine
+intersection is
+
+    (a_0,b_0) + (ell plus ell),       ell=span(n_1 cross n_2).
+
+The two independent normal equations in each factor always have a solution.
+The right inverse of their two-row normal matrix has norm O(theta^(-1)).
+Consequently simultaneous membership in the packet tubes, or membership up
+to a common graph-cell error r, gives only
+
+    dist(z, (a_0,b_0)+(ell plus ell))
+      <= C (t_1+t_2+r)/theta.
+
+This is an elementary valid geometric estimate. In the actual fixed-coarse /
+all-fine old/new comparison, t_1 is the frozen old packet width. Letting the
+new error and t_2 tend to zero therefore does not produce an exact affine
+fiber. The v053 common-cell offset lemmas and v078 old/new comparison retain
+this old-width term; they do not synchronize exact affine centers across
+scales.
+
+Recentring the two planes through each individual physical endpoint removes
+the error only pointwise. It can make the affine label encode the entire
+source, leaving no non-atomic one-dimensional direction fiber. For example,
+on a direction cube take the smooth graph
+
+    b(a)=(a_3,0,0),       n_1=e_1,       n_2=e_2.
+
+Recenter the two phase planes through z_a. Their affine-intersection label is
+
+    (c_1^a,c_2^a,c_1^b,c_2^b)=(a_1,a_2,a_3,0).
+
+The label is injective. Every conditional source fiber is a singleton,
+although the normals are fixed and transverse, every phase intersection has
+direction span(e_3) plus span(e_3), and all labels are exact and stable. This
+example tests the recentering inference only; it is not asserted to be the
+manuscript's genuine retained rank-loss packet law. In the radial-cubic
+example the additional identity b(a) parallel to a is exactly what removes
+this extra label coordinate and leaves the two-parameter quotient u.
+
+The later source persistence statements do not fill this gap:
+
+- `cor:v081-endpoint-measure-label-dichotomy` compactifies separately
+  normalized occurrence laws. Weak convergence there does not by itself
+  establish domination by the original source or establish non-atomic conditional
+  line fibers
+- `lem:v081-nested-probe-reeb-orbit` assumes source direction caps shrink to
+  zero and concludes one limiting physical line. That is point convergence,
+  rather than a positive one-dimensional family inside a planar slice
+- `cor:v081-nested-label-symplectic-reduction` routes the same-vertex
+  transverse alternative through the already-claimed paid statement. Using
+  that route to establish the missing slicing exit would reuse the disputed
+  transverse payment
+
+For this proposed exact-planar-fiber route, the first source-exact missing
+deduction is still geometric: the actual non-Frostman, non-bush packet law
+must improve frozen thick constraints to
+scale-compatible vanishing-error affine data without collapsing the
+conditional source direction distribution to points. Neither the existing
+support count nor label compactness proves this. No such consequence of
+no-Frostman is derived here, and no slicing premise is added to the final
+Sticky Kakeya statement.

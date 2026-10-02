@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_actual_shell_graph
+set_option autoImplicit false
+#print axioms StickyKakeya4.ActualShellGraph.shellGraphWeight
+#print axioms StickyKakeya4.ActualShellGraph.measurable_shellGraphWeight
+#print axioms StickyKakeya4.ActualShellGraph.shellGraphWeight_le_one
+#print axioms StickyKakeya4.ActualShellGraph.shellGraphWeight_ne_zero_support
+#print axioms StickyKakeya4.ActualShellGraph.shellGraphWeight_ne_zero_iff
+#print axioms StickyKakeya4.ActualShellGraph.graphMeasure_mass_eq_angularShellContent_of_ae_mem
+#print axioms StickyKakeya4.ActualShellGraph.graphMeasure_mass_eq_angularShellContent
+#print axioms StickyKakeya4.ActualShellGraph.actual_secant_eq
+#print axioms StickyKakeya4.ActualShellGraph.actual_collisionTime_eq
+#print axioms StickyKakeya4.ActualShellGraph.actual_collisionResidual_eq
+#print axioms StickyKakeya4.ActualShellGraph.actual_contact_at_time_eq
+#print axioms StickyKakeya4.ActualShellGraph.actual_shellGraphWeight_carrier_dist_le

@@ -51,7 +51,11 @@ pointwise common slab, occupied lower-mass nets, and uniform vertical counts
 `A tau^(-zeta)`. Live subfamilies preserve the upper support counts for every
 later subset. No later graph-mass denominator is used, and no lower mass for
 arbitrary descendants is asserted. See
-[the reference-source guide](docs/PACKING_REFERENCE_SOURCE.md).
+[the reference-source guide](docs/PACKING_REFERENCE_SOURCE.md). The same original
+source now supplies every positive literal angular-shell graph and a genuine
+localized dense block, with derived cubic normalized density cost
+`O(tau^(-zeta))`; no cover or proximity certificate is assumed in that
+original-data endpoint.
 
 ## 5. Finite occurrence-flow conservation
 
@@ -151,8 +155,8 @@ it does not complete the requested internal proof.
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
 tracked build at `95e104e5` passed all **163** committed modules and **8,870** Lake
-jobs; the subsequent constructed localization module has strict checks;
-there are now **755** checked new declarations with only standard logical
+jobs; the subsequent constructed and actual-source localization modules have strict checks;
+there are now **780** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the

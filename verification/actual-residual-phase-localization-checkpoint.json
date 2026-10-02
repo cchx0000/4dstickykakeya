@@ -1,0 +1,29 @@
+{
+  "modules": [
+    {
+      "source": "Theorems/Thm_StickyKakeya4_actual_shell_graph.lean",
+      "public_declarations": 12,
+      "source_sha256": "785261d9047c0cc7b0b4b094e632f94282289f3559e33f256c96162d2beadca9",
+      "readback": "verification/ActualShellGraphReadback.lean",
+      "strict_log": "verification/actual-shell-graph-strict.log",
+      "axiom_log": "verification/actual-shell-graph-axioms.log",
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true
+    },
+    {
+      "source": "Theorems/Thm_StickyKakeya4_actual_residual_phase_localization.lean",
+      "public_declarations": 13,
+      "source_sha256": "eb18be867ad176872ebbddf8cba8967e9e914af6ba625b9e3d945e98d286a0f6",
+      "readback": "verification/ActualResidualPhaseLocalizationReadback.lean",
+      "strict_log": "verification/actual-residual-phase-localization-strict.log",
+      "axiom_log": "verification/actual-residual-phase-localization-axioms.log",
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true
+    }
+  ],
+  "total_public_declarations": 25,
+  "entrypoint": "StickyKakeya4.ActualResidualPhaseLocalization.sticky_datum_exists_uniform_actual_shell_localization",
+  "scope": "Actual original-source angular-shell phase localization, density selection, and normalized cubic slope-ball cost. No final Kakeya, paid root-fiber estimate, or moving-blowup Frostman support transfer claimed."
+}

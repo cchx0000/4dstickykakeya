@@ -38,15 +38,25 @@ nodewise conservation and connects it to the global quadratic bound.
 The old-neighbor disintegration, Markov restriction calculus, canonical-sphere
 specialization, and residual collision/Tonelli bridge now have strict readbacks.
 
+Recent checked geometry now also includes actual bounded-density slope
+sources, exact-contact nullity and full weighted residual decay under the
+no-Frostman hypothesis, dimension-deficit residual excess, and constructed
+Hausdorff-cover routing. The original packing hypothesis supplies a fixed
+positive literal source with hereditary vertical support counts; angular
+shell extraction and original-carrier proximity are proved as well. A
+first-hit phase localization selects a positive dense block without a
+number-of-cells loss. These constructions remove source and routing input
+premises, but the global weighted transverse charge remains open.
+
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
-last complete 116-module project build passed. Later analytical additions have
-targeted strict checks: an actual positive bounded-density source plus the
-original residual power estimate now yields supported four-dimensional
-Frostman closure through finite spacetime energy. The source is constructed;
-the geometric residual estimate remains open. The final-theorem axiom audit
-still fails because the main closure uses the WZ project axiom.
-`scripts/check-axioms.sh` makes that failure explicit.
+last complete build, at `95e104e5`, passed all **163 tracked project modules**
+and **8,870 Lake jobs**. Subsequent modules have dedicated strict checks.
+The fresh final-theorem axiom gate still fails exactly because the two main
+closure declarations use the preexisting WZ project axiom.
+`scripts/check-axioms.sh` makes that failure explicit. The original final
+statement has not been weakened and no new project axiom has been added.
+
 
 ## Current formalization
 

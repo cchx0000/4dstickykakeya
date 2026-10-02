@@ -3,6 +3,36 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual-source localization without cover or density certificates
+
+`ActualResidualPhaseLocalization.sticky_datum_exists_uniform_actual_shell_localization`
+starts only from the original `IsStickyDatum` and a positive fixed slack.
+The positive literal source `volume|B`, original carrier map and nets are
+chosen before every later bounded old-time window and positive residual
+shell. The literal graph has weight at most one and mass exactly
+`tau * Z_shell`; it retains both original cutoffs, closest time and residual.
+
+The constructor chooses a comparable dyadic radius, derives actual carrier
+proximity, and applies the first-hit construction. It supplies a positive
+block whose normalized graph mass is at least
+`Z_shell/(C K sigma(univ) tau^2)`. Its cubic normalized slope-ball density
+has coefficient at most a fixed constant times `tau^(-zeta)`, derived from
+the occupied reference-ball mass. There is no cell-count factor or
+balanced-source-cell premise. The final hypotheses do not include a cover,
+proximity certificate, or density certificate.
+
+Both modules passed strict compilation and all **25** declaration readbacks
+with standard logical axioms only; the cumulative count is **780**. See
+[actual-residual-phase-localization-checkpoint.json](actual-residual-phase-localization-checkpoint.json).
+The fixed affine rescaling of the resulting physical graph is separate work.
+The transverse/root-weighted payment remains open.
+
+The reviewed reuse note now also records why the proposed planar-slicing
+replacement is not yet supplied by the manuscript: fixed old packet widths
+leave thick intersections, and pointwise recentering need not give
+non-atomic conditional fibers. This is a precise boundary of that attempted
+route, not a claim that all slicing approaches fail.
+
 ## Constructed phase localization and 163-module build
 
 `ResidualPhaseLocalization` constructs first-hit measurable source cells from

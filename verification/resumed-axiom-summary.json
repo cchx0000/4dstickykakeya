@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T10:22:45.505035+00:00",
-  "previous_checkpoint": "95e104e5a6f074a0a60fc7932052c28913ae29a6",
+  "generated_at_utc": "2026-10-02T10:36:17.121645+00:00",
+  "previous_checkpoint": "8f8e7976eae4894d3193f47332c773157f08f179",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 755,
+  "total_new_checked_declarations": 780,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -51,7 +51,9 @@
     "verification/angular-residual-shell-readback.log": 10,
     "verification/residual-carrier-proximity-axioms.log": 4,
     "verification/angular-residual-excess-readback.log": 6,
-    "verification/residual-phase-localization-axioms.log": 40
+    "verification/residual-phase-localization-axioms.log": 40,
+    "verification/actual-shell-graph-axioms.log": 12,
+    "verification/actual-residual-phase-localization-axioms.log": 13
   },
   "checks": [
     {
@@ -6025,6 +6027,231 @@
         "Quot.sound"
       ],
       "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.shellGraphWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.measurable_shellGraphWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.shellGraphWeight_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.shellGraphWeight_ne_zero_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.shellGraphWeight_ne_zero_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.graphMeasure_mass_eq_angularShellContent_of_ae_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.graphMeasure_mass_eq_angularShellContent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.actual_secant_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.actual_collisionTime_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.actual_collisionResidual_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.actual_contact_at_time_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualShellGraph.actual_shellGraphWeight_carrier_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-shell-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.exists_comparable_dyadic_radius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.indexedCenters",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.indexedCenters_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.indexedCenters_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.indexedCenters_cover_ae",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.actual_phase_ball_mass_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.actual_phaseBlock_mass_toReal_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.reference_lower_mass_le_phaseBlock",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.angular_scale_cubic_normalization_cost",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.angular_scale_localized_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.normalized_restriction_scaled_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.localize_actual_shell_in_reference_nets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualPhaseLocalization.sticky_datum_exists_uniform_actual_shell_localization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-phase-localization-axioms.log"
     }
   ],
   "source_sha256": {
@@ -6075,7 +6302,9 @@
     "Theorems/Thm_StickyKakeya4_angular_residual_shell.lean": "c6bf461f35616d82052a2a8c55d33948e920e105cbee2e6171df2ee934c88214",
     "Theorems/Thm_StickyKakeya4_residual_carrier_proximity.lean": "9ba941732e530de601633c36931f2cae5cdcc7a2eaae711a2448345369026941",
     "Theorems/Thm_StickyKakeya4_angular_residual_excess.lean": "3b05affed2aba51f93c3a89a9bc0faa1eeebdb0e0f16983f9719778cbf39f587",
-    "Theorems/Thm_StickyKakeya4_residual_phase_localization.lean": "ca620be2df688715516dd07f969f1e03b5707d2d1c9948b68bd98fa814710efc"
+    "Theorems/Thm_StickyKakeya4_residual_phase_localization.lean": "ca620be2df688715516dd07f969f1e03b5707d2d1c9948b68bd98fa814710efc",
+    "Theorems/Thm_StickyKakeya4_actual_shell_graph.lean": "785261d9047c0cc7b0b4b094e632f94282289f3559e33f256c96162d2beadca9",
+    "Theorems/Thm_StickyKakeya4_actual_residual_phase_localization.lean": "eb18be867ad176872ebbddf8cba8967e9e914af6ba625b9e3d945e98d286a0f6"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -6101,5 +6330,5 @@
       "StickyKakeya4.sticky_kakeya_four_dimensional"
     ]
   },
-  "resumed_phase_declaration_count": 664
+  "resumed_phase_declaration_count": 689
 }
