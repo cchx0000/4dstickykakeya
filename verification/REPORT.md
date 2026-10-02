@@ -3,6 +3,36 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Quantitative residual-excess seed and integrated cover functional
+
+`NoFrostmanResidualExcess` now derives an arbitrarily fine excessive residual
+scale from an actual strict dimension deficit on the literal compact front.
+For a fixed positive supported source, every finite coefficient `C` and every
+scale ceiling `rho_0` admit `0 < rho < min(rho_0,1)` with
+`C rho^(2-eta) < Z_rho`, for an exponent gap supplied by `dimH < 4`.
+The same full inverse-secant residual content also tends to zero. The proof
+uses its finite inverse-secant envelope to extend any hypothetical eventual
+power bound, then contradicts the checked energy-to-dimension implication.
+No excessive graph is supplied as an input.
+
+`CoverRoutedResidualBound` integrates the actual Hausdorff constructor and
+packet-free geometry. It pulls source properties through genuine endpoint
+domination, pushes each unchanged-occurrence branch through the old endpoint
+map, and sums the resulting bounds. Its final output contains the real low
+q-cost cover, exact routing, physical support, and
+
+    Gamma(univ) <= sum_i (8 R_i/L) * 81 C_3 ((2 R_i+r_0)/(L/8))^2 * sigma(univ).
+
+The q-cost remains separate from this cubic functional; no unsupported
+comparison or quadratic root-scale payment is asserted.
+
+These 11 public declarations passed strict compilation and axiom readback.
+The cumulative count is **637**, standard-only or axiom-free. The preceding
+full tracked build at `5af3ed9` passed all **149** committed modules and
+**8,856** Lake jobs, exit 0; see
+[no-frostman-routing-full-build.log](no-frostman-routing-full-build.log).
+The two subsequent modules have dedicated strict checks.
+
 ## Full residual decay and constructed separated routing checkpoint
 
 The actual no-Frostman consequence now includes the **full**

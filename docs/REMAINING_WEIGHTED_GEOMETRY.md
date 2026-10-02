@@ -231,7 +231,7 @@ The exact-collision-null, full weighted-residual vanishing, packet-free local
 bound with constant 81, and actual finite Hausdorff-cover routing below now
 have dedicated strict Lean builds and axiom readbacks. The full residual
 limit retains the inverse-secant factor and has no angular cutoff. The
-combined global cover-functional estimate is being integrated separately.
+combined global cover-functional estimate is now strictly checked as well.
 
 First, failure of the front Frostman conclusion makes every positive-source
 exact bush impossible. In fact the exact-collision pair set has zero product
@@ -308,3 +308,12 @@ The minimal unresolved theorem is therefore a genuine root-weighted
 transverse/horizontal charge bound (or a valid Frostman alternative) for
 these actual conditional completion laws. It cannot be replaced by success
 positivity, an assumed capacity field, or a bound before normalization.
+
+
+A further checked consequence of a strict front dimension deficit is
+arbitrarily fine full residual excess: for one positive supported source and
+some eta>0, no finite coefficient bounds Z_rho/rho^(2-eta) on any sufficiently
+small interval of radii. This is derived from the actual supported-energy
+criterion and a finite inverse-secant envelope. It supplies the excessive
+scale seed but does not by itself select a fixed-angle shell or pay a
+normalized completion law.

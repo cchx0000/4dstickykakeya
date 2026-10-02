@@ -1,0 +1,61 @@
+Command: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache lake env lean -DautoImplicit=false verification/CoverRoutedResidualBoundReadback.lean
+
+'StickyKakeya4.CoverRoutedResidualBound.directionBallConstant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CoverRoutedResidualBound.ae_source_of_endpoint_dom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CoverRoutedResidualBound.direction_ball_density_of_le_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CoverRoutedResidualBound.occurrence_le_scaled_packet_free_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CoverRoutedResidualBound.exists_original_front_cover_residual_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.CoverRoutedResidualBound.exists_original_front_cover_residual_bound.{u_1} {Ω : Type u_1}
+  [MeasurableSpace Ω] (σ : MeasureTheory.Measure StickyKakeya4.E3) [MeasureTheory.IsFiniteMeasure σ]
+  (hσ : σ ≤ MeasureTheory.volume) (hunit : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) (Γ : MeasureTheory.Measure Ω)
+  (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (hendpoint : Measurable endpoint)
+  (hdom : MeasureTheory.Measure.map endpoint Γ ≤ σ.prod σ) (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b)
+  (oldTime : Ω → ℝ) (ht : Measurable oldTime) {u v : ℝ} (huv : u < v) (ambient : Set StickyKakeya4.MarkedLine)
+  (hcompact : IsCompact ambient)
+  (hfront :
+    ∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+      ∀ s ∈ Set.Icc u v, StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient)
+  {r₀ : ℝ} (hr₀ : 0 < r₀)
+  (hcontact : ∀ᵐ (ω : Ω) ∂Γ, ‖b (endpoint ω).1 - b (endpoint ω).2 + oldTime ω • ((endpoint ω).1 - (endpoint ω).2)‖ ≤ r₀)
+  {q : NNReal} (hdim : dimH (StickyKakeya4.unitFront ambient) < ↑q) {rho epsilon : ℝ} (hrho : 0 < rho)
+  (hepsilon : 0 < epsilon) :
+  ∃ n center radius,
+    StickyKakeya4.unitFront ambient ⊆ ⋃ i, Metric.ball (center i) (radius i) ∧
+      (∀ (i : Fin n), 0 < radius i ∧ radius i < rho ∧ radius i < (v - u) / 8) ∧
+        ∑ i, radius i ^ ↑q < epsilon ∧
+          MeasureTheory.Measure.sum
+                (StickyKakeya4.HausdorffBushRouting.ballBranch Γ (fun ω => (endpoint ω).1) (fun ω => b (endpoint ω).1)
+                  oldTime u v center radius) =
+              Γ ∧
+            (∀ (i : Fin n),
+                StickyKakeya4.HausdorffBushRouting.ballBranch Γ (fun ω => (endpoint ω).1) (fun ω => b (endpoint ω).1)
+                      oldTime u v center radius i ≤
+                    Γ ∧
+                  StickyKakeya4.HausdorffBushRouting.ballBranch Γ (fun ω => (endpoint ω).1) (fun ω => b (endpoint ω).1)
+                        oldTime u v center radius i ≤
+                      ENNReal.ofReal (8 * radius i / (v - u)) • Γ ∧
+                    ∀ᵐ (ω :
+                      Ω) ∂StickyKakeya4.HausdorffBushRouting.ballBranch Γ (fun ω => (endpoint ω).1)
+                        (fun ω => b (endpoint ω).1) oldTime u v center radius i,
+                      ‖b (endpoint ω).1 + (center i).ofLp (Fin.last 3) • (endpoint ω).1 -
+                              StickyKakeya4.horizontalProjection (center i)‖ <
+                          2 * radius i ∧
+                        (v - u) / 8 ≤ |(center i).ofLp (Fin.last 3) - oldTime ω|) ∧
+              Γ Set.univ ≤
+                ∑ i,
+                  ENNReal.ofReal (8 * radius i / (v - u)) *
+                      (81 * StickyKakeya4.CoverRoutedResidualBound.directionBallConstant *
+                        ENNReal.ofReal ((2 * radius i + r₀) / ((v - u) / 8)) ^ 2) *
+                    σ Set.univ
+
+Exit status: 0

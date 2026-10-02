@@ -95,8 +95,9 @@ physical sources are proved; post-cut fresh marginals are only dominated.
 Genuine submeasure exhaustion avoids unnecessary rare-event normalization.
 A further finite separated route is now constructed directly from the actual
 front dimension deficit: it preserves all old measures and observables and
-has proved fractional weights at most `8 R_i/(v-u)`. This removes a finite
-routing premise, while its global quadratic payment remains open. No missing
+has proved fractional weights at most `8 R_i/(v-u)`. The actual cover-functional bound is now integrated from this constructor
+and the packet-free geometry, with no routing certificate among its inputs.
+Its global quadratic payment remains open. No missing
 bound is replaced by a hidden capacity field.
 
 ## 7. Relative residual / Frostman alternative
@@ -119,7 +120,10 @@ individual shrinking bushes force full front dimension. This does not assume
 a fixed mass in each member of a merely positive-total-mass family. Failure of front Frostman now implies exact-collision product nullity and
 qualitative decay of both the fixed-angle graph and full inverse-secant
 weighted residual content, by genuine nondegenerate C4s, exact-bush escape,
-and finite inverse-secant energy. The geometric residual power rate itself remains
+and finite inverse-secant energy. Conversely, a strict front dimension deficit
+now supplies arbitrarily fine violations of every finite residual power
+coefficient on the same positive source, rather than assuming an excessive
+fine graph. The geometric residual power rate itself remains
 open. No slicing axiom or assumed
 measurable Frostman kernel is used. The full vector-family escape is now also
 checked from original normalized open-cap condition (340), including genuine
@@ -138,9 +142,9 @@ it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
-tracked build at `c78c22c` passed all **143** committed modules and **8,850** Lake
-jobs, including the low-intercept entropy escape;
-there are now **626** checked new declarations with only standard logical
+tracked build at `5af3ed9` passed all **149** committed modules and **8,856** Lake
+jobs; subsequent residual-excess and cover-functional modules have strict checks;
+there are now **637** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the

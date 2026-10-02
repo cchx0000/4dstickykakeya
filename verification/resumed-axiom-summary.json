@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T09:12:57.585611+00:00",
-  "previous_checkpoint": "c9bd6bb8ab514f09e5e36e5c01f8847ff16ca26b",
+  "generated_at_utc": "2026-10-02T09:45:26.121437+00:00",
+  "previous_checkpoint": "5af3ed97a3d2d213a52b01f7afebe87f8d27690d",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 626,
+  "total_new_checked_declarations": 637,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -36,7 +36,9 @@
     "verification/packet-free-bush-readback.log": 17,
     "verification/finite-hausdorff-ball-cover-axioms.log": 3,
     "verification/no-frostman-weighted-residual-decay-axioms.log": 4,
-    "verification/hausdorff-bush-routing-axioms.log": 30
+    "verification/hausdorff-bush-routing-axioms.log": 30,
+    "verification/no-frostman-residual-excess-axioms.log": 6,
+    "verification/cover-routed-residual-readback.log": 5
   },
   "checks": [
     {
@@ -4849,6 +4851,105 @@
         "Quot.sound"
       ],
       "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanResidualExcess.weightedResidualContent_le_inverse_secant_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-residual-excess-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanResidualExcess.extend_small_radius_power_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-residual-excess-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanResidualExcess.front_dimH_ge_of_residual_power_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-residual-excess-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanResidualExcess.arbitrarily_fine_residual_excess_of_dimH_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-residual-excess-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanResidualExcess.exists_residual_exponent_gap_of_dimH_lt_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-residual-excess-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanResidualExcess.full_residual_decay_and_excess_of_dimH_lt_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-residual-excess-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CoverRoutedResidualBound.directionBallConstant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/cover-routed-residual-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CoverRoutedResidualBound.ae_source_of_endpoint_dom",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/cover-routed-residual-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CoverRoutedResidualBound.direction_ball_density_of_le_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/cover-routed-residual-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CoverRoutedResidualBound.occurrence_le_scaled_packet_free_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/cover-routed-residual-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CoverRoutedResidualBound.exists_original_front_cover_residual_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/cover-routed-residual-readback.log"
     }
   ],
   "source_sha256": {
@@ -4884,7 +4985,9 @@
     "Theorems/Thm_StickyKakeya4_packet_free_bush_bound.lean": "2c2e47a03549c2f23681c4160981ad3ed7ab20ebc890a4e4265f22f75631e2b1",
     "Theorems/Thm_StickyKakeya4_finite_hausdorff_ball_cover.lean": "dccbc1aaa0faed7e7e6c8506b3a8958b4fcce58fa061cb31de4dc4bdfd75b707",
     "Theorems/Thm_StickyKakeya4_no_frostman_weighted_residual_decay.lean": "86a327b0afe9a853f3c00505ddbcf55bf15a32802b817edaf9224049105e9bde",
-    "Theorems/Thm_StickyKakeya4_hausdorff_bush_routing.lean": "c2457ebba1c73748fcf1a1ff299f038d9561d8c10edc7aafad51d859156654e8"
+    "Theorems/Thm_StickyKakeya4_hausdorff_bush_routing.lean": "c2457ebba1c73748fcf1a1ff299f038d9561d8c10edc7aafad51d859156654e8",
+    "Theorems/Thm_StickyKakeya4_no_frostman_residual_excess.lean": "399d23e628087732513dc0629e4c60d0d354815d686be849d770a6b0dc70811f",
+    "Theorems/Thm_StickyKakeya4_cover_routed_residual_bound.lean": "f8444714ad5e961a898723bdfe4748770ac05b01a60cfa69936fa450d7200e5c"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -4893,17 +4996,17 @@
   "targeted_lake_build_jobs": 8754,
   "targeted_lake_build_log": "verification/analytic-closure-build.log",
   "full_tracked_build": {
-    "source_commit": "c78c22c6e7b412943cedcdeb399db2373f0d4a1c",
-    "module_count": 143,
+    "source_commit": "5af3ed97a3d2d213a52b01f7afebe87f8d27690d",
+    "module_count": 149,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8850,
-    "log": "verification/entropy-checkpoint-full-build.log"
+    "lake_jobs": 8856,
+    "log": "verification/no-frostman-routing-full-build.log"
   },
   "latest_main_axiom_gate": {
     "status": "failed_existing_WZ_axiom",
     "exit_code": 1,
     "log": "verification/rigidity-main-axiom-gate.log"
   },
-  "resumed_phase_declaration_count": 535
+  "resumed_phase_declaration_count": 546
 }

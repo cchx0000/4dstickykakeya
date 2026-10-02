@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_cover_routed_residual_bound
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.CoverRoutedResidualBound.directionBallConstant
+#print axioms StickyKakeya4.CoverRoutedResidualBound.ae_source_of_endpoint_dom
+#print axioms StickyKakeya4.CoverRoutedResidualBound.direction_ball_density_of_le_volume
+#print axioms StickyKakeya4.CoverRoutedResidualBound.occurrence_le_scaled_packet_free_bound
+#print axioms StickyKakeya4.CoverRoutedResidualBound.exists_original_front_cover_residual_bound
+
+#check StickyKakeya4.CoverRoutedResidualBound.exists_original_front_cover_residual_bound

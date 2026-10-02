@@ -1,0 +1,21 @@
+ENV: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+COMMAND: lake env lean -DautoImplicit=false verification/no-frostman-residual-excess-readback.lean
+'StickyKakeya4.NoFrostmanResidualExcess.weightedResidualContent_le_inverse_secant_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanResidualExcess.extend_small_radius_power_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanResidualExcess.front_dimH_ge_of_residual_power_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanResidualExcess.arbitrarily_fine_residual_excess_of_dimH_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanResidualExcess.exists_residual_exponent_gap_of_dimH_lt_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanResidualExcess.full_residual_decay_and_excess_of_dimH_lt_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_STATUS: 0
