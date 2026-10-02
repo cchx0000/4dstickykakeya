@@ -70,10 +70,14 @@ and root/support invariants, stopping schedule, and paid/cross-cap bounds. None 
 Follow Corollary 9.31 and the residual-content criterion, rather than requiring
 the false arbitrary-shading universal estimate. Conditional finite-scale
 Frostman implications already in the repository do not prove their missing
-inputs. The concrete residual collision-time bridge is checked, including its
-explicit
-near-direction error; finite-energy, slicing, residual power bounds, and the
-geometric alternative are still open.
+inputs. The concrete residual collision-time bridge is checked, including its explicit
+near-direction error. The small-secant mass is now bounded cubically from an
+actual slope measure dominated by three-dimensional Lebesgue measure. A
+residual power bound of exponent `2 - η` consequently gives averaged collision
+sublevels of exponent `3 - η` and finite averaged transverse `t`-energy for
+`0 < t < 3 - η`. These new analytical implications are strictly checked.
+The geometric residual power estimate, positive supported source construction,
+and final energy-to-front dimension passage remain open.
 
 ## 8. Original compact marked closure and axiom audit
 
@@ -83,6 +87,7 @@ to the original compact front. The current legacy route still uses
 it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
-kernel readback with no project-specific axioms or `sorryAx`. The full
-116-module build now passes. The final readback still reports the WZ
+kernel readback with no project-specific axioms or `sorryAx`. The last full
+116-module build passed; subsequent analytical additions have targeted strict
+checks and their own axiom readbacks. The final readback still reports the WZ
 project axiom; the unconditional theorem remains incomplete.

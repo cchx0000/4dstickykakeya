@@ -1,0 +1,48 @@
+$ lake env lean -DautoImplicit=false verification/ResidualEnergyReadback.lean
+StickyKakeya4.zero_level_measure_eq_zero_of_sublevel_power.{u_1} {X : Type u_1} [MeasurableSpace X]
+  (μ : MeasureTheory.Measure X) (f : X → ℝ) (C q : ℝ) (hq : 0 < q)
+  (hsub : ∀ (r : ℝ), 0 < r → r < 1 → μ {x | f x ≤ r} ≤ ENNReal.ofReal (C * r ^ q)) : μ {x | f x = 0} = 0
+StickyKakeya4.finite_lintegral_of_power_tail.{u_1} {X : Type u_1} [MeasurableSpace X] (μ : MeasureTheory.Measure X)
+  [MeasureTheory.IsFiniteMeasure μ] (f : X → ℝ) (hf : Measurable f) (hf0 : ∀ (x : X), 0 ≤ f x) (C : ENNReal)
+  (hC : C ≠ ⊤) (p : ℝ) (hp : 1 < p) (htail : ∀ (z : ℝ), 1 < z → μ {x | z ≤ f x} ≤ C * ENNReal.ofReal (z ^ (-p))) :
+  ∫⁻ (x : X), ENNReal.ofReal (f x) ∂μ < ⊤
+StickyKakeya4.finite_inverse_energy_of_sublevel_power.{u_1} {X : Type u_1} [MeasurableSpace X]
+  (μ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure μ] (f : X → ℝ) (hf : Measurable f)
+  (hf0 : ∀ (x : X), 0 ≤ f x) (C q t : ℝ) (hC : 0 ≤ C) (ht : 0 < t) (htq : t < q)
+  (hsub : ∀ (r : ℝ), 0 < r → r < 1 → μ {x | f x ≤ r} ≤ ENNReal.ofReal (C * r ^ q)) :
+  ∫⁻ (x : X), ENNReal.ofReal (f x) ^ (-t) ∂μ < ⊤
+'StickyKakeya4.zero_level_measure_eq_zero_of_sublevel_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.finite_lintegral_of_power_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.finite_inverse_energy_of_sublevel_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.inverse_energy_prod_eq_iterated.{u_1, u_2} {X : Type u_1} {Y : Type u_2} [MeasurableSpace X]
+  [MeasurableSpace Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y) [MeasureTheory.SFinite ν]
+  (f : X × Y → ℝ) (hf : Measurable f) (t : ℝ) :
+  ∫⁻ (p : X × Y), ENNReal.ofReal (f p) ^ (-t) ∂μ.prod ν = ∫⁻ (x : X), ∫⁻ (y : Y), ENNReal.ofReal (f (x, y)) ^ (-t) ∂ν ∂μ
+'StickyKakeya4.inverse_energy_prod_eq_iterated' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.ae_finite_fiber_inverse_energy_of_finite_product_energy.{u_1, u_2} {X : Type u_1} {Y : Type u_2}
+  [MeasurableSpace X] [MeasurableSpace Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y)
+  [MeasureTheory.SFinite ν] (f : X × Y → ℝ) (hf : Measurable f) (t : ℝ)
+  (henergy : ∫⁻ (p : X × Y), ENNReal.ofReal (f p) ^ (-t) ∂μ.prod ν < ⊤) :
+  ∀ᵐ (x : X) ∂μ, ∫⁻ (y : Y), ENNReal.ofReal (f (x, y)) ^ (-t) ∂ν < ⊤
+'StickyKakeya4.ae_finite_fiber_inverse_energy_of_finite_product_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.finite_average_inverse_energy_of_sublevel_power.{u_1, u_2} {X : Type u_1} {Y : Type u_2}
+  [MeasurableSpace X] [MeasurableSpace Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y)
+  [MeasureTheory.IsFiniteMeasure μ] [MeasureTheory.IsFiniteMeasure ν] (f : X × Y → ℝ) (hf : Measurable f)
+  (hf0 : ∀ (p : X × Y), 0 ≤ f p) (C q t : ℝ) (hC : 0 ≤ C) (ht : 0 < t) (htq : t < q)
+  (hsub : ∀ (r : ℝ), 0 < r → r < 1 → (μ.prod ν) {p | f p ≤ r} ≤ ENNReal.ofReal (C * r ^ q)) :
+  ∫⁻ (x : X), ∫⁻ (y : Y), ENNReal.ofReal (f (x, y)) ^ (-t) ∂ν ∂μ < ⊤
+'StickyKakeya4.finite_average_inverse_energy_of_sublevel_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.ae_finite_fiber_inverse_energy_of_sublevel_power.{u_1, u_2} {X : Type u_1} {Y : Type u_2}
+  [MeasurableSpace X] [MeasurableSpace Y] (μ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure Y)
+  [MeasureTheory.IsFiniteMeasure μ] [MeasureTheory.IsFiniteMeasure ν] (f : X × Y → ℝ) (hf : Measurable f)
+  (hf0 : ∀ (p : X × Y), 0 ≤ f p) (C q t : ℝ) (hC : 0 ≤ C) (ht : 0 < t) (htq : t < q)
+  (hsub : ∀ (r : ℝ), 0 < r → r < 1 → (μ.prod ν) {p | f p ≤ r} ≤ ENNReal.ofReal (C * r ^ q)) :
+  ∀ᵐ (x : X) ∂μ, ∫⁻ (y : Y), ENNReal.ofReal (f (x, y)) ^ (-t) ∂ν < ⊤
+'StickyKakeya4.ae_finite_fiber_inverse_energy_of_sublevel_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Exit code: 0

@@ -9,3 +9,7 @@ project, and is not included in any verified declaration count. It is preserved
 for future work rather than presented as a proved part of the formalization.
 The checked residual collision module currently ends at the explicit
 sublevel/Tonelli bounds; the full energy/slicing closure remains open.
+
+Update: the generic sublevel-to-inverse-energy argument is now implemented and
+strictly verified in `Theorems/Thm_StickyKakeya4_residual_energy.lean`. This
+text remains the historical draft and is not itself a build target.

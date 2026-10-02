@@ -1,9 +1,35 @@
-# Prove2Me / 4D Sticky Kakeya: final verification checkpoint
+# Prove2Me / 4D Sticky Kakeya: verification checkpoints
 
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
-## Result
+## Resumed analytical progress after b7989bcd
+
+The next two modules have strict source builds and standard-only axiom
+readbacks, adding 11 declarations to the 91 recorded below:
+
+- `residual_energy`: zero-distance nullity, layer-cake power-tail control,
+  finite inverse-distance energy, Tonelli, and almost-everywhere finite fibre
+  energy (seven declarations)
+- `residual_sublevel_power`: the actual three-dimensional bounded-density
+  small-secant estimate, the averaged sublevel exponent `3 - η`, and the
+  finite averaged collision energy conclusion of original Theorem 6.27,
+  conditional on its geometric residual bound (four declarations)
+
+See [resumed-axiom-summary.json](resumed-axiom-summary.json),
+[residual-energy-build.log](residual-energy-build.log),
+[residual-energy-axioms.log](residual-energy-axioms.log),
+[residual-sublevel-build.log](residual-sublevel-build.log), and
+[residual-sublevel-axioms.log](residual-sublevel-axioms.log).
+The previous full-build snapshot below concerns the 116-module state at
+`b7989bcd`; a later all-module build has not yet been rerun.
+
+The [separated-bush research note](../docs/SEPARATED_BUSH_CROSSCAP_BOUND.md)
+proves an elementary all-target local cross-cap estimate on paper and tests
+its aggregation on a radial example. It is explicitly not a Lean-certified
+result or a solution to the remaining targetwise multiplicity problem.
+
+## Result at the full-build checkpoint b7989bcd
 
 - **Full local project build: passed.** All 116 current Lean modules build;
   the explicit aggregate run completed 8,826 Lake jobs, exit 0
@@ -147,10 +173,10 @@ proved for the actual geometric occurrence tree, or a genuinely terminating
 replacement rerouting argument controlling those old pairs. Assuming that
 numerical bound in a certificate is not a proof of it.
 
-Geometric residual power bounds and the final inverse-energy/slicing closure
-also remain unproved. An uncompiled analytical draft is preserved explicitly
-outside all build targets in [drafts](../drafts/README.md); it is not counted as
-a verified result.
+Geometric residual power bounds and the final energy-to-front dimension
+passage remain unproved. The generic inverse-energy step of the historical
+[draft](../drafts/README.md) has since been implemented and strictly verified
+in `residual_energy`; the draft itself remains an uncompiled historical text.
 
 This is a blocker to completing the supplied proof, not a disproof of the final
 Sticky Kakeya theorem.

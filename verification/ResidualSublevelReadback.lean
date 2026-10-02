@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_residual_sublevel_power
+
+#check StickyKakeya4.finite_time_pair_energy_of_residual_power
+#print axioms StickyKakeya4.slope_pair_near_mass_le_cubic
+#print axioms StickyKakeya4.averaged_slope_collision_mass_le_residual_cubic
+#print axioms StickyKakeya4.averaged_slope_collision_mass_le_power
+#print axioms StickyKakeya4.finite_time_pair_energy_of_residual_power

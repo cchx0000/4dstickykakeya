@@ -1,0 +1,21 @@
+import Theorems.Thm_StickyKakeya4_residual_energy
+
+#check StickyKakeya4.zero_level_measure_eq_zero_of_sublevel_power
+#check StickyKakeya4.finite_lintegral_of_power_tail
+#check StickyKakeya4.finite_inverse_energy_of_sublevel_power
+
+#print axioms StickyKakeya4.zero_level_measure_eq_zero_of_sublevel_power
+#print axioms StickyKakeya4.finite_lintegral_of_power_tail
+#print axioms StickyKakeya4.finite_inverse_energy_of_sublevel_power
+
+#check StickyKakeya4.inverse_energy_prod_eq_iterated
+#print axioms StickyKakeya4.inverse_energy_prod_eq_iterated
+
+#check StickyKakeya4.ae_finite_fiber_inverse_energy_of_finite_product_energy
+#print axioms StickyKakeya4.ae_finite_fiber_inverse_energy_of_finite_product_energy
+
+#check StickyKakeya4.finite_average_inverse_energy_of_sublevel_power
+#print axioms StickyKakeya4.finite_average_inverse_energy_of_sublevel_power
+
+#check StickyKakeya4.ae_finite_fiber_inverse_energy_of_sublevel_power
+#print axioms StickyKakeya4.ae_finite_fiber_inverse_energy_of_sublevel_power

@@ -40,7 +40,9 @@ specialization, and residual collision/Tonelli bridge now have strict readbacks.
 
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
-complete 116-module project build now passes. The final-theorem axiom audit
+last complete 116-module project build passed. Later analytical additions have
+targeted strict checks: bounded direction density plus the original residual
+power estimate now yields finite averaged transverse energy. The final-theorem axiom audit
 still fails because the main closure uses the WZ project axiom.
 `scripts/check-axioms.sh` makes that failure explicit.
 

@@ -1,0 +1,23 @@
+$ lake env lean -DautoImplicit=false verification/ResidualSublevelReadback.lean
+StickyKakeya4.finite_time_pair_energy_of_residual_power (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  [MeasureTheory.IsFiniteMeasure σ] (L C : ENNReal) (hL : L ≠ ⊤) (hC : C ≠ ⊤) (hσ : σ ≤ L • MeasureTheory.volume)
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (u v d η t : ℝ) (hd : 0 < d) (hη : 0 ≤ η) (ht : 0 < t)
+  (htη : t < 3 - η)
+  (hres :
+    ∀ (ρ : ℝ),
+      0 < ρ →
+        ρ < 1 →
+          StickyKakeya4.weightedResidualContent (σ.prod σ) (fun p => p.1 - p.2) (fun p => b p.1 - b p.2)
+              (Set.Icc (u - d) (v + d)) ρ ≤
+            C * ENNReal.ofReal ρ ^ (2 - η)) :
+  ∫⁻ (z : ℝ × StickyKakeya4.E3 × StickyKakeya4.E3),
+      ENNReal.ofReal ‖b z.2.1 - b z.2.2 + z.1 • (z.2.1 - z.2.2)‖ ^
+        (-t) ∂(MeasureTheory.volume.restrict (Set.Icc u v)).prod (σ.prod σ) <
+    ⊤
+'StickyKakeya4.slope_pair_near_mass_le_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.averaged_slope_collision_mass_le_residual_cubic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.averaged_slope_collision_mass_le_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.finite_time_pair_energy_of_residual_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT_STATUS: 0
