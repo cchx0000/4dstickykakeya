@@ -144,9 +144,29 @@ for almost every retained source, or an appropriately uniform domination of the 
 
 Alternatively, one could retain a separate selector-level restriction density and prove a joint-measure bound relative to it, with a genuine summable selector-mass budget. This changes the accounting certificate and needs its own proof.
 
-Lemma 8.57, pp. 105–106, proves a valid cap-square estimate for a **product of selector submeasures**. It does not identify a correlated old-edge occurrence with that product. Corollary 9.12, pp. 111–112, gives a different valid aggregate estimate using a bounded-overlap grid and the base selector masses; extending that argument to the entire varying-cap tree requires a demonstrated overlap/accounting invariant.
+Lemma 8.57, pp. 105–106, proves a valid cap-square estimate for a **product of selector submeasures**. It does not identify a correlated old-edge occurrence with that product. Corollary 9.12, p. 112, gives a different valid aggregate estimate using a bounded-overlap grid and the base selector masses; extending that argument to the entire varying-cap tree requires a demonstrated overlap/accounting invariant.
 
-The requested terminal bound must therefore remain an explicit unresolved obligation until a valid invariant or replacement argument is supplied. It must not be introduced as an axiom or hidden inside an existence certificate presented as a completed proof.
+### A weaker global terminal estimate can repair this step
+
+The incorrect per-node estimate is stronger than the final argument needs. Suppose the terminal endpoint-pair measures satisfy
+
+```text
+sum_gamma Gamma_gamma <= Gamma_root <= sigma product sigma
+```
+
+and every pair counted in their internal-cap terms has both directions in some cap of radius at most a common `T`. Such a pair necessarily has direction distance at most `2T`, regardless of how the cap centers vary. Therefore
+
+```text
+sum_gamma M_same_gamma
+  <= integral integral 1_{|a-a'| <= 2T} d sigma(a) d sigma(a')
+  <= C * total_mass(sigma) * T^3
+```
+
+by the bounded three-dimensional direction density. This proves the needed aggregate cap-square bound without a per-node marginal-product inequality and without any cap-overlap hypothesis. Together with `T^3 <= m*r^(2-o(1))` and `total_mass(sigma)=m`, it gives the desired quadratic terminal budget.
+
+This is a valid measure-level replacement. To use it in the full proof, the implementation must retain the **original ordered endpoint pair**, prove that the summed terminal pair measures are dominated by the one root occurrence, and account for any source/target reversal. The mass identity alone is weaker than that measure domination. Probability-kernel extensions and actual restrictions permit this bookkeeping; replacing the old pair by newly sampled collisions would not. A fully tracked swap can also be handled by domination by the root measure plus its transpose, at a fixed orientation factor.
+
+Thus the p. 123 calculation exposes a repairable candidate obligation rather than establishing that the full original strategy fails. Its incorrect per-node inequality must not be introduced as an axiom or hidden inside an existence certificate presented as a completed proof.
 
 ## 6. Further closure checks, not established counterexamples
 
@@ -154,7 +174,7 @@ The following are specific proof obligations for the manuscript-to-Lean translat
 
 - **Paid and cross-cap budgets.** Proposition 9.1, p. 107, assumes both `M_paid` and `M_cross` are at the quadratic relative target. Proposition 9.29 assigns every old neighbor outside a child cap to `M_cross`, but its telescoping calculation alone gives no such quadratic bound. The fact that this is an aggregate physical graph is not a bound on its mass. A formal proof must identify the precise estimates paying all of those occurrences, including their inherited marks and repeated generations
 - **Hereditary routing.** Lemma 8.56 is conditional on a uniform positive-fraction rule for every nonzero remainder. Each geometric use must prove this for the actual remainder, not merely for an initial symmetric product graph or a newly sampled graph
-- **Continuation.** Proposition 8.32, pp. 93–94, gives a fixed positive-mass cap either a good-leaf output or arbitrarily fine failures. Corollary 8.35, pp. 94–95, gives arbitrary finite-depth chains and explicitly distinguishes that from synchronized continuous labels. A continuation object with infinite compatible children, time separation, residual decay, and source-mass control must be derived, not just assumed
+- **Finite-depth construction versus infinite continuation.** Proposition 8.32, pp. 93–94, gives a fixed positive-mass cap either a good-leaf output or arbitrarily fine failures. Corollary 8.35, pp. 94–95, gives arbitrary finite-depth chains and explicitly distinguishes that from synchronized continuous labels. If the Lean route uses an infinite coherent continuation, its compatibility, time separation, residual decay, and source-mass control must be derived. However, the final paper route in §9.6 uses deterministic finite-depth occurrence saturation and nodewise fine scales; it does not require that stronger infinite continuation as an independent prerequisite. A direct finite-depth construction may bypass the repository's old continuation gate while remaining faithful to the original proof strategy
 - **Moving centers and marks.** Theorem 8.11's vector-center inequality (340), p. 82, uses a common physical test point and Reeb time across all components. An estimate for one center cluster does not establish it for freely varying clusters. Lemmas 9.26–9.27, pp. 120–121, provide a concrete three-packet/target-cell partition to formalize, including its exact mass sum
 - **Fixed physical thickness versus auxiliary failure scales.** Proposition 9.30 permits nodewise arbitrarily fine auxiliary scales. Appendix B, p. 136, additionally claims a uniform fixed-thickness version. Its hierarchy is not a fully quantified shaded-source theorem. The formalization must specify which geometric estimates survive at the fixed thickness and how all constants are controlled uniformly; it cannot silently identify auxiliary scales with the physical delta
 

@@ -1,4 +1,7 @@
-import Mathlib
+import Mathlib.Data.NNReal.Basic
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.Tactic.NormNum
+import Mathlib.Tactic.SplitIfs
 
 /-!
 # Bounded edge density does not bound conditional density
@@ -16,28 +19,30 @@ normalization is therefore a substantive operation, not a density-preserving
 restriction of the original product probability.
 -/
 
-open scoped ENNReal
+noncomputable section
+
+open scoped NNReal
 
 namespace StickyKakeya4.EdgeMarginalObstruction
 
 /-- Uniform probability weights on a two-point space. -/
-def baseWeight (_ : Fin 2) : ℝ≥0∞ := 1 / 2
+def baseWeight (_ : Fin 2) : ℝ≥0 := 1 / 2
 
 /-- A product-density bounded by one, supported on one diagonal edge. -/
-def edgeDensity (i j : Fin 2) : ℝ≥0∞ := if i = 0 ∧ j = 0 then 1 else 0
+def edgeDensity (i j : Fin 2) : ℝ≥0 := if i = 0 ∧ j = 0 then 1 else 0
 
 /-- Degree relative to the original target probability. -/
-def sourceDegree (i : Fin 2) : ℝ≥0∞ :=
+def sourceDegree (i : Fin 2) : ℝ≥0 :=
   ∑ j, edgeDensity i j * baseWeight j
 
 /-- Original selector mass of the cap containing just the first point. -/
-def capMass : ℝ≥0∞ := ∑ i : Fin 2, if i = 0 then baseWeight i else 0
+def capMass : ℝ≥0 := ∑ i : Fin 2, if i = 0 then baseWeight i else 0
 
 /-- Mass of the source marginal of the retained edge flow. -/
-def marginalMass : ℝ≥0∞ := ∑ i, sourceDegree i * baseWeight i
+def marginalMass : ℝ≥0 := ∑ i, sourceDegree i * baseWeight i
 
 /-- Actual mass of retained edges whose two endpoints lie in the cap. -/
-def sameCapEdgeMass : ℝ≥0∞ :=
+def sameCapEdgeMass : ℝ≥0 :=
   ∑ i : Fin 2, ∑ j : Fin 2,
     if i = 0 ∧ j = 0 then edgeDensity i j * baseWeight i * baseWeight j else 0
 

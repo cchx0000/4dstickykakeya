@@ -58,9 +58,7 @@ project axioms are absent.
    establish the missing uniform hypothesis. The solution entry had stale API
    and epsilon bookkeeping, repaired without changing its selector conclusion.
 8. Borel selector closure: the current theorem takes a compact ambient family
-   and concludes full dimension of its front. The contract instead forbids that
-   extra compactness and asks for the selector's own front. Its existing Solution
-   entry is stale; it has not been weakened to make the build green.
+   and concludes full dimension of its front. The historical proposal instead asks for the selector's own front without compactness. The original-paper audit shows that stronger statement is not the source's explicit closure theorem. The Solution entry now follows the compact-ambient interface needed by the unchanged main theorem; it remains a WZ-dependent legacy proof.
 
 ## Common-shading obstruction
 
@@ -130,6 +128,12 @@ than replacing the main theorem by a weaker result.
 
 ## Other no-WZ closure gaps
 
+The source audit now prioritizes the paper's **finite-depth occurrence-tree**
+route. The stronger infinite continuation below is a gap in the older proposed
+route, not a mandatory prerequisite for every proof of the original theorem.
+The aggregate terminal repair is being formalized using root-pair domination
+and endpoint support, avoiding the invalid per-node conditional normalization.
+
 - `PrunedCommonHeightAnalyticFourCycleContinuation` has no constructor from the
   finite alternatives elsewhere in the repository, and its tree carries no
   source-mass retention data.
@@ -148,6 +152,7 @@ than replacing the main theorem by a weaker result.
 
 - Updated the main Solution's call to the existing compact-ambient closure;
   its theorem statement is unchanged. This remains a legacy axiom-dependent route.
+- Corrected the obsolete Borel-only selector Solution to the source-faithful compact-ambient auxiliary interface; the final compact marked theorem is unchanged.
 - Updated the conditional Frostman Solution to
   `HasCoherentFiniteScaleSources selector selector`, preserving its intended
   selector-front support, and aligned the source exponent with epsilon/10.
@@ -166,7 +171,14 @@ than replacing the main theorem by a weaker result.
 - `Solutions.SmokeTest`: passed (2.4 seconds)
 - `Definitions.Def_sticky_kakeya4_core`: passed
 - `Thm_StickyKakeya4_common_shading_obstruction`: passed
-- Other new/modified Lean files and axiom readbacks: pending; no final proof-completion claim
+- `Solutions.Sol_StickyKakeya4_hereditary_finite_scale_to_frostman`: passed
+- `Thm_StickyKakeya4_exact_collision_identity`: passed
+- `Thm_StickyKakeya4_lossless_edge_flow_carleson`: passed
+- `Thm_StickyKakeya4_edge_marginal_obstruction`: passed after correcting noncomputable numeric definitions
+- Common-shading readback: all 7 declarations use only `propext`, `Classical.choice`, `Quot.sound`
+- Edge-marginal readback: all 4 declarations use only those standard logical axioms
+- Full 109-module dependency-first build: in progress
+- Final theorem readback: pending; no final proof-completion claim
 
 Build and kernel results will be updated after the cache and checks complete.
 Source inspection and API health are not substitutes for them.
@@ -180,3 +192,12 @@ probability example: base weights 1/2, edge density 1 only on (0,0), source
 marginal mass 1/4, cap mass 1/2, and same-cap edge mass 1/4 > 1/8. It tests only
 the generic domination inference, not all geometric hypotheses of the paper.
 Its compilation/readback status is recorded with the other checks.
+
+## Progress backup
+
+The first checkpoint is remotely backed up on branch
+`prove2me/original-paper-audit-2026-10-02`, commit
+`5329da8cf4c53771390c26ef81594ffdf9076bdb`. Later checkpoints refine tests and
+proofs on that same independent branch. The original `main` branch is unchanged.
+The stronger historical selector signature is preserved explicitly in
+`verification/ARCHIVED_TARGETS.md`.

@@ -2,9 +2,9 @@ import Theorems.Thm_StickyKakeya4_sticky_kakeya_four_dimensional
 import Theorems.Thm_StickyKakeya4_common_shading_obstruction
 
 -- Printing a theorem checks its exact binders/conclusion as well as its name.
-#print StickyKakeya4.sticky_kakeya_four_dimensional
-#print StickyKakeya4.selector_closure
-#print StickyKakeya4.HasUniformMarkedSourceEstimate
+#check @StickyKakeya4.sticky_kakeya_four_dimensional
+#check @StickyKakeya4.selector_closure
+#check @StickyKakeya4.HasUniformMarkedSourceEstimate
 #print axioms StickyKakeya4.exact_collision_identity
 #print axioms StickyKakeya4.borel_selector_reduction
 #print axioms StickyKakeya4.packing_selector_to_finite_scale_sources

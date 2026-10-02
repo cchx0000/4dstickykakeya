@@ -1,0 +1,30 @@
+@StickyKakeya4.commonShading_union_bound_iff : ∀ {n : ℕ},
+  0 < n →
+    ∀ (D : StickyKakeya4.FiniteScaleSource n) (s : Set StickyKakeya4.E4),
+      MeasurableSet s →
+        MeasureTheory.volume s ≠ 0 →
+          MeasureTheory.volume s ≠ ⊤ →
+            (∀ (i : Fin n), D.weight i = 1) →
+              ∀ (K : ENNReal),
+                StickyKakeya4.sourceMass (StickyKakeya4.commonShadingRestriction D s) ≤
+                    K * MeasureTheory.volume (StickyKakeya4.sourceUnion (StickyKakeya4.commonShadingRestriction D s)) ↔
+                  ↑n ≤ K
+@StickyKakeya4.commonShading_energy_bound_iff : ∀ {n : ℕ},
+  0 < n →
+    ∀ (D : StickyKakeya4.FiniteScaleSource n) (s : Set StickyKakeya4.E4),
+      MeasurableSet s →
+        MeasureTheory.volume s ≠ 0 →
+          MeasureTheory.volume s ≠ ⊤ →
+            (∀ (i : Fin n), D.weight i = 1) →
+              ∀ (K : ENNReal),
+                ∫⁻ (x : StickyKakeya4.E4),
+                      StickyKakeya4.sourceFunction (StickyKakeya4.commonShadingRestriction D s) x ^ 2 ≤
+                    K * StickyKakeya4.sourceMass (StickyKakeya4.commonShadingRestriction D s) ↔
+                  ↑n ≤ K
+'StickyKakeya4.commonShadingRestriction_isFractional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.sourceFunction_commonShadingRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.sourceMass_commonShadingRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.sourceUnion_commonShadingRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.sourceEnergy_commonShadingRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.commonShading_union_bound_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.commonShading_energy_bound_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
