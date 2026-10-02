@@ -51,6 +51,31 @@ escape and explains the unresolved cross-bush overlap factor. That moment
 bound itself is unproved. No source code or verification result changed
 for this handwritten audit; the original theorem remains incomplete.
 
+## Partial manuscript repairs: moving focus and triangular laws
+
+The handwritten [moving-focus proof](../docs/MOVING_FOCUS_LOW_MOMENT_ESCAPE.md)
+now establishes the actual projected low-moment bound for arbitrary measurable
+source-dependent focus times, provided the one fixed spatial-center image
+has subpower covers. A direct angular-cap collision-time estimate gives the
+required continuum gain; the proof preserves all original root weights.
+The [triangular escape and entropy audit](../docs/CORRELATED_ENTROPY_CP_AND_TRIANGULAR_ESCAPE.md)
+proves another genuinely coupled measurable class by sequential Fubini. Both
+produce supported four-dimensional front escapes in their stated classes.
+
+Independent review found no gap in these special-case estimates. They are
+not Lean-certified here and do not classify the general original source.
+The audit identifies a real obstruction to a simpler entropy repair: fixed-size
+phase sceneries can lose horizontal information through anticipation, even
+on a packing-three graph and after every positive reference trim.
+The [rooted entropy-stopping note](../docs/ROOTED_ENTROPY_STOPPING_FRONTIER.md)
+also gives an independently audited, full-original-root stopping split from
+actual pointwise physical entropy deficits. It avoids rare-success division
+but does not prove that the resulting stopped blocks are geometrically paid.
+
+No Lean files changed in this documentation checkpoint; the last full
+177-module build and 882 standard-only readbacks remain the current executed
+checks. The main theorem still depends on its preexisting WZ project axiom.
+
 ## Actual finite routing captures half the original source-edge mass
 
 `exists_quantitative_source_bush_cover` now constructs a finite family of

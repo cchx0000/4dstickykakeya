@@ -219,3 +219,34 @@ the missing correlated estimate. A projected Renyi moment of order
 Frostman escape; proving it from the actual packing-three source remains
 open. This is a handwritten sufficient-target analysis, not a new Lean
 lemma or an imported axiom.
+
+## Manuscript repair: new supported escape classes
+
+Two new independently checked handwritten arguments make real partial gains.
+The [moving-focus estimate](docs/MOVING_FOCUS_LOW_MOMENT_ESCAPE.md) proves the
+actual low-order projected moment for `b(a)=c(a)-tau(a)a` when one fixed center
+image has subpower covers. The focus time may vary arbitrarily with the source;
+no common time, regularity of that time map, or fresh source law is used.
+Component estimates are linear in the original mass, and recombination loses
+only the explicit center-count factor `N(r)^theta`.
+
+The [correlated-entropy audit](docs/CORRELATED_ENTROPY_CP_AND_TRIANGULAR_ESCAPE.md)
+proves a separate Borel triangular escape, allowing three distinct fixed
+scalar focus times and arbitrary measurable off-diagonal shears. It also
+constructs a packing-three source whose ordinary fixed-block phase tangents
+lie in a bad pencil plane while its actual projections are full-dimensional.
+The exact entropy identity has a horizontal-information release term, so a
+bounded vertical-entropy potential alone does not pay repeated increments.
+Macroscopic blocks avoid that particular scale mismatch but still require a
+new source-sensitive projection or incidence estimate.
+
+These are handwritten proofs, not new Lean-certified declarations. Neither
+geometric representation has been derived for the general unpaid branch.
+The final theorem and its existing WZ axiom dependency are unchanged.
+
+The [rooted entropy-stopping construction](docs/ROOTED_ENTROPY_STOPPING_FRONTIER.md)
+strengthens the deficit input: the actual front law has entropy-deficient
+blocks at positive upper density along almost every root's own prefixes.
+An actual-time stopping split preserves the full inherited occurrence law,
+without inverse success probabilities. Its stopped blocks still need a
+geometric charge; no such charge is asserted by the construction.
