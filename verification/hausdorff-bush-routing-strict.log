@@ -1,0 +1,2 @@
+COMMAND: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache lake env lean -j1 -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_hausdorff_bush_routing.olean Theorems/Thm_StickyKakeya4_hausdorff_bush_routing.lean
+EXIT_STATUS=0

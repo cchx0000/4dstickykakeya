@@ -3,6 +3,31 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Full residual decay and constructed separated routing checkpoint
+
+The actual no-Frostman consequence now includes the **full**
+`weightedResidualContent`, with its original inverse-secant factor and any
+measurable time window: it tends to zero as the residual radius tends to zero.
+There is no angular cutoff. Cubic direction density supplies finite
+inverse-secant energy, and exact-contact nullity supplies the dominated-limit
+step. The desired `rho^(2-eta)` rate remains a separate unproved assertion.
+
+`HausdorffBushRouting` now constructs finite separated physical bush branches
+directly from `dimH(unitFront ambient) < q`, not from a routing certificate.
+It uses a true low-cost ball cover and a fresh quarter-slab time chosen from
+the inherited old time. First-hit assignment on that Markov extension gives
+actual measures on the unchanged occurrence space, exact total-measure and
+observable conservation, and branch domination by `8 R_i/(v-u)` times the
+original law. Each branch has physical bush error below `2 R_i` and is
+separated from its inherited time by at least `(v-u)/8`.
+
+All **34** new declarations passed strict source and axiom checks (4 full
+weighted-decay and 30 routing readbacks). There are now **626** checked new
+declarations, standard-only or axiom-free. This constructs the finite
+source-faithful route; it does not convert its cubic cover cost into the
+missing quadratic root-scale payment. The combined global cover-functional
+bound is being integrated without adding a routing hypothesis.
+
 ## Actual no-Frostman geometry and packet-free bound checkpoint
 
 `NoFrostmanExactCollision` now derives exact off-diagonal collision nullity

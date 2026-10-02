@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T09:01:06.921682+00:00",
-  "previous_checkpoint": "e0f02087f3483107954401acda8aac71cea9b35f",
+  "generated_at_utc": "2026-10-02T09:12:57.585611+00:00",
+  "previous_checkpoint": "c9bd6bb8ab514f09e5e36e5c01f8847ff16ca26b",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 592,
+  "total_new_checked_declarations": 626,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -34,7 +34,9 @@
     "verification/horizontal-determinant-null-axioms.log": 9,
     "verification/no-frostman-exact-collision-null-axioms.log": 20,
     "verification/packet-free-bush-readback.log": 17,
-    "verification/finite-hausdorff-ball-cover-axioms.log": 3
+    "verification/finite-hausdorff-ball-cover-axioms.log": 3,
+    "verification/no-frostman-weighted-residual-decay-axioms.log": 4,
+    "verification/hausdorff-bush-routing-axioms.log": 30
   },
   "checks": [
     {
@@ -4541,6 +4543,312 @@
         "Quot.sound"
       ],
       "log": "verification/finite-hausdorff-ball-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanWeightedResidualDecay.finite_inverse_secant_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-weighted-residual-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanWeightedResidualDecay.tendsto_residualContentWeight_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-weighted-residual-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanWeightedResidualDecay.tendsto_weightedResidualContent_zero_of_exact_collision_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-weighted-residual-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanWeightedResidualDecay.no_front_frostman_tendsto_weightedResidualContent_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-weighted-residual-decay-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.unitTime",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.quarterStart",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.sampledTime",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.measurable_quarterStart",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.measurable_sampledTime",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.sampledTime_mem_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.sampledTime_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.measurable_heightPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.sampledPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.measurable_sampledPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.height_distance_lt_of_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.horizontalProjection_heightPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.bush_error_lt_of_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.ball_height_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.unitTime_ball_hit_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.eventBranch",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.eventBranch_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.eventBranch_le_smul_of_fibre_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.sum_eventBranch_ordered_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.ballEvents",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.ballBranch",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.measurableSet_ballEvents",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.ballBranch_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.ballBranch_le_radius_smul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.sum_ballBranch_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.sum_ballBranch_map_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.ae_good_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.ballBranch_ae_bush_and_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.exists_low_cost_separated_bush_routing",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.HausdorffBushRouting.exists_original_front_low_cost_separated_bush_routing",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/hausdorff-bush-routing-axioms.log"
     }
   ],
   "source_sha256": {
@@ -4574,7 +4882,9 @@
     "Theorems/Thm_StickyKakeya4_horizontal_determinant_null.lean": "34470e590ef486cd109e4f17a04c5c6110b30ac78abfa2be3eff2bc3a646f0e2",
     "Theorems/Thm_StickyKakeya4_no_frostman_exact_collision_null.lean": "81325e5e58789a61b49cb172fa0e404f1814c387326b8fe6f66b1bcd1b2e1b11",
     "Theorems/Thm_StickyKakeya4_packet_free_bush_bound.lean": "2c2e47a03549c2f23681c4160981ad3ed7ab20ebc890a4e4265f22f75631e2b1",
-    "Theorems/Thm_StickyKakeya4_finite_hausdorff_ball_cover.lean": "dccbc1aaa0faed7e7e6c8506b3a8958b4fcce58fa061cb31de4dc4bdfd75b707"
+    "Theorems/Thm_StickyKakeya4_finite_hausdorff_ball_cover.lean": "dccbc1aaa0faed7e7e6c8506b3a8958b4fcce58fa061cb31de4dc4bdfd75b707",
+    "Theorems/Thm_StickyKakeya4_no_frostman_weighted_residual_decay.lean": "86a327b0afe9a853f3c00505ddbcf55bf15a32802b817edaf9224049105e9bde",
+    "Theorems/Thm_StickyKakeya4_hausdorff_bush_routing.lean": "c2457ebba1c73748fcf1a1ff299f038d9561d8c10edc7aafad51d859156654e8"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -4595,5 +4905,5 @@
     "exit_code": 1,
     "log": "verification/rigidity-main-axiom-gate.log"
   },
-  "resumed_phase_declaration_count": 501
+  "resumed_phase_declaration_count": 535
 }

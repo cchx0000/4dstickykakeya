@@ -1,0 +1,48 @@
+COMMAND: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache lake env lean -j1 -DautoImplicit=false verification/HausdorffBushRoutingReadback.lean
+'StickyKakeya4.HausdorffBushRouting.unitTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.quarterStart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.sampledTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.measurable_quarterStart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.measurable_sampledTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.sampledTime_mem_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.sampledTime_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.measurable_heightPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.sampledPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.measurable_sampledPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.height_distance_lt_of_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.horizontalProjection_heightPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.bush_error_lt_of_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.ball_height_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.unitTime_ball_hit_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.eventBranch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.eventBranch_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.eventBranch_le_smul_of_fibre_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.sum_eventBranch_ordered_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.ballEvents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.ballBranch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.measurableSet_ballEvents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.ballBranch_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.ballBranch_le_radius_smul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.sum_ballBranch_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.sum_ballBranch_map_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.ae_good_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.ballBranch_ae_bush_and_separated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.exists_low_cost_separated_bush_routing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.HausdorffBushRouting.exists_original_front_low_cost_separated_bush_routing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_STATUS=0

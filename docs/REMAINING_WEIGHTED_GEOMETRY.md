@@ -227,10 +227,11 @@ that step. No new hypothesis is being inserted into the final theorem.
 
 ## 8. Exact no-Frostman consequences and the remaining root-fiber charge
 
-The exact-collision-null and fixed-angle vanishing consequences below now
-have dedicated strict Lean builds and axiom readbacks. The packet-free local
-bound is also checked with numerical constant 81. The finite Hausdorff-cover
-routing construction is still being formalized; its status is separate.
+The exact-collision-null, full weighted-residual vanishing, packet-free local
+bound with constant 81, and actual finite Hausdorff-cover routing below now
+have dedicated strict Lean builds and axiom readbacks. The full residual
+limit retains the inverse-secant factor and has no angular cutoff. The
+combined global cover-functional estimate is being integrated separately.
 
 First, failure of the front Frostman conclusion makes every positive-source
 exact bush impossible. In fact the exact-collision pair set has zero product
