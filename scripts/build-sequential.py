@@ -52,6 +52,7 @@ for index, name in enumerate(order, 1):
         status[name] = {'status': 'blocked', 'dependencies': blocked}
         print(f'[{index}/{len(order)}] BLOCKED {name}: {", ".join(blocked)}', flush=True)
     else:
+        print(f'[{index}/{len(order)}] BUILDING {name}', flush=True)
         result = subprocess.run(['lake', 'build', name], cwd=ROOT,
                                 stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                                 text=True)

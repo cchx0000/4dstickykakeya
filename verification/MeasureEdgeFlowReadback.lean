@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_measure_edge_flow
+
+#check @StickyKakeya4.measure_edge_flow_conservation_apply
+#check @StickyKakeya4.measure_lossless_edge_flow_carleson
+#check @StickyKakeya4.measure_terminal_flow_le_root
+#check @StickyKakeya4.measure_terminal_flow_map_le_root
+#check @StickyKakeya4.measure_terminal_flow_map_le_of_root_le
+#check @StickyKakeya4.measure_forest_terminal_mass_le_quadratic
+
+#print axioms StickyKakeya4.measure_edge_flow_conservation_apply
+#print axioms StickyKakeya4.measure_lossless_edge_flow_carleson
+#print axioms StickyKakeya4.measure_terminal_flow_le_root
+#print axioms StickyKakeya4.measure_terminal_flow_map_le_root
+#print axioms StickyKakeya4.measure_terminal_flow_map_le_of_root_le
+#print axioms StickyKakeya4.measure_forest_terminal_mass_le_quadratic

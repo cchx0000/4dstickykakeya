@@ -30,6 +30,8 @@ a finite conditional-marginal normalization test, and a **global terminal-band
 bound**. The latter derives a cubic terminal budget from one original endpoint
 pair measure, so terminal caps may move and overlap. These are intermediate
 results with explicit hypotheses, not an unconditional completion of the main theorem.
+A measure-valued finite forest ledger now derives the terminal root budget from
+nodewise conservation and connects it to the global quadratic bound.
 
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. A complete

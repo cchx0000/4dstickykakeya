@@ -1,0 +1,59 @@
+# Copied from the successful tool output, without rerunning readback.
+# Command: lake env lean verification/MeasureEdgeFlowReadback.lean
+# Exit code: 0
+
+@StickyKakeya4.measure_edge_flow_conservation_apply : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω] {n : ℕ}
+  (T : StickyKakeya4.NestedCarrierTree n) (incoming paid terminal : Fin n → MeasureTheory.Measure Ω),
+  (∀ (i : Fin n), incoming i = paid i + terminal i + ∑ j, if T.parent j = some i then incoming j else 0) →
+    ∀ (s : Set Ω) (i : Fin n),
+      (incoming i) s = (paid i) s + (terminal i) s + ∑ j, if T.parent j = some i then (incoming j) s else 0
+@StickyKakeya4.measure_lossless_edge_flow_carleson : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω] {n : ℕ}
+  (T : StickyKakeya4.NestedCarrierTree n) (incoming paid terminal : Fin n → MeasureTheory.Measure Ω),
+  (∀ (i : Fin n), incoming i = paid i + terminal i + ∑ j, if T.parent j = some i then incoming j else 0) →
+    ∑ i, (paid i + terminal i) ≤ ∑ i, if T.parent i = none then incoming i else 0
+@StickyKakeya4.measure_terminal_flow_le_root : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω] {n : ℕ}
+  (T : StickyKakeya4.NestedCarrierTree n) (incoming paid terminal : Fin n → MeasureTheory.Measure Ω),
+  (∀ (i : Fin n), incoming i = paid i + terminal i + ∑ j, if T.parent j = some i then incoming j else 0) →
+    Finset.univ.sum terminal ≤ ∑ i, if T.parent i = none then incoming i else 0
+@StickyKakeya4.measure_terminal_flow_map_le_root : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω] {Y : Type u_2}
+  [inst_1 : MeasurableSpace Y] {n : ℕ} (T : StickyKakeya4.NestedCarrierTree n)
+  (incoming paid terminal : Fin n → MeasureTheory.Measure Ω),
+  (∀ (i : Fin n), incoming i = paid i + terminal i + ∑ j, if T.parent j = some i then incoming j else 0) →
+    ∀ (endpoint : Ω → Y),
+      Measurable endpoint →
+        ∑ i, MeasureTheory.Measure.map endpoint (terminal i) ≤
+          MeasureTheory.Measure.map endpoint (∑ i, if T.parent i = none then incoming i else 0)
+@StickyKakeya4.measure_terminal_flow_map_le_of_root_le : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω] {Y : Type u_2}
+  [inst_1 : MeasurableSpace Y] {n : ℕ} (T : StickyKakeya4.NestedCarrierTree n)
+  (incoming paid terminal : Fin n → MeasureTheory.Measure Ω),
+  (∀ (i : Fin n), incoming i = paid i + terminal i + ∑ j, if T.parent j = some i then incoming j else 0) →
+    ∀ (endpoint : Ω → Y),
+      Measurable endpoint →
+        ∀ (rootBound : MeasureTheory.Measure Y),
+          MeasureTheory.Measure.map endpoint (∑ i, if T.parent i = none then incoming i else 0) ≤ rootBound →
+            ∑ i, MeasureTheory.Measure.map endpoint (terminal i) ≤ rootBound
+@StickyKakeya4.measure_forest_terminal_mass_le_quadratic : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω] {X : Type u_2}
+  {D : Type u_3} [inst_1 : MeasurableSpace X] [inst_2 : PseudoMetricSpace D] [inst_3 : MeasurableSpace D] [BorelSpace D]
+  [SecondCountableTopology D] {n : ℕ} (T : StickyKakeya4.NestedCarrierTree n)
+  (incoming paid terminal : Fin n → MeasureTheory.Measure Ω),
+  (∀ (i : Fin n), incoming i = paid i + terminal i + ∑ j, if T.parent j = some i then incoming j else 0) →
+    ∀ (endpoint : Ω → X × X),
+      Measurable endpoint →
+        ∀ (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] {direction : X → D},
+          Measurable direction →
+            ∀ (C q : ENNReal) {capScale : ℝ},
+              0 ≤ capScale →
+                MeasureTheory.Measure.map endpoint (∑ i, if T.parent i = none then incoming i else 0) ≤ σ.prod σ →
+                  (∀ (i : Fin n),
+                      (MeasureTheory.Measure.map endpoint (terminal i))
+                          (StickyKakeya4.GlobalTerminalBand.directionBand direction (2 * capScale))ᶜ =
+                        0) →
+                    (∀ (a : D) (R : ℝ), 0 ≤ R → σ (direction ⁻¹' Metric.closedBall a R) ≤ C * ENNReal.ofReal R ^ 3) →
+                      ENNReal.ofReal capScale ^ 3 ≤ σ Set.univ * q →
+                        ∑ i, (terminal i) Set.univ ≤ 8 * C * σ Set.univ ^ 2 * q
+'StickyKakeya4.measure_edge_flow_conservation_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measure_lossless_edge_flow_carleson' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measure_terminal_flow_le_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measure_terminal_flow_map_le_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measure_terminal_flow_map_le_of_root_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.measure_forest_terminal_mass_le_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]

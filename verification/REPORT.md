@@ -224,3 +224,22 @@ Still needed for the original main theorem: the actual finite stopping tree,
 endpoint-preserving occurrence restrictions/extensions, root domination,
 terminal support/stopping scale, and paid/cross-cap budgets. This theorem alone
 does not instantiate those geometric obligations.
+
+## Measure-valued finite forest integration
+
+`Thm_StickyKakeya4_measure_edge_flow` has compiled with six standard-axiom
+readbacks. Exact conservation at each node is an equality of measures on one
+fixed occurrence space. Evaluating every test set and applying the scalar
+lossless forest ledger proves a measure-valued terminal budget. One fixed
+measurable endpoint map preserves it.
+
+`measure_forest_terminal_mass_le_quadratic` then derives the terminal
+`8 C m^2 q` bound directly from that conservation and the separate root-product,
+terminal-support, original-density, and stopping-scale hypotheses. It does not
+assume the terminal budget as an input. Actual routing/conservation and the
+paid/cross-cap estimates still have to be constructed from the original geometry.
+
+The full build is being accelerated by two independent late-target prebuild
+batches alongside the dependency-first pass. At most three baseline compiler
+jobs are scheduled; focused proof checks are separate. Every final target will
+still be checked by the full dependency pass and the final aggregate build.
