@@ -1,0 +1,17 @@
+$ lake env lean -DautoImplicit=false verification/ActualExcessiveLocalGraphReadback.lean
+'StickyKakeya4.ActualExcessiveLocalGraph.normalizedSlopeEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualExcessiveLocalGraph.normalized_directed_shell_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualExcessiveLocalGraph.normalized_source_front_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualExcessiveLocalGraph.angularShellContent_ne_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualExcessiveLocalGraph.sticky_deficit_exists_excessive_directed_seed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+exit=0

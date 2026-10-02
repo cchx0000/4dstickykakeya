@@ -3,6 +3,34 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Complete original-data excessive local graph seed
+
+`ActualExcessiveLocalGraph.sticky_deficit_exists_excessive_directed_seed`
+starts only from `IsStickyDatum ambient` and a strict dimension deficit on
+the original front. It chooses the dimension gap `eta`, then the packing
+slack `zeta=eta^2/64`, then one fixed positive original source. For arbitrarily
+small normalized radii `r`, it constructs an actual probability source and
+product-dominated directed physical graph with
+
+    graph mass >= r^(2-eta/4),
+    source <= r^(-eta/8) * volume.
+
+A single finite bound for both normalized slopes and intercepts is chosen
+before the fine scale. The graph has unit angular shell, correctly scaled
+residual at most r, and unchanged original collision-time window. Its source
+front lies in the actual fixed affine image of the original marked front;
+that image still has Hausdorff dimension below four. Original edge domination
+is explicit. No excessive graph, bounded-chart certificate, source cover, or
+normalized-density estimate is an input hypothesis.
+
+The two seed modules and two actual chart/dimension helpers passed strict
+compilation and all **18** standard-only declaration readbacks. The cumulative
+count is **840**; see
+[actual-excessive-local-graph-checkpoint.json](actual-excessive-local-graph-checkpoint.json).
+This completes the initial contradiction seed, not the remaining geometric
+contradiction. The graph is directed, the density loss is the stated fixed
+power, and no moving-affine-limit support transfer is inferred.
+
 ## Exact physical rescaling and normalized source law
 
 `ResidualAffineRescaling` proves the actual common affine coordinate change

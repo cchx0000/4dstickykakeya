@@ -1,0 +1,8 @@
+$ lake env lean -DautoImplicit=false verification/SourceChartCarrierLipschitzReadback.lean
+'StickyKakeya4.ActualSlopeSource.northGraphIntercept_sub_le_carrier_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualSlopeSource.actual_source_chart_dist_le_carrier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_STATUS: 0

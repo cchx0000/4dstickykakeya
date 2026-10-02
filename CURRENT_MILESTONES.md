@@ -58,7 +58,12 @@ localized dense block, with derived cubic normalized density cost
 original-data endpoint. The actual affine rescaling now preserves
 collision times, scales residuals exactly, constructs the normalized source
 probability with derived density, and preserves the normalized directed
-graph mass and product domination.
+graph mass and product domination. From the original sticky datum and
+strict front dimension deficit alone, these constructions now give arbitrarily
+fine directed physical graphs with mass at least `r^(2-eta/4)`, actual
+probability-source density at most `r^(-eta/8)`, and a fixed bounded chart.
+The original front deficit persists on each fixed affine image. The geometric
+contradiction from that actual seed remains unproved.
 
 ## 5. Finite occurrence-flow conservation
 
@@ -159,7 +164,7 @@ Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
 tracked build at `95e104e5` passed all **163** committed modules and **8,870** Lake
 jobs; the subsequent localization and exact physical rescaling modules have strict checks;
-there are now **822** checked new declarations with only standard logical
+there are now **840** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the

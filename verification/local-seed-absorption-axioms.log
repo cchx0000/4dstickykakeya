@@ -1,0 +1,29 @@
+$ export ELAN_HOME=/workspace/shared/lean-tools/elan
+$ export PATH="$ELAN_HOME/bin:$PATH"
+$ export XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+$ lake env lean -DautoImplicit=false verification/LocalSeedAbsorptionReadback.lean
+'StickyKakeya4.LocalSeedAbsorption.exists_rpow_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LocalSeedAbsorption.exists_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LocalSeedAbsorption.shell_density_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LocalSeedAbsorption.absorb_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LocalSeedAbsorption.tax_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LocalSeedAbsorption.absorb_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.LocalSeedAbsorption.exists_local_seed_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.LocalSeedAbsorption.exists_local_seed_threshold {eta C F cap : ℝ} (heta : 0 < eta) (hC : 0 < C)
+  (hF : 0 ≤ F) (hcap : 0 < cap) :
+  ∃ epsilon,
+    0 < epsilon ∧
+      epsilon ≤ cap ∧
+        ∀ (rho tau Z M cost zeta : ℝ),
+          0 < rho →
+            0 < tau →
+              tau ≤ 2 →
+                rho / tau ≤ epsilon →
+                  rho ^ (2 - eta / 2) < Z →
+                    Z / (C * tau ^ 2) ≤ M →
+                      zeta = eta ^ 2 / 64 →
+                        tau ^ (-zeta) ≤ (rho / tau) ^ (-(4 * zeta / eta)) →
+                          cost ≤ F * tau ^ (-zeta) → (rho / tau) ^ (2 - eta / 4) ≤ M ∧ cost ≤ (rho / tau) ^ (-eta / 8)
+exit=0

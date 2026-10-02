@@ -1,0 +1,5 @@
+$ export ELAN_HOME=/workspace/shared/lean-tools/elan
+$ export PATH="$ELAN_HOME/bin:$PATH"
+$ export XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+$ lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_local_seed_absorption.olean Theorems/Thm_StickyKakeya4_local_seed_absorption.lean
+exit=0

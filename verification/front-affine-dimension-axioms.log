@@ -1,0 +1,10 @@
+$ lake env lean -DautoImplicit=false verification/FrontAffineDimensionTransportReadback.lean
+'StickyKakeya4.ResidualAffineRescaling.affine_E4_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ResidualAffineRescaling.affine_E4_dimH_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ResidualAffineRescaling.normalized_front_dimH_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ResidualAffineRescaling.normalized_front_dimH_lt_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_STATUS: 0

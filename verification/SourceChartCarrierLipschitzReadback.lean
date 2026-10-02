@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_source_chart_carrier_lipschitz
+set_option autoImplicit false
+#print axioms StickyKakeya4.ActualSlopeSource.northGraphIntercept_sub_le_carrier_components
+#print axioms StickyKakeya4.ActualSlopeSource.actual_source_chart_dist_le_carrier

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_front_affine_dimension_transport
+set_option autoImplicit false
+#print axioms StickyKakeya4.ResidualAffineRescaling.affine_E4_lipschitz
+#print axioms StickyKakeya4.ResidualAffineRescaling.affine_E4_dimH_image
+#print axioms StickyKakeya4.ResidualAffineRescaling.normalized_front_dimH_eq
+#print axioms StickyKakeya4.ResidualAffineRescaling.normalized_front_dimH_lt_four

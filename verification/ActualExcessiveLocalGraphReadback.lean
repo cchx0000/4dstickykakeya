@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_actual_excessive_local_graph
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.ActualExcessiveLocalGraph.normalizedSlopeEquiv
+#print axioms StickyKakeya4.ActualExcessiveLocalGraph.normalized_directed_shell_support
+#print axioms StickyKakeya4.ActualExcessiveLocalGraph.normalized_source_front_support
+#print axioms StickyKakeya4.ActualExcessiveLocalGraph.angularShellContent_ne_top
+#print axioms StickyKakeya4.ActualExcessiveLocalGraph.sticky_deficit_exists_excessive_directed_seed

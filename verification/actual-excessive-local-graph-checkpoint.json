@@ -1,0 +1,29 @@
+{
+  "modules": [
+    {
+      "source": "Theorems/Thm_StickyKakeya4_local_seed_absorption.lean",
+      "public_declarations": 7,
+      "source_sha256": "8f74a717ed7d77776ad2e34b28f56e848fff8f15c18557e31559ff6f83462c83",
+      "readback": "verification/LocalSeedAbsorptionReadback.lean",
+      "strict_log": "verification/local-seed-absorption-strict.log",
+      "axiom_log": "verification/local-seed-absorption-axioms.log",
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true
+    },
+    {
+      "source": "Theorems/Thm_StickyKakeya4_actual_excessive_local_graph.lean",
+      "public_declarations": 5,
+      "source_sha256": "956c6490b1a11490879be1557dce800f8a2d52a6d991dd916dfd8d9d9f0db94c",
+      "readback": "verification/ActualExcessiveLocalGraphReadback.lean",
+      "strict_log": "verification/actual-excessive-local-graph-strict.log",
+      "axiom_log": "verification/actual-excessive-local-graph-axioms.log",
+      "strict_exit": 0,
+      "axiom_exit": 0,
+      "standard_only": true
+    }
+  ],
+  "total_public_declarations": 12,
+  "entrypoint": "StickyKakeya4.ActualExcessiveLocalGraph.sticky_deficit_exists_excessive_directed_seed",
+  "scope": "Actual probability source and directed normalized physical graph seed from IsStickyDatum and strict sub-four front dimension. Source and positive finite chart bound are fixed before the requested small radius. Graph mass at least r^(2-eta/4); source density at most r^(-eta/8) times volume. Actual affine-front support retains dimH<4. No unit support, graph symmetry, arbitrary subpower density, paid estimate, or moving-limit support transfer claimed."
+}

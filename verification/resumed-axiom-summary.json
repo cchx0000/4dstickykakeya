@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T10:43:28.645833+00:00",
-  "previous_checkpoint": "16066d983f7d05efb6b688d904e97796c581fc24",
+  "generated_at_utc": "2026-10-02T11:13:12.976658+00:00",
+  "previous_checkpoint": "fdc15270b247dac121758a624cf4b5694277b1db",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 822,
+  "total_new_checked_declarations": 840,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -54,7 +54,11 @@
     "verification/residual-phase-localization-axioms.log": 40,
     "verification/actual-shell-graph-axioms.log": 12,
     "verification/actual-residual-phase-localization-axioms.log": 13,
-    "verification/residual-affine-rescaling-readback.log": 42
+    "verification/residual-affine-rescaling-readback.log": 42,
+    "verification/actual-excessive-local-graph-axioms.log": 5,
+    "verification/local-seed-absorption-axioms.log": 7,
+    "verification/front-affine-dimension-axioms.log": 4,
+    "verification/source-chart-carrier-lipschitz-axioms.log": 2
   },
   "checks": [
     {
@@ -6631,6 +6635,168 @@
         "Quot.sound"
       ],
       "log": "verification/residual-affine-rescaling-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualExcessiveLocalGraph.normalizedSlopeEquiv",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-excessive-local-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualExcessiveLocalGraph.normalized_directed_shell_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-excessive-local-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualExcessiveLocalGraph.normalized_source_front_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-excessive-local-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualExcessiveLocalGraph.angularShellContent_ne_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-excessive-local-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualExcessiveLocalGraph.sticky_deficit_exists_excessive_directed_seed",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-excessive-local-graph-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LocalSeedAbsorption.exists_rpow_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/local-seed-absorption-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LocalSeedAbsorption.exists_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/local-seed-absorption-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LocalSeedAbsorption.shell_density_lower_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/local-seed-absorption-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LocalSeedAbsorption.absorb_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/local-seed-absorption-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LocalSeedAbsorption.tax_exponent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/local-seed-absorption-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LocalSeedAbsorption.absorb_cost",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/local-seed-absorption-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.LocalSeedAbsorption.exists_local_seed_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/local-seed-absorption-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.affine_E4_lipschitz",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/front-affine-dimension-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.affine_E4_dimH_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/front-affine-dimension-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_front_dimH_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/front-affine-dimension-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualAffineRescaling.normalized_front_dimH_lt_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/front-affine-dimension-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.northGraphIntercept_sub_le_carrier_components",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/source-chart-carrier-lipschitz-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualSlopeSource.actual_source_chart_dist_le_carrier",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/source-chart-carrier-lipschitz-axioms.log"
     }
   ],
   "source_sha256": {
@@ -6684,7 +6850,11 @@
     "Theorems/Thm_StickyKakeya4_residual_phase_localization.lean": "ca620be2df688715516dd07f969f1e03b5707d2d1c9948b68bd98fa814710efc",
     "Theorems/Thm_StickyKakeya4_actual_shell_graph.lean": "785261d9047c0cc7b0b4b094e632f94282289f3559e33f256c96162d2beadca9",
     "Theorems/Thm_StickyKakeya4_actual_residual_phase_localization.lean": "eb18be867ad176872ebbddf8cba8967e9e914af6ba625b9e3d945e98d286a0f6",
-    "Theorems/Thm_StickyKakeya4_residual_affine_rescaling.lean": "58bdcc443eebec93bf924fe90d8f1daa62d76dee2d9a5a0beea22d47497b007d"
+    "Theorems/Thm_StickyKakeya4_residual_affine_rescaling.lean": "58bdcc443eebec93bf924fe90d8f1daa62d76dee2d9a5a0beea22d47497b007d",
+    "Theorems/Thm_StickyKakeya4_actual_excessive_local_graph.lean": "956c6490b1a11490879be1557dce800f8a2d52a6d991dd916dfd8d9d9f0db94c",
+    "Theorems/Thm_StickyKakeya4_local_seed_absorption.lean": "8f74a717ed7d77776ad2e34b28f56e848fff8f15c18557e31559ff6f83462c83",
+    "Theorems/Thm_StickyKakeya4_front_affine_dimension_transport.lean": "7a990eafd344971832a264f3c7184781a084573d46f715517164240b9825caa2",
+    "Theorems/Thm_StickyKakeya4_source_chart_carrier_lipschitz.lean": "759fbed77884a411ccad9dad1cfe87073372095938952bd12f319cce096ad0c8"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -6710,5 +6880,5 @@
       "StickyKakeya4.sticky_kakeya_four_dimensional"
     ]
   },
-  "resumed_phase_declaration_count": 731
+  "resumed_phase_declaration_count": 749
 }

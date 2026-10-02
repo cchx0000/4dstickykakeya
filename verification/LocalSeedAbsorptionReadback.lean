@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_local_seed_absorption
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.LocalSeedAbsorption.exists_rpow_threshold
+#print axioms StickyKakeya4.LocalSeedAbsorption.exists_threshold
+#print axioms StickyKakeya4.LocalSeedAbsorption.shell_density_lower_bound
+#print axioms StickyKakeya4.LocalSeedAbsorption.absorb_density
+#print axioms StickyKakeya4.LocalSeedAbsorption.tax_exponent
+#print axioms StickyKakeya4.LocalSeedAbsorption.absorb_cost
+#print axioms StickyKakeya4.LocalSeedAbsorption.exists_local_seed_threshold
+
+#check StickyKakeya4.LocalSeedAbsorption.exists_local_seed_threshold
