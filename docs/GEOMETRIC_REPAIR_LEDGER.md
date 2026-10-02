@@ -118,7 +118,45 @@ satisfies `E=int e >= c B q Q`, split at `N=sqrt(B)`.
   at most `6/sqrt(B)`, provided the actual conditional source-index law has the
   stated weights
 
-This is a sharper candidate than bare support growth from negligible edge
-weight. The local split/probability estimates are being formalized. Their
+This is sharper than bare support growth from negligible edge weight.
+The local split/probability estimates are now strictly checked in
+`FourDistinctSources` and `WeightedGrowthStarSplit`. Their
 integration into repeated geometric routing, including the common-target
 return, is not yet established.
+
+## Root-error test for finer bush returns
+
+The checked no-Frostman consequence now gives uniform *qualitative* small-bush
+mass decay over bounded time windows. It supplies no power-law rate.
+
+A finer auxiliary bush does not automatically improve the inherited old pair's
+physical collision error. If the old edge has error `r_0`, merging or enlarging
+along it retains an error term
+
+```text
+O(R + delta_edge + r_0),
+```
+
+not `O(R + delta_edge + rho_aux)` merely because the new bush was constructed
+at a later failure scale `rho_aux`. Applying a local lemma with its collision
+thickness relabeled as `rho_aux` therefore requires a separate restriction or
+identity proving that the same original pairs satisfy the finer bound. Fresh
+probability labels, source-cap refinement, and exact marginal conservation do
+not establish this geometric improvement.
+
+This prevents an immediate use of qualitative small-bush decay to pay a
+root-scale quadratic budget: the required small-bush radius may be much below
+`r_0`. The issue is distinct from whether `r_0` is smaller than a terminal
+source-cap radius such as `r_0^(2/3)`. Any repaired return must keep the old
+error explicit or prove why the retained old pairs actually improve it.
+
+
+## Full vector-family escape now checked
+
+Original normalized open-cap condition (340) now implies an actual supported
+Frostman probability through the whole-family physical ball estimate and an
+explicit compactness/Portmanteau argument. This covers varying numbers of
+bushes and total masses tending to zero. It does not assume a fixed positive
+mass in any individual bush. The unresolved geometric task is to obtain the
+synchronized vector condition or route its coherent hairbrush failure with
+all inherited old errors and weights intact.

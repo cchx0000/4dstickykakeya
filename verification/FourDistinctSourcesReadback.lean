@@ -1,0 +1,78 @@
+import Theorems.Thm_StickyKakeya4_four_distinct_sources
+
+/-! Strict readback: genuine finite product law, fixed inherited source, normalized weights. -/
+
+#print StickyKakeya4.FourDistinctSources.FourDistinct
+#print StickyKakeya4.FourDistinctSources.tripleExpectation
+#print StickyKakeya4.FourDistinctSources.tripleProbability
+#print StickyKakeya4.FourDistinctSources.fourDistinctProbability
+#print StickyKakeya4.FourDistinctSources.normalizedWeights
+
+#check StickyKakeya4.FourDistinctSources.tripleExpectation_one
+#print axioms StickyKakeya4.FourDistinctSources.tripleExpectation_one
+
+#check StickyKakeya4.FourDistinctSources.tripleExpectation_add
+#print axioms StickyKakeya4.FourDistinctSources.tripleExpectation_add
+
+#check StickyKakeya4.FourDistinctSources.tripleExpectation_mono
+#print axioms StickyKakeya4.FourDistinctSources.tripleExpectation_mono
+
+#check StickyKakeya4.FourDistinctSources.tripleProbability_rectangle
+#print axioms StickyKakeya4.FourDistinctSources.tripleProbability_rectangle
+
+#check StickyKakeya4.FourDistinctSources.inherited_collision_first
+#print axioms StickyKakeya4.FourDistinctSources.inherited_collision_first
+
+#check StickyKakeya4.FourDistinctSources.inherited_collision_second
+#print axioms StickyKakeya4.FourDistinctSources.inherited_collision_second
+
+#check StickyKakeya4.FourDistinctSources.inherited_collision_third
+#print axioms StickyKakeya4.FourDistinctSources.inherited_collision_third
+
+#check StickyKakeya4.FourDistinctSources.fresh_collision_first_second
+#print axioms StickyKakeya4.FourDistinctSources.fresh_collision_first_second
+
+#check StickyKakeya4.FourDistinctSources.fresh_collision_first_third
+#print axioms StickyKakeya4.FourDistinctSources.fresh_collision_first_third
+
+#check StickyKakeya4.FourDistinctSources.fresh_collision_second_third
+#print axioms StickyKakeya4.FourDistinctSources.fresh_collision_second_third
+
+#check StickyKakeya4.FourDistinctSources.tripleProbability_nonneg
+#print axioms StickyKakeya4.FourDistinctSources.tripleProbability_nonneg
+
+#check StickyKakeya4.FourDistinctSources.tripleProbability_le_one
+#print axioms StickyKakeya4.FourDistinctSources.tripleProbability_le_one
+
+#check StickyKakeya4.FourDistinctSources.squared_atoms_le
+#print axioms StickyKakeya4.FourDistinctSources.squared_atoms_le
+
+#check StickyKakeya4.FourDistinctSources.four_distinct_probability_ge
+#print axioms StickyKakeya4.FourDistinctSources.four_distinct_probability_ge
+
+#check StickyKakeya4.FourDistinctSources.four_distinct_probability_ge_half
+#print axioms StickyKakeya4.FourDistinctSources.four_distinct_probability_ge_half
+
+#check StickyKakeya4.FourDistinctSources.normalizedWeights_nonneg
+#print axioms StickyKakeya4.FourDistinctSources.normalizedWeights_nonneg
+
+#check StickyKakeya4.FourDistinctSources.normalizedWeights_sum
+#print axioms StickyKakeya4.FourDistinctSources.normalizedWeights_sum
+
+#check StickyKakeya4.FourDistinctSources.normalizedWeights_atom_le
+#print axioms StickyKakeya4.FourDistinctSources.normalizedWeights_atom_le
+
+#check StickyKakeya4.FourDistinctSources.weighted_four_distinct_probability_ge
+#print axioms StickyKakeya4.FourDistinctSources.weighted_four_distinct_probability_ge
+
+#check StickyKakeya4.FourDistinctSources.weighted_four_distinct_probability_ge_half
+#print axioms StickyKakeya4.FourDistinctSources.weighted_four_distinct_probability_ge_half
+
+#check StickyKakeya4.FourDistinctSources.normalizedWeights_toReal
+#print axioms StickyKakeya4.FourDistinctSources.normalizedWeights_toReal
+
+#check StickyKakeya4.FourDistinctSources.ennreal_weighted_four_distinct_probability_ge
+#print axioms StickyKakeya4.FourDistinctSources.ennreal_weighted_four_distinct_probability_ge
+
+#check StickyKakeya4.FourDistinctSources.ennreal_weighted_four_distinct_probability_ge_half
+#print axioms StickyKakeya4.FourDistinctSources.ennreal_weighted_four_distinct_probability_ge_half

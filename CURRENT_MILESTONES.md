@@ -77,7 +77,10 @@ success and quantitative paid/cross estimates remain separate.
 Their global geometric use still requires the designated-flag comparison and
 root-weighted summation/termination, as explained in the two new research notes.
 Still open: the actual geometric routing kernels and cuts, their conservation
-and root/support invariants, stopping schedule, and paid/cross-cap bounds. None is replaced by a hidden capacity field.
+and root/support invariants, stopping schedule, and paid/cross-cap bounds.
+The finite-index probability and weighted growth/star split are now proved;
+actual common-target occurrence kernels and subsequent geometric routing are
+being connected. No missing bound is replaced by a hidden capacity field.
 
 ## 7. Relative residual / Frostman alternative
 
@@ -98,7 +101,10 @@ from the literal residual bounds on that constructed source. A further genuine g
 individual shrinking bushes force full front dimension. This does not assume
 a fixed mass in each member of a merely positive-total-mass family. The geometric
 residual power estimate itself remains open. No slicing axiom or assumed
-measurable Frostman kernel is used.
+measurable Frostman kernel is used. The full vector-family escape is now also
+checked from original normalized open-cap condition (340), including genuine
+compactness and exact support. Obtaining that synchronized vector bound or
+routing its failure remains geometric work.
 
 ## 8. Original compact marked closure and axiom audit
 

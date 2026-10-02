@@ -2,5 +2,12 @@ COMMAND: lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm
 Theorems/Thm_StickyKakeya4_positive_bush_frostman.lean:212:49: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
 
 Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Theorems/Thm_StickyKakeya4_positive_bush_frostman.lean:389:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
 
 EXIT_CODE: 0

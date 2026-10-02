@@ -1,0 +1,50 @@
+$ lake env lean -DautoImplicit=false verification/VectorBushFrostmanReadback.lean
+StickyKakeya4.VectorBushFrostman.familyFrontProbability_finite_scale_bound {n : ℕ}
+  (σ : Fin n → MeasureTheory.Measure StickyKakeya4.E3) [∀ (i : Fin n), MeasureTheory.IsFiniteMeasure (σ i)]
+  (hq : 0 < (MeasureTheory.Measure.sum σ) Set.univ) (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b)
+  (c : Fin n → StickyKakeya4.E3) (s₀ : Fin n → ℝ) (u v ε ρ g K d : ℝ) (C : ENNReal) (huv : u < v) (hε : ε ≤ ρ)
+  (hg : 0 < g) (hK : 2 / g ≤ K) (hK1 : 1 ≤ K) (hd : 0 ≤ d)
+  (hbush : ∀ (i : Fin n), ∀ᵐ (a : StickyKakeya4.E3) ∂σ i, ‖b a + s₀ i • a - c i‖ ≤ ε)
+  (hgap : ∀ (i : Fin n), ∀ s ∈ Set.Icc u v, g ≤ |s - s₀ i|)
+  (hvector :
+    ∀ (y : StickyKakeya4.E3),
+      ∀ s ∈ Set.Icc u v,
+        ∀ (R : ℝ),
+          ρ ≤ R →
+            R ≤ 1 →
+              ∑' (i : Fin n),
+                  (σ i) (Metric.closedBall (StickyKakeya4.VectorBushFrostman.vectorCenter (c i) y (s₀ i) s) R) ≤
+                C * (MeasureTheory.Measure.sum σ) Set.univ * ENNReal.ofReal R ^ d)
+  (x : StickyKakeya4.E4) (r : ℝ) (hr : 0 < r) (hρr : ρ ≤ r) :
+  (StickyKakeya4.VectorBushFrostman.familyFrontProbability σ b u v) (Metric.ball x r) ≤
+    StickyKakeya4.VectorBushFrostman.familyFrostmanConstant u v K d C * ENNReal.ofReal r ^ (d + 1)
+'StickyKakeya4.VectorBushFrostman.vectorCenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.VectorBushFrostman.source_mem_vector_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.VectorBushFrostman.spacetimeLift_horizontalProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.VectorBushFrostman.bush_ball_preimage_le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.VectorBushFrostman.bush_ball_preimage_le_scaled_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.VectorBushFrostman.family_physical_ball_mass_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.VectorBushFrostman.familyFrontProbability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.VectorBushFrostman.familyFrontProbability_isProbability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.VectorBushFrostman.familyFrontProbability_ball_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.VectorBushFrostman.familyFrontProbability_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.VectorBushFrostman.familyFrostmanConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.VectorBushFrostman.familyFrostmanConstant_ne_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.VectorBushFrostman.familyFrontProbability_finite_scale_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_STATUS: 0

@@ -1,0 +1,122 @@
+COMMAND: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH lake env lean -DautoImplicit=false verification/FourDistinctSourcesReadback.lean
+def StickyKakeya4.FourDistinctSources.FourDistinct.{u_1} : {ι : Type u_1} → ι → ι → ι → ι → Prop :=
+fun {ι} i j k l => i ≠ j ∧ i ≠ k ∧ i ≠ l ∧ j ≠ k ∧ j ≠ l ∧ k ≠ l
+def StickyKakeya4.FourDistinctSources.tripleExpectation.{u_1} : {ι : Type u_1} →
+  [Fintype ι] → (ι → ℝ) → (ι → ι → ι → ℝ) → ℝ :=
+fun {ι} [Fintype ι] p f => ∑ j, ∑ k, ∑ l, p j * p k * p l * f j k l
+def StickyKakeya4.FourDistinctSources.tripleProbability.{u_1} : {ι : Type u_1} →
+  [Fintype ι] → (ι → ℝ) → (ι → ι → ι → Prop) → ℝ :=
+fun {ι} [Fintype ι] p E => StickyKakeya4.FourDistinctSources.tripleExpectation p fun j k l => if E j k l then 1 else 0
+def StickyKakeya4.FourDistinctSources.fourDistinctProbability.{u_1} : {ι : Type u_1} → [Fintype ι] → (ι → ℝ) → ι → ℝ :=
+fun {ι} [Fintype ι] p i =>
+  StickyKakeya4.FourDistinctSources.tripleProbability p (StickyKakeya4.FourDistinctSources.FourDistinct i)
+def StickyKakeya4.FourDistinctSources.normalizedWeights.{u_1} : {ι : Type u_1} → [Fintype ι] → (ι → ℝ) → ι → ℝ :=
+fun {ι} [Fintype ι] w j => w j / ∑ k, w k
+StickyKakeya4.FourDistinctSources.tripleExpectation_one.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∑ j, p j = 1) : (StickyKakeya4.FourDistinctSources.tripleExpectation p fun x x_1 x_2 => 1) = 1
+'StickyKakeya4.FourDistinctSources.tripleExpectation_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.tripleExpectation_add.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (f g : ι → ι → ι → ℝ) :
+  (StickyKakeya4.FourDistinctSources.tripleExpectation p fun j k l => f j k l + g j k l) =
+    StickyKakeya4.FourDistinctSources.tripleExpectation p f + StickyKakeya4.FourDistinctSources.tripleExpectation p g
+'StickyKakeya4.FourDistinctSources.tripleExpectation_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.tripleExpectation_mono.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∀ (j : ι), 0 ≤ p j) (f g : ι → ι → ι → ℝ) (h : ∀ (j k l : ι), f j k l ≤ g j k l) :
+  StickyKakeya4.FourDistinctSources.tripleExpectation p f ≤ StickyKakeya4.FourDistinctSources.tripleExpectation p g
+'StickyKakeya4.FourDistinctSources.tripleExpectation_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.tripleProbability_rectangle.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (A B C : ι → Prop) :
+  (StickyKakeya4.FourDistinctSources.tripleProbability p fun j k l => A j ∧ B k ∧ C l) =
+    ((∑ j, if A j then p j else 0) * ∑ k, if B k then p k else 0) * ∑ l, if C l then p l else 0
+'StickyKakeya4.FourDistinctSources.tripleProbability_rectangle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.inherited_collision_first.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∑ j, p j = 1) (i : ι) : (StickyKakeya4.FourDistinctSources.tripleProbability p fun j x x_1 => i = j) = p i
+'StickyKakeya4.FourDistinctSources.inherited_collision_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.inherited_collision_second.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∑ j, p j = 1) (i : ι) : (StickyKakeya4.FourDistinctSources.tripleProbability p fun x k x_1 => i = k) = p i
+'StickyKakeya4.FourDistinctSources.inherited_collision_second' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.inherited_collision_third.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∑ j, p j = 1) (i : ι) : (StickyKakeya4.FourDistinctSources.tripleProbability p fun x x_1 l => i = l) = p i
+'StickyKakeya4.FourDistinctSources.inherited_collision_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.fresh_collision_first_second.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∑ j, p j = 1) : (StickyKakeya4.FourDistinctSources.tripleProbability p fun j k x => j = k) = ∑ j, p j * p j
+'StickyKakeya4.FourDistinctSources.fresh_collision_first_second' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.fresh_collision_first_third.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∑ j, p j = 1) : (StickyKakeya4.FourDistinctSources.tripleProbability p fun j x l => j = l) = ∑ j, p j * p j
+'StickyKakeya4.FourDistinctSources.fresh_collision_first_third' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.fresh_collision_second_third.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∑ j, p j = 1) : (StickyKakeya4.FourDistinctSources.tripleProbability p fun x k l => k = l) = ∑ j, p j * p j
+'StickyKakeya4.FourDistinctSources.fresh_collision_second_third' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.tripleProbability_nonneg.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∀ (j : ι), 0 ≤ p j) (E : ι → ι → ι → Prop) : 0 ≤ StickyKakeya4.FourDistinctSources.tripleProbability p E
+'StickyKakeya4.FourDistinctSources.tripleProbability_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.tripleProbability_le_one.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∀ (j : ι), 0 ≤ p j) (hsum : ∑ j, p j = 1) (E : ι → ι → ι → Prop) :
+  StickyKakeya4.FourDistinctSources.tripleProbability p E ≤ 1
+'StickyKakeya4.FourDistinctSources.tripleProbability_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.squared_atoms_le.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∀ (j : ι), 0 ≤ p j) (hsum : ∑ j, p j = 1) (a : ℝ) (hatom : ∀ (j : ι), p j ≤ a) : ∑ j, p j * p j ≤ a
+'StickyKakeya4.FourDistinctSources.squared_atoms_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.four_distinct_probability_ge.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∀ (j : ι), 0 ≤ p j) (hsum : ∑ j, p j = 1) (a : ℝ) (hatom : ∀ (j : ι), p j ≤ a) (i : ι) :
+  1 - 6 * a ≤ StickyKakeya4.FourDistinctSources.fourDistinctProbability p i
+'StickyKakeya4.FourDistinctSources.four_distinct_probability_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.four_distinct_probability_ge_half.{u_1} {ι : Type u_1} [Fintype ι] (p : ι → ℝ)
+  (hp : ∀ (j : ι), 0 ≤ p j) (hsum : ∑ j, p j = 1) (a : ℝ) (hatom : ∀ (j : ι), p j ≤ a) (ha : a ≤ 1 / 12) (i : ι) :
+  1 / 2 ≤ StickyKakeya4.FourDistinctSources.fourDistinctProbability p i
+'StickyKakeya4.FourDistinctSources.four_distinct_probability_ge_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.normalizedWeights_nonneg.{u_1} {ι : Type u_1} [Fintype ι] (w : ι → ℝ)
+  (hw : ∀ (j : ι), 0 ≤ w j) (j : ι) : 0 ≤ StickyKakeya4.FourDistinctSources.normalizedWeights w j
+'StickyKakeya4.FourDistinctSources.normalizedWeights_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.normalizedWeights_sum.{u_1} {ι : Type u_1} [Fintype ι] (w : ι → ℝ)
+  (hN : 0 < ∑ j, w j) : ∑ j, StickyKakeya4.FourDistinctSources.normalizedWeights w j = 1
+'StickyKakeya4.FourDistinctSources.normalizedWeights_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.normalizedWeights_atom_le.{u_1} {ι : Type u_1} [Fintype ι] (w : ι → ℝ)
+  (hw : ∀ (j : ι), w j ≤ 1) (K : ℝ) (hK : 0 < K) (hN : K ≤ ∑ j, w j) (j : ι) :
+  StickyKakeya4.FourDistinctSources.normalizedWeights w j ≤ 1 / K
+'StickyKakeya4.FourDistinctSources.normalizedWeights_atom_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.weighted_four_distinct_probability_ge.{u_1} {ι : Type u_1} [Fintype ι] (w : ι → ℝ)
+  (hw0 : ∀ (j : ι), 0 ≤ w j) (hw1 : ∀ (j : ι), w j ≤ 1) (K : ℝ) (hK : 0 < K) (hN : K ≤ ∑ j, w j) (i : ι) :
+  1 - 6 / K ≤
+    StickyKakeya4.FourDistinctSources.fourDistinctProbability (StickyKakeya4.FourDistinctSources.normalizedWeights w) i
+'StickyKakeya4.FourDistinctSources.weighted_four_distinct_probability_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.weighted_four_distinct_probability_ge_half.{u_1} {ι : Type u_1} [Fintype ι]
+  (w : ι → ℝ) (hw0 : ∀ (j : ι), 0 ≤ w j) (hw1 : ∀ (j : ι), w j ≤ 1) (K : ℝ) (hK : 12 ≤ K) (hN : K ≤ ∑ j, w j) (i : ι) :
+  1 / 2 ≤
+    StickyKakeya4.FourDistinctSources.fourDistinctProbability (StickyKakeya4.FourDistinctSources.normalizedWeights w) i
+'StickyKakeya4.FourDistinctSources.weighted_four_distinct_probability_ge_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.normalizedWeights_toReal.{u_1} {ι : Type u_1} [Fintype ι] (w : ι → ENNReal)
+  (hw : ∀ (j : ι), w j ≤ 1) (j : ι) :
+  StickyKakeya4.FourDistinctSources.normalizedWeights (fun k => (w k).toReal) j = (w j / ∑ k, w k).toReal
+'StickyKakeya4.FourDistinctSources.normalizedWeights_toReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+StickyKakeya4.FourDistinctSources.ennreal_weighted_four_distinct_probability_ge.{u_1} {ι : Type u_1} [Fintype ι]
+  (w : ι → ENNReal) (hw : ∀ (j : ι), w j ≤ 1) (K : ℝ) (hK : 0 < K) (hN : ENNReal.ofReal K ≤ ∑ j, w j) (i : ι) :
+  1 - 6 / K ≤ StickyKakeya4.FourDistinctSources.fourDistinctProbability (fun j => (w j / ∑ k, w k).toReal) i
+'StickyKakeya4.FourDistinctSources.ennreal_weighted_four_distinct_probability_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.FourDistinctSources.ennreal_weighted_four_distinct_probability_ge_half.{u_1} {ι : Type u_1} [Fintype ι]
+  (w : ι → ENNReal) (hw : ∀ (j : ι), w j ≤ 1) (K : ℝ) (hK : 12 ≤ K) (hN : ENNReal.ofReal K ≤ ∑ j, w j) (i : ι) :
+  1 / 2 ≤ StickyKakeya4.FourDistinctSources.fourDistinctProbability (fun j => (w j / ∑ k, w k).toReal) i
+'StickyKakeya4.FourDistinctSources.ennreal_weighted_four_distinct_probability_ge_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+CONFIRMED_EXIT: 0

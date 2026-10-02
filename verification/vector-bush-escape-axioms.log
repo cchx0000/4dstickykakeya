@@ -1,0 +1,91 @@
+$ lake env lean -DautoImplicit=false verification/VectorBushEscapeReadback.lean
+StickyKakeya4.VectorBushEscape.closed_cap_sum_le_of_open_cap_sum {m : ℕ}
+  (σ : Fin m → MeasureTheory.Measure StickyKakeya4.E3) (z : Fin m → StickyKakeya4.E3) (ρ R d : ℝ) (C : ENNReal)
+  (hρ : 0 < ρ) (hd : 0 ≤ d) (hρR : ρ ≤ R) (hR1 : R ≤ 1)
+  (hopen :
+    ∀ (T : ℝ),
+      ρ ≤ T →
+        T ≤ 1 →
+          ∑' (i : Fin m), (σ i) (Metric.ball (z i) T) ≤
+            C * (MeasureTheory.Measure.sum σ) Set.univ * ENNReal.ofReal T ^ d) :
+  ∑' (i : Fin m), (σ i) (Metric.closedBall (z i) R) ≤
+    max C 1 * 2 ^ d * (MeasureTheory.Measure.sum σ) Set.univ * ENNReal.ofReal R ^ d
+StickyKakeya4.VectorBushEscape.exists_front_frostman_of_vector_families (ambient : Set StickyKakeya4.MarkedLine)
+  (hcompact : IsCompact ambient) (N : ℕ → ℕ) (σ : (n : ℕ) → Fin (N n) → MeasureTheory.Measure StickyKakeya4.E3)
+  [∀ (n : ℕ) (i : Fin (N n)), MeasureTheory.IsFiniteMeasure (σ n i)]
+  (hq : ∀ (n : ℕ), 0 < (MeasureTheory.Measure.sum (σ n)) Set.univ) (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (hb : Measurable b) (c : (n : ℕ) → Fin (N n) → StickyKakeya4.E3) (s₀ : (n : ℕ) → Fin (N n) → ℝ) (u v g K d : ℝ)
+  (C : ENNReal) (huv : u < v) (hg : 0 < g) (hK : 2 / g ≤ K) (hK1 : 1 ≤ K) (hd : 0 < d) (hC : C ≠ ⊤) (ε ρ : ℕ → ℝ)
+  (hερ : ∀ (n : ℕ), ε n ≤ ρ n) (hρ : Filter.Tendsto ρ Filter.atTop (nhds 0))
+  (hbush : ∀ (n : ℕ) (i : Fin (N n)), ∀ᵐ (a : StickyKakeya4.E3) ∂σ n i, ‖b a + s₀ n i • a - c n i‖ ≤ ε n)
+  (hgap : ∀ (n : ℕ) (i : Fin (N n)), ∀ s ∈ Set.Icc u v, g ≤ |s - s₀ n i|)
+  (hsupport :
+    ∀ (n : ℕ) (i : Fin (N n)),
+      ∀ᵐ (a : StickyKakeya4.E3) ∂σ n i,
+        ∀ s ∈ Set.Icc u v,
+          StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient)
+  (hvector :
+    ∀ (n : ℕ) (y : StickyKakeya4.E3),
+      ∀ s ∈ Set.Icc u v,
+        ∀ (R : ℝ),
+          ρ n ≤ R →
+            R ≤ 1 →
+              ∑' (i : Fin (N n)),
+                  (σ n i) (Metric.closedBall (StickyKakeya4.VectorBushFrostman.vectorCenter (c n i) y (s₀ n i) s) R) ≤
+                C * (MeasureTheory.Measure.sum (σ n)) Set.univ * ENNReal.ofReal R ^ d) :
+  ∃ μ,
+    MeasureTheory.IsProbabilityMeasure μ ∧
+      μ (StickyKakeya4.unitFront ambient)ᶜ = 0 ∧
+        ∃ D,
+          D ≠ ⊤ ∧
+            (∀ (x : StickyKakeya4.E4) (r : ℝ), 0 < r → μ (Metric.ball x r) ≤ D * ENNReal.ofReal r ^ (d + 1)) ∧
+              ENNReal.ofReal (d + 1) ≤ dimH (StickyKakeya4.unitFront ambient)
+StickyKakeya4.VectorBushEscape.exists_front_frostman_of_open_vector_families (ambient : Set StickyKakeya4.MarkedLine)
+  (hcompact : IsCompact ambient) (N : ℕ → ℕ) (σ : (n : ℕ) → Fin (N n) → MeasureTheory.Measure StickyKakeya4.E3)
+  [∀ (n : ℕ) (i : Fin (N n)), MeasureTheory.IsFiniteMeasure (σ n i)]
+  (hq : ∀ (n : ℕ), 0 < (MeasureTheory.Measure.sum (σ n)) Set.univ) (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (hb : Measurable b) (c : (n : ℕ) → Fin (N n) → StickyKakeya4.E3) (s₀ : (n : ℕ) → Fin (N n) → ℝ) (u v g K d : ℝ)
+  (C : ENNReal) (huv : u < v) (hg : 0 < g) (hK : 2 / g ≤ K) (hK1 : 1 ≤ K) (hd : 0 < d) (hC : C ≠ ⊤) (ε ρ : ℕ → ℝ)
+  (hερ : ∀ (n : ℕ), ε n ≤ ρ n) (hρpos : ∀ (n : ℕ), 0 < ρ n) (hρ : Filter.Tendsto ρ Filter.atTop (nhds 0))
+  (hbush : ∀ (n : ℕ) (i : Fin (N n)), ∀ᵐ (a : StickyKakeya4.E3) ∂σ n i, ‖b a + s₀ n i • a - c n i‖ ≤ ε n)
+  (hgap : ∀ (n : ℕ) (i : Fin (N n)), ∀ s ∈ Set.Icc u v, g ≤ |s - s₀ n i|)
+  (hsupport :
+    ∀ (n : ℕ) (i : Fin (N n)),
+      ∀ᵐ (a : StickyKakeya4.E3) ∂σ n i,
+        ∀ s ∈ Set.Icc u v,
+          StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient)
+  (hvector :
+    ∀ (n : ℕ) (y : StickyKakeya4.E3),
+      ∀ s ∈ Set.Icc u v,
+        ∀ (R : ℝ),
+          ρ n ≤ R →
+            R ≤ 1 →
+              ((MeasureTheory.Measure.sum (σ n)) Set.univ)⁻¹ *
+                  ∑' (i : Fin (N n)),
+                    (σ n i) (Metric.ball (StickyKakeya4.VectorBushFrostman.vectorCenter (c n i) y (s₀ n i) s) R) ≤
+                C * ENNReal.ofReal R ^ d) :
+  ∃ μ,
+    MeasureTheory.IsProbabilityMeasure μ ∧
+      μ (StickyKakeya4.unitFront ambient)ᶜ = 0 ∧
+        ∃ D,
+          D ≠ ⊤ ∧
+            (∀ (x : StickyKakeya4.E4) (r : ℝ), 0 < r → μ (Metric.ball x r) ≤ D * ENNReal.ofReal r ^ (d + 1)) ∧
+              ENNReal.ofReal (d + 1) ≤ dimH (StickyKakeya4.unitFront ambient)
+'StickyKakeya4.VectorBushEscape.closed_cap_sum_le_of_open_cap_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.VectorBushEscape.exists_front_frostman_of_vector_families' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.VectorBushEscape.exists_front_frostman_of_open_vector_families' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.VectorBushEscape.normalized_open_cap_sum_le_iff {m : ℕ}
+  (σ : Fin m → MeasureTheory.Measure StickyKakeya4.E3) [∀ (i : Fin m), MeasureTheory.IsFiniteMeasure (σ i)]
+  (hq : 0 < (MeasureTheory.Measure.sum σ) Set.univ) (z : Fin m → StickyKakeya4.E3) (R d : ℝ) (C : ENNReal) :
+  ((MeasureTheory.Measure.sum σ) Set.univ)⁻¹ * ∑' (i : Fin m), (σ i) (Metric.ball (z i) R) ≤ C * ENNReal.ofReal R ^ d ↔
+    ∑' (i : Fin m), (σ i) (Metric.ball (z i) R) ≤ C * (MeasureTheory.Measure.sum σ) Set.univ * ENNReal.ofReal R ^ d
+'StickyKakeya4.VectorBushEscape.normalized_open_cap_sum_le_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Exit code: 0

@@ -3,6 +3,32 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Full vector-family and growth/star checkpoint
+
+The full original Theorem 8.11 analytic escape is now checked in its literal
+normalized **open-cap** formulation. `VectorBushFrostman` proves the physical
+ball estimate for the entire weighted family with exact cancellation of its
+total mass. `CompactFrontLimit` constructs an actual supported weak limit by
+Prokhorov and Portmanteau. `VectorBushEscape` combines them to produce a
+supported `(d+1)`-Frostman probability and `d+1 <= dimH`.
+
+Family sizes may vary, and their positive total masses may tend to zero. There
+is no individual-bush lower mass assumption. The synchronized vector cap
+inequality at one common physical `(y,s)` remains the geometric premise; it
+has not been inferred from arbitrary separate cap estimates.
+
+The individual-bush theorem now also gives uniform qualitative small-bush
+mass decay on a no-Frostman/low-dimension branch, with no rate. Separately,
+`FourDistinctSources` and `WeightedGrowthStarSplit` prove the finite product-law
+probabilities and the robust target-support-growth/high-multiplicity split.
+The high half-branch has a distinct-source success integral at least one
+quarter of the original occurrence mass, with the inherited index fixed.
+Constructing its actual common-target old-occurrence fibre lift is still
+underway; the geometric same-window and later return arguments remain open.
+
+There are now **310** checked new declaration readbacks, all standard-only.
+The original core and final theorem file remain byte-identical to baseline.
+
 ## Positive occurrence routing checkpoint
 
 Four further checked modules add 53 standard-only declaration readbacks:

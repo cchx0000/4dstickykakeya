@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_compact_front_frostman_limit
+
+#check StickyKakeya4.CompactFrontLimit.isCompact_probabilities_carried_by
+#check StickyKakeya4.CompactFrontLimit.ball_bound_of_tendsto_finite_scale
+#check StickyKakeya4.CompactFrontLimit.exists_frostman_probability_subseq
+#check StickyKakeya4.CompactFrontLimit.ball_bound_all_radii
+#check StickyKakeya4.CompactFrontLimit.exists_supported_frostman_probability
+
+#print axioms StickyKakeya4.CompactFrontLimit.isCompact_probabilities_carried_by
+#print axioms StickyKakeya4.CompactFrontLimit.ball_bound_of_tendsto_finite_scale
+#print axioms StickyKakeya4.CompactFrontLimit.exists_frostman_probability_subseq
+#print axioms StickyKakeya4.CompactFrontLimit.ball_bound_all_radii
+#print axioms StickyKakeya4.CompactFrontLimit.exists_supported_frostman_probability

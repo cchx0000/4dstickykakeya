@@ -370,4 +370,53 @@ theorem front_dimH_eq_four_of_shrinking_positive_bushes
       (front_frostman_of_shrinking_positive_bushes ambient hcompact σ hσ b hb hslopes
         u v huv hsupport S s c R hs hR p hp hmass)
 
+/-- On the no-Frostman branch, individual physical bushes have uniformly
+small source mass at a sufficiently small radius, simultaneously for every
+center and every time in a prescribed bounded window. This conclusion is
+qualitative: it provides no polynomial rate relating the radius to `p`. -/
+theorem uniform_small_bush_mass_of_no_front_frostman
+    (ambient : Set MarkedLine) (hcompact : IsCompact ambient)
+    (σ : Measure E3) [IsFiniteMeasure σ] (hσ : σ ≤ volume)
+    (b : E3 → E3) (hb : Measurable b) (hslopes : ∀ᵐ a ∂σ, ‖a‖ ≤ 1)
+    (u v : ℝ) (huv : u < v)
+    (hsupport : ∀ᵐ a ∂σ, ∀ s ∈ Icc u v,
+      ActualSlopeSource.heightPoint (b a + s • a) s ∈ unitFront ambient)
+    (hno : ¬ HasFrontFrostmanMeasures ambient) (S : ℝ)
+    (p : ℝ≥0∞) (hp : 0 < p) :
+    ∃ r : ℝ, 0 < r ∧ ∀ (s : ℝ) (c : E3), |s| ≤ S →
+      σ {a | ‖b a + s • a - c‖ ≤ r} < p := by
+  by_contra hfail
+  push_neg at hfail
+  have hex : ∀ n : ℕ, ∃ s : ℝ, ∃ c : E3,
+      |s| ≤ S ∧ p ≤ σ {a | ‖b a + s • a - c‖ ≤ 1 / ((n : ℝ) + 1)} := by
+    intro n
+    exact hfail (1 / ((n : ℝ) + 1)) (by positivity)
+  choose s c hs hmass using hex
+  exact hno (front_frostman_of_shrinking_positive_bushes ambient hcompact σ hσ b hb hslopes
+    u v huv hsupport S s c (fun n => 1 / ((n : ℝ) + 1)) hs
+    tendsto_one_div_add_atTop_nhds_zero_nat p hp hmass)
+
+/-- The same uniform qualitative bush-mass decay follows under the original
+contradiction hypothesis that the compact physical front is not dimension four. -/
+theorem uniform_small_bush_mass_of_front_dimH_ne_four
+    (ambient : Set MarkedLine) (hcompact : IsCompact ambient)
+    (σ : Measure E3) [IsFiniteMeasure σ] (hσ : σ ≤ volume)
+    (b : E3 → E3) (hb : Measurable b) (hslopes : ∀ᵐ a ∂σ, ‖a‖ ≤ 1)
+    (u v : ℝ) (huv : u < v)
+    (hsupport : ∀ᵐ a ∂σ, ∀ s ∈ Icc u v,
+      ActualSlopeSource.heightPoint (b a + s • a) s ∈ unitFront ambient)
+    (hno : dimH (unitFront ambient) ≠ 4) (S : ℝ)
+    (p : ℝ≥0∞) (hp : 0 < p) :
+    ∃ r : ℝ, 0 < r ∧ ∀ (s : ℝ) (c : E3), |s| ≤ S →
+      σ {a | ‖b a + s • a - c‖ ≤ r} < p := by
+  apply uniform_small_bush_mass_of_no_front_frostman ambient hcompact σ hσ b hb hslopes
+    u v huv hsupport ?_ S p hp
+  intro hfrost
+  apply hno
+  apply le_antisymm
+  · calc
+      dimH (unitFront ambient) ≤ dimH (univ : Set E4) := dimH_mono (subset_univ _)
+      _ = 4 := by simp [E4, Real.dimH_univ_eq_finrank]
+  · exact dimH_ge_four_of_front_frostman_measures ambient hfrost
+
 end StickyKakeya4.PositiveBush

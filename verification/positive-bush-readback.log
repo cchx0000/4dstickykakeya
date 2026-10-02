@@ -63,5 +63,20 @@ StickyKakeya4.PositiveBush.front_dimH_eq_four_of_shrinking_positive_bushes (ambi
   (S : ℝ) (s : ℕ → ℝ) (c : ℕ → StickyKakeya4.E3) (R : ℕ → ℝ) (hs : ∀ (n : ℕ), |s n| ≤ S)
   (hR : Filter.Tendsto R Filter.atTop (nhds 0)) (p : ENNReal) (hp : 0 < p)
   (hmass : ∀ (n : ℕ), p ≤ σ {a | ‖b a + s n • a - c n‖ ≤ R n}) : dimH (StickyKakeya4.unitFront ambient) = 4
+'StickyKakeya4.PositiveBush.uniform_small_bush_mass_of_no_front_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PositiveBush.uniform_small_bush_mass_of_front_dimH_ne_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+StickyKakeya4.PositiveBush.uniform_small_bush_mass_of_front_dimH_ne_four (ambient : Set StickyKakeya4.MarkedLine)
+  (hcompact : IsCompact ambient) (σ : MeasureTheory.Measure StickyKakeya4.E3) [MeasureTheory.IsFiniteMeasure σ]
+  (hσ : σ ≤ MeasureTheory.volume) (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b)
+  (hslopes : ∀ᵐ (a : StickyKakeya4.E3) ∂σ, ‖a‖ ≤ 1) (u v : ℝ) (huv : u < v)
+  (hsupport :
+    ∀ᵐ (a : StickyKakeya4.E3) ∂σ,
+      ∀ s ∈ Set.Icc u v, StickyKakeya4.ActualSlopeSource.heightPoint (b a + s • a) s ∈ StickyKakeya4.unitFront ambient)
+  (hno : dimH (StickyKakeya4.unitFront ambient) ≠ 4) (S : ℝ) (p : ENNReal) (hp : 0 < p) :
+  ∃ r, 0 < r ∧ ∀ (s : ℝ) (c : StickyKakeya4.E3), |s| ≤ S → σ {a | ‖b a + s • a - c‖ ≤ r} < p
 
 EXIT_CODE: 0

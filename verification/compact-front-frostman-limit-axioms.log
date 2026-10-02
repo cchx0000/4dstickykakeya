@@ -1,0 +1,47 @@
+$ lake env lean -DautoImplicit=false verification/CompactFrontFrostmanLimitReadback.lean
+StickyKakeya4.CompactFrontLimit.isCompact_probabilities_carried_by.{u_1} {E : Type u_1} [MetricSpace E]
+  [MeasurableSpace E] [BorelSpace E] {K : Set E} (hK : IsCompact K) : IsCompact {μ | ↑μ Kᶜ = 0}
+StickyKakeya4.CompactFrontLimit.ball_bound_of_tendsto_finite_scale.{u_1} {E : Type u_1} [MetricSpace E]
+  [MeasurableSpace E] [BorelSpace E] (μs : ℕ → MeasureTheory.ProbabilityMeasure E)
+  (μ : MeasureTheory.ProbabilityMeasure E) (ρ : ℕ → ℝ) (hρ : Filter.Tendsto ρ Filter.atTop (nhds 0))
+  (hμ : Filter.Tendsto μs Filter.atTop (nhds μ)) (C : ENNReal) (d : ℝ)
+  (hball : ∀ (n : ℕ) (x : E) (r : ℝ), 0 < r → ρ n ≤ r → r ≤ 1 → ↑(μs n) (Metric.ball x r) ≤ C * ENNReal.ofReal r ^ d)
+  (x : E) (r : ℝ) : 0 < r → r ≤ 1 → ↑μ (Metric.ball x r) ≤ C * ENNReal.ofReal r ^ d
+StickyKakeya4.CompactFrontLimit.exists_frostman_probability_subseq.{u_1} {E : Type u_1} [MetricSpace E]
+  [MeasurableSpace E] [BorelSpace E] [TopologicalSpace.SeparableSpace E] {K : Set E} (hK : IsCompact K)
+  (μs : ℕ → MeasureTheory.ProbabilityMeasure E) (hsupport : ∀ (n : ℕ), ↑(μs n) Kᶜ = 0) (ρ : ℕ → ℝ)
+  (hρ : Filter.Tendsto ρ Filter.atTop (nhds 0)) (C : ENNReal) (d : ℝ)
+  (hball : ∀ (n : ℕ) (x : E) (r : ℝ), 0 < r → ρ n ≤ r → r ≤ 1 → ↑(μs n) (Metric.ball x r) ≤ C * ENNReal.ofReal r ^ d) :
+  ∃ μ,
+    ↑μ Kᶜ = 0 ∧
+      ∃ φ,
+        StrictMono φ ∧
+          Filter.Tendsto (μs ∘ φ) Filter.atTop (nhds μ) ∧
+            ∀ (x : E) (r : ℝ), 0 < r → r ≤ 1 → ↑μ (Metric.ball x r) ≤ C * ENNReal.ofReal r ^ d
+StickyKakeya4.CompactFrontLimit.ball_bound_all_radii.{u_1} {E : Type u_1} [MetricSpace E] [MeasurableSpace E]
+  [BorelSpace E] (μ : MeasureTheory.ProbabilityMeasure E) (C : ENNReal) (d : ℝ) (hd : 0 < d)
+  (hball : ∀ (x : E) (r : ℝ), 0 < r → r ≤ 1 → ↑μ (Metric.ball x r) ≤ C * ENNReal.ofReal r ^ d) (x : E) (r : ℝ) :
+  0 < r → ↑μ (Metric.ball x r) ≤ max C 1 * ENNReal.ofReal r ^ d
+StickyKakeya4.CompactFrontLimit.exists_supported_frostman_probability.{u_1} {E : Type u_1} [MetricSpace E]
+  [MeasurableSpace E] [BorelSpace E] [TopologicalSpace.SeparableSpace E] {K : Set E} (hK : IsCompact K)
+  (μs : ℕ → MeasureTheory.Measure E) (hprob : ∀ (n : ℕ), MeasureTheory.IsProbabilityMeasure (μs n))
+  (hsupport : ∀ (n : ℕ), (μs n) Kᶜ = 0) (ρ : ℕ → ℝ) (hρ : Filter.Tendsto ρ Filter.atTop (nhds 0)) (C : ENNReal)
+  (hC : C ≠ ⊤) (d : ℝ) (hd : 0 < d)
+  (hball : ∀ (n : ℕ) (x : E) (r : ℝ), 0 < r → ρ n ≤ r → r ≤ 1 → (μs n) (Metric.ball x r) ≤ C * ENNReal.ofReal r ^ d) :
+  ∃ μ,
+    MeasureTheory.IsProbabilityMeasure μ ∧
+      μ Kᶜ = 0 ∧ max C 1 ≠ ⊤ ∧ ∀ (x : E) (r : ℝ), 0 < r → μ (Metric.ball x r) ≤ max C 1 * ENNReal.ofReal r ^ d
+'StickyKakeya4.CompactFrontLimit.isCompact_probabilities_carried_by' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CompactFrontLimit.ball_bound_of_tendsto_finite_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CompactFrontLimit.exists_frostman_probability_subseq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CompactFrontLimit.ball_bound_all_radii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CompactFrontLimit.exists_supported_frostman_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Exit code: 0

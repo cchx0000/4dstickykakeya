@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_vector_bush_escape
+
+#check StickyKakeya4.VectorBushEscape.closed_cap_sum_le_of_open_cap_sum
+#check StickyKakeya4.VectorBushEscape.exists_front_frostman_of_vector_families
+#check StickyKakeya4.VectorBushEscape.exists_front_frostman_of_open_vector_families
+
+#print axioms StickyKakeya4.VectorBushEscape.closed_cap_sum_le_of_open_cap_sum
+#print axioms StickyKakeya4.VectorBushEscape.exists_front_frostman_of_vector_families
+#print axioms StickyKakeya4.VectorBushEscape.exists_front_frostman_of_open_vector_families
+
+#check StickyKakeya4.VectorBushEscape.normalized_open_cap_sum_le_iff
+#print axioms StickyKakeya4.VectorBushEscape.normalized_open_cap_sum_le_iff

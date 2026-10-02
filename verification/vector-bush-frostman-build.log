@@ -1,0 +1,16 @@
+$ lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_vector_bush_frostman.olean Theorems/Thm_StickyKakeya4_vector_bush_frostman.lean
+Theorems/Thm_StickyKakeya4_vector_bush_frostman.lean:32:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Theorems/Thm_StickyKakeya4_vector_bush_frostman.lean:32:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Theorems/Thm_StickyKakeya4_vector_bush_frostman.lean:255:4: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+EXIT_STATUS: 0
