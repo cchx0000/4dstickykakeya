@@ -1,0 +1,23 @@
+import Theorems.Thm_StickyKakeya4_packet_free_bush_bound
+
+set_option autoImplicit false
+
+#print axioms StickyKakeya4.PacketFreeBushBound.lineUnit
+#print axioms StickyKakeya4.PacketFreeBushBound.lineBase
+#print axioms StickyKakeya4.PacketFreeBushBound.lineResidual
+#print axioms StickyKakeya4.PacketFreeBushBound.norm_lineUnit_le_one
+#print axioms StickyKakeya4.PacketFreeBushBound.projection_line_direction
+#print axioms StickyKakeya4.PacketFreeBushBound.lineResidual_eq_projected_error
+#print axioms StickyKakeya4.PacketFreeBushBound.norm_lineResidual_le
+#print axioms StickyKakeya4.PacketFreeBushBound.measurable_lineUnit
+#print axioms StickyKakeya4.PacketFreeBushBound.measurable_lineResidual
+#print axioms StickyKakeya4.PacketFreeBushBound.scalar_grid_card_bound
+#print axioms StickyKakeya4.PacketFreeBushBound.scalar_grid_cover
+#print axioms StickyKakeya4.PacketFreeBushBound.residual_tube_finite_cover
+#print axioms StickyKakeya4.PacketFreeBushBound.residual_tube_measure_le_quadratic
+#print axioms StickyKakeya4.PacketFreeBushBound.lineTubeSet
+#print axioms StickyKakeya4.PacketFreeBushBound.measurableSet_lineTubeSet
+#print axioms StickyKakeya4.PacketFreeBushBound.product_lineTubeSet_le_quadratic
+#print axioms StickyKakeya4.PacketFreeBushBound.physical_packet_free_occurrence_le_quadratic
+
+#print StickyKakeya4.PacketFreeBushBound.physical_packet_free_occurrence_le_quadratic

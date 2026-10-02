@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T08:22:04.517354+00:00",
-  "previous_checkpoint": "c78c22c6e7b412943cedcdeb399db2373f0d4a1c",
+  "generated_at_utc": "2026-10-02T09:01:06.921682+00:00",
+  "previous_checkpoint": "e0f02087f3483107954401acda8aac71cea9b35f",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 543,
+  "total_new_checked_declarations": 592,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -30,7 +30,11 @@
     "verification/contact-cycle-rigidity-axioms.log": 16,
     "verification/rooted-cycle-witness-kernel-readback.log": 32,
     "verification/actual-residual-cycle-witness-readback.log": 39,
-    "verification/low-intercept-entropy-escape-axioms.log": 16
+    "verification/low-intercept-entropy-escape-axioms.log": 16,
+    "verification/horizontal-determinant-null-axioms.log": 9,
+    "verification/no-frostman-exact-collision-null-axioms.log": 20,
+    "verification/packet-free-bush-readback.log": 17,
+    "verification/finite-hausdorff-ball-cover-axioms.log": 3
   },
   "checks": [
     {
@@ -4096,6 +4100,447 @@
         "Quot.sound"
       ],
       "log": "verification/low-intercept-entropy-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.horizontalColumnMatrix",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/horizontal-determinant-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.horizontalAnchoredMatrix",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/horizontal-determinant-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.horizontalAnchoredMatrix_eq_anchoredMatrix",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/horizontal-determinant-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ae_linearMap_sub_ne_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/horizontal-determinant-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.continuous_horizontalAnchoredMatrix_det",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/horizontal-determinant-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ae_horizontalAnchoredMatrix_det_ne_zero_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/horizontal-determinant-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ae_horizontalAnchoredMatrix_det_ne_zero_of_absolutelyContinuous",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/horizontal-determinant-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ae_horizontalAnchoredMatrix_det_ne_zero_of_le_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/horizontal-determinant-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ae_contact_anchoredMatrix_det_ne_zero_of_le_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/horizontal-determinant-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.lintegral_sq_eq_zero_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.edge_mass_eq_zero_of_rootedDensity_eq_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.exactEdges",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.measurableSet_exactEdges",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.exactWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.measurable_exactWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.exactWeight_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.exactWeight_ne_zero_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.exact_cycle_times_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.exact_cycle_third_mem_root_bush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.rootSuccess_eq_zero_of_bush_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.exactEdges_null_of_bush_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.tendsto_fixed_angle_residual_mass_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.exact_bush_null_of_no_front_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.no_front_frostman_exact_collision_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.no_front_frostman_tendsto_fixed_angle_residual_mass_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.oldGraph_mass_le_fixed_angle_residual_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.tendsto_oldGraph_mass_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.no_front_frostman_tendsto_oldGraph_mass_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NoFrostmanExactCollision.tendsto_dominated_fine_residual_lift_mass_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/no-frostman-exact-collision-null-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.lineUnit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.lineBase",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.lineResidual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.norm_lineUnit_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.projection_line_direction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.lineResidual_eq_projected_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.norm_lineResidual_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.measurable_lineUnit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.measurable_lineResidual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.scalar_grid_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.scalar_grid_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.residual_tube_finite_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.residual_tube_measure_le_quadratic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.lineTubeSet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.measurableSet_lineTubeSet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.product_lineTubeSet_le_quadratic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PacketFreeBushBound.physical_packet_free_occurrence_le_quadratic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/packet-free-bush-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_radius_inflation_with_rpow_cost",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-hausdorff-ball-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_finite_radius_cost_ball_cover_of_compact_dimH_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-hausdorff-ball-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.exists_fin_radius_cost_ball_cover_of_compact_dimH_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-hausdorff-ball-cover-axioms.log"
     }
   ],
   "source_sha256": {
@@ -4125,7 +4570,11 @@
     "Theorems/Thm_StickyKakeya4_contact_cycle_rigidity.lean": "b7d3db6d15ebf36593ee6e98a322788feb9f734611163031a753157e30c3d05a",
     "Theorems/Thm_StickyKakeya4_rooted_cycle_witness_kernel.lean": "f79dfae977c8ca68a7862ffff11c2116a844f83614cf7c178dae3faf791f529b",
     "Theorems/Thm_StickyKakeya4_actual_residual_cycle_witness.lean": "919ea59c94edb399edbba495343efc7169ada9ba82ac60dcdaea7d0baef72e03",
-    "Theorems/Thm_StickyKakeya4_low_intercept_entropy_escape.lean": "b0b20bf3495b382b1f5e89ecde61dc261ffb48d8a077f83ab0381160c27cc322"
+    "Theorems/Thm_StickyKakeya4_low_intercept_entropy_escape.lean": "b0b20bf3495b382b1f5e89ecde61dc261ffb48d8a077f83ab0381160c27cc322",
+    "Theorems/Thm_StickyKakeya4_horizontal_determinant_null.lean": "34470e590ef486cd109e4f17a04c5c6110b30ac78abfa2be3eff2bc3a646f0e2",
+    "Theorems/Thm_StickyKakeya4_no_frostman_exact_collision_null.lean": "81325e5e58789a61b49cb172fa0e404f1814c387326b8fe6f66b1bcd1b2e1b11",
+    "Theorems/Thm_StickyKakeya4_packet_free_bush_bound.lean": "2c2e47a03549c2f23681c4160981ad3ed7ab20ebc890a4e4265f22f75631e2b1",
+    "Theorems/Thm_StickyKakeya4_finite_hausdorff_ball_cover.lean": "dccbc1aaa0faed7e7e6c8506b3a8958b4fcce58fa061cb31de4dc4bdfd75b707"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -4146,5 +4595,5 @@
     "exit_code": 1,
     "log": "verification/rigidity-main-axiom-gate.log"
   },
-  "resumed_phase_declaration_count": 452
+  "resumed_phase_declaration_count": 501
 }

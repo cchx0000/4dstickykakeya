@@ -1,0 +1,9 @@
+
+Verification command (executed successfully):
+export ELAN_HOME=/workspace/shared/lean-tools/elan
+export PATH=$ELAN_HOME/bin:$PATH
+export XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+set -o pipefail
+lake env lean -DautoImplicit=false -o .lake/build/lib/lean/Theorems/Thm_StickyKakeya4_finite_hausdorff_ball_cover.olean Theorems/Thm_StickyKakeya4_finite_hausdorff_ball_cover.lean 2>&1 | tee verification/finite-hausdorff-ball-cover.log
+Confirmed exit status: 0
+The command completed without diagnostics and emitted the importable olean.

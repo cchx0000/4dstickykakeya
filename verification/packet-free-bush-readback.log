@@ -1,0 +1,73 @@
+Command: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache lake env lean -DautoImplicit=false verification/PacketFreeBushBoundReadback.lean
+
+'StickyKakeya4.PacketFreeBushBound.lineUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.lineBase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.lineResidual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.norm_lineUnit_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.projection_line_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.lineResidual_eq_projected_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.norm_lineResidual_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.measurable_lineUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.measurable_lineResidual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.scalar_grid_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.scalar_grid_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.residual_tube_finite_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.residual_tube_measure_le_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.lineTubeSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.measurableSet_lineTubeSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.product_lineTubeSet_le_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.PacketFreeBushBound.physical_packet_free_occurrence_le_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.PacketFreeBushBound.physical_packet_free_occurrence_le_quadratic.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] (σ : MeasureTheory.Measure X) [MeasureTheory.SFinite σ] (Γ : MeasureTheory.Measure (X × X))
+  (a b : X → StickyKakeya4.E3),
+  Measurable a →
+    Measurable b →
+      (∀ᵐ (z : X) ∂σ, ‖a z‖ ≤ 1) →
+        ∀ (c : StickyKakeya4.E3) (s₀ R r g : ℝ) (C : ENNReal),
+          0 < R + r →
+            0 < g →
+              Γ ≤ σ.prod σ →
+                (∀ᵐ (p : X × X) ∂Γ,
+                    ∃ t, ‖b p.1 + s₀ • a p.1 - c‖ ≤ R ∧ ‖b p.1 - b p.2 + t • (a p.1 - a p.2)‖ ≤ r ∧ g ≤ |t - s₀|) →
+                  (∀ (x : StickyKakeya4.E3) (T : ℝ),
+                      0 ≤ T → σ (a ⁻¹' Metric.closedBall x T) ≤ C * ENNReal.ofReal T ^ 3) →
+                    Γ Set.univ ≤ 81 * C * ENNReal.ofReal ((R + r) / g) ^ 2 * σ Set.univ :=
+fun {X} [MeasurableSpace X] σ [MeasureTheory.SFinite σ] Γ a b ha hb hunit c s₀ R r g C hscale hg hdom hphysical
+    hdensity =>
+  let v := fun z => b z + s₀ • a z - c;
+  have hv := id (Measurable.sub_const (Measurable.fun_add hb (Measurable.fun_const_smul ha s₀)) c);
+  let δ := (R + r) / g;
+  have hδ := div_pos hscale hg;
+  have hs := StickyKakeya4.PacketFreeBushBound.measurableSet_lineTubeSet a a v ha ha hv δ;
+  have hsupport :=
+    MeasureTheory.ae_iff.mp
+      (Filter.mp_mem hphysical
+        (Filter.univ_mem'
+          (id fun p hp =>
+            Exists.casesOn hp fun t h =>
+              And.casesOn h fun hbush right =>
+                And.casesOn right fun hcollision hsep =>
+                  StickyKakeya4.PacketFreeBushBound.norm_lineResidual_le (a p.1) (a p.2) (v p.2) δ
+                    (StickyKakeya4.SeparatedBushFiber.source_near_target_line (a p.1) (b p.1) (a p.2) (b p.2) c s₀ t R r
+                      g hbush hcollision hg hsep))));
+  have hmass :=
+    Eq.mp
+      (congrArg (Eq (Γ Set.univ))
+        (Eq.trans (congrArg (HAdd.hAdd (Γ (StickyKakeya4.PacketFreeBushBound.lineTubeSet a a v δ))) hsupport)
+          (add_zero (Γ (StickyKakeya4.PacketFreeBushBound.lineTubeSet a a v δ)))))
+      (Eq.symm (MeasureTheory.measure_add_measure_compl hs));
+  Eq.mpr (id (congrArg (fun _a => _a ≤ 81 * C * ENNReal.ofReal ((R + r) / g) ^ 2 * σ Set.univ) hmass))
+    (LE.le.trans (hdom (StickyKakeya4.PacketFreeBushBound.lineTubeSet a a v δ))
+      (StickyKakeya4.PacketFreeBushBound.product_lineTubeSet_le_quadratic σ a a v ha ha hv hunit C hdensity δ hδ))
+
+Exit status: 0

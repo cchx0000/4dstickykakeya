@@ -224,3 +224,86 @@ A completion needs actual weighted geometry which does at least one of:
 The results above identify why the existing packing bound, qualitative
 individual-bush modulus, and density-product identity do not yet supply
 that step. No new hypothesis is being inserted into the final theorem.
+
+## 8. Exact no-Frostman consequences and the remaining root-fiber charge
+
+The exact-collision-null and fixed-angle vanishing consequences below now
+have dedicated strict Lean builds and axiom readbacks. The packet-free local
+bound is also checked with numerical constant 81. The finite Hausdorff-cover
+routing construction is still being formalized; its status is separate.
+
+First, failure of the front Frostman conclusion makes every positive-source
+exact bush impossible. In fact the exact-collision pair set has zero product
+mass. Otherwise C4 positivity, together with Lebesgue-nullity of degenerate
+horizontal frames, gives a positive set of nondegenerate exact cycles.
+Exact contact rigidity synchronizes their times. Fixing one positive-root
+fiber leaves a positive set of source vertices through the same exact point
+at the root collision time, contradicting the already proved exact-bush
+Frostman escape.
+
+Hence fine exact-residual neighborhoods decrease to a product-null set. A
+fine witness coupling with fixed positive inherited mass cannot retain a
+uniformly integrable density relative to the fixed raw product law. If the
+old edge itself is required to be a fine edge, the allowed old marginal also
+shrinks to zero. If the old target is retained only as a mark, a fine source
+cycle can still be appended, but its normalized fresh density can diverge.
+These are different constructions and must not be interchanged.
+
+For a raw rooted completion kernel Q_rho(omega,dv), write
+
+    w_rho(omega) = Q_rho(omega,V),
+    p_rho(omega) = Q_rho(omega,transverse outputs).
+
+After normalization preserving the old law Gamma_0, the relevant paid mass
+is
+
+    integral p_rho(omega)/w_rho(omega) dGamma_0(omega),
+
+on the positive-success set. A bound on the unnormalized product integral
+of p_rho does not imply this bound. In a regular graph of edge density M,
+the rooted completion density is of order M^3, while total C4 mass is of
+order M^4. Preserving old mass therefore already incurs an M^(-3) density
+cost; normalization to a whole-cycle probability incurs M^(-4). At
+M approximately rho^(2-eta), a single displayed gain rho^nu with nu<1 does
+not overcome either cost. Independent old flags exclude the fully coherent
+rank-loss class by a high power, but do not automatically amplify a single
+transverse direction-union gain in this normalized root integral.
+
+Compactness and dimH(K)<q provide a genuine additional uniform input: one
+finite open-ball cover with arbitrarily small sum of R_i^q. Append a fresh
+front time from the left or right quarter of the marked slab, choosing the
+quarter separated from the inherited old time. First-hit assignment then
+preserves the whole old law exactly and gives fractional branch weights at
+most 8 R_i/(v-u). For sufficiently small cover radii, every branch is a
+physical bush of error 2 R_i separated from its original collision time.
+Combining this route with the packet-free one-bush estimate gives only the
+available aggregate cost
+
+    C m sum_i R_i (R_i+r_0)^2.
+
+This is a source-faithful finite route, but its cubic cover cost does not
+supply the requested quadratic root-scale payment from dimH(K)<4.
+
+The cap-recentered local identity is also valid. If source directions lie
+in a T_source-cap about a_0, old times lie in t_0+[-delta,delta], and the
+source bush is centered at (c,s), then the old target at time t_0 is within
+
+    R+r_0+delta L+|t_0-s| T_source
+
+of c+(t_0-s)a_0. The smaller coefficient is useful, but after reversal that
+known cap belongs to the opposite endpoint. A recurrence for the next
+distinguished source cap has not been established. Partitioning both
+endpoints into small caps can duplicate selector supports across labels;
+small separate caps also leave fixed-angle edges cross-cap.
+
+Finally, positive submeasure exhaustion does not turn arbitrarily small
+absolute costs into a summable root budget. For example, available output
+mass might be bounded by cost^p for p>1. Requiring a summable sequence of
+shrinking costs can then prevent exhaustion. One needs a relative charge
+bound for actual extracted old mass, or a global reference-measure budget
+that sums independently of the number and scales of attempts.
+
+The minimal unresolved theorem is therefore a genuine root-weighted
+transverse/horizontal charge bound (or a valid Frostman alternative) for
+these actual conditional completion laws. It cannot be replaced by success
+positivity, an assumed capacity field, or a bound before normalization.

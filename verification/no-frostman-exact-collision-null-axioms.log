@@ -1,0 +1,55 @@
+ENV: ELAN_HOME=/workspace/shared/lean-tools/elan PATH=/workspace/shared/lean-tools/elan/bin:$PATH XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+COMMAND: lake env lean -DautoImplicit=false verification/no-frostman-exact-collision-null-readback.lean
+'StickyKakeya4.NoFrostmanExactCollision.lintegral_sq_eq_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.edge_mass_eq_zero_of_rootedDensity_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.exactEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.measurableSet_exactEdges' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.exactWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.measurable_exactWeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.exactWeight_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.exactWeight_ne_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.exact_cycle_times_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.exact_cycle_third_mem_root_bush' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.rootSuccess_eq_zero_of_bush_null' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.exactEdges_null_of_bush_null' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.tendsto_fixed_angle_residual_mass_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.exact_bush_null_of_no_front_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.no_front_frostman_exact_collision_null' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.no_front_frostman_tendsto_fixed_angle_residual_mass_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.oldGraph_mass_le_fixed_angle_residual_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.tendsto_oldGraph_mass_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.no_front_frostman_tendsto_oldGraph_mass_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.NoFrostmanExactCollision.tendsto_dominated_fine_residual_lift_mass_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+EXIT_STATUS: 0

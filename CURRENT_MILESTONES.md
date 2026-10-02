@@ -72,7 +72,9 @@ conditional law and degree-density disintegration are now constructed with
 standard-Borel kernels. A checked fixed-angle guardrail shows that shrinking
 terminal caps alone leaves all unpaid root mass in the cross-cap complement.
 A checked physical separated-time bush theorem now pays all old targets,
-not only same-cap targets. Fresh independent genuine flags also have checked
+not only same-cap targets. A packet-free version is now proved directly from
+affine-line tube covers, with the explicit quadratic bound
+`81 C ((R+r_0)/g)^2 sigma(univ)`. Fresh independent genuine flags also have checked
 measure-valued separation/retention bounds while inherited labels stay intact.
 Positive-event conditional kernels now preserve the full old occurrence on
 the positive-success base. Positive hereditary source cuts admit exact
@@ -110,8 +112,10 @@ bounded-potential restriction supplies a supported Frostman probability. The
 resulting original residual criterion now proves `dimH(unitFront ambient)=4`
 from the literal residual bounds on that constructed source. A further genuine geometric escape is now checked: uniformly positive
 individual shrinking bushes force full front dimension. This does not assume
-a fixed mass in each member of a merely positive-total-mass family. The geometric
-residual power estimate itself remains open. No slicing axiom or assumed
+a fixed mass in each member of a merely positive-total-mass family. Failure of front Frostman now implies exact-collision product nullity and
+qualitative decay of the fixed-angle residual graph, by genuine nondegenerate
+C4s and exact-bush escape. The geometric residual power rate itself remains
+open. No slicing axiom or assumed
 measurable Frostman kernel is used. The full vector-family escape is now also
 checked from original normalized open-cap condition (340), including genuine
 compactness and exact support. Obtaining that synchronized vector bound or
@@ -131,7 +135,7 @@ Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
 tracked build at `c78c22c` passed all **143** committed modules and **8,850** Lake
 jobs, including the low-intercept entropy escape;
-there are now **543** checked new declarations with only standard logical
+there are now **592** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the

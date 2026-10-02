@@ -3,6 +3,42 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual no-Frostman geometry and packet-free bound checkpoint
+
+`NoFrostmanExactCollision` now derives exact off-diagonal collision nullity
+from failure of the front Frostman conclusion, for the actual bounded-density
+slope source and literal marked-front support. This is a proved consequence,
+not an exact-nullity premise. The determinant helper proves fresh horizontal
+frames are nondegenerate almost everywhere by Lebesgue absolute continuity.
+Finite-measure C4 identities and exact contact rigidity then force a positive
+exact bush if the exact graph had positive mass, contradicting the checked
+bush escape.
+
+The actual fixed-angle residual sublevel mass and normalized physical graph
+mass consequently tend to zero. A uniformly product-dominated lift supported
+on successively finer fixed-angle residual sets also has mass tending to zero.
+No polynomial decay rate is inferred.
+
+`PacketFreeBushBound` removes the old-time packet hypothesis from the local
+all-target estimate. An actual affine-line tube is covered by a finite scalar
+grid, the original cubic direction density yields a quadratic tube bound,
+and Tonelli gives
+
+    Gamma(univ) <= 81 C ((R+r_0)/g)^2 sigma(univ).
+
+The original ordered endpoints, residual `r_0`, and product domination are
+retained. This is one-bush payment; no global source-reuse sum is assumed.
+
+All three modules have strict compilation and all-public axiom readbacks:
+9 determinant-helper declarations, 20 no-Frostman declarations, and 17
+packet-free declarations. A corrected finite Hausdorff-cover helper additionally supplies finite open
+balls with small sum of the **actual inflated radii** raised to the Hausdorff
+exponent, using individually summable inflation allowances. Its 3 declarations
+also pass strict compilation and readback. The cumulative checked count is
+**592**, all standard-only or axiom-free. Their source and logs are indexed in
+[resumed-axiom-summary.json](resumed-axiom-summary.json).
+The final quantitative weighted paid/Frostman implication remains open.
+
 ## Low-centered-intercept entropy escape checkpoint
 
 `LowInterceptEntropyEscape` now proves a concrete geometric exit: a fixed
@@ -24,6 +60,16 @@ The fixed-source entropy premise is explicit and is **not** deduced from the
 main theorem's packing hypothesis or the manuscript's remaining branch.
 Obtaining that exit or a genuinely weighted paid alternative remains open.
 The final theorem and its existing WZ dependency are unchanged.
+
+A second independently audited handwritten test,
+[SPARSE_DIGIT_DELETION_TEST.md](../docs/SPARSE_DIGIT_DELETION_TEST.md), shows
+that even a fixed affine zero-entropy alternative is too narrow as a general
+local structural inference. It has an actual bounded-density front after a
+measurable monotone reparameterization. Section 8 of
+[REMAINING_WEIGHTED_GEOMETRY.md](../docs/REMAINING_WEIGHTED_GEOMETRY.md)
+records the precise no-Frostman consequences and the missing normalized
+root-fiber charge, including what is still being formalized.
+
 
 ## Actual weighted-residual graph and marked-cycle checkpoint
 
