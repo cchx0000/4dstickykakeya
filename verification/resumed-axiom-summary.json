@@ -1,9 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T07:46:52.467394+00:00",
-  "previous_checkpoint": "5ac43512741a35b76a45e2f5ad73fda15f09a6d2",
-  "new_declaration_count_since_full_build": 397,
+  "generated_at_utc": "2026-10-02T08:03:02.499864+00:00",
+  "previous_checkpoint": "a62592933f491f8451db4e9fe609f806a795b1c3",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 488,
+  "total_new_checked_declarations": 527,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -29,7 +28,8 @@
     "verification/three-matrix-inverse-bounds-axioms.log": 5,
     "verification/rooted-four-cycle-measure-axioms.log": 18,
     "verification/contact-cycle-rigidity-axioms.log": 16,
-    "verification/rooted-cycle-witness-kernel-readback.log": 32
+    "verification/rooted-cycle-witness-kernel-readback.log": 32,
+    "verification/actual-residual-cycle-witness-readback.log": 39
   },
   "checks": [
     {
@@ -3600,6 +3600,357 @@
         "Quot.sound"
       ],
       "log": "verification/rooted-cycle-witness-kernel-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.measurable_oldGraphWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight_pos_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight_diagonal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.oldGraph_mass_eq_fixed_angle_residual_content",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.pairTime",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.measurable_pairTime",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.canonical_old_time_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.pairTime_swap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycleVertices",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycleIntercepts",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycleTimes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycleTimes_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.measurable_cycleVertices",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.measurable_cycleIntercepts",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.measurable_cycleTimes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.contact_norm_reverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycle_contact_errors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycle_fresh_times_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timeLabelKernel",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timeLabelKernel_isMarkov",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timed_witness_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timed_witness_times",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timed_witness_old_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.vertex_witness_contact_errors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timed_witness_contact_errors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timed_witness_observable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.determinantCut",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.measurableSet_determinantCut",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycle_times_near_old_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.old_time_cell_contact_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines_secant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timed_selector_contact_errors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timed_witness_fresh_times_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ActualResidualCycleWitness.timed_witness_four_distinct",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/actual-residual-cycle-witness-readback.log"
     }
   ],
   "source_sha256": {
@@ -3627,7 +3978,8 @@
     "Theorems/Thm_StickyKakeya4_three_matrix_inverse_bounds.lean": "baf2fbd0825f2738f39861902f2d70ff47ea061c844c0a73dd6bfd03060bd8fd",
     "Theorems/Thm_StickyKakeya4_rooted_four_cycle_measure.lean": "4a01d606d4dbde5de4e4ed97914eb8fee8eda67c3c04db0b5f772afa98656737",
     "Theorems/Thm_StickyKakeya4_contact_cycle_rigidity.lean": "b7d3db6d15ebf36593ee6e98a322788feb9f734611163031a753157e30c3d05a",
-    "Theorems/Thm_StickyKakeya4_rooted_cycle_witness_kernel.lean": "f79dfae977c8ca68a7862ffff11c2116a844f83614cf7c178dae3faf791f529b"
+    "Theorems/Thm_StickyKakeya4_rooted_cycle_witness_kernel.lean": "f79dfae977c8ca68a7862ffff11c2116a844f83614cf7c178dae3faf791f529b",
+    "Theorems/Thm_StickyKakeya4_actual_residual_cycle_witness.lean": "919ea59c94edb399edbba495343efc7169ada9ba82ac60dcdaea7d0baef72e03"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -3647,5 +3999,6 @@
     "status": "failed_existing_WZ_axiom",
     "exit_code": 1,
     "log": "verification/rigidity-main-axiom-gate.log"
-  }
+  },
+  "resumed_phase_declaration_count": 436
 }

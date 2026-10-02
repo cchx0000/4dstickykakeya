@@ -125,7 +125,11 @@ to the original compact front. The current legacy route still uses
 it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
-kernel readback with no project-specific axioms or `sorryAx`. The last full
-116-module build passed; subsequent analytical additions have targeted strict
-checks and their own axiom readbacks. The final readback still reports the WZ
-project axiom; the unconditional theorem remains incomplete.
+kernel readback with no project-specific axioms or `sorryAx`. The latest full tracked build at `5ac4351` passed all **141** committed modules
+and **8,848** Lake jobs. Its **488** checked new declarations have only standard
+logical axioms or no axioms. The subsequent actual residual-cycle adapter
+adds 39 strictly checked declarations (527 total), derives all four original
+contact errors on actual marked lines, and preserves the inherited root time.
+The repeated final readback still reports the WZ
+project axiom in the two main closure declarations; the unconditional theorem
+remains incomplete.

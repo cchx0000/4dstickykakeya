@@ -1,0 +1,460 @@
+Working directory: /workspace/scratch/5f2524fd4117/4dstickykakeya
+export ELAN_HOME=/workspace/shared/lean-tools/elan
+export PATH="$ELAN_HOME/bin:$PATH"
+Executed command: lake env lean -DautoImplicit=false verification/ActualResidualCycleWitnessReadback.lean
+
+StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight : (StickyKakeya4.E3 → StickyKakeya4.E3) →
+  Set ℝ → ℝ → ℝ → StickyKakeya4.E3 × StickyKakeya4.E3 → ENNReal
+StickyKakeya4.ActualResidualCycleWitness.measurable_oldGraphWeight : ∀ (b : StickyKakeya4.E3 → StickyKakeya4.E3),
+  Measurable b →
+    ∀ (J : Set ℝ),
+      MeasurableSet J → ∀ (sep r₀ : ℝ), Measurable (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀)
+StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight_le_one : ∀ (b : StickyKakeya4.E3 → StickyKakeya4.E3) (J : Set ℝ)
+  (sep r₀ : ℝ),
+  0 < sep →
+    ∀ (p : StickyKakeya4.E3 × StickyKakeya4.E3),
+      StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀ p ≤ 1
+StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight_pos_support : ∀ (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (J : Set ℝ) (sep r₀ : ℝ) (p : StickyKakeya4.E3 × StickyKakeya4.E3),
+  0 < StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀ p →
+    sep ≤ ‖p.1 - p.2‖ ∧
+      ‖StickyKakeya4.collisionResidual (p.1 - p.2) (b p.1 - b p.2)‖ ≤ r₀ ∧
+        StickyKakeya4.collisionTime (p.1 - p.2) (b p.1 - b p.2) ∈ J
+StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight_diagonal : ∀ (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (J : Set ℝ) (sep r₀ : ℝ) (a : StickyKakeya4.E3),
+  StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀ (a, a) = 0
+StickyKakeya4.ActualResidualCycleWitness.oldGraph_mass_eq_fixed_angle_residual_content : ∀
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) (b : StickyKakeya4.E3 → StickyKakeya4.E3) (J : Set ℝ) (sep r₀ : ℝ),
+  ((σ.prod σ).withDensity (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀)) Set.univ =
+    ENNReal.ofReal sep *
+      StickyKakeya4.weightedResidualContent ((σ.prod σ).restrict {p | sep ≤ ‖p.1 - p.2‖}) (fun p => p.1 - p.2)
+        (fun p => b p.1 - b p.2) J r₀
+StickyKakeya4.ActualResidualCycleWitness.pairTime : (StickyKakeya4.E3 → StickyKakeya4.E3) →
+  StickyKakeya4.E3 × StickyKakeya4.E3 → ℝ
+StickyKakeya4.ActualResidualCycleWitness.measurable_pairTime : ∀ (b : StickyKakeya4.E3 → StickyKakeya4.E3),
+  Measurable b → Measurable (StickyKakeya4.ActualResidualCycleWitness.pairTime b)
+StickyKakeya4.ActualResidualCycleWitness.canonical_old_time_bounds : ∀ (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3),
+  Measurable b →
+    ∀ (J : Set ℝ),
+      MeasurableSet J →
+        ∀ (sep r₀ : ℝ),
+          ∀ᵐ (p :
+            StickyKakeya4.E3 ×
+              StickyKakeya4.E3) ∂(σ.prod σ).withDensity
+              (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀),
+            ‖b p.1 - b p.2 + StickyKakeya4.ActualResidualCycleWitness.pairTime b p • (p.1 - p.2)‖ ≤ r₀ ∧
+              StickyKakeya4.ActualResidualCycleWitness.pairTime b p ∈ J
+StickyKakeya4.ActualResidualCycleWitness.pairTime_swap : ∀ (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (p : StickyKakeya4.E3 × StickyKakeya4.E3),
+  StickyKakeya4.ActualResidualCycleWitness.pairTime b p.swap = StickyKakeya4.ActualResidualCycleWitness.pairTime b p
+@StickyKakeya4.ActualResidualCycleWitness.cycleVertices : {Ω : Type u_1} →
+  (Ω → StickyKakeya4.E3 × StickyKakeya4.E3) → Ω × StickyKakeya4.E3 × StickyKakeya4.E3 → Fin 4 → StickyKakeya4.E3
+@StickyKakeya4.ActualResidualCycleWitness.cycleIntercepts : {Ω : Type u_1} →
+  (StickyKakeya4.E3 → StickyKakeya4.E3) →
+    (Ω → StickyKakeya4.E3 × StickyKakeya4.E3) → Ω × StickyKakeya4.E3 × StickyKakeya4.E3 → Fin 4 → StickyKakeya4.E3
+@StickyKakeya4.ActualResidualCycleWitness.cycleTimes : {Ω : Type u_1} →
+  (StickyKakeya4.E3 → StickyKakeya4.E3) →
+    (Ω → StickyKakeya4.E3 × StickyKakeya4.E3) → (Ω → ℝ) → Ω × StickyKakeya4.E3 × StickyKakeya4.E3 → Fin 4 → ℝ
+@StickyKakeya4.ActualResidualCycleWitness.cycleTimes_zero : ∀ {Ω : Type u_1} (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (oldTime : Ω → ℝ) (p : Ω × StickyKakeya4.E3 × StickyKakeya4.E3),
+  StickyKakeya4.ActualResidualCycleWitness.cycleTimes b endpoint oldTime p 0 = oldTime p.1
+@StickyKakeya4.ActualResidualCycleWitness.measurable_cycleVertices : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3),
+  Measurable endpoint → Measurable (StickyKakeya4.ActualResidualCycleWitness.cycleVertices endpoint)
+@StickyKakeya4.ActualResidualCycleWitness.measurable_cycleIntercepts : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3),
+  Measurable b →
+    ∀ (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3),
+      Measurable endpoint → Measurable (StickyKakeya4.ActualResidualCycleWitness.cycleIntercepts b endpoint)
+@StickyKakeya4.ActualResidualCycleWitness.measurable_cycleTimes : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3),
+  Measurable b →
+    ∀ (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3),
+      Measurable endpoint →
+        ∀ (oldTime : Ω → ℝ),
+          Measurable oldTime → Measurable (StickyKakeya4.ActualResidualCycleWitness.cycleTimes b endpoint oldTime)
+StickyKakeya4.ActualResidualCycleWitness.contact_norm_reverse : ∀ (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (x y : StickyKakeya4.E3) (t : ℝ), ‖b y - b x + t • (y - x)‖ = ‖b x - b y + t • (x - y)‖
+@StickyKakeya4.ActualResidualCycleWitness.cycle_contact_errors : ∀ {Ω : Type u_1}
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (J : Set ℝ) (sep r₀ : ℝ)
+  (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (oldTime : Ω → ℝ) (p : Ω × StickyKakeya4.E3 × StickyKakeya4.E3),
+  ‖b (endpoint p.1).1 - b (endpoint p.1).2 + oldTime p.1 • ((endpoint p.1).1 - (endpoint p.1).2)‖ ≤ r₀ →
+    p ∈
+        StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint
+          (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀) →
+      ∀ (i : Fin 4),
+        ‖StickyKakeya4.ContactCycleRigidity.residual (StickyKakeya4.ActualResidualCycleWitness.cycleVertices endpoint p)
+              (StickyKakeya4.ActualResidualCycleWitness.cycleIntercepts b endpoint p)
+              (StickyKakeya4.ActualResidualCycleWitness.cycleTimes b endpoint oldTime p) i‖ ≤
+          r₀
+@StickyKakeya4.ActualResidualCycleWitness.cycle_fresh_times_mem : ∀ {Ω : Type u_1}
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (J : Set ℝ) (sep r₀ : ℝ)
+  (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (oldTime : Ω → ℝ),
+  ∀
+    p ∈
+      StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint
+        (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀),
+    ∀ (j : Fin 3), StickyKakeya4.ActualResidualCycleWitness.cycleTimes b endpoint oldTime p j.succ ∈ J
+@StickyKakeya4.ActualResidualCycleWitness.timeLabelKernel : {Ω : Type u_1} →
+  [inst : MeasurableSpace Ω] →
+    (b : StickyKakeya4.E3 → StickyKakeya4.E3) →
+      Measurable b →
+        (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) →
+          Measurable endpoint →
+            (oldTime : Ω → ℝ) →
+              Measurable oldTime → ProbabilityTheory.Kernel (Ω × StickyKakeya4.E3 × StickyKakeya4.E3) (Fin 4 → ℝ)
+@StickyKakeya4.ActualResidualCycleWitness.timeLabelKernel_isMarkov : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3)
+  (he : Measurable endpoint) (oldTime : Ω → ℝ) (ht : Measurable oldTime),
+  ProbabilityTheory.IsMarkovKernel
+    (StickyKakeya4.ActualResidualCycleWitness.timeLabelKernel b hb endpoint he oldTime ht)
+@StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure : {Ω : Type u_1} →
+  [inst : MeasurableSpace Ω] →
+    (σ : MeasureTheory.Measure StickyKakeya4.E3) →
+      [MeasureTheory.IsProbabilityMeasure σ] →
+        (Γ : MeasureTheory.Measure Ω) →
+          [MeasureTheory.IsFiniteMeasure Γ] →
+            (b : StickyKakeya4.E3 → StickyKakeya4.E3) →
+              Measurable b →
+                Set ℝ →
+                  ℝ →
+                    ℝ →
+                      (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) →
+                        Measurable endpoint →
+                          (oldTime : Ω → ℝ) →
+                            Measurable oldTime →
+                              MeasureTheory.Measure ((Ω × StickyKakeya4.E3 × StickyKakeya4.E3) × (Fin 4 → ℝ))
+@StickyKakeya4.ActualResidualCycleWitness.timed_witness_original : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [inst_1 : MeasureTheory.IsProbabilityMeasure σ]
+  (Γ : MeasureTheory.Measure Ω) [inst_2 : MeasureTheory.IsFiniteMeasure Γ] (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (hb : Measurable b) (J : Set ℝ) (sep r₀ : ℝ) (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3)
+  (he : Measurable endpoint) (oldTime : Ω → ℝ) (ht : Measurable oldTime),
+  MeasureTheory.Measure.map (fun p => p.1.1)
+      (StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure σ Γ b hb J sep r₀ endpoint he oldTime ht) =
+    Γ
+@StickyKakeya4.ActualResidualCycleWitness.timed_witness_times : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [inst_1 : MeasureTheory.IsProbabilityMeasure σ]
+  (Γ : MeasureTheory.Measure Ω) [inst_2 : MeasureTheory.IsFiniteMeasure Γ] (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (hb : Measurable b) (J : Set ℝ) (sep r₀ : ℝ) (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3)
+  (he : Measurable endpoint) (oldTime : Ω → ℝ) (ht : Measurable oldTime),
+  ∀ᵐ (p :
+    (Ω × StickyKakeya4.E3 × StickyKakeya4.E3) ×
+      (Fin 4 →
+        ℝ)) ∂StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure σ Γ b hb J sep r₀ endpoint he oldTime ht,
+    p.2 = StickyKakeya4.ActualResidualCycleWitness.cycleTimes b endpoint oldTime p.1
+@StickyKakeya4.ActualResidualCycleWitness.timed_witness_old_time : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [inst_1 : MeasureTheory.IsProbabilityMeasure σ]
+  (Γ : MeasureTheory.Measure Ω) [inst_2 : MeasureTheory.IsFiniteMeasure Γ] (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (hb : Measurable b) (J : Set ℝ) (sep r₀ : ℝ) (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3)
+  (he : Measurable endpoint) (oldTime : Ω → ℝ) (ht : Measurable oldTime),
+  ∀ᵐ (p :
+    (Ω × StickyKakeya4.E3 × StickyKakeya4.E3) ×
+      (Fin 4 →
+        ℝ)) ∂StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure σ Γ b hb J sep r₀ endpoint he oldTime ht,
+    p.2 0 = oldTime p.1.1
+@StickyKakeya4.ActualResidualCycleWitness.vertex_witness_contact_errors : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [inst_1 : MeasureTheory.IsProbabilityMeasure σ]
+  (Γ : MeasureTheory.Measure Ω) [inst_2 : MeasureTheory.IsFiniteMeasure Γ] (b : StickyKakeya4.E3 → StickyKakeya4.E3),
+  Measurable b →
+    ∀ (J : Set ℝ),
+      MeasurableSet J →
+        ∀ (sep r₀ : ℝ),
+          0 < sep →
+            ∀ (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3),
+              Measurable endpoint →
+                ∀ (oldTime : Ω → ℝ),
+                  MeasureTheory.Measure.map endpoint Γ ≤
+                      (σ.prod σ).withDensity (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀) →
+                    (∀ᵐ (ω : Ω) ∂Γ,
+                        ‖b (endpoint ω).1 - b (endpoint ω).2 + oldTime ω • ((endpoint ω).1 - (endpoint ω).2)‖ ≤ r₀) →
+                      ∀ᵐ (p :
+                        Ω ×
+                          StickyKakeya4.E3 ×
+                            StickyKakeya4.E3) ∂StickyKakeya4.RootedCycleWitnessKernel.rootedWitnessExtension σ σ Γ
+                          endpoint (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀),
+                        ∀ (i : Fin 4),
+                          ‖StickyKakeya4.ContactCycleRigidity.residual
+                                (StickyKakeya4.ActualResidualCycleWitness.cycleVertices endpoint p)
+                                (StickyKakeya4.ActualResidualCycleWitness.cycleIntercepts b endpoint p)
+                                (StickyKakeya4.ActualResidualCycleWitness.cycleTimes b endpoint oldTime p) i‖ ≤
+                            r₀
+@StickyKakeya4.ActualResidualCycleWitness.timed_witness_contact_errors : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [inst_1 : MeasureTheory.IsProbabilityMeasure σ]
+  (Γ : MeasureTheory.Measure Ω) [inst_2 : MeasureTheory.IsFiniteMeasure Γ] (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (hb : Measurable b) (J : Set ℝ),
+  MeasurableSet J →
+    ∀ (sep r₀ : ℝ),
+      0 < sep →
+        ∀ (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (he : Measurable endpoint) (oldTime : Ω → ℝ)
+          (ht : Measurable oldTime),
+          MeasureTheory.Measure.map endpoint Γ ≤
+              (σ.prod σ).withDensity (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀) →
+            (∀ᵐ (ω : Ω) ∂Γ,
+                ‖b (endpoint ω).1 - b (endpoint ω).2 + oldTime ω • ((endpoint ω).1 - (endpoint ω).2)‖ ≤ r₀) →
+              ∀ᵐ (p :
+                (Ω × StickyKakeya4.E3 × StickyKakeya4.E3) ×
+                  (Fin 4 →
+                    ℝ)) ∂StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure σ Γ b hb J sep r₀ endpoint he
+                  oldTime ht,
+                ∀ (i : Fin 4),
+                  ‖StickyKakeya4.ContactCycleRigidity.residual
+                        (StickyKakeya4.ActualResidualCycleWitness.cycleVertices endpoint p.1)
+                        (StickyKakeya4.ActualResidualCycleWitness.cycleIntercepts b endpoint p.1) p.2 i‖ ≤
+                    r₀
+@StickyKakeya4.ActualResidualCycleWitness.timed_witness_observable : ∀ {Ω : Type u_1} {T : Type u_2}
+  [inst : MeasurableSpace Ω] [inst_1 : MeasurableSpace T] (σ : MeasureTheory.Measure StickyKakeya4.E3)
+  [inst_2 : MeasureTheory.IsProbabilityMeasure σ] (Γ : MeasureTheory.Measure Ω)
+  [inst_3 : MeasureTheory.IsFiniteMeasure Γ] (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (J : Set ℝ)
+  (sep r₀ : ℝ) (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (he : Measurable endpoint) (oldTime : Ω → ℝ)
+  (ht : Measurable oldTime) (f : Ω → T),
+  Measurable f →
+    MeasureTheory.Measure.map (fun p => f p.1.1)
+        (StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure σ Γ b hb J sep r₀ endpoint he oldTime ht) =
+      MeasureTheory.Measure.map f Γ
+@StickyKakeya4.ActualResidualCycleWitness.determinantCut : {Ω : Type u_1} →
+  (Ω → StickyKakeya4.E3 × StickyKakeya4.E3) → ℝ → Set (Ω × StickyKakeya4.E3 × StickyKakeya4.E3)
+@StickyKakeya4.ActualResidualCycleWitness.measurableSet_determinantCut : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3),
+  Measurable endpoint → ∀ (Δ : ℝ), MeasurableSet (StickyKakeya4.ActualResidualCycleWitness.determinantCut endpoint Δ)
+@StickyKakeya4.ActualResidualCycleWitness.cycle_times_near_old_time : ∀ {Ω : Type u_1}
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (J : Set ℝ) (sep r₀ : ℝ),
+  0 ≤ r₀ →
+    ∀ (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (oldTime : Ω → ℝ)
+      (p : Ω × StickyKakeya4.E3 × StickyKakeya4.E3),
+      ‖b (endpoint p.1).1 - b (endpoint p.1).2 + oldTime p.1 • ((endpoint p.1).1 - (endpoint p.1).2)‖ ≤ r₀ →
+        p ∈
+            StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint
+              (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀) →
+          ∀ (M Δ : ℝ),
+            0 ≤ M →
+              0 < Δ →
+                (∀ (i j : Fin 3),
+                    |StickyKakeya4.ContactCycleRigidity.edgeMatrix
+                          (StickyKakeya4.ActualResidualCycleWitness.cycleVertices endpoint p) i j| ≤
+                      M) →
+                  p ∈ StickyKakeya4.ActualResidualCycleWitness.determinantCut endpoint Δ →
+                    ∀ (i : Fin 4),
+                      |StickyKakeya4.ActualResidualCycleWitness.cycleTimes b endpoint oldTime p i - oldTime p.1| ≤
+                        48 * M ^ 2 * r₀ / Δ
+@StickyKakeya4.ActualResidualCycleWitness.old_time_cell_contact_bound : ∀ {Ω : Type u_1}
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (J : Set ℝ) (sep r₀ : ℝ),
+  0 ≤ r₀ →
+    ∀ (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (oldTime : Ω → ℝ)
+      (p : Ω × StickyKakeya4.E3 × StickyKakeya4.E3),
+      ‖b (endpoint p.1).1 - b (endpoint p.1).2 + oldTime p.1 • ((endpoint p.1).1 - (endpoint p.1).2)‖ ≤ r₀ →
+        p ∈
+            StickyKakeya4.RootedCycleWitnessKernel.witnessEvent endpoint
+              (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀) →
+          ∀ (M Δ c θ L : ℝ),
+            0 ≤ M →
+              0 < Δ →
+                (∀ (i j : Fin 3),
+                    |StickyKakeya4.ContactCycleRigidity.edgeMatrix
+                          (StickyKakeya4.ActualResidualCycleWitness.cycleVertices endpoint p) i j| ≤
+                      M) →
+                  p ∈ StickyKakeya4.ActualResidualCycleWitness.determinantCut endpoint Δ →
+                    |oldTime p.1 - c| ≤ θ →
+                      (∀ (i : Fin 4),
+                          ‖StickyKakeya4.ContactCycleRigidity.edge
+                                (StickyKakeya4.ActualResidualCycleWitness.cycleVertices endpoint p) i‖ ≤
+                            L) →
+                        ∀ (i : Fin 4),
+                          ‖StickyKakeya4.ContactCycleRigidity.edge
+                                  (StickyKakeya4.ActualResidualCycleWitness.cycleIntercepts b endpoint p) i +
+                                c •
+                                  StickyKakeya4.ContactCycleRigidity.edge
+                                    (StickyKakeya4.ActualResidualCycleWitness.cycleVertices endpoint p) i‖ ≤
+                            r₀ + (θ + 48 * M ^ 2 * r₀ / Δ) * L
+@StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines : {Ω : Type u_1} →
+  (selector : Set StickyKakeya4.MarkedLine) →
+    MeasurableSet selector →
+      (∀ line ∈ selector, StickyKakeya4.IsValidLine line) →
+        StickyKakeya4.IsDirectionSelector selector →
+          (Ω → StickyKakeya4.E3 × StickyKakeya4.E3) →
+            Ω × StickyKakeya4.E3 × StickyKakeya4.E3 → Fin 4 → StickyKakeya4.MarkedLine
+@StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines_mem : ∀ {Ω : Type u_1}
+  (selector : Set StickyKakeya4.MarkedLine) (hselMeas : MeasurableSet selector)
+  (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line) (hselector : StickyKakeya4.IsDirectionSelector selector)
+  (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (p : Ω × StickyKakeya4.E3 × StickyKakeya4.E3) (i : Fin 4),
+  StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines selector hselMeas hvalid hselector endpoint p i ∈ selector
+@StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines_secant : ∀ {Ω : Type u_1}
+  (selector : Set StickyKakeya4.MarkedLine) (hselMeas : MeasurableSet selector)
+  (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line) (hselector : StickyKakeya4.IsDirectionSelector selector)
+  (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (p : Ω × StickyKakeya4.E3 × StickyKakeya4.E3) (i : Fin 4),
+  StickyKakeya4.fourCycleEdgeSecant
+      (StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines selector hselMeas hvalid hselector endpoint p) i =
+    (StickyKakeya4.ContactCycleRigidity.edge (StickyKakeya4.ActualResidualCycleWitness.cycleVertices endpoint p) i,
+      StickyKakeya4.ContactCycleRigidity.edge
+        (StickyKakeya4.ActualResidualCycleWitness.cycleIntercepts
+          (StickyKakeya4.ActualSlopeSource.intercept selector hselMeas hvalid hselector) endpoint p)
+        i)
+@StickyKakeya4.ActualResidualCycleWitness.timed_selector_contact_errors : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (selector : Set StickyKakeya4.MarkedLine) (hselMeas : MeasurableSet selector)
+  (hvalid : ∀ line ∈ selector, StickyKakeya4.IsValidLine line) (hselector : StickyKakeya4.IsDirectionSelector selector)
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [inst_1 : MeasureTheory.IsProbabilityMeasure σ]
+  (Γ : MeasureTheory.Measure Ω) [inst_2 : MeasureTheory.IsFiniteMeasure Γ] (J : Set ℝ),
+  MeasurableSet J →
+    ∀ (sep r₀ : ℝ),
+      0 < sep →
+        ∀ (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (he : Measurable endpoint) (oldTime : Ω → ℝ)
+          (ht : Measurable oldTime),
+          MeasureTheory.Measure.map endpoint Γ ≤
+              (σ.prod σ).withDensity
+                (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight
+                  (StickyKakeya4.ActualSlopeSource.intercept selector hselMeas hvalid hselector) J sep r₀) →
+            (∀ᵐ (ω : Ω) ∂Γ,
+                ‖StickyKakeya4.ActualSlopeSource.intercept selector hselMeas hvalid hselector (endpoint ω).1 -
+                        StickyKakeya4.ActualSlopeSource.intercept selector hselMeas hvalid hselector (endpoint ω).2 +
+                      oldTime ω • ((endpoint ω).1 - (endpoint ω).2)‖ ≤
+                  r₀) →
+              ∀ᵐ (p :
+                (Ω × StickyKakeya4.E3 × StickyKakeya4.E3) ×
+                  (Fin 4 →
+                    ℝ)) ∂StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure σ Γ
+                  (StickyKakeya4.ActualSlopeSource.intercept selector hselMeas hvalid hselector) ⋯ J sep r₀ endpoint he
+                  oldTime ht,
+                ∀ (i : Fin 4),
+                  ‖(StickyKakeya4.fourCycleEdgeSecant
+                            (StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines selector hselMeas hvalid
+                              hselector endpoint p.1)
+                            i).2 +
+                        p.2 i •
+                          (StickyKakeya4.fourCycleEdgeSecant
+                              (StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines selector hselMeas hvalid
+                                hselector endpoint p.1)
+                              i).1‖ ≤
+                    r₀
+@StickyKakeya4.ActualResidualCycleWitness.timed_witness_fresh_times_mem : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [inst_1 : MeasureTheory.IsProbabilityMeasure σ]
+  (Γ : MeasureTheory.Measure Ω) [inst_2 : MeasureTheory.IsFiniteMeasure Γ] (b : StickyKakeya4.E3 → StickyKakeya4.E3)
+  (hb : Measurable b) (J : Set ℝ),
+  MeasurableSet J →
+    ∀ (sep r₀ : ℝ),
+      0 < sep →
+        ∀ (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (he : Measurable endpoint) (oldTime : Ω → ℝ)
+          (ht : Measurable oldTime),
+          MeasureTheory.Measure.map endpoint Γ ≤
+              (σ.prod σ).withDensity (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀) →
+            ∀ᵐ (p :
+              (Ω × StickyKakeya4.E3 × StickyKakeya4.E3) ×
+                (Fin 4 →
+                  ℝ)) ∂StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure σ Γ b hb J sep r₀ endpoint he
+                oldTime ht,
+              ∀ (j : Fin 3), p.2 j.succ ∈ J
+@StickyKakeya4.ActualResidualCycleWitness.timed_witness_four_distinct : ∀ {Ω : Type u_1} [inst : MeasurableSpace Ω]
+  (σ : MeasureTheory.Measure StickyKakeya4.E3) [inst_1 : MeasureTheory.IsProbabilityMeasure σ]
+  [MeasureTheory.NullSingletonClass σ] (Γ : MeasureTheory.Measure Ω) [inst_3 : MeasureTheory.IsFiniteMeasure Γ]
+  (b : StickyKakeya4.E3 → StickyKakeya4.E3) (hb : Measurable b) (J : Set ℝ),
+  MeasurableSet J →
+    ∀ (sep r₀ : ℝ),
+      0 < sep →
+        ∀ (endpoint : Ω → StickyKakeya4.E3 × StickyKakeya4.E3) (he : Measurable endpoint) (oldTime : Ω → ℝ)
+          (ht : Measurable oldTime),
+          MeasureTheory.Measure.map endpoint Γ ≤
+              (σ.prod σ).withDensity (StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight b J sep r₀) →
+            ∀ᵐ (p :
+              (Ω × StickyKakeya4.E3 × StickyKakeya4.E3) ×
+                (Fin 4 →
+                  ℝ)) ∂StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure σ Γ b hb J sep r₀ endpoint he
+                oldTime ht,
+              StickyKakeya4.FourDistinctSources.FourDistinct (endpoint p.1.1).1 (endpoint p.1.1).2 p.1.2.1 p.1.2.2
+'StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.measurable_oldGraphWeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight_pos_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.oldGraphWeight_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.oldGraph_mass_eq_fixed_angle_residual_content' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.pairTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.measurable_pairTime' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.canonical_old_time_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.pairTime_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycleVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycleIntercepts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycleTimes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycleTimes_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.measurable_cycleVertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.measurable_cycleIntercepts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.measurable_cycleTimes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.contact_norm_reverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycle_contact_errors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycle_fresh_times_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timeLabelKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timeLabelKernel_isMarkov' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timedWitnessMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timed_witness_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timed_witness_times' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timed_witness_old_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.vertex_witness_contact_errors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timed_witness_contact_errors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timed_witness_observable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.determinantCut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.measurableSet_determinantCut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycle_times_near_old_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.old_time_cell_contact_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.cycleMarkedLines_secant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timed_selector_contact_errors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timed_witness_fresh_times_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ActualResidualCycleWitness.timed_witness_four_distinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Confirmed command exit status: 0

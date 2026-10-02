@@ -3,6 +3,38 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual weighted-residual graph and marked-cycle checkpoint
+
+The new `ActualResidualCycleWitness` adapter starts from the existing physical
+weighted residual graph, with its fixed-angle cutoff. It proves the graph
+weight is measurable and at most one, and identifies its mass exactly with
+the fixed-angle weighted residual content. Positive graph edges have actual
+residual at most `r_0` and closest collision time in the requested window.
+
+Its Markov construction retains the full inherited occurrence and its original
+root time. Only the three fresh edge times are appended. All four contact
+inequalities are derived at the original `r_0`, including a specialization to
+the actual selected marked lines. The explicit determinant cut is measurable;
+its positive mass is not assumed to follow from generic C4 positivity.
+
+Direct packetization by the preserved old root time yields the checked error
+`r_0 + L(theta + 48 M^2 r_0 / Delta)`. On this coherent physical branch,
+`Delta = r_0^d` with `d < 1/3` suffices at terminal scale `r_0^(2/3)`. This saves
+one inverse-frame factor compared with using the graph-plane slope label.
+Actual polarization witnesses remain necessary for the transverse comparison.
+
+Strict compilation, the isolated 8,756-job build, and all 39 readbacks passed,
+exit 0. The cumulative new checked count is **527**, with standard logical
+axioms or no axioms only. The last full tracked build remains the 141-module
+`5ac4351` run, followed by this one strictly checked module.
+
+[REMAINING_WEIGHTED_GEOMETRY.md](../docs/REMAINING_WEIGHTED_GEOMETRY.md) records
+the remaining source-exact obstacles: the `L/H` pruning cost, missing
+same-tolerance growth, a finite row/column cycling test, the intermediate-time
+gap caused by retained root error, and the extra loss budget needed by the
+density-product tail inference. These tests do not disprove the main theorem.
+The required old-weighted paid/Frostman alternative is still unproved.
+
 ## Root-faithful four-cycle geometry checkpoint
 
 Actual physical contact cycles now yield old-time rigidity without replacing
