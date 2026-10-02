@@ -243,3 +243,18 @@ The full build is being accelerated by two independent late-target prebuild
 batches alongside the dependency-first pass. At most three baseline compiler
 jobs are scheduled; focused proof checks are separate. Every final target will
 still be checked by the full dependency pass and the final aggregate build.
+
+## Active proof drafts backed up separately
+
+The next checkpoint also snapshots work in progress in
+`Thm_StickyKakeya4_residual_collision_bridge` and
+`Thm_StickyKakeya4_markov_endpoint_preservation`. At this snapshot their final
+compilation and axiom readbacks are **pending**. They must not be counted among
+the 28 already checked new declarations above.
+
+The residual draft implements closest-time interval localization and a
+factor-two physical collision-fiber estimate, with residual/time-window
+cutoffs; its intended next step is the Tonelli residual-content integral bound.
+The Markov draft uses actual probability-kernel extensions to preserve endpoint
+marginals and transfers a bounded root density to product-measure domination.
+Successful checks and any corrections will be recorded in later checkpoints.

@@ -21,7 +21,8 @@ the uniform finite-scale target, and the remaining no-WZ closure gates are recor
 
 The original [Chenxi Cai manuscript](https://cchx0000.github.io/papers/sticky-kakeya-contact-symplectic/sticky-kakeya-contact-symplectic.pdf)
 is the final specification. [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md)
-records the exact correspondence and remaining proof obligations. In particular,
+records the exact correspondence and remaining proof obligations.
+[CURRENT_MILESTONES.md](CURRENT_MILESTONES.md) is the working source-faithful ledger. In particular,
 its occurrence-measure restrictions must not be replaced by arbitrary physical
 shading deletion. The compact marked main theorem is unchanged.
 
