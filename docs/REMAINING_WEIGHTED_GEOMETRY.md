@@ -27,6 +27,22 @@ These statements bound covering multiplicity after occurrence-sensitive
 pruning. They do not assert a quantitative upper bound on physical bush
 mass, nor a root-weighted charge for all discarded rank-loss occurrences.
 
+### Checked repair of the support-counting step
+
+The reference-source construction now selects one fixed positive source
+before choosing any residual graph. Directly from `IsStickyDatum`, it gives
+original carrier nets with lower reference mass `c tau^(3+zeta)` and cubic
+upper direction density. Uniform overlap proves vertical support count
+`A tau^(-zeta)`. Every later subset inherits that upper count by inclusion;
+there is no later occurrence-mass `H` denominator in this replacement.
+See [PACKING_REFERENCE_SOURCE.md](PACKING_REFERENCE_SOURCE.md) and the
+strictly checked `actual_reference_vertical_count` module.
+
+This resolves the support-counting normalization issue identified above.
+The lower reference mass does not persist under arbitrary later cuts, and
+normalizing a descendant can still enlarge its direction-density constant.
+The old-error and weighted anchor-reuse problems below remain separate.
+
 ## 2. Packing alone cannot supply a polynomial bush modulus
 
 On a fixed bounded direction ball, set

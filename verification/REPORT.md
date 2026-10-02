@@ -3,6 +3,38 @@
 Date: 2026-10-02 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Constructed phase localization and 163-module build
+
+`ResidualPhaseLocalization` constructs first-hit measurable source cells from
+a finite separated near-phase cover, splits the actual graph measure exactly,
+and puts both assigned endpoints in a controlled expanded block. A uniform
+geometric overlap bound and cubic block upper mass give the squared-mass
+budget. Weighted pigeonholing selects a positive block with normalized graph
+density at least the total edge mass divided by `C tau^3 K sigma(univ)`.
+There is no number-of-cells loss or equal-cell-mass assumption; zero blocks
+are proved to carry no assigned graph mass. The final actual-source adapter
+is separate work, using the already checked original carrier proximity and
+fixed reference source.
+
+Its 29 declarations and 11 result projections have strict builds and
+standard-only axiom readbacks, giving **755** cumulative checked declarations.
+The full tracked build at `95e104e5` passed all **163** committed modules and
+**8,870** Lake jobs, exit 0; see
+[reference-source-full-build.log](reference-source-full-build.log).
+The subsequent localization module has its own strict check. The fresh main
+axiom gate at the same checkpoint exited 1, identifying exactly the existing
+WZ project axiom in selector_closure and sticky_kakeya_four_dimensional; see
+[reference-source-main-axiom-gate.log](reference-source-main-axiom-gate.log).
+
+[QSTICK_TRANSVERSE_REUSE_TEST.md](../docs/QSTICK_TRANSVERSE_REUSE_TEST.md) is
+an independently reviewed handwritten geometric test. It has a smooth
+original selector with uniformly bounded vertical support, genuine old
+polarized contact packets and diffuse conditional normal laws, yet packet
+reuse can saturate a constant direction union. Its front has an explicit
+Frostman exit. Thus the next payment step really needs the no-Frostman or
+quantitatively retained non-bush branch, beyond support counts and flags.
+No such paid implication is asserted by this checkpoint.
+
 ## Original packing hypothesis now supplies the fixed reference source
 
 The new original-data endpoint starts only from `IsStickyDatum ambient` and

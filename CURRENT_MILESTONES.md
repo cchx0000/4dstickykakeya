@@ -150,9 +150,9 @@ it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
 kernel readback with no project-specific axioms or `sorryAx`. The latest full
-tracked build at `5af3ed9` passed all **149** committed modules and **8,856** Lake
-jobs; subsequent residual-excess and cover-functional modules have strict checks;
-there are now **715** checked new declarations with only standard logical
+tracked build at `95e104e5` passed all **163** committed modules and **8,870** Lake
+jobs; the subsequent constructed localization module has strict checks;
+there are now **755** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the

@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T10:10:33.675070+00:00",
-  "previous_checkpoint": "d9760db7490a054701554dd4ac2b3f8b6e19bb27",
+  "generated_at_utc": "2026-10-02T10:22:45.505035+00:00",
+  "previous_checkpoint": "95e104e5a6f074a0a60fc7932052c28913ae29a6",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 715,
+  "total_new_checked_declarations": 755,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -50,7 +50,8 @@
     "verification/actual-reference-vertical-count-axioms.log": 3,
     "verification/angular-residual-shell-readback.log": 10,
     "verification/residual-carrier-proximity-axioms.log": 4,
-    "verification/angular-residual-excess-readback.log": 6
+    "verification/angular-residual-excess-readback.log": 6,
+    "verification/residual-phase-localization-axioms.log": 40
   },
   "checks": [
     {
@@ -5664,6 +5665,366 @@
         "Quot.sound"
       ],
       "log": "verification/angular-residual-excess-readback.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.firstHit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.assignedGraph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.measurableSet_firstHit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.firstHit_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.firstHit_pairwiseDisjoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.iUnion_firstHit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.firstHit_ae_partition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.assignedGraph_le_block_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.assignedGraph_mass_le_sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.assignedGraph_eq_zero_of_block_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass_toReal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.exists_weighted_density_ge_average",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.sum_block_mass_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.sum_sq_block_mass_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.exists_assignedGraph_density_ge_average",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.exists_assignedGraph_density_ge_mass_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_indexed_ball_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_indexed_ball_overlap_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_fin_ball_overlap_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.phaseCover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.phaseBlock",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.graphMeasure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.graphMeasure_le_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.near_phase_endpoints_in_block",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.graphMeasure_ae_endpoints_in_block",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.construct_localization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.exists_uniform_near_phase_graph_localization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_measurable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_disjoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_partition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_subordinate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.blocks_measurable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.exact_mass_split",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.block_domination",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.bounded_overlap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.square_mass_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.positive_square_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.selected_block",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/residual-phase-localization-axioms.log"
     }
   ],
   "source_sha256": {
@@ -5713,7 +6074,8 @@
     "Theorems/Thm_StickyKakeya4_actual_reference_vertical_count.lean": "d1bfb36e121b98c57d7fcfe4c7635306552cf2a04cdf75fa993b1f989828fa05",
     "Theorems/Thm_StickyKakeya4_angular_residual_shell.lean": "c6bf461f35616d82052a2a8c55d33948e920e105cbee2e6171df2ee934c88214",
     "Theorems/Thm_StickyKakeya4_residual_carrier_proximity.lean": "9ba941732e530de601633c36931f2cae5cdcc7a2eaae711a2448345369026941",
-    "Theorems/Thm_StickyKakeya4_angular_residual_excess.lean": "3b05affed2aba51f93c3a89a9bc0faa1eeebdb0e0f16983f9719778cbf39f587"
+    "Theorems/Thm_StickyKakeya4_angular_residual_excess.lean": "3b05affed2aba51f93c3a89a9bc0faa1eeebdb0e0f16983f9719778cbf39f587",
+    "Theorems/Thm_StickyKakeya4_residual_phase_localization.lean": "ca620be2df688715516dd07f969f1e03b5707d2d1c9948b68bd98fa814710efc"
   },
   "full_build_rerun": true,
   "final_main_project_axiom_removed": false,
@@ -5722,17 +6084,22 @@
   "targeted_lake_build_jobs": 8754,
   "targeted_lake_build_log": "verification/analytic-closure-build.log",
   "full_tracked_build": {
-    "source_commit": "5af3ed97a3d2d213a52b01f7afebe87f8d27690d",
-    "module_count": 149,
+    "source_commit": "95e104e5a6f074a0a60fc7932052c28913ae29a6",
+    "module_count": 163,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8856,
-    "log": "verification/no-frostman-routing-full-build.log"
+    "lake_jobs": 8870,
+    "log": "verification/reference-source-full-build.log"
   },
   "latest_main_axiom_gate": {
-    "status": "failed_existing_WZ_axiom",
+    "source_commit": "95e104e5a6f074a0a60fc7932052c28913ae29a6",
     "exit_code": 1,
-    "log": "verification/rigidity-main-axiom-gate.log"
+    "log": "verification/reference-source-main-axiom-gate.log",
+    "remaining_project_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+    "affected_declarations": [
+      "StickyKakeya4.selector_closure",
+      "StickyKakeya4.sticky_kakeya_four_dimensional"
+    ]
   },
-  "resumed_phase_declaration_count": 624
+  "resumed_phase_declaration_count": 664
 }

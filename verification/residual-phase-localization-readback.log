@@ -1,0 +1,1934 @@
+def StickyKakeya4.ResidualPhaseLocalization.firstHit.{u_1} : {X : Type u_1} →
+  {n : ℕ} → (Fin n → Set X) → Fin n → Set X :=
+fun {X} {n} A i => disjointed A i
+'StickyKakeya4.ResidualPhaseLocalization.firstHit' depends on axioms: [propext, Classical.choice, Quot.sound]
+def StickyKakeya4.ResidualPhaseLocalization.assignedGraph.{u_1} : {X : Type u_1} →
+  [inst : MeasurableSpace X] →
+    {n : ℕ} → MeasureTheory.Measure (X × X) → (Fin n → Set X) → Fin n → MeasureTheory.Measure (X × X) :=
+fun {X} [MeasurableSpace X] {n} ν A i => ν.restrict (Prod.fst ⁻¹' StickyKakeya4.ResidualPhaseLocalization.firstHit A i)
+'StickyKakeya4.ResidualPhaseLocalization.assignedGraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.measurableSet_firstHit.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (A : Fin n → Set X),
+  (∀ (i : Fin n), MeasurableSet (A i)) →
+    ∀ (i : Fin n), MeasurableSet (StickyKakeya4.ResidualPhaseLocalization.firstHit A i) :=
+fun {X} [MeasurableSpace X] {n} A hA i =>
+  Eq.mpr (id (congrArg (fun _a => MeasurableSet _a) (StickyKakeya4.ResidualPhaseLocalization.firstHit.eq_1 A i)))
+    (Eq.mpr (id (congrArg (fun _a => MeasurableSet _a) (disjointed_eq_inter_compl A i)))
+      (MeasurableSet.inter (hA i)
+        (MeasurableSet.iInter fun j => MeasurableSet.iInter fun x => MeasurableSet.compl (hA j))))
+'StickyKakeya4.ResidualPhaseLocalization.measurableSet_firstHit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.firstHit_subset.{u_1} : ∀ {X : Type u_1} {n : ℕ} (A : Fin n → Set X)
+  (i : Fin n), StickyKakeya4.ResidualPhaseLocalization.firstHit A i ⊆ A i :=
+fun {X} {n} A i => disjointed_subset A i
+'StickyKakeya4.ResidualPhaseLocalization.firstHit_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.firstHit_pairwiseDisjoint.{u_1} : ∀ {X : Type u_1} {n : ℕ}
+  (A : Fin n → Set X),
+  Pairwise fun i j =>
+    Disjoint (StickyKakeya4.ResidualPhaseLocalization.firstHit A i)
+      (StickyKakeya4.ResidualPhaseLocalization.firstHit A j) :=
+fun {X} {n} A => disjoint_disjointed A
+'StickyKakeya4.ResidualPhaseLocalization.firstHit_pairwiseDisjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.iUnion_firstHit.{u_1} : ∀ {X : Type u_1} {n : ℕ} (A : Fin n → Set X),
+  ⋃ i, StickyKakeya4.ResidualPhaseLocalization.firstHit A i = ⋃ i, A i :=
+fun {X} {n} A => iUnion_disjointed
+'StickyKakeya4.ResidualPhaseLocalization.iUnion_firstHit' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.firstHit_ae_partition.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (σ : MeasureTheory.Measure X) (A : Fin n → Set X),
+  (∀ᵐ (x : X) ∂σ, x ∈ ⋃ i, A i) → ∀ᵐ (x : X) ∂σ, ∃! i, x ∈ StickyKakeya4.ResidualPhaseLocalization.firstHit A i :=
+fun {X} [MeasurableSpace X] {n} σ A hcover =>
+  Filter.mp_mem hcover
+    (Filter.univ_mem'
+      (id fun x hx =>
+        Exists.casesOn
+          (Set.mem_iUnion.mp
+            (Eq.mp (congrArg (fun _a => x ∈ _a) (Eq.symm (StickyKakeya4.ResidualPhaseLocalization.iUnion_firstHit A)))
+              hx))
+          fun i hi =>
+          Exists.intro i
+            ⟨hi, fun j hj =>
+              Decidable.byContradiction fun hji =>
+                Set.disjoint_left.mp (StickyKakeya4.ResidualPhaseLocalization.firstHit_pairwiseDisjoint A hji) hj hi⟩))
+'StickyKakeya4.ResidualPhaseLocalization.firstHit_ae_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (σ : MeasureTheory.Measure X),
+  ∀ ν ≤ σ.prod σ,
+    ∀ (A : Fin n → Set X),
+      (∀ (i : Fin n), MeasurableSet (A i)) →
+        (∀ᵐ (x : X) ∂σ, x ∈ ⋃ i, A i) →
+          ∑ i, (StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ = ν Set.univ :=
+fun {X} [MeasurableSpace X] {n} σ ν hdom A hA hcover =>
+  have hcoverProd :=
+    MeasureTheory.Measure.QuasiMeasurePreserving.ae MeasureTheory.Measure.quasiMeasurePreserving_fst hcover;
+  have hcoverν :=
+    Filter.mp_mem (MeasureTheory.ae_mono hdom hcoverProd)
+      (Filter.univ_mem'
+        (id fun p hp =>
+          Eq.mpr
+            (id
+              (Eq.trans
+                (congrFun'
+                  (congrArg Membership.mem
+                    (Eq.trans StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass._simp_1_1
+                      (congrArg (Set.preimage Prod.fst) (StickyKakeya4.ResidualPhaseLocalization.iUnion_firstHit A))))
+                  p)
+                StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass._simp_1_2))
+            hp));
+  have hdisj := fun ⦃i j⦄ hij =>
+    Disjoint.preimage Prod.fst (StickyKakeya4.ResidualPhaseLocalization.firstHit_pairwiseDisjoint A hij);
+  have hm := fun i =>
+    MeasurableSet.preimage (StickyKakeya4.ResidualPhaseLocalization.measurableSet_firstHit A hA i) measurable_fst;
+  have heq := MeasureTheory.Measure.restrict_iUnion_apply hdisj hm MeasurableSet.univ;
+  Eq.symm
+    (Eq.mp
+      (congrArg (fun _a => ν Set.univ = _a)
+        (tsum_fintype fun i =>
+          (ν.restrict (Prod.fst ⁻¹' StickyKakeya4.ResidualPhaseLocalization.firstHit A i)) Set.univ))
+      (Eq.mp
+        (congrArg
+          (fun _a =>
+            _a Set.univ =
+              ∑' (i : Fin n), (ν.restrict (Prod.fst ⁻¹' StickyKakeya4.ResidualPhaseLocalization.firstHit A i)) Set.univ)
+          (MeasureTheory.Measure.restrict_eq_self_of_ae_mem hcoverν))
+        heq))
+'StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.assignedGraph_le_block_product.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (σ : MeasureTheory.Measure X),
+  ∀ ν ≤ σ.prod σ,
+    ∀ (A D : Fin n → Set X),
+      (∀ (i : Fin n), ∀ᵐ (p : X × X) ∂ν, p.1 ∈ A i → p ∈ D i ×ˢ D i) →
+        ∀ (i : Fin n), StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i ≤ (σ.prod σ).restrict (D i ×ˢ D i) :=
+fun {X} [MeasurableSpace X] {n} σ ν hdom A D hendpoint i =>
+  MeasureTheory.Measure.restrict_mono'
+    (Filter.mp_mem (hendpoint i)
+      (Filter.univ_mem' (id fun p hp hpi => hp (StickyKakeya4.ResidualPhaseLocalization.firstHit_subset A i hpi))))
+    hdom
+'StickyKakeya4.ResidualPhaseLocalization.assignedGraph_le_block_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.assignedGraph_mass_le_sq.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ],
+  ∀ ν ≤ σ.prod σ,
+    ∀ (A D : Fin n → Set X),
+      (∀ (i : Fin n), ∀ᵐ (p : X × X) ∂ν, p.1 ∈ A i → p ∈ D i ×ˢ D i) →
+        ∀ (i : Fin n),
+          ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal ≤ (σ (D i)).toReal ^ 2 :=
+fun {X} [MeasurableSpace X] {n} σ [MeasureTheory.IsFiniteMeasure σ] ν hdom A D hendpoint i =>
+  have h := StickyKakeya4.ResidualPhaseLocalization.assignedGraph_le_block_product σ ν hdom A D hendpoint i Set.univ;
+  have ht := ENNReal.mul_ne_top (MeasureTheory.measure_ne_top σ (D i)) (MeasureTheory.measure_ne_top σ (D i));
+  Eq.mpr
+    (id
+      (congrArg (LE.le ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal)
+        (pow_two (σ (D i)).toReal)))
+    (Eq.mp
+      (congrArg (LE.le ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal)
+        ENNReal.toReal_mul)
+      (ENNReal.toReal_mono ht
+        (Eq.mp
+          (congrArg (fun _a => (StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ ≤ _a)
+            (MeasureTheory.Measure.prod_prod (D i) (D i)))
+          (Eq.mp
+            (congrArg (fun _a => (StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ ≤ _a)
+              (MeasureTheory.Measure.restrict_apply_univ (D i ×ˢ D i)))
+            h))))
+'StickyKakeya4.ResidualPhaseLocalization.assignedGraph_mass_le_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.assignedGraph_eq_zero_of_block_null.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ],
+  ∀ ν ≤ σ.prod σ,
+    ∀ (A D : Fin n → Set X),
+      (∀ (i : Fin n), ∀ᵐ (p : X × X) ∂ν, p.1 ∈ A i → p ∈ D i ×ˢ D i) →
+        ∀ (i : Fin n), σ (D i) = 0 → StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i = 0 :=
+fun {X} [MeasurableSpace X] {n} σ [MeasureTheory.IsFiniteMeasure σ] ν hdom A D hendpoint i hnull =>
+  MeasureTheory.Measure.measure_univ_eq_zero.mp
+    (have h := StickyKakeya4.ResidualPhaseLocalization.assignedGraph_le_block_product σ ν hdom A D hendpoint i Set.univ;
+    Eq.mp
+      (Eq.trans
+        (congrArg (LE.le ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ))
+          (Eq.trans (MeasureTheory.Measure.restrict_apply_univ (D i ×ˢ D i))
+            (Eq.trans (MeasureTheory.Measure.prod_prod (D i) (D i))
+              (Eq.trans (congr (congrArg HMul.hMul hnull) hnull) (zero_mul 0)))))
+        StickyKakeya4.ResidualPhaseLocalization.assignedGraph_eq_zero_of_block_null._simp_1_1)
+      h)
+'StickyKakeya4.ResidualPhaseLocalization.assignedGraph_eq_zero_of_block_null' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass_toReal.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ],
+  ∀ ν ≤ σ.prod σ,
+    ∀ (A : Fin n → Set X),
+      (∀ (i : Fin n), MeasurableSet (A i)) →
+        (∀ᵐ (x : X) ∂σ, x ∈ ⋃ i, A i) →
+          ∑ i, ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal = (ν Set.univ).toReal :=
+fun {X} [MeasurableSpace X] {n} σ [MeasureTheory.IsFiniteMeasure σ] ν hdom A hA hcover =>
+  let this := MeasureTheory.isFiniteMeasure_of_le (σ.prod σ) hdom;
+  Eq.mpr
+    (id
+      (congrArg
+        (fun _a => ∑ i, ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal = _a.toReal)
+        (Eq.symm (StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass σ ν hdom A hA hcover))))
+    (Eq.mpr
+      (id
+        (congrArg (fun _a => ∑ i, ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal = _a)
+          (ENNReal.toReal_sum fun i x =>
+            id
+              (MeasureTheory.measure_ne_top
+                (ν.restrict (Prod.fst ⁻¹' StickyKakeya4.ResidualPhaseLocalization.firstHit A i)) Set.univ))))
+      (Eq.refl (∑ i, ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal)))
+'StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass_toReal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.exists_weighted_density_ge_average.{u_2} : ∀ {I : Type u_2}
+  [inst : Fintype I] (e w : I → ℝ),
+  (∀ (i : I), 0 ≤ e i) →
+    (∀ (i : I), 0 ≤ w i) → (∀ (i : I), e i ≤ w i) → 0 < ∑ i, e i → ∃ i, 0 < w i ∧ (∑ j, e j) / ∑ j, w j ≤ e i / w i :=
+fun {I} [Fintype I] e w _he hw hew hE =>
+  have hS := LT.lt.trans_le hE (Finset.sum_le_sum fun i x => hew i);
+  Exists.casesOn ((Finset.sum_pos_iff_of_nonneg fun i x => hw i).mp hS) fun i₀ h =>
+    And.casesOn h fun left hi₀ =>
+      Decidable.byContradiction fun hn =>
+        have hlt := fun i hi =>
+          have hnot := fun h => hn (Exists.intro i ⟨hi, h⟩);
+          (div_lt_iff₀ hi).mp (lt_of_not_ge hnot);
+        have hle := fun i =>
+          if hi : 0 < w i then LT.lt.le (hlt i hi)
+          else
+            have hz := le_antisymm (le_of_not_gt hi) (hw i);
+            Eq.mpr (id (congrArg (fun _a => e i ≤ ((∑ j, e j) / ∑ j, w j) * _a) hz))
+              (Eq.mpr (id (congrArg (fun _a => e i ≤ _a) (mul_zero ((∑ j, e j) / ∑ j, w j))))
+                (LE.le.trans_eq (hew i) hz));
+        have hs := Finset.sum_lt_sum (fun i x => hle i) (Exists.intro i₀ ⟨Finset.mem_univ i₀, hlt i₀ hi₀⟩);
+        lt_irrefl (∑ i, e i)
+          (Eq.mp (congrArg (fun _a => ∑ i, e i < _a) (div_mul_cancel₀ (∑ j, e j) (LT.lt.ne' hS)))
+            (Eq.mp (congrArg (fun _a => ∑ i, e i < _a) (Eq.symm (Finset.mul_sum Finset.univ w ((∑ j, e j) / ∑ j, w j))))
+              hs))
+'StickyKakeya4.ResidualPhaseLocalization.exists_weighted_density_ge_average' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.sum_block_mass_le.{u_1} : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  {n : ℕ} (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] (D : Fin n → Set X),
+  (∀ (i : Fin n), MeasurableSet (D i)) →
+    ∀ (K : ℕ), (∀ (x : X), {i | x ∈ D i}.card ≤ K) → ∑ i, (σ (D i)).toReal ≤ ↑K * (σ Set.univ).toReal :=
+fun {X} [MeasurableSpace X] {n} σ [MeasureTheory.IsFiniteMeasure σ] D hD K hoverlap =>
+  have h :=
+    StickyKakeya4.sum_measure_le_mul_of_multiplicity_bound σ Finset.univ D Set.univ K (fun i x => hD i)
+      (fun x x_1 => Set.subset_univ (D x)) hoverlap;
+  have hreal :=
+    ENNReal.toReal_mono (ENNReal.mul_ne_top (ENNReal.natCast_ne_top K) (MeasureTheory.measure_ne_top σ Set.univ)) h;
+  Eq.mp
+    (congr
+      (congrArg LE.le
+        ((fun x_0 x_1 x_2 =>
+            (fun x_0 x_1 x_2 => ENNReal.toReal_sum fun i x => MeasureTheory.measure_ne_top σ (x_2 i)) x_0 x_1 x_2)
+          (Fin n) Finset.univ D))
+      (Eq.trans ENNReal.toReal_mul (congrFun' (congrArg HMul.hMul (ENNReal.toReal_natCast K)) (σ Set.univ).toReal)))
+    hreal
+'StickyKakeya4.ResidualPhaseLocalization.sum_block_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.sum_sq_block_mass_le.{u_1} : ∀ {X : Type u_1} [inst : MeasurableSpace X]
+  {n : ℕ} (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] (D : Fin n → Set X),
+  (∀ (i : Fin n), MeasurableSet (D i)) →
+    ∀ (K : ℕ),
+      (∀ (x : X), {i | x ∈ D i}.card ≤ K) →
+        ∀ (B : ℝ),
+          0 ≤ B → (∀ (i : Fin n), (σ (D i)).toReal ≤ B) → ∑ i, (σ (D i)).toReal ^ 2 ≤ B * ↑K * (σ Set.univ).toReal :=
+fun {X} [MeasurableSpace X] {n} σ [MeasureTheory.IsFiniteMeasure σ] D hD K hoverlap B hB hupper =>
+  Trans.trans
+    (Trans.trans
+      (Trans.trans
+        (Finset.sum_le_sum fun i a =>
+          le_of_not_gt fun a =>
+            Mathlib.Tactic.Linarith.lt_irrefl
+              (Eq.mp
+                (congrArg (fun _a => _a < 0)
+                  (Mathlib.Tactic.Ring.of_eq
+                    (Mathlib.Tactic.Ring.Common.add_congr
+                      (Mathlib.Tactic.Ring.Common.sub_congr
+                        (Mathlib.Tactic.Ring.Common.mul_congr
+                          (Mathlib.Tactic.Ring.Common.atom_pf B rfl
+                            (Eq.mpr
+                              (id
+                                (congrArg (fun _a => B ^ Nat.rawCast 1 * Nat.rawCast 1 = B ^ Nat.rawCast 1 * _a)
+                                  (Eq.symm rfl)))
+                              (Eq.refl (B ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                          (Mathlib.Tactic.Ring.Common.atom_pf (σ (D i)).toReal rfl
+                            (Eq.mpr
+                              (id
+                                (congrArg
+                                  (fun _a =>
+                                    (σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                      (σ (D i)).toReal ^ Nat.rawCast 1 * _a)
+                                  (Eq.symm rfl)))
+                              (Eq.refl ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                          (Mathlib.Tactic.Ring.Common.add_mul
+                            (Mathlib.Tactic.Ring.Common.mul_add
+                              (Mathlib.Tactic.Ring.Common.mul_pf_left B (Nat.rawCast 1)
+                                (Mathlib.Tactic.Ring.Common.mul_pf_right (σ (D i)).toReal (Nat.rawCast 1)
+                                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                      (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                      (Eq.refl 1)))))
+                              (Mathlib.Tactic.Ring.Common.mul_zero (B ^ Nat.rawCast 1 * Nat.rawCast 1))
+                              (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                (B ^ Nat.rawCast 1 * ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))
+                            (Mathlib.Tactic.Ring.Common.zero_mul ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                              (B ^ Nat.rawCast 1 * ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1) + 0))))
+                        (Mathlib.Tactic.Ring.Common.pow_congr
+                          (Mathlib.Tactic.Ring.Common.atom_pf (σ (D i)).toReal rfl
+                            (Eq.mpr
+                              (id
+                                (congrArg
+                                  (fun _a =>
+                                    (σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                      (σ (D i)).toReal ^ Nat.rawCast 1 * _a)
+                                  (Eq.symm rfl)))
+                              (Eq.refl ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                          (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 2)))
+                          (Mathlib.Tactic.Ring.Common.pow_add
+                            (Mathlib.Tactic.Ring.Common.single_pow
+                              (Mathlib.Tactic.Ring.Common.mul_pow_mul
+                                (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                  (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                    (Mathlib.Meta.NormNum.IsNat.of_raw ℕ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℕ 2)
+                                    (Eq.refl 2)))
+                                (Mathlib.Tactic.Ring.Common.one_pow (Nat.rawCast 2) { out := rfl })
+                                (Eq.mpr
+                                  (id
+                                    (congrArg
+                                      (fun _a =>
+                                        (σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1 =
+                                          (σ (D i)).toReal ^ Nat.rawCast 2 * _a)
+                                      (Eq.symm rfl)))
+                                  (Eq.refl ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1)))
+                                (Mathlib.Tactic.Ring.Common.mul_pf_left (σ (D i)).toReal (Nat.rawCast 2)
+                                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                      (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                      (Eq.refl 1))))))
+                            (Mathlib.Tactic.Ring.Common.pow_zero ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)
+                              rfl)
+                            (Mathlib.Tactic.Ring.Common.add_mul
+                              (Mathlib.Tactic.Ring.Common.mul_add
+                                (Mathlib.Tactic.Ring.Common.mul_pf_left (σ (D i)).toReal (Nat.rawCast 2)
+                                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                      (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                      (Eq.refl 1))))
+                                (Mathlib.Tactic.Ring.Common.mul_zero ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1))
+                                (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                  ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1 + 0)))
+                              (Mathlib.Tactic.Ring.Common.zero_mul (Nat.rawCast 1 + 0))
+                              (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1 + 0)))))
+                        (Mathlib.Tactic.Ring.Common.sub_pf
+                          (Mathlib.Tactic.Ring.Common.neg_add
+                            (Mathlib.Tactic.Ring.Common.neg_mul (σ (D i)).toReal (Nat.rawCast 2)
+                              (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                  (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                  (Eq.refl (Int.negOfNat 1)))))
+                            Mathlib.Tactic.Ring.Common.neg_zero)
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_lt
+                            (B ^ Nat.rawCast 1 * ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))
+                            (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                              ((σ (D i)).toReal ^ Nat.rawCast 2 * (Int.negOfNat 1).rawCast + 0)))))
+                      (Mathlib.Tactic.Ring.Common.sub_congr
+                        (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                        (Mathlib.Tactic.Ring.Common.mul_congr
+                          (Mathlib.Tactic.Ring.Common.sub_congr
+                            (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                            (Mathlib.Tactic.Ring.Common.atom_pf (σ (D i)).toReal rfl
+                              (Eq.mpr
+                                (id
+                                  (congrArg
+                                    (fun _a =>
+                                      (σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                        (σ (D i)).toReal ^ Nat.rawCast 1 * _a)
+                                    (Eq.symm rfl)))
+                                (Eq.refl ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                            (Mathlib.Tactic.Ring.Common.sub_pf
+                              (Mathlib.Tactic.Ring.Common.neg_add
+                                (Mathlib.Tactic.Ring.Common.neg_mul (σ (D i)).toReal (Nat.rawCast 1)
+                                  (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                      (Eq.refl (Int.negOfNat 1)))))
+                                Mathlib.Tactic.Ring.Common.neg_zero)
+                              (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                                ((σ (D i)).toReal ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))
+                          (Mathlib.Tactic.Ring.Common.sub_congr
+                            (Mathlib.Tactic.Ring.Common.atom_pf (σ (D i)).toReal rfl
+                              (Eq.mpr
+                                (id
+                                  (congrArg
+                                    (fun _a =>
+                                      (σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                        (σ (D i)).toReal ^ Nat.rawCast 1 * _a)
+                                    (Eq.symm rfl)))
+                                (Eq.refl ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                            (Mathlib.Tactic.Ring.Common.atom_pf B rfl
+                              (Eq.mpr
+                                (id
+                                  (congrArg (fun _a => B ^ Nat.rawCast 1 * Nat.rawCast 1 = B ^ Nat.rawCast 1 * _a)
+                                    (Eq.symm rfl)))
+                                (Eq.refl (B ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                            (Mathlib.Tactic.Ring.Common.sub_pf
+                              (Mathlib.Tactic.Ring.Common.neg_add
+                                (Mathlib.Tactic.Ring.Common.neg_mul B (Nat.rawCast 1)
+                                  (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                      (Eq.refl (Int.negOfNat 1)))))
+                                Mathlib.Tactic.Ring.Common.neg_zero)
+                              (Mathlib.Tactic.Ring.Common.add_pf_add_gt (B ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast)
+                                (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                  ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)))))
+                          (Mathlib.Tactic.Ring.Common.add_mul
+                            (Mathlib.Tactic.Ring.Common.mul_add
+                              (Mathlib.Tactic.Ring.Common.mul_pf_right B (Nat.rawCast 1)
+                                (Mathlib.Tactic.Ring.Common.mul_pf_left (σ (D i)).toReal (Nat.rawCast 1)
+                                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                    (Mathlib.Meta.NormNum.IsInt.to_isNat
+                                      (Mathlib.Meta.NormNum.isInt_mul (Eq.refl HMul.hMul)
+                                        (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                        (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                        (Eq.refl (Int.ofNat 1)))))))
+                              (Mathlib.Tactic.Ring.Common.mul_add
+                                (Mathlib.Tactic.Ring.Common.mul_pp_pf_overlap (σ (D i)).toReal
+                                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isNat_add (Eq.refl HAdd.hAdd)
+                                      (Mathlib.Meta.NormNum.IsNat.of_raw ℕ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℕ 1)
+                                      (Eq.refl 2)))
+                                  (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isInt_mul (Eq.refl HMul.hMul)
+                                      (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                      (Eq.refl (Int.negOfNat 1)))))
+                                (Mathlib.Tactic.Ring.Common.mul_zero
+                                  ((σ (D i)).toReal ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast))
+                                (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                  ((σ (D i)).toReal ^ Nat.rawCast 2 * (Int.negOfNat 1).rawCast + 0)))
+                              (Mathlib.Tactic.Ring.Common.add_pf_add_lt
+                                (B ^ Nat.rawCast 1 * ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))
+                                (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                                  ((σ (D i)).toReal ^ Nat.rawCast 2 * (Int.negOfNat 1).rawCast + 0))))
+                            (Mathlib.Tactic.Ring.Common.zero_mul
+                              (B ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast +
+                                ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)))
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                              (B ^ Nat.rawCast 1 * ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1) +
+                                ((σ (D i)).toReal ^ Nat.rawCast 2 * (Int.negOfNat 1).rawCast + 0)))))
+                        (Mathlib.Tactic.Ring.Common.sub_pf
+                          (Mathlib.Tactic.Ring.Common.neg_add
+                            (Mathlib.Tactic.Ring.Common.neg_mul B (Nat.rawCast 1)
+                              (Mathlib.Tactic.Ring.Common.neg_mul (σ (D i)).toReal (Nat.rawCast 1)
+                                (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                  (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                    (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                    (Eq.refl (Int.negOfNat 1))))))
+                            (Mathlib.Tactic.Ring.Common.neg_add
+                              (Mathlib.Tactic.Ring.Common.neg_mul (σ (D i)).toReal (Nat.rawCast 2)
+                                (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                  (Mathlib.Meta.NormNum.IsInt.to_isNat
+                                    (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                      (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.ofNat 1))))))
+                              Mathlib.Tactic.Ring.Common.neg_zero))
+                          (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                            (B ^ Nat.rawCast 1 * ((σ (D i)).toReal ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast) +
+                              ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1 + 0)))))
+                      (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                        (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero B (Nat.rawCast 1)
+                          (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero (σ (D i)).toReal (Nat.rawCast 1)
+                            (Mathlib.Meta.NormNum.IsInt.to_isNat
+                              (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                                (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.ofNat 0))))))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                          (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero (σ (D i)).toReal (Nat.rawCast 2)
+                            (Mathlib.Meta.NormNum.IsInt.to_isNat
+                              (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                                (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                (Eq.refl (Int.ofNat 0)))))
+                          (Mathlib.Tactic.Ring.Common.add_pf_zero_add 0))))
+                    (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))))
+                (Mathlib.Tactic.Linarith.add_lt_of_neg_of_le (Mathlib.Tactic.Linarith.sub_neg_of_lt a)
+                  (Mathlib.Tactic.Linarith.sub_nonpos_of_le
+                    (mul_nonneg_of_nonpos_of_nonpos (Mathlib.Tactic.Linarith.sub_nonpos_of_le ENNReal.toReal_nonneg)
+                      (Mathlib.Tactic.Linarith.sub_nonpos_of_le (hupper i)))))))
+        (Eq.symm (Finset.mul_sum Finset.univ (fun i => (σ (D i)).toReal) B)))
+      (mul_le_mul_of_nonneg_left (StickyKakeya4.ResidualPhaseLocalization.sum_block_mass_le σ D hD K hoverlap) hB))
+    (Mathlib.Tactic.Ring.of_eq
+      (Mathlib.Tactic.Ring.Common.mul_congr
+        (Mathlib.Tactic.Ring.Common.atom_pf B rfl
+          (Eq.mpr (id (congrArg (fun _a => B ^ Nat.rawCast 1 * Nat.rawCast 1 = B ^ Nat.rawCast 1 * _a) (Eq.symm rfl)))
+            (Eq.refl (B ^ Nat.rawCast 1 * Nat.rawCast 1))))
+        (Mathlib.Tactic.Ring.Common.mul_congr
+          (Mathlib.Tactic.Ring.Common.atom_pf (↑K) rfl
+            (Eq.mpr
+              (id (congrArg (fun _a => ↑K ^ Nat.rawCast 1 * Nat.rawCast 1 = ↑K ^ Nat.rawCast 1 * _a) (Eq.symm rfl)))
+              (Eq.refl (↑K ^ Nat.rawCast 1 * Nat.rawCast 1))))
+          (Mathlib.Tactic.Ring.Common.atom_pf (σ Set.univ).toReal rfl
+            (Eq.mpr
+              (id
+                (congrArg
+                  (fun _a =>
+                    (σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 = (σ Set.univ).toReal ^ Nat.rawCast 1 * _a)
+                  (Eq.symm rfl)))
+              (Eq.refl ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))))
+          (Mathlib.Tactic.Ring.Common.add_mul
+            (Mathlib.Tactic.Ring.Common.mul_add
+              (Mathlib.Tactic.Ring.Common.mul_pf_left (↑K) (Nat.rawCast 1)
+                (Mathlib.Tactic.Ring.Common.mul_pf_right (σ Set.univ).toReal (Nat.rawCast 1)
+                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                      (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Eq.refl 1)))))
+              (Mathlib.Tactic.Ring.Common.mul_zero (↑K ^ Nat.rawCast 1 * Nat.rawCast 1))
+              (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                (↑K ^ Nat.rawCast 1 * ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))
+            (Mathlib.Tactic.Ring.Common.zero_mul ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))
+            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+              (↑K ^ Nat.rawCast 1 * ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1) + 0))))
+        (Mathlib.Tactic.Ring.Common.add_mul
+          (Mathlib.Tactic.Ring.Common.mul_add
+            (Mathlib.Tactic.Ring.Common.mul_pf_left B (Nat.rawCast 1)
+              (Mathlib.Tactic.Ring.Common.mul_pf_right (↑K) (Nat.rawCast 1)
+                (Mathlib.Tactic.Ring.Common.mul_pf_right (σ Set.univ).toReal (Nat.rawCast 1)
+                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                      (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Eq.refl 1))))))
+            (Mathlib.Tactic.Ring.Common.mul_zero (B ^ Nat.rawCast 1 * Nat.rawCast 1))
+            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+              (B ^ Nat.rawCast 1 * (↑K ^ Nat.rawCast 1 * ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1)) + 0)))
+          (Mathlib.Tactic.Ring.Common.zero_mul
+            (↑K ^ Nat.rawCast 1 * ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1) + 0))
+          (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+            (B ^ Nat.rawCast 1 * (↑K ^ Nat.rawCast 1 * ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1)) + 0))))
+      (Mathlib.Tactic.Ring.Common.mul_congr
+        (Mathlib.Tactic.Ring.Common.mul_congr
+          (Mathlib.Tactic.Ring.Common.atom_pf B rfl
+            (Eq.mpr (id (congrArg (fun _a => B ^ Nat.rawCast 1 * Nat.rawCast 1 = B ^ Nat.rawCast 1 * _a) (Eq.symm rfl)))
+              (Eq.refl (B ^ Nat.rawCast 1 * Nat.rawCast 1))))
+          (Mathlib.Tactic.Ring.Common.atom_pf (↑K) rfl
+            (Eq.mpr
+              (id (congrArg (fun _a => ↑K ^ Nat.rawCast 1 * Nat.rawCast 1 = ↑K ^ Nat.rawCast 1 * _a) (Eq.symm rfl)))
+              (Eq.refl (↑K ^ Nat.rawCast 1 * Nat.rawCast 1))))
+          (Mathlib.Tactic.Ring.Common.add_mul
+            (Mathlib.Tactic.Ring.Common.mul_add
+              (Mathlib.Tactic.Ring.Common.mul_pf_left B (Nat.rawCast 1)
+                (Mathlib.Tactic.Ring.Common.mul_pf_right (↑K) (Nat.rawCast 1)
+                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                      (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Eq.refl 1)))))
+              (Mathlib.Tactic.Ring.Common.mul_zero (B ^ Nat.rawCast 1 * Nat.rawCast 1))
+              (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                (B ^ Nat.rawCast 1 * (↑K ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))
+            (Mathlib.Tactic.Ring.Common.zero_mul (↑K ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))
+            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+              (B ^ Nat.rawCast 1 * (↑K ^ Nat.rawCast 1 * Nat.rawCast 1) + 0))))
+        (Mathlib.Tactic.Ring.Common.atom_pf (σ Set.univ).toReal rfl
+          (Eq.mpr
+            (id
+              (congrArg
+                (fun _a =>
+                  (σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 = (σ Set.univ).toReal ^ Nat.rawCast 1 * _a)
+                (Eq.symm rfl)))
+            (Eq.refl ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))))
+        (Mathlib.Tactic.Ring.Common.add_mul
+          (Mathlib.Tactic.Ring.Common.mul_add
+            (Mathlib.Tactic.Ring.Common.mul_pf_left B (Nat.rawCast 1)
+              (Mathlib.Tactic.Ring.Common.mul_pf_left (↑K) (Nat.rawCast 1)
+                (Mathlib.Tactic.Ring.Common.mul_pf_right (σ Set.univ).toReal (Nat.rawCast 1)
+                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                      (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Eq.refl 1))))))
+            (Mathlib.Tactic.Ring.Common.mul_zero (B ^ Nat.rawCast 1 * (↑K ^ Nat.rawCast 1 * Nat.rawCast 1)))
+            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+              (B ^ Nat.rawCast 1 * (↑K ^ Nat.rawCast 1 * ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1)) + 0)))
+          (Mathlib.Tactic.Ring.Common.zero_mul ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))
+          (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+            (B ^ Nat.rawCast 1 * (↑K ^ Nat.rawCast 1 * ((σ Set.univ).toReal ^ Nat.rawCast 1 * Nat.rawCast 1)) + 0)))))
+'StickyKakeya4.ResidualPhaseLocalization.sum_sq_block_mass_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.exists_assignedGraph_density_ge_average.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ],
+  ∀ ν ≤ σ.prod σ,
+    ∀ (A D : Fin n → Set X),
+      (∀ (i : Fin n), MeasurableSet (A i)) →
+        (∀ᵐ (x : X) ∂σ, x ∈ ⋃ i, A i) →
+          (∀ (i : Fin n), ∀ᵐ (p : X × X) ∂ν, p.1 ∈ A i → p ∈ D i ×ˢ D i) →
+            0 < (ν Set.univ).toReal →
+              0 < ∑ i, (σ (D i)).toReal ^ 2 ∧
+                ∃ i,
+                  0 < (σ (D i)).toReal ∧
+                    (ν Set.univ).toReal / ∑ j, (σ (D j)).toReal ^ 2 ≤
+                      ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal /
+                        (σ (D i)).toReal ^ 2 :=
+fun {X} [MeasurableSpace X] {n} σ [MeasureTheory.IsFiniteMeasure σ] ν hdom A D hA hcover hendpoint hpositive =>
+  have hsum := StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass_toReal σ ν hdom A hA hcover;
+  have hle := StickyKakeya4.ResidualPhaseLocalization.assignedGraph_mass_le_sq σ ν hdom A D hendpoint;
+  have hE := Eq.mpr (id (congrArg (fun _a => 0 < _a) hsum)) hpositive;
+  ⟨LT.lt.trans_le hE (Finset.sum_le_sum fun i x => hle i),
+    Exists.casesOn
+      (StickyKakeya4.ResidualPhaseLocalization.exists_weighted_density_ge_average
+        (fun i => ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal)
+        (fun i => (σ (D i)).toReal ^ 2) (fun x => ENNReal.toReal_nonneg) (fun x => sq_nonneg (σ (D x)).toReal) hle hE)
+      fun i h =>
+      And.casesOn h fun hi hdensity =>
+        Exists.intro i
+          ⟨have hn := ENNReal.toReal_nonneg;
+            lt_of_not_ge fun a =>
+              Mathlib.Tactic.Linarith.lt_irrefl
+                (Eq.mp
+                  (congrArg (fun _a => _a < 0)
+                    (Mathlib.Tactic.Ring.of_eq
+                      (Mathlib.Tactic.Ring.Common.add_congr
+                        (Mathlib.Tactic.Ring.Common.sub_congr
+                          (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                          (Mathlib.Tactic.Ring.Common.pow_congr
+                            (Mathlib.Tactic.Ring.Common.atom_pf (σ (D i)).toReal rfl
+                              (Eq.mpr
+                                (id
+                                  (congrArg
+                                    (fun _a =>
+                                      (σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                        (σ (D i)).toReal ^ Nat.rawCast 1 * _a)
+                                    (Eq.symm rfl)))
+                                (Eq.refl ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                            (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 2)))
+                            (Mathlib.Tactic.Ring.Common.pow_add
+                              (Mathlib.Tactic.Ring.Common.single_pow
+                                (Mathlib.Tactic.Ring.Common.mul_pow_mul
+                                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                      (Mathlib.Meta.NormNum.IsNat.of_raw ℕ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℕ 2)
+                                      (Eq.refl 2)))
+                                  (Mathlib.Tactic.Ring.Common.one_pow (Nat.rawCast 2) { out := rfl })
+                                  (Eq.mpr
+                                    (id
+                                      (congrArg
+                                        (fun _a =>
+                                          (σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1 =
+                                            (σ (D i)).toReal ^ Nat.rawCast 2 * _a)
+                                        (Eq.symm rfl)))
+                                    (Eq.refl ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1)))
+                                  (Mathlib.Tactic.Ring.Common.mul_pf_left (σ (D i)).toReal (Nat.rawCast 2)
+                                    (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                      (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                        (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                        (Eq.refl 1))))))
+                              (Mathlib.Tactic.Ring.Common.pow_zero
+                                ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 + 0) rfl)
+                              (Mathlib.Tactic.Ring.Common.add_mul
+                                (Mathlib.Tactic.Ring.Common.mul_add
+                                  (Mathlib.Tactic.Ring.Common.mul_pf_left (σ (D i)).toReal (Nat.rawCast 2)
+                                    (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                      (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                        (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                        (Eq.refl 1))))
+                                  (Mathlib.Tactic.Ring.Common.mul_zero
+                                    ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1))
+                                  (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                    ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1 + 0)))
+                                (Mathlib.Tactic.Ring.Common.zero_mul (Nat.rawCast 1 + 0))
+                                (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                  ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1 + 0)))))
+                          (Mathlib.Tactic.Ring.Common.sub_pf
+                            (Mathlib.Tactic.Ring.Common.neg_add
+                              (Mathlib.Tactic.Ring.Common.neg_mul (σ (D i)).toReal (Nat.rawCast 2)
+                                (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                  (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                    (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                    (Eq.refl (Int.negOfNat 1)))))
+                              Mathlib.Tactic.Ring.Common.neg_zero)
+                            (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                              ((σ (D i)).toReal ^ Nat.rawCast 2 * (Int.negOfNat 1).rawCast + 0))))
+                        (Mathlib.Tactic.Ring.Common.sub_congr
+                          (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                          (Mathlib.Tactic.Ring.Common.mul_congr
+                            (Mathlib.Tactic.Ring.Common.sub_congr
+                              (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                              (Mathlib.Tactic.Ring.Common.atom_pf (σ (D i)).toReal rfl
+                                (Eq.mpr
+                                  (id
+                                    (congrArg
+                                      (fun _a =>
+                                        (σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                          (σ (D i)).toReal ^ Nat.rawCast 1 * _a)
+                                      (Eq.symm rfl)))
+                                  (Eq.refl ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                              (Mathlib.Tactic.Ring.Common.sub_pf
+                                (Mathlib.Tactic.Ring.Common.neg_add
+                                  (Mathlib.Tactic.Ring.Common.neg_mul (σ (D i)).toReal (Nat.rawCast 1)
+                                    (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                      (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                        (Eq.refl (Int.negOfNat 1)))))
+                                  Mathlib.Tactic.Ring.Common.neg_zero)
+                                (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                                  ((σ (D i)).toReal ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))
+                            (Mathlib.Tactic.Ring.Common.sub_congr
+                              (Mathlib.Tactic.Ring.Common.atom_pf (σ (D i)).toReal rfl
+                                (Eq.mpr
+                                  (id
+                                    (congrArg
+                                      (fun _a =>
+                                        (σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                          (σ (D i)).toReal ^ Nat.rawCast 1 * _a)
+                                      (Eq.symm rfl)))
+                                  (Eq.refl ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                              (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                              (Mathlib.Tactic.Ring.Common.sub_pf Mathlib.Tactic.Ring.Common.neg_zero
+                                (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                  ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))
+                            (Mathlib.Tactic.Ring.Common.add_mul
+                              (Mathlib.Tactic.Ring.Common.mul_add
+                                (Mathlib.Tactic.Ring.Common.mul_pp_pf_overlap (σ (D i)).toReal
+                                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isNat_add (Eq.refl HAdd.hAdd)
+                                      (Mathlib.Meta.NormNum.IsNat.of_raw ℕ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℕ 1)
+                                      (Eq.refl 2)))
+                                  (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isInt_mul (Eq.refl HMul.hMul)
+                                      (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                      (Eq.refl (Int.negOfNat 1)))))
+                                (Mathlib.Tactic.Ring.Common.mul_zero
+                                  ((σ (D i)).toReal ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast))
+                                (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                  ((σ (D i)).toReal ^ Nat.rawCast 2 * (Int.negOfNat 1).rawCast + 0)))
+                              (Mathlib.Tactic.Ring.Common.zero_mul
+                                ((σ (D i)).toReal ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))
+                              (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                ((σ (D i)).toReal ^ Nat.rawCast 2 * (Int.negOfNat 1).rawCast + 0))))
+                          (Mathlib.Tactic.Ring.Common.sub_pf
+                            (Mathlib.Tactic.Ring.Common.neg_add
+                              (Mathlib.Tactic.Ring.Common.neg_mul (σ (D i)).toReal (Nat.rawCast 2)
+                                (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                  (Mathlib.Meta.NormNum.IsInt.to_isNat
+                                    (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                      (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.ofNat 1))))))
+                              Mathlib.Tactic.Ring.Common.neg_zero)
+                            (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                              ((σ (D i)).toReal ^ Nat.rawCast 2 * Nat.rawCast 1 + 0))))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                          (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero (σ (D i)).toReal (Nat.rawCast 2)
+                            (Mathlib.Meta.NormNum.IsInt.to_isNat
+                              (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                                (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                (Eq.refl (Int.ofNat 0)))))
+                          (Mathlib.Tactic.Ring.Common.add_pf_zero_add 0)))
+                      (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))))
+                  (Mathlib.Tactic.Linarith.add_lt_of_neg_of_le (Mathlib.Tactic.Linarith.sub_neg_of_lt hi)
+                    (Mathlib.Tactic.Linarith.sub_nonpos_of_le
+                      (mul_nonneg_of_nonpos_of_nonpos (Mathlib.Tactic.Linarith.sub_nonpos_of_le hn)
+                        (Mathlib.Tactic.Linarith.sub_nonpos_of_le a))))),
+            Eq.mp
+              (congrFun' (congrArg LE.le (congrFun' (congrArg HDiv.hDiv hsum) (∑ j, (σ (D j)).toReal ^ 2)))
+                (((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal /
+                  (σ (D i)).toReal ^ 2))
+              hdensity⟩⟩
+'StickyKakeya4.ResidualPhaseLocalization.exists_assignedGraph_density_ge_average' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.exists_assignedGraph_density_ge_mass_budget.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ],
+  ∀ ν ≤ σ.prod σ,
+    ∀ (A D : Fin n → Set X),
+      (∀ (i : Fin n), MeasurableSet (A i)) →
+        (∀ (i : Fin n), MeasurableSet (D i)) →
+          (∀ᵐ (x : X) ∂σ, x ∈ ⋃ i, A i) →
+            (∀ (i : Fin n), ∀ᵐ (p : X × X) ∂ν, p.1 ∈ A i → p ∈ D i ×ˢ D i) →
+              ∀ (K : ℕ),
+                (∀ (x : X), {i | x ∈ D i}.card ≤ K) →
+                  ∀ (B : ℝ),
+                    0 ≤ B →
+                      (∀ (i : Fin n), (σ (D i)).toReal ≤ B) →
+                        0 < (ν Set.univ).toReal →
+                          ∃ i,
+                            0 < (σ (D i)).toReal ∧
+                              (ν Set.univ).toReal / (B * ↑K * (σ Set.univ).toReal) ≤
+                                ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal /
+                                  (σ (D i)).toReal ^ 2 :=
+fun {X} [MeasurableSpace X] {n} σ [MeasureTheory.IsFiniteMeasure σ] ν hdom A D hA hD hcover hendpoint K hoverlap B hB
+    hupper hpositive =>
+  And.casesOn
+    (StickyKakeya4.ResidualPhaseLocalization.exists_assignedGraph_density_ge_average σ ν hdom A D hA hcover hendpoint
+      hpositive)
+    fun hS right =>
+    Exists.casesOn right fun i h =>
+      And.casesOn h fun hi hdensity =>
+        Exists.intro i
+          ⟨hi,
+            le_trans
+              (div_le_div_of_nonneg_left (LT.lt.le hpositive) hS
+                (StickyKakeya4.ResidualPhaseLocalization.sum_sq_block_mass_le σ D hD K hoverlap B hB hupper))
+              hdensity⟩
+'StickyKakeya4.ResidualPhaseLocalization.exists_assignedGraph_density_ge_mass_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_indexed_ball_card_bound.{u_2, u_3} : ∀
+  (E : Type u_2) [inst : NormedAddCommGroup E] [NormedSpace ℝ E] [ProperSpace E] (R : ℝ),
+  0 < R →
+    ∃ K,
+      ∀ (tau : ℝ),
+        0 < tau →
+          ∀ {A : Type u_3} (p : E) (points : Finset A) (centers : A → E),
+            (∀ x ∈ points, dist (centers x) p ≤ R * tau) →
+              (∀ x ∈ points, ∀ y ∈ points, x ≠ y → tau / 2 ≤ dist (centers x) (centers y)) → points.card ≤ K :=
+fun E [NormedAddCommGroup E] [NormedSpace ℝ E] [ProperSpace E] R _hR =>
+  Exists.casesOn
+    (IsCompact.finite_cover_balls (isCompact_closedBall 0 R)
+      (have this :=
+        Mathlib.Meta.NormNum.isNNRat_lt_true
+          (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+          (Mathlib.Meta.NormNum.isNNRat_div
+            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+              (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 4))))
+              (Eq.refl (Nat.mul 1 1)) (Eq.refl 4)))
+          (Eq.refl true);
+      this))
+    fun cover h =>
+    And.casesOn h fun _hcoverBall right =>
+      And.casesOn right fun hcoverFinite hcover =>
+        Exists.intro hcoverFinite.toFinset.card fun tau htau {A} p points centers hnear hsep =>
+          let image := fun x => tau⁻¹ • (centers x - p);
+          have hcover' :=
+            Eq.mpr
+              (id
+                (congrArg (LE.le (Metric.closedBall 0 R))
+                  (congrArg Set.iUnion
+                    (funext fun x =>
+                      Set.iUnion_congr_Prop
+                        (Iff.of_eq (congrFun' (congrArg Membership.mem (Set.Finite.coe_toFinset hcoverFinite)) x))
+                        fun x_1 => Eq.refl (Metric.ball x (1 / 4))))))
+              hcover;
+          StickyKakeya4.image_separated_card_le_finite_cover_card points image (Metric.closedBall 0 R) (1 / 4)
+            hcoverFinite.toFinset hcover'
+            (fun x hx =>
+              Eq.mpr (id (congrArg (fun _a => _a) (propext Metric.mem_closedBall)))
+                (Eq.mpr (id (congrArg (fun _a => _a ≤ R) (dist_zero_right (image x))))
+                  (Trans.trans
+                    (Trans.trans
+                      (of_eq_true
+                        (Eq.trans
+                          (congr
+                            (congrArg Eq
+                              (Eq.trans (norm_smul tau⁻¹ (centers x - p))
+                                (congrFun' (congrArg HMul.hMul (Real.norm_of_nonneg (inv_nonneg.mpr (LT.lt.le htau))))
+                                  ‖centers x - p‖)))
+                            (congrArg (HMul.hMul tau⁻¹) (dist_eq_norm (centers x) p)))
+                          (eq_self (tau⁻¹ * ‖centers x - p‖))))
+                      (mul_le_mul_of_nonneg_left (hnear x hx) (inv_nonneg.mpr (LT.lt.le htau))))
+                    (of_eq_true
+                      (Eq.trans
+                        (Mathlib.Tactic.FieldSimp.eq_eq_cancel_eq
+                          (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul
+                            (Eq.trans
+                              (congr_arg₂ HMul.hMul (Eq.trans (congr_arg Inv.inv rfl) rfl)
+                                (Eq.trans (congr_arg₂ HMul.hMul rfl rfl) rfl))
+                              rfl)
+                            (Eq.trans
+                              (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval
+                                (Mathlib.Tactic.FieldSimp.NF.inv_eq_eval
+                                  (Eq.trans (Eq.refl tau) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval tau)))
+                                (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval
+                                  (Eq.trans (Eq.refl R) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval R))
+                                  (Eq.trans (Eq.refl tau) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval tau))
+                                  (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval₁ (1, R) (one_mul ((1, tau) ::ᵣ []).eval)))
+                                (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval₃ (1, R)
+                                  (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval₂ (-1) 1 tau
+                                    (one_mul (Mathlib.Tactic.FieldSimp.NF.eval [])))))
+                              (Eq.symm
+                                (Mathlib.Tactic.FieldSimp.NF.eval_cons_mul_eval 1 R
+                                  (Mathlib.Tactic.FieldSimp.NF.eval_mul_eval_cons_zero
+                                    (one_mul (Mathlib.Tactic.FieldSimp.NF.eval []))
+                                    (Mathlib.Tactic.FieldSimp.NF.eval_cons_of_pow_eq_zero
+                                      (of_decide_eq_true (id (Eq.refl true))) (ne_of_gt htau) [])))))
+                            rfl (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst (Eq.symm (div_one 1)) rfl))
+                          (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul rfl
+                            (Eq.trans (Eq.trans (Eq.refl R) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval R))
+                              (Eq.symm
+                                (Mathlib.Tactic.FieldSimp.NF.eval_cons_mul_eval 1 R
+                                  (one_mul (Mathlib.Tactic.FieldSimp.NF.eval [])))))
+                            rfl (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst (Eq.symm (div_one 1)) rfl))
+                          (Mathlib.Tactic.FieldSimp.NF.cons_ne_zero 1 (ne_of_gt _hR) one_ne_zero))
+                        (eq_self 1))))))
+            fun x hx y hy hxy =>
+            have hnorm :=
+              of_eq_true
+                (Eq.trans
+                  (congrFun'
+                    (congrArg Eq
+                      (Eq.trans (dist_smul₀ tau⁻¹ (centers x - p) (centers y - p))
+                        (congr (congrArg HMul.hMul (Real.norm_of_nonneg (inv_nonneg.mpr (LT.lt.le htau))))
+                          (dist_sub_right (centers x) (centers y) p))))
+                    (tau⁻¹ * dist (centers x) (centers y)))
+                  (eq_self (tau⁻¹ * dist (centers x) (centers y))));
+            Eq.mpr (id (congrArg (fun _a => 2 * (1 / 4) ≤ _a) hnorm))
+              (have hscaled := mul_le_mul_of_nonneg_left (hsep x hx y hy hxy) (inv_nonneg.mpr (LT.lt.le htau));
+              have hhalf :=
+                of_eq_true
+                  (Eq.trans
+                    (Mathlib.Tactic.FieldSimp.eq_eq_cancel_eq
+                      (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul
+                        (Eq.trans
+                          (congr_arg₂ HMul.hMul (Eq.trans (congr_arg Inv.inv rfl) rfl)
+                            (Eq.trans (congr_arg₂ HDiv.hDiv rfl rfl) rfl))
+                          rfl)
+                        (Eq.trans
+                          (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval
+                            (Mathlib.Tactic.FieldSimp.NF.inv_eq_eval
+                              (Eq.trans (Eq.refl tau) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval tau)))
+                            (Mathlib.Tactic.FieldSimp.NF.div_eq_eval
+                              (Eq.trans (Eq.refl tau) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval tau))
+                              (Eq.trans (Eq.refl 2) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval 2))
+                              (Mathlib.Tactic.FieldSimp.NF.div_eq_eval₃ (1, 2) (div_one ((1, tau) ::ᵣ []).eval)))
+                            (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval₃ (-1, 2)
+                              (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval₂ (-1) 1 tau
+                                (one_mul (Mathlib.Tactic.FieldSimp.NF.eval [])))))
+                          (Eq.symm
+                            (Mathlib.Tactic.FieldSimp.NF.eval_cons_mul_eval (-1) 2
+                              (Mathlib.Tactic.FieldSimp.NF.eval_mul_eval_cons_zero
+                                (one_mul (Mathlib.Tactic.FieldSimp.NF.eval []))
+                                (Mathlib.Tactic.FieldSimp.NF.eval_cons_of_pow_eq_zero
+                                  (of_decide_eq_true (id (Eq.refl true))) (ne_of_gt htau) [])))))
+                        rfl (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst (Eq.symm (div_one 1)) rfl))
+                      (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul (Eq.trans (congr_arg₂ HDiv.hDiv rfl rfl) rfl)
+                        (Eq.trans
+                          (Mathlib.Tactic.FieldSimp.NF.div_eq_eval (Mathlib.Tactic.FieldSimp.NF.one_eq_eval ℝ)
+                            (Eq.trans (Eq.refl 2) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval 2))
+                            (Mathlib.Tactic.FieldSimp.NF.one_div_eq_eval ((1, 2) ::ᵣ [])))
+                          (Eq.symm
+                            (Mathlib.Tactic.FieldSimp.NF.eval_cons_mul_eval (-1) 2
+                              (one_mul (Mathlib.Tactic.FieldSimp.NF.eval [])))))
+                        rfl (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst (Eq.symm (div_one 1)) rfl))
+                      (Mathlib.Tactic.FieldSimp.NF.cons_ne_zero (-1)
+                        (Mathlib.Meta.NormNum.isNat_eq_false (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2))
+                          (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero) (Eq.refl false))
+                        one_ne_zero))
+                    (eq_self 1));
+              Eq.mpr
+                (id
+                  (Eq.trans
+                    (Eq.trans
+                      (Eq.trans
+                        (congrFun'
+                          (congrArg LE.le
+                            (Mathlib.Meta.NormNum.IsNNRat.to_eq
+                              (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                                (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)))
+                                (Mathlib.Meta.NormNum.isNNRat_div
+                                  (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                      (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                                    (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                      (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                        (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 4))))
+                                    (Eq.refl (Nat.mul 1 1)) (Eq.refl 4)))
+                                (Eq.refl (Nat.mul 2 1)) (Eq.refl 4))
+                              Nat.cast_one (Eq.refl 2)))
+                          (tau⁻¹ * dist (centers x) (centers y)))
+                        (congrFun'
+                          (congrArg LE.le
+                            (Mathlib.Meta.NormNum.IsNNRat.to_eq
+                              (Mathlib.Meta.NormNum.isNNRat_div
+                                (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                                  (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                    (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                                  (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                    (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                      (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2))))
+                                  (Eq.refl (Nat.mul 1 1)) (Eq.refl 2)))
+                              Nat.cast_one (Eq.refl 2)))
+                          (tau⁻¹ * dist (centers x) (centers y))))
+                      ge_iff_le._simp_1)
+                    (congrFun'
+                      (congrArg LE.le
+                        (Mathlib.Meta.NormNum.IsNNRat.to_eq
+                          (Mathlib.Meta.NormNum.isNNRat_div
+                            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                              (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                              (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                  (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2))))
+                              (Eq.refl (Nat.mul 1 1)) (Eq.refl 2)))
+                          Nat.cast_one (Eq.refl 2)))
+                      (tau⁻¹ * dist (centers x) (centers y)))))
+                (Eq.mp
+                  (Eq.trans
+                    (congrFun'
+                      (congrArg LE.le
+                        (Mathlib.Meta.NormNum.IsNNRat.to_eq
+                          (Mathlib.Meta.NormNum.isNNRat_div
+                            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                              (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                              (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                  (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2))))
+                              (Eq.refl (Nat.mul 1 1)) (Eq.refl 2)))
+                          Nat.cast_one (Eq.refl 2)))
+                      (tau⁻¹ * dist (centers x) (centers y)))
+                    (congrFun'
+                      (congrArg LE.le
+                        (Mathlib.Meta.NormNum.IsNNRat.to_eq
+                          (Mathlib.Meta.NormNum.isNNRat_div
+                            (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+                              (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                              (Mathlib.Meta.NormNum.isNNRat_inv_pos
+                                (Mathlib.Meta.NormNum.IsNat.to_isNNRat
+                                  (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2))))
+                              (Eq.refl (Nat.mul 1 1)) (Eq.refl 2)))
+                          Nat.cast_one (Eq.refl 2)))
+                      (tau⁻¹ * dist (centers x) (centers y))))
+                  (Eq.mp (congrArg (fun _a => _a ≤ tau⁻¹ * dist (centers x) (centers y)) hhalf) hscaled)))
+'StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_indexed_ball_card_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_indexed_ball_overlap_bound.{u_2, u_3} : ∀
+  (E : Type u_2) [inst : NormedAddCommGroup E] [NormedSpace ℝ E] [ProperSpace E] (R : ℝ),
+  0 < R →
+    ∃ K,
+      ∀ (tau : ℝ),
+        0 < tau →
+          ∀ {A : Type u_3} (indices : Finset A) (centers : A → E),
+            (∀ i ∈ indices, ∀ j ∈ indices, i ≠ j → tau / 2 ≤ dist (centers i) (centers j)) →
+              ∀ (p : E), {i ∈ indices | p ∈ Metric.ball (centers i) (R * tau)}.card ≤ K :=
+fun E [NormedAddCommGroup E] [NormedSpace ℝ E] [ProperSpace E] R hR =>
+  Exists.casesOn (StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_indexed_ball_card_bound E R hR)
+    fun K hK =>
+    Exists.intro K fun tau htau {A} indices centers hsep p =>
+      hK tau htau p ({i ∈ indices | p ∈ Metric.ball (centers i) (R * tau)}) centers
+        (fun i hi =>
+          have hiBall := (Finset.mem_filter.mp hi).right;
+          Eq.mpr (id (congrFun' (congrArg LE.le (dist_comm (centers i) p)) (R * tau))) (LT.lt.le hiBall))
+        fun i hi j hj hij => hsep i (Finset.mem_filter.mp hi).left j (Finset.mem_filter.mp hj).left hij
+'StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_indexed_ball_overlap_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_fin_ball_overlap_bound.{u_2} : ∀ (E : Type u_2)
+  [inst : NormedAddCommGroup E] [NormedSpace ℝ E] [ProperSpace E] (R : ℝ),
+  0 < R →
+    ∃ K,
+      ∀ (tau : ℝ),
+        0 < tau →
+          ∀ (n : ℕ) (centers : Fin n → E),
+            (∀ (i j : Fin n), i ≠ j → tau / 2 ≤ dist (centers i) (centers j)) →
+              ∀ (p : E), {i | p ∈ Metric.ball (centers i) (R * tau)}.card ≤ K :=
+fun E [NormedAddCommGroup E] [NormedSpace ℝ E] [ProperSpace E] R hR =>
+  Exists.casesOn (StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_indexed_ball_overlap_bound E R hR)
+    fun K hK =>
+    Exists.intro K fun tau htau n centers hsep p =>
+      hK tau htau Finset.univ centers (fun i x j x_1 hij => hsep i j hij) p
+'StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_fin_ball_overlap_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+def StickyKakeya4.ResidualPhaseLocalization.phaseCover.{u_1, u_2} : {X : Type u_1} →
+  {n : ℕ} → {E : Type u_2} → [PseudoMetricSpace E] → (X → E) → (Fin n → E) → ℝ → Fin n → Set X :=
+fun {X} {n} {E} [PseudoMetricSpace E] f centers tau i => f ⁻¹' Metric.ball (centers i) tau
+'StickyKakeya4.ResidualPhaseLocalization.phaseCover' depends on axioms: [propext, Classical.choice, Quot.sound]
+def StickyKakeya4.ResidualPhaseLocalization.phaseBlock.{u_1, u_2} : {X : Type u_1} →
+  {n : ℕ} → {E : Type u_2} → [PseudoMetricSpace E] → (X → E) → (Fin n → E) → ℝ → ℝ → Fin n → Set X :=
+fun {X} {n} {E} [PseudoMetricSpace E] f centers L tau i => f ⁻¹' Metric.ball (centers i) ((L + 2) * tau)
+'StickyKakeya4.ResidualPhaseLocalization.phaseBlock' depends on axioms: [propext, Classical.choice, Quot.sound]
+def StickyKakeya4.ResidualPhaseLocalization.graphMeasure.{u_1} : {X : Type u_1} →
+  [inst : MeasurableSpace X] → MeasureTheory.Measure X → (X × X → ENNReal) → MeasureTheory.Measure (X × X) :=
+fun {X} [MeasurableSpace X] σ h => (σ.prod σ).withDensity h
+'StickyKakeya4.ResidualPhaseLocalization.graphMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.graphMeasure_le_product.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] (σ : MeasureTheory.Measure X) (h : X × X → ENNReal),
+  (∀ (p : X × X), h p ≤ 1) → StickyKakeya4.ResidualPhaseLocalization.graphMeasure σ h ≤ σ.prod σ :=
+fun {X} [MeasurableSpace X] σ h hbound =>
+  Trans.trans (MeasureTheory.withDensity_mono (MeasureTheory.ae_of_all (σ.prod σ) hbound)) MeasureTheory.withDensity_one
+'StickyKakeya4.ResidualPhaseLocalization.graphMeasure_le_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.near_phase_endpoints_in_block.{u_1, u_2} : ∀ {X : Type u_1} {n : ℕ}
+  {E : Type u_2} [inst : PseudoMetricSpace E] (f : X → E) (centers : Fin n → E) (L tau : ℝ),
+  0 ≤ L →
+    0 < tau →
+      ∀ (i : Fin n) (p : X × X),
+        dist (f p.1) (f p.2) ≤ L * tau →
+          p.1 ∈ StickyKakeya4.ResidualPhaseLocalization.phaseCover f centers tau i →
+            p ∈
+              StickyKakeya4.ResidualPhaseLocalization.phaseBlock f centers L tau i ×ˢ
+                StickyKakeya4.ResidualPhaseLocalization.phaseBlock f centers L tau i :=
+fun {X} {n} {E} [PseudoMetricSpace E] f centers L tau hL htau i p hnear hfirst =>
+  have hx := hfirst;
+  have hyx := Eq.mpr (id (congrFun' (congrArg LE.le (dist_comm (f p.2) (f p.1))) (L * tau))) hnear;
+  ⟨id
+      (lt_of_not_ge fun a =>
+        Mathlib.Tactic.Linarith.lt_irrefl
+          (Eq.mp
+            (congrArg (fun _a => _a < 0)
+              (Mathlib.Tactic.Ring.of_eq
+                (Mathlib.Tactic.Ring.Common.add_congr
+                  (Mathlib.Tactic.Ring.Common.add_congr
+                    (Mathlib.Tactic.Ring.Common.add_congr
+                      (Mathlib.Tactic.Ring.Common.sub_congr
+                        (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                        (Mathlib.Tactic.Ring.Common.atom_pf tau rfl
+                          (Eq.mpr
+                            (id
+                              (congrArg (fun _a => tau ^ Nat.rawCast 1 * Nat.rawCast 1 = tau ^ Nat.rawCast 1 * _a)
+                                (Eq.symm rfl)))
+                            (Eq.refl (tau ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                        (Mathlib.Tactic.Ring.Common.sub_pf
+                          (Mathlib.Tactic.Ring.Common.neg_add
+                            (Mathlib.Tactic.Ring.Common.neg_mul tau (Nat.rawCast 1)
+                              (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                  (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                  (Eq.refl (Int.negOfNat 1)))))
+                            Mathlib.Tactic.Ring.Common.neg_zero)
+                          (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                            (tau ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))
+                      (Mathlib.Tactic.Ring.Common.sub_congr
+                        (Mathlib.Tactic.Ring.Common.atom_pf (dist (f p.1) (centers i)) rfl
+                          (Eq.mpr
+                            (id
+                              (congrArg
+                                (fun _a =>
+                                  dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                    dist (f p.1) (centers i) ^ Nat.rawCast 1 * _a)
+                                (Eq.symm rfl)))
+                            (Eq.refl (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                        (Mathlib.Tactic.Ring.Common.atom_pf tau rfl
+                          (Eq.mpr
+                            (id
+                              (congrArg (fun _a => tau ^ Nat.rawCast 1 * Nat.rawCast 1 = tau ^ Nat.rawCast 1 * _a)
+                                (Eq.symm rfl)))
+                            (Eq.refl (tau ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                        (Mathlib.Tactic.Ring.Common.sub_pf
+                          (Mathlib.Tactic.Ring.Common.neg_add
+                            (Mathlib.Tactic.Ring.Common.neg_mul tau (Nat.rawCast 1)
+                              (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                  (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                  (Eq.refl (Int.negOfNat 1)))))
+                            Mathlib.Tactic.Ring.Common.neg_zero)
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_gt (tau ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast)
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                              (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)))))
+                      (Mathlib.Tactic.Ring.Common.add_pf_add_overlap
+                        (Mathlib.Tactic.Ring.Common.add_overlap_pf tau (Nat.rawCast 1)
+                          (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                            (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                              (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                              (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.negOfNat 2)))))
+                        (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                          (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))
+                    (Mathlib.Tactic.Ring.Common.sub_congr
+                      (Mathlib.Tactic.Ring.Common.mul_congr
+                        (Mathlib.Tactic.Ring.Common.add_congr
+                          (Mathlib.Tactic.Ring.Common.atom_pf L rfl
+                            (Eq.mpr
+                              (id
+                                (congrArg (fun _a => L ^ Nat.rawCast 1 * Nat.rawCast 1 = L ^ Nat.rawCast 1 * _a)
+                                  (Eq.symm rfl)))
+                              (Eq.refl (L ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                          (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)))
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_gt (Nat.rawCast 2)
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero (L ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))
+                        (Mathlib.Tactic.Ring.Common.atom_pf tau rfl
+                          (Eq.mpr
+                            (id
+                              (congrArg (fun _a => tau ^ Nat.rawCast 1 * Nat.rawCast 1 = tau ^ Nat.rawCast 1 * _a)
+                                (Eq.symm rfl)))
+                            (Eq.refl (tau ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                        (Mathlib.Tactic.Ring.Common.add_mul
+                          (Mathlib.Tactic.Ring.Common.mul_add
+                            (Mathlib.Tactic.Ring.Common.mul_pf_right tau (Nat.rawCast 1)
+                              (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                  (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 2) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                  (Eq.refl 2))))
+                            (Mathlib.Tactic.Ring.Common.mul_zero (Nat.rawCast 2))
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero (tau ^ Nat.rawCast 1 * Nat.rawCast 2 + 0)))
+                          (Mathlib.Tactic.Ring.Common.add_mul
+                            (Mathlib.Tactic.Ring.Common.mul_add
+                              (Mathlib.Tactic.Ring.Common.mul_pf_right tau (Nat.rawCast 1)
+                                (Mathlib.Tactic.Ring.Common.mul_pf_left L (Nat.rawCast 1)
+                                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                      (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                      (Eq.refl 1)))))
+                              (Mathlib.Tactic.Ring.Common.mul_zero (L ^ Nat.rawCast 1 * Nat.rawCast 1))
+                              (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))
+                            (Mathlib.Tactic.Ring.Common.zero_mul (tau ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                              (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_lt (tau ^ Nat.rawCast 1 * Nat.rawCast 2)
+                            (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                              (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))))
+                      (Mathlib.Tactic.Ring.Common.atom_pf (dist (f p.1) (centers i)) rfl
+                        (Eq.mpr
+                          (id
+                            (congrArg
+                              (fun _a =>
+                                dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                  dist (f p.1) (centers i) ^ Nat.rawCast 1 * _a)
+                              (Eq.symm rfl)))
+                          (Eq.refl (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                      (Mathlib.Tactic.Ring.Common.sub_pf
+                        (Mathlib.Tactic.Ring.Common.neg_add
+                          (Mathlib.Tactic.Ring.Common.neg_mul (dist (f p.1) (centers i)) (Nat.rawCast 1)
+                            (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                              (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                (Eq.refl (Int.negOfNat 1)))))
+                          Mathlib.Tactic.Ring.Common.neg_zero)
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_lt (tau ^ Nat.rawCast 1 * Nat.rawCast 2)
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_lt
+                            (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1))
+                            (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                              (dist (f p.1) (centers i) ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))))
+                    (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                      (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero tau (Nat.rawCast 1)
+                        (Mathlib.Meta.NormNum.IsInt.to_isNat
+                          (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                            (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 2))
+                            (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 2))
+                            (Eq.refl (Int.ofNat 0)))))
+                      (Mathlib.Tactic.Ring.Common.add_pf_add_gt
+                        (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                          (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero (dist (f p.1) (centers i)) (Nat.rawCast 1)
+                            (Mathlib.Meta.NormNum.IsInt.to_isNat
+                              (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                                (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.ofNat 0)))))
+                          (Mathlib.Tactic.Ring.Common.add_pf_zero_add 0)))))
+                  (Mathlib.Tactic.Ring.Common.sub_congr
+                    (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                    (Mathlib.Tactic.Ring.Common.mul_congr
+                      (Mathlib.Tactic.Ring.Common.atom_pf L rfl
+                        (Eq.mpr
+                          (id
+                            (congrArg (fun _a => L ^ Nat.rawCast 1 * Nat.rawCast 1 = L ^ Nat.rawCast 1 * _a)
+                              (Eq.symm rfl)))
+                          (Eq.refl (L ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                      (Mathlib.Tactic.Ring.Common.atom_pf tau rfl
+                        (Eq.mpr
+                          (id
+                            (congrArg (fun _a => tau ^ Nat.rawCast 1 * Nat.rawCast 1 = tau ^ Nat.rawCast 1 * _a)
+                              (Eq.symm rfl)))
+                          (Eq.refl (tau ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                      (Mathlib.Tactic.Ring.Common.add_mul
+                        (Mathlib.Tactic.Ring.Common.mul_add
+                          (Mathlib.Tactic.Ring.Common.mul_pf_right tau (Nat.rawCast 1)
+                            (Mathlib.Tactic.Ring.Common.mul_pf_left L (Nat.rawCast 1)
+                              (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                  (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                  (Eq.refl 1)))))
+                          (Mathlib.Tactic.Ring.Common.mul_zero (L ^ Nat.rawCast 1 * Nat.rawCast 1))
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                            (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))
+                        (Mathlib.Tactic.Ring.Common.zero_mul (tau ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                          (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0))))
+                    (Mathlib.Tactic.Ring.Common.sub_pf
+                      (Mathlib.Tactic.Ring.Common.neg_add
+                        (Mathlib.Tactic.Ring.Common.neg_mul tau (Nat.rawCast 1)
+                          (Mathlib.Tactic.Ring.Common.neg_mul L (Nat.rawCast 1)
+                            (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                              (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                (Eq.refl (Int.negOfNat 1))))))
+                        Mathlib.Tactic.Ring.Common.neg_zero)
+                      (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                        (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast) + 0))))
+                  (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                    (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero tau (Nat.rawCast 1)
+                      (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero L (Nat.rawCast 1)
+                        (Mathlib.Meta.NormNum.IsInt.to_isNat
+                          (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                            (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                            (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.ofNat 0))))))
+                    (Mathlib.Tactic.Ring.Common.add_pf_zero_add 0)))
+                (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))))
+            (Mathlib.Tactic.Linarith.add_lt_of_neg_of_le
+              (Mathlib.Tactic.Linarith.add_lt_of_neg_of_le
+                (Mathlib.Tactic.Linarith.add_neg (Mathlib.Tactic.Linarith.sub_neg_of_lt htau)
+                  (Mathlib.Tactic.Linarith.sub_neg_of_lt hx))
+                (Mathlib.Tactic.Linarith.sub_nonpos_of_le a))
+              (Mathlib.Tactic.Linarith.sub_nonpos_of_le (mul_nonneg hL (LT.lt.le htau)))))),
+    id
+      (have ht := dist_triangle (f p.2) (f p.1) (centers i);
+      lt_of_not_ge fun a =>
+        Mathlib.Tactic.Linarith.lt_irrefl
+          (Eq.mp
+            (congrArg (fun _a => _a < 0)
+              (Mathlib.Tactic.Ring.of_eq
+                (Mathlib.Tactic.Ring.Common.add_congr
+                  (Mathlib.Tactic.Ring.Common.add_congr
+                    (Mathlib.Tactic.Ring.Common.add_congr
+                      (Mathlib.Tactic.Ring.Common.add_congr
+                        (Mathlib.Tactic.Ring.Common.sub_congr
+                          (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                          (Mathlib.Tactic.Ring.Common.atom_pf tau rfl
+                            (Eq.mpr
+                              (id
+                                (congrArg (fun _a => tau ^ Nat.rawCast 1 * Nat.rawCast 1 = tau ^ Nat.rawCast 1 * _a)
+                                  (Eq.symm rfl)))
+                              (Eq.refl (tau ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                          (Mathlib.Tactic.Ring.Common.sub_pf
+                            (Mathlib.Tactic.Ring.Common.neg_add
+                              (Mathlib.Tactic.Ring.Common.neg_mul tau (Nat.rawCast 1)
+                                (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                  (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                    (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                    (Eq.refl (Int.negOfNat 1)))))
+                              Mathlib.Tactic.Ring.Common.neg_zero)
+                            (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                              (tau ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))
+                        (Mathlib.Tactic.Ring.Common.sub_congr
+                          (Mathlib.Tactic.Ring.Common.atom_pf (dist (f p.1) (centers i)) rfl
+                            (Eq.mpr
+                              (id
+                                (congrArg
+                                  (fun _a =>
+                                    dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                      dist (f p.1) (centers i) ^ Nat.rawCast 1 * _a)
+                                  (Eq.symm rfl)))
+                              (Eq.refl (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                          (Mathlib.Tactic.Ring.Common.atom_pf tau rfl
+                            (Eq.mpr
+                              (id
+                                (congrArg (fun _a => tau ^ Nat.rawCast 1 * Nat.rawCast 1 = tau ^ Nat.rawCast 1 * _a)
+                                  (Eq.symm rfl)))
+                              (Eq.refl (tau ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                          (Mathlib.Tactic.Ring.Common.sub_pf
+                            (Mathlib.Tactic.Ring.Common.neg_add
+                              (Mathlib.Tactic.Ring.Common.neg_mul tau (Nat.rawCast 1)
+                                (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                  (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                    (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                    (Eq.refl (Int.negOfNat 1)))))
+                              Mathlib.Tactic.Ring.Common.neg_zero)
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_gt (tau ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast)
+                              (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)))))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_overlap
+                          (Mathlib.Tactic.Ring.Common.add_overlap_pf tau (Nat.rawCast 1)
+                            (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                              (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                                (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.negOfNat 2)))))
+                          (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                            (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))
+                      (Mathlib.Tactic.Ring.Common.sub_congr
+                        (Mathlib.Tactic.Ring.Common.atom_pf (dist (f p.2) (f p.1)) rfl
+                          (Eq.mpr
+                            (id
+                              (congrArg
+                                (fun _a =>
+                                  dist (f p.2) (f p.1) ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                    dist (f p.2) (f p.1) ^ Nat.rawCast 1 * _a)
+                                (Eq.symm rfl)))
+                            (Eq.refl (dist (f p.2) (f p.1) ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                        (Mathlib.Tactic.Ring.Common.mul_congr
+                          (Mathlib.Tactic.Ring.Common.atom_pf L rfl
+                            (Eq.mpr
+                              (id
+                                (congrArg (fun _a => L ^ Nat.rawCast 1 * Nat.rawCast 1 = L ^ Nat.rawCast 1 * _a)
+                                  (Eq.symm rfl)))
+                              (Eq.refl (L ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                          (Mathlib.Tactic.Ring.Common.atom_pf tau rfl
+                            (Eq.mpr
+                              (id
+                                (congrArg (fun _a => tau ^ Nat.rawCast 1 * Nat.rawCast 1 = tau ^ Nat.rawCast 1 * _a)
+                                  (Eq.symm rfl)))
+                              (Eq.refl (tau ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                          (Mathlib.Tactic.Ring.Common.add_mul
+                            (Mathlib.Tactic.Ring.Common.mul_add
+                              (Mathlib.Tactic.Ring.Common.mul_pf_right tau (Nat.rawCast 1)
+                                (Mathlib.Tactic.Ring.Common.mul_pf_left L (Nat.rawCast 1)
+                                  (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                    (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                      (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                      (Eq.refl 1)))))
+                              (Mathlib.Tactic.Ring.Common.mul_zero (L ^ Nat.rawCast 1 * Nat.rawCast 1))
+                              (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                                (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))
+                            (Mathlib.Tactic.Ring.Common.zero_mul (tau ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                              (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0))))
+                        (Mathlib.Tactic.Ring.Common.sub_pf
+                          (Mathlib.Tactic.Ring.Common.neg_add
+                            (Mathlib.Tactic.Ring.Common.neg_mul tau (Nat.rawCast 1)
+                              (Mathlib.Tactic.Ring.Common.neg_mul L (Nat.rawCast 1)
+                                (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                  (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                    (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                    (Eq.refl (Int.negOfNat 1))))))
+                            Mathlib.Tactic.Ring.Common.neg_zero)
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_gt
+                            (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast))
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                              (dist (f p.2) (f p.1) ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)))))
+                      (Mathlib.Tactic.Ring.Common.add_pf_add_lt (tau ^ Nat.rawCast 1 * (Int.negOfNat 2).rawCast)
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_gt
+                          (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast))
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_lt
+                            (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1)
+                            (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                              (dist (f p.2) (f p.1) ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))))
+                    (Mathlib.Tactic.Ring.Common.sub_congr
+                      (Mathlib.Tactic.Ring.Common.atom_pf (dist (f p.2) (centers i)) rfl
+                        (Eq.mpr
+                          (id
+                            (congrArg
+                              (fun _a =>
+                                dist (f p.2) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                  dist (f p.2) (centers i) ^ Nat.rawCast 1 * _a)
+                              (Eq.symm rfl)))
+                          (Eq.refl (dist (f p.2) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                      (Mathlib.Tactic.Ring.Common.add_congr
+                        (Mathlib.Tactic.Ring.Common.atom_pf (dist (f p.2) (f p.1)) rfl
+                          (Eq.mpr
+                            (id
+                              (congrArg
+                                (fun _a =>
+                                  dist (f p.2) (f p.1) ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                    dist (f p.2) (f p.1) ^ Nat.rawCast 1 * _a)
+                                (Eq.symm rfl)))
+                            (Eq.refl (dist (f p.2) (f p.1) ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                        (Mathlib.Tactic.Ring.Common.atom_pf (dist (f p.1) (centers i)) rfl
+                          (Eq.mpr
+                            (id
+                              (congrArg
+                                (fun _a =>
+                                  dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                    dist (f p.1) (centers i) ^ Nat.rawCast 1 * _a)
+                                (Eq.symm rfl)))
+                            (Eq.refl (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_gt
+                          (dist (f p.1) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1)
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                            (dist (f p.2) (f p.1) ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))
+                      (Mathlib.Tactic.Ring.Common.sub_pf
+                        (Mathlib.Tactic.Ring.Common.neg_add
+                          (Mathlib.Tactic.Ring.Common.neg_mul (dist (f p.1) (centers i)) (Nat.rawCast 1)
+                            (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                              (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                (Eq.refl (Int.negOfNat 1)))))
+                          (Mathlib.Tactic.Ring.Common.neg_add
+                            (Mathlib.Tactic.Ring.Common.neg_mul (dist (f p.2) (f p.1)) (Nat.rawCast 1)
+                              (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                  (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                  (Eq.refl (Int.negOfNat 1)))))
+                            Mathlib.Tactic.Ring.Common.neg_zero))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_gt
+                          (dist (f p.1) (centers i) ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast)
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_gt
+                            (dist (f p.2) (f p.1) ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast)
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                              (dist (f p.2) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))))
+                    (Mathlib.Tactic.Ring.Common.add_pf_add_lt (tau ^ Nat.rawCast 1 * (Int.negOfNat 2).rawCast)
+                      (Mathlib.Tactic.Ring.Common.add_pf_add_lt
+                        (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                          (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero (dist (f p.1) (centers i)) (Nat.rawCast 1)
+                            (Mathlib.Meta.NormNum.IsInt.to_isNat
+                              (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                                (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.ofNat 0)))))
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                            (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero (dist (f p.2) (f p.1)) (Nat.rawCast 1)
+                              (Mathlib.Meta.NormNum.IsInt.to_isNat
+                                (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                                  (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                  (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.ofNat 0)))))
+                            (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                              (dist (f p.2) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)))))))
+                  (Mathlib.Tactic.Ring.Common.sub_congr
+                    (Mathlib.Tactic.Ring.Common.mul_congr
+                      (Mathlib.Tactic.Ring.Common.add_congr
+                        (Mathlib.Tactic.Ring.Common.atom_pf L rfl
+                          (Eq.mpr
+                            (id
+                              (congrArg (fun _a => L ^ Nat.rawCast 1 * Nat.rawCast 1 = L ^ Nat.rawCast 1 * _a)
+                                (Eq.symm rfl)))
+                            (Eq.refl (L ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                        (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_gt (Nat.rawCast 2)
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_zero (L ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))
+                      (Mathlib.Tactic.Ring.Common.atom_pf tau rfl
+                        (Eq.mpr
+                          (id
+                            (congrArg (fun _a => tau ^ Nat.rawCast 1 * Nat.rawCast 1 = tau ^ Nat.rawCast 1 * _a)
+                              (Eq.symm rfl)))
+                          (Eq.refl (tau ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                      (Mathlib.Tactic.Ring.Common.add_mul
+                        (Mathlib.Tactic.Ring.Common.mul_add
+                          (Mathlib.Tactic.Ring.Common.mul_pf_right tau (Nat.rawCast 1)
+                            (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                              (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 2) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                (Eq.refl 2))))
+                          (Mathlib.Tactic.Ring.Common.mul_zero (Nat.rawCast 2))
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_zero (tau ^ Nat.rawCast 1 * Nat.rawCast 2 + 0)))
+                        (Mathlib.Tactic.Ring.Common.add_mul
+                          (Mathlib.Tactic.Ring.Common.mul_add
+                            (Mathlib.Tactic.Ring.Common.mul_pf_right tau (Nat.rawCast 1)
+                              (Mathlib.Tactic.Ring.Common.mul_pf_left L (Nat.rawCast 1)
+                                (Mathlib.Meta.NormNum.IsNat.to_raw_eq
+                                  (Mathlib.Meta.NormNum.isNat_mul (Eq.refl HMul.hMul)
+                                    (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1) (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1)
+                                    (Eq.refl 1)))))
+                            (Mathlib.Tactic.Ring.Common.mul_zero (L ^ Nat.rawCast 1 * Nat.rawCast 1))
+                            (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                              (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))
+                          (Mathlib.Tactic.Ring.Common.zero_mul (tau ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                            (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_lt (tau ^ Nat.rawCast 1 * Nat.rawCast 2)
+                          (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                            (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1) + 0)))))
+                    (Mathlib.Tactic.Ring.Common.atom_pf (dist (f p.2) (centers i)) rfl
+                      (Eq.mpr
+                        (id
+                          (congrArg
+                            (fun _a =>
+                              dist (f p.2) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1 =
+                                dist (f p.2) (centers i) ^ Nat.rawCast 1 * _a)
+                            (Eq.symm rfl)))
+                        (Eq.refl (dist (f p.2) (centers i) ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                    (Mathlib.Tactic.Ring.Common.sub_pf
+                      (Mathlib.Tactic.Ring.Common.neg_add
+                        (Mathlib.Tactic.Ring.Common.neg_mul (dist (f p.2) (centers i)) (Nat.rawCast 1)
+                          (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                            (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                              (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                              (Eq.refl (Int.negOfNat 1)))))
+                        Mathlib.Tactic.Ring.Common.neg_zero)
+                      (Mathlib.Tactic.Ring.Common.add_pf_add_lt (tau ^ Nat.rawCast 1 * Nat.rawCast 2)
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_lt
+                          (tau ^ Nat.rawCast 1 * (L ^ Nat.rawCast 1 * Nat.rawCast 1))
+                          (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                            (dist (f p.2) (centers i) ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))))
+                  (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                    (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero tau (Nat.rawCast 1)
+                      (Mathlib.Meta.NormNum.IsInt.to_isNat
+                        (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                          (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 2))
+                          (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 2))
+                          (Eq.refl (Int.ofNat 0)))))
+                    (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                      (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero tau (Nat.rawCast 1)
+                        (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero L (Nat.rawCast 1)
+                          (Mathlib.Meta.NormNum.IsInt.to_isNat
+                            (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                              (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                              (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                              (Eq.refl (Int.ofNat 0))))))
+                      (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                        (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero (dist (f p.2) (centers i)) (Nat.rawCast 1)
+                          (Mathlib.Meta.NormNum.IsInt.to_isNat
+                            (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                              (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                              (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.ofNat 0)))))
+                        (Mathlib.Tactic.Ring.Common.add_pf_zero_add 0)))))
+                (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))))
+            (Mathlib.Tactic.Linarith.add_lt_of_neg_of_le
+              (Mathlib.Tactic.Linarith.add_lt_of_neg_of_le
+                (Mathlib.Tactic.Linarith.add_lt_of_neg_of_le
+                  (Mathlib.Tactic.Linarith.add_neg (Mathlib.Tactic.Linarith.sub_neg_of_lt htau)
+                    (Mathlib.Tactic.Linarith.sub_neg_of_lt hx))
+                  (Mathlib.Tactic.Linarith.sub_nonpos_of_le hyx))
+                (Mathlib.Tactic.Linarith.sub_nonpos_of_le ht))
+              (Mathlib.Tactic.Linarith.sub_nonpos_of_le a))))⟩
+'StickyKakeya4.ResidualPhaseLocalization.near_phase_endpoints_in_block' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.graphMeasure_ae_endpoints_in_block.{u_1, u_2} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {E : Type u_2} [inst_1 : PseudoMetricSpace E] (σ : MeasureTheory.Measure X)
+  (h : X × X → ENNReal),
+  Measurable h →
+    ∀ (f : X → E) (centers : Fin n → E) (L tau : ℝ),
+      0 ≤ L →
+        0 < tau →
+          (∀ (p : X × X), h p ≠ 0 → dist (f p.1) (f p.2) ≤ L * tau) →
+            ∀ (i : Fin n),
+              ∀ᵐ (p : X × X) ∂StickyKakeya4.ResidualPhaseLocalization.graphMeasure σ h,
+                p.1 ∈ StickyKakeya4.ResidualPhaseLocalization.phaseCover f centers tau i →
+                  p ∈
+                    StickyKakeya4.ResidualPhaseLocalization.phaseBlock f centers L tau i ×ˢ
+                      StickyKakeya4.ResidualPhaseLocalization.phaseBlock f centers L tau i :=
+fun {X} [MeasurableSpace X] {n} {E} [PseudoMetricSpace E] σ h hh f centers L tau hL htau hnear i =>
+  (MeasureTheory.ae_withDensity_iff hh).mpr
+    (MeasureTheory.ae_of_all (σ.prod σ) fun p hp =>
+      StickyKakeya4.ResidualPhaseLocalization.near_phase_endpoints_in_block f centers L tau hL htau i p (hnear p hp))
+'StickyKakeya4.ResidualPhaseLocalization.graphMeasure_ae_endpoints_in_block' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+structure StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.{u_1} {X : Type u_1} [MeasurableSpace X]
+  {n : ℕ} (σ : MeasureTheory.Measure X) (ν : MeasureTheory.Measure (X × X)) (A D : Fin n → Set X) (K : ℕ) (B : ℝ) : Prop
+number of parameters: 9
+fields:
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_measurable : ∀ (i : Fin n),
+      MeasurableSet (StickyKakeya4.ResidualPhaseLocalization.firstHit A i)
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_disjoint : Pairwise fun i j =>
+      Disjoint (StickyKakeya4.ResidualPhaseLocalization.firstHit A i)
+        (StickyKakeya4.ResidualPhaseLocalization.firstHit A j)
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_partition : ∀ᵐ (x : X) ∂σ,
+      ∃! i, x ∈ StickyKakeya4.ResidualPhaseLocalization.firstHit A i
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_subordinate : ∀ (i : Fin n),
+      StickyKakeya4.ResidualPhaseLocalization.firstHit A i ⊆ A i
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.blocks_measurable : ∀ (i : Fin n), MeasurableSet (D i)
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.exact_mass_split : ∑ i,
+        (StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ =
+      ν Set.univ
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.block_domination : ∀ (i : Fin n),
+      StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i ≤ (σ.prod σ).restrict (D i ×ˢ D i)
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.bounded_overlap : ∀ (x : X), {i | x ∈ D i}.card ≤ K
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.square_mass_budget : ∑ i, (σ (D i)).toReal ^ 2 ≤
+      B * ↑K * (σ Set.univ).toReal
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.positive_square_mass : 0 < ∑ i, (σ (D i)).toReal ^ 2
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.selected_block : ∃ i,
+      0 < (σ (D i)).toReal ∧
+        (ν Set.univ).toReal / ∑ j, (σ (D j)).toReal ^ 2 ≤
+            ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal / (σ (D i)).toReal ^ 2 ∧
+          (ν Set.univ).toReal / (B * ↑K * (σ Set.univ).toReal) ≤
+            ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal / (σ (D i)).toReal ^ 2
+constructor:
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.mk.{u_1} {X : Type u_1} [MeasurableSpace X] {n : ℕ}
+    {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)} {A D : Fin n → Set X} {K : ℕ} {B : ℝ}
+    (cells_measurable : ∀ (i : Fin n), MeasurableSet (StickyKakeya4.ResidualPhaseLocalization.firstHit A i))
+    (cells_disjoint :
+      Pairwise fun i j =>
+        Disjoint (StickyKakeya4.ResidualPhaseLocalization.firstHit A i)
+          (StickyKakeya4.ResidualPhaseLocalization.firstHit A j))
+    (cells_partition : ∀ᵐ (x : X) ∂σ, ∃! i, x ∈ StickyKakeya4.ResidualPhaseLocalization.firstHit A i)
+    (cells_subordinate : ∀ (i : Fin n), StickyKakeya4.ResidualPhaseLocalization.firstHit A i ⊆ A i)
+    (blocks_measurable : ∀ (i : Fin n), MeasurableSet (D i))
+    (exact_mass_split : ∑ i, (StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ = ν Set.univ)
+    (block_domination :
+      ∀ (i : Fin n), StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i ≤ (σ.prod σ).restrict (D i ×ˢ D i))
+    (bounded_overlap : ∀ (x : X), {i | x ∈ D i}.card ≤ K)
+    (square_mass_budget : ∑ i, (σ (D i)).toReal ^ 2 ≤ B * ↑K * (σ Set.univ).toReal)
+    (positive_square_mass : 0 < ∑ i, (σ (D i)).toReal ^ 2)
+    (selected_block :
+      ∃ i,
+        0 < (σ (D i)).toReal ∧
+          (ν Set.univ).toReal / ∑ j, (σ (D j)).toReal ^ 2 ≤
+              ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal / (σ (D i)).toReal ^ 2 ∧
+            (ν Set.univ).toReal / (B * ↑K * (σ Set.univ).toReal) ≤
+              ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal / (σ (D i)).toReal ^ 2) :
+    StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.construct_localization.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ],
+  ∀ ν ≤ σ.prod σ,
+    ∀ (A D : Fin n → Set X),
+      (∀ (i : Fin n), MeasurableSet (A i)) →
+        (∀ (i : Fin n), MeasurableSet (D i)) →
+          (∀ᵐ (x : X) ∂σ, x ∈ ⋃ i, A i) →
+            (∀ (i : Fin n), ∀ᵐ (p : X × X) ∂ν, p.1 ∈ A i → p ∈ D i ×ˢ D i) →
+              ∀ (K : ℕ),
+                (∀ (x : X), {i | x ∈ D i}.card ≤ K) →
+                  ∀ (B : ℝ),
+                    0 ≤ B →
+                      (∀ (i : Fin n), (σ (D i)).toReal ≤ B) →
+                        0 < (ν Set.univ).toReal →
+                          StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B :=
+fun {X} [MeasurableSpace X] {n} σ [MeasureTheory.IsFiniteMeasure σ] ν hdom A D hA hD hcover hendpoint K hoverlap B hB
+    hupper hpositive =>
+  have hbudget := StickyKakeya4.ResidualPhaseLocalization.sum_sq_block_mass_le σ D hD K hoverlap B hB hupper;
+  And.casesOn
+    (StickyKakeya4.ResidualPhaseLocalization.exists_assignedGraph_density_ge_average σ ν hdom A D hA hcover hendpoint
+      hpositive)
+    fun hS right =>
+    Exists.casesOn right fun i h =>
+      And.casesOn h fun hi hdensity =>
+        { cells_measurable := StickyKakeya4.ResidualPhaseLocalization.measurableSet_firstHit A hA,
+          cells_disjoint := StickyKakeya4.ResidualPhaseLocalization.firstHit_pairwiseDisjoint A,
+          cells_partition := StickyKakeya4.ResidualPhaseLocalization.firstHit_ae_partition σ A hcover,
+          cells_subordinate := StickyKakeya4.ResidualPhaseLocalization.firstHit_subset A, blocks_measurable := hD,
+          exact_mass_split := StickyKakeya4.ResidualPhaseLocalization.sum_assignedGraph_mass σ ν hdom A hA hcover,
+          block_domination :=
+            StickyKakeya4.ResidualPhaseLocalization.assignedGraph_le_block_product σ ν hdom A D hendpoint,
+          bounded_overlap := hoverlap, square_mass_budget := hbudget, positive_square_mass := hS,
+          selected_block :=
+            Exists.intro i
+              ⟨hi, ⟨hdensity, LE.le.trans (div_le_div_of_nonneg_left (LT.lt.le hpositive) hS hbudget) hdensity⟩⟩ }
+'StickyKakeya4.ResidualPhaseLocalization.construct_localization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.exists_uniform_near_phase_graph_localization.{u_1, u_2} : ∀
+  {X : Type u_1} [inst : MeasurableSpace X] (E : Type u_2) [inst_1 : NormedAddCommGroup E] [NormedSpace ℝ E]
+  [ProperSpace E] [inst_4 : MeasurableSpace E] [BorelSpace E] (L : ℝ),
+  0 ≤ L →
+    ∃ K,
+      ∀ (σ : MeasureTheory.Measure X) [MeasureTheory.IsFiniteMeasure σ] (f : X → E),
+        Measurable f →
+          ∀ (n : ℕ) (centers : Fin n → E) (tau : ℝ),
+            0 < tau →
+              (∀ (i j : Fin n), i ≠ j → tau / 2 ≤ dist (centers i) (centers j)) →
+                (∀ᵐ (x : X) ∂σ, ∃ i, dist (f x) (centers i) < tau) →
+                  ∀ (h : X × X → ENNReal),
+                    Measurable h →
+                      (∀ (p : X × X), h p ≤ 1) →
+                        (∀ (p : X × X), h p ≠ 0 → dist (f p.1) (f p.2) ≤ L * tau) →
+                          ∀ (C : ℝ),
+                            0 ≤ C →
+                              (∀ (i : Fin n),
+                                  (σ (StickyKakeya4.ResidualPhaseLocalization.phaseBlock f centers L tau i)).toReal ≤
+                                    C * tau ^ 3) →
+                                0 < ((StickyKakeya4.ResidualPhaseLocalization.graphMeasure σ h) Set.univ).toReal →
+                                  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ
+                                    (StickyKakeya4.ResidualPhaseLocalization.graphMeasure σ h)
+                                    (StickyKakeya4.ResidualPhaseLocalization.phaseCover f centers tau)
+                                    (StickyKakeya4.ResidualPhaseLocalization.phaseBlock f centers L tau) K
+                                    (C * tau ^ 3) :=
+fun {X} [MeasurableSpace X] E [NormedAddCommGroup E] [NormedSpace ℝ E] [ProperSpace E] [MeasurableSpace E]
+    [BorelSpace E] L hL =>
+  Exists.casesOn
+    (StickyKakeya4.ResidualPhaseLocalization.exists_uniform_expanded_fin_ball_overlap_bound E (L + 2)
+      (lt_of_not_ge fun a =>
+        Mathlib.Tactic.Linarith.lt_irrefl
+          (Eq.mp
+            (congrArg (fun _a => _a < 0)
+              (Mathlib.Tactic.Ring.of_eq
+                (Mathlib.Tactic.Ring.Common.add_congr
+                  (Mathlib.Tactic.Ring.Common.add_congr
+                    (Mathlib.Tactic.Ring.Common.mul_congr
+                      (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)))
+                      (Mathlib.Tactic.Ring.Common.neg_congr
+                        (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                        (Mathlib.Tactic.Ring.Common.neg_add
+                          (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                            (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                              (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                              (Eq.refl (Int.negOfNat 1))))
+                          Mathlib.Tactic.Ring.Common.neg_zero))
+                      (Mathlib.Tactic.Ring.Common.add_mul
+                        (Mathlib.Tactic.Ring.Common.mul_add
+                          (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                            (Mathlib.Meta.NormNum.isInt_mul (Eq.refl HMul.hMul)
+                              (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 2))
+                              (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.negOfNat 2))))
+                          (Mathlib.Tactic.Ring.Common.mul_zero (Nat.rawCast 2))
+                          (Mathlib.Tactic.Ring.Common.add_pf_add_zero ((Int.negOfNat 2).rawCast + 0)))
+                        (Mathlib.Tactic.Ring.Common.zero_mul ((Int.negOfNat 1).rawCast + 0))
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_zero ((Int.negOfNat 2).rawCast + 0))))
+                    (Mathlib.Tactic.Ring.Common.sub_congr
+                      (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                      (Mathlib.Tactic.Ring.Common.atom_pf L rfl
+                        (Eq.mpr
+                          (id
+                            (congrArg (fun _a => L ^ Nat.rawCast 1 * Nat.rawCast 1 = L ^ Nat.rawCast 1 * _a)
+                              (Eq.symm rfl)))
+                          (Eq.refl (L ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                      (Mathlib.Tactic.Ring.Common.sub_pf
+                        (Mathlib.Tactic.Ring.Common.neg_add
+                          (Mathlib.Tactic.Ring.Common.neg_mul L (Nat.rawCast 1)
+                            (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                              (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                                (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                (Eq.refl (Int.negOfNat 1)))))
+                          Mathlib.Tactic.Ring.Common.neg_zero)
+                        (Mathlib.Tactic.Ring.Common.add_pf_zero_add
+                          (L ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))
+                    (Mathlib.Tactic.Ring.Common.add_pf_add_lt (Int.negOfNat 2).rawCast
+                      (Mathlib.Tactic.Ring.Common.add_pf_zero_add (L ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))
+                  (Mathlib.Tactic.Ring.Common.sub_congr
+                    (Mathlib.Tactic.Ring.Common.add_congr
+                      (Mathlib.Tactic.Ring.Common.atom_pf L rfl
+                        (Eq.mpr
+                          (id
+                            (congrArg (fun _a => L ^ Nat.rawCast 1 * Nat.rawCast 1 = L ^ Nat.rawCast 1 * _a)
+                              (Eq.symm rfl)))
+                          (Eq.refl (L ^ Nat.rawCast 1 * Nat.rawCast 1))))
+                      (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)))
+                      (Mathlib.Tactic.Ring.Common.add_pf_add_gt (Nat.rawCast 2)
+                        (Mathlib.Tactic.Ring.Common.add_pf_add_zero (L ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))
+                    (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                    (Mathlib.Tactic.Ring.Common.sub_pf Mathlib.Tactic.Ring.Common.neg_zero
+                      (Mathlib.Tactic.Ring.Common.add_pf_add_zero
+                        (Nat.rawCast 2 + (L ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)))))
+                  (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                    (Mathlib.Meta.NormNum.IsInt.to_isNat
+                      (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                        (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 2))
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 2))
+                        (Eq.refl (Int.ofNat 0))))
+                    (Mathlib.Tactic.Ring.Common.add_pf_add_overlap_zero
+                      (Mathlib.Tactic.Ring.Common.add_overlap_pf_zero L (Nat.rawCast 1)
+                        (Mathlib.Meta.NormNum.IsInt.to_isNat
+                          (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                            (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                            (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                            (Eq.refl (Int.ofNat 0)))))
+                      (Mathlib.Tactic.Ring.Common.add_pf_zero_add 0))))
+                (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))))
+            (Mathlib.Tactic.Linarith.add_lt_of_neg_of_le
+              (Mathlib.Tactic.Linarith.add_lt_of_neg_of_le
+                (Mathlib.Tactic.Linarith.mul_neg (neg_neg_of_pos Mathlib.Tactic.Linarith.zero_lt_one)
+                  (Mathlib.Meta.NormNum.isNat_lt_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)
+                    (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)) (Eq.refl false)))
+                (Mathlib.Tactic.Linarith.sub_nonpos_of_le hL))
+              (Mathlib.Tactic.Linarith.sub_nonpos_of_le a)))))
+    fun K hK =>
+    Exists.intro K
+      fun σ [MeasureTheory.IsFiniteMeasure σ] f hf n centers tau htau hsep hcover h hh hbound hnear C hC hupper
+        hpositive =>
+      StickyKakeya4.ResidualPhaseLocalization.construct_localization σ
+        (StickyKakeya4.ResidualPhaseLocalization.graphMeasure σ h)
+        (StickyKakeya4.ResidualPhaseLocalization.graphMeasure_le_product σ h hbound)
+        (StickyKakeya4.ResidualPhaseLocalization.phaseCover f centers tau)
+        (StickyKakeya4.ResidualPhaseLocalization.phaseBlock f centers L tau) (fun x => hf measurableSet_ball)
+        (fun x => hf measurableSet_ball)
+        (Filter.mp_mem hcover
+          (Filter.univ_mem'
+            (id fun x hx =>
+              Eq.mpr
+                (id
+                  (Eq.trans
+                    StickyKakeya4.ResidualPhaseLocalization.exists_uniform_near_phase_graph_localization._simp_1_1
+                    (congrArg Exists
+                      (funext fun i =>
+                        Eq.trans
+                          StickyKakeya4.ResidualPhaseLocalization.exists_uniform_near_phase_graph_localization._simp_1_3
+                          StickyKakeya4.ResidualPhaseLocalization.exists_uniform_near_phase_graph_localization._simp_1_4))))
+                hx)))
+        (StickyKakeya4.ResidualPhaseLocalization.graphMeasure_ae_endpoints_in_block σ h hh f centers L tau hL htau
+          hnear)
+        K (fun x => hK tau htau n centers hsep (f x)) (C * tau ^ 3) (mul_nonneg hC (le_of_lt (pow_pos htau 3))) hupper
+        hpositive
+'StickyKakeya4.ResidualPhaseLocalization.exists_uniform_near_phase_graph_localization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_measurable.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B →
+    ∀ (i : Fin n), MeasurableSet (StickyKakeya4.ResidualPhaseLocalization.firstHit A i) :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.1
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_disjoint.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B →
+    Pairwise fun i j =>
+      Disjoint (StickyKakeya4.ResidualPhaseLocalization.firstHit A i)
+        (StickyKakeya4.ResidualPhaseLocalization.firstHit A j) :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.2
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_disjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_partition.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B →
+    ∀ᵐ (x : X) ∂σ, ∃! i, x ∈ StickyKakeya4.ResidualPhaseLocalization.firstHit A i :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.3
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_subordinate.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B →
+    ∀ (i : Fin n), StickyKakeya4.ResidualPhaseLocalization.firstHit A i ⊆ A i :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.4
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.cells_subordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.blocks_measurable.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B → ∀ (i : Fin n), MeasurableSet (D i) :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.5
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.blocks_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.exact_mass_split.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B →
+    ∑ i, (StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ = ν Set.univ :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.6
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.exact_mass_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.block_domination.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B →
+    ∀ (i : Fin n), StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i ≤ (σ.prod σ).restrict (D i ×ˢ D i) :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.7
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.block_domination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.bounded_overlap.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B → ∀ (x : X), {i | x ∈ D i}.card ≤ K :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.8
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.bounded_overlap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.square_mass_budget.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B →
+    ∑ i, (σ (D i)).toReal ^ 2 ≤ B * ↑K * (σ Set.univ).toReal :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.9
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.square_mass_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.positive_square_mass.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B → 0 < ∑ i, (σ (D i)).toReal ^ 2 :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.10
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.positive_square_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+theorem StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.selected_block.{u_1} : ∀ {X : Type u_1}
+  [inst : MeasurableSpace X] {n : ℕ} {σ : MeasureTheory.Measure X} {ν : MeasureTheory.Measure (X × X)}
+  {A D : Fin n → Set X} {K : ℕ} {B : ℝ},
+  StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion σ ν A D K B →
+    ∃ i,
+      0 < (σ (D i)).toReal ∧
+        (ν Set.univ).toReal / ∑ j, (σ (D j)).toReal ^ 2 ≤
+            ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal / (σ (D i)).toReal ^ 2 ∧
+          (ν Set.univ).toReal / (B * ↑K * (σ Set.univ).toReal) ≤
+            ((StickyKakeya4.ResidualPhaseLocalization.assignedGraph ν A i) Set.univ).toReal / (σ (D i)).toReal ^ 2 :=
+fun X [MeasurableSpace X] n σ ν A D K B self => self.11
+'StickyKakeya4.ResidualPhaseLocalization.LocalizationConclusion.selected_block' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Verification rerun: strict readback (2026-10-02)
+
+Environment: ELAN_HOME=/workspace/shared/lean-tools/elan; PATH=/workspace/shared/lean-tools/elan/bin:$PATH; XDG_CACHE_HOME=/workspace/shared/lean-tools/cache
+
+Command: lake env lean -DautoImplicit=false verification/ResidualPhaseLocalizationReadback.lean > /tmp/residual-phase-localization-readback-rerun.log 2>&1
+
+Command: cmp verification/residual-phase-localization-readback.log /tmp/residual-phase-localization-readback-rerun.log
+
+Verified byte-for-byte match with original raw readback output; cmp exit code: 0
+Verified strict-readback exit code: 0
