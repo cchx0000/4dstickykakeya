@@ -1,0 +1,936 @@
+{
+  "generated_at_utc": "2026-10-03T19:02:38.203996+00:00",
+  "base_tree": "7cc51a1ce8c9e8ae40d5ef9582093890917389d7",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_two_dimensional_transverse_escape.lean": "4c1b7b4cd781511e92465965a9e8a4571ad4fef6e7406ec98db52bc730430d5e",
+    "Theorems/Thm_StickyKakeya4_two_step_menu_paths.lean": "bddc270912bd1d687d859c588bd53b31c84dbbe7b1afe766895aa7f11acbc58a",
+    "Theorems/Thm_StickyKakeya4_two_dimensional_time_fibers.lean": "56a26c4926fc0dae8ff24416cf7607ba335cd9f032d0e9a653e37586f7018aa8",
+    "Theorems/Thm_StickyKakeya4_finite_transverse_menu_growth.lean": "f1e777e469af3502539f07148f033c4fbea25394bcc4a290bb218745413fe1b4",
+    "Theorems/Thm_StickyKakeya4_quadratic_image_count.lean": "4b276712e92f081dff6d7ae001c47c2d6da079bff87061a417a51b04241dcd08",
+    "Theorems/Thm_StickyKakeya4_grain_jump_additive_relation.lean": "71d5630173f1067b326add8ac79d6c26242cc8f477f7ad47e1eb04278e47c9c3",
+    "Theorems/Thm_StickyKakeya4_sheared_grid_spine_columns.lean": "f7cd41889d4253b4b711c9ba66eb6ee93f8b53a4f7ac215795f940acf22d673c",
+    "Theorems/Thm_StickyKakeya4_native_fractional_reference_composition.lean": "05f6bba14a6f4953be2bff43902aa3b5b963e4a4251f9d03aa81ed1eeb9643ed",
+    "Theorems/Thm_StickyKakeya4_rich_witness_core.lean": "a3e4d65a1289d3cee82c949ec48e69ad476319c4e7d2fae9185fab5108688197"
+  },
+  "new_modules": [
+    {
+      "short": "TwoDimensionalTransverseEscape",
+      "slug": "two_dimensional_transverse_escape",
+      "source": "Theorems/Thm_StickyKakeya4_two_dimensional_transverse_escape.lean",
+      "source_sha256": "4c1b7b4cd781511e92465965a9e8a4571ad4fef6e7406ec98db52bc730430d5e",
+      "readback": "verification/TwoDimensionalTransverseEscapeReadback.lean",
+      "declarations": [
+        "TwoDimensionalTransverseEscape.det_abs_lower_of_max_transverse",
+        "TwoDimensionalTransverseEscape.coefficients_mul_bound_of_det_bound",
+        "TwoDimensionalTransverseEscape.coefficients_bound_of_det_bound",
+        "TwoDimensionalTransverseEscape.coefficient_differences_bound_of_max_transverse"
+      ]
+    },
+    {
+      "short": "TwoStepMenuPaths",
+      "slug": "two_step_menu_paths",
+      "source": "Theorems/Thm_StickyKakeya4_two_step_menu_paths.lean",
+      "source_sha256": "bddc270912bd1d687d859c588bd53b31c84dbbe7b1afe766895aa7f11acbc58a",
+      "readback": "verification/TwoStepMenuPathsReadback.lean",
+      "declarations": [
+        "TwoStepMenuPaths.mem_paths",
+        "TwoStepMenuPaths.card_paths",
+        "TwoStepMenuPaths.card_paths_lower",
+        "TwoStepMenuPaths.mem_frozen",
+        "TwoStepMenuPaths.mem_frozen_paths",
+        "TwoStepMenuPaths.frozen_subset",
+        "TwoStepMenuPaths.frozen_label",
+        "TwoStepMenuPaths.exists_frozen",
+        "TwoStepMenuPaths.exists_frozen_paths",
+        "TwoStepMenuPaths.orderedTimes_injOn_of_fixed_angles",
+        "TwoStepMenuPaths.card_orderedTimes_image_of_fixed_angles",
+        "TwoStepMenuPaths.orderedTimes_injOn_frozen",
+        "TwoStepMenuPaths.card_orderedTimes_image_frozen",
+        "TwoStepMenuPaths.orderedTimes_image_lower_frozen"
+      ]
+    },
+    {
+      "short": "TwoDimensionalTimeFibers",
+      "slug": "two_dimensional_time_fibers",
+      "source": "Theorems/Thm_StickyKakeya4_two_dimensional_time_fibers.lean",
+      "source_sha256": "56a26c4926fc0dae8ff24416cf7607ba335cd9f032d0e9a653e37586f7018aa8",
+      "readback": "verification/TwoDimensionalTimeFibersReadback.lean",
+      "declarations": [
+        "TwoDimensionalTimeFibers.card_le_real_mul_of_fibers",
+        "TwoDimensionalTimeFibers.same_floor_abs_sub_le",
+        "TwoDimensionalTimeFibers.floor_fiber_card_le",
+        "TwoDimensionalTimeFibers.interval_population",
+        "TwoDimensionalTimeFibers.linear_combination_control",
+        "TwoDimensionalTimeFibers.coefficient_control",
+        "TwoDimensionalTimeFibers.firstTimes_fixed_secondTimes_injective",
+        "TwoDimensionalTimeFibers.two_dimensional_endpoint_fiber",
+        "TwoDimensionalTimeFibers.two_dimensional_fixed_angle_growth"
+      ]
+    },
+    {
+      "short": "FiniteTransverseMenuGrowth",
+      "slug": "finite_transverse_menu_growth",
+      "source": "Theorems/Thm_StickyKakeya4_finite_transverse_menu_growth.lean",
+      "source_sha256": "f1e777e469af3502539f07148f033c4fbea25394bcc4a290bb218745413fe1b4",
+      "readback": "verification/FiniteTransverseMenuGrowthReadback.lean",
+      "declarations": [
+        "FiniteTransverseMenuGrowth.card_le_real_mul_of_fibers",
+        "FiniteTransverseMenuGrowth.same_floor_abs_sub_le",
+        "FiniteTransverseMenuGrowth.floor_fiber_card_le",
+        "FiniteTransverseMenuGrowth.interval_population",
+        "FiniteTransverseMenuGrowth.scalar_coefficient_control",
+        "FiniteTransverseMenuGrowth.first_fixed_second_injective",
+        "FiniteTransverseMenuGrowth.scalar_endpoint_fiber",
+        "FiniteTransverseMenuGrowth.scalar_fixed_angle_growth",
+        "FiniteTransverseMenuGrowth.scalar_menu_growth",
+        "FiniteTransverseMenuGrowth.planar_line_ne_top",
+        "FiniteTransverseMenuGrowth.planar_line_richness_of_subspaces",
+        "FiniteTransverseMenuGrowth.planar_frozen_paths",
+        "FiniteTransverseMenuGrowth.scalar_infDist_bot",
+        "FiniteTransverseMenuGrowth.scalar_menu_growth_from_subspaces",
+        "FiniteTransverseMenuGrowth.two_step_coordinate_error",
+        "FiniteTransverseMenuGrowth.planar_menu_growth"
+      ]
+    },
+    {
+      "short": "QuadraticImageCount",
+      "slug": "quadratic_image_count",
+      "source": "Theorems/Thm_StickyKakeya4_quadratic_image_count.lean",
+      "source_sha256": "4b276712e92f081dff6d7ae001c47c2d6da079bff87061a417a51b04241dcd08",
+      "readback": "verification/QuadraticImageCountReadback.lean",
+      "declarations": [
+        "QuadraticImageCount.time_gap",
+        "QuadraticImageCount.near_vertex_card",
+        "QuadraticImageCount.select_side",
+        "QuadraticImageCount.select_dense_side",
+        "QuadraticImageCount.square_difference_lower",
+        "QuadraticImageCount.noisy_square_gap",
+        "QuadraticImageCount.quadratic_pair_gap",
+        "QuadraticImageCount.quadratic_fiber_bound",
+        "QuadraticImageCount.quadratic_image_count",
+        "QuadraticImageCount.quadratic_fiber_card_bound",
+        "QuadraticImageCount.exists_dense_quadratic_image",
+        "QuadraticImageCount.dense_quadratic_image_count",
+        "QuadraticImageCount.unit_density_quadratic_image_count",
+        "QuadraticImageCount.interval_density_le",
+        "QuadraticImageCount.interval_quadratic_image_count"
+      ]
+    },
+    {
+      "short": "GrainJumpAdditiveRelation",
+      "slug": "grain_jump_additive_relation",
+      "source": "Theorems/Thm_StickyKakeya4_grain_jump_additive_relation.lean",
+      "source_sha256": "71d5630173f1067b326add8ac79d6c26242cc8f477f7ad47e1eb04278e47c9c3",
+      "readback": "verification/GrainJumpAdditiveRelationReadback.lean",
+      "declarations": [
+        "GrainJumpAdditiveRelation.Data.endpoint_identity",
+        "GrainJumpAdditiveRelation.Data.difference_identity",
+        "GrainJumpAdditiveRelation.Data.error_bound",
+        "GrainJumpAdditiveRelation.Data.additive_relation_bound"
+      ]
+    },
+    {
+      "short": "ShearedGridSpineColumns",
+      "slug": "sheared_grid_spine_columns",
+      "source": "Theorems/Thm_StickyKakeya4_sheared_grid_spine_columns.lean",
+      "source_sha256": "f7cd41889d4253b4b711c9ba66eb6ee93f8b53a4f7ac215795f940acf22d673c",
+      "readback": "verification/ShearedGridSpineColumnsReadback.lean",
+      "declarations": [
+        "ShearedGridSpineColumns.pairLabel_injective",
+        "ShearedGridSpineColumns.pair_cell_image_card",
+        "ShearedGridSpineColumns.anchor_spec",
+        "ShearedGridSpineColumns.slope_bound",
+        "ShearedGridSpineColumns.slope_mul",
+        "ShearedGridSpineColumns.tube_pair_residual",
+        "ShearedGridSpineColumns.overlap_budget",
+        "ShearedGridSpineColumns.columns_from_coarse_spines",
+        "ShearedGridSpineColumns.lift_image",
+        "ShearedGridSpineColumns.localCapacity_pos",
+        "ShearedGridSpineColumns.local_fine_grid_card",
+        "ShearedGridSpineColumns.fine_grid_card_le_coarse",
+        "ShearedGridSpineColumns.coarse_spine_richness",
+        "ShearedGridSpineColumns.columns_from_fine_spines",
+        "ShearedGridSpineColumns.richness_div_capacity",
+        "ShearedGridSpineColumns.column_power_of_weighted",
+        "ShearedGridSpineColumns.columns_card_le_from_AD_fine_spines"
+      ]
+    },
+    {
+      "short": "NativeFractionalReferenceComposition",
+      "slug": "native_fractional_reference_composition",
+      "source": "Theorems/Thm_StickyKakeya4_native_fractional_reference_composition.lean",
+      "source_sha256": "05f6bba14a6f4953be2bff43902aa3b5b963e4a4251f9d03aa81ed1eeb9643ed",
+      "readback": "verification/NativeFractionalReferenceCompositionReadback.lean",
+      "declarations": [
+        "NativeFractionalReferenceComposition.exists_native_fractional_refinement"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "TwoDimensionalTransverseEscape.det_abs_lower_of_max_transverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTransverseEscape.coefficients_mul_bound_of_det_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTransverseEscape.coefficients_bound_of_det_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTransverseEscape.coefficient_differences_bound_of_max_transverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.mem_paths",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.card_paths",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.card_paths_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.mem_frozen",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.mem_frozen_paths",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.frozen_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.frozen_label",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.exists_frozen",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.exists_frozen_paths",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.orderedTimes_injOn_of_fixed_angles",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.card_orderedTimes_image_of_fixed_angles",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.orderedTimes_injOn_frozen",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.card_orderedTimes_image_frozen",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoStepMenuPaths.orderedTimes_image_lower_frozen",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTimeFibers.card_le_real_mul_of_fibers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTimeFibers.same_floor_abs_sub_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTimeFibers.floor_fiber_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTimeFibers.interval_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTimeFibers.linear_combination_control",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTimeFibers.coefficient_control",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTimeFibers.firstTimes_fixed_secondTimes_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTimeFibers.two_dimensional_endpoint_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoDimensionalTimeFibers.two_dimensional_fixed_angle_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.card_le_real_mul_of_fibers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.same_floor_abs_sub_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.floor_fiber_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.interval_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.scalar_coefficient_control",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.first_fixed_second_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.scalar_endpoint_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.scalar_fixed_angle_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.scalar_menu_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.planar_line_ne_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.planar_line_richness_of_subspaces",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.planar_frozen_paths",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.scalar_infDist_bot",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.scalar_menu_growth_from_subspaces",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.two_step_coordinate_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "FiniteTransverseMenuGrowth.planar_menu_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.time_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.near_vertex_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.select_side",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.select_dense_side",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.square_difference_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.noisy_square_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.quadratic_pair_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.quadratic_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.quadratic_image_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.quadratic_fiber_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.exists_dense_quadratic_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.dense_quadratic_image_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.unit_density_quadratic_image_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.interval_density_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "QuadraticImageCount.interval_quadratic_image_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpAdditiveRelation.Data.endpoint_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpAdditiveRelation.Data.difference_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpAdditiveRelation.Data.error_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpAdditiveRelation.Data.additive_relation_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.pairLabel_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.pair_cell_image_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.anchor_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.slope_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.slope_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.tube_pair_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.overlap_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.columns_from_coarse_spines",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.lift_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.localCapacity_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.local_fine_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.fine_grid_card_le_coarse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.coarse_spine_richness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.columns_from_fine_spines",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.richness_div_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.column_power_of_weighted",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridSpineColumns.columns_card_le_from_AD_fine_spines",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "NativeFractionalReferenceComposition.exists_native_fractional_refinement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-geometry-axioms.log"
+    }
+  ],
+  "declaration_count": 80,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_readback": "verification/WZNativeGeometryReadback.lean",
+  "shared_import_log": "verification/wz-native-geometry-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8983,
+    "log": "verification/wz274-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_tree": "7cc51a1ce8c9e8ae40d5ef9582093890917389d7",
+    "module_count": 274,
+    "source_snapshot": "verification/wz274-source-snapshot.json",
+    "scope": "Full default build of all 274 modules; prior266 unchanged except one verified import-only optimization"
+  },
+  "prior_266_changes": [
+    {
+      "source": "Theorems/Thm_StickyKakeya4_rich_witness_core.lean",
+      "old_sha256": "ea036b917a975a39f80e954edc88feb140a23baa04eeccc3c2f37b23e15d7d45",
+      "new_sha256": "a3e4d65a1289d3cee82c949ec48e69ad476319c4e7d2fae9185fab5108688197",
+      "proof_bodies_unchanged": true,
+      "verified_at_utc": "2026-10-03T19:02:38.203996+00:00",
+      "rechecked_declarations": [
+        "RichWitnessCore.collision_swap_mem",
+        "RichWitnessCore.erase_vertex_loss",
+        "RichWitnessCore.exists_collision_rich_core",
+        "RichWitnessCore.exists_half_mass_rich_core",
+        "RichWitnessCore.exists_rich_core",
+        "RichWitnessCore.outgoing_card_eq_incoming",
+        "RichWitnessCore.retained_eq_of_endpoints",
+        "RichWitnessCore.retained_subset",
+        "RichWitnessCore.swap_mem_retained",
+        "RichWitnessRealCore.exists_half_mass_collision_core",
+        "RichWitnessRealCore.exists_half_mass_rich_core",
+        "RichWitnessRealCore.exists_rich_core"
+      ],
+      "axioms_unchanged": true,
+      "strict_import_log": "verification/wz-native-geometry-axioms.log"
+    }
+  ],
+  "current_module_count": 274,
+  "main_theorem_complete": false,
+  "whole_Lemma53_lean_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "scope_note": "docs/WZ_NATIVE_REFINEMENT_AND_TRANSVERSE_GROWTH.md"
+}

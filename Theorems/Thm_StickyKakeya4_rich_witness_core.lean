@@ -1,4 +1,6 @@
-import Mathlib
+import Mathlib.Data.Finset.Powerset
+import Mathlib.Data.Finset.Max
+import Mathlib.Tactic
 import Theorems.Thm_StickyKakeya4_two_tube_path_collision_count
 
 set_option autoImplicit false

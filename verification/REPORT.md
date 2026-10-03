@@ -3,6 +3,27 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Native fractional refinement and transverse growth
+
+Eight modules add **80 strict standard-only proved declarations**. All six
+fractional references are derived from original AD, one common actual tube
+profile and genuine rich spines, and the native same-parent refinement now
+returns the original retained subset. Actual proper-subspace menus give the
+complete growth bounds for both native dimensions a=1,2. Original grain-jump
+incidences imply the additive relation, and noisy quadratic witnesses give
+the actual affine-branch image lower bound.
+
+The complete **274-module** build passes **8,983 jobs**, exit0. Cumulative
+foundational-only checks are **2,092**. The sole prior-source change narrows
+the rich-core imports with byte-identical theorem bodies; all 12 associated
+readbacks are repeated and excluded from the new-proof count.
+
+See [scope](../docs/WZ_NATIVE_REFINEMENT_AND_TRANSVERSE_GROWTH.md) and
+[evidence](wz-native-geometry-checkpoint.json). Native scale/epoch/spine
+production, fine-point-to-transverse-menu witnesses, and the nonlinear
+expansion branch remain unfinished. The final theorem retains its existing
+WZ project axiom.
+
 ## Actual witnesses, shared reference bounds and grain-jump arms
 
 Seven modules add **85 strict standard-only proved declarations**. Original

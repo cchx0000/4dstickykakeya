@@ -19,6 +19,13 @@ The earlier Prove2Me proposal is preserved in
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
+The [native refinement and growth checkpoint](docs/WZ_NATIVE_REFINEMENT_AND_TRANSVERSE_GROWTH.md)
+constructs all six reference bounds and the same-parent refinement, proves
+actual transverse-menu growth in both native dimensions, and derives the
+grain-jump additive relation and quadratic-image estimate. Its 80 new proofs
+and full 274-module build pass. The upstream geometric extraction and the
+nonlinear volume branch remain open.
+
 The [actual-witness checkpoint](docs/WZ_ACTUAL_WITNESS_GEOMETRY.md) derives
 shared AD/tube-profile reference bounds, real-threshold rich witness cores,
 physical two-walk box comparison, and actual grain-jump arm counts. Its

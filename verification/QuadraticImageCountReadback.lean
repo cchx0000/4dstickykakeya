@@ -1,0 +1,17 @@
+import Theorems.Thm_StickyKakeya4_quadratic_image_count
+
+#print axioms QuadraticImageCount.time_gap
+#print axioms QuadraticImageCount.near_vertex_card
+#print axioms QuadraticImageCount.select_side
+#print axioms QuadraticImageCount.select_dense_side
+#print axioms QuadraticImageCount.square_difference_lower
+#print axioms QuadraticImageCount.noisy_square_gap
+#print axioms QuadraticImageCount.quadratic_pair_gap
+#print axioms QuadraticImageCount.quadratic_fiber_bound
+#print axioms QuadraticImageCount.quadratic_image_count
+#print axioms QuadraticImageCount.quadratic_fiber_card_bound
+#print axioms QuadraticImageCount.exists_dense_quadratic_image
+#print axioms QuadraticImageCount.dense_quadratic_image_count
+#print axioms QuadraticImageCount.unit_density_quadratic_image_count
+#print axioms QuadraticImageCount.interval_density_le
+#print axioms QuadraticImageCount.interval_quadratic_image_count

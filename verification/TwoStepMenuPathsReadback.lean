@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_two_step_menu_paths
+
+#print axioms TwoStepMenuPaths.mem_paths
+#print axioms TwoStepMenuPaths.card_paths
+#print axioms TwoStepMenuPaths.card_paths_lower
+#print axioms TwoStepMenuPaths.mem_frozen
+#print axioms TwoStepMenuPaths.mem_frozen_paths
+#print axioms TwoStepMenuPaths.frozen_subset
+#print axioms TwoStepMenuPaths.frozen_label
+#print axioms TwoStepMenuPaths.exists_frozen
+#print axioms TwoStepMenuPaths.exists_frozen_paths
+#print axioms TwoStepMenuPaths.orderedTimes_injOn_of_fixed_angles
+#print axioms TwoStepMenuPaths.card_orderedTimes_image_of_fixed_angles
+#print axioms TwoStepMenuPaths.orderedTimes_injOn_frozen
+#print axioms TwoStepMenuPaths.card_orderedTimes_image_frozen
+#print axioms TwoStepMenuPaths.orderedTimes_image_lower_frozen

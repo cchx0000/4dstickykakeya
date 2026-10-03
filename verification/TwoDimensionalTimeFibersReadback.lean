@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_two_dimensional_time_fibers
+
+#print axioms TwoDimensionalTimeFibers.card_le_real_mul_of_fibers
+#print axioms TwoDimensionalTimeFibers.same_floor_abs_sub_le
+#print axioms TwoDimensionalTimeFibers.floor_fiber_card_le
+#print axioms TwoDimensionalTimeFibers.interval_population
+#print axioms TwoDimensionalTimeFibers.linear_combination_control
+#print axioms TwoDimensionalTimeFibers.coefficient_control
+#print axioms TwoDimensionalTimeFibers.firstTimes_fixed_secondTimes_injective
+#print axioms TwoDimensionalTimeFibers.two_dimensional_endpoint_fiber
+#print axioms TwoDimensionalTimeFibers.two_dimensional_fixed_angle_growth

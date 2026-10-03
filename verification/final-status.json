@@ -1,31 +1,31 @@
 {
-  "generated_at_utc": "2026-10-03T18:50:32.690396+00:00",
+  "generated_at_utc": "2026-10-03T19:02:38.203996+00:00",
   "source_commit_before_report": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
-  "project_module_count": 266,
+  "project_module_count": 274,
   "aggregate_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8975,
-    "log": "verification/wz266-default-build.log",
+    "lake_jobs": 8983,
+    "log": "verification/wz274-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "62a735d097c80c560a11a6901e9940bbd5020455",
-    "module_count": 266,
-    "source_snapshot": "verification/wz266-source-snapshot.json",
-    "scope": "Full default build of all 266 modules; all previous 259 source hashes unchanged"
+    "source_base_tree": "7cc51a1ce8c9e8ae40d5ef9582093890917389d7",
+    "module_count": 274,
+    "source_snapshot": "verification/wz274-source-snapshot.json",
+    "scope": "Full default build of all 274 modules; prior266 unchanged except one verified import-only optimization"
   },
   "default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8975,
-    "log": "verification/wz266-default-build.log",
+    "lake_jobs": 8983,
+    "log": "verification/wz274-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "62a735d097c80c560a11a6901e9940bbd5020455",
-    "module_count": 266,
-    "source_snapshot": "verification/wz266-source-snapshot.json",
-    "scope": "Full default build of all 266 modules; all previous 259 source hashes unchanged"
+    "source_base_tree": "7cc51a1ce8c9e8ae40d5ef9582093890917389d7",
+    "module_count": 274,
+    "source_snapshot": "verification/wz274-source-snapshot.json",
+    "scope": "Full default build of all 274 modules; prior266 unchanged except one verified import-only optimization"
   },
   "new_declaration_axiom_checks": {
-    "count": 2012,
+    "count": 2092,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1360,8 +1360,8 @@
     },
     "Theorems.Thm_StickyKakeya4_rich_witness_core": {
       "status": "passed",
-      "source_sha256": "ea036b917a975a39f80e954edc88feb140a23baa04eeccc3c2f37b23e15d7d45",
-      "verification_scope": "strict source, shared proper import and full 266-module default build"
+      "source_sha256": "a3e4d65a1289d3cee82c949ec48e69ad476319c4e7d2fae9185fab5108688197",
+      "verification_scope": "import-only optimization; unchanged proof bodies; renewed strict source, 12 imported core readbacks and full 274-module build"
     },
     "Theorems.Thm_StickyKakeya4_rich_witness_real_core": {
       "status": "passed",
@@ -1382,6 +1382,46 @@
       "status": "passed",
       "source_sha256": "e2d3df979aa02a3024fc592bb9bc5fb0577863b9145d122928235c3fe31f4283",
       "verification_scope": "strict source, shared proper import and full 266-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_two_dimensional_transverse_escape": {
+      "status": "passed",
+      "source_sha256": "4c1b7b4cd781511e92465965a9e8a4571ad4fef6e7406ec98db52bc730430d5e",
+      "verification_scope": "strict source, shared proper import and full 274-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_two_step_menu_paths": {
+      "status": "passed",
+      "source_sha256": "bddc270912bd1d687d859c588bd53b31c84dbbe7b1afe766895aa7f11acbc58a",
+      "verification_scope": "strict source, shared proper import and full 274-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_two_dimensional_time_fibers": {
+      "status": "passed",
+      "source_sha256": "56a26c4926fc0dae8ff24416cf7607ba335cd9f032d0e9a653e37586f7018aa8",
+      "verification_scope": "strict source, shared proper import and full 274-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_transverse_menu_growth": {
+      "status": "passed",
+      "source_sha256": "f1e777e469af3502539f07148f033c4fbea25394bcc4a290bb218745413fe1b4",
+      "verification_scope": "strict source, shared proper import and full 274-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_quadratic_image_count": {
+      "status": "passed",
+      "source_sha256": "4b276712e92f081dff6d7ae001c47c2d6da079bff87061a417a51b04241dcd08",
+      "verification_scope": "strict source, shared proper import and full 274-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_grain_jump_additive_relation": {
+      "status": "passed",
+      "source_sha256": "71d5630173f1067b326add8ac79d6c26242cc8f477f7ad47e1eb04278e47c9c3",
+      "verification_scope": "strict source, shared proper import and full 274-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_sheared_grid_spine_columns": {
+      "status": "passed",
+      "source_sha256": "f7cd41889d4253b4b711c9ba66eb6ee93f8b53a4f7ac215795f940acf22d673c",
+      "verification_scope": "strict source, shared proper import and full 274-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_native_fractional_reference_composition": {
+      "status": "passed",
+      "source_sha256": "05f6bba14a6f4953be2bff43902aa3b5b963e4a4251f9d03aa81ed1eeb9643ed",
+      "verification_scope": "strict source, shared proper import and full 274-module default build"
     }
   },
   "unconditional_main_completed": false,
@@ -1541,13 +1581,13 @@
   "previous_default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8968,
-    "log": "verification/wz259-default-build.log",
+    "lake_jobs": 8975,
+    "log": "verification/wz266-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "d211f810e04259436078000f9e03c1f89b6a95ce",
-    "module_count": 259,
-    "source_snapshot": "verification/wz259-source-snapshot.json",
-    "scope": "Full default build of all 259 modules; all previous 254 source hashes unchanged"
+    "source_base_tree": "62a735d097c80c560a11a6901e9940bbd5020455",
+    "module_count": 266,
+    "source_snapshot": "verification/wz266-source-snapshot.json",
+    "scope": "Full default build of all 266 modules; all previous 259 source hashes unchanged"
   },
   "wz_step6_geometric_callers": {
     "evidence": "verification/wz-step6-geometric-callers-checkpoint.json",
@@ -1562,7 +1602,7 @@
     "complete_aligned_slices_from_input": false,
     "finite_volume_theorem_complete": false
   },
-  "source_tree_before_report": "62a735d097c80c560a11a6901e9940bbd5020455",
+  "source_tree_before_report": "7cc51a1ce8c9e8ae40d5ef9582093890917389d7",
   "wz_alignment_constructors": {
     "evidence": "verification/wz-alignment-constructors-checkpoint.json",
     "declaration_count": 88,
@@ -1626,6 +1666,16 @@
     "original_rich_witness_core_real_threshold": true,
     "genuine_two_walk_box_comparison": true,
     "grain_jump_original_arm_count": true,
+    "complete_native_alignment_and_volume_theorem": false
+  },
+  "wz_native_refinement_and_growth": {
+    "evidence": "verification/wz-native-geometry-checkpoint.json",
+    "declaration_count": 80,
+    "all_six_fractional_references_derived": true,
+    "native_same_parent_refinement_constructed": true,
+    "actual_transverse_menu_growth_a1_a2": true,
+    "actual_grain_jump_additive_relation": true,
+    "actual_quadratic_image_count": true,
     "complete_native_alignment_and_volume_theorem": false
   }
 }

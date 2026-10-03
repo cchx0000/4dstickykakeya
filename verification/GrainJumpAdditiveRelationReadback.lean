@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_grain_jump_additive_relation
+
+#print axioms GrainJumpAdditiveRelation.Data.endpoint_identity
+#print axioms GrainJumpAdditiveRelation.Data.difference_identity
+#print axioms GrainJumpAdditiveRelation.Data.error_bound
+#print axioms GrainJumpAdditiveRelation.Data.additive_relation_bound

@@ -1,0 +1,19 @@
+import Theorems.Thm_StickyKakeya4_sheared_grid_spine_columns
+
+#print axioms ShearedGridSpineColumns.pairLabel_injective
+#print axioms ShearedGridSpineColumns.pair_cell_image_card
+#print axioms ShearedGridSpineColumns.anchor_spec
+#print axioms ShearedGridSpineColumns.slope_bound
+#print axioms ShearedGridSpineColumns.slope_mul
+#print axioms ShearedGridSpineColumns.tube_pair_residual
+#print axioms ShearedGridSpineColumns.overlap_budget
+#print axioms ShearedGridSpineColumns.columns_from_coarse_spines
+#print axioms ShearedGridSpineColumns.lift_image
+#print axioms ShearedGridSpineColumns.localCapacity_pos
+#print axioms ShearedGridSpineColumns.local_fine_grid_card
+#print axioms ShearedGridSpineColumns.fine_grid_card_le_coarse
+#print axioms ShearedGridSpineColumns.coarse_spine_richness
+#print axioms ShearedGridSpineColumns.columns_from_fine_spines
+#print axioms ShearedGridSpineColumns.richness_div_capacity
+#print axioms ShearedGridSpineColumns.column_power_of_weighted
+#print axioms ShearedGridSpineColumns.columns_card_le_from_AD_fine_spines

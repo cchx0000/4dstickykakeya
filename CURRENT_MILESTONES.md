@@ -7,6 +7,22 @@ No new regularity, routing certificate, or energy bound is a final hypothesis.
 See [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md) for exact references.
 The earlier eight-item proposal is preserved in `PROVE2ME_TARGETS.md`.
 
+## 2026-10-03 native refinement and growth checkpoint
+
+The native same-parent fractional refinement is now constructed from original
+AD, the same genuine tube-profile queries and actual rich spines; all six
+reference capacities are derived internally. Actual proper-subspace menus
+produce transverse growth for a=1,2. Original grain-jump incidences imply the
+required additive relation, and the affine quadratic-image estimate is proved
+on the actual separated times. Eight modules add 80 new strict foundational-only
+checks; the 274-module full build passes 8,983 jobs, for 2,092 cumulative checks.
+The import-only rich-core optimization repeats 12 prior checks without counting
+them as new proofs. See [scope](docs/WZ_NATIVE_REFINEMENT_AND_TRANSVERSE_GROWTH.md).
+
+Scale stopping, original epoch/spine production, fine-point slab-to-menu
+transfer and nonlinear expansion remain explicit obligations. The final
+statement and its existing WZ axiom dependency are unchanged.
+
 ## 2026-10-03 actual-witness geometry checkpoint
 
 The same original source and quantizer now supply spatial AD menus, short
