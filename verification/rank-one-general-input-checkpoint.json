@@ -1,0 +1,284 @@
+{
+  "generated_at_utc": "2026-10-03T10:56:41.495478+00:00",
+  "base_commit": "e22984c9416bf3ce8b124d208515656cca3ae09b",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_invertible_front_frostman_transport.lean": "3a518b37d3d05a8518264148894c7e3d67e650115cb0288340428add1e52294d",
+    "Theorems/Thm_StickyKakeya4_rank_one_general_input_escape.lean": "591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc"
+  },
+  "declarations": [
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_apply_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_apply_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_apply_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_apply_three",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_symm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.inverseBound_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.preimage_ball_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.linearEquiv_map_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.transported_constant_ne_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.linearEquiv_map_compl",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.linearEquiv_map_actual_law",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.normalize_linearEquiv_supported_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.transport_supported_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.pullback_supported_frostman_from_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.InvertibleFrontFrostmanTransport.map_image_compl_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/invertible-front-frostman-transport-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.exists_input_matrix",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.sourceChange_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.transformed_source_product_domination",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.exists_input_normalization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.vectorChange_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.conjugatedMatrix_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.conjugated_spatial",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.measurable_generalPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.point_conjugacy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.actual_law_conjugacy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.exists_general_input_supported_frostman_bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.general_input_front_dimH_eq_four_bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.exists_general_input_supported_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneGeneralInputEscape.general_input_front_dimH_eq_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-general-input-escape-axioms.log"
+    }
+  ],
+  "declaration_count": 29,
+  "targeted_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8720,
+    "log": "verification/rank-one-general-input-build.log",
+    "command": "STICKY_BUILD_JOBS=3 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_rank_one_general_input_escape"
+  },
+  "strict_source_and_import_readback": "passed",
+  "prior_206_module_hashes_unchanged": true,
+  "full_208_module_rebuild_run": false,
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+}

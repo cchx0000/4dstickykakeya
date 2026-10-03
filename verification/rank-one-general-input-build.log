@@ -1,0 +1,23 @@
+Using official Lean through a 3-compiler semaphore
+⚠ [8713/8720] Replayed Theorems.Thm_StickyKakeya4_frostman_mass_distribution
+warning: Theorems/Thm_StickyKakeya4_frostman_mass_distribution.lean:257:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8714/8720] Replayed Theorems.Thm_StickyKakeya4_energy_dimension
+warning: Theorems/Thm_StickyKakeya4_energy_dimension.lean:72:0: automatically included section variable(s) unused in theorem `StickyKakeya4.EnergyDimension.restrict_ball_growth_of_bounded_potential`:
+  [SecondCountableTopology X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [SecondCountableTopology X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8719/8720] Built Theorems.Thm_StickyKakeya4_invertible_front_frostman_transport (21s)
+✔ [8720/8720] Built Theorems.Thm_StickyKakeya4_rank_one_general_input_escape (26s)
+Build completed successfully (8720 jobs).
+
+Command: STICKY_BUILD_JOBS=3 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_rank_one_general_input_escape
+Confirmed exit code: 0

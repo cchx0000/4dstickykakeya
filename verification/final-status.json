@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-03T10:45:07.310582+00:00",
-  "source_commit_before_report": "4eaeb13b463b4ee04ee4f8ca42096fdd1e7ccce7",
-  "project_module_count": 206,
+  "generated_at_utc": "2026-10-03T10:56:41.495478+00:00",
+  "source_commit_before_report": "e22984c9416bf3ce8b124d208515656cca3ae09b",
+  "project_module_count": 208,
   "aggregate_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -37,7 +37,7 @@
     "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
   },
   "new_declaration_axiom_checks": {
-    "count": 1147,
+    "count": 1176,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1100,6 +1100,16 @@
       "status": "passed",
       "source_sha256": "1e6029b50a0874520bf51d3ec41bc483e165b27b8fca414584259a74cffa8c69",
       "verification_scope": "rank-one native-time / original triangular moment target plus strict source and import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_invertible_front_frostman_transport": {
+      "status": "passed",
+      "source_sha256": "3a518b37d3d05a8518264148894c7e3d67e650115cb0288340428add1e52294d",
+      "verification_scope": "general-input rank-one target plus strict source and import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_rank_one_general_input_escape": {
+      "status": "passed",
+      "source_sha256": "591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc",
+      "verification_scope": "general-input rank-one target plus strict source and import readback"
     }
   },
   "unconditional_main_completed": false,
@@ -1108,20 +1118,16 @@
   "latest_targeted_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8723,
-    "log": "verification/rank-one-moment-build.log",
-    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_rank_one_borel_front_escape +Theorems.Thm_StickyKakeya4_triangular_root_moment",
-    "source_base_commit": "4eaeb13b463b4ee04ee4f8ca42096fdd1e7ccce7",
+    "lake_jobs": 8720,
+    "log": "verification/rank-one-general-input-build.log",
+    "command": "STICKY_BUILD_JOBS=3 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_rank_one_general_input_escape",
+    "source_base_commit": "e22984c9416bf3ce8b124d208515656cca3ae09b",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_rational_feedback_time_window.lean": "4d5331884ba829b4269b669318e1f6ff088397f9f4a1b2e10a05467164a53561",
-      "Theorems/Thm_StickyKakeya4_time_changed_scalar_energy.lean": "9a74e9296bfe410f2084ba4eb8b307ec21c4fcba5cc62b544af9067a8c8e369a",
-      "Theorems/Thm_StickyKakeya4_rank_one_native_potentials.lean": "5d580389442887078b3aaf27c307df309a44122fcff25350cf19239ba4ef5513",
-      "Theorems/Thm_StickyKakeya4_rank_one_borel_front_escape.lean": "4b7658da067ed93373881acd5fd82d89241c2c404bca45592613c13180ab4e8b",
-      "Theorems/Thm_StickyKakeya4_root_tail_moment.lean": "5062216e4bfdcfc528bdad1cb7d255bf8737867f1348289b58705070ce0b4549",
-      "Theorems/Thm_StickyKakeya4_triangular_root_moment.lean": "1e6029b50a0874520bf51d3ec41bc483e165b27b8fca414584259a74cffa8c69"
+      "Theorems/Thm_StickyKakeya4_invertible_front_frostman_transport.lean": "3a518b37d3d05a8518264148894c7e3d67e650115cb0288340428add1e52294d",
+      "Theorems/Thm_StickyKakeya4_rank_one_general_input_escape.lean": "591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc"
     },
-    "module_count": 6,
-    "scope": "six new rank-one/native-time/root-moment modules and dependencies; not a full 206-module rebuild"
+    "module_count": 2,
+    "scope": "two new coordinate/support transport modules and dependencies; not a full 208-module rebuild"
   },
   "current_turn_full_build_rerun": false,
   "filtration_repair": {
@@ -1178,5 +1184,11 @@
     "declaration_count": 10,
     "general_selector_case_completed": false,
     "evidence": "verification/rank-one-moment-checkpoint.json"
+  },
+  "rank_one_general_input_escape": {
+    "status": "actual c+La+u f(v dot a) front dimension four from finite positive bounded-Lebesgue source and original support; arbitrary vectors, no bounded-source or derived certificates assumed",
+    "declaration_count": 29,
+    "general_selector_decomposition_proved": false,
+    "evidence": "verification/rank-one-general-input-checkpoint.json"
   }
 }

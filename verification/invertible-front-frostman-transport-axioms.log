@@ -1,0 +1,50 @@
+'StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_apply_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_apply_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_apply_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_apply_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.spacetimeLift_symm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.inverseBound_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.preimage_ball_subset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.linearEquiv_map_ball_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.transported_constant_ne_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.linearEquiv_map_compl' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.linearEquiv_map_actual_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.normalize_linearEquiv_supported_ball_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.transport_supported_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.pullback_supported_frostman_from_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.InvertibleFrontFrostmanTransport.map_image_compl_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: official Lean 4.33.1 -DautoImplicit=false -DwarningAsError=true verification/InvertibleFrontFrostmanTransportReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 3a518b37d3d05a8518264148894c7e3d67e650115cb0288340428add1e52294d

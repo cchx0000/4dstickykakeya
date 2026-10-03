@@ -1,11 +1,12 @@
 # A nontriangular escape: one arbitrary Borel feedback channel
 
-Date: 2026-10-03. The general-input statement below is a handwritten proof.
-The canonical input `v dot a=a1` now has a separate
-[complete Lean proof](RANK_ONE_NATIVE_TIME_ESCAPE.md), including arbitrary
-linear coupling and actual-time construction. This is a genuine
-special-case extension; it is not a triangularization of a general sticky
-selector and does not close the original main theorem.
+Date: 2026-10-03. The general-input statement now has a
+[complete Lean proof](GENERAL_INPUT_RANK_ONE_ESCAPE.md), including the
+actual source basis/density and original-front transport. The text below
+is its independently audited handwritten derivation. The formal endpoint
+uses exponent 1+3s; its stated 3+s range follows by parameter substitution.
+This is a genuine special-case extension, not a decomposition theorem for
+an arbitrary sticky selector or completion of the original main theorem.
 
 ## Statement
 

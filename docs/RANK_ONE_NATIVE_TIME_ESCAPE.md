@@ -63,3 +63,8 @@ Repository modules: `rational_feedback_time_window`, `time_changed_scalar_energy
 Executed repository checks: strict source and proper import axiom readback
 passed with only the standard logical axioms. See
 `verification/rank-one-moment-checkpoint.json` for exact hashes and logs.
+
+The subsequent [arbitrary-input theorem](GENERAL_INPUT_RANK_ONE_ESCAPE.md)
+derives the fixed source-basis change and density for `f(v dot a)` and
+transports the actual supported measure back. The canonical signature above
+remains unchanged; the new caller discharges this extension separately.

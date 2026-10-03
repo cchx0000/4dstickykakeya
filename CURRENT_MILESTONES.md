@@ -86,9 +86,13 @@ declarations and the final no-certificate caller are strictly checked. See
 [the triangular escape](docs/TRIANGULAR_BOREL_FROSTMAN_ESCAPE.md).
 The general source is not proved triangularizable. The canonical-input
 one-channel extension `c+L a+u f(a1)` is now checked, including arbitrary
-linear coupling and the derived rational original-time window. The broader
-arbitrary-input and external osculating-projection interfaces are separately
-scoped and are not counted as completion of the main theorem.
+linear coupling and the derived rational original-time window. The arbitrary
+input `v dot a` is also now formalized: positive bounded localization, an
+explicit basis, exact determinant density, and original-front transport are
+derived internally from a finite positive bounded-Lebesgue source. These
+29 further proved declarations remove all basis/support certificates. The
+external osculating-projection interface remains separately scoped. No
+one-channel representation has been extracted from the general datum.
 
 The original-weight estimate for this triangular special class is now
 proved as well. For every `0<beta<3`, the actual unmodified source/time law

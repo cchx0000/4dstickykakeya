@@ -3,6 +3,27 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Arbitrary input direction in the actual one-channel feedback theorem
+
+The final endpoint now covers `c+L a+u f(v dot a)` for arbitrary matrix and
+vectors, including v=0. Its only source input is a finite nonzero sigma
+bounded by D Lebesgue cubed. It selects a positive bounded source piece,
+constructs the input basis, derives its exact Haar determinant density and
+finite product reference, conjugates the literal actual law, and pulls the
+supported Frostman measure back to the original K. No bounded-source,
+basis-density, favorable-window, potential, or Frostman certificate is
+assumed. Arbitrary Borel f is allowed.
+
+All **29** proved declarations passed strict source and proper import
+readbacks with standard logical axioms only. The target passed **8,720
+jobs**, exit 0. Cumulative readbacks are **1,176**; all prior 206 source
+hashes are unchanged. This is not a fresh default build of the current
+**208** modules. See
+[rank-one-general-input-checkpoint.json](rank-one-general-input-checkpoint.json)
+and [the exact proof](../docs/GENERAL_INPUT_RANK_ONE_ESCAPE.md).
+A one-channel representation of a general selector is still not derived;
+the original main theorem's WZ project-axiom gate remains open.
+
 ## Native rank-one feedback and the original triangular low moment
 
 The literal point map `F(t,a)=(c+L a+u f(a1)+t a,t)` now has a

@@ -1,0 +1,37 @@
+'StickyKakeya4.RankOneGeneralInputEscape.exists_input_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.sourceChange_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.transformed_source_product_domination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.exists_input_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.vectorChange_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.conjugatedMatrix_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.conjugated_spatial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.measurable_generalPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.point_conjugacy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.actual_law_conjugacy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.exists_general_input_supported_frostman_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.general_input_front_dimH_eq_four_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.exists_general_input_supported_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneGeneralInputEscape.general_input_front_dimH_eq_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: official Lean 4.33.1 -DautoImplicit=false -DwarningAsError=true verification/RankOneGeneralInputEscapeReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc

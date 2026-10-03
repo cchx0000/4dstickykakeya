@@ -100,10 +100,11 @@ no triangular representation of an arbitrary sticky selector is inferred.
 The [native-time one-channel extension](docs/RANK_ONE_NATIVE_TIME_ESCAPE.md)
 now proves the same conclusion for `b(a)=c+L a+u f(a1)`, with arbitrary
 linear coupling. It derives the rational feedback, a usable original-time
-window, and all native potentials internally. The arbitrary linear input
-`v dot a` in the [broader handwritten argument](docs/RANK_ONE_BOREL_FEEDBACK_ESCAPE.md)
-and the [external rank-one-output projection interface](docs/RANK_ONE_OUTPUT_GGW_REDUCTION.md)
-are not included in that canonical-input Lean signature.
+window, and all native potentials internally. The [arbitrary-input theorem](docs/GENERAL_INPUT_RANK_ONE_ESCAPE.md) now
+also derives the fixed basis, Haar density, bounded positive source piece,
+and literal original support transport for `f(v dot a)`, including `v=0`.
+The [external rank-one-output projection interface](docs/RANK_ONE_OUTPUT_GGW_REDUCTION.md)
+is a different handwritten applicability result and is not imported as an axiom.
 
 The triangular class now also has a checked
 [original heavy-root charge](docs/DIRECT_HEAVY_ROOT_CHARGE.md): for each
@@ -125,7 +126,8 @@ The additional filtration, envelope, whole-parent, and common-time targets passe
 **1,948**, **1,949**, **8,757**, and **8,759 jobs**. The new independent incidence-core target
 passed **788 jobs**, the triangular endpoint passed **8,714 jobs**,
 the original-charge endpoint passed **8,718 jobs**, and the rank-one/native-time
-and actual-moment endpoints passed **8,723 jobs**; the current **206-module**
+and actual-moment endpoints passed **8,723 jobs**. The arbitrary-input
+rank-one target passed **8,720 jobs**; the current **208-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main
