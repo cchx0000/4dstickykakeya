@@ -1,0 +1,43 @@
+'StickyKakeya4.TriangularUniformPotentialBound.lintegral_dummy_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.lintegral_prod_le_of_measure_le_smul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.uniformTriangularPotentialBound_lt_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.potential₁_affine_eq_parameterized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.potential₂_affine_eq_parameterized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.potential₃_affine_eq_parameterized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.measurable_potential₁_affine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.measurable_potential₂_affine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.measurable_potential₃_affine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.measurable_nativePotentialSum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.average_potential₁_affine_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.reference_nativePotentialSum_integral_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularUniformPotentialBound.actual_nativePotentialSum_integral_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/TriangularUniformPotentialBoundReadback.lean
+Confirmed exit code: 0
+Source SHA256: 1fca4d54f2b41f9d823801fff1370bbc880fae2d13a0025beaad444858a33c21

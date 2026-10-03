@@ -3,6 +3,30 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Summable heavy-root charge for the unchanged triangular source
+
+The uniform scalar module constructs one finite energy bound valid for all
+Borel intercepts. Its triangular adapter derives a uniform integral bound
+for the three native potentials on the ORIGINAL dominated source/time law.
+A symmetric-ball argument bounds the full heavy-root set by twice the bad
+cutoff mass. The final caller chooses the cutoff, derives the small-radius
+threshold, and proves both a positive power and finite dyadic sum for every
+`0<beta<3`, without an energy, potential, or charge certificate as input.
+
+All **44** declarations passed strict source and proper import readback
+with only the standard logical axioms. The targeted build passed **8,718
+jobs**, exit 0. Cumulative recorded readbacks are **1,090**; all 196 earlier
+source hashes are unchanged. This is not a fresh default full build of the
+current **200** modules. See
+[triangular-heavy-charge-checkpoint.json](triangular-heavy-charge-checkpoint.json)
+and [the exact actual-measure argument](../docs/DIRECT_HEAVY_ROOT_CHARGE.md).
+
+The cyclic chart-cover, Fourier, and genuine convolution notes are separate
+handwritten audits. They record why several proposed extensions do not
+follow from packing or independence alone; none is a counterexample with
+the full original front-deficit premise. The general coupled-selector
+charge and removal of the main theorem's WZ axiom remain open.
+
 ## Actual fronts of arbitrary Borel triangular selectors
 
 The scalar energy module derives finite averaged projection energy from

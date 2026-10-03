@@ -1,0 +1,429 @@
+{
+  "generated_at_utc": "2026-10-03T10:19:23.514879+00:00",
+  "base_commit": "d9e989822246e8ff30b66ef6be6858f0b9d57d26",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_uniform_scalar_projection_energy.lean": "6664dd94a570f69ee19dca57e717ff6bbfc8af9532d12bf28a031c494c554f0b",
+    "Theorems/Thm_StickyKakeya4_triangular_uniform_potential_bound.lean": "1fca4d54f2b41f9d823801fff1370bbc880fae2d13a0025beaad444858a33c21",
+    "Theorems/Thm_StickyKakeya4_triangular_potential_charge.lean": "05e075300e0a03f98fc7c6d8245263a86fa2892e590076a57612f5d83ae86251",
+    "Theorems/Thm_StickyKakeya4_triangular_heavy_root_power.lean": "8118e6bede5e61c4f9ba9495044a5089da22822455162661f4a28f649aa7fff1"
+  },
+  "declarations": [
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.powerTailIntegral_lt_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.lintegral_le_of_power_tail",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.inverse_energy_le_of_sublevel_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.uniformScalarEnergyBound_lt_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.average_scalar_projection_pair_energy_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.average_scalar_projection_energy_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.exists_uniform_average_scalar_projection_energy_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameterizedScalarPotential_integral_eq_parameter_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameterizedScalarPotential_integral_le_of_uniform_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.average_parameterizedScalarPotential_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.finite_average_parameterizedScalarPotential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameterizedScalarPotential_superlevel_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.exists_uniform_parameterizedScalarPotential_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-scalar-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.lintegral_dummy_coordinate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.lintegral_prod_le_of_measure_le_smul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.uniformTriangularPotentialBound_lt_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.potential\u2081_affine_eq_parameterized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.potential\u2082_affine_eq_parameterized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.potential\u2083_affine_eq_parameterized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.measurable_potential\u2081_affine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.measurable_potential\u2082_affine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.measurable_potential\u2083_affine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.measurable_nativePotentialSum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.average_potential\u2081_affine_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.reference_nativePotentialSum_integral_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularUniformPotentialBound.actual_nativePotentialSum_integral_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-uniform-potential-bound-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.bad_common_cut_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.measurable_ball_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.ball_mass_integral_swap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.measurable_original_root_ball_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.original_heavy_event_measure_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.heavy_root_measure_le_twice_bad",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.original_heavy_root_measure_le_twice_bad",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.measurable_spatialPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.spatial_coordinate_mem_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.good_spatial_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialCharge.triangular_original_heavy_root_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-charge-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularHeavyRootPower.exists_small_power_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-heavy-root-power-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularHeavyRootPower.cutoff_threshold_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-heavy-root-power-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularHeavyRootPower.measurableSet_triangularHeavySet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-heavy-root-power-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularHeavyRootPower.exists_triangular_original_heavy_root_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-heavy-root-power-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularHeavyRootPower.tsum_lt_top_of_eventually_le_geometric",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-heavy-root-power-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularHeavyRootPower.dyadic_tsum_lt_top_of_small_power_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-heavy-root-power-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularHeavyRootPower.triangular_original_heavy_root_dyadic_sum_lt_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-heavy-root-power-axioms.log"
+    }
+  ],
+  "strict_source_exit_code": 0,
+  "strict_import_readback_exit_code": 0,
+  "targeted_build": {
+    "source_base_commit": "d9e989822246e8ff30b66ef6be6858f0b9d57d26",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_uniform_scalar_projection_energy.lean": "6664dd94a570f69ee19dca57e717ff6bbfc8af9532d12bf28a031c494c554f0b",
+      "Theorems/Thm_StickyKakeya4_triangular_uniform_potential_bound.lean": "1fca4d54f2b41f9d823801fff1370bbc880fae2d13a0025beaad444858a33c21",
+      "Theorems/Thm_StickyKakeya4_triangular_potential_charge.lean": "05e075300e0a03f98fc7c6d8245263a86fa2892e590076a57612f5d83ae86251",
+      "Theorems/Thm_StickyKakeya4_triangular_heavy_root_power.lean": "8118e6bede5e61c4f9ba9495044a5089da22822455162661f4a28f649aa7fff1"
+    },
+    "module_count": 4,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8718,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_triangular_heavy_root_power",
+    "log": "verification/triangular-heavy-root-power-build.log",
+    "scope": "four new uniform-energy/original-charge modules and dependencies; not a full 200-module rebuild"
+  },
+  "previous_196_source_hashes_unchanged": true,
+  "full_default_build_rerun": false,
+  "main_project_axiom_removed": false
+}

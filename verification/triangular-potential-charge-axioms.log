@@ -1,0 +1,35 @@
+'StickyKakeya4.TriangularPotentialCharge.bad_common_cut_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.measurable_ball_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.ball_mass_integral_swap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.measurable_original_root_ball_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.original_heavy_event_measure_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.heavy_root_measure_le_twice_bad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.original_heavy_root_measure_le_twice_bad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.measurable_spatialPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.spatial_coordinate_mem_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.good_spatial_ball_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialCharge.triangular_original_heavy_root_charge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/TriangularPotentialChargeReadback.lean
+Confirmed exit code: 0
+Source SHA256: 05e075300e0a03f98fc7c6d8245263a86fa2892e590076a57612f5d83ae86251

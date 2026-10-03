@@ -88,6 +88,15 @@ The general source is not proved triangularizable. One-channel feedback
 and the accurately scoped external osculating-projection reduction remain
 handwritten and are not counted as completion of the main theorem.
 
+The original-weight estimate for this triangular special class is now
+proved as well. For every `0<beta<3`, the actual unmodified source/time law
+of `r^beta`-heavy roots is bounded by `C r^epsilon` at small radii, with
+`epsilon=(3-beta)/12` available, and its dyadic sum is finite. The public
+endpoint derives all potential, energy, and cutoff-threshold facts from
+source density and Borel triangularity. These 44 new strict readbacks do
+not assume the requested charge. They also do not extract triangularity
+from the general datum. See [the direct charge](docs/DIRECT_HEAVY_ROOT_CHARGE.md).
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

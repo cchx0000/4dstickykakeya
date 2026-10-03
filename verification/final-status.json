@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-03T09:42:51.015907+00:00",
-  "source_commit_before_report": "c4be8d34d39c7f662fe28e665a8b2e19442c182d",
-  "project_module_count": 196,
+  "generated_at_utc": "2026-10-03T10:19:23.514879+00:00",
+  "source_commit_before_report": "d9e989822246e8ff30b66ef6be6858f0b9d57d26",
+  "project_module_count": 200,
   "aggregate_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -37,7 +37,7 @@
     "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
   },
   "new_declaration_axiom_checks": {
-    "count": 1046,
+    "count": 1090,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1050,26 +1050,46 @@
       "status": "passed",
       "source_sha256": "bcff134e8713794533089e6c669aeb032fa491973762c1f993d299f3a0511399",
       "verification_scope": "triangular Borel escape targeted build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_uniform_scalar_projection_energy": {
+      "status": "passed",
+      "source_sha256": "6664dd94a570f69ee19dca57e717ff6bbfc8af9532d12bf28a031c494c554f0b",
+      "verification_scope": "original triangular heavy-root charge build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_triangular_uniform_potential_bound": {
+      "status": "passed",
+      "source_sha256": "1fca4d54f2b41f9d823801fff1370bbc880fae2d13a0025beaad444858a33c21",
+      "verification_scope": "original triangular heavy-root charge build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_triangular_potential_charge": {
+      "status": "passed",
+      "source_sha256": "05e075300e0a03f98fc7c6d8245263a86fa2892e590076a57612f5d83ae86251",
+      "verification_scope": "original triangular heavy-root charge build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_triangular_heavy_root_power": {
+      "status": "passed",
+      "source_sha256": "8118e6bede5e61c4f9ba9495044a5089da22822455162661f4a28f649aa7fff1",
+      "verification_scope": "original triangular heavy-root charge build and strict import readback"
     }
   },
   "unconditional_main_completed": false,
   "remaining_mathematical_obligation": "A genuinely source-faithful collective root-time heavy-event charge (or equivalent weighted paid/cross-cap estimate or supported Frostman escape), retaining continuum time mass for the actual coupled selector.",
   "upstream_main_sha": "d208ddf4544cbb9ed05e4c848a83b07985b28e26",
   "latest_targeted_build": {
-    "source_base_commit": "c4be8d34d39c7f662fe28e665a8b2e19442c182d",
+    "source_base_commit": "d9e989822246e8ff30b66ef6be6858f0b9d57d26",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_scalar_borel_projection_energy.lean": "a00a39e1501a3a55d6cf85ddcf982840e26a388bcb84fd0f18eedcc0c03926ed",
-      "Theorems/Thm_StickyKakeya4_parameterized_scalar_potential.lean": "de177922b59e68da054a80e8316c413132544397917525094e07b2d221302ad0",
-      "Theorems/Thm_StickyKakeya4_triangular_potential_escape.lean": "a33711d1614bf20d13cf8998a1a6c952e48bce9c5b87fe4ef5b0c167d9e35c35",
-      "Theorems/Thm_StickyKakeya4_triangular_borel_front_escape.lean": "bcff134e8713794533089e6c669aeb032fa491973762c1f993d299f3a0511399"
+      "Theorems/Thm_StickyKakeya4_uniform_scalar_projection_energy.lean": "6664dd94a570f69ee19dca57e717ff6bbfc8af9532d12bf28a031c494c554f0b",
+      "Theorems/Thm_StickyKakeya4_triangular_uniform_potential_bound.lean": "1fca4d54f2b41f9d823801fff1370bbc880fae2d13a0025beaad444858a33c21",
+      "Theorems/Thm_StickyKakeya4_triangular_potential_charge.lean": "05e075300e0a03f98fc7c6d8245263a86fa2892e590076a57612f5d83ae86251",
+      "Theorems/Thm_StickyKakeya4_triangular_heavy_root_power.lean": "8118e6bede5e61c4f9ba9495044a5089da22822455162661f4a28f649aa7fff1"
     },
     "module_count": 4,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8714,
-    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_triangular_borel_front_escape",
-    "log": "verification/triangular-borel-front-build.log",
-    "scope": "four new scalar/triangular modules and dependencies; not a full 196-module rebuild"
+    "lake_jobs": 8718,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_triangular_heavy_root_power",
+    "log": "verification/triangular-heavy-root-power-build.log",
+    "scope": "four new uniform-energy/original-charge modules and dependencies; not a full 200-module rebuild"
   },
   "current_turn_full_build_rerun": false,
   "filtration_repair": {
@@ -1107,5 +1127,11 @@
     "declaration_count": 31,
     "general_selector_triangularization_proved": false,
     "evidence": "verification/triangular-borel-front-checkpoint.json"
+  },
+  "triangular_original_charge": {
+    "status": "actual unmodified source/time heavy-event mass has a derived positive power and finite dyadic sum for every beta in (0,3); all energy/potential/threshold inputs discharged from Borel triangular source data",
+    "declaration_count": 44,
+    "general_selector_case_completed": false,
+    "evidence": "verification/triangular-heavy-charge-checkpoint.json"
   }
 }

@@ -1,9 +1,11 @@
 # Direct Frostman construction for triangular Borel selectors
 
 Date: 2026-10-03. The dimension-three source case through the full Frostman
-and dimension-four endpoint is now Lean-checked; the later quantitative
-corollaries and general-dimension notation remain independently audited
-handwritten arguments.
+and dimension-four endpoint is Lean-checked. The subsequent uniform-potential
+and direct original heavy-root power/summability statements are also checked
+in [the direct charge development](DIRECT_HEAVY_ROOT_CHARGE.md). The low-moment
+corollary, approximation interface, and general-dimension notation below
+remain independently audited handwritten arguments.
 This special case does not add a hypothesis to, or complete, the original
 main theorem. No triangularization from packing-three is claimed.
 

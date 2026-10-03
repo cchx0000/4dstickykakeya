@@ -101,6 +101,14 @@ The [one-channel feedback extension](docs/RANK_ONE_BOREL_FEEDBACK_ESCAPE.md)
 and [external rank-one-output projection interface](docs/RANK_ONE_OUTPUT_GGW_REDUCTION.md)
 are separate handwritten results, not part of these Lean checks.
 
+The triangular class now also has a checked
+[original heavy-root charge](docs/DIRECT_HEAVY_ROOT_CHARGE.md): for each
+`0<beta<3`, the unmodified source/time heavy-event mass has a positive
+small-radius power and a finite dyadic sum. The proof derives its uniform
+potential bound from the source densities and uses a symmetric-ball
+good/bad argument. All 44 new theorem readbacks are standard-only. The
+general coupled selector case remains open.
+
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
 latest full default build passed **185 project modules** and **8,894 Lake jobs**,
@@ -108,8 +116,8 @@ including the one-source/all-slack and variable-time line-hairbrush construction
 Its source snapshot is recorded in `verification/hairbrush-escape-default-build.log`.
 The additional filtration, envelope, whole-parent, and common-time targets passed
 **1,948**, **1,949**, **8,757**, and **8,759 jobs**. The new independent incidence-core target
-passed **788 jobs**, and the triangular endpoint passed **8,714 jobs**;
-the current **196-module**
+passed **788 jobs**, the triangular endpoint passed **8,714 jobs**,
+and the original-charge endpoint passed **8,718 jobs**; the current **200-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

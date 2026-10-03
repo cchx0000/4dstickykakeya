@@ -1,0 +1,39 @@
+'StickyKakeya4.ScalarProjection.powerTailIntegral_lt_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.lintegral_le_of_power_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.inverse_energy_le_of_sublevel_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.uniformScalarEnergyBound_lt_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.average_scalar_projection_pair_energy_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.average_scalar_projection_energy_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.exists_uniform_average_scalar_projection_energy_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.parameterizedScalarPotential_integral_eq_parameter_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.parameterizedScalarPotential_integral_le_of_uniform_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.average_parameterizedScalarPotential_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.finite_average_parameterizedScalarPotential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.parameterizedScalarPotential_superlevel_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.exists_uniform_parameterizedScalarPotential_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/UniformScalarProjectionEnergyReadback.lean
+Confirmed exit code: 0
+Source SHA256: 6664dd94a570f69ee19dca57e717ff6bbfc8af9532d12bf28a031c494c554f0b
