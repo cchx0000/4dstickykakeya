@@ -1,0 +1,40 @@
+'RankOneFeedbackPolynomials.denominator_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RankOneFeedbackPolynomials.denominator_monic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RankOneFeedbackPolynomials.denominator_natDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RankOneFeedbackPolynomials.adjugate_natDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RankOneFeedbackPolynomials.numerator_natDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RankOneFeedbackPolynomials.eval_charmatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RankOneFeedbackPolynomials.numerator_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RankOneFeedbackPolynomials.inverse_feedback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RationalFeedbackTimeWindow.matrix_inverse_bounded_on_closed_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RationalFeedbackTimeWindow.polynomial_wronskian_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RationalFeedbackTimeWindow.abs_image_sub_ge_of_abs_deriv_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RationalFeedbackTimeWindow.abs_image_sub_le_of_abs_deriv_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RationalFeedbackTimeWindow.exists_closed_interval_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RationalFeedbackTimeWindow.exists_rational_time_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RationalFeedbackTimeWindow.feedbackScalar_eq_rational' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RationalFeedbackTimeWindow.exists_matrix_time_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RationalFeedbackTimeWindow.actual_feedback_zero_or_time_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: official Lean 4.33.1 -DautoImplicit=false -DwarningAsError=true verification/RationalFeedbackTimeWindowReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 4d5331884ba829b4269b669318e1f6ff088397f9f4a1b2e10a05467164a53561

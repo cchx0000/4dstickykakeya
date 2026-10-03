@@ -97,9 +97,13 @@ restriction of the original coupled source/time law, supported Frostman
 measures, and dimension four. The 31 theorem readbacks have no energy
 certificate or new axiom in the endpoint. This covers a genuine special class;
 no triangular representation of an arbitrary sticky selector is inferred.
-The [one-channel feedback extension](docs/RANK_ONE_BOREL_FEEDBACK_ESCAPE.md)
-and [external rank-one-output projection interface](docs/RANK_ONE_OUTPUT_GGW_REDUCTION.md)
-are separate handwritten results, not part of these Lean checks.
+The [native-time one-channel extension](docs/RANK_ONE_NATIVE_TIME_ESCAPE.md)
+now proves the same conclusion for `b(a)=c+L a+u f(a1)`, with arbitrary
+linear coupling. It derives the rational feedback, a usable original-time
+window, and all native potentials internally. The arbitrary linear input
+`v dot a` in the [broader handwritten argument](docs/RANK_ONE_BOREL_FEEDBACK_ESCAPE.md)
+and the [external rank-one-output projection interface](docs/RANK_ONE_OUTPUT_GGW_REDUCTION.md)
+are not included in that canonical-input Lean signature.
 
 The triangular class now also has a checked
 [original heavy-root charge](docs/DIRECT_HEAVY_ROOT_CHARGE.md): for each
@@ -107,7 +111,10 @@ The triangular class now also has a checked
 small-radius power and a finite dyadic sum. The proof derives its uniform
 potential bound from the source densities and uses a symmetric-ball
 good/bad argument. All 44 new theorem readbacks are standard-only. The
-general coupled selector case remains open.
+general coupled selector case remains open. A further checked
+[original root-moment bound](docs/TRIANGULAR_ORIGINAL_ROOT_MOMENT.md) gives
+`integral Z_r^theta <= C r^(3s theta)` for every `0<s<1` and
+`0<theta<1/3`, directly on the unmodified triangular source/time law.
 
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
@@ -117,7 +124,8 @@ Its source snapshot is recorded in `verification/hairbrush-escape-default-build.
 The additional filtration, envelope, whole-parent, and common-time targets passed
 **1,948**, **1,949**, **8,757**, and **8,759 jobs**. The new independent incidence-core target
 passed **788 jobs**, the triangular endpoint passed **8,714 jobs**,
-and the original-charge endpoint passed **8,718 jobs**; the current **200-module**
+the original-charge endpoint passed **8,718 jobs**, and the rank-one/native-time
+and actual-moment endpoints passed **8,723 jobs**; the current **206-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

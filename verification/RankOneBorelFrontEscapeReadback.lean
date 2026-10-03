@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_rank_one_borel_front_escape
+
+#print axioms StickyKakeya4.RankOneBorelFrontEscape.original_cut_map_ball_bound
+#print axioms StickyKakeya4.RankOneBorelFrontEscape.measurable_feedbackVector
+#print axioms StickyKakeya4.RankOneBorelFrontEscape.measurable_actualPoint
+#print axioms StickyKakeya4.RankOneBorelFrontEscape.measurable_normals
+#print axioms StickyKakeya4.RankOneBorelFrontEscape.normalized_spatial
+#print axioms StickyKakeya4.RankOneBorelFrontEscape.normalization_coordinate_ball
+#print axioms StickyKakeya4.RankOneBorelFrontEscape.exists_actual_native_window
+#print axioms StickyKakeya4.RankOneBorelFrontEscape.exists_rank_one_borel_supported_frostman
+#print axioms StickyKakeya4.RankOneBorelFrontEscape.rank_one_borel_front_dimH_eq_four

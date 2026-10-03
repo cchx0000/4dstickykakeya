@@ -1,0 +1,34 @@
+'StickyKakeya4.ScalarProjection.parameter_fiber_linear_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.parameter_min_linear_le_fractional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.parameter_fiber_fractional_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.parameter_averaged_collision_le_source_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.finite_parameter_average_scalar_projection_pair_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.ae_finite_parameter_scalar_projection_pair_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.time_change_map_ball_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.ae_finite_parameter_law_potential_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.ae_finite_parameter_law_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.ae_finite_time_changed_parameterizedScalarPotential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.ae_finite_time_changed_scalar_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: official Lean 4.33.1 -DautoImplicit=false -DwarningAsError=true verification/TimeChangedScalarEnergyReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 9a74e9296bfe410f2084ba4eb8b307ec21c4fcba5cc62b544af9067a8c8e369a

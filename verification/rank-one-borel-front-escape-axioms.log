@@ -1,0 +1,28 @@
+'StickyKakeya4.RankOneBorelFrontEscape.original_cut_map_ball_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneBorelFrontEscape.measurable_feedbackVector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneBorelFrontEscape.measurable_actualPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneBorelFrontEscape.measurable_normals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RankOneBorelFrontEscape.normalized_spatial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RankOneBorelFrontEscape.normalization_coordinate_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneBorelFrontEscape.exists_actual_native_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneBorelFrontEscape.exists_rank_one_borel_supported_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneBorelFrontEscape.rank_one_borel_front_dimH_eq_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: official Lean 4.33.1 -DautoImplicit=false -DwarningAsError=true verification/RankOneBorelFrontEscapeReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 4b7658da067ed93373881acd5fd82d89241c2c404bca45592613c13180ab4e8b

@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-03T10:19:23.514879+00:00",
-  "source_commit_before_report": "d9e989822246e8ff30b66ef6be6858f0b9d57d26",
-  "project_module_count": 200,
+  "generated_at_utc": "2026-10-03T10:45:07.310582+00:00",
+  "source_commit_before_report": "4eaeb13b463b4ee04ee4f8ca42096fdd1e7ccce7",
+  "project_module_count": 206,
   "aggregate_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -37,7 +37,7 @@
     "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
   },
   "new_declaration_axiom_checks": {
-    "count": 1090,
+    "count": 1147,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1070,26 +1070,58 @@
       "status": "passed",
       "source_sha256": "8118e6bede5e61c4f9ba9495044a5089da22822455162661f4a28f649aa7fff1",
       "verification_scope": "original triangular heavy-root charge build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_rational_feedback_time_window": {
+      "status": "passed",
+      "source_sha256": "4d5331884ba829b4269b669318e1f6ff088397f9f4a1b2e10a05467164a53561",
+      "verification_scope": "rank-one native-time / original triangular moment target plus strict source and import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_time_changed_scalar_energy": {
+      "status": "passed",
+      "source_sha256": "9a74e9296bfe410f2084ba4eb8b307ec21c4fcba5cc62b544af9067a8c8e369a",
+      "verification_scope": "rank-one native-time / original triangular moment target plus strict source and import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_rank_one_native_potentials": {
+      "status": "passed",
+      "source_sha256": "5d580389442887078b3aaf27c307df309a44122fcff25350cf19239ba4ef5513",
+      "verification_scope": "rank-one native-time / original triangular moment target plus strict source and import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_rank_one_borel_front_escape": {
+      "status": "passed",
+      "source_sha256": "4b7658da067ed93373881acd5fd82d89241c2c404bca45592613c13180ab4e8b",
+      "verification_scope": "rank-one native-time / original triangular moment target plus strict source and import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_root_tail_moment": {
+      "status": "passed",
+      "source_sha256": "5062216e4bfdcfc528bdad1cb7d255bf8737867f1348289b58705070ce0b4549",
+      "verification_scope": "rank-one native-time / original triangular moment target plus strict source and import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_triangular_root_moment": {
+      "status": "passed",
+      "source_sha256": "1e6029b50a0874520bf51d3ec41bc483e165b27b8fca414584259a74cffa8c69",
+      "verification_scope": "rank-one native-time / original triangular moment target plus strict source and import readback"
     }
   },
   "unconditional_main_completed": false,
   "remaining_mathematical_obligation": "A genuinely source-faithful collective root-time heavy-event charge (or equivalent weighted paid/cross-cap estimate or supported Frostman escape), retaining continuum time mass for the actual coupled selector.",
   "upstream_main_sha": "d208ddf4544cbb9ed05e4c848a83b07985b28e26",
   "latest_targeted_build": {
-    "source_base_commit": "d9e989822246e8ff30b66ef6be6858f0b9d57d26",
-    "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_uniform_scalar_projection_energy.lean": "6664dd94a570f69ee19dca57e717ff6bbfc8af9532d12bf28a031c494c554f0b",
-      "Theorems/Thm_StickyKakeya4_triangular_uniform_potential_bound.lean": "1fca4d54f2b41f9d823801fff1370bbc880fae2d13a0025beaad444858a33c21",
-      "Theorems/Thm_StickyKakeya4_triangular_potential_charge.lean": "05e075300e0a03f98fc7c6d8245263a86fa2892e590076a57612f5d83ae86251",
-      "Theorems/Thm_StickyKakeya4_triangular_heavy_root_power.lean": "8118e6bede5e61c4f9ba9495044a5089da22822455162661f4a28f649aa7fff1"
-    },
-    "module_count": 4,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8718,
-    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_triangular_heavy_root_power",
-    "log": "verification/triangular-heavy-root-power-build.log",
-    "scope": "four new uniform-energy/original-charge modules and dependencies; not a full 200-module rebuild"
+    "lake_jobs": 8723,
+    "log": "verification/rank-one-moment-build.log",
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_rank_one_borel_front_escape +Theorems.Thm_StickyKakeya4_triangular_root_moment",
+    "source_base_commit": "4eaeb13b463b4ee04ee4f8ca42096fdd1e7ccce7",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_rational_feedback_time_window.lean": "4d5331884ba829b4269b669318e1f6ff088397f9f4a1b2e10a05467164a53561",
+      "Theorems/Thm_StickyKakeya4_time_changed_scalar_energy.lean": "9a74e9296bfe410f2084ba4eb8b307ec21c4fcba5cc62b544af9067a8c8e369a",
+      "Theorems/Thm_StickyKakeya4_rank_one_native_potentials.lean": "5d580389442887078b3aaf27c307df309a44122fcff25350cf19239ba4ef5513",
+      "Theorems/Thm_StickyKakeya4_rank_one_borel_front_escape.lean": "4b7658da067ed93373881acd5fd82d89241c2c404bca45592613c13180ab4e8b",
+      "Theorems/Thm_StickyKakeya4_root_tail_moment.lean": "5062216e4bfdcfc528bdad1cb7d255bf8737867f1348289b58705070ce0b4549",
+      "Theorems/Thm_StickyKakeya4_triangular_root_moment.lean": "1e6029b50a0874520bf51d3ec41bc483e165b27b8fca414584259a74cffa8c69"
+    },
+    "module_count": 6,
+    "scope": "six new rank-one/native-time/root-moment modules and dependencies; not a full 206-module rebuild"
   },
   "current_turn_full_build_rerun": false,
   "filtration_repair": {
@@ -1133,5 +1165,18 @@
     "declaration_count": 44,
     "general_selector_case_completed": false,
     "evidence": "verification/triangular-heavy-charge-checkpoint.json"
+  },
+  "rank_one_native_escape": {
+    "status": "c+La+u f(a1) actual supported Frostman measures and dimension four; rational native time interval and potentials derived internally",
+    "declaration_count": 47,
+    "arbitrary_linear_input_formalized_in_this_checkpoint": false,
+    "general_selector_decomposition_proved": false,
+    "evidence": "verification/rank-one-moment-checkpoint.json"
+  },
+  "triangular_original_moment": {
+    "status": "unmodified root/time theta moment at every radius bounded by C r^(3s theta), 0<s<1, 0<theta<1/3; no energy/tail input",
+    "declaration_count": 10,
+    "general_selector_case_completed": false,
+    "evidence": "verification/rank-one-moment-checkpoint.json"
   }
 }

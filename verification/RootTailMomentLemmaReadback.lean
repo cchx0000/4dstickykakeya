@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_root_tail_moment
+
+#print axioms RootTailMoment.ae_ne_top_of_cubic_root_tail
+#print axioms RootTailMoment.momentConstant_ne_top
+#print axioms RootTailMoment.normalized_moment_le
+#print axioms RootTailMoment.scaled_moment_le
+#print axioms RootTailMoment.ennreal_moment_le

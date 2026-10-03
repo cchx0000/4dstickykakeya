@@ -222,3 +222,13 @@ The targeted build passed 8,714 jobs. Exact hashes and commands are in
 `verification/triangular-borel-front-checkpoint.json`. This is a special-class
 escape, not a proof that every original sticky selector is triangular. The
 original main theorem and its existing WZ-axiom dependency remain unchanged.
+
+## Stronger original-law moment checkpoint
+
+The subsequent [root-tail proof](TRIANGULAR_ORIGINAL_ROOT_MOMENT.md)
+formally improves the original root moment to `C r^(3s theta)` for
+`0<theta<1/3`, by saturating the potential cutoff and using layer-cake.
+It does not replace the actual source by the reference product or normalize
+individual retained pieces. The grid estimate (7) above remains a valid
+handwritten consequence, but is no longer the strongest checked
+original-law estimate.

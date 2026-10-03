@@ -1,0 +1,540 @@
+{
+  "generated_at_utc": "2026-10-03T10:45:07.310582+00:00",
+  "base_commit": "4eaeb13b463b4ee04ee4f8ca42096fdd1e7ccce7",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_rational_feedback_time_window.lean": "4d5331884ba829b4269b669318e1f6ff088397f9f4a1b2e10a05467164a53561",
+    "Theorems/Thm_StickyKakeya4_time_changed_scalar_energy.lean": "9a74e9296bfe410f2084ba4eb8b307ec21c4fcba5cc62b544af9067a8c8e369a",
+    "Theorems/Thm_StickyKakeya4_rank_one_native_potentials.lean": "5d580389442887078b3aaf27c307df309a44122fcff25350cf19239ba4ef5513",
+    "Theorems/Thm_StickyKakeya4_rank_one_borel_front_escape.lean": "4b7658da067ed93373881acd5fd82d89241c2c404bca45592613c13180ab4e8b",
+    "Theorems/Thm_StickyKakeya4_root_tail_moment.lean": "5062216e4bfdcfc528bdad1cb7d255bf8737867f1348289b58705070ce0b4549",
+    "Theorems/Thm_StickyKakeya4_triangular_root_moment.lean": "1e6029b50a0874520bf51d3ec41bc483e165b27b8fca414584259a74cffa8c69"
+  },
+  "declarations": [
+    {
+      "declaration": "RankOneFeedbackPolynomials.denominator_eval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "RankOneFeedbackPolynomials.denominator_monic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "RankOneFeedbackPolynomials.denominator_natDegree",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "RankOneFeedbackPolynomials.adjugate_natDegree",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "RankOneFeedbackPolynomials.numerator_natDegree",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "RankOneFeedbackPolynomials.eval_charmatrix",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "RankOneFeedbackPolynomials.numerator_eval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "RankOneFeedbackPolynomials.inverse_feedback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RationalFeedbackTimeWindow.matrix_inverse_bounded_on_closed_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RationalFeedbackTimeWindow.polynomial_wronskian_ne_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RationalFeedbackTimeWindow.abs_image_sub_ge_of_abs_deriv_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RationalFeedbackTimeWindow.abs_image_sub_le_of_abs_deriv_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RationalFeedbackTimeWindow.exists_closed_interval_eventually",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RationalFeedbackTimeWindow.exists_rational_time_window",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RationalFeedbackTimeWindow.feedbackScalar_eq_rational",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RationalFeedbackTimeWindow.exists_matrix_time_window",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RationalFeedbackTimeWindow.actual_feedback_zero_or_time_window",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rational-feedback-time-window-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameter_fiber_linear_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameter_min_linear_le_fractional",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameter_fiber_fractional_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameter_averaged_collision_le_source_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.finite_parameter_average_scalar_projection_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_parameter_scalar_projection_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.time_change_map_ball_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_parameter_law_potential_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_parameter_law_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_time_changed_parameterizedScalarPotential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_time_changed_scalar_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/time-changed-scalar-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.potential\u2081_eq_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.measurable_potential\u2081",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.ae_finite_identity_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.nativeOwnPotential_eq_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.measurable_nativeOwnPotential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.translated_nativeOwnPotential_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.ae_finite_translated_nativeOwnPotential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.feedback_potential\u2081_eq_scaled",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.ae_finite_feedback_potential\u2081",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneNativePotentials.ae_finite_zero_feedback_potential\u2081",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-native-potentials-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneBorelFrontEscape.original_cut_map_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-borel-front-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneBorelFrontEscape.measurable_feedbackVector",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-borel-front-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneBorelFrontEscape.measurable_actualPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-borel-front-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneBorelFrontEscape.measurable_normals",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-borel-front-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneBorelFrontEscape.normalized_spatial",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-borel-front-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneBorelFrontEscape.normalization_coordinate_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-borel-front-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneBorelFrontEscape.exists_actual_native_window",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-borel-front-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneBorelFrontEscape.exists_rank_one_borel_supported_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-borel-front-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.RankOneBorelFrontEscape.rank_one_borel_front_dimH_eq_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rank-one-borel-front-escape-axioms.log"
+    },
+    {
+      "declaration": "RootTailMoment.ae_ne_top_of_cubic_root_tail",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/root-tail-moment-axioms.log"
+    },
+    {
+      "declaration": "RootTailMoment.momentConstant_ne_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/root-tail-moment-axioms.log"
+    },
+    {
+      "declaration": "RootTailMoment.normalized_moment_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/root-tail-moment-axioms.log"
+    },
+    {
+      "declaration": "RootTailMoment.scaled_moment_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/root-tail-moment-axioms.log"
+    },
+    {
+      "declaration": "RootTailMoment.ennreal_moment_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/root-tail-moment-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularRootMoment.exists_saturating_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-root-moment-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularRootMoment.measurable_originalRootBallMass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-root-moment-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularRootMoment.triangularTailConstant_ne_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-root-moment-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularRootMoment.triangular_original_root_tail",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-root-moment-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularRootMoment.exists_triangular_original_root_moment_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-root-moment-axioms.log"
+    }
+  ],
+  "declaration_count": 57,
+  "targeted_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8723,
+    "log": "verification/rank-one-moment-build.log",
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_rank_one_borel_front_escape +Theorems.Thm_StickyKakeya4_triangular_root_moment"
+  },
+  "strict_source_and_import_readback": "passed",
+  "prior_200_module_hashes_unchanged": true,
+  "full_206_module_rebuild_run": false,
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+}

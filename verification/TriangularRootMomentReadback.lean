@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_triangular_root_moment
+
+#print axioms StickyKakeya4.TriangularRootMoment.exists_saturating_cutoff
+#print axioms StickyKakeya4.TriangularRootMoment.measurable_originalRootBallMass
+#print axioms StickyKakeya4.TriangularRootMoment.triangularTailConstant_ne_top
+#print axioms StickyKakeya4.TriangularRootMoment.triangular_original_root_tail
+#print axioms StickyKakeya4.TriangularRootMoment.exists_triangular_original_root_moment_bound

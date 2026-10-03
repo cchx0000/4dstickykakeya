@@ -1,0 +1,31 @@
+'StickyKakeya4.RankOneNativePotentials.potential₁_eq_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RankOneNativePotentials.measurable_potential₁' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.RankOneNativePotentials.ae_finite_identity_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneNativePotentials.nativeOwnPotential_eq_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneNativePotentials.measurable_nativeOwnPotential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneNativePotentials.translated_nativeOwnPotential_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneNativePotentials.ae_finite_translated_nativeOwnPotential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneNativePotentials.feedback_potential₁_eq_scaled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneNativePotentials.ae_finite_feedback_potential₁' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.RankOneNativePotentials.ae_finite_zero_feedback_potential₁' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: official Lean 4.33.1 -DautoImplicit=false -DwarningAsError=true verification/RankOneNativePotentialsReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 5d580389442887078b3aaf27c307df309a44122fcff25350cf19239ba4ef5513

@@ -1,0 +1,10 @@
+'RootTailMoment.ae_ne_top_of_cubic_root_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RootTailMoment.momentConstant_ne_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RootTailMoment.normalized_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RootTailMoment.scaled_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RootTailMoment.ennreal_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: official Lean 4.33.1 -DautoImplicit=false -DwarningAsError=true verification/RootTailMomentLemmaReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 5062216e4bfdcfc528bdad1cb7d255bf8737867f1348289b58705070ce0b4549

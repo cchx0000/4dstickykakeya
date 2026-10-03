@@ -84,9 +84,11 @@ only by scalar reference-potential bounds; product structure is used for
 an upper reference bound, not assumed for the actual source. All 31 theorem
 declarations and the final no-certificate caller are strictly checked. See
 [the triangular escape](docs/TRIANGULAR_BOREL_FROSTMAN_ESCAPE.md).
-The general source is not proved triangularizable. One-channel feedback
-and the accurately scoped external osculating-projection reduction remain
-handwritten and are not counted as completion of the main theorem.
+The general source is not proved triangularizable. The canonical-input
+one-channel extension `c+L a+u f(a1)` is now checked, including arbitrary
+linear coupling and the derived rational original-time window. The broader
+arbitrary-input and external osculating-projection interfaces are separately
+scoped and are not counted as completion of the main theorem.
 
 The original-weight estimate for this triangular special class is now
 proved as well. For every `0<beta<3`, the actual unmodified source/time law
@@ -96,6 +98,14 @@ endpoint derives all potential, energy, and cutoff-threshold facts from
 source density and Borel triangularity. These 44 new strict readbacks do
 not assume the requested charge. They also do not extract triangularity
 from the general datum. See [the direct charge](docs/DIRECT_HEAVY_ROOT_CHARGE.md).
+
+The original root moment now also satisfies `integral Z_r^theta <=
+C r^(3s theta)` for all radii, `0<s<1`, and `0<theta<1/3`. The proof
+saturates the cutoff threshold and integrates its cubic-root tail; it
+derives all potential and energy inputs. Together with the native-time
+rank-one endpoint, this adds 57 standard-only checked declarations. See
+[the moment](docs/TRIANGULAR_ORIGINAL_ROOT_MOMENT.md) and
+[the one-channel theorem](docs/RANK_ONE_NATIVE_TIME_ESCAPE.md).
 
 ## 1. Exact collision identity
 
@@ -358,7 +368,10 @@ bounded vertical-entropy potential alone does not pay repeated increments.
 Macroscopic blocks avoid that particular scale mismatch but still require a
 new source-sensitive projection or incidence estimate.
 
-The low-moment/center-entropy and triangular proofs remain handwritten.
+This earlier checkpoint treated the low-moment/center-entropy and triangular
+arguments as handwritten. The triangular actual-front and original-root
+moment routes are now formalized as recorded above; the general
+center-entropy-to-coupled-selector implication remains open.
 The fixed-center and affine-reference escape now also have the separate
 Lean-certified finite-energy proof described above. Neither representation
 has been derived for the general unpaid branch.

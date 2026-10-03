@@ -3,6 +3,35 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Native rank-one feedback and the original triangular low moment
+
+The literal point map `F(t,a)=(c+L a+u f(a1)+t a,t)` now has a
+fully derived supported Frostman escape and dimension-four endpoint. The
+matrix L and output u are arbitrary. A monic cubic determinant and its
+quadratic adjugate numerator construct an original positive time interval;
+the zero-feedback branch is handled separately. Actual native potentials
+are finite there, and a direct fixed-time inverse-matrix bound transfers
+the cutoff to the literal original front. No favorable-window, potential,
+or Frostman certificate is assumed at the endpoint.
+
+For Borel triangular data, the saturating cutoff also gives the exact
+original heavy-root tail `min(M,C r^s B^(-1/3))`. A checked layer-cake
+calculation yields `integral Z_r^theta <= C_theta r^(3s theta)` for
+`0<theta<1/3`. This is the unmodified root/time law, not an independently
+resampled marginal or a conditional success measure.
+
+All **57** proved declarations passed strict source and proper import
+readbacks with only standard logical axioms. The combined target passed
+**8,723 jobs**, exit 0. Cumulative readbacks are **1,147** and all earlier
+200 module source hashes are unchanged. A fresh full default build of the
+current **206** modules was not run. Exact evidence is in
+[rank-one-moment-checkpoint.json](rank-one-moment-checkpoint.json).
+The [native-time derivation](../docs/RANK_ONE_NATIVE_TIME_ESCAPE.md) and
+[original moment proof](../docs/TRIANGULAR_ORIGINAL_ROOT_MOMENT.md) state the
+precise hypotheses. The broader arbitrary scalar-input basis transport is
+not included in this checkpoint. General selector extraction and the main
+WZ-axiom gate remain open.
+
 ## Summable heavy-root charge for the unchanged triangular source
 
 The uniform scalar module constructs one finite energy bound valid for all
@@ -47,8 +76,9 @@ current **196** modules. See
 and [the proof and scope](../docs/TRIANGULAR_BOREL_FROSTMAN_ESCAPE.md).
 
 No theorem extracts a triangular selector from the general original data.
-The elementary one-channel feedback proof and the explicitly external GGW
-rank-one-output reduction are separately labeled handwritten. Quantitative
+The original general-input one-channel note and explicitly external GGW
+rank-one-output reduction are separately scoped; the canonical-input
+native-time theorem is now checked above. Quantitative
 unmodified-source charge refinements are not included in these 31 checks.
 The original main theorem still has its preexisting WZ project-axiom dependency.
 
