@@ -1,0 +1,15 @@
+'StickyKakeya4.CommonTimeSliceCover.measurable_activeCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTimeSliceCover.lintegral_activeCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTimeSliceCover.activeCost_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CommonTimeSliceCover.norm_horizontalProjection_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTimeSliceCover.ae_common_time_slice_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CommonTimeSliceCover.exists_common_time_slice_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/CommonTimeSliceCoverReadback.lean
+Exit: 0
+Source SHA256: 0c35c60c4d55f140f67545833adf09d9e662e1328450d0a7267da0a4f0f2f8fd

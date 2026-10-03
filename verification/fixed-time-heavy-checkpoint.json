@@ -1,0 +1,146 @@
+{
+  "generated_at_utc": "2026-10-03T05:48:36.719800+00:00",
+  "base_commit": "5ee8d4e763adfc98b4ca4f942301ce9649184bf8",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_common_time_slice_cover.lean": "0c35c60c4d55f140f67545833adf09d9e662e1328450d0a7267da0a4f0f2f8fd",
+    "Theorems/Thm_StickyKakeya4_fixed_time_heavy_families.lean": "d33872d3c1bb245438cb0462b5f812d8d1d482d1d43938db588463558c7b527d"
+  },
+  "declarations": [
+    {
+      "declaration": "StickyKakeya4.CommonTimeSliceCover.measurable_activeCost",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/common-time-slice-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CommonTimeSliceCover.lintegral_activeCost",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/common-time-slice-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CommonTimeSliceCover.activeCost_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/common-time-slice-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CommonTimeSliceCover.norm_horizontalProjection_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/common-time-slice-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CommonTimeSliceCover.ae_common_time_slice_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/common-time-slice-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CommonTimeSliceCover.exists_common_time_slice_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/common-time-slice-cover-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedTimeHeavyFamilies.exists_heavy_bush_of_slice_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/fixed-time-heavy-families-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedTimeHeavyFamilies.positive_remainder_contains_fixed_time_heavy_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/fixed-time-heavy-families-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedTimeHeavyFamilies.exists_disjoint_fixed_time_heavy_exhaustion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/fixed-time-heavy-families-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedTimeHeavyFamilies.exists_finite_fixed_time_heavy_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/fixed-time-heavy-families-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedTimeHeavyFamilies.ae_fixed_time_heavy_families",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/fixed-time-heavy-families-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedTimeHeavyFamilies.exists_fixed_time_heavy_families",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/fixed-time-heavy-families-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FixedTimeHeavyFamilies.sticky_deficit_exists_common_time_whole_parent_heavy_bush_families",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/fixed-time-heavy-families-axioms.log"
+    }
+  ],
+  "targeted_build": {
+    "source_base_commit": "5ee8d4e763adfc98b4ca4f942301ce9649184bf8",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_common_time_slice_cover.lean": "0c35c60c4d55f140f67545833adf09d9e662e1328450d0a7267da0a4f0f2f8fd",
+      "Theorems/Thm_StickyKakeya4_fixed_time_heavy_families.lean": "d33872d3c1bb245438cb0462b5f812d8d1d482d1d43938db588463558c7b527d"
+    },
+    "module_count": 2,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8759,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_fixed_time_heavy_families",
+    "log": "verification/fixed-time-heavy-families-build.log",
+    "scope": "two new common-time modules and their dependencies; not a full 191-module rebuild"
+  },
+  "strict_exit_code": 0,
+  "readback_exit_code": 0,
+  "full_build_rerun": false,
+  "previous_189_hashes_unchanged": true,
+  "main_theorem_completed": false
+}

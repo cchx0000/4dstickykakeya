@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_common_time_slice_cover
+
+#print axioms StickyKakeya4.CommonTimeSliceCover.measurable_activeCost
+#print axioms StickyKakeya4.CommonTimeSliceCover.lintegral_activeCost
+#print axioms StickyKakeya4.CommonTimeSliceCover.activeCost_eq
+#print axioms StickyKakeya4.CommonTimeSliceCover.norm_horizontalProjection_le
+#print axioms StickyKakeya4.CommonTimeSliceCover.ae_common_time_slice_cover
+#print axioms StickyKakeya4.CommonTimeSliceCover.exists_common_time_slice_cover

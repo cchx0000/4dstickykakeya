@@ -45,6 +45,18 @@ The conversion of physical radius `R` into a useful single direction-cap
 radius is still open; no inherited old-edge error is improved by this result.
 See [the precise restart](docs/WHOLE_PARENT_HEAVY_BUSH_RESTART.md).
 
+The restart now uses one common actual time chosen before all coefficients,
+radius cutoffs, and retention thresholds. Compact-front slicing supplies
+arbitrarily cheap finite covers for almost every actual time; at any good
+time, the same maximal-family construction works for every positive remainder.
+Thirteen new declarations are strictly checked. This canonizes the witness
+time while leaving the physical-to-angular radius step open. See
+[the common-time result](docs/COMMON_TIME_HEAVY_FAMILIES.md). The separate
+[relative-projection audit](docs/RELATIVE_PROJECTION_FILTRATION_AUDIT.md)
+proves an elementary predictable-plane bound by hand, but finds no justified
+inverse statement deriving the needed predictable geometry from the original
+hypotheses. It adds no assumption or axiom to the final target.
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

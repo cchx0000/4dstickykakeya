@@ -3,6 +3,30 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## One common actual time for all heavy-family requests
+
+The compact-front slicing module constructs arbitrarily cheap finite spatial
+covers for almost every actual time from the strict front dimension deficit.
+The heavy-family module then fixes one original source and one such time
+before all coefficients, radius cutoffs, and retained-mass thresholds.
+Source-disjoint finite families retain any mass threshold below the whole
+source, with every piece satisfying its own fixed-parent heavy-mass inequality.
+The endpoint assumes only the original sticky datum and front deficit.
+
+All **13** declarations passed strict source compilation and proper import
+axiom readback with only the three standard logical axioms. The targeted
+build passed **8,759 jobs**, exit 0; cumulative recorded readbacks are
+**1,004**. See [fixed-time-heavy-checkpoint.json](fixed-time-heavy-checkpoint.json)
+and [the exact scope](../docs/COMMON_TIME_HEAVY_FAMILIES.md).
+All 189 previous source hashes are unchanged. This is not a fresh full default
+build of the current **191** modules. The physical-to-angular cap gain and
+main theorem's existing WZ-axiom dependency remain open.
+
+The [relative-projection audit](../docs/RELATIVE_PROJECTION_FILTRATION_AUDIT.md)
+is separately labeled handwritten. It supplies an elementary relative
+polynomial estimate and a sufficient affine-approximation moment bound,
+but does not derive the necessary predictable decomposition from packing.
+
 ## Actual whole-parent heavy-bush families
 
 From the original sticky datum and strict front dimension deficit, the new

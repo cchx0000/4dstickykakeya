@@ -1,0 +1,24 @@
+'StickyKakeya4.FixedTimeHeavyFamilies.exists_heavy_bush_of_slice_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedTimeHeavyFamilies.positive_remainder_contains_fixed_time_heavy_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedTimeHeavyFamilies.exists_disjoint_fixed_time_heavy_exhaustion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedTimeHeavyFamilies.exists_finite_fixed_time_heavy_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedTimeHeavyFamilies.ae_fixed_time_heavy_families' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedTimeHeavyFamilies.exists_fixed_time_heavy_families' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.FixedTimeHeavyFamilies.sticky_deficit_exists_common_time_whole_parent_heavy_bush_families' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/FixedTimeHeavyFamiliesReadback.lean
+Exit: 0
+Source SHA256: d33872d3c1bb245438cb0462b5f812d8d1d482d1d43938db588463558c7b527d

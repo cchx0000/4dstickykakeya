@@ -5,6 +5,10 @@ have been independently checked. The two modules have passed strict Lean
 compilation and standard-only axiom readback. This is a new original-data input,
 not a completed cap-contraction or main-theorem proof.
 
+A subsequent [common-time strengthening](COMMON_TIME_HEAVY_FAMILIES.md)
+now fixes one actual witness time before every later request. The original
+varying-time theorem and its verification below remain unchanged.
+
 ## 1. Fixed source, coefficient, and actual times
 
 Let `sigma` be one fixed nonzero finite source on bounded slopes, let `b`
@@ -143,5 +147,5 @@ commands are in `verification/whole-parent-heavy-bush-checkpoint.json`
 and the corresponding strict, build, and axiom logs.
 
 The previous 187 module hashes are unchanged. This is not a fresh full
-default build of all 189 current project modules. The original main theorem
+default build of the 189 project modules at that checkpoint. The original main theorem
 and its existing WZ project-axiom dependency remain unchanged.
