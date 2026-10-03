@@ -18,6 +18,14 @@ The earlier Prove2Me proposal is preserved in
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
+The latest [local finite-geometry checkpoint](docs/WZ_LOCAL_GEOMETRY_PROGRESS.md)
+constructs the stronger same-set uniform core, actual padded translations,
+weighted predecessor grains, and the incidence/bin geometry needed for
+anisotropic rescaling. All 138 new proofs and four original-input checks
+have standard-only readbacks. The combined extremal argument and final volume
+bound remain unfinished. Current verification scope is recorded explicitly in
+[the report](verification/REPORT.md).
+
 ## Source-faithful verification checkpoint (2026-10-02)
 
 The original [Chenxi Cai manuscript](https://cchx0000.github.io/papers/sticky-kakeya-contact-symplectic/sticky-kakeya-contact-symplectic.pdf)
@@ -149,7 +157,7 @@ passed **788 jobs**, the triangular endpoint passed **8,714 jobs**,
 the original-charge endpoint passed **8,718 jobs**, and the rank-one/native-time
 and actual-moment endpoints passed **8,723 jobs**. The arbitrary-input
 rank-one target passed **8,720 jobs**, and the elementary polynomial target
-passed **8,706 jobs**; the current **209-module**
+passed **8,706 jobs**; the current **218-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

@@ -1,0 +1,13 @@
+'StickyKakeya4.packing_selector_has_cover_adapted_wz_packets_at_exponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.coherent_boundary_has_cover_adapted_wz_packets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.packing_three_pruning_assembles_wz_finite_input' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.separated_directions_convex_wolff_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: official Lean4.33.1 -DautoImplicit=false -DwarningAsError=true /tmp/wz-preaxiom-readback.lean
+Confirmed exit code: 0

@@ -1,0 +1,13 @@
+'GridPaddingTranslation.candidates_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPaddingTranslation.bad_subset_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPaddingTranslation.measure_bad_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPaddingTranslation.measurableSet_bad' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPaddingTranslation.weighted_avoid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPaddingTranslation.measure_bad_iUnion_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPaddingTranslation.weighted_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GridPaddingTranslation.weighted_vector_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: official Lean4.33.1 -DautoImplicit=false -DwarningAsError=true verification/GridPaddingTranslationReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 5f4f20f02bf9d13af707fd8ec5fab1dfa661809c06b4b49ea440ee5c432db41c

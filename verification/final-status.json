@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-03T11:48:27.244322+00:00",
-  "source_commit_before_report": "54e0dd57c7d314fcd94e4254d658c54dff671a26",
-  "project_module_count": 209,
+  "generated_at_utc": "2026-10-03T13:08:33.901208+00:00",
+  "source_commit_before_report": "f1d7ca00f59de4a21079387bdcbe1ecc1c3dbb2f",
+  "project_module_count": 218,
   "aggregate_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -37,7 +37,7 @@
     "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
   },
   "new_declaration_axiom_checks": {
-    "count": 1180,
+    "count": 1322,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1115,23 +1115,72 @@
       "status": "passed",
       "source_sha256": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d",
       "verification_scope": "polynomial small-value target and strict source/import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_self_uniform_incidence_refinement": {
+      "status": "passed",
+      "source_sha256": "e9c47a3d33d89a40b082ba4ec5f2c67b3c0d7fe32b6b9ed63a6a77557916c6c7",
+      "verification_scope": "WZ local finite constructions, targeted Lake build plus strict source/import axiom readback"
+    },
+    "Theorems.Thm_StickyKakeya4_backward_fiber_grains": {
+      "status": "passed",
+      "source_sha256": "b3b5cde0615e3e153ab69a03f9cf88e1a4dc62dbc810a5a8da97c1fa40e57675",
+      "verification_scope": "WZ local finite constructions, targeted Lake build plus strict source/import axiom readback"
+    },
+    "Theorems.Thm_StickyKakeya4_grid_padding_translation": {
+      "status": "passed",
+      "source_sha256": "5f4f20f02bf9d13af707fd8ec5fab1dfa661809c06b4b49ea440ee5c432db41c",
+      "verification_scope": "WZ local finite constructions, targeted Lake build plus strict source/import axiom readback"
+    },
+    "Theorems.Thm_StickyKakeya4_labelled_backward_fiber_grains": {
+      "status": "passed",
+      "source_sha256": "caf885cd8373ac3d9f8251c052bcc2bf6ec6657cfef7cc013ed85df95e53c50e",
+      "verification_scope": "WZ local finite constructions, targeted Lake build plus strict source/import axiom readback"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_cyclic_grid_padding": {
+      "status": "passed",
+      "source_sha256": "ce45dcd42541ce09873d16e01696fa43f46dff271f19e00861f86ccc8d4fc7fe",
+      "verification_scope": "WZ local finite constructions, targeted Lake build plus strict source/import axiom readback"
+    },
+    "Theorems.Thm_StickyKakeya4_incidence_bin_transfer": {
+      "status": "passed",
+      "source_sha256": "5e7bd70e22b4bd1ee134bb8227bcf7fd18fcc536e16c65a539ade43dbdf693c3",
+      "verification_scope": "WZ local finite constructions, targeted Lake build plus strict source/import axiom readback"
+    },
+    "Theorems.Thm_StickyKakeya4_shear_bin_fibers": {
+      "status": "passed",
+      "source_sha256": "a25c8494373ebd245449316eac02f141afff604584768de129284bfd20d2f260",
+      "verification_scope": "WZ local finite constructions, targeted Lake build plus strict source/import axiom readback"
+    },
+    "Theorems.Thm_StickyKakeya4_tube_bin_count": {
+      "status": "passed",
+      "source_sha256": "74459c8a00f50a526d1721f454ef204e8f9bf82fe91a19d86dd0e8bdd48c0d71",
+      "verification_scope": "WZ local finite constructions, targeted Lake build plus strict source/import axiom readback"
+    },
+    "Theorems.Thm_StickyKakeya4_physical_rescaling_incidence_transfer": {
+      "status": "passed",
+      "source_sha256": "d2df9664bee998d4aea3700674485948aed151cbbe117839c4b85bcf614e73c0",
+      "verification_scope": "WZ local finite constructions, targeted Lake build plus strict source/import axiom readback"
     }
   },
   "unconditional_main_completed": false,
   "remaining_mathematical_obligation": "A genuinely source-faithful collective root-time heavy-event charge (or equivalent weighted paid/cross-cap estimate or supported Frostman escape), retaining continuum time mass for the actual coupled selector.",
   "upstream_main_sha": "d208ddf4544cbb9ed05e4c848a83b07985b28e26",
   "latest_targeted_build": {
-    "status": "passed",
+    "log": "verification/wz-physical-rescaling-build.log",
+    "lake_jobs": 8710,
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_finite_cyclic_grid_padding +Theorems.Thm_StickyKakeya4_physical_rescaling_incidence_transfer",
     "exit_code": 0,
-    "lake_jobs": 8706,
-    "log": "verification/polynomial-sublevel-measure-build.log",
-    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_polynomial_sublevel_measure",
-    "source_base_commit": "0928e7df43cdbbf069f9c9263c223d56f5c4a685",
+    "status": "passed",
+    "source_base_commit": "f1d7ca00f59de4a21079387bdcbe1ecc1c3dbb2f",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_polynomial_sublevel_measure.lean": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d"
+      "Theorems/Thm_StickyKakeya4_finite_cyclic_grid_padding.lean": "ce45dcd42541ce09873d16e01696fa43f46dff271f19e00861f86ccc8d4fc7fe",
+      "Theorems/Thm_StickyKakeya4_incidence_bin_transfer.lean": "5e7bd70e22b4bd1ee134bb8227bcf7fd18fcc536e16c65a539ade43dbdf693c3",
+      "Theorems/Thm_StickyKakeya4_shear_bin_fibers.lean": "a25c8494373ebd245449316eac02f141afff604584768de129284bfd20d2f260",
+      "Theorems/Thm_StickyKakeya4_tube_bin_count.lean": "74459c8a00f50a526d1721f454ef204e8f9bf82fe91a19d86dd0e8bdd48c0d71",
+      "Theorems/Thm_StickyKakeya4_physical_rescaling_incidence_transfer.lean": "d2df9664bee998d4aea3700674485948aed151cbbe117839c4b85bcf614e73c0"
     },
-    "module_count": 1,
-    "scope": "one new elementary polynomial measure module and pinned dependencies; not a full 209-module rebuild"
+    "module_count": 5,
+    "scope": "five new finite padding, heavy-bin, actual shear and physical tube-bin modules; other four new modules and old source constructors separately checked; not a full 218-module build"
   },
   "current_turn_full_build_rerun": false,
   "filtration_repair": {
@@ -1220,5 +1269,19 @@
     "general_selector_tail_structure_derived": false,
     "finite_state_positive_source_inheritance_mathematically_proved": true,
     "whole_slab_uniform_time_power_claimed": false
+  },
+  "wz_local_geometry": {
+    "evidence": "verification/wz-local-geometry-checkpoint.json",
+    "new_proved_declaration_count": 138,
+    "preexisting_actual_input_readbacks": 4,
+    "self_uniformity_on_same_set": true,
+    "real_and_fine_mesh_preserving_padding": true,
+    "exact_independent_backward_fibers_and_label_weights": true,
+    "heavy_bin_count_and_geometric_capacity_inputs": true,
+    "combined_physical_rescaling_caller_completed": true,
+    "combined_metric_AD_closure_formalized": false,
+    "matched_extremal_multiplicities_constructed": false,
+    "actual_transverse_rich_layers_constructed": false,
+    "finite_volume_theorem_complete": false
   }
 }

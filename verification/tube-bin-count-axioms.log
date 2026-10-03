@@ -1,0 +1,17 @@
+'TubeBinCount.coordinateBins_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.floor_mem_coordinateBins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.normalized_coordinate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.floor_time_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.timeBins_card_mul_scale_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.spatialBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.gridBin_mem_tubeBins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.tubeBins_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.distinct_gridBins_card_mul_scale_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.labels_gridBins_card_mul_scale_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.distinct_gridBins_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TubeBinCount.distinct_gridBins_card_mul_scale_le_6912' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: /workspace/shared/lean-tools/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -DautoImplicit=false -DwarningAsError=true verification/TubeBinCountReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 6640231555a619799ed54e19f2a8bb5b7e9341ca0ff15a6ec21ce3cf7d3c537f

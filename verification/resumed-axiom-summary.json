@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T11:28:04.477759+00:00",
-  "previous_checkpoint": "0928e7df43cdbbf069f9c9263c223d56f5c4a685",
+  "generated_at_utc": "2026-10-03T13:08:33.901208+00:00",
+  "previous_checkpoint": "f1d7ca00f59de4a21079387bdcbe1ecc1c3dbb2f",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 1180,
+  "total_new_checked_declarations": 1322,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -96,7 +96,17 @@
     "verification/triangular-root-moment-axioms.log": 5,
     "verification/invertible-front-frostman-transport-axioms.log": 15,
     "verification/rank-one-general-input-escape-axioms.log": 14,
-    "verification/polynomial-sublevel-measure-axioms.log": 4
+    "verification/polynomial-sublevel-measure-axioms.log": 4,
+    "verification/finite-cyclic-grid-padding-axioms.log": 11,
+    "verification/shear-bin-fibers-axioms.log": 14,
+    "verification/self-uniform-incidence-refinement-axioms.log": 18,
+    "verification/physical-rescaling-incidence-transfer-axioms.log": 31,
+    "verification/wz-cover-input-axioms.log": 4,
+    "verification/labelled-backward-fiber-grains-axioms.log": 4,
+    "verification/incidence-bin-transfer-axioms.log": 21,
+    "verification/backward-fiber-grains-axioms.log": 19,
+    "verification/grid-padding-translation-axioms.log": 8,
+    "verification/tube-bin-count-axioms.log": 12
   },
   "checks": [
     {
@@ -9895,6 +9905,1280 @@
         "Quot.sound"
       ],
       "log": "verification/polynomial-sublevel-measure-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.mass_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.degree_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.weight_le_degree",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.degree_le_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.mass_insert",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.degree_insert",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.energy_insert_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.peeling_decomposition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.weighted_markov_extraction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.mass_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.nonempty_of_mass_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.peeling_dichotomy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.height_ge_three_of_threshold_gt_one",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.threshold_drop_bound",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.height_upper_bound",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.sum_height_update",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.self_uniform_of_heights",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.weighted_self_uniform_refinement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/self-uniform-incidence-refinement-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.mem_affineFiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.predecessor_fibers_disjoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.backward_fiber_step",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.layered_backward_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.prefixSpan_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.prefixSpan_succ",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.directionSpan_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.prefixSpan_full",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.independent_prefix_direction_disjoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.independent_backward_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.affineFiber_eq_quotient_filter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.affine_grain_count_mul_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.affine_grain_count_le_div",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.sum_classMass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.sum_denseClassRestriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.retained_classMass_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.dense_class_retains_half",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.dense_affine_grains",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.independent_dense_grains",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "GridPaddingTranslation.candidates_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/grid-padding-translation-axioms.log"
+    },
+    {
+      "declaration": "GridPaddingTranslation.bad_subset_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/grid-padding-translation-axioms.log"
+    },
+    {
+      "declaration": "GridPaddingTranslation.measure_bad_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/grid-padding-translation-axioms.log"
+    },
+    {
+      "declaration": "GridPaddingTranslation.measurableSet_bad",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/grid-padding-translation-axioms.log"
+    },
+    {
+      "declaration": "GridPaddingTranslation.weighted_avoid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/grid-padding-translation-axioms.log"
+    },
+    {
+      "declaration": "GridPaddingTranslation.measure_bad_iUnion_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/grid-padding-translation-axioms.log"
+    },
+    {
+      "declaration": "GridPaddingTranslation.weighted_translation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/grid-padding-translation-axioms.log"
+    },
+    {
+      "declaration": "GridPaddingTranslation.weighted_vector_translation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/grid-padding-translation-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.labelled_classMass_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/labelled-backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.labelled_grain_count_mul_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/labelled-backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.labelled_dense_affine_grains",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/labelled-backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "BackwardFiberGrains.labelled_independent_dense_grains",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/labelled-backward-fiber-grains-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.cast_fiber_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.residue_fiber_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.residue_preimage_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.residue_val_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.card_residue_interval_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.badResidues_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.bad_shift_card_mul_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.finite_weighted_avoid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.card_biUnion_mul_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.cyclic_translation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "FiniteCyclicGridPadding.cyclic_vector_translation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/finite-cyclic-grid-padding-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.mem_binFiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.mem_heavyBins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.mem_kept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.kept_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.kept_fiber_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.bins_kept_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.sum_kept_eq_sum_heavy_fibers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.card_bins_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.card_discarded_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.card_le_twice_kept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.card_kept_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.snd_injective_on_binFiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.card_binFiber_le_oldCells_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.heavy_new_cell_fiber_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.mul_card_newCells_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.newCells_eq_image_oldCells_kept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.mul_card_newCells_le_kept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.kept_one_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.multiplicity_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.multiplicity_transfer_kept_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "IncidenceBinTransfer.multiplicity_transfer_ratio",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/incidence-bin-transfer-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.fiberPoint_injective",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.triangularBin_fiberPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.triangularBin_eq_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.mem_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.card_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.triangularBin_fiber_ncard",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.triangularBin_filter_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.actualBin_space",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.actualBin_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.actualBin_eq_triangularBin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.actualBin_eq_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.actualBin_fiber_ncard",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.actualBin_filter_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "ShearBinFibers.actualBin_filter_card_le_inv_rho",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/shear-bin-fibers-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.coordinateBins_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.floor_mem_coordinateBins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.normalized_coordinate_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.floor_time_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.timeBins_card_mul_scale_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.spatialBox_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.gridBin_mem_tubeBins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.tubeBins_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.distinct_gridBins_card_mul_scale_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.labels_gridBins_card_mul_scale_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.distinct_gridBins_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "TubeBinCount.distinct_gridBins_card_mul_scale_le_6912",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/tube-bin-count-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.residual_eq_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.cellBin_eq_gridBin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.scale_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.K_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.incidence_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.tube_bins_subset_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.tube_bin_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.M_mul_scale_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.m_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.m_eq_ceil",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.m_sub_one_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.density_le_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.m_eq_one_of_small",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.half_loss_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.half_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.retained_old_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.retained_whole_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.retained_weights",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.retained_physical_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.retained_eq_original_of_small",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.retained_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.support_gain",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.cross_multiplicity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.density_cross_multiplicity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.supports_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.multiplicity_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.transferConstant_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.retained_bins_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.newSupport_exact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.multiplicity_bound_explicit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.physical_rescaling_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-incidence-transfer-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.packing_selector_has_cover_adapted_wz_packets_at_exponent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-cover-input-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.coherent_boundary_has_cover_adapted_wz_packets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-cover-input-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.packing_three_pruning_assembles_wz_finite_input",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-cover-input-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.separated_directions_convex_wolff_estimate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-cover-input-axioms.log"
     }
   ],
   "source_sha256": {
@@ -9990,14 +11274,23 @@
     "Theorems/Thm_StickyKakeya4_triangular_root_moment.lean": "1e6029b50a0874520bf51d3ec41bc483e165b27b8fca414584259a74cffa8c69",
     "Theorems/Thm_StickyKakeya4_invertible_front_frostman_transport.lean": "3a518b37d3d05a8518264148894c7e3d67e650115cb0288340428add1e52294d",
     "Theorems/Thm_StickyKakeya4_rank_one_general_input_escape.lean": "591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc",
-    "Theorems/Thm_StickyKakeya4_polynomial_sublevel_measure.lean": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d"
+    "Theorems/Thm_StickyKakeya4_polynomial_sublevel_measure.lean": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d",
+    "Theorems/Thm_StickyKakeya4_self_uniform_incidence_refinement.lean": "e9c47a3d33d89a40b082ba4ec5f2c67b3c0d7fe32b6b9ed63a6a77557916c6c7",
+    "Theorems/Thm_StickyKakeya4_backward_fiber_grains.lean": "b3b5cde0615e3e153ab69a03f9cf88e1a4dc62dbc810a5a8da97c1fa40e57675",
+    "Theorems/Thm_StickyKakeya4_grid_padding_translation.lean": "5f4f20f02bf9d13af707fd8ec5fab1dfa661809c06b4b49ea440ee5c432db41c",
+    "Theorems/Thm_StickyKakeya4_labelled_backward_fiber_grains.lean": "caf885cd8373ac3d9f8251c052bcc2bf6ec6657cfef7cc013ed85df95e53c50e",
+    "Theorems/Thm_StickyKakeya4_finite_cyclic_grid_padding.lean": "ce45dcd42541ce09873d16e01696fa43f46dff271f19e00861f86ccc8d4fc7fe",
+    "Theorems/Thm_StickyKakeya4_incidence_bin_transfer.lean": "5e7bd70e22b4bd1ee134bb8227bcf7fd18fcc536e16c65a539ade43dbdf693c3",
+    "Theorems/Thm_StickyKakeya4_shear_bin_fibers.lean": "a25c8494373ebd245449316eac02f141afff604584768de129284bfd20d2f260",
+    "Theorems/Thm_StickyKakeya4_tube_bin_count.lean": "74459c8a00f50a526d1721f454ef204e8f9bf82fe91a19d86dd0e8bdd48c0d71",
+    "Theorems/Thm_StickyKakeya4_physical_rescaling_incidence_transfer.lean": "d2df9664bee998d4aea3700674485948aed151cbbe117839c4b85bcf614e73c0"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
   "targeted_lake_build_status": "passed",
   "targeted_lake_build_exit_code": 0,
-  "targeted_lake_build_jobs": 8706,
-  "targeted_lake_build_log": "verification/polynomial-sublevel-measure-build.log",
+  "targeted_lake_build_jobs": 8710,
+  "targeted_lake_build_log": "verification/wz-physical-rescaling-build.log",
   "full_tracked_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -10038,18 +11331,22 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 1089,
+  "resumed_phase_declaration_count": 1231,
   "latest_targeted_build": {
-    "status": "passed",
+    "log": "verification/wz-physical-rescaling-build.log",
+    "lake_jobs": 8710,
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_finite_cyclic_grid_padding +Theorems.Thm_StickyKakeya4_physical_rescaling_incidence_transfer",
     "exit_code": 0,
-    "lake_jobs": 8706,
-    "log": "verification/polynomial-sublevel-measure-build.log",
-    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_polynomial_sublevel_measure",
-    "source_base_commit": "0928e7df43cdbbf069f9c9263c223d56f5c4a685",
+    "status": "passed",
+    "source_base_commit": "f1d7ca00f59de4a21079387bdcbe1ecc1c3dbb2f",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_polynomial_sublevel_measure.lean": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d"
+      "Theorems/Thm_StickyKakeya4_finite_cyclic_grid_padding.lean": "ce45dcd42541ce09873d16e01696fa43f46dff271f19e00861f86ccc8d4fc7fe",
+      "Theorems/Thm_StickyKakeya4_incidence_bin_transfer.lean": "5e7bd70e22b4bd1ee134bb8227bcf7fd18fcc536e16c65a539ade43dbdf693c3",
+      "Theorems/Thm_StickyKakeya4_shear_bin_fibers.lean": "a25c8494373ebd245449316eac02f141afff604584768de129284bfd20d2f260",
+      "Theorems/Thm_StickyKakeya4_tube_bin_count.lean": "74459c8a00f50a526d1721f454ef204e8f9bf82fe91a19d86dd0e8bdd48c0d71",
+      "Theorems/Thm_StickyKakeya4_physical_rescaling_incidence_transfer.lean": "d2df9664bee998d4aea3700674485948aed151cbbe117839c4b85bcf614e73c0"
     },
-    "module_count": 1,
-    "scope": "one new elementary polynomial measure module and pinned dependencies; not a full 209-module rebuild"
+    "module_count": 5,
+    "scope": "five new finite padding, heavy-bin, actual shear and physical tube-bin modules; other four new modules and old source constructors separately checked; not a full 218-module build"
   }
 }

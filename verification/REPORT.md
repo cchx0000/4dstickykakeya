@@ -3,6 +3,32 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Constructive WZ local geometry checkpoint
+
+Nine new modules prove same-set weighted self-uniformity, actual common
+translations (including a cyclic translation preserving the fine grid),
+independent backward fibers, original-label weighted grain extraction,
+heavy-bin incidence/union transfer, exact global shear-bin fibers, and the
+actual per-tube floor-bin count. Their combined physical rescaling theorem
+derives half-retention and the old-to-new multiplicity bound with only a
+density loss, including ceiling thresholds below one. These are constructed conclusions, with
+no new routing, covering, or charge certificates.
+
+All **138 new proved declarations** passed strict source and imported axiom
+checks. Four preexisting original-front finite-input constructors were also
+freshly read back and use only the standard logical axioms. The cumulative
+checked count is **1,322**. All prior 209 source hashes are unchanged. The
+new targeted builds passed **8,706**, **8,708**, **8,709**, and **8,710** jobs; the original
+cover-input target passed **8,730**. These are targeted dependency builds,
+not a fresh default build of the current **218** project modules. Exact
+commands, hashes and scope: [wz-local-geometry-checkpoint.json](wz-local-geometry-checkpoint.json).
+
+The [scope note](../docs/WZ_LOCAL_GEOMETRY_PROGRESS.md) distinguishes the
+proved modules from the audited combined dyadic/metric adapters. The actual
+coarse/rescaled extremal closure, matched multiplicities, recurring transverse
+tuples and later global geometry remain to be completed. The existing final
+WZ project axiom has not been removed.
+
 ## Audited finite-family extensions, with unchanged Lean snapshot
 
 Five further documents contain independently audited handwritten results:

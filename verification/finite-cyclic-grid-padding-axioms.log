@@ -1,0 +1,16 @@
+'FiniteCyclicGridPadding.cast_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.residue_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.residue_preimage_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.residue_val_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.card_residue_interval_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.badResidues_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.bad_shift_card_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.finite_weighted_avoid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.card_biUnion_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.cyclic_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCyclicGridPadding.cyclic_vector_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: /workspace/shared/lean-tools/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -DautoImplicit=false -DwarningAsError=true verification/FiniteCyclicGridPaddingReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: d68fa9b51791316ec4c89e3e00f1bbd34b46d879d58a4ff7eed3f72016ee1701

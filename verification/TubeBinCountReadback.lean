@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_tube_bin_count
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms TubeBinCount.coordinateBins_card
+#print axioms TubeBinCount.floor_mem_coordinateBins
+#print axioms TubeBinCount.normalized_coordinate_bound
+#print axioms TubeBinCount.floor_time_mem
+#print axioms TubeBinCount.timeBins_card_mul_scale_le
+#print axioms TubeBinCount.spatialBox_card
+#print axioms TubeBinCount.gridBin_mem_tubeBins
+#print axioms TubeBinCount.tubeBins_card_le
+#print axioms TubeBinCount.distinct_gridBins_card_mul_scale_le
+#print axioms TubeBinCount.labels_gridBins_card_mul_scale_le
+#print axioms TubeBinCount.distinct_gridBins_card_le
+#print axioms TubeBinCount.distinct_gridBins_card_mul_scale_le_6912

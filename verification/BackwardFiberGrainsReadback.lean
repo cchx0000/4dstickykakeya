@@ -1,0 +1,21 @@
+import Theorems.Thm_StickyKakeya4_backward_fiber_grains
+
+#print axioms BackwardFiberGrains.mem_affineFiber
+#print axioms BackwardFiberGrains.predecessor_fibers_disjoint
+#print axioms BackwardFiberGrains.backward_fiber_step
+#print axioms BackwardFiberGrains.layered_backward_fiber_bound
+#print axioms BackwardFiberGrains.prefixSpan_zero
+#print axioms BackwardFiberGrains.prefixSpan_succ
+#print axioms BackwardFiberGrains.directionSpan_eq
+#print axioms BackwardFiberGrains.prefixSpan_full
+#print axioms BackwardFiberGrains.independent_prefix_direction_disjoint
+#print axioms BackwardFiberGrains.independent_backward_fiber_bound
+#print axioms BackwardFiberGrains.affineFiber_eq_quotient_filter
+#print axioms BackwardFiberGrains.affine_grain_count_mul_le
+#print axioms BackwardFiberGrains.affine_grain_count_le_div
+#print axioms BackwardFiberGrains.sum_classMass
+#print axioms BackwardFiberGrains.sum_denseClassRestriction
+#print axioms BackwardFiberGrains.retained_classMass_eq
+#print axioms BackwardFiberGrains.dense_class_retains_half
+#print axioms BackwardFiberGrains.dense_affine_grains
+#print axioms BackwardFiberGrains.independent_dense_grains

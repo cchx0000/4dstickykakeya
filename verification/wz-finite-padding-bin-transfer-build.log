@@ -1,0 +1,9 @@
+Using official Lean through a 2-compiler semaphore
+✔ [8706/8709] Built Theorems.Thm_StickyKakeya4_incidence_bin_transfer (2.6s)
+✔ [8707/8709] Built Theorems.Thm_StickyKakeya4_finite_cyclic_grid_padding (5.5s)
+✔ [8708/8709] Built Theorems.Thm_StickyKakeya4_tube_bin_count (7.4s)
+✔ [8709/8709] Built Theorems.Thm_StickyKakeya4_shear_bin_fibers (9.8s)
+Build completed successfully (8709 jobs).
+
+Command: STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_finite_cyclic_grid_padding +Theorems.Thm_StickyKakeya4_incidence_bin_transfer +Theorems.Thm_StickyKakeya4_shear_bin_fibers +Theorems.Thm_StickyKakeya4_tube_bin_count
+Confirmed exit code: 0

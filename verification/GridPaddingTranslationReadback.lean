@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_grid_padding_translation
+
+#print axioms GridPaddingTranslation.candidates_card
+#print axioms GridPaddingTranslation.bad_subset_cover
+#print axioms GridPaddingTranslation.measure_bad_le
+#print axioms GridPaddingTranslation.measurableSet_bad
+#print axioms GridPaddingTranslation.weighted_avoid
+#print axioms GridPaddingTranslation.measure_bad_iUnion_le
+#print axioms GridPaddingTranslation.weighted_translation
+#print axioms GridPaddingTranslation.weighted_vector_translation

@@ -1,0 +1,26 @@
+'IncidenceBinTransfer.mem_binFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.mem_heavyBins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.mem_kept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.kept_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.kept_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.bins_kept_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.sum_kept_eq_sum_heavy_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.card_bins_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.card_discarded_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.card_le_twice_kept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.card_kept_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.snd_injective_on_binFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.card_binFiber_le_oldCells_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.heavy_new_cell_fiber_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.mul_card_newCells_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.newCells_eq_image_oldCells_kept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.mul_card_newCells_le_kept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.kept_one_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.multiplicity_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.multiplicity_transfer_kept_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'IncidenceBinTransfer.multiplicity_transfer_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: /workspace/shared/lean-tools/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -DautoImplicit=false -DwarningAsError=true verification/IncidenceBinTransferReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: 19a886fb5ba38422e6b35c7c9b27752ca99878df192dea01f741273a322f7a60

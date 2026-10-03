@@ -136,6 +136,19 @@ and [audited proof](docs/FINITE_STATE_MEASURE_PROJECTION_ESCAPE.md) do not
 assert that original packing3 supplies few conditional phase-tail shapes.
 The general main theorem is still incomplete.
 
+The finite-volume route now has nine new constructive local modules:
+weighted self-uniformity on the same retained set, real and mesh-preserving
+cyclic padding, exact independent predecessor fibers with labelled grain
+weights, heavy-bin transfer, its actual global shear/per-tube counting
+inputs, and the combined physical multiplicity transfer. The four original-front finite-input constructors have fresh
+standard-only readbacks, so dense native input is already available without
+the final volume axiom. There are 138 new checked proofs and four additional
+input checks in this checkpoint. The combined metric closure, matched
+extremal multiplicities and actual transverse rich-layer construction are
+still open; see [the exact scope](docs/WZ_LOCAL_GEOMETRY_PROGRESS.md).
+This route would prove the auxiliary finite estimate rather than assume it;
+it does not assert a hereditary old-occurrence cap charge.
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

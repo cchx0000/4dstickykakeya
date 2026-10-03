@@ -1,0 +1,24 @@
+'BackwardFiberGrains.mem_affineFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.predecessor_fibers_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.backward_fiber_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.layered_backward_fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.prefixSpan_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.prefixSpan_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.directionSpan_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.prefixSpan_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.independent_prefix_direction_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.independent_backward_fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.affineFiber_eq_quotient_filter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.affine_grain_count_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.affine_grain_count_le_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.sum_classMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.sum_denseClassRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.retained_classMass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.dense_class_retains_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.dense_affine_grains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BackwardFiberGrains.independent_dense_grains' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: official Lean4.33.1 -DautoImplicit=false -DwarningAsError=true verification/BackwardFiberGrainsReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: b3b5cde0615e3e153ab69a03f9cf88e1a4dc62dbc810a5a8da97c1fa40e57675

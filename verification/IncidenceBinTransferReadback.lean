@@ -1,0 +1,24 @@
+import Theorems.Thm_StickyKakeya4_incidence_bin_transfer
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms IncidenceBinTransfer.mem_binFiber
+#print axioms IncidenceBinTransfer.mem_heavyBins
+#print axioms IncidenceBinTransfer.mem_kept
+#print axioms IncidenceBinTransfer.kept_subset
+#print axioms IncidenceBinTransfer.kept_fiber_eq
+#print axioms IncidenceBinTransfer.bins_kept_eq
+#print axioms IncidenceBinTransfer.sum_kept_eq_sum_heavy_fibers
+#print axioms IncidenceBinTransfer.card_bins_le
+#print axioms IncidenceBinTransfer.card_discarded_le
+#print axioms IncidenceBinTransfer.card_le_twice_kept
+#print axioms IncidenceBinTransfer.card_kept_le
+#print axioms IncidenceBinTransfer.snd_injective_on_binFiber
+#print axioms IncidenceBinTransfer.card_binFiber_le_oldCells_fiber
+#print axioms IncidenceBinTransfer.heavy_new_cell_fiber_lower
+#print axioms IncidenceBinTransfer.mul_card_newCells_le
+#print axioms IncidenceBinTransfer.newCells_eq_image_oldCells_kept
+#print axioms IncidenceBinTransfer.mul_card_newCells_le_kept
+#print axioms IncidenceBinTransfer.kept_one_eq
+#print axioms IncidenceBinTransfer.multiplicity_transfer
+#print axioms IncidenceBinTransfer.multiplicity_transfer_kept_support
+#print axioms IncidenceBinTransfer.multiplicity_transfer_ratio

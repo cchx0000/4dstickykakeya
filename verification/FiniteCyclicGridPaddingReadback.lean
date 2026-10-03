@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_finite_cyclic_grid_padding
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms FiniteCyclicGridPadding.cast_fiber_card
+#print axioms FiniteCyclicGridPadding.residue_fiber_card
+#print axioms FiniteCyclicGridPadding.residue_preimage_card
+#print axioms FiniteCyclicGridPadding.residue_val_eq
+#print axioms FiniteCyclicGridPadding.card_residue_interval_le
+#print axioms FiniteCyclicGridPadding.badResidues_card_le
+#print axioms FiniteCyclicGridPadding.bad_shift_card_mul_le
+#print axioms FiniteCyclicGridPadding.finite_weighted_avoid
+#print axioms FiniteCyclicGridPadding.card_biUnion_mul_le
+#print axioms FiniteCyclicGridPadding.cyclic_translation
+#print axioms FiniteCyclicGridPadding.cyclic_vector_translation

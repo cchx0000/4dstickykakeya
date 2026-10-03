@@ -1,0 +1,23 @@
+'SelfUniform.mass_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.degree_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.weight_le_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.degree_le_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.mass_insert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.degree_insert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.energy_insert_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.peeling_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.weighted_markov_extraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.nonempty_of_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.peeling_dichotomy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.height_ge_three_of_threshold_gt_one' depends on axioms: [propext, Quot.sound]
+'SelfUniform.threshold_drop_bound' depends on axioms: [propext, Quot.sound]
+'SelfUniform.height_upper_bound' depends on axioms: [propext, Quot.sound]
+'SelfUniform.sum_height_update' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.self_uniform_of_heights' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelfUniform.weighted_self_uniform_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: official Lean4.33.1 -DautoImplicit=false -DwarningAsError=true verification/SelfUniformIncidenceRefinementReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: e9c47a3d33d89a40b082ba4ec5f2c67b3c0d7fe32b6b9ed63a6a77557916c6c7

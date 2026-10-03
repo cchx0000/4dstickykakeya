@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_labelled_backward_fiber_grains
+
+#print axioms BackwardFiberGrains.labelled_classMass_eq
+#print axioms BackwardFiberGrains.labelled_grain_count_mul_le
+#print axioms BackwardFiberGrains.labelled_dense_affine_grains
+#print axioms BackwardFiberGrains.labelled_independent_dense_grains

@@ -1,0 +1,17 @@
+import Theorems.Thm_StickyKakeya4_shear_bin_fibers
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms ShearBinFibers.fiberPoint_injective
+#print axioms ShearBinFibers.triangularBin_fiberPoint
+#print axioms ShearBinFibers.triangularBin_eq_iff
+#print axioms ShearBinFibers.mem_fiber
+#print axioms ShearBinFibers.card_fiber
+#print axioms ShearBinFibers.triangularBin_fiber_ncard
+#print axioms ShearBinFibers.triangularBin_filter_card_le
+#print axioms ShearBinFibers.actualBin_space
+#print axioms ShearBinFibers.actualBin_time
+#print axioms ShearBinFibers.actualBin_eq_triangularBin
+#print axioms ShearBinFibers.actualBin_eq_iff
+#print axioms ShearBinFibers.actualBin_fiber_ncard
+#print axioms ShearBinFibers.actualBin_filter_card_le
+#print axioms ShearBinFibers.actualBin_filter_card_le_inv_rho
