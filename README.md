@@ -117,6 +117,16 @@ general coupled selector case remains open. A further checked
 `integral Z_r^theta <= C r^(3s theta)` for every `0<s<1` and
 `0<theta<1/3`, directly on the unmodified triangular source/time law.
 
+A separate [stationary digit-graph argument](docs/STATIONARY_GRID_GRAPH_PROJECTION_ESCAPE.md)
+now treats arbitrary coupled full-grid digit maps, using an explicit external
+Corso--Shmerkin scale-transfer theorem. Its
+[driven extension](docs/DRIVEN_GRID_GRAPH_PROJECTION_ESCAPE.md) and
+[finite-state full-front consequence](docs/FINITE_STATE_GRAPH_FRONT_ESCAPE.md)
+are handwritten research, not Lean endpoints. The supporting exact
+[polynomial small-value estimate](docs/SCALAR_PENCIL_PREFIX_SUBSPACE_OCCUPANCY.md)
+is independently formalized (four standard-only declarations). General
+selectors have not been shown to admit the required digit structure.
+
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
 latest full default build passed **185 project modules** and **8,894 Lake jobs**,
@@ -127,7 +137,8 @@ The additional filtration, envelope, whole-parent, and common-time targets passe
 passed **788 jobs**, the triangular endpoint passed **8,714 jobs**,
 the original-charge endpoint passed **8,718 jobs**, and the rank-one/native-time
 and actual-moment endpoints passed **8,723 jobs**. The arbitrary-input
-rank-one target passed **8,720 jobs**; the current **208-module**
+rank-one target passed **8,720 jobs**, and the elementary polynomial target
+passed **8,706 jobs**; the current **209-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

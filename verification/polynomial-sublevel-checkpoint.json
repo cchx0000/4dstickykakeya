@@ -1,0 +1,66 @@
+{
+  "generated_at_utc": "2026-10-03T11:28:04.477759+00:00",
+  "base_commit": "0928e7df43cdbbf069f9c9263c223d56f5c4a685",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_polynomial_sublevel_measure.lean": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d"
+  },
+  "declarations": [
+    {
+      "declaration": "PolynomialSublevelMeasure.pow_card_le_norm_prod",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/polynomial-sublevel-measure-axioms.log"
+    },
+    {
+      "declaration": "PolynomialSublevelMeasure.exists_root_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/polynomial-sublevel-measure-axioms.log"
+    },
+    {
+      "declaration": "PolynomialSublevelMeasure.volume_sublevel_mul_pow",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/polynomial-sublevel-measure-axioms.log"
+    },
+    {
+      "declaration": "PolynomialSublevelMeasure.volume_sublevel",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/polynomial-sublevel-measure-axioms.log"
+    }
+  ],
+  "declaration_count": 4,
+  "targeted_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8706,
+    "log": "verification/polynomial-sublevel-measure-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_polynomial_sublevel_measure"
+  },
+  "strict_source_and_import_readback": "passed",
+  "prior_208_module_hashes_unchanged": true,
+  "full_209_module_rebuild_run": false,
+  "handwritten_research_notes": [
+    "docs/SCALAR_PENCIL_PREFIX_SUBSPACE_OCCUPANCY.md",
+    "docs/STATIONARY_GRID_GRAPH_PROJECTION_ESCAPE.md",
+    "docs/DRIVEN_GRID_GRAPH_PROJECTION_ESCAPE.md",
+    "docs/FINITE_STATE_GRAPH_FRONT_ESCAPE.md",
+    "docs/MACRO_BLOCK_CONDITIONAL_DEPENDENCE_TEST.md"
+  ],
+  "entropy_transfer_formalized": false,
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+}

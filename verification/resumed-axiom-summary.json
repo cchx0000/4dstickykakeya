@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T10:56:41.495478+00:00",
-  "previous_checkpoint": "e22984c9416bf3ce8b124d208515656cca3ae09b",
+  "generated_at_utc": "2026-10-03T11:28:04.477759+00:00",
+  "previous_checkpoint": "0928e7df43cdbbf069f9c9263c223d56f5c4a685",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 1176,
+  "total_new_checked_declarations": 1180,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -95,7 +95,8 @@
     "verification/root-tail-moment-axioms.log": 5,
     "verification/triangular-root-moment-axioms.log": 5,
     "verification/invertible-front-frostman-transport-axioms.log": 15,
-    "verification/rank-one-general-input-escape-axioms.log": 14
+    "verification/rank-one-general-input-escape-axioms.log": 14,
+    "verification/polynomial-sublevel-measure-axioms.log": 4
   },
   "checks": [
     {
@@ -9858,6 +9859,42 @@
         "Quot.sound"
       ],
       "log": "verification/rank-one-general-input-escape-axioms.log"
+    },
+    {
+      "declaration": "PolynomialSublevelMeasure.pow_card_le_norm_prod",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/polynomial-sublevel-measure-axioms.log"
+    },
+    {
+      "declaration": "PolynomialSublevelMeasure.exists_root_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/polynomial-sublevel-measure-axioms.log"
+    },
+    {
+      "declaration": "PolynomialSublevelMeasure.volume_sublevel_mul_pow",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/polynomial-sublevel-measure-axioms.log"
+    },
+    {
+      "declaration": "PolynomialSublevelMeasure.volume_sublevel",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/polynomial-sublevel-measure-axioms.log"
     }
   ],
   "source_sha256": {
@@ -9952,14 +9989,15 @@
     "Theorems/Thm_StickyKakeya4_root_tail_moment.lean": "5062216e4bfdcfc528bdad1cb7d255bf8737867f1348289b58705070ce0b4549",
     "Theorems/Thm_StickyKakeya4_triangular_root_moment.lean": "1e6029b50a0874520bf51d3ec41bc483e165b27b8fca414584259a74cffa8c69",
     "Theorems/Thm_StickyKakeya4_invertible_front_frostman_transport.lean": "3a518b37d3d05a8518264148894c7e3d67e650115cb0288340428add1e52294d",
-    "Theorems/Thm_StickyKakeya4_rank_one_general_input_escape.lean": "591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc"
+    "Theorems/Thm_StickyKakeya4_rank_one_general_input_escape.lean": "591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc",
+    "Theorems/Thm_StickyKakeya4_polynomial_sublevel_measure.lean": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
   "targeted_lake_build_status": "passed",
   "targeted_lake_build_exit_code": 0,
-  "targeted_lake_build_jobs": 8720,
-  "targeted_lake_build_log": "verification/rank-one-general-input-build.log",
+  "targeted_lake_build_jobs": 8706,
+  "targeted_lake_build_log": "verification/polynomial-sublevel-measure-build.log",
   "full_tracked_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -10000,19 +10038,18 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 1085,
+  "resumed_phase_declaration_count": 1089,
   "latest_targeted_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8720,
-    "log": "verification/rank-one-general-input-build.log",
-    "command": "STICKY_BUILD_JOBS=3 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_rank_one_general_input_escape",
-    "source_base_commit": "e22984c9416bf3ce8b124d208515656cca3ae09b",
+    "lake_jobs": 8706,
+    "log": "verification/polynomial-sublevel-measure-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_polynomial_sublevel_measure",
+    "source_base_commit": "0928e7df43cdbbf069f9c9263c223d56f5c4a685",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_invertible_front_frostman_transport.lean": "3a518b37d3d05a8518264148894c7e3d67e650115cb0288340428add1e52294d",
-      "Theorems/Thm_StickyKakeya4_rank_one_general_input_escape.lean": "591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc"
+      "Theorems/Thm_StickyKakeya4_polynomial_sublevel_measure.lean": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d"
     },
-    "module_count": 2,
-    "scope": "two new coordinate/support transport modules and dependencies; not a full 208-module rebuild"
+    "module_count": 1,
+    "scope": "one new elementary polynomial measure module and pinned dependencies; not a full 209-module rebuild"
   }
 }

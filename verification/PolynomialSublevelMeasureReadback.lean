@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_polynomial_sublevel_measure
+
+#print axioms PolynomialSublevelMeasure.pow_card_le_norm_prod
+#print axioms PolynomialSublevelMeasure.exists_root_close
+#print axioms PolynomialSublevelMeasure.volume_sublevel_mul_pow
+#print axioms PolynomialSublevelMeasure.volume_sublevel

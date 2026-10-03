@@ -3,6 +3,30 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Polynomial small-value measure and digit-model research
+
+The new elementary module proves the exact bound
+`volume {|p(t)|<delta} <= 2d (delta/|leadingCoeff p|)^(1/d)` for every real
+polynomial of positive degree d and delta>0. It constructs the interval
+cover from complex roots and derives the measure estimate; no polynomial
+sublevel bound is assumed. Its radius form includes constant/zero
+polynomials and radius zero.
+
+All **four** theorem declarations passed strict source and proper import
+readbacks with standard logical axioms only. The target passed **8,706
+jobs**, exit 0. Cumulative readbacks are **1,180**; all prior 208 source
+hashes are unchanged. The current **209** modules have not received a new
+full default rebuild. Exact evidence:
+[polynomial-sublevel-checkpoint.json](polynomial-sublevel-checkpoint.json).
+
+The five new research notes are explicitly handwritten. Polynomial-minor
+prefix counting is independently audited; stationary and driven projection
+conclusions additionally use an identified external Corso--Shmerkin
+entropy theorem. Finite-state return loops prove a full support-set
+conclusion, not arbitrary positive-source inheritance or original-root
+charge. None of these entropy conclusions is a new Lean axiom or a
+replacement of the unresolved main theorem.
+
 ## Arbitrary input direction in the actual one-channel feedback theorem
 
 The final endpoint now covers `c+L a+u f(v dot a)` for arbitrary matrix and

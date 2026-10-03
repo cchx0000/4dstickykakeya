@@ -1,0 +1,9 @@
+'PolynomialSublevelMeasure.pow_card_le_norm_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PolynomialSublevelMeasure.exists_root_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PolynomialSublevelMeasure.volume_sublevel_mul_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PolynomialSublevelMeasure.volume_sublevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: official Lean 4.33.1 -DautoImplicit=false -DwarningAsError=true verification/PolynomialSublevelMeasureReadback.lean
+LEAN_PATH: project and pinned package .lake/build/lib/lean directories
+Confirmed exit code: 0
+Source SHA256: fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d

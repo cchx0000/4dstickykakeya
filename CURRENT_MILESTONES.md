@@ -111,6 +111,19 @@ rank-one endpoint, this adds 57 standard-only checked declarations. See
 [the moment](docs/TRIANGULAR_ORIGINAL_ROOT_MOMENT.md) and
 [the one-channel theorem](docs/RANK_ONE_NATIVE_TIME_ESCAPE.md).
 
+The new digit-model research supplies a broader handwritten escape for
+stationary coupled full-grid graphs, a uniquely ergodic independently driven
+version, and a finite-state FULL-front support consequence. The precise
+external dependency is Corso--Shmerkin Proposition 3.8; these results are
+not counted as Lean completion or as a representation of the general
+original selector. The finite-state loop argument does not preserve an
+arbitrary positive original-source restriction. The elementary polynomial
+small-value bound used in their geometric prefix analysis is separately
+strictly proved in Lean (four declarations). See
+[the stationary proof](docs/STATIONARY_GRID_GRAPH_PROJECTION_ESCAPE.md),
+[all-subspace counting](docs/SCALAR_PENCIL_PREFIX_SUBSPACE_OCCUPANCY.md),
+and [the exact scope of finite-state loops](docs/FINITE_STATE_GRAPH_FRONT_ESCAPE.md).
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

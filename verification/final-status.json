@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-03T10:56:41.495478+00:00",
-  "source_commit_before_report": "e22984c9416bf3ce8b124d208515656cca3ae09b",
-  "project_module_count": 208,
+  "generated_at_utc": "2026-10-03T11:28:04.477759+00:00",
+  "source_commit_before_report": "0928e7df43cdbbf069f9c9263c223d56f5c4a685",
+  "project_module_count": 209,
   "aggregate_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -37,7 +37,7 @@
     "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
   },
   "new_declaration_axiom_checks": {
-    "count": 1176,
+    "count": 1180,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1110,6 +1110,11 @@
       "status": "passed",
       "source_sha256": "591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc",
       "verification_scope": "general-input rank-one target plus strict source and import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_polynomial_sublevel_measure": {
+      "status": "passed",
+      "source_sha256": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d",
+      "verification_scope": "polynomial small-value target and strict source/import readback"
     }
   },
   "unconditional_main_completed": false,
@@ -1118,16 +1123,15 @@
   "latest_targeted_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8720,
-    "log": "verification/rank-one-general-input-build.log",
-    "command": "STICKY_BUILD_JOBS=3 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_rank_one_general_input_escape",
-    "source_base_commit": "e22984c9416bf3ce8b124d208515656cca3ae09b",
+    "lake_jobs": 8706,
+    "log": "verification/polynomial-sublevel-measure-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_polynomial_sublevel_measure",
+    "source_base_commit": "0928e7df43cdbbf069f9c9263c223d56f5c4a685",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_invertible_front_frostman_transport.lean": "3a518b37d3d05a8518264148894c7e3d67e650115cb0288340428add1e52294d",
-      "Theorems/Thm_StickyKakeya4_rank_one_general_input_escape.lean": "591aa742b4c61fbe3825fa9c829c8983b90bef54d50a8bcf315f391d117630fc"
+      "Theorems/Thm_StickyKakeya4_polynomial_sublevel_measure.lean": "fe0ce0fe2632249113da9a7f5c0fdd7bd49df1d1ee29cea0ca19961c3f21112d"
     },
-    "module_count": 2,
-    "scope": "two new coordinate/support transport modules and dependencies; not a full 208-module rebuild"
+    "module_count": 1,
+    "scope": "one new elementary polynomial measure module and pinned dependencies; not a full 209-module rebuild"
   },
   "current_turn_full_build_rerun": false,
   "filtration_repair": {
@@ -1190,5 +1194,23 @@
     "declaration_count": 29,
     "general_selector_decomposition_proved": false,
     "evidence": "verification/rank-one-general-input-checkpoint.json"
+  },
+  "polynomial_sublevel_bound": {
+    "status": "exact real-polynomial sublevel measure bound from complex factorization, all positive degrees; no sublevel certificate",
+    "declaration_count": 4,
+    "evidence": "verification/polynomial-sublevel-checkpoint.json"
+  },
+  "digit_model_research": {
+    "status": "audited handwritten stationary/driven/sparse-loop projection arguments with explicit external Corso-Shmerkin entropy transfer",
+    "notes": [
+      "docs/SCALAR_PENCIL_PREFIX_SUBSPACE_OCCUPANCY.md",
+      "docs/STATIONARY_GRID_GRAPH_PROJECTION_ESCAPE.md",
+      "docs/DRIVEN_GRID_GRAPH_PROJECTION_ESCAPE.md",
+      "docs/FINITE_STATE_GRAPH_FRONT_ESCAPE.md",
+      "docs/MACRO_BLOCK_CONDITIONAL_DEPENDENCE_TEST.md"
+    ],
+    "lean_endpoint_completed": false,
+    "general_selector_representation_derived": false,
+    "finite_state_arbitrary_positive_source_inheritance_proved": false
   }
 }
