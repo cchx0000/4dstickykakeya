@@ -57,6 +57,25 @@ proves an elementary predictable-plane bound by hand, but finds no justified
 inverse statement deriving the needed predictable geometry from the original
 hypotheses. It adds no assumption or axiom to the final target.
 
+The finite incidence regularization now constructs actual nested sets
+`C subset B subset A`, retaining at least a fixed profile-count fraction of
+the original cardinality or positive integer weight. Every root in C sees
+local B-counts within the prescribed factor of every other root in B, for
+all listed neighborhood types. Eleven declarations are strictly checked.
+This avoids independently normalized local laws, but supplies neither a
+large common density nor the missing angular contraction. See
+[the constructed uniform core](docs/UNIFORM_INCIDENCE_CORE.md).
+
+The renewed two-time attack has precise constraints: two fixed projections
+can both have Hausdorff dimension zero while the original phase carrier is
+Ahlfors three-dimensional, and relative heavy children may occur beyond every
+fixed power of an already chosen parent radius. The full actual front in
+that test still has dimension four. The continuum annular bound is
+`C D T^2 r`; converting it to a heavy-time bound retains the inverse actual
+cap density. These tests isolate missing implications without refuting the
+full original hypotheses. Their detailed handwritten audits are linked from
+README; no failed inference has been added as a theorem or axiom.
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

@@ -80,13 +80,25 @@ time statement. Its thirteen declarations are strictly verified.
 records a valid predictable-plane estimate and the still-missing inverse
 geometry; its arguments are handwritten, not Lean-certified.
 
+A new [finite incidence core](docs/UNIFORM_INCIDENCE_CORE.md) constructs
+quantitatively large actual subsets with all listed local densities comparable
+inside the same parent. It preserves positive integer occurrence weights and
+has eleven strict standard-only theorem readbacks. This supplies a concrete
+regularization step; the subsequent geometric gain remains open.
+The [two-time scale test](docs/TWO_TIME_TRANSPORT_SCALE_TEST.md),
+[finite-time arithmetic test](docs/FINITE_TIME_ENTROPY_ARITHMETIC_TEST.md), and
+[continuum packet audit](docs/CONTINUUM_PACKET_CAPACITY_AUDIT.md) record the
+independently checked limitations of proposed shortcuts. These three notes
+are handwritten, not Lean-certified.
+
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
 latest full default build passed **185 project modules** and **8,894 Lake jobs**,
 including the one-source/all-slack and variable-time line-hairbrush constructions.
 Its source snapshot is recorded in `verification/hairbrush-escape-default-build.log`.
 The additional filtration, envelope, whole-parent, and common-time targets passed
-**1,948**, **1,949**, **8,757**, and **8,759 jobs**; the current **191-module**
+**1,948**, **1,949**, **8,757**, and **8,759 jobs**. The new independent incidence-core target
+passed **788 jobs**; the current **192-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

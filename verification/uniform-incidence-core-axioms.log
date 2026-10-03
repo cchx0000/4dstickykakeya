@@ -1,0 +1,29 @@
+'StickyKakeya4.UniformIncidenceCore.exists_large_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.profile_rank_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.uniformize_profiles_of_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.uniformize_profiles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.incidenceProfile_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.uniformize_local_incidence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.exists_large_weight_fiber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.uniformize_weighted_profiles_of_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.uniformize_weighted_profiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.weightedIncidenceProfile_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.UniformIncidenceCore.uniformize_weighted_local_incidence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/UniformIncidenceCoreReadback.lean
+Confirmed exit code: 0
+Source SHA256: cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7

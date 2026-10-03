@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_uniform_incidence_core
+
+#print axioms StickyKakeya4.UniformIncidenceCore.exists_large_fiber
+#print axioms StickyKakeya4.UniformIncidenceCore.profile_rank_lt
+#print axioms StickyKakeya4.UniformIncidenceCore.uniformize_profiles_of_bound
+#print axioms StickyKakeya4.UniformIncidenceCore.uniformize_profiles
+#print axioms StickyKakeya4.UniformIncidenceCore.incidenceProfile_mono
+#print axioms StickyKakeya4.UniformIncidenceCore.uniformize_local_incidence
+#print axioms StickyKakeya4.UniformIncidenceCore.exists_large_weight_fiber
+#print axioms StickyKakeya4.UniformIncidenceCore.uniformize_weighted_profiles_of_bound
+#print axioms StickyKakeya4.UniformIncidenceCore.uniformize_weighted_profiles
+#print axioms StickyKakeya4.UniformIncidenceCore.weightedIncidenceProfile_mono
+#print axioms StickyKakeya4.UniformIncidenceCore.uniformize_weighted_local_incidence

@@ -1,0 +1,126 @@
+{
+  "generated_at_utc": "2026-10-03T09:19:56.495869+00:00",
+  "base_commit": "6e2c2a2dc2c3a071e64802be46dba2c0386c2a52",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_uniform_incidence_core.lean": "cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7"
+  },
+  "declarations": [
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.exists_large_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.profile_rank_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_profiles_of_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_profiles",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.incidenceProfile_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_local_incidence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.exists_large_weight_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_weighted_profiles_of_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_weighted_profiles",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.weightedIncidenceProfile_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_weighted_local_incidence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    }
+  ],
+  "strict_source_exit_code": 0,
+  "strict_import_readback_exit_code": 0,
+  "targeted_build": {
+    "source_base_commit": "6e2c2a2dc2c3a071e64802be46dba2c0386c2a52",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_uniform_incidence_core.lean": "cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7"
+    },
+    "module_count": 1,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 788,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_uniform_incidence_core",
+    "log": "verification/uniform-incidence-core-build.log",
+    "scope": "one new independent finite incidence module; not a full 192-module rebuild"
+  },
+  "previous_191_source_hashes_unchanged": true,
+  "full_default_build_rerun": false,
+  "main_project_axiom_removed": false
+}

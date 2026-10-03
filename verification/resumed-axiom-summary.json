@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T05:48:36.719800+00:00",
-  "previous_checkpoint": "5ee8d4e763adfc98b4ca4f942301ce9649184bf8",
+  "generated_at_utc": "2026-10-03T09:19:56.495869+00:00",
+  "previous_checkpoint": "6e2c2a2dc2c3a071e64802be46dba2c0386c2a52",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 1004,
+  "total_new_checked_declarations": 1015,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -78,7 +78,8 @@
     "verification/disjoint-positive-exhaustion-axioms.log": 3,
     "verification/whole-parent-heavy-bush-axioms.log": 6,
     "verification/common-time-slice-cover-axioms.log": 6,
-    "verification/fixed-time-heavy-families-axioms.log": 7
+    "verification/fixed-time-heavy-families-axioms.log": 7,
+    "verification/uniform-incidence-core-axioms.log": 11
   },
   "checks": [
     {
@@ -8293,6 +8294,105 @@
         "Quot.sound"
       ],
       "log": "verification/fixed-time-heavy-families-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.exists_large_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.profile_rank_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_profiles_of_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_profiles",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.incidenceProfile_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_local_incidence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.exists_large_weight_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_weighted_profiles_of_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_weighted_profiles",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.weightedIncidenceProfile_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.UniformIncidenceCore.uniformize_weighted_local_incidence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-incidence-core-axioms.log"
     }
   ],
   "source_sha256": {
@@ -8370,14 +8470,15 @@
     "Theorems/Thm_StickyKakeya4_disjoint_positive_exhaustion.lean": "a3d6616aad7230346f5bda437bbe76eff2fe7dbdf7285439d0b376a796ae49b9",
     "Theorems/Thm_StickyKakeya4_whole_parent_heavy_bush.lean": "5339e5678dbd250ddb14858c733f9eb4e64f5d1f9ea4526a7a631a43d46cca11",
     "Theorems/Thm_StickyKakeya4_common_time_slice_cover.lean": "0c35c60c4d55f140f67545833adf09d9e662e1328450d0a7267da0a4f0f2f8fd",
-    "Theorems/Thm_StickyKakeya4_fixed_time_heavy_families.lean": "d33872d3c1bb245438cb0462b5f812d8d1d482d1d43938db588463558c7b527d"
+    "Theorems/Thm_StickyKakeya4_fixed_time_heavy_families.lean": "d33872d3c1bb245438cb0462b5f812d8d1d482d1d43938db588463558c7b527d",
+    "Theorems/Thm_StickyKakeya4_uniform_incidence_core.lean": "cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
   "targeted_lake_build_status": "passed",
   "targeted_lake_build_exit_code": 0,
-  "targeted_lake_build_jobs": 8759,
-  "targeted_lake_build_log": "verification/fixed-time-heavy-families-build.log",
+  "targeted_lake_build_jobs": 788,
+  "targeted_lake_build_log": "verification/uniform-incidence-core-build.log",
   "full_tracked_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -8418,19 +8519,18 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 913,
+  "resumed_phase_declaration_count": 924,
   "latest_targeted_build": {
-    "source_base_commit": "5ee8d4e763adfc98b4ca4f942301ce9649184bf8",
+    "source_base_commit": "6e2c2a2dc2c3a071e64802be46dba2c0386c2a52",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_common_time_slice_cover.lean": "0c35c60c4d55f140f67545833adf09d9e662e1328450d0a7267da0a4f0f2f8fd",
-      "Theorems/Thm_StickyKakeya4_fixed_time_heavy_families.lean": "d33872d3c1bb245438cb0462b5f812d8d1d482d1d43938db588463558c7b527d"
+      "Theorems/Thm_StickyKakeya4_uniform_incidence_core.lean": "cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7"
     },
-    "module_count": 2,
+    "module_count": 1,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8759,
-    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_fixed_time_heavy_families",
-    "log": "verification/fixed-time-heavy-families-build.log",
-    "scope": "two new common-time modules and their dependencies; not a full 191-module rebuild"
+    "lake_jobs": 788,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_uniform_incidence_core",
+    "log": "verification/uniform-incidence-core-build.log",
+    "scope": "one new independent finite incidence module; not a full 192-module rebuild"
   }
 }

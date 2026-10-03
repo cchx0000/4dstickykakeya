@@ -3,6 +3,28 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual finite incidence cores and original integer weights
+
+The new module constructs nested actual finite sets with quantitative
+retention and simultaneous local-count comparisons inside the same parent.
+Its proof uses largest profile classes and a finite decreasing coordinate
+rank; the integer-weight endpoint keeps the same original weights throughout.
+No geometric gain, cap-conservation premise, or inverse node-mass estimate is
+hidden in its conclusion.
+
+All **11** theorem declarations passed strict source and import readback
+with only the three standard logical axioms. The independent targeted build
+passed **788 jobs**, exit 0. Cumulative recorded readbacks are **1,015**;
+all 191 earlier source hashes are unchanged. This is not a fresh full default
+build of the current **192** modules. See
+[uniform-incidence-core-checkpoint.json](uniform-incidence-core-checkpoint.json)
+and [the mathematical scope](../docs/UNIFORM_INCIDENCE_CORE.md).
+
+Three independently reviewed handwritten notes record two-time transport,
+finite-time arithmetic, and continuum packet-capacity tests. They are not
+included in the eleven Lean declarations and do not claim a counterexample
+to the original theorem. The final WZ project-axiom dependency is unchanged.
+
 ## One common actual time for all heavy-family requests
 
 The compact-front slicing module constructs arbitrarily cheap finite spatial
