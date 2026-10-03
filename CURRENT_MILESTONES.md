@@ -193,6 +193,13 @@ keeps the remaining actual tube-family and sheared-grid callers explicit;
 these local results do not close the final volume theorem.
 [Formal scope](docs/WZ_NATIVE_ALIGNMENT_INTERFACES.md).
 
+Genuine tube traces now construct the finite profiles and their actual
+geometric/AD bounds. Explicit tube expansion/local-cell covers, noisy affine
+image counts, scalar KT slope consistency and exact nested-plane quantization
+are verified. The93 new proofs and259-module full build pass. The complete
+native caller and later nonlinear expansion remain open;
+[exact scope](docs/WZ_TUBE_PROFILE_AND_SLOPE.md).
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

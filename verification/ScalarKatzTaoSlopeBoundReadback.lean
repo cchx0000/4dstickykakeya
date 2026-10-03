@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_scalar_katz_tao_slope_bound
+
+#print axioms ScalarKatzTaoSlopeBound.four_scale_power
+#print axioms ScalarKatzTaoSlopeBound.global_cells_bound
+#print axioms ScalarKatzTaoSlopeBound.noisy_witness_interval
+#print axioms ScalarKatzTaoSlopeBound.noisy_cells_upper
+#print axioms ScalarKatzTaoSlopeBound.density_cells_lower
+#print axioms ScalarKatzTaoSlopeBound.ratio_power_bound
+#print axioms ScalarKatzTaoSlopeBound.noisy_slope_power
+#print axioms ScalarKatzTaoSlopeBound.scalar_slope_bound

@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T17:35:40.729883+00:00",
+  "generated_at_utc": "2026-10-03T18:15:44.540313+00:00",
   "previous_checkpoint": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 1834,
+  "total_new_checked_declarations": 1927,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -117,7 +117,8 @@
     "verification/wz-step6-geometric-callers-axioms.log": 153,
     "verification/wz-alignment-constructors-axioms.log": 88,
     "verification/wz-alignment-endpoints-axioms.log": 88,
-    "verification/wz-native-alignment-interfaces-axioms.log": 108
+    "verification/wz-native-alignment-interfaces-axioms.log": 108,
+    "verification/wz-tube-slope-axioms.log": 93
   },
   "checks": [
     {
@@ -15773,6 +15774,843 @@
         "Quot.sound"
       ],
       "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.axisDirection_unit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.InTube_center",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.mem_trace",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.mem_footprints",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.trace_mem_footprints",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.footprints_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.witness_trace",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.point_covered",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.parameter_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.inTube_diameter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.footprint_diameter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.coverProfile_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.coverProfile_empty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.coverProfile_positive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.finiteProfile_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.coverProfile_le_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.exists_maximizing_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.exists_nonempty_maximizing_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.footprint_linear_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.coverProfile_linear_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.floor_equal_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.same_grid_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.wholeCells_in_double_width",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.wholeCells_footprint_in_double_width",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.footprint_AD_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ActualTubeFootprintProfiles.coverProfile_AD_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.offsets_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.floor_error_in_menu",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.in_expanded_tube_exists_shift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.expanded_tube_coverCount_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.expanded_tube_le_actual_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.centered_parameter_rounding",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.in_long_tube_exists_shift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.alongMenu_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.long_tube_coverCount_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.expanded_long_tube_le_actual_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.parameters_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.local_tube_containment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.local_tube_fixed_length",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "TubeExpansionCover.local_cell_image_le_actual_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.same_floor_difference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.noisy_pair_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.integer_card_le_span",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.integer_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.noisy_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.noisy_image_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.delta_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.delta_image_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.labelled_noisy_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.labelled_noisy_image_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.coordinate_fiber_image_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NoisyAffineImageCount.coarse_noisy_image_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ScalarKatzTaoSlopeBound.four_scale_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ScalarKatzTaoSlopeBound.global_cells_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ScalarKatzTaoSlopeBound.noisy_witness_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ScalarKatzTaoSlopeBound.noisy_cells_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ScalarKatzTaoSlopeBound.density_cells_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ScalarKatzTaoSlopeBound.ratio_power_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ScalarKatzTaoSlopeBound.noisy_slope_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ScalarKatzTaoSlopeBound.scalar_slope_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.inverse_H",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.H_inverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.H_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.lower_representation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.higher_representation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.correction_difference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.correction_distance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.coefficientCost_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.H_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.snap_dist_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.quantized_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.coefficientCost_le_five",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.quantized_movement_bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.quantized_representations",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.constant_grain_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.quantizePoint_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.quantizePoint_higher_quotient",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.quantizePoint_quotient_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.constant_quotient_difference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.constant_quotient_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.noisy_constant_grain_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.residue_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.weighted_quantized_selection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.bottomHalf_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.bottomHalf_H",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.correctedSlope_half",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.bottomHalf_oldPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.normalized_coefficients",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.bottomHalf_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.dist_le_two_bottomHalf",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.contracted_quantized_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.constant_quantized_quotient_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "NestedPlaneQuantization.quantizePoint_representations",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-tube-slope-axioms.log"
     }
   ],
   "source_sha256": {
@@ -15913,7 +16751,12 @@
     "Theorems/Thm_StickyKakeya4_dyadic_ad_interpolation.lean": "0c1fe3348a43b782bc032651061a5e2330dc2419f71f4a83ed6095f8b3411b92",
     "Theorems/Thm_StickyKakeya4_finite_cell_label_reduction.lean": "074c9e54400c84327b315c9ec3e43e61815ed3654e9cae4c8bb67251cdbf4936",
     "Theorems/Thm_StickyKakeya4_parentwise_angular_selection.lean": "a84d8cdcf51a9abadd6b546562d53b3ef0479ad770e1473604d78ed3c171a43e",
-    "Theorems/Thm_StickyKakeya4_shifted_original_height_rescaling.lean": "28ce5ef77ae7545391abbc4d03be5590dcedf8b2cde9a5920501e98815ffb247"
+    "Theorems/Thm_StickyKakeya4_shifted_original_height_rescaling.lean": "28ce5ef77ae7545391abbc4d03be5590dcedf8b2cde9a5920501e98815ffb247",
+    "Theorems/Thm_StickyKakeya4_actual_tube_footprint_profiles.lean": "e27d08eb1e6f540665a856ca4f0957fa57568ae89ebb320ea0fcee03ce45f664",
+    "Theorems/Thm_StickyKakeya4_tube_expansion_cover.lean": "f25bcac79adda50745606c3581a5655ed7117f44668a9d0f643c4ca41af5ff68",
+    "Theorems/Thm_StickyKakeya4_noisy_affine_image_count.lean": "137e5af37b78592f50e2ab8b4ace1ba2bfcbba500e39bd8dfec610a9b76ff190",
+    "Theorems/Thm_StickyKakeya4_scalar_katz_tao_slope_bound.lean": "66107be4177df35a6221d834d09d0d5905a16ce000d048777cfc661b426eec50",
+    "Theorems/Thm_StickyKakeya4_nested_plane_quantization.lean": "30b4d84bd0ecaff9009cbf5163cd022a69371a565c60bc08c76e3a22e1c9e45a"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
@@ -15961,7 +16804,7 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 1743,
+  "resumed_phase_declaration_count": 1836,
   "latest_targeted_build": {
     "status": "passed",
     "exit_code": 0,
@@ -15982,5 +16825,5 @@
     },
     "module_count": 9
   },
-  "previous_checkpoint_tree": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40"
+  "previous_checkpoint_tree": "d211f810e04259436078000f9e03c1f89b6a95ce"
 }

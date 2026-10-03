@@ -3,6 +3,20 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Genuine tube profiles and derived slope consistency
+
+Five modules add **93 strict standard-only proved declarations**. They
+construct the actual tube footprint family and its profile bounds, explicit
+width/length/local-cell covers, noisy lattice-image counts, the scalar
+Katz--Tao slope estimate, and exact nested-plane correction/quantization.
+The full **259-module** default build passes **8,968 jobs**, exit0, with all
+previous254 hashes unchanged. Cumulative checks: **1,927**.
+
+The native configuration and full volume argument remain open, including
+the nonlinear expansion used by the later non-affine branch. See
+[scope](../docs/WZ_TUBE_PROFILE_AND_SLOPE.md) and
+[evidence](wz-tube-slope-checkpoint.json).
+
 ## Native grid, parentwise retention and original-height interfaces
 
 Seven modules add **108 strict standard-only proved declarations**. They

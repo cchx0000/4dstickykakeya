@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_tube_expansion_cover
+
+#print axioms TubeExpansionCover.offsets_card
+#print axioms TubeExpansionCover.floor_error_in_menu
+#print axioms TubeExpansionCover.in_expanded_tube_exists_shift
+#print axioms TubeExpansionCover.expanded_tube_coverCount_le
+#print axioms TubeExpansionCover.expanded_tube_le_actual_profile
+#print axioms TubeExpansionCover.centered_parameter_rounding
+#print axioms TubeExpansionCover.in_long_tube_exists_shift
+#print axioms TubeExpansionCover.alongMenu_card
+#print axioms TubeExpansionCover.long_tube_coverCount_le
+#print axioms TubeExpansionCover.expanded_long_tube_le_actual_profile
+#print axioms TubeExpansionCover.parameters_close
+#print axioms TubeExpansionCover.local_tube_containment
+#print axioms TubeExpansionCover.local_tube_fixed_length
+#print axioms TubeExpansionCover.local_cell_image_le_actual_profile

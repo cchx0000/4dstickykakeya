@@ -19,6 +19,13 @@ The earlier Prove2Me proposal is preserved in
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
+The [tube-profile and slope checkpoint](docs/WZ_TUBE_PROFILE_AND_SLOPE.md)
+constructs genuine tube trace profiles and their expansion bounds, derives
+slope consistency from actual noisy lattice images and Katz--Tao counts,
+and builds exact nested-plane corrections. Its 93 new proofs pass; the full
+259-module build succeeds. The remaining volume proof includes a substantive
+nonlinear expansion input, as well as native configuration assembly.
+
 The [native-interface checkpoint](docs/WZ_NATIVE_ALIGNMENT_INTERFACES.md)
 constructs original AD grid menus, parentwise angular retention, finite-range
 grid labels, all-scale interpolation and final-bin original-height selection.
@@ -191,8 +198,9 @@ the original-charge endpoint passed **8,718 jobs**, and the rank-one/native-time
 and actual-moment endpoints passed **8,723 jobs**. The arbitrary-input
 rank-one target passed **8,720 jobs**, and the elementary polynomial target
 passed **8,706 jobs**. Those were historical targeted checks. The current
-**254-module** default build passes **8,963 jobs**; its source hashes and
-full log are recorded in `verification/wz-native-alignment-interfaces-checkpoint.json`.
+latest default build, exact source hashes, and current module count are
+recorded in `verification/final-status.json`; detailed checkpoint evidence is
+collected in `verification/REPORT.md`.
 The fresh final-theorem axiom gate in `verification/wz225-main-axiom-gate.log`
 still fails exactly because the two main
 closure declarations use the preexisting WZ project axiom.

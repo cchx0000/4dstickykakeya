@@ -1,0 +1,35 @@
+import Theorems.Thm_StickyKakeya4_nested_plane_quantization
+
+#print axioms NestedPlaneQuantization.inverse_H
+#print axioms NestedPlaneQuantization.H_inverse
+#print axioms NestedPlaneQuantization.H_injective
+#print axioms NestedPlaneQuantization.lower_representation
+#print axioms NestedPlaneQuantization.higher_representation
+#print axioms NestedPlaneQuantization.correction_difference
+#print axioms NestedPlaneQuantization.correction_distance
+#print axioms NestedPlaneQuantization.coefficientCost_nonneg
+#print axioms NestedPlaneQuantization.H_dist_le
+#print axioms NestedPlaneQuantization.snap_dist_lt
+#print axioms NestedPlaneQuantization.quantized_movement
+#print axioms NestedPlaneQuantization.coefficientCost_le_five
+#print axioms NestedPlaneQuantization.quantized_movement_bounded
+#print axioms NestedPlaneQuantization.quantized_representations
+#print axioms NestedPlaneQuantization.constant_grain_labels
+#print axioms NestedPlaneQuantization.quantizePoint_movement
+#print axioms NestedPlaneQuantization.quantizePoint_higher_quotient
+#print axioms NestedPlaneQuantization.quantizePoint_quotient_witness
+#print axioms NestedPlaneQuantization.constant_quotient_difference
+#print axioms NestedPlaneQuantization.constant_quotient_error
+#print axioms NestedPlaneQuantization.noisy_constant_grain_movement
+#print axioms NestedPlaneQuantization.residue_separation
+#print axioms NestedPlaneQuantization.weighted_quantized_selection
+#print axioms NestedPlaneQuantization.bottomHalf_injective
+#print axioms NestedPlaneQuantization.bottomHalf_H
+#print axioms NestedPlaneQuantization.correctedSlope_half
+#print axioms NestedPlaneQuantization.bottomHalf_oldPoint
+#print axioms NestedPlaneQuantization.normalized_coefficients
+#print axioms NestedPlaneQuantization.bottomHalf_dist_le
+#print axioms NestedPlaneQuantization.dist_le_two_bottomHalf
+#print axioms NestedPlaneQuantization.contracted_quantized_movement
+#print axioms NestedPlaneQuantization.constant_quantized_quotient_witness
+#print axioms NestedPlaneQuantization.quantizePoint_representations

@@ -1,31 +1,31 @@
 {
-  "generated_at_utc": "2026-10-03T17:35:40.729883+00:00",
+  "generated_at_utc": "2026-10-03T18:15:44.540313+00:00",
   "source_commit_before_report": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
-  "project_module_count": 254,
+  "project_module_count": 259,
   "aggregate_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8963,
-    "log": "verification/wz254-default-build.log",
+    "lake_jobs": 8968,
+    "log": "verification/wz259-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40",
-    "module_count": 254,
-    "source_snapshot": "verification/wz254-source-snapshot.json",
-    "scope": "Full default build of all 254 modules; all previous 247 source hashes unchanged"
+    "source_base_tree": "d211f810e04259436078000f9e03c1f89b6a95ce",
+    "module_count": 259,
+    "source_snapshot": "verification/wz259-source-snapshot.json",
+    "scope": "Full default build of all 259 modules; all previous 254 source hashes unchanged"
   },
   "default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8963,
-    "log": "verification/wz254-default-build.log",
+    "lake_jobs": 8968,
+    "log": "verification/wz259-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40",
-    "module_count": 254,
-    "source_snapshot": "verification/wz254-source-snapshot.json",
-    "scope": "Full default build of all 254 modules; all previous 247 source hashes unchanged"
+    "source_base_tree": "d211f810e04259436078000f9e03c1f89b6a95ce",
+    "module_count": 259,
+    "source_snapshot": "verification/wz259-source-snapshot.json",
+    "scope": "Full default build of all 259 modules; all previous 254 source hashes unchanged"
   },
   "new_declaration_axiom_checks": {
-    "count": 1834,
+    "count": 1927,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1322,6 +1322,31 @@
       "status": "passed",
       "source_sha256": "28ce5ef77ae7545391abbc4d03be5590dcedf8b2cde9a5920501e98815ffb247",
       "verification_scope": "strict source, shared proper import and full 254-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_actual_tube_footprint_profiles": {
+      "status": "passed",
+      "source_sha256": "e27d08eb1e6f540665a856ca4f0957fa57568ae89ebb320ea0fcee03ce45f664",
+      "verification_scope": "strict source, shared proper import and full 259-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_tube_expansion_cover": {
+      "status": "passed",
+      "source_sha256": "f25bcac79adda50745606c3581a5655ed7117f44668a9d0f643c4ca41af5ff68",
+      "verification_scope": "strict source, shared proper import and full 259-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_noisy_affine_image_count": {
+      "status": "passed",
+      "source_sha256": "137e5af37b78592f50e2ab8b4ace1ba2bfcbba500e39bd8dfec610a9b76ff190",
+      "verification_scope": "strict source, shared proper import and full 259-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_scalar_katz_tao_slope_bound": {
+      "status": "passed",
+      "source_sha256": "66107be4177df35a6221d834d09d0d5905a16ce000d048777cfc661b426eec50",
+      "verification_scope": "strict source, shared proper import and full 259-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_nested_plane_quantization": {
+      "status": "passed",
+      "source_sha256": "30b4d84bd0ecaff9009cbf5163cd022a69371a565c60bc08c76e3a22e1c9e45a",
+      "verification_scope": "strict source, shared proper import and full 259-module default build"
     }
   },
   "unconditional_main_completed": false,
@@ -1481,13 +1506,13 @@
   "previous_default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8956,
-    "log": "verification/wz247-default-build.log",
+    "lake_jobs": 8963,
+    "log": "verification/wz254-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "502790d3925958caf3c207ee080126424cb1815e",
-    "module_count": 247,
-    "source_snapshot": "verification/wz247-source-snapshot.json",
-    "scope": "Full default build of all247 modules; all previous240 source hashes unchanged"
+    "source_base_tree": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40",
+    "module_count": 254,
+    "source_snapshot": "verification/wz254-source-snapshot.json",
+    "scope": "Full default build of all 254 modules; all previous 247 source hashes unchanged"
   },
   "wz_step6_geometric_callers": {
     "evidence": "verification/wz-step6-geometric-callers-checkpoint.json",
@@ -1502,7 +1527,7 @@
     "complete_aligned_slices_from_input": false,
     "finite_volume_theorem_complete": false
   },
-  "source_tree_before_report": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40",
+  "source_tree_before_report": "d211f810e04259436078000f9e03c1f89b6a95ce",
   "wz_alignment_constructors": {
     "evidence": "verification/wz-alignment-constructors-checkpoint.json",
     "declaration_count": 88,
@@ -1540,5 +1565,22 @@
     "final_shifted_native_time_bins_supported": true,
     "density_and_multiplicity_mechanisms_separate": true,
     "complete_native_alignment_and_reconstruction_caller": false
-  }
+  },
+  "wz_tube_profile_and_slope": {
+    "evidence": "verification/wz-tube-slope-checkpoint.json",
+    "declaration_count": 93,
+    "actual_geometric_tube_trace_family": true,
+    "actual_maximizers_and_parameters": true,
+    "width_length_and_local_cell_profile_transport": true,
+    "noisy_lattice_image_counts": true,
+    "scalar_KT_slope_bound_derived": true,
+    "exact_nested_plane_correction_and_quantization": true,
+    "complete_native_alignment_and_volume_theorem": false
+  },
+  "wz_volume_remaining_dependencies": [
+    "complete native configuration assembly",
+    "Section19 witness growth and final geometric concentration callers",
+    "affine/non-affine split in Lemmas20.2 and20.3",
+    "nonlinear expansion Theorem13.5 or a proved replacement"
+  ]
 }

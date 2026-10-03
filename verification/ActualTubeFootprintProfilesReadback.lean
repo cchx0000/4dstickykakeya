@@ -1,0 +1,28 @@
+import Theorems.Thm_StickyKakeya4_actual_tube_footprint_profiles
+
+#print axioms ActualTubeFootprintProfiles.axisDirection_unit
+#print axioms ActualTubeFootprintProfiles.InTube_center
+#print axioms ActualTubeFootprintProfiles.mem_trace
+#print axioms ActualTubeFootprintProfiles.mem_footprints
+#print axioms ActualTubeFootprintProfiles.trace_mem_footprints
+#print axioms ActualTubeFootprintProfiles.footprints_nonempty
+#print axioms ActualTubeFootprintProfiles.witness_trace
+#print axioms ActualTubeFootprintProfiles.point_covered
+#print axioms ActualTubeFootprintProfiles.parameter_spec
+#print axioms ActualTubeFootprintProfiles.inTube_diameter
+#print axioms ActualTubeFootprintProfiles.footprint_diameter
+#print axioms ActualTubeFootprintProfiles.coverProfile_mono
+#print axioms ActualTubeFootprintProfiles.coverProfile_empty
+#print axioms ActualTubeFootprintProfiles.coverProfile_positive
+#print axioms ActualTubeFootprintProfiles.finiteProfile_eq
+#print axioms ActualTubeFootprintProfiles.coverProfile_le_card
+#print axioms ActualTubeFootprintProfiles.exists_maximizing_tube
+#print axioms ActualTubeFootprintProfiles.exists_nonempty_maximizing_tube
+#print axioms ActualTubeFootprintProfiles.footprint_linear_bound
+#print axioms ActualTubeFootprintProfiles.coverProfile_linear_bound
+#print axioms ActualTubeFootprintProfiles.floor_equal_close
+#print axioms ActualTubeFootprintProfiles.same_grid_close
+#print axioms ActualTubeFootprintProfiles.wholeCells_in_double_width
+#print axioms ActualTubeFootprintProfiles.wholeCells_footprint_in_double_width
+#print axioms ActualTubeFootprintProfiles.footprint_AD_bound
+#print axioms ActualTubeFootprintProfiles.coverProfile_AD_bound
