@@ -1,0 +1,17 @@
+import Theorems.Thm_StickyKakeya4_separated_alignment_patches
+
+#print axioms SeparatedAlignmentPatches.residue_eq_emod
+#print axioms SeparatedAlignmentPatches.integer_residue_spacing
+#print axioms SeparatedAlignmentPatches.real_residue_spacing
+#print axioms SeparatedAlignmentPatches.maximum_weight_color
+#print axioms SeparatedAlignmentPatches.cell_bounds
+#print axioms SeparatedAlignmentPatches.same_cell_dist_lt
+#print axioms SeparatedAlignmentPatches.close_same_color_cell_eq
+#print axioms SeparatedAlignmentPatches.periodic_patch_isolation
+#print axioms SeparatedAlignmentPatches.periodic_patch_at_multiplier
+#print axioms SeparatedAlignmentPatches.floor_movement
+#print axioms SeparatedAlignmentPatches.quantization_coordinate_movement
+#print axioms SeparatedAlignmentPatches.quantization_dist_lt
+#print axioms SeparatedAlignmentPatches.shear_residue_separation
+#print axioms SeparatedAlignmentPatches.weighted_quantized_residue
+#print axioms SeparatedAlignmentPatches.weighted_quantization_at_mesh

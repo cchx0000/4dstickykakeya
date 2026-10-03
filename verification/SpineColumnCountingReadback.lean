@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_spine_column_counting
+
+#print axioms SpineColumnCounting.shear_close
+#print axioms SpineColumnCounting.floor_error
+#print axioms SpineColumnCounting.grid_shear_error
+#print axioms SpineColumnCounting.same_floor_scaled_close
+#print axioms SpineColumnCounting.same_cell_shear_close
+#print axioms SpineColumnCounting.labels_close_of_shared_cell
+#print axioms SpineColumnCounting.cell_label_count_le
+#print axioms SpineColumnCounting.columns_count_le
+#print axioms SpineColumnCounting.physical_spines_column_count

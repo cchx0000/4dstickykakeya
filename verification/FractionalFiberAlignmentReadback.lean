@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_fractional_fiber_alignment
+
+#print axioms FractionalFiberAlignment.card_le_cells_mul_real_capacity
+#print axioms FractionalFiberAlignment.columnTime_card_le
+#print axioms FractionalFiberAlignment.nearby_floors
+#print axioms FractionalFiberAlignment.card_neighborCells
+#print axioms FractionalFiberAlignment.spatialBall_cell_count
+#print axioms FractionalFiberAlignment.spatialBall_upper
+#print axioms FractionalFiberAlignment.fiberBall_upper
+#print axioms FractionalFiberAlignment.spatialBall_le_quotient_times_fiber
+#print axioms FractionalFiberAlignment.sum_fiber_card_eq_strip
+#print axioms FractionalFiberAlignment.strip_lower_from_fibers
+#print axioms FractionalFiberAlignment.original_mass_le_region
+#print axioms FractionalFiberAlignment.scale_lower
+#print axioms FractionalFiberAlignment.fractional_column_alignment

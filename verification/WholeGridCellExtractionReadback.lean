@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_whole_grid_cell_extraction
+
+#print axioms WholeGridCellExtraction.cell_mul
+#print axioms WholeGridCellExtraction.mem_extract
+#print axioms WholeGridCellExtraction.extract_subset
+#print axioms WholeGridCellExtraction.witness_subset_extract
+#print axioms WholeGridCellExtraction.ancestor_image_eq
+#print axioms WholeGridCellExtraction.fine_image_eq
+#print axioms WholeGridCellExtraction.residual_cell_images_disjoint
+#print axioms WholeGridCellExtraction.same_cell_coordinate_close
+#print axioms WholeGridCellExtraction.extract_has_original_near_witness

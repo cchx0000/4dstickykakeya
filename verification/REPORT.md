@@ -3,6 +3,22 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual alignment constructors
+
+Six modules add **88 strict standard-only proved declarations**: constructive
+disjoint extraction epochs and one global pruning budget, exact grid-ancestor
+images, singleton and fractional-fiber alignment counts, physical-spine
+column overlap and literal periodic patch isolation. All original labels and
+weights in their statements are preserved by the indicated restrictions.
+The full **240-module** default build passes **8,949 jobs**, exit 0; previous
+234 source hashes are unchanged. Cumulative readbacks: **1,638**.
+
+The whole original AD-input-to-alignment Lean caller remains incomplete,
+although its repaired handwritten proof has passed independent mathematical
+audits. The final WZ project axiom remains. See
+[formal scope](../docs/WZ_ALIGNMENT_CONSTRUCTORS.md) and
+[exact evidence](wz-alignment-constructors-checkpoint.json).
+
 ## Constructed slice, quotient and cubical-source geometry
 
 Nine new modules add **153 strict, standard-only proofs**. They construct

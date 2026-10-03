@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_small_fiber_alignment
+
+#print axioms SmallFiberAlignment.same_floor_close
+#print axioms SmallFiberAlignment.same_spatialCell_close
+#print axioms SmallFiberAlignment.mass_le_vertex_cap_mul_card
+#print axioms SmallFiberAlignment.strip_card_le_cells_mul_capacity
+#print axioms SmallFiberAlignment.quotient_card_le_reference_strip
+#print axioms SmallFiberAlignment.spatial_degree_le_quotient_card
+#print axioms SmallFiberAlignment.normal_fiber_eq_singleton
+#print axioms SmallFiberAlignment.construct_singleton_quotient
+#print axioms SmallFiberAlignment.small_fiber_quotient_AD

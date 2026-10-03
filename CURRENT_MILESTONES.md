@@ -168,6 +168,15 @@ build passes. These remove local construction premises, while complete
 aligned-slice geometry, admissible rescaling assembly and the final volume
 proof remain open. See [the exact scope](docs/WZ_STEP6_GEOMETRIC_CALLERS.md).
 
+The alignment preparation now has actual finite constructors for disjoint
+epochs and globally charged pruning, exact whole-cell ancestor images,
+fractional fiber/quotient estimates, geometric spine overlap and periodic
+patch isolation. All 88 new proofs are strictly checked; the complete
+240-module default build passes. The [combined handwritten repair](docs/WZ_LEMMA53_COMPLETE_PATCH_ADAPTER.md)
+is established at the mathematical level, while its complete Lean caller,
+slab/rank reconstruction and global volume proof remain unfinished.
+[Exact formal scope](docs/WZ_ALIGNMENT_CONSTRUCTORS.md).
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

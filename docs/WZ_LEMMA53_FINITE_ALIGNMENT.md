@@ -2,9 +2,9 @@
 
 Handwritten mathematical audit, 2026-10-03. Source: the supplied Wang–Zakharov arXiv:2609.22035 PDF, printed pp. 21–25 and 74–76. This is a mathematical derivation; its combined geometric callers are not all formalized. This note gives mathematical proofs and finite interfaces; it does not claim a new Lean theorem has compiled.
 
-A subsequent disjoint-fiber preparation repairs the point-retention and
-anchored-fiber steps identified below; its full integration and the remaining
-local patching are under audit. The discussion below records the precise
+A subsequent [complete handwritten adapter](WZ_LEMMA53_COMPLETE_PATCH_ADAPTER.md)
+repairs the point-retention, anchored-fiber, fractional-product and local
+patching steps identified below. Its combined Lean caller remains unfinished. The discussion below records the precise
 issue and the independent finite column construction, not a completed
 implementation of the entire alignment lemma.
 

@@ -1,0 +1,35 @@
+import Theorems.Thm_StickyKakeya4_disjoint_profile_epochs
+
+#print axioms DisjointProfileEpochs.population_mono
+#print axioms DisjointProfileEpochs.penalty_mono
+#print axioms DisjointProfileEpochs.penalty_delete_cell
+#print axioms DisjointProfileEpochs.mass_nil
+#print axioms DisjointProfileEpochs.mass_cons
+#print axioms DisjointProfileEpochs.exists_harvest
+#print axioms DisjointProfileEpochs.rank_pos
+#print axioms DisjointProfileEpochs.rank_mono
+#print axioms DisjointProfileEpochs.rank_drop
+#print axioms DisjointProfileEpochs.profileBudget_mono
+#print axioms DisjointProfileEpochs.profileBudget_drop
+#print axioms DisjointProfileEpochs.profileBudget_le
+#print axioms DisjointProfileEpochs.profileBudget_le_of_pow_bound
+#print axioms DisjointProfileEpochs.allPieces_nil
+#print axioms DisjointProfileEpochs.allPieces_cons
+#print axioms DisjointProfileEpochs.mass_append
+#print axioms DisjointProfileEpochs.exists_decomposition
+#print axioms DisjointProfileEpochs.mass_allPieces_le
+#print axioms DisjointProfileEpochs.Decomposition.exists_large_epoch
+#print axioms DisjointProfileEpochs.exists_large_disjoint_epoch
+#print axioms DisjointProfileEpochs.mem_support
+#print axioms DisjointProfileEpochs.support_subset
+#print axioms DisjointProfileEpochs.support_card
+#print axioms DisjointProfileEpochs.wholeCells_subset
+#print axioms DisjointProfileEpochs.inter_subset_wholeCells
+#print axioms DisjointProfileEpochs.wholeCells_nonempty
+#print axioms DisjointProfileEpochs.wholeCells_full
+#print axioms DisjointProfileEpochs.half_real_threshold_le_of_floor_le
+#print axioms DisjointProfileEpochs.Regular.half_real_threshold
+#print axioms DisjointProfileEpochs.penalty_floor_le_real_occupied_budget
+#print axioms DisjointProfileEpochs.penalty_floor_le_real_total_budget
+#print axioms DisjointProfileEpochs.penalty_floor_lt_card_of_real_budget
+#print axioms DisjointProfileEpochs.Decomposition.accounting_real_floor

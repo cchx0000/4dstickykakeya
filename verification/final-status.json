@@ -1,31 +1,31 @@
 {
-  "generated_at_utc": "2026-10-03T16:10:39.586599+00:00",
+  "generated_at_utc": "2026-10-03T16:39:07.077541+00:00",
   "source_commit_before_report": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
-  "project_module_count": 234,
+  "project_module_count": 240,
   "aggregate_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8943,
-    "log": "verification/wz234-default-build.log",
+    "lake_jobs": 8949,
+    "log": "verification/wz240-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
-    "module_count": 234,
-    "source_snapshot": "verification/wz234-source-snapshot.json",
-    "scope": "Full default build of all current 234 project modules, with 225 previous source hashes unchanged"
+    "source_base_tree": "bd2d3fc6ee9c289ce662e61abd5bf1971fc1ce9f",
+    "module_count": 240,
+    "source_snapshot": "verification/wz240-source-snapshot.json",
+    "scope": "Full default build of all 240 current modules; previous234 source hashes unchanged"
   },
   "default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8943,
-    "log": "verification/wz234-default-build.log",
+    "lake_jobs": 8949,
+    "log": "verification/wz240-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
-    "module_count": 234,
-    "source_snapshot": "verification/wz234-source-snapshot.json",
-    "scope": "Full default build of all current 234 project modules, with 225 previous source hashes unchanged"
+    "source_base_tree": "bd2d3fc6ee9c289ce662e61abd5bf1971fc1ce9f",
+    "module_count": 240,
+    "source_snapshot": "verification/wz240-source-snapshot.json",
+    "scope": "Full default build of all 240 current modules; previous234 source hashes unchanged"
   },
   "new_declaration_axiom_checks": {
-    "count": 1550,
+    "count": 1638,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1222,6 +1222,36 @@
       "status": "passed",
       "source_sha256": "a3135b946f184e5597523778214dc67cd09796ed657e5e3992d1e66b491d5c6e",
       "verification_scope": "strict source, shared proper import and full 234-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_small_fiber_alignment": {
+      "status": "passed",
+      "source_sha256": "c2ed7af5223a58e8e71af6311f08917ac614d07b9a1d6e62d94b3d5eb0448fd2",
+      "verification_scope": "strict source, shared proper import and full 240-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_whole_grid_cell_extraction": {
+      "status": "passed",
+      "source_sha256": "50fcd4d1b00aff2f469d365e54dc49a6ecc8c439f131b530db42ce30181ba8de",
+      "verification_scope": "strict source, shared proper import and full 240-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_fractional_fiber_alignment": {
+      "status": "passed",
+      "source_sha256": "fe99c188e2d2f09978c9c91004c0bd2159cde9a3cdf62c50cc9f7c3b158d358a",
+      "verification_scope": "strict source, shared proper import and full 240-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_spine_column_counting": {
+      "status": "passed",
+      "source_sha256": "5d444f548a433cc977003a284d7df73a97bbbaf1c5afd3eb1518629a96fdb178",
+      "verification_scope": "strict source, shared proper import and full 240-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_disjoint_profile_epochs": {
+      "status": "passed",
+      "source_sha256": "4c44f8dce46322d4504d72d510802d36d2f288640b21a222d4dd4fdb3c7963e1",
+      "verification_scope": "strict source, shared proper import and full 240-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_separated_alignment_patches": {
+      "status": "passed",
+      "source_sha256": "32801f564d7c3a1927448f934d7b6315c4f46b4b2fcf1e0cda2954a51018aca2",
+      "verification_scope": "strict source, shared proper import and full 240-module default build"
     }
   },
   "unconditional_main_completed": false,
@@ -1381,12 +1411,13 @@
   "previous_default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8934,
-    "log": "verification/wz225-default-build.log",
+    "lake_jobs": 8943,
+    "log": "verification/wz234-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_snapshot_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
-    "module_count": 225,
-    "source_snapshot": "verification/wz225-source-snapshot.json"
+    "source_base_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
+    "module_count": 234,
+    "source_snapshot": "verification/wz234-source-snapshot.json",
+    "scope": "Full default build of all current 234 project modules, with 225 previous source hashes unchanged"
   },
   "wz_step6_geometric_callers": {
     "evidence": "verification/wz-step6-geometric-callers-checkpoint.json",
@@ -1400,5 +1431,19 @@
     "all_AD_CW_rescaling_callers_assembled": false,
     "complete_aligned_slices_from_input": false,
     "finite_volume_theorem_complete": false
+  },
+  "source_tree_before_report": "bd2d3fc6ee9c289ce662e61abd5bf1971fc1ce9f",
+  "wz_alignment_constructors": {
+    "evidence": "verification/wz-alignment-constructors-checkpoint.json",
+    "declaration_count": 88,
+    "actual_disjoint_profile_epochs": true,
+    "single_global_pruning_budget": true,
+    "real_threshold_rounding_without_ceiling_tax": true,
+    "literal_ancestor_image_identity": true,
+    "fractional_fiber_and_quotient_counts_constructed": true,
+    "physical_spine_overlap_derived": true,
+    "actual_patch_isolation_in_sup_metric": true,
+    "whole_Lemma53_lean_theorem_complete": false,
+    "handwritten_complete_adapter": "docs/WZ_LEMMA53_COMPLETE_PATCH_ADAPTER.md"
   }
 }

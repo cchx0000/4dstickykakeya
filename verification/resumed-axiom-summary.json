@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T16:10:39.586599+00:00",
+  "generated_at_utc": "2026-10-03T16:39:07.077541+00:00",
   "previous_checkpoint": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 1550,
+  "total_new_checked_declarations": 1638,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -114,7 +114,8 @@
     "verification/rich-directional-layers-axioms.log": 19,
     "verification/uniform-grain-partitions-axioms.log": 2,
     "verification/padded-physical-cell-witness-axioms.log": 5,
-    "verification/wz-step6-geometric-callers-axioms.log": 153
+    "verification/wz-step6-geometric-callers-axioms.log": 153,
+    "verification/wz-alignment-constructors-axioms.log": 88
   },
   "checks": [
     {
@@ -13235,6 +13236,793 @@
         "Quot.sound"
       ],
       "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "SmallFiberAlignment.same_floor_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SmallFiberAlignment.same_spatialCell_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SmallFiberAlignment.mass_le_vertex_cap_mul_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SmallFiberAlignment.strip_card_le_cells_mul_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SmallFiberAlignment.quotient_card_le_reference_strip",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SmallFiberAlignment.spatial_degree_le_quotient_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SmallFiberAlignment.normal_fiber_eq_singleton",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SmallFiberAlignment.construct_singleton_quotient",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SmallFiberAlignment.small_fiber_quotient_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "WholeGridCellExtraction.cell_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "WholeGridCellExtraction.mem_extract",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "WholeGridCellExtraction.extract_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "WholeGridCellExtraction.witness_subset_extract",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "WholeGridCellExtraction.ancestor_image_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "WholeGridCellExtraction.fine_image_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "WholeGridCellExtraction.residual_cell_images_disjoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "WholeGridCellExtraction.same_cell_coordinate_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "WholeGridCellExtraction.extract_has_original_near_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.card_le_cells_mul_real_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.columnTime_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.nearby_floors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.card_neighborCells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.spatialBall_cell_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.spatialBall_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.fiberBall_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.spatialBall_le_quotient_times_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.sum_fiber_card_eq_strip",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.strip_lower_from_fibers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.original_mass_le_region",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.scale_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "FractionalFiberAlignment.fractional_column_alignment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SpineColumnCounting.shear_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SpineColumnCounting.floor_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SpineColumnCounting.grid_shear_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SpineColumnCounting.same_floor_scaled_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SpineColumnCounting.same_cell_shear_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SpineColumnCounting.labels_close_of_shared_cell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SpineColumnCounting.cell_label_count_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SpineColumnCounting.columns_count_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SpineColumnCounting.physical_spines_column_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.population_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.penalty_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.penalty_delete_cell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.mass_nil",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.mass_cons",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.exists_harvest",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.rank_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.rank_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.rank_drop",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.profileBudget_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.profileBudget_drop",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.profileBudget_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.profileBudget_le_of_pow_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.allPieces_nil",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.allPieces_cons",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.mass_append",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.exists_decomposition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.mass_allPieces_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.Decomposition.exists_large_epoch",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.exists_large_disjoint_epoch",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.mem_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.support_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.support_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.wholeCells_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.inter_subset_wholeCells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.wholeCells_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.wholeCells_full",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.half_real_threshold_le_of_floor_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.Regular.half_real_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.penalty_floor_le_real_occupied_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.penalty_floor_le_real_total_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.penalty_floor_lt_card_of_real_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "DisjointProfileEpochs.Decomposition.accounting_real_floor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.residue_eq_emod",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.integer_residue_spacing",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.real_residue_spacing",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.maximum_weight_color",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.cell_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.same_cell_dist_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.close_same_color_cell_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.periodic_patch_isolation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.periodic_patch_at_multiplier",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.floor_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.quantization_coordinate_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.quantization_dist_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.shear_residue_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.weighted_quantized_residue",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
+    },
+    {
+      "declaration": "SeparatedAlignmentPatches.weighted_quantization_at_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-constructors-axioms.log"
     }
   ],
   "source_sha256": {
@@ -13355,7 +14143,13 @@
     "Theorems/Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening.lean": "255eeb69dc6a7ef1c48c5d47ff6845f6293a1af3b53d45d389ef5b73aa84b56e",
     "Theorems/Thm_StickyKakeya4_physical_rescaling_backbone_density.lean": "1d1bbf23d06e39285e6506c7f66d7903fef23b36fa9e4e419f875ce607d28a47",
     "Theorems/Thm_StickyKakeya4_two_tube_path_collision_count.lean": "678b87c8d1a2b1bf17dbdbbe08055b24d2e7e4eb5bd50b31cf66e82c885f959c",
-    "Theorems/Thm_StickyKakeya4_padded_rescaling_cubical_source.lean": "a3135b946f184e5597523778214dc67cd09796ed657e5e3992d1e66b491d5c6e"
+    "Theorems/Thm_StickyKakeya4_padded_rescaling_cubical_source.lean": "a3135b946f184e5597523778214dc67cd09796ed657e5e3992d1e66b491d5c6e",
+    "Theorems/Thm_StickyKakeya4_small_fiber_alignment.lean": "c2ed7af5223a58e8e71af6311f08917ac614d07b9a1d6e62d94b3d5eb0448fd2",
+    "Theorems/Thm_StickyKakeya4_whole_grid_cell_extraction.lean": "50fcd4d1b00aff2f469d365e54dc49a6ecc8c439f131b530db42ce30181ba8de",
+    "Theorems/Thm_StickyKakeya4_fractional_fiber_alignment.lean": "fe99c188e2d2f09978c9c91004c0bd2159cde9a3cdf62c50cc9f7c3b158d358a",
+    "Theorems/Thm_StickyKakeya4_spine_column_counting.lean": "5d444f548a433cc977003a284d7df73a97bbbaf1c5afd3eb1518629a96fdb178",
+    "Theorems/Thm_StickyKakeya4_disjoint_profile_epochs.lean": "4c44f8dce46322d4504d72d510802d36d2f288640b21a222d4dd4fdb3c7963e1",
+    "Theorems/Thm_StickyKakeya4_separated_alignment_patches.lean": "32801f564d7c3a1927448f934d7b6315c4f46b4b2fcf1e0cda2954a51018aca2"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
@@ -13403,7 +14197,7 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 1459,
+  "resumed_phase_declaration_count": 1547,
   "latest_targeted_build": {
     "status": "passed",
     "exit_code": 0,
@@ -13423,5 +14217,6 @@
       "Theorems/Thm_StickyKakeya4_padded_rescaling_cubical_source.lean": "a3135b946f184e5597523778214dc67cd09796ed657e5e3992d1e66b491d5c6e"
     },
     "module_count": 9
-  }
+  },
+  "previous_checkpoint_tree": "bd2d3fc6ee9c289ce662e61abd5bf1971fc1ce9f"
 }
