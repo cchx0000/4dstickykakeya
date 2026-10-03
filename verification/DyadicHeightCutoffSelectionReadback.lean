@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_dyadic_height_cutoff_selection
+
+#print axioms DyadicHeightCutoffSelection.exists_working_cutoff
+#print axioms DyadicHeightCutoffSelection.padded_lipschitz_of_feasible_cutoff
+#print axioms DyadicHeightCutoffSelection.exists_padded_lipschitz_from_full_grid

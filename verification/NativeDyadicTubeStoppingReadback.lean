@@ -1,0 +1,22 @@
+import Theorems.Thm_StickyKakeya4_native_dyadic_tube_stopping
+
+#print axioms NativeDyadicTubeStopping.scale_pos
+#print axioms NativeDyadicTubeStopping.scale_zero
+#print axioms NativeDyadicTubeStopping.scale_mono
+#print axioms NativeDyadicTubeStopping.scale_strictMono
+#print axioms NativeDyadicTubeStopping.scale_le_iff
+#print axioms NativeDyadicTubeStopping.scale_add
+#print axioms NativeDyadicTubeStopping.scale_ratio
+#print axioms NativeDyadicTubeStopping.scale_min
+#print axioms NativeDyadicTubeStopping.adProfileConstant_ge_one
+#print axioms NativeDyadicTubeStopping.exists_stopped_profile
+#print axioms NativeDyadicTubeStopping.mem_pairMenu
+#print axioms NativeDyadicTubeStopping.exists_stopping_selector
+#print axioms NativeDyadicTubeStopping.trace_grid_image
+#print axioms NativeDyadicTubeStopping.traceBound_image_of_profile
+#print axioms NativeDyadicTubeStopping.position_image_profile
+#print axioms NativeDyadicTubeStopping.StoppedProfile.loss_ge_one
+#print axioms NativeDyadicTubeStopping.StoppedProfile.nested_trace_bound
+#print axioms NativeDyadicTubeStopping.StoppedProfile.native_queries
+#print axioms NativeDyadicTubeStopping.native_grid_extent
+#print axioms NativeDyadicTubeStopping.StoppedProfile.native_quantizer_queries

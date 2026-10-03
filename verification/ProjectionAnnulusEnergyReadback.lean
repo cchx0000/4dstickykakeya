@@ -1,0 +1,17 @@
+import Theorems.Thm_StickyKakeya4_projection_annulus_energy
+
+#print axioms ProjectionAnnulusEnergy.distance_nonneg
+#print axioms ProjectionAnnulusEnergy.distance_comm
+#print axioms ProjectionAnnulusEnergy.distance_le_two
+#print axioms ProjectionAnnulusEnergy.mesh_pos
+#print axioms ProjectionAnnulusEnergy.annulusScale_pos
+#print axioms ProjectionAnnulusEnergy.mesh_le_annulusScale
+#print axioms ProjectionAnnulusEnergy.exists_annulus
+#print axioms ProjectionAnnulusEnergy.point_ball_bound_all
+#print axioms ProjectionAnnulusEnergy.annular_pairs_card_bound
+#print axioms ProjectionAnnulusEnergy.annular_slope_fiber_bound
+#print axioms ProjectionAnnulusEnergy.annular_energy_bound
+#print axioms ProjectionAnnulusEnergy.near_pairs_bound
+#print axioms ProjectionAnnulusEnergy.energy_eq_pair_sum
+#print axioms ProjectionAnnulusEnergy.energy_le_annular_sum
+#print axioms ProjectionAnnulusEnergy.kaufman_pair_energy

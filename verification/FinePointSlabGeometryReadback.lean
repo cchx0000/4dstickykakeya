@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_fine_point_slab_geometry
+
+#print axioms FinePointSlabGeometry.exists_unit_annihilator
+#print axioms FinePointSlabGeometry.annihilator_abs_le_infDist
+#print axioms FinePointSlabGeometry.coarse_bad_implies_fine_affine_slab
+#print axioms FinePointSlabGeometry.fine_coarse_error_of_actual_direction
+#print axioms FinePointSlabGeometry.card_le_real_mul_of_fibers
+#print axioms FinePointSlabGeometry.fine_label_population_pullback
+#print axioms FinePointSlabGeometry.tube_degree_of_fine_labels
+#print axioms FinePointSlabGeometry.tube_slab_of_fine_frostman
+#print axioms FinePointSlabGeometry.fine_population_of_realizing_tubes
+#print axioms FinePointSlabGeometry.tube_slab_with_original_degree

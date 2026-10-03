@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_original_w_coarse_escape_menus
+
+#print axioms OriginalWCoarseEscapeMenus.mem_coreOutgoing
+#print axioms OriginalWCoarseEscapeMenus.coarse_menu_has_original_partner
+#print axioms OriginalWCoarseEscapeMenus.badCoreWitnesses_card_le
+#print axioms OriginalWCoarseEscapeMenus.escapingMenus_card_bound
+#print axioms OriginalWCoarseEscapeMenus.witnesses_nonempty
+#print axioms OriginalWCoarseEscapeMenus.exists_original_rich_core
+#print axioms OriginalWCoarseEscapeMenus.exists_escaping_core_of_point_slabs
+#print axioms OriginalWCoarseEscapeMenus.exists_escaping_core_of_fine_frostman

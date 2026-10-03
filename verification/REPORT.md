@@ -3,6 +3,26 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual dyadic epochs and finite Kaufman projection
+
+Fourteen modules add **150 strict standard-only proved declarations**.
+Original AD now constructs the actual stopping selector, legal nested profile
+queries, floor-deletion budget and retained disjoint whole-cell tube epoch.
+Fine-point slab laws and literal incidence fibers give an actual half-mass
+escaping core. The complete finite Kaufman input constructs good original
+slopes and retained original points, including every relative-mass subset
+and every real query radius; its energy is derived rather than assumed.
+Original-height boundary padding and deterministic separated original
+coarse representatives are also constructed.
+
+The **288-module** full build passes **8,997 jobs**, exit0. All prior 274
+source hashes are unchanged; cumulative foundational-only checks: **2,242**.
+See [scope](../docs/WZ_ACTUAL_EPOCHS_AND_FINITE_KAUFMAN.md) and
+[evidence](wz-epochs-kaufman-checkpoint.json).
+The parent/contact assembly, native physical-growth composition, radial
+Furstenberg improvement and asymmetric additive iteration remain separate.
+The final volume-axiom dependency has not been removed.
+
 ## Native fractional refinement and transverse growth
 
 Eight modules add **80 strict standard-only proved declarations**. All six

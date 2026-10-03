@@ -7,6 +7,23 @@ No new regularity, routing certificate, or energy bound is a final hypothesis.
 See [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md) for exact references.
 The earlier eight-item proposal is preserved in `PROVE2ME_TARGETS.md`.
 
+## 2026-10-03 actual epochs and finite Kaufman checkpoint
+
+Original AD now supplies the actual stopped selector, nested profile queries,
+floor budget and retained disjoint tube epoch. Actual fine-point slabs supply
+the escaping core without coarse-union Frostman. The full finite Kaufman
+projection theorem constructs original good slopes/point subsets and all
+real-radius hereditary interval bounds from the actual pair energy.
+Original-height padding and deterministic original coarse representatives
+are also proved. Fourteen modules add 150 new strict foundational-only checks;
+the 288-module build passes 8,997 jobs, with 2,242 cumulative checks and all
+prior 274 source hashes unchanged. See [scope](docs/WZ_ACTUAL_EPOCHS_AND_FINITE_KAUFMAN.md).
+
+The original final theorem remains unchanged and still has the preexisting
+WZ volume-axiom dependency. Completing this Kaufman input does not prove the
+radial/Furstenberg improvement or the later asymmetric additive iteration.
+The native parent/contact and physical-growth callers are still being composed.
+
 ## 2026-10-03 native refinement and growth checkpoint
 
 The native same-parent fractional refinement is now constructed from original

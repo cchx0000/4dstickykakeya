@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_dyadic_tube_epoch
+
+#print axioms NativeDyadicTubeEpoch.index_card_pos
+#print axioms NativeDyadicTubeEpoch.index_card_le
+#print axioms NativeDyadicTubeEpoch.spatialConstant_pos
+#print axioms NativeDyadicTubeEpoch.pruningRate_pos
+#print axioms NativeDyadicTubeEpoch.realThreshold_pos
+#print axioms NativeDyadicTubeEpoch.source_card
+#print axioms NativeDyadicTubeEpoch.source_grid_image
+#print axioms NativeDyadicTubeEpoch.original_card_lower
+#print axioms NativeDyadicTubeEpoch.budget_quarter
+#print axioms NativeDyadicTubeEpoch.actual_profile
+#print axioms NativeDyadicTubeEpoch.exists_native_disjoint_epoch

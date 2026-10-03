@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_separated_rounded_bins
+
+#print axioms SeparatedRoundedBins.exists_residue_subfamily
+#print axioms SeparatedRoundedBins.actual_position_separation
+#print axioms SeparatedRoundedBins.exists_separated_representatives

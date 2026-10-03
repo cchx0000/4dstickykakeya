@@ -1,0 +1,18 @@
+import Theorems.Thm_StickyKakeya4_original_w_witness_counts
+
+#print axioms OriginalWWitnessCounts.mem_tubesAt
+#print axioms OriginalWWitnessCounts.mem_pointsAt
+#print axioms OriginalWWitnessCounts.card_biUnion_le_real
+#print axioms OriginalWWitnessCounts.path_mem_backward
+#print axioms OriginalWWitnessCounts.backwardPaths_card_le
+#print axioms OriginalWWitnessCounts.path_mem_forward
+#print axioms OriginalWWitnessCounts.forwardPaths_card_le
+#print axioms OriginalWWitnessCounts.witness_conditions
+#print axioms OriginalWWitnessCounts.allBackward_card_le
+#print axioms OriginalWWitnessCounts.mem_pairedExtensions
+#print axioms OriginalWWitnessCounts.pairedExtensions_card_le
+#print axioms OriginalWWitnessCounts.outgoingTest_subset_extensions
+#print axioms OriginalWWitnessCounts.outgoingTest_card_le
+#print axioms OriginalWWitnessCounts.outgoing_card_le
+#print axioms OriginalWWitnessCounts.menuFiber_subset_extensions
+#print axioms OriginalWWitnessCounts.menuFiber_card_le

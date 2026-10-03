@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_cumulative_mass_rounding
+
+#print axioms CumulativeMassRounding.massPrefix_succ
+#print axioms CumulativeMassRounding.level_step
+#print axioms CumulativeMassRounding.selected_subset
+#print axioms CumulativeMassRounding.selected_positive_weight
+#print axioms CumulativeMassRounding.selected_card_eq_level
+#print axioms CumulativeMassRounding.selected_mass_bounds
+#print axioms CumulativeMassRounding.mem_window
+#print axioms CumulativeMassRounding.massPrefix_sub
+#print axioms CumulativeMassRounding.window_card
+#print axioms CumulativeMassRounding.window_mass_bounds
+#print axioms CumulativeMassRounding.rich_selected_count

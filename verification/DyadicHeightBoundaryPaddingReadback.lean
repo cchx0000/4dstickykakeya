@@ -1,0 +1,20 @@
+import Theorems.Thm_StickyKakeya4_dyadic_height_boundary_padding
+
+#print axioms DyadicHeightBoundaryPadding.lower_margin_count
+#print axioms DyadicHeightBoundaryPadding.upper_margin_count
+#print axioms DyadicHeightBoundaryPadding.bad_residue_count
+#print axioms DyadicHeightBoundaryPadding.bad_indices_count_nat
+#print axioms DyadicHeightBoundaryPadding.bad_indices_count
+#print axioms DyadicHeightBoundaryPadding.sum_two_pow_le
+#print axioms DyadicHeightBoundaryPadding.dyadic_reciprocal_sum
+#print axioms DyadicHeightBoundaryPadding.bad_union_count
+#print axioms DyadicHeightBoundaryPadding.bad_union_subset
+#print axioms DyadicHeightBoundaryPadding.padded_subset
+#print axioms DyadicHeightBoundaryPadding.padded_retention
+#print axioms DyadicHeightBoundaryPadding.padded_residue_bounds
+#print axioms DyadicHeightBoundaryPadding.different_cells_separated
+#print axioms DyadicHeightBoundaryPadding.integer_height_separation
+#print axioms DyadicHeightBoundaryPadding.padded_field_bound
+#print axioms DyadicHeightBoundaryPadding.height_difference
+#print axioms DyadicHeightBoundaryPadding.numerical_padding_parameters
+#print axioms DyadicHeightBoundaryPadding.exists_padded_lipschitz

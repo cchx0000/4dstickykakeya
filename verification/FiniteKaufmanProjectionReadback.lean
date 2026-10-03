@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_finite_kaufman_projection
+
+#print axioms FiniteKaufmanProjection.scale_ge_mesh
+#print axioms FiniteKaufmanProjection.scales_card_le
+#print axioms FiniteKaufmanProjection.threshold_pos
+#print axioms FiniteKaufmanProjection.threshold_ge_eight
+#print axioms FiniteKaufmanProjection.heavy_row_bound
+#print axioms FiniteKaufmanProjection.actual_bad_budget
+#print axioms FiniteKaufmanProjection.exists_query_scale
+#print axioms FiniteKaufmanProjection.finite_kaufman_projection

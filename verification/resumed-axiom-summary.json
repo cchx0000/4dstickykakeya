@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T19:02:38.203996+00:00",
+  "generated_at_utc": "2026-10-03T19:44:59.514984+00:00",
   "previous_checkpoint": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 2092,
+  "total_new_checked_declarations": 2242,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -120,7 +120,8 @@
     "verification/wz-native-alignment-interfaces-axioms.log": 108,
     "verification/wz-tube-slope-axioms.log": 93,
     "verification/wz-witness-geometry-axioms.log": 85,
-    "verification/wz-native-geometry-axioms.log": 80
+    "verification/wz-native-geometry-axioms.log": 80,
+    "verification/wz-epochs-kaufman-axioms.log": 150
   },
   "checks": [
     {
@@ -18098,6 +18099,1356 @@
         "Quot.sound"
       ],
       "log": "verification/wz-native-geometry-axioms.log"
+    },
+    {
+      "declaration": "ProjectionPairSlopeInterval.horizontal_le_radius_add_vertical",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionPairSlopeInterval.vertical_ge_half_distance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionPairSlopeInterval.actual_slope_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionPairSlopeInterval.slope_radius_query_range",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionPairSlopeInterval.bounded_point_pair_slope_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionPairSlopeInterval.actual_slope_fiber_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionPairSlopeInterval.actual_slope_fiber_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.distance_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.distance_comm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.distance_le_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.mesh_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.annulusScale_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.mesh_le_annulusScale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.exists_annulus",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.point_ball_bound_all",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.annular_pairs_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.annular_slope_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.annular_energy_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.near_pairs_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.energy_eq_pair_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.energy_le_annular_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionAnnulusEnergy.kaufman_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.heavy_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.heavy_point_far_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.heavy_mass_le_far_pairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.card_far_pairs_eq_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.same_floor_difference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.projection_heavy_mass_le_far_pairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.badUnion_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.retained_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.badUnion_card_le_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.retained_original_cell_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.good_slopes_of_bad_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.retained_card_of_good",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.floor_two_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ProjectionHeavyCells.retained_interval_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FiniteKaufmanProjection.scale_ge_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FiniteKaufmanProjection.scales_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FiniteKaufmanProjection.threshold_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FiniteKaufmanProjection.threshold_ge_eight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FiniteKaufmanProjection.heavy_row_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FiniteKaufmanProjection.actual_bad_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FiniteKaufmanProjection.exists_query_scale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FiniteKaufmanProjection.finite_kaufman_projection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.scale_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.scale_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.scale_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.scale_strictMono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.scale_le_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.scale_add",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.scale_ratio",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.scale_min",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.adProfileConstant_ge_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.exists_stopped_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.mem_pairMenu",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.exists_stopping_selector",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.trace_grid_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.traceBound_image_of_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.position_image_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.StoppedProfile.loss_ge_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.StoppedProfile.nested_trace_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.StoppedProfile.native_queries",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.native_grid_extent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeStopping.StoppedProfile.native_quantizer_queries",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.index_card_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.index_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.spatialConstant_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.pruningRate_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.realThreshold_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.source_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.source_grid_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.original_card_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.budget_quarter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.actual_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicTubeEpoch.exists_native_disjoint_epoch",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.mem_tubesAt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.mem_pointsAt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.card_biUnion_le_real",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.path_mem_backward",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.backwardPaths_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.path_mem_forward",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.forwardPaths_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.witness_conditions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.allBackward_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.mem_pairedExtensions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.pairedExtensions_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.outgoingTest_subset_extensions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.outgoingTest_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.outgoing_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.menuFiber_subset_extensions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWWitnessCounts.menuFiber_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.exists_unit_annihilator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.annihilator_abs_le_infDist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.coarse_bad_implies_fine_affine_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.fine_coarse_error_of_actual_direction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.card_le_real_mul_of_fibers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.fine_label_population_pullback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.tube_degree_of_fine_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.tube_slab_of_fine_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.fine_population_of_realizing_tubes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "FinePointSlabGeometry.tube_slab_with_original_degree",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoarseEscapeMenus.mem_coreOutgoing",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoarseEscapeMenus.coarse_menu_has_original_partner",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoarseEscapeMenus.badCoreWitnesses_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoarseEscapeMenus.escapingMenus_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoarseEscapeMenus.witnesses_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoarseEscapeMenus.exists_original_rich_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoarseEscapeMenus.exists_escaping_core_of_point_slabs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoarseEscapeMenus.exists_escaping_core_of_fine_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.lower_margin_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.upper_margin_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.bad_residue_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.bad_indices_count_nat",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.bad_indices_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.sum_two_pow_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.dyadic_reciprocal_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.bad_union_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.bad_union_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.padded_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.padded_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.padded_residue_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.different_cells_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.integer_height_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.padded_field_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.height_difference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.numerical_padding_parameters",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightBoundaryPadding.exists_padded_lipschitz",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightCutoffSelection.exists_working_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightCutoffSelection.padded_lipschitz_of_feasible_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "DyadicHeightCutoffSelection.exists_padded_lipschitz_from_full_grid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.massPrefix_succ",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.level_step",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.selected_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.selected_positive_weight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.selected_card_eq_level",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.selected_mass_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.mem_window",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.massPrefix_sub",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.window_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.window_mass_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "CumulativeMassRounding.rich_selected_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ActualMassRoundedSelection.binMass_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ActualMassRoundedSelection.total_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ActualMassRoundedSelection.exists_original_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ActualMassRoundedSelection.selected_occupied",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ActualMassRoundedSelection.rounded_interval_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "ActualMassRoundedSelection.exists_mass_rounded_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "SeparatedRoundedBins.exists_residue_subfamily",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "SeparatedRoundedBins.actual_position_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
+    },
+    {
+      "declaration": "SeparatedRoundedBins.exists_separated_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-epochs-kaufman-axioms.log"
     }
   ],
   "source_sha256": {
@@ -18258,7 +19609,21 @@
     "Theorems/Thm_StickyKakeya4_quadratic_image_count.lean": "4b276712e92f081dff6d7ae001c47c2d6da079bff87061a417a51b04241dcd08",
     "Theorems/Thm_StickyKakeya4_grain_jump_additive_relation.lean": "71d5630173f1067b326add8ac79d6c26242cc8f477f7ad47e1eb04278e47c9c3",
     "Theorems/Thm_StickyKakeya4_sheared_grid_spine_columns.lean": "f7cd41889d4253b4b711c9ba66eb6ee93f8b53a4f7ac215795f940acf22d673c",
-    "Theorems/Thm_StickyKakeya4_native_fractional_reference_composition.lean": "05f6bba14a6f4953be2bff43902aa3b5b963e4a4251f9d03aa81ed1eeb9643ed"
+    "Theorems/Thm_StickyKakeya4_native_fractional_reference_composition.lean": "05f6bba14a6f4953be2bff43902aa3b5b963e4a4251f9d03aa81ed1eeb9643ed",
+    "Theorems/Thm_StickyKakeya4_projection_pair_slope_interval.lean": "d44004e3fbb871d5e8937837403cbcb9dffeddd448040ae3da94ba9d0be2b1ee",
+    "Theorems/Thm_StickyKakeya4_projection_annulus_energy.lean": "8379059b42c729090d9d2b957d64bfea45a8cf37690424869d98eac8f02b074a",
+    "Theorems/Thm_StickyKakeya4_projection_heavy_cells.lean": "7cbc63c93473aff7c5c29f8705502e202922db45e3fc8276661f50817164b9ea",
+    "Theorems/Thm_StickyKakeya4_finite_kaufman_projection.lean": "ce6001999262bd04b069e3c129bc19b8f5d56324c12b2963db046c06a1aef3a7",
+    "Theorems/Thm_StickyKakeya4_native_dyadic_tube_stopping.lean": "4b5bf856776fb64bbb752b754cf8c9e2aa141c03fb3fed4c90a8d7afebed5386",
+    "Theorems/Thm_StickyKakeya4_native_dyadic_tube_epoch.lean": "a95c4b4daf8a4b182857beab6bb62ef187dcbabf5ce97a939219eee8c39aba7c",
+    "Theorems/Thm_StickyKakeya4_original_w_witness_counts.lean": "e5491a9dc6f0a67d7cf6f0355df6d51fab25af0e067bc7c3a71d5b73fefabde1",
+    "Theorems/Thm_StickyKakeya4_fine_point_slab_geometry.lean": "ec7d3ebe1ed3343e16c35060ad48063a6bdd9eb11ca745afceb102cdeebb96d6",
+    "Theorems/Thm_StickyKakeya4_original_w_coarse_escape_menus.lean": "649d2be271674836a28b91fef6e3c228b01e07d542602c1c1eb082d575f6afd4",
+    "Theorems/Thm_StickyKakeya4_dyadic_height_boundary_padding.lean": "6983d1aa854f9ec89713608b3dc3c3c84df251427e12c1c0698f30d1439f7b41",
+    "Theorems/Thm_StickyKakeya4_dyadic_height_cutoff_selection.lean": "2820d0ef30597f5c365f0400685ab655c7875f3f492c82b5d4cf92bd63d836e1",
+    "Theorems/Thm_StickyKakeya4_cumulative_mass_rounding.lean": "570d239faaf87ee585bfd886cd342b115cc6e6dca31109272388a8a76b4cb277",
+    "Theorems/Thm_StickyKakeya4_actual_mass_rounded_selection.lean": "3e7a126508b38692820bf232a0df1dccb0c16746c91aca3c37fde8606c69dfdd",
+    "Theorems/Thm_StickyKakeya4_separated_rounded_bins.lean": "6f30ef83ba8f76d25061fef7b6a06ea87824535a4f0b4cb7127ef446bf14860e"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
@@ -18306,7 +19671,7 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 2001,
+  "resumed_phase_declaration_count": 2151,
   "latest_targeted_build": {
     "status": "passed",
     "exit_code": 0,
@@ -18327,5 +19692,5 @@
     },
     "module_count": 9
   },
-  "previous_checkpoint_tree": "7cc51a1ce8c9e8ae40d5ef9582093890917389d7"
+  "previous_checkpoint_tree": "d54fba78ae8b8bce144a2b53062edb7a1a655dd1"
 }

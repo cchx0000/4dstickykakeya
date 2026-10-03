@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_actual_mass_rounded_selection
+
+#print axioms ActualMassRoundedSelection.binMass_nonneg
+#print axioms ActualMassRoundedSelection.total_mass
+#print axioms ActualMassRoundedSelection.exists_original_representatives
+#print axioms ActualMassRoundedSelection.selected_occupied
+#print axioms ActualMassRoundedSelection.rounded_interval_card
+#print axioms ActualMassRoundedSelection.exists_mass_rounded_source

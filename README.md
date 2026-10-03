@@ -19,6 +19,13 @@ The earlier Prove2Me proposal is preserved in
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
+The [actual epochs and finite Kaufman checkpoint](docs/WZ_ACTUAL_EPOCHS_AND_FINITE_KAUFMAN.md)
+constructs the actual AD-driven tube epoch, original fine-point escaping
+menus, and the full finite Kaufman projection input. It also proves original
+height padding and deterministic coarse representatives. Its 150 new proofs
+and full 288-module build pass; the later radial expansion and asymmetric
+additive iteration remain substantive unproved inputs.
+
 The [native refinement and growth checkpoint](docs/WZ_NATIVE_REFINEMENT_AND_TRANSVERSE_GROWTH.md)
 constructs all six reference bounds and the same-parent refinement, proves
 actual transverse-menu growth in both native dimensions, and derives the

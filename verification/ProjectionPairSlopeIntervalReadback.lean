@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_projection_pair_slope_interval
+
+#print axioms ProjectionPairSlopeInterval.horizontal_le_radius_add_vertical
+#print axioms ProjectionPairSlopeInterval.vertical_ge_half_distance
+#print axioms ProjectionPairSlopeInterval.actual_slope_interval
+#print axioms ProjectionPairSlopeInterval.slope_radius_query_range
+#print axioms ProjectionPairSlopeInterval.bounded_point_pair_slope_interval
+#print axioms ProjectionPairSlopeInterval.actual_slope_fiber_subset
+#print axioms ProjectionPairSlopeInterval.actual_slope_fiber_card_le

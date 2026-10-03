@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_projection_heavy_cells
+
+#print axioms ProjectionHeavyCells.heavy_subset
+#print axioms ProjectionHeavyCells.heavy_point_far_population
+#print axioms ProjectionHeavyCells.heavy_mass_le_far_pairs
+#print axioms ProjectionHeavyCells.card_far_pairs_eq_sum
+#print axioms ProjectionHeavyCells.same_floor_difference
+#print axioms ProjectionHeavyCells.projection_heavy_mass_le_far_pairs
+#print axioms ProjectionHeavyCells.badUnion_subset
+#print axioms ProjectionHeavyCells.retained_subset
+#print axioms ProjectionHeavyCells.badUnion_card_le_sum
+#print axioms ProjectionHeavyCells.retained_original_cell_bound
+#print axioms ProjectionHeavyCells.good_slopes_of_bad_budget
+#print axioms ProjectionHeavyCells.retained_card_of_good
+#print axioms ProjectionHeavyCells.floor_two_interval
+#print axioms ProjectionHeavyCells.retained_interval_bound
