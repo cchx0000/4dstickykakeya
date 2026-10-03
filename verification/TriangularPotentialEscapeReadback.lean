@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_triangular_potential_escape
+
+#print axioms StickyKakeya4.TriangularPotentialEscape.exists_common_potential_cut
+#print axioms StickyKakeya4.TriangularPotentialEscape.scalar_source_cut_ball
+#print axioms StickyKakeya4.TriangularPotentialEscape.prod_event_le
+#print axioms StickyKakeya4.TriangularPotentialEscape.measurableSet_potentialCut
+#print axioms StickyKakeya4.TriangularPotentialEscape.triangular_box_bound
+#print axioms StickyKakeya4.TriangularPotentialEscape.measurable_point
+#print axioms StickyKakeya4.TriangularPotentialEscape.coordinate_mem_ball
+#print axioms StickyKakeya4.TriangularPotentialEscape.cut_map_ball_bound
+#print axioms StickyKakeya4.TriangularPotentialEscape.normalize_supported_ball_bound
+#print axioms StickyKakeya4.TriangularPotentialEscape.exists_actual_supported_frostman

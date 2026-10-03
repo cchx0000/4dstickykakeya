@@ -3,6 +3,31 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual fronts of arbitrary Borel triangular selectors
+
+The scalar energy module derives finite averaged projection energy from
+bounded one-dimensional density, retaining the infinite diagonal and proving
+it null. Its parameter adapter discharges every native potential finiteness
+input. A common finite potential cutoff retains positive ORIGINAL source/time
+mass; backward product-reference integration gives supported Frostman growth
+with exponent `1+3s`. The final Borel triangular caller derives `dimH K=4`
+without an energy, Frostman, or potential certificate among its hypotheses.
+The actual source may be coupled and its support is unchanged.
+
+All **31** theorem declarations passed strict source and proper import
+readback with only standard logical axioms. The targeted build passed
+**8,714 jobs**, exit 0. Cumulative readbacks are **1,046**; all 192 earlier
+source hashes are unchanged. This is not a fresh full default build of the
+current **196** modules. See
+[triangular-borel-front-checkpoint.json](triangular-borel-front-checkpoint.json)
+and [the proof and scope](../docs/TRIANGULAR_BOREL_FROSTMAN_ESCAPE.md).
+
+No theorem extracts a triangular selector from the general original data.
+The elementary one-channel feedback proof and the explicitly external GGW
+rank-one-output reduction are separately labeled handwritten. Quantitative
+unmodified-source charge refinements are not included in these 31 checks.
+The original main theorem still has its preexisting WZ project-axiom dependency.
+
 ## Actual finite incidence cores and original integer weights
 
 The new module constructs nested actual finite sets with quantitative

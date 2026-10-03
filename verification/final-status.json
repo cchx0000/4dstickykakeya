@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-03T09:19:56.495869+00:00",
-  "source_commit_before_report": "6e2c2a2dc2c3a071e64802be46dba2c0386c2a52",
-  "project_module_count": 192,
+  "generated_at_utc": "2026-10-03T09:42:51.015907+00:00",
+  "source_commit_before_report": "c4be8d34d39c7f662fe28e665a8b2e19442c182d",
+  "project_module_count": 196,
   "aggregate_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -37,7 +37,7 @@
     "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
   },
   "new_declaration_axiom_checks": {
-    "count": 1015,
+    "count": 1046,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1030,23 +1030,46 @@
       "status": "passed",
       "source_sha256": "cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7",
       "verification_scope": "independent finite incidence core target and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_scalar_borel_projection_energy": {
+      "status": "passed",
+      "source_sha256": "a00a39e1501a3a55d6cf85ddcf982840e26a388bcb84fd0f18eedcc0c03926ed",
+      "verification_scope": "triangular Borel escape targeted build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_parameterized_scalar_potential": {
+      "status": "passed",
+      "source_sha256": "de177922b59e68da054a80e8316c413132544397917525094e07b2d221302ad0",
+      "verification_scope": "triangular Borel escape targeted build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_triangular_potential_escape": {
+      "status": "passed",
+      "source_sha256": "a33711d1614bf20d13cf8998a1a6c952e48bce9c5b87fe4ef5b0c167d9e35c35",
+      "verification_scope": "triangular Borel escape targeted build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_triangular_borel_front_escape": {
+      "status": "passed",
+      "source_sha256": "bcff134e8713794533089e6c669aeb032fa491973762c1f993d299f3a0511399",
+      "verification_scope": "triangular Borel escape targeted build and strict import readback"
     }
   },
   "unconditional_main_completed": false,
   "remaining_mathematical_obligation": "A genuinely source-faithful collective root-time heavy-event charge (or equivalent weighted paid/cross-cap estimate or supported Frostman escape), retaining continuum time mass for the actual coupled selector.",
   "upstream_main_sha": "d208ddf4544cbb9ed05e4c848a83b07985b28e26",
   "latest_targeted_build": {
-    "source_base_commit": "6e2c2a2dc2c3a071e64802be46dba2c0386c2a52",
+    "source_base_commit": "c4be8d34d39c7f662fe28e665a8b2e19442c182d",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_uniform_incidence_core.lean": "cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7"
+      "Theorems/Thm_StickyKakeya4_scalar_borel_projection_energy.lean": "a00a39e1501a3a55d6cf85ddcf982840e26a388bcb84fd0f18eedcc0c03926ed",
+      "Theorems/Thm_StickyKakeya4_parameterized_scalar_potential.lean": "de177922b59e68da054a80e8316c413132544397917525094e07b2d221302ad0",
+      "Theorems/Thm_StickyKakeya4_triangular_potential_escape.lean": "a33711d1614bf20d13cf8998a1a6c952e48bce9c5b87fe4ef5b0c167d9e35c35",
+      "Theorems/Thm_StickyKakeya4_triangular_borel_front_escape.lean": "bcff134e8713794533089e6c669aeb032fa491973762c1f993d299f3a0511399"
     },
-    "module_count": 1,
+    "module_count": 4,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 788,
-    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_uniform_incidence_core",
-    "log": "verification/uniform-incidence-core-build.log",
-    "scope": "one new independent finite incidence module; not a full 192-module rebuild"
+    "lake_jobs": 8714,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_triangular_borel_front_escape",
+    "log": "verification/triangular-borel-front-build.log",
+    "scope": "four new scalar/triangular modules and dependencies; not a full 196-module rebuild"
   },
   "current_turn_full_build_rerun": false,
   "filtration_repair": {
@@ -1078,5 +1101,11 @@
     "declaration_count": 11,
     "geometric_density_gain_derived": false,
     "evidence": "verification/uniform-incidence-core-checkpoint.json"
+  },
+  "triangular_borel_escape": {
+    "status": "actual source-supported Frostman measures and dimH=4 proved for arbitrary Borel triangular intercepts with bounded product-reference density; no energy or potential certificates in endpoint",
+    "declaration_count": 31,
+    "general_selector_triangularization_proved": false,
+    "evidence": "verification/triangular-borel-front-checkpoint.json"
   }
 }

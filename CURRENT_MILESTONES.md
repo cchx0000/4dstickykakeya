@@ -76,6 +76,18 @@ cap density. These tests isolate missing implications without refuting the
 full original hypotheses. Their detailed handwritten audits are linked from
 README; no failed inference has been added as a theorem or axiom.
 
+A new positive special case is fully closed: arbitrary Borel triangular
+intercepts on a bounded-density (possibly coupled) source have actual
+front-supported Frostman measures at every exponent `1+3s`, `0<s<1`, and
+therefore front dimension four. The same original source/time law is cut
+only by scalar reference-potential bounds; product structure is used for
+an upper reference bound, not assumed for the actual source. All 31 theorem
+declarations and the final no-certificate caller are strictly checked. See
+[the triangular escape](docs/TRIANGULAR_BOREL_FROSTMAN_ESCAPE.md).
+The general source is not proved triangularizable. One-channel feedback
+and the accurately scoped external osculating-projection reduction remain
+handwritten and are not counted as completion of the main theorem.
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

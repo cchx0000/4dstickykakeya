@@ -1,0 +1,312 @@
+{
+  "generated_at_utc": "2026-10-03T09:42:51.015907+00:00",
+  "base_commit": "c4be8d34d39c7f662fe28e665a8b2e19442c182d",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_scalar_borel_projection_energy.lean": "a00a39e1501a3a55d6cf85ddcf982840e26a388bcb84fd0f18eedcc0c03926ed",
+    "Theorems/Thm_StickyKakeya4_parameterized_scalar_potential.lean": "de177922b59e68da054a80e8316c413132544397917525094e07b2d221302ad0",
+    "Theorems/Thm_StickyKakeya4_triangular_potential_escape.lean": "a33711d1614bf20d13cf8998a1a6c952e48bce9c5b87fe4ef5b0c167d9e35c35",
+    "Theorems/Thm_StickyKakeya4_triangular_borel_front_escape.lean": "bcff134e8713794533089e6c669aeb032fa491973762c1f993d299f3a0511399"
+  },
+  "declarations": [
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.source_pair_sublevel_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.source_pair_diagonal_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.finite_source_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.time_fiber_volume_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.min_linear_le_fractional",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.time_fiber_fractional_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.averaged_collision_le_source_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.finite_average_scalar_projection_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_scalar_projection_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.scalar_map_energy_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.finite_average_scalar_projection_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_scalar_projection_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.measurable_parameterizedScalarPotential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameterizedScalarPotential_eq_map_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameterizedScalarPotential_integral_eq_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_parameterizedScalarPotential_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_parameterizedScalarPotential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.exists_common_potential_cut",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.scalar_source_cut_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.prod_event_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.measurableSet_potentialCut",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.triangular_box_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.measurable_point",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.coordinate_mem_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.cut_map_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.normalize_supported_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.exists_actual_supported_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularBorelFrontEscape.ae_finite_lift_right",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-borel-front-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularBorelFrontEscape.exists_triangular_borel_supported_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-borel-front-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularBorelFrontEscape.dimH_eq_four_of_triangular_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-borel-front-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularBorelFrontEscape.triangular_borel_front_dimH_eq_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-borel-front-axioms.log"
+    }
+  ],
+  "strict_source_exit_code": 0,
+  "strict_import_readback_exit_code": 0,
+  "targeted_build": {
+    "source_base_commit": "c4be8d34d39c7f662fe28e665a8b2e19442c182d",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_scalar_borel_projection_energy.lean": "a00a39e1501a3a55d6cf85ddcf982840e26a388bcb84fd0f18eedcc0c03926ed",
+      "Theorems/Thm_StickyKakeya4_parameterized_scalar_potential.lean": "de177922b59e68da054a80e8316c413132544397917525094e07b2d221302ad0",
+      "Theorems/Thm_StickyKakeya4_triangular_potential_escape.lean": "a33711d1614bf20d13cf8998a1a6c952e48bce9c5b87fe4ef5b0c167d9e35c35",
+      "Theorems/Thm_StickyKakeya4_triangular_borel_front_escape.lean": "bcff134e8713794533089e6c669aeb032fa491973762c1f993d299f3a0511399"
+    },
+    "module_count": 4,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8714,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_triangular_borel_front_escape",
+    "log": "verification/triangular-borel-front-build.log",
+    "scope": "four new scalar/triangular modules and dependencies; not a full 196-module rebuild"
+  },
+  "previous_192_source_hashes_unchanged": true,
+  "full_default_build_rerun": false,
+  "main_project_axiom_removed": false
+}

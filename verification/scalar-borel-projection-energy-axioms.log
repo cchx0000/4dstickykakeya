@@ -1,0 +1,26 @@
+'StickyKakeya4.ScalarProjection.source_pair_sublevel_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.source_pair_diagonal_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.finite_source_pair_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.time_fiber_volume_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.min_linear_le_fractional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.time_fiber_fractional_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.averaged_collision_le_source_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.finite_average_scalar_projection_pair_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.ae_finite_scalar_projection_pair_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.scalar_map_energy_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.ScalarProjection.finite_average_scalar_projection_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.ae_finite_scalar_projection_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/ScalarBorelProjectionEnergyReadback.lean
+Confirmed exit code: 0
+Source SHA256: a00a39e1501a3a55d6cf85ddcf982840e26a388bcb84fd0f18eedcc0c03926ed

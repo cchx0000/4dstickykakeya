@@ -1,0 +1,16 @@
+'StickyKakeya4.TriangularBorelFrontEscape.ae_finite_lift_right' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularBorelFrontEscape.exists_triangular_borel_supported_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularBorelFrontEscape.dimH_eq_four_of_triangular_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularBorelFrontEscape.triangular_borel_front_dimH_eq_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/TriangularBorelFrontEscapeReadback.lean
+Confirmed exit code: 0
+Source SHA256: bcff134e8713794533089e6c669aeb032fa491973762c1f993d299f3a0511399

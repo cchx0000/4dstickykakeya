@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_triangular_borel_front_escape
+
+#print axioms StickyKakeya4.TriangularBorelFrontEscape.ae_finite_lift_right
+#print axioms StickyKakeya4.TriangularBorelFrontEscape.exists_triangular_borel_supported_frostman
+#print axioms StickyKakeya4.TriangularBorelFrontEscape.dimH_eq_four_of_triangular_frostman
+#print axioms StickyKakeya4.TriangularBorelFrontEscape.triangular_borel_front_dimH_eq_four

@@ -1,0 +1,19 @@
+'StickyKakeya4.ScalarProjection.measurable_parameterizedScalarPotential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.parameterizedScalarPotential_eq_map_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.parameterizedScalarPotential_integral_eq_pair_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.ae_finite_parameterizedScalarPotential_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.ScalarProjection.ae_finite_parameterizedScalarPotential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/ParameterizedScalarPotentialReadback.lean
+Confirmed exit code: 0
+Source SHA256: de177922b59e68da054a80e8316c413132544397917525094e07b2d221302ad0

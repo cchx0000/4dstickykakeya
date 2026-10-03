@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T09:19:56.495869+00:00",
-  "previous_checkpoint": "6e2c2a2dc2c3a071e64802be46dba2c0386c2a52",
+  "generated_at_utc": "2026-10-03T09:42:51.015907+00:00",
+  "previous_checkpoint": "c4be8d34d39c7f662fe28e665a8b2e19442c182d",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 1015,
+  "total_new_checked_declarations": 1046,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -79,7 +79,11 @@
     "verification/whole-parent-heavy-bush-axioms.log": 6,
     "verification/common-time-slice-cover-axioms.log": 6,
     "verification/fixed-time-heavy-families-axioms.log": 7,
-    "verification/uniform-incidence-core-axioms.log": 11
+    "verification/uniform-incidence-core-axioms.log": 11,
+    "verification/scalar-borel-projection-energy-axioms.log": 12,
+    "verification/parameterized-scalar-potential-axioms.log": 5,
+    "verification/triangular-potential-escape-axioms.log": 10,
+    "verification/triangular-borel-front-axioms.log": 4
   },
   "checks": [
     {
@@ -8393,6 +8397,285 @@
         "Quot.sound"
       ],
       "log": "verification/uniform-incidence-core-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.source_pair_sublevel_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.source_pair_diagonal_null",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.finite_source_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.time_fiber_volume_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.min_linear_le_fractional",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.time_fiber_fractional_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.averaged_collision_le_source_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.finite_average_scalar_projection_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_scalar_projection_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.scalar_map_energy_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.finite_average_scalar_projection_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_scalar_projection_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/scalar-borel-projection-energy-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.measurable_parameterizedScalarPotential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameterizedScalarPotential_eq_map_potential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.parameterizedScalarPotential_integral_eq_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_parameterizedScalarPotential_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.ScalarProjection.ae_finite_parameterizedScalarPotential",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/parameterized-scalar-potential-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.exists_common_potential_cut",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.scalar_source_cut_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.prod_event_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.measurableSet_potentialCut",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.triangular_box_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.measurable_point",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.coordinate_mem_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.cut_map_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.normalize_supported_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularPotentialEscape.exists_actual_supported_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-potential-escape-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularBorelFrontEscape.ae_finite_lift_right",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-borel-front-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularBorelFrontEscape.exists_triangular_borel_supported_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-borel-front-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularBorelFrontEscape.dimH_eq_four_of_triangular_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-borel-front-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.TriangularBorelFrontEscape.triangular_borel_front_dimH_eq_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/triangular-borel-front-axioms.log"
     }
   ],
   "source_sha256": {
@@ -8471,14 +8754,18 @@
     "Theorems/Thm_StickyKakeya4_whole_parent_heavy_bush.lean": "5339e5678dbd250ddb14858c733f9eb4e64f5d1f9ea4526a7a631a43d46cca11",
     "Theorems/Thm_StickyKakeya4_common_time_slice_cover.lean": "0c35c60c4d55f140f67545833adf09d9e662e1328450d0a7267da0a4f0f2f8fd",
     "Theorems/Thm_StickyKakeya4_fixed_time_heavy_families.lean": "d33872d3c1bb245438cb0462b5f812d8d1d482d1d43938db588463558c7b527d",
-    "Theorems/Thm_StickyKakeya4_uniform_incidence_core.lean": "cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7"
+    "Theorems/Thm_StickyKakeya4_uniform_incidence_core.lean": "cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7",
+    "Theorems/Thm_StickyKakeya4_scalar_borel_projection_energy.lean": "a00a39e1501a3a55d6cf85ddcf982840e26a388bcb84fd0f18eedcc0c03926ed",
+    "Theorems/Thm_StickyKakeya4_parameterized_scalar_potential.lean": "de177922b59e68da054a80e8316c413132544397917525094e07b2d221302ad0",
+    "Theorems/Thm_StickyKakeya4_triangular_potential_escape.lean": "a33711d1614bf20d13cf8998a1a6c952e48bce9c5b87fe4ef5b0c167d9e35c35",
+    "Theorems/Thm_StickyKakeya4_triangular_borel_front_escape.lean": "bcff134e8713794533089e6c669aeb032fa491973762c1f993d299f3a0511399"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
   "targeted_lake_build_status": "passed",
   "targeted_lake_build_exit_code": 0,
-  "targeted_lake_build_jobs": 788,
-  "targeted_lake_build_log": "verification/uniform-incidence-core-build.log",
+  "targeted_lake_build_jobs": 8714,
+  "targeted_lake_build_log": "verification/triangular-borel-front-build.log",
   "full_tracked_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -8519,18 +8806,21 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 924,
+  "resumed_phase_declaration_count": 955,
   "latest_targeted_build": {
-    "source_base_commit": "6e2c2a2dc2c3a071e64802be46dba2c0386c2a52",
+    "source_base_commit": "c4be8d34d39c7f662fe28e665a8b2e19442c182d",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_uniform_incidence_core.lean": "cbcbf8f368ee8d9879ab0bf15bc330787b5a4f7ffb76735a4d1473ec85df37b7"
+      "Theorems/Thm_StickyKakeya4_scalar_borel_projection_energy.lean": "a00a39e1501a3a55d6cf85ddcf982840e26a388bcb84fd0f18eedcc0c03926ed",
+      "Theorems/Thm_StickyKakeya4_parameterized_scalar_potential.lean": "de177922b59e68da054a80e8316c413132544397917525094e07b2d221302ad0",
+      "Theorems/Thm_StickyKakeya4_triangular_potential_escape.lean": "a33711d1614bf20d13cf8998a1a6c952e48bce9c5b87fe4ef5b0c167d9e35c35",
+      "Theorems/Thm_StickyKakeya4_triangular_borel_front_escape.lean": "bcff134e8713794533089e6c669aeb032fa491973762c1f993d299f3a0511399"
     },
-    "module_count": 1,
+    "module_count": 4,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 788,
-    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_uniform_incidence_core",
-    "log": "verification/uniform-incidence-core-build.log",
-    "scope": "one new independent finite incidence module; not a full 192-module rebuild"
+    "lake_jobs": 8714,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_triangular_borel_front_escape",
+    "log": "verification/triangular-borel-front-build.log",
+    "scope": "four new scalar/triangular modules and dependencies; not a full 196-module rebuild"
   }
 }

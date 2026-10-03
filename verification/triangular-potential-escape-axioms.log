@@ -1,0 +1,26 @@
+'StickyKakeya4.TriangularPotentialEscape.exists_common_potential_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialEscape.scalar_source_cut_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialEscape.prod_event_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.TriangularPotentialEscape.measurableSet_potentialCut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialEscape.triangular_box_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialEscape.measurable_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.TriangularPotentialEscape.coordinate_mem_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.TriangularPotentialEscape.cut_map_ball_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.TriangularPotentialEscape.normalize_supported_ball_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.TriangularPotentialEscape.exists_actual_supported_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/TriangularPotentialEscapeReadback.lean
+Confirmed exit code: 0
+Source SHA256: a33711d1614bf20d13cf8998a1a6c952e48bce9c5b87fe4ef5b0c167d9e35c35

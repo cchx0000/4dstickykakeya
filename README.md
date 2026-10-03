@@ -91,6 +91,16 @@ The [two-time scale test](docs/TWO_TIME_TRANSPORT_SCALE_TEST.md),
 independently checked limitations of proposed shortcuts. These three notes
 are handwritten, not Lean-certified.
 
+An actual [Borel triangular-selector escape](docs/TRIANGULAR_BOREL_FROSTMAN_ESCAPE.md)
+is now proved end to end: fixed product-reference potentials, a positive
+restriction of the original coupled source/time law, supported Frostman
+measures, and dimension four. The 31 theorem readbacks have no energy
+certificate or new axiom in the endpoint. This covers a genuine special class;
+no triangular representation of an arbitrary sticky selector is inferred.
+The [one-channel feedback extension](docs/RANK_ONE_BOREL_FEEDBACK_ESCAPE.md)
+and [external rank-one-output projection interface](docs/RANK_ONE_OUTPUT_GGW_REDUCTION.md)
+are separate handwritten results, not part of these Lean checks.
+
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
 latest full default build passed **185 project modules** and **8,894 Lake jobs**,
@@ -98,7 +108,8 @@ including the one-source/all-slack and variable-time line-hairbrush construction
 Its source snapshot is recorded in `verification/hairbrush-escape-default-build.log`.
 The additional filtration, envelope, whole-parent, and common-time targets passed
 **1,948**, **1,949**, **8,757**, and **8,759 jobs**. The new independent incidence-core target
-passed **788 jobs**; the current **192-module**
+passed **788 jobs**, and the triangular endpoint passed **8,714 jobs**;
+the current **196-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

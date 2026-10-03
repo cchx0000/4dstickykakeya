@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_scalar_borel_projection_energy
+
+#print axioms StickyKakeya4.ScalarProjection.source_pair_sublevel_le
+#print axioms StickyKakeya4.ScalarProjection.source_pair_diagonal_null
+#print axioms StickyKakeya4.ScalarProjection.finite_source_pair_energy
+#print axioms StickyKakeya4.ScalarProjection.time_fiber_volume_le
+#print axioms StickyKakeya4.ScalarProjection.min_linear_le_fractional
+#print axioms StickyKakeya4.ScalarProjection.time_fiber_fractional_le
+#print axioms StickyKakeya4.ScalarProjection.averaged_collision_le_source_energy
+#print axioms StickyKakeya4.ScalarProjection.finite_average_scalar_projection_pair_energy
+#print axioms StickyKakeya4.ScalarProjection.ae_finite_scalar_projection_pair_energy
+#print axioms StickyKakeya4.ScalarProjection.scalar_map_energy_eq
+#print axioms StickyKakeya4.ScalarProjection.finite_average_scalar_projection_energy
+#print axioms StickyKakeya4.ScalarProjection.ae_finite_scalar_projection_energy
