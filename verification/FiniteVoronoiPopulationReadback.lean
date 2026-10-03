@@ -1,0 +1,27 @@
+import Theorems.Thm_StickyKakeya4_finite_voronoi_population
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms FiniteVoronoiPopulation.exists_separated_net
+#print axioms FiniteVoronoiPopulation.owner_mem
+#print axioms FiniteVoronoiPopulation.owner_min
+#print axioms FiniteVoronoiPopulation.mem_cluster
+#print axioms FiniteVoronoiPopulation.mem_carrierBall
+#print axioms FiniteVoronoiPopulation.carrierBall_coe
+#print axioms FiniteVoronoiPopulation.clusters_disjoint
+#print axioms FiniteVoronoiPopulation.clusters_biUnion
+#print axioms FiniteVoronoiPopulation.sum_cluster_card
+#print axioms FiniteVoronoiPopulation.owner_dist_lt
+#print axioms FiniteVoronoiPopulation.carrierBall_third_subset_cluster
+#print axioms FiniteVoronoiPopulation.cluster_subset_carrierBall
+#print axioms FiniteVoronoiPopulation.cluster_card_sandwich
+#print axioms FiniteVoronoiPopulation.center_mem_cluster
+#print axioms FiniteVoronoiPopulation.exists_voronoi_partition
+#print axioms FiniteVoronoiPopulation.card_centers_mul_le_of_cluster_lower
+#print axioms FiniteVoronoiPopulation.card_centers_mul_le_of_ball_lower
+#print axioms FiniteVoronoiPopulation.cluster_set_sandwich
+#print axioms FiniteVoronoiPopulation.cluster_population_bounds
+#print axioms FiniteVoronoiPopulation.one_le_cluster_card
+#print axioms FiniteVoronoiPopulation.card_separated_family_mul_le
+#print axioms FiniteVoronoiPopulation.sum_cluster_card_real
+#print axioms FiniteVoronoiPopulation.card_centers_mul_le_of_cluster_lower_real
+#print axioms FiniteVoronoiPopulation.card_separated_family_mul_le_real

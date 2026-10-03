@@ -3,6 +3,22 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Constructed slice, quotient and cubical-source geometry
+
+Nine new modules add **153 strict, standard-only proofs**. They construct
+injective grid quantization, quotient AD estimates with nearby rich cells,
+arbitrary-real-exponent Voronoi AD coarsening, a native padded cubical source
+on the full original tube backbone, and actual two-tube path/collision counts.
+The target passed **8,762 jobs**. The full **234-module** default build then
+passed **8,943 jobs**, exit 0, with all source hashes checked. The earlier
+225-module full build also passed, with 8,934 jobs. Cumulative standard-only
+readbacks: **1,550**.
+
+A fresh final-axiom gate still fails on the preexisting WZ volume axiom;
+these successful checks do not certify the main theorem. See
+[the exact scope](../docs/WZ_STEP6_GEOMETRIC_CALLERS.md) and
+[verification evidence](wz-step6-geometric-callers-checkpoint.json).
+
 ## Compatible layers, tuple selection and native witnesses
 
 Seven new modules construct weighted rich predecessor layers, compatible

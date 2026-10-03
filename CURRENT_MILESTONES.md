@@ -159,6 +159,15 @@ the geometric profile/menu callers, complete native AD rescaling and
 Step 6 slice/quotient estimates remain. See
 [the exact new scope](docs/WZ_COMPATIBLE_GRAINS_CHECKPOINT.md).
 
+The next checkpoint constructs native padded cubical sources on the full
+original backbone and derives injective slice quantization, fractional
+quotient AD transfer with nearby rich cells, and arbitrary-real-exponent
+metric AD coarsening. Actual two-tube path counts are also proved. All 153
+new declarations pass strict standard-only readbacks; the full 234-module
+build passes. These remove local construction premises, while complete
+aligned-slice geometry, admissible rescaling assembly and the final volume
+proof remain open. See [the exact scope](docs/WZ_STEP6_GEOMETRIC_CALLERS.md).
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

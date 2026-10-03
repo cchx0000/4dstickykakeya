@@ -1,0 +1,1667 @@
+{
+  "generated_at_utc": "2026-10-03T16:10:39.586599+00:00",
+  "base_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_injective_slice_quantization.lean": "cafac0488068a36093fae4ac43913179171d6d87399f36ef91a9626fd2c4b25d",
+    "Theorems/Thm_StickyKakeya4_grid_quotient_ad.lean": "d5fccfe794c4dacaeedf26b3a4532d7089fa9d9fcbe04ac28ab2aa60d1433662",
+    "Theorems/Thm_StickyKakeya4_grid_rich_neighbor_quotient.lean": "9c06f962e0713523e9db1bcda6c8e1e58636e71e8547ed8911ec005e1d773796",
+    "Theorems/Thm_StickyKakeya4_finite_voronoi_population.lean": "15c610d4b8d3e5f6b9e05366042b8a64daab437bdfd846caa46be24d96fe7be5",
+    "Theorems/Thm_StickyKakeya4_finite_voronoi_ad_coarsening.lean": "ba8bdd53483ca0ed563c0cbb3c2851103b200455b1aa18af88896c1daeb5e4b5",
+    "Theorems/Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening.lean": "255eeb69dc6a7ef1c48c5d47ff6845f6293a1af3b53d45d389ef5b73aa84b56e",
+    "Theorems/Thm_StickyKakeya4_physical_rescaling_backbone_density.lean": "1d1bbf23d06e39285e6506c7f66d7903fef23b36fa9e4e419f875ce607d28a47",
+    "Theorems/Thm_StickyKakeya4_two_tube_path_collision_count.lean": "678b87c8d1a2b1bf17dbdbbe08055b24d2e7e4eb5bd50b31cf66e82c885f959c",
+    "Theorems/Thm_StickyKakeya4_padded_rescaling_cubical_source.lean": "a3135b946f184e5597523778214dc67cd09796ed657e5e3992d1e66b491d5c6e"
+  },
+  "new_modules": [
+    {
+      "short": "InjectiveSliceQuantization",
+      "slug": "injective_slice_quantization",
+      "source": "Theorems/Thm_StickyKakeya4_injective_slice_quantization.lean",
+      "source_sha256": "cafac0488068a36093fae4ac43913179171d6d87399f36ef91a9626fd2c4b25d",
+      "readback": "verification/InjectiveSliceQuantizationReadback.lean",
+      "declarations": [
+        "InjectiveSliceQuantization.label_bijective",
+        "InjectiveSliceQuantization.center_floor_formula",
+        "InjectiveSliceQuantization.unchanged_x_time",
+        "InjectiveSliceQuantization.quantize_y_formula",
+        "InjectiveSliceQuantization.quotient_coordinate_in_grid",
+        "InjectiveSliceQuantization.rounding_error",
+        "InjectiveSliceQuantization.coordinate_error",
+        "InjectiveSliceQuantization.pairwise_coordinate_distortion",
+        "InjectiveSliceQuantization.deformedPoint_injective",
+        "InjectiveSliceQuantization.quantize_injective",
+        "InjectiveSliceQuantization.label_image_card",
+        "InjectiveSliceQuantization.quantize_image_card",
+        "InjectiveSliceQuantization.original_label_pullback"
+      ]
+    },
+    {
+      "short": "GridQuotientAD",
+      "slug": "grid_quotient_ad",
+      "source": "Theorems/Thm_StickyKakeya4_grid_quotient_ad.lean",
+      "source_sha256": "d5fccfe794c4dacaeedf26b3a4532d7089fa9d9fcbe04ac28ab2aa60d1433662",
+      "readback": "verification/GridQuotientADReadback.lean",
+      "declarations": [
+        "GridQuotientAD.mem_box_iff",
+        "GridQuotientAD.box_card",
+        "GridQuotientAD.ambientBox_card_le_fiber_capacity",
+        "GridQuotientAD.slab_card_eq_sum_fibers",
+        "GridQuotientAD.dense_fibers_le_slab",
+        "GridQuotientAD.cellKeys_card",
+        "GridQuotientAD.cellKey_mem",
+        "GridQuotientAD.same_cell_close",
+        "GridQuotientAD.box_same_center_pair",
+        "GridQuotientAD.box_mono",
+        "GridQuotientAD.slab_card_le_cells_mul",
+        "GridQuotientAD.cell_count_scaled_le",
+        "GridQuotientAD.quotient_lower",
+        "GridQuotientAD.quotient_upper",
+        "GridQuotientAD.quotient_AD"
+      ]
+    },
+    {
+      "short": "GridRichNeighborQuotient",
+      "slug": "grid_rich_neighbor_quotient",
+      "source": "Theorems/Thm_StickyKakeya4_grid_rich_neighbor_quotient.lean",
+      "source_sha256": "9c06f962e0713523e9db1bcda6c8e1e58636e71e8547ed8911ec005e1d773796",
+      "readback": "verification/GridRichNeighborQuotientReadback.lean",
+      "declarations": [
+        "GridRichNeighborQuotient.mem_richRestriction",
+        "GridRichNeighborQuotient.richRestriction_subset",
+        "GridRichNeighborQuotient.mem_rich_image_iff",
+        "GridRichNeighborQuotient.fiber_richRestriction",
+        "GridRichNeighborQuotient.richRestriction_dense",
+        "GridRichNeighborQuotient.ambientBox_mono",
+        "GridRichNeighborQuotient.slab_mono",
+        "GridRichNeighborQuotient.richRestriction_ambient_upper",
+        "GridRichNeighborQuotient.box_symmetric",
+        "GridRichNeighborQuotient.box_triangle",
+        "GridRichNeighborQuotient.exists_rich_neighbor_map",
+        "GridRichNeighborQuotient.neighbor_map_fiber_card_le",
+        "GridRichNeighborQuotient.quotient_card_le_rich_neighbors",
+        "GridRichNeighborQuotient.quotient_mass_le_slab",
+        "GridRichNeighborQuotient.quotient_mass_le_cells",
+        "GridRichNeighborQuotient.setBox_mono_radius",
+        "GridRichNeighborQuotient.setBox_card_le_of_near_map",
+        "GridRichNeighborQuotient.exists_near_map",
+        "GridRichNeighborQuotient.setBox_card_le_rich_neighbors",
+        "GridRichNeighborQuotient.setBox_mass_le_slab",
+        "GridRichNeighborQuotient.setBox_mass_le_cells",
+        "GridRichNeighborQuotient.full_quotient_card_le_setBox",
+        "GridRichNeighborQuotient.ambient_lower_le_setBox",
+        "GridRichNeighborQuotient.cell_count_scaled_le_four",
+        "GridRichNeighborQuotient.setBox_upper_shifted",
+        "GridRichNeighborQuotient.setBox_upper_AD",
+        "GridRichNeighborQuotient.original_quotient_AD",
+        "GridRichNeighborQuotient.setBox_lower_large",
+        "GridRichNeighborQuotient.setBox_lower_AD",
+        "GridRichNeighborQuotient.nearby_lower_constant_pos",
+        "GridRichNeighborQuotient.nearby_quotient_AD"
+      ]
+    },
+    {
+      "short": "FiniteVoronoiPopulation",
+      "slug": "finite_voronoi_population",
+      "source": "Theorems/Thm_StickyKakeya4_finite_voronoi_population.lean",
+      "source_sha256": "15c610d4b8d3e5f6b9e05366042b8a64daab437bdfd846caa46be24d96fe7be5",
+      "readback": "verification/FiniteVoronoiPopulationReadback.lean",
+      "declarations": [
+        "FiniteVoronoiPopulation.exists_separated_net",
+        "FiniteVoronoiPopulation.owner_mem",
+        "FiniteVoronoiPopulation.owner_min",
+        "FiniteVoronoiPopulation.mem_cluster",
+        "FiniteVoronoiPopulation.mem_carrierBall",
+        "FiniteVoronoiPopulation.carrierBall_coe",
+        "FiniteVoronoiPopulation.clusters_disjoint",
+        "FiniteVoronoiPopulation.clusters_biUnion",
+        "FiniteVoronoiPopulation.sum_cluster_card",
+        "FiniteVoronoiPopulation.owner_dist_lt",
+        "FiniteVoronoiPopulation.carrierBall_third_subset_cluster",
+        "FiniteVoronoiPopulation.cluster_subset_carrierBall",
+        "FiniteVoronoiPopulation.cluster_card_sandwich",
+        "FiniteVoronoiPopulation.center_mem_cluster",
+        "FiniteVoronoiPopulation.exists_voronoi_partition",
+        "FiniteVoronoiPopulation.card_centers_mul_le_of_cluster_lower",
+        "FiniteVoronoiPopulation.card_centers_mul_le_of_ball_lower",
+        "FiniteVoronoiPopulation.cluster_set_sandwich",
+        "FiniteVoronoiPopulation.cluster_population_bounds",
+        "FiniteVoronoiPopulation.one_le_cluster_card",
+        "FiniteVoronoiPopulation.card_separated_family_mul_le",
+        "FiniteVoronoiPopulation.sum_cluster_card_real",
+        "FiniteVoronoiPopulation.card_centers_mul_le_of_cluster_lower_real",
+        "FiniteVoronoiPopulation.card_separated_family_mul_le_real"
+      ]
+    },
+    {
+      "short": "FiniteVoronoiADCoarsening",
+      "slug": "finite_voronoi_ad_coarsening",
+      "source": "Theorems/Thm_StickyKakeya4_finite_voronoi_ad_coarsening.lean",
+      "source_sha256": "ba8bdd53483ca0ed563c0cbb3c2851103b200455b1aa18af88896c1daeb5e4b5",
+      "readback": "verification/FiniteVoronoiADCoarseningReadback.lean",
+      "declarations": [
+        "FiniteVoronoiADCoarsening.scaled_bounds_of_ADBounds",
+        "FiniteVoronoiADCoarsening.ADBounds_of_scaled_bounds",
+        "FiniteVoronoiADCoarsening.cube_le_cube",
+        "FiniteVoronoiADCoarsening.sum_cluster_card_subfamily",
+        "FiniteVoronoiADCoarsening.cluster_union_subset",
+        "FiniteVoronoiADCoarsening.sum_cluster_card_subfamily_le_total",
+        "FiniteVoronoiADCoarsening.nearby_cluster_union_subset_ball",
+        "FiniteVoronoiADCoarsening.half_ball_subset_nearby_cluster_union",
+        "FiniteVoronoiADCoarsening.sum_nearby_cluster_card_le_ball",
+        "FiniteVoronoiADCoarsening.half_ball_card_le_sum_nearby_clusters",
+        "FiniteVoronoiADCoarsening.cluster_scaled_population_bounds",
+        "FiniteVoronoiADCoarsening.cluster_population_bounds",
+        "FiniteVoronoiADCoarsening.subfamily_scaled_population_bounds",
+        "FiniteVoronoiADCoarsening.carrierBall_one_eq",
+        "FiniteVoronoiADCoarsening.global_scaled_card_le",
+        "FiniteVoronoiADCoarsening.coarse_scaled_ball_bounds",
+        "FiniteVoronoiADCoarsening.coarse_ADBounds",
+        "FiniteVoronoiADCoarsening.exists_AD_coarsening"
+      ]
+    },
+    {
+      "short": "FiniteVoronoiRealADCoarsening",
+      "slug": "finite_voronoi_real_ad_coarsening",
+      "source": "Theorems/Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening.lean",
+      "source_sha256": "255eeb69dc6a7ef1c48c5d47ff6845f6293a1af3b53d45d389ef5b73aa84b56e",
+      "readback": "verification/FiniteVoronoiRealADCoarseningReadback.lean",
+      "declarations": [
+        "FiniteVoronoiRealADCoarsening.scaled_bounds_of_ADBounds",
+        "FiniteVoronoiRealADCoarsening.ADBounds_of_scaled_bounds",
+        "FiniteVoronoiRealADCoarsening.cluster_scaled_population_bounds",
+        "FiniteVoronoiRealADCoarsening.cluster_population_bounds",
+        "FiniteVoronoiRealADCoarsening.subfamily_scaled_population_bounds",
+        "FiniteVoronoiRealADCoarsening.global_scaled_card_le",
+        "FiniteVoronoiRealADCoarsening.coarse_scaled_ball_bounds",
+        "FiniteVoronoiRealADCoarsening.coarse_ADBounds",
+        "FiniteVoronoiRealADCoarsening.exists_AD_coarsening"
+      ]
+    },
+    {
+      "short": "PhysicalRescalingBackboneDensity",
+      "slug": "physical_rescaling_backbone_density",
+      "source": "Theorems/Thm_StickyKakeya4_physical_rescaling_backbone_density.lean",
+      "source_sha256": "1d1bbf23d06e39285e6506c7f66d7903fef23b36fa9e4e419f875ce607d28a47",
+      "readback": "verification/PhysicalRescalingBackboneDensityReadback.lean",
+      "declarations": [
+        "PhysicalRescalingIncidenceTransfer.Data.hypotheses_of_full_backbone_density",
+        "PhysicalRescalingIncidenceTransfer.Data.endpoint_densities_full_backbone"
+      ]
+    },
+    {
+      "short": "TwoTubePathCollisionCount",
+      "slug": "two_tube_path_collision_count",
+      "source": "Theorems/Thm_StickyKakeya4_two_tube_path_collision_count.lean",
+      "source_sha256": "678b87c8d1a2b1bf17dbdbbe08055b24d2e7e4eb5bd50b31cf66e82c885f959c",
+      "readback": "verification/TwoTubePathCollisionCountReadback.lean",
+      "declarations": [
+        "TwoTubePathCollisionCount.mem_paths",
+        "TwoTubePathCollisionCount.tubeDegree_eq_fiber_card",
+        "TwoTubePathCollisionCount.card_incidence_eq_sum_tubeDegree",
+        "TwoTubePathCollisionCount.sum_fiber_card_eq_sum_sq",
+        "TwoTubePathCollisionCount.sum_halfPaths_eq_sum_tubeDegree_sq",
+        "TwoTubePathCollisionCount.card_paths_eq_sum_halfPaths_sq",
+        "TwoTubePathCollisionCount.nat_sum_sq_le_card_mul_sum_sq",
+        "TwoTubePathCollisionCount.fourth_power_walk_bound",
+        "TwoTubePathCollisionCount.fourth_power_walk_bound_of_subset",
+        "TwoTubePathCollisionCount.mem_collisions",
+        "TwoTubePathCollisionCount.card_collisions_eq_sum_fiber_sq",
+        "TwoTubePathCollisionCount.square_card_le_image_mul_collisions",
+        "TwoTubePathCollisionCount.eighth_power_collision_bound"
+      ]
+    },
+    {
+      "short": "PaddedRescalingCubicalSource",
+      "slug": "padded_rescaling_cubical_source",
+      "source": "Theorems/Thm_StickyKakeya4_padded_rescaling_cubical_source.lean",
+      "source_sha256": "a3135b946f184e5597523778214dc67cd09796ed657e5e3992d1e66b491d5c6e",
+      "readback": "verification/PaddedRescalingCubicalSourceReadback.lean",
+      "declarations": [
+        "StickyKakeya4.PaddedRescalingCubicalSource.decode_encode",
+        "StickyKakeya4.PaddedRescalingCubicalSource.encode_injective",
+        "StickyKakeya4.PaddedRescalingCubicalSource.fine_apply",
+        "StickyKakeya4.PaddedRescalingCubicalSource.retained_subset",
+        "StickyKakeya4.PaddedRescalingCubicalSource.exists_padding",
+        "StickyKakeya4.PaddedRescalingCubicalSource.ofGraph_parameters_injective",
+        "StickyKakeya4.PaddedRescalingCubicalSource.line_injective",
+        "StickyKakeya4.PaddedRescalingCubicalSource.mesh_pos",
+        "StickyKakeya4.PaddedRescalingCubicalSource.axis_near",
+        "StickyKakeya4.PaddedRescalingCubicalSource.contract_axis_eq_graph",
+        "StickyKakeya4.PaddedRescalingCubicalSource.contract_time_buffer",
+        "StickyKakeya4.PaddedRescalingCubicalSource.coarse_near_mem",
+        "StickyKakeya4.PaddedRescalingCubicalSource.coarse_axis_mem",
+        "StickyKakeya4.PaddedRescalingCubicalSource.coarse_point_mem",
+        "StickyKakeya4.PaddedRescalingCubicalSource.cell_has_marked_witness",
+        "StickyKakeya4.PaddedRescalingCubicalSource.source_cubical_measurable",
+        "StickyKakeya4.PaddedRescalingCubicalSource.source_shading_subset",
+        "StickyKakeya4.PaddedRescalingCubicalSource.source_normalization",
+        "StickyKakeya4.PaddedRescalingCubicalSource.card_indexBox",
+        "StickyKakeya4.PaddedRescalingCubicalSource.mem_indexBox_of_quotient",
+        "StickyKakeya4.PaddedRescalingCubicalSource.coarse_incidence_capacity",
+        "StickyKakeya4.PaddedRescalingCubicalSource.retained_card_le_newPairs",
+        "StickyKakeya4.PaddedRescalingCubicalSource.card_newPairs_eq_sum_cells",
+        "StickyKakeya4.PaddedRescalingCubicalSource.source_total_shading_volume",
+        "StickyKakeya4.PaddedRescalingCubicalSource.source_covers_retained_centers",
+        "StickyKakeya4.PaddedRescalingCubicalSource.retained_fine_fiber_eq",
+        "StickyKakeya4.PaddedRescalingCubicalSource.source_comparable_cubical",
+        "StickyKakeya4.PaddedRescalingCubicalSource.exists_actual_padded_cubical_source"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "InjectiveSliceQuantization.label_bijective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.center_floor_formula",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.unchanged_x_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.quantize_y_formula",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.quotient_coordinate_in_grid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.rounding_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.coordinate_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.pairwise_coordinate_distortion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.deformedPoint_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.quantize_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.label_image_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.quantize_image_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "InjectiveSliceQuantization.original_label_pullback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.mem_box_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.box_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.ambientBox_card_le_fiber_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.slab_card_eq_sum_fibers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.dense_fibers_le_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.cellKeys_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.cellKey_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.same_cell_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.box_same_center_pair",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.box_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.slab_card_le_cells_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.cell_count_scaled_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.quotient_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.quotient_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridQuotientAD.quotient_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.mem_richRestriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.richRestriction_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.mem_rich_image_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.fiber_richRestriction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.richRestriction_dense",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.ambientBox_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.slab_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.richRestriction_ambient_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.box_symmetric",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.box_triangle",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.exists_rich_neighbor_map",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.neighbor_map_fiber_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.quotient_card_le_rich_neighbors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.quotient_mass_le_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.quotient_mass_le_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.setBox_mono_radius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.setBox_card_le_of_near_map",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.exists_near_map",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.setBox_card_le_rich_neighbors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.setBox_mass_le_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.setBox_mass_le_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.full_quotient_card_le_setBox",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.ambient_lower_le_setBox",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.cell_count_scaled_le_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.setBox_upper_shifted",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.setBox_upper_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.original_quotient_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.setBox_lower_large",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.setBox_lower_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.nearby_lower_constant_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "GridRichNeighborQuotient.nearby_quotient_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.exists_separated_net",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.owner_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.owner_min",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.mem_cluster",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.mem_carrierBall",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.carrierBall_coe",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.clusters_disjoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.clusters_biUnion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.sum_cluster_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.owner_dist_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.carrierBall_third_subset_cluster",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.cluster_subset_carrierBall",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.cluster_card_sandwich",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.center_mem_cluster",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.exists_voronoi_partition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.card_centers_mul_le_of_cluster_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.card_centers_mul_le_of_ball_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.cluster_set_sandwich",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.cluster_population_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.one_le_cluster_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.card_separated_family_mul_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.sum_cluster_card_real",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.card_centers_mul_le_of_cluster_lower_real",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiPopulation.card_separated_family_mul_le_real",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.scaled_bounds_of_ADBounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.ADBounds_of_scaled_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.cube_le_cube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.sum_cluster_card_subfamily",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.cluster_union_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.sum_cluster_card_subfamily_le_total",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.nearby_cluster_union_subset_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.half_ball_subset_nearby_cluster_union",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.sum_nearby_cluster_card_le_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.half_ball_card_le_sum_nearby_clusters",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.cluster_scaled_population_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.cluster_population_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.subfamily_scaled_population_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.carrierBall_one_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.global_scaled_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.coarse_scaled_ball_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.coarse_ADBounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiADCoarsening.exists_AD_coarsening",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiRealADCoarsening.scaled_bounds_of_ADBounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiRealADCoarsening.ADBounds_of_scaled_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiRealADCoarsening.cluster_scaled_population_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiRealADCoarsening.cluster_population_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiRealADCoarsening.subfamily_scaled_population_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiRealADCoarsening.global_scaled_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiRealADCoarsening.coarse_scaled_ball_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiRealADCoarsening.coarse_ADBounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "FiniteVoronoiRealADCoarsening.exists_AD_coarsening",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.hypotheses_of_full_backbone_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.endpoint_densities_full_backbone",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.mem_paths",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.tubeDegree_eq_fiber_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.card_incidence_eq_sum_tubeDegree",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.sum_fiber_card_eq_sum_sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.sum_halfPaths_eq_sum_tubeDegree_sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.card_paths_eq_sum_halfPaths_sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.nat_sum_sq_le_card_mul_sum_sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.fourth_power_walk_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.fourth_power_walk_bound_of_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.mem_collisions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.card_collisions_eq_sum_fiber_sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.square_card_le_image_mul_collisions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "TwoTubePathCollisionCount.eighth_power_collision_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.decode_encode",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.encode_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.fine_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.retained_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.exists_padding",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.ofGraph_parameters_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.line_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.mesh_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.axis_near",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.contract_axis_eq_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.contract_time_buffer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.coarse_near_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.coarse_axis_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.coarse_point_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.cell_has_marked_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.source_cubical_measurable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.source_shading_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.source_normalization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.card_indexBox",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.mem_indexBox_of_quotient",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.coarse_incidence_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.retained_card_le_newPairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.card_newPairs_eq_sum_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.source_total_shading_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.source_covers_retained_centers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.retained_fine_fiber_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.source_comparable_cubical",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.PaddedRescalingCubicalSource.exists_actual_padded_cubical_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-step6-geometric-callers-axioms.log"
+    }
+  ],
+  "declaration_count": 153,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_readback": "verification/WZStep6GeometricCallersReadback.lean",
+  "shared_import_log": "verification/wz-step6-geometric-callers-axioms.log",
+  "targeted_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8762,
+    "log": "verification/wz-step6-geometric-callers-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_injective_slice_quantization +Theorems.Thm_StickyKakeya4_grid_rich_neighbor_quotient +Theorems.Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening +Theorems.Thm_StickyKakeya4_two_tube_path_collision_count +Theorems.Thm_StickyKakeya4_padded_rescaling_cubical_source"
+  },
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8943,
+    "log": "verification/wz234-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
+    "module_count": 234,
+    "source_snapshot": "verification/wz234-source-snapshot.json",
+    "scope": "Full default build of all current 234 project modules, with 225 previous source hashes unchanged"
+  },
+  "previous_default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8934,
+    "log": "verification/wz225-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_snapshot_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
+    "module_count": 225,
+    "source_snapshot": "verification/wz225-source-snapshot.json"
+  },
+  "prior_225_module_hashes_unchanged": true,
+  "current_module_count": 234,
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "scope_note": "docs/WZ_STEP6_GEOMETRIC_CALLERS.md"
+}

@@ -10,13 +10,20 @@ finite-scale and Frostman chain are present, but the current public
 `selector_closure` route still imports a Wang--Zakharov volume estimate through
 the project axiom
 `wang_zakharov_published_volume_estimate`. The intended endpoint is to remove
-that dependency by closing the weighted, source-hereditary Carleson branch
-internally.
+that dependency through a self-contained proof, either by completing the
+source-hereditary charge argument or the finite volume route for the actual
+compact-source packets.
 
 The earlier Prove2Me proposal is preserved in
 [PROVE2ME_TARGETS.md](PROVE2ME_TARGETS.md). The source-faithful current targets
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
+
+The newest [slice and cubical-source checkpoint](docs/WZ_STEP6_GEOMETRIC_CALLERS.md)
+constructs the actual padded native source, quotient AD transfer and metric
+AD coarsening, with 153 new strict proofs. The complete 234-module default
+build passes. The main theorem still fails its independent project-axiom
+gate; local geometry and the full volume argument are distinct obligations.
 
 The latest [local finite-geometry checkpoint](docs/WZ_LOCAL_GEOMETRY_PROGRESS.md)
 constructs the stronger same-set uniform core, actual padded translations,
@@ -163,7 +170,7 @@ passed **788 jobs**, the triangular endpoint passed **8,714 jobs**,
 the original-charge endpoint passed **8,718 jobs**, and the rank-one/native-time
 and actual-moment endpoints passed **8,723 jobs**. The arbitrary-input
 rank-one target passed **8,720 jobs**, and the elementary polynomial target
-passed **8,706 jobs**; the current **225-module**
+passed **8,706 jobs**; the current **234-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

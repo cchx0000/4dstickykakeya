@@ -1,43 +1,31 @@
 {
-  "generated_at_utc": "2026-10-03T13:55:58.525297+00:00",
-  "source_commit_before_report": "4eb129bc6fc97ad6d0d5af90187c8f2bd127fcbd",
-  "project_module_count": 225,
+  "generated_at_utc": "2026-10-03T16:10:39.586599+00:00",
+  "source_commit_before_report": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
+  "project_module_count": 234,
   "aggregate_build": {
-    "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
-    "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_line_tube_inverse_potential.lean": "1e86f9661618db3519b983df21421633ccf37951c1ba7ae2d458e67980209cce",
-      "Theorems/Thm_StickyKakeya4_moving_focus_energy_escape.lean": "ea71d922f6bed8e294a83e1fd4841a7e936bc8657ef277b9833c662eef0e5098",
-      "Theorems/Thm_StickyKakeya4_affine_focus_energy_escape.lean": "684275d682dca4c9e63c95ca9bd7a886ee572be521348673fbbbf16ec86e2659",
-      "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
-      "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
-    },
-    "module_count": 185,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8894,
-    "command": "STICKY_BUILD_JOBS=2 ./scripts/build-bounded.sh",
-    "log": "verification/hairbrush-escape-default-build.log",
-    "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
+    "lake_jobs": 8943,
+    "log": "verification/wz234-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
+    "module_count": 234,
+    "source_snapshot": "verification/wz234-source-snapshot.json",
+    "scope": "Full default build of all current 234 project modules, with 225 previous source hashes unchanged"
   },
   "default_build": {
-    "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
-    "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_line_tube_inverse_potential.lean": "1e86f9661618db3519b983df21421633ccf37951c1ba7ae2d458e67980209cce",
-      "Theorems/Thm_StickyKakeya4_moving_focus_energy_escape.lean": "ea71d922f6bed8e294a83e1fd4841a7e936bc8657ef277b9833c662eef0e5098",
-      "Theorems/Thm_StickyKakeya4_affine_focus_energy_escape.lean": "684275d682dca4c9e63c95ca9bd7a886ee572be521348673fbbbf16ec86e2659",
-      "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
-      "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
-    },
-    "module_count": 185,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8894,
-    "command": "STICKY_BUILD_JOBS=2 ./scripts/build-bounded.sh",
-    "log": "verification/hairbrush-escape-default-build.log",
-    "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
+    "lake_jobs": 8943,
+    "log": "verification/wz234-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
+    "module_count": 234,
+    "source_snapshot": "verification/wz234-source-snapshot.json",
+    "scope": "Full default build of all current 234 project modules, with 225 previous source hashes unchanged"
   },
   "new_declaration_axiom_checks": {
-    "count": 1397,
+    "count": 1550,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -55,15 +43,9 @@
         "axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
       }
     ],
-    "log": "verification/hairbrush-escape-main-axiom-gate.log",
-    "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
-    "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_line_tube_inverse_potential.lean": "1e86f9661618db3519b983df21421633ccf37951c1ba7ae2d458e67980209cce",
-      "Theorems/Thm_StickyKakeya4_moving_focus_energy_escape.lean": "ea71d922f6bed8e294a83e1fd4841a7e936bc8657ef277b9833c662eef0e5098",
-      "Theorems/Thm_StickyKakeya4_affine_focus_energy_escape.lean": "684275d682dca4c9e63c95ca9bd7a886ee572be521348673fbbbf16ec86e2659",
-      "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
-      "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
-    }
+    "log": "verification/wz225-main-axiom-gate.log",
+    "source_snapshot_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
+    "scope": "Fresh gate on 225-module snapshot; final declarations and all their dependencies unchanged in the following nine independent modules"
   },
   "original_core_unchanged": true,
   "original_main_theorem_file_unchanged": true,
@@ -1195,31 +1177,77 @@
       "status": "passed",
       "source_sha256": "9b13157a3d4b1b8c481adf02e234a609dfe012ee35f9419bb82a804535d408ed",
       "verification_scope": "constructive compatible-grain/native-witness target, strict source and proper imported readback"
+    },
+    "Theorems.Thm_StickyKakeya4_injective_slice_quantization": {
+      "status": "passed",
+      "source_sha256": "cafac0488068a36093fae4ac43913179171d6d87399f36ef91a9626fd2c4b25d",
+      "verification_scope": "strict source, shared proper import and full 234-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_grid_quotient_ad": {
+      "status": "passed",
+      "source_sha256": "d5fccfe794c4dacaeedf26b3a4532d7089fa9d9fcbe04ac28ab2aa60d1433662",
+      "verification_scope": "strict source, shared proper import and full 234-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_grid_rich_neighbor_quotient": {
+      "status": "passed",
+      "source_sha256": "9c06f962e0713523e9db1bcda6c8e1e58636e71e8547ed8911ec005e1d773796",
+      "verification_scope": "strict source, shared proper import and full 234-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_voronoi_population": {
+      "status": "passed",
+      "source_sha256": "15c610d4b8d3e5f6b9e05366042b8a64daab437bdfd846caa46be24d96fe7be5",
+      "verification_scope": "strict source, shared proper import and full 234-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_voronoi_ad_coarsening": {
+      "status": "passed",
+      "source_sha256": "ba8bdd53483ca0ed563c0cbb3c2851103b200455b1aa18af88896c1daeb5e4b5",
+      "verification_scope": "strict source, shared proper import and full 234-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening": {
+      "status": "passed",
+      "source_sha256": "255eeb69dc6a7ef1c48c5d47ff6845f6293a1af3b53d45d389ef5b73aa84b56e",
+      "verification_scope": "strict source, shared proper import and full 234-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_physical_rescaling_backbone_density": {
+      "status": "passed",
+      "source_sha256": "1d1bbf23d06e39285e6506c7f66d7903fef23b36fa9e4e419f875ce607d28a47",
+      "verification_scope": "strict source, shared proper import and full 234-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_two_tube_path_collision_count": {
+      "status": "passed",
+      "source_sha256": "678b87c8d1a2b1bf17dbdbbe08055b24d2e7e4eb5bd50b31cf66e82c885f959c",
+      "verification_scope": "strict source, shared proper import and full 234-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_padded_rescaling_cubical_source": {
+      "status": "passed",
+      "source_sha256": "a3135b946f184e5597523778214dc67cd09796ed657e5e3992d1e66b491d5c6e",
+      "verification_scope": "strict source, shared proper import and full 234-module default build"
     }
   },
   "unconditional_main_completed": false,
-  "remaining_mathematical_obligation": "A genuinely source-faithful collective root-time heavy-event charge (or equivalent weighted paid/cross-cap estimate or supported Frostman escape), retaining continuum time mass for the actual coupled selector.",
+  "remaining_mathematical_obligation": "Either a source-faithful collective root-time charge/Frostman escape for the general coupled selector, or a self-contained finite volume proof for the bounded admissible packets already constructed from the original compact hypotheses. WZ local alignment, slab stopping, slope consistency and global geometry are not yet fully formalized.",
   "upstream_main_sha": "d208ddf4544cbb9ed05e4c848a83b07985b28e26",
   "latest_targeted_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8757,
-    "log": "verification/wz-compatible-grains-native-build.log",
-    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_weighted_rich_directional_layers +Theorems.Thm_StickyKakeya4_uniform_grain_partitions +Theorems.Thm_StickyKakeya4_compatible_tuple_selection +Theorems.Thm_StickyKakeya4_padded_physical_cell_witness +Theorems.Thm_StickyKakeya4_physical_rescaling_density +Theorems.Thm_StickyKakeya4_native_graph_marked_line",
-    "source_base_commit": "4eb129bc6fc97ad6d0d5af90187c8f2bd127fcbd",
+    "lake_jobs": 8762,
+    "log": "verification/wz-step6-geometric-callers-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_injective_slice_quantization +Theorems.Thm_StickyKakeya4_grid_rich_neighbor_quotient +Theorems.Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening +Theorems.Thm_StickyKakeya4_two_tube_path_collision_count +Theorems.Thm_StickyKakeya4_padded_rescaling_cubical_source",
+    "source_base_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_rich_directional_layers.lean": "18797e298e99a297d5f4e214856255dcc1e81bc2f63d54c4d9383b4d129b4ab2",
-      "Theorems/Thm_StickyKakeya4_weighted_rich_directional_layers.lean": "afd4a9a1a50f32c80fa28c7f6f341948f4f9c44c409d94315563d5c199957d6e",
-      "Theorems/Thm_StickyKakeya4_uniform_grain_partitions.lean": "47aa4332638a6160fba0aa423cd62abec161275ab9fbd187da313b2469fe4ac5",
-      "Theorems/Thm_StickyKakeya4_compatible_tuple_selection.lean": "9c7ef7286d6e8410bce53aaa97ef08b04e3afc32265313567e3d608aa5e768f2",
-      "Theorems/Thm_StickyKakeya4_padded_physical_cell_witness.lean": "58ece7275f338ae75b53960727ba9f3d6655035e3700c2758fe6bb3ea9af0ff2",
-      "Theorems/Thm_StickyKakeya4_physical_rescaling_density.lean": "d6b5b0319856752ef6e8cb413fdb84f1483982d19e13ccbcdbaf53d9fd700bfc",
-      "Theorems/Thm_StickyKakeya4_native_graph_marked_line.lean": "9b13157a3d4b1b8c481adf02e234a609dfe012ee35f9419bb82a804535d408ed"
+      "Theorems/Thm_StickyKakeya4_injective_slice_quantization.lean": "cafac0488068a36093fae4ac43913179171d6d87399f36ef91a9626fd2c4b25d",
+      "Theorems/Thm_StickyKakeya4_grid_quotient_ad.lean": "d5fccfe794c4dacaeedf26b3a4532d7089fa9d9fcbe04ac28ab2aa60d1433662",
+      "Theorems/Thm_StickyKakeya4_grid_rich_neighbor_quotient.lean": "9c06f962e0713523e9db1bcda6c8e1e58636e71e8547ed8911ec005e1d773796",
+      "Theorems/Thm_StickyKakeya4_finite_voronoi_population.lean": "15c610d4b8d3e5f6b9e05366042b8a64daab437bdfd846caa46be24d96fe7be5",
+      "Theorems/Thm_StickyKakeya4_finite_voronoi_ad_coarsening.lean": "ba8bdd53483ca0ed563c0cbb3c2851103b200455b1aa18af88896c1daeb5e4b5",
+      "Theorems/Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening.lean": "255eeb69dc6a7ef1c48c5d47ff6845f6293a1af3b53d45d389ef5b73aa84b56e",
+      "Theorems/Thm_StickyKakeya4_physical_rescaling_backbone_density.lean": "1d1bbf23d06e39285e6506c7f66d7903fef23b36fa9e4e419f875ce607d28a47",
+      "Theorems/Thm_StickyKakeya4_two_tube_path_collision_count.lean": "678b87c8d1a2b1bf17dbdbbe08055b24d2e7e4eb5bd50b31cf66e82c885f959c",
+      "Theorems/Thm_StickyKakeya4_padded_rescaling_cubical_source.lean": "a3135b946f184e5597523778214dc67cd09796ed657e5e3992d1e66b491d5c6e"
     },
-    "module_count": 7,
-    "scope": "seven new compatible-layer/tuple/native-witness modules with pinned dependencies; not a full 225-module default build"
+    "module_count": 9
   },
-  "current_turn_full_build_rerun": false,
+  "current_turn_full_build_rerun": true,
   "filtration_repair": {
     "status": "finite-node and finite-tree entropy budgets proved, including logarithmic reference-capacity creation",
     "declaration_count": 11,
@@ -1331,6 +1359,46 @@
     "actual_native_marked_line_and_windows_constructed": true,
     "complete_native_AD_rescaling_assembly": false,
     "complete_geometric_grains_and_slices_from_input": false,
+    "finite_volume_theorem_complete": false
+  },
+  "historical_default_build_before_wz": {
+    "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_line_tube_inverse_potential.lean": "1e86f9661618db3519b983df21421633ccf37951c1ba7ae2d458e67980209cce",
+      "Theorems/Thm_StickyKakeya4_moving_focus_energy_escape.lean": "ea71d922f6bed8e294a83e1fd4841a7e936bc8657ef277b9833c662eef0e5098",
+      "Theorems/Thm_StickyKakeya4_affine_focus_energy_escape.lean": "684275d682dca4c9e63c95ca9bd7a886ee572be521348673fbbbf16ec86e2659",
+      "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
+      "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
+    },
+    "module_count": 185,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8894,
+    "command": "STICKY_BUILD_JOBS=2 ./scripts/build-bounded.sh",
+    "log": "verification/hairbrush-escape-default-build.log",
+    "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
+  },
+  "previous_default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8934,
+    "log": "verification/wz225-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_snapshot_commit": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
+    "module_count": 225,
+    "source_snapshot": "verification/wz225-source-snapshot.json"
+  },
+  "wz_step6_geometric_callers": {
+    "evidence": "verification/wz-step6-geometric-callers-checkpoint.json",
+    "declaration_count": 153,
+    "injective_slice_quantization_constructed": true,
+    "fractional_quotient_AD_proved": true,
+    "rich_neighbor_quotient_AD_proved": true,
+    "arbitrary_real_exponent_metric_AD_coarsening_constructed": true,
+    "native_padded_cubical_source_full_backbone_constructed": true,
+    "two_tube_path_and_collision_counts_proved": true,
+    "all_AD_CW_rescaling_callers_assembled": false,
+    "complete_aligned_slices_from_input": false,
     "finite_volume_theorem_complete": false
   }
 }

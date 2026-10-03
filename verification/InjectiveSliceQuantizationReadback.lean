@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_injective_slice_quantization
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms InjectiveSliceQuantization.label_bijective
+#print axioms InjectiveSliceQuantization.center_floor_formula
+#print axioms InjectiveSliceQuantization.unchanged_x_time
+#print axioms InjectiveSliceQuantization.quantize_y_formula
+#print axioms InjectiveSliceQuantization.quotient_coordinate_in_grid
+#print axioms InjectiveSliceQuantization.rounding_error
+#print axioms InjectiveSliceQuantization.coordinate_error
+#print axioms InjectiveSliceQuantization.pairwise_coordinate_distortion
+#print axioms InjectiveSliceQuantization.deformedPoint_injective
+#print axioms InjectiveSliceQuantization.quantize_injective
+#print axioms InjectiveSliceQuantization.label_image_card
+#print axioms InjectiveSliceQuantization.quantize_image_card
+#print axioms InjectiveSliceQuantization.original_label_pullback
