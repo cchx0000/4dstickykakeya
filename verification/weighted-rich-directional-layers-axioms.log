@@ -1,0 +1,29 @@
+Imported declaration results extracted from the shared proper-import invocation below.
+
+'WeightedRichDirectionalLayers.mass_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.mass_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedRestriction_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedRestriction_predecessors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WeightedRichDirectionalLayers.weightedRestriction_mass_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_step_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_subset_start' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_predecessors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_mass_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.active_column_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.construct_weightedLayers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.mass_le_image_card_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.geometric_classFiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.image_geometric_classFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weighted_predecessor_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.positive_predecessor_ceiling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.construct_weighted_independent_grains' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: /workspace/shared/lean-tools/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true verification/WZCompatibleGrainsNativeReadback.lean
+Confirmed exit code: 0
+Source SHA256: afd4a9a1a50f32c80fa28c7f6f341948f4f9c44c409d94315563d5c199957d6e

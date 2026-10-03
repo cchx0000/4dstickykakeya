@@ -1,0 +1,22 @@
+import Theorems.Thm_StickyKakeya4_rich_directional_layers
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms RichDirectionalLayers.richRestriction_subset
+#print axioms RichDirectionalLayers.richRestriction_predecessors
+#print axioms RichDirectionalLayers.richRestriction_card_loss
+#print axioms RichDirectionalLayers.richLayers_zero
+#print axioms RichDirectionalLayers.richLayers_succ
+#print axioms RichDirectionalLayers.richLayers_step_subset
+#print axioms RichDirectionalLayers.richLayers_subset_start
+#print axioms RichDirectionalLayers.richLayers_predecessors
+#print axioms RichDirectionalLayers.richLayers_card_loss
+#print axioms RichDirectionalLayers.richLayers_half_of_budget
+#print axioms RichDirectionalLayers.richThreshold_positive
+#print axioms RichDirectionalLayers.richThreshold_product_positive
+#print axioms RichDirectionalLayers.richThreshold_budget
+#print axioms RichDirectionalLayers.class_count_mul_le
+#print axioms RichDirectionalLayers.construct_richLayers
+#print axioms RichDirectionalLayers.richThreshold_crossmul
+#print axioms RichDirectionalLayers.richThreshold_density
+#print axioms RichDirectionalLayers.classFiber_eq_affineFiber
+#print axioms RichDirectionalLayers.construct_independent_rich_layers

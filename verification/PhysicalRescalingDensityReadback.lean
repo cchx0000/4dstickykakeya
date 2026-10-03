@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_physical_rescaling_density
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms PhysicalRescalingIncidenceTransfer.Data.endpoint_density_original_backbone
+#print axioms PhysicalRescalingIncidenceTransfer.Data.retained_total_density

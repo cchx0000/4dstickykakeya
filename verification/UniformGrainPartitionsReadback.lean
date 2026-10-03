@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_uniform_grain_partitions
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms SelfUniform.partition_richness_of_self_uniform
+#print axioms SelfUniform.weighted_self_uniform_grain_refinement

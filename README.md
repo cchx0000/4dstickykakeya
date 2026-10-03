@@ -26,6 +26,12 @@ have standard-only readbacks. The combined extremal argument and final volume
 bound remain unfinished. Current verification scope is recorded explicitly in
 [the report](verification/REPORT.md).
 
+The following [compatible-grain checkpoint](docs/WZ_COMPATIBLE_GRAINS_CHECKPOINT.md)
+constructs the weighted layers and multiscale tuple choices, enforces final
+uniformity and grain richness together, and supplies actual padded-cell and
+native marked-line witnesses. Its 75 new proofs pass strict standard-only
+readbacks. The complete source-to-grain geometry remains under construction.
+
 ## Source-faithful verification checkpoint (2026-10-02)
 
 The original [Chenxi Cai manuscript](https://cchx0000.github.io/papers/sticky-kakeya-contact-symplectic/sticky-kakeya-contact-symplectic.pdf)
@@ -157,7 +163,7 @@ passed **788 jobs**, the triangular endpoint passed **8,714 jobs**,
 the original-charge endpoint passed **8,718 jobs**, and the rank-one/native-time
 and actual-moment endpoints passed **8,723 jobs**. The arbitrary-input
 rank-one target passed **8,720 jobs**, and the elementary polynomial target
-passed **8,706 jobs**; the current **218-module**
+passed **8,706 jobs**; the current **225-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

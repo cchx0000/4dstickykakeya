@@ -149,6 +149,16 @@ still open; see [the exact scope](docs/WZ_LOCAL_GEOMETRY_PROGRESS.md).
 This route would prove the auxiliary finite estimate rather than assume it;
 it does not assert a hereditary old-occurrence cap charge.
 
+The next finite geometric checkpoint constructs rich predecessor layers
+with original weights, all-stage compatible good-tuple choices, and a
+single final refinement that has both incidence uniformity and grain
+richness. It additionally proves literal padded cube witnesses and the
+native graph-to-marked-line normalization. All 75 new proofs are strictly
+checked, with no project axiom. These remove local construction premises;
+the geometric profile/menu callers, complete native AD rescaling and
+Step 6 slice/quotient estimates remain. See
+[the exact new scope](docs/WZ_COMPATIBLE_GRAINS_CHECKPOINT.md).
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

@@ -3,6 +3,29 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Compatible layers, tuple selection and native witnesses
+
+Seven new modules construct weighted rich predecessor layers, compatible
+multiscale tuple choices and simultaneous grain/incidence uniformity on one
+final subset. They also construct the literal padded physical-cell witness,
+the native orthogonal-offset marked line with exact slab/window bounds, and
+the density comparison for the original used tube labels. Their conclusions
+are proved from the stated finite/geometric data, not added as certificate
+fields.
+
+All **75 new proofs** passed strict source and proper imported readbacks with
+standard logical axioms only (one uses no axioms). The target passed **8,757
+jobs**, exit 0; its log includes warnings from unchanged dependencies. All
+prior 218 source hashes are unchanged. The cumulative checked count is
+**1,397** across the current **225** project modules. This checkpoint does not
+claim a new full default-build pass. Evidence:
+[wz-compatible-grains-native-checkpoint.json](wz-compatible-grains-native-checkpoint.json).
+
+The [scope note](../docs/WZ_COMPATIBLE_GRAINS_CHECKPOINT.md) separates these
+constructive modules from the remaining approximate-tube profile callers,
+full AD/cubical rescaling assembly, exact slice construction and later global
+incidence proof. The original final project-axiom gate remains open.
+
 ## Constructive WZ local geometry checkpoint
 
 Nine new modules prove same-set weighted self-uniformity, actual common

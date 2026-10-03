@@ -1,0 +1,23 @@
+import Theorems.Thm_StickyKakeya4_native_graph_marked_line
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms StickyKakeya4.NativeGraphMarkedLine.direction_ofGraph
+#print axioms StickyKakeya4.NativeGraphMarkedLine.valid
+#print axioms StickyKakeya4.NativeGraphMarkedLine.direction_castSucc
+#print axioms StickyKakeya4.NativeGraphMarkedLine.direction_fourth
+#print axioms StickyKakeya4.NativeGraphMarkedLine.direction_fourth_pos
+#print axioms StickyKakeya4.NativeGraphMarkedLine.rawFrontParam_eq_center
+#print axioms StickyKakeya4.NativeGraphMarkedLine.center_height
+#print axioms StickyKakeya4.NativeGraphMarkedLine.rawFrontParam_graph
+#print axioms StickyKakeya4.NativeGraphMarkedLine.relative_graph_time
+#print axioms StickyKakeya4.NativeGraphMarkedLine.wzGraphPoint_eq_heightPoint
+#print axioms StickyKakeya4.NativeGraphMarkedLine.lift_norm_sq_le_four
+#print axioms StickyKakeya4.NativeGraphMarkedLine.lift_norm_le_two
+#print axioms StickyKakeya4.NativeGraphMarkedLine.direction_fourth_ge_half
+#print axioms StickyKakeya4.NativeGraphMarkedLine.relative_parameter_le_half
+#print axioms StickyKakeya4.NativeGraphMarkedLine.relative_parameter_le_quarter
+#print axioms StickyKakeya4.NativeGraphMarkedLine.graphPoint_mem_unitFront
+#print axioms StickyKakeya4.NativeGraphMarkedLine.graphPoint_has_buffered_parameter
+#print axioms StickyKakeya4.NativeGraphMarkedLine.contains_height_slab
+#print axioms StickyKakeya4.NativeGraphMarkedLine.family_hasNormalizedWZGraphSlab
+#print axioms StickyKakeya4.NativeGraphMarkedLine.family_hasFixedWZGraphNormalization

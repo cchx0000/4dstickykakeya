@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T13:08:33.901208+00:00",
-  "previous_checkpoint": "f1d7ca00f59de4a21079387bdcbe1ecc1c3dbb2f",
+  "generated_at_utc": "2026-10-03T13:55:58.525297+00:00",
+  "previous_checkpoint": "4eb129bc6fc97ad6d0d5af90187c8f2bd127fcbd",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 1322,
+  "total_new_checked_declarations": 1397,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -106,7 +106,14 @@
     "verification/incidence-bin-transfer-axioms.log": 21,
     "verification/backward-fiber-grains-axioms.log": 19,
     "verification/grid-padding-translation-axioms.log": 8,
-    "verification/tube-bin-count-axioms.log": 12
+    "verification/tube-bin-count-axioms.log": 12,
+    "verification/weighted-rich-directional-layers-axioms.log": 19,
+    "verification/physical-rescaling-density-axioms.log": 2,
+    "verification/compatible-tuple-selection-axioms.log": 8,
+    "verification/native-graph-marked-line-axioms.log": 20,
+    "verification/rich-directional-layers-axioms.log": 19,
+    "verification/uniform-grain-partitions-axioms.log": 2,
+    "verification/padded-physical-cell-witness-axioms.log": 5
   },
   "checks": [
     {
@@ -11179,6 +11186,677 @@
         "Quot.sound"
       ],
       "log": "verification/wz-cover-input-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richRestriction_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richRestriction_predecessors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richRestriction_card_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richLayers_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richLayers_succ",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richLayers_step_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richLayers_subset_start",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richLayers_predecessors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richLayers_card_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richLayers_half_of_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richThreshold_product_positive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richThreshold_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.class_count_mul_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.construct_richLayers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richThreshold_crossmul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richThreshold_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.classFiber_eq_affineFiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.construct_independent_rich_layers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "RichDirectionalLayers.richThreshold_positive",
+      "axioms": [],
+      "log": "verification/rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.mass_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.mass_partition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weightedRestriction_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weightedRestriction_predecessors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weightedRestriction_mass_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weightedLayers_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weightedLayers_succ",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weightedLayers_step_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weightedLayers_subset_start",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weightedLayers_predecessors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weightedLayers_mass_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.active_column_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.construct_weightedLayers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.mass_le_image_card_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.geometric_classFiber_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.image_geometric_classFiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.weighted_predecessor_vertices",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.positive_predecessor_ceiling",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "WeightedRichDirectionalLayers.construct_weighted_independent_grains",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/weighted-rich-directional-layers-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.partition_richness_of_self_uniform",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-grain-partitions-axioms.log"
+    },
+    {
+      "declaration": "SelfUniform.weighted_self_uniform_grain_refinement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/uniform-grain-partitions-axioms.log"
+    },
+    {
+      "declaration": "CompatibleTupleSelection.mass_eq_sum_partition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compatible-tuple-selection-axioms.log"
+    },
+    {
+      "declaration": "CompatibleTupleSelection.weighted_fiber_selection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compatible-tuple-selection-axioms.log"
+    },
+    {
+      "declaration": "CompatibleTupleSelection.weighted_spatial_selection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compatible-tuple-selection-axioms.log"
+    },
+    {
+      "declaration": "CompatibleTupleSelection.weighted_compatible_selection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compatible-tuple-selection-axioms.log"
+    },
+    {
+      "declaration": "CompatibleTupleSelection.weighted_original_label_selection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compatible-tuple-selection-axioms.log"
+    },
+    {
+      "declaration": "CompatibleTupleSelection.mem_goodPairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compatible-tuple-selection-axioms.log"
+    },
+    {
+      "declaration": "CompatibleTupleSelection.mass_goodPairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compatible-tuple-selection-axioms.log"
+    },
+    {
+      "declaration": "CompatibleTupleSelection.weighted_good_tuple_family_selection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/compatible-tuple-selection-axioms.log"
+    },
+    {
+      "declaration": "PaddedPhysicalCellWitness.nearby_floor_eq_quotient",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/padded-physical-cell-witness-axioms.log"
+    },
+    {
+      "declaration": "PaddedPhysicalCellWitness.mem_halfOpenCell_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/padded-physical-cell-witness-axioms.log"
+    },
+    {
+      "declaration": "PaddedPhysicalCellWitness.nearby_same_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/padded-physical-cell-witness-axioms.log"
+    },
+    {
+      "declaration": "PaddedPhysicalCellWitness.nearby_mem_same_halfOpenCell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/padded-physical-cell-witness-axioms.log"
+    },
+    {
+      "declaration": "PaddedPhysicalCellWitness.weighted_physical_cell_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/padded-physical-cell-witness-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.endpoint_density_original_backbone",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-density-axioms.log"
+    },
+    {
+      "declaration": "PhysicalRescalingIncidenceTransfer.Data.retained_total_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/physical-rescaling-density-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.direction_ofGraph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.valid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.direction_castSucc",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.direction_fourth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.direction_fourth_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.rawFrontParam_eq_center",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.center_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.rawFrontParam_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.relative_graph_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.wzGraphPoint_eq_heightPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.lift_norm_sq_le_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.lift_norm_le_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.direction_fourth_ge_half",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.relative_parameter_le_half",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.relative_parameter_le_quarter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.graphPoint_mem_unitFront",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.graphPoint_has_buffered_parameter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.contains_height_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.family_hasNormalizedWZGraphSlab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.NativeGraphMarkedLine.family_hasFixedWZGraphNormalization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/native-graph-marked-line-axioms.log"
     }
   ],
   "source_sha256": {
@@ -11283,14 +11961,21 @@
     "Theorems/Thm_StickyKakeya4_incidence_bin_transfer.lean": "5e7bd70e22b4bd1ee134bb8227bcf7fd18fcc536e16c65a539ade43dbdf693c3",
     "Theorems/Thm_StickyKakeya4_shear_bin_fibers.lean": "a25c8494373ebd245449316eac02f141afff604584768de129284bfd20d2f260",
     "Theorems/Thm_StickyKakeya4_tube_bin_count.lean": "74459c8a00f50a526d1721f454ef204e8f9bf82fe91a19d86dd0e8bdd48c0d71",
-    "Theorems/Thm_StickyKakeya4_physical_rescaling_incidence_transfer.lean": "d2df9664bee998d4aea3700674485948aed151cbbe117839c4b85bcf614e73c0"
+    "Theorems/Thm_StickyKakeya4_physical_rescaling_incidence_transfer.lean": "d2df9664bee998d4aea3700674485948aed151cbbe117839c4b85bcf614e73c0",
+    "Theorems/Thm_StickyKakeya4_rich_directional_layers.lean": "18797e298e99a297d5f4e214856255dcc1e81bc2f63d54c4d9383b4d129b4ab2",
+    "Theorems/Thm_StickyKakeya4_weighted_rich_directional_layers.lean": "afd4a9a1a50f32c80fa28c7f6f341948f4f9c44c409d94315563d5c199957d6e",
+    "Theorems/Thm_StickyKakeya4_uniform_grain_partitions.lean": "47aa4332638a6160fba0aa423cd62abec161275ab9fbd187da313b2469fe4ac5",
+    "Theorems/Thm_StickyKakeya4_compatible_tuple_selection.lean": "9c7ef7286d6e8410bce53aaa97ef08b04e3afc32265313567e3d608aa5e768f2",
+    "Theorems/Thm_StickyKakeya4_padded_physical_cell_witness.lean": "58ece7275f338ae75b53960727ba9f3d6655035e3700c2758fe6bb3ea9af0ff2",
+    "Theorems/Thm_StickyKakeya4_physical_rescaling_density.lean": "d6b5b0319856752ef6e8cb413fdb84f1483982d19e13ccbcdbaf53d9fd700bfc",
+    "Theorems/Thm_StickyKakeya4_native_graph_marked_line.lean": "9b13157a3d4b1b8c481adf02e234a609dfe012ee35f9419bb82a804535d408ed"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
   "targeted_lake_build_status": "passed",
   "targeted_lake_build_exit_code": 0,
-  "targeted_lake_build_jobs": 8710,
-  "targeted_lake_build_log": "verification/wz-physical-rescaling-build.log",
+  "targeted_lake_build_jobs": 8757,
+  "targeted_lake_build_log": "verification/wz-compatible-grains-native-build.log",
   "full_tracked_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -11331,22 +12016,24 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 1231,
+  "resumed_phase_declaration_count": 1306,
   "latest_targeted_build": {
-    "log": "verification/wz-physical-rescaling-build.log",
-    "lake_jobs": 8710,
-    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_finite_cyclic_grid_padding +Theorems.Thm_StickyKakeya4_physical_rescaling_incidence_transfer",
-    "exit_code": 0,
     "status": "passed",
-    "source_base_commit": "f1d7ca00f59de4a21079387bdcbe1ecc1c3dbb2f",
+    "exit_code": 0,
+    "lake_jobs": 8757,
+    "log": "verification/wz-compatible-grains-native-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh +Theorems.Thm_StickyKakeya4_weighted_rich_directional_layers +Theorems.Thm_StickyKakeya4_uniform_grain_partitions +Theorems.Thm_StickyKakeya4_compatible_tuple_selection +Theorems.Thm_StickyKakeya4_padded_physical_cell_witness +Theorems.Thm_StickyKakeya4_physical_rescaling_density +Theorems.Thm_StickyKakeya4_native_graph_marked_line",
+    "source_base_commit": "4eb129bc6fc97ad6d0d5af90187c8f2bd127fcbd",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_finite_cyclic_grid_padding.lean": "ce45dcd42541ce09873d16e01696fa43f46dff271f19e00861f86ccc8d4fc7fe",
-      "Theorems/Thm_StickyKakeya4_incidence_bin_transfer.lean": "5e7bd70e22b4bd1ee134bb8227bcf7fd18fcc536e16c65a539ade43dbdf693c3",
-      "Theorems/Thm_StickyKakeya4_shear_bin_fibers.lean": "a25c8494373ebd245449316eac02f141afff604584768de129284bfd20d2f260",
-      "Theorems/Thm_StickyKakeya4_tube_bin_count.lean": "74459c8a00f50a526d1721f454ef204e8f9bf82fe91a19d86dd0e8bdd48c0d71",
-      "Theorems/Thm_StickyKakeya4_physical_rescaling_incidence_transfer.lean": "d2df9664bee998d4aea3700674485948aed151cbbe117839c4b85bcf614e73c0"
+      "Theorems/Thm_StickyKakeya4_rich_directional_layers.lean": "18797e298e99a297d5f4e214856255dcc1e81bc2f63d54c4d9383b4d129b4ab2",
+      "Theorems/Thm_StickyKakeya4_weighted_rich_directional_layers.lean": "afd4a9a1a50f32c80fa28c7f6f341948f4f9c44c409d94315563d5c199957d6e",
+      "Theorems/Thm_StickyKakeya4_uniform_grain_partitions.lean": "47aa4332638a6160fba0aa423cd62abec161275ab9fbd187da313b2469fe4ac5",
+      "Theorems/Thm_StickyKakeya4_compatible_tuple_selection.lean": "9c7ef7286d6e8410bce53aaa97ef08b04e3afc32265313567e3d608aa5e768f2",
+      "Theorems/Thm_StickyKakeya4_padded_physical_cell_witness.lean": "58ece7275f338ae75b53960727ba9f3d6655035e3700c2758fe6bb3ea9af0ff2",
+      "Theorems/Thm_StickyKakeya4_physical_rescaling_density.lean": "d6b5b0319856752ef6e8cb413fdb84f1483982d19e13ccbcdbaf53d9fd700bfc",
+      "Theorems/Thm_StickyKakeya4_native_graph_marked_line.lean": "9b13157a3d4b1b8c481adf02e234a609dfe012ee35f9419bb82a804535d408ed"
     },
-    "module_count": 5,
-    "scope": "five new finite padding, heavy-bin, actual shear and physical tube-bin modules; other four new modules and old source constructors separately checked; not a full 218-module build"
+    "module_count": 7,
+    "scope": "seven new compatible-layer/tuple/native-witness modules with pinned dependencies; not a full 225-module default build"
   }
 }

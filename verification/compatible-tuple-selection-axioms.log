@@ -1,0 +1,16 @@
+Imported declaration results extracted from the shared proper-import invocation below.
+
+'CompatibleTupleSelection.mass_eq_sum_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompatibleTupleSelection.weighted_fiber_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompatibleTupleSelection.weighted_spatial_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompatibleTupleSelection.weighted_compatible_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompatibleTupleSelection.weighted_original_label_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompatibleTupleSelection.mem_goodPairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompatibleTupleSelection.mass_goodPairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CompatibleTupleSelection.weighted_good_tuple_family_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: /workspace/shared/lean-tools/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true verification/WZCompatibleGrainsNativeReadback.lean
+Confirmed exit code: 0
+Source SHA256: 9c7ef7286d6e8410bce53aaa97ef08b04e3afc32265313567e3d608aa5e768f2

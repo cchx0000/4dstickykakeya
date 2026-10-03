@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_compatible_tuple_selection
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms CompatibleTupleSelection.mass_eq_sum_partition
+#print axioms CompatibleTupleSelection.weighted_fiber_selection
+#print axioms CompatibleTupleSelection.weighted_spatial_selection
+#print axioms CompatibleTupleSelection.weighted_compatible_selection
+#print axioms CompatibleTupleSelection.weighted_original_label_selection
+#print axioms CompatibleTupleSelection.mem_goodPairs
+#print axioms CompatibleTupleSelection.mass_goodPairs
+#print axioms CompatibleTupleSelection.weighted_good_tuple_family_selection

@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_padded_physical_cell_witness
+set_option autoImplicit false
+set_option warningAsError true
+#print axioms PaddedPhysicalCellWitness.nearby_floor_eq_quotient
+#print axioms PaddedPhysicalCellWitness.mem_halfOpenCell_bin
+#print axioms PaddedPhysicalCellWitness.nearby_same_bin
+#print axioms PaddedPhysicalCellWitness.nearby_mem_same_halfOpenCell
+#print axioms PaddedPhysicalCellWitness.weighted_physical_cell_witness

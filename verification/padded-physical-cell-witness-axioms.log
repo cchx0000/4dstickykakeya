@@ -1,0 +1,11 @@
+Imported declaration results extracted from the shared proper-import invocation below.
+
+'PaddedPhysicalCellWitness.nearby_floor_eq_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaddedPhysicalCellWitness.mem_halfOpenCell_bin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaddedPhysicalCellWitness.nearby_same_bin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaddedPhysicalCellWitness.nearby_mem_same_halfOpenCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaddedPhysicalCellWitness.weighted_physical_cell_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: /workspace/shared/lean-tools/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true verification/WZCompatibleGrainsNativeReadback.lean
+Confirmed exit code: 0
+Source SHA256: 58ece7275f338ae75b53960727ba9f3d6655035e3700c2758fe6bb3ea9af0ff2
