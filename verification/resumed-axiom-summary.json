@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T18:15:44.540313+00:00",
+  "generated_at_utc": "2026-10-03T18:50:32.690396+00:00",
   "previous_checkpoint": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 1927,
+  "total_new_checked_declarations": 2012,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -118,7 +118,8 @@
     "verification/wz-alignment-constructors-axioms.log": 88,
     "verification/wz-alignment-endpoints-axioms.log": 88,
     "verification/wz-native-alignment-interfaces-axioms.log": 108,
-    "verification/wz-tube-slope-axioms.log": 93
+    "verification/wz-tube-slope-axioms.log": 93,
+    "verification/wz-witness-geometry-axioms.log": 85
   },
   "checks": [
     {
@@ -16611,6 +16612,771 @@
         "Quot.sound"
       ],
       "log": "verification/wz-tube-slope-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.coordinate_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.quantization_dist_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.realized_coordinate_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.realized_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.same_spatialCell_source_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.nearby_integer_divisions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.coarse_vertex_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.coarseBox_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.coarse_image_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.image_card_le_reference_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.coarse_menu_card_le_grid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.vertex_image_card_le_grid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.cellPreimage_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.cellPreimage_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.cellPreimage_diameter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.vertex_preimage_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.referenceFactor_le_constant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.spatial_menu_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.spatial_cell_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridADReference.exists_integer_vertex_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TubePerturbationGridTransfer.close_floor_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TubePerturbationGridTransfer.moved_grid_in_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TubePerturbationGridTransfer.moved_grid_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TubePerturbationGridTransfer.moved_tube_pullback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TubePerturbationGridTransfer.moved_tube_le_original_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessCore.retained_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessCore.retained_eq_of_endpoints",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessCore.swap_mem_retained",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessCore.outgoing_card_eq_incoming",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessCore.erase_vertex_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessCore.exists_rich_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessCore.exists_half_mass_rich_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessCore.collision_swap_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessCore.exists_collision_rich_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessRealCore.exists_rich_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessRealCore.exists_half_mass_rich_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "RichWitnessRealCore.exists_half_mass_collision_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.initialDu_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.initial_normal_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.terminal_normal_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.path_x_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.path_y_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.path_normal_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.residual_difference_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.initial_normal_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.terminal_normal_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.errorX_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.errorY_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.terminal_tangential_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.Data.terminal_point_normal_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.gaps_of_common_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.sharp_normal_point_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.normalized_gap_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.tangentResidual_change",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.normalResidual_change",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.box_subset_of_gaps",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.normal_gap_reverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "TwoWalkBoxComparison.two_walk_box_comparison",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.traceBound_of_actual_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.in_graphTube_of_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.normal_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.strip_normal_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.parent_time_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.mem_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.preimage_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.grid_card_le_traceBound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.strip_preimage_in_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.strip_card_le_query",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.segment_preimage_in_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.segment_card_le_query",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.strip_card_le_constant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.profile_query_eligibility",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.strip_card_le_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.segment_card_le_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.timeBins_card_le_strip_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.timeBins_card_le_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "ShearedGridTubeReference.three_profile_reference_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpArmCount.mem_halfArms",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpArmCount.mem_arms",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpArmCount.halfArms_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpArmCount.arm_labels_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpArmCount.grain_menu_mass_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpArmCount.arms_card_eq_sum_grain_sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpArmCount.grain_fourth_power_arm_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
+    },
+    {
+      "declaration": "GrainJumpArmCount.grain_eighth_power_collision_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-witness-geometry-axioms.log"
     }
   ],
   "source_sha256": {
@@ -16756,7 +17522,14 @@
     "Theorems/Thm_StickyKakeya4_tube_expansion_cover.lean": "f25bcac79adda50745606c3581a5655ed7117f44668a9d0f643c4ca41af5ff68",
     "Theorems/Thm_StickyKakeya4_noisy_affine_image_count.lean": "137e5af37b78592f50e2ab8b4ace1ba2bfcbba500e39bd8dfec610a9b76ff190",
     "Theorems/Thm_StickyKakeya4_scalar_katz_tao_slope_bound.lean": "66107be4177df35a6221d834d09d0d5905a16ce000d048777cfc661b426eec50",
-    "Theorems/Thm_StickyKakeya4_nested_plane_quantization.lean": "30b4d84bd0ecaff9009cbf5163cd022a69371a565c60bc08c76e3a22e1c9e45a"
+    "Theorems/Thm_StickyKakeya4_nested_plane_quantization.lean": "30b4d84bd0ecaff9009cbf5163cd022a69371a565c60bc08c76e3a22e1c9e45a",
+    "Theorems/Thm_StickyKakeya4_sheared_grid_ad_reference.lean": "512295d2498e40b72882a6bb099aa04f701b9d53bbe51aaa07efb19c4ac0c7b3",
+    "Theorems/Thm_StickyKakeya4_tube_perturbation_grid_transfer.lean": "9ea113772212292a6f704b633da1971199e9396cd4245b9970a0828f0698ba4b",
+    "Theorems/Thm_StickyKakeya4_rich_witness_core.lean": "ea036b917a975a39f80e954edc88feb140a23baa04eeccc3c2f37b23e15d7d45",
+    "Theorems/Thm_StickyKakeya4_rich_witness_real_core.lean": "b433968f819582707a892fbe7531dd5e5de173a126797cdfc555f5b46b4c3ce7",
+    "Theorems/Thm_StickyKakeya4_two_walk_box_comparison.lean": "c65333f7cf19f41ef015aed7b1f9a1a4dc17bee820fe694947cc3246a9c8bfcb",
+    "Theorems/Thm_StickyKakeya4_sheared_grid_tube_reference.lean": "5e00e31d8417787a55e24b00c440977c5a7cdce77b64b2febcede1248e8373ae",
+    "Theorems/Thm_StickyKakeya4_grain_jump_arm_count.lean": "e2d3df979aa02a3024fc592bb9bc5fb0577863b9145d122928235c3fe31f4283"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
@@ -16804,7 +17577,7 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 1836,
+  "resumed_phase_declaration_count": 1921,
   "latest_targeted_build": {
     "status": "passed",
     "exit_code": 0,
@@ -16825,5 +17598,5 @@
     },
     "module_count": 9
   },
-  "previous_checkpoint_tree": "d211f810e04259436078000f9e03c1f89b6a95ce"
+  "previous_checkpoint_tree": "62a735d097c80c560a11a6901e9940bbd5020455"
 }

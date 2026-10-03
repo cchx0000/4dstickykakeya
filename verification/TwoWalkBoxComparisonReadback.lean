@@ -1,0 +1,23 @@
+import Theorems.Thm_StickyKakeya4_two_walk_box_comparison
+
+#print axioms TwoWalkBoxComparison.Data.initialDu_bound
+#print axioms TwoWalkBoxComparison.Data.initial_normal_identity
+#print axioms TwoWalkBoxComparison.Data.terminal_normal_identity
+#print axioms TwoWalkBoxComparison.Data.path_x_identity
+#print axioms TwoWalkBoxComparison.Data.path_y_identity
+#print axioms TwoWalkBoxComparison.Data.path_normal_identity
+#print axioms TwoWalkBoxComparison.Data.residual_difference_bound
+#print axioms TwoWalkBoxComparison.Data.initial_normal_bound
+#print axioms TwoWalkBoxComparison.Data.terminal_normal_bound
+#print axioms TwoWalkBoxComparison.Data.errorX_bound
+#print axioms TwoWalkBoxComparison.Data.errorY_bound
+#print axioms TwoWalkBoxComparison.Data.terminal_tangential_bound
+#print axioms TwoWalkBoxComparison.Data.terminal_point_normal_bound
+#print axioms TwoWalkBoxComparison.gaps_of_common_interval
+#print axioms TwoWalkBoxComparison.sharp_normal_point_bound
+#print axioms TwoWalkBoxComparison.normalized_gap_bounds
+#print axioms TwoWalkBoxComparison.tangentResidual_change
+#print axioms TwoWalkBoxComparison.normalResidual_change
+#print axioms TwoWalkBoxComparison.box_subset_of_gaps
+#print axioms TwoWalkBoxComparison.normal_gap_reverse
+#print axioms TwoWalkBoxComparison.two_walk_box_comparison

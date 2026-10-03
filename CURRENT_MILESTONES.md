@@ -7,6 +7,22 @@ No new regularity, routing certificate, or energy bound is a final hypothesis.
 See [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md) for exact references.
 The earlier eight-item proposal is preserved in `PROVE2ME_TARGETS.md`.
 
+## 2026-10-03 actual-witness geometry checkpoint
+
+The same original source and quantizer now supply spatial AD menus, short
+fiber bounds and the full strip cover from one genuine tube profile.
+Actual witness swapping gives a real-threshold rich core without a large
+integer degree assumption. Original two-walk incidences give adapted-box
+comparison, and original grain-jump arms give the next incidence count.
+All 85 new proved declarations pass strict source and imported axiom checks;
+the 266-module full build passes 8,975 jobs. Cumulative foundational-only checks
+are 2,012. See [scope and remaining composition](docs/WZ_ACTUAL_WITNESS_GEOMETRY.md).
+
+This does not close the main theorem. The original final statement and the
+existing volume-axiom dependency are unchanged. In particular, the later
+non-affine WZ branch needs the substantive nonlinear expansion Theorem 13.5,
+as detailed in the [source audit](docs/WZ_PROP173_L_TUPLES_AND_REMAINING_INPUT.md).
+
 ## 2026-10-03 filtration repair checkpoint
 
 A strict finite-tree density budget now replaces the invalid inference

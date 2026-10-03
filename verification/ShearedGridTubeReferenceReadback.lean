@@ -1,0 +1,21 @@
+import Theorems.Thm_StickyKakeya4_sheared_grid_tube_reference
+
+#print axioms ShearedGridTubeReference.traceBound_of_actual_profile
+#print axioms ShearedGridTubeReference.in_graphTube_of_bounds
+#print axioms ShearedGridTubeReference.normal_error
+#print axioms ShearedGridTubeReference.strip_normal_error
+#print axioms ShearedGridTubeReference.parent_time_bound
+#print axioms ShearedGridTubeReference.mem_preimage
+#print axioms ShearedGridTubeReference.preimage_image
+#print axioms ShearedGridTubeReference.grid_card_le_traceBound
+#print axioms ShearedGridTubeReference.strip_preimage_in_tube
+#print axioms ShearedGridTubeReference.strip_card_le_query
+#print axioms ShearedGridTubeReference.segment_preimage_in_tube
+#print axioms ShearedGridTubeReference.segment_card_le_query
+#print axioms ShearedGridTubeReference.strip_card_le_constant
+#print axioms ShearedGridTubeReference.profile_query_eligibility
+#print axioms ShearedGridTubeReference.strip_card_le_power
+#print axioms ShearedGridTubeReference.segment_card_le_power
+#print axioms ShearedGridTubeReference.timeBins_card_le_strip_cells
+#print axioms ShearedGridTubeReference.timeBins_card_le_power
+#print axioms ShearedGridTubeReference.three_profile_reference_bounds

@@ -1,0 +1,93 @@
+import Theorems.Thm_StickyKakeya4_sheared_grid_ad_reference
+import Theorems.Thm_StickyKakeya4_tube_perturbation_grid_transfer
+import Theorems.Thm_StickyKakeya4_rich_witness_core
+import Theorems.Thm_StickyKakeya4_rich_witness_real_core
+import Theorems.Thm_StickyKakeya4_two_walk_box_comparison
+import Theorems.Thm_StickyKakeya4_sheared_grid_tube_reference
+import Theorems.Thm_StickyKakeya4_grain_jump_arm_count
+
+#print axioms ShearedGridADReference.coordinate_movement
+#print axioms ShearedGridADReference.quantization_dist_lt
+#print axioms ShearedGridADReference.realized_coordinate_bounds
+#print axioms ShearedGridADReference.realized_dist_le
+#print axioms ShearedGridADReference.same_spatialCell_source_dist
+#print axioms ShearedGridADReference.nearby_integer_divisions
+#print axioms ShearedGridADReference.coarse_vertex_close
+#print axioms ShearedGridADReference.coarseBox_card
+#print axioms ShearedGridADReference.coarse_image_card_le
+#print axioms ShearedGridADReference.image_card_le_reference_mul
+#print axioms ShearedGridADReference.coarse_menu_card_le_grid
+#print axioms ShearedGridADReference.vertex_image_card_le_grid
+#print axioms ShearedGridADReference.cellPreimage_image
+#print axioms ShearedGridADReference.cellPreimage_subset
+#print axioms ShearedGridADReference.cellPreimage_diameter
+#print axioms ShearedGridADReference.vertex_preimage_card_le
+#print axioms ShearedGridADReference.referenceFactor_le_constant
+#print axioms ShearedGridADReference.spatial_menu_card_le
+#print axioms ShearedGridADReference.spatial_cell_card_le
+#print axioms ShearedGridADReference.exists_integer_vertex_cap
+#print axioms TubePerturbationGridTransfer.close_floor_labels
+#print axioms TubePerturbationGridTransfer.moved_grid_in_box
+#print axioms TubePerturbationGridTransfer.moved_grid_card_le
+#print axioms TubePerturbationGridTransfer.moved_tube_pullback
+#print axioms TubePerturbationGridTransfer.moved_tube_le_original_profile
+#print axioms RichWitnessCore.retained_subset
+#print axioms RichWitnessCore.retained_eq_of_endpoints
+#print axioms RichWitnessCore.swap_mem_retained
+#print axioms RichWitnessCore.outgoing_card_eq_incoming
+#print axioms RichWitnessCore.erase_vertex_loss
+#print axioms RichWitnessCore.exists_rich_core
+#print axioms RichWitnessCore.exists_half_mass_rich_core
+#print axioms RichWitnessCore.collision_swap_mem
+#print axioms RichWitnessCore.exists_collision_rich_core
+#print axioms RichWitnessRealCore.exists_rich_core
+#print axioms RichWitnessRealCore.exists_half_mass_rich_core
+#print axioms RichWitnessRealCore.exists_half_mass_collision_core
+#print axioms TwoWalkBoxComparison.Data.initialDu_bound
+#print axioms TwoWalkBoxComparison.Data.initial_normal_identity
+#print axioms TwoWalkBoxComparison.Data.terminal_normal_identity
+#print axioms TwoWalkBoxComparison.Data.path_x_identity
+#print axioms TwoWalkBoxComparison.Data.path_y_identity
+#print axioms TwoWalkBoxComparison.Data.path_normal_identity
+#print axioms TwoWalkBoxComparison.Data.residual_difference_bound
+#print axioms TwoWalkBoxComparison.Data.initial_normal_bound
+#print axioms TwoWalkBoxComparison.Data.terminal_normal_bound
+#print axioms TwoWalkBoxComparison.Data.errorX_bound
+#print axioms TwoWalkBoxComparison.Data.errorY_bound
+#print axioms TwoWalkBoxComparison.Data.terminal_tangential_bound
+#print axioms TwoWalkBoxComparison.Data.terminal_point_normal_bound
+#print axioms TwoWalkBoxComparison.gaps_of_common_interval
+#print axioms TwoWalkBoxComparison.sharp_normal_point_bound
+#print axioms TwoWalkBoxComparison.normalized_gap_bounds
+#print axioms TwoWalkBoxComparison.tangentResidual_change
+#print axioms TwoWalkBoxComparison.normalResidual_change
+#print axioms TwoWalkBoxComparison.box_subset_of_gaps
+#print axioms TwoWalkBoxComparison.normal_gap_reverse
+#print axioms TwoWalkBoxComparison.two_walk_box_comparison
+#print axioms ShearedGridTubeReference.traceBound_of_actual_profile
+#print axioms ShearedGridTubeReference.in_graphTube_of_bounds
+#print axioms ShearedGridTubeReference.normal_error
+#print axioms ShearedGridTubeReference.strip_normal_error
+#print axioms ShearedGridTubeReference.parent_time_bound
+#print axioms ShearedGridTubeReference.mem_preimage
+#print axioms ShearedGridTubeReference.preimage_image
+#print axioms ShearedGridTubeReference.grid_card_le_traceBound
+#print axioms ShearedGridTubeReference.strip_preimage_in_tube
+#print axioms ShearedGridTubeReference.strip_card_le_query
+#print axioms ShearedGridTubeReference.segment_preimage_in_tube
+#print axioms ShearedGridTubeReference.segment_card_le_query
+#print axioms ShearedGridTubeReference.strip_card_le_constant
+#print axioms ShearedGridTubeReference.profile_query_eligibility
+#print axioms ShearedGridTubeReference.strip_card_le_power
+#print axioms ShearedGridTubeReference.segment_card_le_power
+#print axioms ShearedGridTubeReference.timeBins_card_le_strip_cells
+#print axioms ShearedGridTubeReference.timeBins_card_le_power
+#print axioms ShearedGridTubeReference.three_profile_reference_bounds
+#print axioms GrainJumpArmCount.mem_halfArms
+#print axioms GrainJumpArmCount.mem_arms
+#print axioms GrainJumpArmCount.halfArms_card
+#print axioms GrainJumpArmCount.arm_labels_subset
+#print axioms GrainJumpArmCount.grain_menu_mass_bound
+#print axioms GrainJumpArmCount.arms_card_eq_sum_grain_sq
+#print axioms GrainJumpArmCount.grain_fourth_power_arm_bound
+#print axioms GrainJumpArmCount.grain_eighth_power_collision_bound

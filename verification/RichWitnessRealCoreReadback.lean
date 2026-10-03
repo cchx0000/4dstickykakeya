@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_rich_witness_real_core
+
+#print axioms RichWitnessRealCore.exists_rich_core
+#print axioms RichWitnessRealCore.exists_half_mass_rich_core
+#print axioms RichWitnessRealCore.exists_half_mass_collision_core

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_tube_perturbation_grid_transfer
+
+#print axioms TubePerturbationGridTransfer.close_floor_labels
+#print axioms TubePerturbationGridTransfer.moved_grid_in_box
+#print axioms TubePerturbationGridTransfer.moved_grid_card_le
+#print axioms TubePerturbationGridTransfer.moved_tube_pullback
+#print axioms TubePerturbationGridTransfer.moved_tube_le_original_profile

@@ -1,0 +1,22 @@
+import Theorems.Thm_StickyKakeya4_sheared_grid_ad_reference
+
+#print axioms ShearedGridADReference.coordinate_movement
+#print axioms ShearedGridADReference.quantization_dist_lt
+#print axioms ShearedGridADReference.realized_coordinate_bounds
+#print axioms ShearedGridADReference.realized_dist_le
+#print axioms ShearedGridADReference.same_spatialCell_source_dist
+#print axioms ShearedGridADReference.nearby_integer_divisions
+#print axioms ShearedGridADReference.coarse_vertex_close
+#print axioms ShearedGridADReference.coarseBox_card
+#print axioms ShearedGridADReference.coarse_image_card_le
+#print axioms ShearedGridADReference.image_card_le_reference_mul
+#print axioms ShearedGridADReference.coarse_menu_card_le_grid
+#print axioms ShearedGridADReference.vertex_image_card_le_grid
+#print axioms ShearedGridADReference.cellPreimage_image
+#print axioms ShearedGridADReference.cellPreimage_subset
+#print axioms ShearedGridADReference.cellPreimage_diameter
+#print axioms ShearedGridADReference.vertex_preimage_card_le
+#print axioms ShearedGridADReference.referenceFactor_le_constant
+#print axioms ShearedGridADReference.spatial_menu_card_le
+#print axioms ShearedGridADReference.spatial_cell_card_le
+#print axioms ShearedGridADReference.exists_integer_vertex_cap

@@ -1,31 +1,31 @@
 {
-  "generated_at_utc": "2026-10-03T18:15:44.540313+00:00",
+  "generated_at_utc": "2026-10-03T18:50:32.690396+00:00",
   "source_commit_before_report": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
-  "project_module_count": 259,
+  "project_module_count": 266,
   "aggregate_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8968,
-    "log": "verification/wz259-default-build.log",
+    "lake_jobs": 8975,
+    "log": "verification/wz266-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "d211f810e04259436078000f9e03c1f89b6a95ce",
-    "module_count": 259,
-    "source_snapshot": "verification/wz259-source-snapshot.json",
-    "scope": "Full default build of all 259 modules; all previous 254 source hashes unchanged"
+    "source_base_tree": "62a735d097c80c560a11a6901e9940bbd5020455",
+    "module_count": 266,
+    "source_snapshot": "verification/wz266-source-snapshot.json",
+    "scope": "Full default build of all 266 modules; all previous 259 source hashes unchanged"
   },
   "default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8968,
-    "log": "verification/wz259-default-build.log",
+    "lake_jobs": 8975,
+    "log": "verification/wz266-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "d211f810e04259436078000f9e03c1f89b6a95ce",
-    "module_count": 259,
-    "source_snapshot": "verification/wz259-source-snapshot.json",
-    "scope": "Full default build of all 259 modules; all previous 254 source hashes unchanged"
+    "source_base_tree": "62a735d097c80c560a11a6901e9940bbd5020455",
+    "module_count": 266,
+    "source_snapshot": "verification/wz266-source-snapshot.json",
+    "scope": "Full default build of all 266 modules; all previous 259 source hashes unchanged"
   },
   "new_declaration_axiom_checks": {
-    "count": 1927,
+    "count": 2012,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1347,6 +1347,41 @@
       "status": "passed",
       "source_sha256": "30b4d84bd0ecaff9009cbf5163cd022a69371a565c60bc08c76e3a22e1c9e45a",
       "verification_scope": "strict source, shared proper import and full 259-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_sheared_grid_ad_reference": {
+      "status": "passed",
+      "source_sha256": "512295d2498e40b72882a6bb099aa04f701b9d53bbe51aaa07efb19c4ac0c7b3",
+      "verification_scope": "strict source, shared proper import and full 266-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_tube_perturbation_grid_transfer": {
+      "status": "passed",
+      "source_sha256": "9ea113772212292a6f704b633da1971199e9396cd4245b9970a0828f0698ba4b",
+      "verification_scope": "strict source, shared proper import and full 266-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_rich_witness_core": {
+      "status": "passed",
+      "source_sha256": "ea036b917a975a39f80e954edc88feb140a23baa04eeccc3c2f37b23e15d7d45",
+      "verification_scope": "strict source, shared proper import and full 266-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_rich_witness_real_core": {
+      "status": "passed",
+      "source_sha256": "b433968f819582707a892fbe7531dd5e5de173a126797cdfc555f5b46b4c3ce7",
+      "verification_scope": "strict source, shared proper import and full 266-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_two_walk_box_comparison": {
+      "status": "passed",
+      "source_sha256": "c65333f7cf19f41ef015aed7b1f9a1a4dc17bee820fe694947cc3246a9c8bfcb",
+      "verification_scope": "strict source, shared proper import and full 266-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_sheared_grid_tube_reference": {
+      "status": "passed",
+      "source_sha256": "5e00e31d8417787a55e24b00c440977c5a7cdce77b64b2febcede1248e8373ae",
+      "verification_scope": "strict source, shared proper import and full 266-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_grain_jump_arm_count": {
+      "status": "passed",
+      "source_sha256": "e2d3df979aa02a3024fc592bb9bc5fb0577863b9145d122928235c3fe31f4283",
+      "verification_scope": "strict source, shared proper import and full 266-module default build"
     }
   },
   "unconditional_main_completed": false,
@@ -1506,13 +1541,13 @@
   "previous_default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8963,
-    "log": "verification/wz254-default-build.log",
+    "lake_jobs": 8968,
+    "log": "verification/wz259-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40",
-    "module_count": 254,
-    "source_snapshot": "verification/wz254-source-snapshot.json",
-    "scope": "Full default build of all 254 modules; all previous 247 source hashes unchanged"
+    "source_base_tree": "d211f810e04259436078000f9e03c1f89b6a95ce",
+    "module_count": 259,
+    "source_snapshot": "verification/wz259-source-snapshot.json",
+    "scope": "Full default build of all 259 modules; all previous 254 source hashes unchanged"
   },
   "wz_step6_geometric_callers": {
     "evidence": "verification/wz-step6-geometric-callers-checkpoint.json",
@@ -1527,7 +1562,7 @@
     "complete_aligned_slices_from_input": false,
     "finite_volume_theorem_complete": false
   },
-  "source_tree_before_report": "d211f810e04259436078000f9e03c1f89b6a95ce",
+  "source_tree_before_report": "62a735d097c80c560a11a6901e9940bbd5020455",
   "wz_alignment_constructors": {
     "evidence": "verification/wz-alignment-constructors-checkpoint.json",
     "declaration_count": 88,
@@ -1582,5 +1617,15 @@
     "Section19 witness growth and final geometric concentration callers",
     "affine/non-affine split in Lemmas20.2 and20.3",
     "nonlinear expansion Theorem13.5 or a proved replacement"
-  ]
+  ],
+  "wz_actual_witness_geometry": {
+    "evidence": "verification/wz-witness-geometry-checkpoint.json",
+    "declaration_count": 85,
+    "same_quantizer_AD_and_full_strip_bounds": true,
+    "bounded_motion_actual_profile_transport": true,
+    "original_rich_witness_core_real_threshold": true,
+    "genuine_two_walk_box_comparison": true,
+    "grain_jump_original_arm_count": true,
+    "complete_native_alignment_and_volume_theorem": false
+  }
 }

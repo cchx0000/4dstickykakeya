@@ -19,6 +19,13 @@ The earlier Prove2Me proposal is preserved in
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
+The [actual-witness checkpoint](docs/WZ_ACTUAL_WITNESS_GEOMETRY.md) derives
+shared AD/tube-profile reference bounds, real-threshold rich witness cores,
+physical two-walk box comparison, and actual grain-jump arm counts. Its
+85 new proved declarations pass strict source/import checks; the complete
+266-module build succeeds. These are local steps toward the finite volume
+proof; the full native construction and nonlinear branch remain open.
+
 The [tube-profile and slope checkpoint](docs/WZ_TUBE_PROFILE_AND_SLOPE.md)
 constructs genuine tube trace profiles and their expansion bounds, derives
 slope consistency from actual noisy lattice images and Katz--Tao counts,

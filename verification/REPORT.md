@@ -3,6 +3,25 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual witnesses, shared reference bounds and grain-jump arms
+
+Seven modules add **85 strict standard-only proved declarations**. Original
+AD and one genuine stopped tube profile now imply the same-quantizer
+spatial, fiber and full-strip references. Actual bounded movement transports
+the original tube profile. Original witness swapping constructs an exact
+real-threshold rich core. Physical two-walk incidences imply adapted-box
+comparison, and original grain-jump arms satisfy their fourth/eighth-power
+counts. The full **266-module** build passes **8,975 jobs**, exit0; all previous
+259 source hashes are unchanged. Cumulative checks: **2,012**.
+
+The native rich-spine column caller and complete composition remain separate
+at this checkpoint. Section19 growth and the Section20 nonlinear branch are
+not asserted by these modules. See [scope](../docs/WZ_ACTUAL_WITNESS_GEOMETRY.md),
+[Section19 audit](../docs/WZ_SECTION19_TRANSVERSE_GROWTH_INDEPENDENT_AUDIT.md),
+[remaining Proposition17.3 inputs](../docs/WZ_PROP173_L_TUPLES_AND_REMAINING_INPUT.md),
+and [exact verification evidence](wz-witness-geometry-checkpoint.json).
+The original final theorem still depends on the existing WZ project axiom.
+
 ## Genuine tube profiles and derived slope consistency
 
 Five modules add **93 strict standard-only proved declarations**. They

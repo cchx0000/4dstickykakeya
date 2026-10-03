@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_grain_jump_arm_count
+
+#print axioms GrainJumpArmCount.mem_halfArms
+#print axioms GrainJumpArmCount.mem_arms
+#print axioms GrainJumpArmCount.halfArms_card
+#print axioms GrainJumpArmCount.arm_labels_subset
+#print axioms GrainJumpArmCount.grain_menu_mass_bound
+#print axioms GrainJumpArmCount.arms_card_eq_sum_grain_sq
+#print axioms GrainJumpArmCount.grain_fourth_power_arm_bound
+#print axioms GrainJumpArmCount.grain_eighth_power_collision_bound

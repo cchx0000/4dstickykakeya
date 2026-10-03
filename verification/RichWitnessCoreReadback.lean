@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_rich_witness_core
+
+#print axioms RichWitnessCore.retained_subset
+#print axioms RichWitnessCore.retained_eq_of_endpoints
+#print axioms RichWitnessCore.swap_mem_retained
+#print axioms RichWitnessCore.outgoing_card_eq_incoming
+#print axioms RichWitnessCore.erase_vertex_loss
+#print axioms RichWitnessCore.exists_rich_core
+#print axioms RichWitnessCore.exists_half_mass_rich_core
+#print axioms RichWitnessCore.collision_swap_mem
+#print axioms RichWitnessCore.exists_collision_rich_core
