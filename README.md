@@ -19,6 +19,12 @@ The earlier Prove2Me proposal is preserved in
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
+The [native-interface checkpoint](docs/WZ_NATIVE_ALIGNMENT_INTERFACES.md)
+constructs original AD grid menus, parentwise angular retention, finite-range
+grid labels, all-scale interpolation and final-bin original-height selection.
+Its 108 new proofs and the full 254-module build pass. The complete native
+geometric assembly and final volume proof remain unfinished.
+
 The [scale and witness checkpoint](docs/WZ_ALIGNMENT_SCALE_AND_SLAB.md)
 constructs extremal cover profiles, actual finite footprint epochs, angular
 menus and Euclidean patch witnesses, and proves the genuine tube-grid cover
@@ -184,9 +190,10 @@ passed **788 jobs**, the triangular endpoint passed **8,714 jobs**,
 the original-charge endpoint passed **8,718 jobs**, and the rank-one/native-time
 and actual-moment endpoints passed **8,723 jobs**. The arbitrary-input
 rank-one target passed **8,720 jobs**, and the elementary polynomial target
-passed **8,706 jobs**; the current **247-module**
-checkout has not been rebuilt in full in the restored workspace.
-The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
+passed **8,706 jobs**. Those were historical targeted checks. The current
+**254-module** default build passes **8,963 jobs**; its source hashes and
+full log are recorded in `verification/wz-native-alignment-interfaces-checkpoint.json`.
+The fresh final-theorem axiom gate in `verification/wz225-main-axiom-gate.log`
 still fails exactly because the two main
 closure declarations use the preexisting WZ project axiom.
 `scripts/check-axioms.sh` makes that failure explicit. The original final

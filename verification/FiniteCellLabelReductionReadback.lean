@@ -1,0 +1,20 @@
+import Theorems.Thm_StickyKakeya4_finite_cell_label_reduction
+
+#print axioms FiniteCellLabelReduction.cell_mem_labelSet
+#print axioms FiniteCellLabelReduction.reducedCell_val
+#print axioms FiniteCellLabelReduction.label_projection_injective
+#print axioms FiniteCellLabelReduction.image_recover
+#print axioms FiniteCellLabelReduction.image_card_eq
+#print axioms FiniteCellLabelReduction.coverCount_eq
+#print axioms FiniteCellLabelReduction.profile_eq
+#print axioms FiniteCellLabelReduction.wholeCells_eq
+#print axioms FiniteCellLabelReduction.gridCells_eq
+#print axioms FiniteCellLabelReduction.population_eq
+#print axioms FiniteCellLabelReduction.occupied_iff_mem_image
+#print axioms FiniteCellLabelReduction.regular_iff
+#print axioms FiniteCellLabelReduction.finite_penalty_eq
+#print axioms FiniteCellLabelReduction.reduced_penalty_eq
+#print axioms FiniteCellLabelReduction.maximizingFiber_iff
+#print axioms FiniteCellLabelReduction.concreteRule_iff
+#print axioms FiniteCellLabelReduction.validEpoch_iff
+#print axioms FiniteCellLabelReduction.exists_large_raw_label_epoch

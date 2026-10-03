@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_ad_grid_cover_menus
+
+#print axioms ADGridCoverMenus.netBox_card
+#print axioms ADGridCoverMenus.gridLabel_mem_netBox
+#print axioms ADGridCoverMenus.AD_upper_all_radii
+#print axioms ADGridCoverMenus.owner_mem_three_ball
+#print axioms ADGridCoverMenus.exists_AD_grid_menu
+#print axioms ADGridCoverMenus.occupied_grid_cells_le
+#print axioms ADGridCoverMenus.dimensional_constant
+#print axioms ADGridCoverMenus.exists_AD_grid_menu_dimensional
+#print axioms ADGridCoverMenus.exists_global_AD_grid_menu
+#print axioms ADGridCoverMenus.subset_occupied_grid_cells_le
+#print axioms ADGridCoverMenus.subset_occupied_grid_cells_le_all_radii
+#print axioms ADGridCoverMenus.diameter_subset_occupied_grid_cells_le
+#print axioms ADGridCoverMenus.finite_footprint_profile_AD_bound

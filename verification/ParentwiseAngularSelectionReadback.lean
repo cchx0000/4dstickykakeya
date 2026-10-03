@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_parentwise_angular_selection
+
+#print axioms ParentwiseAngularSelection.maximum_menu_choice
+#print axioms ParentwiseAngularSelection.child_menu_subset_parent
+#print axioms ParentwiseAngularSelection.select_in_each_parent
+#print axioms ParentwiseAngularSelection.stabilize_and_select_parentwise

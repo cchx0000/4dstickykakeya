@@ -1,0 +1,24 @@
+import Theorems.Thm_StickyKakeya4_dyadic_alignment_parameters
+
+#print axioms DyadicAlignmentParameters.level_zero
+#print axioms DyadicAlignmentParameters.level_endpoint
+#print axioms DyadicAlignmentParameters.level_monotone
+#print axioms DyadicAlignmentParameters.level_le_endpoint
+#print axioms DyadicAlignmentParameters.working_levels_card_le
+#print axioms DyadicAlignmentParameters.level_eq_floor
+#print axioms DyadicAlignmentParameters.le_gap_mul
+#print axioms DyadicAlignmentParameters.adjacent_level_le
+#print axioms DyadicAlignmentParameters.adjacent_gap_le
+#print axioms DyadicAlignmentParameters.exists_bracketing_levels
+#print axioms DyadicAlignmentParameters.exists_dyadic_bracket
+#print axioms DyadicAlignmentParameters.dyadic_gap_factor_le
+#print axioms DyadicAlignmentParameters.powerBase_ge_two
+#print axioms DyadicAlignmentParameters.powerBase_le_two_rpow
+#print axioms DyadicAlignmentParameters.mass_exponent_bound
+#print axioms DyadicAlignmentParameters.polynomial_mass_le_power
+#print axioms DyadicAlignmentParameters.absorptionThreshold_gt_one
+#print axioms DyadicAlignmentParameters.constant_le_rpow_of_threshold
+#print axioms DyadicAlignmentParameters.powerBase_ge_four_of_threshold
+#print axioms DyadicAlignmentParameters.retention_cost_absorption
+#print axioms DyadicAlignmentParameters.fixed_refinement_parameters
+#print axioms DyadicAlignmentParameters.retained_mass_bound

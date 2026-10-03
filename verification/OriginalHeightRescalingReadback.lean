@@ -1,0 +1,28 @@
+import Theorems.Thm_StickyKakeya4_original_height_rescaling
+
+#print axioms OriginalHeightRescaling.mem_timeFiber
+#print axioms OriginalHeightRescaling.card_timeFiber
+#print axioms OriginalHeightRescaling.heightMenu_card_le
+#print axioms OriginalHeightRescaling.chosenHeight_mem
+#print axioms OriginalHeightRescaling.chosenHeight_max
+#print axioms OriginalHeightRescaling.chosenHeight_bin
+#print axioms OriginalHeightRescaling.mem_selected
+#print axioms OriginalHeightRescaling.selected_subset
+#print axioms OriginalHeightRescaling.selected_bin_fiber
+#print axioms OriginalHeightRescaling.selected_bin_image
+#print axioms OriginalHeightRescaling.bin_mass_le_selected_height
+#print axioms OriginalHeightRescaling.weighted_height_retention
+#print axioms OriginalHeightRescaling.height_card_retention
+#print axioms OriginalHeightRescaling.selected_point_fiber
+#print axioms OriginalHeightRescaling.actualBin_fixed_height_injective
+#print axioms OriginalHeightRescaling.actualBin_injective_on_selected
+#print axioms OriginalHeightRescaling.selected_original_height
+#print axioms OriginalHeightRescaling.bins_support_eq
+#print axioms OriginalHeightRescaling.selected_image_cardinalities
+#print axioms OriginalHeightRescaling.usedTubes_bins_eq
+#print axioms OriginalHeightRescaling.selected_multiplicity_eq
+#print axioms OriginalHeightRescaling.density_original_backbone
+#print axioms OriginalHeightRescaling.multiplicity_le_of_cross
+#print axioms OriginalHeightRescaling.point_comparison_cross
+#print axioms OriginalHeightRescaling.point_comparison_multiplicity
+#print axioms OriginalHeightRescaling.physical_original_height_transfer

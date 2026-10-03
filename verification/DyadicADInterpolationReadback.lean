@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_dyadic_ad_interpolation
+
+#print axioms DyadicADInterpolation.scalePower_nonneg
+#print axioms DyadicADInterpolation.scalePower_mono
+#print axioms DyadicADInterpolation.scalePower_add
+#print axioms DyadicADInterpolation.interpolate_working_profile
+#print axioms DyadicADInterpolation.interpolation_factor_le

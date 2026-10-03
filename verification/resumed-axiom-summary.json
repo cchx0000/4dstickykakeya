@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T17:06:00.881416+00:00",
+  "generated_at_utc": "2026-10-03T17:35:40.729883+00:00",
   "previous_checkpoint": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 1726,
+  "total_new_checked_declarations": 1834,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -116,7 +116,8 @@
     "verification/padded-physical-cell-witness-axioms.log": 5,
     "verification/wz-step6-geometric-callers-axioms.log": 153,
     "verification/wz-alignment-constructors-axioms.log": 88,
-    "verification/wz-alignment-endpoints-axioms.log": 88
+    "verification/wz-alignment-endpoints-axioms.log": 88,
+    "verification/wz-native-alignment-interfaces-axioms.log": 108
   },
   "checks": [
     {
@@ -14811,6 +14812,967 @@
         "Quot.sound"
       ],
       "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.netBox_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.gridLabel_mem_netBox",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.AD_upper_all_radii",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.owner_mem_three_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.exists_AD_grid_menu",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.occupied_grid_cells_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.dimensional_constant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.exists_AD_grid_menu_dimensional",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.exists_global_AD_grid_menu",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.subset_occupied_grid_cells_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.subset_occupied_grid_cells_le_all_radii",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.diameter_subset_occupied_grid_cells_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ADGridCoverMenus.finite_footprint_profile_AD_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.mem_timeFiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.card_timeFiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.heightMenu_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.chosenHeight_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.chosenHeight_max",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.chosenHeight_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.mem_selected",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.selected_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.selected_bin_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.selected_bin_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.bin_mass_le_selected_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.weighted_height_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.height_card_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.selected_point_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.actualBin_fixed_height_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.actualBin_injective_on_selected",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.selected_original_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.bins_support_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.selected_image_cardinalities",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.usedTubes_bins_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.selected_multiplicity_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.density_original_backbone",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.multiplicity_le_of_cross",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.point_comparison_cross",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.point_comparison_multiplicity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightRescaling.physical_original_height_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.level_zero",
+      "axioms": [
+        "propext"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.level_endpoint",
+      "axioms": [
+        "propext"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.level_monotone",
+      "axioms": [
+        "propext"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.level_le_endpoint",
+      "axioms": [
+        "propext"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.working_levels_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.level_eq_floor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.le_gap_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.adjacent_level_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.adjacent_gap_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.exists_bracketing_levels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.exists_dyadic_bracket",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.dyadic_gap_factor_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.powerBase_ge_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.powerBase_le_two_rpow",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.mass_exponent_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.polynomial_mass_le_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.absorptionThreshold_gt_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.constant_le_rpow_of_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.powerBase_ge_four_of_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.retention_cost_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.fixed_refinement_parameters",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicAlignmentParameters.retained_mass_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicADInterpolation.scalePower_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicADInterpolation.scalePower_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicADInterpolation.scalePower_add",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicADInterpolation.interpolate_working_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "DyadicADInterpolation.interpolation_factor_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.cell_mem_labelSet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.reducedCell_val",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.label_projection_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.image_recover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.image_card_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.coverCount_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.profile_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.wholeCells_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.gridCells_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.population_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.occupied_iff_mem_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.regular_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.finite_penalty_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.reduced_penalty_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.maximizingFiber_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.concreteRule_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.validEpoch_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "FiniteCellLabelReduction.exists_large_raw_label_epoch",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ParentwiseAngularSelection.maximum_menu_choice",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ParentwiseAngularSelection.child_menu_subset_parent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ParentwiseAngularSelection.select_in_each_parent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ParentwiseAngularSelection.stabilize_and_select_parentwise",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.translated_card",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.translated_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.labelShift_tube",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.labelShift_time",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.mem_selected",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.selected_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.selected_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.weighted_height_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.height_card_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.chosenHeight_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.selected_bin_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.selected_point_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.shiftedBin_eq_translated_triangular",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.shiftedBin_injective_on_selected",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.selected_image_cardinalities",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.density_original_backbone",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.shifted_nested_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.native_coarse_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.native_final_height_selection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
+    },
+    {
+      "declaration": "ShiftedOriginalHeightRescaling.native_selected_original_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-alignment-interfaces-axioms.log"
     }
   ],
   "source_sha256": {
@@ -14944,7 +15906,14 @@
     "Theorems/Thm_StickyKakeya4_finite_cover_profile_epochs.lean": "e1829d9f0cdd98089e958a57995e2c956eac9967e7497a91a65c11ae0963e830",
     "Theorems/Thm_StickyKakeya4_slab_plane_pullback.lean": "53439ea59e36598f313bc52ec5c658a8f306e8b5e1bf365a6e37c8089a79976c",
     "Theorems/Thm_StickyKakeya4_cover_profile_clipping.lean": "44a521b8a519e18d3d0769347637356c0cf198893f36e401dc263c5fa9e78bba",
-    "Theorems/Thm_StickyKakeya4_graph_tube_grid_cover.lean": "107b28644b152efc752f3186883dac844da161e44bd4ba6550602392c72a0b9e"
+    "Theorems/Thm_StickyKakeya4_graph_tube_grid_cover.lean": "107b28644b152efc752f3186883dac844da161e44bd4ba6550602392c72a0b9e",
+    "Theorems/Thm_StickyKakeya4_ad_grid_cover_menus.lean": "72b4c9ee5260b9efbbabdfe72bace19c7643d29728a78db946f138c6a71353b6",
+    "Theorems/Thm_StickyKakeya4_original_height_rescaling.lean": "f153572a1c2956fb15634b035c01494f186d0263e58d0675b7bec4adc485a328",
+    "Theorems/Thm_StickyKakeya4_dyadic_alignment_parameters.lean": "d4f168d7404f731e1d85dcce97b5debaa8064fb006ce130d32e034326eb58425",
+    "Theorems/Thm_StickyKakeya4_dyadic_ad_interpolation.lean": "0c1fe3348a43b782bc032651061a5e2330dc2419f71f4a83ed6095f8b3411b92",
+    "Theorems/Thm_StickyKakeya4_finite_cell_label_reduction.lean": "074c9e54400c84327b315c9ec3e43e61815ed3654e9cae4c8bb67251cdbf4936",
+    "Theorems/Thm_StickyKakeya4_parentwise_angular_selection.lean": "a84d8cdcf51a9abadd6b546562d53b3ef0479ad770e1473604d78ed3c171a43e",
+    "Theorems/Thm_StickyKakeya4_shifted_original_height_rescaling.lean": "28ce5ef77ae7545391abbc4d03be5590dcedf8b2cde9a5920501e98815ffb247"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
@@ -14992,7 +15961,7 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 1635,
+  "resumed_phase_declaration_count": 1743,
   "latest_targeted_build": {
     "status": "passed",
     "exit_code": 0,
@@ -15013,5 +15982,5 @@
     },
     "module_count": 9
   },
-  "previous_checkpoint_tree": "502790d3925958caf3c207ee080126424cb1815e"
+  "previous_checkpoint_tree": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40"
 }

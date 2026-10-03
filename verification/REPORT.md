@@ -3,6 +3,21 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Native grid, parentwise retention and original-height interfaces
+
+Seven modules add **108 strict standard-only proved declarations**. They
+derive literal grid menus from original metric AD, eliminate artificial
+finite grid-label requirements, construct each-parent angular retention,
+prove fixed-depth parameter/all-scale interpolation, and select original
+heights using the final padded bins. Density and multiplicity guarantees
+retain their different required mechanisms. The full **254-module** default
+build passes **8,963 jobs**, exit0, with previous247 source hashes unchanged.
+Cumulative standard-only checks: **1,834**.
+
+The native alignment/configuration assembly and final volume proof remain
+unfinished. See [the precise scope](../docs/WZ_NATIVE_ALIGNMENT_INTERFACES.md)
+and [verification evidence](wz-native-alignment-interfaces-checkpoint.json).
+
 ## Scale profiles, actual tube covers and geometric endpoints
 
 Seven modules add **88 strict standard-only proved declarations**. They

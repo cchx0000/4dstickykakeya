@@ -1,31 +1,31 @@
 {
-  "generated_at_utc": "2026-10-03T17:06:00.881416+00:00",
+  "generated_at_utc": "2026-10-03T17:35:40.729883+00:00",
   "source_commit_before_report": "d4f658ceaefc2a45321ca78527389913fb2bfa8d",
-  "project_module_count": 247,
+  "project_module_count": 254,
   "aggregate_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8956,
-    "log": "verification/wz247-default-build.log",
+    "lake_jobs": 8963,
+    "log": "verification/wz254-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "502790d3925958caf3c207ee080126424cb1815e",
-    "module_count": 247,
-    "source_snapshot": "verification/wz247-source-snapshot.json",
-    "scope": "Full default build of all247 modules; all previous240 source hashes unchanged"
+    "source_base_tree": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40",
+    "module_count": 254,
+    "source_snapshot": "verification/wz254-source-snapshot.json",
+    "scope": "Full default build of all 254 modules; all previous 247 source hashes unchanged"
   },
   "default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8956,
-    "log": "verification/wz247-default-build.log",
+    "lake_jobs": 8963,
+    "log": "verification/wz254-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "502790d3925958caf3c207ee080126424cb1815e",
-    "module_count": 247,
-    "source_snapshot": "verification/wz247-source-snapshot.json",
-    "scope": "Full default build of all247 modules; all previous240 source hashes unchanged"
+    "source_base_tree": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40",
+    "module_count": 254,
+    "source_snapshot": "verification/wz254-source-snapshot.json",
+    "scope": "Full default build of all 254 modules; all previous 247 source hashes unchanged"
   },
   "new_declaration_axiom_checks": {
-    "count": 1726,
+    "count": 1834,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1287,6 +1287,41 @@
       "status": "passed",
       "source_sha256": "107b28644b152efc752f3186883dac844da161e44bd4ba6550602392c72a0b9e",
       "verification_scope": "strict source, shared proper import and full 247-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_ad_grid_cover_menus": {
+      "status": "passed",
+      "source_sha256": "72b4c9ee5260b9efbbabdfe72bace19c7643d29728a78db946f138c6a71353b6",
+      "verification_scope": "strict source, shared proper import and full 254-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_original_height_rescaling": {
+      "status": "passed",
+      "source_sha256": "f153572a1c2956fb15634b035c01494f186d0263e58d0675b7bec4adc485a328",
+      "verification_scope": "strict source, shared proper import and full 254-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_dyadic_alignment_parameters": {
+      "status": "passed",
+      "source_sha256": "d4f168d7404f731e1d85dcce97b5debaa8064fb006ce130d32e034326eb58425",
+      "verification_scope": "strict source, shared proper import and full 254-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_dyadic_ad_interpolation": {
+      "status": "passed",
+      "source_sha256": "0c1fe3348a43b782bc032651061a5e2330dc2419f71f4a83ed6095f8b3411b92",
+      "verification_scope": "strict source, shared proper import and full 254-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_cell_label_reduction": {
+      "status": "passed",
+      "source_sha256": "074c9e54400c84327b315c9ec3e43e61815ed3654e9cae4c8bb67251cdbf4936",
+      "verification_scope": "strict source, shared proper import and full 254-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_parentwise_angular_selection": {
+      "status": "passed",
+      "source_sha256": "a84d8cdcf51a9abadd6b546562d53b3ef0479ad770e1473604d78ed3c171a43e",
+      "verification_scope": "strict source, shared proper import and full 254-module default build"
+    },
+    "Theorems.Thm_StickyKakeya4_shifted_original_height_rescaling": {
+      "status": "passed",
+      "source_sha256": "28ce5ef77ae7545391abbc4d03be5590dcedf8b2cde9a5920501e98815ffb247",
+      "verification_scope": "strict source, shared proper import and full 254-module default build"
     }
   },
   "unconditional_main_completed": false,
@@ -1446,13 +1481,13 @@
   "previous_default_build": {
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 8949,
-    "log": "verification/wz240-default-build.log",
+    "lake_jobs": 8956,
+    "log": "verification/wz247-default-build.log",
     "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
-    "source_base_tree": "bd2d3fc6ee9c289ce662e61abd5bf1971fc1ce9f",
-    "module_count": 240,
-    "source_snapshot": "verification/wz240-source-snapshot.json",
-    "scope": "Full default build of all 240 current modules; previous234 source hashes unchanged"
+    "source_base_tree": "502790d3925958caf3c207ee080126424cb1815e",
+    "module_count": 247,
+    "source_snapshot": "verification/wz247-source-snapshot.json",
+    "scope": "Full default build of all247 modules; all previous240 source hashes unchanged"
   },
   "wz_step6_geometric_callers": {
     "evidence": "verification/wz-step6-geometric-callers-checkpoint.json",
@@ -1467,7 +1502,7 @@
     "complete_aligned_slices_from_input": false,
     "finite_volume_theorem_complete": false
   },
-  "source_tree_before_report": "502790d3925958caf3c207ee080126424cb1815e",
+  "source_tree_before_report": "8dd4ff7111fd2c7166dfc19af8cb034cc292cd40",
   "wz_alignment_constructors": {
     "evidence": "verification/wz-alignment-constructors-checkpoint.json",
     "declaration_count": 88,
@@ -1492,6 +1527,18 @@
     "actual_translated_segment_global_grid_cover": true,
     "affine_slab_pullback_plane_and_distance_constructed": true,
     "slab_pullback_norm_scope": "finite-dimensional inner-product source, normed target, maximum product norm",
+    "complete_native_alignment_and_reconstruction_caller": false
+  },
+  "wz_native_alignment_interfaces": {
+    "evidence": "verification/wz-native-alignment-interfaces-checkpoint.json",
+    "declaration_count": 108,
+    "original_metric_AD_to_fixed_grid_menus": true,
+    "raw_infinite_grid_labels_supported": true,
+    "parentwise_actual_angular_retention": true,
+    "fixed_depth_working_radii_and_all_scale_interpolation": true,
+    "actual_global_old_height_selection": true,
+    "final_shifted_native_time_bins_supported": true,
+    "density_and_multiplicity_mechanisms_separate": true,
     "complete_native_alignment_and_reconstruction_caller": false
   }
 }

@@ -185,6 +185,14 @@ are proved, as is the explicit slab-plane pullback. The new88 proofs and
 assembly remain; [the exact scope](docs/WZ_ALIGNMENT_SCALE_AND_SLAB.md)
 keeps these open callers separate from the verified components.
 
+The native interface now has actual metric-AD grid menus, infinite raw-label
+support, each-parent angular retention, fixed-depth interpolation and original
+height selection for the final padded bins. All 108 new proofs and the full
+254-module default build pass. The [native assembly specification](docs/WZ_NATIVE_ALIGNMENT_ASSEMBLY.md)
+keeps the remaining actual tube-family and sheared-grid callers explicit;
+these local results do not close the final volume theorem.
+[Formal scope](docs/WZ_NATIVE_ALIGNMENT_INTERFACES.md).
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input
