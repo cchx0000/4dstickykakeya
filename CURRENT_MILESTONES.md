@@ -177,6 +177,14 @@ is established at the mathematical level, while its complete Lean caller,
 slab/rank reconstruction and global volume proof remain unfinished.
 [Exact formal scope](docs/WZ_ALIGNMENT_CONSTRUCTORS.md).
 
+Actual cover-profile scale selection and finite-footprint extraction are
+now constructed, with clipped exponents and genuine angular witnesses.
+Euclidean patch isolation and the original-grid segment covering estimate
+are proved, as is the explicit slab-plane pullback. The new88 proofs and
+247-module full build pass. Native AD-grid and parameter/configuration
+assembly remain; [the exact scope](docs/WZ_ALIGNMENT_SCALE_AND_SLAB.md)
+keeps these open callers separate from the verified components.
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

@@ -1,0 +1,96 @@
+import Theorems.Thm_StickyKakeya4_cover_profile_stopping
+import Theorems.Thm_StickyKakeya4_euclidean_alignment_patches
+import Theorems.Thm_StickyKakeya4_angular_menu_stabilization
+import Theorems.Thm_StickyKakeya4_finite_cover_profile_epochs
+import Theorems.Thm_StickyKakeya4_slab_plane_pullback
+import Theorems.Thm_StickyKakeya4_cover_profile_clipping
+import Theorems.Thm_StickyKakeya4_graph_tube_grid_cover
+
+#print axioms CoverProfileStopping.length_nonneg
+#print axioms CoverProfileStopping.nested_valid
+#print axioms CoverProfileStopping.nested_length_le
+#print axioms CoverProfileStopping.power_length_lower
+#print axioms CoverProfileStopping.length_recurrence
+#print axioms CoverProfileStopping.improving_score
+#print axioms CoverProfileStopping.exists_log_profile_stopping
+#print axioms CoverProfileStopping.log_two_pos
+#print axioms CoverProfileStopping.logCount_bounds
+#print axioms CoverProfileStopping.slope_eq_log_ratio
+#print axioms CoverProfileStopping.dyadicRatio_rpow
+#print axioms CoverProfileStopping.dyadicRatio_rpow_product
+#print axioms CoverProfileStopping.exists_dyadic_cover_profile
+#print axioms CoverProfileStopping.stepBudget_mul
+#print axioms CoverProfileStopping.separationExponent_pos
+#print axioms CoverProfileStopping.exists_dyadic_cover_profile_canonical
+#print axioms EuclideanAlignmentPatches.coordinate_dist_le
+#print axioms EuclideanAlignmentPatches.sup_dist_le
+#print axioms EuclideanAlignmentPatches.euclidean_dist_le_card_mul
+#print axioms EuclideanAlignmentPatches.same_cell_euclidean_dist_le
+#print axioms EuclideanAlignmentPatches.euclidean_periodic_patch_isolation
+#print axioms EuclideanAlignmentPatches.euclidean_periodic_patch_at_multiplier
+#print axioms EuclideanAlignmentPatches.shear_sup_dist_le
+#print axioms EuclideanAlignmentPatches.quantization_euclidean_movement
+#print axioms EuclideanAlignmentPatches.weighted_euclidean_quantization_at_mesh
+#print axioms AngularMenuStabilization.cell_mass_partition
+#print axioms AngularMenuStabilization.menu_card_le_max
+#print axioms AngularMenuStabilization.maxMenu_pos
+#print axioms AngularMenuStabilization.maxMenu_le_angular_menu
+#print axioms AngularMenuStabilization.maxMenu_mono
+#print axioms AngularMenuStabilization.occupied_menu_card_comparison
+#print axioms AngularMenuStabilization.maxMenu_le_occupied_menu
+#print axioms AngularMenuStabilization.adjacent_growth_step
+#print axioms AngularMenuStabilization.stabilize_and_select
+#print axioms FiniteCoverProfileEpochs.coverCount_mono
+#print axioms FiniteCoverProfileEpochs.profile_mono
+#print axioms FiniteCoverProfileEpochs.profile_empty
+#print axioms FiniteCoverProfileEpochs.profile_le_card
+#print axioms FiniteCoverProfileEpochs.profile_positive
+#print axioms FiniteCoverProfileEpochs.exists_maximizing_footprint
+#print axioms FiniteCoverProfileEpochs.mem_wholeCells
+#print axioms FiniteCoverProfileEpochs.wholeCells_image
+#print axioms FiniteCoverProfileEpochs.wholeCells_image_ancestor
+#print axioms FiniteCoverProfileEpochs.wholeCells_filter_eq
+#print axioms FiniteCoverProfileEpochs.card_lt_pow_rank
+#print axioms FiniteCoverProfileEpochs.profile_lt_pow_rank
+#print axioms FiniteCoverProfileEpochs.population_gridCells
+#print axioms FiniteCoverProfileEpochs.wholeCells_card_ge
+#print axioms FiniteCoverProfileEpochs.wholeCells_card_ge_half_real
+#print axioms FiniteCoverProfileEpochs.MaximizingFiber.image_card
+#print axioms FiniteCoverProfileEpochs.MaximizingFiber.full
+#print axioms FiniteCoverProfileEpochs.exists_maximizing_fiber
+#print axioms FiniteCoverProfileEpochs.exists_large_finite_cover_epoch
+#print axioms SlabPlanePullback.graphMap_apply
+#print axioms SlabPlanePullback.graphMap_injective
+#print axioms SlabPlanePullback.graph_mem_plane_iff
+#print axioms SlabPlanePullback.mem_plane_iff
+#print axioms SlabPlanePullback.unit_inner_self
+#print axioms SlabPlanePullback.slabFunctional_ne_zero
+#print axioms SlabPlanePullback.plane_finrank
+#print axioms SlabPlanePullback.corrected_constraint
+#print axioms SlabPlanePullback.correction_dist_eq
+#print axioms SlabPlanePullback.graph_same_height_dist_le
+#print axioms SlabPlanePullback.corrected_witness_mem
+#print axioms SlabPlanePullback.corrected_witness_distance
+#print axioms SlabPlanePullback.slab_pullback
+#print axioms SlabPlanePullback.infDist_plane_le
+#print axioms SlabPlanePullback.graph_direction_norm_ge_one
+#print axioms SlabPlanePullback.unitDirection_norm
+#print axioms SlabPlanePullback.normalized_slab_pullback
+#print axioms SlabPlanePullback.native_four_dimensional_finrank
+#print axioms CoverProfileClipping.clippedSlope_bounds
+#print axioms CoverProfileClipping.clipped_power_bounds
+#print axioms CoverProfileClipping.transport_nested_exponent
+#print axioms CoverProfileClipping.clipped_nested_profile
+#print axioms CoverProfileClipping.dyadicRatio_ge_one
+#print axioms CoverProfileClipping.nested_ratio_le
+#print axioms CoverProfileClipping.profile_power_eq
+#print axioms CoverProfileClipping.exists_clipped_dyadic_cover_profile
+#print axioms GraphTubeGridCover.spatialBox_card
+#print axioms GraphTubeGridCover.timeBins_card_mul_rho_le
+#print axioms GraphTubeGridCover.gridBin_mem_tubeBins
+#print axioms GraphTubeGridCover.tubeBins_card_le
+#print axioms GraphTubeGridCover.occupied_cells_bound
+#print axioms GraphTubeGridCover.integerChart_injective
+#print axioms GraphTubeGridCover.chart_gridBin
+#print axioms GraphTubeGridCover.exists_graph_chart
+#print axioms GraphTubeGridCover.segment_occupied_cells_bound

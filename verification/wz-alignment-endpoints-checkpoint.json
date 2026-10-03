@@ -1,0 +1,976 @@
+{
+  "generated_at_utc": "2026-10-03T17:06:00.881416+00:00",
+  "base_tree": "502790d3925958caf3c207ee080126424cb1815e",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_cover_profile_stopping.lean": "11c44716f28a48e22a5d79172b6eb4a4ecc8ff71352ad9b0a76f0efda7bf9e1e",
+    "Theorems/Thm_StickyKakeya4_euclidean_alignment_patches.lean": "8065bd078daa0bc1077c7aad9cf69631d6fbba2bb89424e00c82beb325c63511",
+    "Theorems/Thm_StickyKakeya4_angular_menu_stabilization.lean": "ef77ea8218c9af78a9ead55d49dbc4ca43c99fdd788a67149bdca02056201c67",
+    "Theorems/Thm_StickyKakeya4_finite_cover_profile_epochs.lean": "e1829d9f0cdd98089e958a57995e2c956eac9967e7497a91a65c11ae0963e830",
+    "Theorems/Thm_StickyKakeya4_slab_plane_pullback.lean": "53439ea59e36598f313bc52ec5c658a8f306e8b5e1bf365a6e37c8089a79976c",
+    "Theorems/Thm_StickyKakeya4_cover_profile_clipping.lean": "44a521b8a519e18d3d0769347637356c0cf198893f36e401dc263c5fa9e78bba",
+    "Theorems/Thm_StickyKakeya4_graph_tube_grid_cover.lean": "107b28644b152efc752f3186883dac844da161e44bd4ba6550602392c72a0b9e"
+  },
+  "new_modules": [
+    {
+      "short": "CoverProfileStopping",
+      "slug": "cover_profile_stopping",
+      "source": "Theorems/Thm_StickyKakeya4_cover_profile_stopping.lean",
+      "source_sha256": "11c44716f28a48e22a5d79172b6eb4a4ecc8ff71352ad9b0a76f0efda7bf9e1e",
+      "readback": "verification/CoverProfileStoppingReadback.lean",
+      "declarations": [
+        "CoverProfileStopping.length_nonneg",
+        "CoverProfileStopping.nested_valid",
+        "CoverProfileStopping.nested_length_le",
+        "CoverProfileStopping.power_length_lower",
+        "CoverProfileStopping.length_recurrence",
+        "CoverProfileStopping.improving_score",
+        "CoverProfileStopping.exists_log_profile_stopping",
+        "CoverProfileStopping.log_two_pos",
+        "CoverProfileStopping.logCount_bounds",
+        "CoverProfileStopping.slope_eq_log_ratio",
+        "CoverProfileStopping.dyadicRatio_rpow",
+        "CoverProfileStopping.dyadicRatio_rpow_product",
+        "CoverProfileStopping.exists_dyadic_cover_profile",
+        "CoverProfileStopping.stepBudget_mul",
+        "CoverProfileStopping.separationExponent_pos",
+        "CoverProfileStopping.exists_dyadic_cover_profile_canonical"
+      ]
+    },
+    {
+      "short": "EuclideanAlignmentPatches",
+      "slug": "euclidean_alignment_patches",
+      "source": "Theorems/Thm_StickyKakeya4_euclidean_alignment_patches.lean",
+      "source_sha256": "8065bd078daa0bc1077c7aad9cf69631d6fbba2bb89424e00c82beb325c63511",
+      "readback": "verification/EuclideanAlignmentPatchesReadback.lean",
+      "declarations": [
+        "EuclideanAlignmentPatches.coordinate_dist_le",
+        "EuclideanAlignmentPatches.sup_dist_le",
+        "EuclideanAlignmentPatches.euclidean_dist_le_card_mul",
+        "EuclideanAlignmentPatches.same_cell_euclidean_dist_le",
+        "EuclideanAlignmentPatches.euclidean_periodic_patch_isolation",
+        "EuclideanAlignmentPatches.euclidean_periodic_patch_at_multiplier",
+        "EuclideanAlignmentPatches.shear_sup_dist_le",
+        "EuclideanAlignmentPatches.quantization_euclidean_movement",
+        "EuclideanAlignmentPatches.weighted_euclidean_quantization_at_mesh"
+      ]
+    },
+    {
+      "short": "AngularMenuStabilization",
+      "slug": "angular_menu_stabilization",
+      "source": "Theorems/Thm_StickyKakeya4_angular_menu_stabilization.lean",
+      "source_sha256": "ef77ea8218c9af78a9ead55d49dbc4ca43c99fdd788a67149bdca02056201c67",
+      "readback": "verification/AngularMenuStabilizationReadback.lean",
+      "declarations": [
+        "AngularMenuStabilization.cell_mass_partition",
+        "AngularMenuStabilization.menu_card_le_max",
+        "AngularMenuStabilization.maxMenu_pos",
+        "AngularMenuStabilization.maxMenu_le_angular_menu",
+        "AngularMenuStabilization.maxMenu_mono",
+        "AngularMenuStabilization.occupied_menu_card_comparison",
+        "AngularMenuStabilization.maxMenu_le_occupied_menu",
+        "AngularMenuStabilization.adjacent_growth_step",
+        "AngularMenuStabilization.stabilize_and_select"
+      ]
+    },
+    {
+      "short": "FiniteCoverProfileEpochs",
+      "slug": "finite_cover_profile_epochs",
+      "source": "Theorems/Thm_StickyKakeya4_finite_cover_profile_epochs.lean",
+      "source_sha256": "e1829d9f0cdd98089e958a57995e2c956eac9967e7497a91a65c11ae0963e830",
+      "readback": "verification/FiniteCoverProfileEpochsReadback.lean",
+      "declarations": [
+        "FiniteCoverProfileEpochs.coverCount_mono",
+        "FiniteCoverProfileEpochs.profile_mono",
+        "FiniteCoverProfileEpochs.profile_empty",
+        "FiniteCoverProfileEpochs.profile_le_card",
+        "FiniteCoverProfileEpochs.profile_positive",
+        "FiniteCoverProfileEpochs.exists_maximizing_footprint",
+        "FiniteCoverProfileEpochs.mem_wholeCells",
+        "FiniteCoverProfileEpochs.wholeCells_image",
+        "FiniteCoverProfileEpochs.wholeCells_image_ancestor",
+        "FiniteCoverProfileEpochs.wholeCells_filter_eq",
+        "FiniteCoverProfileEpochs.card_lt_pow_rank",
+        "FiniteCoverProfileEpochs.profile_lt_pow_rank",
+        "FiniteCoverProfileEpochs.population_gridCells",
+        "FiniteCoverProfileEpochs.wholeCells_card_ge",
+        "FiniteCoverProfileEpochs.wholeCells_card_ge_half_real",
+        "FiniteCoverProfileEpochs.MaximizingFiber.image_card",
+        "FiniteCoverProfileEpochs.MaximizingFiber.full",
+        "FiniteCoverProfileEpochs.exists_maximizing_fiber",
+        "FiniteCoverProfileEpochs.exists_large_finite_cover_epoch"
+      ]
+    },
+    {
+      "short": "SlabPlanePullback",
+      "slug": "slab_plane_pullback",
+      "source": "Theorems/Thm_StickyKakeya4_slab_plane_pullback.lean",
+      "source_sha256": "53439ea59e36598f313bc52ec5c658a8f306e8b5e1bf365a6e37c8089a79976c",
+      "readback": "verification/SlabPlanePullbackReadback.lean",
+      "declarations": [
+        "SlabPlanePullback.graphMap_apply",
+        "SlabPlanePullback.graphMap_injective",
+        "SlabPlanePullback.graph_mem_plane_iff",
+        "SlabPlanePullback.mem_plane_iff",
+        "SlabPlanePullback.unit_inner_self",
+        "SlabPlanePullback.slabFunctional_ne_zero",
+        "SlabPlanePullback.plane_finrank",
+        "SlabPlanePullback.corrected_constraint",
+        "SlabPlanePullback.correction_dist_eq",
+        "SlabPlanePullback.graph_same_height_dist_le",
+        "SlabPlanePullback.corrected_witness_mem",
+        "SlabPlanePullback.corrected_witness_distance",
+        "SlabPlanePullback.slab_pullback",
+        "SlabPlanePullback.infDist_plane_le",
+        "SlabPlanePullback.graph_direction_norm_ge_one",
+        "SlabPlanePullback.unitDirection_norm",
+        "SlabPlanePullback.normalized_slab_pullback",
+        "SlabPlanePullback.native_four_dimensional_finrank"
+      ]
+    },
+    {
+      "short": "CoverProfileClipping",
+      "slug": "cover_profile_clipping",
+      "source": "Theorems/Thm_StickyKakeya4_cover_profile_clipping.lean",
+      "source_sha256": "44a521b8a519e18d3d0769347637356c0cf198893f36e401dc263c5fa9e78bba",
+      "readback": "verification/CoverProfileClippingReadback.lean",
+      "declarations": [
+        "CoverProfileClipping.clippedSlope_bounds",
+        "CoverProfileClipping.clipped_power_bounds",
+        "CoverProfileClipping.transport_nested_exponent",
+        "CoverProfileClipping.clipped_nested_profile",
+        "CoverProfileClipping.dyadicRatio_ge_one",
+        "CoverProfileClipping.nested_ratio_le",
+        "CoverProfileClipping.profile_power_eq",
+        "CoverProfileClipping.exists_clipped_dyadic_cover_profile"
+      ]
+    },
+    {
+      "short": "GraphTubeGridCover",
+      "slug": "graph_tube_grid_cover",
+      "source": "Theorems/Thm_StickyKakeya4_graph_tube_grid_cover.lean",
+      "source_sha256": "107b28644b152efc752f3186883dac844da161e44bd4ba6550602392c72a0b9e",
+      "readback": "verification/GraphTubeGridCoverReadback.lean",
+      "declarations": [
+        "GraphTubeGridCover.spatialBox_card",
+        "GraphTubeGridCover.timeBins_card_mul_rho_le",
+        "GraphTubeGridCover.gridBin_mem_tubeBins",
+        "GraphTubeGridCover.tubeBins_card_le",
+        "GraphTubeGridCover.occupied_cells_bound",
+        "GraphTubeGridCover.integerChart_injective",
+        "GraphTubeGridCover.chart_gridBin",
+        "GraphTubeGridCover.exists_graph_chart",
+        "GraphTubeGridCover.segment_occupied_cells_bound"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "CoverProfileStopping.length_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.nested_valid",
+      "axioms": [],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.nested_length_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.power_length_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.length_recurrence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.improving_score",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.exists_log_profile_stopping",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.log_two_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.logCount_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.slope_eq_log_ratio",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.dyadicRatio_rpow",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.dyadicRatio_rpow_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.exists_dyadic_cover_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.stepBudget_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.separationExponent_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileStopping.exists_dyadic_cover_profile_canonical",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "EuclideanAlignmentPatches.coordinate_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "EuclideanAlignmentPatches.sup_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "EuclideanAlignmentPatches.euclidean_dist_le_card_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "EuclideanAlignmentPatches.same_cell_euclidean_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "EuclideanAlignmentPatches.euclidean_periodic_patch_isolation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "EuclideanAlignmentPatches.euclidean_periodic_patch_at_multiplier",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "EuclideanAlignmentPatches.shear_sup_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "EuclideanAlignmentPatches.quantization_euclidean_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "EuclideanAlignmentPatches.weighted_euclidean_quantization_at_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "AngularMenuStabilization.cell_mass_partition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "AngularMenuStabilization.menu_card_le_max",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "AngularMenuStabilization.maxMenu_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "AngularMenuStabilization.maxMenu_le_angular_menu",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "AngularMenuStabilization.maxMenu_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "AngularMenuStabilization.occupied_menu_card_comparison",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "AngularMenuStabilization.maxMenu_le_occupied_menu",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "AngularMenuStabilization.adjacent_growth_step",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "AngularMenuStabilization.stabilize_and_select",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.coverCount_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.profile_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.profile_empty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.profile_le_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.profile_positive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.exists_maximizing_footprint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.mem_wholeCells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.wholeCells_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.wholeCells_image_ancestor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.wholeCells_filter_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.card_lt_pow_rank",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.profile_lt_pow_rank",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.population_gridCells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.wholeCells_card_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.wholeCells_card_ge_half_real",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.MaximizingFiber.image_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.MaximizingFiber.full",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.exists_maximizing_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "FiniteCoverProfileEpochs.exists_large_finite_cover_epoch",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.graphMap_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.graphMap_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.graph_mem_plane_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.mem_plane_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.unit_inner_self",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.slabFunctional_ne_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.plane_finrank",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.corrected_constraint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.correction_dist_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.graph_same_height_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.corrected_witness_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.corrected_witness_distance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.slab_pullback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.infDist_plane_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.graph_direction_norm_ge_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.unitDirection_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.normalized_slab_pullback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "SlabPlanePullback.native_four_dimensional_finrank",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileClipping.clippedSlope_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileClipping.clipped_power_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileClipping.transport_nested_exponent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileClipping.clipped_nested_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileClipping.dyadicRatio_ge_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileClipping.nested_ratio_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileClipping.profile_power_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "CoverProfileClipping.exists_clipped_dyadic_cover_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "GraphTubeGridCover.spatialBox_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "GraphTubeGridCover.timeBins_card_mul_rho_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "GraphTubeGridCover.gridBin_mem_tubeBins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "GraphTubeGridCover.tubeBins_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "GraphTubeGridCover.occupied_cells_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "GraphTubeGridCover.integerChart_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "GraphTubeGridCover.chart_gridBin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "GraphTubeGridCover.exists_graph_chart",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    },
+    {
+      "declaration": "GraphTubeGridCover.segment_occupied_cells_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-alignment-endpoints-axioms.log"
+    }
+  ],
+  "declaration_count": 88,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_readback": "verification/WZAlignmentEndpointsReadback.lean",
+  "shared_import_log": "verification/wz-alignment-endpoints-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8956,
+    "log": "verification/wz247-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_tree": "502790d3925958caf3c207ee080126424cb1815e",
+    "module_count": 247,
+    "source_snapshot": "verification/wz247-source-snapshot.json",
+    "scope": "Full default build of all247 modules; all previous240 source hashes unchanged"
+  },
+  "prior_240_module_hashes_unchanged": true,
+  "current_module_count": 247,
+  "main_theorem_complete": false,
+  "whole_Lemma53_lean_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "scope_note": "docs/WZ_ALIGNMENT_SCALE_AND_SLAB.md"
+}

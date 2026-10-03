@@ -3,6 +3,20 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Scale profiles, actual tube covers and geometric endpoints
+
+Seven modules add **88 strict standard-only proved declarations**. They
+construct the selected dyadic upper profile, clipped exponents, actual
+finite-footprint epochs, original angular witnesses, Euclidean patch
+isolation, and slab planes. The original-grid tube covering estimate is
+proved from genuine segment data. The full **247-module** default build
+passes **8,956 jobs**, exit 0, with all previous240 hashes unchanged.
+Cumulative standard-only checks: **1,726**.
+
+The native AD-to-alignment/configuration assembly and final volume theorem
+remain unfinished. See [formal scope](../docs/WZ_ALIGNMENT_SCALE_AND_SLAB.md)
+and [exact evidence](wz-alignment-endpoints-checkpoint.json).
+
 ## Actual alignment constructors
 
 Six modules add **88 strict standard-only proved declarations**: constructive

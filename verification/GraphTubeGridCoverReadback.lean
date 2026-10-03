@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_graph_tube_grid_cover
+
+#print axioms GraphTubeGridCover.spatialBox_card
+#print axioms GraphTubeGridCover.timeBins_card_mul_rho_le
+#print axioms GraphTubeGridCover.gridBin_mem_tubeBins
+#print axioms GraphTubeGridCover.tubeBins_card_le
+#print axioms GraphTubeGridCover.occupied_cells_bound
+#print axioms GraphTubeGridCover.integerChart_injective
+#print axioms GraphTubeGridCover.chart_gridBin
+#print axioms GraphTubeGridCover.exists_graph_chart
+#print axioms GraphTubeGridCover.segment_occupied_cells_bound

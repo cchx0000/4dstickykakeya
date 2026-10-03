@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_angular_menu_stabilization
+
+#print axioms AngularMenuStabilization.cell_mass_partition
+#print axioms AngularMenuStabilization.menu_card_le_max
+#print axioms AngularMenuStabilization.maxMenu_pos
+#print axioms AngularMenuStabilization.maxMenu_le_angular_menu
+#print axioms AngularMenuStabilization.maxMenu_mono
+#print axioms AngularMenuStabilization.occupied_menu_card_comparison
+#print axioms AngularMenuStabilization.maxMenu_le_occupied_menu
+#print axioms AngularMenuStabilization.adjacent_growth_step
+#print axioms AngularMenuStabilization.stabilize_and_select

@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_euclidean_alignment_patches
+
+#print axioms EuclideanAlignmentPatches.coordinate_dist_le
+#print axioms EuclideanAlignmentPatches.sup_dist_le
+#print axioms EuclideanAlignmentPatches.euclidean_dist_le_card_mul
+#print axioms EuclideanAlignmentPatches.same_cell_euclidean_dist_le
+#print axioms EuclideanAlignmentPatches.euclidean_periodic_patch_isolation
+#print axioms EuclideanAlignmentPatches.euclidean_periodic_patch_at_multiplier
+#print axioms EuclideanAlignmentPatches.shear_sup_dist_le
+#print axioms EuclideanAlignmentPatches.quantization_euclidean_movement
+#print axioms EuclideanAlignmentPatches.weighted_euclidean_quantization_at_mesh

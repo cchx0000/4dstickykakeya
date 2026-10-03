@@ -1,0 +1,21 @@
+import Theorems.Thm_StickyKakeya4_finite_cover_profile_epochs
+
+#print axioms FiniteCoverProfileEpochs.coverCount_mono
+#print axioms FiniteCoverProfileEpochs.profile_mono
+#print axioms FiniteCoverProfileEpochs.profile_empty
+#print axioms FiniteCoverProfileEpochs.profile_le_card
+#print axioms FiniteCoverProfileEpochs.profile_positive
+#print axioms FiniteCoverProfileEpochs.exists_maximizing_footprint
+#print axioms FiniteCoverProfileEpochs.mem_wholeCells
+#print axioms FiniteCoverProfileEpochs.wholeCells_image
+#print axioms FiniteCoverProfileEpochs.wholeCells_image_ancestor
+#print axioms FiniteCoverProfileEpochs.wholeCells_filter_eq
+#print axioms FiniteCoverProfileEpochs.card_lt_pow_rank
+#print axioms FiniteCoverProfileEpochs.profile_lt_pow_rank
+#print axioms FiniteCoverProfileEpochs.population_gridCells
+#print axioms FiniteCoverProfileEpochs.wholeCells_card_ge
+#print axioms FiniteCoverProfileEpochs.wholeCells_card_ge_half_real
+#print axioms FiniteCoverProfileEpochs.MaximizingFiber.image_card
+#print axioms FiniteCoverProfileEpochs.MaximizingFiber.full
+#print axioms FiniteCoverProfileEpochs.exists_maximizing_fiber
+#print axioms FiniteCoverProfileEpochs.exists_large_finite_cover_epoch

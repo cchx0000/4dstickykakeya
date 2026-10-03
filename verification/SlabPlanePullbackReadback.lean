@@ -1,0 +1,20 @@
+import Theorems.Thm_StickyKakeya4_slab_plane_pullback
+
+#print axioms SlabPlanePullback.graphMap_apply
+#print axioms SlabPlanePullback.graphMap_injective
+#print axioms SlabPlanePullback.graph_mem_plane_iff
+#print axioms SlabPlanePullback.mem_plane_iff
+#print axioms SlabPlanePullback.unit_inner_self
+#print axioms SlabPlanePullback.slabFunctional_ne_zero
+#print axioms SlabPlanePullback.plane_finrank
+#print axioms SlabPlanePullback.corrected_constraint
+#print axioms SlabPlanePullback.correction_dist_eq
+#print axioms SlabPlanePullback.graph_same_height_dist_le
+#print axioms SlabPlanePullback.corrected_witness_mem
+#print axioms SlabPlanePullback.corrected_witness_distance
+#print axioms SlabPlanePullback.slab_pullback
+#print axioms SlabPlanePullback.infDist_plane_le
+#print axioms SlabPlanePullback.graph_direction_norm_ge_one
+#print axioms SlabPlanePullback.unitDirection_norm
+#print axioms SlabPlanePullback.normalized_slab_pullback
+#print axioms SlabPlanePullback.native_four_dimensional_finrank

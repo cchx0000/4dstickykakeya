@@ -19,6 +19,13 @@ The earlier Prove2Me proposal is preserved in
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
+The [scale and witness checkpoint](docs/WZ_ALIGNMENT_SCALE_AND_SLAB.md)
+constructs extremal cover profiles, actual finite footprint epochs, angular
+menus and Euclidean patch witnesses, and proves the genuine tube-grid cover
+and slab-plane pullback. Its 88 new proofs and the full 247-module build pass.
+The complete native alignment/configuration caller and final volume theorem
+are still being assembled.
+
 The following [alignment-constructor checkpoint](docs/WZ_ALIGNMENT_CONSTRUCTORS.md)
 proves actual disjoint extraction epochs, fractional fiber/quotient counts,
 physical-spine overlap and periodic patch isolation. Its 88 new strict proofs
@@ -177,7 +184,7 @@ passed **788 jobs**, the triangular endpoint passed **8,714 jobs**,
 the original-charge endpoint passed **8,718 jobs**, and the rank-one/native-time
 and actual-moment endpoints passed **8,723 jobs**. The arbitrary-input
 rank-one target passed **8,720 jobs**, and the elementary polynomial target
-passed **8,706 jobs**; the current **240-module**
+passed **8,706 jobs**; the current **247-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

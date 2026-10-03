@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_cover_profile_clipping
+
+#print axioms CoverProfileClipping.clippedSlope_bounds
+#print axioms CoverProfileClipping.clipped_power_bounds
+#print axioms CoverProfileClipping.transport_nested_exponent
+#print axioms CoverProfileClipping.clipped_nested_profile
+#print axioms CoverProfileClipping.dyadicRatio_ge_one
+#print axioms CoverProfileClipping.nested_ratio_le
+#print axioms CoverProfileClipping.profile_power_eq
+#print axioms CoverProfileClipping.exists_clipped_dyadic_cover_profile

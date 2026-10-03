@@ -1,0 +1,18 @@
+import Theorems.Thm_StickyKakeya4_cover_profile_stopping
+
+#print axioms CoverProfileStopping.length_nonneg
+#print axioms CoverProfileStopping.nested_valid
+#print axioms CoverProfileStopping.nested_length_le
+#print axioms CoverProfileStopping.power_length_lower
+#print axioms CoverProfileStopping.length_recurrence
+#print axioms CoverProfileStopping.improving_score
+#print axioms CoverProfileStopping.exists_log_profile_stopping
+#print axioms CoverProfileStopping.log_two_pos
+#print axioms CoverProfileStopping.logCount_bounds
+#print axioms CoverProfileStopping.slope_eq_log_ratio
+#print axioms CoverProfileStopping.dyadicRatio_rpow
+#print axioms CoverProfileStopping.dyadicRatio_rpow_product
+#print axioms CoverProfileStopping.exists_dyadic_cover_profile
+#print axioms CoverProfileStopping.stepBudget_mul
+#print axioms CoverProfileStopping.separationExponent_pos
+#print axioms CoverProfileStopping.exists_dyadic_cover_profile_canonical
