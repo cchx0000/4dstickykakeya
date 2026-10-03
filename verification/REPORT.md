@@ -3,6 +3,30 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Constructed hereditary capacity envelope
+
+The independent `capacity_envelope_budget` module constructs the least
+superadditive reference capacity by a finite-height recursion, proves its
+stabilization, and transfers original density growth to that reference.
+If the envelope is at most `B` times the original capacity, original
+`K`-gains are controlled with the positive coefficient `c_(K/B)` for `K>B`.
+The density upper bound, mass deletion, and original absolute masses are
+retained. The geometric envelope comparison is explicitly still open.
+
+All **10** declarations passed strict source compilation and import axiom
+readback with only the standard logical axioms. The targeted build passed
+**1,949 jobs**, exit 0. Cumulative readbacks: **982**. See
+[capacity-envelope-checkpoint.json](capacity-envelope-checkpoint.json).
+All 186 previous source hashes are unchanged. This is a new-target check,
+not a fresh full build of the current **187** project modules.
+
+[The envelope/witness note](../docs/CAPACITY_ENVELOPE_AND_WITNESS_POOLING.md)
+also records independent handwritten proofs that the tight-cap cycling
+example has a uniformly bounded envelope, and that actual front dimension
+deficit supplies whole-parent heavy physical bushes without the initial
+old-graph retention loss. The latter geometric extraction/exhaustion is
+not included in these ten formal declarations.
+
 ## Filtration density growth and duplicated-cap entropy
 
 The new independent module `filtration_capacity_budget` proves a correct

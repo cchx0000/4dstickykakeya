@@ -63,12 +63,20 @@ the actual moving hairbrush route remains open. The eleven new declarations
 have strict, standard-only axiom readbacks. See
 [the exact repair and remaining interface](docs/FILTRATION_CAPACITY_REPAIR.md).
 
+A constructed least-capacity envelope now weakens the required geometric
+control further: it replaces cumulative overlap costs by a hereditary
+antichain-capacity bound. Its ten declarations are strictly verified.
+[The envelope and witness-pooling note](docs/CAPACITY_ENVELOPE_AND_WITNESS_POOLING.md)
+records the remaining geometric comparison and a separately handwritten
+whole-parent heavy-bush restart from the original front dimension deficit.
+
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
 latest full default build passed **185 project modules** and **8,894 Lake jobs**,
 including the one-source/all-slack and variable-time line-hairbrush constructions.
 Its source snapshot is recorded in `verification/hairbrush-escape-default-build.log`.
-The additional filtration target passed **1,948 jobs**; the current **186-module**
+The additional filtration and envelope targets passed **1,948** and **1,949 jobs**;
+the current **187-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

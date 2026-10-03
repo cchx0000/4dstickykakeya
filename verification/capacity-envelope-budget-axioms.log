@@ -1,0 +1,23 @@
+'StickyKakeya4.CapacityEnvelopeBudget.cap_le_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CapacityEnvelopeBudget.envelope_le_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CapacityEnvelopeBudget.envelope_stabilizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CapacityEnvelopeBudget.envelope_is_subcapacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CapacityEnvelopeBudget.exists_least_capacity_majorant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CapacityEnvelopeBudget.rescaled_density_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CapacityEnvelopeBudget.rescaled_potential_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CapacityEnvelopeBudget.rescaled_potential_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.CapacityEnvelopeBudget.finite_tree_budget_with_capacity_majorant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.CapacityEnvelopeBudget.finite_tree_budget_with_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/CapacityEnvelopeBudgetReadback.lean
+Exit: 0
+Source SHA256: 2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7

@@ -25,6 +25,16 @@ the general small-hairbrush charge still requires a bound on that cumulative
 duplication term or a source-faithful geometric partition that removes it.
 This is a partial repair, not a completed main theorem.
 
+The subsequent capacity-envelope construction is strictly stronger:
+`R_v=max(c_v,sum R_child)` constructs the least conserved reference capacity.
+If its distortion is at most `B`, actual `K`-density gains are controlled
+by the filtration bound at threshold `K/B`, for `K>B`. This avoids summing
+local overlap entropy at every generation. Ten new declarations are strictly
+checked; the tight-cap cycling test has `B=4` even though its cumulative
+positive local entropy is unbounded. The actual geometric envelope bound
+is still missing. See
+[the witness-pooling analysis](docs/CAPACITY_ENVELOPE_AND_WITNESS_POOLING.md).
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

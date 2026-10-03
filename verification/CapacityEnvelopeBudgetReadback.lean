@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_capacity_envelope_budget
+
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.cap_le_envelope
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.envelope_le_majorant
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.envelope_stabilizes
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.envelope_is_subcapacity
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.exists_least_capacity_majorant
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.rescaled_density_bounds
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.rescaled_potential_eq
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.rescaled_potential_le
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.finite_tree_budget_with_capacity_majorant
+#print axioms StickyKakeya4.CapacityEnvelopeBudget.finite_tree_budget_with_envelope

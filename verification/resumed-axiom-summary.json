@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T03:46:28.239247+00:00",
-  "previous_checkpoint": "8574e253937992d136d9337bca4dd7f11deb9f82",
+  "generated_at_utc": "2026-10-03T04:33:53.900595+00:00",
+  "previous_checkpoint": "2107c762e8af3b3350523da83e2e05deff86bb2c",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 972,
+  "total_new_checked_declarations": 982,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -73,7 +73,8 @@
     "verification/affine-focus-energy-escape-readback.log": 15,
     "verification/hairbrush-compact-decay-axioms.log": 7,
     "verification/no-frostman-uniform-hairbrush-axioms.log": 4,
-    "verification/filtration-capacity-budget-axioms.log": 11
+    "verification/filtration-capacity-budget-axioms.log": 11,
+    "verification/capacity-envelope-budget-axioms.log": 10
   },
   "checks": [
     {
@@ -8000,6 +8001,96 @@
         "Quot.sound"
       ],
       "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.cap_le_envelope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.envelope_le_majorant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.envelope_stabilizes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.envelope_is_subcapacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.exists_least_capacity_majorant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.rescaled_density_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.rescaled_potential_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.rescaled_potential_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.finite_tree_budget_with_capacity_majorant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.finite_tree_budget_with_envelope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
     }
   ],
   "source_sha256": {
@@ -8072,14 +8163,15 @@
     "Theorems/Thm_StickyKakeya4_affine_focus_energy_escape.lean": "684275d682dca4c9e63c95ca9bd7a886ee572be521348673fbbbf16ec86e2659",
     "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
     "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4",
-    "Theorems/Thm_StickyKakeya4_filtration_capacity_budget.lean": "12aeb3253aeb991fc28f4b3f808db97239e28d542593b23c7ca238350da32c4f"
+    "Theorems/Thm_StickyKakeya4_filtration_capacity_budget.lean": "12aeb3253aeb991fc28f4b3f808db97239e28d542593b23c7ca238350da32c4f",
+    "Theorems/Thm_StickyKakeya4_capacity_envelope_budget.lean": "2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
   "targeted_lake_build_status": "passed",
   "targeted_lake_build_exit_code": 0,
-  "targeted_lake_build_jobs": 1948,
-  "targeted_lake_build_log": "verification/filtration-capacity-budget-build.log",
+  "targeted_lake_build_jobs": 1949,
+  "targeted_lake_build_log": "verification/capacity-envelope-budget-build.log",
   "full_tracked_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -8120,18 +8212,18 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 881,
+  "resumed_phase_declaration_count": 891,
   "latest_targeted_build": {
-    "source_base_commit": "8574e253937992d136d9337bca4dd7f11deb9f82",
+    "source_base_commit": "2107c762e8af3b3350523da83e2e05deff86bb2c",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_filtration_capacity_budget.lean": "12aeb3253aeb991fc28f4b3f808db97239e28d542593b23c7ca238350da32c4f"
+      "Theorems/Thm_StickyKakeya4_capacity_envelope_budget.lean": "2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7"
     },
     "module_count": 1,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 1948,
-    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_filtration_capacity_budget",
-    "log": "verification/filtration-capacity-budget-build.log",
-    "scope": "new independent module only; previous 185-module full build is historical and its source hashes remain unchanged"
+    "lake_jobs": 1949,
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_capacity_envelope_budget",
+    "log": "verification/capacity-envelope-budget-build.log",
+    "scope": "new envelope module and its dependency on the previously checked filtration module; not a full 187-module rebuild"
   }
 }

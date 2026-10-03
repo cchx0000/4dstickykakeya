@@ -1,0 +1,115 @@
+{
+  "generated_at_utc": "2026-10-03T04:33:53.900595+00:00",
+  "base_commit": "2107c762e8af3b3350523da83e2e05deff86bb2c",
+  "source_sha256": "2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7",
+  "declarations": [
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.cap_le_envelope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.envelope_le_majorant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.envelope_stabilizes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.envelope_is_subcapacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.exists_least_capacity_majorant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.rescaled_density_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.rescaled_potential_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.rescaled_potential_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.finite_tree_budget_with_capacity_majorant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.CapacityEnvelopeBudget.finite_tree_budget_with_envelope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/capacity-envelope-budget-axioms.log"
+    }
+  ],
+  "targeted_build": {
+    "source_base_commit": "2107c762e8af3b3350523da83e2e05deff86bb2c",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_capacity_envelope_budget.lean": "2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7"
+    },
+    "module_count": 1,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 1949,
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_capacity_envelope_budget",
+    "log": "verification/capacity-envelope-budget-build.log",
+    "scope": "new envelope module and its dependency on the previously checked filtration module; not a full 187-module rebuild"
+  },
+  "strict_exit_code": 0,
+  "readback_exit_code": 0,
+  "full_build_rerun": false,
+  "previous_186_hashes_unchanged": true,
+  "main_theorem_completed": false
+}
