@@ -1,0 +1,124 @@
+{
+  "generated_at_utc": "2026-10-03T03:46:28.239247+00:00",
+  "base_commit": "8574e253937992d136d9337bca4dd7f11deb9f82",
+  "source_sha256": "12aeb3253aeb991fc28f4b3f808db97239e28d542593b23c7ca238350da32c4f",
+  "declarations": [
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.gainConstant_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.entropyRemainder_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.gain_le_entropyRemainder",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.potential_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.node_growth_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.node_growth_budget_of_subcapacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.node_growth_budget_log_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.sum_child_values",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.finite_tree_growth_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.finite_tree_growth_budget_of_subcapacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.finite_tree_growth_budget_log_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    }
+  ],
+  "targeted_build": {
+    "source_base_commit": "8574e253937992d136d9337bca4dd7f11deb9f82",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_filtration_capacity_budget.lean": "12aeb3253aeb991fc28f4b3f808db97239e28d542593b23c7ca238350da32c4f"
+    },
+    "module_count": 1,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 1948,
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_filtration_capacity_budget",
+    "log": "verification/filtration-capacity-budget-build.log",
+    "scope": "new independent module only; previous 185-module full build is historical and its source hashes remain unchanged"
+  },
+  "strict_exit_code": 0,
+  "readback_exit_code": 0,
+  "full_build_rerun": false,
+  "original_185_hashes_unchanged": true,
+  "main_theorem_completed": false
+}

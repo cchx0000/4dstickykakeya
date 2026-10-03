@@ -1,7 +1,38 @@
 # Prove2Me / 4D Sticky Kakeya: verification checkpoints
 
-Date: 2026-10-02 UTC. Original baseline:
+Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
+
+## Filtration density growth and duplicated-cap entropy
+
+The new independent module `filtration_capacity_budget` proves a correct
+finite-tree replacement for the manuscript's density-cocycle argument.
+For bounded densities and nonincreasing actual mass, it controls all
+`K`-fold growth edges by an initial entropy potential plus an explicit
+reference-capacity creation term. A sharper version needs only the
+parent-mass-weighted logarithm of cap-capacity multiplication. It proves
+the entire finite-tree bound by exact parent-incidence telescoping; it
+does not assume the desired aggregate growth estimate.
+
+All **11** declarations passed source compilation and import readback with
+`-DautoImplicit=false -DwarningAsError=true`. They use only the three standard
+logical axioms. The targeted Lake build passed **1,948 jobs**, exit 0. The
+cumulative recorded readback count is **972**. See
+[filtration-capacity-checkpoint.json](filtration-capacity-checkpoint.json)
+and the three `filtration-capacity-budget-*.log` files.
+
+The execution workspace was restored from remote `8574e253`; the official
+Lean 4.33.1 toolchain and pinned dependencies were restored without changing
+their versions. All **185** earlier source hashes still match their passed
+default-build snapshot. The current checkout has **186** project modules;
+this turn tested the new independent target, not a fresh full default build.
+The original final theorem and its recorded WZ-axiom failure remain unchanged.
+
+[The repair note](../docs/FILTRATION_CAPACITY_REPAIR.md) distinguishes the
+checked finite-tree theorem from the handwritten filtration extension and
+geometric tests. The unresolved step is cumulative duplicated-cap entropy
+for the actual no-Frostman hairbrush route. Source-mass conservation alone
+does not bound it; a strictly shrinking fixed-source countertest shows why.
 
 ## Actual line-hairbrush escape and every-reference decay
 

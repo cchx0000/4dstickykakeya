@@ -7,6 +7,24 @@ No new regularity, routing certificate, or energy bound is a final hypothesis.
 See [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md) for exact references.
 The earlier eight-item proposal is preserved in `PROVE2ME_TARGETS.md`.
 
+## 2026-10-03 filtration repair checkpoint
+
+A strict finite-tree density budget now replaces the invalid inference
+from bounded cap density to a bounded product of increasing factors.
+It permits deletion of actual mass and controls the total mass of
+`K`-fold density-growth edges by an initial entropy potential plus
+`sum p_parent log(max(1, sum child_capacities / parent_capacity))`.
+For genuine nested reference subpartitions the latter term vanishes.
+All eleven declarations are strictly compiled with standard-only axiom
+readbacks. See [the filtration repair](docs/FILTRATION_CAPACITY_REPAIR.md).
+
+The existing geometric source partitions do not establish reference-capacity
+conservation. A fixed smooth packing-three example realizes indefinitely
+repeated growth through strictly shrinking, overlapping cap labels. Thus
+the general small-hairbrush charge still requires a bound on that cumulative
+duplication term or a source-faithful geometric partition that removes it.
+This is a partial repair, not a completed main theorem.
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

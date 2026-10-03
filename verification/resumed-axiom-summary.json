@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-02T14:57:47.545958+00:00",
-  "previous_checkpoint": "7399d49df775354416a2039f026c66509f61dc2b",
+  "generated_at_utc": "2026-10-03T03:46:28.239247+00:00",
+  "previous_checkpoint": "8574e253937992d136d9337bca4dd7f11deb9f82",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 961,
+  "total_new_checked_declarations": 972,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -72,7 +72,8 @@
     "verification/moving-focus-energy-escape-axioms.log": 23,
     "verification/affine-focus-energy-escape-readback.log": 15,
     "verification/hairbrush-compact-decay-axioms.log": 7,
-    "verification/no-frostman-uniform-hairbrush-axioms.log": 4
+    "verification/no-frostman-uniform-hairbrush-axioms.log": 4,
+    "verification/filtration-capacity-budget-axioms.log": 11
   },
   "checks": [
     {
@@ -7900,6 +7901,105 @@
         "Quot.sound"
       ],
       "log": "verification/no-frostman-uniform-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.gainConstant_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.entropyRemainder_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.gain_le_entropyRemainder",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.potential_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.node_growth_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.node_growth_budget_of_subcapacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.node_growth_budget_log_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.sum_child_values",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.finite_tree_growth_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.finite_tree_growth_budget_of_subcapacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.FiltrationCapacityBudget.finite_tree_growth_budget_log_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/filtration-capacity-budget-axioms.log"
     }
   ],
   "source_sha256": {
@@ -7971,14 +8071,15 @@
     "Theorems/Thm_StickyKakeya4_moving_focus_energy_escape.lean": "ea71d922f6bed8e294a83e1fd4841a7e936bc8657ef277b9833c662eef0e5098",
     "Theorems/Thm_StickyKakeya4_affine_focus_energy_escape.lean": "684275d682dca4c9e63c95ca9bd7a886ee572be521348673fbbbf16ec86e2659",
     "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
-    "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
+    "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4",
+    "Theorems/Thm_StickyKakeya4_filtration_capacity_budget.lean": "12aeb3253aeb991fc28f4b3f808db97239e28d542593b23c7ca238350da32c4f"
   },
-  "full_build_rerun": true,
+  "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
   "targeted_lake_build_status": "passed",
   "targeted_lake_build_exit_code": 0,
-  "targeted_lake_build_jobs": 8754,
-  "targeted_lake_build_log": "verification/analytic-closure-build.log",
+  "targeted_lake_build_jobs": 1948,
+  "targeted_lake_build_log": "verification/filtration-capacity-budget-build.log",
   "full_tracked_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -8019,5 +8120,18 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 870
+  "resumed_phase_declaration_count": 881,
+  "latest_targeted_build": {
+    "source_base_commit": "8574e253937992d136d9337bca4dd7f11deb9f82",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_filtration_capacity_budget.lean": "12aeb3253aeb991fc28f4b3f808db97239e28d542593b23c7ca238350da32c4f"
+    },
+    "module_count": 1,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 1948,
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_filtration_capacity_budget",
+    "log": "verification/filtration-capacity-budget-build.log",
+    "scope": "new independent module only; previous 185-module full build is historical and its source hashes remain unchanged"
+  }
 }

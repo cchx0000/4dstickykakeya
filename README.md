@@ -48,19 +48,30 @@ first-hit phase localization selects a positive dense block without a
 number-of-cells loss. These constructions remove source and routing input
 premises, but the global weighted transverse charge remains open.
 
-The latest additional checked result derives recurrent heavy bushes for
+One checked result derives recurrent heavy bushes for
 almost every original source/time pair directly from strict front dimension
 deficit, with a divergent sum of their source-time masses. This preserves
 continuum time information on one fixed actual source. The aggregate
 root-time charge needed to contradict it is still open; finite collections
 of heavy times cannot replace that information.
 
+The latest filtration repair proves a finite-tree mass-weighted density-growth
+budget, allowing mass deletion. Its only additional term is the cumulative
+parent-mass-weighted logarithm of duplicated reference-cap capacity. That
+term vanishes for true nested reference subpartitions; controlling it for
+the actual moving hairbrush route remains open. The eleven new declarations
+have strict, standard-only axiom readbacks. See
+[the exact repair and remaining interface](docs/FILTRATION_CAPACITY_REPAIR.md).
+
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
-latest default build passed all **177 project modules** and **8,886 Lake jobs**,
-including the complete finite bush-cover and rooted-recurrence constructions.
-The exact source snapshot is recorded in `verification/rooted-heavy-default-build.log`.
-The final-theorem axiom gate at `b03888e` still fails exactly because the two main
+latest full default build passed **185 project modules** and **8,894 Lake jobs**,
+including the one-source/all-slack and variable-time line-hairbrush constructions.
+Its source snapshot is recorded in `verification/hairbrush-escape-default-build.log`.
+The additional filtration target passed **1,948 jobs**; the current **186-module**
+checkout has not been rebuilt in full in the restored workspace.
+The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
+still fails exactly because the two main
 closure declarations use the preexisting WZ project axiom.
 `scripts/check-axioms.sh` makes that failure explicit. The original final
 statement has not been weakened and no new project axiom has been added.
