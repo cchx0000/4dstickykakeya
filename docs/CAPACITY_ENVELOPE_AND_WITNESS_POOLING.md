@@ -222,9 +222,10 @@ mass, (6) there would give a fixed positive eligible mass in every earlier
 remainder, contradicting the convergence of the extracted masses to zero.
 This constructs source-disjoint bushes exhausting the original source;
 every piece has the same coefficient in (6), and a finite truncation
-retains arbitrarily close to all its mass. This geometric argument is
-independently checked by hand; its Lean integration is separate from the
-capacity checkpoint below.
+retains arbitrarily close to all its mass. The subsequent
+[whole-parent restart](WHOLE_PARENT_HEAVY_BUSH_RESTART.md) now has a strictly
+checked original-data endpoint and a direct maximal-disjoint-family proof,
+which preserves the quantitative threshold without arbitrary trimming.
 
 This removes the initial `M` loss for a source-only whole-parent restart.
 It does not put the resulting physical bushes in small single direction
@@ -258,5 +259,7 @@ All ten import readbacks use only `propext`, `Classical.choice`, and
 readback commands used `-DautoImplicit=false -DwarningAsError=true`.
 See `verification/capacity-envelope-checkpoint.json` and the corresponding
 build, strict, and axiom logs. The antichain characterization and the
-geometric discussion, including (6), are handwritten and independently
-checked; their status is not included in this formal declaration count.
+geometric discussion are handwritten and independently checked; their status
+is not included in this formal declaration count. The later formalization
+of (6) and its exact source-disjoint exhaustion is recorded separately in
+`WHOLE_PARENT_HEAVY_BUSH_RESTART.md`.

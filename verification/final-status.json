@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-03T04:33:53.900595+00:00",
-  "source_commit_before_report": "2107c762e8af3b3350523da83e2e05deff86bb2c",
-  "project_module_count": 187,
+  "generated_at_utc": "2026-10-03T05:19:41.733540+00:00",
+  "source_commit_before_report": "30c36bb805de4fb24313176f60279236c2c7055c",
+  "project_module_count": 189,
   "aggregate_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -37,7 +37,7 @@
     "scope": "Default lake build of 180 unchanged project modules at the base commit plus the five specified new line-hairbrush escape/decay sources; exact source hashes recorded below."
   },
   "new_declaration_axiom_checks": {
-    "count": 982,
+    "count": 991,
     "status": "standard_logical_axioms_only",
     "initial_evidence": "verification/new-axiom-summary.json",
     "resumed_evidence": "verification/resumed-axiom-summary.json"
@@ -1005,23 +1005,34 @@
       "status": "passed",
       "source_sha256": "2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7",
       "verification_scope": "2026-10-03 targeted envelope build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_disjoint_positive_exhaustion": {
+      "status": "passed",
+      "source_sha256": "a3d6616aad7230346f5bda437bbe76eff2fe7dbdf7285439d0b376a796ae49b9",
+      "verification_scope": "whole-parent heavy-bush targeted build and strict import readback"
+    },
+    "Theorems.Thm_StickyKakeya4_whole_parent_heavy_bush": {
+      "status": "passed",
+      "source_sha256": "5339e5678dbd250ddb14858c733f9eb4e64f5d1f9ea4526a7a631a43d46cca11",
+      "verification_scope": "whole-parent heavy-bush targeted build and strict import readback"
     }
   },
   "unconditional_main_completed": false,
   "remaining_mathematical_obligation": "A genuinely source-faithful collective root-time heavy-event charge (or equivalent weighted paid/cross-cap estimate or supported Frostman escape), retaining continuum time mass for the actual coupled selector.",
   "upstream_main_sha": "d208ddf4544cbb9ed05e4c848a83b07985b28e26",
   "latest_targeted_build": {
-    "source_base_commit": "2107c762e8af3b3350523da83e2e05deff86bb2c",
+    "source_base_commit": "30c36bb805de4fb24313176f60279236c2c7055c",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_capacity_envelope_budget.lean": "2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7"
+      "Theorems/Thm_StickyKakeya4_disjoint_positive_exhaustion.lean": "a3d6616aad7230346f5bda437bbe76eff2fe7dbdf7285439d0b376a796ae49b9",
+      "Theorems/Thm_StickyKakeya4_whole_parent_heavy_bush.lean": "5339e5678dbd250ddb14858c733f9eb4e64f5d1f9ea4526a7a631a43d46cca11"
     },
-    "module_count": 1,
+    "module_count": 2,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 1949,
-    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_capacity_envelope_budget",
-    "log": "verification/capacity-envelope-budget-build.log",
-    "scope": "new envelope module and its dependency on the previously checked filtration module; not a full 187-module rebuild"
+    "lake_jobs": 8757,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_whole_parent_heavy_bush",
+    "log": "verification/whole-parent-heavy-bush-build.log",
+    "scope": "two new modules and their actual rooted-heavy dependencies; not a full 189-module rebuild"
   },
   "current_turn_full_build_rerun": false,
   "filtration_repair": {
@@ -1035,5 +1046,11 @@
     "declaration_count": 10,
     "geometric_envelope_comparison_proved": false,
     "note": "docs/CAPACITY_ENVELOPE_AND_WITNESS_POOLING.md"
+  },
+  "whole_parent_restart": {
+    "status": "original datum plus strict front deficit constructs finite source-disjoint heavy-bush families retaining any target below full mass; source fixed before all coefficients/cutoffs",
+    "declaration_count": 9,
+    "small_direction_cap_conversion_proved": false,
+    "note": "docs/WHOLE_PARENT_HEAVY_BUSH_RESTART.md"
   }
 }

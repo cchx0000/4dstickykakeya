@@ -3,6 +3,29 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Actual whole-parent heavy-bush families
+
+From the original sticky datum and strict front dimension deficit, the new
+endpoint fixes one positive original source, one common marked slab, and
+`0<beta<3` before all requested coefficients and fine cutoffs. It constructs
+finite source-disjoint families retaining any mass threshold below the
+original total, with every piece's own mass exceeding `A p R^beta` for
+the fixed original parent mass `p`. Actual witness times lie in the marked
+slab. There is no initial Maslov retention factor or assumed heavy-family
+certificate.
+
+The general exhaustion helper uses a maximal disjoint family, preserving
+quantitative eligibility which need not survive arbitrary restrictions.
+All **9** declarations across the two modules passed strict source and
+import checks with only standard logical axioms. The targeted build passed
+**8,757 jobs**, exit 0; cumulative readbacks are **991**. See
+[whole-parent-heavy-bush-checkpoint.json](whole-parent-heavy-bush-checkpoint.json)
+and [the exact mathematical scope](../docs/WHOLE_PARENT_HEAVY_BUSH_RESTART.md).
+
+All 187 earlier source hashes are unchanged. This is not a fresh default
+build of the current **189** modules. The physical-to-angular cap step and
+the main theorem's WZ-axiom removal remain open.
+
 ## Constructed hereditary capacity envelope
 
 The independent `capacity_envelope_budget` module constructs the least

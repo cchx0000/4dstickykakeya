@@ -67,16 +67,20 @@ A constructed least-capacity envelope now weakens the required geometric
 control further: it replaces cumulative overlap costs by a hereditary
 antichain-capacity bound. Its ten declarations are strictly verified.
 [The envelope and witness-pooling note](docs/CAPACITY_ENVELOPE_AND_WITNESS_POOLING.md)
-records the remaining geometric comparison and a separately handwritten
-whole-parent heavy-bush restart from the original front dimension deficit.
+records the remaining geometric comparison. The
+[whole-parent heavy-bush restart](docs/WHOLE_PARENT_HEAVY_BUSH_RESTART.md)
+is now also strictly verified from the original front dimension deficit:
+it fixes one source before all coefficients and cutoffs and retains nearly
+all its mass in disjoint actual heavy bushes. Direction-cap contraction
+remains a separate geometric obligation.
 
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
 latest full default build passed **185 project modules** and **8,894 Lake jobs**,
 including the one-source/all-slack and variable-time line-hairbrush constructions.
 Its source snapshot is recorded in `verification/hairbrush-escape-default-build.log`.
-The additional filtration and envelope targets passed **1,948** and **1,949 jobs**;
-the current **187-module**
+The additional filtration, envelope, and whole-parent targets passed
+**1,948**, **1,949**, and **8,757 jobs**; the current **189-module**
 checkout has not been rebuilt in full in the restored workspace.
 The final-theorem axiom gate in `verification/hairbrush-escape-main-axiom-gate.log`
 still fails exactly because the two main

@@ -1,0 +1,12 @@
+'StickyKakeya4.DisjointPositiveExhaustion.exists_countable_disjoint_positive_exhaustion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.DisjointPositiveExhaustion.exists_finite_subfamily_mass_gt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.DisjointPositiveExhaustion.exists_finite_disjoint_positive_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/DisjointPositiveExhaustionReadback.lean
+Exit: 0
+Source SHA256: a3d6616aad7230346f5bda437bbe76eff2fe7dbdf7285439d0b376a796ae49b9

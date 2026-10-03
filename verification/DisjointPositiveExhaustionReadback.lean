@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_disjoint_positive_exhaustion
+
+#print axioms StickyKakeya4.DisjointPositiveExhaustion.exists_countable_disjoint_positive_exhaustion
+#print axioms StickyKakeya4.DisjointPositiveExhaustion.exists_finite_subfamily_mass_gt
+#print axioms StickyKakeya4.DisjointPositiveExhaustion.exists_finite_disjoint_positive_retention

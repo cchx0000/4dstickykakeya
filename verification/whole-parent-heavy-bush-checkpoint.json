@@ -1,0 +1,110 @@
+{
+  "generated_at_utc": "2026-10-03T05:19:41.733540+00:00",
+  "base_commit": "30c36bb805de4fb24313176f60279236c2c7055c",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_disjoint_positive_exhaustion.lean": "a3d6616aad7230346f5bda437bbe76eff2fe7dbdf7285439d0b376a796ae49b9",
+    "Theorems/Thm_StickyKakeya4_whole_parent_heavy_bush.lean": "5339e5678dbd250ddb14858c733f9eb4e64f5d1f9ea4526a7a631a43d46cca11"
+  },
+  "declarations": [
+    {
+      "declaration": "StickyKakeya4.DisjointPositiveExhaustion.exists_countable_disjoint_positive_exhaustion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/disjoint-positive-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.DisjointPositiveExhaustion.exists_finite_subfamily_mass_gt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/disjoint-positive-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.DisjointPositiveExhaustion.exists_finite_disjoint_positive_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/disjoint-positive-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.measurableSet_bush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.exists_heavy_bush_at_arbitrarily_fine_scale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.positive_remainder_contains_fixed_coefficient_bush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.exists_disjoint_heavy_bush_exhaustion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.exists_finite_heavy_bush_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.sticky_deficit_exists_whole_parent_heavy_bush_families",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    }
+  ],
+  "targeted_build": {
+    "source_base_commit": "30c36bb805de4fb24313176f60279236c2c7055c",
+    "additional_source_sha256": {
+      "Theorems/Thm_StickyKakeya4_disjoint_positive_exhaustion.lean": "a3d6616aad7230346f5bda437bbe76eff2fe7dbdf7285439d0b376a796ae49b9",
+      "Theorems/Thm_StickyKakeya4_whole_parent_heavy_bush.lean": "5339e5678dbd250ddb14858c733f9eb4e64f5d1f9ea4526a7a631a43d46cca11"
+    },
+    "module_count": 2,
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 8757,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_whole_parent_heavy_bush",
+    "log": "verification/whole-parent-heavy-bush-build.log",
+    "scope": "two new modules and their actual rooted-heavy dependencies; not a full 189-module rebuild"
+  },
+  "strict_exit_code": 0,
+  "readback_exit_code": 0,
+  "full_build_rerun": false,
+  "previous_187_hashes_unchanged": true,
+  "main_theorem_completed": false
+}

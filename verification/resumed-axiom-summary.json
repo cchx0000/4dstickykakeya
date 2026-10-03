@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T04:33:53.900595+00:00",
-  "previous_checkpoint": "2107c762e8af3b3350523da83e2e05deff86bb2c",
+  "generated_at_utc": "2026-10-03T05:19:41.733540+00:00",
+  "previous_checkpoint": "30c36bb805de4fb24313176f60279236c2c7055c",
   "previous_checked_declaration_count": 91,
-  "total_new_checked_declarations": 982,
+  "total_new_checked_declarations": 991,
   "declarations_per_log": {
     "verification/residual-energy-axioms.log": 7,
     "verification/residual-sublevel-axioms.log": 4,
@@ -74,7 +74,9 @@
     "verification/hairbrush-compact-decay-axioms.log": 7,
     "verification/no-frostman-uniform-hairbrush-axioms.log": 4,
     "verification/filtration-capacity-budget-axioms.log": 11,
-    "verification/capacity-envelope-budget-axioms.log": 10
+    "verification/capacity-envelope-budget-axioms.log": 10,
+    "verification/disjoint-positive-exhaustion-axioms.log": 3,
+    "verification/whole-parent-heavy-bush-axioms.log": 6
   },
   "checks": [
     {
@@ -8091,6 +8093,87 @@
         "Quot.sound"
       ],
       "log": "verification/capacity-envelope-budget-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.DisjointPositiveExhaustion.exists_countable_disjoint_positive_exhaustion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/disjoint-positive-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.DisjointPositiveExhaustion.exists_finite_subfamily_mass_gt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/disjoint-positive-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.DisjointPositiveExhaustion.exists_finite_disjoint_positive_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/disjoint-positive-exhaustion-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.measurableSet_bush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.exists_heavy_bush_at_arbitrarily_fine_scale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.positive_remainder_contains_fixed_coefficient_bush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.exists_disjoint_heavy_bush_exhaustion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.exists_finite_heavy_bush_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
+    },
+    {
+      "declaration": "StickyKakeya4.WholeParentHeavyBush.sticky_deficit_exists_whole_parent_heavy_bush_families",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/whole-parent-heavy-bush-axioms.log"
     }
   ],
   "source_sha256": {
@@ -8164,14 +8247,16 @@
     "Theorems/Thm_StickyKakeya4_hairbrush_compact_decay.lean": "b2f5a7a2e7e2ba6c78afa1fb779e319d93e95b7f44427eda8f67ec598fa9b487",
     "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4",
     "Theorems/Thm_StickyKakeya4_filtration_capacity_budget.lean": "12aeb3253aeb991fc28f4b3f808db97239e28d542593b23c7ca238350da32c4f",
-    "Theorems/Thm_StickyKakeya4_capacity_envelope_budget.lean": "2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7"
+    "Theorems/Thm_StickyKakeya4_capacity_envelope_budget.lean": "2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7",
+    "Theorems/Thm_StickyKakeya4_disjoint_positive_exhaustion.lean": "a3d6616aad7230346f5bda437bbe76eff2fe7dbdf7285439d0b376a796ae49b9",
+    "Theorems/Thm_StickyKakeya4_whole_parent_heavy_bush.lean": "5339e5678dbd250ddb14858c733f9eb4e64f5d1f9ea4526a7a631a43d46cca11"
   },
   "full_build_rerun": false,
   "final_main_project_axiom_removed": false,
   "targeted_lake_build_status": "passed",
   "targeted_lake_build_exit_code": 0,
-  "targeted_lake_build_jobs": 1949,
-  "targeted_lake_build_log": "verification/capacity-envelope-budget-build.log",
+  "targeted_lake_build_jobs": 8757,
+  "targeted_lake_build_log": "verification/whole-parent-heavy-bush-build.log",
   "full_tracked_build": {
     "source_base_commit": "7399d49df775354416a2039f026c66509f61dc2b",
     "additional_source_sha256": {
@@ -8212,18 +8297,19 @@
       "Theorems/Thm_StickyKakeya4_no_frostman_uniform_hairbrush.lean": "e8a1a6a5942168614df26ce93a07f90623231d6b910011f032a09dc6165568a4"
     }
   },
-  "resumed_phase_declaration_count": 891,
+  "resumed_phase_declaration_count": 900,
   "latest_targeted_build": {
-    "source_base_commit": "2107c762e8af3b3350523da83e2e05deff86bb2c",
+    "source_base_commit": "30c36bb805de4fb24313176f60279236c2c7055c",
     "additional_source_sha256": {
-      "Theorems/Thm_StickyKakeya4_capacity_envelope_budget.lean": "2e3b52e140c518ea346df67a63fcc9caaf34aa4a01c5eab173eb70f22e94fbf7"
+      "Theorems/Thm_StickyKakeya4_disjoint_positive_exhaustion.lean": "a3d6616aad7230346f5bda437bbe76eff2fe7dbdf7285439d0b376a796ae49b9",
+      "Theorems/Thm_StickyKakeya4_whole_parent_heavy_bush.lean": "5339e5678dbd250ddb14858c733f9eb4e64f5d1f9ea4526a7a631a43d46cca11"
     },
-    "module_count": 1,
+    "module_count": 2,
     "status": "passed",
     "exit_code": 0,
-    "lake_jobs": 1949,
-    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_capacity_envelope_budget",
-    "log": "verification/capacity-envelope-budget-build.log",
-    "scope": "new envelope module and its dependency on the previously checked filtration module; not a full 187-module rebuild"
+    "lake_jobs": 8757,
+    "command": "STICKY_BUILD_JOBS=4 scripts/build-bounded.sh Theorems.Thm_StickyKakeya4_whole_parent_heavy_bush",
+    "log": "verification/whole-parent-heavy-bush-build.log",
+    "scope": "two new modules and their actual rooted-heavy dependencies; not a full 189-module rebuild"
   }
 }

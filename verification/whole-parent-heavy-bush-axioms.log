@@ -1,0 +1,19 @@
+'StickyKakeya4.WholeParentHeavyBush.measurableSet_bush' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.WholeParentHeavyBush.exists_heavy_bush_at_arbitrarily_fine_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.WholeParentHeavyBush.positive_remainder_contains_fixed_coefficient_bush' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.WholeParentHeavyBush.exists_disjoint_heavy_bush_exhaustion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.WholeParentHeavyBush.exists_finite_heavy_bush_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.WholeParentHeavyBush.sticky_deficit_exists_whole_parent_heavy_bush_families' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Command: lake env lean -DautoImplicit=false -DwarningAsError=true verification/WholeParentHeavyBushReadback.lean
+Exit: 0
+Source SHA256: 5339e5678dbd250ddb14858c733f9eb4e64f5d1f9ea4526a7a631a43d46cca11

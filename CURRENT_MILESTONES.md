@@ -35,6 +35,16 @@ positive local entropy is unbounded. The actual geometric envelope bound
 is still missing. See
 [the witness-pooling analysis](docs/CAPACITY_ENVELOPE_AND_WITNESS_POOLING.md).
 
+A new original-data endpoint now constructs the needed **whole-parent
+physical** heavy-bush families: one source is fixed before all coefficients
+and cutoffs, finite disjoint families retain any threshold below full mass,
+and every piece has its own source mass greater than `A p R^beta`, with
+`p` the initial parent mass. This removes the initial graph-retention factor
+from that source-only restart. Nine declarations are strictly checked.
+The conversion of physical radius `R` into a useful single direction-cap
+radius is still open; no inherited old-edge error is improved by this result.
+See [the precise restart](docs/WHOLE_PARENT_HEAVY_BUSH_RESTART.md).
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input
