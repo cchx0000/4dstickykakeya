@@ -124,6 +124,18 @@ strictly proved in Lean (four declarations). See
 [all-subspace counting](docs/SCALAR_PENCIL_PREFIX_SUBSPACE_OCCUPANCY.md),
 and [the exact scope of finite-state loops](docs/FINITE_STATE_GRAPH_FRONT_ESCAPE.md).
 
+A later handwritten proof strengthens the digit result to arbitrary
+autonomous sequences in a fixed finite alphabet and to the actual laws of
+finite-state full-input transducers. The source-retaining finite-state
+argument supersedes the loop-only proof's positive-subset limitation in
+that exact class. It keeps every component weight to the q-th power and
+uses original doubled-cell masses in the pruning recursion. The finite
+inverse theorem remains an explicit external input, not a Lean axiom.
+The [precise general-source boundary](docs/ADAPTIVE_FINITE_ALPHABET_FOCUS_BOUNDARY.md)
+and [audited proof](docs/FINITE_STATE_MEASURE_PROJECTION_ESCAPE.md) do not
+assert that original packing3 supplies few conditional phase-tail shapes.
+The general main theorem is still incomplete.
+
 ## 1. Exact collision identity
 
 Existing theorem compiled in the pinned environment. It is the algebraic input

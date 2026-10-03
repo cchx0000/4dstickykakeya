@@ -127,6 +127,17 @@ are handwritten research, not Lean endpoints. The supporting exact
 is independently formalized (four standard-only declarations). General
 selectors have not been shown to admit the required digit structure.
 
+The subsequent [finite-family argument](docs/UNIFORM_FAMILY_FLATTENING_LEMMA.md)
+keeps original doubled-cell masses through pruning. Its independently
+audited handwritten applications cover
+[arbitrary independent finite-alphabet sequences](docs/FINITE_ALPHABET_EXTREMAL_FAMILY_ESCAPE.md)
+and [actual finite-state source laws](docs/FINITE_STATE_MEASURE_PROJECTION_ESCAPE.md),
+including their positive bounded-density restrictions. These adapt an
+external finite inverse theorem; they are not Lean endpoints. An
+[adaptive carry test](docs/ADAPTIVE_FINITE_ALPHABET_FOCUS_BOUNDARY.md)
+explains why an unrestricted worst conditional family cannot replace the
+fixed original source. No required tail structure is inferred from packing3.
+
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
 latest full default build passed **185 project modules** and **8,894 Lake jobs**,

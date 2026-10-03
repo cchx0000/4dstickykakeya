@@ -3,6 +3,31 @@
 Updated: 2026-10-03 UTC. Original baseline:
 `d208ddf4544cbb9ed05e4c848a83b07985b28e26`.
 
+## Audited finite-family extensions, with unchanged Lean snapshot
+
+Five further documents contain independently audited handwritten results:
+[uniform-family flattening](../docs/UNIFORM_FAMILY_FLATTENING_LEMMA.md),
+[fixed finite-alphabet sequences](../docs/FINITE_ALPHABET_EXTREMAL_FAMILY_ESCAPE.md),
+[source-retaining finite-state laws](../docs/FINITE_STATE_MEASURE_PROJECTION_ESCAPE.md),
+[the adaptive-carry boundary](../docs/ADAPTIVE_FINITE_ALPHABET_FOCUS_BOUNDARY.md),
+and [zero-Hausdorff exceptional times](../docs/GRID_GRAPH_EXCEPTIONAL_TIME_DIMENSION.md).
+
+The flattening adaptation explicitly assumes bounded auxiliary supports
+and translated/scaled local decompositions. Its recursion uses ORIGINAL
+mass on doubled cells, not the mass restricted to selected leaves. The
+finite-state application retains all subprobability weights outside their
+normalized q-moments and does not assume equal state spectra or a minimum
+component mass. It therefore covers positive original-source restrictions
+within that exact finite-state class.
+
+The deep external input is the finite multidimensional Lq inverse theorem.
+No such theorem is declared as a Lean axiom, and no new Lean declarations
+or test claims are added in this documentation checkpoint. All 209 recorded
+Lean source hashes are unchanged; cumulative standard-only readbacks remain
+1,180. See [finite-family-research-checkpoint.json](finite-family-research-checkpoint.json).
+Original packing3 has not been shown to provide the required tail structure,
+and the main project-axiom gate remains open.
+
 ## Polynomial small-value measure and digit-model research
 
 The new elementary module proves the exact bound
