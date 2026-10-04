@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_finite_phase_field_images
+
+#print axioms FinitePhaseFieldImages.original_field_cell_phase_image
+#print axioms FinitePhaseFieldImages.original_field_phase_image
+#print axioms FinitePhaseFieldImages.phase_card_of_fixed_tangent_cell

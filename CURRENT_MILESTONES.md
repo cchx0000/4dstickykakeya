@@ -7,6 +7,247 @@ No new regularity, routing certificate, or energy bound is a final hypothesis.
 See [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md) for exact references.
 The earlier eight-item proposal is preserved in `PROVE2ME_TARGETS.md`.
 
+## 2026-10-04 original owner and polynomial checkpoint
+
+The canonical 903-module build passed 9,612 jobs with exit 0. Fifty-six new modules add 244 public proofs; all fresh imported closures use only foundational axioms. All previous 847 source hashes are unchanged. Cumulative unique checked declarations: 4,944.
+
+The actual unweighted owner set, its point profile, physical richness and inherited pairwise cap now have original-source adapters. Fixed-degree, fixed-word-length polynomial lower/upper engines and actual coefficient collision estimates are verified. Actual coarse pruning and full-direction/height consumers are included. Full A.3/A.4 and the final volume estimate remain open. A.4's epsilon2 dependence is explicitly allowed by Remark A.5; its caller order is recorded without imposing A.1's different uniformity claim. See [scope](docs/WZ_ORIGINAL_OWNER_AND_POLYNOMIAL.md) and verification/wz-original-owner-polynomial-checkpoint.json.
+
+## 2026-10-04 actual rich-core tubes and original source consumers
+
+The canonical 847-module build passed 9,556 jobs with exit 0. Forty-four new modules add 180 public proofs; all fresh imported closures use only foundational axioms. All previous 803 source hashes are unchanged. Cumulative unique checked declarations: 4,700.
+
+The actual physical-core constructor chooses its own half-chart, charges its actual slope/intercept tube cells to original I1 energy, removes low-core fibers once, and retains at least one quarter of the original graph with actual core richness in its original 32Delta pair tubes. Native nonconcentrated rows have a derived common mass ceiling and ambient gain, and the exact finite energy budget is supplied by the original graph/menu parameters. Weighted projection keeps every original point and edge; no separated unweighted quotient is asserted at this stage.
+
+The same original compact source now supplies two-sided multiplicity and honest further-restriction control. Exact coarse incidence products, occupied-slope counts, macro-height selection and the concrete padded-phase pullback preserve original labels. The scalar tensor-projection construction has its energy and coefficient vector derived from original caps. Full A4, robust weak-profile A3 and native coarse admission still require their remaining constructions. In particular, pairwise two-ends data do not imply the stronger arbitrary-tube cap of an outer A1 caller. The published-volume axiom remains unchanged. See [scope](docs/WZ_ORIGINAL_PHYSICAL_CORE.md) and verification/wz-original-physical-core-checkpoint.json.
+
+## 2026-10-04 original marked slices and fixed compact source class
+
+The canonical 803-module build passed 9,512 jobs with exit 0. Thirty-nine new modules add 146 public proofs; all fresh imported closures use only foundational axioms. All previous 764 source hashes are unchanged. Cumulative unique checked declarations: 4,520.
+
+Actual pair/normal/offset incidence counts and original two-Frostman data now construct a retained source core with proved one-Frostman control; the selected energy is derived, not supplied. Literal finite-slab input gives the native two-ends exclusion. Complete padded-source geometry, density, CW and all-scale AD estimates normalize every fixed compact source into K0. The same-compact original-line readback and exact625·64^epsilon transport preserve the original final target. The restricted K0 extremal class has its own proved near-extremizers, rather than assuming the unbounded-class infimum has uniformly compact witnesses.
+
+The quadratic scalar dimension-reduction and actual source-height selection are also verified. Complete A4, robust weak-profile A3 and the remaining matched geometric configurations remain open. In particular, native coarse admission must preserve genuine direction separation or supply a proved retained-source adapter; it is not inferred from full parameter-cell separation. The published-volume axiom remains unchanged. See [scope](docs/WZ_ORIGINAL_REGULAR_SLICE_AND_COMPACT_CLASS.md) and verification/wz-original-regular-slice-checkpoint.json.
+
+## 2026-10-04 complete original-source hairbrush slab theorem
+
+The canonical 764-module build passed 9,473 jobs with exit 0. Two new modules add eleven public proofs; all fresh imported closures use only foundational axioms. All previous 762 source hashes are unchanged. Cumulative unique checked declarations: 4,374.
+
+The complete original-P/G three-dimensional hairbrush theorem now constructs its own stem, brush, global original shadings, two-ends deletion, pencil partition and slab. Its only analytic input is the displayed original two-Frostman law; actual original graph density and tube richness supply the remaining data. The explicit conclusion is half-width 10^12 K^2 rho/(lambda nu) and lambda^10 nu^14 |P| <= 10^140 K^21 (N+1)^3 times the original slab population. A separate genuine orthonormal-frame covering proves the finite 49-rectangle adapter required by the printed A4 slab hypothesis.
+
+This completes the local equation (253) estimate, not all of A4. Subsequent actual slice/planar reduction, robust weak-profile A3, fixed-class configuration assembly and the final four-dimensional volume theorem remain open. The existing published-volume axiom is unchanged. See [scope](docs/WZ_ORIGINAL_SOURCE_HAIRBRUSH.md) and verification/wz-original-source-hairbrush-checkpoint.json.
+
+## 2026-10-04 actual geometric hairbrush and literal sources
+
+The canonical 762-module build passed 9,471 jobs with exit 0. Forty-one new modules add 180 public proofs; all fresh imported closures use only foundational axioms. All previous 721 source hashes are unchanged. Cumulative unique checked declarations: 4,363.
+
+The original dense graph now constructs a transverse stem/brush with actual original common-point witnesses. Actual tube shades have proved local counts, two-ends deletion and a finite union bound. The geometric pencil keeps whole original fibers and derives its raw-band overlap bound. These feed a real unit-normal slab and original-source mass estimate, using ambient-normalized energy. The literal source consumers also derive cover-AD alphabets, physical macro selection, dyadic coarse normalization and actual padded cubical sources, including joint union and density losses. A forward carrier metric bound comes from the original coordinates.
+
+The full original-P/G slab parameter specialization is tracked separately. Complete A4, the robust weak-profile A3 gain, native class closure, all global configuration branches and the final four-dimensional theorem remain open. The existing published-volume axiom is unchanged. See [scope](docs/WZ_ORIGINAL_GEOMETRIC_HAIRBRUSH.md) and verification/wz-original-geometric-hairbrush-checkpoint.json.
+
+## 2026-10-04 original scalar power gain and actual hairbrush data
+
+The canonical 721-module build passed 9,430 jobs with exit 0. Forty-one new modules add 215 public proofs; all fresh imported closures use only foundational axioms. All previous 680 source hashes are unchanged. Cumulative unique checked declarations: 4,183.
+
+The actual separated scalar sum/product theorem now has a positive power gain derived from original Frostman, rounded overlap, Ruzsa and gap/dense geometry. Its matched scalar profile is explicit; the robust weak-profile A3 caller is still a further argument. Actual original pairs now supply projectively separated normals, sharp slab overlap, representative tube families, two-point multiplicity and source energy, and one global heavy-cube shading. Whole-parent normalization has exact geometry, volume, CW and density readbacks. These are genuine source constructions, with no desired hairbrush count supplied as a hypothesis.
+
+The direct three-dimensional hairbrush concentration has passed an independent mathematical audit and its formal assembly is underway. The complete native transformed class, A3/robust projection gain, global configuration branches and final volume theorem remain open. The final published-volume axiom is unchanged. See [scope](docs/WZ_ORIGINAL_SUM_PRODUCT_AND_HAIRBRUSH_DATA.md) and verification/wz-original-sum-product-hairbrush-checkpoint.json.
+
+## 2026-10-04 same-source occupied ancestor AD and native small-slice geometry
+
+The canonical 680-module build passed 9,389 jobs with exit 0. Thirty-six new modules add 110 public proofs; all fresh imported closures use only foundational axioms. All previous 644 source hashes are unchanged. Cumulative unique checked declarations: 3,968.
+
+One actual original tube subset now has occupied dyadic ancestor regularity, shading density delta^zeta, CW constant delta^(-zeta), and half tube/shading retention. The endpoint keeps the same common height and states eta<=zeta/32 explicitly. Literal slope-cell injection supplies the original-label-to-occupied-cell conversion. The original nonlinear ratio-set alternative proves both gap and dense image lower bounds on actual source sets. The three-dimensional branch derives original tube Frostman counts without inverse pair-length loss, a uniform scale cutoff, actual maximizing slices and the complete small-radius source count.
+
+Physical normalization and transformed cubical admissibility, the robust original projection/A3 gain, the large-radius overlap/hairbrush branch and the final volume theorem remain open. The final published-volume axiom is unchanged. See [scope](docs/WZ_ORIGINAL_ANCESTOR_AND_3D_GEOMETRY.md) and verification/wz-original-ancestor-geometry-checkpoint.json.
+
+## 2026-10-04 original heavy slices and complete A3 input data
+
+The canonical 644-module build passed 9,353 jobs with exit 0. Thirty-three new modules add 108 public proofs; one existing A2 caller was strengthened and rechecked. All 109 fresh imported closures use only foundational axioms. The one changed prior source is identified explicitly; all other prior source hashes are unchanged. Cumulative unique checked declarations: 3,858.
+
+The actual original source now supplies length-two clipped physical rectangles with any prechosen positive shading slack, compact tube-population exponent range and genuine critical nonconcentration. The dense-query construction selects actual transverse original directions, a common original carrier and dense third-direction queries. The three-dimensional branch constructs a finite normal grid and retains original pairs in actual heavy Euclidean slabs with an explicit discarded-pair budget. The first GKZ ratio-gap step derives a nonlinear original-image bound from actual scalar Frostman and gap hypotheses.
+
+These are proved inputs and partial geometric steps. The genuine A3 gain, its parameter uniformity, native graph normalization/ancestor AD closure and the three-dimensional hairbrush remain unproved. The original final theorem and published-volume axiom are unchanged. See [scope](docs/WZ_SOURCE_GEOMETRY_AND_HEAVY_SLICES.md) and verification/wz-native-source-heavy-slices-checkpoint.json.
+
+## 2026-10-04 genuine critical nonconcentration and Cartesian projection
+
+The canonical 611-module build passed 9,320 jobs with exit 0. Eight new modules add 32 public proofs; every fresh imported closure uses only foundational axioms. All prior 603 source hashes are unchanged. Cumulative unique checked declarations: 3,750.
+
+The actual A2-to-critical-family caller now derives the critical tube fraction delta^chi on the same original physically shaded family. Its internal exponent can be made arbitrarily small before the mesh, preserving the required parameter order. The original pair mass, coarse shadings, source Frostman bounds, separation and union-cell charge are retained. The actual two-projection reduction produces fixed separated scalar alphabets and a dense graph with original witnesses, explicit third-cover transfer and derived collision energy. It supplies a real input for the proposed Bourgain reduction, not the missing expansion itself.
+
+A3's genuine small-s gain, multiscale factorization and native graph-parameter normalization/AD closure remain open. The final published-volume axiom remains. See [scope](docs/WZ_CRITICAL_FAMILY_AND_CARTESIAN_REDUCTION.md) and verification/wz-critical-family-projection-checkpoint.json.
+
+## 2026-10-04 actual original-parent refinement
+
+The canonical 603-module build passed 9,312 jobs with exit 0. Seven new modules add 44 public proofs; four existing caller conclusions were strengthened and their four public closures rechecked. All 48 imported checks use only foundational axioms. The four changed source hashes are recorded explicitly; all other previous source hashes are unchanged. Cumulative unique checked declarations: 3,718.
+
+The actual positive-extremal branch now constructs original cubical incidences, an occupied original parent/chart, the physical rescaling data and its hypotheses, and one simultaneous slice/phase refinement with an exact original-incidence subset readback and computed-loss multiplicity. Original point separation also gives the actual tube/slice occupancy. The four strengthened radial callers preserve the true retained angular richness and common normal chart, and the uniform caller allows an arbitrarily small positive internal-exponent ceiling fixed before the mesh.
+
+The native class still lacks the manuscript's fixed graph-parameter normalization and transformed dyadic AD closure; parent-count and density losses remain explicit. The genuine small-s A3 gain and final volume theorem remain open. The existing published-volume axiom is unchanged. See [scope](docs/WZ_ORIGINAL_PARENT_REFINEMENT.md) and verification/wz-original-parent-refinement-checkpoint.json.
+
+## 2026-10-04 uniform original-family cutoff and critical scale
+
+The 596-module canonical build passed 9,305 jobs with exit 0. Thirteen new modules add 71 public proofs; fresh imported checks use only foundational axioms. All previous 583 source hashes are unchanged. Cumulative checked declarations: 3,674.
+
+Original separation now pays the true logarithmic losses and forces a nonempty retained graph above the target error, with more than half the original pair mass charged through the actual menu factor. One internal exponent is fixed before the external eta and mesh, so the final native coarse-family cutoff is uniform over the allowed external eta range. Actual family pair charge and densest gain derive the critical physical query width and its legal scale range. The source A/window, angular-degree/cap, and graph-density costs now come from their original scheduled source laws.
+
+The critical tube nonconcentration caller and original scalar-terminal W population are being assembled next. The small-s A3 positive gain, full native extremal class closure and final volume theorem remain open. The existing published-volume axiom is unchanged. See [scope](docs/WZ_UNIFORM_ORIGINAL_FAMILY.md) and verification/wz-uniform-original-family-checkpoint.json.
+
+## 2026-10-04 original-input coarse tube family
+
+Fourteen new modules add 48 public proofs. The canonical 583-module build passed all 9,292 jobs with exit 0; every fresh proper-import closure uses only the standard foundational axioms. All prior 569 source hashes are unchanged. Cumulative checked declarations: 3,603.
+
+The new single original-input caller constructs actual separated coarse physical shadings, their original pair-mass lower bound, common occupancy, derived box Frostman profile, external-strip counts and exact original-point union charge. Actual parameter-cell fiber squares pay for coarse tube-count selection. The original densest-scale inequality also gives a power-small physical width at a cutoff chosen before the source, making the allowable width interval nonvacuous. The scheduled A/window and B/height constructions now use the literal original source scales. Robust Kaufman projection has the exact dense-query quantifiers, but still only its valid elementary exponent.
+
+A.3's small-exponent positive gain, the full multiscale radial theorem, matched native configuration closure and the final volume theorem remain open. The published-volume axiom remains unchanged. See [scope](docs/WZ_NATIVE_ORIGINAL_COARSE_FAMILY.md) and verification/wz-native-coarse-family-checkpoint.json.
+
+## 2026-10-04 original-source geometry and finite growth
+
+The 569-module default build passed all 9,278 jobs with exit 0. The 43 new modules contribute 152 public proofs; every fresh imported closure uses only the standard foundational axioms. All previous 526 source hashes are unchanged. Cumulative checked declarations: 3,555.
+
+The original graph now supplies actual physical shaded rectangles, weighted color retention of whole original pair fibers, essential separation, and an arbitrary-position external-strip cap charge. The original-G BSG endpoint now continues through literal common C fibers, separated A collisions, scalar multiplicity and physical directional double counting. Its growth inequality still explicitly needs the original radial cap. The native finite Kakeya class now has actual arbitrarily small near-extremizers and exact common-mesh cell incidence identities, with exponent zero equivalent to the existing finite volume target.
+
+The all-scale radial/Furstenberg gain in A.3 remains unproved. Native class closure under physical thickening/rescaling, full source envelopes, the final ABC contradiction and final volume theorem are still open. The existing published-volume axiom is unchanged. See [scope](docs/WZ_ORIGINAL_SOURCE_GROWTH_CONTINUATION.md) and verification/wz-original-source-growth-checkpoint.json for exact checks.
+
+## 2026-10-04 complete canonical 526-module continuation
+
+Forty new modules add 159 public proofs. The 526-module default build passed all 9,235 jobs with exit0, and a fresh proper-import readback checked all159 public closures against the foundational axiom allowlist. The earlier486 source hashes are unchanged. Cumulative checked declarations:3,403.
+
+The canonical continuation includes original Euclidean cover-AD inputs and scalar cover-AD outputs for the native planar alignment scope; whole-original-fiber slice population homogeneity; the original-input radial Step2 with all dyadic exclusions and actual off-root mass; actual angular class populations and same-final-graph pruning; bounded original angle transfer and literal two-hop pair families; the actual-G coupled-vector Eq169 BSG reduction; and native dyadic/quarter-scale ABC interfaces preserving the original sets and graph.
+
+This completes these finite source constructions and their quantitative adapters. It does not prove A.3's robust planar projection/Furstenberg gain, the full ABC expansion, the matched extremal configuration inputs, or the final four-dimensional theorem. The published-volume project axiom remains. See [scope](docs/WZ_NATIVE_RADIAL_ABC_CONTINUATION.md) and `wz-native-continuation-checkpoint.json` for exact source hashes, declarations, commands and logs.
+
+## 2026-10-04 native planar alignment and actual source adapters
+
+The native planar alignment construction now closes its original-source parameter budget and all literal finite fields: the retained set is an actual subset, its local Euclidean patches are normalized by actual affine maps, the dyadic scales have a positive power gap, and separated nearly-aligned witnesses have the stated scalar/ambient profiles and all-direction occupied-grid tube bounds. Its scope is the native quarter-square planar statement with proved positive chi; it does not assert the full arbitrary-dimensional statement or the printed explicit chi formula.
+
+The actual source adapters now preserve a sparse original incidence graph through projection, construct original BC height sections, retain the literal original angle alphabet, and produce actual unit-box ABC data with relative Frostman/line bounds and the old-target cover. The original radial caller constructs its densest graph and derives the annular bad-row bound from disjoint original point supports. Fine-to-coarse shading preparation constructs the common occupancy classes and separated original representatives; original points pay for the union of their coarse cells.
+
+The 440-module checkpoint adds 194 public proofs and passed 9,149 default-build jobs, separate strict checks and proper-import readbacks. The subsequent 486-module checkpoint adds 176 public proofs and passed 9,195 jobs with source-enforced autoImplicit=false and warningAsError=true, followed by fresh proper-import readbacks. Every new closure has only the standard foundational axioms. All earlier source hashes are unchanged. The cumulative checked-declaration count is 3,244.
+
+The first 486 Lake execution completed successfully, but its outer shell returned exit2 because the polling script was edited while that shell was live. The exact committed script was restored and the same full command passed from cache with exit0. Both logs are retained; the final evidence uses the successful recovery, not the failed wrapper result. No active build script was changed afterward.
+
+The final theorem still depends on the preexisting published-volume axiom. The missing A.3 robust planar projection/Furstenberg gain, full ABC growth and same-source extremal configuration assembly are not replaced by assumptions. See [alignment scope](docs/WZ_NATIVE_PLANAR_ALIGNMENT.md), [source adapters](docs/WZ_ORIGINAL_SOURCE_ADAPTERS.md), [A.3 dependency audit](docs/WZ_A3_SMALL_S_ENGINE_DEPENDENCY_AUDIT.md), and the exact checkpoint JSON files in verification.
+
+## 2026-10-04 finite original-label plane projection
+
+A concrete finite family of surjective R3-to-R2 linear maps now supplies one
+common projection of original A/B labels. Retained actual projected points
+are separated; ball counts hold at every radius; B line nonconcentration
+comes from original close-pair and cross-tube counts. The latter cross-tube
+input is derived from original height interval and affine-deviation bounds,
+including near-vertical secants. Whole-fiber perturbations have an explicit
+width cost.
+
+Sixteen modules add 105 public strict foundational-only proofs. The 402-module
+full build passes 9,111 jobs, with all 386 prior source hashes unchanged and
+2,874 cumulative checks. See [scope](docs/WZ_FINITE_PLANE_PROJECTION.md).
+
+This population theorem alone does not preserve a sparse incidence graph
+under independent A/B thinning. That missing graph-aware projection/coarsening caller is now supplied by the newer source-adapter checkpoint above. No completed Lemma21.1, Proposition17.4 or final
+volume theorem is claimed; the final project axiom remains unchanged.
+
+## 2026-10-04 original phase windows and energy bins
+
+The original W incidence law now constructs a dense graph in one actual
+maximal grain window. Every edge retains a genuine original witness, the
+correct signed phase relation and its explicit rounding error. The same
+expanded phase set has a proved population bound from the original field.
+The working-scale field hypothesis remains explicit. This is not yet the
+reduced B,C graph or the complete Section21 argument.
+
+Original labelled collision energy now yields a whole-fiber bin without
+replacing the old source labels; its exact energy and label-lift retention
+are proved. The native radial graph also accepts fixed physical dilations
+and the original eta-Frostman input, with a uniform mesh threshold.
+
+Twenty-two modules add 66 public proved declarations, including previously
+unlisted elementary helpers. The 386-module default build passes 9,095 jobs;
+all 364 prior module hashes are unchanged. Cumulative standard-only checks:
+2,769. See the [phase construction](docs/WZ_ORIGINAL_PHASE_WINDOW_GRAPH.md),
+[energy bins](docs/WZ_ORIGINAL_ENERGY_BIN_CALLER.md), and
+[dilated radial caller](docs/WZ_NATIVE_A2_FIXED_DILATION.md).
+
+The final theorem retains its preexisting project axiom. Full native
+alignment, all configuration branches and Appendix A.3 remain unfinished.
+
+## 2026-10-04 native weak radial projection checkpoint
+
+The original finite Euclidean Frostman profile and physical unit-tube
+nonconcentration now construct a graph of original point pairs with the
+native high retention rate. Each retained distinct pair has the required
+original physical thin-tube bound. The positive mesh threshold is uniform
+over the stated small chi range. No representative-family, overlap,
+ball-cap or output-graph certificate is an input.
+
+Sixteen modules add 48 strict foundational-only proved declarations. The
+full 364-module build passes 9,073 jobs, with all prior 348 source hashes
+unchanged and 2,703 cumulative checks. See
+[scope](docs/WZ_NATIVE_A2_FINITE_RICH_PAIR_TUBES.md). The native range here is
+0 < epsilon1 < 1/8. The fixed-dilation A.1 adapter and the independent A.3
+small-exponent gain are separate from this checkpoint.
+
+The final four-dimensional theorem and its remaining project axiom are
+unchanged. These checked auxiliary results do not complete the volume proof.
+
+## 2026-10-03 original-family CW and planar additive checkpoint
+
+The native scalar and planar CW concentration callers now derive the actual
+root-box bound from the original global convex-set law. Original endpoint
+selection, ancestor maps/fibers, full carrier saturation, convexity and actual
+volume are proved internally. The genuine Euclidean planar additive endpoint
+also constructs original subsets from physical near-sum energy, and the
+signed original phase relation retains its anisotropic normalization.
+
+Twenty-two modules add 117 strict foundational-only proved declarations.
+The full 348-module build passes 9,057 jobs, for 2,655 cumulative checks;
+all prior 326 source hashes are unchanged. See
+[scope](docs/WZ_NATIVE_CW_AND_PLANAR_BSG.md). Definitions audited alongside
+these theorems are not counted as new proofs.
+
+The complete volume theorem remains unfinished. In particular, phase-graph
+population/projection must be supplied from original fields, and the native
+small-s radial/Furstenberg gain remains a deep input. The separately labelled
+handwritten A.3 endpoint/crossing audit is not Lean-certified. The original
+final statement and existing WZ axiom dependency are unchanged.
+
+## 2026-10-03 original-set asymmetric BSG checkpoint
+
+The native dyadic asymmetric BSG theorem is now proved from actual bounded
+separated real X/Y and their closed near-difference energy. The chain,
+original subsets, all iterated floor covers and the uniform delta/nu loss
+absorption are constructed internally. The mesh threshold precedes nu and
+all sum multiplicities. No cardinality-power balance assumption is needed,
+so Claim13.8's preliminary bound is unnecessary solely for entering this BSG
+step. Its later dense-cycle/radial role remains separate.
+
+Twenty-four modules add 156 strict foundational-only checks. The full
+326-module default build passes 9,035 jobs; cumulative checks are 2,538.
+All prior 302 source hashes are unchanged. See
+[scope](docs/WZ_ORIGINAL_ASYMMETRIC_BSG.md). This is the sufficiently fine
+dyadic, `0 < nu <= 1` native statement; no all-scale/all-nu extension is claimed.
+The final theorem's volume axiom remains, and the three-configuration ledger
+still applies. The vector-valued Section21 use needs its own adapter.
+
+## 2026-10-03 physical original-source construction checkpoint
+
+Actual original parent cells and contact spines now supply the native
+fractional refinement and angular selection. The separated original-source
+residue and real-radius stopped-profile transfer are checked. Actual original
+W incidences now construct the core, successors, fixed-height representatives,
+physical displacement and scalar/planar transverse growth; retained-height
+normalization follows from the literal mesh. Fourteen modules add 140 strict
+foundational-only checks. The full 302-module build passes 9,011 jobs, with
+2,382 cumulative checks and all previous 288 source hashes unchanged.
+See [scope](docs/WZ_PHYSICAL_NATIVE_CONSTRUCTION.md).
+
+The final theorem still depends on the existing WZ volume axiom. The final
+native alignment caller, original ancestor/CW concentration, and the full
+configuration branches remain open. The volume proof requires all of
+Propositions 17.3, 17.4 and 17.5; Appendix A.3 and Section22's radial input
+remain substantive geometric obligations. The
+[branch ledger](docs/WZ_FOUR_DIMENSIONAL_BRANCH_LEDGER.md) gives exact scope.
+
 ## 2026-10-03 actual epochs and finite Kaufman checkpoint
 
 Original AD now supplies the actual stopped selector, nested profile queries,
@@ -22,7 +263,8 @@ prior 274 source hashes unchanged. See [scope](docs/WZ_ACTUAL_EPOCHS_AND_FINITE_
 The original final theorem remains unchanged and still has the preexisting
 WZ volume-axiom dependency. Completing this Kaufman input does not prove the
 radial/Furstenberg improvement or the later asymmetric additive iteration.
-The native parent/contact and physical-growth callers are still being composed.
+The native parent/contact and physical-growth callers are now checked in
+the newer checkpoint above; their final volume assembly remains open.
 
 ## 2026-10-03 native refinement and growth checkpoint
 
@@ -450,11 +692,11 @@ to the original compact front. The current legacy route still uses
 it does not complete the requested internal proof.
 
 Completion requires both an unchanged final theorem statement and transitive
-kernel readback with no project-specific axioms or `sorryAx`. The latest full
+kernel readback with no project-specific axioms or `sorryAx`. At that historical checkpoint, the full
 default build passed all **185** project modules and **8,894** Lake jobs,
 including the line-hairbrush escape, simultaneous all-slack reference source,
 rooted recurrence, and all physical bush-cover modules;
-there are now **961** checked new declarations with only standard logical
+that checkpoint recorded **961** checked new declarations with only standard logical
 axioms or no axioms. The actual residual-cycle adapter derives all four contact
 errors on actual marked lines and preserves the inherited root time. The
 latest final readback still reports the preexisting WZ project axiom in the

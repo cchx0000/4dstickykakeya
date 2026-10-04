@@ -1,0 +1,910 @@
+{
+  "generated_at_utc": "2026-10-04T00:59:44.997083+00:00",
+  "base_tree": "ad6582d810ee27d0226e6ddcaa58fbcfca4676aa",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_original_core_menu_density.lean": "dc9fecc7d8a1df7714529181fde082e6a45404fed46dc7c692c34ccba2efe9a5",
+    "Theorems/Thm_StickyKakeya4_finite_phase_field_images.lean": "3942c8f6c05f76cad8a3b971cdf2a1e54e6efa775ee567053b039081e2327713",
+    "Theorems/Thm_StickyKakeya4_original_w_grain_drift.lean": "211eb4edfe94caa434237d5c17fc12492d623010d458ccb0c958f39fdbff94a4",
+    "Theorems/Thm_StickyKakeya4_original_phase_cell_population.lean": "4969251e6257f97d68b49f124aee3da7c2f817b681ef6e3959795af8f33a9f3a",
+    "Theorems/Thm_StickyKakeya4_original_phase_grid_population.lean": "331079820435a3f87460e336b0884b4b04710a06a3c17859baf6f2d38f95505d",
+    "Theorems/Thm_StickyKakeya4_original_phase_window_graph.lean": "392d34ecab03a326886326f21f827b197450d11b900c4b5d84fd0305c4160bc9",
+    "Theorems/Thm_StickyKakeya4_native_original_phase_window_graph.lean": "a9523f9e68e0ab654b07455337a8f8a0f58cb1c34937af79f6cf57d60151a0d4",
+    "Theorems/Thm_StickyKakeya4_native_original_phase_window_population.lean": "bc6d2f263a332fc6ec33340db764eddd8ee513909f9706944fdd11e4b87db460",
+    "Theorems/Thm_StickyKakeya4_native_original_phase_window_edges.lean": "d527b337256c5cb74e9ca3783ead855c230db285a204e87d60255d6ce4f37d3a",
+    "Theorems/Thm_StickyKakeya4_original_phase_grid_error.lean": "812d0ba66a8516fb500634f551fcee77d52490a87f7aa5cb5f6201fdb3ca2800",
+    "Theorems/Thm_StickyKakeya4_original_phase_window_density.lean": "9d83dd1533845db243470bf0ecf937e9f60f9aa5e368c5ca307b95abbb9fd846",
+    "Theorems/Thm_StickyKakeya4_native_original_phase_grid_edges.lean": "12b5cb1f28ffcd3d5145d5b84b2f70944501c468751ff0ebefc782988ef6beb4",
+    "Theorems/Thm_StickyKakeya4_heavy_energy_bin_selection.lean": "d52a0e2cd8e3a718b35ed7c28496a1440e7c71e5cd7e1d3d952216720f78f407",
+    "Theorems/Thm_StickyKakeya4_original_fiber_energy_collapse.lean": "dab761e9e9d8c7e4fb3f7aca36ede322ade13795403ba11a5dd328f087dd53a5",
+    "Theorems/Thm_StickyKakeya4_energy_preserving_original_fiber_bin.lean": "8bc6f7a8f3e1b35189673a8a210062a3913f8af454dfe7535350dd255bf7fa57",
+    "Theorems/Thm_StickyKakeya4_labelled_real_energy_bin.lean": "30bab06d596de250571fb7e2b80fd599682f0355dfc0b43381a631319ee9962d",
+    "Theorems/Thm_StickyKakeya4_integer_bin_real_near_energy.lean": "a2a997eacbf809d5d42fae063fa962454dc7ca155809906ee3f227d3c2fbc522",
+    "Theorems/Thm_StickyKakeya4_original_real_energy_bin_caller.lean": "deb8839e647f6fd44411c00e1558de844c3c431999fc5b070f8b8ce83f76cff4",
+    "Theorems/Thm_StickyKakeya4_original_bin_label_lift.lean": "80d425e867a5355abcd83231624937bfb9f6975e3bb2f6b4c540d401b64df079",
+    "Theorems/Thm_StickyKakeya4_native_a2_dilated_parameters.lean": "55caae78b8f35250d287bfe9c3298dacfe166119ebe3a8ed1990d4c586984263",
+    "Theorems/Thm_StickyKakeya4_native_a2_dilated_caller.lean": "079ddbf4904d0a84b493cc7ef0b39912d67c6b85cce2beef5384ae7e892ab365",
+    "Theorems/Thm_StickyKakeya4_native_a1_initial_radial_graph.lean": "786a5ad48b126e3c15637a3e6ba41ce708c067d7def3fb5675ff3be3ab7f82c0"
+  },
+  "new_modules": [
+    {
+      "short": "OriginalCoreMenuDensity",
+      "slug": "original_core_menu_density",
+      "source": "Theorems/Thm_StickyKakeya4_original_core_menu_density.lean",
+      "source_sha256": "dc9fecc7d8a1df7714529181fde082e6a45404fed46dc7c692c34ccba2efe9a5",
+      "readback": "verification/OriginalCoreMenuDensityReadback.lean",
+      "declarations": [
+        "OriginalCoreMenuDensity.all_menus_card_bound",
+        "OriginalCoreMenuDensity.exists_original_menu_rich_core",
+        "OriginalCoreMenuDensity.normalize_phase_menu_degree"
+      ]
+    },
+    {
+      "short": "FinitePhaseFieldImages",
+      "slug": "finite_phase_field_images",
+      "source": "Theorems/Thm_StickyKakeya4_finite_phase_field_images.lean",
+      "source_sha256": "3942c8f6c05f76cad8a3b971cdf2a1e54e6efa775ee567053b039081e2327713",
+      "readback": "verification/FinitePhaseFieldImagesReadback.lean",
+      "declarations": [
+        "FinitePhaseFieldImages.original_field_cell_phase_image",
+        "FinitePhaseFieldImages.original_field_phase_image",
+        "FinitePhaseFieldImages.phase_card_of_fixed_tangent_cell"
+      ]
+    },
+    {
+      "short": "OriginalWGrainDrift",
+      "slug": "original_w_grain_drift",
+      "source": "Theorems/Thm_StickyKakeya4_original_w_grain_drift.lean",
+      "source_sha256": "211eb4edfe94caa434237d5c17fc12492d623010d458ccb0c958f39fdbff94a4",
+      "readback": "verification/OriginalWGrainDriftReadback.lean",
+      "declarations": [
+        "OriginalWGrainDrift.original_witness_grain_drift",
+        "OriginalWGrainDrift.scalar_constructed_successor_grain_drift"
+      ]
+    },
+    {
+      "short": "OriginalPhaseCellPopulation",
+      "slug": "original_phase_cell_population",
+      "source": "Theorems/Thm_StickyKakeya4_original_phase_cell_population.lean",
+      "source_sha256": "4969251e6257f97d68b49f124aee3da7c2f817b681ef6e3959795af8f33a9f3a",
+      "readback": "verification/OriginalPhaseCellPopulationReadback.lean",
+      "declarations": [
+        "OriginalPhaseCellPopulation.physical_cells_in_rectangle",
+        "OriginalPhaseCellPopulation.same_x_and_grain_window_physical_cells",
+        "OriginalPhaseCellPopulation.original_phase_cells_over_x_cell",
+        "OriginalPhaseCellPopulation.phase_cap_of_working_scale_ratio"
+      ]
+    },
+    {
+      "short": "OriginalPhaseGridPopulation",
+      "slug": "original_phase_grid_population",
+      "source": "Theorems/Thm_StickyKakeya4_original_phase_grid_population.lean",
+      "source_sha256": "331079820435a3f87460e336b0884b4b04710a06a3c17859baf6f2d38f95505d",
+      "readback": "verification/OriginalPhaseGridPopulationReadback.lean",
+      "declarations": [
+        "OriginalPhaseGridPopulation.gridPoint_injective",
+        "OriginalPhaseGridPopulation.first_interval_population",
+        "OriginalPhaseGridPopulation.grid_ball_population",
+        "OriginalPhaseGridPopulation.grid_ball_population_large_radius",
+        "OriginalPhaseGridPopulation.phase_filter_first_image",
+        "OriginalPhaseGridPopulation.original_phase_first_fiber_cap",
+        "OriginalPhaseGridPopulation.original_phase_ball_population"
+      ]
+    },
+    {
+      "short": "OriginalPhaseWindowGraph",
+      "slug": "original_phase_window_graph",
+      "source": "Theorems/Thm_StickyKakeya4_original_phase_window_graph.lean",
+      "source_sha256": "392d34ecab03a326886326f21f827b197450d11b900c4b5d84fd0305c4160bc9",
+      "readback": "verification/OriginalPhaseWindowGraphReadback.lean",
+      "declarations": [
+        "OriginalPhaseWindowGraph.neighborCells_card",
+        "OriginalPhaseWindowGraph.self_mem_neighborCells",
+        "OriginalPhaseWindowGraph.grainCell_neighbor",
+        "OriginalPhaseWindowGraph.mem_menuGraph",
+        "OriginalPhaseWindowGraph.menuGraph_card",
+        "OriginalPhaseWindowGraph.exists_maximal_occupied",
+        "OriginalPhaseWindowGraph.exists_maximal_window_graph"
+      ]
+    },
+    {
+      "short": "NativeOriginalPhaseWindowGraph",
+      "slug": "native_original_phase_window_graph",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_phase_window_graph.lean",
+      "source_sha256": "a9523f9e68e0ab654b07455337a8f8a0f58cb1c34937af79f6cf57d60151a0d4",
+      "readback": "verification/NativeOriginalPhaseWindowGraphReadback.lean",
+      "declarations": [
+        "NativeOriginalPhaseWindowGraph.exists_original_phase_window_graph"
+      ]
+    },
+    {
+      "short": "NativeOriginalPhaseWindowPopulation",
+      "slug": "native_original_phase_window_population",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_phase_window_population.lean",
+      "source_sha256": "bc6d2f263a332fc6ec33340db764eddd8ee513909f9706944fdd11e4b87db460",
+      "readback": "verification/NativeOriginalPhaseWindowPopulationReadback.lean",
+      "declarations": [
+        "NativeOriginalPhaseWindowPopulation.expanded_eq_phase_image",
+        "NativeOriginalPhaseWindowPopulation.neighbor_grain_window",
+        "NativeOriginalPhaseWindowPopulation.original_enlarged_phase_ball_population"
+      ]
+    },
+    {
+      "short": "NativeOriginalPhaseWindowEdges",
+      "slug": "native_original_phase_window_edges",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_phase_window_edges.lean",
+      "source_sha256": "d527b337256c5cb74e9ca3783ead855c230db285a204e87d60255d6ce4f37d3a",
+      "readback": "verification/NativeOriginalPhaseWindowEdgesReadback.lean",
+      "declarations": [
+        "NativeOriginalPhaseWindowEdges.graph_edge_original_witness",
+        "NativeOriginalPhaseWindowEdges.graph_edge_normalized_phase_error"
+      ]
+    },
+    {
+      "short": "OriginalPhaseGridError",
+      "slug": "original_phase_grid_error",
+      "source": "Theorems/Thm_StickyKakeya4_original_phase_grid_error.lean",
+      "source_sha256": "812d0ba66a8516fb500634f551fcee77d52490a87f7aa5cb5f6201fdb3ca2800",
+      "readback": "verification/OriginalPhaseGridErrorReadback.lean",
+      "declarations": [
+        "OriginalPhaseGridError.scalar_floor_error",
+        "OriginalPhaseGridError.grid_floor_error",
+        "OriginalPhaseGridError.original_phase_label_identity",
+        "OriginalPhaseGridError.original_phase_grid_error",
+        "OriginalPhaseGridError.rounded_phase_relation"
+      ]
+    },
+    {
+      "short": "OriginalPhaseWindowDensity",
+      "slug": "original_phase_window_density",
+      "source": "Theorems/Thm_StickyKakeya4_original_phase_window_density.lean",
+      "source_sha256": "9d83dd1533845db243470bf0ecf937e9f60f9aa5e368c5ca307b95abbb9fd846",
+      "readback": "verification/OriginalPhaseWindowDensityReadback.lean",
+      "declarations": [
+        "OriginalPhaseWindowDensity.window_graph_relative_density",
+        "OriginalPhaseWindowDensity.original_alphabet_degree_lower"
+      ]
+    },
+    {
+      "short": "NativeOriginalPhaseGridEdges",
+      "slug": "native_original_phase_grid_edges",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_phase_grid_edges.lean",
+      "source_sha256": "12b5cb1f28ffcd3d5145d5b84b2f70944501c468751ff0ebefc782988ef6beb4",
+      "readback": "verification/NativeOriginalPhaseGridEdgesReadback.lean",
+      "declarations": [
+        "NativeOriginalPhaseGridEdges.graph_edge_grid_phase_error"
+      ]
+    },
+    {
+      "short": "HeavyEnergyBinSelection",
+      "slug": "heavy_energy_bin_selection",
+      "source": "Theorems/Thm_StickyKakeya4_heavy_energy_bin_selection.lean",
+      "source_sha256": "d52a0e2cd8e3a718b35ed7c28496a1440e7c71e5cd7e1d3d952216720f78f407",
+      "readback": "verification/HeavyEnergyBinSelectionReadback.lean",
+      "declarations": [
+        "HeavyEnergyBinSelection.exists_heavy_energy_index",
+        "HeavyEnergyBinSelection.product_partition_piece",
+        "HeavyEnergyBinSelection.exists_original_energy_bin"
+      ]
+    },
+    {
+      "short": "OriginalFiberEnergyCollapse",
+      "slug": "original_fiber_energy_collapse",
+      "source": "Theorems/Thm_StickyKakeya4_original_fiber_energy_collapse.lean",
+      "source_sha256": "dab761e9e9d8c7e4fb3f7aca36ede322ade13795403ba11a5dd328f087dd53a5",
+      "readback": "verification/OriginalFiberEnergyCollapseReadback.lean",
+      "declarations": [
+        "OriginalFiberEnergyCollapse.translated_histogram_card",
+        "OriginalFiberEnergyCollapse.original_filter_fiber_bound",
+        "OriginalFiberEnergyCollapse.translated_histogram_bound",
+        "OriginalFiberEnergyCollapse.translated_output_image",
+        "OriginalFiberEnergyCollapse.labelled_sum_energy_le"
+      ]
+    },
+    {
+      "short": "EnergyPreservingOriginalFiberBin",
+      "slug": "energy_preserving_original_fiber_bin",
+      "source": "Theorems/Thm_StickyKakeya4_energy_preserving_original_fiber_bin.lean",
+      "source_sha256": "8bc6f7a8f3e1b35189673a8a210062a3913f8af454dfe7535350dd255bf7fa57",
+      "readback": "verification/EnergyPreservingOriginalFiberBinReadback.lean",
+      "declarations": [
+        "EnergyPreservingOriginalFiberBin.exists_energy_preserving_bin"
+      ]
+    },
+    {
+      "short": "LabelledRealEnergyBin",
+      "slug": "labelled_real_energy_bin",
+      "source": "Theorems/Thm_StickyKakeya4_labelled_real_energy_bin.lean",
+      "source_sha256": "30bab06d596de250571fb7e2b80fd599682f0355dfc0b43381a631319ee9962d",
+      "readback": "verification/LabelledRealEnergyBinReadback.lean",
+      "declarations": [
+        "LabelledRealEnergyBin.labelled_near_energy_le_five",
+        "LabelledRealEnergyBin.labelled_near_energy_cap",
+        "LabelledRealEnergyBin.exists_real_energy_preserving_bin"
+      ]
+    },
+    {
+      "short": "IntegerBinRealNearEnergy",
+      "slug": "integer_bin_real_near_energy",
+      "source": "Theorems/Thm_StickyKakeya4_integer_bin_real_near_energy.lean",
+      "source_sha256": "a2a997eacbf809d5d42fae063fa962454dc7ca155809906ee3f227d3c2fbc522",
+      "readback": "verification/IntegerBinRealNearEnergyReadback.lean",
+      "declarations": [
+        "IntegerBinRealNearEnergy.real_grid_injective",
+        "IntegerBinRealNearEnergy.real_grid_card",
+        "IntegerBinRealNearEnergy.real_grid_separated",
+        "IntegerBinRealNearEnergy.integer_energy_le_original_near"
+      ]
+    },
+    {
+      "short": "OriginalRealEnergyBinCaller",
+      "slug": "original_real_energy_bin_caller",
+      "source": "Theorems/Thm_StickyKakeya4_original_real_energy_bin_caller.lean",
+      "source_sha256": "deb8839e647f6fd44411c00e1558de844c3c431999fc5b070f8b8ce83f76cff4",
+      "readback": "verification/OriginalRealEnergyBinCallerReadback.lean",
+      "declarations": [
+        "OriginalRealEnergyBinCaller.exists_original_real_bsg_bin"
+      ]
+    },
+    {
+      "short": "OriginalBinLabelLift",
+      "slug": "original_bin_label_lift",
+      "source": "Theorems/Thm_StickyKakeya4_original_bin_label_lift.lean",
+      "source_sha256": "80d425e867a5355abcd83231624937bfb9f6975e3bb2f6b4c540d401b64df079",
+      "readback": "verification/OriginalBinLabelLiftReadback.lean",
+      "declarations": [
+        "OriginalBinLabelLift.original_bin_lift",
+        "OriginalBinLabelLift.original_bin_lift_density"
+      ]
+    },
+    {
+      "short": "NativeA2DilatedParameters",
+      "slug": "native_a2_dilated_parameters",
+      "source": "Theorems/Thm_StickyKakeya4_native_a2_dilated_parameters.lean",
+      "source_sha256": "55caae78b8f35250d287bfe9c3298dacfe166119ebe3a8ed1990d4c586984263",
+      "readback": "verification/NativeA2DilatedParametersReadback.lean",
+      "declarations": [
+        "NativeA2DilatedParameters.dilated_geometric_scales",
+        "NativeA2DilatedParameters.transverse_constant_power_identity",
+        "NativeA2DilatedParameters.dilated_power_budget",
+        "NativeA2DilatedParameters.exists_dilated_native_threshold"
+      ]
+    },
+    {
+      "short": "NativeA2DilatedCaller",
+      "slug": "native_a2_dilated_caller",
+      "source": "Theorems/Thm_StickyKakeya4_native_a2_dilated_caller.lean",
+      "source_sha256": "079ddbf4904d0a84b493cc7ef0b39912d67c6b85cce2beef5384ae7e892ab365",
+      "readback": "verification/NativeA2DilatedCallerReadback.lean",
+      "declarations": [
+        "NativeA2DilatedCaller.dilated_native_weak_radial_graph",
+        "NativeA2DilatedCaller.exists_uniform_dilated_native_weak_radial_graph_threshold"
+      ]
+    },
+    {
+      "short": "NativeA1InitialRadialGraph",
+      "slug": "native_a1_initial_radial_graph",
+      "source": "Theorems/Thm_StickyKakeya4_native_a1_initial_radial_graph.lean",
+      "source_sha256": "786a5ad48b126e3c15637a3e6ba41ce708c067d7def3fb5675ff3be3ab7f82c0",
+      "readback": "verification/NativeA1InitialRadialGraphReadback.lean",
+      "declarations": [
+        "NativeA1InitialRadialGraph.exists_original_eta_dilated_radial_threshold"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "OriginalCoreMenuDensity.all_menus_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreMenuDensity.exists_original_menu_rich_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreMenuDensity.normalize_phase_menu_degree",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "FinitePhaseFieldImages.original_field_cell_phase_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "FinitePhaseFieldImages.original_field_phase_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "FinitePhaseFieldImages.phase_card_of_fixed_tangent_cell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalWGrainDrift.original_witness_grain_drift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalWGrainDrift.scalar_constructed_successor_grain_drift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseCellPopulation.physical_cells_in_rectangle",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseCellPopulation.same_x_and_grain_window_physical_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseCellPopulation.original_phase_cells_over_x_cell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseCellPopulation.phase_cap_of_working_scale_ratio",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridPopulation.gridPoint_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridPopulation.first_interval_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridPopulation.grid_ball_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridPopulation.grid_ball_population_large_radius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridPopulation.phase_filter_first_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridPopulation.original_phase_first_fiber_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridPopulation.original_phase_ball_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseWindowGraph.neighborCells_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseWindowGraph.self_mem_neighborCells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseWindowGraph.grainCell_neighbor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseWindowGraph.mem_menuGraph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseWindowGraph.menuGraph_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseWindowGraph.exists_maximal_occupied",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseWindowGraph.exists_maximal_window_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseWindowGraph.exists_original_phase_window_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseWindowPopulation.expanded_eq_phase_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseWindowPopulation.neighbor_grain_window",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseWindowPopulation.original_enlarged_phase_ball_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseWindowEdges.graph_edge_original_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseWindowEdges.graph_edge_normalized_phase_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridError.scalar_floor_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridError.grid_floor_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridError.original_phase_label_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridError.original_phase_grid_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseGridError.rounded_phase_relation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseWindowDensity.window_graph_relative_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhaseWindowDensity.original_alphabet_degree_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseGridEdges.graph_edge_grid_phase_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "HeavyEnergyBinSelection.exists_heavy_energy_index",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "HeavyEnergyBinSelection.product_partition_piece",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "HeavyEnergyBinSelection.exists_original_energy_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalFiberEnergyCollapse.translated_histogram_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalFiberEnergyCollapse.original_filter_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalFiberEnergyCollapse.translated_histogram_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalFiberEnergyCollapse.translated_output_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalFiberEnergyCollapse.labelled_sum_energy_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "EnergyPreservingOriginalFiberBin.exists_energy_preserving_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "LabelledRealEnergyBin.labelled_near_energy_le_five",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "LabelledRealEnergyBin.labelled_near_energy_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "LabelledRealEnergyBin.exists_real_energy_preserving_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "IntegerBinRealNearEnergy.real_grid_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "IntegerBinRealNearEnergy.real_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "IntegerBinRealNearEnergy.real_grid_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "IntegerBinRealNearEnergy.integer_energy_le_original_near",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalRealEnergyBinCaller.exists_original_real_bsg_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalBinLabelLift.original_bin_lift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "OriginalBinLabelLift.original_bin_lift_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeA2DilatedParameters.dilated_geometric_scales",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeA2DilatedParameters.transverse_constant_power_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeA2DilatedParameters.dilated_power_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeA2DilatedParameters.exists_dilated_native_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeA2DilatedCaller.dilated_native_weak_radial_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeA2DilatedCaller.exists_uniform_dilated_native_weak_radial_graph_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    },
+    {
+      "declaration": "NativeA1InitialRadialGraph.exists_original_eta_dilated_radial_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-phase-bins-axioms.log"
+    }
+  ],
+  "declaration_count": 66,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_readback": "verification/WZPhaseBinsReadback.lean",
+  "shared_import_log": "verification/wz-phase-bins-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9095,
+    "log": "verification/wz386-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_tree": "ad6582d810ee27d0226e6ddcaa58fbcfca4676aa",
+    "module_count": 386,
+    "source_snapshot": "verification/wz386-source-snapshot.json",
+    "scope": "Full default build of all 386 modules; all previous 364 source hashes unchanged"
+  },
+  "prior_364_module_hashes_unchanged": true,
+  "current_module_count": 386,
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "scope_note": "docs/WZ_ORIGINAL_PHASE_WINDOW_GRAPH.md"
+}

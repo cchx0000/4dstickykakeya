@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_original_carrier_image_count
+
+#print axioms OriginalCarrierImageCount.occupied_ancestors_mem_reference
+#print axioms OriginalCarrierImageCount.labelwise_containment_covers_full_saturation
+#print axioms OriginalCarrierImageCount.original_realizer_carrier_CW_count

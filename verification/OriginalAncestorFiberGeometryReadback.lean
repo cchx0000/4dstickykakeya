@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_original_ancestor_fiber_geometry
+
+#print axioms OriginalAncestorFiberGeometry.occupied_ancestor_has_original_realizer
+#print axioms OriginalAncestorFiberGeometry.original_direction_fiber_bound
+#print axioms OriginalAncestorFiberGeometry.active_points_in_ancestor_ball

@@ -1,0 +1,7 @@
+Canonical strict source validation through the full default Lake build.
+Source SHA256: f18da791b192ed63c651d5c6d25d16a604f8f6b145f9ba57294ee6d6de607dfc
+Source options: autoImplicit=false; warningAsError=true
+Command: STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh
+Full build evidence: verification/wz526-default-build.log
+Confirmed exit code: 0
+This is the same canonical source compilation as the aggregate build, not a duplicate direct Lean invocation.

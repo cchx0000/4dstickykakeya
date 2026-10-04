@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_selected_parent_preparation
+
+#print axioms NativeSelectedParentPreparation.exists_original_AD_selection

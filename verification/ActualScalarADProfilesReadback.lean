@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_actual_scalar_ad_profiles
+
+#print axioms ActualScalarADProfiles.parent_time_labels_close
+#print axioms ActualScalarADProfiles.fiberBall_top_eq
+#print axioms ActualScalarADProfiles.fiber_ballCount_eq
+#print axioms ActualScalarADProfiles.quotient_ballCount_eq
+#print axioms ActualScalarADProfiles.normalized_full_ball_interpolation
+#print axioms ActualScalarADProfiles.fiber_real_ball_bounds
+#print axioms ActualScalarADProfiles.quotient_real_ball_bounds

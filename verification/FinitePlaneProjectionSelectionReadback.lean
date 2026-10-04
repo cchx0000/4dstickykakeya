@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_selection
+
+#print axioms FinitePlaneProjectionGrid.same_floor_close
+#print axioms FinitePlaneProjectionGrid.same_projected_cell_close
+#print axioms FinitePlaneProjectionGrid.projected_cell_energy
+#print axioms FinitePlaneProjectionGrid.parameters_nonempty
+#print axioms FinitePlaneProjectionGrid.exists_le_average
+#print axioms FinitePlaneProjectionGrid.exists_large_projected_image

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_final_original_alignment
+
+#print axioms NativeFinalOriginalAlignment.exists_dyadic_original_near_alignment
+#print axioms NativeFinalOriginalAlignment.exists_original_near_alignment
+#print axioms NativeFinalOriginalAlignment.original_AD_near_alignment

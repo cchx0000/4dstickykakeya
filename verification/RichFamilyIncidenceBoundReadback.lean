@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_rich_family_incidence_bound
+
+#print axioms RichFamilyIncidenceBound.incidence_collision_count
+#print axioms RichFamilyIncidenceBound.incidence_cauchy
+#print axioms RichFamilyIncidenceBound.intersection_sum_upper
+#print axioms RichFamilyIncidenceBound.rich_family_cardinality

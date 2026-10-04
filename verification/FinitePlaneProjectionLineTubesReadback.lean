@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_line_tubes
+
+#print axioms FinitePlaneProjectionGrid.determinant_bound_normal
+#print axioms FinitePlaneProjectionGrid.secant_line_residual
+#print axioms FinitePlaneProjectionGrid.triangle_in_line_strip
+#print axioms FinitePlaneProjectionGrid.bounded_projected_point
+#print axioms FinitePlaneProjectionGrid.projected_line_strip_cube

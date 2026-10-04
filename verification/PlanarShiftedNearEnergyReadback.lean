@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_planar_shifted_near_energy
+#print axioms PlanarShiftedNearEnergy.seven_discrepancies
+#print axioms PlanarShiftedNearEnergy.near_pairs_le_fortynine_energy
+#print axioms PlanarShiftedNearEnergy.original_labelled_planar_rounding

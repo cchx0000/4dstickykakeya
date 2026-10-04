@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_symmetry_slow_factor_budget
+
+#print axioms SymmetrySlowFactorBudget.root_factor_le
+#print axioms SymmetrySlowFactorBudget.balanced_density_lower
+#print axioms SymmetrySlowFactorBudget.chain_balanced_density_lower
+#print axioms SymmetrySlowFactorBudget.growth_cost_budget

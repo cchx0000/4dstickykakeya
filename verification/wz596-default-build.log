@@ -1,0 +1,1255 @@
+Started UTC: 2026-10-04T05:12:16.489685+00:00
+Frozen source commit: 8bd56ba2f76021b3772b7652408804ab0cbab937
+Using official Lean through a 2-compiler semaphore
+ℹ [8745/9225] Replayed Theorems.Thm_StickyKakeya4_original_w_core_dynamics
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:166:0: 'OriginalWCoreDynamics.rep_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:167:0: 'OriginalWCoreDynamics.next_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:168:0: 'OriginalWCoreDynamics.next_preserves_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:169:0: 'OriginalWCoreDynamics.angles_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:170:0: 'OriginalWCoreDynamics.M_subset_alphabet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:171:0: 'OriginalWCoreDynamics.exists_original_core_dynamics' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:172:0: 'OriginalWCoreDynamics.exists_original_total_core_dynamics' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8798/9225] Replayed Theorems.Thm_StickyKakeya4_old_neighbor_disintegration
+warning: Theorems/Thm_StickyKakeya4_old_neighbor_disintegration.lean:134:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8974/9305] Replayed Theorems.Thm_StickyKakeya4_compact_front_frostman_limit
+warning: Theorems/Thm_StickyKakeya4_compact_front_frostman_limit.lean:84:0: automatically included section variable(s) unused in theorem `StickyKakeya4.CompactFrontLimit.ball_bound_all_radii`:
+  [BorelSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [BorelSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9001/9305] Replayed Theorems.Thm_StickyKakeya4_dimension_witness_extraction
+warning: Theorems/Thm_StickyKakeya4_dimension_witness_extraction.lean:266:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [9004/9305] Replayed Theorems.Thm_StickyKakeya4_lossless_edge_flow_carleson
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:24:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:60:18: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:64:37: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:99:56: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:85:20: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:86:22: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:94:40: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:172:18: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:176:37: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:211:56: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:197:20: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:198:22: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:206:40: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9006/9305] Replayed Theorems.Thm_StickyKakeya4_common_shading_obstruction
+warning: Theorems/Thm_StickyKakeya4_common_shading_obstruction.lean:55:26: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [9025/9305] Replayed Theorems.Thm_StickyKakeya4_hereditary_finite_scale_to_frostman
+warning: Theorems/Thm_StickyKakeya4_hereditary_finite_scale_to_frostman.lean:10:5: Variable name `hmeasurable` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hmeasurable
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_hereditary_finite_scale_to_frostman.lean:11:5: Variable name `hvalid` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hvalid
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_hereditary_finite_scale_to_frostman.lean:12:5: Variable name `hselector` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hselector
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_hereditary_finite_scale_to_frostman.lean:13:5: Variable name `hpacking` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpacking
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9031/9305] Replayed Theorems.Ext_BrunnMinkowski
+warning: Theorems/Ext_BrunnMinkowski.lean:160:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Theorems/Ext_BrunnMinkowski.lean:250:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Ext_BrunnMinkowski.lean:252:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Ext_BrunnMinkowski.lean:359:26: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Theorems/Ext_BrunnMinkowski.lean:366:26: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Theorems/Ext_BrunnMinkowski.lean:569:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9035/9305] Replayed Solutions.Sol_StickyKakeya4_lossless_edge_flow_carleson
+warning: Solutions/Sol_StickyKakeya4_lossless_edge_flow_carleson.lean:24:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Solutions/Sol_StickyKakeya4_lossless_edge_flow_carleson.lean:60:18: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Solutions/Sol_StickyKakeya4_lossless_edge_flow_carleson.lean:64:37: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Solutions/Sol_StickyKakeya4_lossless_edge_flow_carleson.lean:99:56: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Solutions/Sol_StickyKakeya4_lossless_edge_flow_carleson.lean:85:20: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Solutions/Sol_StickyKakeya4_lossless_edge_flow_carleson.lean:86:22: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Solutions/Sol_StickyKakeya4_lossless_edge_flow_carleson.lean:94:40: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9036/9305] Replayed Solutions.Sol_StickyKakeya4_hereditary_finite_scale_to_frostman
+warning: Solutions/Sol_StickyKakeya4_hereditary_finite_scale_to_frostman.lean:9:5: Variable name `hmeasurable` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hmeasurable
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Solutions/Sol_StickyKakeya4_hereditary_finite_scale_to_frostman.lean:10:5: Variable name `hvalid` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hvalid
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Solutions/Sol_StickyKakeya4_hereditary_finite_scale_to_frostman.lean:11:5: Variable name `hselector` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hselector
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Solutions/Sol_StickyKakeya4_hereditary_finite_scale_to_frostman.lean:12:5: Variable name `hpacking` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpacking
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9050/9305] Replayed Theorems.Thm_StickyKakeya4_finite_scale_source_mass
+warning: Theorems/Thm_StickyKakeya4_finite_scale_source_mass.lean:797:4: Try `simp at hx` instead of `simpa using hx`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_finite_scale_source_mass.lean:892:6: Try `simp at hxi` instead of `simpa using hxi`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [9053/9305] Replayed Theorems.Thm_StickyKakeya4_frostman_mass_distribution
+warning: Theorems/Thm_StickyKakeya4_frostman_mass_distribution.lean:257:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9054/9305] Replayed Theorems.Thm_StickyKakeya4_canonical_sphere_measure
+warning: Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:18:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:636:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:957:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:965:48: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9057/9305] Replayed Theorems.Thm_StickyKakeya4_front_parameter_probability
+warning: Theorems/Thm_StickyKakeya4_front_parameter_probability.lean:30:4: Try `simp at this` instead of `simpa using this`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_front_parameter_probability.lean:79:42: Variable name `hdelta` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hdelta
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_front_parameter_probability.lean:92:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Theorems/Thm_StickyKakeya4_front_parameter_probability.lean:117:0: Error in Linarith.normalizeDenominatorsLHS: Expr.rewrite may not produce subgoals.
+⚠ [9058/9305] Replayed Theorems.Thm_StickyKakeya4_marked_carrier_inverse
+warning: Theorems/Thm_StickyKakeya4_marked_carrier_inverse.lean:37:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_marked_carrier_inverse.lean:53:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9060/9305] Replayed Theorems.Thm_StickyKakeya4_retained_parameter_cell_source
+warning: Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean:406:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean:533:24: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean:606:36: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [9061/9305] Replayed Theorems.Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:43:5: Variable name `hsource` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsource
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:43:32: Variable name `hK` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hK
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:43:45: Variable name `hW` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hW
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:44:5: Variable name `hnormalLoss` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnormalLoss
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:122:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:508:18: Variable name `hθ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hθ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:508:31: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:661:5: Variable name `hc₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hc₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:661:20: Variable name `hQ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hQ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:1726:4: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:1906:5: Variable name `hpacking` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpacking
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9063/9305] Replayed Theorems.Thm_StickyKakeya4_conditioned_boundary_packet_extension
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_extension.lean:34:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_extension.lean:53:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_extension.lean:24:5: Variable name `hsourceMeasurable` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsourceMeasurable
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_extension.lean:27:32: Variable name `hrhoOne` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hrhoOne
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9065/9305] Replayed Theorems.Thm_StickyKakeya4_four_probe_boundary_firewall
+warning: Theorems/Thm_StickyKakeya4_four_probe_boundary_firewall.lean:99:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [9067/9305] Replayed Theorems.Thm_StickyKakeya4_three_packet_support
+warning: Theorems/Thm_StickyKakeya4_three_packet_support.lean:92:4: Try `simp at hprob` instead of `simpa using hprob`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_three_packet_support.lean:100:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [9068/9305] Replayed Theorems.Thm_StickyKakeya4_four_probe_cauchy_extraction
+warning: Theorems/Thm_StickyKakeya4_four_probe_cauchy_extraction.lean:306:4: Unused tactic linter: `change limitA.mulVec (c.ofLp - d.ofLp) = 0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9075/9305] Replayed Theorems.Thm_StickyKakeya4_front_fibre_lower_bound
+warning: Theorems/Thm_StickyKakeya4_front_fibre_lower_bound.lean:90:5: Variable name `hdelta` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hdelta
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9076/9305] Replayed Theorems.Thm_StickyKakeya4_vector_center_carleson
+warning: Theorems/Thm_StickyKakeya4_vector_center_carleson.lean:69:5: Variable name `hR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_vector_center_carleson.lean:537:5: Variable name `hR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_vector_center_carleson.lean:890:18: Variable name `hR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_vector_center_carleson.lean:891:24: Variable name `hzetaThree` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hzetaThree
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9077/9305] Replayed Theorems.Thm_StickyKakeya4_wz_common_slab
+warning: Theorems/Thm_StickyKakeya4_wz_common_slab.lean:289:18: Variable name `hhNonneg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hhNonneg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9078/9305] Replayed Theorems.Thm_StickyKakeya4_actual_slope_source
+warning: Theorems/Thm_StickyKakeya4_actual_slope_source.lean:67:34: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+warning: Theorems/Thm_StickyKakeya4_actual_slope_source.lean:206:69: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9081/9305] Replayed Theorems.Thm_StickyKakeya4_four_cycle_contact_frame
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:67:4: Try `simp at hk` instead of `simpa using hk`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:70:4: Try `simp at hk` instead of `simpa using hk`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:73:4: Try `simp at hk` instead of `simpa using hk`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:76:4: Try `simp at hk` instead of `simpa using hk`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:100:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:100:4: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:105:39: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [matrixVectorE3, Matrix.mulVec, mul_assoc, mul_comm, mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:105:55: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [matrixVectorE3, Matrix.mulVec, Finset.mul_sum, mul_comm, mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:106:4: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [matrixVectorE3, Matrix.mulVec, Finset.mul_sum, mul_assoc, mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_four_cycle_contact_frame.lean:106:14: This simp argument is unused:
+  mul_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [matrixVectorE3, Matrix.mulVec, Finset.mul_sum, mul_assoc, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9082/9305] Replayed Theorems.Thm_StickyKakeya4_dense_relation_marked_four_cycle
+warning: Theorems/Thm_StickyKakeya4_dense_relation_marked_four_cycle.lean:59:30: This simp argument is unused:
+  Matrix.cons_val_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [toMarkedCycle, Matrix.cons_val_one, Fin.isValue] at hij ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_dense_relation_marked_four_cycle.lean:59:52: This simp argument is unused:
+  Matrix.cons_val_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [toMarkedCycle, Matrix.cons_val_zero, Fin.isValue] at hij ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_dense_relation_marked_four_cycle.lean:60:6: This simp argument is unused:
+  Fin.isValue
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [toMarkedCycle, Matrix.cons_val_zero, Matrix.cons_val_one] at hij ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_dense_relation_marked_four_cycle.lean:87:30: This simp argument is unused:
+  Matrix.cons_val_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [toMarkedCycle, Matrix.cons_val_one, Fin.isValue] at hij ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_dense_relation_marked_four_cycle.lean:87:52: This simp argument is unused:
+  Matrix.cons_val_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [toMarkedCycle, Matrix.cons_val_zero, Fin.isValue] at hij ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_dense_relation_marked_four_cycle.lean:88:6: This simp argument is unused:
+  Fin.isValue
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [toMarkedCycle, Matrix.cons_val_zero, Matrix.cons_val_one] at hij ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9083/9305] Replayed Theorems.Thm_StickyKakeya4_separated_collision_relation_packet
+warning: Theorems/Thm_StickyKakeya4_separated_collision_relation_packet.lean:52:40: This simp argument is unused:
+  Matrix.cons_val_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [markedCycleRelationEdge, Matrix.cons_val_one, Fin.isValue] at hij ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_separated_collision_relation_packet.lean:53:6: This simp argument is unused:
+  Matrix.cons_val_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [markedCycleRelationEdge, Matrix.cons_val_zero, Fin.isValue] at hij ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9085/9305] Replayed Theorems.Thm_StickyKakeya4_selector_covering_lower_bound
+warning: Theorems/Thm_StickyKakeya4_selector_covering_lower_bound.lean:24:42: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9087/9305] Replayed Theorems.Thm_StickyKakeya4_wz_readback_bookkeeping
+warning: Theorems/Thm_StickyKakeya4_wz_readback_bookkeeping.lean:285:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: Theorems/Thm_StickyKakeya4_wz_readback_bookkeeping.lean:380:55: Try this:
+  [apply] ring_nf
+
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Theorems/Thm_StickyKakeya4_wz_readback_bookkeeping.lean:625:4: Try `simp at hpositiveNonempty` instead of `simpa using hpositiveNonempty`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_wz_readback_bookkeeping.lean:678:8: Try `simp at hpositiveNonempty` instead of `simpa using hpositiveNonempty`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_wz_readback_bookkeeping.lean:831:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_wz_readback_bookkeeping.lean:974:4: Try `simp at hnonempty` instead of `simpa using hnonempty`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_wz_readback_bookkeeping.lean:1181:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_wz_readback_bookkeeping.lean:1182:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_wz_readback_bookkeeping.lean:1236:4: Unused tactic linter: `change lowerConstant * (ENNReal.ofReal q).rpow theta ≤ mass` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9090/9305] Replayed Theorems.Thm_StickyKakeya4_energy_dimension
+warning: Theorems/Thm_StickyKakeya4_energy_dimension.lean:72:0: automatically included section variable(s) unused in theorem `StickyKakeya4.EnergyDimension.restrict_ball_growth_of_bounded_potential`:
+  [SecondCountableTopology X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [SecondCountableTopology X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9092/9305] Replayed Theorems.Thm_StickyKakeya4_wz_carrier_pruning
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:1922:5: Variable name `hocc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hocc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2326:31: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2430:27: This simp argument is unused:
+  Nat.cast_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2514:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2562:5: Variable name `htargetConstant` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _htargetConstant
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2563:26: Variable name `hqTarget` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hqTarget
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:3668:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:3747:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:4089:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:4089:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:4563:5: Variable name `hdelta` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hdelta
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:4586:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:5864:5: Variable name `hradius` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hradius
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:5931:19: Variable name `ell` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ell
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9151/9305] Replayed Theorems.Thm_StickyKakeya4_spacetime_collision_energy
+warning: Theorems/Thm_StickyKakeya4_spacetime_collision_energy.lean:287:18: Variable name `hq` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hq
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9154/9305] Replayed Theorems.Thm_StickyKakeya4_positive_bush_frostman
+warning: Theorems/Thm_StickyKakeya4_positive_bush_frostman.lean:212:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_positive_bush_frostman.lean:389:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [9161/9305] Replayed Theorems.Thm_StickyKakeya4_north_conditioned_boundary_probe_control
+warning: Theorems/Thm_StickyKakeya4_north_conditioned_boundary_probe_control.lean:123:48: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_north_conditioned_boundary_probe_control.lean:220:48: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9172/9305] Replayed Theorems.Thm_StickyKakeya4_collision_heavy_edge_decomposition
+warning: Theorems/Thm_StickyKakeya4_collision_heavy_edge_decomposition.lean:561:10: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [9185/9305] Replayed Theorems.Thm_StickyKakeya4_conditioned_boundary_packet_mass
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_mass.lean:41:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_mass.lean:44:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_mass.lean:58:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_mass.lean:126:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_mass.lean:18:19: Variable name `hepsilon` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hepsilon
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_mass.lean:29:5: Variable name `hsourceMeasurable` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsourceMeasurable
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_mass.lean:31:32: Variable name `hrhoOne` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hrhoOne
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_mass.lean:105:49: This simp argument is unused:
+  hsourceMeasurable
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [conditionedFinite, FiniteMeasure.mass]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9192/9305] Replayed Theorems.Thm_StickyKakeya4_measured_conditioned_boundary_packet
+warning: Theorems/Thm_StickyKakeya4_measured_conditioned_boundary_packet.lean:57:5: Variable name `hepsilon` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hepsilon
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_measured_conditioned_boundary_packet.lean:57:30: Variable name `hepsilonFour` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hepsilonFour
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_measured_conditioned_boundary_packet.lean:224:48: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9193/9305] Replayed Theorems.Thm_StickyKakeya4_quantitative_conditioned_boundary_packet_chain
+warning: Theorems/Thm_StickyKakeya4_quantitative_conditioned_boundary_packet_chain.lean:39:5: Variable name `hepsilon` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hepsilon
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_conditioned_boundary_packet_chain.lean:39:30: Variable name `hepsilonFour` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hepsilonFour
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_conditioned_boundary_packet_chain.lean:122:5: Variable name `hepsilon` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hepsilon
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_conditioned_boundary_packet_chain.lean:122:30: Variable name `hepsilonFour` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hepsilonFour
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9195/9305] Replayed Theorems.Thm_StickyKakeya4_quantitative_north_return_firewall
+warning: Theorems/Thm_StickyKakeya4_quantitative_north_return_firewall.lean:187:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9196/9305] Replayed Theorems.Thm_StickyKakeya4_quantitative_return_budget
+warning: Theorems/Thm_StickyKakeya4_quantitative_return_budget.lean:201:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9197/9305] Replayed Theorems.Thm_StickyKakeya4_law_level_return_budget
+warning: Theorems/Thm_StickyKakeya4_law_level_return_budget.lean:18:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_law_level_return_budget.lean:28:2: Try `simp at hunivZero` instead of `simpa using hunivZero`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_law_level_return_budget.lean:58:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_law_level_return_budget.lean:174:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_law_level_return_budget.lean:246:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9203/9305] Replayed Theorems.Thm_StickyKakeya4_wz_common_slab_localization
+warning: Theorems/Thm_StickyKakeya4_wz_common_slab_localization.lean:241:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9204/9305] Replayed Theorems.Thm_StickyKakeya4_packing_selector_to_finite_scale_sources
+warning: Theorems/Thm_StickyKakeya4_packing_selector_to_finite_scale_sources.lean:170:4: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_packing_selector_to_finite_scale_sources.lean:337:4: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9205/9305] Replayed Theorems.Thm_StickyKakeya4_coherent_boundary_source_collision
+warning: Theorems/Thm_StickyKakeya4_coherent_boundary_source_collision.lean:244:15: Variable name `heta0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _heta0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_coherent_boundary_source_collision.lean:803:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_coherent_boundary_source_collision.lean:804:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9208/9305] Replayed Theorems.Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:24:5: Variable name `ambient` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ambient
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:24:13: Variable name `selector` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _selector
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:541:37: Variable name `hAZero` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hAZero
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:585:4: Unused tactic linter: `change M * (2 * y).rpow d ≤ twoPower` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:1159:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:1244:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:1223:49: This simp argument is unused:
+  hseedMeasurable
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [conditionedFinite, FiniteMeasure.mass]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:1799:32: Try this:
+  [apply] ring_nf
+
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:1809:35: Try this:
+  [apply] ring_nf
+
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:1817:34: Try this:
+  [apply] ring_nf
+
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:1799:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:1809:31: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:1817:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:2579:37: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:2580:4: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [differenceIncidenceSet, mem_setOf_eq, mem_preimage, mem_prod, Prod.snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:2580:14: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [differenceIncidenceSet, mem_setOf_eq, mem_preimage, mem_prod, Prod.fst]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:2933:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:3215:24: Try this:
+  [apply] ring_nf
+
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:3215:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:3510:60: Try this:
+  [apply] ring_nf
+
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Theorems/Thm_StickyKakeya4_cover_adapted_wang_zakharov_closure.lean:3510:56: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9232/9305] Replayed Theorems.Thm_StickyKakeya4_normalized_collision_relation_packet
+warning: Theorems/Thm_StickyKakeya4_normalized_collision_relation_packet.lean:16:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_normalized_collision_relation_packet.lean:25:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [9234/9305] Replayed Theorems.Thm_StickyKakeya4_time_averaged_bush
+warning: Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:61:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:61:32: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:110:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:164:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_time_averaged_bush.lean:209:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9236/9305] Replayed Theorems.Thm_StickyKakeya4_countable_mass_stopping_prefix
+warning: Theorems/Thm_StickyKakeya4_countable_mass_stopping_prefix.lean:112:10: This simp argument is unused:
+  previous
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [countableStoppingRemainder, countableStoppingRemainderSet, current, i, hlarge, if_pos]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_countable_mass_stopping_prefix.lean:115:10: This simp argument is unused:
+  previous
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [countableStoppingRemainder, countableStoppingRemainderSet, current, i, hlarge, if_neg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_countable_mass_stopping_prefix.lean:115:40: This simp argument is unused:
+  if_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [countableStoppingRemainder, countableStoppingRemainderSet, previous, current, i, hlarge]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_countable_mass_stopping_prefix.lean:127:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_countable_mass_stopping_prefix.lean:328:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [9237/9305] Replayed Theorems.Thm_StickyKakeya4_countable_ball_stopping
+warning: Theorems/Thm_StickyKakeya4_countable_ball_stopping.lean:42:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [9238/9305] Replayed Theorems.Thm_StickyKakeya4_countable_ball_normalized_escape
+warning: Theorems/Thm_StickyKakeya4_countable_ball_normalized_escape.lean:23:19: Variable name `hCtop` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hCtop
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_countable_ball_normalized_escape.lean:26:8: Variable name `limit` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _limit
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Theorems/Thm_StickyKakeya4_countable_ball_normalized_escape.lean:89:6: Unused tactic linter: `change (↑m.mass⁻¹ : ENNReal) * (↑m.mass : ENNReal) = 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [9239/9305] Replayed Theorems.Thm_StickyKakeya4_vector_bush_frostman
+warning: Theorems/Thm_StickyKakeya4_vector_bush_frostman.lean:32:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_vector_bush_frostman.lean:32:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_vector_bush_frostman.lean:255:4: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9257/9305] Replayed Theorems.Thm_StickyKakeya4_quantitative_bush_cover
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:42:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:91:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:91:66: This simp argument is unused:
+  Set.mem_univ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_setOf_eq, Set.mem_compl_iff, Set.mem_prod, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:91:80: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_setOf_eq, Set.mem_compl_iff, Set.mem_prod, Set.mem_univ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:130:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:178:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:223:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:223:15: This simp argument is unused:
+  Set.mem_setOf_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Set.mem_compl_iff, Set.mem_prod, Set.mem_univ, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_cover.lean:253:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9260/9305] Replayed Theorems.Thm_StickyKakeya4_retained_cell_return_firewall
+warning: Theorems/Thm_StickyKakeya4_retained_cell_return_firewall.lean:400:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Theorems/Thm_StickyKakeya4_retained_cell_return_firewall.lean:605:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9268/9305] Replayed Theorems.Thm_StickyKakeya4_source_point_three_packet_routing
+warning: Theorems/Thm_StickyKakeya4_source_point_three_packet_routing.lean:132:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9274/9305] Replayed Theorems.Thm_StickyKakeya4_vector_bush_escape
+warning: Theorems/Thm_StickyKakeya4_vector_bush_escape.lean:79:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_vector_bush_escape.lean:97:19: Variable name `hR1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9275/9305] Replayed Theorems.Thm_StickyKakeya4_front_countable_stopping_dichotomy
+warning: Theorems/Thm_StickyKakeya4_front_countable_stopping_dichotomy.lean:60:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_front_countable_stopping_dichotomy.lean:63:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9278/9305] Replayed Theorems.Thm_StickyKakeya4_quantitative_bush_resolution
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.lean:34:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_quantitative_bush_resolution.lean:136:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [9279/9305] Replayed Theorems.Thm_StickyKakeya4_packing_piece_return_budget
+warning: Theorems/Thm_StickyKakeya4_packing_piece_return_budget.lean:100:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Theorems/Thm_StickyKakeya4_packing_piece_return_budget.lean:101:2: Try `simp at hunivZero` instead of `simpa using hunivZero`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Theorems/Thm_StickyKakeya4_packing_piece_return_budget.lean:271:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9292/9305] Built Theorems.Thm_StickyKakeya4_original_separated_point_packing (3.0s)
+✔ [9293/9305] Built Theorems.Thm_StickyKakeya4_native_original_phase_source_costs (3.4s)
+✔ [9294/9305] Built Theorems.Thm_StickyKakeya4_original_source_log_budgets (2.5s)
+✔ [9295/9305] Built Theorems.Thm_StickyKakeya4_native_original_phase_source_kt (2.4s)
+✔ [9296/9305] Built Theorems.Thm_StickyKakeya4_native_original_macro_phase_box (2.6s)
+✔ [9297/9305] Built Theorems.Thm_StickyKakeya4_native_original_pruning_loss (2.0s)
+✔ [9298/9305] Built Theorems.Thm_StickyKakeya4_native_original_nonempty_coarse_family (3.3s)
+✔ [9299/9305] Built Theorems.Thm_StickyKakeya4_original_angular_source_population (12s)
+✔ [9300/9305] Built Theorems.Thm_StickyKakeya4_original_selected_angular_incidences (2.4s)
+✔ [9301/9305] Built Theorems.Thm_StickyKakeya4_native_uniform_original_coarse_family (3.2s)
+✔ [9302/9305] Built Theorems.Thm_StickyKakeya4_native_original_graph_density_costs (2.7s)
+✔ [9303/9305] Built Theorems.Thm_StickyKakeya4_original_critical_width_bound (18s)
+✔ [9304/9305] Built Theorems.Thm_StickyKakeya4_native_original_critical_query_range (2.5s)
+Build completed successfully (9305 jobs).
+
+Confirmed exit code: 0
+
+Command: STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh

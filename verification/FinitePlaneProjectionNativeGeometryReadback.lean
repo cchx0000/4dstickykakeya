@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_native_geometry
+
+#print axioms FinitePlaneProjectionGrid.projectionLinear_surjective
+#print axioms FinitePlaneProjectionGrid.projectedBall_eq_native_ball
+#print axioms FinitePlaneProjectionGrid.projection_injective_of_cells
+#print axioms FinitePlaneProjectionGrid.projected_original_card

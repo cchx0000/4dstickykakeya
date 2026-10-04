@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_working_scale_profile_budget
+
+#print axioms WorkingScaleProfileBudget.adjacent_gap_lower
+#print axioms WorkingScaleProfileBudget.old_length_le_adjacent
+#print axioms WorkingScaleProfileBudget.working_ratio
+#print axioms WorkingScaleProfileBudget.working_ratio_lower
+#print axioms WorkingScaleProfileBudget.old_ratio_le_working_ratio
+#print axioms WorkingScaleProfileBudget.old_profile_power_le
+#print axioms WorkingScaleProfileBudget.stopped_loss_le_adjacent

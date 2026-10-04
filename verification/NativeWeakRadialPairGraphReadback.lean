@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_weak_radial_pair_graph
+
+#print axioms NativeWeakRadialPairGraph.finite_weak_radial_graph

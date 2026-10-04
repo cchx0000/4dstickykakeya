@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_original_phase_window_population
+
+#print axioms NativeOriginalPhaseWindowPopulation.expanded_eq_phase_image
+#print axioms NativeOriginalPhaseWindowPopulation.neighbor_grain_window
+#print axioms NativeOriginalPhaseWindowPopulation.original_enlarged_phase_ball_population

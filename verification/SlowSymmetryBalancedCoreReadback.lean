@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_slow_symmetry_balanced_core
+
+#print axioms SlowSymmetryBalancedCore.difference_collisions_le_energy
+#print axioms SlowSymmetryBalancedCore.original_difference_graph_energy
+#print axioms SlowSymmetryBalancedCore.energy_of_slow_ratio
+#print axioms SlowSymmetryBalancedCore.exists_balanced_chain_core

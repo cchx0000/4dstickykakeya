@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_rich_pair_tube_family
+
+#print axioms NativeRichPairTubeFamily.original_rich_pair_representatives

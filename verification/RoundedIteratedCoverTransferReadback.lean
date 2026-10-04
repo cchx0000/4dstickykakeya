@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_rounded_iterated_cover_transfer
+
+#print axioms RoundedIteratedCoverTransfer.original_preimage
+#print axioms RoundedIteratedCoverTransfer.round_abs_error
+#print axioms RoundedIteratedCoverTransfer.nsmul_rounding_witness
+#print axioms RoundedIteratedCoverTransfer.mixed_rounding_witness
+#print axioms RoundedIteratedCoverTransfer.rounded_label_close
+#print axioms RoundedIteratedCoverTransfer.iterated_grid_cover_bound

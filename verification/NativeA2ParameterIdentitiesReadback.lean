@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_a2_parameter_identities
+
+#print axioms NativeA2ParameterIdentities.native_geometric_scales
+#print axioms NativeA2ParameterIdentities.overlap_power_identity
+#print axioms NativeA2ParameterIdentities.transverse_power_identity
+#print axioms NativeA2ParameterIdentities.diagonal_power_identity

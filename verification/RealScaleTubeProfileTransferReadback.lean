@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_real_scale_tube_profile_transfer
+
+#print axioms RealScaleTubeProfileTransfer.comparisonBox_card
+#print axioms RealScaleTubeProfileTransfer.grid_mem_comparisonBox
+#print axioms RealScaleTubeProfileTransfer.grid_card_comparison
+#print axioms RealScaleTubeProfileTransfer.inTube_mono
+#print axioms RealScaleTubeProfileTransfer.moved_real_tube_le_profile
+#print axioms RealScaleTubeProfileTransfer.exists_minimal_upper_level
+#print axioms RealScaleTubeProfileTransfer.exists_nested_upper_levels
+#print axioms RealScaleTubeProfileTransfer.stopped_moved_real_tube
+#print axioms RealScaleTubeProfileTransfer.shiftedBox_card
+#print axioms RealScaleTubeProfileTransfer.shifted_grid_mem
+#print axioms RealScaleTubeProfileTransfer.shifted_grid_card_le
+#print axioms RealScaleTubeProfileTransfer.normalized_grid
+#print axioms RealScaleTubeProfileTransfer.normalized_inTube
+#print axioms RealScaleTubeProfileTransfer.normalized_stopped_moved_real_tube

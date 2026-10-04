@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_integer_bin_real_near_energy
+
+#print axioms IntegerBinRealNearEnergy.real_grid_injective
+#print axioms IntegerBinRealNearEnergy.real_grid_card
+#print axioms IntegerBinRealNearEnergy.real_grid_separated
+#print axioms IntegerBinRealNearEnergy.integer_energy_le_original_near

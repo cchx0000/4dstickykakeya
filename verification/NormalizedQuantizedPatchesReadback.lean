@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_normalized_quantized_patches
+
+#print axioms NormalizedQuantizedPatches.affine_eq_smul
+#print axioms NormalizedQuantizedPatches.affine_dist
+#print axioms NormalizedQuantizedPatches.affine_euclidean_dist
+#print axioms NormalizedQuantizedPatches.normalized_quantized_proximity
+#print axioms NormalizedQuantizedPatches.normalized_image_separation
+#print axioms NormalizedQuantizedPatches.exact_normalized_mesh
+#print axioms NormalizedQuantizedPatches.normalized_parent_coordinates

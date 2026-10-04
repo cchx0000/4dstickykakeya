@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_transverse_original_strip_points
+
+#print axioms TransverseOriginalStripPoints.common_card_bound
+#print axioms TransverseOriginalStripPoints.transverse_card_bound
+#print axioms TransverseOriginalStripPoints.transverse_card_from_rich_family
+#print axioms TransverseOriginalStripPoints.nontransverse_common_strip

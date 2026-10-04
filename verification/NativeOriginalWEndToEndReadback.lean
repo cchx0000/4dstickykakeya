@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_original_w_end_to_end
+
+#print axioms NativeOriginalWEndToEnd.scalar_unit_functional_slab
+#print axioms NativeOriginalWEndToEnd.scalar_original_w_growth
+#print axioms NativeOriginalWEndToEnd.planar_original_w_growth

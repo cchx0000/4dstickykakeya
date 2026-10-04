@@ -1,0 +1,18 @@
+import Theorems.Thm_StickyKakeya4_dyadic_original_fiber_selection
+
+#print axioms DyadicOriginalFiberSelection.fiber_card_pos
+#print axioms DyadicOriginalFiberSelection.fiber_sum
+#print axioms DyadicOriginalFiberSelection.level_lt
+#print axioms DyadicOriginalFiberSelection.bin_saturated
+#print axioms DyadicOriginalFiberSelection.fiber_bin_eq
+#print axioms DyadicOriginalFiberSelection.bin_fiber_bounds
+#print axioms DyadicOriginalFiberSelection.bin_card_sum
+#print axioms DyadicOriginalFiberSelection.exists_dyadic_bin
+#print axioms DyadicOriginalFiberSelection.bin_half_average
+#print axioms DyadicOriginalFiberSelection.exists_original_fiber_refinement
+#print axioms DyadicOriginalFiberSelection.exists_original_fiber_refinement_real
+#print axioms DyadicOriginalFiberSelection.levelCount_eq_log2
+#print axioms DyadicOriginalFiberSelection.fiber_eq_of_saturated
+#print axioms DyadicOriginalFiberSelection.exists_refined_good_pairs
+#print axioms DyadicOriginalFiberSelection.exists_refined_symmetry_pairs
+#print axioms DyadicOriginalFiberSelection.exists_refined_pairs_of_addEnergy

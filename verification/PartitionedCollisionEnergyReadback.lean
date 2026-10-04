@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_partitioned_collision_energy
+
+#print axioms PartitionedCollisionEnergy.histogram_partition
+#print axioms PartitionedCollisionEnergy.collision_energy_on_original_menu
+#print axioms PartitionedCollisionEnergy.partition_collision_energy
+#print axioms PartitionedCollisionEnergy.translated_pair_energy_cap

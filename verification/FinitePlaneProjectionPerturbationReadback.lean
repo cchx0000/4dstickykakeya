@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_perturbation
+
+#print axioms FinitePlaneProjectionGrid.dist3_nonneg
+#print axioms FinitePlaneProjectionGrid.dist3_coordinate_bounds
+#print axioms FinitePlaneProjectionGrid.determinant_point_perturbation
+#print axioms FinitePlaneProjectionGrid.crossSize_point_perturbation
+#print axioms FinitePlaneProjectionGrid.original_cross_tube_point_transport
+#print axioms FinitePlaneProjectionGrid.originalCrossTube_transport

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_planar_rounded_sumset_cover
+#print axioms PlanarRoundedSumsetCover.point_rounding_error
+#print axioms PlanarRoundedSumsetCover.actual_planar_iterated_cover

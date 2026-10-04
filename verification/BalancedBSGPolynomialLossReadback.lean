@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_balanced_bsg_polynomial_loss
+
+#print axioms BalancedBSGPolynomialLoss.difference_constant_polynomial
+#print axioms BalancedBSGPolynomialLoss.growth_constant_polynomial
+#print axioms BalancedBSGPolynomialLoss.growth_constant_le_div

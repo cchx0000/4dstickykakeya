@@ -1,0 +1,2713 @@
+{
+  "generated_at_utc": "2026-10-04T09:03:01.356590+00:00",
+  "base_commit": "507a09abd1ef8a46f87fa3a292c80f78c18de602",
+  "base_tree": "7223edac338e671af2f4aa20b05e19b62aa0926d",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_cap_count.lean": "4f9c552ab21103fa81545a2419f217f8fe686498ba3d3abb7ee6f419ab566748",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_cap_distance.lean": "a1e761da1b33863c26e90d97ea97684e78f83bddd585dc604d49cdab9b3b924f",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_separated_normals.lean": "139e20a10a871dc4ee4e2bbfc2100d37294aaeb149ed1fbca4f40712fa82f0b3",
+    "Theorems/Thm_StickyKakeya4_gkz_original_anchor_cover.lean": "946f0e5b115d9d44119e51f783176a21242c6b6d2dd89cf19a9c0a88f2b834b2",
+    "Theorems/Thm_StickyKakeya4_gkz_finite_anchored_plunnecke.lean": "1f930bb8081ec06c39558ea616e9ada78bf70bb7a4c6d3975f6cb6d2ebaa4ac3",
+    "Theorems/Thm_StickyKakeya4_gkz_original_product_overlap.lean": "b969cccec63bccc147ec5cd66e0196016a2eb33ba21188ba01a97f540fe94fd9",
+    "Theorems/Thm_StickyKakeya4_gkz_grid_code_perturbation.lean": "7df78a9c215eb9174779efcc0a085e0c3453413567c4aa78d769ea4804588b66",
+    "Theorems/Thm_StickyKakeya4_gkz_dilate_rounded_sums.lean": "7314aaf224977616d688e1726975ce4cd47f9d4d2f5940779e0916ee0bc9ed6a",
+    "Theorems/Thm_StickyKakeya4_gkz_original_anchor_profile.lean": "349c7c0e260238dba78ef4ba5863f0286898ce72f92fc37a224b2ab51e9d446f",
+    "Theorems/Thm_StickyKakeya4_gkz_original_mixed_dilate_bounds.lean": "5b68a16d357e8e79e99d8976cacaeafb50b1e0ddd1b6c0b45587d6d38eb5adb9",
+    "Theorems/Thm_StickyKakeya4_gkz_real_dilation_union.lean": "1b6885215bc107a7c65b45a564538205537b98cacd81a90bc64c745f943305eb",
+    "Theorems/Thm_StickyKakeya4_gkz_original_nine_sum_cover.lean": "af9f0063d9617b8a31333fb7b605588f1ff99551647acd4edb4e1180725be4fd",
+    "Theorems/Thm_StickyKakeya4_gkz_original_linear_upper.lean": "63483630d5631dd66e1601962785663b23c86d8c909a6775ab33034279af5a0e",
+    "Theorems/Thm_StickyKakeya4_gkz_original_sum_product_comparison.lean": "ccec5f329c0698731c2f7e7690151be400f6ca6ad39b1fe11e215889e21a1648",
+    "Theorems/Thm_StickyKakeya4_gkz_balanced_dyadic_scale.lean": "cb62efe10f2f43415d3372c44f23be1d916f657d3a70bf50e3cb293ae4a9be31",
+    "Theorems/Thm_StickyKakeya4_gkz_original_positive_power.lean": "3809f1a7e359f341c0f53221bf545fcbc0295f4f93270a84bee9df2aa1d35c20",
+    "Theorems/Thm_StickyKakeya4_gkz_uniform_growth_parameters.lean": "2fb335be783ed2e5f1a061d1086dc1c60a52f6ef6265be0cfbe1c73e2a029f32",
+    "Theorems/Thm_StickyKakeya4_native_coarse_original_incidences.lean": "fb6b356f4a25dd691e76b94ad58332af0c04792b73c3a1b746e66c84ef92437b",
+    "Theorems/Thm_StickyKakeya4_native_coarse_original_geometry.lean": "6dd7877fb5a54d6a48078612b187977969a32e97872772904f85c6c1d9d23d1f",
+    "Theorems/Thm_StickyKakeya4_native_coarse_original_heights.lean": "f8c3854add4a899c764210926cf29b73250e4c30e2013a769cca3e5941f41bfd",
+    "Theorems/Thm_StickyKakeya4_native_source_coarse_readback.lean": "e5fa7d56d462c941afb13f389b5865ba60700023eeac071c3050ac5a41ccbfaa",
+    "Theorems/Thm_StickyKakeya4_native_dense_source_coarse_family.lean": "53311f237b762e675eb30ee57e229bf75c58e6c1650f8c37139daec51ad52955",
+    "Theorems/Thm_StickyKakeya4_native_cover_ad_representatives.lean": "ef429cdbb867e104e87a1827962557b47c05b408f79c567a53082a09aa17459e",
+    "Theorems/Thm_StickyKakeya4_native_unit_parent_normalization.lean": "1335b2cd6fbc9bb80c68a33536ee74a2306591e8aa8c64d144682684adc54fa0",
+    "Theorems/Thm_StickyKakeya4_native_unit_parent_volume.lean": "61a9d43a7a49ead4d58937a266b9171bdfa95aab01f8ebd1a648c6b21f99b909",
+    "Theorems/Thm_StickyKakeya4_native_dense_retained_unit_parent.lean": "79e91420b83ffd4ffb4a117cbdf52e341b8df8916c96dd8e423a1edb7540207e",
+    "Theorems/Thm_StickyKakeya4_native_unit_parent_shadings.lean": "35511df8cd04870a7e246671b1c965b78985da200e4e175cd80d640aab4726ad",
+    "Theorems/Thm_StickyKakeya4_native_unit_parent_dyadic.lean": "1914aa843e26ad578e91fc3451163fc5d9411f9ea021c75da94ebe0489cbf7dd",
+    "Theorems/Thm_StickyKakeya4_native_unit_parent_directions.lean": "546196e5c6d9e98bdac0364820990151a6f59307074641289789762b6f638bad",
+    "Theorems/Thm_StickyKakeya4_native_dense_normalized_parent.lean": "7fc63d1ed45d190929fea621413c0bc793038535645be764781a35bbe890a101",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_cross_geometry.lean": "b5dad6a5e239f3116b60e4c4690ed42769ef270ac6699109e6a8b49d9ef5f3c3",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_slab_overlap.lean": "b7164d4219d3f85e1561aff8b6609fa8db8da298cca94d47086a112f9da7ca3c",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_narrow_slab_overlap.lean": "38874912c6492750180a7226c007cc75b63568ec48dac71fd94ca600aab2da76",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_annular_slab_charge.lean": "d98f0223f5da3ff4be35e56fca52c771f70086927884b95a8cbd48d45257f83a",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_middle_slice_branch.lean": "7d65d977debb2709f3f39c1fdc92c8a16f6245c8f401d724e5b32f3085fb33a2",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_tube_parameters.lean": "96c1d851092a6b9cf9595515e93638c6772a535e45613ef8ab63fe2a70774c16",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_pair_tube_family.lean": "a906092c66b24b8a2f7c3a4eaed9e123be68abc029910b5bb2a380b294aed72b",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_common_chart.lean": "0f76f862ef16e30df99c50614bdb2fd8daecf45aa313630e69ff366bd11045ec",
+    "Theorems/Thm_StickyKakeya4_original_tube_parameter_integer_count.lean": "f0473be45a016bcc8066ac6fc19e4c0e677b031c5271f1184fe5d1368b71e240",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_tube_incidence_energy.lean": "993c620029371cd5d6a0558e04a716ba892434d61f82c2a289f8ee97411abf1a",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_heavy_cube_shading.lean": "7ed5be221ce3ca3afe6aadbb071d1a8eeeb9997e388eeb5de5f82dc01b11ead7"
+  },
+  "new_modules": [
+    {
+      "short": "OriginalThreeDimensionalCapCount",
+      "slug": "original_three_dimensional_cap_count",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_cap_count.lean",
+      "declarations": [
+        "OriginalThreeDimensionalCapCount.integer_interval_mass",
+        "OriginalThreeDimensionalCapCount.weighted_fiber_count",
+        "OriginalThreeDimensionalCapCount.rectangle_mass",
+        "OriginalThreeDimensionalCapCount.band_integer_mass",
+        "OriginalThreeDimensionalCapCount.first_coefficient_count",
+        "OriginalThreeDimensionalCapCount.rectangle_band_count",
+        "OriginalThreeDimensionalCapCount.point_gap_nonneg",
+        "OriginalThreeDimensionalCapCount.point_gap_chart_sum",
+        "OriginalThreeDimensionalCapCount.original_normal_cap_count",
+        "OriginalThreeDimensionalCapCount.original_cap_band_count",
+        "OriginalThreeDimensionalCapCount.unit_center_components",
+        "OriginalThreeDimensionalCapCount.original_unit_cap_band_card"
+      ],
+      "preintegration_source_sha256": "5bb3f9afca721f34f2d6a284973ab6bd9217623e499de36f0f3e884bf5b7ff3d",
+      "preintegration_manifest": "OriginalThreeDimensionalCapCounts.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalCapCount.strict.log",
+      "source_sha256": "4f9c552ab21103fa81545a2419f217f8fe686498ba3d3abb7ee6f419ab566748",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalCapDistance",
+      "slug": "original_three_dimensional_cap_distance",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_cap_distance.lean",
+      "declarations": [
+        "OriginalThreeDimensionalCapDistance.point_gap_coordinate",
+        "OriginalThreeDimensionalCapDistance.separation_le_twice_gap",
+        "OriginalThreeDimensionalCapDistance.original_separated_cap_count",
+        "OriginalThreeDimensionalCapDistance.original_euclidean_cap_band_card"
+      ],
+      "preintegration_source_sha256": "5340753bc3aa20693c687f43d6b5e8a937a062bdceb38cb3953925c72291010b",
+      "preintegration_manifest": "OriginalThreeDimensionalCapCounts.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalCapDistance.strict.log",
+      "source_sha256": "a1e761da1b33863c26e90d97ea97684e78f83bddd585dc604d49cdab9b3b924f",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalSeparatedNormals",
+      "slug": "original_three_dimensional_separated_normals",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_separated_normals.lean",
+      "declarations": [
+        "OriginalThreeDimensionalSeparatedNormals.distance3_comm",
+        "OriginalThreeDimensionalSeparatedNormals.distance3_self",
+        "OriginalThreeDimensionalSeparatedNormals.distance3_neg_right_comm",
+        "OriginalThreeDimensionalSeparatedNormals.unoriented_distance_comm",
+        "OriginalThreeDimensionalSeparatedNormals.unoriented_distance_self",
+        "OriginalThreeDimensionalSeparatedNormals.exists_symmetric_relation_net",
+        "OriginalThreeDimensionalSeparatedNormals.actual_unoriented_net",
+        "OriginalThreeDimensionalSeparatedNormals.weighted_cover_count",
+        "OriginalThreeDimensionalSeparatedNormals.original_double_cap_count",
+        "OriginalThreeDimensionalSeparatedNormals.exists_original_unoriented_separated_labels",
+        "OriginalThreeDimensionalSeparatedNormals.exists_original_unoriented_heavy_normals"
+      ],
+      "preintegration_source_sha256": "b009a22610b40bf0d72b47943c21fe2533fa29cc0343a2e3b446215207b30806",
+      "preintegration_manifest": "OriginalThreeDimensionalSeparatedNormals.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalSeparatedNormals.strict.log",
+      "source_sha256": "139e20a10a871dc4ee4e2bbfc2100d37294aaeb149ed1fbca4f40712fa82f0b3",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZOriginalAnchorCover",
+      "slug": "gkz_original_anchor_cover",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_original_anchor_cover.lean",
+      "declarations": [
+        "GKZOriginalAnchorCover.original_anchor_cover_recovery"
+      ],
+      "preintegration_source_sha256": "58cb75291cd4613a8e0212415e98a7fe86c722796a9a7d29c27b7c67d2de4d05",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZOriginalAnchorCover.strict.log",
+      "source_sha256": "946f0e5b115d9d44119e51f783176a21242c6b6d2dd89cf19a9c0a88f2b834b2",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZFiniteAnchoredPlunnecke",
+      "slug": "gkz_finite_anchored_plunnecke",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_finite_anchored_plunnecke.lean",
+      "declarations": [
+        "GKZFiniteAnchoredPlunnecke.iterated_sum_from_anchor",
+        "GKZFiniteAnchoredPlunnecke.finite_union_anchored_sum",
+        "GKZFiniteAnchoredPlunnecke.original_overlap_mixed_bounds"
+      ],
+      "preintegration_source_sha256": "1f930bb8081ec06c39558ea616e9ada78bf70bb7a4c6d3975f6cb6d2ebaa4ac3",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZFiniteAnchoredPlunnecke.strict.log",
+      "source_sha256": "1f930bb8081ec06c39558ea616e9ada78bf70bb7a4c6d3975f6cb6d2ebaa4ac3",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZOriginalProductOverlap",
+      "slug": "gkz_original_product_overlap",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_original_product_overlap.lean",
+      "declarations": [
+        "GKZOriginalProductOverlap.product_code_injective",
+        "GKZOriginalProductOverlap.mem_dilateIncidence",
+        "GKZOriginalProductOverlap.dilateCells_subset_productCells",
+        "GKZOriginalProductOverlap.original_product_incidence_mass",
+        "GKZOriginalProductOverlap.commonFiber_eq_actual_overlap",
+        "GKZOriginalProductOverlap.exists_original_popular_multiplier"
+      ],
+      "preintegration_source_sha256": "713ebf0618c6efd4834afa5d18743f67e55981d27c4b74361061d0a85865b83a",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZOriginalProductOverlap.strict.log",
+      "source_sha256": "b969cccec63bccc147ec5cd66e0196016a2eb33ba21188ba01a97f540fe94fd9",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZGridCodePerturbation",
+      "slug": "gkz_grid_code_perturbation",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_grid_code_perturbation.lean",
+      "declarations": [
+        "GKZGridCodePerturbation.floor_image_le_code_image",
+        "GKZGridCodePerturbation.code_image_le_floor_image",
+        "GKZGridCodePerturbation.bounded_dilation_floor_image"
+      ],
+      "preintegration_source_sha256": "3856f33a8d262c99ec9a967eea133f47fae574bfb220fc40a0371a1cc26f461c",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZGridCodePerturbation.strict.log",
+      "source_sha256": "7df78a9c215eb9174779efcc0a085e0c3453413567c4aa78d769ea4804588b66",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZDilateRoundedSums",
+      "slug": "gkz_dilate_rounded_sums",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_dilate_rounded_sums.lean",
+      "declarations": [
+        "GKZDilateRoundedSums.image_add_image",
+        "GKZDilateRoundedSums.image_sub_image",
+        "GKZDilateRoundedSums.original_dilate_selfsum_cover",
+        "GKZDilateRoundedSums.negative_dilate_anchor_cover"
+      ],
+      "preintegration_source_sha256": "3671d71c4067332dddc6f7f7383080e63bc7a647d7d2f3a2625b6229e2423d57",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZDilateRoundedSums.strict.log",
+      "source_sha256": "7314aaf224977616d688e1726975ce4cd47f9d4d2f5940779e0916ee0bc9ed6a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZOriginalAnchorProfile",
+      "slug": "gkz_original_anchor_profile",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_original_anchor_profile.lean",
+      "declarations": [
+        "GKZOriginalAnchorProfile.original_profile_constant_ge_one",
+        "GKZOriginalAnchorProfile.original_profile_extended",
+        "GKZOriginalAnchorProfile.original_denominator_cover_recovery",
+        "GKZOriginalAnchorProfile.original_linear_sum_radius"
+      ],
+      "preintegration_source_sha256": "4fcb3a0cdd2f8e2322df7e9b1e2c2c4bd1457ccb0ebeabba59cc6408a1e4a21e",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZOriginalAnchorProfile.strict.log",
+      "source_sha256": "349c7c0e260238dba78ef4ba5863f0286898ce72f92fc37a224b2ab51e9d446f",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZOriginalMixedDilateBounds",
+      "slug": "gkz_original_mixed_dilate_bounds",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_original_mixed_dilate_bounds.lean",
+      "declarations": [
+        "GKZOriginalMixedDilateBounds.exists_original_mixed_dilate_family"
+      ],
+      "preintegration_source_sha256": "e7284ba188cb2d7b67da29114debefe582aec12655f3e372eb89c9cda56b4098",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZOriginalMixedDilateBounds.strict.log",
+      "source_sha256": "5b68a16d357e8e79e99d8976cacaeafb50b1e0ddd1b6c0b45587d6d38eb5adb9",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZRealDilationUnion",
+      "slug": "gkz_real_dilation_union",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_real_dilation_union.lean",
+      "declarations": [
+        "GKZRealDilationUnion.rounded_dilateUnion",
+        "GKZRealDilationUnion.original_dilate_union_iterated_cover",
+        "GKZRealDilationUnion.original_gap_target_subset_nine",
+        "GKZRealDilationUnion.original_dense_target_subset_nine"
+      ],
+      "preintegration_source_sha256": "9f20928edefb236e5a9475818f9bf872479c047a71c06327ba2913cc768db3e1",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZRealDilationUnion.strict.log",
+      "source_sha256": "1b6885215bc107a7c65b45a564538205537b98cacd81a90bc64c745f943305eb",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZOriginalNineSumCover",
+      "slug": "gkz_original_nine_sum_cover",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_original_nine_sum_cover.lean",
+      "declarations": [
+        "GKZOriginalNineSumCover.gap_coefficients_are_expansion_coefficients",
+        "GKZOriginalNineSumCover.dense_coefficients_are_expansion_coefficients",
+        "GKZOriginalNineSumCover.exists_original_nine_sum_cover"
+      ],
+      "preintegration_source_sha256": "bb27cd560e9c758e9ba99a6d177168df158fc9843e297374b15b2d677bf00b93",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZOriginalNineSumCover.strict.log",
+      "source_sha256": "af9f0063d9617b8a31333fb7b605588f1ff99551647acd4edb4e1180725be4fd",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZOriginalLinearUpper",
+      "slug": "gkz_original_linear_upper",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_original_linear_upper.lean",
+      "declarations": [
+        "GKZOriginalLinearUpper.exists_original_linear_image_upper"
+      ],
+      "preintegration_source_sha256": "88a51453c948d4f8593bf46cdeeb472564d8b6b694d0c72204480510a99d747a",
+      "preintegration_manifest": "GKZOriginalUpper.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZOriginalLinearUpper.strict.log",
+      "source_sha256": "63483630d5631dd66e1601962785663b23c86d8c909a6775ab33034279af5a0e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZOriginalSumProductComparison",
+      "slug": "gkz_original_sum_product_comparison",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_original_sum_product_comparison.lean",
+      "declarations": [
+        "GKZOriginalSumProductComparison.original_sum_product_comparison"
+      ],
+      "preintegration_source_sha256": "0a9f55e7d1ba55d83b3a0159ad7bd693b3faa328c8d8639e4ded0db6e304ace1",
+      "preintegration_manifest": "GKZOriginalPositivePower.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZOriginalSumProductComparison.strict.log",
+      "source_sha256": "ccec5f329c0698731c2f7e7690151be400f6ca6ad39b1fe11e215889e21a1648",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZBalancedDyadicScale",
+      "slug": "gkz_balanced_dyadic_scale",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_balanced_dyadic_scale.lean",
+      "declarations": [
+        "GKZBalancedDyadicScale.gamma_bounds",
+        "GKZBalancedDyadicScale.gainPower_pos",
+        "GKZBalancedDyadicScale.exists_balanced_dyadic_scale"
+      ],
+      "preintegration_source_sha256": "cb62efe10f2f43415d3372c44f23be1d916f657d3a70bf50e3cb293ae4a9be31",
+      "preintegration_manifest": "GKZOriginalPositivePower.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZBalancedDyadicScale.strict.log",
+      "source_sha256": "cb62efe10f2f43415d3372c44f23be1d916f657d3a70bf50e3cb293ae4a9be31",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZOriginalPositivePower",
+      "slug": "gkz_original_positive_power",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_original_positive_power.lean",
+      "declarations": [
+        "GKZOriginalPositivePower.growthExponent_pos",
+        "GKZOriginalPositivePower.growthExponent_formula",
+        "GKZOriginalPositivePower.growthConstant_pos",
+        "GKZOriginalPositivePower.original_sum_product_positive_power",
+        "GKZOriginalPositivePower.original_sum_product_growth",
+        "GKZOriginalPositivePower.original_occupied_sum_product_growth"
+      ],
+      "preintegration_source_sha256": "9405d9b202db93ff91fff9932088bc1a4bc38a1033e7b7a6bb0ccfdf9877a0f9",
+      "preintegration_manifest": "GKZOriginalPositivePower.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZOriginalPositivePower.strict.log",
+      "source_sha256": "3809f1a7e359f341c0f53221bf545fcbc0295f4f93270a84bee9df2aa1d35c20",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GKZUniformGrowthParameters",
+      "slug": "gkz_uniform_growth_parameters",
+      "source": "Theorems/Thm_StickyKakeya4_gkz_uniform_growth_parameters.lean",
+      "declarations": [
+        "GKZUniformGrowthParameters.growthExponent_lower_on_compact",
+        "GKZUniformGrowthParameters.original_occupied_growth_uniform"
+      ],
+      "preintegration_source_sha256": "9a5b16ace23d6c063c75025d0a0566f47f0bf7ac47c2d664447b9fb93e79301d",
+      "preintegration_manifest": "GKZOriginalPositivePower.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GKZUniformGrowthParameters.strict.log",
+      "source_sha256": "2fb335be783ed2e5f1a061d1086dc1c60a52f6ef6265be0cfbe1c73e2a029f32",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeCoarseOriginalIncidences",
+      "slug": "native_coarse_original_incidences",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_original_incidences.lean",
+      "declarations": [
+        "NativeCoarseOriginalIncidences.incidences_eq_swapped_bins",
+        "NativeCoarseOriginalIncidences.mem_incidences",
+        "NativeCoarseOriginalIncidences.original_tubes_unchanged",
+        "NativeCoarseOriginalIncidences.coarse_card",
+        "NativeCoarseOriginalIncidences.original_readback",
+        "NativeCoarseOriginalIncidences.pullback_image",
+        "NativeCoarseOriginalIncidences.actual_fiber_capacity",
+        "NativeCoarseOriginalIncidences.actual_capacity",
+        "NativeCoarseOriginalIncidences.actual_density_transfer",
+        "NativeCoarseOriginalIncidences.actual_height_membership"
+      ],
+      "preintegration_source_sha256": "35d2e3cada12e2f0dbef37c0fafb1a56c7ae8bd243e6d26f4f81f804908ed8d1",
+      "preintegration_manifest": "native_original_coarse_family.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseOriginalIncidences.strict.log",
+      "source_sha256": "fb6b356f4a25dd691e76b94ad58332af0c04792b73c3a1b746e66c84ef92437b",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeCoarseOriginalGeometry",
+      "slug": "native_coarse_original_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_original_geometry.lean",
+      "declarations": [
+        "NativeCoarseOriginalGeometry.scalar_floor_center_error",
+        "NativeCoarseOriginalGeometry.spatial_rounding",
+        "NativeCoarseOriginalGeometry.height_rounding",
+        "NativeCoarseOriginalGeometry.rounded_residual",
+        "NativeCoarseOriginalGeometry.rounded_height_bound",
+        "NativeCoarseOriginalGeometry.coordinates_scale_space",
+        "NativeCoarseOriginalGeometry.coordinates_scale_height",
+        "NativeCoarseOriginalGeometry.normalized_residual",
+        "NativeCoarseOriginalGeometry.original_parent_offset_bound",
+        "NativeCoarseOriginalGeometry.normalization_pos",
+        "NativeCoarseOriginalGeometry.normalized_coordinate_box"
+      ],
+      "preintegration_source_sha256": "bb3deec3b97ff42c8da4d675cd0544cf8006607144fb0a448caa33e9fcdb9fe0",
+      "preintegration_manifest": "native_original_coarse_family.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseOriginalGeometry.strict.log",
+      "source_sha256": "6dd7877fb5a54d6a48078612b187977969a32e97872772904f85c6c1d9d23d1f",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeCoarseOriginalHeights",
+      "slug": "native_coarse_original_heights",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_original_heights.lean",
+      "declarations": [
+        "NativeCoarseOriginalHeights.integer_center_gap",
+        "NativeCoarseOriginalHeights.coordinates_injective",
+        "NativeCoarseOriginalHeights.actual_heights_separated",
+        "NativeCoarseOriginalHeights.actual_heights_box",
+        "NativeCoarseOriginalHeights.heightWindow_original_readback",
+        "NativeCoarseOriginalHeights.heightWindow_actual_diameter"
+      ],
+      "preintegration_source_sha256": "3af92943d95b474faf4d9ba0994b475d7ff81e2b062257044bee42f88c7320f3",
+      "preintegration_manifest": "native_original_coarse_family.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseOriginalHeights.strict.log",
+      "source_sha256": "f8c3854add4a899c764210926cf29b73250e4c30e2013a769cca3e5941f41bfd",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeSourceCoarseReadback",
+      "slug": "native_source_coarse_readback",
+      "source": "Theorems/Thm_StickyKakeya4_native_source_coarse_readback.lean",
+      "declarations": [
+        "NativeSourceCoarseReadback.chartFamily_card",
+        "NativeSourceCoarseReadback.originalFamily_eq",
+        "NativeSourceCoarseReadback.originalFamily_tubes",
+        "NativeSourceCoarseReadback.original_capacity",
+        "NativeSourceCoarseReadback.original_density",
+        "NativeSourceCoarseReadback.native_scale_readback",
+        "NativeSourceCoarseReadback.native_original_geometry"
+      ],
+      "preintegration_source_sha256": "332162fc9554424375147604bd2eada7410edcaabd815984918b863c1d1e5f60",
+      "preintegration_manifest": "native_original_coarse_family.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeSourceCoarseReadback.strict.log",
+      "source_sha256": "e5fa7d56d462c941afb13f389b5865ba60700023eeac071c3050ac5a41ccbfaa",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeDenseSourceCoarseFamily",
+      "slug": "native_dense_source_coarse_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_dense_source_coarse_family.lean",
+      "declarations": [
+        "NativeDenseSourceCoarseFamily.exists_actual_original_coarse_family"
+      ],
+      "preintegration_source_sha256": "c8ee37605732ea3dbda19dbb1a529f3b6c848d13e436f2feedf74723cf34a2b5",
+      "preintegration_manifest": "native_original_coarse_family.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeDenseSourceCoarseFamily.strict.log",
+      "source_sha256": "53311f237b762e675eb30ee57e229bf75c58e6c1650f8c37139daec51ad52955",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeCoverADRepresentatives",
+      "slug": "native_cover_ad_representatives",
+      "source": "Theorems/Thm_StickyKakeya4_native_cover_ad_representatives.lean",
+      "declarations": [
+        "NativeCoverADRepresentatives.exists_original_representatives",
+        "NativeCoverADRepresentatives.injective_subset_card_le_cover",
+        "NativeCoverADRepresentatives.half_grid_card",
+        "NativeCoverADRepresentatives.representative_total_upper",
+        "NativeCoverADRepresentatives.original_representatives_AD"
+      ],
+      "preintegration_source_sha256": "d48accfcea483aea4ee9a63e880c45073a08b4933bd603c0e9b8599e5534ae35",
+      "preintegration_manifest": "NativeCoverADRepresentatives.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoverADRepresentatives.strict.log",
+      "source_sha256": "ef429cdbb867e104e87a1827962557b47c05b408f79c567a53082a09aa17459e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeUnitParentNormalization",
+      "slug": "native_unit_parent_normalization",
+      "source": "Theorems/Thm_StickyKakeya4_native_unit_parent_normalization.lean",
+      "declarations": [
+        "NativeUnitParentNormalization.pointInv_pointMap",
+        "NativeUnitParentNormalization.pointMap_pointInv",
+        "NativeUnitParentNormalization.parameter_box",
+        "NativeUnitParentNormalization.map_rawFront_graph",
+        "NativeUnitParentNormalization.original_front_maps_into_padded_front",
+        "NativeUnitParentNormalization.padded_line_common_slab",
+        "NativeUnitParentNormalization.parent_slope_bound",
+        "NativeUnitParentNormalization.pointMap_dist_le",
+        "NativeUnitParentNormalization.original_tube_maps_into_padded_tube",
+        "NativeUnitParentNormalization.fixedCompactClass_compact",
+        "NativeUnitParentNormalization.padded_line_mem_fixedCompactClass"
+      ],
+      "preintegration_source_sha256": "01f53907d524ada95e715a539188461e0fbf26d67aa3381f244ab13e722a33d4",
+      "preintegration_manifest": "native_unit_parent_normalization_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeUnitParentNormalization.strict.log",
+      "source_sha256": "1335b2cd6fbc9bb80c68a33536ee74a2306591e8aa8c64d144682684adc54fa0",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeUnitParentVolume",
+      "slug": "native_unit_parent_volume",
+      "source": "Theorems/Thm_StickyKakeya4_native_unit_parent_volume.lean",
+      "declarations": [
+        "NativeUnitParentVolume.matrix_det",
+        "NativeUnitParentVolume.linearPart_det",
+        "NativeUnitParentVolume.rawLinear_apply",
+        "NativeUnitParentVolume.linearPart_apply",
+        "NativeUnitParentVolume.pointMap_eq_linear_add",
+        "NativeUnitParentVolume.continuous_pointMap",
+        "NativeUnitParentVolume.continuous_pointInv",
+        "NativeUnitParentVolume.measurableSet_image",
+        "NativeUnitParentVolume.volume_image",
+        "NativeUnitParentVolume.volume_preimage",
+        "NativeUnitParentVolume.convex_preimage"
+      ],
+      "preintegration_source_sha256": "aaebb665923b878d1e90199ad9afd46b7449f351556dca7061817979f54dbfbc",
+      "preintegration_manifest": "native_unit_parent_normalization_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeUnitParentVolume.strict.log",
+      "source_sha256": "61a9d43a7a49ead4d58937a266b9171bdfa95aab01f8ebd1a648c6b21f99b909",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeDenseRetainedUnitParent",
+      "slug": "native_dense_retained_unit_parent",
+      "source": "Theorems/Thm_StickyKakeya4_native_dense_retained_unit_parent.lean",
+      "declarations": [
+        "NativeDenseRetainedUnitParent.realShadingMass_eq_toReal",
+        "NativeDenseRetainedUnitParent.exists_dense_retained_parent",
+        "NativeDenseRetainedUnitParent.realTubeMass_pos",
+        "NativeDenseRetainedUnitParent.exists_dense_retained_volume_parent",
+        "NativeDenseRetainedUnitParent.retained_parent_density"
+      ],
+      "preintegration_source_sha256": "1a0232c0486d78f2daffe71f92a4ae7a183ef7cb2d4cc0e43484645bbf9e88ca",
+      "preintegration_manifest": "native_unit_parent_normalization_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeDenseRetainedUnitParent.strict.log",
+      "source_sha256": "79e91420b83ffd4ffb4a117cbdf52e341b8df8916c96dd8e423a1edb7540207e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeUnitParentShadings",
+      "slug": "native_unit_parent_shadings",
+      "source": "Theorems/Thm_StickyKakeya4_native_unit_parent_shadings.lean",
+      "declarations": [
+        "NativeUnitParentShadings.shading_measurable",
+        "NativeUnitParentShadings.shading_subset_tube",
+        "NativeUnitParentShadings.shading_sum_volume",
+        "NativeUnitParentShadings.shading_union_volume",
+        "NativeUnitParentShadings.original_CW_to_padded",
+        "NativeUnitParentShadings.padded_tube_volume_le_original"
+      ],
+      "preintegration_source_sha256": "30e6ac4c0b1b2782332c283973b92fa25951dc7184ab2e985e5a749fdedc3983",
+      "preintegration_manifest": "native_unit_parent_normalization_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeUnitParentShadings.strict.log",
+      "source_sha256": "35511df8cd04870a7e246671b1c965b78985da200e4e175cd80d640aab4726ad",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeUnitParentDyadic",
+      "slug": "native_unit_parent_dyadic",
+      "source": "Theorems/Thm_StickyKakeya4_native_unit_parent_dyadic.lean",
+      "declarations": [
+        "NativeUnitParentDyadic.floor_sub_integer_mul",
+        "NativeUnitParentDyadic.parameterLabel_eq_projection",
+        "NativeUnitParentDyadic.projection_mem_box",
+        "NativeUnitParentDyadic.projectionBox_card",
+        "NativeUnitParentDyadic.parameter_fiber_bounds",
+        "NativeUnitParentDyadic.unit_parent_fiber_eq"
+      ],
+      "preintegration_source_sha256": "c6a20a40ef2f6ecf19a36d7e5f5def8aebdd7f3b2b6bf1e71fb5066d9c7e2153",
+      "preintegration_manifest": "native_unit_parent_normalization_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeUnitParentDyadic.strict.log",
+      "source_sha256": "1914aa843e26ad578e91fc3451163fc5d9411f9ea021c75da94ebe0489cbf7dd",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeUnitParentDirections",
+      "slug": "native_unit_parent_directions",
+      "source": "Theorems/Thm_StickyKakeya4_native_unit_parent_directions.lean",
+      "declarations": [
+        "NativeUnitParentDirections.slope_newLine",
+        "NativeUnitParentDirections.slope_sub_le_direction_dist",
+        "NativeUnitParentDirections.normalized_direction_separation"
+      ],
+      "preintegration_source_sha256": "80a4bc75aae82b1ce8fe3ff05cee6aaac7096c953c4f769e57b8727b69ae73e3",
+      "preintegration_manifest": "native_unit_parent_normalization_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeUnitParentDirections.strict.log",
+      "source_sha256": "546196e5c6d9e98bdac0364820990151a6f59307074641289789762b6f638bad",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeDenseNormalizedParent",
+      "slug": "native_dense_normalized_parent",
+      "source": "Theorems/Thm_StickyKakeya4_native_dense_normalized_parent.lean",
+      "declarations": [
+        "NativeDenseNormalizedParent.realNormalizedShadingMass_eq",
+        "NativeDenseNormalizedParent.realPaddedTubeMass_le",
+        "NativeDenseNormalizedParent.exists_dense_normalized_parent"
+      ],
+      "preintegration_source_sha256": "3a4632bb73bea61dcb106f4dd5f04dfdb89e8312bd79c45eaaa75910ac5d06ea",
+      "preintegration_manifest": "native_unit_parent_normalization_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeDenseNormalizedParent.strict.log",
+      "source_sha256": "7fc63d1ed45d190929fea621413c0bc793038535645be764781a35bbe890a101",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalCrossGeometry",
+      "slug": "original_three_dimensional_cross_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_cross_geometry.lean",
+      "declarations": [
+        "OriginalThreeDimensionalCrossGeometry.norm_sq_coordinates",
+        "OriginalThreeDimensionalCrossGeometry.norm_sq_nonneg",
+        "OriginalThreeDimensionalCrossGeometry.distance_squared_dot",
+        "OriginalThreeDimensionalCrossGeometry.distance_squared_difference",
+        "OriginalThreeDimensionalCrossGeometry.original_projective_gap_cross_coordinate",
+        "OriginalThreeDimensionalCrossGeometry.original_cross_bound_physical_tube"
+      ],
+      "preintegration_source_sha256": "5e553b15441072b9d079e3ddb8b644b82e798e0f0fe2139b8f6a76166517870f",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_SLAB_OVERLAP_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalCrossGeometry.strict.log",
+      "source_sha256": "b5dad6a5e239f3116b60e4c4690ed42769ef270ac6699109e6a8b49d9ef5f3c3",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalSlabOverlap",
+      "slug": "original_three_dimensional_slab_overlap",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_slab_overlap.lean",
+      "declarations": [
+        "OriginalThreeDimensionalSlabOverlap.original_cross_normal_minor_bound",
+        "OriginalThreeDimensionalSlabOverlap.original_cramer_cross_bound",
+        "OriginalThreeDimensionalSlabOverlap.original_two_slabs_force_pair_tube",
+        "OriginalThreeDimensionalSlabOverlap.original_shared_slab_point_forces_close_normals"
+      ],
+      "preintegration_source_sha256": "d2a82c4571dc16c9bfba36680a7f18a57948f3c2dba56bf8025c093523839760",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_SLAB_OVERLAP_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalSlabOverlap.strict.log",
+      "source_sha256": "b7164d4219d3f85e1561aff8b6609fa8db8da298cca94d47086a112f9da7ca3c",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalNarrowSlabOverlap",
+      "slug": "original_three_dimensional_narrow_slab_overlap",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_narrow_slab_overlap.lean",
+      "declarations": [
+        "OriginalThreeDimensionalNarrowSlabOverlap.original_weighted_cramer_bound",
+        "OriginalThreeDimensionalNarrowSlabOverlap.original_narrow_slabs_force_pair_tube",
+        "OriginalThreeDimensionalNarrowSlabOverlap.original_shared_narrow_slab_point_forces_close_normals"
+      ],
+      "preintegration_source_sha256": "307c81540a86abb84ac0e98ca6a577db06af22b41a08fe01d3c7618dea6838fe",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_NARROW_ANNULAR_CHARGE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalNarrowSlabOverlap.strict.log",
+      "source_sha256": "38874912c6492750180a7226c007cc75b63568ec48dac71fd94ca600aab2da76",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalAnnularSlabCharge",
+      "slug": "original_three_dimensional_annular_slab_charge",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_annular_slab_charge.lean",
+      "declarations": [
+        "OriginalThreeDimensionalAnnularSlabCharge.original_separated_slab_annuli_disjoint",
+        "OriginalThreeDimensionalAnnularSlabCharge.original_separated_annular_slab_sum"
+      ],
+      "preintegration_source_sha256": "4c2ce2b3543df088e8cdc8e7f9d2c8605be3e8d21546092cc423ac9ae2e43e76",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_NARROW_ANNULAR_CHARGE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalAnnularSlabCharge.strict.log",
+      "source_sha256": "d98f0223f5da3ff4be35e56fca52c771f70086927884b95a8cbd48d45257f83a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalMiddleSliceBranch",
+      "slug": "original_three_dimensional_middle_slice_branch",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_middle_slice_branch.lean",
+      "declarations": [
+        "OriginalThreeDimensionalMiddleSliceBranch.original_selected_middle_slice_population"
+      ],
+      "preintegration_source_sha256": "9bd8ddd262d082d1fc20203f7540d5673ac26586c1259c7f3587313aebd9e471",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_MIDDLE_SLICE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalMiddleSliceBranch.strict.log",
+      "source_sha256": "7d65d977debb2709f3f39c1fdc92c8a16f6245c8f401d724e5b32f3085fb33a2",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalTubeParameters",
+      "slug": "original_three_dimensional_tube_parameters",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_tube_parameters.lean",
+      "declarations": [
+        "OriginalThreeDimensionalTubeParameters.original_slope_bound",
+        "OriginalThreeDimensionalTubeParameters.original_line_graph",
+        "OriginalThreeDimensionalTubeParameters.original_graph_point",
+        "OriginalThreeDimensionalTubeParameters.original_tube_graph_residual",
+        "OriginalThreeDimensionalTubeParameters.original_parameter_cell_error",
+        "OriginalThreeDimensionalTubeParameters.original_parameter_tube_transfer"
+      ],
+      "preintegration_source_sha256": "fa6d47f9e61e8c0596b591e218a11d967a498d31f84d0c744c9a25db4b8935e5",
+      "preintegration_manifest": "OriginalThreeDimensionalTubeFamily.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalTubeParameters.strict.log",
+      "source_sha256": "96c1d851092a6b9cf9595515e93638c6772a535e45613ef8ab63fe2a70774c16",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalPairTubeFamily",
+      "slug": "original_three_dimensional_pair_tube_family",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_pair_tube_family.lean",
+      "declarations": [
+        "OriginalThreeDimensionalPairTubeFamily.original_endpoints_mem_tube",
+        "OriginalThreeDimensionalPairTubeFamily.original_parameter_pair_fiber",
+        "OriginalThreeDimensionalPairTubeFamily.exists_original_parameter_tube_family"
+      ],
+      "preintegration_source_sha256": "c8c9fa92289e9116007ac7592efcb3d170e1934a7ab3ce40e901eaba5f9de9eb",
+      "preintegration_manifest": "OriginalThreeDimensionalTubeFamily.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalPairTubeFamily.strict.log",
+      "source_sha256": "a906092c66b24b8a2f7c3a4eaed9e123be68abc029910b5bb2a380b294aed72b",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalCommonChart",
+      "slug": "original_three_dimensional_common_chart",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_common_chart.lean",
+      "declarations": [
+        "OriginalThreeDimensionalCommonChart.exists_original_common_chart",
+        "OriginalThreeDimensionalCommonChart.exists_original_common_chart_tube_family"
+      ],
+      "preintegration_source_sha256": "3691766de88b484fffa42fa4584b85d0bffff63abe719dc82ad5d6bacfc93d5c",
+      "preintegration_manifest": "OriginalThreeDimensionalTubeFamily.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalCommonChart.strict.log",
+      "source_sha256": "0f76f862ef16e30df99c50614bdb2fd8daecf45aa313630e69ff366bd11045ec",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalTubeParameterIntegerCount",
+      "slug": "original_tube_parameter_integer_count",
+      "source": "Theorems/Thm_StickyKakeya4_original_tube_parameter_integer_count.lean",
+      "declarations": [
+        "OriginalTubeParameterIntegerCount.floor_mesh_error",
+        "OriginalTubeParameterIntegerCount.three_fixed_coordinate_mass"
+      ],
+      "preintegration_source_sha256": "22e6e675586f6927fb0da17f09557896901e945666bbe0237b1a4f33c7dde63b",
+      "preintegration_manifest": "OriginalThreeDimensionalTubeIncidenceEnergy.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalTubeParameterIntegerCount.strict.log",
+      "source_sha256": "f0473be45a016bcc8066ac6fc19e4c0e677b031c5271f1184fe5d1368b71e240",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalTubeIncidenceEnergy",
+      "slug": "original_three_dimensional_tube_incidence_energy",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_tube_incidence_energy.lean",
+      "declarations": [
+        "OriginalTubeGraphPairGeometry.original_box_distance_le_four",
+        "OriginalTubeGraphPairGeometry.graph_pair_residual",
+        "OriginalTubeGraphPairGeometry.graph_separation_large_coordinate",
+        "OriginalTubeGraphPairGeometry.graph_slope_concentration",
+        "OriginalThreeDimensionalTubePairCount.graph_offset_floor_residual",
+        "OriginalThreeDimensionalTubePairCount.original_slope_self",
+        "OriginalThreeDimensionalTubePairCount.original_offset_self",
+        "OriginalThreeDimensionalTubePairCount.original_offset_fiber_card",
+        "OriginalThreeDimensionalTubePairCount.original_parameter_count_from_slope_bins",
+        "OriginalThreeDimensionalTubePairCount.original_two_point_tube_count",
+        "OriginalThreeDimensionalTubePairCount.original_tubes_through_pair_card",
+        "OriginalThreeDimensionalPairEnergy.dyadic_radius_pos",
+        "OriginalThreeDimensionalPairEnergy.dyadic_radius_successor",
+        "OriginalThreeDimensionalPairEnergy.exists_original_dyadic_terminal",
+        "OriginalThreeDimensionalPairEnergy.inverse_square_kernel_nonneg",
+        "OriginalThreeDimensionalPairEnergy.inverse_square_kernel_le_mesh",
+        "OriginalThreeDimensionalPairEnergy.inverse_square_kernel_step",
+        "OriginalThreeDimensionalPairEnergy.inverse_square_dyadic_majorant",
+        "OriginalThreeDimensionalPairEnergy.original_point_inverse_square_energy",
+        "OriginalThreeDimensionalPairEnergy.original_pair_inverse_square_energy",
+        "OriginalThreeDimensionalTubeFamilyEnergy.original_tube_square_sum_swap",
+        "OriginalThreeDimensionalTubeFamilyEnergy.original_tube_family_square_energy",
+        "OriginalThreeDimensionalTubeFamilyEnergy.original_rich_tube_family_card"
+      ],
+      "preintegration_source_sha256": "60593048e4a40fdc7ca28e1adefba397c52681165ccef3a669fd3516f0571283",
+      "preintegration_manifest": "OriginalThreeDimensionalTubeIncidenceEnergy.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalTubeIncidenceEnergy.strict.log",
+      "source_sha256": "993c620029371cd5d6a0558e04a716ba892434d61f82c2a289f8ee97411abf1a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalHeavyCubeShading",
+      "slug": "original_three_dimensional_heavy_cube_shading",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_heavy_cube_shading.lean",
+      "declarations": [
+        "OriginalThreeDimensionalTubeCells.original_pair_tube_cell_count",
+        "OriginalThreeDimensionalTubeCells.original_cell_distance",
+        "OriginalThreeDimensionalHeavyCubes.original_heavy_cube_budget",
+        "OriginalThreeDimensionalHeavyCubes.original_light_cube_loss",
+        "OriginalThreeDimensionalHeavyCubes.original_rich_tube_kept_mass",
+        "OriginalThreeDimensionalHeavyCubes.original_cube_two_frostman",
+        "OriginalThreeDimensionalHeavyCubes.original_rich_tube_heavy_cube_shading",
+        "OriginalThreeDimensionalTubeCells.original_same_cell_tube_transfer",
+        "OriginalThreeDimensionalHeavyCubes.exists_original_global_heavy_cube_shading"
+      ],
+      "preintegration_source_sha256": "b3e5d2811e4fbb9633615eca893d95cbaedb1aef566efd83ff7f1e3f07aa1a93",
+      "preintegration_manifest": "OriginalThreeDimensionalHeavyCubeShading.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalHeavyCubeShading.strict.log",
+      "source_sha256": "7ed5be221ce3ca3afe6aadbb071d1a8eeeb9997e388eeb5de5f82dc01b11ead7",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.integer_interval_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.weighted_fiber_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.rectangle_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.band_integer_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.first_coefficient_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.rectangle_band_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.point_gap_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.point_gap_chart_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.original_normal_cap_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.original_cap_band_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.unit_center_components",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapCount.original_unit_cap_band_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapDistance.point_gap_coordinate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapDistance.separation_le_twice_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapDistance.original_separated_cap_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCapDistance.original_euclidean_cap_band_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.distance3_comm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.distance3_self",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.distance3_neg_right_comm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.unoriented_distance_comm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.unoriented_distance_self",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.exists_symmetric_relation_net",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.actual_unoriented_net",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.weighted_cover_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.original_double_cap_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.exists_original_unoriented_separated_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSeparatedNormals.exists_original_unoriented_heavy_normals",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalAnchorCover.original_anchor_cover_recovery",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZFiniteAnchoredPlunnecke.iterated_sum_from_anchor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZFiniteAnchoredPlunnecke.finite_union_anchored_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZFiniteAnchoredPlunnecke.original_overlap_mixed_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalProductOverlap.product_code_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalProductOverlap.mem_dilateIncidence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalProductOverlap.dilateCells_subset_productCells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalProductOverlap.original_product_incidence_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalProductOverlap.commonFiber_eq_actual_overlap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalProductOverlap.exists_original_popular_multiplier",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZGridCodePerturbation.floor_image_le_code_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZGridCodePerturbation.code_image_le_floor_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZGridCodePerturbation.bounded_dilation_floor_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZDilateRoundedSums.image_add_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZDilateRoundedSums.image_sub_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZDilateRoundedSums.original_dilate_selfsum_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZDilateRoundedSums.negative_dilate_anchor_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalAnchorProfile.original_profile_constant_ge_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalAnchorProfile.original_profile_extended",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalAnchorProfile.original_denominator_cover_recovery",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalAnchorProfile.original_linear_sum_radius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalMixedDilateBounds.exists_original_mixed_dilate_family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZRealDilationUnion.rounded_dilateUnion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZRealDilationUnion.original_dilate_union_iterated_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZRealDilationUnion.original_gap_target_subset_nine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZRealDilationUnion.original_dense_target_subset_nine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalNineSumCover.gap_coefficients_are_expansion_coefficients",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalNineSumCover.dense_coefficients_are_expansion_coefficients",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalNineSumCover.exists_original_nine_sum_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalLinearUpper.exists_original_linear_image_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalSumProductComparison.original_sum_product_comparison",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZBalancedDyadicScale.gamma_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZBalancedDyadicScale.gainPower_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZBalancedDyadicScale.exists_balanced_dyadic_scale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalPositivePower.growthExponent_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalPositivePower.growthExponent_formula",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalPositivePower.growthConstant_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalPositivePower.original_sum_product_positive_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalPositivePower.original_sum_product_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZOriginalPositivePower.original_occupied_sum_product_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZUniformGrowthParameters.growthExponent_lower_on_compact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "GKZUniformGrowthParameters.original_occupied_growth_uniform",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.incidences_eq_swapped_bins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.mem_incidences",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.original_tubes_unchanged",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.coarse_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.original_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.pullback_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.actual_fiber_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.actual_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.actual_density_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalIncidences.actual_height_membership",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.scalar_floor_center_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.spatial_rounding",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.height_rounding",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.rounded_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.rounded_height_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.coordinates_scale_space",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.coordinates_scale_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.normalized_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.original_parent_offset_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.normalization_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalGeometry.normalized_coordinate_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalHeights.integer_center_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalHeights.coordinates_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalHeights.actual_heights_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalHeights.actual_heights_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalHeights.heightWindow_original_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoarseOriginalHeights.heightWindow_actual_diameter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeSourceCoarseReadback.chartFamily_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeSourceCoarseReadback.originalFamily_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeSourceCoarseReadback.originalFamily_tubes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeSourceCoarseReadback.original_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeSourceCoarseReadback.original_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeSourceCoarseReadback.native_scale_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeSourceCoarseReadback.native_original_geometry",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDenseSourceCoarseFamily.exists_actual_original_coarse_family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoverADRepresentatives.exists_original_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoverADRepresentatives.injective_subset_card_le_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoverADRepresentatives.half_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoverADRepresentatives.representative_total_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeCoverADRepresentatives.original_representatives_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.pointInv_pointMap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.pointMap_pointInv",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.parameter_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.map_rawFront_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.original_front_maps_into_padded_front",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.padded_line_common_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.parent_slope_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.pointMap_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.original_tube_maps_into_padded_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.fixedCompactClass_compact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentNormalization.padded_line_mem_fixedCompactClass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.matrix_det",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.linearPart_det",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.rawLinear_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.linearPart_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.pointMap_eq_linear_add",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.continuous_pointMap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.continuous_pointInv",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.measurableSet_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.volume_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.volume_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentVolume.convex_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDenseRetainedUnitParent.realShadingMass_eq_toReal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDenseRetainedUnitParent.exists_dense_retained_parent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDenseRetainedUnitParent.realTubeMass_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDenseRetainedUnitParent.exists_dense_retained_volume_parent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDenseRetainedUnitParent.retained_parent_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentShadings.shading_measurable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentShadings.shading_subset_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentShadings.shading_sum_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentShadings.shading_union_volume",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentShadings.original_CW_to_padded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentShadings.padded_tube_volume_le_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentDyadic.floor_sub_integer_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentDyadic.parameterLabel_eq_projection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentDyadic.projection_mem_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentDyadic.projectionBox_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentDyadic.parameter_fiber_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentDyadic.unit_parent_fiber_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentDirections.slope_newLine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentDirections.slope_sub_le_direction_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeUnitParentDirections.normalized_direction_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDenseNormalizedParent.realNormalizedShadingMass_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDenseNormalizedParent.realPaddedTubeMass_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDenseNormalizedParent.exists_dense_normalized_parent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCrossGeometry.norm_sq_coordinates",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCrossGeometry.norm_sq_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCrossGeometry.distance_squared_dot",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCrossGeometry.distance_squared_difference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCrossGeometry.original_projective_gap_cross_coordinate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCrossGeometry.original_cross_bound_physical_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSlabOverlap.original_cross_normal_minor_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSlabOverlap.original_cramer_cross_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSlabOverlap.original_two_slabs_force_pair_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSlabOverlap.original_shared_slab_point_forces_close_normals",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalNarrowSlabOverlap.original_weighted_cramer_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalNarrowSlabOverlap.original_narrow_slabs_force_pair_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalNarrowSlabOverlap.original_shared_narrow_slab_point_forces_close_normals",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalAnnularSlabCharge.original_separated_slab_annuli_disjoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalAnnularSlabCharge.original_separated_annular_slab_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalMiddleSliceBranch.original_selected_middle_slice_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeParameters.original_slope_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeParameters.original_line_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeParameters.original_graph_point",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeParameters.original_tube_graph_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeParameters.original_parameter_cell_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeParameters.original_parameter_tube_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairTubeFamily.original_endpoints_mem_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairTubeFamily.original_parameter_pair_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairTubeFamily.exists_original_parameter_tube_family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCommonChart.exists_original_common_chart",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCommonChart.exists_original_common_chart_tube_family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeParameterIntegerCount.floor_mesh_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeParameterIntegerCount.three_fixed_coordinate_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeGraphPairGeometry.original_box_distance_le_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeGraphPairGeometry.graph_pair_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeGraphPairGeometry.graph_separation_large_coordinate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeGraphPairGeometry.graph_slope_concentration",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubePairCount.graph_offset_floor_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubePairCount.original_slope_self",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubePairCount.original_offset_self",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubePairCount.original_offset_fiber_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubePairCount.original_parameter_count_from_slope_bins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubePairCount.original_two_point_tube_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubePairCount.original_tubes_through_pair_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairEnergy.dyadic_radius_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairEnergy.dyadic_radius_successor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairEnergy.exists_original_dyadic_terminal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairEnergy.inverse_square_kernel_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairEnergy.inverse_square_kernel_le_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairEnergy.inverse_square_kernel_step",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairEnergy.inverse_square_dyadic_majorant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairEnergy.original_point_inverse_square_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPairEnergy.original_pair_inverse_square_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeFamilyEnergy.original_tube_square_sum_swap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeFamilyEnergy.original_tube_family_square_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeFamilyEnergy.original_rich_tube_family_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeCells.original_pair_tube_cell_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeCells.original_cell_distance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHeavyCubes.original_heavy_cube_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHeavyCubes.original_light_cube_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHeavyCubes.original_rich_tube_kept_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHeavyCubes.original_cube_two_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHeavyCubes.original_rich_tube_heavy_cube_shading",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTubeCells.original_same_cell_tube_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHeavyCubes.exists_original_global_heavy_cube_shading",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-sum-product-hairbrush-axioms.log"
+    }
+  ],
+  "declaration_count": 215,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_log": "verification/wz-original-sum-product-hairbrush-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9430,
+    "log": "verification/wz721-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "module_count": 721,
+    "source_base_tree": "7223edac338e671af2f4aa20b05e19b62aa0926d",
+    "source_snapshot": "verification/wz721-source-snapshot.json",
+    "scope": "Full 721-module default build; previous 680 source hashes unchanged"
+  },
+  "current_module_count": 721,
+  "prior_680_module_hashes_unchanged": true,
+  "scope_note": "docs/WZ_ORIGINAL_SUM_PRODUCT_AND_HAIRBRUSH_DATA.md",
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+}

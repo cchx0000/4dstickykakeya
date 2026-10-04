@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_planar_lemma53
+
+#print axioms NativePlanarLemma53.nearAlignment_to_original_points
+#print axioms NativePlanarLemma53.native_planar_lemma53
+#print axioms NativePlanarLemma53.quarter_square_diameter
+#print axioms NativePlanarLemma53.native_quarter_square_lemma53

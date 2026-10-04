@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_a2_dilated_parameters
+
+#print axioms NativeA2DilatedParameters.dilated_geometric_scales
+#print axioms NativeA2DilatedParameters.transverse_constant_power_identity
+#print axioms NativeA2DilatedParameters.dilated_power_budget
+#print axioms NativeA2DilatedParameters.exists_dilated_native_threshold

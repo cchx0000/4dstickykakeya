@@ -1,0 +1,1831 @@
+{
+  "generated_at_utc": "2026-10-03T21:31:51.578236+00:00",
+  "base_tree": "7d797b3fb9020821b2036ff49eb56eeac88a0102",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_symmetry_set_difference_step.lean": "f189e65fa2098291da9becf3303468e0a3e19a430699b6130c4284ac67f8f7dd",
+    "Theorems/Thm_StickyKakeya4_dyadic_original_fiber_selection.lean": "bd6e873391cab4e726790af18247e3a354c86fe98cfdf02a4046dcd46de995fd",
+    "Theorems/Thm_StickyKakeya4_symmetry_difference_growth_chain.lean": "5418ba03112ff2def68cf90f9b8a3657f97217efed127d11db376138b3b12782",
+    "Theorems/Thm_StickyKakeya4_balanced_bsg_iteration_core.lean": "7a498b00e4d174edfc8868e303e3e608e9ca10ca0ec9eb432002c0455b02ebc2",
+    "Theorems/Thm_StickyKakeya4_balanced_bsg_polynomial_loss.lean": "cea1eca3c6c4cc0d0f987aa7d65fd2935f0f814b0cf7612830549e5a006febe6",
+    "Theorems/Thm_StickyKakeya4_original_difference_translate_pullback.lean": "7bf7036b281eb7d5041381f7cd7bf23d4274fe9ca5c3629b6a750deae627a304",
+    "Theorems/Thm_StickyKakeya4_iterated_difference_translate_pullback.lean": "68ee058f9352e5dc62524feb6141c4e06f2fee995af97a0814bdac2547d43eab",
+    "Theorems/Thm_StickyKakeya4_disjoint_rich_translate_cover.lean": "fa2cb41bc72fdf8b3564a70ee57f8af4906382642381abb780ff8d3a33cb5a1f",
+    "Theorems/Thm_StickyKakeya4_slow_symmetry_balanced_core.lean": "edd954a07194918f19e951514b97155abd99f41f9c3d5af3f74b2f5d349464c7",
+    "Theorems/Thm_StickyKakeya4_chain_original_core_pullback.lean": "26b8eeb7dbe592b592b632641883ef74bd8610b73be11791d84c7f6c5cb9b45d",
+    "Theorems/Thm_StickyKakeya4_difference_core_iterated_cover.lean": "92f217ef932b786514c2241ae91ea2c433dfbf621d3549f908509bf1eaa261f3",
+    "Theorems/Thm_StickyKakeya4_rich_symmetry_translate_centers.lean": "3339e779019f6a7a546b02cf75c276fef4f373852b329ad038090b5eb2669ed2",
+    "Theorems/Thm_StickyKakeya4_asymmetric_original_subset_assembly.lean": "56e0f5d318b7c206e0d808328e582b8658b8f08443bb0fd0953da831ed9dfa86",
+    "Theorems/Thm_StickyKakeya4_symmetry_chain_uniform_density.lean": "681b907ceeb4eadf9e7cf12546be2dd86d549b9b0bee5c2e80990dfaa054e7b1",
+    "Theorems/Thm_StickyKakeya4_symmetry_slow_factor_budget.lean": "50dc8568629c24aee3da2e6ff2747104f6e875fed67491869f2f2a854d80833e",
+    "Theorems/Thm_StickyKakeya4_shifted_label_energy.lean": "a8bd0799e040f716cec8fe1dbd7f8a4ae367a6329a5837995c8fc2def5d059c2",
+    "Theorems/Thm_StickyKakeya4_actual_rounded_additive_energy.lean": "2ed9d4bec2e9319406a2910dbb9f5dc46fa8a039e6fac26a9c2d746379562761",
+    "Theorems/Thm_StickyKakeya4_rounded_iterated_cover_transfer.lean": "e1c64d10019d82e59f3f89a9275d33156d58f61b6b9f2610795354ef8fefc2d2",
+    "Theorems/Thm_StickyKakeya4_original_real_asymmetric_construction.lean": "8e32bd616596ada9759bbaf8f771ac5da91b8373f39fbbb880e4ec4b32c71ace",
+    "Theorems/Thm_StickyKakeya4_native_asymmetric_scale_budget.lean": "1a0cede300dbdc651e443d20215192875fae8bbde4a6b05f9a26d6ae58c67be6",
+    "Theorems/Thm_StickyKakeya4_native_asymmetric_polynomial_retention.lean": "34c458c56bdde5d135a36972672ff85d221259a21a09e2848b661c2850b72e0f",
+    "Theorems/Thm_StickyKakeya4_separated_dyadic_cardinality.lean": "d7646241e2a939dac726daff0db7e0caea13c63a18396443fe6597bd0a151a01",
+    "Theorems/Thm_StickyKakeya4_partitioned_collision_energy.lean": "b6302a1c65c9a023bea88d7d15ee2b8f22417eaeefc47ad097ac2dc25f569dbb",
+    "Theorems/Thm_StickyKakeya4_asymmetric_dyadic_absorption.lean": "218b990f557dda87085a2fc5b36c3eafc06de5118ff128a39a74d9cb90f8f07c"
+  },
+  "new_modules": [
+    {
+      "short": "SymmetrySetDifferenceStep",
+      "slug": "symmetry_set_difference_step",
+      "source": "Theorems/Thm_StickyKakeya4_symmetry_set_difference_step.lean",
+      "source_sha256": "f189e65fa2098291da9becf3303468e0a3e19a430699b6130c4284ac67f8f7dd",
+      "readback": "verification/SymmetrySetDifferenceStepReadback.lean",
+      "declarations": [
+        "SymmetrySetDifferenceStep.overlap_subset",
+        "SymmetrySetDifferenceStep.overlap_card_le",
+        "SymmetrySetDifferenceStep.mem_symmetrySet_iff",
+        "SymmetrySetDifferenceStep.incidence_sum",
+        "SymmetrySetDifferenceStep.incidence_second_moment",
+        "SymmetrySetDifferenceStep.common_witnesses_card_le",
+        "SymmetrySetDifferenceStep.second_moment_le_energy",
+        "SymmetrySetDifferenceStep.difference_energy_lower",
+        "SymmetrySetDifferenceStep.overlap_sum_le_square",
+        "SymmetrySetDifferenceStep.symmetry_family_card_bound",
+        "SymmetrySetDifferenceStep.symmetrySet_card_bound",
+        "SymmetrySetDifferenceStep.difference_energy_upper",
+        "SymmetrySetDifferenceStep.good_pairs_lower",
+        "SymmetrySetDifferenceStep.good_pairs_difference_image_subset",
+        "SymmetrySetDifferenceStep.symmetrySet_card_mul_bound",
+        "SymmetrySetDifferenceStep.good_pairs_lower_of_energy",
+        "SymmetrySetDifferenceStep.additive_fiber_card",
+        "SymmetrySetDifferenceStep.differenceEnergy_eq_addEnergy",
+        "SymmetrySetDifferenceStep.good_pairs_lower_of_addEnergy"
+      ]
+    },
+    {
+      "short": "DyadicOriginalFiberSelection",
+      "slug": "dyadic_original_fiber_selection",
+      "source": "Theorems/Thm_StickyKakeya4_dyadic_original_fiber_selection.lean",
+      "source_sha256": "bd6e873391cab4e726790af18247e3a354c86fe98cfdf02a4046dcd46de995fd",
+      "readback": "verification/DyadicOriginalFiberSelectionReadback.lean",
+      "declarations": [
+        "DyadicOriginalFiberSelection.fiber_card_pos",
+        "DyadicOriginalFiberSelection.fiber_sum",
+        "DyadicOriginalFiberSelection.level_lt",
+        "DyadicOriginalFiberSelection.bin_saturated",
+        "DyadicOriginalFiberSelection.fiber_bin_eq",
+        "DyadicOriginalFiberSelection.bin_fiber_bounds",
+        "DyadicOriginalFiberSelection.bin_card_sum",
+        "DyadicOriginalFiberSelection.exists_dyadic_bin",
+        "DyadicOriginalFiberSelection.bin_half_average",
+        "DyadicOriginalFiberSelection.exists_original_fiber_refinement",
+        "DyadicOriginalFiberSelection.exists_original_fiber_refinement_real",
+        "DyadicOriginalFiberSelection.levelCount_eq_log2",
+        "DyadicOriginalFiberSelection.fiber_eq_of_saturated",
+        "DyadicOriginalFiberSelection.exists_refined_good_pairs",
+        "DyadicOriginalFiberSelection.exists_refined_symmetry_pairs",
+        "DyadicOriginalFiberSelection.exists_refined_pairs_of_addEnergy"
+      ]
+    },
+    {
+      "short": "SymmetryDifferenceGrowthChain",
+      "slug": "symmetry_difference_growth_chain",
+      "source": "Theorems/Thm_StickyKakeya4_symmetry_difference_growth_chain.lean",
+      "source_sha256": "5418ba03112ff2def68cf90f9b8a3657f97217efed127d11db376138b3b12782",
+      "readback": "verification/SymmetryDifferenceGrowthChainReadback.lean",
+      "declarations": [
+        "SymmetryDifferenceGrowthChain.threshold_pos",
+        "SymmetryDifferenceGrowthChain.threshold_formula",
+        "SymmetryDifferenceGrowthChain.exists_step_of_energy",
+        "SymmetryDifferenceGrowthChain.exists_step_of_symmetry",
+        "SymmetryDifferenceGrowthChain.selectedEdges_spec",
+        "SymmetryDifferenceGrowthChain.chainSet_zero",
+        "SymmetryDifferenceGrowthChain.chainSet_succ",
+        "SymmetryDifferenceGrowthChain.chain_steps",
+        "SymmetryDifferenceGrowthChain.chain_nonempty",
+        "SymmetryDifferenceGrowthChain.density_pos",
+        "SymmetryDifferenceGrowthChain.chain_edge_density",
+        "SymmetryDifferenceGrowthChain.difference_fiber_card_le",
+        "SymmetryDifferenceGrowthChain.edge_card_le_image_mul",
+        "SymmetryDifferenceGrowthChain.chain_growth_lower",
+        "SymmetryDifferenceGrowthChain.density_le_one",
+        "SymmetryDifferenceGrowthChain.chain_card_upper",
+        "SymmetryDifferenceGrowthChain.chain_fiber_lower",
+        "SymmetryDifferenceGrowthChain.threshold_le_one_of_energy",
+        "SymmetryDifferenceGrowthChain.density_formula",
+        "SymmetryDifferenceGrowthChain.positive_ratio_product",
+        "SymmetryDifferenceGrowthChain.terminalBound_pos",
+        "SymmetryDifferenceGrowthChain.terminal_ratio_bound",
+        "SymmetryDifferenceGrowthChain.chain_ratio_product",
+        "SymmetryDifferenceGrowthChain.exists_adjacent_ratio_le_root",
+        "SymmetryDifferenceGrowthChain.exists_slow_stage",
+        "SymmetryDifferenceGrowthChain.one_le_slowFactor"
+      ]
+    },
+    {
+      "short": "BalancedBSGIterationCore",
+      "slug": "balanced_bsg_iteration_core",
+      "source": "Theorems/Thm_StickyKakeya4_balanced_bsg_iteration_core.lean",
+      "source_sha256": "7a498b00e4d174edfc8868e303e3e608e9ca10ca0ec9eb432002c0455b02ebc2",
+      "readback": "verification/BalancedBSGIterationCoreReadback.lean",
+      "declarations": [
+        "BalancedBSGIterationCore.iterated_differences_of_small_difference",
+        "BalancedBSGIterationCore.balanced_energy_core"
+      ]
+    },
+    {
+      "short": "BalancedBSGPolynomialLoss",
+      "slug": "balanced_bsg_polynomial_loss",
+      "source": "Theorems/Thm_StickyKakeya4_balanced_bsg_polynomial_loss.lean",
+      "source_sha256": "cea1eca3c6c4cc0d0f987aa7d65fd2935f0f814b0cf7612830549e5a006febe6",
+      "readback": "verification/BalancedBSGPolynomialLossReadback.lean",
+      "declarations": [
+        "BalancedBSGPolynomialLoss.difference_constant_polynomial",
+        "BalancedBSGPolynomialLoss.growth_constant_polynomial",
+        "BalancedBSGPolynomialLoss.growth_constant_le_div"
+      ]
+    },
+    {
+      "short": "OriginalDifferenceTranslatePullback",
+      "slug": "original_difference_translate_pullback",
+      "source": "Theorems/Thm_StickyKakeya4_original_difference_translate_pullback.lean",
+      "source_sha256": "7bf7036b281eb7d5041381f7cd7bf23d4274fe9ca5c3629b6a750deae627a304",
+      "readback": "verification/OriginalDifferenceTranslatePullbackReadback.lean",
+      "declarations": [
+        "OriginalDifferenceTranslatePullback.exists_original_translate_pullback",
+        "OriginalDifferenceTranslatePullback.exists_original_translate_pullback_density"
+      ]
+    },
+    {
+      "short": "IteratedDifferenceTranslatePullback",
+      "slug": "iterated_difference_translate_pullback",
+      "source": "Theorems/Thm_StickyKakeya4_iterated_difference_translate_pullback.lean",
+      "source_sha256": "68ee058f9352e5dc62524feb6141c4e06f2fee995af97a0814bdac2547d43eab",
+      "readback": "verification/IteratedDifferenceTranslatePullbackReadback.lean",
+      "declarations": [
+        "IteratedDifferenceTranslatePullback.pullback_chain"
+      ]
+    },
+    {
+      "short": "DisjointRichTranslateCover",
+      "slug": "disjoint_rich_translate_cover",
+      "source": "Theorems/Thm_StickyKakeya4_disjoint_rich_translate_cover.lean",
+      "source_sha256": "fa2cb41bc72fdf8b3564a70ee57f8af4906382642381abb780ff8d3a33cb5a1f",
+      "readback": "verification/DisjointRichTranslateCoverReadback.lean",
+      "declarations": [
+        "DisjointRichTranslateCover.exists_disjoint_translate_cover",
+        "DisjointRichTranslateCover.exists_rich_translate_selection",
+        "DisjointRichTranslateCover.exists_rich_translate_selection_quantitative"
+      ]
+    },
+    {
+      "short": "SlowSymmetryBalancedCore",
+      "slug": "slow_symmetry_balanced_core",
+      "source": "Theorems/Thm_StickyKakeya4_slow_symmetry_balanced_core.lean",
+      "source_sha256": "edd954a07194918f19e951514b97155abd99f41f9c3d5af3f74b2f5d349464c7",
+      "readback": "verification/SlowSymmetryBalancedCoreReadback.lean",
+      "declarations": [
+        "SlowSymmetryBalancedCore.difference_collisions_le_energy",
+        "SlowSymmetryBalancedCore.original_difference_graph_energy",
+        "SlowSymmetryBalancedCore.energy_of_slow_ratio",
+        "SlowSymmetryBalancedCore.exists_balanced_chain_core"
+      ]
+    },
+    {
+      "short": "ChainOriginalCorePullback",
+      "slug": "chain_original_core_pullback",
+      "source": "Theorems/Thm_StickyKakeya4_chain_original_core_pullback.lean",
+      "source_sha256": "26b8eeb7dbe592b592b632641883ef74bd8610b73be11791d84c7f6c5cb9b45d",
+      "readback": "verification/ChainOriginalCorePullbackReadback.lean",
+      "declarations": [
+        "ChainOriginalCorePullback.pullback_original_subset"
+      ]
+    },
+    {
+      "short": "DifferenceCoreIteratedCover",
+      "slug": "difference_core_iterated_cover",
+      "source": "Theorems/Thm_StickyKakeya4_difference_core_iterated_cover.lean",
+      "source_sha256": "92f217ef932b786514c2241ae91ea2c433dfbf621d3549f908509bf1eaa261f3",
+      "readback": "verification/DifferenceCoreIteratedCoverReadback.lean",
+      "declarations": [
+        "DifferenceCoreIteratedCover.difference_core_neg",
+        "DifferenceCoreIteratedCover.difference_core_growth",
+        "DifferenceCoreIteratedCover.difference_core_difference_growth",
+        "DifferenceCoreIteratedCover.covered_iterated_sum_difference"
+      ]
+    },
+    {
+      "short": "RichSymmetryTranslateCenters",
+      "slug": "rich_symmetry_translate_centers",
+      "source": "Theorems/Thm_StickyKakeya4_rich_symmetry_translate_centers.lean",
+      "source_sha256": "3339e779019f6a7a546b02cf75c276fef4f373852b329ad038090b5eb2669ed2",
+      "readback": "verification/RichSymmetryTranslateCentersReadback.lean",
+      "declarations": [
+        "RichSymmetryTranslateCenters.translate_eq_add_singleton",
+        "RichSymmetryTranslateCenters.translate_card",
+        "RichSymmetryTranslateCenters.translated_intersection_card_le",
+        "RichSymmetryTranslateCenters.original_incidence_sum_le",
+        "RichSymmetryTranslateCenters.symmetry_overlap_sum_lower",
+        "RichSymmetryTranslateCenters.overlap_sum_upper",
+        "RichSymmetryTranslateCenters.exists_rich_centers",
+        "RichSymmetryTranslateCenters.exists_rich_centers_translate"
+      ]
+    },
+    {
+      "short": "AsymmetricOriginalSubsetAssembly",
+      "slug": "asymmetric_original_subset_assembly",
+      "source": "Theorems/Thm_StickyKakeya4_asymmetric_original_subset_assembly.lean",
+      "source_sha256": "56e0f5d318b7c206e0d808328e582b8658b8f08443bb0fd0953da831ed9dfa86",
+      "readback": "verification/AsymmetricOriginalSubsetAssemblyReadback.lean",
+      "declarations": [
+        "AsymmetricOriginalSubsetAssembly.original_subsets_from_chain_core",
+        "AsymmetricOriginalSubsetAssembly.finite_asymmetric_original_subsets"
+      ]
+    },
+    {
+      "short": "SymmetryChainUniformDensity",
+      "slug": "symmetry_chain_uniform_density",
+      "source": "Theorems/Thm_StickyKakeya4_symmetry_chain_uniform_density.lean",
+      "source_sha256": "681b907ceeb4eadf9e7cf12546be2dd86d549b9b0bee5c2e80990dfaa054e7b1",
+      "readback": "verification/SymmetryChainUniformDensityReadback.lean",
+      "declarations": [
+        "SymmetryChainUniformDensity.threshold_antitone",
+        "SymmetryChainUniformDensity.chain_card_budget",
+        "SymmetryChainUniformDensity.good_pairs_card_budget",
+        "SymmetryChainUniformDensity.chain_level_count_budget",
+        "SymmetryChainUniformDensity.common_density_lower",
+        "SymmetryChainUniformDensity.common_threshold_range",
+        "SymmetryChainUniformDensity.source_budget_bounds",
+        "SymmetryChainUniformDensity.constructed_common_density"
+      ]
+    },
+    {
+      "short": "SymmetrySlowFactorBudget",
+      "slug": "symmetry_slow_factor_budget",
+      "source": "Theorems/Thm_StickyKakeya4_symmetry_slow_factor_budget.lean",
+      "source_sha256": "50dc8568629c24aee3da2e6ff2747104f6e875fed67491869f2f2a854d80833e",
+      "readback": "verification/SymmetrySlowFactorBudgetReadback.lean",
+      "declarations": [
+        "SymmetrySlowFactorBudget.root_factor_le",
+        "SymmetrySlowFactorBudget.balanced_density_lower",
+        "SymmetrySlowFactorBudget.chain_balanced_density_lower",
+        "SymmetrySlowFactorBudget.growth_cost_budget"
+      ]
+    },
+    {
+      "short": "ShiftedLabelEnergy",
+      "slug": "shifted_label_energy",
+      "source": "Theorems/Thm_StickyKakeya4_shifted_label_energy.lean",
+      "source_sha256": "a8bd0799e040f716cec8fe1dbd7f8a4ae367a6329a5837995c8fc2def5d059c2",
+      "readback": "verification/ShiftedLabelEnergyReadback.lean",
+      "declarations": [
+        "ShiftedLabelEnergy.population_zero",
+        "ShiftedLabelEnergy.shifted_count_by_original_points",
+        "ShiftedLabelEnergy.shifted_count_by_labels",
+        "ShiftedLabelEnergy.shifted_square_sum_le",
+        "ShiftedLabelEnergy.shifted_pairs_le_zero_energy",
+        "ShiftedLabelEnergy.five_discrepancies",
+        "ShiftedLabelEnergy.near_pairs_le_five_energy"
+      ]
+    },
+    {
+      "short": "ActualRoundedAdditiveEnergy",
+      "slug": "actual_rounded_additive_energy",
+      "source": "Theorems/Thm_StickyKakeya4_actual_rounded_additive_energy.lean",
+      "source_sha256": "2ed9d4bec2e9319406a2910dbb9f5dc46fa8a039e6fac26a9c2d746379562761",
+      "readback": "verification/ActualRoundedAdditiveEnergyReadback.lean",
+      "declarations": [
+        "ActualRoundedAdditiveEnergy.round_error",
+        "ActualRoundedAdditiveEnergy.rounding_injOn",
+        "ActualRoundedAdditiveEnergy.collisions_image_card",
+        "ActualRoundedAdditiveEnergy.rounded_product_image",
+        "ActualRoundedAdditiveEnergy.rounded_label_energy",
+        "ActualRoundedAdditiveEnergy.near_energy_le_five_rounded_energy",
+        "ActualRoundedAdditiveEnergy.rounded_card",
+        "ActualRoundedAdditiveEnergy.near_difference_eq_near_sum",
+        "ActualRoundedAdditiveEnergy.near_difference_le_five_rounded_energy",
+        "ActualRoundedAdditiveEnergy.rounded_energy_density"
+      ]
+    },
+    {
+      "short": "RoundedIteratedCoverTransfer",
+      "slug": "rounded_iterated_cover_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_rounded_iterated_cover_transfer.lean",
+      "source_sha256": "e1c64d10019d82e59f3f89a9275d33156d58f61b6b9f2610795354ef8fefc2d2",
+      "readback": "verification/RoundedIteratedCoverTransferReadback.lean",
+      "declarations": [
+        "RoundedIteratedCoverTransfer.original_preimage",
+        "RoundedIteratedCoverTransfer.round_abs_error",
+        "RoundedIteratedCoverTransfer.nsmul_rounding_witness",
+        "RoundedIteratedCoverTransfer.mixed_rounding_witness",
+        "RoundedIteratedCoverTransfer.rounded_label_close",
+        "RoundedIteratedCoverTransfer.iterated_grid_cover_bound"
+      ]
+    },
+    {
+      "short": "OriginalRealAsymmetricConstruction",
+      "slug": "original_real_asymmetric_construction",
+      "source": "Theorems/Thm_StickyKakeya4_original_real_asymmetric_construction.lean",
+      "source_sha256": "8e32bd616596ada9759bbaf8f771ac5da91b8373f39fbbb880e4ec4b32c71ace",
+      "readback": "verification/OriginalRealAsymmetricConstructionReadback.lean",
+      "declarations": [
+        "OriginalRealAsymmetricConstruction.original_real_subsets"
+      ]
+    },
+    {
+      "short": "NativeAsymmetricScaleBudget",
+      "slug": "native_asymmetric_scale_budget",
+      "source": "Theorems/Thm_StickyKakeya4_native_asymmetric_scale_budget.lean",
+      "source_sha256": "1a0cede300dbdc651e443d20215192875fae8bbde4a6b05f9a26d6ae58c67be6",
+      "readback": "verification/NativeAsymmetricScaleBudgetReadback.lean",
+      "declarations": [
+        "NativeAsymmetricScaleBudget.ceil_inverse_bound",
+        "NativeAsymmetricScaleBudget.budget_linear_bound",
+        "NativeAsymmetricScaleBudget.threshold_native",
+        "NativeAsymmetricScaleBudget.density_native_lower",
+        "NativeAsymmetricScaleBudget.inverse_le_binary_ceil",
+        "NativeAsymmetricScaleBudget.native_card_budget"
+      ]
+    },
+    {
+      "short": "NativeAsymmetricPolynomialRetention",
+      "slug": "native_asymmetric_polynomial_retention",
+      "source": "Theorems/Thm_StickyKakeya4_native_asymmetric_polynomial_retention.lean",
+      "source_sha256": "34c458c56bdde5d135a36972672ff85d221259a21a09e2848b661c2850b72e0f",
+      "readback": "verification/NativeAsymmetricPolynomialRetentionReadback.lean",
+      "declarations": [
+        "NativeAsymmetricPolynomialRetention.retained_product_lower",
+        "NativeAsymmetricPolynomialRetention.original_x_retention",
+        "NativeAsymmetricPolynomialRetention.growth_power_budget",
+        "NativeAsymmetricPolynomialRetention.original_y_retention",
+        "NativeAsymmetricPolynomialRetention.iterated_cost_budget"
+      ]
+    },
+    {
+      "short": "SeparatedDyadicCardinality",
+      "slug": "separated_dyadic_cardinality",
+      "source": "Theorems/Thm_StickyKakeya4_separated_dyadic_cardinality.lean",
+      "source_sha256": "d7646241e2a939dac726daff0db7e0caea13c63a18396443fe6597bd0a151a01",
+      "readback": "verification/SeparatedDyadicCardinalityReadback.lean",
+      "declarations": [
+        "SeparatedDyadicCardinality.original_rounded_label_bounds",
+        "SeparatedDyadicCardinality.original_cardinality_bound"
+      ]
+    },
+    {
+      "short": "PartitionedCollisionEnergy",
+      "slug": "partitioned_collision_energy",
+      "source": "Theorems/Thm_StickyKakeya4_partitioned_collision_energy.lean",
+      "source_sha256": "b6302a1c65c9a023bea88d7d15ee2b8f22417eaeefc47ad097ac2dc25f569dbb",
+      "readback": "verification/PartitionedCollisionEnergyReadback.lean",
+      "declarations": [
+        "PartitionedCollisionEnergy.histogram_partition",
+        "PartitionedCollisionEnergy.collision_energy_on_original_menu",
+        "PartitionedCollisionEnergy.partition_collision_energy",
+        "PartitionedCollisionEnergy.translated_pair_energy_cap"
+      ]
+    },
+    {
+      "short": "AsymmetricDyadicAbsorption",
+      "slug": "asymmetric_dyadic_absorption",
+      "source": "Theorems/Thm_StickyKakeya4_asymmetric_dyadic_absorption.lean",
+      "source_sha256": "218b990f557dda87085a2fc5b36c3eafc06de5118ff128a39a74d9cb90f8f07c",
+      "readback": "verification/AsymmetricDyadicAbsorptionReadback.lean",
+      "declarations": [
+        "AsymmetricDyadicAbsorption.polynomial_absorption",
+        "AsymmetricDyadicAbsorption.slow_factor_absorption",
+        "AsymmetricDyadicAbsorption.polynomial_retention_absorption",
+        "AsymmetricDyadicAbsorption.polynomial_cost_absorption",
+        "AsymmetricDyadicAbsorption.real_floor_cover_factor",
+        "AsymmetricDyadicAbsorption.densityCoefficient_pos",
+        "AsymmetricDyadicAbsorption.nativeDensity_lower",
+        "AsymmetricDyadicAbsorption.choose_depth",
+        "AsymmetricDyadicAbsorption.native_absorption",
+        "AsymmetricDyadicAbsorption.dyadic_mesh_rpow",
+        "AsymmetricDyadicAbsorption.native_dyadic_absorption",
+        "AsymmetricDyadicAbsorption.original_real_dyadic_bsg"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "SymmetrySetDifferenceStep.overlap_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.overlap_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.mem_symmetrySet_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.incidence_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.incidence_second_moment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.common_witnesses_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.second_moment_le_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.difference_energy_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.overlap_sum_le_square",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.symmetry_family_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.symmetrySet_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.difference_energy_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.good_pairs_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.good_pairs_difference_image_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.symmetrySet_card_mul_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.good_pairs_lower_of_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.additive_fiber_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.differenceEnergy_eq_addEnergy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySetDifferenceStep.good_pairs_lower_of_addEnergy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.fiber_card_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.fiber_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.level_lt",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.bin_saturated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.fiber_bin_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.bin_fiber_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.bin_card_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.exists_dyadic_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.bin_half_average",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.exists_original_fiber_refinement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.exists_original_fiber_refinement_real",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.levelCount_eq_log2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.fiber_eq_of_saturated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.exists_refined_good_pairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.exists_refined_symmetry_pairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DyadicOriginalFiberSelection.exists_refined_pairs_of_addEnergy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.threshold_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.threshold_formula",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.exists_step_of_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.exists_step_of_symmetry",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.selectedEdges_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.chainSet_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.chainSet_succ",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.chain_steps",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.chain_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.density_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.chain_edge_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.difference_fiber_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.edge_card_le_image_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.chain_growth_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.density_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.chain_card_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.chain_fiber_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.threshold_le_one_of_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.density_formula",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.positive_ratio_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.terminalBound_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.terminal_ratio_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.chain_ratio_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.exists_adjacent_ratio_le_root",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.exists_slow_stage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryDifferenceGrowthChain.one_le_slowFactor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "BalancedBSGIterationCore.iterated_differences_of_small_difference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "BalancedBSGIterationCore.balanced_energy_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "BalancedBSGPolynomialLoss.difference_constant_polynomial",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "BalancedBSGPolynomialLoss.growth_constant_polynomial",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "BalancedBSGPolynomialLoss.growth_constant_le_div",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "OriginalDifferenceTranslatePullback.exists_original_translate_pullback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "OriginalDifferenceTranslatePullback.exists_original_translate_pullback_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "IteratedDifferenceTranslatePullback.pullback_chain",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DisjointRichTranslateCover.exists_disjoint_translate_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DisjointRichTranslateCover.exists_rich_translate_selection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DisjointRichTranslateCover.exists_rich_translate_selection_quantitative",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SlowSymmetryBalancedCore.difference_collisions_le_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SlowSymmetryBalancedCore.original_difference_graph_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SlowSymmetryBalancedCore.energy_of_slow_ratio",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SlowSymmetryBalancedCore.exists_balanced_chain_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ChainOriginalCorePullback.pullback_original_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DifferenceCoreIteratedCover.difference_core_neg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DifferenceCoreIteratedCover.difference_core_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DifferenceCoreIteratedCover.difference_core_difference_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "DifferenceCoreIteratedCover.covered_iterated_sum_difference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RichSymmetryTranslateCenters.translate_eq_add_singleton",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RichSymmetryTranslateCenters.translate_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RichSymmetryTranslateCenters.translated_intersection_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RichSymmetryTranslateCenters.original_incidence_sum_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RichSymmetryTranslateCenters.symmetry_overlap_sum_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RichSymmetryTranslateCenters.overlap_sum_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RichSymmetryTranslateCenters.exists_rich_centers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RichSymmetryTranslateCenters.exists_rich_centers_translate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricOriginalSubsetAssembly.original_subsets_from_chain_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricOriginalSubsetAssembly.finite_asymmetric_original_subsets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryChainUniformDensity.threshold_antitone",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryChainUniformDensity.chain_card_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryChainUniformDensity.good_pairs_card_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryChainUniformDensity.chain_level_count_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryChainUniformDensity.common_density_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryChainUniformDensity.common_threshold_range",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryChainUniformDensity.source_budget_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetryChainUniformDensity.constructed_common_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySlowFactorBudget.root_factor_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySlowFactorBudget.balanced_density_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySlowFactorBudget.chain_balanced_density_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SymmetrySlowFactorBudget.growth_cost_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ShiftedLabelEnergy.population_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ShiftedLabelEnergy.shifted_count_by_original_points",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ShiftedLabelEnergy.shifted_count_by_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ShiftedLabelEnergy.shifted_square_sum_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ShiftedLabelEnergy.shifted_pairs_le_zero_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ShiftedLabelEnergy.five_discrepancies",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ShiftedLabelEnergy.near_pairs_le_five_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.round_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.rounding_injOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.collisions_image_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.rounded_product_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.rounded_label_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.near_energy_le_five_rounded_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.rounded_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.near_difference_eq_near_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.near_difference_le_five_rounded_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "ActualRoundedAdditiveEnergy.rounded_energy_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RoundedIteratedCoverTransfer.original_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RoundedIteratedCoverTransfer.round_abs_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RoundedIteratedCoverTransfer.nsmul_rounding_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RoundedIteratedCoverTransfer.mixed_rounding_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RoundedIteratedCoverTransfer.rounded_label_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "RoundedIteratedCoverTransfer.iterated_grid_cover_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "OriginalRealAsymmetricConstruction.original_real_subsets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricScaleBudget.ceil_inverse_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricScaleBudget.budget_linear_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricScaleBudget.threshold_native",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricScaleBudget.density_native_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricScaleBudget.inverse_le_binary_ceil",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricScaleBudget.native_card_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricPolynomialRetention.retained_product_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricPolynomialRetention.original_x_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricPolynomialRetention.growth_power_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricPolynomialRetention.original_y_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "NativeAsymmetricPolynomialRetention.iterated_cost_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SeparatedDyadicCardinality.original_rounded_label_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "SeparatedDyadicCardinality.original_cardinality_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "PartitionedCollisionEnergy.histogram_partition",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "PartitionedCollisionEnergy.collision_energy_on_original_menu",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "PartitionedCollisionEnergy.partition_collision_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "PartitionedCollisionEnergy.translated_pair_energy_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.polynomial_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.slow_factor_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.polynomial_retention_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.polynomial_cost_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.real_floor_cover_factor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.densityCoefficient_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.nativeDensity_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.choose_depth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.native_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.dyadic_mesh_rpow",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.native_dyadic_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    },
+    {
+      "declaration": "AsymmetricDyadicAbsorption.original_real_dyadic_bsg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-asymmetric-axioms.log"
+    }
+  ],
+  "declaration_count": 156,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_readback": "verification/WZOriginalAsymmetricReadback.lean",
+  "shared_import_log": "verification/wz-original-asymmetric-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9035,
+    "log": "verification/wz326-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_tree": "7d797b3fb9020821b2036ff49eb56eeac88a0102",
+    "module_count": 326,
+    "source_snapshot": "verification/wz326-source-snapshot.json",
+    "scope": "Full default build of all 326 modules; all previous 302 source hashes unchanged"
+  },
+  "prior_302_module_hashes_unchanged": true,
+  "current_module_count": 326,
+  "main_theorem_complete": false,
+  "whole_Lemma53_lean_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "scope_note": "docs/WZ_ORIGINAL_ASYMMETRIC_BSG.md"
+}

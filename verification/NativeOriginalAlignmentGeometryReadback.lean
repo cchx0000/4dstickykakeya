@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_original_alignment_geometry
+
+#print axioms NativeOriginalAlignmentGeometry.refined_parent_near_graph

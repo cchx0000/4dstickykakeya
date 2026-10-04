@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_grid
+
+#print axioms FinitePlaneProjectionGrid.mesh_pos
+#print axioms FinitePlaneProjectionGrid.slopes_card
+#print axioms FinitePlaneProjectionGrid.mesh_mul_slopes_card
+#print axioms FinitePlaneProjectionGrid.slopes_card_pos
+#print axioms FinitePlaneProjectionGrid.parameters_card
+#print axioms FinitePlaneProjectionGrid.slope_abs_le_one
+#print axioms FinitePlaneProjectionGrid.slope_interval_count
+#print axioms FinitePlaneProjectionGrid.vertical_half_of_collision
+#print axioms FinitePlaneProjectionGrid.residual_slope_interval
+#print axioms FinitePlaneProjectionGrid.collision_count_far
+#print axioms FinitePlaneProjectionGrid.collision_count

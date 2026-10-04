@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_angular_cost_bound
+
+#print axioms NativeAngularCostBound.gap_le_floor_add_one
+#print axioms NativeAngularCostBound.actual_angular_menu_le_extent
+#print axioms NativeAngularCostBound.angularBudget_le_root
+#print axioms NativeAngularCostBound.angularCost_le_extent_root

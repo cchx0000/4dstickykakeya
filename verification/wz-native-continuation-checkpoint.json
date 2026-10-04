@@ -1,0 +1,2140 @@
+{
+  "generated_at_utc": "2026-10-04T04:19:34.213821+00:00",
+  "base_commit": "cc73412254773a883ce6f60ee95ba18594d4caa5",
+  "base_tree": "6cbbd710231028f80964d2eb02ad8b11d649acc5",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_native_scalar_cover_ad.lean": "7d97a1ac8afa37bc3cce036d23b80e8ee086e247b9bf762e320528b02801f6e4",
+    "Theorems/Thm_StickyKakeya4_native_planar_cover_lemma53.lean": "a3f11964c21ba327f548f8978007387ac98da53c55924045b6155dc816b74515",
+    "Theorems/Thm_StickyKakeya4_native_euclidean_cover_input.lean": "361051cb000992cc23c53fae8893de1a37a122fd2db83fd3657202e2caefaf46",
+    "Theorems/Thm_StickyKakeya4_native_quarter_square_cover_source.lean": "6dc0d85ad7dcd7d475ce98d1c980480b108f49a1d8b57bef5aa3a9851dbcc3cf",
+    "Theorems/Thm_StickyKakeya4_native_weighted_point_populations.lean": "14ac534b4953cc7306cff592f8c640d5960c68bbb894c398a0db8c9589580718",
+    "Theorems/Thm_StickyKakeya4_native_slice_grid_geometry.lean": "c2542796521c72ba8975b2095a6573a823d67509cd9d3d1d06cc0a976707d2e5",
+    "Theorems/Thm_StickyKakeya4_native_original_slice_population.lean": "5bd7b9ad9d3716b5b2f708ac0fb6659832b4b78060ddd72b1075d4721eefc390",
+    "Theorems/Thm_StickyKakeya4_native_original_slice_ball_population.lean": "57634f4d74546419cd8ee1c277950e8facbd7790e8aa778c01245a78b7f697f6",
+    "Theorems/Thm_StickyKakeya4_vector_graph_collision_energy.lean": "9f83592e18b88cd465fea62ff17a7d26448c871827bb4c9a5f5ba385996460f3",
+    "Theorems/Thm_StickyKakeya4_vector_labelled_energy_bin.lean": "50717b588dd8528118ca64249fda4b0fe07a365c4c6b1ecc21fe01f11489d09d",
+    "Theorems/Thm_StickyKakeya4_vector_integer_bin_real_bsg.lean": "906a554bcbb9a1333796c1f8dc627be6f116a856156b186b116759821dd3b4e5",
+    "Theorems/Thm_StickyKakeya4_vector_whole_fiber_lift.lean": "ac3374e07fba3747aa4fa39ef426a1b9e0d62c94601ed4c0faa9a2cb5f7ccf41",
+    "Theorems/Thm_StickyKakeya4_vector_product_cover.lean": "f66868bc0343bf162c2f2ca195c300760ce2ff8cb2ceb4cf7c141a99965e1840",
+    "Theorems/Thm_StickyKakeya4_vector_bin_selection_tools.lean": "eb1f88ea81716dc919f2faa84f3d4eb7eccf62a81c768997b26c2ec9aa6a887c",
+    "Theorems/Thm_StickyKakeya4_graph_weighted_original_fiber_bin.lean": "0b1153deae07295e4055412f326dfb0b97d2ed94186c63241d9b74eac6697d7e",
+    "Theorems/Thm_StickyKakeya4_vector_graph_weighted_rounding.lean": "e31d67a06ed2daf0e6c22eff38c37d0440f2fad9b86cec592c2bac53fb2b2f0b",
+    "Theorems/Thm_StickyKakeya4_vector_original_graph_bsg.lean": "ee901189bf1f3e289629f79ae7abd96934cf68e793ccdcb98dfb0975380fc6c6",
+    "Theorems/Thm_StickyKakeya4_original_annular_graph_deletion.lean": "71aa68f2e4cb809fa77b12209bedc2c6d1fab7a8b90c526250c005474735e411",
+    "Theorems/Thm_StickyKakeya4_original_annular_off_root_mass.lean": "31a981dadd72e4a728ba31ea4b3901fa2d2863b822c07c2597a89da0fcf4531a",
+    "Theorems/Thm_StickyKakeya4_native_annular_parameter_budget.lean": "206a07c17a6da2383e566d2fd82086bf2954aeeff5332ec6eca742723c9105ee",
+    "Theorems/Thm_StickyKakeya4_native_original_off_root_mass.lean": "2a48832a0f374b2794a9aca10424d234141d83881f8b623d2a975d163ac14a2c",
+    "Theorems/Thm_StickyKakeya4_native_original_step2_caller.lean": "a95188cd604ab3f0b9a922d9bb2e8a3a43269233e5a9b7e69ef8bb5cbb29835b",
+    "Theorems/Thm_StickyKakeya4_original_retained_tube_ball_profile.lean": "8686757ec691597fa064c03ad2b2213176ad5bde473b9d117f98f04e491d0c88",
+    "Theorems/Thm_StickyKakeya4_native_quarter_scale_parameters.lean": "f36d33014683949216277d18b245d44e969c16790447371bc55d14c14d3115ca",
+    "Theorems/Thm_StickyKakeya4_original_angular_exponent_range.lean": "2fbe3fa133c51812cdf9e0caa95ec16ad38b826de2b48483bf6259bee41bd702",
+    "Theorems/Thm_StickyKakeya4_bounded_original_angle_tube_transfer.lean": "a4d1886eee6305f826d4076dec7e7cde6ff3fdcd4a93422534a5a181e2c46d73",
+    "Theorems/Thm_StickyKakeya4_original_two_hop_class_tube_transfer.lean": "065c5ee777fcf76732cbbbe00e63bb7387171e5f44e362a6f0f9ba9ba4b14d54",
+    "Theorems/Thm_StickyKakeya4_radial_angle_periodic_cover.lean": "847440af100961e770b9863a0395246d7327623788971e26594f2fe9f558bfbf",
+    "Theorems/Thm_StickyKakeya4_original_radial_sine_geometry.lean": "a1b3c331c8cd105b7d00008cb28f6d9316026d101de8591430849066ade980fc",
+    "Theorems/Thm_StickyKakeya4_radial_angle_bin_incidence.lean": "f18da791b192ed63c651d5c6d25d16a604f8f6b145f9ba57294ee6d6de607dfc",
+    "Theorems/Thm_StickyKakeya4_original_angular_tube_incidence.lean": "1ccff321681eb276c05ac74211360a37f29150e420e93717bf3e4f170ce03cde",
+    "Theorems/Thm_StickyKakeya4_original_angular_class_population.lean": "07434275c905e5270373f82dd1feb2d8b72ab6ca7eda17e3108b288b622490d6",
+    "Theorems/Thm_StickyKakeya4_original_angular_pruning_from_physical.lean": "b366c286c89417d4d5dd6e069e830d3b0a7832972f26f08d311b466b4ac8d647",
+    "Theorems/Thm_StickyKakeya4_native_dyadic_mesh_selection.lean": "30ac8109f5b8028a45409d82bebc778697c6fa6c38e622d76ca23d059b28f013",
+    "Theorems/Thm_StickyKakeya4_native_original_cutoff_selection.lean": "5b89d0b436dcb7ce1448337f2b30f571033af447df2d62c55c6601471e1050fe",
+    "Theorems/Thm_StickyKakeya4_native_planar_abc_to_bsg.lean": "5324e7b59b8a64756238f20bb2973a9c267224b1a8f9302d730bb3634fce181a",
+    "Theorems/Thm_StickyKakeya4_original_euclidean_affine_avoidance.lean": "77059b22c3229a3929a0615987f89cf36a08dcb1082d7198580a90d7bce35ebd",
+    "Theorems/Thm_StickyKakeya4_original_two_hop_pair_family.lean": "ec007afa11c2d2f92462916548f6644d1f2777570cfbe81d32300213027a70dc",
+    "Theorems/Thm_StickyKakeya4_native_quarter_balanced_mesh.lean": "161cc97842a93ad25b575ec0fd9da7db59372f7796b7723088f5c7ae32f28219",
+    "Theorems/Thm_StickyKakeya4_native_planar_abc_fixed_exponent.lean": "7dbfa8fe6aeb112321a3dd9afcbc94807ff9ccf4ea2e6d95a1681eeb798cf96b"
+  },
+  "new_modules": [
+    {
+      "short": "NativeScalarCoverAD",
+      "slug": "native_scalar_cover_ad",
+      "source": "Theorems/Thm_StickyKakeya4_native_scalar_cover_ad.lean",
+      "declarations": [
+        "NativeScalarCoverAD.cell_capacity",
+        "NativeScalarCoverAD.card_le_capacity_mul_image",
+        "NativeScalarCoverAD.point_AD_to_cover_AD",
+        "NativeScalarCoverAD.literal_to_cover",
+        "NativeScalarCoverAD.nearly_literal_to_cover"
+      ],
+      "preintegration_source_sha256": "7d97a1ac8afa37bc3cce036d23b80e8ee086e247b9bf762e320528b02801f6e4",
+      "preintegration_manifest": "native_cover_adapters_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeScalarCoverAD.strict.log",
+      "source_sha256": "7d97a1ac8afa37bc3cce036d23b80e8ee086e247b9bf762e320528b02801f6e4",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativePlanarCoverLemma53",
+      "slug": "native_planar_cover_lemma53",
+      "source": "Theorems/Thm_StickyKakeya4_native_planar_cover_lemma53.lean",
+      "declarations": [
+        "NativePlanarCoverLemma53.relative_dyadic_mesh",
+        "NativePlanarCoverLemma53.native_quarter_square_cover_lemma53"
+      ],
+      "preintegration_source_sha256": "4c4d6ae14a017f25131ab8fc1459eaaed166c4f1b72a54e6b506d273edd9b611",
+      "preintegration_manifest": "native_cover_adapters_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativePlanarCoverLemma53.strict.log",
+      "source_sha256": "a3f11964c21ba327f548f8978007387ac98da53c55924045b6155dc816b74515",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeEuclideanCoverInput",
+      "slug": "native_euclidean_cover_input",
+      "source": "Theorems/Thm_StickyKakeya4_native_euclidean_cover_input.lean",
+      "declarations": [
+        "NativeEuclideanCoverInput.packingBound_pos",
+        "NativeEuclideanCoverInput.inputConstant_ge_one",
+        "NativeEuclideanCoverInput.euclidean_injective",
+        "NativeEuclideanCoverInput.cell_capacity",
+        "NativeEuclideanCoverInput.subset_card_le_cover",
+        "NativeEuclideanCoverInput.quarter_square_euclidean_diameter",
+        "NativeEuclideanCoverInput.native_AD_of_euclidean_cover_AD"
+      ],
+      "preintegration_source_sha256": "361051cb000992cc23c53fae8893de1a37a122fd2db83fd3657202e2caefaf46",
+      "preintegration_manifest": "native_cover_adapters_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeEuclideanCoverInput.strict.log",
+      "source_sha256": "361051cb000992cc23c53fae8893de1a37a122fd2db83fd3657202e2caefaf46",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeQuarterSquareCoverSource",
+      "slug": "native_quarter_square_cover_source",
+      "source": "Theorems/Thm_StickyKakeya4_native_quarter_square_cover_source.lean",
+      "declarations": [
+        "NativeQuarterSquareCoverSource.fixed_factor_absorption",
+        "NativeQuarterSquareCoverSource.point_AD_mono_constant",
+        "NativeQuarterSquareCoverSource.quarter_square_cover_source_alignment"
+      ],
+      "preintegration_source_sha256": "8b87988efa3c34900b7166ea275ada42e0e5841917b51df5cc8f16f2027f216a",
+      "preintegration_manifest": "native_cover_adapters_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeQuarterSquareCoverSource.strict.log",
+      "source_sha256": "6dc0d85ad7dcd7d475ce98d1c980480b108f49a1d8b57bef5aa3a9851dbcc3cf",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeWeightedPointPopulations",
+      "slug": "native_weighted_point_populations",
+      "source": "Theorems/Thm_StickyKakeya4_native_weighted_point_populations.lean",
+      "declarations": [
+        "NativeWeightedPointPopulations.projectedWeight_pos",
+        "NativeWeightedPointPopulations.projectedWeight_mass_preimage",
+        "NativeWeightedPointPopulations.degree_eq_projectedWeight",
+        "NativeWeightedPointPopulations.projected_class_mass",
+        "NativeWeightedPointPopulations.cardinality_uniform_of_weighted_degrees"
+      ],
+      "preintegration_source_sha256": "14ac534b4953cc7306cff592f8c640d5960c68bbb894c398a0db8c9589580718",
+      "preintegration_manifest": "native_original_slice_population_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeWeightedPointPopulations.strict.log",
+      "source_sha256": "14ac534b4953cc7306cff592f8c640d5960c68bbb894c398a0db8c9589580718",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeSliceGridGeometry",
+      "slug": "native_slice_grid_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_native_slice_grid_geometry.lean",
+      "declarations": [
+        "NativeSliceGridGeometry.mem_cylinder_iff",
+        "NativeSliceGridGeometry.mem_gridBall_iff",
+        "NativeSliceGridGeometry.cylinder_subset_gridBall",
+        "NativeSliceGridGeometry.abs_ediv_sub_ediv_le_one",
+        "NativeSliceGridGeometry.coarseSpatial_mem_box_of_mem_gridBall",
+        "NativeSliceGridGeometry.gridBall_coarseSpatial_card_le_27",
+        "NativeSliceGridGeometry.gridBall_card_le_27_mul_cylinder",
+        "NativeSliceGridGeometry.gridBall_card_comparable"
+      ],
+      "preintegration_source_sha256": "c2542796521c72ba8975b2095a6573a823d67509cd9d3d1d06cc0a976707d2e5",
+      "preintegration_manifest": "native_original_slice_population_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeSliceGridGeometry.strict.log",
+      "source_sha256": "c2542796521c72ba8975b2095a6573a823d67509cd9d3d1d06cc0a976707d2e5",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalSlicePopulation",
+      "slug": "native_original_slice_population",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_slice_population.lean",
+      "declarations": [
+        "NativeOriginalSlicePopulation.originalPullback_subset",
+        "NativeOriginalSlicePopulation.originalPullback_fiber",
+        "NativeOriginalSlicePopulation.originalPullback_mass",
+        "NativeOriginalSlicePopulation.originalPullback_bins",
+        "NativeOriginalSlicePopulation.originalPullback_subset_kept",
+        "NativeOriginalSlicePopulation.originalPullback_support",
+        "NativeOriginalSlicePopulation.originalPullback_sum",
+        "NativeOriginalSlicePopulation.originalPullback_degree",
+        "NativeOriginalSlicePopulation.originalWeight_pos",
+        "NativeOriginalSlicePopulation.originalWeight_total",
+        "NativeOriginalSlicePopulation.refine_original_incidence_labels"
+      ],
+      "preintegration_source_sha256": "f62fb8d922856ec862fa4c7160066473850f84f70a869e27b987782dab50fb5a",
+      "preintegration_manifest": "native_original_slice_population_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalSlicePopulation.strict.log",
+      "source_sha256": "5bd7b9ad9d3716b5b2f708ac0fb6659832b4b78060ddd72b1075d4721eefc390",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalSliceBallPopulation",
+      "slug": "native_original_slice_ball_population",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_slice_ball_population.lean",
+      "declarations": [
+        "NativeOriginalSliceBallPopulation.original_slice_ball_population"
+      ],
+      "preintegration_source_sha256": "466f028ff3d4718d146ac6b1f1dcd0dce80477255581d8ac6ea34881a461b579",
+      "preintegration_manifest": "native_original_slice_population_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalSliceBallPopulation.strict.log",
+      "source_sha256": "57634f4d74546419cd8ee1c277950e8facbd7790e8aa778c01245a78b7f697f6",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "VectorGraphCollisionEnergy",
+      "slug": "vector_graph_collision_energy",
+      "source": "Theorems/Thm_StickyKakeya4_vector_graph_collision_energy.lean",
+      "declarations": [
+        "VectorGraphCollisionEnergy.same_planar_grid_close",
+        "VectorGraphCollisionEnergy.graph_grid_collisions_near",
+        "VectorGraphCollisionEnergy.original_graph_cover_near_energy",
+        "VectorGraphCollisionEnergy.original_ABC_cover_near_energy"
+      ],
+      "preintegration_source_sha256": "9f83592e18b88cd465fea62ff17a7d26448c871827bb4c9a5f5ba385996460f3",
+      "preintegration_manifest": "VectorABCDyadicBSG.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/VectorGraphCollisionEnergy.strict.log",
+      "source_sha256": "9f83592e18b88cd465fea62ff17a7d26448c871827bb4c9a5f5ba385996460f3",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "VectorLabelledEnergyBin",
+      "slug": "vector_labelled_energy_bin",
+      "source": "Theorems/Thm_StickyKakeya4_vector_labelled_energy_bin.lean",
+      "declarations": [
+        "VectorLabelledEnergyBin.labelled_integer_collisions_le",
+        "VectorLabelledEnergyBin.labelled_planar_near_energy_le_fortynine",
+        "VectorLabelledEnergyBin.exists_vector_energy_preserving_bin",
+        "VectorLabelledEnergyBin.exists_vector_graph_energy_bin"
+      ],
+      "preintegration_source_sha256": "14d58b7ec3f689eebe537baa77a04e73ae3334ebccb788daf89d7929670488db",
+      "preintegration_manifest": "VectorABCDyadicBSG.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/VectorLabelledEnergyBin.strict.log",
+      "source_sha256": "50717b588dd8528118ca64249fda4b0fe07a365c4c6b1ecc21fe01f11489d09d",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "VectorIntegerBinRealBSG",
+      "slug": "vector_integer_bin_real_bsg",
+      "source": "Theorems/Thm_StickyKakeya4_vector_integer_bin_real_bsg.lean",
+      "declarations": [
+        "VectorIntegerBinRealBSG.synthesis_injective",
+        "VectorIntegerBinRealBSG.real_grid_card",
+        "VectorIntegerBinRealBSG.real_grid_separated",
+        "VectorIntegerBinRealBSG.collisions_image_card",
+        "VectorIntegerBinRealBSG.integer_energy_le_original_near",
+        "VectorIntegerBinRealBSG.integer_bin_planar_dyadic_bsg"
+      ],
+      "preintegration_source_sha256": "906a554bcbb9a1333796c1f8dc627be6f116a856156b186b116759821dd3b4e5",
+      "preintegration_manifest": "VectorABCDyadicBSG.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/VectorIntegerBinRealBSG.strict.log",
+      "source_sha256": "906a554bcbb9a1333796c1f8dc627be6f116a856156b186b116759821dd3b4e5",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "VectorWholeFiberLift",
+      "slug": "vector_whole_fiber_lift",
+      "source": "Theorems/Thm_StickyKakeya4_vector_whole_fiber_lift.lean",
+      "declarations": [
+        "VectorWholeFiberLift.selectedPairs_subset",
+        "VectorWholeFiberLift.selectedPairs_image",
+        "VectorWholeFiberLift.selectedPairs_whole_fiber",
+        "VectorWholeFiberLift.selectedPairs_fiber_sum",
+        "VectorWholeFiberLift.selectedPairs_weighted_mass",
+        "VectorWholeFiberLift.selectedPairs_relative_mass",
+        "VectorWholeFiberLift.selectedPairs_original_mass"
+      ],
+      "preintegration_source_sha256": "ac3374e07fba3747aa4fa39ef426a1b9e0d62c94601ed4c0faa9a2cb5f7ccf41",
+      "preintegration_manifest": "VectorABCDyadicBSG.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/VectorWholeFiberLift.strict.log",
+      "source_sha256": "ac3374e07fba3747aa4fa39ef426a1b9e0d62c94601ed4c0faa9a2cb5f7ccf41",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "VectorProductCover",
+      "slug": "vector_product_cover",
+      "source": "Theorems/Thm_StickyKakeya4_vector_product_cover.lean",
+      "declarations": [
+        "VectorProductCover.rounded_grid_add_scalar",
+        "VectorProductCover.roundPoint_grid_add",
+        "VectorProductCover.roundPoint_grid_triple",
+        "VectorProductCover.grid_triple_rounding",
+        "VectorProductCover.actual_product_triple_cover"
+      ],
+      "preintegration_source_sha256": "f66868bc0343bf162c2f2ca195c300760ce2ff8cb2ceb4cf7c141a99965e1840",
+      "preintegration_manifest": "VectorABCDyadicBSG.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/VectorProductCover.strict.log",
+      "source_sha256": "f66868bc0343bf162c2f2ca195c300760ce2ff8cb2ceb4cf7c141a99965e1840",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "VectorBinSelectionTools",
+      "slug": "vector_bin_selection_tools",
+      "source": "Theorems/Thm_StickyKakeya4_vector_bin_selection_tools.lean",
+      "declarations": [
+        "VectorBinSelectionTools.selectedCodes_subset",
+        "VectorBinSelectionTools.selectedCodes_image",
+        "VectorBinSelectionTools.selectedCodes_card",
+        "VectorBinSelectionTools.integer_addEnergy_cap",
+        "VectorBinSelectionTools.normalized_bin_density",
+        "VectorBinSelectionTools.rounded_point_box_four",
+        "VectorBinSelectionTools.coupled_bin_grid_box"
+      ],
+      "preintegration_source_sha256": "eb4332930ece3f0332826605abaab188682f2d46d7c88ed4df987a137bb2c940",
+      "preintegration_manifest": "VectorABCDyadicBSG.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/VectorBinSelectionTools.strict.log",
+      "source_sha256": "eb1f88ea81716dc919f2faa84f3d4eb7eccf62a81c768997b26c2ec9aa6a887c",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "GraphWeightedOriginalFiberBin",
+      "slug": "graph_weighted_original_fiber_bin",
+      "source": "Theorems/Thm_StickyKakeya4_graph_weighted_original_fiber_bin.lean",
+      "declarations": [
+        "GraphWeightedOriginalFiberBin.graphPiece_product",
+        "GraphWeightedOriginalFiberBin.collisions_mono",
+        "GraphWeightedOriginalFiberBin.exists_graph_weighted_energy_bin"
+      ],
+      "preintegration_source_sha256": "0b1153deae07295e4055412f326dfb0b97d2ed94186c63241d9b74eac6697d7e",
+      "preintegration_manifest": "VectorABCDyadicBSG.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/GraphWeightedOriginalFiberBin.strict.log",
+      "source_sha256": "0b1153deae07295e4055412f326dfb0b97d2ed94186c63241d9b74eac6697d7e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "VectorGraphWeightedRounding",
+      "slug": "vector_graph_weighted_rounding",
+      "source": "Theorems/Thm_StickyKakeya4_vector_graph_weighted_rounding.lean",
+      "declarations": [
+        "VectorGraphWeightedRounding.original_graph_cover_grid_energy",
+        "VectorGraphWeightedRounding.graph_grid_collisions_near_graph",
+        "VectorGraphWeightedRounding.rounded_graph_collisions_card",
+        "VectorGraphWeightedRounding.original_graph_cover_rounded_energy",
+        "VectorGraphWeightedRounding.exists_vector_graph_energy_bin"
+      ],
+      "preintegration_source_sha256": "57089e5e107904f2e47b7f9893b8e65f35194e7bf49ad334b912bd8268d7ef0a",
+      "preintegration_manifest": "VectorABCDyadicBSG.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/VectorGraphWeightedRounding.strict.log",
+      "source_sha256": "e31d67a06ed2daf0e6c22eff38c37d0440f2fad9b86cec592c2bac53fb2b2f0b",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "VectorOriginalGraphBSG",
+      "slug": "vector_original_graph_bsg",
+      "source": "Theorems/Thm_StickyKakeya4_vector_original_graph_bsg.lean",
+      "declarations": [
+        "VectorOriginalGraphBSG.dyadic_half_le_one",
+        "VectorOriginalGraphBSG.original_vector_graph_dyadic_bsg",
+        "VectorOriginalGraphBSG.original_product_value_box",
+        "VectorOriginalGraphBSG.original_ABC_dyadic_bsg"
+      ],
+      "preintegration_source_sha256": "bf6a4e1b5e336fe1cf20de9e8273ec5eed4dd76727234b01d4d01b32a60435fc",
+      "preintegration_manifest": "VectorABCDyadicBSG.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/VectorOriginalGraphBSG.strict.log",
+      "source_sha256": "ee901189bf1f3e289629f79ae7abd96934cf68e793ccdcb98dfb0975380fc6c6",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAnnularGraphDeletion",
+      "slug": "original_annular_graph_deletion",
+      "source": "Theorems/Thm_StickyKakeya4_original_annular_graph_deletion.lean",
+      "declarations": [
+        "OriginalAnnularGraphDeletion.physical_pair_tube_swap",
+        "OriginalAnnularGraphDeletion.bad_pair_graph_card",
+        "OriginalAnnularGraphDeletion.native_original_annular_graph_deletion"
+      ],
+      "preintegration_source_sha256": "fed4c043b213b7a430079ad1da711349488567335e725fd6cb6b5529f91f1d7e",
+      "preintegration_manifest": "WZ_NATIVE_A1_STEP2_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAnnularGraphDeletion-strict.log",
+      "source_sha256": "71aa68f2e4cb809fa77b12209bedc2c6d1fab7a8b90c526250c005474735e411",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAnnularOffRootMass",
+      "slug": "original_annular_off_root_mass",
+      "source": "Theorems/Thm_StickyKakeya4_original_annular_off_root_mass.lean",
+      "declarations": [
+        "OriginalAnnularOffRootMass.annular_scales_card",
+        "OriginalAnnularOffRootMass.original_distance_annulus_cover",
+        "OriginalAnnularOffRootMass.original_near_root_card"
+      ],
+      "preintegration_source_sha256": "a2e10c97c2318bb800898d78e5c4a0cacacf21689cfff5072e4daab6fba09811",
+      "preintegration_manifest": "WZ_NATIVE_A1_STEP2_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAnnularOffRootMass-strict.log",
+      "source_sha256": "31a981dadd72e4a728ba31ea4b3901fa2d2863b822c07c2597a89da0fcf4531a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeAnnularParameterBudget",
+      "slug": "native_annular_parameter_budget",
+      "source": "Theorems/Thm_StickyKakeya4_native_annular_parameter_budget.lean",
+      "declarations": [
+        "NativeAnnularParameterBudget.native_annular_loss_power",
+        "NativeAnnularParameterBudget.native_annular_top_power",
+        "NativeAnnularParameterBudget.original_inner_ball_budget",
+        "NativeAnnularParameterBudget.exists_original_menu_power_cutoff"
+      ],
+      "preintegration_source_sha256": "08dbf027c763ee0308b671a393862127614412b2cbc924a35a5da9f01bfbc19c",
+      "preintegration_manifest": "WZ_NATIVE_A1_STEP2_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeAnnularParameterBudget-strict.log",
+      "source_sha256": "206a07c17a6da2383e566d2fd82086bf2954aeeff5332ec6eca742723c9105ee",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalOffRootMass",
+      "slug": "native_original_off_root_mass",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_off_root_mass.lean",
+      "declarations": [
+        "NativeOriginalOffRootMass.native_original_off_root_half"
+      ],
+      "preintegration_source_sha256": "3b062f59a2715fcba542e0580f75436cb68bcad697b673133389f57acabd4a4b",
+      "preintegration_manifest": "WZ_NATIVE_A1_STEP2_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalOffRootMass-strict.log",
+      "source_sha256": "2a48832a0f374b2794a9aca10424d234141d83881f8b623d2a975d163ac14a2c",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalStep2Caller",
+      "slug": "native_original_step2_caller",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_step2_caller.lean",
+      "declarations": [
+        "NativeOriginalStep2Caller.exists_native_original_step2_threshold"
+      ],
+      "preintegration_source_sha256": "f2453be0faf18de09758c87f5e8b0dc40ee82b490d4afc58923a27c4500e315c",
+      "preintegration_manifest": "WZ_NATIVE_A1_STEP2_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalStep2Caller-strict.log",
+      "source_sha256": "a95188cd604ab3f0b9a922d9bb2e8a3a43269233e5a9b7e69ef8bb5cbb29835b",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalRetainedTubeBallProfile",
+      "slug": "original_retained_tube_ball_profile",
+      "source": "Theorems/Thm_StickyKakeya4_original_retained_tube_ball_profile.lean",
+      "declarations": [
+        "OriginalRetainedTubeBallProfile.retained_original_wide_tube_ball_profile"
+      ],
+      "preintegration_source_sha256": "0715b80e9ce51996738d4a628b1a191a6600aaea033bbded73b37aaf7178e71a",
+      "preintegration_manifest": "WZ_ORIGINAL_RETAINED_TUBE_BALL_PROFILE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalRetainedTubeBallProfile-strict.log",
+      "source_sha256": "8686757ec691597fa064c03ad2b2213176ad5bde473b9d117f98f04e491d0c88",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeQuarterScaleParameters",
+      "slug": "native_quarter_scale_parameters",
+      "source": "Theorems/Thm_StickyKakeya4_native_quarter_scale_parameters.lean",
+      "declarations": [
+        "NativeQuarterScaleParameters.exists_small_power_cutoff",
+        "NativeQuarterScaleParameters.quarter_representative_buffer",
+        "NativeQuarterScaleParameters.quarter_error_buffer",
+        "NativeQuarterScaleParameters.quarter_affine_source_buffer",
+        "NativeQuarterScaleParameters.projection_scalar_budget",
+        "NativeQuarterScaleParameters.exists_projection_resolution_and_scales",
+        "NativeQuarterScaleParameters.exists_quarter_parameter_cutoff",
+        "NativeQuarterScaleParameters.fraction_exponent_choice",
+        "NativeQuarterScaleParameters.exists_original_eta_region",
+        "NativeQuarterScaleParameters.absorb_original_fraction_loss",
+        "NativeQuarterScaleParameters.fixed_upper_exponent"
+      ],
+      "preintegration_source_sha256": "f36d33014683949216277d18b245d44e969c16790447371bc55d14c14d3115ca",
+      "preintegration_manifest": "original_native_parameters.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeQuarterScaleParameters.log",
+      "source_sha256": "f36d33014683949216277d18b245d44e969c16790447371bc55d14c14d3115ca",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAngularExponentRange",
+      "slug": "original_angular_exponent_range",
+      "source": "Theorems/Thm_StickyKakeya4_original_angular_exponent_range.lean",
+      "declarations": [
+        "OriginalAngularExponentRange.original_angular_card_upper",
+        "OriginalAngularExponentRange.original_angular_exponent_lt_two",
+        "OriginalAngularExponentRange.uniform_angular_mesh_cost"
+      ],
+      "preintegration_source_sha256": "5dbd9ae28a6266a0a00c24bd820f2ed6bff10ca4c33044beca661d3df53f1414",
+      "preintegration_manifest": "original_native_parameters.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAngularExponentRange.log",
+      "source_sha256": "2fbe3fa133c51812cdf9e0caa95ec16ad38b826de2b48483bf6259bee41bd702",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "BoundedOriginalAngleTubeTransfer",
+      "slug": "bounded_original_angle_tube_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_bounded_original_angle_tube_transfer.lean",
+      "declarations": [
+        "BoundedOriginalAngleTubeTransfer.original_complex_norm_le_two_scale",
+        "BoundedOriginalAngleTubeTransfer.original_physical_weighted_sine",
+        "BoundedOriginalAngleTubeTransfer.original_bounded_same_root_support_transfer"
+      ],
+      "preintegration_source_sha256": "93c52321ac4c4a366ea20415147470db42df0871af982f3abe7be9d9fa46f6f6",
+      "preintegration_manifest": "WZ_ORIGINAL_BOUNDED_ANGLE_TRANSFER_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/BoundedOriginalAngleTubeTransfer-strict.log",
+      "source_sha256": "a4d1886eee6305f826d4076dec7e7cde6ff3fdcd4a93422534a5a181e2c46d73",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalTwoHopClassTubeTransfer",
+      "slug": "original_two_hop_class_tube_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_original_two_hop_class_tube_transfer.lean",
+      "declarations": [
+        "OriginalTwoHopClassTubeTransfer.original_two_hop_angle_support_transfer",
+        "OriginalTwoHopClassTubeTransfer.original_reverse_forward_class_support_transfer"
+      ],
+      "preintegration_source_sha256": "3237aa96b06c22789eb8b4944c4decfb00c440bec5acf359c0136fcc2bff347c",
+      "preintegration_manifest": "WZ_ORIGINAL_BOUNDED_ANGLE_TRANSFER_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalTwoHopClassTubeTransfer-strict.log",
+      "source_sha256": "065c5ee777fcf76732cbbbe00e63bb7387171e5f44e362a6f0f9ba9ba4b14d54",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "RadialAnglePeriodicCover",
+      "slug": "radial_angle_periodic_cover",
+      "source": "Theorems/Thm_StickyKakeya4_radial_angle_periodic_cover.lean",
+      "declarations": [
+        "RadialAnglePeriodicCover.small_sine_five_intervals"
+      ],
+      "preintegration_source_sha256": "847440af100961e770b9863a0395246d7327623788971e26594f2fe9f558bfbf",
+      "preintegration_manifest": "WZ_ORIGINAL_ANGULAR_POPULATION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/RadialAnglePeriodicCover.strict.log",
+      "source_sha256": "847440af100961e770b9863a0395246d7327623788971e26594f2fe9f558bfbf",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalRadialSineGeometry",
+      "slug": "original_radial_sine_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_original_radial_sine_geometry.lean",
+      "declarations": [
+        "OriginalRadialSineGeometry.original_scale_le_complex_norm",
+        "OriginalRadialSineGeometry.original_sine_residual_identity",
+        "OriginalRadialSineGeometry.physical_tube_small_sine"
+      ],
+      "preintegration_source_sha256": "a6bfa62dd6531060d15b59f50daea54c6065754f5c32ae662e4a892a97a78490",
+      "preintegration_manifest": "WZ_ORIGINAL_ANGULAR_POPULATION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalRadialSineGeometry.strict.log",
+      "source_sha256": "a1b3c331c8cd105b7d00008cb28f6d9316026d101de8591430849066ade980fc",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "RadialAngleBinIncidence",
+      "slug": "radial_angle_bin_incidence",
+      "source": "Theorems/Thm_StickyKakeya4_radial_angle_bin_incidence.lean",
+      "declarations": [
+        "RadialAngleBinIncidence.separated_bins_small_sine_card",
+        "RadialAngleBinIncidence.native_small_sine_bin_card"
+      ],
+      "preintegration_source_sha256": "1a7785f4873031dc373708534b0eb7c8055175de4e15bd3bf33dcbcc97292be6",
+      "preintegration_manifest": "WZ_ORIGINAL_ANGULAR_POPULATION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/RadialAngleBinIncidence.strict.log",
+      "source_sha256": "f18da791b192ed63c651d5c6d25d16a604f8f6b145f9ba57294ee6d6de607dfc",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAngularTubeIncidence",
+      "slug": "original_angular_tube_incidence",
+      "source": "Theorems/Thm_StickyKakeya4_original_angular_tube_incidence.lean",
+      "declarations": [
+        "OriginalAngularTubeIncidence.original_point_tube_incidence",
+        "OriginalAngularTubeIncidence.original_point_tube_incidence_euclidean"
+      ],
+      "preintegration_source_sha256": "282bc149b9820e8d0a0588a354885d3b7693ca29b304d276e74d90b826fb3666",
+      "preintegration_manifest": "WZ_ORIGINAL_ANGULAR_POPULATION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAngularTubeIncidence.strict.log",
+      "source_sha256": "1ccff321681eb276c05ac74211360a37f29150e420e93717bf3e4f170ce03cde",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAngularClassPopulation",
+      "slug": "original_angular_class_population",
+      "source": "Theorems/Thm_StickyKakeya4_original_angular_class_population.lean",
+      "declarations": [
+        "OriginalAngularClassPopulation.root_original_angle_population",
+        "OriginalAngularClassPopulation.original_forward_class_population"
+      ],
+      "preintegration_source_sha256": "08a56ab5bb72a3473d1ab8b3cf73f1be86399543c912a5cc706f33885a7e4788",
+      "preintegration_manifest": "WZ_ORIGINAL_ANGULAR_POPULATION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAngularClassPopulation.strict.log",
+      "source_sha256": "07434275c905e5270373f82dd1feb2d8b72ab6ca7eda17e3108b288b622490d6",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAngularPruningFromPhysical",
+      "slug": "original_angular_pruning_from_physical",
+      "source": "Theorems/Thm_StickyKakeya4_original_angular_pruning_from_physical.lean",
+      "declarations": [
+        "OriginalAngularPruningFromPhysical.original_reverse_class_population",
+        "OriginalAngularPruningFromPhysical.exists_original_angular_core"
+      ],
+      "preintegration_source_sha256": "ee709d887beda682ed72a369e73d124b616d3e27aa24a2eb8c95960c9d99dc2f",
+      "preintegration_manifest": "WZ_ORIGINAL_ANGULAR_POPULATION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAngularPruningFromPhysical.strict.log",
+      "source_sha256": "b366c286c89417d4d5dd6e069e830d3b0a7832972f26f08d311b466b4ac8d647",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeDyadicMeshSelection",
+      "slug": "native_dyadic_mesh_selection",
+      "source": "Theorems/Thm_StickyKakeya4_native_dyadic_mesh_selection.lean",
+      "declarations": [
+        "NativeDyadicMeshSelection.exists_nearby_dyadic_mesh",
+        "NativeDyadicMeshSelection.balanced_dyadic_mesh",
+        "NativeDyadicMeshSelection.original_KT_at_finer_mesh",
+        "NativeDyadicMeshSelection.original_mass_at_nearby_mesh",
+        "NativeDyadicMeshSelection.error_ratio_at_nearby_mesh",
+        "NativeDyadicMeshSelection.exists_balanced_nearby_dyadic_mesh",
+        "NativeDyadicMeshSelection.exists_dyadic_original_population"
+      ],
+      "preintegration_source_sha256": "0c775735c194bba23b80e2be38c9a9e5861fd5a3f86253c32cb47d41e7bcf495",
+      "preintegration_manifest": "native_dyadic_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeDyadicMeshSelection.log",
+      "source_sha256": "30ac8109f5b8028a45409d82bebc778697c6fa6c38e622d76ca23d059b28f013",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalCutoffSelection",
+      "slug": "native_original_cutoff_selection",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_cutoff_selection.lean",
+      "declarations": [
+        "NativeOriginalCutoffSelection.exists_native_mesh_cutoff",
+        "NativeOriginalCutoffSelection.quarter_angular_packing_budget",
+        "NativeOriginalCutoffSelection.exists_quarter_mesh_and_packing_cutoff"
+      ],
+      "preintegration_source_sha256": "d165443c916db039286cc8011219e651c575be6e2caaaa2412d5e0b31e8cb9c1",
+      "preintegration_manifest": "native_dyadic_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalCutoffSelection.log",
+      "source_sha256": "5b89d0b436dcb7ce1448337f2b30f571033af447df2d62c55c6601471e1050fe",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativePlanarABCToBSG",
+      "slug": "native_planar_abc_to_bsg",
+      "source": "Theorems/Thm_StickyKakeya4_native_planar_abc_to_bsg.lean",
+      "declarations": [
+        "NativePlanarABCToBSG.actual_output_grid_eq",
+        "NativePlanarABCToBSG.actual_planar_input_dyadic_bsg",
+        "NativePlanarABCToBSG.original_density_cover_ratio"
+      ],
+      "preintegration_source_sha256": "4812f582031945750ef6ab6e73e5882ef465a51c5af2c75fd9997b41be1a1ebf",
+      "preintegration_manifest": "native_dyadic_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativePlanarABCToBSG.log",
+      "source_sha256": "5324e7b59b8a64756238f20bb2973a9c267224b1a8f9302d730bb3634fce181a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalEuclideanAffineAvoidance",
+      "slug": "original_euclidean_affine_avoidance",
+      "source": "Theorems/Thm_StickyKakeya4_original_euclidean_affine_avoidance.lean",
+      "declarations": [
+        "OriginalEuclideanAffineAvoidance.length2_le_twice_norm",
+        "OriginalEuclideanAffineAvoidance.original_euclidean_avoidance_sup",
+        "OriginalEuclideanAffineAvoidance.quarter_original_euclidean_affine_cap"
+      ],
+      "preintegration_source_sha256": "431bbbe76073a9e35866552d0a8e448d628f663cf2d59ac019ec7c99c9247592",
+      "preintegration_manifest": "native_dyadic_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalEuclideanAffineAvoidance.log",
+      "source_sha256": "77059b22c3229a3929a0615987f89cf36a08dcb1082d7198580a90d7bce35ebd",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalTwoHopPairFamily",
+      "slug": "original_two_hop_pair_family",
+      "source": "Theorems/Thm_StickyKakeya4_original_two_hop_pair_family.lean",
+      "declarations": [
+        "OriginalTwoHopPairFamily.mem_two_hop_pairs",
+        "OriginalTwoHopPairFamily.original_two_hop_pair_count",
+        "OriginalTwoHopPairFamily.original_two_hop_pair_support"
+      ],
+      "preintegration_source_sha256": "585f378671a30c2c922e9a4695c8fdec3961a4f3684e0ab2fac930271ecdb728",
+      "preintegration_manifest": "WZ_ORIGINAL_TWO_HOP_PAIR_FAMILY_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalTwoHopPairFamily-strict.log",
+      "source_sha256": "ec007afa11c2d2f92462916548f6644d1f2777570cfbe81d32300213027a70dc",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeQuarterBalancedMesh",
+      "slug": "native_quarter_balanced_mesh",
+      "source": "Theorems/Thm_StickyKakeya4_native_quarter_balanced_mesh.lean",
+      "declarations": [
+        "NativeQuarterBalancedMesh.balanced_quarter_mesh_bounds",
+        "NativeQuarterBalancedMesh.exists_balanced_quarter_dyadic",
+        "NativeQuarterBalancedMesh.native_strip_width",
+        "NativeQuarterBalancedMesh.native_line_fraction",
+        "NativeQuarterBalancedMesh.native_power_loss",
+        "NativeQuarterBalancedMesh.original_B_mass_at_balanced_projection"
+      ],
+      "preintegration_source_sha256": "754e272ea704815d69c71853944608a7326aaf22a20ab8fa9c11aa6cefd43a65",
+      "preintegration_manifest": "native_quarter_abc_parameters.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeQuarterBalancedMesh.log",
+      "source_sha256": "161cc97842a93ad25b575ec0fd9da7db59372f7796b7723088f5c7ae32f28219",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativePlanarABCFixedExponent",
+      "slug": "native_planar_abc_fixed_exponent",
+      "source": "Theorems/Thm_StickyKakeya4_native_planar_abc_fixed_exponent.lean",
+      "declarations": [
+        "NativePlanarABCFixedExponent.actual_angular_constant_ge_one",
+        "NativePlanarABCFixedExponent.exists_fixed_exponent_data",
+        "NativePlanarABCFixedExponent.exists_zeta_exponent_data"
+      ],
+      "preintegration_source_sha256": "e5c9bc517e808a842231de49146116d35d40b7b85ddcfe0d95647dfa9dfb0d57",
+      "preintegration_manifest": "native_quarter_abc_parameters.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativePlanarABCFixedExponent.log",
+      "source_sha256": "7dbfa8fe6aeb112321a3dd9afcbc94807ff9ccf4ea2e6d95a1681eeb798cf96b",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "NativeScalarCoverAD.cell_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeScalarCoverAD.card_le_capacity_mul_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeScalarCoverAD.point_AD_to_cover_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeScalarCoverAD.literal_to_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeScalarCoverAD.nearly_literal_to_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarCoverLemma53.relative_dyadic_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarCoverLemma53.native_quarter_square_cover_lemma53",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeEuclideanCoverInput.packingBound_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeEuclideanCoverInput.inputConstant_ge_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeEuclideanCoverInput.euclidean_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeEuclideanCoverInput.cell_capacity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeEuclideanCoverInput.subset_card_le_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeEuclideanCoverInput.quarter_square_euclidean_diameter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeEuclideanCoverInput.native_AD_of_euclidean_cover_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterSquareCoverSource.fixed_factor_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterSquareCoverSource.point_AD_mono_constant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterSquareCoverSource.quarter_square_cover_source_alignment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeWeightedPointPopulations.projectedWeight_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeWeightedPointPopulations.projectedWeight_mass_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeWeightedPointPopulations.degree_eq_projectedWeight",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeWeightedPointPopulations.projected_class_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeWeightedPointPopulations.cardinality_uniform_of_weighted_degrees",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeSliceGridGeometry.mem_cylinder_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeSliceGridGeometry.mem_gridBall_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeSliceGridGeometry.cylinder_subset_gridBall",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeSliceGridGeometry.abs_ediv_sub_ediv_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeSliceGridGeometry.coarseSpatial_mem_box_of_mem_gridBall",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeSliceGridGeometry.gridBall_coarseSpatial_card_le_27",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeSliceGridGeometry.gridBall_card_le_27_mul_cylinder",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeSliceGridGeometry.gridBall_card_comparable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalPullback_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalPullback_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalPullback_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalPullback_bins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalPullback_subset_kept",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalPullback_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalPullback_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalPullback_degree",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalWeight_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.originalWeight_total",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSlicePopulation.refine_original_incidence_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalSliceBallPopulation.original_slice_ball_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorGraphCollisionEnergy.same_planar_grid_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorGraphCollisionEnergy.graph_grid_collisions_near",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorGraphCollisionEnergy.original_graph_cover_near_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorGraphCollisionEnergy.original_ABC_cover_near_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorLabelledEnergyBin.labelled_integer_collisions_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorLabelledEnergyBin.labelled_planar_near_energy_le_fortynine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorLabelledEnergyBin.exists_vector_energy_preserving_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorLabelledEnergyBin.exists_vector_graph_energy_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorIntegerBinRealBSG.synthesis_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorIntegerBinRealBSG.real_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorIntegerBinRealBSG.real_grid_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorIntegerBinRealBSG.collisions_image_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorIntegerBinRealBSG.integer_energy_le_original_near",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorIntegerBinRealBSG.integer_bin_planar_dyadic_bsg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorWholeFiberLift.selectedPairs_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorWholeFiberLift.selectedPairs_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorWholeFiberLift.selectedPairs_whole_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorWholeFiberLift.selectedPairs_fiber_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorWholeFiberLift.selectedPairs_weighted_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorWholeFiberLift.selectedPairs_relative_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorWholeFiberLift.selectedPairs_original_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorProductCover.rounded_grid_add_scalar",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorProductCover.roundPoint_grid_add",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorProductCover.roundPoint_grid_triple",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorProductCover.grid_triple_rounding",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorProductCover.actual_product_triple_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorBinSelectionTools.selectedCodes_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorBinSelectionTools.selectedCodes_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorBinSelectionTools.selectedCodes_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorBinSelectionTools.integer_addEnergy_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorBinSelectionTools.normalized_bin_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorBinSelectionTools.rounded_point_box_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorBinSelectionTools.coupled_bin_grid_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "GraphWeightedOriginalFiberBin.graphPiece_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "GraphWeightedOriginalFiberBin.collisions_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "GraphWeightedOriginalFiberBin.exists_graph_weighted_energy_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorGraphWeightedRounding.original_graph_cover_grid_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorGraphWeightedRounding.graph_grid_collisions_near_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorGraphWeightedRounding.rounded_graph_collisions_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorGraphWeightedRounding.original_graph_cover_rounded_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorGraphWeightedRounding.exists_vector_graph_energy_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorOriginalGraphBSG.dyadic_half_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorOriginalGraphBSG.original_vector_graph_dyadic_bsg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorOriginalGraphBSG.original_product_value_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "VectorOriginalGraphBSG.original_ABC_dyadic_bsg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAnnularGraphDeletion.physical_pair_tube_swap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAnnularGraphDeletion.bad_pair_graph_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAnnularGraphDeletion.native_original_annular_graph_deletion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAnnularOffRootMass.annular_scales_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAnnularOffRootMass.original_distance_annulus_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAnnularOffRootMass.original_near_root_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeAnnularParameterBudget.native_annular_loss_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeAnnularParameterBudget.native_annular_top_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeAnnularParameterBudget.original_inner_ball_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeAnnularParameterBudget.exists_original_menu_power_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalOffRootMass.native_original_off_root_half",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalStep2Caller.exists_native_original_step2_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalRetainedTubeBallProfile.retained_original_wide_tube_ball_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.exists_small_power_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.quarter_representative_buffer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.quarter_error_buffer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.quarter_affine_source_buffer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.projection_scalar_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.exists_projection_resolution_and_scales",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.exists_quarter_parameter_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.fraction_exponent_choice",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.exists_original_eta_region",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.absorb_original_fraction_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterScaleParameters.fixed_upper_exponent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularExponentRange.original_angular_card_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularExponentRange.original_angular_exponent_lt_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularExponentRange.uniform_angular_mesh_cost",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "BoundedOriginalAngleTubeTransfer.original_complex_norm_le_two_scale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "BoundedOriginalAngleTubeTransfer.original_physical_weighted_sine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "BoundedOriginalAngleTubeTransfer.original_bounded_same_root_support_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoHopClassTubeTransfer.original_two_hop_angle_support_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoHopClassTubeTransfer.original_reverse_forward_class_support_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "RadialAnglePeriodicCover.small_sine_five_intervals",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalRadialSineGeometry.original_scale_le_complex_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalRadialSineGeometry.original_sine_residual_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalRadialSineGeometry.physical_tube_small_sine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "RadialAngleBinIncidence.separated_bins_small_sine_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "RadialAngleBinIncidence.native_small_sine_bin_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularTubeIncidence.original_point_tube_incidence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularTubeIncidence.original_point_tube_incidence_euclidean",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularClassPopulation.root_original_angle_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularClassPopulation.original_forward_class_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularPruningFromPhysical.original_reverse_class_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularPruningFromPhysical.exists_original_angular_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicMeshSelection.exists_nearby_dyadic_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicMeshSelection.balanced_dyadic_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicMeshSelection.original_KT_at_finer_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicMeshSelection.original_mass_at_nearby_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicMeshSelection.error_ratio_at_nearby_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicMeshSelection.exists_balanced_nearby_dyadic_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicMeshSelection.exists_dyadic_original_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCutoffSelection.exists_native_mesh_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCutoffSelection.quarter_angular_packing_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCutoffSelection.exists_quarter_mesh_and_packing_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarABCToBSG.actual_output_grid_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarABCToBSG.actual_planar_input_dyadic_bsg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarABCToBSG.original_density_cover_ratio",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalEuclideanAffineAvoidance.length2_le_twice_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalEuclideanAffineAvoidance.original_euclidean_avoidance_sup",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalEuclideanAffineAvoidance.quarter_original_euclidean_affine_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoHopPairFamily.mem_two_hop_pairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoHopPairFamily.original_two_hop_pair_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoHopPairFamily.original_two_hop_pair_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterBalancedMesh.balanced_quarter_mesh_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterBalancedMesh.exists_balanced_quarter_dyadic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterBalancedMesh.native_strip_width",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterBalancedMesh.native_line_fraction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterBalancedMesh.native_power_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativeQuarterBalancedMesh.original_B_mass_at_balanced_projection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarABCFixedExponent.actual_angular_constant_ge_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarABCFixedExponent.exists_fixed_exponent_data",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarABCFixedExponent.exists_zeta_exponent_data",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-continuation-axioms.log"
+    }
+  ],
+  "declaration_count": 159,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_log": "verification/wz-native-continuation-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9235,
+    "log": "verification/wz526-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "module_count": 526,
+    "source_base_tree": "6cbbd710231028f80964d2eb02ad8b11d649acc5",
+    "source_snapshot": "verification/wz526-source-snapshot.json",
+    "scope": "Full 526-module default build; previous 486 source hashes unchanged"
+  },
+  "current_module_count": 526,
+  "prior_486_module_hashes_unchanged": true,
+  "scope_note": "docs/WZ_NATIVE_RADIAL_ABC_CONTINUATION.md",
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+}

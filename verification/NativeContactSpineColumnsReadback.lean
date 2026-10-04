@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_contact_spine_columns
+
+#print axioms NativeContactSpineColumns.same_cell_graph_residual
+#print axioms NativeContactSpineColumns.tube_contact_residual
+#print axioms NativeContactSpineColumns.contact_overlap_budget
+#print axioms NativeContactSpineColumns.columns_from_coarse_contact_spines
+#print axioms NativeContactSpineColumns.columns_from_fine_contact_spines
+#print axioms NativeContactSpineColumns.columns_card_le_from_AD_contact_spines

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_original_phase_grid_edges
+
+#print axioms NativeOriginalPhaseGridEdges.graph_edge_grid_phase_error

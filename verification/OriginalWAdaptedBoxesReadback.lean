@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_original_w_adapted_boxes
+
+#print axioms OriginalWAdaptedBoxes.original_data_bounds
+#print axioms OriginalWAdaptedBoxes.original_witness_box_comparison
+#print axioms OriginalWAdaptedBoxes.constructed_successor_box_comparison

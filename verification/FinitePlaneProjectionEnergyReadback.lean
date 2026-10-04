@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_energy
+
+#print axioms FinitePlaneProjectionGrid.dist3_eq_norm
+#print axioms FinitePlaneProjectionGrid.pairParameters_iff
+#print axioms FinitePlaneProjectionGrid.exists_shell
+#print axioms FinitePlaneProjectionGrid.two_pow_reciprocal
+#print axioms FinitePlaneProjectionGrid.finite_geometric_le_two
+#print axioms FinitePlaneProjectionGrid.shell_pair_count
+#print axioms FinitePlaneProjectionGrid.shell_energy_bound
+#print axioms FinitePlaneProjectionGrid.sum_le_near_add_shells
+#print axioms FinitePlaneProjectionGrid.point_energy_bound
+#print axioms FinitePlaneProjectionGrid.collision_fubini
+#print axioms FinitePlaneProjectionGrid.actual_KT1_collision_energy

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_parent_refinement
+
+#print axioms NativeParentRefinement.quantizer_cap_total
+#print axioms NativeParentRefinement.density_lower_from_parent_mass
+#print axioms NativeParentRefinement.refine_parent

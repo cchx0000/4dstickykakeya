@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_asymmetric_scale_budget
+
+#print axioms NativeAsymmetricScaleBudget.ceil_inverse_bound
+#print axioms NativeAsymmetricScaleBudget.budget_linear_bound
+#print axioms NativeAsymmetricScaleBudget.threshold_native
+#print axioms NativeAsymmetricScaleBudget.density_native_lower
+#print axioms NativeAsymmetricScaleBudget.inverse_le_binary_ceil
+#print axioms NativeAsymmetricScaleBudget.native_card_budget

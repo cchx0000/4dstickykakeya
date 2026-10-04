@@ -19,12 +19,56 @@ The earlier Prove2Me proposal is preserved in
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
+The latest checked source has **903 project modules**, a successful **9,612-job** default build, and **4,944 cumulative unique checked declarations**. The [original owner and polynomial checkpoint](docs/WZ_ORIGINAL_OWNER_AND_POLYNOMIAL.md) constructs actual balanced full fibers, the unweighted planar source and inherited pairwise-cap transport, together with fixed-degree/fixed-word-length polynomial engines and actual coarse/phase source consumers. Its 244 new public closures use only foundational axioms. The subsequent weak-profile scalar expansion endpoint is locally verified and awaits its next canonical checkpoint. Full A.3/A.4, complete native admission and the final volume theorem remain unfinished.
+
+The [finite plane projection checkpoint](docs/WZ_FINITE_PLANE_PROJECTION.md)
+constructs a common actual linear projection, original separated
+representatives, all-radius ball bounds and line control from original
+geometry. Its 105 public strict checks and full 402-module build pass.
+Sparse graph preservation is now supplied by the later source-adapter checkpoint; the final volume theorem remains incomplete.
+
+The [original phase-window construction](docs/WZ_ORIGINAL_PHASE_WINDOW_GRAPH.md)
+now derives the actual original-W graph, its population and edge relation.
+Original energy bins preserve the original labels, and the radial caller
+handles fixed dilations directly. The 66 new strict checks and full 386-module
+build pass. Reduced-menu inputs are now constructed above; the deep radial gain remains open.
+
+The [native weak radial projection checkpoint](docs/WZ_NATIVE_A2_FINITE_RICH_PAIR_TUBES.md)
+constructs the original pair graph and actual thin-tube bounds directly from
+Euclidean Frostman and physical unit-tube data, including the uniform mesh
+threshold. Its 48 strict checks and full 364-module build pass. Appendix A.3
+and the remaining configuration assembly are still open.
+
+The [original-family CW and planar BSG checkpoint](docs/WZ_NATIVE_CW_AND_PLANAR_BSG.md)
+now derives actual scalar and planar root-box concentration, including full
+original carrier fibers and proved convexity/volume. It also proves the
+Euclidean planar original-set additive endpoint and the signed normalized
+physical phase relation. Its 117 new strict checks and full 348-module build
+pass. The deep small-exponent radial gain and the remaining configuration
+callers are still open.
+
+The [original-set asymmetric BSG checkpoint](docs/WZ_ORIGINAL_ASYMMETRIC_BSG.md)
+now constructs the full native dyadic additive endpoint from actual separated
+inputs and closed near-collision energy. Its mesh threshold is uniform in the
+energy parameter, and its retained subsets consist of original points. The
+156 new strict checks and full 326-module build pass. This removes the
+cardinality-power-balance premise from the native BSG step; the later
+four-cycle and radial/Furstenberg arguments remain separate.
+
+The [physical original-source checkpoint](docs/WZ_PHYSICAL_NATIVE_CONSTRUCTION.md)
+constructs actual parent/contact references, angular charts and separated
+patches, real-scale tube-profile transfer, and original-W physical growth
+with the actual retained-height normalization. Its 140 new strict checks
+and full 302-module build pass. The complete volume route still needs all
+three configuration branches, as recorded in the
+[17.3/17.4/17.5 ledger](docs/WZ_FOUR_DIMENSIONAL_BRANCH_LEDGER.md).
+
 The [actual epochs and finite Kaufman checkpoint](docs/WZ_ACTUAL_EPOCHS_AND_FINITE_KAUFMAN.md)
 constructs the actual AD-driven tube epoch, original fine-point escaping
 menus, and the full finite Kaufman projection input. It also proves original
 height padding and deterministic coarse representatives. Its 150 new proofs
-and full 288-module build pass; the later radial expansion and asymmetric
-additive iteration remain substantive unproved inputs.
+and full 288-module build passed at that checkpoint. The current checked
+scope and remaining inputs appear in the newer checkpoint above.
 
 The [native refinement and growth checkpoint](docs/WZ_NATIVE_REFINEMENT_AND_TRANSVERSE_GROWTH.md)
 constructs all six reference bounds and the same-parent refinement, proves
@@ -209,7 +253,7 @@ fixed original source. No required tail structure is inferred from packing3.
 
 See [verification/REPORT.md](verification/REPORT.md) for executed checks and
 [verification/REPRODUCING.md](verification/REPRODUCING.md) for commands. The
-latest full default build passed **185 project modules** and **8,894 Lake jobs**,
+historical 185-module default build passed **8,894 Lake jobs**,
 including the one-source/all-slack and variable-time line-hairbrush constructions.
 Its source snapshot is recorded in `verification/hairbrush-escape-default-build.log`.
 The additional filtration, envelope, whole-parent, and common-time targets passed
@@ -222,7 +266,7 @@ passed **8,706 jobs**. Those were historical targeted checks. The current
 latest default build, exact source hashes, and current module count are
 recorded in `verification/final-status.json`; detailed checkpoint evidence is
 collected in `verification/REPORT.md`.
-The fresh final-theorem axiom gate in `verification/wz225-main-axiom-gate.log`
+The historical final-theorem axiom gate in `verification/wz225-main-axiom-gate.log`
 still fails exactly because the two main
 closure declarations use the preexisting WZ project axiom.
 `scripts/check-axioms.sh` makes that failure explicit. The original final

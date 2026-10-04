@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_radial_scale_consequences
+
+#print axioms NativeRadialScaleConsequences.selected_scale_upper
+#print axioms NativeRadialScaleConsequences.original_reciprocal_width_control

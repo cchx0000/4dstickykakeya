@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_original_phase_window_edges
+
+#print axioms NativeOriginalPhaseWindowEdges.graph_edge_original_witness
+#print axioms NativeOriginalPhaseWindowEdges.graph_edge_normalized_phase_error

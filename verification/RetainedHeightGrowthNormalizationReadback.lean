@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_retained_height_growth_normalization
+
+#print axioms RetainedHeightGrowthNormalization.scalar_normalized_growth
+#print axioms RetainedHeightGrowthNormalization.scalar_output_lower_bound
+#print axioms RetainedHeightGrowthNormalization.planar_normalized_growth
+#print axioms RetainedHeightGrowthNormalization.planar_output_lower_bound

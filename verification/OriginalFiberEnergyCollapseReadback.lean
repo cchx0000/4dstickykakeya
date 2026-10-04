@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_original_fiber_energy_collapse
+
+#print axioms OriginalFiberEnergyCollapse.translated_histogram_card
+#print axioms OriginalFiberEnergyCollapse.original_filter_fiber_bound
+#print axioms OriginalFiberEnergyCollapse.translated_histogram_bound
+#print axioms OriginalFiberEnergyCollapse.translated_output_image
+#print axioms OriginalFiberEnergyCollapse.labelled_sum_energy_le

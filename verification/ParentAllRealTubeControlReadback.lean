@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_parent_all_real_tube_control
+
+#print axioms ParentAllRealTubeControl.local_moved_tube_le_profile
+#print axioms ParentAllRealTubeControl.stopped_parent_long_tube
+#print axioms ParentAllRealTubeControl.wide_parent_grid_card
+#print axioms ParentAllRealTubeControl.stopped_parent_all_real_tube
+#print axioms ParentAllRealTubeControl.normalized_parent_all_real_tube
+#print axioms ParentAllRealTubeControl.quantized_chart_parent_trace_bound

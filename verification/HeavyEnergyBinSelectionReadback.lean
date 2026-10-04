@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_heavy_energy_bin_selection
+
+#print axioms HeavyEnergyBinSelection.exists_heavy_energy_index
+#print axioms HeavyEnergyBinSelection.product_partition_piece
+#print axioms HeavyEnergyBinSelection.exists_original_energy_bin

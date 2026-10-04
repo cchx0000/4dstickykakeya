@@ -1,0 +1,63 @@
+'PlanarStripIntersection.abs_combination_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlanarStripIntersection.common_point_coordinate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlanarStripIntersection.determinant_bound_of_common_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PlanarStripIntersection.transverse_intersection_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlanarStripIntersection.unit_coordinate_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlanarStripIntersection.bounded_strip_containment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlanarStripIntersection.long_overlap_containment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCommonPointTubeRepresentatives.compatible_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteCommonPointTubeRepresentatives.exists_original_representatives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RichFamilyIncidenceBound.incidence_collision_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichFamilyIncidenceBound.incidence_cauchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichFamilyIncidenceBound.intersection_sum_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichFamilyIncidenceBound.rich_family_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRichStripRepresentatives.diameter_support_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRichStripRepresentatives.finite_rich_strip_representatives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPairStripGeometry.scale_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPairStripGeometry.original_pair_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPairStripGeometry.original_pair_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPairStripGeometry.affine_pair_line_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPairStripGeometry.near_original_pair_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRichPairTubeFamily.original_rich_pair_representatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TransverseOriginalStripPoints.common_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TransverseOriginalStripPoints.transverse_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TransverseOriginalStripPoints.transverse_card_from_rich_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TransverseOriginalStripPoints.nontransverse_common_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPairRowCut.exists_good_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeakRadialPairGraph.finite_weak_radial_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FourUnitTubeBandCover.normalized_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FourUnitTubeBandCover.four_unit_intervals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FourUnitTubeBandCover.band_card_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlanarFrostmanBallConversion.euclidean_le_two_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlanarFrostmanBallConversion.box_ball_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlanarFrostmanBallConversion.box_frostman_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PlanarFrostmanBallConversion.diagonal_charge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PhysicalWeakRadialPairGraph.original_physical_weak_radial_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeA2PowerBudget.exists_power_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeA2PowerBudget.absorb_power_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeA2PowerBudget.native_power_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeA2PowerBudget.exists_native_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeA2ParameterIdentities.native_geometric_scales' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeA2ParameterIdentities.overlap_power_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeA2ParameterIdentities.transverse_power_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeA2ParameterIdentities.diagonal_power_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPhysicalPairTube.coordinates_le_euclidean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPhysicalPairTube.physical_pair_tube_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPhysicalPairTube.physical_pair_tube_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeA2WeakRadialCaller.native_weak_radial_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeA2WeakRadialCaller.exists_uniform_native_weak_radial_graph_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Command: /workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true verification/WZNativeA2Readback.lean
+Confirmed exit code: 0

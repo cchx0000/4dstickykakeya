@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_physical_weak_radial_pair_graph
+
+#print axioms PhysicalWeakRadialPairGraph.original_physical_weak_radial_graph

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_a2_weak_radial_caller
+
+#print axioms NativeA2WeakRadialCaller.native_weak_radial_graph
+#print axioms NativeA2WeakRadialCaller.exists_uniform_native_weak_radial_graph_threshold

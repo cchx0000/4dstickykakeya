@@ -1,0 +1,166 @@
+{
+  "generated_at_utc": "2026-10-04T10:21:46.415763+00:00",
+  "base_commit": "88fbc7673c2eea95ed0268198ecc857d17d1558e",
+  "base_tree": "7619575e8448472a4c0862a7fc3e62396d544b56",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_source_hairbrush_slab.lean": "050258218a9c11be0d3ff6838e4d207e65952b0820785130e8aecd460cf2a72e",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_literal_slab_cover.lean": "86059d7f5fb787b5780a409ce21d44df47f353d6f3e0449c68b9639d4f589c14"
+  },
+  "new_modules": [
+    {
+      "short": "OriginalThreeDimensionalSourceHairbrushSlab",
+      "slug": "original_three_dimensional_source_hairbrush_slab",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_source_hairbrush_slab.lean",
+      "declarations": [
+        "OriginalThreeDimensionalHairbrushParameters.parameter_bounds",
+        "OriginalThreeDimensionalHairbrushParameters.exact_parameter_budgets",
+        "OriginalThreeDimensionalHairbrushParameters.small_radius_conditions",
+        "OriginalThreeDimensionalHairbrushParameters.slab_width_ge_hundred",
+        "OriginalThreeDimensionalHairbrushParameters.large_radius_slab_width",
+        "OriginalThreeDimensionalHairbrushParameters.source_mass_constant_conversion",
+        "OriginalThreeDimensionalHairbrushParameters.trivial_mass_constant",
+        "OriginalThreeDimensionalSourceHairbrushSlab.exists_original_source_hairbrush_slab"
+      ],
+      "preintegration_source_sha256": "3f303f7176ce73a1dfe30382f66aed88296baca6b093e5578a74e678f6f81074",
+      "preintegration_manifest": "OriginalThreeDimensionalSourceHairbrushSlab.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalSourceHairbrushSlab.strict.log",
+      "source_sha256": "050258218a9c11be0d3ff6838e4d207e65952b0820785130e8aecd460cf2a72e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalLiteralSlabCover",
+      "slug": "original_three_dimensional_literal_slab_cover",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_literal_slab_cover.lean",
+      "declarations": [
+        "OriginalThreeDimensionalLiteralSlabCover.exists_original_normal_frame",
+        "OriginalThreeDimensionalLiteralSlabCover.original_frame_coordinate_bound",
+        "OriginalThreeDimensionalLiteralSlabCover.original_unit_slab_from_literal_rectangles"
+      ],
+      "preintegration_source_sha256": "7dacd8da9b5bf83b62d5cf6e319870fcc442d12901510dd4d420ba65b65eed39",
+      "preintegration_manifest": "OriginalLiteralSlabCover.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalLiteralSlabCover.strict.log",
+      "source_sha256": "86059d7f5fb787b5780a409ce21d44df47f353d6f3e0449c68b9639d4f589c14",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "OriginalThreeDimensionalHairbrushParameters.parameter_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHairbrushParameters.exact_parameter_budgets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHairbrushParameters.small_radius_conditions",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHairbrushParameters.slab_width_ge_hundred",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHairbrushParameters.large_radius_slab_width",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHairbrushParameters.source_mass_constant_conversion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalHairbrushParameters.trivial_mass_constant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSourceHairbrushSlab.exists_original_source_hairbrush_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalLiteralSlabCover.exists_original_normal_frame",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalLiteralSlabCover.original_frame_coordinate_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalLiteralSlabCover.original_unit_slab_from_literal_rectangles",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-source-hairbrush-axioms.log"
+    }
+  ],
+  "declaration_count": 11,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_log": "verification/wz-original-source-hairbrush-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9473,
+    "log": "verification/wz764-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "module_count": 764,
+    "source_base_tree": "7619575e8448472a4c0862a7fc3e62396d544b56",
+    "source_snapshot": "verification/wz764-source-snapshot.json",
+    "scope": "Full 764-module default build; previous 762 source hashes unchanged"
+  },
+  "current_module_count": 764,
+  "prior_762_module_hashes_unchanged": true,
+  "scope_note": "docs/WZ_ORIGINAL_SOURCE_HAIRBRUSH.md",
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+}

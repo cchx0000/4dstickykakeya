@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_actual_rounded_additive_energy
+
+#print axioms ActualRoundedAdditiveEnergy.round_error
+#print axioms ActualRoundedAdditiveEnergy.rounding_injOn
+#print axioms ActualRoundedAdditiveEnergy.collisions_image_card
+#print axioms ActualRoundedAdditiveEnergy.rounded_product_image
+#print axioms ActualRoundedAdditiveEnergy.rounded_label_energy
+#print axioms ActualRoundedAdditiveEnergy.near_energy_le_five_rounded_energy
+#print axioms ActualRoundedAdditiveEnergy.rounded_card
+#print axioms ActualRoundedAdditiveEnergy.near_difference_eq_near_sum
+#print axioms ActualRoundedAdditiveEnergy.near_difference_le_five_rounded_energy
+#print axioms ActualRoundedAdditiveEnergy.rounded_energy_density

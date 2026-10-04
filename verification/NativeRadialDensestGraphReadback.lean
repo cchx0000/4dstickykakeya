@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_radial_densest_graph
+
+#print axioms NativeRadialDensestGraph.exists_original_dyadic_mesh
+#print axioms NativeRadialDensestGraph.exists_native_densest_original_graph

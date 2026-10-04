@@ -1,0 +1,21 @@
+import Theorems.Thm_StickyKakeya4_native_parent_spines
+
+#print axioms NativeParentSpines.owner_spec
+#print axioms NativeParentSpines.mem_pairedMenu_of
+#print axioms NativeParentSpines.pair_label_image_subset
+#print axioms NativeParentSpines.pairedMenu_card_le
+#print axioms NativeParentSpines.pair_label_menu_le
+#print axioms NativeParentSpines.support_card_lower
+#print axioms NativeParentSpines.original_cell_card_le
+#print axioms NativeParentSpines.mass_le_original_grid_cells
+#print axioms NativeParentSpines.fiber_parent_menu_le
+#print axioms NativeParentSpines.unit_degree_eq_card
+#print axioms NativeParentSpines.exists_uniform_parent_core
+#print axioms NativeParentSpines.parentSpine_anchor
+#print axioms NativeParentSpines.parentSpine_subset_owner
+#print axioms NativeParentSpines.parentSpine_same_cell
+#print axioms NativeParentSpines.parentSpine_point_richness
+#print axioms NativeParentSpines.spine_power_cancellation
+#print axioms NativeParentSpines.parent_power_cancellation
+#print axioms NativeParentSpines.exists_parent_core
+#print axioms NativeParentSpines.exists_native_parent_preparation

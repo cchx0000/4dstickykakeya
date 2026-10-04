@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_alignment_scale_separation
+
+#print axioms NativeAlignmentScaleSeparation.top_bracket_lower
+#print axioms NativeAlignmentScaleSeparation.root_of_nat_power
+#print axioms NativeAlignmentScaleSeparation.original_delta_output_separation

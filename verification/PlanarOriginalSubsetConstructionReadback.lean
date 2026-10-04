@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_planar_original_subset_construction
+#print axioms PlanarOriginalSubsetConstruction.half_mesh
+#print axioms PlanarOriginalSubsetConstruction.rounded_cardinality_bound
+#print axioms PlanarOriginalSubsetConstruction.original_preimage
+#print axioms PlanarOriginalSubsetConstruction.original_planar_subsets

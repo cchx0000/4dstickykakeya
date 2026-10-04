@@ -1,0 +1,10 @@
+'OriginalWCoreDynamics.rep_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.next_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.next_preserves_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.angles_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.M_subset_alphabet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.exists_original_core_dynamics' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.exists_original_total_core_dynamics' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Command: /workspace/shared/lean-tools/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean
+Confirmed exit code: 0

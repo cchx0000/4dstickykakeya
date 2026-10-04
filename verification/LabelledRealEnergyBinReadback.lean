@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_labelled_real_energy_bin
+
+#print axioms LabelledRealEnergyBin.labelled_near_energy_le_five
+#print axioms LabelledRealEnergyBin.labelled_near_energy_cap
+#print axioms LabelledRealEnergyBin.exists_real_energy_preserving_bin

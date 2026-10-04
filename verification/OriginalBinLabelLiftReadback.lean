@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_original_bin_label_lift
+
+#print axioms OriginalBinLabelLift.original_bin_lift
+#print axioms OriginalBinLabelLift.original_bin_lift_density

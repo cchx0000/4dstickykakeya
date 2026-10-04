@@ -1,0 +1,670 @@
+{
+  "generated_at_utc": "2026-10-04T00:53:01.992531+00:00",
+  "base_tree": "09e7db18500b60893be91451b2dce812f0ed13fb",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_planar_strip_intersection.lean": "83b73ba6d9ff10584192082e74e40e05503c379f51fced5a7fd31480c4e041c8",
+    "Theorems/Thm_StickyKakeya4_finite_common_point_tube_representatives.lean": "2e7aeae0f1c94502e308e5085bd1c8e8b4b5790cb436f48e9366c0b0654978f4",
+    "Theorems/Thm_StickyKakeya4_rich_family_incidence_bound.lean": "1f6259195ecc6b9ba471abe6e5b94b3531ccd98f4664a3fc95418cabced6564e",
+    "Theorems/Thm_StickyKakeya4_native_rich_strip_representatives.lean": "3648ccb3429c12e36790a8495a2723b70c04271368a8893963f7880aa41d84da",
+    "Theorems/Thm_StickyKakeya4_original_pair_strip_geometry.lean": "20eff78d940aca67ea0d04ac0d3d698e85045a8975c3b59d9dc5d8b924b456ae",
+    "Theorems/Thm_StickyKakeya4_native_rich_pair_tube_family.lean": "55691f0e4fddbb845001532e330935b43317a841e288750a0164f35bf66d0ef0",
+    "Theorems/Thm_StickyKakeya4_transverse_original_strip_points.lean": "f50970e3190c2e4a06e978334fb93d7869bca4893e652fa2f5dbab78cb105e0e",
+    "Theorems/Thm_StickyKakeya4_original_pair_row_cut.lean": "391005125c9993f0dad678ba72458091b8ce912bee37700ae2bf4f965c4804e7",
+    "Theorems/Thm_StickyKakeya4_native_weak_radial_pair_graph.lean": "46c250ed5ff4f83b25d7ffa488279cfb8231fb72790a3e0eaeafb9eaaee7e644",
+    "Theorems/Thm_StickyKakeya4_four_unit_tube_band_cover.lean": "6f859c937cccc0e27f58382f24b121b6239237b4cb03d78d296b793f5b597617",
+    "Theorems/Thm_StickyKakeya4_planar_frostman_ball_conversion.lean": "f1d89f3c0aed5d9428827d948f2d2e592f764376438f8647d30b29095cb4f4bd",
+    "Theorems/Thm_StickyKakeya4_physical_weak_radial_pair_graph.lean": "3dc03fcb6f966557c09d0f90328e53c0732a0984fc3614e0caca278cf092b003",
+    "Theorems/Thm_StickyKakeya4_native_a2_power_budget.lean": "543c6f56b9ae9ad1bb6cf304bf4fe07bc0dd175d8fc8c029428c213fefbb33ee",
+    "Theorems/Thm_StickyKakeya4_native_a2_parameter_identities.lean": "748b17f79aa9123569ea744e109d5e7494d18763eee73a00aca397f41207c946",
+    "Theorems/Thm_StickyKakeya4_original_physical_pair_tube.lean": "6c3bf561d328edef1890151c804165d7a5563f1f922af8dfb6c95bbec5dc59fd",
+    "Theorems/Thm_StickyKakeya4_native_a2_weak_radial_caller.lean": "233c6bf4e9286ea89c7ad09c6420f13b7ce5ab259513f57ec59d8f82d3eab188"
+  },
+  "new_modules": [
+    {
+      "short": "PlanarStripIntersection",
+      "slug": "planar_strip_intersection",
+      "source": "Theorems/Thm_StickyKakeya4_planar_strip_intersection.lean",
+      "source_sha256": "83b73ba6d9ff10584192082e74e40e05503c379f51fced5a7fd31480c4e041c8",
+      "readback": "verification/PlanarStripIntersectionReadback.lean",
+      "declarations": [
+        "PlanarStripIntersection.abs_combination_le_four",
+        "PlanarStripIntersection.common_point_coordinate_bounds",
+        "PlanarStripIntersection.determinant_bound_of_common_separation",
+        "PlanarStripIntersection.transverse_intersection_ball",
+        "PlanarStripIntersection.unit_coordinate_transfer",
+        "PlanarStripIntersection.bounded_strip_containment",
+        "PlanarStripIntersection.long_overlap_containment"
+      ]
+    },
+    {
+      "short": "FiniteCommonPointTubeRepresentatives",
+      "slug": "finite_common_point_tube_representatives",
+      "source": "Theorems/Thm_StickyKakeya4_finite_common_point_tube_representatives.lean",
+      "source_sha256": "2e7aeae0f1c94502e308e5085bd1c8e8b4b5790cb436f48e9366c0b0654978f4",
+      "readback": "verification/FiniteCommonPointTubeRepresentativesReadback.lean",
+      "declarations": [
+        "FiniteCommonPointTubeRepresentatives.compatible_symm",
+        "FiniteCommonPointTubeRepresentatives.exists_original_representatives"
+      ]
+    },
+    {
+      "short": "RichFamilyIncidenceBound",
+      "slug": "rich_family_incidence_bound",
+      "source": "Theorems/Thm_StickyKakeya4_rich_family_incidence_bound.lean",
+      "source_sha256": "1f6259195ecc6b9ba471abe6e5b94b3531ccd98f4664a3fc95418cabced6564e",
+      "readback": "verification/RichFamilyIncidenceBoundReadback.lean",
+      "declarations": [
+        "RichFamilyIncidenceBound.incidence_collision_count",
+        "RichFamilyIncidenceBound.incidence_cauchy",
+        "RichFamilyIncidenceBound.intersection_sum_upper",
+        "RichFamilyIncidenceBound.rich_family_cardinality"
+      ]
+    },
+    {
+      "short": "NativeRichStripRepresentatives",
+      "slug": "native_rich_strip_representatives",
+      "source": "Theorems/Thm_StickyKakeya4_native_rich_strip_representatives.lean",
+      "source_sha256": "3648ccb3429c12e36790a8495a2723b70c04271368a8893963f7880aa41d84da",
+      "readback": "verification/NativeRichStripRepresentativesReadback.lean",
+      "declarations": [
+        "NativeRichStripRepresentatives.diameter_support_card_bound",
+        "NativeRichStripRepresentatives.finite_rich_strip_representatives"
+      ]
+    },
+    {
+      "short": "OriginalPairStripGeometry",
+      "slug": "original_pair_strip_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_original_pair_strip_geometry.lean",
+      "source_sha256": "20eff78d940aca67ea0d04ac0d3d698e85045a8975c3b59d9dc5d8b924b456ae",
+      "readback": "verification/OriginalPairStripGeometryReadback.lean",
+      "declarations": [
+        "OriginalPairStripGeometry.scale_pos",
+        "OriginalPairStripGeometry.original_pair_normalized",
+        "OriginalPairStripGeometry.original_pair_on_line",
+        "OriginalPairStripGeometry.affine_pair_line_residual",
+        "OriginalPairStripGeometry.near_original_pair_line"
+      ]
+    },
+    {
+      "short": "NativeRichPairTubeFamily",
+      "slug": "native_rich_pair_tube_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_rich_pair_tube_family.lean",
+      "source_sha256": "55691f0e4fddbb845001532e330935b43317a841e288750a0164f35bf66d0ef0",
+      "readback": "verification/NativeRichPairTubeFamilyReadback.lean",
+      "declarations": [
+        "NativeRichPairTubeFamily.original_rich_pair_representatives"
+      ]
+    },
+    {
+      "short": "TransverseOriginalStripPoints",
+      "slug": "transverse_original_strip_points",
+      "source": "Theorems/Thm_StickyKakeya4_transverse_original_strip_points.lean",
+      "source_sha256": "f50970e3190c2e4a06e978334fb93d7869bca4893e652fa2f5dbab78cb105e0e",
+      "readback": "verification/TransverseOriginalStripPointsReadback.lean",
+      "declarations": [
+        "TransverseOriginalStripPoints.common_card_bound",
+        "TransverseOriginalStripPoints.transverse_card_bound",
+        "TransverseOriginalStripPoints.transverse_card_from_rich_family",
+        "TransverseOriginalStripPoints.nontransverse_common_strip"
+      ]
+    },
+    {
+      "short": "OriginalPairRowCut",
+      "slug": "original_pair_row_cut",
+      "source": "Theorems/Thm_StickyKakeya4_original_pair_row_cut.lean",
+      "source_sha256": "391005125c9993f0dad678ba72458091b8ce912bee37700ae2bf4f965c4804e7",
+      "readback": "verification/OriginalPairRowCutReadback.lean",
+      "declarations": [
+        "OriginalPairRowCut.exists_good_pairs"
+      ]
+    },
+    {
+      "short": "NativeWeakRadialPairGraph",
+      "slug": "native_weak_radial_pair_graph",
+      "source": "Theorems/Thm_StickyKakeya4_native_weak_radial_pair_graph.lean",
+      "source_sha256": "46c250ed5ff4f83b25d7ffa488279cfb8231fb72790a3e0eaeafb9eaaee7e644",
+      "readback": "verification/NativeWeakRadialPairGraphReadback.lean",
+      "declarations": [
+        "NativeWeakRadialPairGraph.finite_weak_radial_graph"
+      ]
+    },
+    {
+      "short": "FourUnitTubeBandCover",
+      "slug": "four_unit_tube_band_cover",
+      "source": "Theorems/Thm_StickyKakeya4_four_unit_tube_band_cover.lean",
+      "source_sha256": "6f859c937cccc0e27f58382f24b121b6239237b4cb03d78d296b793f5b597617",
+      "readback": "verification/FourUnitTubeBandCoverReadback.lean",
+      "declarations": [
+        "FourUnitTubeBandCover.normalized_frame",
+        "FourUnitTubeBandCover.four_unit_intervals",
+        "FourUnitTubeBandCover.band_card_le_four"
+      ]
+    },
+    {
+      "short": "PlanarFrostmanBallConversion",
+      "slug": "planar_frostman_ball_conversion",
+      "source": "Theorems/Thm_StickyKakeya4_planar_frostman_ball_conversion.lean",
+      "source_sha256": "f1d89f3c0aed5d9428827d948f2d2e592f764376438f8647d30b29095cb4f4bd",
+      "readback": "verification/PlanarFrostmanBallConversionReadback.lean",
+      "declarations": [
+        "PlanarFrostmanBallConversion.euclidean_le_two_box",
+        "PlanarFrostmanBallConversion.box_ball_card_le",
+        "PlanarFrostmanBallConversion.box_frostman_bound",
+        "PlanarFrostmanBallConversion.diagonal_charge"
+      ]
+    },
+    {
+      "short": "PhysicalWeakRadialPairGraph",
+      "slug": "physical_weak_radial_pair_graph",
+      "source": "Theorems/Thm_StickyKakeya4_physical_weak_radial_pair_graph.lean",
+      "source_sha256": "3dc03fcb6f966557c09d0f90328e53c0732a0984fc3614e0caca278cf092b003",
+      "readback": "verification/PhysicalWeakRadialPairGraphReadback.lean",
+      "declarations": [
+        "PhysicalWeakRadialPairGraph.original_physical_weak_radial_graph"
+      ]
+    },
+    {
+      "short": "NativeA2PowerBudget",
+      "slug": "native_a2_power_budget",
+      "source": "Theorems/Thm_StickyKakeya4_native_a2_power_budget.lean",
+      "source_sha256": "543c6f56b9ae9ad1bb6cf304bf4fe07bc0dd175d8fc8c029428c213fefbb33ee",
+      "readback": "verification/NativeA2PowerBudgetReadback.lean",
+      "declarations": [
+        "NativeA2PowerBudget.exists_power_threshold",
+        "NativeA2PowerBudget.absorb_power_term",
+        "NativeA2PowerBudget.native_power_budget",
+        "NativeA2PowerBudget.exists_native_threshold"
+      ]
+    },
+    {
+      "short": "NativeA2ParameterIdentities",
+      "slug": "native_a2_parameter_identities",
+      "source": "Theorems/Thm_StickyKakeya4_native_a2_parameter_identities.lean",
+      "source_sha256": "748b17f79aa9123569ea744e109d5e7494d18763eee73a00aca397f41207c946",
+      "readback": "verification/NativeA2ParameterIdentitiesReadback.lean",
+      "declarations": [
+        "NativeA2ParameterIdentities.native_geometric_scales",
+        "NativeA2ParameterIdentities.overlap_power_identity",
+        "NativeA2ParameterIdentities.transverse_power_identity",
+        "NativeA2ParameterIdentities.diagonal_power_identity"
+      ]
+    },
+    {
+      "short": "OriginalPhysicalPairTube",
+      "slug": "original_physical_pair_tube",
+      "source": "Theorems/Thm_StickyKakeya4_original_physical_pair_tube.lean",
+      "source_sha256": "6c3bf561d328edef1890151c804165d7a5563f1f922af8dfb6c95bbec5dc59fd",
+      "readback": "verification/OriginalPhysicalPairTubeReadback.lean",
+      "declarations": [
+        "OriginalPhysicalPairTube.coordinates_le_euclidean",
+        "OriginalPhysicalPairTube.physical_pair_tube_subset",
+        "OriginalPhysicalPairTube.physical_pair_tube_card"
+      ]
+    },
+    {
+      "short": "NativeA2WeakRadialCaller",
+      "slug": "native_a2_weak_radial_caller",
+      "source": "Theorems/Thm_StickyKakeya4_native_a2_weak_radial_caller.lean",
+      "source_sha256": "233c6bf4e9286ea89c7ad09c6420f13b7ce5ab259513f57ec59d8f82d3eab188",
+      "readback": "verification/NativeA2WeakRadialCallerReadback.lean",
+      "declarations": [
+        "NativeA2WeakRadialCaller.native_weak_radial_graph",
+        "NativeA2WeakRadialCaller.exists_uniform_native_weak_radial_graph_threshold"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "PlanarStripIntersection.abs_combination_le_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarStripIntersection.common_point_coordinate_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarStripIntersection.determinant_bound_of_common_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarStripIntersection.transverse_intersection_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarStripIntersection.unit_coordinate_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarStripIntersection.bounded_strip_containment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarStripIntersection.long_overlap_containment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "FiniteCommonPointTubeRepresentatives.compatible_symm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "FiniteCommonPointTubeRepresentatives.exists_original_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "RichFamilyIncidenceBound.incidence_collision_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "RichFamilyIncidenceBound.incidence_cauchy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "RichFamilyIncidenceBound.intersection_sum_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "RichFamilyIncidenceBound.rich_family_cardinality",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeRichStripRepresentatives.diameter_support_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeRichStripRepresentatives.finite_rich_strip_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "OriginalPairStripGeometry.scale_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "OriginalPairStripGeometry.original_pair_normalized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "OriginalPairStripGeometry.original_pair_on_line",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "OriginalPairStripGeometry.affine_pair_line_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "OriginalPairStripGeometry.near_original_pair_line",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeRichPairTubeFamily.original_rich_pair_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "TransverseOriginalStripPoints.common_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "TransverseOriginalStripPoints.transverse_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "TransverseOriginalStripPoints.transverse_card_from_rich_family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "TransverseOriginalStripPoints.nontransverse_common_strip",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "OriginalPairRowCut.exists_good_pairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeWeakRadialPairGraph.finite_weak_radial_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "FourUnitTubeBandCover.normalized_frame",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "FourUnitTubeBandCover.four_unit_intervals",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "FourUnitTubeBandCover.band_card_le_four",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarFrostmanBallConversion.euclidean_le_two_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarFrostmanBallConversion.box_ball_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarFrostmanBallConversion.box_frostman_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PlanarFrostmanBallConversion.diagonal_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "PhysicalWeakRadialPairGraph.original_physical_weak_radial_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2PowerBudget.exists_power_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2PowerBudget.absorb_power_term",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2PowerBudget.native_power_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2PowerBudget.exists_native_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2ParameterIdentities.native_geometric_scales",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2ParameterIdentities.overlap_power_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2ParameterIdentities.transverse_power_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2ParameterIdentities.diagonal_power_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhysicalPairTube.coordinates_le_euclidean",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhysicalPairTube.physical_pair_tube_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "OriginalPhysicalPairTube.physical_pair_tube_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2WeakRadialCaller.native_weak_radial_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    },
+    {
+      "declaration": "NativeA2WeakRadialCaller.exists_uniform_native_weak_radial_graph_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-native-a2-axioms.log"
+    }
+  ],
+  "declaration_count": 48,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_readback": "verification/WZNativeA2Readback.lean",
+  "shared_import_log": "verification/wz-native-a2-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9073,
+    "log": "verification/wz364-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_tree": "09e7db18500b60893be91451b2dce812f0ed13fb",
+    "module_count": 364,
+    "source_snapshot": "verification/wz364-source-snapshot.json",
+    "scope": "Full default build of all 364 modules; all previous 348 source hashes unchanged"
+  },
+  "prior_348_module_hashes_unchanged": true,
+  "current_module_count": 364,
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "scope_note": "docs/WZ_NATIVE_A2_FINITE_RICH_PAIR_TUBES.md"
+}

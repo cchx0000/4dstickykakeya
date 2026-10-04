@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_a2_power_budget
+
+#print axioms NativeA2PowerBudget.exists_power_threshold
+#print axioms NativeA2PowerBudget.absorb_power_term
+#print axioms NativeA2PowerBudget.native_power_budget
+#print axioms NativeA2PowerBudget.exists_native_threshold

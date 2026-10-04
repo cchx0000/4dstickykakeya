@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_original_height_interval_cap
+
+#print axioms OriginalHeightIntervalCap.floor_original_mesh
+#print axioms OriginalHeightIntervalCap.original_floor_injective
+#print axioms OriginalHeightIntervalCap.floor_interval_card
+#print axioms OriginalHeightIntervalCap.original_interval_cap_add_two
+#print axioms OriginalHeightIntervalCap.original_interval_cap
+#print axioms OriginalHeightIntervalCap.density_ratio
+#print axioms OriginalHeightIntervalCap.original_height_cap_and_ratio

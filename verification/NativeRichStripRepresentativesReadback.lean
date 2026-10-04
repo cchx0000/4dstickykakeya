@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_rich_strip_representatives
+
+#print axioms NativeRichStripRepresentatives.diameter_support_card_bound
+#print axioms NativeRichStripRepresentatives.finite_rich_strip_representatives

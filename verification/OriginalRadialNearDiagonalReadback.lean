@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_original_radial_near_diagonal
+
+#print axioms OriginalRadialNearDiagonal.original_separation_radius
+#print axioms OriginalRadialNearDiagonal.remove_original_near_diagonal

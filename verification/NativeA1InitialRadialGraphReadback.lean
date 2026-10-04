@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_a1_initial_radial_graph
+
+#print axioms NativeA1InitialRadialGraph.exists_original_eta_dilated_radial_threshold

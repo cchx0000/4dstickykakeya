@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_planar_strip_intersection
+
+#print axioms PlanarStripIntersection.abs_combination_le_four
+#print axioms PlanarStripIntersection.common_point_coordinate_bounds
+#print axioms PlanarStripIntersection.determinant_bound_of_common_separation
+#print axioms PlanarStripIntersection.transverse_intersection_ball
+#print axioms PlanarStripIntersection.unit_coordinate_transfer
+#print axioms PlanarStripIntersection.bounded_strip_containment
+#print axioms PlanarStripIntersection.long_overlap_containment

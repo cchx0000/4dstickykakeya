@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_original_phase_cell_population
+
+#print axioms OriginalPhaseCellPopulation.physical_cells_in_rectangle
+#print axioms OriginalPhaseCellPopulation.same_x_and_grain_window_physical_cells
+#print axioms OriginalPhaseCellPopulation.original_phase_cells_over_x_cell
+#print axioms OriginalPhaseCellPopulation.phase_cap_of_working_scale_ratio

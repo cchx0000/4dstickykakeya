@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_actual_planar_rounded_energy
+#print axioms ActualPlanarRoundedEnergy.planar_rounding_injOn
+#print axioms ActualPlanarRoundedEnergy.planar_rounded_card
+#print axioms ActualPlanarRoundedEnergy.rounded_planar_product_image
+#print axioms ActualPlanarRoundedEnergy.rounded_planar_label_energy
+#print axioms ActualPlanarRoundedEnergy.original_planar_near_energy
+#print axioms ActualPlanarRoundedEnergy.max_norm_separation_of_euclidean_squared
+#print axioms ActualPlanarRoundedEnergy.original_euclidean_planar_near_energy

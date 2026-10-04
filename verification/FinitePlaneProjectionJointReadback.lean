@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_joint
+
+#print axioms FinitePlaneProjectionGrid.triples_card
+#print axioms FinitePlaneProjectionGrid.actual_triangle_parameter_count
+#print axioms FinitePlaneProjectionGrid.triangle_fubini
+#print axioms FinitePlaneProjectionGrid.original_triangle_projection_budget
+#print axioms FinitePlaneProjectionGrid.exists_joint_average
+#print axioms FinitePlaneProjectionGrid.exists_common_projection

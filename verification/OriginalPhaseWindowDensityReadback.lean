@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_original_phase_window_density
+
+#print axioms OriginalPhaseWindowDensity.window_graph_relative_density
+#print axioms OriginalPhaseWindowDensity.original_alphabet_degree_lower

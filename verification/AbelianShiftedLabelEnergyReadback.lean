@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_abelian_shifted_label_energy
+#print axioms AbelianShiftedLabelEnergy.shifted_pairs_le_zero_energy
+#print axioms AbelianShiftedLabelEnergy.pair_set_le_menu_energy

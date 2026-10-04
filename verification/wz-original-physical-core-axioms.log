@@ -1,0 +1,396 @@
+Started UTC: 2026-10-04T12:18:25.862063+00:00
+Command: /workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true verification/OriginalPhysicalCoreReadback.lean
+FIFO compiler ticket: 01791116305892554823-a7fa884888b746df81e44577ab8f638c.request
+FIFO compiler acquired UTC: 2026-10-04T12:19:26.498027+00:00
+'OriginalThreeDimensionalEnergySliceWitness.exists_original_energy_regular_slice_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedSliceWitness.exists_original_marked_slice_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedEndpointCarrier.original_graph_on_endpoint_carrier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedEndpointCarrier.original_endpoint_carrier_subset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedEndpointCarrier.original_marked_endpoints_raw_slab' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedEndpointCarrier.original_endpoint_full_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPlanarTubePairCount.original_planar_two_point_cell_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPlanarTubeEnergy.original_planar_square_sum_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeEnergy.original_planar_tube_square_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeEnergy.original_projected_inverse_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPlanarTubeEnergy.original_slab_tube_square_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeParameters.original_pair_slope_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeParameters.original_pair_graph_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeParameters.original_graph_value_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeParameters.original_pair_cell_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeParameters.original_pair_strip_in_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeParameters.original_cell_in_pair_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeParameters.original_pair_endpoints_in_cell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPlanarTubeParameters.original_chart_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeParameters.exists_original_pair_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeChart.exists_original_common_planar_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarTubeChart.original_chart_cell_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeCoreReinforcement.original_core_pair_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeCoreReinforcement.original_rich_family_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeCoreReinforcement.original_core_rich_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPlanarChartTubeEnergy.original_chart_coordinate_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPlanarChartTubeEnergy.original_chart_slab_tube_square_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPlanarCoreRichness.exists_original_core_rich_planar_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.frameCoordinate_eq_repr' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.distance3_eq_euclidean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.distance2_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalSlabProjection.frame_distance_squared' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.projected_distance_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.slab_normal_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.original_slab_distance_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.original_projected_coordinate_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.frameCoordinate_orthogonalFoot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.orthogonalFoot_on_plane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.project_orthogonalFoot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabProjection.distance_to_orthogonalFoot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalFiniteCellWeights.pointWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalFiniteCellWeights.pairWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalFiniteCellWeights.point_mass_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalFiniteCellWeights.pair_mass_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalFiniteCellWeights.point_subset_mass_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalFiniteCellWeights.pair_subset_mass_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalFiniteCellWeights.pairFiber_subset_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalFiniteCellWeights.pairWeight_le_pointWeight_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalFiniteCellWeights.original_pair_occupied_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalFiniteCellWeights.original_graph_weighted_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalProjectionCells.distance2_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalProjectionCells.distance2_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalProjectionCells.distance2_le_abs_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalProjectionCells.abs_coordinate_le_distance2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalProjectionCells.floor_anchor_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalProjectionCells.original_projected_cell_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalProjectionCells.original_cell_anchor_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalProjectionCells.cellAnchor_separated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalProjectionCells.project_linePoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalProjectionCells.original_cell_weighted_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalWeightedPlanarProjection.exists_original_weighted_planar_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarBoxProjection.boxDistance_le_distance2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarBoxProjection.distance2_le_two_boxDistance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarBoxProjection.original_slab_box_distance_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarBoxProjection.original_projected_pair_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarBoxProjection.original_cell_weighted_box_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedPlanarCore.original_slice_energyBudget_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedPlanarCore.original_profile_coefficient_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedPlanarCore.original_enlarged_slice_unit_slab' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedPlanarCore.same_floor_strict_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedPlanarCore.same_cell_projected_box_distance_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedPlanarCore.original_slab_pair_cell_labels_distinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedPlanarCore.exists_original_marked_weighted_planar_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.chart_distance2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.chart_linePoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.chart_project_linePoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.chart_projected_distance_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.chart_projected_coordinate_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.frameCoordinate_linePoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.frame_distance_le_tangent_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.original_pair_affine_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.original_pair_tube_scalar_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeProjection.original_pair_tube_cell_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeLift.original_raw_pair_chart_gap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeLift.original_raw_width_le_expanded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeLift.original_graph_horizontal_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeLift.original_graph_tangent_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeLift.original_graph_parameter_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeLift.original_affine_normal_lift_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPlanarTubeLift.original_projected_cell_tube_lifts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPhysicalCoreRichness.original_raw_projected_pair_ne' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPhysicalCoreRichness.exists_original_physical_core_rich_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalNonconcentratedRowMass.original_outside_row_label_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalNonconcentratedRowMass.original_nonconcentrated_row_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalNonconcentratedRowMass.original_small_slice_row_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalChosenSliceTube.original_chosen_slice_contains_tube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalChosenSliceTube.original_slice_ceiling_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalChosenSliceTube.exists_original_slice_mass_power_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalChosenSliceTube.original_chosen_slice_relative_tube_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalBoundedNonconcentratedRows.exists_original_bounded_nonconcentrated_rows_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalNativeReinforcementBudget.original_selected_ratio_reinforcement_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalNativeReinforcementBudget.exists_original_native_reinforcement_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactNormalizedNearHeight.exists_normalized_near_extremizer_with_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactMultiplicity.massConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactMultiplicity.total_shading_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactMultiplicity.fixed_compact_multiplicity_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactMultiplicity.exists_matched_normalized_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeUniformMultiplicityRestriction.projectedWeight_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUniformMultiplicityRestriction.projectedWeight_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUniformMultiplicityRestriction.uniform_point_mass_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeUniformMultiplicityRestriction.subset_weighted_mass_cross' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeUniformMultiplicityRestriction.weighted_card_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUniformMultiplicityRestriction.selected_restriction_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeUniformMultiplicityRestriction.exists_restriction_control' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalSliceRestriction.original_slice_ball_population_with_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalSliceRestriction.original_slice_population_with_multiplicity_and_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIncidenceMultiplicityTower.coarse_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidenceMultiplicityTower.coarse_parents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidenceMultiplicityTower.parent_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidenceMultiplicityTower.coarse_parent_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidenceMultiplicityTower.coarse_card_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidenceMultiplicityTower.fine_card_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidenceMultiplicityTower.multiplicity_le_parent_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIncidenceMultiplicityTower.exists_parent_multiplicity_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIncidenceMultiplicityTower.source_multiplicity_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidenceMultiplicityTower.actual_original_parent_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoarseSlopeOccupancy.occupied_slope_cell_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseSlopeOccupancy.original_dyadic_slope_occupancy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseSlopeOccupancy.compact_original_slope_occupancy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalHeightWindowMacroCells.actual_union_grain_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalHeightWindowMacroCells.fixed_height_x_cell_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalHeightWindowMacroCells.original_window_macro_grid_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalLiteralMacroSliceUpper.original_grain_ball_grid_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalLiteralMacroSliceUpper.original_macro_grain_grid_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalLiteralMacroSliceUpper.original_macro_height_point_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalWholeMacroWindow.actual_macro_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWholeMacroWindow.actual_grain_fiber_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalLiteralDenseMacroHeight.exists_original_macro_with_height_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoarseBackboneDensity.incidence_tubes_subset_backbone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseBackboneDensity.full_backbone_coarse_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseBackboneDensity.original_full_backbone_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialCoefficientGrid.grid_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialCoefficientGrid.grid_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialCoefficientGrid.original_coefficient_interval_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPolynomialCoefficientGrid.coefficient_mesh_choice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTensorCoefficientCollision.original_first_coordinate_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorCoefficientCollision.original_tensor_first_collision' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorCoefficientPermutation.original_coefficient_permutation_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorCoefficientPermutation.original_tensor_coordinate_collision' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorCoefficientPermutation.original_tensor_small_mesh_collision' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorCoefficientPermutation.original_tensor_two_box_collision' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorQuadraticCaps.original_tensor_quadratic_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorQuadraticCaps.original_tensor_allscale_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorQuadraticCaps.dyadicScale_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTensorQuadraticCaps.dyadicScale_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTensorProjectionPairs.original_pair_parameter_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTensorProjectionPairs.original_pair_scale_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTensorProjectionPairs.original_projected_cell_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorProjectionPairs.original_collision_fubini' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTensorProjectionPairs.original_exists_annulus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalHighDimensionalProjectionEnergy.original_point_projection_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalHighDimensionalProjectionEnergy.original_quadratic_projection_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorProjectionSelection.original_tensor_collision_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorProjectionSelection.exists_original_tensor_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePaddedPhasePullback.mem_selectedOldRows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.padding_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.originalRowMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.original_pullback_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.selected_old_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.phase_original_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.phase_height_window_original_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePaddedPhasePullback.phaseFamily_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.phaseFamily_tubes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.original_composite_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.admitted_source_cells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.admitted_phase_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedPhasePullback.admitted_phase_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameParentSourceSelection.select_same_parent_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalLiteralMacroHeightBudget.original_macro_cost_absorption' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalLiteralMacroHeightBudget.exists_original_macro_power_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Confirmed exit code: 0

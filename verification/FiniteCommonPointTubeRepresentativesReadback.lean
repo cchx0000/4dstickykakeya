@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_finite_common_point_tube_representatives
+
+#print axioms FiniteCommonPointTubeRepresentatives.compatible_symm
+#print axioms FiniteCommonPointTubeRepresentatives.exists_original_representatives

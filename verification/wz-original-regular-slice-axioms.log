@@ -1,0 +1,268 @@
+Started UTC: 2026-10-04T11:28:59.573505+00:00
+Command: /workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true verification/OriginalRegularSliceReadback.lean
+FIFO compiler ticket: 01791113339602103859-17bed3b7a769413d8fcfdc007915a732.request
+FIFO compiler acquired UTC: 2026-10-04T11:29:26.889993+00:00
+'NativePaddedSourceMass.sum_originalLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceMass.iUnion_originalLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceMass.sourceUnion_eq_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceMass.source_union_volume_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceMass.total_shading_eq_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceMass.original_shadingMass_le_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceMass.unit_tube_volume_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceMass.total_tubes_eq_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceMass.source_tubeMass_le_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceMass.source_density_cross_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceTransport.card_filter_originalLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceTransport.source_carrierBallCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceTransport.source_containedTubeCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceTransport.convex_contractPoint_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceTransport.convex_physicalMap_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceTransport.volume_physicalMap_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceTransport.source_CW_original_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceADUpper.source_carrier_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceADLower.dyadic_below_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceADLower.source_carrier_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceCountBudget.original_card_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceCountBudget.unit_lower_of_ancestors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceCountBudget.unit_parent_count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceCountBudget.selected_parent_card_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePaddedSourcePowerBudget.fixed_cost_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourcePowerBudget.exists_master_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourcePowerBudget.cost_of_master' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourcePowerBudget.positive_power_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourcePowerBudget.old_exponent_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourcePowerBudget.new_exponent_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourcePowerBudget.density_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceDensity.tubeMass_ne_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceDensity.realTubeMass_eq_toReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceDensity.ofReal_realShadingMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceDensity.ofReal_realTubeMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceDensity.retained_shading_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceDensity.exists_dense_parent_enn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceDensity.source_raw_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceAdmissibility.real_AD_to_enn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceAdmissibility.source_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceAdmissibility.source_CW' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaddedSourceAdmissibility.source_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompactNormalizedSource.compact_original_normalized_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.packing_selector_has_original_line_wz_packets_at_exponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StickyKakeya4.wang_zakharov_volume_on_to_covering' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StickyKakeya4.dimH_eq_four_of_original_compact_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.bound_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.bound_of_unrestricted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.bound_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.exponents_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.exponents_bddBelow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.extremalExponent_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.extremalExponent_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.bound_extremal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.not_bound_below_extremal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.counterexample_of_not_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactKakeyaExponent.exists_near_extremizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactKakeyaExponent.finite_volume_of_bound_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactKakeyaExponent.bound_zero_of_finite_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactKakeyaExponent.bound_zero_iff_finite_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactKakeyaExponent.extremal_zero_iff_finite_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactKakeyaExponent.finite_volume_or_positive_extremal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactKakeyaExponent.extremalExponent_le_unrestricted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompactVolumeTransport.coefficient_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompactVolumeTransport.volume_estimate_on_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompactVolumeTransport.dimH_eq_four_from_fixed_compact_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactNormalizedNear.near_volume_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactNormalizedNear.exists_normalized_near_extremizer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactNormalizedNear.exists_normalized_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedCompactIncidenceParent.exists_near_extremal_incidence_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactIncidenceParent.exists_near_extremal_physical_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedCompactSlicePopulation.near_source_slice_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSliceParameterChoice.original_slice_exponent_spec' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSliceParameterChoice.original_selected_slice_width_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSliceParameterChoice.original_coarse_menu_log_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSliceParameterChoice.exists_original_coarse_menu_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalNativeSliceScale.exists_original_slice_parameter_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalConcentratedBudget.original_concentrated_effective_exponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalConcentratedBudget.original_concentrated_density_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalConcentratedBudget.exists_original_concentrated_parameter_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalConcentratedSlabExclusion.exists_original_concentrated_graph_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalNonconcentratedSliceGraph.exists_original_nonconcentrated_slice_graph_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalNonconcentratedSliceGraph.exists_native_original_two_ends_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalNonconcentratedSliceGraph.exists_literal_original_two_ends_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalExpandedBandCount.original_expanded_normal_band_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalExpandedSliceMultiplicity.original_grid_normal_length_le_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalExpandedSliceMultiplicity.original_expanded_slice_raw_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalExpandedSliceMultiplicity.original_expanded_slice_pair_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalAveragedSliceEnergy.slice_potential_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalAveragedSliceEnergy.original_slice_energy_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalAveragedSliceEnergy.original_ball_count_from_slice_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalAveragedSliceEnergy.original_slice_energy_sum_swap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalAveragedSliceEnergy.original_averaged_slice_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlicePotentialCut.original_potential_cut_mass_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlicePotentialCut.original_potential_cut_ball_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlicePotentialCut.original_restricted_graph_pair_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlicePotentialCut.original_potential_cut_graph_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalEnergyRegularSlice.exists_original_energy_regular_slice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalEnergyRegularSlice.original_regular_slice_cut_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalEnergyRegularSlice.exists_original_energy_regular_slice_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedSliceIncidences.original_marked_slice_graph_subset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedSliceIncidences.original_marked_slice_incidence_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMarkedSliceIncidences.original_marked_slice_geometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalRegularizedMarkedSlice.exists_original_regularized_marked_slice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPolynomialSlab.slabVector_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialSlab.slabVectors_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialSlab.slabVector_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialSlab.slabVector_coordinate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialElimination.original_coefficient_elimination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPolynomialElimination.original_dilation_perturbation_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalPolynomialElimination.original_polynomial_projection_elimination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTensorFrostman.tensor_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTensorFrostman.original_tensor_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTensorFrostman.original_tensor_frostman' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalSlabOverlap.exists_original_cross_fiber_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalSlabOverlap.exists_original_translated_floor_collision' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalSlabRelation.original_translated_cell_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalSlabRelation.original_relation_coefficient_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalSlabCollision.original_box_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalSlabCollision.slabRadius_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalSlabCollision.exists_original_slab_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialDimensionDrop.reduced_point_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialDimensionDrop.reduced_projection_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPolynomialDimensionDrop.original_dimension_drop_from_relation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalFiniteDimensionReduction.original_interval_abs_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalFiniteDimensionReduction.exists_original_finite_dimension_reduction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalQuadraticWords.original_product_difference_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalQuadraticWords.quadratic_zero_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalQuadraticWords.quadratic_neg_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalQuadraticWords.integer_multiple_mem_padded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalQuadraticWords.original_reduced_alphabet_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalPureQuadraticDimensionDrop.exists_original_quadratic_dimension_drop' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalQuadraticWordBounds.original_quadratic_abs_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalQuadraticWordBounds.original_word_abs_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalQuadraticWordBounds.original_diameter_square_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalQuadraticWordBounds.exists_original_word_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalLiteralHeightWindow.actual_height_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalLiteralHeightWindow.whole_height_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalLiteralHeightWindow.exists_populated_height_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalLiteralAngularIncidences.exists_literal_fine_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalLiteralAngularIncidences.exists_literal_angular_population_supplier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoarseActualHeightVertices.coarse_pointsAt_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseActualHeightVertices.actual_heights_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseActualHeightVertices.actual_heights_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseActualHeightVertices.actual_coarse_height_vertex_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoarseActualHeightVertices.exists_native_coarse_height_vertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Confirmed exit code: 0

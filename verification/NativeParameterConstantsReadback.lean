@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_parameter_constants
+
+#print axioms NativeParameterConstants.density_cost_expand
+#print axioms NativeParameterConstants.column_cost_expand
+#print axioms NativeParameterConstants.spatial_squared
+#print axioms NativeParameterConstants.spatial_times_K_sq

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_original_planar_cw
+
+#print axioms NativeOriginalPlanarCW.adapted_box_measurable
+#print axioms NativeOriginalPlanarCW.planar_original_CW_concentration

@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_representatives
+
+#print axioms FinitePlaneProjectionGrid.exists_three_averages
+#print axioms FinitePlaneProjectionGrid.image_lower_of_collision_bound
+#print axioms FinitePlaneProjectionGrid.exists_common_two_images
+#print axioms FinitePlaneProjectionGrid.exists_cell_representatives
+#print axioms FinitePlaneProjectionGrid.line_fraction_to_original_subset
+#print axioms FinitePlaneProjectionGrid.exists_common_original_subsets

@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_frostman_geometry
+
+#print axioms FinitePlaneProjectionGrid.retainedScales_ball_bound
+#print axioms FinitePlaneProjectionGrid.base_mem_dyadicScales
+#print axioms FinitePlaneProjectionGrid.dyadicScales_ge_base
+#print axioms FinitePlaneProjectionGrid.dyadicScales_card_bound
+#print axioms FinitePlaneProjectionGrid.exists_dyadicScale
+#print axioms FinitePlaneProjectionGrid.retainedScales_allscale_ball_bound
+#print axioms FinitePlaneProjectionGrid.retainedScales_representatives

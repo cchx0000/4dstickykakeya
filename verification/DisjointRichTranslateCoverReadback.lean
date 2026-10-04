@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_disjoint_rich_translate_cover
+
+#print axioms DisjointRichTranslateCover.exists_disjoint_translate_cover
+#print axioms DisjointRichTranslateCover.exists_rich_translate_selection
+#print axioms DisjointRichTranslateCover.exists_rich_translate_selection_quantitative

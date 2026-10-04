@@ -1,0 +1,565 @@
+{
+  "status": "completed canonical strict build and proper-import audit",
+  "created_at_utc": "2026-10-04T01:24:37.395888+00:00",
+  "last_completed_project_module_count": 402,
+  "new_modules": [
+    {
+      "short": "ParentAllRealTubeControl",
+      "slug": "parent_all_real_tube_control",
+      "source": "Theorems/Thm_StickyKakeya4_parent_all_real_tube_control.lean",
+      "source_sha256": "eca9ae817305f4bc0cefaeac6688e98062f71d90a54a62ef98e9165406ae5ca1",
+      "readback": "verification/ParentAllRealTubeControlReadback.lean",
+      "declarations": [
+        "ParentAllRealTubeControl.local_moved_tube_le_profile",
+        "ParentAllRealTubeControl.stopped_parent_long_tube",
+        "ParentAllRealTubeControl.wide_parent_grid_card",
+        "ParentAllRealTubeControl.stopped_parent_all_real_tube",
+        "ParentAllRealTubeControl.normalized_parent_all_real_tube",
+        "ParentAllRealTubeControl.quantized_chart_parent_trace_bound"
+      ]
+    },
+    {
+      "short": "WorkingScaleProfileBudget",
+      "slug": "working_scale_profile_budget",
+      "source": "Theorems/Thm_StickyKakeya4_working_scale_profile_budget.lean",
+      "source_sha256": "0c420b523760cc99f0091d0206940282c16d00d8b299b919af81616aa9598638",
+      "readback": "verification/WorkingScaleProfileBudgetReadback.lean",
+      "declarations": [
+        "WorkingScaleProfileBudget.adjacent_gap_lower",
+        "WorkingScaleProfileBudget.old_length_le_adjacent",
+        "WorkingScaleProfileBudget.working_ratio",
+        "WorkingScaleProfileBudget.working_ratio_lower",
+        "WorkingScaleProfileBudget.old_ratio_le_working_ratio",
+        "WorkingScaleProfileBudget.old_profile_power_le",
+        "WorkingScaleProfileBudget.stopped_loss_le_adjacent"
+      ]
+    },
+    {
+      "short": "NormalizedQuantizedPatches",
+      "slug": "normalized_quantized_patches",
+      "source": "Theorems/Thm_StickyKakeya4_normalized_quantized_patches.lean",
+      "source_sha256": "d6613038ad8a0e310b9b274035a480203c0e341fe706526a0e9170ea4f1d5864",
+      "readback": "verification/NormalizedQuantizedPatchesReadback.lean",
+      "declarations": [
+        "NormalizedQuantizedPatches.affine_eq_smul",
+        "NormalizedQuantizedPatches.affine_dist",
+        "NormalizedQuantizedPatches.affine_euclidean_dist",
+        "NormalizedQuantizedPatches.normalized_quantized_proximity",
+        "NormalizedQuantizedPatches.normalized_image_separation",
+        "NormalizedQuantizedPatches.exact_normalized_mesh",
+        "NormalizedQuantizedPatches.normalized_parent_coordinates"
+      ]
+    },
+    {
+      "short": "LiteralAffineFiberCoordinates",
+      "slug": "literal_affine_fiber_coordinates",
+      "source": "Theorems/Thm_StickyKakeya4_literal_affine_fiber_coordinates.lean",
+      "source_sha256": "30caff58f0a00edf98e3692a47e3dd9102f6c9926fe2c7e7ceb9464046691c55",
+      "readback": "verification/LiteralAffineFiberCoordinatesReadback.lean",
+      "declarations": [
+        "LiteralAffineFiberCoordinates.actual_affine_graph",
+        "LiteralAffineFiberCoordinates.timeCoord_dist",
+        "LiteralAffineFiberCoordinates.timeCoord_injective",
+        "LiteralAffineFiberCoordinates.normalCoord_as_time",
+        "LiteralAffineFiberCoordinates.normalCoord_injective",
+        "LiteralAffineFiberCoordinates.timeCoord_close_iff",
+        "LiteralAffineFiberCoordinates.normalCoord_close_iff",
+        "LiteralAffineFiberCoordinates.fiber_time_injOn",
+        "LiteralAffineFiberCoordinates.fiberCoordinates_card",
+        "LiteralAffineFiberCoordinates.quotientCoordinates_card",
+        "LiteralAffineFiberCoordinates.fiberCoordinates_ball_card",
+        "LiteralAffineFiberCoordinates.quotientCoordinates_ball_card",
+        "LiteralAffineFiberCoordinates.actual_working_ball_bounds",
+        "LiteralAffineFiberCoordinates.actual_global_vertex_card",
+        "LiteralAffineFiberCoordinates.global_quotient_from_fibers",
+        "LiteralAffineFiberCoordinates.fiberAt_normalCoord",
+        "LiteralAffineFiberCoordinates.actual_image_eq_graph_fibers"
+      ]
+    },
+    {
+      "short": "RealScalarADInterpolation",
+      "slug": "real_scalar_ad_interpolation",
+      "source": "Theorems/Thm_StickyKakeya4_real_scalar_ad_interpolation.lean",
+      "source_sha256": "475b73a50bef9d68a1129a1e9be265a54f12b737f31fcf9cccf4334b40588687",
+      "readback": "verification/RealScalarADInterpolationReadback.lean",
+      "declarations": [
+        "RealScalarADInterpolation.ballCount_mono",
+        "RealScalarADInterpolation.ballCount_nonneg",
+        "RealScalarADInterpolation.scalePower_eq",
+        "RealScalarADInterpolation.real_ball_interpolation",
+        "RealScalarADInterpolation.top_scale_extension"
+      ]
+    },
+    {
+      "short": "ActualScalarADProfiles",
+      "slug": "actual_scalar_ad_profiles",
+      "source": "Theorems/Thm_StickyKakeya4_actual_scalar_ad_profiles.lean",
+      "source_sha256": "0deac4baa273ba2d13fb0bf1f4e9d72508184590b4030970edcd990066e85553",
+      "readback": "verification/ActualScalarADProfilesReadback.lean",
+      "declarations": [
+        "ActualScalarADProfiles.parent_time_labels_close",
+        "ActualScalarADProfiles.fiberBall_top_eq",
+        "ActualScalarADProfiles.fiber_ballCount_eq",
+        "ActualScalarADProfiles.quotient_ballCount_eq",
+        "ActualScalarADProfiles.normalized_full_ball_interpolation",
+        "ActualScalarADProfiles.fiber_real_ball_bounds",
+        "ActualScalarADProfiles.quotient_real_ball_bounds"
+      ]
+    },
+    {
+      "short": "NativeOriginalParentAssembly",
+      "slug": "native_original_parent_assembly",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_parent_assembly.lean",
+      "source_sha256": "b5a53db778b9cc6b0d9766b9b53b05dcfeb45475b8ab77f8a8ea9ad6ea07c4f9",
+      "readback": "verification/NativeOriginalParentAssemblyReadback.lean",
+      "declarations": [
+        "NativeOriginalParentAssembly.chartPosition_injective",
+        "NativeOriginalParentAssembly.chartPosition_mem",
+        "NativeOriginalParentAssembly.chartPosition_grid_card",
+        "NativeOriginalParentAssembly.chartPosition_same_cell",
+        "NativeOriginalParentAssembly.parent_subset",
+        "NativeOriginalParentAssembly.parent_chart_span",
+        "NativeOriginalParentAssembly.parent_chart_diameter",
+        "NativeOriginalParentAssembly.parent_image_subset",
+        "NativeOriginalParentAssembly.physical_contacts"
+      ]
+    },
+    {
+      "short": "NativeParentRefinement",
+      "slug": "native_parent_refinement",
+      "source": "Theorems/Thm_StickyKakeya4_native_parent_refinement.lean",
+      "source_sha256": "c9fceb57d8380ce2345adf135296b812b88c20119e70d41cd31688084ca589b5",
+      "readback": "verification/NativeParentRefinementReadback.lean",
+      "declarations": [
+        "NativeParentRefinement.quantizer_cap_total",
+        "NativeParentRefinement.density_lower_from_parent_mass",
+        "NativeParentRefinement.refine_parent"
+      ]
+    },
+    {
+      "short": "NativeSelectedParentPreparation",
+      "slug": "native_selected_parent_preparation",
+      "source": "Theorems/Thm_StickyKakeya4_native_selected_parent_preparation.lean",
+      "source_sha256": "b27aef2c3bff4b4bd387b3ffae713e58843fd09dea19f7009dd169fcac6c9354",
+      "readback": "verification/NativeSelectedParentPreparationReadback.lean",
+      "declarations": [
+        "NativeSelectedParentPreparation.exists_original_AD_selection"
+      ]
+    },
+    {
+      "short": "NativeAngularCostBound",
+      "slug": "native_angular_cost_bound",
+      "source": "Theorems/Thm_StickyKakeya4_native_angular_cost_bound.lean",
+      "source_sha256": "d4756b0f0c34943623b11607c656f9949a9e37b7e6c08a631c05553d997940af",
+      "readback": "verification/NativeAngularCostBoundReadback.lean",
+      "declarations": [
+        "NativeAngularCostBound.gap_le_floor_add_one",
+        "NativeAngularCostBound.actual_angular_menu_le_extent",
+        "NativeAngularCostBound.angularBudget_le_root",
+        "NativeAngularCostBound.angularCost_le_extent_root"
+      ]
+    },
+    {
+      "short": "NativeInterpolationCostBound",
+      "slug": "native_interpolation_cost_bound",
+      "source": "Theorems/Thm_StickyKakeya4_native_interpolation_cost_bound.lean",
+      "source_sha256": "ccdb13b75b7c6822b212f543429e9d0080c31018a354e15fc2aba8a9036ba32c",
+      "readback": "verification/NativeInterpolationCostBoundReadback.lean",
+      "declarations": [
+        "NativeInterpolationCostBound.real_interpolation_cost_upper",
+        "NativeInterpolationCostBound.full_interpolation_cost_upper"
+      ]
+    },
+    {
+      "short": "NativeParameterConstants",
+      "slug": "native_parameter_constants",
+      "source": "Theorems/Thm_StickyKakeya4_native_parameter_constants.lean",
+      "source_sha256": "1c4d8c8bf473ef6de4400dee6afa9dd15cad6f422fda1c9ccb78aa477d8b00e1",
+      "readback": "verification/NativeParameterConstantsReadback.lean",
+      "declarations": [
+        "NativeParameterConstants.density_cost_expand",
+        "NativeParameterConstants.column_cost_expand",
+        "NativeParameterConstants.spatial_squared",
+        "NativeParameterConstants.spatial_times_K_sq"
+      ]
+    },
+    {
+      "short": "NativeReferenceCostBounds",
+      "slug": "native_reference_cost_bounds",
+      "source": "Theorems/Thm_StickyKakeya4_native_reference_cost_bounds.lean",
+      "source_sha256": "b57e626b6837dafa7ba46d6bebcf4a20598b5248ef03bc4d89771624ec6e92f6",
+      "readback": "verification/NativeReferenceCostBoundsReadback.lean",
+      "declarations": [
+        "NativeReferenceCostBounds.spatial_cost_upper",
+        "NativeReferenceCostBounds.ad_cost_upper",
+        "NativeReferenceCostBounds.column_cost_upper",
+        "NativeReferenceCostBounds.density_cost_upper",
+        "NativeReferenceCostBounds.stopped_loss_le_output_extent"
+      ]
+    },
+    {
+      "short": "NativeCommonEnvelope",
+      "slug": "native_common_envelope",
+      "source": "Theorems/Thm_StickyKakeya4_native_common_envelope.lean",
+      "source_sha256": "c388e9010ee19eaaef73896c313cb55498e7c161567bfc7fa3d8742a21eaca72",
+      "readback": "verification/NativeCommonEnvelopeReadback.lean",
+      "declarations": [
+        "NativeCommonEnvelope.productBound_eq_envelope",
+        "NativeCommonEnvelope.profileCoefficient_ge_one",
+        "NativeCommonEnvelope.profileBound_ge_one",
+        "NativeCommonEnvelope.ambientBound_ge_one",
+        "NativeCommonEnvelope.columnBound_ge_one",
+        "NativeCommonEnvelope.tubeBound_ge_one",
+        "NativeCommonEnvelope.densityBound_ge_one",
+        "NativeCommonEnvelope.interpolationBound_ge_one",
+        "NativeCommonEnvelope.comparisonBound_ge_one",
+        "NativeCommonEnvelope.refinementCost_ge_one",
+        "NativeCommonEnvelope.retentionCost_ge_one",
+        "NativeCommonEnvelope.fixedCoefficient_nonneg",
+        "NativeCommonEnvelope.actual_cost_bounds",
+        "NativeCommonEnvelope.retention_le_comparison_density",
+        "NativeCommonEnvelope.product_dominates_comparison_density",
+        "NativeCommonEnvelope.product_dominates_tube"
+      ]
+    },
+    {
+      "short": "NativeAlignmentScaleSeparation",
+      "slug": "native_alignment_scale_separation",
+      "source": "Theorems/Thm_StickyKakeya4_native_alignment_scale_separation.lean",
+      "source_sha256": "8fb5bb07f2c83bf8c3d80355ac02510e4185aa5027635234e5acebea93b038d1",
+      "readback": "verification/NativeAlignmentScaleSeparationReadback.lean",
+      "declarations": [
+        "NativeAlignmentScaleSeparation.top_bracket_lower",
+        "NativeAlignmentScaleSeparation.root_of_nat_power",
+        "NativeAlignmentScaleSeparation.original_delta_output_separation"
+      ]
+    },
+    {
+      "short": "NativeAlignmentParameterBudget",
+      "slug": "native_alignment_parameter_budget",
+      "source": "Theorems/Thm_StickyKakeya4_native_alignment_parameter_budget.lean",
+      "source_sha256": "b172f24a207d0f5650820086e8d744e67b62e608c4c80e9b6c4be5d551347f22",
+      "readback": "verification/NativeAlignmentParameterBudgetReadback.lean",
+      "declarations": [
+        "NativeAlignmentParameterBudget.exists_nat_budget",
+        "NativeAlignmentParameterBudget.exists_choice",
+        "NativeAlignmentParameterBudget.absorb_common_envelope"
+      ]
+    },
+    {
+      "short": "NativeEnvelopeGrowth",
+      "slug": "native_envelope_growth",
+      "source": "Theorems/Thm_StickyKakeya4_native_envelope_growth.lean",
+      "source_sha256": "57daf09ea26c57dd659278fca53bf1f64ad2fea314bb1a16a46bca9e7de31c02",
+      "readback": "verification/NativeEnvelopeGrowthReadback.lean",
+      "declarations": [
+        "NativeEnvelopeGrowth.powers_expand",
+        "NativeEnvelopeGrowth.envelope_le_growth",
+        "NativeEnvelopeGrowth.output_extent_lower"
+      ]
+    },
+    {
+      "short": "NativeSourceSizeBounds",
+      "slug": "native_source_size_bounds",
+      "source": "Theorems/Thm_StickyKakeya4_native_source_size_bounds.lean",
+      "source_sha256": "a2f0eabe77331aeae7bd61c2806e128abea9cc87ddf5dee6b7cea86fc2a46e42",
+      "readback": "verification/NativeSourceSizeBoundsReadback.lean",
+      "declarations": [
+        "NativeSourceSizeBounds.inv_delta_le_pow",
+        "NativeSourceSizeBounds.source_card_le_inv_cube",
+        "NativeSourceSizeBounds.source_card_le_pow",
+        "NativeSourceSizeBounds.radix_four_le",
+        "NativeSourceSizeBounds.card_le_radix_pow",
+        "NativeSourceSizeBounds.radix_le_four_root",
+        "NativeSourceSizeBounds.radix_le_dyadic",
+        "NativeSourceSizeBounds.K_pow_eighteen_le",
+        "NativeSourceSizeBounds.rank_le_linear",
+        "NativeSourceSizeBounds.epoch_factor_le",
+        "NativeSourceSizeBounds.epoch_factor_real_le",
+        "NativeSourceSizeBounds.index_card_real_one_le",
+        "NativeSourceSizeBounds.epoch_cost_one_le",
+        "NativeSourceSizeBounds.epoch_cost_real_one_le"
+      ]
+    },
+    {
+      "short": "NativeAbsorbedSourceEnvelope",
+      "slug": "native_absorbed_source_envelope",
+      "source": "Theorems/Thm_StickyKakeya4_native_absorbed_source_envelope.lean",
+      "source_sha256": "9348f9e51e3c333221b9b0cd4aa16eeb9ed0b29be28d390b3ac4dce415ee2abb",
+      "readback": "verification/NativeAbsorbedSourceEnvelopeReadback.lean",
+      "declarations": [
+        "NativeAbsorbedSourceEnvelope.source_envelope_absorbed"
+      ]
+    },
+    {
+      "short": "NativeOriginalParentUnion",
+      "slug": "native_original_parent_union",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_parent_union.lean",
+      "source_sha256": "561ee37fe8e3d44b8962d731bb7c5fe8b7e41750bdf07ee75e554101bf788957",
+      "readback": "verification/NativeOriginalParentUnionReadback.lean",
+      "declarations": [
+        "NativeOriginalParentUnion.originalPullback_image",
+        "NativeOriginalParentUnion.originalPullback_subset",
+        "NativeOriginalParentUnion.originalPullback_card",
+        "NativeOriginalParentUnion.glue_parent_subsets",
+        "NativeOriginalParentUnion.isolate_labelled_parents",
+        "NativeOriginalParentUnion.Selection.retain_original_points"
+      ]
+    },
+    {
+      "short": "FullNormalizedScalarAD",
+      "slug": "full_normalized_scalar_ad",
+      "source": "Theorems/Thm_StickyKakeya4_full_normalized_scalar_ad.lean",
+      "source_sha256": "201c37b429fa5174d4033c1e76f99e0be19115e3c92534a78bbe8defa6ceed92",
+      "readback": "verification/FullNormalizedScalarADReadback.lean",
+      "declarations": [
+        "FullNormalizedScalarAD.fiber_normalized_AD",
+        "FullNormalizedScalarAD.quotient_normalized_AD"
+      ]
+    },
+    {
+      "short": "NativeAmbientADGeometry",
+      "slug": "native_ambient_ad_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_native_ambient_ad_geometry.lean",
+      "source_sha256": "a431630dbf073e722c527f54420354cede40803d1a67252bd2dff7630424b4a8",
+      "readback": "verification/NativeAmbientADGeometryReadback.lean",
+      "declarations": [
+        "NativeAmbientADGeometry.rawPoint_injective",
+        "NativeAmbientADGeometry.rawPoint_close_iff",
+        "NativeAmbientADGeometry.actualPoint_injective",
+        "NativeAmbientADGeometry.image_ball_card",
+        "NativeAmbientADGeometry.rawPoint_ball_card",
+        "NativeAmbientADGeometry.raw_close_imp_actual_close",
+        "NativeAmbientADGeometry.actual_close_imp_raw_close"
+      ]
+    },
+    {
+      "short": "FullNormalizedAmbientAD",
+      "slug": "full_normalized_ambient_ad",
+      "source": "Theorems/Thm_StickyKakeya4_full_normalized_ambient_ad.lean",
+      "source_sha256": "6ab092411cf69449fbd1cccdc4ff396ce746b0c2e440af0251c7b81a3be2f4f9",
+      "readback": "verification/FullNormalizedAmbientADReadback.lean",
+      "declarations": [
+        "FullNormalizedAmbientAD.realInterpolationLoss_ge_one",
+        "FullNormalizedAmbientAD.raw_ball_le_actual",
+        "FullNormalizedAmbientAD.actual_ball_le_raw",
+        "FullNormalizedAmbientAD.raw_real_ball_bounds",
+        "FullNormalizedAmbientAD.ambient_normalized_AD"
+      ]
+    },
+    {
+      "short": "NativeNormalizedParentOutput",
+      "slug": "native_normalized_parent_output",
+      "source": "Theorems/Thm_StickyKakeya4_native_normalized_parent_output.lean",
+      "source_sha256": "ebd3564d26f7eec314ebe48ac911d490bceec2accff41e4a8f3db84f7da6f3dc",
+      "readback": "verification/NativeNormalizedParentOutputReadback.lean",
+      "declarations": [
+        "NativeNormalizedParentOutput.refined_parent_all_real_bounds"
+      ]
+    },
+    {
+      "short": "NativeOriginalAlignmentGeometry",
+      "slug": "native_original_alignment_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_alignment_geometry.lean",
+      "source_sha256": "f3c55393597de5a92934f0b2129caa9fbec9c1f2b9e54b1d37fd820c3f4c681e",
+      "readback": "verification/NativeOriginalAlignmentGeometryReadback.lean",
+      "declarations": [
+        "NativeOriginalAlignmentGeometry.refined_parent_near_graph"
+      ]
+    },
+    {
+      "short": "NativeOriginalADAlignment",
+      "slug": "native_original_ad_alignment",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_ad_alignment.lean",
+      "source_sha256": "41f805b17b8d8669308686e2289db4c39241ea42cb7df724a32797ba74a75933",
+      "readback": "verification/NativeOriginalADAlignmentReadback.lean",
+      "declarations": [
+        "NativeOriginalADAlignment.exists_original_AD_near_alignment"
+      ]
+    },
+    {
+      "short": "NativeLiteralScalarBounds",
+      "slug": "native_literal_scalar_bounds",
+      "source": "Theorems/Thm_StickyKakeya4_native_literal_scalar_bounds.lean",
+      "source_sha256": "699b8cf7096e61c1727bdb4b6ff5166ea635808970633bcaeb5ecf0dd21cf700",
+      "readback": "verification/NativeLiteralScalarBoundsReadback.lean",
+      "declarations": [
+        "NativeLiteralScalarBounds.AllRealBounds.scalar_fibers",
+        "NativeLiteralScalarBounds.AllRealBounds.scalar_quotient"
+      ]
+    },
+    {
+      "short": "NativeUniformOutputBounds",
+      "slug": "native_uniform_output_bounds",
+      "source": "Theorems/Thm_StickyKakeya4_native_uniform_output_bounds.lean",
+      "source_sha256": "d1ee5fb816fb9a6bb4878378a923df7f6ac09ef029aa0bb29fa5ace6466734c8",
+      "readback": "verification/NativeUniformOutputBoundsReadback.lean",
+      "declarations": [
+        "NativeUniformOutputBounds.lower_count_absorption",
+        "NativeUniformOutputBounds.raw_power_eq",
+        "NativeUniformOutputBounds.AllRealBounds.to_uniform",
+        "NativeUniformOutputBounds.majorant_products",
+        "NativeUniformOutputBounds.AllRealBounds.to_uniform_majorants",
+        "NativeUniformOutputBounds.UniformBounds.mono"
+      ]
+    },
+    {
+      "short": "NativeTopScaleSelection",
+      "slug": "native_top_scale_selection",
+      "source": "Theorems/Thm_StickyKakeya4_native_top_scale_selection.lean",
+      "source_sha256": "d758257bdfccc99f620444451e6ea25064733f390c13eae8b342bdea898aa4fb",
+      "readback": "verification/NativeTopScaleSelectionReadback.lean",
+      "declarations": [
+        "NativeTopScaleSelection.exists_top_scale",
+        "NativeTopScaleSelection.deltaThreshold_pos",
+        "NativeTopScaleSelection.choose_top_scale",
+        "NativeTopScaleSelection.exists_delta0"
+      ]
+    },
+    {
+      "short": "NativeFinalOriginalAlignment",
+      "slug": "native_final_original_alignment",
+      "source": "Theorems/Thm_StickyKakeya4_native_final_original_alignment.lean",
+      "source_sha256": "71a2abf8cc9dc67bfc1b7a554e935c42b351b82c5b6c6b3fdaec2ad37824449e",
+      "readback": "verification/NativeFinalOriginalAlignmentReadback.lean",
+      "declarations": [
+        "NativeFinalOriginalAlignment.exists_dyadic_original_near_alignment",
+        "NativeFinalOriginalAlignment.exists_original_near_alignment",
+        "NativeFinalOriginalAlignment.original_AD_near_alignment"
+      ]
+    },
+    {
+      "short": "NativePaperAlignmentScales",
+      "slug": "native_paper_alignment_scales",
+      "source": "Theorems/Thm_StickyKakeya4_native_paper_alignment_scales.lean",
+      "source_sha256": "613be617ed910a3c7d443987bacbbaf17a83d3ddf7cce183458e0e28991d5475",
+      "readback": "verification/NativePaperAlignmentScalesReadback.lean",
+      "declarations": [
+        "NativePaperAlignmentScales.retained_subset",
+        "NativePaperAlignmentScales.retained_card",
+        "NativePaperAlignmentScales.retained_nonempty",
+        "NativePaperAlignmentScales.originalBall_eq_localBall",
+        "NativePaperAlignmentScales.originalBall_nonempty",
+        "NativePaperAlignmentScales.normalization_apply",
+        "NativePaperAlignmentScales.normalized_localBall",
+        "NativePaperAlignmentScales.normalized_localBall_bounded",
+        "NativePaperAlignmentScales.output_scale_facts",
+        "NativePaperAlignmentScales.output_mesh_identity",
+        "NativePaperAlignmentScales.retention_in_output_mesh",
+        "NativePaperAlignmentScales.retained_delta_power",
+        "NativePaperAlignmentScales.output_scales_dyadic"
+      ]
+    },
+    {
+      "short": "NativeLiteralAlignedSet",
+      "slug": "native_literal_aligned_set",
+      "source": "Theorems/Thm_StickyKakeya4_native_literal_aligned_set.lean",
+      "source_sha256": "3cc6d41e5a1cee72ed5ca61c397f63cf0919e767bfbbdcf94e78330649674945",
+      "readback": "verification/NativeLiteralAlignedSetReadback.lean",
+      "declarations": [
+        "NativeLiteralAlignedSet.ballCount_eq_carrierBall",
+        "NativeLiteralAlignedSet.quotient_fiber_nonempty",
+        "NativeLiteralAlignedSet.normalizedImage_eq_vertex_image",
+        "NativeLiteralAlignedSet.normalizedImage_euclidean_eq",
+        "NativeLiteralAlignedSet.uniform_ambient_AD",
+        "NativeLiteralAlignedSet.of_nearGraph_uniform",
+        "NativeLiteralAlignedSet.nearGraph_source_bounded",
+        "NativeLiteralAlignedSet.nearly_of_nearGraph_uniform"
+      ]
+    },
+    {
+      "short": "NativePlanarLemma53",
+      "slug": "native_planar_lemma53",
+      "source": "Theorems/Thm_StickyKakeya4_native_planar_lemma53.lean",
+      "source_sha256": "1624bc1811a3f56ac15f8214135afc7ea35c2aec2d5b17d62f932ee5ec66e2a2",
+      "readback": "verification/NativePlanarLemma53Readback.lean",
+      "declarations": [
+        "NativePlanarLemma53.nearAlignment_to_original_points",
+        "NativePlanarLemma53.native_planar_lemma53",
+        "NativePlanarLemma53.quarter_square_diameter",
+        "NativePlanarLemma53.native_quarter_square_lemma53"
+      ]
+    },
+    {
+      "short": "OriginalPhysicalTubeScaleSelection",
+      "slug": "original_physical_tube_scale_selection",
+      "source": "Theorems/Thm_StickyKakeya4_original_physical_tube_scale_selection.lean",
+      "source_sha256": "100cddb525452ca398958904bd215b4da3698f288920b6f7d456a705f09b3709",
+      "readback": "verification/OriginalPhysicalTubeScaleSelectionReadback.lean",
+      "declarations": [
+        "OriginalPhysicalTubeScaleSelection.physical_tube_mono",
+        "OriginalPhysicalTubeScaleSelection.original_tube_card_bounds",
+        "OriginalPhysicalTubeScaleSelection.dyadic_radius_cover",
+        "OriginalPhysicalTubeScaleSelection.chosen_scale_spec",
+        "OriginalPhysicalTubeScaleSelection.exists_original_densest_graph_bin"
+      ]
+    },
+    {
+      "short": "OriginalDensestTubeControl",
+      "slug": "original_densest_tube_control",
+      "source": "Theorems/Thm_StickyKakeya4_original_densest_tube_control.lean",
+      "source_sha256": "af934ce7d2a79b68077b51e24c6fd7259dea18c9b6843be2aae75497201f842e",
+      "readback": "verification/OriginalDensestTubeControlReadback.lean",
+      "declarations": [
+        "OriginalDensestTubeControl.scale_menu_bounds",
+        "OriginalDensestTubeControl.original_larger_width_control",
+        "OriginalDensestTubeControl.original_violation_forces_large_score"
+      ]
+    },
+    {
+      "short": "NativeRadialDensestGraph",
+      "slug": "native_radial_densest_graph",
+      "source": "Theorems/Thm_StickyKakeya4_native_radial_densest_graph.lean",
+      "source_sha256": "a8cfc7168df5db1a0da1f74882ad63b7dcee5f7f92a5b8ecc386791b3d9c8036",
+      "readback": "verification/NativeRadialDensestGraphReadback.lean",
+      "declarations": [
+        "NativeRadialDensestGraph.exists_original_dyadic_mesh",
+        "NativeRadialDensestGraph.exists_native_densest_original_graph"
+      ]
+    },
+    {
+      "short": "OriginalRadialNearDiagonal",
+      "slug": "original_radial_near_diagonal",
+      "source": "Theorems/Thm_StickyKakeya4_original_radial_near_diagonal.lean",
+      "source_sha256": "6df271ddcb48ff4a8c48aab7a18ff7e85be114438dfb36056584196e290ab738",
+      "readback": "verification/OriginalRadialNearDiagonalReadback.lean",
+      "declarations": [
+        "OriginalRadialNearDiagonal.original_separation_radius",
+        "OriginalRadialNearDiagonal.remove_original_near_diagonal"
+      ]
+    },
+    {
+      "short": "NativeRadialScaleConsequences",
+      "slug": "native_radial_scale_consequences",
+      "source": "Theorems/Thm_StickyKakeya4_native_radial_scale_consequences.lean",
+      "source_sha256": "850b852f4be3ef40aa1c626c12755f7dd9d1e03b8231d250fc8648ab6db28405",
+      "readback": "verification/NativeRadialScaleConsequencesReadback.lean",
+      "declarations": [
+        "NativeRadialScaleConsequences.selected_scale_upper",
+        "NativeRadialScaleConsequences.original_reciprocal_width_control"
+      ]
+    }
+  ],
+  "new_public_proof_count": 194,
+  "scratch_source_and_import_audits": "passed before canonical import replacement",
+  "canonical_full_build": "running: /workspace/scratch/5f2524fd4117/proof-work/build-logs/wz440-default-build.log",
+  "canonical_strict_and_import_readbacks": "not yet run",
+  "main_theorem_complete": false,
+  "verification_recovery": {
+    "interrupted_at_utc": "2026-10-04T01:39:33Z",
+    "reason": "execution environment key changed; prior /tmp-only partial logs disappeared",
+    "source_checkpoint_preserved": "d756a81170d275a9fec909a795c914c01311029b",
+    "resumed_at_utc": "2026-10-04T01:42:54Z",
+    "new_artifact_directory": "/workspace/scratch/5f2524fd4117/proof-work",
+    "claims": "Only terminal persisted results are accepted; the interrupted attempt is not reported as passed"
+  },
+  "full_build": {
+    "exit_code": 0,
+    "lake_jobs": 9149,
+    "source_commit": "d756a81170d275a9fec909a795c914c01311029b",
+    "log": "verification/wz440-default-build.log"
+  },
+  "completed_at_utc": "2026-10-04T03:40:27.607450+00:00",
+  "completed_project_module_count": 440,
+  "verification_evidence": "verification/wz-native-planar-checkpoint.json"
+}

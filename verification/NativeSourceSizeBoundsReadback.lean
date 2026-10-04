@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_native_source_size_bounds
+
+#print axioms NativeSourceSizeBounds.inv_delta_le_pow
+#print axioms NativeSourceSizeBounds.source_card_le_inv_cube
+#print axioms NativeSourceSizeBounds.source_card_le_pow
+#print axioms NativeSourceSizeBounds.radix_four_le
+#print axioms NativeSourceSizeBounds.card_le_radix_pow
+#print axioms NativeSourceSizeBounds.radix_le_four_root
+#print axioms NativeSourceSizeBounds.radix_le_dyadic
+#print axioms NativeSourceSizeBounds.K_pow_eighteen_le
+#print axioms NativeSourceSizeBounds.rank_le_linear
+#print axioms NativeSourceSizeBounds.epoch_factor_le
+#print axioms NativeSourceSizeBounds.epoch_factor_real_le
+#print axioms NativeSourceSizeBounds.index_card_real_one_le
+#print axioms NativeSourceSizeBounds.epoch_cost_one_le
+#print axioms NativeSourceSizeBounds.epoch_cost_real_one_le

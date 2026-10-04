@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_top_scale_selection
+
+#print axioms NativeTopScaleSelection.exists_top_scale
+#print axioms NativeTopScaleSelection.deltaThreshold_pos
+#print axioms NativeTopScaleSelection.choose_top_scale
+#print axioms NativeTopScaleSelection.exists_delta0

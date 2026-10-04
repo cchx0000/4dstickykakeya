@@ -1,0 +1,35 @@
+import Theorems.Thm_StickyKakeya4_native_angular_chart_selection
+
+#print axioms NativeAngularChartSelection.chart_unit
+#print axioms NativeAngularChartSelection.chartPoint_zero
+#print axioms NativeAngularChartSelection.chartPoint_involutive
+#print axioms NativeAngularChartSelection.chartTube_involutive
+#print axioms NativeAngularChartSelection.chartTube_unit_zero
+#print axioms NativeAngularChartSelection.chartPoint_injective
+#print axioms NativeAngularChartSelection.chartPoint_dist
+#print axioms NativeAngularChartSelection.chart_carrierBall
+#print axioms NativeAngularChartSelection.chart_AD
+#print axioms NativeAngularChartSelection.chart_inTube_iff
+#print axioms NativeAngularChartSelection.chart_grid
+#print axioms NativeAngularChartSelection.chart_grid_card
+#print axioms NativeAngularChartSelection.chart_trace
+#print axioms NativeAngularChartSelection.chart_trace_inverse
+#print axioms NativeAngularChartSelection.chart_footprints
+#print axioms NativeAngularChartSelection.chart_profile
+#print axioms NativeAngularChartSelection.chartSlope_bound
+#print axioms NativeAngularChartSelection.exists_heavy_chart
+#print axioms NativeAngularChartSelection.angleLabel_bounds
+#print axioms NativeAngularChartSelection.angle_menu_card
+#print axioms NativeAngularChartSelection.angularBudget_power
+#print axioms NativeAngularChartSelection.angularResolution_pos
+#print axioms NativeAngularChartSelection.workingLevel_mono
+#print axioms NativeAngularChartSelection.workingLevel_bounds
+#print axioms NativeAngularChartSelection.workingLevel_angle_scale
+#print axioms NativeAngularChartSelection.selectedSlope_bound
+#print axioms NativeAngularChartSelection.angleLabel_close
+#print axioms NativeAngularChartSelection.grid_scale_ancestor
+#print axioms NativeAngularChartSelection.grid_scale_nested
+#print axioms NativeAngularChartSelection.uniform_cell_card
+#print axioms NativeAngularChartSelection.uniform_joint_card
+#print axioms NativeAngularChartSelection.select_parent_core_angles
+#print axioms NativeAngularChartSelection.exists_native_chart_parent_preparation

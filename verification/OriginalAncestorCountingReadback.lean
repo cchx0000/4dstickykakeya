@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_original_ancestor_counting
+
+#print axioms OriginalAncestorCounting.exists_original_cell_representatives
+#print axioms OriginalAncestorCounting.original_pair_ancestor_count
+#print axioms OriginalAncestorCounting.fine_label_in_ancestor_ball
+#print axioms OriginalAncestorCounting.same_ancestor_fixed_height_ball
+#print axioms OriginalAncestorCounting.original_carrier_saturation_count
+#print axioms OriginalAncestorCounting.original_carrier_convex_count

@@ -1,0 +1,1239 @@
+{
+  "generated_at_utc": "2026-10-04T01:10:41.750271+00:00",
+  "base_tree": "52f9044175b9edee77b5444133b6f47c22ca54a0",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_grid.lean": "2bdb7a8e3ff857e92896be8e31a4f057f79cb60c36f5559c7d4f654c1fbc4b38",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_triangles.lean": "c7e5e7a4d1d5c0e724831410996f8adf061c29e238fd1743035470ec5f7354ed",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_energy.lean": "2b574c8e2371309f80876ad19afc65561bdf3ffdd2fec9b12ac654eab5e6d358",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_selection.lean": "163ed0efd369602c807819d484290344d0956e0deb52293a4052fcbd0e8e1b12",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_joint.lean": "bcd914d1a7cb331ff6cf27f457c54ec4124df81299c6c93574bb03c2968d281c",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_line_tubes.lean": "53b68f8b4b74c69580ec50a13534711cc9fbf7ce3f764d3fffed37305565fd4b",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_original_b.lean": "3d69222c474f24afc88e6ec1291152a4f2755c566c42803950fd877fe765b863",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_representatives.lean": "9678b005e01422187ec0153ab8216ca90bac361394950a09fcfce57a521404a1",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_frostman.lean": "54e0c229d9a5c10d1abd2dbe01062f0f86eaf8e4b6e35ca44f1de7e5fb7c980a",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_frostman_geometry.lean": "cb3f7b2c53ed3388383e43bb59037cee7832e3806ab2f7bac387510381e0f5b6",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_allscale.lean": "15ce358d72431bfa203a52aeb52174086a3f4833a4dd9ad4a203399cf141bb74",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_native_geometry.lean": "a84df99f8f815649a9db1b04d3c0bd78370f0fdc5ae6afee450b4876ef3505d5",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_separated.lean": "ef9f413f44086daaeef3c9fd99067a5401b110cd544b689cfdc175badce07cc8",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_final.lean": "4904aa1fde789424fcc6521355e372c44e67ecb09aea3568d7e74d1c42429f0b",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_original_graph.lean": "2d07e1cd5be04b296d3eee1ba23077a445d59f8665eac9bf04074f62acd672c9",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_perturbation.lean": "c5536487549b53800c422e1288a3dae292a5d706f60a929e89bd8a9ac8ba1fbb"
+  },
+  "new_modules": [
+    {
+      "short": "FinitePlaneProjectionGrid",
+      "slug": "finite_plane_projection_grid",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_grid.lean",
+      "source_sha256": "2bdb7a8e3ff857e92896be8e31a4f057f79cb60c36f5559c7d4f654c1fbc4b38",
+      "readback": "verification/FinitePlaneProjectionGridReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.mesh_pos",
+        "FinitePlaneProjectionGrid.slopes_card",
+        "FinitePlaneProjectionGrid.mesh_mul_slopes_card",
+        "FinitePlaneProjectionGrid.slopes_card_pos",
+        "FinitePlaneProjectionGrid.parameters_card",
+        "FinitePlaneProjectionGrid.slope_abs_le_one",
+        "FinitePlaneProjectionGrid.slope_interval_count",
+        "FinitePlaneProjectionGrid.vertical_half_of_collision",
+        "FinitePlaneProjectionGrid.residual_slope_interval",
+        "FinitePlaneProjectionGrid.collision_count_far",
+        "FinitePlaneProjectionGrid.collision_count"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionTriangles",
+      "slug": "finite_plane_projection_triangles",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_triangles.lean",
+      "source_sha256": "c7e5e7a4d1d5c0e724831410996f8adf061c29e238fd1743035470ec5f7354ed",
+      "readback": "verification/FinitePlaneProjectionTrianglesReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.product_filter_card_sum",
+        "FinitePlaneProjectionGrid.scalar_affine_count",
+        "FinitePlaneProjectionGrid.affine_strip_count_second",
+        "FinitePlaneProjectionGrid.product_filter_card_sum_right",
+        "FinitePlaneProjectionGrid.affine_strip_count_first",
+        "FinitePlaneProjectionGrid.constant_bound_of_strip",
+        "FinitePlaneProjectionGrid.strip_large_gradient",
+        "FinitePlaneProjectionGrid.affine_strip_count",
+        "FinitePlaneProjectionGrid.projected_determinant_identity",
+        "FinitePlaneProjectionGrid.projected_triangle_count"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionEnergy",
+      "slug": "finite_plane_projection_energy",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_energy.lean",
+      "source_sha256": "2b574c8e2371309f80876ad19afc65561bdf3ffdd2fec9b12ac654eab5e6d358",
+      "readback": "verification/FinitePlaneProjectionEnergyReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.dist3_eq_norm",
+        "FinitePlaneProjectionGrid.pairParameters_iff",
+        "FinitePlaneProjectionGrid.exists_shell",
+        "FinitePlaneProjectionGrid.two_pow_reciprocal",
+        "FinitePlaneProjectionGrid.finite_geometric_le_two",
+        "FinitePlaneProjectionGrid.shell_pair_count",
+        "FinitePlaneProjectionGrid.shell_energy_bound",
+        "FinitePlaneProjectionGrid.sum_le_near_add_shells",
+        "FinitePlaneProjectionGrid.point_energy_bound",
+        "FinitePlaneProjectionGrid.collision_fubini",
+        "FinitePlaneProjectionGrid.actual_KT1_collision_energy"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionSelection",
+      "slug": "finite_plane_projection_selection",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_selection.lean",
+      "source_sha256": "163ed0efd369602c807819d484290344d0956e0deb52293a4052fcbd0e8e1b12",
+      "readback": "verification/FinitePlaneProjectionSelectionReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.same_floor_close",
+        "FinitePlaneProjectionGrid.same_projected_cell_close",
+        "FinitePlaneProjectionGrid.projected_cell_energy",
+        "FinitePlaneProjectionGrid.parameters_nonempty",
+        "FinitePlaneProjectionGrid.exists_le_average",
+        "FinitePlaneProjectionGrid.exists_large_projected_image"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionJoint",
+      "slug": "finite_plane_projection_joint",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_joint.lean",
+      "source_sha256": "bcd914d1a7cb331ff6cf27f457c54ec4124df81299c6c93574bb03c2968d281c",
+      "readback": "verification/FinitePlaneProjectionJointReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.triples_card",
+        "FinitePlaneProjectionGrid.actual_triangle_parameter_count",
+        "FinitePlaneProjectionGrid.triangle_fubini",
+        "FinitePlaneProjectionGrid.original_triangle_projection_budget",
+        "FinitePlaneProjectionGrid.exists_joint_average",
+        "FinitePlaneProjectionGrid.exists_common_projection"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionLineTubes",
+      "slug": "finite_plane_projection_line_tubes",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_line_tubes.lean",
+      "source_sha256": "53b68f8b4b74c69580ec50a13534711cc9fbf7ce3f764d3fffed37305565fd4b",
+      "readback": "verification/FinitePlaneProjectionLineTubesReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.determinant_bound_normal",
+        "FinitePlaneProjectionGrid.secant_line_residual",
+        "FinitePlaneProjectionGrid.triangle_in_line_strip",
+        "FinitePlaneProjectionGrid.bounded_projected_point",
+        "FinitePlaneProjectionGrid.projected_line_strip_cube"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionOriginalB",
+      "slug": "finite_plane_projection_original_b",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_original_b.lean",
+      "source_sha256": "3d69222c474f24afc88e6ec1291152a4f2755c566c42803950fd877fe765b863",
+      "readback": "verification/FinitePlaneProjectionOriginalBReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.triple_filter_card",
+        "FinitePlaneProjectionGrid.original_degenerate_triple_count",
+        "FinitePlaneProjectionGrid.exists_common_projection_line_control",
+        "FinitePlaneProjectionGrid.line_strip_fraction_of_cube"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionRepresentatives",
+      "slug": "finite_plane_projection_representatives",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_representatives.lean",
+      "source_sha256": "9678b005e01422187ec0153ab8216ca90bac361394950a09fcfce57a521404a1",
+      "readback": "verification/FinitePlaneProjectionRepresentativesReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.exists_three_averages",
+        "FinitePlaneProjectionGrid.image_lower_of_collision_bound",
+        "FinitePlaneProjectionGrid.exists_common_two_images",
+        "FinitePlaneProjectionGrid.exists_cell_representatives",
+        "FinitePlaneProjectionGrid.line_fraction_to_original_subset",
+        "FinitePlaneProjectionGrid.exists_common_original_subsets"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionFrostman",
+      "slug": "finite_plane_projection_frostman",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_frostman.lean",
+      "source_sha256": "54e0c229d9a5c10d1abd2dbe01062f0f86eaf8e4b6e35ca44f1de7e5fb7c980a",
+      "readback": "verification/FinitePlaneProjectionFrostmanReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.actual_KT1_collision_energy_at_scale",
+        "FinitePlaneProjectionGrid.scaleEnergy_nonneg",
+        "FinitePlaneProjectionGrid.scaleEnergy_budget",
+        "FinitePlaneProjectionGrid.heavyScale_subset",
+        "FinitePlaneProjectionGrid.badScales_subset",
+        "FinitePlaneProjectionGrid.retainedScales_subset",
+        "FinitePlaneProjectionGrid.heavyScale_mass",
+        "FinitePlaneProjectionGrid.badScales_mass",
+        "FinitePlaneProjectionGrid.retainedScales_cell_bound",
+        "FinitePlaneProjectionGrid.retainedScales_half"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionFrostmanGeometry",
+      "slug": "finite_plane_projection_frostman_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_frostman_geometry.lean",
+      "source_sha256": "cb3f7b2c53ed3388383e43bb59037cee7832e3806ab2f7bac387510381e0f5b6",
+      "readback": "verification/FinitePlaneProjectionFrostmanGeometryReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.retainedScales_ball_bound",
+        "FinitePlaneProjectionGrid.base_mem_dyadicScales",
+        "FinitePlaneProjectionGrid.dyadicScales_ge_base",
+        "FinitePlaneProjectionGrid.dyadicScales_card_bound",
+        "FinitePlaneProjectionGrid.exists_dyadicScale",
+        "FinitePlaneProjectionGrid.retainedScales_allscale_ball_bound",
+        "FinitePlaneProjectionGrid.retainedScales_representatives"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionAllscale",
+      "slug": "finite_plane_projection_allscale",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_allscale.lean",
+      "source_sha256": "15ce358d72431bfa203a52aeb52174086a3f4833a4dd9ad4a203399cf141bb74",
+      "readback": "verification/FinitePlaneProjectionAllscaleReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.allscaleLoss_pos",
+        "FinitePlaneProjectionGrid.allscaleLoss_ge",
+        "FinitePlaneProjectionGrid.projectedBall_wide_bound",
+        "FinitePlaneProjectionGrid.exists_common_scale_energies",
+        "FinitePlaneProjectionGrid.exists_common_allscale_original_subsets",
+        "FinitePlaneProjectionGrid.relative_ball_bound_of_original_density"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionNativeGeometry",
+      "slug": "finite_plane_projection_native_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_native_geometry.lean",
+      "source_sha256": "a84df99f8f815649a9db1b04d3c0bd78370f0fdc5ae6afee450b4876ef3505d5",
+      "readback": "verification/FinitePlaneProjectionNativeGeometryReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.projectionLinear_surjective",
+        "FinitePlaneProjectionGrid.projectedBall_eq_native_ball",
+        "FinitePlaneProjectionGrid.projection_injective_of_cells",
+        "FinitePlaneProjectionGrid.projected_original_card"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionSeparated",
+      "slug": "finite_plane_projection_separated",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_separated.lean",
+      "source_sha256": "ef9f413f44086daaeef3c9fd99067a5401b110cd544b689cfdc175badce07cc8",
+      "readback": "verification/FinitePlaneProjectionSeparatedReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.cellColor_mem",
+        "FinitePlaneProjectionGrid.nineColors_card",
+        "FinitePlaneProjectionGrid.exists_cell_color",
+        "FinitePlaneProjectionGrid.same_residue_floor_separation",
+        "FinitePlaneProjectionGrid.exists_separated_projection_subset",
+        "FinitePlaneProjectionGrid.projectedBall_mono"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionFinal",
+      "slug": "finite_plane_projection_final",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_final.lean",
+      "source_sha256": "4904aa1fde789424fcc6521355e372c44e67ecb09aea3568d7e74d1c42429f0b",
+      "readback": "verification/FinitePlaneProjectionFinalReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.exists_common_separated_original_subsets",
+        "FinitePlaneProjectionGrid.relative_native_ball_bound"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionOriginalGraph",
+      "slug": "finite_plane_projection_original_graph",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_original_graph.lean",
+      "source_sha256": "2d07e1cd5be04b296d3eee1ba23077a445d59f8665eac9bf04074f62acd672c9",
+      "readback": "verification/FinitePlaneProjectionOriginalGraphReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.cross_height_component_bounds",
+        "FinitePlaneProjectionGrid.determinant_height_bound",
+        "FinitePlaneProjectionGrid.determinant_affine_bound",
+        "FinitePlaneProjectionGrid.original_cross_tube_dichotomy",
+        "FinitePlaneProjectionGrid.originalCrossTube_card_of_height_affine_caps"
+      ]
+    },
+    {
+      "short": "FinitePlaneProjectionPerturbation",
+      "slug": "finite_plane_projection_perturbation",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_perturbation.lean",
+      "source_sha256": "c5536487549b53800c422e1288a3dae292a5d706f60a929e89bd8a9ac8ba1fbb",
+      "readback": "verification/FinitePlaneProjectionPerturbationReadback.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.dist3_nonneg",
+        "FinitePlaneProjectionGrid.dist3_coordinate_bounds",
+        "FinitePlaneProjectionGrid.determinant_point_perturbation",
+        "FinitePlaneProjectionGrid.crossSize_point_perturbation",
+        "FinitePlaneProjectionGrid.original_cross_tube_point_transport",
+        "FinitePlaneProjectionGrid.originalCrossTube_transport"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "FinitePlaneProjectionGrid.mesh_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.slopes_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.mesh_mul_slopes_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.slopes_card_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.parameters_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.slope_abs_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.slope_interval_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.vertical_half_of_collision",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.residual_slope_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.collision_count_far",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.collision_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.product_filter_card_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.scalar_affine_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.affine_strip_count_second",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.product_filter_card_sum_right",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.affine_strip_count_first",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.constant_bound_of_strip",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.strip_large_gradient",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.affine_strip_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projected_determinant_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projected_triangle_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.dist3_eq_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.pairParameters_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_shell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.two_pow_reciprocal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.finite_geometric_le_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.shell_pair_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.shell_energy_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.sum_le_near_add_shells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.point_energy_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.collision_fubini",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.actual_KT1_collision_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.same_floor_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.same_projected_cell_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projected_cell_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.parameters_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_le_average",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_large_projected_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.triples_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.actual_triangle_parameter_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.triangle_fubini",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.original_triangle_projection_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_joint_average",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_common_projection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.determinant_bound_normal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.secant_line_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.triangle_in_line_strip",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.bounded_projected_point",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projected_line_strip_cube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.triple_filter_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.original_degenerate_triple_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_common_projection_line_control",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.line_strip_fraction_of_cube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_three_averages",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.image_lower_of_collision_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_common_two_images",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_cell_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.line_fraction_to_original_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_common_original_subsets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.actual_KT1_collision_energy_at_scale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.scaleEnergy_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.scaleEnergy_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.heavyScale_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.badScales_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.retainedScales_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.heavyScale_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.badScales_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.retainedScales_cell_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.retainedScales_half",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.retainedScales_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.base_mem_dyadicScales",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.dyadicScales_ge_base",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.dyadicScales_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_dyadicScale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.retainedScales_allscale_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.retainedScales_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.allscaleLoss_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.allscaleLoss_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projectedBall_wide_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_common_scale_energies",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_common_allscale_original_subsets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.relative_ball_bound_of_original_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projectionLinear_surjective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projectedBall_eq_native_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projection_injective_of_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projected_original_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.cellColor_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.nineColors_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_cell_color",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.same_residue_floor_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_separated_projection_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projectedBall_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.exists_common_separated_original_subsets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.relative_native_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.cross_height_component_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.determinant_height_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.determinant_affine_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.original_cross_tube_dichotomy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.originalCrossTube_card_of_height_affine_caps",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.dist3_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.dist3_coordinate_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.determinant_point_perturbation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.crossSize_point_perturbation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.original_cross_tube_point_transport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.originalCrossTube_transport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-finite-projection-axioms.log"
+    }
+  ],
+  "declaration_count": 105,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_log": "verification/wz-finite-projection-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9111,
+    "log": "verification/wz402-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_tree": "52f9044175b9edee77b5444133b6f47c22ca54a0",
+    "module_count": 402,
+    "source_snapshot": "verification/wz402-source-snapshot.json",
+    "scope": "Full default build of all 402 modules; all previous 386 source hashes unchanged"
+  },
+  "prior_386_module_hashes_unchanged": true,
+  "current_module_count": 402,
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "scope_note": "docs/WZ_FINITE_PLANE_PROJECTION.md"
+}

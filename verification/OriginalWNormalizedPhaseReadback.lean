@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_original_w_normalized_phase
+#print axioms OriginalWNormalizedPhase.scalar_operator_apply
+#print axioms OriginalWNormalizedPhase.phase_error_identity
+#print axioms OriginalWNormalizedPhase.scaled_scalar_error
+#print axioms OriginalWNormalizedPhase.scaled_normal_error
+#print axioms OriginalWNormalizedPhase.normalized_phase_error
+#print axioms OriginalWNormalizedPhase.scalar_original_normalized_phase

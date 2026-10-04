@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_original_phase_window_graph
+
+#print axioms NativeOriginalPhaseWindowGraph.exists_original_phase_window_graph

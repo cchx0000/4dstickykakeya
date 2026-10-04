@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_original_w_physical_growth
+
+#print axioms OriginalWPhysicalGrowth.scalar_constructed_step_displacement
+#print axioms OriginalWPhysicalGrowth.planar_constructed_step_displacement
+#print axioms OriginalWPhysicalGrowth.original_heights_nonempty
+#print axioms OriginalWPhysicalGrowth.scalar_growth_of_constructed_core
+#print axioms OriginalWPhysicalGrowth.planar_decoded_alphabet_bound
+#print axioms OriginalWPhysicalGrowth.planar_growth_of_constructed_core
+#print axioms OriginalWPhysicalGrowth.normalize_original_escape

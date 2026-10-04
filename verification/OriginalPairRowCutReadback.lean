@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_original_pair_row_cut
+
+#print axioms OriginalPairRowCut.exists_good_pairs

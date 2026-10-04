@@ -1,0 +1,2363 @@
+{
+  "generated_at_utc": "2026-10-04T10:12:01.089781+00:00",
+  "base_commit": "f9697dbe79bb0f58436baca33a701aa2fa30573a",
+  "base_tree": "0a556407d3cab4c528a1e7c6b6c56a6a3358b552",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_direct_transverse_hairbrush.lean": "2f369324b1769c30fc8e8e8b7c335e1bfa9e0b27e1c818cbb81a169b18179a40",
+    "Theorems/Thm_StickyKakeya4_native_normalized_parent_carrier_metric.lean": "49f0149b1b3de0e1850ae9d1dd4b50c30a814ac4ebac334eb9e756fb75d33a9d",
+    "Theorems/Thm_StickyKakeya4_native_contracted_unit_parent.lean": "69d78c122df323e0dfd3df0dcdc50f86d2a095512fc04b38a62797a01febc033",
+    "Theorems/Thm_StickyKakeya4_native_original_padded_cells.lean": "e3823358a3d8526c132a4b4b4d54e1a085801589a070de76db48056fa6a79785",
+    "Theorems/Thm_StickyKakeya4_native_padded_cell_union_bound.lean": "0498df35fd35b6733531c7ddbff60bb500aefce44bc0c36abb82b074660ebe63",
+    "Theorems/Thm_StickyKakeya4_native_padded_cell_fiber_count.lean": "01668fd56fd44a2ec474bf10e9284251ea0683129a7e1b9970ade3e02685ce3c",
+    "Theorems/Thm_StickyKakeya4_native_padded_cell_source.lean": "ba48388d5535069ca12aa62a633900d76acc88492ab87648f21cd9ed4eedbe7b",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_large_slice_population.lean": "effdf6d0eb068e25bbcc11383fd2f6567f99c35842f94e5167b57105886c9d8a",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_common_slice_radius.lean": "64c1759166a6c4f319b13006ad46aaa139d330b0eea1268bb8db13799df65fa7",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_common_pair_radius.lean": "48cae75a2413048a69b307e955dc9d8deb5ff5f78a087f07ebc8375ef6605be2",
+    "Theorems/Thm_StickyKakeya4_native_original_concentrated_pair_graph.lean": "23d90983759370cd4f0bddcfd62e51aa816d6a50c9c9765685289b0746285a40",
+    "Theorems/Thm_StickyKakeya4_original_bourgain_graph_transfer.lean": "485a7e74f0c22f48d2f6fe5676fca7cee1bf63b257965f215265c867aaa391e3",
+    "Theorems/Thm_StickyKakeya4_original_shared_fiber_pruning.lean": "1f6ba546e2863b6e435ae59d56caa1941292d39dfa1c31e9274bedfd7d3e6f14",
+    "Theorems/Thm_StickyKakeya4_original_rich_alphabet_profile.lean": "5bda6a6ea8a8845efa3377bf8cde71f4cb310560684115b6a953f087d237c3d8",
+    "Theorems/Thm_StickyKakeya4_original_weak_alphabet_selection.lean": "4cd31d15e9ba487182e0d65ed61728134ae8655a73a0f774869262e7edc94689",
+    "Theorems/Thm_StickyKakeya4_original_kaufman_shared_host.lean": "c49a18256d242b5f5e9a19577a727a14c91a4c2e3e26d99332c3f8d2568f6aa4",
+    "Theorems/Thm_StickyKakeya4_original_profiled_third_query_family.lean": "374b2e18ab9d164ab31718dbb59de66974e258414b27b283adeadca1dfefd241",
+    "Theorems/Thm_StickyKakeya4_original_weighted_macro_selection.lean": "b01b29f064dd6b5304115cc667ade89f5bcdb07c753a6a671643c499b9570b4f",
+    "Theorems/Thm_StickyKakeya4_original_macro_slice_cell_count.lean": "49f01930539bb35d762ec273887c8c692d7e27bb4eeec3b9ed3049f532d842d4",
+    "Theorems/Thm_StickyKakeya4_original_planar_ad_grid_population.lean": "80dc5e2dd79af127ba80b8fb512264ca8fba41dbf0fa5cd145d12a7677fc780f",
+    "Theorems/Thm_StickyKakeya4_original_macro_grain_readback.lean": "de1f815ccd7176e9590eca27163bdd10d22784cf9dd19fd3882230131c2cc7d2",
+    "Theorems/Thm_StickyKakeya4_original_representative_grid_comparison.lean": "82e292a05eb177f72c2ab9a6457e7e637025f8b0674bfeb26684fe88ae94b8e8",
+    "Theorems/Thm_StickyKakeya4_original_literal_grain_profiles.lean": "ba6e197405b30415eedd1c0718b8fc5d8a0b0c0cdbb90f86636cafb33f7b3569",
+    "Theorems/Thm_StickyKakeya4_original_literal_macro_density.lean": "e11916ebb58f4b1b8e48b084d2f0592ad4a3504b6a1beaf7720dbf657dfe2088",
+    "Theorems/Thm_StickyKakeya4_native_dyadic_coarse_normalization.lean": "1031eb6cec5bae3d6d624724518c7bd47e231727ecdae96456f13658809c0f1f",
+    "Theorems/Thm_StickyKakeya4_original_scalar_literal_cover_count.lean": "8bf88dfd34eaa22ad00ab2f37f45ee1c7458dd7dc2149bf008af2158281d6181",
+    "Theorems/Thm_StickyKakeya4_original_literal_common_alphabet.lean": "a580135234a13b2b03ebec58518a123276176f03b187970e33d2b60b11c18c84",
+    "Theorems/Thm_StickyKakeya4_original_literal_angular_readback.lean": "b1c2e6f29e05b6731acf0a17418ff0cdf729a18d49ae2320f8f5153fed84257d",
+    "Theorems/Thm_StickyKakeya4_original_literal_angular_budget.lean": "5311b6913e28d3076a8104a4e8942571c76c76239b353fdcfde05702ee6cec0f",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_geometry.lean": "f196a0b1ee0b67db985047794ff930e7ec4f97350e21f0af9b92ff63bae7a61a",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_overlap.lean": "e0987f6c58670596261cd60aa03d9924cd0e83695791bcd85d1074eb94677842",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_partition.lean": "3b65f7acf7ac41c917d95e68eab99bc7963fd14d47481a41cd43d66c74dbeee5",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_unit_slabs.lean": "c1a47ace7c48c85e9fee11b3c1e608597d9c3c7dcee7f832eb6f988cd549bc17",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_brush_groups.lean": "150f392e141f7dc2ba6de7c41a654c3c7cd3095390d6f0023167591d50f6734f",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_shade_local_count.lean": "553d64219c42460fb61c480be139d70a2beb8443f68cd73a837abb0b1c86f1f4",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_finite_shade_union.lean": "34077fc9bd605cef8f215528a9ac2e4a543b6af57d0e731aca9bbe65fbfa9149",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_localized_energy.lean": "9a5ed49a380e135b435c0d057e1ad02e90b392ae1c2b5aba2afa59d1ff4d74bb",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_near_stem_shade.lean": "9a109fd68680f7f34daa6d92233a71be2e711c73b81a53289ab397c28b183e86",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_shade_group_concentration.lean": "95c973e32f03a1bfbe11bd3c87ef77d26ec90ed36b173d1af50d92224226f62e",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_group_source_mass.lean": "5747d85c847a79429239134ea466963ada85cdd512177bd643d24c56f7c12437",
+    "Theorems/Thm_StickyKakeya4_original_three_dimensional_shaded_brush_slab.lean": "5d3d0fa0909e2226ea4f4864417c6fed9208240405709ee58d64d515000ce0a7"
+  },
+  "new_modules": [
+    {
+      "short": "OriginalThreeDimensionalDirectTransverseHairbrush",
+      "slug": "original_three_dimensional_direct_transverse_hairbrush",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_direct_transverse_hairbrush.lean",
+      "declarations": [
+        "OriginalThreeDimensionalTransverseWedgeGeometry.original_endpoint_graph",
+        "OriginalThreeDimensionalTransverseWedgeGeometry.original_parallel_wedge_neighbor_mem",
+        "OriginalThreeDimensionalTransverseWedgeGeometry.original_bad_wedge_neighbors_card",
+        "OriginalThreeDimensionalTransverseWedgeGeometry.original_transverse_parameter_transfer",
+        "OriginalThreeDimensionalTransverseWedgeGeometry.original_transverse_intersection_diameter",
+        "OriginalThreeDimensionalTransverseWedgeGeometry.original_transverse_intersection_card",
+        "OriginalThreeDimensionalDenseWedgeCount.original_graph_row_card",
+        "OriginalThreeDimensionalDenseWedgeCount.original_graph_row_sum",
+        "OriginalThreeDimensionalDenseWedgeCount.original_row_bad_wedge_count",
+        "OriginalThreeDimensionalDenseWedgeCount.original_dense_good_wedge_count",
+        "OriginalThreeDimensionalRepresentativeWedges.exists_original_cell_preserving_chart_map",
+        "OriginalThreeDimensionalRepresentativeWedges.original_good_wedge_representatives_mem",
+        "OriginalThreeDimensionalRepresentativeWedges.original_representative_row_card",
+        "OriginalThreeDimensionalRepresentativeWedges.original_good_wedge_representative_fiber",
+        "OriginalThreeDimensionalTransverseHairbrush.original_transverse_pairs_lower_count",
+        "OriginalThreeDimensionalTransverseHairbrush.original_brush_pair_fiber_card",
+        "OriginalThreeDimensionalTransverseHairbrush.exists_original_largest_transverse_brush",
+        "OriginalThreeDimensionalTransverseHairbrush.original_rich_family_scaled_upper",
+        "OriginalThreeDimensionalTransverseHairbrush.exists_original_transverse_hairbrush",
+        "OriginalThreeDimensionalSourceHairbrush.exists_original_dense_graph_hairbrush"
+      ],
+      "preintegration_source_sha256": "4fd62fc19ca99c3f2afe028f85b96e53b8487a47a1da75630c3a83516ce99107",
+      "preintegration_manifest": "OriginalDirectTransverseHairbrush.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalDirectTransverseHairbrush.strict.log",
+      "source_sha256": "2f369324b1769c30fc8e8e8b7c335e1bfa9e0b27e1c818cbb81a169b18179a40",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeNormalizedParentCarrierMetric",
+      "slug": "native_normalized_parent_carrier_metric",
+      "source": "Theorems/Thm_StickyKakeya4_native_normalized_parent_carrier_metric.lean",
+      "declarations": [
+        "NativeNormalizedParentCarrierMetric.euclidean_three_norm_le_two",
+        "NativeNormalizedParentCarrierMetric.heightPoint_zero_norm",
+        "NativeNormalizedParentCarrierMetric.heightPoint_zero_sub_norm",
+        "NativeNormalizedParentCarrierMetric.graph_direction_dist_le",
+        "NativeNormalizedParentCarrierMetric.orthogonal_offset_dist_le",
+        "NativeNormalizedParentCarrierMetric.graph_carrier_dist_le_sixteen",
+        "NativeNormalizedParentCarrierMetric.normalized_intercept_norm_le_one",
+        "NativeNormalizedParentCarrierMetric.contractLine_carrier_dist_le",
+        "NativeNormalizedParentCarrierMetric.normalized_parent_carrier_dist_le",
+        "NativeNormalizedParentCarrierMetric.same_floor_mul_close",
+        "NativeNormalizedParentCarrierMetric.same_parent_cell_carrier_dist_le"
+      ],
+      "preintegration_source_sha256": "39c8d93153d6c67f09f8709d5ea4469be1ec69444baa0a917a7a281d919f8d09",
+      "preintegration_manifest": "NativeNormalizedParentCarrierMetric.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeNormalizedParentCarrierMetric.strict.log",
+      "source_sha256": "49f0149b1b3de0e1850ae9d1dd4b50c30a814ac4ebac334eb9e756fb75d33a9d",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeContractedUnitParent",
+      "slug": "native_contracted_unit_parent",
+      "source": "Theorems/Thm_StickyKakeya4_native_contracted_unit_parent.lean",
+      "declarations": [
+        "NativeContractedUnitParent.direction_contractLine",
+        "NativeContractedUnitParent.contractLine_valid",
+        "NativeContractedUnitParent.contractLine_rawFront",
+        "NativeContractedUnitParent.contracted_parameter_mem",
+        "NativeContractedUnitParent.contract_front",
+        "NativeContractedUnitParent.contract_dist",
+        "NativeContractedUnitParent.contract_tube",
+        "NativeContractedUnitParent.contractLine_norm_le",
+        "NativeContractedUnitParent.contractLine_center_height",
+        "NativeContractedUnitParent.original_tube_maps_into_contracted",
+        "NativeContractedUnitParent.contracted_direction_separation",
+        "NativeContractedUnitParent.contracted_line_compact",
+        "NativeContractedUnitParent.contracted_line_common_slab"
+      ],
+      "preintegration_source_sha256": "1684314629b25c45304aed64c4f855f588a55fe0c5396e6ddb5b551412c22c3c",
+      "preintegration_manifest": "native_padded_cell_geometry_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeContractedUnitParent.strict.log",
+      "source_sha256": "69d78c122df323e0dfd3df0dcdc50f86d2a095512fc04b38a62797a01febc033",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalPaddedCells",
+      "slug": "native_original_padded_cells",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_padded_cells.lean",
+      "declarations": [
+        "NativeOriginalPaddedCells.frontPoint_mem_front",
+        "NativeOriginalPaddedCells.cells_meet_front",
+        "NativeOriginalPaddedCells.cell_shading_subset_contracted_tube",
+        "NativeOriginalPaddedCells.frontPoint_height",
+        "NativeOriginalPaddedCells.cellLabel_height"
+      ],
+      "preintegration_source_sha256": "c7affc2b46c37207a405333ebfa593c28ee9de1dd5f8bd7b51546999a1b673da",
+      "preintegration_manifest": "native_padded_cell_geometry_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalPaddedCells.strict.log",
+      "source_sha256": "e3823358a3d8526c132a4b4b4d54e1a085801589a070de76db48056fa6a79785",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativePaddedCellUnionBound",
+      "slug": "native_padded_cell_union_bound",
+      "source": "Theorems/Thm_StickyKakeya4_native_padded_cell_union_bound.lean",
+      "declarations": [
+        "NativePaddedCellUnionBound.frontPoint_coordinate_error",
+        "NativePaddedCellUnionBound.physicalCell_height",
+        "NativePaddedCellUnionBound.frontPoint_near_physicalCell",
+        "NativePaddedCellUnionBound.neighborBox_card",
+        "NativePaddedCellUnionBound.cellIndex_mem_neighborBox",
+        "NativePaddedCellUnionBound.original_cell_output_menu",
+        "NativePaddedCellUnionBound.output_support_card_le",
+        "NativePaddedCellUnionBound.union_cellShading_eq",
+        "NativePaddedCellUnionBound.volume_cell_union",
+        "NativePaddedCellUnionBound.output_union_volume_le"
+      ],
+      "preintegration_source_sha256": "5d3b42ecdda2c7a801aa3b18c54a0bb849ad32cf17315298cb8ab669f4f98098",
+      "preintegration_manifest": "native_padded_cell_source_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativePaddedCellUnionBound.strict.log",
+      "source_sha256": "0498df35fd35b6733531c7ddbff60bb500aefce44bc0c36abb82b074660ebe63",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativePaddedCellFiberCount",
+      "slug": "native_padded_cell_fiber_count",
+      "source": "Theorems/Thm_StickyKakeya4_native_padded_cell_fiber_count.lean",
+      "declarations": [
+        "NativePaddedCellFiberCount.original_row_card_le",
+        "NativePaddedCellFiberCount.output_cell_fiber_card_le",
+        "NativePaddedCellFiberCount.original_card_le_output_card",
+        "NativePaddedCellFiberCount.original_shading_volume_le"
+      ],
+      "preintegration_source_sha256": "ab56546b464b2dca92b8a8647fbccb3b225042ee35ebe326383dbae6127f110e",
+      "preintegration_manifest": "native_padded_cell_source_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativePaddedCellFiberCount.strict.log",
+      "source_sha256": "01668fd56fd44a2ec474bf10e9284251ea0683129a7e1b9970ade3e02685ce3c",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativePaddedCellSource",
+      "slug": "native_padded_cell_source",
+      "source": "Theorems/Thm_StickyKakeya4_native_padded_cell_source.lean",
+      "declarations": [
+        "NativePaddedCellSource.originalLabel_mem",
+        "NativePaddedCellSource.originalLabel_injective",
+        "NativePaddedCellSource.originalLabel_range",
+        "NativePaddedCellSource.source_thickness",
+        "NativePaddedCellSource.source_line",
+        "NativePaddedCellSource.source_shading",
+        "NativePaddedCellSource.source_weights",
+        "NativePaddedCellSource.dyadic_div_power",
+        "NativePaddedCellSource.source_geometric_fields"
+      ],
+      "preintegration_source_sha256": "049d3ad1d040036fdde94b0da8cf741feb5971b8ca919a16030b07706015d1c7",
+      "preintegration_manifest": "native_padded_cell_source_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativePaddedCellSource.strict.log",
+      "source_sha256": "ba48388d5535069ca12aa62a633900d76acc88492ab87648f21cd9ed4eedbe7b",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalLargeSlicePopulation",
+      "slug": "original_three_dimensional_large_slice_population",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_large_slice_population.lean",
+      "declarations": [
+        "OriginalThreeDimensionalLargeSlicePopulation.original_common_radius_annular_population",
+        "OriginalThreeDimensionalLargeSlicePopulation.original_large_common_slice_population"
+      ],
+      "preintegration_source_sha256": "a0a1ebc23500fea4a13ae3e525268afe7af44203b49aab721bcace6476c2cd70",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_COMMON_RADIUS_POPULATION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalLargeSlicePopulation.strict.log",
+      "source_sha256": "effdf6d0eb068e25bbcc11383fd2f6567f99c35842f94e5167b57105886c9d8a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalCommonSliceRadius",
+      "slug": "original_three_dimensional_common_slice_radius",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_common_slice_radius.lean",
+      "declarations": [
+        "OriginalThreeDimensionalCommonSliceRadius.chosen_slice_index_spec",
+        "OriginalThreeDimensionalCommonSliceRadius.exists_original_common_slice_radius",
+        "OriginalThreeDimensionalCommonSliceRadius.exists_original_concentrated_direction_radius"
+      ],
+      "preintegration_source_sha256": "c3c85ec59fb0d4d59935557064bcfbec037752a786292e3eabbc6d754acfa892",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_COMMON_RADIUS_POPULATION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalCommonSliceRadius.strict.log",
+      "source_sha256": "64c1759166a6c4f319b13006ad46aaa139d330b0eea1268bb8db13799df65fa7",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalCommonPairRadius",
+      "slug": "original_three_dimensional_common_pair_radius",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_common_pair_radius.lean",
+      "declarations": [
+        "OriginalThreeDimensionalCommonPairRadius.exists_original_common_rich_pair_radius"
+      ],
+      "preintegration_source_sha256": "61a52f533ea02f531e368ed81952e5436d929d1764139869127357f87239716a",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_COMMON_RADIUS_POPULATION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalCommonPairRadius.strict.log",
+      "source_sha256": "48cae75a2413048a69b307e955dc9d8deb5ff5f78a087f07ebc8375ef6605be2",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalConcentratedPairGraph",
+      "slug": "native_original_concentrated_pair_graph",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_concentrated_pair_graph.lean",
+      "declarations": [
+        "NativeOriginalConcentratedPairGraph.chosen_heavy_slab_code_spec",
+        "NativeOriginalConcentratedPairGraph.original_selected_concentrated_radius_upper",
+        "NativeOriginalConcentratedPairGraph.original_concentrated_graph_rich_radius",
+        "NativeOriginalConcentratedPairGraph.retained_unconcentrated_direction_population"
+      ],
+      "preintegration_source_sha256": "4db995fe75ee226d842725a43fb416aa3c6f2cd448e57c754b5683cbc681e69b",
+      "preintegration_manifest": "WZ_NATIVE_THREE_DIMENSIONAL_CONCENTRATED_PAIR_GRAPH_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalConcentratedPairGraph.strict.log",
+      "source_sha256": "23d90983759370cd4f0bddcfd62e51aa816d6a50c9c9765685289b0746285a40",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalBourgainGraphTransfer",
+      "slug": "original_bourgain_graph_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_original_bourgain_graph_transfer.lean",
+      "declarations": [
+        "OriginalBourgainGraphTransfer.floor_translation_pair",
+        "OriginalBourgainGraphTransfer.original_integer_graph_transfer"
+      ],
+      "preintegration_source_sha256": "485a7e74f0c22f48d2f6fe5676fca7cee1bf63b257965f215265c867aaa391e3",
+      "preintegration_manifest": "OriginalWeakNative.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalBourgainGraphTransfer.strict.log",
+      "source_sha256": "485a7e74f0c22f48d2f6fe5676fca7cee1bf63b257965f215265c867aaa391e3",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalSharedFiberPruning",
+      "slug": "original_shared_fiber_pruning",
+      "source": "Theorems/Thm_StickyKakeya4_original_shared_fiber_pruning.lean",
+      "declarations": [
+        "OriginalSharedFiberPruning.rich_subset",
+        "OriginalSharedFiberPruning.original_light_fiber_budget",
+        "OriginalSharedFiberPruning.original_rich_label_charge",
+        "OriginalSharedFiberPruning.original_rich_window_charge",
+        "OriginalSharedFiberPruning.original_two_fiber_query_retention"
+      ],
+      "preintegration_source_sha256": "1f6ba546e2863b6e435ae59d56caa1941292d39dfa1c31e9274bedfd7d3e6f14",
+      "preintegration_manifest": "OriginalWeakNative.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalSharedFiberPruning.strict.log",
+      "source_sha256": "1f6ba546e2863b6e435ae59d56caa1941292d39dfa1c31e9274bedfd7d3e6f14",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalRichAlphabetProfile",
+      "slug": "original_rich_alphabet_profile",
+      "source": "Theorems/Thm_StickyKakeya4_original_rich_alphabet_profile.lean",
+      "declarations": [
+        "OriginalRichAlphabetProfile.realAlphabet_eq_image",
+        "OriginalRichAlphabetProfile.original_scalar_ball_lift",
+        "OriginalRichAlphabetProfile.original_weighted_scalar_cap",
+        "OriginalRichAlphabetProfile.original_rich_alphabet_profile"
+      ],
+      "preintegration_source_sha256": "f37949f71535844f5f70fae27b1521205fa48ae05ce01fc2cb153bd2a4a2d7ed",
+      "preintegration_manifest": "OriginalWeakNative.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalRichAlphabetProfile.strict.log",
+      "source_sha256": "5bda6a6ea8a8845efa3377bf8cde71f4cb310560684115b6a953f087d237c3d8",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalWeakAlphabetSelection",
+      "slug": "original_weak_alphabet_selection",
+      "source": "Theorems/Thm_StickyKakeya4_original_weak_alphabet_selection.lean",
+      "declarations": [
+        "OriginalWeakAlphabetSelection.balanceLoss_mul_threshold",
+        "OriginalWeakAlphabetSelection.alphabet_balance",
+        "OriginalWeakAlphabetSelection.exists_original_weak_alphabets"
+      ],
+      "preintegration_source_sha256": "132cc4b1ce750f49f8c5a566da0326294a41c133f252b2c8429de0ce67e66880",
+      "preintegration_manifest": "OriginalWeakNative.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalWeakAlphabetSelection.strict.log",
+      "source_sha256": "4cd31d15e9ba487182e0d65ed61728134ae8655a73a0f774869262e7edc94689",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalKaufmanSharedHost",
+      "slug": "original_kaufman_shared_host",
+      "source": "Theorems/Thm_StickyKakeya4_original_kaufman_shared_host.lean",
+      "declarations": [
+        "OriginalKaufmanSharedHost.original_intersection_loss",
+        "OriginalKaufmanSharedHost.exists_original_shared_profile_host"
+      ],
+      "preintegration_source_sha256": "c49a18256d242b5f5e9a19577a727a14c91a4c2e3e26d99332c3f8d2568f6aa4",
+      "preintegration_manifest": "OriginalWeakNative.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalKaufmanSharedHost.strict.log",
+      "source_sha256": "c49a18256d242b5f5e9a19577a727a14c91a4c2e3e26d99332c3f8d2568f6aa4",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalProfiledThirdQueryFamily",
+      "slug": "original_profiled_third_query_family",
+      "source": "Theorems/Thm_StickyKakeya4_original_profiled_third_query_family.lean",
+      "declarations": [
+        "OriginalProfiledThirdQueryFamily.original_slope_profile_restrict",
+        "OriginalProfiledThirdQueryFamily.exists_original_profiled_third_queries"
+      ],
+      "preintegration_source_sha256": "5957bc7aeaec4c3ff06bf9c7fa24275091ab902ce2db80c569fad0aa64d2b157",
+      "preintegration_manifest": "OriginalWeakNative.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalProfiledThirdQueryFamily.strict.log",
+      "source_sha256": "374b2e18ab9d164ab31718dbb59de66974e258414b27b283adeadca1dfefd241",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalWeightedMacroSelection",
+      "slug": "original_weighted_macro_selection",
+      "source": "Theorems/Thm_StickyKakeya4_original_weighted_macro_selection.lean",
+      "declarations": [
+        "OriginalWeightedMacroSelection.sum_original_local_points",
+        "OriginalWeightedMacroSelection.local_heights_pair_fiber",
+        "OriginalWeightedMacroSelection.sum_local_heights_eq_pairs",
+        "OriginalWeightedMacroSelection.sum_local_heights_eq_height_cells",
+        "OriginalWeightedMacroSelection.weighted_denominator_of_height_cells",
+        "OriginalWeightedMacroSelection.exists_original_weighted_macro",
+        "OriginalWeightedMacroSelection.exists_physical_weighted_macro"
+      ],
+      "preintegration_source_sha256": "807e00360bfe3267f5c2f92e5ef416f783a0a8668882a4042d1d9bea43da7408",
+      "preintegration_manifest": "original_literal_macro.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalWeightedMacroSelection.strict.log",
+      "source_sha256": "b01b29f064dd6b5304115cc667ade89f5bcdb07c753a6a671643c499b9570b4f",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalMacroSliceCellCount",
+      "slug": "original_macro_slice_cell_count",
+      "source": "Theorems/Thm_StickyKakeya4_original_macro_slice_cell_count.lean",
+      "declarations": [
+        "OriginalMacroSliceCellCount.original_slice_physical_cells",
+        "OriginalMacroSliceCellCount.original_macro_denominator"
+      ],
+      "preintegration_source_sha256": "b1f82e71a7bc265507eb5bf22c1d8e27f469ab84e55188efc59b5439b7da2568",
+      "preintegration_manifest": "original_literal_macro.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalMacroSliceCellCount.strict.log",
+      "source_sha256": "49f01930539bb35d762ec273887c8c692d7e27bb4eeec3b9ed3049f532d842d4",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalPlanarADGridPopulation",
+      "slug": "original_planar_ad_grid_population",
+      "source": "Theorems/Thm_StickyKakeya4_original_planar_ad_grid_population.lean",
+      "declarations": [
+        "OriginalPlanarADGridPopulation.original_planar_total_mass",
+        "OriginalPlanarADGridPopulation.original_planar_grid_mass"
+      ],
+      "preintegration_source_sha256": "80dc5e2dd79af127ba80b8fb512264ca8fba41dbf0fa5cd145d12a7677fc780f",
+      "preintegration_manifest": "original_literal_macro.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalPlanarADGridPopulation.strict.log",
+      "source_sha256": "80dc5e2dd79af127ba80b8fb512264ca8fba41dbf0fa5cd145d12a7677fc780f",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalMacroGrainReadback",
+      "slug": "original_macro_grain_readback",
+      "source": "Theorems/Thm_StickyKakeya4_original_macro_grain_readback.lean",
+      "declarations": [
+        "OriginalMacroGrainReadback.grains_nonempty",
+        "OriginalMacroGrainReadback.grain_grid_readback"
+      ],
+      "preintegration_source_sha256": "2c2e76af44cb29f278609629450a4182ec1cbdb801ecf532e5ae2aba599d15ca",
+      "preintegration_manifest": "original_literal_macro.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalMacroGrainReadback.strict.log",
+      "source_sha256": "de1f815ccd7176e9590eca27163bdd10d22784cf9dd19fd3882230131c2cc7d2",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalRepresentativeGridComparison",
+      "slug": "original_representative_grid_comparison",
+      "source": "Theorems/Thm_StickyKakeya4_original_representative_grid_comparison.lean",
+      "declarations": [
+        "OriginalRepresentativeGridComparison.neighbors_card",
+        "OriginalRepresentativeGridComparison.original_coarse_grid_comparison",
+        "OriginalRepresentativeGridComparison.point_AD_isometric_image",
+        "OriginalRepresentativeGridComparison.pair_image_readback",
+        "OriginalRepresentativeGridComparison.pair_grid_image",
+        "OriginalRepresentativeGridComparison.pair_grid_card",
+        "OriginalRepresentativeGridComparison.pair_representative_readback"
+      ],
+      "preintegration_source_sha256": "82e292a05eb177f72c2ab9a6457e7e637025f8b0674bfeb26684fe88ae94b8e8",
+      "preintegration_manifest": "original_literal_macro.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalRepresentativeGridComparison.strict.log",
+      "source_sha256": "82e292a05eb177f72c2ab9a6457e7e637025f8b0674bfeb26684fe88ae94b8e8",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalLiteralGrainProfiles",
+      "slug": "original_literal_grain_profiles",
+      "source": "Theorems/Thm_StickyKakeya4_original_literal_grain_profiles.lean",
+      "declarations": [
+        "OriginalLiteralGrainProfiles.original_grain_mass_lower",
+        "OriginalLiteralGrainProfiles.exists_original_grain_representatives",
+        "OriginalLiteralGrainProfiles.original_literal_grain_grid_mass",
+        "OriginalLiteralGrainProfiles.original_literal_own_scale_grid_mass"
+      ],
+      "preintegration_source_sha256": "67345456bd509347799e5628442cda0e72b4661d5d63301a34b9bf755433192f",
+      "preintegration_manifest": "original_literal_macro.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalLiteralGrainProfiles.strict.log",
+      "source_sha256": "ba6e197405b30415eedd1c0718b8fc5d8a0b0c0cdbb90f86636cafb33f7b3569",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalLiteralMacroDensity",
+      "slug": "original_literal_macro_density",
+      "source": "Theorems/Thm_StickyKakeya4_original_literal_macro_density.lean",
+      "declarations": [
+        "OriginalLiteralMacroDensity.matrix_entry_operator_bound",
+        "OriginalLiteralMacroDensity.original_literal_global_point_mass",
+        "OriginalLiteralMacroDensity.original_literal_Y_macro_denominator",
+        "OriginalLiteralMacroDensity.exists_literal_dense_macro_of_slope_bound",
+        "OriginalLiteralMacroDensity.exists_literal_source_dense_macro"
+      ],
+      "preintegration_source_sha256": "6bd0f1183c55a58bb7e4d3421138555ceadd7103cfc28c6883028a67513b802b",
+      "preintegration_manifest": "original_literal_macro.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalLiteralMacroDensity.strict.log",
+      "source_sha256": "e11916ebb58f4b1b8e48b084d2f0592ad4a3504b6a1beaf7720dbf657dfe2088",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeDyadicCoarseNormalization",
+      "slug": "native_dyadic_coarse_normalization",
+      "source": "Theorems/Thm_StickyKakeya4_native_dyadic_coarse_normalization.lean",
+      "declarations": [
+        "NativeDyadicCoarseNormalization.coordinates_between_scales",
+        "NativeDyadicCoarseNormalization.larger_normalization_box",
+        "NativeDyadicCoarseNormalization.larger_normalization_residual",
+        "NativeDyadicCoarseNormalization.native_dyadic_scale",
+        "NativeDyadicCoarseNormalization.dyadic_mesh_readback",
+        "NativeDyadicCoarseNormalization.exists_actual_dyadic_coarse_family"
+      ],
+      "preintegration_source_sha256": "b672cb5548ebffe03f6144e6018f572ce10b12651c745891adef034eea780ce1",
+      "preintegration_manifest": "native_dyadic_coarse_normalization.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeDyadicCoarseNormalization.strict.log",
+      "source_sha256": "1031eb6cec5bae3d6d624724518c7bd47e231727ecdae96456f13658809c0f1f",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalScalarLiteralCoverCount",
+      "slug": "original_scalar_literal_cover_count",
+      "source": "Theorems/Thm_StickyKakeya4_original_scalar_literal_cover_count.lean",
+      "declarations": [
+        "OriginalScalarLiteralCoverCount.cover_count_readback",
+        "OriginalScalarLiteralCoverCount.diameter_grid_upper",
+        "OriginalScalarLiteralCoverCount.boxed_cover_grid_upper",
+        "OriginalScalarLiteralCoverCount.boxed_cover_allcenter",
+        "OriginalScalarLiteralCoverCount.separated_card_eq_grid"
+      ],
+      "preintegration_source_sha256": "bdb65b950e8e645d457ea58c003dc613f8e35ea0c32cceb02a973b33139cc4de",
+      "preintegration_manifest": "original_literal_angular.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalScalarLiteralCoverCount.strict.log",
+      "source_sha256": "8bf88dfd34eaa22ad00ab2f37f45ee1c7458dd7dc2149bf008af2158281d6181",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalLiteralCommonAlphabet",
+      "slug": "original_literal_common_alphabet",
+      "source": "Theorems/Thm_StickyKakeya4_original_literal_common_alphabet.lean",
+      "declarations": [
+        "OriginalLiteralCommonAlphabet.original_net_upper",
+        "OriginalLiteralCommonAlphabet.original_net_lower",
+        "OriginalLiteralCommonAlphabet.exists_actual_common_alphabet",
+        "OriginalLiteralCommonAlphabet.exists_actual_fine_alphabet"
+      ],
+      "preintegration_source_sha256": "8c99f433fa2bc3c52bbf7ee270daf4c8118771d164c90147a290c7684dae5b13",
+      "preintegration_manifest": "original_literal_angular.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalLiteralCommonAlphabet.strict.log",
+      "source_sha256": "a580135234a13b2b03ebec58518a123276176f03b187970e33d2b60b11c18c84",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalLiteralAngularReadback",
+      "slug": "original_literal_angular_readback",
+      "source": "Theorems/Thm_StickyKakeya4_original_literal_angular_readback.lean",
+      "declarations": [
+        "OriginalLiteralAngularReadback.cover_exponent_lt_two",
+        "OriginalLiteralAngularReadback.original_tube_reference_error"
+      ],
+      "preintegration_source_sha256": "5a7e529635e3f2faf64bbae466eb6e5b80875b042612f48b6049f42198f04b61",
+      "preintegration_manifest": "original_literal_angular.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalLiteralAngularReadback.strict.log",
+      "source_sha256": "b1c2e6f29e05b6731acf0a17418ff0cdf729a18d49ae2320f8f5153fed84257d",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalLiteralAngularBudget",
+      "slug": "original_literal_angular_budget",
+      "source": "Theorems/Thm_StickyKakeya4_original_literal_angular_budget.lean",
+      "declarations": [
+        "OriginalLiteralAngularBudget.point_AD_budget_mono",
+        "OriginalLiteralAngularBudget.literal_angular_cost_absorption",
+        "OriginalLiteralAngularBudget.exists_literal_angular_power_cutoff",
+        "OriginalLiteralAngularBudget.fourfold_schedule_readback",
+        "OriginalLiteralAngularBudget.fourfold_scheduled_law"
+      ],
+      "preintegration_source_sha256": "37b6d1eb9835a4481790fa19c02c5a014a0447e141392c48ce4de9a0fd2794bb",
+      "preintegration_manifest": "original_literal_angular_budget.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalLiteralAngularBudget.strict.log",
+      "source_sha256": "5311b6913e28d3076a8104a4e8942571c76c76239b353fdcfde05702ee6cec0f",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalPencilGeometry",
+      "slug": "original_three_dimensional_pencil_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_geometry.lean",
+      "declarations": [
+        "OriginalThreeDimensionalPencilGeometry.original_transverse_coordinates",
+        "OriginalThreeDimensionalPencilGeometry.original_pencil_scalar_spec",
+        "OriginalThreeDimensionalPencilGeometry.original_pencil_band_support",
+        "OriginalThreeDimensionalPencilGeometry.original_bounded_stem_residual",
+        "OriginalThreeDimensionalPencilGeometry.original_pencil_bin_transfer"
+      ],
+      "preintegration_source_sha256": "e670aa9cbba6f7c6ba653f303a6f65d0db003774cb2d15acb116fb38dd61a832",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_PENCIL_GROUPS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalPencilGeometry.strict.log",
+      "source_sha256": "f196a0b1ee0b67db985047794ff930e7ec4f97350e21f0af9b92ff63bae7a61a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalPencilOverlap",
+      "slug": "original_three_dimensional_pencil_overlap",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_overlap.lean",
+      "declarations": [
+        "OriginalThreeDimensionalPencilOverlap.original_outside_stem_residual",
+        "OriginalThreeDimensionalPencilOverlap.original_scalar_pencil_overlap",
+        "OriginalThreeDimensionalPencilOverlap.original_pencil_band_overlap"
+      ],
+      "preintegration_source_sha256": "65474474f5db00e221aed8df8f9237a6dfa92065dd30aec2fef2fd4c372cd280",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_PENCIL_GROUPS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalPencilOverlap.strict.log",
+      "source_sha256": "e0987f6c58670596261cd60aa03d9924cd0e83695791bcd85d1074eb94677842",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalPencilPartition",
+      "slug": "original_three_dimensional_pencil_partition",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_partition.lean",
+      "declarations": [
+        "OriginalThreeDimensionalPencilPartition.exists_original_pencil_representatives",
+        "OriginalThreeDimensionalPencilPartition.original_pencil_group_full_population",
+        "OriginalThreeDimensionalPencilPartition.original_pencil_shade_union_budget"
+      ],
+      "preintegration_source_sha256": "2d426329fc9e0078ee60833f4f79a67db024ac84374aaa8aabe3ff2791d2187f",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_PENCIL_GROUPS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalPencilPartition.strict.log",
+      "source_sha256": "3b65f7acf7ac41c917d95e68eab99bc7963fd14d47481a41cd43d66c74dbeee5",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalPencilUnitSlabs",
+      "slug": "original_three_dimensional_pencil_unit_slabs",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_unit_slabs.lean",
+      "declarations": [
+        "OriginalThreeDimensionalPencilUnitSlabs.original_pencil_affine_identity",
+        "OriginalThreeDimensionalPencilUnitSlabs.original_pencil_normal_length",
+        "OriginalThreeDimensionalPencilUnitSlabs.original_pencil_contains_stem",
+        "OriginalThreeDimensionalPencilUnitSlabs.original_pencil_unit_slab"
+      ],
+      "preintegration_source_sha256": "1075f58dfc2f257848763f2a83ce108310384ef83c5d36bbbfd233266e35bbd6",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_PENCIL_GROUPS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalPencilUnitSlabs.strict.log",
+      "source_sha256": "c1a47ace7c48c85e9fee11b3c1e608597d9c3c7dcee7f832eb6f988cd549bc17",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalPencilBrushGroups",
+      "slug": "original_three_dimensional_pencil_brush_groups",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_pencil_brush_groups.lean",
+      "declarations": [
+        "OriginalThreeDimensionalPencilBrushGroups.exists_original_pencil_brush_groups"
+      ],
+      "preintegration_source_sha256": "a6c3b0c2dd707a100c44427bc61e05e842544f07ff3aa634668bb2d716bf3961",
+      "preintegration_manifest": "WZ_ORIGINAL_THREE_DIMENSIONAL_PENCIL_GROUPS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalPencilBrushGroups.strict.log",
+      "source_sha256": "150f392e141f7dc2ba6de7c41a654c3c7cd3095390d6f0023167591d50f6734f",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalShadeLocalCount",
+      "slug": "original_three_dimensional_shade_local_count",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_shade_local_count.lean",
+      "declarations": [
+        "OriginalThreeDimensionalShadeLocalCount.original_shade_interval_count",
+        "OriginalThreeDimensionalShadeLocalCount.original_shade_ball_count",
+        "OriginalThreeDimensionalShadeLocalCount.original_shade_far_pairs"
+      ],
+      "preintegration_source_sha256": "abf86ff897d02183c03114f7aef4230d66cbcf4415df2c7b42198b7ba62c8f63",
+      "preintegration_manifest": "OriginalHairbrushShadeCounts.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalShadeLocalCount.strict.log",
+      "source_sha256": "553d64219c42460fb61c480be139d70a2beb8443f68cd73a837abb0b1c86f1f4",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalFiniteShadeUnion",
+      "slug": "original_three_dimensional_finite_shade_union",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_finite_shade_union.lean",
+      "declarations": [
+        "OriginalThreeDimensionalFiniteShadeUnion.original_finite_shade_union"
+      ],
+      "preintegration_source_sha256": "bcab2768d1b22a14e1761a596d890b660be267353effb16114365e873f5ddb57",
+      "preintegration_manifest": "OriginalHairbrushShadeCounts.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalFiniteShadeUnion.strict.log",
+      "source_sha256": "34077fc9bd605cef8f215528a9ac2e4a543b6af57d0e731aca9bbe65fbfa9149",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalLocalizedEnergy",
+      "slug": "original_three_dimensional_localized_energy",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_localized_energy.lean",
+      "declarations": [
+        "OriginalThreeDimensionalLocalizedEnergy.original_localized_pair_energy",
+        "OriginalThreeDimensionalLocalizedEnergy.original_localized_tube_square_energy",
+        "OriginalThreeDimensionalLocalizedEnergy.original_supported_tube_square_energy"
+      ],
+      "preintegration_source_sha256": "ce52bfffc1d111797e1bc2e66d1132decb684cb87fb929f0d72ce1f44eed2878",
+      "preintegration_manifest": "OriginalHairbrushShadeCounts.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalLocalizedEnergy.strict.log",
+      "source_sha256": "9a5ed49a380e135b435c0d057e1ad02e90b392ae1c2b5aba2afa59d1ff4d74bb",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalNearStemShade",
+      "slug": "original_three_dimensional_near_stem_shade",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_near_stem_shade.lean",
+      "declarations": [
+        "OriginalThreeDimensionalNearStemShade.original_shade_near_stem_count",
+        "OriginalThreeDimensionalNearStemShade.original_shade_outside_stem_mass"
+      ],
+      "preintegration_source_sha256": "a45133a1d56878d4765e1785554cf101bbb283b5345c00d15908124aa285155e",
+      "preintegration_manifest": "OriginalHairbrushShadeCounts.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalNearStemShade.strict.log",
+      "source_sha256": "9a109fd68680f7f34daa6d92233a71be2e711c73b81a53289ab397c28b183e86",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalShadeGroupConcentration",
+      "slug": "original_three_dimensional_shade_group_concentration",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_shade_group_concentration.lean",
+      "declarations": [
+        "OriginalThreeDimensionalShadeGroupConcentration.exists_original_dense_shade_group"
+      ],
+      "preintegration_source_sha256": "9ee9f777ec720d366aebb848a9339f0c772b99b3d633660d049fda79d8089c43",
+      "preintegration_manifest": "OriginalHairbrushShadeCounts.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalShadeGroupConcentration.strict.log",
+      "source_sha256": "95c973e32f03a1bfbe11bd3c87ef77d26ec90ed36b173d1af50d92224226f62e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalGroupSourceMass",
+      "slug": "original_three_dimensional_group_source_mass",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_group_source_mass.lean",
+      "declarations": [
+        "OriginalThreeDimensionalGroupSourceMass.original_dense_group_source_mass",
+        "OriginalThreeDimensionalGroupSourceMass.exists_original_shaded_group_source_mass"
+      ],
+      "preintegration_source_sha256": "e099643b56ed9bebf129d4cd6621a5c9570f36f9cdca08a6fb77dd4c2ba332df",
+      "preintegration_manifest": "OriginalHairbrushShadeCounts.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalGroupSourceMass.strict.log",
+      "source_sha256": "5747d85c847a79429239134ea466963ada85cdd512177bd643d24c56f7c12437",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalShadedBrushSlab",
+      "slug": "original_three_dimensional_shaded_brush_slab",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_shaded_brush_slab.lean",
+      "declarations": [
+        "OriginalThreeDimensionalShadedBrushSlab.exists_original_shaded_brush_slab"
+      ],
+      "preintegration_source_sha256": "755bb26f3f4b69628d4900a5b20d3624a6c2ae44fade427ed40cbf48f2deb99a",
+      "preintegration_manifest": "OriginalHairbrushShadeCounts.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalShadedBrushSlab.strict.log",
+      "source_sha256": "5d3d0fa0909e2226ea4f4864417c6fed9208240405709ee58d64d515000ce0a7",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "OriginalThreeDimensionalTransverseWedgeGeometry.original_endpoint_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseWedgeGeometry.original_parallel_wedge_neighbor_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseWedgeGeometry.original_bad_wedge_neighbors_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseWedgeGeometry.original_transverse_parameter_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseWedgeGeometry.original_transverse_intersection_diameter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseWedgeGeometry.original_transverse_intersection_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalDenseWedgeCount.original_graph_row_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalDenseWedgeCount.original_graph_row_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalDenseWedgeCount.original_row_bad_wedge_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalDenseWedgeCount.original_dense_good_wedge_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalRepresentativeWedges.exists_original_cell_preserving_chart_map",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalRepresentativeWedges.original_good_wedge_representatives_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalRepresentativeWedges.original_representative_row_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalRepresentativeWedges.original_good_wedge_representative_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseHairbrush.original_transverse_pairs_lower_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseHairbrush.original_brush_pair_fiber_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseHairbrush.exists_original_largest_transverse_brush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseHairbrush.original_rich_family_scaled_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalTransverseHairbrush.exists_original_transverse_hairbrush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalSourceHairbrush.exists_original_dense_graph_hairbrush",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.euclidean_three_norm_le_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.heightPoint_zero_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.heightPoint_zero_sub_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.graph_direction_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.orthogonal_offset_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.graph_carrier_dist_le_sixteen",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.normalized_intercept_norm_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.contractLine_carrier_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.normalized_parent_carrier_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.same_floor_mul_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeNormalizedParentCarrierMetric.same_parent_cell_carrier_dist_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.direction_contractLine",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contractLine_valid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contractLine_rawFront",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contracted_parameter_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contract_front",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contract_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contract_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contractLine_norm_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contractLine_center_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.original_tube_maps_into_contracted",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contracted_direction_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contracted_line_compact",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeContractedUnitParent.contracted_line_common_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPaddedCells.frontPoint_mem_front",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPaddedCells.cells_meet_front",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPaddedCells.cell_shading_subset_contracted_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPaddedCells.frontPoint_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPaddedCells.cellLabel_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.frontPoint_coordinate_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.physicalCell_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.frontPoint_near_physicalCell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.neighborBox_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.cellIndex_mem_neighborBox",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.original_cell_output_menu",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.output_support_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.union_cellShading_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.volume_cell_union",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellUnionBound.output_union_volume_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellFiberCount.original_row_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellFiberCount.output_cell_fiber_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellFiberCount.original_card_le_output_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellFiberCount.original_shading_volume_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellSource.originalLabel_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellSource.originalLabel_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellSource.originalLabel_range",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellSource.source_thickness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellSource.source_line",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellSource.source_shading",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellSource.source_weights",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellSource.dyadic_div_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativePaddedCellSource.source_geometric_fields",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalLargeSlicePopulation.original_common_radius_annular_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalLargeSlicePopulation.original_large_common_slice_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCommonSliceRadius.chosen_slice_index_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCommonSliceRadius.exists_original_common_slice_radius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCommonSliceRadius.exists_original_concentrated_direction_radius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalCommonPairRadius.exists_original_common_rich_pair_radius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalConcentratedPairGraph.chosen_heavy_slab_code_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalConcentratedPairGraph.original_selected_concentrated_radius_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalConcentratedPairGraph.original_concentrated_graph_rich_radius",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalConcentratedPairGraph.retained_unconcentrated_direction_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalBourgainGraphTransfer.floor_translation_pair",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalBourgainGraphTransfer.original_integer_graph_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalSharedFiberPruning.rich_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalSharedFiberPruning.original_light_fiber_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalSharedFiberPruning.original_rich_label_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalSharedFiberPruning.original_rich_window_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalSharedFiberPruning.original_two_fiber_query_retention",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRichAlphabetProfile.realAlphabet_eq_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRichAlphabetProfile.original_scalar_ball_lift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRichAlphabetProfile.original_weighted_scalar_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRichAlphabetProfile.original_rich_alphabet_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeakAlphabetSelection.balanceLoss_mul_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeakAlphabetSelection.alphabet_balance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeakAlphabetSelection.exists_original_weak_alphabets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalKaufmanSharedHost.original_intersection_loss",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalKaufmanSharedHost.exists_original_shared_profile_host",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalProfiledThirdQueryFamily.original_slope_profile_restrict",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalProfiledThirdQueryFamily.exists_original_profiled_third_queries",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeightedMacroSelection.sum_original_local_points",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeightedMacroSelection.local_heights_pair_fiber",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeightedMacroSelection.sum_local_heights_eq_pairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeightedMacroSelection.sum_local_heights_eq_height_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeightedMacroSelection.weighted_denominator_of_height_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeightedMacroSelection.exists_original_weighted_macro",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalWeightedMacroSelection.exists_physical_weighted_macro",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalMacroSliceCellCount.original_slice_physical_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalMacroSliceCellCount.original_macro_denominator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalPlanarADGridPopulation.original_planar_total_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalPlanarADGridPopulation.original_planar_grid_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalMacroGrainReadback.grains_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalMacroGrainReadback.grain_grid_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRepresentativeGridComparison.neighbors_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRepresentativeGridComparison.original_coarse_grid_comparison",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRepresentativeGridComparison.point_AD_isometric_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRepresentativeGridComparison.pair_image_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRepresentativeGridComparison.pair_grid_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRepresentativeGridComparison.pair_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalRepresentativeGridComparison.pair_representative_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralGrainProfiles.original_grain_mass_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralGrainProfiles.exists_original_grain_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralGrainProfiles.original_literal_grain_grid_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralGrainProfiles.original_literal_own_scale_grid_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralMacroDensity.matrix_entry_operator_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralMacroDensity.original_literal_global_point_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralMacroDensity.original_literal_Y_macro_denominator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralMacroDensity.exists_literal_dense_macro_of_slope_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralMacroDensity.exists_literal_source_dense_macro",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicCoarseNormalization.coordinates_between_scales",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicCoarseNormalization.larger_normalization_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicCoarseNormalization.larger_normalization_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicCoarseNormalization.native_dyadic_scale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicCoarseNormalization.dyadic_mesh_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "NativeDyadicCoarseNormalization.exists_actual_dyadic_coarse_family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalScalarLiteralCoverCount.cover_count_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalScalarLiteralCoverCount.diameter_grid_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalScalarLiteralCoverCount.boxed_cover_grid_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalScalarLiteralCoverCount.boxed_cover_allcenter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalScalarLiteralCoverCount.separated_card_eq_grid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralCommonAlphabet.original_net_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralCommonAlphabet.original_net_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralCommonAlphabet.exists_actual_common_alphabet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralCommonAlphabet.exists_actual_fine_alphabet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralAngularReadback.cover_exponent_lt_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralAngularReadback.original_tube_reference_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralAngularBudget.point_AD_budget_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralAngularBudget.literal_angular_cost_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralAngularBudget.exists_literal_angular_power_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralAngularBudget.fourfold_schedule_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalLiteralAngularBudget.fourfold_scheduled_law",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilGeometry.original_transverse_coordinates",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilGeometry.original_pencil_scalar_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilGeometry.original_pencil_band_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilGeometry.original_bounded_stem_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilGeometry.original_pencil_bin_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilOverlap.original_outside_stem_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilOverlap.original_scalar_pencil_overlap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilOverlap.original_pencil_band_overlap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilPartition.exists_original_pencil_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilPartition.original_pencil_group_full_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilPartition.original_pencil_shade_union_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilUnitSlabs.original_pencil_affine_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilUnitSlabs.original_pencil_normal_length",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilUnitSlabs.original_pencil_contains_stem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilUnitSlabs.original_pencil_unit_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalPencilBrushGroups.exists_original_pencil_brush_groups",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalShadeLocalCount.original_shade_interval_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalShadeLocalCount.original_shade_ball_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalShadeLocalCount.original_shade_far_pairs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalFiniteShadeUnion.original_finite_shade_union",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalLocalizedEnergy.original_localized_pair_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalLocalizedEnergy.original_localized_tube_square_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalLocalizedEnergy.original_supported_tube_square_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalNearStemShade.original_shade_near_stem_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalNearStemShade.original_shade_outside_stem_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalShadeGroupConcentration.exists_original_dense_shade_group",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalGroupSourceMass.original_dense_group_source_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalGroupSourceMass.exists_original_shaded_group_source_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    },
+    {
+      "declaration": "OriginalThreeDimensionalShadedBrushSlab.exists_original_shaded_brush_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-geometric-hairbrush-axioms.log"
+    }
+  ],
+  "declaration_count": 180,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_log": "verification/wz-original-geometric-hairbrush-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9471,
+    "log": "verification/wz762-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "module_count": 762,
+    "source_base_tree": "0a556407d3cab4c528a1e7c6b6c56a6a3358b552",
+    "source_snapshot": "verification/wz762-source-snapshot.json",
+    "scope": "Full 762-module default build; previous 721 source hashes unchanged"
+  },
+  "current_module_count": 762,
+  "prior_721_module_hashes_unchanged": true,
+  "scope_note": "docs/WZ_ORIGINAL_GEOMETRIC_HAIRBRUSH.md",
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+}

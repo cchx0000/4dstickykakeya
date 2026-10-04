@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_planar_dyadic_numerics
+#print axioms PlanarDyadicNumerics.polynomial_absorption
+#print axioms PlanarDyadicNumerics.slow_factor_absorption
+#print axioms PlanarDyadicNumerics.polynomial_retention_absorption
+#print axioms PlanarDyadicNumerics.polynomial_cost_absorption
+#print axioms PlanarDyadicNumerics.real_floor_cover_factor
+#print axioms PlanarDyadicNumerics.planar_floor_cover_factor
+#print axioms PlanarDyadicNumerics.densityCoefficient_pos
+#print axioms PlanarDyadicNumerics.nativeDensity_lower
+#print axioms PlanarDyadicNumerics.choose_depth
+#print axioms PlanarDyadicNumerics.native_absorption
+#print axioms PlanarDyadicNumerics.dyadic_mesh_rpow
+#print axioms PlanarDyadicNumerics.native_dyadic_absorption

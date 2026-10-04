@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_paper_alignment_scales
+
+#print axioms NativePaperAlignmentScales.retained_subset
+#print axioms NativePaperAlignmentScales.retained_card
+#print axioms NativePaperAlignmentScales.retained_nonempty
+#print axioms NativePaperAlignmentScales.originalBall_eq_localBall
+#print axioms NativePaperAlignmentScales.originalBall_nonempty
+#print axioms NativePaperAlignmentScales.normalization_apply
+#print axioms NativePaperAlignmentScales.normalized_localBall
+#print axioms NativePaperAlignmentScales.normalized_localBall_bounded
+#print axioms NativePaperAlignmentScales.output_scale_facts
+#print axioms NativePaperAlignmentScales.output_mesh_identity
+#print axioms NativePaperAlignmentScales.retention_in_output_mesh
+#print axioms NativePaperAlignmentScales.retained_delta_power
+#print axioms NativePaperAlignmentScales.output_scales_dyadic

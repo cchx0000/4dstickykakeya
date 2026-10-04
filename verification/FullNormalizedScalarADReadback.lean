@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_full_normalized_scalar_ad
+
+#print axioms FullNormalizedScalarAD.fiber_normalized_AD
+#print axioms FullNormalizedScalarAD.quotient_normalized_AD

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_original_physical_tube_scale_selection
+
+#print axioms OriginalPhysicalTubeScaleSelection.physical_tube_mono
+#print axioms OriginalPhysicalTubeScaleSelection.original_tube_card_bounds
+#print axioms OriginalPhysicalTubeScaleSelection.dyadic_radius_cover
+#print axioms OriginalPhysicalTubeScaleSelection.chosen_scale_spec
+#print axioms OriginalPhysicalTubeScaleSelection.exists_original_densest_graph_bin

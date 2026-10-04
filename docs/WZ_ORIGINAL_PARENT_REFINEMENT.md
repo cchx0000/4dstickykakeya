@@ -1,0 +1,13 @@
+# Actual near-extremizer to original parent refinement
+
+This source checkpoint adds seven modules with 44 new public proofs and strengthens four existing caller conclusions. All staging source and fresh imported checks pass with foundational axioms only. The canonical 603-module build passed 9,312 jobs with exit 0, and all 48 fresh imported checks use only foundational axioms. The four strengthened modules were rehashed and rechecked; all other prior source hashes are unchanged. Cumulative unique checked declarations are 3,718. The four rechecks are not counted as new declarations.
+
+The source-only positive-extremal branch now constructs an actual admissible native D, its literal original cubical incidences, an occupied slope/intercept parent, the actual common-height shift and fixed contraction, and every field and geometric hypothesis of the physical rescaling data. It then applies the simultaneous spatial/phase refinement. Its readback is an exact subset of the original D incidences, with equal cardinality to the physical labels, the original-source retention bound and a multiplicity lower bound carrying computed losses.
+
+The original parent-count and density losses remain explicit. This does not establish transformed AD/CW admissibility or subpower parent retention. In particular, a uniform chart-Lipschitz bound cannot be inferred merely from a nonvertical direction and a relative height window; its dependence on absolute marking and offsets is under audit.
+
+Original tube/slice occupancy now follows from actual Euclidean source separation, the incidence residual and proved physical-cell injectivity. The fixed-internal-eta helpers compare the original Frostman and retained-pair inequalities without introducing an eta-dependent cutoff.
+
+Four existing radial-family callers are strengthened to retain the actual G4 pair-distinctness and both angular richness bounds, and the common normal chart of the final coarse family. Those already constructed facts are required for the genuine A2 point-population charge; the derived dense cap alone is not substituted for it. The uniform caller also accepts any positive internal-exponent ceiling fixed before the mesh, allowing the genuine A2 chi to control the required exponent margin. Every previous conclusion is retained. All four changed source hashes and public closures were rechecked explicitly; other prior source hashes remain unchanged.
+
+The A3 robust sparse-direction positive gain, multiscale factorization, transformed native admissibility closure, full configuration proof and final volume theorem remain open. The preexisting published-volume axiom is unchanged.

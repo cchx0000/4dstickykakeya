@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_planar_frostman_ball_conversion
+
+#print axioms PlanarFrostmanBallConversion.euclidean_le_two_box
+#print axioms PlanarFrostmanBallConversion.box_ball_card_le
+#print axioms PlanarFrostmanBallConversion.box_frostman_bound
+#print axioms PlanarFrostmanBallConversion.diagonal_charge

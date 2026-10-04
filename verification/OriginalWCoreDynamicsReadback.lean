@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_original_w_core_dynamics
+
+#print axioms OriginalWCoreDynamics.core_nonempty
+#print axioms OriginalWCoreDynamics.rep_spec
+#print axioms OriginalWCoreDynamics.originalNext_spec
+#print axioms OriginalWCoreDynamics.next_eq_self_of_not_mem
+#print axioms OriginalWCoreDynamics.next_spec
+#print axioms OriginalWCoreDynamics.next_preserves_height
+#print axioms OriginalWCoreDynamics.angles_nonempty
+#print axioms OriginalWCoreDynamics.witness_menu_mem_alphabet
+#print axioms OriginalWCoreDynamics.M_subset_alphabet
+#print axioms OriginalWCoreDynamics.exists_original_core_dynamics
+#print axioms OriginalWCoreDynamics.exists_original_total_core_dynamics

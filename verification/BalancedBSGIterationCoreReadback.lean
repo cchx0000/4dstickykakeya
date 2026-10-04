@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_balanced_bsg_iteration_core
+
+#print axioms BalancedBSGIterationCore.iterated_differences_of_small_difference
+#print axioms BalancedBSGIterationCore.balanced_energy_core

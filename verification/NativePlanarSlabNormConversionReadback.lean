@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_planar_slab_norm_conversion
+
+#print axioms NativePlanarSlabNormConversion.apply_eq_coordinates
+#print axioms NativePlanarSlabNormConversion.opNorm_le_abs_coefficients
+#print axioms NativePlanarSlabNormConversion.coefficientLength_ge_half
+#print axioms NativePlanarSlabNormConversion.normalized_coefficients_unit
+#print axioms NativePlanarSlabNormConversion.functional_slab_subset
+#print axioms NativePlanarSlabNormConversion.slab_law_conversion
+#print axioms NativePlanarSlabNormConversion.coefficientLength_pos

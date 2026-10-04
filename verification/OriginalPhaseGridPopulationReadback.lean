@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_original_phase_grid_population
+
+#print axioms OriginalPhaseGridPopulation.gridPoint_injective
+#print axioms OriginalPhaseGridPopulation.first_interval_population
+#print axioms OriginalPhaseGridPopulation.grid_ball_population
+#print axioms OriginalPhaseGridPopulation.grid_ball_population_large_radius
+#print axioms OriginalPhaseGridPopulation.phase_filter_first_image
+#print axioms OriginalPhaseGridPopulation.original_phase_first_fiber_cap
+#print axioms OriginalPhaseGridPopulation.original_phase_ball_population

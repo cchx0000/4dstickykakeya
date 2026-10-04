@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_triangles
+
+#print axioms FinitePlaneProjectionGrid.product_filter_card_sum
+#print axioms FinitePlaneProjectionGrid.scalar_affine_count
+#print axioms FinitePlaneProjectionGrid.affine_strip_count_second
+#print axioms FinitePlaneProjectionGrid.product_filter_card_sum_right
+#print axioms FinitePlaneProjectionGrid.affine_strip_count_first
+#print axioms FinitePlaneProjectionGrid.constant_bound_of_strip
+#print axioms FinitePlaneProjectionGrid.strip_large_gradient
+#print axioms FinitePlaneProjectionGrid.affine_strip_count
+#print axioms FinitePlaneProjectionGrid.projected_determinant_identity
+#print axioms FinitePlaneProjectionGrid.projected_triangle_count

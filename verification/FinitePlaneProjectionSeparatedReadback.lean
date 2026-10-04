@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_separated
+
+#print axioms FinitePlaneProjectionGrid.cellColor_mem
+#print axioms FinitePlaneProjectionGrid.nineColors_card
+#print axioms FinitePlaneProjectionGrid.exists_cell_color
+#print axioms FinitePlaneProjectionGrid.same_residue_floor_separation
+#print axioms FinitePlaneProjectionGrid.exists_separated_projection_subset
+#print axioms FinitePlaneProjectionGrid.projectedBall_mono

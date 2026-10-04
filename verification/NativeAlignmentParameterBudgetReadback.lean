@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_alignment_parameter_budget
+
+#print axioms NativeAlignmentParameterBudget.exists_nat_budget
+#print axioms NativeAlignmentParameterBudget.exists_choice
+#print axioms NativeAlignmentParameterBudget.absorb_common_envelope

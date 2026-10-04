@@ -1,0 +1,363 @@
+Started UTC: 2026-10-04T08:58:50.560247+00:00
+Command: /workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true verification/OriginalSumProductHairbrushReadback.lean
+FIFO compiler ticket: 01791104330583446938-de3dff32ee934e34b9f7739bde8c4b1f.request
+FIFO compiler acquired UTC: 2026-10-04T08:59:21.921472+00:00
+'OriginalThreeDimensionalCapCount.integer_interval_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.weighted_fiber_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.rectangle_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.band_integer_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.first_coefficient_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.rectangle_band_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.point_gap_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.point_gap_chart_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.original_normal_cap_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.original_cap_band_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.unit_center_components' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapCount.original_unit_cap_band_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalCapDistance.point_gap_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapDistance.separation_le_twice_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCapDistance.original_separated_cap_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalCapDistance.original_euclidean_cap_band_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.distance3_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.distance3_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.distance3_neg_right_comm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.unoriented_distance_comm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.unoriented_distance_self' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.exists_symmetric_relation_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.actual_unoriented_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.weighted_cover_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.original_double_cap_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.exists_original_unoriented_separated_labels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSeparatedNormals.exists_original_unoriented_heavy_normals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'GKZOriginalAnchorCover.original_anchor_cover_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZFiniteAnchoredPlunnecke.iterated_sum_from_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZFiniteAnchoredPlunnecke.finite_union_anchored_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZFiniteAnchoredPlunnecke.original_overlap_mixed_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalProductOverlap.product_code_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalProductOverlap.mem_dilateIncidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalProductOverlap.dilateCells_subset_productCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalProductOverlap.original_product_incidence_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalProductOverlap.commonFiber_eq_actual_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalProductOverlap.exists_original_popular_multiplier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'GKZGridCodePerturbation.floor_image_le_code_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZGridCodePerturbation.code_image_le_floor_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZGridCodePerturbation.bounded_dilation_floor_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZDilateRoundedSums.image_add_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZDilateRoundedSums.image_sub_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZDilateRoundedSums.original_dilate_selfsum_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZDilateRoundedSums.negative_dilate_anchor_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalAnchorProfile.original_profile_constant_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalAnchorProfile.original_profile_extended' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalAnchorProfile.original_denominator_cover_recovery' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'GKZOriginalAnchorProfile.original_linear_sum_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalMixedDilateBounds.exists_original_mixed_dilate_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'GKZRealDilationUnion.rounded_dilateUnion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZRealDilationUnion.original_dilate_union_iterated_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZRealDilationUnion.original_gap_target_subset_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZRealDilationUnion.original_dense_target_subset_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalNineSumCover.gap_coefficients_are_expansion_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'GKZOriginalNineSumCover.dense_coefficients_are_expansion_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'GKZOriginalNineSumCover.exists_original_nine_sum_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalLinearUpper.exists_original_linear_image_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalSumProductComparison.original_sum_product_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'GKZBalancedDyadicScale.gamma_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZBalancedDyadicScale.gainPower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZBalancedDyadicScale.exists_balanced_dyadic_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalPositivePower.growthExponent_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalPositivePower.growthExponent_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalPositivePower.growthConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalPositivePower.original_sum_product_positive_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'GKZOriginalPositivePower.original_sum_product_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZOriginalPositivePower.original_occupied_sum_product_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'GKZUniformGrowthParameters.growthExponent_lower_on_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GKZUniformGrowthParameters.original_occupied_growth_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.incidences_eq_swapped_bins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.mem_incidences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.original_tubes_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.coarse_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.original_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.pullback_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.actual_fiber_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.actual_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.actual_density_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalIncidences.actual_height_membership' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.scalar_floor_center_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.spatial_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.height_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.rounded_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.rounded_height_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.coordinates_scale_space' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.coordinates_scale_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.normalized_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.original_parent_offset_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.normalization_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalGeometry.normalized_coordinate_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalHeights.integer_center_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalHeights.coordinates_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalHeights.actual_heights_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalHeights.actual_heights_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalHeights.heightWindow_original_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseOriginalHeights.heightWindow_actual_diameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceCoarseReadback.chartFamily_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceCoarseReadback.originalFamily_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceCoarseReadback.originalFamily_tubes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceCoarseReadback.original_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceCoarseReadback.original_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceCoarseReadback.native_scale_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceCoarseReadback.native_original_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDenseSourceCoarseFamily.exists_actual_original_coarse_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoverADRepresentatives.exists_original_representatives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoverADRepresentatives.injective_subset_card_le_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoverADRepresentatives.half_grid_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoverADRepresentatives.representative_total_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoverADRepresentatives.original_representatives_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentNormalization.pointInv_pointMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentNormalization.pointMap_pointInv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentNormalization.parameter_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentNormalization.map_rawFront_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentNormalization.original_front_maps_into_padded_front' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeUnitParentNormalization.padded_line_common_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentNormalization.parent_slope_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentNormalization.pointMap_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentNormalization.original_tube_maps_into_padded_tube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeUnitParentNormalization.fixedCompactClass_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentNormalization.padded_line_mem_fixedCompactClass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeUnitParentVolume.matrix_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.linearPart_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.rawLinear_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.linearPart_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.pointMap_eq_linear_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.continuous_pointMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.continuous_pointInv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.measurableSet_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.volume_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.volume_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentVolume.convex_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDenseRetainedUnitParent.realShadingMass_eq_toReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDenseRetainedUnitParent.exists_dense_retained_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDenseRetainedUnitParent.realTubeMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDenseRetainedUnitParent.exists_dense_retained_volume_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeDenseRetainedUnitParent.retained_parent_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentShadings.shading_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentShadings.shading_subset_tube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentShadings.shading_sum_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentShadings.shading_union_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentShadings.original_CW_to_padded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentShadings.padded_tube_volume_le_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentDyadic.floor_sub_integer_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentDyadic.parameterLabel_eq_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentDyadic.projection_mem_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentDyadic.projectionBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentDyadic.parameter_fiber_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentDyadic.unit_parent_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentDirections.slope_newLine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentDirections.slope_sub_le_direction_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUnitParentDirections.normalized_direction_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDenseNormalizedParent.realNormalizedShadingMass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDenseNormalizedParent.realPaddedTubeMass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDenseNormalizedParent.exists_dense_normalized_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCrossGeometry.norm_sq_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCrossGeometry.norm_sq_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCrossGeometry.distance_squared_dot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalCrossGeometry.distance_squared_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalCrossGeometry.original_projective_gap_cross_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalCrossGeometry.original_cross_bound_physical_tube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabOverlap.original_cross_normal_minor_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabOverlap.original_cramer_cross_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabOverlap.original_two_slabs_force_pair_tube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalSlabOverlap.original_shared_slab_point_forces_close_normals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalNarrowSlabOverlap.original_weighted_cramer_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalNarrowSlabOverlap.original_narrow_slabs_force_pair_tube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalNarrowSlabOverlap.original_shared_narrow_slab_point_forces_close_normals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalAnnularSlabCharge.original_separated_slab_annuli_disjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalAnnularSlabCharge.original_separated_annular_slab_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalMiddleSliceBranch.original_selected_middle_slice_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubeParameters.original_slope_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalTubeParameters.original_line_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalTubeParameters.original_graph_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalTubeParameters.original_tube_graph_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubeParameters.original_parameter_cell_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubeParameters.original_parameter_tube_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairTubeFamily.original_endpoints_mem_tube' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairTubeFamily.original_parameter_pair_fiber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairTubeFamily.exists_original_parameter_tube_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalCommonChart.exists_original_common_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalCommonChart.exists_original_common_chart_tube_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTubeParameterIntegerCount.floor_mesh_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeParameterIntegerCount.three_fixed_coordinate_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTubeGraphPairGeometry.original_box_distance_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeGraphPairGeometry.graph_pair_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeGraphPairGeometry.graph_separation_large_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTubeGraphPairGeometry.graph_slope_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalTubePairCount.graph_offset_floor_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubePairCount.original_slope_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalTubePairCount.original_offset_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalTubePairCount.original_offset_fiber_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubePairCount.original_parameter_count_from_slope_bins' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubePairCount.original_two_point_tube_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubePairCount.original_tubes_through_pair_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairEnergy.dyadic_radius_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalPairEnergy.dyadic_radius_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalPairEnergy.exists_original_dyadic_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairEnergy.inverse_square_kernel_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairEnergy.inverse_square_kernel_le_mesh' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairEnergy.inverse_square_kernel_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairEnergy.inverse_square_dyadic_majorant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairEnergy.original_point_inverse_square_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalPairEnergy.original_pair_inverse_square_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubeFamilyEnergy.original_tube_square_sum_swap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubeFamilyEnergy.original_tube_family_square_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubeFamilyEnergy.original_rich_tube_family_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubeCells.original_pair_tube_cell_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubeCells.original_cell_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalHeavyCubes.original_heavy_cube_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalHeavyCubes.original_light_cube_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalThreeDimensionalHeavyCubes.original_rich_tube_kept_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalHeavyCubes.original_cube_two_frostman' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalHeavyCubes.original_rich_tube_heavy_cube_shading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalTubeCells.original_same_cell_tube_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalThreeDimensionalHeavyCubes.exists_original_global_heavy_cube_shading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Confirmed exit code: 0

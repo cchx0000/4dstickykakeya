@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_original_cw_scale_cancellation
+
+#print axioms OriginalCWScaleCancellation.original_count_scale_cancellation
+#print axioms OriginalCWScaleCancellation.carrier_global_normalization
+#print axioms OriginalCWScaleCancellation.original_fine_AD_ratio
+#print axioms OriginalCWScaleCancellation.original_CW_ratio_lower

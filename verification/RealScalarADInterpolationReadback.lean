@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_real_scalar_ad_interpolation
+
+#print axioms RealScalarADInterpolation.ballCount_mono
+#print axioms RealScalarADInterpolation.ballCount_nonneg
+#print axioms RealScalarADInterpolation.scalePower_eq
+#print axioms RealScalarADInterpolation.real_ball_interpolation
+#print axioms RealScalarADInterpolation.top_scale_extension

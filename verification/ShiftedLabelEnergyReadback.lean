@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_shifted_label_energy
+
+#print axioms ShiftedLabelEnergy.population_zero
+#print axioms ShiftedLabelEnergy.shifted_count_by_original_points
+#print axioms ShiftedLabelEnergy.shifted_count_by_labels
+#print axioms ShiftedLabelEnergy.shifted_square_sum_le
+#print axioms ShiftedLabelEnergy.shifted_pairs_le_zero_energy
+#print axioms ShiftedLabelEnergy.five_discrepancies
+#print axioms ShiftedLabelEnergy.near_pairs_le_five_energy

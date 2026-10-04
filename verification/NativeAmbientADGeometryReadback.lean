@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_ambient_ad_geometry
+
+#print axioms NativeAmbientADGeometry.rawPoint_injective
+#print axioms NativeAmbientADGeometry.rawPoint_close_iff
+#print axioms NativeAmbientADGeometry.actualPoint_injective
+#print axioms NativeAmbientADGeometry.image_ball_card
+#print axioms NativeAmbientADGeometry.rawPoint_ball_card
+#print axioms NativeAmbientADGeometry.raw_close_imp_actual_close
+#print axioms NativeAmbientADGeometry.actual_close_imp_raw_close

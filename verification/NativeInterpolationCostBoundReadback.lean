@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_interpolation_cost_bound
+
+#print axioms NativeInterpolationCostBound.real_interpolation_cost_upper
+#print axioms NativeInterpolationCostBound.full_interpolation_cost_upper

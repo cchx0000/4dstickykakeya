@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_original_core_box_paths
+
+#print axioms OriginalCoreBoxPaths.box_mono
+#print axioms OriginalCoreBoxPaths.coreBox_mono
+#print axioms OriginalCoreBoxPaths.oneStates_box_comparison
+#print axioms OriginalCoreBoxPaths.twoStates_box_comparison

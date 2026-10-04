@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_absorbed_source_envelope
+
+#print axioms NativeAbsorbedSourceEnvelope.source_envelope_absorbed

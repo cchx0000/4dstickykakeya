@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_separated_dyadic_cardinality
+
+#print axioms SeparatedDyadicCardinality.original_rounded_label_bounds
+#print axioms SeparatedDyadicCardinality.original_cardinality_bound

@@ -1,0 +1,1421 @@
+{
+  "generated_at_utc": "2026-10-03T22:13:29.018316+00:00",
+  "base_tree": "4cb7a796ac39251236fae80ac94431bec3aecf65",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_adapted_box_volume.lean": "d72423d604ca8b92e1f3ef8620d9ff8b381b6a3c9dbb5927f7dc32a6c1c8f3ce",
+    "Theorems/Thm_StickyKakeya4_original_w_adapted_boxes.lean": "1e34898afd1ae8cb2710ff3c22243148ff208a72b65dfbdc7362f5fba975463f",
+    "Theorems/Thm_StickyKakeya4_native_tangent_grid_coarsening.lean": "827b00d6b1bb0fa5751f0962cb4a550cfdf924aa73d7c9db4aecc04053330be2",
+    "Theorems/Thm_StickyKakeya4_original_tube_ancestor_saturation.lean": "f370ba8c6169f07941c4a7251d110a843f30c27b64a24fc7911cf437646941c5",
+    "Theorems/Thm_StickyKakeya4_original_ancestor_counting.lean": "d5a078aa7f3ad6ab43ed078aa3eefcdb843abe7f33544aeaecb682c49ee90919",
+    "Theorems/Thm_StickyKakeya4_original_ancestor_fiber_geometry.lean": "97437b0faf4909c658a754f5134b06e4609a5f96065330da8a910b9c79ec5292",
+    "Theorems/Thm_StickyKakeya4_native_original_ancestor_counts.lean": "13e5c6a8cc7fd24a30524359dca39f6e1d7cf8a317ade0e98d7da2653dbcb570",
+    "Theorems/Thm_StickyKakeya4_original_cw_scale_cancellation.lean": "c11270df4b06cb798f88b98e986b89e6183f5cba3a7e9b776ed386a6c940fe70",
+    "Theorems/Thm_StickyKakeya4_original_carrier_image_count.lean": "c5ac0a4fa4915619f4af306637e94d872746dadd2722459ad0b29c24f4ccddf9",
+    "Theorems/Thm_StickyKakeya4_original_core_endpoint_lifting.lean": "fb8fa75f0ab71ac0785f96ce9fcb0e3b63d5d04c8b1537172467d7d0c38ecbef",
+    "Theorems/Thm_StickyKakeya4_original_core_box_paths.lean": "a765f941202c220b40a5f91198a7c5bbda4f22a96e9b3273127e8e736a982ca0",
+    "Theorems/Thm_StickyKakeya4_native_original_scalar_cw.lean": "64302417177232985cc4f16b4523899f51dfcc25f3baa13fe09055ff30fc9d42",
+    "Theorems/Thm_StickyKakeya4_native_original_planar_cw.lean": "358ae2e75bce539a4e2d296ada8df660784edd1a7de9558f04ca47b2aed939e3",
+    "Theorems/Thm_StickyKakeya4_original_w_joint_phase.lean": "d109fe73a228027fb3df12c1aab235a66c678048d5ed27d3ac73af0ace813010",
+    "Theorems/Thm_StickyKakeya4_abelian_shifted_label_energy.lean": "2de6fe4d4da7d32b906e6843cd297277193b2b8d7edf839b63a4d90db0d50326",
+    "Theorems/Thm_StickyKakeya4_planar_shifted_near_energy.lean": "8e693dfe4b3e99fb8946406062c8fb3b8f1394d290a83c3c60f3940c8d72d96e",
+    "Theorems/Thm_StickyKakeya4_actual_planar_rounded_energy.lean": "935bb789c8eca24d3b66b58c4460d7f882e6c6abec79133318d6a801462acabc",
+    "Theorems/Thm_StickyKakeya4_planar_rounded_sumset_cover.lean": "5026e5aa269657ca91fcaae05684d5c493a6468a1ab91a9ae53fff5bdf922dba",
+    "Theorems/Thm_StickyKakeya4_planar_dyadic_numerics.lean": "f8a5797c7a34f10845d767e8c038cdffecf4e03453bcdc0ffb0be1f580be0b9b",
+    "Theorems/Thm_StickyKakeya4_planar_original_subset_construction.lean": "055d107799fc0ea7c5513b90b527a5d84461a6fb85a9386237c8a9aa27d58b39",
+    "Theorems/Thm_StickyKakeya4_planar_original_dyadic_bsg.lean": "1cff08295a04187c32343464fffdfece1bd51394e272a1e17513cba7ff706806",
+    "Theorems/Thm_StickyKakeya4_original_w_normalized_phase.lean": "fb059cdbf2603f9d5497c26184adcbcc7f85cb9c4824acb252032076f04274d4"
+  },
+  "new_modules": [
+    {
+      "short": "AdaptedBoxVolume",
+      "slug": "adapted_box_volume",
+      "source": "Theorems/Thm_StickyKakeya4_adapted_box_volume.lean",
+      "source_sha256": "d72423d604ca8b92e1f3ef8620d9ff8b381b6a3c9dbb5927f7dc32a6c1c8f3ce",
+      "readback": "verification/AdaptedBoxVolumeReadback.lean",
+      "declarations": [
+        "AdaptedBoxVolume.box_eq_preimage",
+        "AdaptedBoxVolume.residualCoordinates_measurePreserving",
+        "AdaptedBoxVolume.volume_box_product",
+        "AdaptedBoxVolume.convex_box",
+        "AdaptedBoxVolume.volume_closedBall_real_pair",
+        "AdaptedBoxVolume.volume_box_a1",
+        "AdaptedBoxVolume.volume_box_a2",
+        "AdaptedBoxVolume.volume_box_a1_pos_finite",
+        "AdaptedBoxVolume.volume_box_a2_pos_finite"
+      ]
+    },
+    {
+      "short": "OriginalWAdaptedBoxes",
+      "slug": "original_w_adapted_boxes",
+      "source": "Theorems/Thm_StickyKakeya4_original_w_adapted_boxes.lean",
+      "source_sha256": "1e34898afd1ae8cb2710ff3c22243148ff208a72b65dfbdc7362f5fba975463f",
+      "readback": "verification/OriginalWAdaptedBoxesReadback.lean",
+      "declarations": [
+        "OriginalWAdaptedBoxes.original_data_bounds",
+        "OriginalWAdaptedBoxes.original_witness_box_comparison",
+        "OriginalWAdaptedBoxes.constructed_successor_box_comparison"
+      ]
+    },
+    {
+      "short": "NativeTangentGridCoarsening",
+      "slug": "native_tangent_grid_coarsening",
+      "source": "Theorems/Thm_StickyKakeya4_native_tangent_grid_coarsening.lean",
+      "source_sha256": "827b00d6b1bb0fa5751f0962cb4a550cfdf924aa73d7c9db4aecc04053330be2",
+      "readback": "verification/NativeTangentGridCoarseningReadback.lean",
+      "declarations": [
+        "NativeTangentGridCoarsening.scalar_interval_grid_card",
+        "NativeTangentGridCoarsening.scalar_filtered_interval_grid_card",
+        "NativeTangentGridCoarsening.planar_rectangle_grid_card",
+        "NativeTangentGridCoarsening.planar_filtered_rectangle_grid_card",
+        "NativeTangentGridCoarsening.coarse_floor_interval",
+        "NativeTangentGridCoarsening.scalar_coarse_fiber_card",
+        "NativeTangentGridCoarsening.planar_coarse_fiber_card",
+        "NativeTangentGridCoarsening.image_card_le_real_mul_of_fiber_images",
+        "NativeTangentGridCoarsening.scalar_grid_coarsening_add_two",
+        "NativeTangentGridCoarsening.planar_grid_coarsening_add_two",
+        "NativeTangentGridCoarsening.ratio_add_two_le_three",
+        "NativeTangentGridCoarsening.scalar_grid_coarsening_chain",
+        "NativeTangentGridCoarsening.planar_grid_coarsening_chain",
+        "NativeTangentGridCoarsening.scalar_grid_coarsening",
+        "NativeTangentGridCoarsening.planar_grid_coarsening",
+        "NativeTangentGridCoarsening.scalar_centered_grid_card",
+        "NativeTangentGridCoarsening.planar_centered_grid_card",
+        "NativeTangentGridCoarsening.scalar_injective_grid_centered_card",
+        "NativeTangentGridCoarsening.planar_injective_grid_centered_card"
+      ]
+    },
+    {
+      "short": "OriginalTubeAncestorSaturation",
+      "slug": "original_tube_ancestor_saturation",
+      "source": "Theorems/Thm_StickyKakeya4_original_tube_ancestor_saturation.lean",
+      "source_sha256": "f370ba8c6169f07941c4a7251d110a843f30c27b64a24fc7911cf437646941c5",
+      "readback": "verification/OriginalTubeAncestorSaturationReadback.lean",
+      "declarations": [
+        "OriginalTubeAncestorSaturation.ancestor_incidence_residual",
+        "OriginalTubeAncestorSaturation.same_point_normal_direction",
+        "OriginalTubeAncestorSaturation.ancestor_fiber_inside_adapted_box",
+        "OriginalTubeAncestorSaturation.scalar_same_parameter_cell",
+        "OriginalTubeAncestorSaturation.planar_same_parameter_cell",
+        "OriginalTubeAncestorSaturation.scalar_parameter_ancestor_gaps",
+        "OriginalTubeAncestorSaturation.planar_parameter_ancestor_gaps",
+        "OriginalTubeAncestorSaturation.fine_label_realizer_tangent_gap"
+      ]
+    },
+    {
+      "short": "OriginalAncestorCounting",
+      "slug": "original_ancestor_counting",
+      "source": "Theorems/Thm_StickyKakeya4_original_ancestor_counting.lean",
+      "source_sha256": "d5a078aa7f3ad6ab43ed078aa3eefcdb843abe7f33544aeaecb682c49ee90919",
+      "readback": "verification/OriginalAncestorCountingReadback.lean",
+      "declarations": [
+        "OriginalAncestorCounting.exists_original_cell_representatives",
+        "OriginalAncestorCounting.original_pair_ancestor_count",
+        "OriginalAncestorCounting.fine_label_in_ancestor_ball",
+        "OriginalAncestorCounting.same_ancestor_fixed_height_ball",
+        "OriginalAncestorCounting.original_carrier_saturation_count",
+        "OriginalAncestorCounting.original_carrier_convex_count"
+      ]
+    },
+    {
+      "short": "OriginalAncestorFiberGeometry",
+      "slug": "original_ancestor_fiber_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_original_ancestor_fiber_geometry.lean",
+      "source_sha256": "97437b0faf4909c658a754f5134b06e4609a5f96065330da8a910b9c79ec5292",
+      "readback": "verification/OriginalAncestorFiberGeometryReadback.lean",
+      "declarations": [
+        "OriginalAncestorFiberGeometry.occupied_ancestor_has_original_realizer",
+        "OriginalAncestorFiberGeometry.original_direction_fiber_bound",
+        "OriginalAncestorFiberGeometry.active_points_in_ancestor_ball"
+      ]
+    },
+    {
+      "short": "NativeOriginalAncestorCounts",
+      "slug": "native_original_ancestor_counts",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_ancestor_counts.lean",
+      "source_sha256": "13e5c6a8cc7fd24a30524359dca39f6e1d7cf8a317ade0e98d7da2653dbcb570",
+      "readback": "verification/NativeOriginalAncestorCountsReadback.lean",
+      "declarations": [
+        "NativeOriginalAncestorCounts.scalar_original_ancestor_count",
+        "NativeOriginalAncestorCounts.planar_original_ancestor_count"
+      ]
+    },
+    {
+      "short": "OriginalCWScaleCancellation",
+      "slug": "original_cw_scale_cancellation",
+      "source": "Theorems/Thm_StickyKakeya4_original_cw_scale_cancellation.lean",
+      "source_sha256": "c11270df4b06cb798f88b98e986b89e6183f5cba3a7e9b776ed386a6c940fe70",
+      "readback": "verification/OriginalCWScaleCancellationReadback.lean",
+      "declarations": [
+        "OriginalCWScaleCancellation.original_count_scale_cancellation",
+        "OriginalCWScaleCancellation.carrier_global_normalization",
+        "OriginalCWScaleCancellation.original_fine_AD_ratio",
+        "OriginalCWScaleCancellation.original_CW_ratio_lower"
+      ]
+    },
+    {
+      "short": "OriginalCarrierImageCount",
+      "slug": "original_carrier_image_count",
+      "source": "Theorems/Thm_StickyKakeya4_original_carrier_image_count.lean",
+      "source_sha256": "c5ac0a4fa4915619f4af306637e94d872746dadd2722459ad0b29c24f4ccddf9",
+      "readback": "verification/OriginalCarrierImageCountReadback.lean",
+      "declarations": [
+        "OriginalCarrierImageCount.occupied_ancestors_mem_reference",
+        "OriginalCarrierImageCount.labelwise_containment_covers_full_saturation",
+        "OriginalCarrierImageCount.original_realizer_carrier_CW_count"
+      ]
+    },
+    {
+      "short": "OriginalCoreEndpointLifting",
+      "slug": "original_core_endpoint_lifting",
+      "source": "Theorems/Thm_StickyKakeya4_original_core_endpoint_lifting.lean",
+      "source_sha256": "fb8fa75f0ab71ac0785f96ce9fcb0e3b63d5d04c8b1537172467d7d0c38ecbef",
+      "readback": "verification/OriginalCoreEndpointLiftingReadback.lean",
+      "declarations": [
+        "OriginalCoreEndpointLifting.one_state_height",
+        "OriginalCoreEndpointLifting.two_state_height",
+        "OriginalCoreEndpointLifting.select_original_endpoint_points",
+        "OriginalCoreEndpointLifting.selected_core_points_are_original",
+        "OriginalCoreEndpointLifting.scalar_cells_eq_endpoint_image",
+        "OriginalCoreEndpointLifting.planar_cells_eq_endpoint_image",
+        "OriginalCoreEndpointLifting.exists_scalar_original_endpoint_points",
+        "OriginalCoreEndpointLifting.exists_planar_original_endpoint_points"
+      ]
+    },
+    {
+      "short": "OriginalCoreBoxPaths",
+      "slug": "original_core_box_paths",
+      "source": "Theorems/Thm_StickyKakeya4_original_core_box_paths.lean",
+      "source_sha256": "a765f941202c220b40a5f91198a7c5bbda4f22a96e9b3273127e8e736a982ca0",
+      "readback": "verification/OriginalCoreBoxPathsReadback.lean",
+      "declarations": [
+        "OriginalCoreBoxPaths.box_mono",
+        "OriginalCoreBoxPaths.coreBox_mono",
+        "OriginalCoreBoxPaths.oneStates_box_comparison",
+        "OriginalCoreBoxPaths.twoStates_box_comparison"
+      ]
+    },
+    {
+      "short": "NativeOriginalScalarCW",
+      "slug": "native_original_scalar_cw",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_scalar_cw.lean",
+      "source_sha256": "64302417177232985cc4f16b4523899f51dfcc25f3baa13fe09055ff30fc9d42",
+      "readback": "verification/NativeOriginalScalarCWReadback.lean",
+      "declarations": [
+        "NativeOriginalScalarCW.adapted_box_measurable",
+        "NativeOriginalScalarCW.scalar_original_CW_concentration"
+      ]
+    },
+    {
+      "short": "NativeOriginalPlanarCW",
+      "slug": "native_original_planar_cw",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_planar_cw.lean",
+      "source_sha256": "358ae2e75bce539a4e2d296ada8df660784edd1a7de9558f04ca47b2aed939e3",
+      "readback": "verification/NativeOriginalPlanarCWReadback.lean",
+      "declarations": [
+        "NativeOriginalPlanarCW.adapted_box_measurable",
+        "NativeOriginalPlanarCW.planar_original_CW_concentration"
+      ]
+    },
+    {
+      "short": "OriginalWJointPhase",
+      "slug": "original_w_joint_phase",
+      "source": "Theorems/Thm_StickyKakeya4_original_w_joint_phase.lean",
+      "source_sha256": "d109fe73a228027fb3df12c1aab235a66c678048d5ed27d3ac73af0ace813010",
+      "readback": "verification/OriginalWJointPhaseReadback.lean",
+      "declarations": [
+        "OriginalWJointPhase.offset_identity",
+        "OriginalWJointPhase.offset_error_bound",
+        "OriginalWJointPhase.original_witness_offset_remainder",
+        "OriginalWJointPhase.original_coarse_offset_displacement",
+        "OriginalWJointPhase.scalar_native_joint_displacement"
+      ]
+    },
+    {
+      "short": "AbelianShiftedLabelEnergy",
+      "slug": "abelian_shifted_label_energy",
+      "source": "Theorems/Thm_StickyKakeya4_abelian_shifted_label_energy.lean",
+      "source_sha256": "2de6fe4d4da7d32b906e6843cd297277193b2b8d7edf839b63a4d90db0d50326",
+      "readback": "verification/AbelianShiftedLabelEnergyReadback.lean",
+      "declarations": [
+        "AbelianShiftedLabelEnergy.shifted_pairs_le_zero_energy",
+        "AbelianShiftedLabelEnergy.pair_set_le_menu_energy"
+      ]
+    },
+    {
+      "short": "PlanarShiftedNearEnergy",
+      "slug": "planar_shifted_near_energy",
+      "source": "Theorems/Thm_StickyKakeya4_planar_shifted_near_energy.lean",
+      "source_sha256": "8e693dfe4b3e99fb8946406062c8fb3b8f1394d290a83c3c60f3940c8d72d96e",
+      "readback": "verification/PlanarShiftedNearEnergyReadback.lean",
+      "declarations": [
+        "PlanarShiftedNearEnergy.seven_discrepancies",
+        "PlanarShiftedNearEnergy.near_pairs_le_fortynine_energy",
+        "PlanarShiftedNearEnergy.original_labelled_planar_rounding"
+      ]
+    },
+    {
+      "short": "ActualPlanarRoundedEnergy",
+      "slug": "actual_planar_rounded_energy",
+      "source": "Theorems/Thm_StickyKakeya4_actual_planar_rounded_energy.lean",
+      "source_sha256": "935bb789c8eca24d3b66b58c4460d7f882e6c6abec79133318d6a801462acabc",
+      "readback": "verification/ActualPlanarRoundedEnergyReadback.lean",
+      "declarations": [
+        "ActualPlanarRoundedEnergy.planar_rounding_injOn",
+        "ActualPlanarRoundedEnergy.planar_rounded_card",
+        "ActualPlanarRoundedEnergy.rounded_planar_product_image",
+        "ActualPlanarRoundedEnergy.rounded_planar_label_energy",
+        "ActualPlanarRoundedEnergy.original_planar_near_energy",
+        "ActualPlanarRoundedEnergy.max_norm_separation_of_euclidean_squared",
+        "ActualPlanarRoundedEnergy.original_euclidean_planar_near_energy"
+      ]
+    },
+    {
+      "short": "PlanarRoundedSumsetCover",
+      "slug": "planar_rounded_sumset_cover",
+      "source": "Theorems/Thm_StickyKakeya4_planar_rounded_sumset_cover.lean",
+      "source_sha256": "5026e5aa269657ca91fcaae05684d5c493a6468a1ab91a9ae53fff5bdf922dba",
+      "readback": "verification/PlanarRoundedSumsetCoverReadback.lean",
+      "declarations": [
+        "PlanarRoundedSumsetCover.point_rounding_error",
+        "PlanarRoundedSumsetCover.actual_planar_iterated_cover"
+      ]
+    },
+    {
+      "short": "PlanarDyadicNumerics",
+      "slug": "planar_dyadic_numerics",
+      "source": "Theorems/Thm_StickyKakeya4_planar_dyadic_numerics.lean",
+      "source_sha256": "f8a5797c7a34f10845d767e8c038cdffecf4e03453bcdc0ffb0be1f580be0b9b",
+      "readback": "verification/PlanarDyadicNumericsReadback.lean",
+      "declarations": [
+        "PlanarDyadicNumerics.polynomial_absorption",
+        "PlanarDyadicNumerics.slow_factor_absorption",
+        "PlanarDyadicNumerics.polynomial_retention_absorption",
+        "PlanarDyadicNumerics.polynomial_cost_absorption",
+        "PlanarDyadicNumerics.real_floor_cover_factor",
+        "PlanarDyadicNumerics.planar_floor_cover_factor",
+        "PlanarDyadicNumerics.densityCoefficient_pos",
+        "PlanarDyadicNumerics.nativeDensity_lower",
+        "PlanarDyadicNumerics.choose_depth",
+        "PlanarDyadicNumerics.native_absorption",
+        "PlanarDyadicNumerics.dyadic_mesh_rpow",
+        "PlanarDyadicNumerics.native_dyadic_absorption"
+      ]
+    },
+    {
+      "short": "PlanarOriginalSubsetConstruction",
+      "slug": "planar_original_subset_construction",
+      "source": "Theorems/Thm_StickyKakeya4_planar_original_subset_construction.lean",
+      "source_sha256": "055d107799fc0ea7c5513b90b527a5d84461a6fb85a9386237c8a9aa27d58b39",
+      "readback": "verification/PlanarOriginalSubsetConstructionReadback.lean",
+      "declarations": [
+        "PlanarOriginalSubsetConstruction.half_mesh",
+        "PlanarOriginalSubsetConstruction.rounded_cardinality_bound",
+        "PlanarOriginalSubsetConstruction.original_preimage",
+        "PlanarOriginalSubsetConstruction.original_planar_subsets"
+      ]
+    },
+    {
+      "short": "PlanarOriginalDyadicBSG",
+      "slug": "planar_original_dyadic_bsg",
+      "source": "Theorems/Thm_StickyKakeya4_planar_original_dyadic_bsg.lean",
+      "source_sha256": "1cff08295a04187c32343464fffdfece1bd51394e272a1e17513cba7ff706806",
+      "readback": "verification/PlanarOriginalDyadicBSGReadback.lean",
+      "declarations": [
+        "PlanarOriginalDyadicBSG.coordinate_planar_dyadic_bsg",
+        "PlanarOriginalDyadicBSG.euclidean_near_energy_le_coordinate",
+        "PlanarOriginalDyadicBSG.original_planar_dyadic_bsg"
+      ]
+    },
+    {
+      "short": "OriginalWNormalizedPhase",
+      "slug": "original_w_normalized_phase",
+      "source": "Theorems/Thm_StickyKakeya4_original_w_normalized_phase.lean",
+      "source_sha256": "fb059cdbf2603f9d5497c26184adcbcc7f85cb9c4824acb252032076f04274d4",
+      "readback": "verification/OriginalWNormalizedPhaseReadback.lean",
+      "declarations": [
+        "OriginalWNormalizedPhase.scalar_operator_apply",
+        "OriginalWNormalizedPhase.phase_error_identity",
+        "OriginalWNormalizedPhase.scaled_scalar_error",
+        "OriginalWNormalizedPhase.scaled_normal_error",
+        "OriginalWNormalizedPhase.normalized_phase_error",
+        "OriginalWNormalizedPhase.scalar_original_normalized_phase"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "AdaptedBoxVolume.box_eq_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AdaptedBoxVolume.residualCoordinates_measurePreserving",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AdaptedBoxVolume.volume_box_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AdaptedBoxVolume.convex_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AdaptedBoxVolume.volume_closedBall_real_pair",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AdaptedBoxVolume.volume_box_a1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AdaptedBoxVolume.volume_box_a2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AdaptedBoxVolume.volume_box_a1_pos_finite",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AdaptedBoxVolume.volume_box_a2_pos_finite",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWAdaptedBoxes.original_data_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWAdaptedBoxes.original_witness_box_comparison",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWAdaptedBoxes.constructed_successor_box_comparison",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.scalar_interval_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.scalar_filtered_interval_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.planar_rectangle_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.planar_filtered_rectangle_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.coarse_floor_interval",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.scalar_coarse_fiber_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.planar_coarse_fiber_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.image_card_le_real_mul_of_fiber_images",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.scalar_grid_coarsening_add_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.planar_grid_coarsening_add_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.ratio_add_two_le_three",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.scalar_grid_coarsening_chain",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.planar_grid_coarsening_chain",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.scalar_grid_coarsening",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.planar_grid_coarsening",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.scalar_centered_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.planar_centered_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.scalar_injective_grid_centered_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeTangentGridCoarsening.planar_injective_grid_centered_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeAncestorSaturation.ancestor_incidence_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeAncestorSaturation.same_point_normal_direction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeAncestorSaturation.ancestor_fiber_inside_adapted_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeAncestorSaturation.scalar_same_parameter_cell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeAncestorSaturation.planar_same_parameter_cell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeAncestorSaturation.scalar_parameter_ancestor_gaps",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeAncestorSaturation.planar_parameter_ancestor_gaps",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeAncestorSaturation.fine_label_realizer_tangent_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalAncestorCounting.exists_original_cell_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalAncestorCounting.original_pair_ancestor_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalAncestorCounting.fine_label_in_ancestor_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalAncestorCounting.same_ancestor_fixed_height_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalAncestorCounting.original_carrier_saturation_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalAncestorCounting.original_carrier_convex_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalAncestorFiberGeometry.occupied_ancestor_has_original_realizer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalAncestorFiberGeometry.original_direction_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalAncestorFiberGeometry.active_points_in_ancestor_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalAncestorCounts.scalar_original_ancestor_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalAncestorCounts.planar_original_ancestor_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCWScaleCancellation.original_count_scale_cancellation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCWScaleCancellation.carrier_global_normalization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCWScaleCancellation.original_fine_AD_ratio",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCWScaleCancellation.original_CW_ratio_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCarrierImageCount.occupied_ancestors_mem_reference",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCarrierImageCount.labelwise_containment_covers_full_saturation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCarrierImageCount.original_realizer_carrier_CW_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreEndpointLifting.one_state_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreEndpointLifting.two_state_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreEndpointLifting.select_original_endpoint_points",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreEndpointLifting.selected_core_points_are_original",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreEndpointLifting.scalar_cells_eq_endpoint_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreEndpointLifting.planar_cells_eq_endpoint_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreEndpointLifting.exists_scalar_original_endpoint_points",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreEndpointLifting.exists_planar_original_endpoint_points",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreBoxPaths.box_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreBoxPaths.coreBox_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreBoxPaths.oneStates_box_comparison",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoreBoxPaths.twoStates_box_comparison",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalScalarCW.adapted_box_measurable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalScalarCW.scalar_original_CW_concentration",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPlanarCW.adapted_box_measurable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPlanarCW.planar_original_CW_concentration",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWJointPhase.offset_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWJointPhase.offset_error_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWJointPhase.original_witness_offset_remainder",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWJointPhase.original_coarse_offset_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWJointPhase.scalar_native_joint_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AbelianShiftedLabelEnergy.shifted_pairs_le_zero_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "AbelianShiftedLabelEnergy.pair_set_le_menu_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarShiftedNearEnergy.seven_discrepancies",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarShiftedNearEnergy.near_pairs_le_fortynine_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarShiftedNearEnergy.original_labelled_planar_rounding",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "ActualPlanarRoundedEnergy.planar_rounding_injOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "ActualPlanarRoundedEnergy.planar_rounded_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "ActualPlanarRoundedEnergy.rounded_planar_product_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "ActualPlanarRoundedEnergy.rounded_planar_label_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "ActualPlanarRoundedEnergy.original_planar_near_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "ActualPlanarRoundedEnergy.max_norm_separation_of_euclidean_squared",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "ActualPlanarRoundedEnergy.original_euclidean_planar_near_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarRoundedSumsetCover.point_rounding_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarRoundedSumsetCover.actual_planar_iterated_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.polynomial_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.slow_factor_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.polynomial_retention_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.polynomial_cost_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.real_floor_cover_factor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.planar_floor_cover_factor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.densityCoefficient_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.nativeDensity_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.choose_depth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.native_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.dyadic_mesh_rpow",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarDyadicNumerics.native_dyadic_absorption",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarOriginalSubsetConstruction.half_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarOriginalSubsetConstruction.rounded_cardinality_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarOriginalSubsetConstruction.original_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarOriginalSubsetConstruction.original_planar_subsets",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarOriginalDyadicBSG.coordinate_planar_dyadic_bsg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarOriginalDyadicBSG.euclidean_near_energy_le_coordinate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "PlanarOriginalDyadicBSG.original_planar_dyadic_bsg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWNormalizedPhase.scalar_operator_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWNormalizedPhase.phase_error_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWNormalizedPhase.scaled_scalar_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWNormalizedPhase.scaled_normal_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWNormalizedPhase.normalized_phase_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    },
+    {
+      "declaration": "OriginalWNormalizedPhase.scalar_original_normalized_phase",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-cw-axioms.log"
+    }
+  ],
+  "declaration_count": 117,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_readback": "verification/WZOriginalCWReadback.lean",
+  "shared_import_log": "verification/wz-original-cw-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9057,
+    "log": "verification/wz348-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_tree": "4cb7a796ac39251236fae80ac94431bec3aecf65",
+    "module_count": 348,
+    "source_snapshot": "verification/wz348-source-snapshot.json",
+    "scope": "Full default build of all 348 modules; all previous 326 source hashes unchanged"
+  },
+  "prior_326_module_hashes_unchanged": true,
+  "current_module_count": 348,
+  "main_theorem_complete": false,
+  "whole_Lemma53_lean_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "scope_note": "docs/WZ_NATIVE_CW_AND_PLANAR_BSG.md"
+}

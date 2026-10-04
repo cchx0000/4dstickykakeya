@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_final
+
+#print axioms FinitePlaneProjectionGrid.exists_common_separated_original_subsets
+#print axioms FinitePlaneProjectionGrid.relative_native_ball_bound

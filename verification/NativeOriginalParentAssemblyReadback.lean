@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_original_parent_assembly
+
+#print axioms NativeOriginalParentAssembly.chartPosition_injective
+#print axioms NativeOriginalParentAssembly.chartPosition_mem
+#print axioms NativeOriginalParentAssembly.chartPosition_grid_card
+#print axioms NativeOriginalParentAssembly.chartPosition_same_cell
+#print axioms NativeOriginalParentAssembly.parent_subset
+#print axioms NativeOriginalParentAssembly.parent_chart_span
+#print axioms NativeOriginalParentAssembly.parent_chart_diameter
+#print axioms NativeOriginalParentAssembly.parent_image_subset
+#print axioms NativeOriginalParentAssembly.physical_contacts

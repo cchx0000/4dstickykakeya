@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_original_b
+
+#print axioms FinitePlaneProjectionGrid.triple_filter_card
+#print axioms FinitePlaneProjectionGrid.original_degenerate_triple_count
+#print axioms FinitePlaneProjectionGrid.exists_common_projection_line_control
+#print axioms FinitePlaneProjectionGrid.line_strip_fraction_of_cube

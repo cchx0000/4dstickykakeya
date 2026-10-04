@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_adapted_box_volume
+
+#print axioms AdaptedBoxVolume.box_eq_preimage
+#print axioms AdaptedBoxVolume.residualCoordinates_measurePreserving
+#print axioms AdaptedBoxVolume.volume_box_product
+#print axioms AdaptedBoxVolume.convex_box
+#print axioms AdaptedBoxVolume.volume_closedBall_real_pair
+#print axioms AdaptedBoxVolume.volume_box_a1
+#print axioms AdaptedBoxVolume.volume_box_a2
+#print axioms AdaptedBoxVolume.volume_box_a1_pos_finite
+#print axioms AdaptedBoxVolume.volume_box_a2_pos_finite

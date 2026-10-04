@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_asymmetric_original_subset_assembly
+
+#print axioms AsymmetricOriginalSubsetAssembly.original_subsets_from_chain_core
+#print axioms AsymmetricOriginalSubsetAssembly.finite_asymmetric_original_subsets

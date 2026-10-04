@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_original_w_successor_selection
+
+#print axioms OriginalWSuccessorSelection.vertex_has_original_terminal_point
+#print axioms OriginalWSuccessorSelection.exists_deterministic_original_successors

@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_uniform_output_bounds
+
+#print axioms NativeUniformOutputBounds.lower_count_absorption
+#print axioms NativeUniformOutputBounds.raw_power_eq
+#print axioms NativeUniformOutputBounds.AllRealBounds.to_uniform
+#print axioms NativeUniformOutputBounds.majorant_products
+#print axioms NativeUniformOutputBounds.AllRealBounds.to_uniform_majorants
+#print axioms NativeUniformOutputBounds.UniformBounds.mono

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_original_w_grain_drift
+
+#print axioms OriginalWGrainDrift.original_witness_grain_drift
+#print axioms OriginalWGrainDrift.scalar_constructed_successor_grain_drift

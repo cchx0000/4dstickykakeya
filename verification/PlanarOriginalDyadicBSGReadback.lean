@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_planar_original_dyadic_bsg
+#print axioms PlanarOriginalDyadicBSG.coordinate_planar_dyadic_bsg
+#print axioms PlanarOriginalDyadicBSG.euclidean_near_energy_le_coordinate
+#print axioms PlanarOriginalDyadicBSG.original_planar_dyadic_bsg

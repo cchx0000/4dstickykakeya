@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_literal_aligned_set
+
+#print axioms NativeLiteralAlignedSet.ballCount_eq_carrierBall
+#print axioms NativeLiteralAlignedSet.quotient_fiber_nonempty
+#print axioms NativeLiteralAlignedSet.normalizedImage_eq_vertex_image
+#print axioms NativeLiteralAlignedSet.normalizedImage_euclidean_eq
+#print axioms NativeLiteralAlignedSet.uniform_ambient_AD
+#print axioms NativeLiteralAlignedSet.of_nearGraph_uniform
+#print axioms NativeLiteralAlignedSet.nearGraph_source_bounded
+#print axioms NativeLiteralAlignedSet.nearly_of_nearGraph_uniform

@@ -1,0 +1,454 @@
+{
+  "generated_at_utc": "2026-10-04T05:44:15.601421+00:00",
+  "base_commit": "64193a5073ddca1d13566a2c82f6314c1e58504f",
+  "base_tree": "8ac32a2da02f56b3245deb30c8761fc920e8f391",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_original_good_graph_cap_fraction.lean": "8b8a66e056088d59181fd55aa9b86fb839477e6045af9ea2111c0e07de692123",
+    "Theorems/Thm_StickyKakeya4_native_original_cap_fraction_budget.lean": "cba99de49cf714cb7c95ff96652e5db2a4007981df6259125870755a90a64226",
+    "Theorems/Thm_StickyKakeya4_native_a2_critical_tube_family.lean": "e999fef6cb970ff4712c9068cd8babc09188cfb616e97f2ce8a8da67a576391e",
+    "Theorems/Thm_StickyKakeya4_original_critical_cap_parameter_transfer.lean": "847afde9f6c412213de1b12757c6fb37a9869b58f6b98ad842d0d4dfc9b74d79",
+    "Theorems/Thm_StickyKakeya4_original_two_projection_cartesian.lean": "259a4b968c5be843e0a52dea6fb5e635d8185a224119e251f0e4cac4e4295e28",
+    "Theorems/Thm_StickyKakeya4_original_two_projection_cover.lean": "082c44745bcf68f4a7e98ba1ba3d4b9d95ca41deec2484485e26610424b127ee",
+    "Theorems/Thm_StickyKakeya4_original_two_projection_real_graph.lean": "6bf1cba34db51b7c4f6686351921ba2f61515cf0a45c820f476b4e78c4fe1325",
+    "Theorems/Thm_StickyKakeya4_original_height_log_budget.lean": "eb9f72c78a7deda85090d5616c7093e13352c47bbc295278abbefe2a2b4b191a"
+  },
+  "new_modules": [
+    {
+      "short": "OriginalGoodGraphCapFraction",
+      "slug": "original_good_graph_cap_fraction",
+      "source": "Theorems/Thm_StickyKakeya4_original_good_graph_cap_fraction.lean",
+      "declarations": [
+        "OriginalGoodGraphCapFraction.original_good_graph_external_cap_charge",
+        "OriginalGoodGraphCapFraction.original_good_graph_cap_fraction"
+      ],
+      "preintegration_source_sha256": "e1aaa0e3b24208d59c5691ba2575038a1f3dc2a74d91230e5dd8b553ec91e2c1",
+      "preintegration_manifest": "WZ_NATIVE_A2_CRITICAL_TUBE_FAMILY_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalGoodGraphCapFraction-strict.log",
+      "source_sha256": "8b8a66e056088d59181fd55aa9b86fb839477e6045af9ea2111c0e07de692123",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalCapFractionBudget",
+      "slug": "native_original_cap_fraction_budget",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_cap_fraction_budget.lean",
+      "declarations": [
+        "NativeOriginalCapFractionBudget.exists_native_original_cap_fraction_budget"
+      ],
+      "preintegration_source_sha256": "83bfd521803dc7c04a88f27a49e7b8cf673ee96c5f7d95ada292606b06d3dea9",
+      "preintegration_manifest": "WZ_NATIVE_A2_CRITICAL_TUBE_FAMILY_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalCapFractionBudget-strict.log",
+      "source_sha256": "cba99de49cf714cb7c95ff96652e5db2a4007981df6259125870755a90a64226",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeA2CriticalTubeFamily",
+      "slug": "native_a2_critical_tube_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_a2_critical_tube_family.lean",
+      "declarations": [
+        "NativeA2CriticalTubeFamily.exists_uniform_original_critical_tube_family"
+      ],
+      "preintegration_source_sha256": "944af0c20a000a46840ffff438e606073e6b38427bb64dc34d8f260415e79b05",
+      "preintegration_manifest": "WZ_NATIVE_A2_CRITICAL_TUBE_FAMILY_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeA2CriticalTubeFamily-strict.log",
+      "source_sha256": "e999fef6cb970ff4712c9068cd8babc09188cfb616e97f2ce8a8da67a576391e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalCriticalCapParameterTransfer",
+      "slug": "original_critical_cap_parameter_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_original_critical_cap_parameter_transfer.lean",
+      "declarations": [
+        "OriginalCriticalCapParameterTransfer.original_critical_cap_population",
+        "OriginalCriticalCapParameterTransfer.original_critical_cap_coarse_exponent"
+      ],
+      "preintegration_source_sha256": "a285e9a86a6913e23a66437294d7127f375c94bbaa8cc4df5301bfa442855746",
+      "preintegration_manifest": "WZ_ORIGINAL_CRITICAL_CAP_PARAMETER_TRANSFER_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalCriticalCapParameterTransfer-strict.log",
+      "source_sha256": "847afde9f6c412213de1b12757c6fb37a9869b58f6b98ad842d0d4dfc9b74d79",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalTwoProjectionCartesian",
+      "slug": "original_two_projection_cartesian",
+      "source": "Theorems/Thm_StickyKakeya4_original_two_projection_cartesian.lean",
+      "declarations": [
+        "OriginalTwoProjectionCartesian.same_scalar_code_close",
+        "OriginalTwoProjectionCartesian.two_projection_distance",
+        "OriginalTwoProjectionCartesian.original_code_fiber_card",
+        "OriginalTwoProjectionCartesian.graph_subset_product",
+        "OriginalTwoProjectionCartesian.original_graph_witness",
+        "OriginalTwoProjectionCartesian.original_query_graph_mass",
+        "OriginalTwoProjectionCartesian.small_projections_cartesian_density",
+        "OriginalTwoProjectionCartesian.projection_linear_identity",
+        "OriginalTwoProjectionCartesian.synthetic_projection_error"
+      ],
+      "preintegration_source_sha256": "259a4b968c5be843e0a52dea6fb5e635d8185a224119e251f0e4cac4e4295e28",
+      "preintegration_manifest": "OriginalTwoProjection.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalTwoProjectionCartesian.strict.log",
+      "source_sha256": "259a4b968c5be843e0a52dea6fb5e635d8185a224119e251f0e4cac4e4295e28",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalTwoProjectionCover",
+      "slug": "original_two_projection_cover",
+      "source": "Theorems/Thm_StickyKakeya4_original_two_projection_cover.lean",
+      "declarations": [
+        "OriginalTwoProjectionCover.perturbed_floor_image_card",
+        "OriginalTwoProjectionCover.original_query_synthetic_cover",
+        "OriginalTwoProjectionCover.weights_le_of_transverse",
+        "OriginalTwoProjectionCover.original_transverse_query_cover"
+      ],
+      "preintegration_source_sha256": "a1a4c7bab4bccf796c183937cdccbf6280793ff24580b6d47a9c8ecc3bf76065",
+      "preintegration_manifest": "OriginalTwoProjection.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalTwoProjectionCover.strict.log",
+      "source_sha256": "082c44745bcf68f4a7e98ba1ba3d4b9d95ca41deec2484485e26610424b127ee",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalTwoProjectionRealGraph",
+      "slug": "original_two_projection_real_graph",
+      "source": "Theorems/Thm_StickyKakeya4_original_two_projection_real_graph.lean",
+      "declarations": [
+        "OriginalTwoProjectionRealGraph.realPoint_injective",
+        "OriginalTwoProjectionRealGraph.real_graph_card",
+        "OriginalTwoProjectionRealGraph.real_alphabet_card",
+        "OriginalTwoProjectionRealGraph.real_graph_subset_product",
+        "OriginalTwoProjectionRealGraph.real_alphabet_separated",
+        "OriginalTwoProjectionRealGraph.real_alphabet_unit_box",
+        "OriginalTwoProjectionRealGraph.real_graph_original_witness",
+        "OriginalTwoProjectionRealGraph.rounded_linearValue_realPoint",
+        "OriginalTwoProjectionRealGraph.real_query_cover",
+        "OriginalTwoProjectionRealGraph.original_query_collision_energy"
+      ],
+      "preintegration_source_sha256": "1bc75277428f041dc577d350666b1e22dd78352b8bf1e009b8e1919dbf925308",
+      "preintegration_manifest": "OriginalTwoProjection.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalTwoProjectionRealGraph.strict.log",
+      "source_sha256": "6bf1cba34db51b7c4f6686351921ba2f61515cf0a45c820f476b4e78c4fe1325",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalHeightLogBudget",
+      "slug": "original_height_log_budget",
+      "source": "Theorems/Thm_StickyKakeya4_original_height_log_budget.lean",
+      "declarations": [
+        "OriginalHeightLogBudget.original_height_level_count_log_envelope",
+        "OriginalHeightLogBudget.exists_original_height_budget_cutoff",
+        "OriginalHeightLogBudget.exists_original_source_budget_cutoff"
+      ],
+      "preintegration_source_sha256": "4d33b55f6c74cd6af1a062667d0ab95057b3390bd197da828f7b5abbb2c11ca5",
+      "preintegration_manifest": "original_height_log_budget.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalHeightLogBudget.log",
+      "source_sha256": "eb9f72c78a7deda85090d5616c7093e13352c47bbc295278abbefe2a2b4b191a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "OriginalGoodGraphCapFraction.original_good_graph_external_cap_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalGoodGraphCapFraction.original_good_graph_cap_fraction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCapFractionBudget.exists_native_original_cap_fraction_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "NativeA2CriticalTubeFamily.exists_uniform_original_critical_tube_family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalCriticalCapParameterTransfer.original_critical_cap_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalCriticalCapParameterTransfer.original_critical_cap_coarse_exponent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCartesian.same_scalar_code_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCartesian.two_projection_distance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCartesian.original_code_fiber_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCartesian.graph_subset_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCartesian.original_graph_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCartesian.original_query_graph_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCartesian.small_projections_cartesian_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCartesian.projection_linear_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCartesian.synthetic_projection_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCover.perturbed_floor_image_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCover.original_query_synthetic_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCover.weights_le_of_transverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionCover.original_transverse_query_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.realPoint_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.real_graph_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.real_alphabet_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.real_graph_subset_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.real_alphabet_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.real_alphabet_unit_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.real_graph_original_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.rounded_linearValue_realPoint",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.real_query_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalTwoProjectionRealGraph.original_query_collision_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightLogBudget.original_height_level_count_log_envelope",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightLogBudget.exists_original_height_budget_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightLogBudget.exists_original_source_budget_cutoff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-critical-family-projection-axioms.log"
+    }
+  ],
+  "declaration_count": 32,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_log": "verification/wz-critical-family-projection-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9320,
+    "log": "verification/wz611-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "module_count": 611,
+    "source_base_tree": "8ac32a2da02f56b3245deb30c8761fc920e8f391",
+    "source_snapshot": "verification/wz611-source-snapshot.json",
+    "scope": "Full 611-module default build; previous 603 source hashes unchanged"
+  },
+  "current_module_count": 611,
+  "prior_603_module_hashes_unchanged": true,
+  "scope_note": "docs/WZ_CRITICAL_FAMILY_AND_CARTESIAN_REDUCTION.md",
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+}

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_original_scalar_cw
+
+#print axioms NativeOriginalScalarCW.adapted_box_measurable
+#print axioms NativeOriginalScalarCW.scalar_original_CW_concentration

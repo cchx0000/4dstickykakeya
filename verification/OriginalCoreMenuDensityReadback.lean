@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_original_core_menu_density
+
+#print axioms OriginalCoreMenuDensity.all_menus_card_bound
+#print axioms OriginalCoreMenuDensity.exists_original_menu_rich_core
+#print axioms OriginalCoreMenuDensity.normalize_phase_menu_degree

@@ -1,0 +1,21 @@
+import Theorems.Thm_StickyKakeya4_symmetry_set_difference_step
+
+#print axioms SymmetrySetDifferenceStep.overlap_subset
+#print axioms SymmetrySetDifferenceStep.overlap_card_le
+#print axioms SymmetrySetDifferenceStep.mem_symmetrySet_iff
+#print axioms SymmetrySetDifferenceStep.incidence_sum
+#print axioms SymmetrySetDifferenceStep.incidence_second_moment
+#print axioms SymmetrySetDifferenceStep.common_witnesses_card_le
+#print axioms SymmetrySetDifferenceStep.second_moment_le_energy
+#print axioms SymmetrySetDifferenceStep.difference_energy_lower
+#print axioms SymmetrySetDifferenceStep.overlap_sum_le_square
+#print axioms SymmetrySetDifferenceStep.symmetry_family_card_bound
+#print axioms SymmetrySetDifferenceStep.symmetrySet_card_bound
+#print axioms SymmetrySetDifferenceStep.difference_energy_upper
+#print axioms SymmetrySetDifferenceStep.good_pairs_lower
+#print axioms SymmetrySetDifferenceStep.good_pairs_difference_image_subset
+#print axioms SymmetrySetDifferenceStep.symmetrySet_card_mul_bound
+#print axioms SymmetrySetDifferenceStep.good_pairs_lower_of_energy
+#print axioms SymmetrySetDifferenceStep.additive_fiber_card
+#print axioms SymmetrySetDifferenceStep.differenceEnergy_eq_addEnergy
+#print axioms SymmetrySetDifferenceStep.good_pairs_lower_of_addEnergy

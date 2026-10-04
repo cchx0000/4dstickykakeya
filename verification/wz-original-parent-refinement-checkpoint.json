@@ -1,0 +1,724 @@
+{
+  "generated_at_utc": "2026-10-04T05:31:00.076043+00:00",
+  "base_commit": "70d17a50a610afe9a13d71b7a4ec5a6f97246a3d",
+  "base_tree": "3bbb4e3ceb3780837ddb40d91c14ae411d805c2f",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_native_original_tube_family_caller.lean": "77cc3509e4f66085159247ad5259ffd6c8018ea1847763f82afacdcc60eed16d",
+    "Theorems/Thm_StickyKakeya4_native_original_coarse_tube_family.lean": "e3b1b064d095cf8c483cc10ea40ed0798d3590f2c064b12e9b6dd239720a0def",
+    "Theorems/Thm_StickyKakeya4_native_original_nonempty_coarse_family.lean": "a6193db17a8e5acf4f31c8d4b928d3aa25beadccf3a56723c29d9e7d97f26c04",
+    "Theorems/Thm_StickyKakeya4_native_uniform_original_coarse_family.lean": "f3d4dcf6af189f7407e31db074a1df370ead8b31b8352556c87a2adee3005ee9",
+    "Theorems/Thm_StickyKakeya4_original_fixed_internal_eta.lean": "9eb231fd5b6e2d972b5ab938fa067c8a96624b3c5768daf893d7f62ab40e72bf",
+    "Theorems/Thm_StickyKakeya4_original_tube_slice_occupancy.lean": "6d819e4c7a0416ead11522cc769ad801b690552480700420a9bcc59d5afd0419",
+    "Theorems/Thm_StickyKakeya4_native_original_cell_chart_geometry.lean": "729a7e1daf3f8c4d0d06ff71ec82446926a89dd0cb3a68e07c579d11f6db20c9",
+    "Theorems/Thm_StickyKakeya4_native_original_parent_selection.lean": "2cc50bb0433a3810e652c36f3b5a2750032ace99386a00e1e100d9141ea19821",
+    "Theorems/Thm_StickyKakeya4_native_original_parent_physical_data.lean": "b54d1977240929b74d1768d7614851e54c59c93d3637eee13d5470035d17bb1f",
+    "Theorems/Thm_StickyKakeya4_native_near_extremal_physical_parent.lean": "e7fc89184a5aeda2484097a93033d7929df80cc8586026025c239d0fa6fd7cf7",
+    "Theorems/Thm_StickyKakeya4_native_near_source_slice_population.lean": "f3d72d3e2f1ba0be6cd0550059293437316623fda61ab7b46c702d1ebf7574d5"
+  },
+  "new_modules": [
+    {
+      "short": "NativeOriginalTubeFamilyCaller",
+      "slug": "native_original_tube_family_caller",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_tube_family_caller.lean",
+      "declarations": [
+        "NativeOriginalTubeFamilyCaller.exists_native_original_tube_family_threshold"
+      ],
+      "preintegration_source_sha256": "44aa77793475061e2998f6d7a7c90344a2e059d11226e5cd6ce34e7a2521d4b5",
+      "preintegration_manifest": "WZ_NATIVE_PRESERVED_RICHNESS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalTubeFamilyCaller.strict.log",
+      "source_sha256": "77cc3509e4f66085159247ad5259ffd6c8018ea1847763f82afacdcc60eed16d",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback",
+      "updated_existing_module": true,
+      "previous_canonical_source_sha256": "dc38f4bcb43953d34a9bd5de80a1f4d4a50f3173e20b483ce0bb8c19a4ab7c73"
+    },
+    {
+      "short": "NativeOriginalCoarseTubeFamily",
+      "slug": "native_original_coarse_tube_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_coarse_tube_family.lean",
+      "declarations": [
+        "NativeOriginalCoarseTubeFamily.exists_native_original_coarse_family_threshold"
+      ],
+      "preintegration_source_sha256": "0f188b5df3364858cb11f398c6736cc9fdca8b632fdd365822b331d12db7e88b",
+      "preintegration_manifest": "WZ_NATIVE_PRESERVED_RICHNESS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalCoarseTubeFamily.strict.log",
+      "source_sha256": "e3b1b064d095cf8c483cc10ea40ed0798d3590f2c064b12e9b6dd239720a0def",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback",
+      "updated_existing_module": true,
+      "previous_canonical_source_sha256": "b9167fb852e9822a825b5b157e3dbcb179726b6f2754f4b8a1feb890c81df6a0"
+    },
+    {
+      "short": "NativeOriginalNonemptyCoarseFamily",
+      "slug": "native_original_nonempty_coarse_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_nonempty_coarse_family.lean",
+      "declarations": [
+        "NativeOriginalNonemptyCoarseFamily.exists_native_original_nonempty_coarse_family_threshold"
+      ],
+      "preintegration_source_sha256": "152d068faf4183b900fcff59b2de6cd4aa99acdf47464954d37fc2b733669e51",
+      "preintegration_manifest": "WZ_NATIVE_PRESERVED_RICHNESS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalNonemptyCoarseFamily.strict.log",
+      "source_sha256": "a6193db17a8e5acf4f31c8d4b928d3aa25beadccf3a56723c29d9e7d97f26c04",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback",
+      "updated_existing_module": true,
+      "previous_canonical_source_sha256": "8d943d2237a6af0502a56b7b0f406e90018c9a80143a2897e0707c4739e8ff71"
+    },
+    {
+      "short": "NativeUniformOriginalCoarseFamily",
+      "slug": "native_uniform_original_coarse_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_uniform_original_coarse_family.lean",
+      "declarations": [
+        "NativeUniformOriginalCoarseFamily.exists_uniform_original_nonempty_coarse_family"
+      ],
+      "preintegration_source_sha256": "e7a5a3febd8ebce582d675f4134fbc943a636ba43e3425d50dd9c1a58c24a442",
+      "preintegration_manifest": "WZ_NATIVE_PRESERVED_RICHNESS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeUniformOriginalCoarseFamily.strict.log",
+      "source_sha256": "f3d4dcf6af189f7407e31db074a1df370ead8b31b8352556c87a2adee3005ee9",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback",
+      "updated_existing_module": true,
+      "previous_canonical_source_sha256": "efb8d4f946f7fef9cafc186c04ea6bc94a4084860bac528a98c9dc31e51f6edf"
+    },
+    {
+      "short": "OriginalFixedInternalEta",
+      "slug": "original_fixed_internal_eta",
+      "source": "Theorems/Thm_StickyKakeya4_original_fixed_internal_eta.lean",
+      "declarations": [
+        "OriginalFixedInternalEta.original_frostman_to_fixed_internal_eta",
+        "OriginalFixedInternalEta.fixed_internal_error_power_le_external",
+        "OriginalFixedInternalEta.original_pair_error_to_external_eta",
+        "OriginalFixedInternalEta.original_pair_retention_to_external_eta"
+      ],
+      "preintegration_source_sha256": "9eb231fd5b6e2d972b5ab938fa067c8a96624b3c5768daf893d7f62ab40e72bf",
+      "preintegration_manifest": "WZ_ORIGINAL_FIXED_INTERNAL_ETA_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalFixedInternalEta-strict.log",
+      "source_sha256": "9eb231fd5b6e2d972b5ab938fa067c8a96624b3c5768daf893d7f62ab40e72bf",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalTubeSliceOccupancy",
+      "slug": "original_tube_slice_occupancy",
+      "source": "Theorems/Thm_StickyKakeya4_original_tube_slice_occupancy.lean",
+      "declarations": [
+        "OriginalTubeSliceOccupancy.same_physical_cell_distance",
+        "OriginalTubeSliceOccupancy.physical_cell_injective",
+        "OriginalTubeSliceOccupancy.separated_rectangle_card",
+        "OriginalTubeSliceOccupancy.pointsAt_card_le",
+        "OriginalTubeSliceOccupancy.pointsAt_card_le_of_incidenceResidual",
+        "OriginalTubeSliceOccupancy.occupancy_constant_bound",
+        "OriginalTubeSliceOccupancy.pointsAt_card_le_constant",
+        "OriginalTubeSliceOccupancy.occupancy_rpow_bound",
+        "OriginalTubeSliceOccupancy.pointsAt_card_le_rpow"
+      ],
+      "preintegration_source_sha256": "23dcbf96ae2a7bb7d2bb98361869d7caf19fa1eb86f70de8b59745d60555e2c2",
+      "preintegration_manifest": "OriginalTubeSliceOccupancy.integration-manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalTubeSliceOccupancy.log",
+      "source_sha256": "6d819e4c7a0416ead11522cc769ad801b690552480700420a9bcc59d5afd0419",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalCellChartGeometry",
+      "slug": "native_original_cell_chart_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_cell_chart_geometry.lean",
+      "declarations": [
+        "NativeOriginalCellChartGeometry.coordinate_abs_le_norm",
+        "NativeOriginalCellChartGeometry.slope_bound",
+        "NativeOriginalCellChartGeometry.raw_graph_identity",
+        "NativeOriginalCellChartGeometry.raw_height_from_common",
+        "NativeOriginalCellChartGeometry.tube_point_bounds",
+        "NativeOriginalCellChartGeometry.cellCenter_mem",
+        "NativeOriginalCellChartGeometry.chartIndex_injective",
+        "NativeOriginalCellChartGeometry.chart_center_time",
+        "NativeOriginalCellChartGeometry.chart_center_residual",
+        "NativeOriginalCellChartGeometry.normalized_cell_bounds"
+      ],
+      "preintegration_source_sha256": "6d291dd3cd7b149258baa1cac9598f19218a7fa0225d03a673b9f1ccc0f4c7a0",
+      "preintegration_manifest": "native_original_parent_bridge_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalCellChartGeometry.strict.log",
+      "source_sha256": "729a7e1daf3f8c4d0d06ff71ec82446926a89dd0cb3a68e07c579d11f6db20c9",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalParentSelection",
+      "slug": "native_original_parent_selection",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_parent_selection.lean",
+      "declarations": [
+        "NativeOriginalParentSelection.chartIncidences_card",
+        "NativeOriginalParentSelection.backbone_nonempty",
+        "NativeOriginalParentSelection.parentDensity_pos",
+        "NativeOriginalParentSelection.parentDensity_le_one",
+        "NativeOriginalParentSelection.full_backbone_density",
+        "NativeOriginalParentSelection.exists_parent",
+        "NativeOriginalParentSelection.floor_parent_slope_bound"
+      ],
+      "preintegration_source_sha256": "f29bb42789cfeab0b4d28dac0e06639be086564d055af5451d03c198a11a0f27",
+      "preintegration_manifest": "native_original_parent_bridge_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalParentSelection.strict.log",
+      "source_sha256": "2cc50bb0433a3810e652c36f3b5a2750032ace99386a00e1e100d9141ea19821",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalParentPhysicalData",
+      "slug": "native_original_parent_physical_data",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_parent_physical_data.lean",
+      "declarations": [
+        "NativeOriginalParentPhysicalData.exists_common_height",
+        "NativeOriginalParentPhysicalData.original_cell_in_tube",
+        "NativeOriginalParentPhysicalData.original_cell_bounds",
+        "NativeOriginalParentPhysicalData.used_subset_backbone",
+        "NativeOriginalParentPhysicalData.data_hypotheses",
+        "NativeOriginalParentPhysicalData.mem_data_incidences",
+        "NativeOriginalParentPhysicalData.exists_physical_parent"
+      ],
+      "preintegration_source_sha256": "61bb85ddb432eadb8856d5da40e938ce9bb966086124054511fcdb47c687cbf5",
+      "preintegration_manifest": "native_original_parent_bridge_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalParentPhysicalData.strict.log",
+      "source_sha256": "b54d1977240929b74d1768d7614851e54c59c93d3637eee13d5470035d17bb1f",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeNearExtremalPhysicalParent",
+      "slug": "native_near_extremal_physical_parent",
+      "source": "Theorems/Thm_StickyKakeya4_native_near_extremal_physical_parent.lean",
+      "declarations": [
+        "NativeNearExtremalPhysicalParent.backbone_parameter_bounds",
+        "NativeNearExtremalPhysicalParent.oldSupport_card_le",
+        "NativeNearExtremalPhysicalParent.original_multiplicity_le_parent",
+        "NativeNearExtremalPhysicalParent.original_multiplicity_le_parent_ennreal",
+        "NativeNearExtremalPhysicalParent.exists_near_extremal_physical_parent"
+      ],
+      "preintegration_source_sha256": "fa49427aa327dcc9dc0dc246adb18eadc949581faa58b362f8a0df5217bad698",
+      "preintegration_manifest": "native_original_parent_bridge_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeNearExtremalPhysicalParent.strict.log",
+      "source_sha256": "e7fc89184a5aeda2484097a93033d7929df80cc8586026025c239d0fa6fd7cf7",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeNearSourceSlicePopulation",
+      "slug": "native_near_source_slice_population",
+      "source": "Theorems/Thm_StickyKakeya4_native_near_source_slice_population.lean",
+      "declarations": [
+        "NativeNearSourceSlicePopulation.original_subset_readback",
+        "NativeNearSourceSlicePopulation.near_source_slice_population"
+      ],
+      "preintegration_source_sha256": "5bf5b2cd5e57734f39cef253daadd4ed9e03a51dc3fb3fd2461adb5b136a81c3",
+      "preintegration_manifest": "native_original_parent_bridge_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeNearSourceSlicePopulation.strict.log",
+      "source_sha256": "f3d72d3e2f1ba0be6cd0550059293437316623fda61ab7b46c702d1ebf7574d5",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "NativeOriginalTubeFamilyCaller.exists_native_original_tube_family_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCoarseTubeFamily.exists_native_original_coarse_family_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalNonemptyCoarseFamily.exists_native_original_nonempty_coarse_family_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeUniformOriginalCoarseFamily.exists_uniform_original_nonempty_coarse_family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalFixedInternalEta.original_frostman_to_fixed_internal_eta",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalFixedInternalEta.fixed_internal_error_power_le_external",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalFixedInternalEta.original_pair_error_to_external_eta",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalFixedInternalEta.original_pair_retention_to_external_eta",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeSliceOccupancy.same_physical_cell_distance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeSliceOccupancy.physical_cell_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeSliceOccupancy.separated_rectangle_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeSliceOccupancy.pointsAt_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeSliceOccupancy.pointsAt_card_le_of_incidenceResidual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeSliceOccupancy.occupancy_constant_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeSliceOccupancy.pointsAt_card_le_constant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeSliceOccupancy.occupancy_rpow_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "OriginalTubeSliceOccupancy.pointsAt_card_le_rpow",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.coordinate_abs_le_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.slope_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.raw_graph_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.raw_height_from_common",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.tube_point_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.cellCenter_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.chartIndex_injective",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.chart_center_time",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.chart_center_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalCellChartGeometry.normalized_cell_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentSelection.chartIncidences_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentSelection.backbone_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentSelection.parentDensity_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentSelection.parentDensity_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentSelection.full_backbone_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentSelection.exists_parent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentSelection.floor_parent_slope_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentPhysicalData.exists_common_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentPhysicalData.original_cell_in_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentPhysicalData.original_cell_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentPhysicalData.used_subset_backbone",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentPhysicalData.data_hypotheses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentPhysicalData.mem_data_incidences",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalParentPhysicalData.exists_physical_parent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeNearExtremalPhysicalParent.backbone_parameter_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeNearExtremalPhysicalParent.oldSupport_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeNearExtremalPhysicalParent.original_multiplicity_le_parent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeNearExtremalPhysicalParent.original_multiplicity_le_parent_ennreal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeNearExtremalPhysicalParent.exists_near_extremal_physical_parent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeNearSourceSlicePopulation.original_subset_readback",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    },
+    {
+      "declaration": "NativeNearSourceSlicePopulation.near_source_slice_population",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-original-parent-refinement-axioms.log"
+    }
+  ],
+  "declaration_count": 48,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_log": "verification/wz-original-parent-refinement-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9312,
+    "log": "verification/wz603-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "module_count": 603,
+    "source_base_tree": "3bbb4e3ceb3780837ddb40d91c14ae411d805c2f",
+    "source_snapshot": "verification/wz603-source-snapshot.json",
+    "scope": "Full 603-module default build; 4 earlier sources explicitly strengthened and rechecked, all other prior source hashes unchanged"
+  },
+  "current_module_count": 603,
+  "prior_unmodified_source_hashes_unchanged": true,
+  "strengthened_prior_modules": [
+    {
+      "short": "NativeOriginalTubeFamilyCaller",
+      "slug": "native_original_tube_family_caller",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_tube_family_caller.lean",
+      "declarations": [
+        "NativeOriginalTubeFamilyCaller.exists_native_original_tube_family_threshold"
+      ],
+      "preintegration_source_sha256": "44aa77793475061e2998f6d7a7c90344a2e059d11226e5cd6ce34e7a2521d4b5",
+      "preintegration_manifest": "WZ_NATIVE_PRESERVED_RICHNESS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalTubeFamilyCaller.strict.log",
+      "source_sha256": "77cc3509e4f66085159247ad5259ffd6c8018ea1847763f82afacdcc60eed16d",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback",
+      "updated_existing_module": true,
+      "previous_canonical_source_sha256": "dc38f4bcb43953d34a9bd5de80a1f4d4a50f3173e20b483ce0bb8c19a4ab7c73"
+    },
+    {
+      "short": "NativeOriginalCoarseTubeFamily",
+      "slug": "native_original_coarse_tube_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_coarse_tube_family.lean",
+      "declarations": [
+        "NativeOriginalCoarseTubeFamily.exists_native_original_coarse_family_threshold"
+      ],
+      "preintegration_source_sha256": "0f188b5df3364858cb11f398c6736cc9fdca8b632fdd365822b331d12db7e88b",
+      "preintegration_manifest": "WZ_NATIVE_PRESERVED_RICHNESS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalCoarseTubeFamily.strict.log",
+      "source_sha256": "e3b1b064d095cf8c483cc10ea40ed0798d3590f2c064b12e9b6dd239720a0def",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback",
+      "updated_existing_module": true,
+      "previous_canonical_source_sha256": "b9167fb852e9822a825b5b157e3dbcb179726b6f2754f4b8a1feb890c81df6a0"
+    },
+    {
+      "short": "NativeOriginalNonemptyCoarseFamily",
+      "slug": "native_original_nonempty_coarse_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_nonempty_coarse_family.lean",
+      "declarations": [
+        "NativeOriginalNonemptyCoarseFamily.exists_native_original_nonempty_coarse_family_threshold"
+      ],
+      "preintegration_source_sha256": "152d068faf4183b900fcff59b2de6cd4aa99acdf47464954d37fc2b733669e51",
+      "preintegration_manifest": "WZ_NATIVE_PRESERVED_RICHNESS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalNonemptyCoarseFamily.strict.log",
+      "source_sha256": "a6193db17a8e5acf4f31c8d4b928d3aa25beadccf3a56723c29d9e7d97f26c04",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback",
+      "updated_existing_module": true,
+      "previous_canonical_source_sha256": "8d943d2237a6af0502a56b7b0f406e90018c9a80143a2897e0707c4739e8ff71"
+    },
+    {
+      "short": "NativeUniformOriginalCoarseFamily",
+      "slug": "native_uniform_original_coarse_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_uniform_original_coarse_family.lean",
+      "declarations": [
+        "NativeUniformOriginalCoarseFamily.exists_uniform_original_nonempty_coarse_family"
+      ],
+      "preintegration_source_sha256": "e7a5a3febd8ebce582d675f4134fbc943a636ba43e3425d50dd9c1a58c24a442",
+      "preintegration_manifest": "WZ_NATIVE_PRESERVED_RICHNESS_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeUniformOriginalCoarseFamily.strict.log",
+      "source_sha256": "f3d4dcf6af189f7407e31db074a1df370ead8b31b8352556c87a2adee3005ee9",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback",
+      "updated_existing_module": true,
+      "previous_canonical_source_sha256": "efb8d4f946f7fef9cafc186c04ea6bc94a4084860bac528a98c9dc31e51f6edf"
+    }
+  ],
+  "scope_note": "docs/WZ_ORIGINAL_PARENT_REFINEMENT.md",
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "new_declaration_count": 44,
+  "rechecked_declaration_count": 4
+}

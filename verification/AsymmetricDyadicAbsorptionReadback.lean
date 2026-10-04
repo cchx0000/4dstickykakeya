@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_asymmetric_dyadic_absorption
+#print axioms AsymmetricDyadicAbsorption.polynomial_absorption
+#print axioms AsymmetricDyadicAbsorption.slow_factor_absorption
+#print axioms AsymmetricDyadicAbsorption.polynomial_retention_absorption
+#print axioms AsymmetricDyadicAbsorption.polynomial_cost_absorption
+#print axioms AsymmetricDyadicAbsorption.real_floor_cover_factor
+#print axioms AsymmetricDyadicAbsorption.densityCoefficient_pos
+#print axioms AsymmetricDyadicAbsorption.nativeDensity_lower
+#print axioms AsymmetricDyadicAbsorption.choose_depth
+#print axioms AsymmetricDyadicAbsorption.native_absorption
+#print axioms AsymmetricDyadicAbsorption.dyadic_mesh_rpow
+#print axioms AsymmetricDyadicAbsorption.native_dyadic_absorption
+#print axioms AsymmetricDyadicAbsorption.original_real_dyadic_bsg

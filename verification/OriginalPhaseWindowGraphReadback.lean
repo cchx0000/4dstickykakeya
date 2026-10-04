@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_original_phase_window_graph
+
+#print axioms OriginalPhaseWindowGraph.neighborCells_card
+#print axioms OriginalPhaseWindowGraph.self_mem_neighborCells
+#print axioms OriginalPhaseWindowGraph.grainCell_neighbor
+#print axioms OriginalPhaseWindowGraph.mem_menuGraph
+#print axioms OriginalPhaseWindowGraph.menuGraph_card
+#print axioms OriginalPhaseWindowGraph.exists_maximal_occupied
+#print axioms OriginalPhaseWindowGraph.exists_maximal_window_graph

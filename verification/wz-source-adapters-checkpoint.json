@@ -1,0 +1,2396 @@
+{
+  "generated_at_utc": "2026-10-04T03:37:16.509733+00:00",
+  "base_commit": "33009bb7b6b9e261d29db58932f57bf4075af7ba",
+  "base_tree": "e38dab81524fb1c422deaebd9c1f3cbe8ab4a4d3",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_core.lean": "2d1660f094f8bdbb27436393ceb82a7fa77d41b245edc8185674b8393419cca3",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_selection.lean": "dce7c5da66420de830ce4b672ce9fe22a90b8b2e801d4374242578a254edc66c",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_density.lean": "2c0d9c5effdca7c4a55f9fad0dddf46a15d6ad0a278c049831ae3d743ac10c9b",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_lift.lean": "6fd62c8b31f7483104f7cc796b75933c0f9acb67d0d45bbb9a41eac5c434882e",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_geometry.lean": "25f42ec525b473ce1cc401e9c08c5e7a00bb364384a0905e084b079858148922",
+    "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_final.lean": "2083c65d8612ba802cb2f6335ef363834a493207ffff579bef910fbd251b7efd",
+    "Theorems/Thm_StickyKakeya4_original_menu_section.lean": "aa386d81753ee74bee801315eb5b01fa862b24f851a70b8803fb068902075f09",
+    "Theorems/Thm_StickyKakeya4_original_height_graph_coarsening.lean": "347975c4355cb2201a1dabf4e3e1ac8e0a26215149f00fa102c759441ccb6e5e",
+    "Theorems/Thm_StickyKakeya4_original_height_graph_density.lean": "ee3ed117a241819e91f55704b15b7bea0e55cceb40efad9d8a80929ca20df3e6",
+    "Theorems/Thm_StickyKakeya4_original_separated_height_cap.lean": "70bcab38ac1c4f6c11376cad822c715151b374d6dab55cfbbea34b780559e8c8",
+    "Theorems/Thm_StickyKakeya4_original_coarse_height_curve.lean": "07ad03dd3eb8344ddcdeb3f5d99c0b0724be37b443c13daa0cd2831695266a37",
+    "Theorems/Thm_StickyKakeya4_original_coarse_height_tube_transfer.lean": "27f84943b88e7528d50267f2cd26182adba2c7c8b611015e1169f6386e61d487",
+    "Theorems/Thm_StickyKakeya4_original_slope_graph_nonconcentration.lean": "7a6a5a6079b605a7c42f4bf66b7a1cb5b8db4e4a8169aa6b6e84261363f7ce1a",
+    "Theorems/Thm_StickyKakeya4_original_menu_bc_graph.lean": "5b063ddc92601c99bcf70d8d7adf5bc00c09ff40469f03e2c3cd32e7f439be9c",
+    "Theorems/Thm_StickyKakeya4_native_original_phase_bounds.lean": "cca1fcbf95cfbd9d302ff3159c298e48841f5388c92ae3c14cc7965eced2da93",
+    "Theorems/Thm_StickyKakeya4_original_angular_alphabet_translation.lean": "3667afa11e50aca64a6aba8bf16c04a8c38518b48403c42573a43564c672f3d9",
+    "Theorems/Thm_StickyKakeya4_actual_planar_target_cover.lean": "ebfa9d5efbba56e0925aa564e50e3cea9038fa77ea771cded7106e9426e016c3",
+    "Theorems/Thm_StickyKakeya4_original_reference_angle_selection.lean": "45f825c2c30f66a0845da0807ab29752a3fb1433f7988d2e4e70130717060c5a",
+    "Theorems/Thm_StickyKakeya4_original_reference_angle_geometry.lean": "1d7f4c208c03745b25a201efde878b66cc206bee7b011b2a0418334052b2d1fc",
+    "Theorems/Thm_StickyKakeya4_original_angular_frostman.lean": "8dc586f4da92f46e746456ae95ba6f265e76a87e6cb63cc0193018bb8a497ee0",
+    "Theorems/Thm_StickyKakeya4_native_reference_phase_window_graph.lean": "7b09f71a4ca47663f1a2eef1e638039b2b664eca3c4d264a0e3e40800826193d",
+    "Theorems/Thm_StickyKakeya4_planar_abc_balanced_normalization.lean": "536080aad8d3df8a99a884a059cb9180ea96084d7eb8000113d14f189c95cb4e",
+    "Theorems/Thm_StickyKakeya4_original_angular_graph_translation.lean": "672691d93aa04b4d7c436c55952e3ab20677f96567904007019c86b9505e73fb",
+    "Theorems/Thm_StickyKakeya4_original_angular_balanced_frostman.lean": "29ec36b707cef8652987c8434505a2ff86c2f80a29a8ac4a58fd863c8731f6bf",
+    "Theorems/Thm_StickyKakeya4_actual_abc_image_assembly.lean": "404cefe4a071010b25926bddd480d3fdddf43d95526e50859451fffd69c5a354",
+    "Theorems/Thm_StickyKakeya4_planar_abc_projected_profiles.lean": "3e4fd4a15874b1ed2fa99f87703551d921fd5b3f38ac1ba8e4112a47e340dde0",
+    "Theorems/Thm_StickyKakeya4_original_population_relative.lean": "fb23cc9a6ac7a8da26b869d14dc29bc8d512a005397ed83e9811d786bab9fa95",
+    "Theorems/Thm_StickyKakeya4_original_coarse_height_population_ratio.lean": "a4639c954eaa7f6b2e9c5607596b2957a25722e79cd69db6d27a75a914715afc",
+    "Theorems/Thm_StickyKakeya4_native_planar_abc_input.lean": "d9c460a77b7a6ee19775b925405d79c96a905f765437306f5944432e85469cc2",
+    "Theorems/Thm_StickyKakeya4_native_radial_class_pruning.lean": "0394cf1c35981c4003a503a7e4f21bb69a61bc4b7c9b220e5f90088627cb38a0",
+    "Theorems/Thm_StickyKakeya4_native_radial_class_geometry.lean": "8e07267551f7c83cf683176717ed70129367a913b4baabd4b9d71c8ad038d9f6",
+    "Theorems/Thm_StickyKakeya4_original_pair_strip_physical_bridge.lean": "2348be2bf5041bf8513bdfafea7504705c04f82f52def0883a969602eaebe115",
+    "Theorems/Thm_StickyKakeya4_original_disjoint_support_selection.lean": "5d1ac2ea309200f3afd24c5791c97427ed6608b6e811d5c95df0a7ebafe12ad3",
+    "Theorems/Thm_StickyKakeya4_rooted_shared_annular_tube_transfer.lean": "9dd74013e2fdcf045d3dbde4ac4018052fb8ed3969b395766bf06a663e3a4f75",
+    "Theorems/Thm_StickyKakeya4_original_annular_row_cover.lean": "27c9f143ca7382017d98db17a5404adfe1e147394c3197112d801eeaec48a89c",
+    "Theorems/Thm_StickyKakeya4_original_densest_wide_extension.lean": "93a259c37d7ccf23c4f8b33085f9ced2c0c14d36b973ddb4063e2ef1ad056ea4",
+    "Theorems/Thm_StickyKakeya4_original_annular_row_charge.lean": "63032f2214fce6cf4acfce408effba2c554a251588067191e080f7278606904b",
+    "Theorems/Thm_StickyKakeya4_native_original_annular_row_bound.lean": "f3a8f17a285a48135452676a29043f92122130767ce4b256c85e2eebcbb93a84",
+    "Theorems/Thm_StickyKakeya4_native_original_radial_reduction.lean": "d5a12b956659ce65d29dfb5c6cbc0a84c933d60bdd39b494f7c48bd0039c8127",
+    "Theorems/Thm_StickyKakeya4_original_shading_cell_selection.lean": "c25d29d7e09f77594b71ed611aa61c549dd30095962b6393c89b3d3df9bdd4a2",
+    "Theorems/Thm_StickyKakeya4_original_shading_cell_mass.lean": "ed6502239651e3e390bfaa189c0e3914ec12ef35180d55f11997b24f11bc02c6",
+    "Theorems/Thm_StickyKakeya4_original_shading_grid_geometry.lean": "a67886740d376276788bfa5f9708975166e01a53ec752ab58636885cc0b83cfa",
+    "Theorems/Thm_StickyKakeya4_original_shading_coarse_frostman.lean": "80c3c12f363037bafd31fda28b9d786009c0bce8698af8ebf0cfa12529923d05",
+    "Theorems/Thm_StickyKakeya4_original_shading_representatives.lean": "1c23cd54797b5ac85b7dfe9b9a32bad95ad6b501594521ac468394c85002a3fe",
+    "Theorems/Thm_StickyKakeya4_original_shading_representative_frostman.lean": "b7f96762719c31c88d2c5cebdd207495640840d05b0829225f96f2e5ecefcabe",
+    "Theorems/Thm_StickyKakeya4_original_coarse_shading_preparation.lean": "ed91cca516661f3f6f53f7fa2879c1d203d1e84159a48fb34c24bbda9528467c"
+  },
+  "new_modules": [
+    {
+      "short": "FinitePlaneProjectionGraphCore",
+      "slug": "finite_plane_projection_graph_core",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_core.lean",
+      "declarations": [
+        "FinitePlaneProjectionGraph.goodEdges_subset",
+        "FinitePlaneProjectionGraph.goodEdges_product",
+        "FinitePlaneProjectionGraph.deleted_edge_bound",
+        "FinitePlaneProjectionGraph.goodEdges_half_of_density",
+        "FinitePlaneProjectionGraph.goodEdges_three_quarters_of_density",
+        "FinitePlaneProjectionGraph.quotientEdges_product",
+        "FinitePlaneProjectionGraph.quotient_fiber_bound",
+        "FinitePlaneProjectionGraph.quotientEdges_card_bound",
+        "FinitePlaneProjectionGraph.exists_edge_color"
+      ],
+      "preintegration_source_sha256": "2d1660f094f8bdbb27436393ceb82a7fa77d41b245edc8185674b8393419cca3",
+      "preintegration_manifest": "FinitePlaneProjectionGraph.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/FinitePlaneProjectionGraphCore.strict.log",
+      "source_sha256": "2d1660f094f8bdbb27436393ceb82a7fa77d41b245edc8185674b8393419cca3",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "FinitePlaneProjectionGraphSelection",
+      "slug": "finite_plane_projection_graph_selection",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_selection.lean",
+      "declarations": [
+        "FinitePlaneProjectionGraph.graphLoss_pos",
+        "FinitePlaneProjectionGraph.graphLoss_ge",
+        "FinitePlaneProjectionGraph.graphRetained_subset",
+        "FinitePlaneProjectionGraph.graphRetained_deleted_mass",
+        "FinitePlaneProjectionGraph.graphRetained_cell_bound",
+        "FinitePlaneProjectionGraph.graphRetained_ball_bound",
+        "FinitePlaneProjectionGraph.exists_dense_colored_quotient"
+      ],
+      "preintegration_source_sha256": "f4a6cf5d2eaca274f7712ed27d8c73ba3990df12a3ba927c3fd6b3f004afc618",
+      "preintegration_manifest": "FinitePlaneProjectionGraph.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/FinitePlaneProjectionGraphSelection.strict.log",
+      "source_sha256": "dce7c5da66420de830ce4b672ce9fe22a90b8b2e801d4374242578a254edc66c",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "FinitePlaneProjectionGraphDensity",
+      "slug": "finite_plane_projection_graph_density",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_density.lean",
+      "declarations": [
+        "FinitePlaneProjectionGraph.original_density_le_one",
+        "FinitePlaneProjectionGraph.original_vertex_retention_from_graph_mass",
+        "FinitePlaneProjectionGraph.reciprocal_population_bound"
+      ],
+      "preintegration_source_sha256": "bfa778ec3cb3f919d062ec6b3e50117ab899cbfdd95eaf884db5286a1d33e1e7",
+      "preintegration_manifest": "FinitePlaneProjectionGraph.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/FinitePlaneProjectionGraphDensity.strict.log",
+      "source_sha256": "2c0d9c5effdca7c4a55f9fad0dddf46a15d6ad0a278c049831ae3d743ac10c9b",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "FinitePlaneProjectionGraphLift",
+      "slug": "finite_plane_projection_graph_lift",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_lift.lean",
+      "declarations": [
+        "FinitePlaneProjectionGraph.exists_selected_representatives",
+        "FinitePlaneProjectionGraph.selectedEdges_subset_product",
+        "FinitePlaneProjectionGraph.selectedEdges_card_le",
+        "FinitePlaneProjectionGraph.selectedEdges_image",
+        "FinitePlaneProjectionGraph.quotientEdge_injOn_product",
+        "FinitePlaneProjectionGraph.selectedEdges_card",
+        "FinitePlaneProjectionGraph.selectedEdges_original_witness",
+        "FinitePlaneProjectionGraph.selectedEdges_support_left",
+        "FinitePlaneProjectionGraph.selectedEdges_support_right",
+        "FinitePlaneProjectionGraph.exists_selected_graph_lift",
+        "FinitePlaneProjectionGraph.selected_graph_lift_colors",
+        "FinitePlaneProjectionGraph.fixed_color_projection_separation"
+      ],
+      "preintegration_source_sha256": "bb8c15a97011d93a6c4422ed46c8f83ec3f72c2130f3a641089306f9b1f26b18",
+      "preintegration_manifest": "FinitePlaneProjectionGraph.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/FinitePlaneProjectionGraphLift.strict.log",
+      "source_sha256": "6fd62c8b31f7483104f7cc796b75933c0f9acb67d0d45bbb9a41eac5c434882e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "FinitePlaneProjectionGraphGeometry",
+      "slug": "finite_plane_projection_graph_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_geometry.lean",
+      "declarations": [
+        "FinitePlaneProjectionGrid.projectionLinear_norm_le_of_abs",
+        "FinitePlaneProjectionGrid.projectionLinear_norm_le",
+        "FinitePlaneProjectionGrid.projectionLinear_sub_norm_le",
+        "FinitePlaneProjectionGrid.projectionLinear_lipschitz",
+        "FinitePlaneProjectionGrid.same_projected_cell_norm_le",
+        "FinitePlaneProjectionGrid.original_edge_projected_error",
+        "FinitePlaneProjectionGrid.original_edge_same_cell_transport",
+        "FinitePlaneProjectionGrid.original_edge_same_cell_target_transport"
+      ],
+      "preintegration_source_sha256": "25f42ec525b473ce1cc401e9c08c5e7a00bb364384a0905e084b079858148922",
+      "preintegration_manifest": "FinitePlaneProjectionGraph.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/FinitePlaneProjectionGraphGeometry.strict.log",
+      "source_sha256": "25f42ec525b473ce1cc401e9c08c5e7a00bb364384a0905e084b079858148922",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "FinitePlaneProjectionGraphFinal",
+      "slug": "finite_plane_projection_graph_final",
+      "source": "Theorems/Thm_StickyKakeya4_finite_plane_projection_graph_final.lean",
+      "declarations": [
+        "FinitePlaneProjectionGraph.graphMassLoss_pos",
+        "FinitePlaneProjectionGraph.exists_graph_aware_projection",
+        "FinitePlaneProjectionGraph.retained_edges_original_error"
+      ],
+      "preintegration_source_sha256": "2a8de0004c909f8e4433505c42ca0e7c7f1c04ac599877d2274b6e3b270b05a4",
+      "preintegration_manifest": "FinitePlaneProjectionGraph.manifest",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/FinitePlaneProjectionGraphFinal.strict.log",
+      "source_sha256": "2083c65d8612ba802cb2f6335ef363834a493207ffff579bef910fbd251b7efd",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalMenuSection",
+      "slug": "original_menu_section",
+      "source": "Theorems/Thm_StickyKakeya4_original_menu_section.lean",
+      "declarations": [
+        "OriginalMenuSection.section_card",
+        "OriginalMenuSection.section_subset",
+        "OriginalMenuSection.exists_large_original_section",
+        "OriginalMenuSection.section_relative_density"
+      ],
+      "preintegration_source_sha256": "aa386d81753ee74bee801315eb5b01fa862b24f851a70b8803fb068902075f09",
+      "preintegration_manifest": "original_bc_recovered.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalMenuSection.log",
+      "source_sha256": "aa386d81753ee74bee801315eb5b01fa862b24f851a70b8803fb068902075f09",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalHeightGraphCoarsening",
+      "slug": "original_height_graph_coarsening",
+      "source": "Theorems/Thm_StickyKakeya4_original_height_graph_coarsening.lean",
+      "declarations": [
+        "OriginalHeightGraphCoarsening.edgeBin_subset",
+        "OriginalHeightGraphCoarsening.edgeBin_card_sum",
+        "OriginalHeightGraphCoarsening.exists_edge_mass_bin",
+        "OriginalHeightGraphCoarsening.quotient_fiber_cap",
+        "OriginalHeightGraphCoarsening.coarseGraph_subset",
+        "OriginalHeightGraphCoarsening.dyadic_label_mass_bounds",
+        "OriginalHeightGraphCoarsening.edgeBin_coarse_card",
+        "OriginalHeightGraphCoarsening.exists_original_graph_coarsening"
+      ],
+      "preintegration_source_sha256": "e254aa30773fff0614b9c9022e205bd28a2641d306c25392c81f7a5987207e73",
+      "preintegration_manifest": "original_bc_recovered.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalHeightGraphCoarsening.log",
+      "source_sha256": "347975c4355cb2201a1dabf4e3e1ac8e0a26215149f00fa102c759441ccb6e5e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalHeightGraphDensity",
+      "slug": "original_height_graph_density",
+      "source": "Theorems/Thm_StickyKakeya4_original_height_graph_density.lean",
+      "declarations": [
+        "OriginalHeightGraphDensity.exists_dense_original_coarsening",
+        "OriginalHeightGraphDensity.bad_coarse_labels_count",
+        "OriginalHeightGraphDensity.coarse_bad_fraction"
+      ],
+      "preintegration_source_sha256": "473db7a7d2e496fbc53fd3dd4ecf4781b35e0921630f82d23153676e5a0e4716",
+      "preintegration_manifest": "original_bc_recovered.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalHeightGraphDensity.log",
+      "source_sha256": "ee3ed117a241819e91f55704b15b7bea0e55cceb40efad9d8a80929ca20df3e6",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalSeparatedHeightCap",
+      "slug": "original_separated_height_cap",
+      "source": "Theorems/Thm_StickyKakeya4_original_separated_height_cap.lean",
+      "declarations": [
+        "OriginalSeparatedHeightCap.floor_injective_of_separated",
+        "OriginalSeparatedHeightCap.separated_interval_cap",
+        "OriginalSeparatedHeightCap.original_coarse_height_fiber_cap"
+      ],
+      "preintegration_source_sha256": "70bcab38ac1c4f6c11376cad822c715151b374d6dab55cfbbea34b780559e8c8",
+      "preintegration_manifest": "original_bc_recovered.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalSeparatedHeightCap.log",
+      "source_sha256": "70bcab38ac1c4f6c11376cad822c715151b374d6dab55cfbbea34b780559e8c8",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalCoarseHeightCurve",
+      "slug": "original_coarse_height_curve",
+      "source": "Theorems/Thm_StickyKakeya4_original_coarse_height_curve.lean",
+      "declarations": [
+        "OriginalCoarseHeightCurve.representative_spec",
+        "OriginalCoarseHeightCurve.sampled_height_interval_cap",
+        "OriginalCoarseHeightCurve.sampled_curve_ball_cap",
+        "OriginalCoarseHeightCurve.original_coarse_curve_KT1",
+        "OriginalCoarseHeightCurve.same_cell_graph_error"
+      ],
+      "preintegration_source_sha256": "8822b227f063fb4782c4671819c2de179d6f600c094b9bb2e995390ae7b98a2c",
+      "preintegration_manifest": "original_bc_recovered.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalCoarseHeightCurve.log",
+      "source_sha256": "07ad03dd3eb8344ddcdeb3f5d99c0b0724be37b443c13daa0cd2831695266a37",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalCoarseHeightTubeTransfer",
+      "slug": "original_coarse_height_tube_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_original_coarse_height_tube_transfer.lean",
+      "declarations": [
+        "OriginalCoarseHeightTubeTransfer.coarse_cross_tube_original_charge",
+        "OriginalCoarseHeightTubeTransfer.coarse_cross_tube_fraction"
+      ],
+      "preintegration_source_sha256": "9ad2d710495a43cf5418848eb63130c1c5f562e6368242aadebe4bab3a3ca157",
+      "preintegration_manifest": "original_bc_recovered.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalCoarseHeightTubeTransfer.log",
+      "source_sha256": "27f84943b88e7528d50267f2cd26182adba2c7c8b611015e1169f6386e61d487",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalSlopeGraphNonconcentration",
+      "slug": "original_slope_graph_nonconcentration",
+      "source": "Theorems/Thm_StickyKakeya4_original_slope_graph_nonconcentration.lean",
+      "declarations": [
+        "OriginalSlopeGraphNonconcentration.original_affine_avoidance_normalized",
+        "OriginalSlopeGraphNonconcentration.original_normalized_height_cap",
+        "OriginalSlopeGraphNonconcentration.original_slope_graph_cross_tube_bound"
+      ],
+      "preintegration_source_sha256": "c6c9db3687a8324d0d2e99839b22f40c75433b7a788f802a4690f8049d42391b",
+      "preintegration_manifest": "original_bc_recovered.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalSlopeGraphNonconcentration.log",
+      "source_sha256": "7a6a5a6079b605a7c42f4bf66b7a1cb5b8db4e4a8169aa6b6e84261363f7ce1a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalMenuBCGraph",
+      "slug": "original_menu_bc_graph",
+      "source": "Theorems/Thm_StickyKakeya4_original_menu_bc_graph.lean",
+      "declarations": [
+        "OriginalMenuBCGraph.section_original_witness",
+        "OriginalMenuBCGraph.coarse_section_original_witness",
+        "OriginalMenuBCGraph.exists_actual_BC_graph"
+      ],
+      "preintegration_source_sha256": "ef2e2215e5351801f7bd9975de7003e103e5060c8f1b2397d3b9c557c1d5ccf1",
+      "preintegration_manifest": "original_bc_recovered.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalMenuBCGraph.log",
+      "source_sha256": "5b063ddc92601c99bcf70d8d7adf5bc00c09ff40469f03e2c3cd32e7f439be9c",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalPhaseBounds",
+      "slug": "native_original_phase_bounds",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_phase_bounds.lean",
+      "declarations": [
+        "NativeOriginalPhaseBounds.original_macro_phase_bound",
+        "NativeOriginalPhaseBounds.enlarged_original_phase_grid_bound",
+        "NativeOriginalPhaseBounds.gridPoint_rescale",
+        "NativeOriginalPhaseBounds.common_rescaling_relation"
+      ],
+      "preintegration_source_sha256": "2e4a9849887ca78ac08e245c760972b30db8e4a1ff212c0444aa51a6ce09e6f9",
+      "preintegration_manifest": "original_bc_recovered.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalPhaseBounds.log",
+      "source_sha256": "cca1fcbf95cfbd9d302ff3159c298e48841f5388c92ae3c14cc7965eced2da93",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAngularAlphabetTranslation",
+      "slug": "original_angular_alphabet_translation",
+      "source": "Theorems/Thm_StickyKakeya4_original_angular_alphabet_translation.lean",
+      "declarations": [
+        "OriginalAngularAlphabetTranslation.subtract_injective",
+        "OriginalAngularAlphabetTranslation.shifted_card",
+        "OriginalAngularAlphabetTranslation.shifted_ball",
+        "OriginalAngularAlphabetTranslation.shifted_ball_card",
+        "OriginalAngularAlphabetTranslation.shifted_ADBounds",
+        "OriginalAngularAlphabetTranslation.shifted_separated",
+        "OriginalAngularAlphabetTranslation.shifted_box",
+        "OriginalAngularAlphabetTranslation.shifted_mesh",
+        "OriginalAngularAlphabetTranslation.shifted_card_lower",
+        "OriginalAngularAlphabetTranslation.original_angles_subset"
+      ],
+      "preintegration_source_sha256": "3667afa11e50aca64a6aba8bf16c04a8c38518b48403c42573a43564c672f3d9",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAngularAlphabetTranslation.log",
+      "source_sha256": "3667afa11e50aca64a6aba8bf16c04a8c38518b48403c42573a43564c672f3d9",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "ActualPlanarTargetCover",
+      "slug": "actual_planar_target_cover",
+      "source": "Theorems/Thm_StickyKakeya4_actual_planar_target_cover.lean",
+      "declarations": [
+        "ActualPlanarTargetCover.actual_target_grid_cover",
+        "ActualPlanarTargetCover.retained_target_cover"
+      ],
+      "preintegration_source_sha256": "ebfa9d5efbba56e0925aa564e50e3cea9038fa77ea771cded7106e9426e016c3",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/ActualPlanarTargetCover.log",
+      "source_sha256": "ebfa9d5efbba56e0925aa564e50e3cea9038fa77ea771cded7106e9426e016c3",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalReferenceAngleSelection",
+      "slug": "original_reference_angle_selection",
+      "source": "Theorems/Thm_StickyKakeya4_original_reference_angle_selection.lean",
+      "declarations": [
+        "OriginalReferenceAngleSelection.source_common_angle_near",
+        "OriginalReferenceAngleSelection.angle_spec",
+        "OriginalReferenceAngleSelection.angle_fiber_cap",
+        "OriginalReferenceAngleSelection.exists_full_reference_rich_core"
+      ],
+      "preintegration_source_sha256": "10b1740a48cad6f515b905312ba1afefdff54cf9522b9450876ce0bbdba7209a",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalReferenceAngleSelection.log",
+      "source_sha256": "45f825c2c30f66a0845da0807ab29752a3fb1433f7988d2e4e70130717060c5a",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalReferenceAngleGeometry",
+      "slug": "original_reference_angle_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_original_reference_angle_geometry.lean",
+      "declarations": [
+        "OriginalReferenceAngleGeometry.constructed_reference_grain_drift",
+        "OriginalReferenceAngleGeometry.reference_original_normalized_phase"
+      ],
+      "preintegration_source_sha256": "06c5f0da1c880a7e8f40cc9f0ddd0b7628ea096f8cebbf9da3ea0facd7f37df6",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalReferenceAngleGeometry.log",
+      "source_sha256": "1d7f4c208c03745b25a201efde878b66cc206bee7b011b2a0418334052b2d1fc",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAngularFrostman",
+      "slug": "original_angular_frostman",
+      "source": "Theorems/Thm_StickyKakeya4_original_angular_frostman.lean",
+      "declarations": [
+        "OriginalAngularFrostman.AD_relative_point_bound",
+        "OriginalAngularFrostman.AD_relative_allcenter",
+        "OriginalAngularFrostman.shifted_finer_mesh_frostman"
+      ],
+      "preintegration_source_sha256": "63d6f9bc58bdd91a8344573fa1a217100b71c6c81c6c033320974e69792bcd38",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAngularFrostman.log",
+      "source_sha256": "8dc586f4da92f46e746456ae95ba6f265e76a87e6cb63cc0193018bb8a497ee0",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeReferencePhaseWindowGraph",
+      "slug": "native_reference_phase_window_graph",
+      "source": "Theorems/Thm_StickyKakeya4_native_reference_phase_window_graph.lean",
+      "declarations": [
+        "NativeReferencePhaseWindowGraph.exists_reference_phase_window_graph"
+      ],
+      "preintegration_source_sha256": "c3b91d1ab63b4af74dfe1d280290f2603c2708c3b74c46e5c7983e8e6f8567dd",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeReferencePhaseWindowGraph.log",
+      "source_sha256": "7b09f71a4ca47663f1a2eef1e638039b2b664eca3c4d264a0e3e40800826193d",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "PlanarABCBalancedNormalization",
+      "slug": "planar_abc_balanced_normalization",
+      "source": "Theorems/Thm_StickyKakeya4_planar_abc_balanced_normalization.lean",
+      "declarations": [
+        "PlanarABCBalancedNormalization.product_identity",
+        "PlanarABCBalancedNormalization.residual_identity",
+        "PlanarABCBalancedNormalization.balanced_error",
+        "PlanarABCBalancedNormalization.source_box",
+        "PlanarABCBalancedNormalization.direction_box",
+        "PlanarABCBalancedNormalization.scalar_box",
+        "PlanarABCBalancedNormalization.source_injective",
+        "PlanarABCBalancedNormalization.direction_injective",
+        "PlanarABCBalancedNormalization.scalar_injective",
+        "PlanarABCBalancedNormalization.projected_balanced_error",
+        "PlanarABCBalancedNormalization.normalized_cover_factor"
+      ],
+      "preintegration_source_sha256": "3ccec9c92d3e8a3b983a3f51c017aa51b2f5cc20e2761fb3a4593b33df08c49a",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/PlanarABCBalancedNormalization.log",
+      "source_sha256": "536080aad8d3df8a99a884a059cb9180ea96084d7eb8000113d14f189c95cb4e",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAngularGraphTranslation",
+      "slug": "original_angular_graph_translation",
+      "source": "Theorems/Thm_StickyKakeya4_original_angular_graph_translation.lean",
+      "declarations": [
+        "OriginalAngularGraphTranslation.translateEdge_injective",
+        "OriginalAngularGraphTranslation.translatedGraph_card",
+        "OriginalAngularGraphTranslation.translatedGraph_subset",
+        "OriginalAngularGraphTranslation.translatedGraph_original_edge",
+        "OriginalAngularGraphTranslation.translatedGraph_density"
+      ],
+      "preintegration_source_sha256": "e79fa74b660483889fc9cacfc6706d5ca738dea4af66e491f2f8701bad186baf",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAngularGraphTranslation.log",
+      "source_sha256": "672691d93aa04b4d7c436c55952e3ab20677f96567904007019c86b9505e73fb",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAngularBalancedFrostman",
+      "slug": "original_angular_balanced_frostman",
+      "source": "Theorems/Thm_StickyKakeya4_original_angular_balanced_frostman.lean",
+      "declarations": [
+        "OriginalAngularBalancedFrostman.balancedC_card",
+        "OriginalAngularBalancedFrostman.balancedC_box",
+        "OriginalAngularBalancedFrostman.balancedC_separated",
+        "OriginalAngularBalancedFrostman.balancedC_ball_card",
+        "OriginalAngularBalancedFrostman.balancedC_frostman",
+        "OriginalAngularBalancedFrostman.weaken_upper_exponent"
+      ],
+      "preintegration_source_sha256": "f8302a49d907f27a07b15169f7ab36b10b8dfd17ab73b29d6e7dc5269ad48bc7",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAngularBalancedFrostman.log",
+      "source_sha256": "29ec36b707cef8652987c8434505a2ff86c2f80a29a8ac4a58fd863c8731f6bf",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "ActualABCImageAssembly",
+      "slug": "actual_abc_image_assembly",
+      "source": "Theorems/Thm_StickyKakeya4_actual_abc_image_assembly.lean",
+      "declarations": [
+        "ActualABCImageAssembly.embedEdge_injOn",
+        "ActualABCImageAssembly.imageGraph_card",
+        "ActualABCImageAssembly.imageGraph_subset",
+        "ActualABCImageAssembly.imageGraph_density",
+        "ActualABCImageAssembly.imageGraph_output_cells",
+        "ActualABCImageAssembly.actual_ABC_sumset_cover",
+        "ActualABCImageAssembly.filtered_image_card"
+      ],
+      "preintegration_source_sha256": "d3eaa1951818a6b4d742555db26acec00ac0e8c9e7b7e09d8b46cb83ead19559",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/ActualABCImageAssembly.log",
+      "source_sha256": "404cefe4a071010b25926bddd480d3fdddf43d95526e50859451fffd69c5a354",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "PlanarABCProjectedProfiles",
+      "slug": "planar_abc_projected_profiles",
+      "source": "Theorems/Thm_StickyKakeya4_planar_abc_projected_profiles.lean",
+      "declarations": [
+        "PlanarABCProjectedProfiles.source_injOn",
+        "PlanarABCProjectedProfiles.direction_injOn",
+        "PlanarABCProjectedProfiles.source_image_separated",
+        "PlanarABCProjectedProfiles.direction_image_separated",
+        "PlanarABCProjectedProfiles.direction_image_ball_bound",
+        "PlanarABCProjectedProfiles.direction_image_strip_bound"
+      ],
+      "preintegration_source_sha256": "edf6aaee46e628b6035d3473f935d279046c97c9811017df4938173969e6c8b0",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/PlanarABCProjectedProfiles.log",
+      "source_sha256": "3e4fd4a15874b1ed2fa99f87703551d921fd5b3f38ac1ba8e4112a47e340dde0",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalPopulationRelative",
+      "slug": "original_population_relative",
+      "source": "Theorems/Thm_StickyKakeya4_original_population_relative.lean",
+      "declarations": [
+        "OriginalPopulationRelative.ball_from_original_mass"
+      ],
+      "preintegration_source_sha256": "fb23cc9a6ac7a8da26b869d14dc29bc8d512a005397ed83e9811d786bab9fa95",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalPopulationRelative.log",
+      "source_sha256": "fb23cc9a6ac7a8da26b869d14dc29bc8d512a005397ed83e9811d786bab9fa95",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalCoarseHeightPopulationRatio",
+      "slug": "original_coarse_height_population_ratio",
+      "source": "Theorems/Thm_StickyKakeya4_original_coarse_height_population_ratio.lean",
+      "declarations": [
+        "OriginalCoarseHeightPopulationRatio.selected_height_card_upper",
+        "OriginalCoarseHeightPopulationRatio.original_coarse_height_mass"
+      ],
+      "preintegration_source_sha256": "130c3281c4f0eb1abff78827252f0ffc9d4398b533e24a8c18c1d82b6cc2f55a",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalCoarseHeightPopulationRatio.log",
+      "source_sha256": "a4639c954eaa7f6b2e9c5607596b2957a25722e79cd69db6d27a75a914715afc",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativePlanarABCInput",
+      "slug": "native_planar_abc_input",
+      "source": "Theorems/Thm_StickyKakeya4_native_planar_abc_input.lean",
+      "declarations": [
+        "NativePlanarABCInput.exists_actual_planar_ABC_input"
+      ],
+      "preintegration_source_sha256": "ef26c7f0b7fc7ef2acf9ca8e12c86b402071c5f010481a90ac45f8a41d699038",
+      "preintegration_manifest": "original_angular_abc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativePlanarABCInput.log",
+      "source_sha256": "d9c460a77b7a6ee19775b925405d79c96a905f765437306f5944432e85469cc2",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeRadialClassPruning",
+      "slug": "native_radial_class_pruning",
+      "source": "Theorems/Thm_StickyKakeya4_native_radial_class_pruning.lean",
+      "declarations": [
+        "NativeRadialClassPruning.retained_oriented_labels",
+        "NativeRadialClassPruning.oriented_degree_counts",
+        "NativeRadialClassPruning.exists_original_radial_class_core"
+      ],
+      "preintegration_source_sha256": "0394cf1c35981c4003a503a7e4f21bb69a61bc4b7c9b220e5f90088627cb38a0",
+      "preintegration_manifest": "WZ_NATIVE_RADIAL_CLASS_PRUNING_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeRadialClassPruning-strict.log",
+      "source_sha256": "0394cf1c35981c4003a503a7e4f21bb69a61bc4b7c9b220e5f90088627cb38a0",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeRadialClassGeometry",
+      "slug": "native_radial_class_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_native_radial_class_geometry.lean",
+      "declarations": [
+        "NativeRadialClassGeometry.forward_class_geometry",
+        "NativeRadialClassGeometry.reverse_class_geometry"
+      ],
+      "preintegration_source_sha256": "642a7c6af10056d95b0df73628e5ad962c7a6b73f79255ef2447c34cb40aea5d",
+      "preintegration_manifest": "WZ_NATIVE_RADIAL_CLASS_PRUNING_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeRadialClassGeometry-strict.log",
+      "source_sha256": "8e07267551f7c83cf683176717ed70129367a913b4baabd4b9d71c8ad038d9f6",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalPairStripPhysicalBridge",
+      "slug": "original_pair_strip_physical_bridge",
+      "source": "Theorems/Thm_StickyKakeya4_original_pair_strip_physical_bridge.lean",
+      "declarations": [
+        "OriginalPairStripPhysicalBridge.original_axis_line_witness",
+        "OriginalPairStripPhysicalBridge.original_strip_subset_physical"
+      ],
+      "preintegration_source_sha256": "2348be2bf5041bf8513bdfafea7504705c04f82f52def0883a969602eaebe115",
+      "preintegration_manifest": "WZ_NATIVE_A1_ANNULAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalPairStripPhysicalBridge-strict.log",
+      "source_sha256": "2348be2bf5041bf8513bdfafea7504705c04f82f52def0883a969602eaebe115",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalDisjointSupportSelection",
+      "slug": "original_disjoint_support_selection",
+      "source": "Theorems/Thm_StickyKakeya4_original_disjoint_support_selection.lean",
+      "declarations": [
+        "OriginalDisjointSupportSelection.exists_maximal_disjoint_original_supports",
+        "OriginalDisjointSupportSelection.exists_rich_disjoint_original_supports"
+      ],
+      "preintegration_source_sha256": "5d1ac2ea309200f3afd24c5791c97427ed6608b6e811d5c95df0a7ebafe12ad3",
+      "preintegration_manifest": "WZ_NATIVE_A1_ANNULAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalDisjointSupportSelection-strict.log",
+      "source_sha256": "5d1ac2ea309200f3afd24c5791c97427ed6608b6e811d5c95df0a7ebafe12ad3",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "RootedSharedAnnularTubeTransfer",
+      "slug": "rooted_shared_annular_tube_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_rooted_shared_annular_tube_transfer.lean",
+      "declarations": [
+        "RootedSharedAnnularTubeTransfer.rooted_original_shared_point_transfer"
+      ],
+      "preintegration_source_sha256": "7b96261e894127a2a40d55447e27b2841f8d543161f9067aebc5af1ee756212c",
+      "preintegration_manifest": "WZ_NATIVE_A1_ANNULAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/RootedSharedAnnularTubeTransfer-strict.log",
+      "source_sha256": "9dd74013e2fdcf045d3dbde4ac4018052fb8ed3969b395766bf06a663e3a4f75",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAnnularRowCover",
+      "slug": "original_annular_row_cover",
+      "source": "Theorems/Thm_StickyKakeya4_original_annular_row_cover.lean",
+      "declarations": [
+        "OriginalAnnularRowCover.exists_original_annular_row_cover"
+      ],
+      "preintegration_source_sha256": "fe085620cf2c3af555b041fa273fa70a791d2d8a3c9a17d68f5ac56886761927",
+      "preintegration_manifest": "WZ_NATIVE_A1_ANNULAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAnnularRowCover-strict.log",
+      "source_sha256": "27c9f143ca7382017d98db17a5404adfe1e147394c3197112d801eeaec48a89c",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalDensestWideExtension",
+      "slug": "original_densest_wide_extension",
+      "source": "Theorems/Thm_StickyKakeya4_original_densest_wide_extension.lean",
+      "declarations": [
+        "OriginalDensestWideExtension.original_all_larger_width_control",
+        "OriginalDensestWideExtension.original_source_density_of_native_gain"
+      ],
+      "preintegration_source_sha256": "93a259c37d7ccf23c4f8b33085f9ced2c0c14d36b973ddb4063e2ef1ad056ea4",
+      "preintegration_manifest": "WZ_NATIVE_A1_ANNULAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalDensestWideExtension-strict.log",
+      "source_sha256": "93a259c37d7ccf23c4f8b33085f9ced2c0c14d36b973ddb4063e2ef1ad056ea4",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalAnnularRowCharge",
+      "slug": "original_annular_row_charge",
+      "source": "Theorems/Thm_StickyKakeya4_original_annular_row_charge.lean",
+      "declarations": [
+        "OriginalAnnularRowCharge.original_annular_row_charge",
+        "OriginalAnnularRowCharge.original_annular_row_frostman_charge"
+      ],
+      "preintegration_source_sha256": "b2da21e7d06dc6a43614505e34664ac1468bc006305b708aecdb26ce1b59b3be",
+      "preintegration_manifest": "WZ_NATIVE_A1_ANNULAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAnnularRowCharge-strict.log",
+      "source_sha256": "63032f2214fce6cf4acfce408effba2c554a251588067191e080f7278606904b",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalAnnularRowBound",
+      "slug": "native_original_annular_row_bound",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_annular_row_bound.lean",
+      "declarations": [
+        "NativeOriginalAnnularRowBound.annular_power_identity",
+        "NativeOriginalAnnularRowBound.native_original_annular_bad_row"
+      ],
+      "preintegration_source_sha256": "baf6d3cce6be2607d54f8a8081a06a69dc450a3ad01099f96bcdf9c86dc23bc8",
+      "preintegration_manifest": "WZ_NATIVE_A1_ANNULAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalAnnularRowBound-strict.log",
+      "source_sha256": "f3a8f17a285a48135452676a29043f92122130767ce4b256c85e2eebcbb93a84",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "NativeOriginalRadialReduction",
+      "slug": "native_original_radial_reduction",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_radial_reduction.lean",
+      "declarations": [
+        "NativeOriginalRadialReduction.exists_original_densest_graph_with_annular_control"
+      ],
+      "preintegration_source_sha256": "0b5faf6735d4ab5787b67fcf309ad4b3662a9fd0470a6c4045a8dcc578f7460e",
+      "preintegration_manifest": "WZ_NATIVE_A1_ANNULAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalRadialReduction-strict.log",
+      "source_sha256": "d5a12b956659ce65d29dfb5c6cbc0a84c933d60bdd39b494f7c48bd0039c8127",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalShadingCellSelection",
+      "slug": "original_shading_cell_selection",
+      "source": "Theorems/Thm_StickyKakeya4_original_shading_cell_selection.lean",
+      "declarations": [
+        "OriginalShadingCellSelection.original_cell_charge",
+        "OriginalShadingCellSelection.original_union_cell_charge",
+        "OriginalShadingCellSelection.levelCount_mono",
+        "OriginalShadingCellSelection.exists_shading_bin_label",
+        "OriginalShadingCellSelection.exists_uniform_original_shading_bins"
+      ],
+      "preintegration_source_sha256": "c25d29d7e09f77594b71ed611aa61c549dd30095962b6393c89b3d3df9bdd4a2",
+      "preintegration_manifest": "OriginalCoarseShadingPreparation.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalShadingCellSelection.strict.log",
+      "source_sha256": "c25d29d7e09f77594b71ed611aa61c549dd30095962b6393c89b3d3df9bdd4a2",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalShadingCellMass",
+      "slug": "original_shading_cell_mass",
+      "source": "Theorems/Thm_StickyKakeya4_original_shading_cell_mass.lean",
+      "declarations": [
+        "OriginalShadingCellMass.bin_card_le_twice_occupancy",
+        "OriginalShadingCellMass.original_mass_le_four_log_occupancy_cells",
+        "OriginalShadingCellMass.selected_cells_original_charge",
+        "OriginalShadingCellMass.coarse_fraction_from_original_points"
+      ],
+      "preintegration_source_sha256": "2cd995897adfaa2db648ffc51690f1201a922acaedfad0eb76368e18415cf254",
+      "preintegration_manifest": "OriginalCoarseShadingPreparation.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalShadingCellMass.strict.log",
+      "source_sha256": "ed6502239651e3e390bfaa189c0e3914ec12ef35180d55f11997b24f11bc02c6",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalShadingGridGeometry",
+      "slug": "original_shading_grid_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_original_shading_grid_geometry.lean",
+      "declarations": [
+        "OriginalShadingGridGeometry.point_in_own_cell",
+        "OriginalShadingGridGeometry.InBox.trans",
+        "OriginalShadingGridGeometry.InBox.mono",
+        "OriginalShadingGridGeometry.coarse_box_original_preimage",
+        "OriginalShadingGridGeometry.coarse_box_preimage_subset"
+      ],
+      "preintegration_source_sha256": "a67886740d376276788bfa5f9708975166e01a53ec752ab58636885cc0b83cfa",
+      "preintegration_manifest": "OriginalCoarseShadingPreparation.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalShadingGridGeometry.strict.log",
+      "source_sha256": "a67886740d376276788bfa5f9708975166e01a53ec752ab58636885cc0b83cfa",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalShadingCoarseFrostman",
+      "slug": "original_shading_coarse_frostman",
+      "source": "Theorems/Thm_StickyKakeya4_original_shading_coarse_frostman.lean",
+      "declarations": [
+        "OriginalShadingCoarseFrostman.coarse_grid_frostman"
+      ],
+      "preintegration_source_sha256": "49d70280fb89503ac8c3bf180fb56917db68573b55c1290ee32f6c36a9c19751",
+      "preintegration_manifest": "OriginalCoarseShadingPreparation.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalShadingCoarseFrostman.strict.log",
+      "source_sha256": "80c3c12f363037bafd31fda28b9d786009c0bce8698af8ebf0cfa12529923d05",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalShadingRepresentatives",
+      "slug": "original_shading_representatives",
+      "source": "Theorems/Thm_StickyKakeya4_original_shading_representatives.lean",
+      "declarations": [
+        "OriginalShadingRepresentatives.same_cell_close",
+        "OriginalShadingRepresentatives.exists_separated_original_representatives",
+        "OriginalShadingRepresentatives.representative_ball_original_preimage"
+      ],
+      "preintegration_source_sha256": "fade47be3c1d9efbaa90f1f35e548a3359657d7c33980081b4a8505c8f1cf4dd",
+      "preintegration_manifest": "OriginalCoarseShadingPreparation.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalShadingRepresentatives.strict.log",
+      "source_sha256": "1c23cd54797b5ac85b7dfe9b9a32bad95ad6b501594521ac468394c85002a3fe",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalShadingRepresentativeFrostman",
+      "slug": "original_shading_representative_frostman",
+      "source": "Theorems/Thm_StickyKakeya4_original_shading_representative_frostman.lean",
+      "declarations": [
+        "OriginalShadingRepresentativeFrostman.original_representative_frostman"
+      ],
+      "preintegration_source_sha256": "05fa4573e66ea8c2573c11661910c9507f2a470a09b92b26af26af33bd305305",
+      "preintegration_manifest": "OriginalCoarseShadingPreparation.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalShadingRepresentativeFrostman.strict.log",
+      "source_sha256": "b7f96762719c31c88d2c5cebdd207495640840d05b0829225f96f2e5ecefcabe",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    },
+    {
+      "short": "OriginalCoarseShadingPreparation",
+      "slug": "original_coarse_shading_preparation",
+      "source": "Theorems/Thm_StickyKakeya4_original_coarse_shading_preparation.lean",
+      "declarations": [
+        "OriginalCoarseShadingPreparation.exists_original_coarse_shadings"
+      ],
+      "preintegration_source_sha256": "95684e7f4f36937dfb166856256a8d08aec2674fed7bd4bbf380d9213d1cce77",
+      "preintegration_manifest": "OriginalCoarseShadingPreparation.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalCoarseShadingPreparation.strict.log",
+      "source_sha256": "ed91cca516661f3f6f53f7fa2879c1d203d1e84159a48fb34c24bbda9528467c",
+      "canonical_strict_strategy": "full Lake build with both strict options in source; proper imported public-axiom readback"
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "FinitePlaneProjectionGraph.goodEdges_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.goodEdges_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.deleted_edge_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.goodEdges_half_of_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.goodEdges_three_quarters_of_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.quotientEdges_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.quotient_fiber_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.quotientEdges_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.exists_edge_color",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.graphLoss_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.graphLoss_ge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.graphRetained_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.graphRetained_deleted_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.graphRetained_cell_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.graphRetained_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.exists_dense_colored_quotient",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.original_density_le_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.original_vertex_retention_from_graph_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.reciprocal_population_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.exists_selected_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.selectedEdges_subset_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.selectedEdges_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.selectedEdges_image",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.quotientEdge_injOn_product",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.selectedEdges_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.selectedEdges_original_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.selectedEdges_support_left",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.selectedEdges_support_right",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.exists_selected_graph_lift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.selected_graph_lift_colors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.fixed_color_projection_separation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projectionLinear_norm_le_of_abs",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projectionLinear_norm_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projectionLinear_sub_norm_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.projectionLinear_lipschitz",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.same_projected_cell_norm_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.original_edge_projected_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.original_edge_same_cell_transport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGrid.original_edge_same_cell_target_transport",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.graphMassLoss_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.exists_graph_aware_projection",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "FinitePlaneProjectionGraph.retained_edges_original_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalMenuSection.section_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalMenuSection.section_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalMenuSection.exists_large_original_section",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalMenuSection.section_relative_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphCoarsening.edgeBin_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphCoarsening.edgeBin_card_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphCoarsening.exists_edge_mass_bin",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphCoarsening.quotient_fiber_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphCoarsening.coarseGraph_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphCoarsening.dyadic_label_mass_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphCoarsening.edgeBin_coarse_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphCoarsening.exists_original_graph_coarsening",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphDensity.exists_dense_original_coarsening",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphDensity.bad_coarse_labels_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightGraphDensity.coarse_bad_fraction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalSeparatedHeightCap.floor_injective_of_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalSeparatedHeightCap.separated_interval_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalSeparatedHeightCap.original_coarse_height_fiber_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseHeightCurve.representative_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseHeightCurve.sampled_height_interval_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseHeightCurve.sampled_curve_ball_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseHeightCurve.original_coarse_curve_KT1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseHeightCurve.same_cell_graph_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseHeightTubeTransfer.coarse_cross_tube_original_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseHeightTubeTransfer.coarse_cross_tube_fraction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalSlopeGraphNonconcentration.original_affine_avoidance_normalized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalSlopeGraphNonconcentration.original_normalized_height_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalSlopeGraphNonconcentration.original_slope_graph_cross_tube_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalMenuBCGraph.section_original_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalMenuBCGraph.coarse_section_original_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalMenuBCGraph.exists_actual_BC_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseBounds.original_macro_phase_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseBounds.enlarged_original_phase_grid_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseBounds.gridPoint_rescale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalPhaseBounds.common_rescaling_relation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.subtract_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.shifted_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.shifted_ball",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.shifted_ball_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.shifted_ADBounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.shifted_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.shifted_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.shifted_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.shifted_card_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularAlphabetTranslation.original_angles_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "ActualPlanarTargetCover.actual_target_grid_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "ActualPlanarTargetCover.retained_target_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalReferenceAngleSelection.source_common_angle_near",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalReferenceAngleSelection.angle_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalReferenceAngleSelection.angle_fiber_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalReferenceAngleSelection.exists_full_reference_rich_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalReferenceAngleGeometry.constructed_reference_grain_drift",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalReferenceAngleGeometry.reference_original_normalized_phase",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularFrostman.AD_relative_point_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularFrostman.AD_relative_allcenter",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularFrostman.shifted_finer_mesh_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeReferencePhaseWindowGraph.exists_reference_phase_window_graph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.product_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.residual_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.balanced_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.source_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.direction_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.scalar_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.source_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.direction_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.scalar_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.projected_balanced_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCBalancedNormalization.normalized_cover_factor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularGraphTranslation.translateEdge_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularGraphTranslation.translatedGraph_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularGraphTranslation.translatedGraph_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularGraphTranslation.translatedGraph_original_edge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularGraphTranslation.translatedGraph_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularBalancedFrostman.balancedC_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularBalancedFrostman.balancedC_box",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularBalancedFrostman.balancedC_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularBalancedFrostman.balancedC_ball_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularBalancedFrostman.balancedC_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAngularBalancedFrostman.weaken_upper_exponent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "ActualABCImageAssembly.embedEdge_injOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "ActualABCImageAssembly.imageGraph_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "ActualABCImageAssembly.imageGraph_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "ActualABCImageAssembly.imageGraph_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "ActualABCImageAssembly.imageGraph_output_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "ActualABCImageAssembly.actual_ABC_sumset_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "ActualABCImageAssembly.filtered_image_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCProjectedProfiles.source_injOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCProjectedProfiles.direction_injOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCProjectedProfiles.source_image_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCProjectedProfiles.direction_image_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCProjectedProfiles.direction_image_ball_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "PlanarABCProjectedProfiles.direction_image_strip_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalPopulationRelative.ball_from_original_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseHeightPopulationRatio.selected_height_card_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseHeightPopulationRatio.original_coarse_height_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarABCInput.exists_actual_planar_ABC_input",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeRadialClassPruning.retained_oriented_labels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeRadialClassPruning.oriented_degree_counts",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeRadialClassPruning.exists_original_radial_class_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeRadialClassGeometry.forward_class_geometry",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeRadialClassGeometry.reverse_class_geometry",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalPairStripPhysicalBridge.original_axis_line_witness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalPairStripPhysicalBridge.original_strip_subset_physical",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalDisjointSupportSelection.exists_maximal_disjoint_original_supports",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalDisjointSupportSelection.exists_rich_disjoint_original_supports",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "RootedSharedAnnularTubeTransfer.rooted_original_shared_point_transfer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAnnularRowCover.exists_original_annular_row_cover",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalDensestWideExtension.original_all_larger_width_control",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalDensestWideExtension.original_source_density_of_native_gain",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAnnularRowCharge.original_annular_row_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalAnnularRowCharge.original_annular_row_frostman_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalAnnularRowBound.annular_power_identity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalAnnularRowBound.native_original_annular_bad_row",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalRadialReduction.exists_original_densest_graph_with_annular_control",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCellSelection.original_cell_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCellSelection.original_union_cell_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCellSelection.levelCount_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCellSelection.exists_shading_bin_label",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCellSelection.exists_uniform_original_shading_bins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCellMass.bin_card_le_twice_occupancy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCellMass.original_mass_le_four_log_occupancy_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCellMass.selected_cells_original_charge",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCellMass.coarse_fraction_from_original_points",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingGridGeometry.point_in_own_cell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingGridGeometry.InBox.trans",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingGridGeometry.InBox.mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingGridGeometry.coarse_box_original_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingGridGeometry.coarse_box_preimage_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingCoarseFrostman.coarse_grid_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingRepresentatives.same_cell_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingRepresentatives.exists_separated_original_representatives",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingRepresentatives.representative_ball_original_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalShadingRepresentativeFrostman.original_representative_frostman",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    },
+    {
+      "declaration": "OriginalCoarseShadingPreparation.exists_original_coarse_shadings",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-source-adapters-axioms.log"
+    }
+  ],
+  "declaration_count": 176,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_log": "verification/wz-source-adapters-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9195,
+    "log": "verification/wz486-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "module_count": 486,
+    "source_base_tree": "e38dab81524fb1c422deaebd9c1f3cbe8ab4a4d3",
+    "source_snapshot": "verification/wz486-source-snapshot.json",
+    "scope": "Full 486-module default build; previous 440 source hashes unchanged"
+  },
+  "current_module_count": 486,
+  "prior_440_module_hashes_unchanged": true,
+  "scope_note": "docs/WZ_ORIGINAL_SOURCE_ADAPTERS.md",
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "build_recovery": {
+    "initial_lake_jobs_passed": 9195,
+    "initial_wrapper_exit_code": 2,
+    "cause": "The active shell script was modified during execution; after Lake success its parser hit EOF.",
+    "initial_log": "verification/wz486-default-build-first-wrapper-exit2.log",
+    "repair": "Restore exact source-commit script and rerun the same full command using valid cache.",
+    "final_exit_code": 0
+  }
+}

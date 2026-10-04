@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_reference_cost_bounds
+
+#print axioms NativeReferenceCostBounds.spatial_cost_upper
+#print axioms NativeReferenceCostBounds.ad_cost_upper
+#print axioms NativeReferenceCostBounds.column_cost_upper
+#print axioms NativeReferenceCostBounds.density_cost_upper
+#print axioms NativeReferenceCostBounds.stopped_loss_le_output_extent

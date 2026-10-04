@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_symmetry_chain_uniform_density
+
+#print axioms SymmetryChainUniformDensity.threshold_antitone
+#print axioms SymmetryChainUniformDensity.chain_card_budget
+#print axioms SymmetryChainUniformDensity.good_pairs_card_budget
+#print axioms SymmetryChainUniformDensity.chain_level_count_budget
+#print axioms SymmetryChainUniformDensity.common_density_lower
+#print axioms SymmetryChainUniformDensity.common_threshold_range
+#print axioms SymmetryChainUniformDensity.source_budget_bounds
+#print axioms SymmetryChainUniformDensity.constructed_common_density

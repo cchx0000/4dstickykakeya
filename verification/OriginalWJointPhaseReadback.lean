@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_original_w_joint_phase
+
+#print axioms OriginalWJointPhase.offset_identity
+#print axioms OriginalWJointPhase.offset_error_bound
+#print axioms OriginalWJointPhase.original_witness_offset_remainder
+#print axioms OriginalWJointPhase.original_coarse_offset_displacement
+#print axioms OriginalWJointPhase.scalar_native_joint_displacement

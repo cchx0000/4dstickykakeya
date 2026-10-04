@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_envelope_growth
+
+#print axioms NativeEnvelopeGrowth.powers_expand
+#print axioms NativeEnvelopeGrowth.envelope_le_growth
+#print axioms NativeEnvelopeGrowth.output_extent_lower

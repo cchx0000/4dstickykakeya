@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_original_densest_tube_control
+
+#print axioms OriginalDensestTubeControl.scale_menu_bounds
+#print axioms OriginalDensestTubeControl.original_larger_width_control
+#print axioms OriginalDensestTubeControl.original_violation_forces_large_score

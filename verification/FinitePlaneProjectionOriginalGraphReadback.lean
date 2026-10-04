@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_original_graph
+
+#print axioms FinitePlaneProjectionGrid.cross_height_component_bounds
+#print axioms FinitePlaneProjectionGrid.determinant_height_bound
+#print axioms FinitePlaneProjectionGrid.determinant_affine_bound
+#print axioms FinitePlaneProjectionGrid.original_cross_tube_dichotomy
+#print axioms FinitePlaneProjectionGrid.originalCrossTube_card_of_height_affine_caps

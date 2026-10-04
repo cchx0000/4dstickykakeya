@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_rich_symmetry_translate_centers
+
+#print axioms RichSymmetryTranslateCenters.translate_eq_add_singleton
+#print axioms RichSymmetryTranslateCenters.translate_card
+#print axioms RichSymmetryTranslateCenters.translated_intersection_card_le
+#print axioms RichSymmetryTranslateCenters.original_incidence_sum_le
+#print axioms RichSymmetryTranslateCenters.symmetry_overlap_sum_lower
+#print axioms RichSymmetryTranslateCenters.overlap_sum_upper
+#print axioms RichSymmetryTranslateCenters.exists_rich_centers
+#print axioms RichSymmetryTranslateCenters.exists_rich_centers_translate

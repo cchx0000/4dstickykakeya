@@ -1,0 +1,1569 @@
+{
+  "generated_at_utc": "2026-10-03T20:52:59.185534+00:00",
+  "base_tree": "caad30efd95ad41e6c2bd80302bdca0f9a3013a4",
+  "source_sha256": {
+    "Theorems/Thm_StickyKakeya4_native_parent_spines.lean": "bab20e6e3aa0b241c6db6f26cec8bc6fe316aad20f4ee82a94bca31136e31689",
+    "Theorems/Thm_StickyKakeya4_native_contact_spine_columns.lean": "1e44ee1879ae9a4184d2d8f614e941dd164a6a51a253be9727bf1115a726e950",
+    "Theorems/Thm_StickyKakeya4_native_contact_fractional_composition.lean": "179f186e71abe2655cc6a5abc25635b8a84ee176848e318a77263c2d54af7069",
+    "Theorems/Thm_StickyKakeya4_native_angular_chart_selection.lean": "0eaa413d8603348c51a411991cd254f284983ed01ba6379046b35b1f03926390",
+    "Theorems/Thm_StickyKakeya4_native_separated_fractional_patches.lean": "ab1471d8885b78728532c30bdfd90db1c85b9faffc2ffb44b6df160745d1171c",
+    "Theorems/Thm_StickyKakeya4_real_scale_tube_profile_transfer.lean": "69a45122141709afd90e1cd1605ce699ebfe401d6ccc9bb97b64f5c197b47546",
+    "Theorems/Thm_StickyKakeya4_original_w_successor_selection.lean": "c050b2fede3e193f13173d0f4bd7a7d257f496fd7cf305ea372a6857783983ff",
+    "Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean": "27244c7f2a4f5f51532e772758683dd143b3ce44a364238b69fdba6789d100ae",
+    "Theorems/Thm_StickyKakeya4_native_planar_slab_norm_conversion.lean": "eebbf7f69d36546fa31d6c165ccab4313b2dec137ca47a6c5d79c821d13caa05",
+    "Theorems/Thm_StickyKakeya4_original_height_interval_cap.lean": "f35b2f099df86afc3797d4437013555db1b6d1e9dea8fd7e63cbd44cef6164e0",
+    "Theorems/Thm_StickyKakeya4_original_w_physical_displacement.lean": "c73ade2387449495b770c1cd88319ef1967ef24c30d1cfdf1e0d689113e522f0",
+    "Theorems/Thm_StickyKakeya4_original_w_physical_growth.lean": "808a48adcf18cbe3de0020fd0f59d1f9cae687bb99c738ae0075c0b8ab82cfa2",
+    "Theorems/Thm_StickyKakeya4_native_original_w_end_to_end.lean": "e929c14ee271399d37e7846e19a641ea910b29e31cb53ad1ee99af58046750f0",
+    "Theorems/Thm_StickyKakeya4_retained_height_growth_normalization.lean": "f55f371949d99d8a59904fe9ebea30c3777a87fbacb3c581c0a1643daa076add"
+  },
+  "new_modules": [
+    {
+      "short": "NativeParentSpines",
+      "slug": "native_parent_spines",
+      "source": "Theorems/Thm_StickyKakeya4_native_parent_spines.lean",
+      "source_sha256": "bab20e6e3aa0b241c6db6f26cec8bc6fe316aad20f4ee82a94bca31136e31689",
+      "readback": "verification/NativeParentSpinesReadback.lean",
+      "declarations": [
+        "NativeParentSpines.owner_spec",
+        "NativeParentSpines.mem_pairedMenu_of",
+        "NativeParentSpines.pair_label_image_subset",
+        "NativeParentSpines.pairedMenu_card_le",
+        "NativeParentSpines.pair_label_menu_le",
+        "NativeParentSpines.support_card_lower",
+        "NativeParentSpines.original_cell_card_le",
+        "NativeParentSpines.mass_le_original_grid_cells",
+        "NativeParentSpines.fiber_parent_menu_le",
+        "NativeParentSpines.unit_degree_eq_card",
+        "NativeParentSpines.exists_uniform_parent_core",
+        "NativeParentSpines.parentSpine_anchor",
+        "NativeParentSpines.parentSpine_subset_owner",
+        "NativeParentSpines.parentSpine_same_cell",
+        "NativeParentSpines.parentSpine_point_richness",
+        "NativeParentSpines.spine_power_cancellation",
+        "NativeParentSpines.parent_power_cancellation",
+        "NativeParentSpines.exists_parent_core",
+        "NativeParentSpines.exists_native_parent_preparation"
+      ]
+    },
+    {
+      "short": "NativeContactSpineColumns",
+      "slug": "native_contact_spine_columns",
+      "source": "Theorems/Thm_StickyKakeya4_native_contact_spine_columns.lean",
+      "source_sha256": "1e44ee1879ae9a4184d2d8f614e941dd164a6a51a253be9727bf1115a726e950",
+      "readback": "verification/NativeContactSpineColumnsReadback.lean",
+      "declarations": [
+        "NativeContactSpineColumns.same_cell_graph_residual",
+        "NativeContactSpineColumns.tube_contact_residual",
+        "NativeContactSpineColumns.contact_overlap_budget",
+        "NativeContactSpineColumns.columns_from_coarse_contact_spines",
+        "NativeContactSpineColumns.columns_from_fine_contact_spines",
+        "NativeContactSpineColumns.columns_card_le_from_AD_contact_spines"
+      ]
+    },
+    {
+      "short": "NativeContactFractionalComposition",
+      "slug": "native_contact_fractional_composition",
+      "source": "Theorems/Thm_StickyKakeya4_native_contact_fractional_composition.lean",
+      "source_sha256": "179f186e71abe2655cc6a5abc25635b8a84ee176848e318a77263c2d54af7069",
+      "readback": "verification/NativeContactFractionalCompositionReadback.lean",
+      "declarations": [
+        "NativeContactFractionalComposition.exists_native_contact_fractional_refinement"
+      ]
+    },
+    {
+      "short": "NativeAngularChartSelection",
+      "slug": "native_angular_chart_selection",
+      "source": "Theorems/Thm_StickyKakeya4_native_angular_chart_selection.lean",
+      "source_sha256": "0eaa413d8603348c51a411991cd254f284983ed01ba6379046b35b1f03926390",
+      "readback": "verification/NativeAngularChartSelectionReadback.lean",
+      "declarations": [
+        "NativeAngularChartSelection.chart_unit",
+        "NativeAngularChartSelection.chartPoint_zero",
+        "NativeAngularChartSelection.chartPoint_involutive",
+        "NativeAngularChartSelection.chartTube_involutive",
+        "NativeAngularChartSelection.chartTube_unit_zero",
+        "NativeAngularChartSelection.chartPoint_injective",
+        "NativeAngularChartSelection.chartPoint_dist",
+        "NativeAngularChartSelection.chart_carrierBall",
+        "NativeAngularChartSelection.chart_AD",
+        "NativeAngularChartSelection.chart_inTube_iff",
+        "NativeAngularChartSelection.chart_grid",
+        "NativeAngularChartSelection.chart_grid_card",
+        "NativeAngularChartSelection.chart_trace",
+        "NativeAngularChartSelection.chart_trace_inverse",
+        "NativeAngularChartSelection.chart_footprints",
+        "NativeAngularChartSelection.chart_profile",
+        "NativeAngularChartSelection.chartSlope_bound",
+        "NativeAngularChartSelection.exists_heavy_chart",
+        "NativeAngularChartSelection.angleLabel_bounds",
+        "NativeAngularChartSelection.angle_menu_card",
+        "NativeAngularChartSelection.angularBudget_power",
+        "NativeAngularChartSelection.angularResolution_pos",
+        "NativeAngularChartSelection.workingLevel_mono",
+        "NativeAngularChartSelection.workingLevel_bounds",
+        "NativeAngularChartSelection.workingLevel_angle_scale",
+        "NativeAngularChartSelection.selectedSlope_bound",
+        "NativeAngularChartSelection.angleLabel_close",
+        "NativeAngularChartSelection.grid_scale_ancestor",
+        "NativeAngularChartSelection.grid_scale_nested",
+        "NativeAngularChartSelection.uniform_cell_card",
+        "NativeAngularChartSelection.uniform_joint_card",
+        "NativeAngularChartSelection.select_parent_core_angles",
+        "NativeAngularChartSelection.exists_native_chart_parent_preparation"
+      ]
+    },
+    {
+      "short": "NativeSeparatedFractionalPatches",
+      "slug": "native_separated_fractional_patches",
+      "source": "Theorems/Thm_StickyKakeya4_native_separated_fractional_patches.lean",
+      "source_sha256": "ab1471d8885b78728532c30bdfd90db1c85b9faffc2ffb44b6df160745d1171c",
+      "readback": "verification/NativeSeparatedFractionalPatchesReadback.lean",
+      "declarations": [
+        "NativeSeparatedFractionalPatches.pairPoint_dist",
+        "NativeSeparatedFractionalPatches.pairPoint_injective",
+        "NativeSeparatedFractionalPatches.pairPoint_realized",
+        "NativeSeparatedFractionalPatches.pairPoint_quantized",
+        "NativeSeparatedFractionalPatches.quantized_coordinate_movement",
+        "NativeSeparatedFractionalPatches.quantized_euclidean_movement",
+        "NativeSeparatedFractionalPatches.exists_separated_source_residue",
+        "NativeSeparatedFractionalPatches.quantized_image_proximity",
+        "NativeSeparatedFractionalPatches.isolate_original_parent_patches",
+        "NativeSeparatedFractionalPatches.exists_native_separated_fractional_refinement"
+      ]
+    },
+    {
+      "short": "RealScaleTubeProfileTransfer",
+      "slug": "real_scale_tube_profile_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_real_scale_tube_profile_transfer.lean",
+      "source_sha256": "69a45122141709afd90e1cd1605ce699ebfe401d6ccc9bb97b64f5c197b47546",
+      "readback": "verification/RealScaleTubeProfileTransferReadback.lean",
+      "declarations": [
+        "RealScaleTubeProfileTransfer.comparisonBox_card",
+        "RealScaleTubeProfileTransfer.grid_mem_comparisonBox",
+        "RealScaleTubeProfileTransfer.grid_card_comparison",
+        "RealScaleTubeProfileTransfer.inTube_mono",
+        "RealScaleTubeProfileTransfer.moved_real_tube_le_profile",
+        "RealScaleTubeProfileTransfer.exists_minimal_upper_level",
+        "RealScaleTubeProfileTransfer.exists_nested_upper_levels",
+        "RealScaleTubeProfileTransfer.stopped_moved_real_tube",
+        "RealScaleTubeProfileTransfer.shiftedBox_card",
+        "RealScaleTubeProfileTransfer.shifted_grid_mem",
+        "RealScaleTubeProfileTransfer.shifted_grid_card_le",
+        "RealScaleTubeProfileTransfer.normalized_grid",
+        "RealScaleTubeProfileTransfer.normalized_inTube",
+        "RealScaleTubeProfileTransfer.normalized_stopped_moved_real_tube"
+      ]
+    },
+    {
+      "short": "OriginalWSuccessorSelection",
+      "slug": "original_w_successor_selection",
+      "source": "Theorems/Thm_StickyKakeya4_original_w_successor_selection.lean",
+      "source_sha256": "c050b2fede3e193f13173d0f4bd7a7d257f496fd7cf305ea372a6857783983ff",
+      "readback": "verification/OriginalWSuccessorSelectionReadback.lean",
+      "declarations": [
+        "OriginalWSuccessorSelection.vertex_has_original_terminal_point",
+        "OriginalWSuccessorSelection.exists_deterministic_original_successors"
+      ]
+    },
+    {
+      "short": "OriginalWCoreDynamics",
+      "slug": "original_w_core_dynamics",
+      "source": "Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean",
+      "source_sha256": "27244c7f2a4f5f51532e772758683dd143b3ce44a364238b69fdba6789d100ae",
+      "readback": "verification/OriginalWCoreDynamicsReadback.lean",
+      "declarations": [
+        "OriginalWCoreDynamics.core_nonempty",
+        "OriginalWCoreDynamics.rep_spec",
+        "OriginalWCoreDynamics.originalNext_spec",
+        "OriginalWCoreDynamics.next_eq_self_of_not_mem",
+        "OriginalWCoreDynamics.next_spec",
+        "OriginalWCoreDynamics.next_preserves_height",
+        "OriginalWCoreDynamics.angles_nonempty",
+        "OriginalWCoreDynamics.witness_menu_mem_alphabet",
+        "OriginalWCoreDynamics.M_subset_alphabet",
+        "OriginalWCoreDynamics.exists_original_core_dynamics",
+        "OriginalWCoreDynamics.exists_original_total_core_dynamics"
+      ]
+    },
+    {
+      "short": "NativePlanarSlabNormConversion",
+      "slug": "native_planar_slab_norm_conversion",
+      "source": "Theorems/Thm_StickyKakeya4_native_planar_slab_norm_conversion.lean",
+      "source_sha256": "eebbf7f69d36546fa31d6c165ccab4313b2dec137ca47a6c5d79c821d13caa05",
+      "readback": "verification/NativePlanarSlabNormConversionReadback.lean",
+      "declarations": [
+        "NativePlanarSlabNormConversion.apply_eq_coordinates",
+        "NativePlanarSlabNormConversion.opNorm_le_abs_coefficients",
+        "NativePlanarSlabNormConversion.coefficientLength_ge_half",
+        "NativePlanarSlabNormConversion.normalized_coefficients_unit",
+        "NativePlanarSlabNormConversion.functional_slab_subset",
+        "NativePlanarSlabNormConversion.slab_law_conversion",
+        "NativePlanarSlabNormConversion.coefficientLength_pos"
+      ]
+    },
+    {
+      "short": "OriginalHeightIntervalCap",
+      "slug": "original_height_interval_cap",
+      "source": "Theorems/Thm_StickyKakeya4_original_height_interval_cap.lean",
+      "source_sha256": "f35b2f099df86afc3797d4437013555db1b6d1e9dea8fd7e63cbd44cef6164e0",
+      "readback": "verification/OriginalHeightIntervalCapReadback.lean",
+      "declarations": [
+        "OriginalHeightIntervalCap.floor_original_mesh",
+        "OriginalHeightIntervalCap.original_floor_injective",
+        "OriginalHeightIntervalCap.floor_interval_card",
+        "OriginalHeightIntervalCap.original_interval_cap_add_two",
+        "OriginalHeightIntervalCap.original_interval_cap",
+        "OriginalHeightIntervalCap.density_ratio",
+        "OriginalHeightIntervalCap.original_height_cap_and_ratio"
+      ]
+    },
+    {
+      "short": "OriginalWPhysicalDisplacement",
+      "slug": "original_w_physical_displacement",
+      "source": "Theorems/Thm_StickyKakeya4_original_w_physical_displacement.lean",
+      "source_sha256": "c73ade2387449495b770c1cd88319ef1967ef24c30d1cfdf1e0d689113e522f0",
+      "readback": "verification/OriginalWPhysicalDisplacementReadback.lean",
+      "declarations": [
+        "OriginalWPhysicalDisplacement.incidence_chord_error",
+        "OriginalWPhysicalDisplacement.path_residual_bound",
+        "OriginalWPhysicalDisplacement.witness_two_leg_residual",
+        "OriginalWPhysicalDisplacement.difference_approximation_bound",
+        "OriginalWPhysicalDisplacement.witness_coarse_displacement",
+        "OriginalWPhysicalDisplacement.same_tube_same_height_error",
+        "OriginalWPhysicalDisplacement.fixed_representative_displacement",
+        "OriginalWPhysicalDisplacement.floor_approximation",
+        "OriginalWPhysicalDisplacement.scalar_grid_approximation",
+        "OriginalWPhysicalDisplacement.planar_grid_approximation",
+        "OriginalWPhysicalDisplacement.terminal_grid_component_gap",
+        "OriginalWPhysicalDisplacement.scalar_terminal_grid_gap",
+        "OriginalWPhysicalDisplacement.planar_terminal_grid_gap",
+        "OriginalWPhysicalDisplacement.witness_time_gaps",
+        "OriginalWPhysicalDisplacement.scalar_native_witness_displacement",
+        "OriginalWPhysicalDisplacement.planar_native_witness_displacement"
+      ]
+    },
+    {
+      "short": "OriginalWPhysicalGrowth",
+      "slug": "original_w_physical_growth",
+      "source": "Theorems/Thm_StickyKakeya4_original_w_physical_growth.lean",
+      "source_sha256": "808a48adcf18cbe3de0020fd0f59d1f9cae687bb99c738ae0075c0b8ab82cfa2",
+      "readback": "verification/OriginalWPhysicalGrowthReadback.lean",
+      "declarations": [
+        "OriginalWPhysicalGrowth.scalar_constructed_step_displacement",
+        "OriginalWPhysicalGrowth.planar_constructed_step_displacement",
+        "OriginalWPhysicalGrowth.original_heights_nonempty",
+        "OriginalWPhysicalGrowth.scalar_growth_of_constructed_core",
+        "OriginalWPhysicalGrowth.planar_decoded_alphabet_bound",
+        "OriginalWPhysicalGrowth.planar_growth_of_constructed_core",
+        "OriginalWPhysicalGrowth.normalize_original_escape"
+      ]
+    },
+    {
+      "short": "NativeOriginalWEndToEnd",
+      "slug": "native_original_w_end_to_end",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_w_end_to_end.lean",
+      "source_sha256": "e929c14ee271399d37e7846e19a641ea910b29e31cb53ad1ee99af58046750f0",
+      "readback": "verification/NativeOriginalWEndToEndReadback.lean",
+      "declarations": [
+        "NativeOriginalWEndToEnd.scalar_unit_functional_slab",
+        "NativeOriginalWEndToEnd.scalar_original_w_growth",
+        "NativeOriginalWEndToEnd.planar_original_w_growth"
+      ]
+    },
+    {
+      "short": "RetainedHeightGrowthNormalization",
+      "slug": "retained_height_growth_normalization",
+      "source": "Theorems/Thm_StickyKakeya4_retained_height_growth_normalization.lean",
+      "source_sha256": "f55f371949d99d8a59904fe9ebea30c3777a87fbacb3c581c0a1643daa076add",
+      "readback": "verification/RetainedHeightGrowthNormalizationReadback.lean",
+      "declarations": [
+        "RetainedHeightGrowthNormalization.scalar_normalized_growth",
+        "RetainedHeightGrowthNormalization.scalar_output_lower_bound",
+        "RetainedHeightGrowthNormalization.planar_normalized_growth",
+        "RetainedHeightGrowthNormalization.planar_output_lower_bound"
+      ]
+    }
+  ],
+  "declarations": [
+    {
+      "declaration": "NativeParentSpines.owner_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.mem_pairedMenu_of",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.pair_label_image_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.pairedMenu_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.pair_label_menu_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.support_card_lower",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.original_cell_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.mass_le_original_grid_cells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.fiber_parent_menu_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.unit_degree_eq_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.exists_uniform_parent_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.parentSpine_anchor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.parentSpine_subset_owner",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.parentSpine_same_cell",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.parentSpine_point_richness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.spine_power_cancellation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.parent_power_cancellation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.exists_parent_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeParentSpines.exists_native_parent_preparation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeContactSpineColumns.same_cell_graph_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeContactSpineColumns.tube_contact_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeContactSpineColumns.contact_overlap_budget",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeContactSpineColumns.columns_from_coarse_contact_spines",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeContactSpineColumns.columns_from_fine_contact_spines",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeContactSpineColumns.columns_card_le_from_AD_contact_spines",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeContactFractionalComposition.exists_native_contact_fractional_refinement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_unit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chartPoint_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chartPoint_involutive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chartTube_involutive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chartTube_unit_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chartPoint_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chartPoint_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_carrierBall",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_AD",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_inTube_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_grid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_grid_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_trace",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_trace_inverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_footprints",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chart_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.chartSlope_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.exists_heavy_chart",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.angleLabel_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.angle_menu_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.angularBudget_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.angularResolution_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.workingLevel_mono",
+      "axioms": [
+        "propext"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.workingLevel_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.workingLevel_angle_scale",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.selectedSlope_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.angleLabel_close",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.grid_scale_ancestor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.grid_scale_nested",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.uniform_cell_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.uniform_joint_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.select_parent_core_angles",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeAngularChartSelection.exists_native_chart_parent_preparation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.pairPoint_dist",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.pairPoint_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.pairPoint_realized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.pairPoint_quantized",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.quantized_coordinate_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.quantized_euclidean_movement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.exists_separated_source_residue",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.quantized_image_proximity",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.isolate_original_parent_patches",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeSeparatedFractionalPatches.exists_native_separated_fractional_refinement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.comparisonBox_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.grid_mem_comparisonBox",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.grid_card_comparison",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.inTube_mono",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.moved_real_tube_le_profile",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.exists_minimal_upper_level",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.exists_nested_upper_levels",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.stopped_moved_real_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.shiftedBox_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.shifted_grid_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.shifted_grid_card_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.normalized_grid",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.normalized_inTube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RealScaleTubeProfileTransfer.normalized_stopped_moved_real_tube",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWSuccessorSelection.vertex_has_original_terminal_point",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWSuccessorSelection.exists_deterministic_original_successors",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.core_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.rep_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.originalNext_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.next_eq_self_of_not_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.next_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.next_preserves_height",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.angles_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.witness_menu_mem_alphabet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.M_subset_alphabet",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.exists_original_core_dynamics",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWCoreDynamics.exists_original_total_core_dynamics",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarSlabNormConversion.apply_eq_coordinates",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarSlabNormConversion.opNorm_le_abs_coefficients",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarSlabNormConversion.coefficientLength_ge_half",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarSlabNormConversion.normalized_coefficients_unit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarSlabNormConversion.functional_slab_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarSlabNormConversion.slab_law_conversion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativePlanarSlabNormConversion.coefficientLength_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightIntervalCap.floor_original_mesh",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightIntervalCap.original_floor_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightIntervalCap.floor_interval_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightIntervalCap.original_interval_cap_add_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightIntervalCap.original_interval_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightIntervalCap.density_ratio",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalHeightIntervalCap.original_height_cap_and_ratio",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.incidence_chord_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.path_residual_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.witness_two_leg_residual",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.difference_approximation_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.witness_coarse_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.same_tube_same_height_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.fixed_representative_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.floor_approximation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.scalar_grid_approximation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.planar_grid_approximation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.terminal_grid_component_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.scalar_terminal_grid_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.planar_terminal_grid_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.witness_time_gaps",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.scalar_native_witness_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalDisplacement.planar_native_witness_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalGrowth.scalar_constructed_step_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalGrowth.planar_constructed_step_displacement",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalGrowth.original_heights_nonempty",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalGrowth.scalar_growth_of_constructed_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalGrowth.planar_decoded_alphabet_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalGrowth.planar_growth_of_constructed_core",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "OriginalWPhysicalGrowth.normalize_original_escape",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalWEndToEnd.scalar_unit_functional_slab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalWEndToEnd.scalar_original_w_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "NativeOriginalWEndToEnd.planar_original_w_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RetainedHeightGrowthNormalization.scalar_normalized_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RetainedHeightGrowthNormalization.scalar_output_lower_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RetainedHeightGrowthNormalization.planar_normalized_growth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    },
+    {
+      "declaration": "RetainedHeightGrowthNormalization.planar_output_lower_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "log": "verification/wz-physical-native-axioms.log"
+    }
+  ],
+  "declaration_count": 140,
+  "strict_source_and_proper_import_readbacks": "passed",
+  "shared_import_readback": "verification/WZPhysicalNativeReadback.lean",
+  "shared_import_log": "verification/wz-physical-native-axioms.log",
+  "default_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9011,
+    "log": "verification/wz302-default-build.log",
+    "command": "STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "source_base_tree": "caad30efd95ad41e6c2bd80302bdca0f9a3013a4",
+    "module_count": 302,
+    "source_snapshot": "verification/wz302-source-snapshot.json",
+    "scope": "Full default build of all 302 modules; all previous 288 source hashes unchanged"
+  },
+  "prior_288_module_hashes_unchanged": true,
+  "current_module_count": 302,
+  "main_theorem_complete": false,
+  "whole_Lemma53_lean_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "scope_note": "docs/WZ_PHYSICAL_NATIVE_CONSTRUCTION.md"
+}

@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_original_parent_union
+
+#print axioms NativeOriginalParentUnion.originalPullback_image
+#print axioms NativeOriginalParentUnion.originalPullback_subset
+#print axioms NativeOriginalParentUnion.originalPullback_card
+#print axioms NativeOriginalParentUnion.glue_parent_subsets
+#print axioms NativeOriginalParentUnion.isolate_labelled_parents
+#print axioms NativeOriginalParentUnion.Selection.retain_original_points

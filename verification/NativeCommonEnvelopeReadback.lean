@@ -1,0 +1,18 @@
+import Theorems.Thm_StickyKakeya4_native_common_envelope
+
+#print axioms NativeCommonEnvelope.productBound_eq_envelope
+#print axioms NativeCommonEnvelope.profileCoefficient_ge_one
+#print axioms NativeCommonEnvelope.profileBound_ge_one
+#print axioms NativeCommonEnvelope.ambientBound_ge_one
+#print axioms NativeCommonEnvelope.columnBound_ge_one
+#print axioms NativeCommonEnvelope.tubeBound_ge_one
+#print axioms NativeCommonEnvelope.densityBound_ge_one
+#print axioms NativeCommonEnvelope.interpolationBound_ge_one
+#print axioms NativeCommonEnvelope.comparisonBound_ge_one
+#print axioms NativeCommonEnvelope.refinementCost_ge_one
+#print axioms NativeCommonEnvelope.retentionCost_ge_one
+#print axioms NativeCommonEnvelope.fixedCoefficient_nonneg
+#print axioms NativeCommonEnvelope.actual_cost_bounds
+#print axioms NativeCommonEnvelope.retention_le_comparison_density
+#print axioms NativeCommonEnvelope.product_dominates_comparison_density
+#print axioms NativeCommonEnvelope.product_dominates_tube

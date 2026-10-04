@@ -1,0 +1,78 @@
+Started UTC: 2026-10-04T05:30:20.996104+00:00
+Command: /workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true verification/OriginalParentRefinementReadback.lean
+'NativeOriginalTubeFamilyCaller.exists_native_original_tube_family_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalCoarseTubeFamily.exists_native_original_coarse_family_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalNonemptyCoarseFamily.exists_native_original_nonempty_coarse_family_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeUniformOriginalCoarseFamily.exists_uniform_original_nonempty_coarse_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalFixedInternalEta.original_frostman_to_fixed_internal_eta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalFixedInternalEta.fixed_internal_error_power_le_external' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalFixedInternalEta.original_pair_error_to_external_eta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalFixedInternalEta.original_pair_retention_to_external_eta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTubeSliceOccupancy.same_physical_cell_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeSliceOccupancy.physical_cell_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeSliceOccupancy.separated_rectangle_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeSliceOccupancy.pointsAt_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeSliceOccupancy.pointsAt_card_le_of_incidenceResidual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTubeSliceOccupancy.occupancy_constant_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeSliceOccupancy.pointsAt_card_le_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeSliceOccupancy.occupancy_rpow_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTubeSliceOccupancy.pointsAt_card_le_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellChartGeometry.coordinate_abs_le_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellChartGeometry.slope_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellChartGeometry.raw_graph_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellChartGeometry.raw_height_from_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellChartGeometry.tube_point_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellChartGeometry.cellCenter_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellChartGeometry.chartIndex_injective' depends on axioms: [propext, Quot.sound]
+'NativeOriginalCellChartGeometry.chart_center_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellChartGeometry.chart_center_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellChartGeometry.normalized_cell_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentSelection.chartIncidences_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentSelection.backbone_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentSelection.parentDensity_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentSelection.parentDensity_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentSelection.full_backbone_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentSelection.exists_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentSelection.floor_parent_slope_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentPhysicalData.exists_common_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentPhysicalData.original_cell_in_tube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentPhysicalData.original_cell_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentPhysicalData.used_subset_backbone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentPhysicalData.data_hypotheses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentPhysicalData.mem_data_incidences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentPhysicalData.exists_physical_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNearExtremalPhysicalParent.backbone_parameter_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNearExtremalPhysicalParent.oldSupport_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNearExtremalPhysicalParent.original_multiplicity_le_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNearExtremalPhysicalParent.original_multiplicity_le_parent_ennreal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNearExtremalPhysicalParent.exists_near_extremal_physical_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNearSourceSlicePopulation.original_subset_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNearSourceSlicePopulation.near_source_slice_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+Confirmed exit code: 0

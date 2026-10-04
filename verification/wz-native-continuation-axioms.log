@@ -1,0 +1,233 @@
+Started UTC: 2026-10-04T04:16:12.858439+00:00
+Command: /workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean -j1 -DautoImplicit=false -DwarningAsError=true verification/NativeContinuationReadback.lean
+'NativeScalarCoverAD.cell_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScalarCoverAD.card_le_capacity_mul_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScalarCoverAD.point_AD_to_cover_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScalarCoverAD.literal_to_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScalarCoverAD.nearly_literal_to_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePlanarCoverLemma53.relative_dyadic_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePlanarCoverLemma53.native_quarter_square_cover_lemma53' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeEuclideanCoverInput.packingBound_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEuclideanCoverInput.inputConstant_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEuclideanCoverInput.euclidean_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEuclideanCoverInput.cell_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEuclideanCoverInput.subset_card_le_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEuclideanCoverInput.quarter_square_euclidean_diameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEuclideanCoverInput.native_AD_of_euclidean_cover_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterSquareCoverSource.fixed_factor_absorption' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterSquareCoverSource.point_AD_mono_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterSquareCoverSource.quarter_square_cover_source_alignment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWeightedPointPopulations.projectedWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPointPopulations.projectedWeight_mass_preimage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWeightedPointPopulations.degree_eq_projectedWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPointPopulations.projected_class_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPointPopulations.cardinality_uniform_of_weighted_degrees' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSliceGridGeometry.mem_cylinder_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceGridGeometry.mem_gridBall_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceGridGeometry.cylinder_subset_gridBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceGridGeometry.abs_ediv_sub_ediv_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceGridGeometry.coarseSpatial_mem_box_of_mem_gridBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSliceGridGeometry.gridBall_coarseSpatial_card_le_27' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceGridGeometry.gridBall_card_le_27_mul_cylinder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceGridGeometry.gridBall_card_comparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalPullback_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalPullback_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalPullback_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalPullback_bins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalPullback_subset_kept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalPullback_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalPullback_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalPullback_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.originalWeight_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalSlicePopulation.refine_original_incidence_labels' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalSliceBallPopulation.original_slice_ball_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VectorGraphCollisionEnergy.same_planar_grid_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorGraphCollisionEnergy.graph_grid_collisions_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorGraphCollisionEnergy.original_graph_cover_near_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorGraphCollisionEnergy.original_ABC_cover_near_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorLabelledEnergyBin.labelled_integer_collisions_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorLabelledEnergyBin.labelled_planar_near_energy_le_fortynine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VectorLabelledEnergyBin.exists_vector_energy_preserving_bin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorLabelledEnergyBin.exists_vector_graph_energy_bin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorIntegerBinRealBSG.synthesis_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorIntegerBinRealBSG.real_grid_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorIntegerBinRealBSG.real_grid_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorIntegerBinRealBSG.collisions_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorIntegerBinRealBSG.integer_energy_le_original_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorIntegerBinRealBSG.integer_bin_planar_dyadic_bsg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorWholeFiberLift.selectedPairs_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorWholeFiberLift.selectedPairs_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorWholeFiberLift.selectedPairs_whole_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorWholeFiberLift.selectedPairs_fiber_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorWholeFiberLift.selectedPairs_weighted_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorWholeFiberLift.selectedPairs_relative_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorWholeFiberLift.selectedPairs_original_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorProductCover.rounded_grid_add_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorProductCover.roundPoint_grid_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorProductCover.roundPoint_grid_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorProductCover.grid_triple_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorProductCover.actual_product_triple_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorBinSelectionTools.selectedCodes_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorBinSelectionTools.selectedCodes_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorBinSelectionTools.selectedCodes_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorBinSelectionTools.integer_addEnergy_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorBinSelectionTools.normalized_bin_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorBinSelectionTools.rounded_point_box_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorBinSelectionTools.coupled_bin_grid_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphWeightedOriginalFiberBin.graphPiece_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphWeightedOriginalFiberBin.collisions_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GraphWeightedOriginalFiberBin.exists_graph_weighted_energy_bin' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VectorGraphWeightedRounding.original_graph_cover_grid_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VectorGraphWeightedRounding.graph_grid_collisions_near_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VectorGraphWeightedRounding.rounded_graph_collisions_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorGraphWeightedRounding.original_graph_cover_rounded_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'VectorGraphWeightedRounding.exists_vector_graph_energy_bin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorOriginalGraphBSG.dyadic_half_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorOriginalGraphBSG.original_vector_graph_dyadic_bsg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorOriginalGraphBSG.original_product_value_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'VectorOriginalGraphBSG.original_ABC_dyadic_bsg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAnnularGraphDeletion.physical_pair_tube_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAnnularGraphDeletion.bad_pair_graph_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAnnularGraphDeletion.native_original_annular_graph_deletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalAnnularOffRootMass.annular_scales_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAnnularOffRootMass.original_distance_annulus_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAnnularOffRootMass.original_near_root_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnnularParameterBudget.native_annular_loss_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnnularParameterBudget.native_annular_top_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnnularParameterBudget.original_inner_ball_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnnularParameterBudget.exists_original_menu_power_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalOffRootMass.native_original_off_root_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalStep2Caller.exists_native_original_step2_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalRetainedTubeBallProfile.retained_original_wide_tube_ball_profile' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeQuarterScaleParameters.exists_small_power_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterScaleParameters.quarter_representative_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterScaleParameters.quarter_error_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterScaleParameters.quarter_affine_source_buffer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterScaleParameters.projection_scalar_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterScaleParameters.exists_projection_resolution_and_scales' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeQuarterScaleParameters.exists_quarter_parameter_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeQuarterScaleParameters.fraction_exponent_choice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterScaleParameters.exists_original_eta_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterScaleParameters.absorb_original_fraction_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterScaleParameters.fixed_upper_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAngularExponentRange.original_angular_card_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAngularExponentRange.original_angular_exponent_lt_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalAngularExponentRange.uniform_angular_mesh_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BoundedOriginalAngleTubeTransfer.original_complex_norm_le_two_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BoundedOriginalAngleTubeTransfer.original_physical_weighted_sine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'BoundedOriginalAngleTubeTransfer.original_bounded_same_root_support_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTwoHopClassTubeTransfer.original_two_hop_angle_support_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTwoHopClassTubeTransfer.original_reverse_forward_class_support_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RadialAnglePeriodicCover.small_sine_five_intervals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalRadialSineGeometry.original_scale_le_complex_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalRadialSineGeometry.original_sine_residual_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalRadialSineGeometry.physical_tube_small_sine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RadialAngleBinIncidence.separated_bins_small_sine_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RadialAngleBinIncidence.native_small_sine_bin_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAngularTubeIncidence.original_point_tube_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalAngularTubeIncidence.original_point_tube_incidence_euclidean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalAngularClassPopulation.root_original_angle_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalAngularClassPopulation.original_forward_class_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalAngularPruningFromPhysical.original_reverse_class_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalAngularPruningFromPhysical.exists_original_angular_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeDyadicMeshSelection.exists_nearby_dyadic_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDyadicMeshSelection.balanced_dyadic_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDyadicMeshSelection.original_KT_at_finer_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDyadicMeshSelection.original_mass_at_nearby_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDyadicMeshSelection.error_ratio_at_nearby_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDyadicMeshSelection.exists_balanced_nearby_dyadic_mesh' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeDyadicMeshSelection.exists_dyadic_original_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCutoffSelection.exists_native_mesh_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCutoffSelection.quarter_angular_packing_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalCutoffSelection.exists_quarter_mesh_and_packing_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePlanarABCToBSG.actual_output_grid_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePlanarABCToBSG.actual_planar_input_dyadic_bsg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePlanarABCToBSG.original_density_cover_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalEuclideanAffineAvoidance.length2_le_twice_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalEuclideanAffineAvoidance.original_euclidean_avoidance_sup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalEuclideanAffineAvoidance.quarter_original_euclidean_affine_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalTwoHopPairFamily.mem_two_hop_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTwoHopPairFamily.original_two_hop_pair_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalTwoHopPairFamily.original_two_hop_pair_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterBalancedMesh.balanced_quarter_mesh_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterBalancedMesh.exists_balanced_quarter_dyadic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterBalancedMesh.native_strip_width' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterBalancedMesh.native_line_fraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterBalancedMesh.native_power_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuarterBalancedMesh.original_B_mass_at_balanced_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePlanarABCFixedExponent.actual_angular_constant_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePlanarABCFixedExponent.exists_fixed_exponent_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePlanarABCFixedExponent.exists_zeta_exponent_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Confirmed exit code: 0

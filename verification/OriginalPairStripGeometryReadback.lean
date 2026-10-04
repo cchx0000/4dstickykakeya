@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_original_pair_strip_geometry
+
+#print axioms OriginalPairStripGeometry.scale_pos
+#print axioms OriginalPairStripGeometry.original_pair_normalized
+#print axioms OriginalPairStripGeometry.original_pair_on_line
+#print axioms OriginalPairStripGeometry.affine_pair_line_residual
+#print axioms OriginalPairStripGeometry.near_original_pair_line

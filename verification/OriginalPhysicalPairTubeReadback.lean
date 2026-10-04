@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_original_physical_pair_tube
+
+#print axioms OriginalPhysicalPairTube.coordinates_le_euclidean
+#print axioms OriginalPhysicalPairTube.physical_pair_tube_subset
+#print axioms OriginalPhysicalPairTube.physical_pair_tube_card

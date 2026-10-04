@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_original_ad_alignment
+
+#print axioms NativeOriginalADAlignment.exists_original_AD_near_alignment

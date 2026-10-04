@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_frostman
+
+#print axioms FinitePlaneProjectionGrid.actual_KT1_collision_energy_at_scale
+#print axioms FinitePlaneProjectionGrid.scaleEnergy_nonneg
+#print axioms FinitePlaneProjectionGrid.scaleEnergy_budget
+#print axioms FinitePlaneProjectionGrid.heavyScale_subset
+#print axioms FinitePlaneProjectionGrid.badScales_subset
+#print axioms FinitePlaneProjectionGrid.retainedScales_subset
+#print axioms FinitePlaneProjectionGrid.heavyScale_mass
+#print axioms FinitePlaneProjectionGrid.badScales_mass
+#print axioms FinitePlaneProjectionGrid.retainedScales_cell_bound
+#print axioms FinitePlaneProjectionGrid.retainedScales_half

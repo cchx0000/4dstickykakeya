@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_full_normalized_ambient_ad
+
+#print axioms FullNormalizedAmbientAD.realInterpolationLoss_ge_one
+#print axioms FullNormalizedAmbientAD.raw_ball_le_actual
+#print axioms FullNormalizedAmbientAD.actual_ball_le_raw
+#print axioms FullNormalizedAmbientAD.raw_real_ball_bounds
+#print axioms FullNormalizedAmbientAD.ambient_normalized_AD

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_original_phase_grid_error
+
+#print axioms OriginalPhaseGridError.scalar_floor_error
+#print axioms OriginalPhaseGridError.grid_floor_error
+#print axioms OriginalPhaseGridError.original_phase_label_identity
+#print axioms OriginalPhaseGridError.original_phase_grid_error
+#print axioms OriginalPhaseGridError.rounded_phase_relation

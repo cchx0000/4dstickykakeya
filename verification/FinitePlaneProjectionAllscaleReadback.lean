@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_finite_plane_projection_allscale
+
+#print axioms FinitePlaneProjectionGrid.allscaleLoss_pos
+#print axioms FinitePlaneProjectionGrid.allscaleLoss_ge
+#print axioms FinitePlaneProjectionGrid.projectedBall_wide_bound
+#print axioms FinitePlaneProjectionGrid.exists_common_scale_energies
+#print axioms FinitePlaneProjectionGrid.exists_common_allscale_original_subsets
+#print axioms FinitePlaneProjectionGrid.relative_ball_bound_of_original_density

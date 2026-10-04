@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_difference_core_iterated_cover
+
+#print axioms DifferenceCoreIteratedCover.difference_core_neg
+#print axioms DifferenceCoreIteratedCover.difference_core_growth
+#print axioms DifferenceCoreIteratedCover.difference_core_difference_growth
+#print axioms DifferenceCoreIteratedCover.covered_iterated_sum_difference

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_original_ancestor_counts
+
+#print axioms NativeOriginalAncestorCounts.scalar_original_ancestor_count
+#print axioms NativeOriginalAncestorCounts.planar_original_ancestor_count

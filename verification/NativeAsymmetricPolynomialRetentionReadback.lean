@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_asymmetric_polynomial_retention
+
+#print axioms NativeAsymmetricPolynomialRetention.retained_product_lower
+#print axioms NativeAsymmetricPolynomialRetention.original_x_retention
+#print axioms NativeAsymmetricPolynomialRetention.growth_power_budget
+#print axioms NativeAsymmetricPolynomialRetention.original_y_retention
+#print axioms NativeAsymmetricPolynomialRetention.iterated_cost_budget

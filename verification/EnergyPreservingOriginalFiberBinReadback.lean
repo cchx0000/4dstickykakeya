@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_energy_preserving_original_fiber_bin
+
+#print axioms EnergyPreservingOriginalFiberBin.exists_energy_preserving_bin
