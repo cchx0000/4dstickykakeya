@@ -6,6 +6,9 @@ cd "$(dirname "$0")/.."
 jobs="${STICKY_BUILD_JOBS:-2}"
 [[ "$jobs" =~ ^[1-9][0-9]*$ ]] || { echo 'STICKY_BUILD_JOBS must be positive' >&2; exit 2; }
 command -v flock >/dev/null
+threads="${STICKY_LEAN_THREADS:-1}"
+[[ "$threads" =~ ^[1-9][0-9]*$ ]] || { echo 'STICKY_LEAN_THREADS must be positive' >&2; exit 2; }
+export STICKY_LEAN_THREADS="$threads"
 real_lean="${STICKY_LEAN_BINARY:-$(elan which lean)}"
 real_root="$(dirname "$(dirname "$real_lean")")"
 shim="$(mktemp -d "${TMPDIR:-/tmp}/sticky-lean-build.XXXXXX")"
@@ -29,7 +32,7 @@ case "${1:-}" in
 esac
 export LEAN_NUM_THREADS="${STICKY_LEAN_THREADS:-1}"
 exec python3 "$STICKY_LEAN_SLOT" --slots "$STICKY_BUILD_JOBS" \
-  --lock-dir "$STICKY_BUILD_LOCKS" -- "$STICKY_REAL_LEAN" "$@"
+  --lock-dir "$STICKY_BUILD_LOCKS" -- "$STICKY_REAL_LEAN" "-j${STICKY_LEAN_THREADS:-1}" "$@"
 WRAPPER
 chmod +x "$shim/bin/lean"
 export STICKY_REAL_LEAN="$real_lean" STICKY_BUILD_JOBS="$jobs"
@@ -40,6 +43,6 @@ if [[ "${1:-}" == --check-cache ]]; then
   shift
   "$real_root/bin/lake" --no-build build "$@"
 else
-  printf 'Using official Lean through a %s-compiler semaphore\n' "$jobs"
+  printf 'Using official Lean through a %s-compiler semaphore, %s thread(s) per compiler\n' "$jobs" "$threads"
   "$real_root/bin/lake" build "$@"
 fi

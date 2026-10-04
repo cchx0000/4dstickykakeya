@@ -7,6 +7,12 @@ No new regularity, routing certificate, or energy bound is a final hypothesis.
 See [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md) for exact references.
 The earlier eight-item proposal is preserved in `PROVE2ME_TARGETS.md`.
 
+## 2026-10-04 weak-profile robust projection: canonical verification pending
+
+Ninety-six new source modules contain 273 staging-verified public proofs. The scalar positive-power expansion and original-source robust projection endpoint choose their exponents and cutoffs before all source data; the latter expands every sufficiently dense original query for most original slopes. Original-edge BSG, actual fresh queries, explicit power budgets and weighted disjoint exhaustion are constructed. The new batch also includes literal all-radius 3D source reduction, fixed-K0 coarse admission/full-coarse extremal bounds and original macro source consumers. The 999-module canonical build and fresh canonical imported readback are pending; the last completed full checkpoint remains 903 modules.
+
+Full A.3 requires its separate single-scale-tube-to-full-dual-profile and actual shading-incidence reduction. A.4/configuration assembly, local-parent upper bounds and the final volume theorem remain open. The published-volume axiom is unchanged. See [scope](docs/WZ_ORIGINAL_WEAK_SCALAR_EXPANSION.md).
+
 ## 2026-10-04 original owner and polynomial checkpoint
 
 The canonical 903-module build passed 9,612 jobs with exit 0. Fifty-six new modules add 244 public proofs; all fresh imported closures use only foundational axioms. All previous 847 source hashes are unchanged. Cumulative unique checked declarations: 4,944.

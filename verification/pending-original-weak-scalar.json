@@ -1,0 +1,1436 @@
+{
+  "created_utc": "2026-10-04T14:45:01.596686+00:00",
+  "status": "staging strict and imported checks passed; canonical full build and fresh imported readback pending",
+  "module_count": 999,
+  "new_module_count": 96,
+  "new_public_proofs": 273,
+  "modules": [
+    {
+      "short": "OriginalDensePolynomialCoefficients",
+      "slug": "original_dense_polynomial_coefficients",
+      "source": "Theorems/Thm_StickyKakeya4_original_dense_polynomial_coefficients.lean",
+      "declarations": [
+        "OriginalDensePolynomialCoefficients.exists_fixed_original_dense_polynomial_coefficients"
+      ],
+      "preintegration_source_sha256": "3a5f3b834ebdd8cea2d1bc212f6621c5ee922aae757a4d542f4ccca51b334b29",
+      "preintegration_manifest": "OriginalWeakScalarGrowth.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalDensePolynomialCoefficients.strict.log",
+      "source_sha256": "553cc36a9c3c63ca90eb47cb8e4568e918d4163bde984577e1f16a24e4fec3af",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalWeakScalarWordCost",
+      "slug": "original_weak_scalar_word_cost",
+      "source": "Theorems/Thm_StickyKakeya4_original_weak_scalar_word_cost.lean",
+      "declarations": [
+        "OriginalWeakScalarWordCost.costConstant_pos",
+        "OriginalWeakScalarWordCost.original_self_cost_power",
+        "OriginalWeakScalarWordCost.original_monomial_cost_power",
+        "OriginalWeakScalarWordCost.original_word_cost_power"
+      ],
+      "preintegration_source_sha256": "82a2253c13dd8c00b11f39ea2a65fb867243ff7c4d64d31ed56a0c63ee71506e",
+      "preintegration_manifest": "OriginalWeakScalarGrowth.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalWeakScalarWordCost.strict.log",
+      "source_sha256": "711feee1ce010a2a127f9fc21c56f565a858ffa32d896119fef5d4f8d886ecb3",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalWeakScalarFiniteComparison",
+      "slug": "original_weak_scalar_finite_comparison",
+      "source": "Theorems/Thm_StickyKakeya4_original_weak_scalar_finite_comparison.lean",
+      "declarations": [
+        "OriginalWeakScalarFiniteComparison.original_sum_cover_eq",
+        "OriginalWeakScalarFiniteComparison.original_cells_card_of_separated",
+        "OriginalWeakScalarFiniteComparison.exists_original_weak_scalar_comparison"
+      ],
+      "preintegration_source_sha256": "65e85b4e7bb7c74328e76582a1e4ad074d4d10ac12727abbbb281873c84a3985",
+      "preintegration_manifest": "OriginalWeakScalarGrowth.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalWeakScalarFiniteComparison.strict.log",
+      "source_sha256": "18d10403b14578798f70b117cf7ec7345dda2d45fe4dbd6950a4d7519acf2e61",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalWeakScalarPowerComparison",
+      "slug": "original_weak_scalar_power_comparison",
+      "source": "Theorems/Thm_StickyKakeya4_original_weak_scalar_power_comparison.lean",
+      "declarations": [
+        "OriginalWeakScalarPowerComparison.original_zero_removal_power",
+        "OriginalWeakScalarPowerComparison.original_profile_normalization_budget",
+        "OriginalWeakScalarPowerComparison.original_power_obstruction_upper"
+      ],
+      "preintegration_source_sha256": "2176dd729f17c36e27d8c79f35bc0f28d1aa33a36fc6372321057db8fb757981",
+      "preintegration_manifest": "OriginalWeakScalarGrowth.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalWeakScalarPowerComparison.strict.log",
+      "source_sha256": "56dbfdb73fa7f5f9e7a292569c75c28732d16a98b4f6717aa0d4e7fb91b8fff5",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalWeakScalarPositivePower",
+      "slug": "original_weak_scalar_positive_power",
+      "source": "Theorems/Thm_StickyKakeya4_original_weak_scalar_positive_power.lean",
+      "declarations": [
+        "OriginalWeakScalarPositivePower.exists_original_weak_scalar_growth"
+      ],
+      "preintegration_source_sha256": "25a7fd0ff104d26249e511284dff044572da35815f0d2ee89a0f4c7ad381faca",
+      "preintegration_manifest": "OriginalWeakScalarGrowth.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalWeakScalarPositivePower.strict.log",
+      "source_sha256": "a9d3f1034dc8749d9b9da65633fd87e8cf1c68c2067dd1cddfd9950f24c7954a",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalWeakScalarPowerParameters",
+      "slug": "original_weak_scalar_power_parameters",
+      "source": "Theorems/Thm_StickyKakeya4_original_weak_scalar_power_parameters.lean",
+      "declarations": [
+        "OriginalWeakScalarPowerParameters.exists_original_weak_power_margins",
+        "OriginalWeakScalarPowerParameters.original_normalization_exponent",
+        "OriginalWeakScalarPowerParameters.exists_original_weak_power_cutoff"
+      ],
+      "preintegration_source_sha256": "09e8d9f182bebb66a8a4c83961f25c6ded334006369722d30503d2e1ffcc4ec6",
+      "preintegration_manifest": "OriginalWeakScalarPowerParameters.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalWeakScalarPowerParameters.strict.log",
+      "source_sha256": "2ea8fe654c04ad734c44dbcdd5b56ffec4961973095b4f6eea587a1b7c2ff592",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalEdgeRetainingBSG",
+      "slug": "original_edge_retaining_bsg",
+      "source": "Theorems/Thm_StickyKakeya4_original_edge_retaining_bsg.lean",
+      "declarations": [
+        "OriginalGraphBSGPruning.original_rectangle_card_columns",
+        "OriginalGraphBSGPruning.original_rectangle_card_rows",
+        "OriginalGraphBSGPruning.original_markov_half",
+        "OriginalGraphBSGPruning.original_popular_columns_with_edges",
+        "OriginalGraphBSGPaths.original_good_neighbor_path_count",
+        "OriginalGraphBSGPaths.exists_original_edge_retaining_path_rectangle",
+        "OriginalEdgeRetainingBSG.original_real_triple_multiplicity",
+        "OriginalEdgeRetainingBSG.exists_original_edge_retaining_bsg",
+        "OriginalUnequalEdgeRetainingBSG.original_intersected_core_edge_identity",
+        "OriginalUnequalEdgeRetainingBSG.exists_original_unequal_edge_retaining_bsg",
+        "OriginalUnequalEdgeRetainingBSG.exists_original_size_normalized_edge_retaining_bsg"
+      ],
+      "preintegration_source_sha256": "7b9e278cb381321a3924b023dd88b7927323e63139e86095d53fb30c118efdc9",
+      "preintegration_manifest": "OriginalEdgeRetainingBSG.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalEdgeRetainingBSG.strict.log",
+      "source_sha256": "7b9e278cb381321a3924b023dd88b7927323e63139e86095d53fb30c118efdc9",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalFractionalLinearCoefficientProfile",
+      "slug": "original_fractional_linear_coefficient_profile",
+      "source": "Theorems/Thm_StickyKakeya4_original_fractional_linear_coefficient_profile.lean",
+      "declarations": [
+        "OriginalFractionalLinearCoefficientProfile.original_coefficient_difference_identity",
+        "OriginalFractionalLinearCoefficientProfile.original_coefficient_bound",
+        "OriginalFractionalLinearCoefficientProfile.original_coefficient_inverse_bound",
+        "OriginalFractionalLinearCoefficientProfile.original_coefficient_injective",
+        "OriginalFractionalLinearCoefficientProfile.original_coefficient_image_profile"
+      ],
+      "preintegration_source_sha256": "22a9f85b6edee21b4e08aeb066b69add0d3da00ffdcb4f6f4f0e3c9afdec9f13",
+      "preintegration_manifest": "OriginalFractionalCoefficient.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalFractionalLinearCoefficientProfile.strict.log",
+      "source_sha256": "22a9f85b6edee21b4e08aeb066b69add0d3da00ffdcb4f6f4f0e3c9afdec9f13",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalCoefficientProfileMeshTransfer",
+      "slug": "original_coefficient_profile_mesh_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_original_coefficient_profile_mesh_transfer.lean",
+      "declarations": [
+        "OriginalCoefficientProfileMeshTransfer.original_inverse_profile_at_finer_mesh"
+      ],
+      "preintegration_source_sha256": "1f0b5b53de65808e04cacddbc94993b3dc9ad53413bcca5a462e8deac60c81b7",
+      "preintegration_manifest": "OriginalFractionalCoefficient.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalCoefficientProfileMeshTransfer.strict.log",
+      "source_sha256": "1f0b5b53de65808e04cacddbc94993b3dc9ad53413bcca5a462e8deac60c81b7",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNormalizedFractionalCoefficientProfile",
+      "slug": "original_normalized_fractional_coefficient_profile",
+      "source": "Theorems/Thm_StickyKakeya4_original_normalized_fractional_coefficient_profile.lean",
+      "declarations": [
+        "OriginalNormalizedFractionalCoefficientProfile.original_reference_coefficient_lower",
+        "OriginalNormalizedFractionalCoefficientProfile.original_normalized_coefficient_inverse",
+        "OriginalNormalizedFractionalCoefficientProfile.original_normalized_coefficient_image_profile"
+      ],
+      "preintegration_source_sha256": "5385a127574c0918781b7bba19c5e70e7da7b2566cc5df4e966e381669e16564",
+      "preintegration_manifest": "OriginalFractionalCoefficient.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNormalizedFractionalCoefficientProfile.strict.log",
+      "source_sha256": "9e4bc5327bb1295a5263acdfb9d76c17498a338549d53edc2b391d4e60f9c935",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalWeightedThirdQueryCover",
+      "slug": "original_weighted_third_query_cover",
+      "source": "Theorems/Thm_StickyKakeya4_original_weighted_third_query_cover.lean",
+      "declarations": [
+        "OriginalWeightedThirdQueryCover.original_weighted_query_identity",
+        "OriginalWeightedThirdQueryCover.original_weighted_query_dilation",
+        "OriginalWeightedThirdQueryCover.original_changed_mesh_floor",
+        "OriginalWeightedThirdQueryCover.original_exact_weighted_query_cover"
+      ],
+      "preintegration_source_sha256": "3b055342c7379544e0d28bfe14fd7b51a4468dcb8f4053106b8cd0a3be1fa226",
+      "preintegration_manifest": "OriginalFractionalCoefficient.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalWeightedThirdQueryCover.strict.log",
+      "source_sha256": "3a476abf548c6b82fa0ecec990fa9f6c124582206b27f283b767f9d080403a5f",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalIntegerStructuredDifference",
+      "slug": "original_integer_structured_difference",
+      "source": "Theorems/Thm_StickyKakeya4_original_integer_structured_difference.lean",
+      "declarations": [
+        "OriginalIntegerStructuredDifference.original_difference_bounds"
+      ],
+      "preintegration_source_sha256": "d28c0c5a9bc29293402bd4103797f1e74546a23ec40f6827a6f81858ce89ab78",
+      "preintegration_manifest": "OriginalStructuredNativeTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalIntegerStructuredDifference.strict.log",
+      "source_sha256": "d28c0c5a9bc29293402bd4103797f1e74546a23ec40f6827a6f81858ce89ab78",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalGridBourgainTransfer",
+      "slug": "original_grid_bourgain_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_original_grid_bourgain_transfer.lean",
+      "declarations": [
+        "OriginalGridBourgainTransfer.original_scaled_round",
+        "OriginalGridBourgainTransfer.original_grid_sum_cover",
+        "OriginalGridBourgainTransfer.original_grid_graph_transfer"
+      ],
+      "preintegration_source_sha256": "689c3bdb4c8ee2cf150d4532425a886e768080fc1c626fdeed28322cf7435d73",
+      "preintegration_manifest": "OriginalStructuredNativeTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalGridBourgainTransfer.strict.log",
+      "source_sha256": "bc0794f4589c11edbccdd99a9fd6deff01bddc60aeea2425fda71c59371c9a3e",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalStructuredGraphGrowth",
+      "slug": "original_structured_graph_growth",
+      "source": "Theorems/Thm_StickyKakeya4_original_structured_graph_growth.lean",
+      "declarations": [
+        "OriginalStructuredGraphGrowth.exists_original_structured_graph_growth"
+      ],
+      "preintegration_source_sha256": "ca516a8409ffb62898e2878d8d30e3bc30e8958b3e95ae6f78b0bdd1ecd3f0c8",
+      "preintegration_manifest": "OriginalStructuredNativeTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalStructuredGraphGrowth.strict.log",
+      "source_sha256": "0b7e42d9175154f8a358658f3f27213183e293997b06b2302a29a714f99a0f85",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalAffineAlphabetRecode",
+      "slug": "original_affine_alphabet_recode",
+      "source": "Theorems/Thm_StickyKakeya4_original_affine_alphabet_recode.lean",
+      "declarations": [
+        "OriginalAffineAlphabetRecode.original_label_injective",
+        "OriginalAffineAlphabetRecode.original_labels_card",
+        "OriginalAffineAlphabetRecode.original_real_labels_card",
+        "OriginalAffineAlphabetRecode.original_real_labels_image",
+        "OriginalAffineAlphabetRecode.original_label_error",
+        "OriginalAffineAlphabetRecode.original_real_label_injective",
+        "OriginalAffineAlphabetRecode.original_recode_inverse_lipschitz"
+      ],
+      "preintegration_source_sha256": "52565b3a5eacf261334bd1ded1f799ccdf7f200b560b5dd08f940e319e131b12",
+      "preintegration_manifest": "OriginalStructuredNativeTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalAffineAlphabetRecode.strict.log",
+      "source_sha256": "52565b3a5eacf261334bd1ded1f799ccdf7f200b560b5dd08f940e319e131b12",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalRecodedGraphSource",
+      "slug": "original_recoded_graph_source",
+      "source": "Theorems/Thm_StickyKakeya4_original_recoded_graph_source.lean",
+      "declarations": [
+        "OriginalRecodedGraphSource.original_recoded_graph_subset",
+        "OriginalRecodedGraphSource.original_recoded_graph_card",
+        "OriginalRecodedGraphSource.original_recode_value_error",
+        "OriginalRecodedGraphSource.original_recoded_query_cover",
+        "OriginalRecodedGraphSource.original_code_one",
+        "OriginalRecodedGraphSource.original_recoded_restricted_sum_cover"
+      ],
+      "preintegration_source_sha256": "9015b3f2571e6c434f046dd63889b4e71d2254e7d0ea14c429fe37e268e13182",
+      "preintegration_manifest": "OriginalStructuredNativeTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalRecodedGraphSource.strict.log",
+      "source_sha256": "02b2be8fa6e90f6aeb7b6469a124d8a88ad4a29342af4e276cf53201deec33cd",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalRecodedAlphabetProfile",
+      "slug": "original_recoded_alphabet_profile",
+      "source": "Theorems/Thm_StickyKakeya4_original_recoded_alphabet_profile.lean",
+      "declarations": [
+        "OriginalRecodedAlphabetProfile.original_recoded_profile",
+        "OriginalRecodedAlphabetProfile.original_transverse_weighted_profile",
+        "OriginalRecodedAlphabetProfile.original_scalar_profile_restrict"
+      ],
+      "preintegration_source_sha256": "13b001e40438c23ac10e2d8aaa26c3683f6e012afea9cabff4fed216b5d723b0",
+      "preintegration_manifest": "OriginalStructuredNativeTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalRecodedAlphabetProfile.strict.log",
+      "source_sha256": "5328ad913a3c2af21859e86e31f97d0005ed1c6b33cf88bc8a70906c4027bfe9",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalFreshProjectionQueries",
+      "slug": "original_fresh_projection_queries",
+      "source": "Theorems/Thm_StickyKakeya4_original_fresh_projection_queries.lean",
+      "declarations": [
+        "OriginalFreshProjectionQueries.original_bad_subset",
+        "OriginalFreshProjectionQueries.exists_original_bad_query_family",
+        "OriginalFreshProjectionQueries.exists_fresh_original_transverse_queries",
+        "OriginalFreshProjectionQueries.local_robust_of_not_failure"
+      ],
+      "preintegration_source_sha256": "1c7b32ec60a195edc08b2b6fb13340abfa41cf258401937f7da2036883a3798d",
+      "preintegration_manifest": "OriginalStructuredNativeTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalFreshProjectionQueries.strict.log",
+      "source_sha256": "1c7b32ec60a195edc08b2b6fb13340abfa41cf258401937f7da2036883a3798d",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeProjectionRecode",
+      "slug": "original_native_projection_recode",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_projection_recode.lean",
+      "declarations": [
+        "OriginalNativeProjectionRecode.original_source_graph_eq",
+        "OriginalNativeProjectionRecode.original_real_point_membership",
+        "OriginalNativeProjectionRecode.original_source_graph_subset",
+        "OriginalNativeProjectionRecode.original_source_code_eq_iff",
+        "OriginalNativeProjectionRecode.original_source_code_fiber",
+        "OriginalNativeProjectionRecode.original_source_graph_card",
+        "OriginalNativeProjectionRecode.original_source_query_mass",
+        "OriginalNativeProjectionRecode.original_transverse_recode_scale"
+      ],
+      "preintegration_source_sha256": "8572a09545b15263f23ea9b4619985ae7bbdaebab7098166b22a73080911917c",
+      "preintegration_manifest": "OriginalStructuredNativeTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeProjectionRecode.strict.log",
+      "source_sha256": "965f06ec6dbb47a96b4a4fa02c9f8658c84383be60a0405384b48b1686d6ef06",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalMacroSourceDensity",
+      "slug": "native_original_macro_source_density",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_macro_source_density.lean",
+      "declarations": [
+        "NativeOriginalMacroSourceDensity.densityCoefficient_pos",
+        "NativeOriginalMacroSourceDensity.exists_original_macro_angle_density"
+      ],
+      "preintegration_source_sha256": "6686a6efa69478f5855d638a4958005706f4a11d2330e234d193775e1f6a7421",
+      "preintegration_manifest": "native_original_macro_source_density.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalMacroSourceDensity.strict.log",
+      "source_sha256": "a74f534606795db43b1224b4c6d567ef57b700dc044d1ab53164bad1f5843db7",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalMacroDensityBudget",
+      "slug": "native_original_macro_density_budget",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_macro_density_budget.lean",
+      "declarations": [
+        "NativeOriginalMacroDensityBudget.source_cost_power_bounds",
+        "NativeOriginalMacroDensityBudget.source_density_power_lower",
+        "NativeOriginalMacroDensityBudget.source_collision_cost_power_bounds",
+        "NativeOriginalMacroDensityBudget.exists_source_density_power_cutoff"
+      ],
+      "preintegration_source_sha256": "a3575b5a8b77f135ae110a652f7d77a8df372a960f3d474bd9a40efcb2bddba5",
+      "preintegration_manifest": "original_macro_source_core.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalMacroDensityBudget.strict.log",
+      "source_sha256": "69b9cbf44d58537206711de27253a4d7471ac7c14c4c6cb4910e408c1ca268af",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalMacroFullReferenceCore",
+      "slug": "original_macro_full_reference_core",
+      "source": "Theorems/Thm_StickyKakeya4_original_macro_full_reference_core.lean",
+      "declarations": [
+        "OriginalMacroFullReferenceCore.full_terminal_relative_image",
+        "OriginalMacroFullReferenceCore.full_original_collision_mass",
+        "OriginalMacroFullReferenceCore.exists_full_direction_reference_core"
+      ],
+      "preintegration_source_sha256": "e53599533c15c9a3288502fa8a28bd5aeb845517fa79fa60df44cbfb41a4c404",
+      "preintegration_manifest": "original_macro_source_core.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalMacroFullReferenceCore.strict.log",
+      "source_sha256": "faa3daec5c853e90b38ce26a0f6006f995d52416624ef07e1ba890f2da851c4c",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalMacroTubeLower",
+      "slug": "original_macro_tube_lower",
+      "source": "Theorems/Thm_StickyKakeya4_original_macro_tube_lower.lean",
+      "declarations": [
+        "OriginalMacroTubeLower.original_macro_tube_lower"
+      ],
+      "preintegration_source_sha256": "a2a02c3493ebd0072c10903f4d840d9f7bfd2c013cbf7b7b3f3b3e994eec15b9",
+      "preintegration_manifest": "original_macro_source_core.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalMacroTubeLower.strict.log",
+      "source_sha256": "bee2abf2f1424b17ff69119523b8d3d1c2b047a88fdd33cc96c5f186f187716c",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalMacroPrintedCore",
+      "slug": "native_original_macro_printed_core",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_macro_printed_core.lean",
+      "declarations": [
+        "NativeOriginalMacroPrintedCore.rawMenuCoefficient_pos",
+        "NativeOriginalMacroPrintedCore.exists_original_macro_printed_core"
+      ],
+      "preintegration_source_sha256": "87179fc015112e0d0154eb45de8ac34bb74c77031eb7286ac44f3b9220749620",
+      "preintegration_manifest": "original_macro_source_core.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalMacroPrintedCore.strict.log",
+      "source_sha256": "0f956959446b0a5f864147da4e45d7b5846368da4061a2a9c07e8e609eb0f114",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarsePhaseGeometry",
+      "slug": "native_coarse_phase_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_phase_geometry.lean",
+      "declarations": [
+        "NativeCoarsePhaseGeometry.actual_phase_coordinate_readback",
+        "NativeCoarsePhaseGeometry.actual_phase_separation",
+        "NativeCoarsePhaseGeometry.actual_phase_residual"
+      ],
+      "preintegration_source_sha256": "feb8bd9473b1825e00d856112b2caf98f4ef1bc1c922477a3a6056b84d1b42fe",
+      "preintegration_manifest": "original_macro_source_core.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarsePhaseGeometry.strict.log",
+      "source_sha256": "c1f43f55a57c277e64e42500cac536674382ce9393e6970f51fe0e884dddc6cd",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalMacroMenuBudget",
+      "slug": "native_original_macro_menu_budget",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_macro_menu_budget.lean",
+      "declarations": [
+        "NativeOriginalMacroMenuBudget.menuCoefficient_power_lower",
+        "NativeOriginalMacroMenuBudget.rawMenuCoefficient_power_lower",
+        "NativeOriginalMacroMenuBudget.exists_source_menu_power_cutoff"
+      ],
+      "preintegration_source_sha256": "df368bed6560750b0ca796c6b705d7784df441b6547acd0249155e27681da98c",
+      "preintegration_manifest": "original_macro_source_core.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalMacroMenuBudget.strict.log",
+      "source_sha256": "5499fd95650823752f3c32d99e9463e38514fc883a132fc990ad68187962da09",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalOwnerGraphRichness",
+      "slug": "original_three_dimensional_owner_graph_richness",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_owner_graph_richness.lean",
+      "declarations": [
+        "OriginalThreeDimensionalOwnerGraphRichness.original_owner_graph_subset",
+        "OriginalThreeDimensionalOwnerGraphRichness.original_owner_tube_image_subset",
+        "OriginalThreeDimensionalOwnerGraphRichness.original_dense_rich_owner_graph"
+      ],
+      "preintegration_source_sha256": "8f0c77bea9783338f8cf09bcb1af6a3cb514e2d0509b2e4f76907279f71b6ac3",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_UNWEIGHTED_SLICE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalOwnerGraphRichness.strict.log",
+      "source_sha256": "9927708b3418c1070ebd661df58879de82155d8ddae9e0f90ec600a8a7c2bad4",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNormalizedOwnerGraph",
+      "slug": "original_normalized_owner_graph",
+      "source": "Theorems/Thm_StickyKakeya4_original_normalized_owner_graph.lean",
+      "declarations": [
+        "OriginalNormalizedOwnerGraph.original_normalized_owner_graph_subset",
+        "OriginalNormalizedOwnerGraph.original_normalized_owner_graph_card",
+        "OriginalNormalizedOwnerGraph.original_normalized_owner_tube_population",
+        "OriginalNormalizedOwnerGraph.original_normalized_owner_graph_richness",
+        "OriginalNormalizedOwnerGraph.original_normalized_owner_graph_cap"
+      ],
+      "preintegration_source_sha256": "0372473a0580052f1e0c6f6b3e342ffb576daf52c105b18f966d407e59e40cf5",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_UNWEIGHTED_SLICE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNormalizedOwnerGraph.strict.log",
+      "source_sha256": "7861b0bf780a067904fdf25bbc15903a854f2e175cf71f8bca68a9a08c27b150",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalUnweightedSliceFrame",
+      "slug": "native_original_unweighted_slice_frame",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_unweighted_slice_frame.lean",
+      "declarations": [
+        "NativeOriginalUnweightedSliceFrame.exists_original_unweighted_slice_frame"
+      ],
+      "preintegration_source_sha256": "6f3fe65e9dc835ffca71caeabb907c7b1edb041e5b3e9f6cda80934c79a940dd",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_UNWEIGHTED_SLICE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalUnweightedSliceFrame.strict.log",
+      "source_sha256": "10a4138eac01215349ad05a40440e5111e3ffb3c0aee0b8168f70941a4ce8985",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalMarkedPairCap",
+      "slug": "original_three_dimensional_marked_pair_cap",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_marked_pair_cap.lean",
+      "declarations": [
+        "OriginalThreeDimensionalMarkedPairCap.original_marked_nonconcentrated_pair_cap"
+      ],
+      "preintegration_source_sha256": "bf88ed8752a5c2dbc43c038223eff66310cafefdb681180296425f50225dacc3",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_UNWEIGHTED_SLICE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalMarkedPairCap.strict.log",
+      "source_sha256": "1ae5277dcaadcd13e158923db68327817534197c481ed173feceffa03d29c168",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalMarkedUnweightedSlice",
+      "slug": "original_three_dimensional_marked_unweighted_slice",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_marked_unweighted_slice.lean",
+      "declarations": [
+        "OriginalThreeDimensionalMarkedUnweightedSlice.exists_original_marked_unweighted_slice"
+      ],
+      "preintegration_source_sha256": "8e6b464217fe23b27a63a2f66c512fd20f2416ebec372f282a83f8d3f72c91c9",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_UNWEIGHTED_SLICE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalMarkedUnweightedSlice.strict.log",
+      "source_sha256": "53622dfe7bb1e6c792adc44be3626334ecc6e19f8fabad5fb9d27efb9c994db9",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalUnweightedSliceReduction",
+      "slug": "native_original_unweighted_slice_reduction",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_unweighted_slice_reduction.lean",
+      "declarations": [
+        "NativeOriginalUnweightedSliceReduction.exists_native_original_unweighted_slice_threshold"
+      ],
+      "preintegration_source_sha256": "12a1ec0c815cd5b9e186c3189a540a87f3dcc8b253a5a7518cd5ff5e7ab51e27",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_UNWEIGHTED_SLICE_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalUnweightedSliceReduction.strict.log",
+      "source_sha256": "78c932a4094804b3f30b57ba384d6db61181030d8703e4c8c6f99754e7db7fc9",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalOwnerCoefficientBudget",
+      "slug": "original_three_dimensional_owner_coefficient_budget",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_owner_coefficient_budget.lean",
+      "declarations": [
+        "OriginalThreeDimensionalOwnerCoefficientBudget.original_owner_energy_ratio_bound",
+        "OriginalThreeDimensionalOwnerCoefficientBudget.original_owner_power_coefficients",
+        "OriginalThreeDimensionalOwnerCoefficientBudget.exists_original_owner_coefficient_cutoff",
+        "OriginalThreeDimensionalOwnerCoefficientBudget.original_source_to_fixed_internal_eta"
+      ],
+      "preintegration_source_sha256": "6b7b9f62ca616c96ab1c2fdb754e506a2c4d932e24b4affac9dd25b92218674f",
+      "preintegration_manifest": "WZ_ORIGINAL_OWNER_COEFFICIENT_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalOwnerCoefficientBudget.strict.log",
+      "source_sha256": "748a3c50466d574935c3ba29f889fbde73d720fa3843f9e69cc8f34718d91ed6",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalUnweightedPlanarPowerTransport",
+      "slug": "original_unweighted_planar_power_transport",
+      "source": "Theorems/Thm_StickyKakeya4_original_unweighted_planar_power_transport.lean",
+      "declarations": [
+        "OriginalUnweightedPlanarPowerTransport.original_owner_richness_power",
+        "OriginalUnweightedPlanarPowerTransport.original_owner_cap_power"
+      ],
+      "preintegration_source_sha256": "9f549c6d530219b161cddb883eac41548e885a88f833c62abf28e4a568ace808",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_PLANAR_POWER_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalUnweightedPlanarPowerTransport.strict.log",
+      "source_sha256": "f4c68a597b05a56f445aecfb369be0c0e1d91ccb8db6d7cbbf4c91c08733e291",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalUnweightedSlicePowerData",
+      "slug": "original_unweighted_slice_power_data",
+      "source": "Theorems/Thm_StickyKakeya4_original_unweighted_slice_power_data.lean",
+      "declarations": [
+        "OriginalUnweightedSlicePowerData.original_constructed_slice_power_data"
+      ],
+      "preintegration_source_sha256": "f91d43b36fdf45c9b9654dd8fb51fe47ac5b4576ad6142434c80bddfb2ab5bb7",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_PLANAR_POWER_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalUnweightedSlicePowerData.strict.log",
+      "source_sha256": "b13e2644dcc3aacde0f851309a60be32073b93cf8c3e9dcbebd3665348c0d71a",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalPlanarPowerSlice",
+      "slug": "native_original_planar_power_slice",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_planar_power_slice.lean",
+      "declarations": [
+        "NativeOriginalPlanarPowerSlice.exists_native_original_planar_power_threshold"
+      ],
+      "preintegration_source_sha256": "0dc630db7d4163e2b5b1ab236967fe759053facd9060902caf0d8bb4be2eff2f",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_PLANAR_POWER_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalPlanarPowerSlice.strict.log",
+      "source_sha256": "a28a54002cfe4c81d850ce32994c3163cc422e596474bf7acf355db6bb622696",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalSourceEdgeBSG",
+      "slug": "original_source_edge_bsg",
+      "source": "Theorems/Thm_StickyKakeya4_original_source_edge_bsg.lean",
+      "declarations": [
+        "OriginalSourceEdgeBSG.original_source_core_subset",
+        "OriginalSourceEdgeBSG.original_source_core_image",
+        "OriginalSourceEdgeBSG.original_source_core_query",
+        "OriginalSourceEdgeBSG.exists_original_source_edge_bsg"
+      ],
+      "preintegration_source_sha256": "cb6be634cbd65a7a61bd51c86953d0200c467fcb28057c88278390529fad8719",
+      "preintegration_manifest": "OriginalSourceEdgeBSG.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalSourceEdgeBSG.strict.log",
+      "source_sha256": "2f934e4683baf630ba3b6d555d62ead9bddcf4fbe53aeb1050ae6ed34d5e8b70",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeRecodedQueryCover",
+      "slug": "original_native_recoded_query_cover",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_recoded_query_cover.lean",
+      "declarations": [
+        "OriginalNativeRecodedQueryCover.original_native_recoded_query_cover",
+        "OriginalNativeRecodedQueryCover.original_normalized_reference_one",
+        "OriginalNativeRecodedQueryCover.original_native_restricted_sum_cover"
+      ],
+      "preintegration_source_sha256": "cf66efebbf63adc474160c16366cd31084073471a813206fe2166528132f4e3c",
+      "preintegration_manifest": "OriginalNativeCoreObstruction.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeRecodedQueryCover.strict.log",
+      "source_sha256": "0634e3e09dd19288801c1ae3ff10b11ebf95316387f892d2be232906bb30fca2",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeStructuredPowerBounds",
+      "slug": "original_native_structured_power_bounds",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_structured_power_bounds.lean",
+      "declarations": [
+        "OriginalNativeStructuredPowerBounds.original_geometric_cover_power_bounds",
+        "OriginalNativeStructuredPowerBounds.original_bsg_fixed_power_comparison"
+      ],
+      "preintegration_source_sha256": "5671d3ac9ee9a48b417167377c396d229eabafc7ba297ceff1a687f1f8e39d59",
+      "preintegration_manifest": "OriginalNativeCoreObstruction.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeStructuredPowerBounds.strict.log",
+      "source_sha256": "644c3c31068e18169f1c32360f05326d14bd107aa3d43274e6978ec6c7083116",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeCoreFailureObstruction",
+      "slug": "original_native_core_failure_obstruction",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_core_failure_obstruction.lean",
+      "declarations": [
+        "OriginalNativeCoreFailureObstruction.original_native_core_profile",
+        "OriginalNativeCoreFailureObstruction.exists_original_native_core_failure_obstruction"
+      ],
+      "preintegration_source_sha256": "6b476e71c72f3fc878771c8a8512756a28c623a58f85ce0c9c84742d6af3d1b9",
+      "preintegration_manifest": "OriginalNativeCoreObstruction.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeCoreFailureObstruction.strict.log",
+      "source_sha256": "4dda93ff1442167b99684bc7c590833c8956461008c5f35ee1adb730f6a31393",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeProjectionBSGCore",
+      "slug": "original_native_projection_bsg_core",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_projection_bsg_core.lean",
+      "declarations": [
+        "OriginalNativeProjectionBSGCore.exists_original_native_bsg_core"
+      ],
+      "preintegration_source_sha256": "862d7118de584e2fc9cc161c880846449fc80d57a8c244f3cc8bfef0d41267b8",
+      "preintegration_manifest": "OriginalNativeFailureComparison.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeProjectionBSGCore.strict.log",
+      "source_sha256": "4494c4c1faaf20a864edca4c5e423c749481b7c2c246697d2d0718f466a10b4d",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeProjectionFailureComparison",
+      "slug": "original_native_projection_failure_comparison",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_projection_failure_comparison.lean",
+      "declarations": [
+        "OriginalNativeProjectionFailureComparison.exists_original_native_failure_comparison"
+      ],
+      "preintegration_source_sha256": "3c4842cef9b79d3606834903d954e0dab9c7c6bbb9e23130488149fc7713b1ef",
+      "preintegration_manifest": "OriginalNativeFailureComparison.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeProjectionFailureComparison.strict.log",
+      "source_sha256": "844b952042bbe105fe3f73856ae8224ef79cf9ab5ca5822f90778d4d6f67981e",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalFiniteBetaGrid",
+      "slug": "original_finite_beta_grid",
+      "source": "Theorems/Thm_StickyKakeya4_original_finite_beta_grid.lean",
+      "declarations": [
+        "OriginalFiniteBetaGrid.original_mesh_beta_spec",
+        "OriginalFiniteBetaGrid.exists_original_finite_beta_grid",
+        "OriginalFiniteBetaGrid.original_beta_bin_parameter_bounds"
+      ],
+      "preintegration_source_sha256": "60a10177d356097452e5e7dca3a6a79d676ea86a7d7f12d136385d48e11a9ce9",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_FINITE_BETA_PLANAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalFiniteBetaGrid.strict.log",
+      "source_sha256": "0b5638338b794c8b7966493e33b6878cc2542fb83c43d02e46762e5a17409dc2",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalFiniteBetaPowerTransport",
+      "slug": "original_finite_beta_power_transport",
+      "source": "Theorems/Thm_StickyKakeya4_original_finite_beta_power_transport.lean",
+      "declarations": [
+        "OriginalFiniteBetaPowerTransport.original_beta_regularity_powers",
+        "OriginalFiniteBetaPowerTransport.original_beta_bin_strict_gain",
+        "OriginalFiniteBetaPowerTransport.original_beta_bin_cap_radius"
+      ],
+      "preintegration_source_sha256": "341af1df15f632f7adab64aca0b22458f0da22b341e9c3641f7ff3cf36134a60",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_FINITE_BETA_PLANAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalFiniteBetaPowerTransport.strict.log",
+      "source_sha256": "ed3fe73ca87493886846cbe86c61de1d26d13ad16c0b18dee32f5572492e20b3",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalFiniteBetaPlanarData",
+      "slug": "original_finite_beta_planar_data",
+      "source": "Theorems/Thm_StickyKakeya4_original_finite_beta_planar_data.lean",
+      "declarations": [
+        "OriginalFiniteBetaPlanarData.original_owner_power_to_beta_bin"
+      ],
+      "preintegration_source_sha256": "9f5fa52b64048d88d0891c6dc95482edddd2069e0c46b5d2b4f7b41bb147ac4e",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_FINITE_BETA_PLANAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalFiniteBetaPlanarData.strict.log",
+      "source_sha256": "9c636daf6540223ef5c144f6bc4f9cb2ad1fa28c18af69c63490bf21d191b089",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalFiniteBetaPlanarSlice",
+      "slug": "native_original_finite_beta_planar_slice",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_finite_beta_planar_slice.lean",
+      "declarations": [
+        "NativeOriginalFiniteBetaPlanarSlice.exists_native_original_finite_beta_planar_threshold"
+      ],
+      "preintegration_source_sha256": "f9aa721ec0381e8fa374ca94bfd43c5859a12cbea1a6f48fe1ce283636590197",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_FINITE_BETA_PLANAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalFiniteBetaPlanarSlice.strict.log",
+      "source_sha256": "df24187a6a019d4ff269ea1fb6f2d230477f36767d381954ced6ac5c99818253",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalE2FirstUnweightedSlice",
+      "slug": "native_original_e2_first_unweighted_slice",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_e2_first_unweighted_slice.lean",
+      "declarations": [
+        "NativeOriginalE2FirstUnweightedSlice.exists_native_original_e2_first_unweighted_threshold"
+      ],
+      "preintegration_source_sha256": "83957ca446adc6505a3d400c3f6eb96255ee2c3aaaaaecd69eb2395b548bff0a",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_E2_FIRST_PLANAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalE2FirstUnweightedSlice.strict.log",
+      "source_sha256": "1235642f5f313673b586ba974dbb91b288308bac57126a48733cd704cd05ae0b",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalE2FirstPlanarPowerSlice",
+      "slug": "native_original_e2_first_planar_power_slice",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_e2_first_planar_power_slice.lean",
+      "declarations": [
+        "NativeOriginalE2FirstPlanarPowerSlice.exists_native_original_e2_first_planar_power_threshold"
+      ],
+      "preintegration_source_sha256": "4c921f7080dd73c6c74b53033d55744e9f4519aa381401797c61835b46e0f215",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_E2_FIRST_PLANAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalE2FirstPlanarPowerSlice.strict.log",
+      "source_sha256": "afa43c0afea63eb2c4220ff47bde16afa6536d42a363520ae3755c1dfacdb90b",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalE2FirstBetaPlanarSlice",
+      "slug": "native_original_e2_first_beta_planar_slice",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_e2_first_beta_planar_slice.lean",
+      "declarations": [
+        "NativeOriginalE2FirstBetaPlanarSlice.exists_native_original_e2_first_beta_planar_threshold"
+      ],
+      "preintegration_source_sha256": "e75b85b992ffb1c0d06a65421b3fbcc630c071a021370455a43db101c0a7ce2e",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_E2_FIRST_PLANAR_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalE2FirstBetaPlanarSlice.strict.log",
+      "source_sha256": "2a519c2880d406bbc3a08980451edf442ec2aa76ddf95a253253221cd8050d09",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalRobustProjectionExhaustion",
+      "slug": "original_robust_projection_exhaustion",
+      "source": "Theorems/Thm_StickyKakeya4_original_robust_projection_exhaustion.lean",
+      "declarations": [
+        "OriginalRobustProjectionExhaustion.exists_original_local_exhaustion",
+        "OriginalRobustProjectionExhaustion.original_disjoint_piece_mass",
+        "OriginalRobustProjectionExhaustion.original_query_piece_mass"
+      ],
+      "preintegration_source_sha256": "275a0dc56e19746123a9d0bc89abcadef206a7e513a96178ff3cb8e77bac6d1c",
+      "preintegration_manifest": "OriginalRobustProjectionGluing.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalRobustProjectionExhaustion.strict.log",
+      "source_sha256": "275a0dc56e19746123a9d0bc89abcadef206a7e513a96178ff3cb8e77bac6d1c",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalWeightedDirectionGluing",
+      "slug": "original_weighted_direction_gluing",
+      "source": "Theorems/Thm_StickyKakeya4_original_weighted_direction_gluing.lean",
+      "declarations": [
+        "OriginalWeightedDirectionGluing.original_bad_mass_nonneg",
+        "OriginalWeightedDirectionGluing.original_total_bad_mass",
+        "OriginalWeightedDirectionGluing.exists_original_weighted_good_directions",
+        "OriginalWeightedDirectionGluing.exists_original_good_query_piece"
+      ],
+      "preintegration_source_sha256": "1d4acec559832e3be249c42eb574cae15c025da00b5c4296ea54fc0fdb465e9b",
+      "preintegration_manifest": "OriginalRobustProjectionGluing.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalWeightedDirectionGluing.strict.log",
+      "source_sha256": "7c8d3921e9fd291716dde0bfd8bbcc001f57a56a35d0c388e1c810a0a235d612",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalLocalToGlobalRobustProjection",
+      "slug": "original_local_to_global_robust_projection",
+      "source": "Theorems/Thm_StickyKakeya4_original_local_to_global_robust_projection.lean",
+      "declarations": [
+        "OriginalLocalToGlobalRobustProjection.exists_original_global_robust_projection"
+      ],
+      "preintegration_source_sha256": "80e6c04e001e515b884559d4904bebeec41086f0f372d5aee048f64189c37ce6",
+      "preintegration_manifest": "OriginalRobustProjectionGluing.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalLocalToGlobalRobustProjection.strict.log",
+      "source_sha256": "737f8d7d7e0e22c3ed3807de7e846acea5010de8cf87c1fd3464724bd06d5100",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarseCWTransfer",
+      "slug": "native_coarse_cw_transfer",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_cw_transfer.lean",
+      "declarations": [
+        "NativeCoarseCWTransfer.contained_count_cross",
+        "NativeCoarseCWTransfer.original_coarse_CW_real"
+      ],
+      "preintegration_source_sha256": "1ecfc30fa51089855558cb7360c66a78075b01ba1a37c3800ff7ef6aeab4a672",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseCWTransfer.strict.log",
+      "source_sha256": "a2f9f55ebb22259e5eec423a19ce8fd4a350a3c5d76f962fc08087add924ef83",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarseMassBudget",
+      "slug": "native_coarse_mass_budget",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_mass_budget.lean",
+      "declarations": [
+        "NativeCoarseMassBudget.colorCost_pos",
+        "NativeCoarseMassBudget.massCost_pos",
+        "NativeCoarseMassBudget.pruneCost_pos",
+        "NativeCoarseMassBudget.exists_mass_cutoff",
+        "NativeCoarseMassBudget.chosen_color_mass",
+        "NativeCoarseMassBudget.pruned_color_mass"
+      ],
+      "preintegration_source_sha256": "87ffb6d6cb9fa2e0e6b975eb324c9e837d27e4fa562342b47a96a000fa6091d6",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseMassBudget.strict.log",
+      "source_sha256": "61c233c17d7a7fa7f83e8fe7518d481e9635e871b8249a691e5d0f42297ebd10",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalCoarseSelection",
+      "slug": "native_original_coarse_selection",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_coarse_selection.lean",
+      "declarations": [
+        "NativeOriginalCoarseSelection.original_coarse_selection"
+      ],
+      "preintegration_source_sha256": "3930a94853597a2878d55da2361094fc749f6d0dd435865d5a93c24eba7c04e0",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalCoarseSelection.strict.log",
+      "source_sha256": "6a2eada0f52907871dcda8cf3ea95333c38f786a316d957023e54ee0e1c0533f",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarseSourceProfiles",
+      "slug": "native_coarse_source_profiles",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_source_profiles.lean",
+      "declarations": [
+        "NativeCoarseSourceProfiles.sum_parentIndex",
+        "NativeCoarseSourceProfiles.card_filter_parentIndex",
+        "NativeCoarseSourceProfiles.source_carrier_count",
+        "NativeCoarseSourceProfiles.source_contained_count",
+        "NativeCoarseSourceProfiles.source_shading_sum",
+        "NativeCoarseSourceProfiles.source_carrier_upper",
+        "NativeCoarseSourceProfiles.source_carrier_lower"
+      ],
+      "preintegration_source_sha256": "04e0c9f6b6dc109b580b39ab9d7576e4298c6f73e1d24dd57ef3fc7ec09c5740",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseSourceProfiles.strict.log",
+      "source_sha256": "d7e2659403fc5b9ffacc4ecafe87d83f2823d5d1faa5b2aff8d15825759760da",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarseSourceMass",
+      "slug": "native_coarse_source_mass",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_source_mass.lean",
+      "declarations": [
+        "NativeCoarseSourceMass.source_shading_ne_top",
+        "NativeCoarseSourceMass.source_total_shading_real",
+        "NativeCoarseSourceMass.source_total_shading_ne_top",
+        "NativeCoarseSourceMass.source_tube_real_upper",
+        "NativeCoarseSourceMass.source_tube_ne_top",
+        "NativeCoarseSourceMass.source_tube_mass_ne_top",
+        "NativeCoarseSourceMass.source_tube_mass_real_upper",
+        "NativeCoarseSourceMass.source_tube_mass_original_bound",
+        "NativeCoarseSourceMass.source_density_original_power"
+      ],
+      "preintegration_source_sha256": "e8d83fb04fe3b6229bafd2df7770bfb7817e27e41e6c52930221a47067635bc0",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseSourceMass.strict.log",
+      "source_sha256": "ba26a24dcd339e57252de82dff8c87ac3cc0a9a32fa90864a95bdd3be7ce7b52",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarseRelativeCW",
+      "slug": "native_coarse_relative_cw",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_relative_cw.lean",
+      "declarations": [
+        "NativeCoarseRelativeCW.cwCost_pos",
+        "NativeCoarseRelativeCW.selected_count_scale",
+        "NativeCoarseRelativeCW.source_CW_original_power"
+      ],
+      "preintegration_source_sha256": "f9393ce46c457f2adeaad5783f192c921d5d8731f19086d39d4cac9a4f3a0158",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseRelativeCW.strict.log",
+      "source_sha256": "e4f10ad47a3b467a1c81046a75334316e664981207e864b7e5ded8fa82df8557",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarsePowerWindow",
+      "slug": "native_coarse_power_window",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_power_window.lean",
+      "declarations": [
+        "NativeCoarsePowerWindow.densityCost_pos",
+        "NativeCoarsePowerWindow.exists_power_window_cutoff",
+        "NativeCoarsePowerWindow.negative_power_transfer",
+        "NativeCoarsePowerWindow.coefficient_to_original_power"
+      ],
+      "preintegration_source_sha256": "e463d759c5589775c280f3c3683f8fd1e4eff82b35dd80eebc32ef57472a7ba5",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarsePowerWindow.strict.log",
+      "source_sha256": "6f9f4d6c1599f7bfd0e4cbd2f732edba5e6c6287c4cdf3d93de100d694947b86",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarseNativeAdmissibility",
+      "slug": "native_coarse_native_admissibility",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_native_admissibility.lean",
+      "declarations": [
+        "NativeCoarseNativeAdmissibility.native_input"
+      ],
+      "preintegration_source_sha256": "cc0c4c8f20010b6bf935b6752f1276c960872a3580086d1de29bb784233f202a",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseNativeAdmissibility.strict.log",
+      "source_sha256": "664db01d786a0f738eb4fd6281cc6a916bfa373f0e8f6ea2ba40bfa74e01d00f",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalCoarseAdmission",
+      "slug": "native_original_coarse_admission",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_coarse_admission.lean",
+      "declarations": [
+        "NativeOriginalCoarseAdmission.original_coarse_admission"
+      ],
+      "preintegration_source_sha256": "680e43c2335f5cfa439ff6bc3e30ca87f50216a3554fdfcdaee746aa711f2415",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalCoarseAdmission.strict.log",
+      "source_sha256": "4790b831700a632c90ef380e500f1cf23b41c5e5cf57363e9d16fa2682a3f8c8",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalCoarseSelectionWithRetention",
+      "slug": "native_original_coarse_selection_with_retention",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_coarse_selection_with_retention.lean",
+      "declarations": [
+        "NativeOriginalCoarseSelectionWithRetention.original_coarse_selection_with_retention"
+      ],
+      "preintegration_source_sha256": "f001bf752e02840e8c20264e9717cffc0291f05e484ee7a88a709c381d8fbe56",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalCoarseSelectionWithRetention.strict.log",
+      "source_sha256": "f5b4b532df24a240c1b6ab2107da7026445a0c46dcef32776f9729a83044d8ea",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalCoarseAdmissionWithRetention",
+      "slug": "native_original_coarse_admission_with_retention",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_coarse_admission_with_retention.lean",
+      "declarations": [
+        "NativeOriginalCoarseAdmissionWithRetention.original_coarse_admission_with_retention"
+      ],
+      "preintegration_source_sha256": "c5a606ccd0960d58b23abfecdb237275fee40c15f2af1d750da68277e9277aff",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalCoarseAdmissionWithRetention.strict.log",
+      "source_sha256": "c59e7f1d609b606ff7cd62b0cce1b088ea407fdc4d6a61c7ede4845398a6886a",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarseFineMultiplicity",
+      "slug": "native_coarse_fine_multiplicity",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_fine_multiplicity.lean",
+      "declarations": [
+        "NativeCoarseFineMultiplicity.retained_incidence_multiplicity",
+        "NativeCoarseFineMultiplicity.original_fine_card_retention",
+        "NativeCoarseFineMultiplicity.original_fine_multiplicity_retention",
+        "NativeCoarseFineMultiplicity.retained_original_near_multiplicity"
+      ],
+      "preintegration_source_sha256": "a1665635d3552fad9c6ce93da440560fd487aa3ef916fa6cf64d6d8027970f8a",
+      "preintegration_manifest": "native_global_coarse_admission_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseFineMultiplicity.strict.log",
+      "source_sha256": "d083f53fba3ae8fdffcd7d2f7e77c575d085a61ed938316fe5be6787c5ec7f25",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalActualCorePhaseWindow",
+      "slug": "original_actual_core_phase_window",
+      "source": "Theorems/Thm_StickyKakeya4_original_actual_core_phase_window.lean",
+      "declarations": [
+        "OriginalActualCorePhaseWindow.from_original_core"
+      ],
+      "preintegration_source_sha256": "2b876241818dd9c07429621ba64452b208bfce2f2adf85b506a3ddecd60767bc",
+      "preintegration_manifest": "original_macro_phase_bc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalActualCorePhaseWindow.strict.log",
+      "source_sha256": "b87a044db915f738e4fa05ac0029573fc51de7579d987a25c8730de0b55ffdb4",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalMacroWindowGeometry",
+      "slug": "original_macro_window_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_original_macro_window_geometry.lean",
+      "declarations": [
+        "OriginalMacroWindowGeometry.source_phase_radius",
+        "OriginalMacroWindowGeometry.original_macro_height_geometry",
+        "OriginalMacroWindowGeometry.original_slope_bound"
+      ],
+      "preintegration_source_sha256": "75cb89c6f3d86373161aa26985710f61ae2f8f029efbc2c6725211bbcfa812c9",
+      "preintegration_manifest": "original_macro_phase_bc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalMacroWindowGeometry.strict.log",
+      "source_sha256": "4d01933fa35e93b760e654ad8fdc1586e300629547c48b5f47f0c90931e826fc",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalMacroPhaseWindow",
+      "slug": "native_original_macro_phase_window",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_macro_phase_window.lean",
+      "declarations": [
+        "NativeOriginalMacroPhaseWindow.exists_original_macro_phase_window"
+      ],
+      "preintegration_source_sha256": "45478855d1b7a819a6819fc574f9847a391d9520f535240abe773aabcfd2dcb8",
+      "preintegration_manifest": "original_macro_phase_bc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalMacroPhaseWindow.strict.log",
+      "source_sha256": "9be8d0e1e0a5243eca4b02711142d17aea0a2708de74ad5543feb308f8021a2e",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalActualWindowBCGraph",
+      "slug": "original_actual_window_bc_graph",
+      "source": "Theorems/Thm_StickyKakeya4_original_actual_window_bc_graph.lean",
+      "declarations": [
+        "OriginalActualWindowBCGraph.expanded_image_readback",
+        "OriginalActualWindowBCGraph.exists_actual_window_BC_graph"
+      ],
+      "preintegration_source_sha256": "d587aeac9457efa8155d524fde7664df33dea7e0ea46002a7bfbcc17a46289bf",
+      "preintegration_manifest": "original_macro_phase_bc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalActualWindowBCGraph.strict.log",
+      "source_sha256": "e3ad0918a317261cc1f81570aec743d7f991d3b220acf2afd987ea3dc088e866",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalFullDirectionPhaseEdges",
+      "slug": "original_full_direction_phase_edges",
+      "source": "Theorems/Thm_StickyKakeya4_original_full_direction_phase_edges.lean",
+      "declarations": [
+        "OriginalFullDirectionPhaseEdges.full_direction_graph_edge_grid_relation",
+        "OriginalFullDirectionPhaseEdges.sampled_direction_error"
+      ],
+      "preintegration_source_sha256": "f1a4d93ce4ba06484934fc277bdfda220c1096b878c523c2d389160b34f4d53f",
+      "preintegration_manifest": "original_macro_phase_bc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalFullDirectionPhaseEdges.strict.log",
+      "source_sha256": "755aefd6a1c7853e35787f8df91da83a9fa88a56857fff1f5995ce64836e06cd",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalMacroBCGraph",
+      "slug": "native_original_macro_bc_graph",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_macro_bc_graph.lean",
+      "declarations": [
+        "NativeOriginalMacroBCGraph.exists_original_macro_BC_graph"
+      ],
+      "preintegration_source_sha256": "a7724ede63f65727fca0c41e6935b5b434468be409bc4c9dcd298f664c17ac91",
+      "preintegration_manifest": "original_macro_phase_bc.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalMacroBCGraph.strict.log",
+      "source_sha256": "2e535486d5d4147a3696013b8126110187a770289acf09ffd62cd05da7fcfa84",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeFullCoarseShadow",
+      "slug": "native_full_coarse_shadow",
+      "source": "Theorems/Thm_StickyKakeya4_native_full_coarse_shadow.lean",
+      "declarations": [
+        "NativeFullCoarseShadow.representative_injOn",
+        "NativeFullCoarseShadow.full_shading",
+        "NativeFullCoarseShadow.shadow_ne_top",
+        "NativeFullCoarseShadow.iUnion_parentIndex",
+        "NativeFullCoarseShadow.full_union",
+        "NativeFullCoarseShadow.core_union",
+        "NativeFullCoarseShadow.core_union_subset_full",
+        "NativeFullCoarseShadow.full_mass_ne_top",
+        "NativeFullCoarseShadow.full_mass_real",
+        "NativeFullCoarseShadow.full_mass_upper",
+        "NativeFullCoarseShadow.full_multiplicity_le_core"
+      ],
+      "preintegration_source_sha256": "728e7d6a8164fa62e93569d2af44f7854ef7b7e83686aa5381d4b094ba6d024e",
+      "preintegration_manifest": "native_full_coarse_multiplicity_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeFullCoarseShadow.strict.log",
+      "source_sha256": "c9a50a105c823aaf771c67bef41a244587d4205a28ad688385257eaed0cbbe50",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeFullCoarseExtremalConsumer",
+      "slug": "native_full_coarse_extremal_consumer",
+      "source": "Theorems/Thm_StickyKakeya4_native_full_coarse_extremal_consumer.lean",
+      "declarations": [
+        "NativeFullCoarseExtremalConsumer.original_full_coarse_multiplicity_bounds"
+      ],
+      "preintegration_source_sha256": "d351a31eeedaf097e8c86065c713ca43eea7bd9de044bd4d1791b2bee7282c4b",
+      "preintegration_manifest": "native_full_coarse_multiplicity_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeFullCoarseExtremalConsumer.strict.log",
+      "source_sha256": "2c2667239b44c99c24781eeb865ed69416b56e78b73978c95d5dfdaffd3aaf85",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeCoarseMultiplicityPower",
+      "slug": "native_coarse_multiplicity_power",
+      "source": "Theorems/Thm_StickyKakeya4_native_coarse_multiplicity_power.lean",
+      "declarations": [
+        "NativeCoarseMultiplicityPower.original_loss_to_coarse",
+        "NativeCoarseMultiplicityPower.coarse_upper_coefficient",
+        "NativeCoarseMultiplicityPower.cross_bound_to_rho"
+      ],
+      "preintegration_source_sha256": "4d188130df4e0339eb5775faab15822167e924475e303dcb416a1eed6701be53",
+      "preintegration_manifest": "native_full_coarse_multiplicity_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeCoarseMultiplicityPower.strict.log",
+      "source_sha256": "fcb402222c3126dbe3bb5ad02aa11e10e5e1391a8ec17d8bb98f30880d0781fc",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeFullCoarsePowerConsumer",
+      "slug": "native_full_coarse_power_consumer",
+      "source": "Theorems/Thm_StickyKakeya4_native_full_coarse_power_consumer.lean",
+      "declarations": [
+        "NativeFullCoarsePowerConsumer.original_full_coarse_power_bounds"
+      ],
+      "preintegration_source_sha256": "2c56de37677d6a7d2c2d20a4c430e22a5e5f4d666cbd366c0850611bf6a6c75d",
+      "preintegration_manifest": "native_full_coarse_multiplicity_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeFullCoarsePowerConsumer.strict.log",
+      "source_sha256": "5352c4d52fcaa1098047915b0ec2fb66cf262fb37a54acb9f94ef8183afea180",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeNearExtremalCoarseFamily",
+      "slug": "native_near_extremal_coarse_family",
+      "source": "Theorems/Thm_StickyKakeya4_native_near_extremal_coarse_family.lean",
+      "declarations": [
+        "NativeNearExtremalCoarseFamily.exists_near_extremal_coarse_family"
+      ],
+      "preintegration_source_sha256": "b99b9a8c38b7dad9a503557c908449a4105f093ed15356ac4d81a6fa73d55621",
+      "preintegration_manifest": "native_full_coarse_multiplicity_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeNearExtremalCoarseFamily.strict.log",
+      "source_sha256": "8a38dc12a046de397e18f8c87efd48424ff8b7ee9a93439e090ebb51fdec2608",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalBadRadiusSelection",
+      "slug": "original_three_dimensional_bad_radius_selection",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_bad_radius_selection.lean",
+      "declarations": [
+        "OriginalThreeDimensionalBadRadiusSelection.original_off_diagonal_pair_loss",
+        "OriginalThreeDimensionalBadRadiusSelection.original_bad_radius_has_dyadic_gain",
+        "OriginalThreeDimensionalBadRadiusSelection.exists_original_bad_graph_dyadic_source"
+      ],
+      "preintegration_source_sha256": "75bdbfef3d4528fe187387905fc2d72d7e2ce31ae784331075cbccb4a3f4ec8c",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_ALL_RADIUS_REDUCTION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalBadRadiusSelection.strict.log",
+      "source_sha256": "7998e0dfaba458d9623693c631526c91ee139067f17eb79abdbe457f153792f7",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalBadRadiusSource",
+      "slug": "native_original_bad_radius_source",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_bad_radius_source.lean",
+      "declarations": [
+        "NativeOriginalBadRadiusSource.exists_original_bad_radius_source_cutoff"
+      ],
+      "preintegration_source_sha256": "a901eaa4dd730bf3cb0c5e98d273b27a352bbbc3269ce1c41594aa08adbc0a18",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_ALL_RADIUS_REDUCTION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalBadRadiusSource.strict.log",
+      "source_sha256": "5ae90e7dd71cbe7a7f95f26de5dcfac737de94d4c88d0a94066ad686fb578233",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalThreeDimensionalGoodRadiusGraph",
+      "slug": "original_three_dimensional_good_radius_graph",
+      "source": "Theorems/Thm_StickyKakeya4_original_three_dimensional_good_radius_graph.lean",
+      "declarations": [
+        "OriginalThreeDimensionalGoodRadiusGraph.original_good_graph_from_small_bad"
+      ],
+      "preintegration_source_sha256": "f5d2f99efbb7bd7dad74512b4fd913171760b5e70688eaaa70f16b39ebef83d5",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_ALL_RADIUS_REDUCTION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalThreeDimensionalGoodRadiusGraph.strict.log",
+      "source_sha256": "f4221de3dedfa2e35354a4b5e482ab20fe39562849c3aa3d6d7e19c900f90abe",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeOriginalAllRadiusPlanarReduction",
+      "slug": "native_original_all_radius_planar_reduction",
+      "source": "Theorems/Thm_StickyKakeya4_native_original_all_radius_planar_reduction.lean",
+      "declarations": [
+        "NativeOriginalAllRadiusPlanarReduction.exists_original_all_radius_planar_reduction"
+      ],
+      "preintegration_source_sha256": "b2522f9b48464049d010172d0fe23c69eeb5d328b065b3a9a9b8fd03d3380f7e",
+      "preintegration_manifest": "WZ_NATIVE_ORIGINAL_ALL_RADIUS_REDUCTION_MANIFEST.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeOriginalAllRadiusPlanarReduction.strict.log",
+      "source_sha256": "cb80b13435d980bd9f64416ac18307ad7d5ac7dc507376de3dea7224f659d38b",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeLocalRobustProjection",
+      "slug": "original_native_local_robust_projection",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_local_robust_projection.lean",
+      "declarations": [
+        "OriginalNativeLocalRobustProjection.exists_original_local_robust_projection"
+      ],
+      "preintegration_source_sha256": "ff24b344d43e41b48d1efe7e6f268c5071bc9e1acea553f2907fb50994ace460",
+      "preintegration_manifest": "OriginalNativeLocalRobustProjection.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeLocalRobustProjection.strict.log",
+      "source_sha256": "9a5c9bc2aad07ace96afbc6ab563b73ddd4d5e2370f3b831c2b9f22a3383efe9",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeRobustResiduals",
+      "slug": "original_native_robust_residuals",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_robust_residuals.lean",
+      "declarations": [
+        "OriginalNativeRobustResiduals.original_point_profile_restrict",
+        "OriginalNativeRobustResiduals.original_point_profile_mono",
+        "OriginalNativeRobustResiduals.original_scalar_profile_mono",
+        "OriginalNativeRobustResiduals.original_projection_cover_mono",
+        "OriginalNativeRobustResiduals.original_robust_residual_profile",
+        "OriginalNativeRobustResiduals.original_robust_residual_threshold",
+        "OriginalNativeRobustResiduals.original_robust_global_query_slack"
+      ],
+      "preintegration_source_sha256": "f11eb50fb56dd90a5e772747e988e86d99af275fb9fea825c4aa56d6bb487cf5",
+      "preintegration_manifest": "OriginalNativeRobustGlobalTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeRobustResiduals.strict.log",
+      "source_sha256": "f11eb50fb56dd90a5e772747e988e86d99af275fb9fea825c4aa56d6bb487cf5",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeRobustGlobalAssembly",
+      "slug": "original_native_robust_global_assembly",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_robust_global_assembly.lean",
+      "declarations": [
+        "OriginalNativeRobustGlobalAssembly.original_global_of_uniform_local"
+      ],
+      "preintegration_source_sha256": "d9960640d8ae18c7c1a2bbc12cffe69df2eebb63d577a7ff44e31764608b5519",
+      "preintegration_manifest": "OriginalNativeRobustGlobalTransfer.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeRobustGlobalAssembly.strict.log",
+      "source_sha256": "60ca10039da3e24127e9a83b8fb3f235fafea9997798673be02adcabaf0f859b",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativePowerAlgebra",
+      "slug": "original_native_power_algebra",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_power_algebra.lean",
+      "declarations": [
+        "OriginalNativePowerAlgebra.native_density_identity",
+        "OriginalNativePowerAlgebra.native_density_retention_lower",
+        "OriginalNativePowerAlgebra.native_balance_upper",
+        "OriginalNativePowerAlgebra.native_strip_upper"
+      ],
+      "preintegration_source_sha256": "9f6c33334b33f4bd026a1b2a485b8e9f22df1ff73a325f783c4e158143b43360",
+      "preintegration_manifest": "OriginalNativeUniformBudget.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativePowerAlgebra.strict.log",
+      "source_sha256": "471dbfaac890df6fb84d6d1ba94cde0a3e7ef20f2c739a242b0210b58c14f8a2",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeProfilePowerAlgebra",
+      "slug": "original_native_profile_power_algebra",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_profile_power_algebra.lean",
+      "declarations": [
+        "OriginalNativeProfilePowerAlgebra.native_alphabet_profile_upper",
+        "OriginalNativeProfilePowerAlgebra.native_retained_profile_upper",
+        "OriginalNativeProfilePowerAlgebra.native_coefficient_profile_upper"
+      ],
+      "preintegration_source_sha256": "32c96ad488b70bb5ad436a2eb89e0b68a9c630183788e2438a3ae4b1d3054bd2",
+      "preintegration_manifest": "OriginalNativeUniformBudget.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeProfilePowerAlgebra.strict.log",
+      "source_sha256": "8d1a5791739dd7f78f9a9d8f5a3e5c8be9513537b4ca0e4a219f2aa95d660a12",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeComparisonPowerAlgebra",
+      "slug": "original_native_comparison_power_algebra",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_comparison_power_algebra.lean",
+      "declarations": [
+        "OriginalNativeComparisonPowerAlgebra.native_comparison_power"
+      ],
+      "preintegration_source_sha256": "0b8f04512f695ca0941b43048c342b2dbec50d5cd8ad20ac5f934d4c5c9d583c",
+      "preintegration_manifest": "OriginalNativeUniformBudget.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeComparisonPowerAlgebra.strict.log",
+      "source_sha256": "994791be4edd51208c1808b15facf2704f1800464e2136a230f524422618793e",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeProjectionPowerCutoff",
+      "slug": "original_native_projection_power_cutoff",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_projection_power_cutoff.lean",
+      "declarations": [
+        "OriginalNativeProjectionPowerCutoff.native_monomial",
+        "OriginalNativeProjectionPowerCutoff.exists_native_exponent_margins",
+        "OriginalNativeProjectionPowerCutoff.exists_native_power_cutoff"
+      ],
+      "preintegration_source_sha256": "ab0566252ade3b0cf679e7565cbdca3e31b1b76bbd24a2fbb490b5c77215b670",
+      "preintegration_manifest": "OriginalNativeUniformBudget.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeProjectionPowerCutoff.strict.log",
+      "source_sha256": "63ed73b05e724539571cdc1142948c11fdd6608fc6a3db3eaad8b9c8904a5eab",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeNumericBudgets",
+      "slug": "original_native_numeric_budgets",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_numeric_budgets.lean",
+      "declarations": [
+        "OriginalNativeNumericBudgets.native_small_query_budgets",
+        "OriginalNativeNumericBudgets.native_secondary_profile_envelope",
+        "OriginalNativeNumericBudgets.native_profile_and_comparison_budgets"
+      ],
+      "preintegration_source_sha256": "ac96ac2ad7039e9bed18ea1788ccf69cd3d09a56f2ef6859194a80eedc6505d1",
+      "preintegration_manifest": "OriginalNativeUniformBudget.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeNumericBudgets.strict.log",
+      "source_sha256": "12ce2e0cc329acb554dc2f62eff54ec7e8260cef08081337ff39aa98be887e18",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeCoverScaleBudget",
+      "slug": "original_native_cover_scale_budget",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_cover_scale_budget.lean",
+      "declarations": [
+        "OriginalNativeCoverScaleBudget.native_inverse_power",
+        "OriginalNativeCoverScaleBudget.native_cover_scale_pos",
+        "OriginalNativeCoverScaleBudget.native_cover_scale_square",
+        "OriginalNativeCoverScaleBudget.native_cover_scale_cardinality",
+        "OriginalNativeCoverScaleBudget.native_source_mass_identity",
+        "OriginalNativeCoverScaleBudget.native_source_mass_admissible"
+      ],
+      "preintegration_source_sha256": "8162060debf9b3876853153468e702aea94ef370200c2bef549a5567b43e445f",
+      "preintegration_manifest": "OriginalNativeUniformBudget.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeCoverScaleBudget.strict.log",
+      "source_sha256": "43630ad718661548acd59c7af02de120029253341303ad7841f7d6a307828be0",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalNativeUniformBudget",
+      "slug": "original_native_uniform_budget",
+      "source": "Theorems/Thm_StickyKakeya4_original_native_uniform_budget.lean",
+      "declarations": [
+        "OriginalNativeUniformBudget.exists_original_native_uniform_budget"
+      ],
+      "preintegration_source_sha256": "57a347e3287ffb7cd6db522a92e64474a1b13d08364734692a8541e80687e0f4",
+      "preintegration_manifest": "OriginalNativeUniformBudget.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalNativeUniformBudget.strict.log",
+      "source_sha256": "e1b2c2e925125a4ff05df3b1647a0ee50deff4889cd4c05dc8e86748f2c6300e",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalMacroPhaseSourceEnvelope",
+      "slug": "original_macro_phase_source_envelope",
+      "source": "Theorems/Thm_StickyKakeya4_original_macro_phase_source_envelope.lean",
+      "declarations": [
+        "OriginalMacroPhaseSourceEnvelope.fourfold_original_xi_law",
+        "OriginalMacroPhaseSourceEnvelope.actual_macro_phase_KT",
+        "OriginalMacroPhaseSourceEnvelope.original_macro_height_mass_power"
+      ],
+      "preintegration_source_sha256": "19b40cd3696997bea0f129626b5af5a8db4a9f9216f47bad18fb2faa62db2c41",
+      "preintegration_manifest": "original_macro_phase_source_envelope.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalMacroPhaseSourceEnvelope.strict.log",
+      "source_sha256": "7a2ff6f560dc3fb34ea38454be13d70aa272796731dbe867890468b8937d3a80",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeLocalParentGeometry",
+      "slug": "native_local_parent_geometry",
+      "source": "Theorems/Thm_StickyKakeya4_native_local_parent_geometry.lean",
+      "declarations": [
+        "NativeLocalParentGeometry.parameter_box",
+        "NativeLocalParentGeometry.localSlope_bound",
+        "NativeLocalParentGeometry.base_valid_slab",
+        "NativeLocalParentGeometry.valid_slab",
+        "NativeLocalParentGeometry.slope_line",
+        "NativeLocalParentGeometry.direction_separation",
+        "NativeLocalParentGeometry.base_mem_fixedCompactClass",
+        "NativeLocalParentGeometry.mem_fixedCompactClass"
+      ],
+      "preintegration_source_sha256": "0d4217a2556107eb337be411b9e8d061cceb32be2b4f5e46c7556d7dbef41369",
+      "preintegration_manifest": "native_local_parent_geometry_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeLocalParentGeometry.strict.log",
+      "source_sha256": "363624405ad9bca5b7436d8dcaa3157e32bee317fbaf0e7264dbc72a478c3493",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeLocalParentCells",
+      "slug": "native_local_parent_cells",
+      "source": "Theorems/Thm_StickyKakeya4_native_local_parent_cells.lean",
+      "declarations": [
+        "NativeLocalParentCells.frontPoint_mem_front",
+        "NativeLocalParentCells.cells_meet_front",
+        "NativeLocalParentCells.shading_subset_tube",
+        "NativeLocalParentCells.frontPoint_height",
+        "NativeLocalParentCells.cellLabel_height"
+      ],
+      "preintegration_source_sha256": "8abb1c9bd1e4be99505da14480c81fb48bfb1228022f6c61fd3df5f68100f157",
+      "preintegration_manifest": "native_local_parent_geometry_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeLocalParentCells.strict.log",
+      "source_sha256": "faa67645e3dee2aafa2cc09889f11e6b0008e3c71c0498bc75d502c20862cd24",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeLocalParentPhysicalMap",
+      "slug": "native_local_parent_physical_map",
+      "source": "Theorems/Thm_StickyKakeya4_native_local_parent_physical_map.lean",
+      "declarations": [
+        "NativeLocalParentPhysicalMap.map_rawFront_graph",
+        "NativeLocalParentPhysicalMap.parent_slope_bound",
+        "NativeLocalParentPhysicalMap.baseMap_dist_le",
+        "NativeLocalParentPhysicalMap.original_front_maps",
+        "NativeLocalParentPhysicalMap.original_tube_maps"
+      ],
+      "preintegration_source_sha256": "7144f1473ede282aa771d00a22428b28fa6709b47f936073082b4de7b59e3716",
+      "preintegration_manifest": "native_local_parent_geometry_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeLocalParentPhysicalMap.strict.log",
+      "source_sha256": "833f1143817f436cd16372f54429edf67fb0f39e8847a7a930aec6a15654d359",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeLocalParentScales",
+      "slug": "native_local_parent_scales",
+      "source": "Theorems/Thm_StickyKakeya4_native_local_parent_scales.lean",
+      "declarations": [
+        "NativeLocalParentScales.relative_scale",
+        "NativeLocalParentScales.local_scales_dyadic"
+      ],
+      "preintegration_source_sha256": "3091a052717e9e5594355ffd660923ae0985a4fe201cfcba300a2352d5a784d1",
+      "preintegration_manifest": "native_local_parent_geometry_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeLocalParentScales.strict.log",
+      "source_sha256": "01037440dd29da99650039114c9d170cd9426fee8702133599d14eeabf1a66c6",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "NativeLocalParentCapacity",
+      "slug": "native_local_parent_capacity",
+      "source": "Theorems/Thm_StickyKakeya4_native_local_parent_capacity.lean",
+      "declarations": [
+        "NativeLocalParentCapacity.output_cell_fiber_card_le",
+        "NativeLocalParentCapacity.original_card_le_output_card",
+        "NativeLocalParentCapacity.shading_mass_scale"
+      ],
+      "preintegration_source_sha256": "362167596b03b8598d5f0b93053be603a5865c9351a0af54c44d9fec6ef81057",
+      "preintegration_manifest": "native_local_parent_geometry_manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/NativeLocalParentCapacity.strict.log",
+      "source_sha256": "93fed96916f65f61deb17291efd081f4ea5abb939cc894c099e7865035996cc8",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    },
+    {
+      "short": "OriginalUniformWeakRobustProjection",
+      "slug": "original_uniform_weak_robust_projection",
+      "source": "Theorems/Thm_StickyKakeya4_original_uniform_weak_robust_projection.lean",
+      "declarations": [
+        "OriginalUniformWeakRobustProjection.exists_uniform_original_local_projection",
+        "OriginalUniformWeakRobustProjection.exists_uniform_original_robust_projection"
+      ],
+      "preintegration_source_sha256": "1f16362616badd764ca57c689879d9f9b85acba9e91a1f94b235c4455960bbf2",
+      "preintegration_manifest": "OriginalUniformWeakRobustProjection.manifest.json",
+      "preintegration_strict_log": "/workspace/scratch/5f2524fd4117/proof-work/OriginalUniformWeakRobustProjection.strict.log",
+      "source_sha256": "7f080921ccdf427d243a742787d32451e1cd37ced43cd9d8779712b978e0d360",
+      "canonical_strict_strategy": "full Lake build with strict options in every source; independent imported all-public axiom readback"
+    }
+  ],
+  "main_theorem_complete": false,
+  "remaining_main_axiom": "StickyKakeya4.wang_zakharov_published_volume_estimate"
+}

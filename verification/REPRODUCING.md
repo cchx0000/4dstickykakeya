@@ -10,7 +10,7 @@ lake update
 lake exe cache get
 ./scripts/check-environment.sh
 # Linux: optional bounded parallel aggregate build (requires flock)
-STICKY_BUILD_JOBS=3 ./scripts/build-bounded.sh Definitions Theorems Solutions
+STICKY_BUILD_JOBS=2 STICKY_LEAN_THREADS=1 ./scripts/build-bounded.sh Definitions Theorems Solutions
 lake build
 ./scripts/check-axioms.sh
 ```
@@ -18,7 +18,7 @@ lake build
 `build-sequential.py` bounds project-level concurrency by visiting local imports
 in dependency order. It records passed, failed, and dependency-blocked modules in
 `verification/build-logs/status.json` and continues independent modules after an
-error. Logs and binary caches are not committed. You can request selected project
+error. Selected verification logs are committed; binary caches are not. You can request selected project
 modules instead of the full graph:
 
 ```sh
@@ -37,6 +37,11 @@ For an isolated elan installation, set `ELAN_HOME` and add `$ELAN_HOME/bin` to
 cache outside the checkout. Do not commit toolchains, caches, or credentials.
 
 The bounded helper uses temporary symlinks to the official elan toolchain and
-a three-slot file-lock semaphore. It does not patch Lean or alter its kernel.
+a shared FIFO file-lock semaphore, with two compiler processes by default.
+`STICKY_BUILD_JOBS` controls this process limit. Independently,
+`STICKY_LEAN_THREADS` controls each compiler through the explicit Lean `-j`
+option and defaults to one. Lean4.33.1 otherwise defaults to hardware
+concurrency; merely exporting `LEAN_NUM_THREADS` does not set that shell
+option. The helper does not patch Lean or alter its kernel.
 The default ordinary `lake build` also works after the library-glob correction.
 `build-sequential.py` remains available for isolated dependency-first diagnostics.

@@ -1,0 +1,5 @@
+Official Lean4.33.1 Shell.defaultNumThreads uses hardware concurrency.
+The wrapper now passes explicit -j${STICKY_LEAN_THREADS:-1}; process concurrency remains separately bounded by STICKY_BUILD_JOBS.
+Command: bash -n scripts/build-bounded.sh
+Confirmed exit code: 0
+Changed only after the903 full build reached terminal success.
