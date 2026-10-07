@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_point_menu_transfer
+#print axioms NativePointMenuTransfer.subset_card_le_support_mul_degree
+#print axioms NativePointMenuTransfer.point_degree_le_menu_mul_degree
+#print axioms NativePointMenuTransfer.multiplicity_le_menu_mul_degree

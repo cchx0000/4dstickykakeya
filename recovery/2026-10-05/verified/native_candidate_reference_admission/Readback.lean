@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_candidate_reference_admission
+
+#print axioms NativeCandidateReferenceAdmission.exists_candidate_menu_angular_upper

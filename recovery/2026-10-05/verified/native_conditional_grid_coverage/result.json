@@ -1,0 +1,60 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_conditional_grid_coverage",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_conditional_grid_coverage.lean",
+  "source_sha256": "11a8cc4928441053ca4176cffa9a720d5b68185dade2936a8c2d66a9fb922bb5",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_conditional_grid_coverage.olean",
+  "names": [
+    "NativeConditionalGridCoverage.gridDepth_schedule",
+    "NativeConditionalGridCoverage.exists_grid_predecessor",
+    "NativeConditionalGridCoverage.queryIndex",
+    "NativeConditionalGridCoverage.queryIndex_candidate",
+    "NativeConditionalGridCoverage.queryIndex_pair",
+    "NativeConditionalGridCoverage.exists_query_predecessors"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T20:01:53.417417+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "caee55af1410ba7616364e69dbd34d9a26b25092c5df4c4fffb24eb4a276f8f3",
+  "source_execution_complete_utc": "2026-10-05T20:01:59.094319+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T201225279042",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeConditionalGridCoverage.gridDepth_schedule": [
+      "propext"
+    ],
+    "NativeConditionalGridCoverage.exists_grid_predecessor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConditionalGridCoverage.queryIndex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConditionalGridCoverage.queryIndex_candidate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConditionalGridCoverage.queryIndex_pair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConditionalGridCoverage.exists_query_predecessors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T20:12:30.655167+00:00"
+}

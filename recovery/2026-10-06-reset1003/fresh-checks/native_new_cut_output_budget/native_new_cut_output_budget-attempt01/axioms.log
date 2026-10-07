@@ -1,0 +1,11 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/abba8651d9a0f7b758100be32c4c2fac786f812f0752b829c13543f6fd747e93.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_new_cut_output_budget-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_new_cut_output_budget-attempt01/Readback.lean"]
+SOURCE_SHA256 32da208321711b1c153d61a338a98511f29d2a87aff9176e0200e16a255ac1ad
+LOCK_ACQUIRED_UTC 2026-10-06T14:07:05.168342+00:00
+SHARED_SLOT 3
+LEAN_PID 63
+'NativeNewCutOutputBudget.actual_multiplier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNewCutOutputBudget.paid_Y_constant_at_output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNewCutOutputBudget.exists_Y_output_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T14:10:40.033780+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

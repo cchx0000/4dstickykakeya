@@ -1,0 +1,98 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_nodal_packet_overlap",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_nodal_packet_overlap.lean",
+  "source_sha256": "1c8721e9701df8455e8e328eb9c73be078af0fda55eb0c4e1ef98c3448175ea0",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_nodal_packet_overlap.olean",
+  "names": [
+    "NativeNodalPacketOverlap.normal_norm_le_infDist",
+    "NativeNodalPacketOverlap.graph_displacement",
+    "NativeNodalPacketOverlap.packet_anchor_distance",
+    "NativeNodalPacketOverlap.original_anchor_distance",
+    "NativeNodalPacketOverlap.node_mem_box",
+    "NativeNodalPacketOverlap.hits",
+    "NativeNodalPacketOverlap.hit_node_mem_box",
+    "NativeNodalPacketOverlap.nodal_packet_overlap",
+    "NativeNodalPacketOverlap.nodal_duplication",
+    "NativeNodalPacketOverlap.occupiedLabels",
+    "NativeNodalPacketOverlap.occupiedLabels_anchors",
+    "NativeNodalPacketOverlap.occupied_overlap"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:16:13.618775+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "ce2cba96dbd02deb4c53024edf2b0a7f80c684b078c56354bce81adb42a2be24",
+  "source_execution_complete_utc": "2026-10-05T12:20:36.649251+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T122439466262",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeNodalPacketOverlap.normal_norm_le_infDist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.graph_displacement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.packet_anchor_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.original_anchor_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.node_mem_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.hits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.hit_node_mem_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.nodal_packet_overlap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.nodal_duplication": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.occupiedLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.occupiedLabels_anchors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalPacketOverlap.occupied_overlap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:30:04.702418+00:00"
+}

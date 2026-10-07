@@ -1,0 +1,16 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/8f1fbb83971ff625ebf16b9f7d234b1c9bd9929e45dc96a894afaa6f33d02d2f.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_same_reference_chart_bounds-attempt06", "/workspace/shared/sticky-recovery-20261006/verification/native_same_reference_chart_bounds-attempt06/Readback.lean"]
+SOURCE_SHA256 1e87cc1dc9c76da63abcdef580fcca2befeca6f8d1bfe5874a23c8e7a9be8cba
+LOCK_ACQUIRED_UTC 2026-10-06T09:03:08.292065+00:00
+SHARED_SLOT 2
+LEAN_PID 65
+'NativeSameReferenceChartBounds.population_through' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameReferenceChartBounds.source_scale_guard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameReferenceChartBounds.full_chart_count_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameReferenceChartBounds.tube_count_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameReferenceChartBounds.full_thickness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameReferenceChartBounds.full_tube_count_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameReferenceChartBounds.chart_bounds_of_populations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameReferenceChartBounds.same_reference_chart_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T09:05:30.783031+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

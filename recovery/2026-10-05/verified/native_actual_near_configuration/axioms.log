@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_actual_near_configuration_readback.lean"]
+SOURCE_SHA256 a16c5a198c69d26062eafb550f364c84c3e926ee744dbd81966c8f8f31077ff3
+FIFO compiler ticket: 01791181753213990846-e604a02115f14c5b8f03f3e1eb0cda36.request
+FIFO compiler acquired UTC: 2026-10-05T06:29:13.215232+00:00
+'NativeActualNearConfiguration.exists_actual_near_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

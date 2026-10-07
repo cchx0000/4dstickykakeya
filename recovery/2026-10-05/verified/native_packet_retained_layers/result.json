@@ -1,0 +1,68 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_packet_retained_layers",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_packet_retained_layers.lean",
+  "source_sha256": "f7b68e64e79d3bda8b9992b5225fa8b28cceebc1c7b5d5ba21dd002ec441a189",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_packet_retained_layers.olean",
+  "names": [
+    "NativePacketRetainedLayers.referenceMinimum",
+    "NativePacketRetainedLayers.referenceMinimum_le",
+    "NativePacketRetainedLayers.le_referenceMinimum",
+    "NativePacketRetainedLayers.referenceBudget",
+    "NativePacketRetainedLayers.referenceBudget_positive",
+    "NativePacketRetainedLayers.active_count_reference_budget",
+    "NativePacketRetainedLayers.construct_actual_packet_layers"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:18:00.724411+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "f8cf930aa4d33764d0cc07f5437883ac075f9bb629a8eea0e5c1ae84df690c94",
+  "source_execution_complete_utc": "2026-10-05T12:23:17.597070+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T122439466262",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativePacketRetainedLayers.referenceMinimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePacketRetainedLayers.referenceMinimum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePacketRetainedLayers.le_referenceMinimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePacketRetainedLayers.referenceBudget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePacketRetainedLayers.referenceBudget_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePacketRetainedLayers.active_count_reference_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePacketRetainedLayers.construct_actual_packet_layers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:30:04.704142+00:00"
+}

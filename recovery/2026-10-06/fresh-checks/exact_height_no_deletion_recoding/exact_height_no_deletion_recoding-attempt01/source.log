@@ -1,0 +1,33 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/df834c4e443fcb6e63ae9ebb23981c681665121163915620f6d6a7e3dd1bcd05.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_exact_height_no_deletion_recoding.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_exact_height_no_deletion_recoding.lean"]
+SOURCE_SHA256 64b5eeadbf3bcb49dff0a5a29c46684796cf36a62c76732dc386e54ba8f42af3
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_exact_height_no_deletion_recoding.lean:54:44: error: Application type mismatch: The argument
+  H
+has type
+  ∀ a ∈ L, F a.1 = Fcfg (height a.1)
+of sort `Prop` but is expected to have type
+  Type ?u.41
+of sort `Type (?u.41 + 1)` in the application
+  Prod H
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_exact_height_no_deletion_recoding.lean:96:8: error: declaration uses `sorry`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_exact_height_no_deletion_recoding.lean:132:79: error: unsolved goals
+E : Type u_1
+A : Type u_2
+inst✝¹ : DecidableEq E
+inst✝ : DecidableEq A
+I : Finset E
+label : E → A
+⊢ image (Prod.fst ∘ fun e => (e, label e)) I = I
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_exact_height_no_deletion_recoding.lean:138:39: error: unsolved goals
+E : Type u_1
+P : Type u_2
+A : Type u_3
+inst✝² : DecidableEq E
+inst✝¹ : DecidableEq P
+inst✝ : DecidableEq A
+I : Finset E
+point : E → P
+label : E → A
+p : P
+⊢ image (Prod.fst ∘ fun e => (e, label e)) ({x ∈ I | point x = p}) = {x ∈ I | point x = p}
+
+EXIT_CODE=1

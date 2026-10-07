@@ -1,0 +1,101 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_new_cut_budget",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean",
+  "source_sha256": "4250d04f9cb89217233c849c5f76e153e5a06daf91e1554ff7e7f194fced84e0",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.olean",
+  "names": [
+    "NativeActualNewCutBudget.offsetCoefficient",
+    "NativeActualNewCutBudget.offsetCharge",
+    "NativeActualNewCutBudget.coherenceCharge",
+    "NativeActualNewCutBudget.newCutCharge",
+    "NativeActualNewCutBudget.fixedFactor",
+    "NativeActualNewCutBudget.newExponent",
+    "NativeActualNewCutBudget.offsetCharge_eq",
+    "NativeActualNewCutBudget.ceiling_power_bound",
+    "NativeActualNewCutBudget.offset_product_bound",
+    "NativeActualNewCutBudget.coherenceCharge_bound",
+    "NativeActualNewCutBudget.newCutCharge_bound",
+    "NativeActualNewCutBudget.stop_radius_le_mesh",
+    "NativeActualNewCutBudget.source_new_cut_cost"
+  ],
+  "started_utc": "2026-10-06T13:14:30.406026+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "54e021bfd298e032e6cf384e85a6bcbc4533901e22b377e23779870b5fa7ab84",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeActualNewCutBudget.offsetCoefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.offsetCharge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.coherenceCharge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.newCutCharge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.fixedFactor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.newExponent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.offsetCharge_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.ceiling_power_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.offset_product_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.coherenceCharge_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.newCutCharge_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.stop_radius_le_mesh": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualNewCutBudget.source_new_cut_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T13:40:20.798900+00:00",
+  "canonical_scope": "new_canonical_module"
+}

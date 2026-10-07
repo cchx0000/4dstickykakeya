@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_full_depth_extension
+
+#print axioms NativeFullDepthExtension.upper_with_loss
+#print axioms NativeFullDepthExtension.weaken_scale
+#print axioms NativeFullDepthExtension.dyadic_ratio_one_le
+#print axioms NativeFullDepthExtension.coarse_thickness_ratio
+#print axioms NativeFullDepthExtension.full_from_middle

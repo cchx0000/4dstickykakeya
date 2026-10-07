@@ -1,0 +1,82 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T17:12:07.103259+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T171206287957",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T171206287957/AggregateReadback.lean"
+  ],
+  "readback_sha256": "ac756760c250c707419a590d1c7bd99d5f7b6f1b471651d1f0c1c7ca19019ee7",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_all_radii",
+      "source_sha256": "95c086523cfadce54169823267c27ccbef1538e4988b2d09e4624f71a4e2cf7f",
+      "olean_sha256": "f7808b3cc0bce3cc184456c4c3c98a3c1b23555b873186e178d54ff1b28fa53d",
+      "names": [
+        "NativeRetainedSliceAllRadii.retained_all_radius_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_grain_ad",
+      "source_sha256": "f348445cb53e407783cea01c9c4e027ce43d15afe2b922cf90e158baaba7ebfa",
+      "olean_sha256": "ed4ab9755156634a31bb26a4c1ff60f753145b437f74073ce4b1585fb9fc2087",
+      "names": [
+        "NativeRetainedSliceGrainAD.retained_slice_ADBounds",
+        "NativeRetainedSliceGrainAD.exists_actual_slice_grain_AD"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_prescribed_parent_graph_configuration",
+      "source_sha256": "8d765d4c3b293f7240ecbbca2c561abec38b3f6e2305fc1860ca6ac13b8c3205",
+      "olean_sha256": "df8e54a741f1456e50cee3843b3b0c7a8a089baebbc2ad4190d7660df97368bc",
+      "names": [
+        "NativePrescribedParentGraphConfiguration.CurveParentFinalCleanupData",
+        "NativePrescribedParentGraphConfiguration.HasCurveParentRetainedHistory",
+        "NativePrescribedParentGraphConfiguration.HasCurveParentStage",
+        "NativePrescribedParentGraphConfiguration.middleSelected",
+        "NativePrescribedParentGraphConfiguration.middle_selected_depth",
+        "NativePrescribedParentGraphConfiguration.half_depth_eq_depth",
+        "NativePrescribedParentGraphConfiguration.stage_with_parent_graph",
+        "NativePrescribedParentGraphConfiguration.exists_prescribed_parent_graph_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_prescribed_parent_graph_data",
+      "source_sha256": "dbf4d3ef4274ab65f78679e12ae38f78e8131d9fa5f94413e0b30a31f31098e2",
+      "olean_sha256": "511c77acab11b82605ed512653ee252abbf55c0c4cc32a2a1b522f50809072bc",
+      "names": [
+        "NativePrescribedParentGraphData.HasParentHeightCore",
+        "NativePrescribedParentGraphData.HasCurveParentProfiles",
+        "NativePrescribedParentGraphData.attach_prescribed_parent_graph",
+        "NativePrescribedParentGraphData.curve_parent_profiles_forget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_column_pair_core",
+      "source_sha256": "1899232aa6fe1ab33977949ac95cfb6bfd84f58116f658fea4c621abdaa35e1a",
+      "olean_sha256": "5a3e27566b425f88a2adbe612022b01d161f7923b48086b5ff02df771e867f5d",
+      "names": [
+        "NativeRetainedColumnPairCore.taggedPair",
+        "NativeRetainedColumnPairCore.relations",
+        "NativeRetainedColumnPairCore.relations_refl",
+        "NativeRetainedColumnPairCore.relations_symm",
+        "NativeRetainedColumnPairCore.caller_parent_pair_uniformity",
+        "NativeRetainedColumnPairCore.retained_pair_card",
+        "NativeRetainedColumnPairCore.retained_pair_multiplicity"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T17:12:18.983857+00:00",
+  "exit_code": 0
+}

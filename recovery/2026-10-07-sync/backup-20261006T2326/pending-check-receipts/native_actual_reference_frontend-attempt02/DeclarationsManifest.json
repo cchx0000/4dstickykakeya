@@ -1,0 +1,106 @@
+{
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean",
+  "source_sha256": "dab383f2cf939fdf8b81d7f46e354b73cc16cd3634468d291a9d39b40cabd526",
+  "declaration_count": 19,
+  "namespaces": [
+    "NativePrescribedExtraPaidXYConfiguration",
+    "NativeConditionalReferenceParentSlots",
+    "NativePrescribedConditionalPaidXYConfiguration",
+    "NativePrescribedPhysicalReferenceConfiguration",
+    "NativeActualBaselineScaleGuards",
+    "NativeSourceBaselineBase",
+    "NativeFinalSourceScopeReadback",
+    "NativeActualThirdHistoryReadback"
+  ],
+  "units": [
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prescribed_extra_paid_XY_configuration.lean",
+      "origin_sha256": "5f859b0b9b44c1ba99d5039a6b63322febdb67ece8fdbc2028e35f63e4dc0954",
+      "namespace": "NativePrescribedExtraPaidXYConfiguration",
+      "declarations": [
+        "NativePrescribedExtraPaidXYConfiguration.exists_prescribed_extra_paid_XY_configuration"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_conditional_reference_parent_slots.lean",
+      "origin_sha256": "dac9e2e065d655eb11266d1bf4efa847bb30353e274d9d9b11bf370bc7fbe1a7",
+      "namespace": "NativeConditionalReferenceParentSlots",
+      "declarations": [
+        "NativeConditionalReferenceParentSlots.baseQuery",
+        "NativeConditionalReferenceParentSlots.parentDepth_baseQuery",
+        "NativeConditionalReferenceParentSlots.parentSlot",
+        "NativeConditionalReferenceParentSlots.factory_parent_slot"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prescribed_conditional_paid_XY_configuration.lean",
+      "origin_sha256": "eae87b8b65507f4ba2e89e6466aee683dbe5d2286bbf1cf5d3ef9f0468c377c1",
+      "namespace": "NativePrescribedConditionalPaidXYConfiguration",
+      "declarations": [
+        "NativePrescribedConditionalPaidXYConfiguration.exists_prescribed_conditional_paid_XY_configuration"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prescribed_physical_reference_configuration.lean",
+      "origin_sha256": "74f1f71cff95ea48dea1d1c8aa801aa640ffc354d3125064d10daa9dd586ff8f",
+      "namespace": "NativePrescribedPhysicalReferenceConfiguration",
+      "declarations": [
+        "NativePrescribedPhysicalReferenceConfiguration.exists_prescribed_physical_reference_configuration"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_baseline_scale_guards.lean",
+      "origin_sha256": "f7e452dc66104d235a8c73cda3430653c7b2fbbce7382041338c36b50d8adab7",
+      "namespace": "NativeActualBaselineScaleGuards",
+      "declarations": [
+        "NativeActualBaselineScaleGuards.depth_guard",
+        "NativeActualBaselineScaleGuards.reference_depth_guard",
+        "NativeActualBaselineScaleGuards.source_mesh_lower",
+        "NativeActualBaselineScaleGuards.source_thickness_ge_original",
+        "NativeActualBaselineScaleGuards.exists_source_mesh_window"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_source_baseline_base.lean",
+      "origin_sha256": "786b73027017909af6b6faf4b6663f6c87f17224dce91dee11a0c471619fc9c7",
+      "namespace": "NativeSourceBaselineBase",
+      "declarations": [
+        "NativeSourceBaselineBase.exists_source_baseline_base"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_final_source_scope_readback.lean",
+      "origin_sha256": "f12cfe2650f22019f8556ba62a6b931a703eca054ba0957adb9c6b4d88c741c4",
+      "namespace": "NativeFinalSourceScopeReadback",
+      "declarations": [
+        "NativeFinalSourceScopeReadback.original_scope",
+        "NativeFinalSourceScopeReadback.parent_scope",
+        "NativeFinalSourceScopeReadback.active_reference_parent",
+        "NativeFinalSourceScopeReadback.middle_guards"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_third_history_readback.lean",
+      "origin_sha256": "b06797f7ce830b6ab7d4514036b51083d0bdc01b7d3c14c88acb6c63ab9d0f6e",
+      "namespace": "NativeActualThirdHistoryReadback",
+      "declarations": [
+        "NativeActualThirdHistoryReadback.fraction_lower",
+        "NativeActualThirdHistoryReadback.source_record"
+      ]
+    }
+  ],
+  "scope": "UNVERIFIED combined source factory, actual baseline scale choice and literal reference/history readbacks. Frozen originals preserved. Only internal imports removed/replaced by the independently checked combined htotal module; original sections closed.",
+  "adaptations": [
+    {
+      "change": "Future import adaptation to the source-passed physical/third combined package; preserves all original namespaces and proof bodies. One-T adds explicit nodePlane namespace opening."
+    },
+    {
+      "attempt": 1,
+      "changes": "Neutral creation comments before the first gate; mathematical statements/proofs unchanged. Original source snapshots preserved."
+    },
+    {
+      "attempt": 2,
+      "changes": "Proof-only fixes for unfolded mu/R0 and rho aliases, one redundant tactic, quotientCost namespace and explicit ell=2 in source-record readback. Declaration names and mathematical statements unchanged."
+    }
+  ]
+}

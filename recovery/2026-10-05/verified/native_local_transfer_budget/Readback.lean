@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_local_transfer_budget
+#print axioms NativeLocalTransferBudget.transferCoefficient
+#print axioms NativeLocalTransferBudget.transferCoefficient_nonneg
+#print axioms NativeLocalTransferBudget.exists_parent_transfer_cutoff

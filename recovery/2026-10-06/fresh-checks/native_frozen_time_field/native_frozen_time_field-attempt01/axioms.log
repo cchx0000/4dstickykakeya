@@ -1,0 +1,12 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/5ea6a7e3002a2c2ff5803e80cb87fb642696af2ba21e9199eb06cac2d31a737f.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_frozen_time_field-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_frozen_time_field-attempt01/Readback.lean"]
+SOURCE_SHA256 7150725f1133a00cef792ea854ef9fad2993489be19dc3b7a18800f9b53375ea
+'NativeFrozenTimeField.field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFrozenTimeField.field_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFrozenTimeField.field_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFrozenTimeField.nested_height_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFrozenTimeField.same_base_same_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFrozenTimeField.field_close_to_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFrozenTimeField.frozen_field_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFrozenTimeField.select_frozen_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

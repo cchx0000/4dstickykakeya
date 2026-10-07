@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_sharp_X_power_loss
+
+#print axioms NativeActualSharpXPowerLoss.source_reference_X_power_lower_with_loss

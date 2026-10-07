@@ -1,0 +1,105 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_intermediate_parent_population",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_intermediate_parent_population.lean",
+  "source_sha256": "82906b8e96b765c79c679b361f3e7cb742a2d15804fff1fca6c6d2476be81927",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_intermediate_parent_population.olean",
+  "names": [
+    "NativeIntermediateParentPopulation.parent_from_ancestor",
+    "NativeIntermediateParentPopulation.old_fiber_card_le_current",
+    "NativeIntermediateParentPopulation.intermediate_dyadic",
+    "NativeIntermediateParentPopulation.actual_population_lower",
+    "NativeIntermediateParentPopulation.actual_population_upper",
+    "NativeIntermediateParentPopulation.intermediateCells",
+    "NativeIntermediateParentPopulation.intermediate_common_mesh",
+    "NativeIntermediateParentPopulation.intermediate_common_height",
+    "NativeIntermediateParentPopulation.second_source_AD",
+    "NativeIntermediateParentPopulation.second_source_CW",
+    "NativeIntermediateParentPopulation.second_source_geometry",
+    "NativeIntermediateParentPopulation.second_parent_normalized_count",
+    "NativeIntermediateParentPopulation.second_source_density_from_count"
+  ],
+  "started_utc": "2026-10-06T18:06:39.363525+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "8c142860716ac33444cdb8b5ac307fc7755eaa23a122fb03359e67c27885c2fe",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T18:10:28.774909+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1811",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeIntermediateParentPopulation.parent_from_ancestor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.old_fiber_card_le_current": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.intermediate_dyadic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.actual_population_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.actual_population_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.intermediateCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.intermediate_common_mesh": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.intermediate_common_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.second_source_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.second_source_CW": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.second_source_geometry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.second_parent_normalized_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeIntermediateParentPopulation.second_source_density_from_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T18:14:59.211223+00:00",
+  "canonical_scope": "new_canonical_module"
+}

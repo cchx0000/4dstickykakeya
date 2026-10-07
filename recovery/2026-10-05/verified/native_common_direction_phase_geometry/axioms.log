@@ -1,0 +1,47 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T192100658727", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T192100658727/AggregateReadback.lean"]
+READBACK_SHA256 593b05a23c1a1451a07c3ef51ce62256c582127e5805f4218515f0d2aeb3ef09
+Dedicated staging slot 3 acquired UTC: 2026-10-05T19:21:07.876504+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8695880 kB
+'NativeCommonDirectionPhaseGeometry.front_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseGeometry.original_intercept_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCommonDirectionPhaseGeometry.physical_cell_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseGeometry.physical_height_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseGeometry.physical_intercept_spread' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCommonDirectionPhaseGeometry.scalar_intercept_spread' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseGeometry.source_front_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseMenu.dyadic_phase_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseMenu.dyadic_sigma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseMenu.dyadic_source_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseMenu.full_R_representative_readback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCommonDirectionPhaseMenu.original_parent_mem_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseMenu.original_phase_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseMenu.phaseMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseMenu.phaseMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonDirectionPhaseMenu.same_angle_original_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericQueryRank.HasQueriedRankSelection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericQueryRank.exists_query_depth_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericReferenceData.factor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericReferenceData.global_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericReferenceQueries.HasQuerySecondStageCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericReferenceQueries.decode_second_stage_queries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericReferenceRank.HasRankSelection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericReferenceRank.exists_rank_selection_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericReferenceSecondStage.HasRetainedRankSelection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericReferenceSecondStage.HasSecondStageCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericReferenceSecondStage.exists_second_stage_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericSquaredGrainSelection.select_squared_grain_second_stage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSourceThirdXYBundle.exists_source_third_XY_bundle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYConstruction.construct_third_XY_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYSourceData.HasThirdXYSourceData' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

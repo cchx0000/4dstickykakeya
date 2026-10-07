@@ -1,0 +1,11 @@
+{
+  "state": "unknown_after_exec_disconnect",
+  "reported_utc": "2026-10-06T15:19:58.882024+00:00",
+  "source_sha256": "e32fd5f0fa05427095862d110ac71a678d9f1b255b82ada27ab207311f8d3726",
+  "original_session": 85298,
+  "last_logged_lock_acquired_utc": "2026-10-06T15:10:21.505361+00:00",
+  "terminal_exit_observed": false,
+  "parent_diagnosis": "All three old slot locks were free and the old DAG status mtime had stopped at15:07; old execution sessions were lost. A stale running result is not proof of a live compiler.",
+  "next_action": "Keep original source/log/result unchanged. Await parent isolated-output-overlay admission, then reverify exact source in a new attempt.",
+  "no_pass_or_failure_claim": true
+}

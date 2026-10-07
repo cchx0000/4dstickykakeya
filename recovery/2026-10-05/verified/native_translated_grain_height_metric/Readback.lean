@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_translated_grain_height_metric
+
+#print axioms NativeTranslatedGrainHeightMetric.rawAt
+#print axioms NativeTranslatedGrainHeightMetric.rawAt_readback
+#print axioms NativeTranslatedGrainHeightMetric.mapped
+#print axioms NativeTranslatedGrainHeightMetric.mapped_readback
+#print axioms NativeTranslatedGrainHeightMetric.referenceHeight
+#print axioms NativeTranslatedGrainHeightMetric.referenceHeight_distance
+#print axioms NativeTranslatedGrainHeightMetric.mapped_metric
+#print axioms NativeTranslatedGrainHeightMetric.mapped_norm_on_image

@@ -1,0 +1,11 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_full_depth_extension_readback.lean"]
+SOURCE_SHA256 4b301790bb1a83289f937382958c323b39a3a16c936cecccb87f9813d48ebcf0
+FIFO compiler ticket: 01791186320444116840-496563dd5b7c4a64a22e4f94d600cca4.request
+FIFO compiler acquired UTC: 2026-10-05T07:45:20.445110+00:00
+'NativeFullDepthExtension.upper_with_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullDepthExtension.weaken_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullDepthExtension.dyadic_ratio_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullDepthExtension.coarse_thickness_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullDepthExtension.full_from_middle' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

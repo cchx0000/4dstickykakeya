@@ -1,0 +1,30 @@
+import Theorems.Thm_StickyKakeya4_native_direction_rank_dichotomy
+
+#print axioms NativeDirectionRankDichotomy.mass
+#print axioms NativeDirectionRankDichotomy.spanOf
+#print axioms NativeDirectionRankDichotomy.nearLabels
+#print axioms NativeDirectionRankDichotomy.farLabels
+#print axioms NativeDirectionRankDichotomy.children
+#print axioms NativeDirectionRankDichotomy.chains
+#print axioms NativeDirectionRankDichotomy.chainWeight
+#print axioms NativeDirectionRankDichotomy.chainMass
+#print axioms NativeDirectionRankDichotomy.Separated
+#print axioms NativeDirectionRankDichotomy.spanOf_finrank_le
+#print axioms NativeDirectionRankDichotomy.mem_chains_succ
+#print axioms NativeDirectionRankDichotomy.chains_length
+#print axioms NativeDirectionRankDichotomy.chains_labels
+#print axioms NativeDirectionRankDichotomy.chains_separated
+#print axioms NativeDirectionRankDichotomy.separated_linearIndependent
+#print axioms NativeDirectionRankDichotomy.chains_gram_det_ne_zero
+#print axioms NativeDirectionRankDichotomy.chainWeight_nonneg
+#print axioms NativeDirectionRankDichotomy.children_disjoint
+#print axioms NativeDirectionRankDichotomy.children_weight
+#print axioms NativeDirectionRankDichotomy.chainMass_succ
+#print axioms NativeDirectionRankDichotomy.far_mass_ge
+#print axioms NativeDirectionRankDichotomy.broad_chain_mass
+#print axioms NativeDirectionRankDichotomy.concentration_or_many_chains
+#print axioms NativeDirectionRankDichotomy.near_mass_mono
+#print axioms NativeDirectionRankDichotomy.retained_broad_chain_mass
+#print axioms NativeDirectionRankDichotomy.slopeVector
+#print axioms NativeDirectionRankDichotomy.slopeVector_last
+#print axioms NativeDirectionRankDichotomy.incident_slope_dichotomy

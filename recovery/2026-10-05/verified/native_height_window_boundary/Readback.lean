@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_height_window_boundary
+
+#print axioms NativeHeightWindowBoundary.heightPreimages
+#print axioms NativeHeightWindowBoundary.heightPreimages_card
+#print axioms NativeHeightWindowBoundary.mem_heightPreimages
+#print axioms NativeHeightWindowBoundary.card_le_height_image
+#print axioms NativeHeightWindowBoundary.time_map_column
+#print axioms NativeHeightWindowBoundary.points_time_image
+#print axioms NativeHeightWindowBoundary.point_count_bounds
+#print axioms NativeHeightWindowBoundary.weighted_point_counts_max_six

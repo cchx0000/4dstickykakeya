@@ -1,0 +1,155 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean",
+  "source_sha256": "a4fcdf23f4a9a3bd6668298a21d6d38e4cd2265260d906b3821df11da44c96c8",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.olean",
+  "names": [
+    "NativeFixedReferenceAllRadiusAngularProfile.angularConstant",
+    "NativeFixedReferenceAllRadiusAngularProfile.ball_count_mono",
+    "NativeFixedReferenceAllRadiusAngularProfile.occupied_ball_one",
+    "NativeFixedReferenceAllRadiusAngularProfile.same_grid_close",
+    "NativeFixedReferenceAllRadiusAngularProfile.ball_upper_transfer",
+    "NativeFixedReferenceAllRadiusAngularProfile.scheduledRadius",
+    "NativeFixedReferenceAllRadiusAngularProfile.scheduledRadius_pos",
+    "NativeFixedReferenceAllRadiusAngularProfile.reference_schedule_eq",
+    "NativeFixedReferenceAllRadiusAngularProfile.scheduledRadius_rank",
+    "NativeFixedReferenceAllRadiusAngularProfile.first_radius_lower",
+    "NativeFixedReferenceAllRadiusAngularProfile.last_radius_upper",
+    "NativeFixedReferenceAllRadiusAngularProfile.middle_radius_bracket",
+    "NativeFixedReferenceAllRadiusAngularProfile.enlargement",
+    "NativeFixedReferenceAllRadiusAngularProfile.enlargement_one",
+    "NativeFixedReferenceAllRadiusAngularProfile.all_radius_alternative",
+    "NativeFixedReferenceAllRadiusAngularProfile.paid_scheduled_bounds",
+    "NativeFixedReferenceAllRadiusAngularProfile.ratio_power_le",
+    "NativeFixedReferenceAllRadiusAngularProfile.cube_le_cover_cost",
+    "NativeFixedReferenceAllRadiusAngularProfile.all_radius_rough_bounds",
+    "NativeFixedReferenceAllRadiusAngularProfile.all_radius_power_bounds",
+    "NativeFixedReferenceAllRadiusAngularProfile.exists_all_radius_cutoff"
+  ],
+  "started_utc": "2026-10-06T22:54:12.754190+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "declarations_manifest_sha256": "01df036312a84b54bdd008159ef2149e4f1db4652df495d53a4591bd1bc68b6a",
+  "declaration_coverage": "Exact namespace-qualified source declaration sequence equals the frozen manifest",
+  "source_exit_code": 0,
+  "olean_sha256": "64d2e0c92c284e53a9e3c972cec86b18c60834e6463706f6d56b6902d1e72656",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T22:54:51.728320+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2255",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeFixedReferenceAllRadiusAngularProfile.angularConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.ball_count_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.occupied_ball_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.same_grid_close": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.ball_upper_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.scheduledRadius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.scheduledRadius_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.reference_schedule_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.scheduledRadius_rank": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.first_radius_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.last_radius_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.middle_radius_bracket": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.enlargement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.enlargement_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.all_radius_alternative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.paid_scheduled_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.ratio_power_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.cube_le_cover_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.all_radius_rough_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.all_radius_power_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedReferenceAllRadiusAngularProfile.exists_all_radius_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T22:55:46.227059+00:00",
+  "canonical_scope": "new_canonical_module"
+}

@@ -1,0 +1,84 @@
+{
+  "status": "UNVERIFIED after attempt03; final remaining reported sequence-focus lint repaired; no next gate launched",
+  "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean",
+  "sha256": "f06225ea142b2d549f339bf36446d43273f38982d3e403c6da09b283b88b8820",
+  "declaration_count": 12,
+  "declarations": [
+    "NativeRawIncidenceHeightPopulationDraft2123.original_height_row_card",
+    "NativeRawIncidenceHeightPopulationDraft2123.rounded_height_readback",
+    "NativeRawIncidenceHeightPopulationDraft2123.double_label_height",
+    "NativeRawIncidenceHeightPopulationDraft2123.double_front_time_error",
+    "NativeRawIncidenceHeightPopulationDraft2123.integer_time_interval_card",
+    "NativeRawIncidenceHeightPopulationDraft2123.coarse_shadow_original_height_count",
+    "NativeRawIncidenceHeightPopulationDraft2123.final_time_original_height_count",
+    "NativeRawIncidenceHeightPopulationDraft2123.relative_atom_population_upper",
+    "NativeRawIncidenceHeightPopulationDraft2123.original_height_atom_capacity",
+    "NativeRawIncidenceHeightPopulationDraft2123.coarse_shadow_original_incidence_capacity",
+    "NativeRawIncidenceHeightPopulationDraft2123.raw_atom_mass_upper",
+    "NativeRawIncidenceHeightPopulationDraft2123.actual_relative_raw_capacities"
+  ],
+  "imports": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_padded_cell_fiber_count",
+      "source_paths": [
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_padded_cell_fiber_count.lean"
+      ],
+      "source_present": true
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_relative_coarse_point_menu",
+      "source_paths": [
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_relative_coarse_point_menu.lean"
+      ],
+      "source_present": true
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_same_reference_chart_bounds",
+      "source_paths": [
+        "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.lean",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.lean"
+      ],
+      "source_present": true
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_active_phase_population",
+      "source_paths": [
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_active_phase_population.lean"
+      ],
+      "source_present": true
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_tangent_grid_coarsening",
+      "source_paths": [
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_tangent_grid_coarsening.lean"
+      ],
+      "source_present": true
+    }
+  ],
+  "coverage": {
+    "true_original_height_tag_capacity": "Implemented: original_height_row_card + original_height_atom_capacity + actual_relative_raw_capacities.1 derive the raw tagged-fiber bound r^(-p)(d/r)^3 on any unchanged A in the actual relative atom and one true original k3.",
+    "coarse_shadow_pair_capacity": "Implemented: actual doubleFront/doubleLabel time geometry -> original row count -> original incidence capacity -> actual HB; actual_relative_raw_capacities.2.2 derives nu*|A|<=87808*r^(-p)*d^4 for a fixed actual shadow third coordinate, hence also a fixed full shadow cell.",
+    "whole_normalized_raw_weight": "Implemented: raw_atom_mass_upper uses original retained full tube volume, and actual_relative_raw_capacities.2.1 gives nu*|A|<=(rowConstant/64^3)*r^(-p)*d^3. The fixed inequality rowConstant/64^3<=1 has been mathematically audited but is not included as a declaration.",
+    "final_time_true_height_cap": "Implemented: final_time_original_height_count gives 2^28*sigma/delta using actual doubleLabel then actual final cellLabel.",
+    "universal_same_Q_shading_bridge": "Not implemented here. Must sum the actual raw-pair capacity on the SAME Q and use existing actualRows/doublePair/coarse source volume readback; no output shading bound is a premise of the geometric readers."
+  },
+  "guards": "HB: m+b<=level and64^3*r^p<=delta^zeta. First parent m>=6 impliesdelta<=r; actual source_scale_guard gives2^b*r<=1, hence r<=d/64. Final time cap additionally requiresd<=sigma=L*d/64. No configured-point separation or Hsingle.",
+  "mass_owner": "NativeOriginalIncidenceMassLower, owned by audit_native_configuration_consumers; duplicate mass/payment drafts removed before freeze.",
+  "preserved": "Frozen89 and all checked baseline sources unchanged.",
+  "attempt01": {
+    "source_sha256": "1b7c20ca1057f0cda70b8d9b9907ab62302726b744d82e34935236d2a70edf43",
+    "state": "failed",
+    "finished_utc": "2026-10-06T21:36:48.778483+00:00",
+    "diagnostics": "9 syntax/elaboration/alias/image-id diagnostics; fixed offline, no hypothesis or constant changed"
+  },
+  "attempt02": {
+    "source_sha256": "4eb78e17f55f08b5e5160d56ec9d7fee0162cd4c0c4780fc41fc47185eecec40",
+    "state": "failed",
+    "diagnostics": "Only unnecessary sequence-focus and unreachable-tactic lints; mathematical goals elaborated"
+  },
+  "attempt03": {
+    "source_sha256": "5ef81f651bd93f735bc7846584042e4baa3c441382fc373f1acc33fdc9efc932",
+    "state": "failed",
+    "diagnostics": "One unnecessarySeqFocus lint at final algebraic equality; no unsolved mathematical goal"
+  }
+}

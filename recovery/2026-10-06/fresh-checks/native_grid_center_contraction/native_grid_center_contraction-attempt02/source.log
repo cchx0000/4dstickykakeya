@@ -1,0 +1,14 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/f5019c9956830e4adbf73dccf92a96dfe86f1b5e1b2bc655ce436379123cb4a4.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean"]
+SOURCE_SHA256 ede5fbab45fcd821bb353f62c6f36abc319630627533a33e824195c4a9fcd73a
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean:47:18: error: typeclass instance problem is stuck
+  Subsingleton ?m.372
+
+Note: Lean will not try to resolve this typeclass instance problem because the type argument to `Subsingleton` is a metavariable. This argument must be fully determined before Lean will try to resolve the typeclass.
+
+Hint: Adding type annotations and supplying implicit arguments to functions can give Lean more information for typeclass resolution. For example, if you have a variable `x` that you intend to be a `Nat`, but Lean reports it as having an unresolved type like `?m`, replacing `x` with `(x : Nat)` can get typeclass resolution un-stuck.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean:47:18: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  Subsingleton (Finset (Fin l → ℝ))
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+
+EXIT_CODE=1

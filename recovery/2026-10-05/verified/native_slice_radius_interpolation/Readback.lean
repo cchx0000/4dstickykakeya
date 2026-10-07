@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_slice_radius_interpolation
+
+#print axioms NativeSliceRadiusInterpolation.radius
+#print axioms NativeSliceRadiusInterpolation.radius_pos
+#print axioms NativeSliceRadiusInterpolation.adjacent_ratio
+#print axioms NativeSliceRadiusInterpolation.bracket_real_radius
+#print axioms NativeSliceRadiusInterpolation.ballCount
+#print axioms NativeSliceRadiusInterpolation.ballCount_mono
+#print axioms NativeSliceRadiusInterpolation.all_radius_bounds

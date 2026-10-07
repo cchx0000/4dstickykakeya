@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_third_XY_constant_comparison
+
+#print axioms NativeThirdXYConstantComparison.geometryCost
+#print axioms NativeThirdXYConstantComparison.geometryCost_one_le
+#print axioms NativeThirdXYConstantComparison.constant_grid_comparison
+#print axioms NativeThirdXYConstantComparison.gap_power_comparison
+#print axioms NativeThirdXYConstantComparison.xyConstant_le_retained

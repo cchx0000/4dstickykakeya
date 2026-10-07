@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_balanced_configuration
+#print axioms NativeBalancedConfiguration.HasBalancedScale
+#print axioms NativeBalancedConfiguration.pure_near_to_balanced
+#print axioms NativeBalancedConfiguration.exists_balanced_configuration

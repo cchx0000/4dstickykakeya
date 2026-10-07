@@ -1,0 +1,30 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_local_density",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_actual_local_density.lean",
+  "source_sha256": "1adc4a80880cc044839ec4d69f84113d1fda08f5ce28a2801a043b371e77e603",
+  "names": [
+    "NativeActualLocalDensity.total_tube_upper",
+    "NativeActualLocalDensity.source_density"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:19:08.860827+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeActualLocalDensity.total_tube_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualLocalDensity.source_density": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "3fc4bd243bc46be19942ba7d495539d919cc1c40717d2418ae78be830233b331",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:19:18.414921+00:00"
+}

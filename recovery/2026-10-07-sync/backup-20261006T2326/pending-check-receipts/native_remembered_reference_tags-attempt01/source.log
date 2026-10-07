@@ -1,0 +1,12 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3ad6bcfa09c062fe83d9a37bb8056be267bb25685a320d6bda46e6ac6ed22883.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_remembered_reference_tags.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_reference_tags.lean"]
+SOURCE_SHA256 6ebeb5aa0410d1b710b65fbd32937ae61057828238073f791b839a281903f760
+LOCK_ACQUIRED_UTC 2026-10-06T20:40:03.412704+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_reference_tags.lean:27:19: error: synthesized type class instance is not definitionally equal to expression inferred by typing rules, synthesized
+  Int.instDecidableEq
+inferred
+  fun a b => propDecidable (a = b)
+LEAN_FINISHED_UTC 2026-10-06T20:42:18.034653+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

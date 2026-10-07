@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_endpoint_power_budgets
+
+#print axioms NativeEndpointPowerBudgets.cube_cost
+#print axioms NativeEndpointPowerBudgets.lower_le_one_of_cost
+#print axioms NativeEndpointPowerBudgets.coarse_negative_power_le_depth
+#print axioms NativeEndpointPowerBudgets.initial_coarse_lower
+#print axioms NativeEndpointPowerBudgets.terminal_old_parent_bounds

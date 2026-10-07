@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_relative_coarse_readback
+
+#print axioms NativeRelativeCoarseReadback.originalRepresentative
+#print axioms NativeRelativeCoarseReadback.originalRepresentative_spec
+#print axioms NativeRelativeCoarseReadback.originalRepresentative_label
+#print axioms NativeRelativeCoarseReadback.roundedPair
+#print axioms NativeRelativeCoarseReadback.doublePair
+#print axioms NativeRelativeCoarseReadback.roundedPair_localPair
+#print axioms NativeRelativeCoarseReadback.source_mesh
+#print axioms NativeRelativeCoarseReadback.relative_label_readback
+#print axioms NativeRelativeCoarseReadback.relative_incidence_image
+#print axioms NativeRelativeCoarseReadback.local_source_dyadic
+#print axioms NativeRelativeCoarseReadback.relative_full_multiplicity_readback

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_X_budget_costs
+
+#print axioms NativeSharpXBudgetCosts.raw_cost_power
+#print axioms NativeSharpXBudgetCosts.rank_denominator
+#print axioms NativeSharpXBudgetCosts.transverse_power
+#print axioms NativeSharpXBudgetCosts.reference_factor

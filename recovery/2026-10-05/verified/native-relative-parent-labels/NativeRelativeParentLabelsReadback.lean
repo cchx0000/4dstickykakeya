@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_relative_parent_labels
+set_option autoImplicit false
+#print axioms NativeRelativeParentLabels.actual_local_intercept
+#print axioms NativeRelativeParentLabels.actual_local_shifted_intercept
+#print axioms NativeRelativeParentLabels.relativeLabel
+#print axioms NativeRelativeParentLabels.projection
+#print axioms NativeRelativeParentLabels.projectionBox
+#print axioms NativeRelativeParentLabels.relativeLabel_eq_projection
+#print axioms NativeRelativeParentLabels.projection_mem_box
+#print axioms NativeRelativeParentLabels.projectionBox_card
+#print axioms NativeRelativeParentLabels.relative_atom_original_labels

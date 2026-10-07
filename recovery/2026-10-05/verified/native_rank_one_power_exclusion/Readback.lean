@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_rank_one_power_exclusion
+
+#print axioms NativeRankOnePowerExclusion.rank_one_budget_le
+#print axioms NativeRankOnePowerExclusion.rank_one_excluded

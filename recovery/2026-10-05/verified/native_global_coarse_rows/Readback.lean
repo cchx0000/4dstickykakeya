@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_global_coarse_rows
+
+#print axioms NativeGlobalCoarseRows.pair_fiber_le_projected_rows
+#print axioms NativeGlobalCoarseRows.core_projected_row_lower
+#print axioms NativeGlobalCoarseRows.core_projected_row_lower_absorbed
+#print axioms NativeGlobalCoarseRows.projected_row_volume_upper
+#print axioms NativeGlobalCoarseRows.projected_row_card_upper

@@ -1,0 +1,44 @@
+{
+  "event_utc": "2026-10-06T18:08:13Z",
+  "operation": "new read-only exec_command status check",
+  "error": "Failed to create unified exec process: exec-server transport disconnected",
+  "first_successful_new_exec_after_event_utc": "2026-10-06T18:08:56Z",
+  "files_present": true,
+  "slot_diagnostic_utc": "2026-10-06T18:09:16Z",
+  "slots": {
+    "1": "held",
+    "2": "held",
+    "3": "held"
+  },
+  "active_attempts_at_diagnostic": {
+    "native_intermediate_parent_population-attempt02": "nonterminal",
+    "native_configured_slice_occupancy-attempt01": "nonterminal"
+  },
+  "actions": "No restart, cancellation or replacement output; original attempts retained pending their real exit records",
+  "latest_independent_source_backup": "libfile_9b7a115a41108191856f072d1c7e05bb",
+  "latest_independent_source_commit": "23ba869343f6a63f0d3f7596116431b3c7c93dce",
+  "not_claimed": [
+    "executor reset",
+    "model quota exhaustion",
+    "success of either nonterminal attempt"
+  ],
+  "subsequent_original_attempt_terminal": {
+    "attempt": "native_intermediate_parent_population-attempt02",
+    "lean_finished_utc": "2026-10-06T18:10:28.736387+00:00",
+    "exit_code": 0,
+    "source_hash": "82906b8e96b765c79c679b361f3e7cb742a2d15804fff1fca6c6d2476be81927",
+    "scope": "Original attempt continued to a recorded terminal without restart; independent imported axiom gate is separate"
+  },
+  "resolution": {
+    "state": "new exec connectivity restored; both original attempts reached recorded terminals",
+    "files_lost": false,
+    "unknown_attempts_restarted": false,
+    "second_original_attempt": {
+      "attempt": "native_configured_slice_occupancy-attempt01",
+      "finished_utc": "2026-10-06T18:12:21Z",
+      "exit_code": 1,
+      "reason": "ordinary DecidableEq elaboration mismatch; original attempt retained"
+    },
+    "subsequent_proof_repair": "slice occupancy attempt02 strictly passed and its three declarations passed independent batch1842; this was a proof edit after confirmed failure, not a restarted unknown process"
+  }
+}

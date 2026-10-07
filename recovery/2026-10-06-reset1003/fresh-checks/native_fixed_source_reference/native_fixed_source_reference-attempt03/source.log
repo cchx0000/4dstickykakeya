@@ -1,0 +1,26 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/45522c4aa7dbae0d82b9697e91c71bd08dd5d5afc7049892f1def2d9903563f2.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean"]
+SOURCE_SHA256 ceeb5b1c3e2b68a85f5ffdf6df5347b651c733e133588060e8cbf621b55a621f
+LOCK_ACQUIRED_UTC 2026-10-06T20:29:43.412813+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:66:87: error: unexpected token '∞'; expected ')'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:133:87: error: unexpected token '∞'; expected ')'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:255:8: error: declaration uses `sorry`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:570:86: error: unexpected token '∞'; expected ')'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:570:73: error: unexpected syntax
+  failed to pretty print term (use 'set_option pp.rawOnError true' for raw representation)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:566:33: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta L : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+hL : 0 < L
+hshade : ENNReal.ofReal L ≤ wzTotalShadingVolume D
+hW : ∀ (i : Fin n), D.weight i = 1
+htotal : wzTotalShadingVolume D ≤ ↑n * volume (sourceUnion D)
+hnot : ¬0 < volume (sourceUnion D)
+hz : volume (sourceUnion D) = 0
+⊢ False
+LEAN_FINISHED_UTC 2026-10-06T20:31:28.882243+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

@@ -1,0 +1,86 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T18:20:07.137003+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T182006131431",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T182006131431/AggregateReadback.lean"
+  ],
+  "readback_sha256": "feaed08e4d27c567b02e1748c0f94c902485017ed2fee3c55128d9b9d44e6218",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_finite_point_coherence",
+      "source_sha256": "8b0b229cd39e81768713554774e80b41ce9ce715b53847e9c925a6c592d62461",
+      "olean_sha256": "0432f0b3b9e7083ddb04f1d50a4ea6da747c643aba202c9f0a65a2a119510854",
+      "names": [
+        "NativeFinitePointCoherence.weighted_finite_selection",
+        "NativeFinitePointCoherence.pointWeight",
+        "NativeFinitePointCoherence.lift",
+        "NativeFinitePointCoherence.lift_fiber",
+        "NativeFinitePointCoherence.lift_card",
+        "NativeFinitePointCoherence.support_mass",
+        "NativeFinitePointCoherence.cell_offset_image",
+        "NativeFinitePointCoherence.select_original_point_fibers"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_incidence",
+      "source_sha256": "c52a5209842de25872cfc179345b0531c109d42a6f1ab5022ff6f26d5f1a680e",
+      "olean_sha256": "0fe61077eb570985ebe8353bf5467d7fbbb82ed993d630159720dd77f40b6da8",
+      "names": [
+        "NativeReferenceXYGridIncidence.original_edge_rawPoint",
+        "NativeReferenceXYGridIncidence.original_edge_rawPoint_three_rho",
+        "NativeReferenceXYGridIncidence.dyadic_original_edge_rawPoint",
+        "NativeReferenceXYGridIncidence.retained_original_rawPoint_incidence",
+        "NativeReferenceXYGridIncidence.frame",
+        "NativeReferenceXYGridIncidence.frame_line_formula",
+        "NativeReferenceXYGridIncidence.frame_dist_le",
+        "NativeReferenceXYGridIncidence.frame_infDist_le",
+        "NativeReferenceXYGridIncidence.point_quotient_reconstruction",
+        "NativeReferenceXYGridIncidence.frame_injective",
+        "NativeReferenceXYGridIncidence.framed_retained_original_incidence"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_point_angular_lower",
+      "source_sha256": "e8b61ac9a1c6c0d1dc397cd461f465be770727f4d52180bc2012d5b45007ffb9",
+      "olean_sha256": "15d7289d74dcbbcd627f80832fcc98fa4a2e0ae840c01669bf99cc1953a60e26",
+      "names": [
+        "NativeSaturatedPointAngularLower.saturated_multiplicity_lower",
+        "NativeSaturatedPointAngularLower.saturated_refined_multiplicity_lower",
+        "NativeSaturatedPointAngularLower.saturated_reference_point_angular_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_X_cap_cancellation",
+      "source_sha256": "f7b4ed80cc8be3ea5db23f2037e39915b3a1eabb1cfd24ca91dfeb9eca35d6b3",
+      "olean_sha256": "96fd2669b35c5b7b5e4a46b429944113619d1f124ac21353d11f5333322221d1",
+      "names": [
+        "NativeSharpXCapCancellation.cross_cap_cancellation"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_reference_angular_upper",
+      "source_sha256": "f5fa00bf9eceae126d7bdc0b0ba789b4fe32655b77aa49f1f9e3a666738c6076",
+      "olean_sha256": "ae3f2ef8aafc034f0a8dbeb2277cdf58da13f5b509c085688b98a4ec266cb70a",
+      "names": [
+        "NativeSharpReferenceAngularUpper.angular_menu_mono",
+        "NativeSharpReferenceAngularUpper.reference_population",
+        "NativeSharpReferenceAngularUpper.exists_actual_reference_angular_upper"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T18:21:10.958440+00:00",
+  "exit_code": 0
+}

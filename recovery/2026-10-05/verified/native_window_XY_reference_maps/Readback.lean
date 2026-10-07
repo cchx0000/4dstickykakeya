@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_native_window_XY_reference_maps
+
+#print axioms NativeWindowXYReferenceMaps.windowIndex
+#print axioms NativeWindowXYReferenceMaps.windowIndex_height
+#print axioms NativeWindowXYReferenceMaps.windowIndex_spatial
+#print axioms NativeWindowXYReferenceMaps.window_pref_spatial
+#print axioms NativeWindowXYReferenceMaps.window_pref_height
+#print axioms NativeWindowXYReferenceMaps.window_pref_column
+#print axioms NativeWindowXYReferenceMaps.dyadic_scale_mul
+#print axioms NativeWindowXYReferenceMaps.dyadic_height_width
+#print axioms NativeWindowXYReferenceMaps.scheduled_reference_readback
+#print axioms NativeWindowXYReferenceMaps.same_integer_window
+#print axioms NativeWindowXYReferenceMaps.reference_height_window
+#print axioms NativeWindowXYReferenceMaps.varying_inverse

@@ -1,0 +1,332 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T17:48:59.487758+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T174858706998",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T174858706998/AggregateReadback.lean"
+  ],
+  "readback_sha256": "47046c0724e9d7ce9eb2cc468e026fb4ae9326dd784d5883a7dd0fee4e1608cc",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_post_graph_slice",
+      "source_sha256": "c820a3f47c6854b571b57d7793a856a653745671b5b4f8d32b5d32e74d68a72d",
+      "olean_sha256": "ac07fc85dc07c8cd251ea3349ac37cf000fa01a30bf417588e46de3faf6dd12a",
+      "names": [
+        "NativeActualPostGraphSlice.attach_actual_post_graph_slice"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_reference_W_physical",
+      "source_sha256": "bc6c85eddd6d04630fa1331f8ba5259b180bb10f4f20bbcaf102795fae5dfc1e",
+      "olean_sha256": "2058b3d14f73980da516c4fc1b8f030f7a777b8dffeaec19a1d4721b977d8241",
+      "names": [
+        "NativeActualReferenceWPhysical.position",
+        "NativeActualReferenceWPhysical.position_coordinate_error",
+        "NativeActualReferenceWPhysical.local_front_phase_error",
+        "NativeActualReferenceWPhysical.local_front_graph",
+        "NativeActualReferenceWPhysical.original_column_residual",
+        "NativeActualReferenceWPhysical.geometric_incidence_residual"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_cell_angular_menu",
+      "source_sha256": "29aa532e604bbe84f8f5c6cf651e919d99a83e058f03b7d455b988ea0d41ecf6",
+      "olean_sha256": "6e15f461fa031a74eab95ce29ee4d022e1c4bf77d56d6140fdac87c6e1f422ce",
+      "names": [
+        "NativeNormalizedCellAngularMenu.angularCell",
+        "NativeNormalizedCellAngularMenu.relativeAngle",
+        "NativeNormalizedCellAngularMenu.angular_readback",
+        "NativeNormalizedCellAngularMenu.angularMenu",
+        "NativeNormalizedCellAngularMenu.angular_menu_le_degree",
+        "NativeNormalizedCellAngularMenu.original_angular_menu_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_cell_reverse_menu",
+      "source_sha256": "4844879d73cd422d1bcf9e54bdc20cade867b5ddb78ceeae5df4a7863640a4ef",
+      "olean_sha256": "6e6eedfac9e71b560cac344fad4aa6f5a9dcde1ba9c3daa0b717fcbe868b64b7",
+      "names": [
+        "NativeNormalizedCellReverseMenu.reverseMenu",
+        "NativeNormalizedCellReverseMenu.reverseMenu_card",
+        "NativeNormalizedCellReverseMenu.physical_cell_mem_reverse"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_cell_source_angular",
+      "source_sha256": "89d6fbffa0bcb3d7da1b9c57c636669bb065a42ac5f641ce3af6c5654440e7f3",
+      "olean_sha256": "702ab87b78071c47ceb2aa56db60737fc7f95e8834d6d69e7b5af92d587436a0",
+      "names": [
+        "NativeNormalizedCellSourceAngular.exists_source_angular_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_cell_source_upper",
+      "source_sha256": "fc55c50af4a8c5147e80d35c3bca710b3d94db392d0a434ebab951148fec632d",
+      "olean_sha256": "14772d022ef744af28fc8a6546df2e33fc98285b2fb0259a453669b852365a21",
+      "names": [
+        "NativeNormalizedCellSourceUpper.source_native_from_population",
+        "NativeNormalizedCellSourceUpper.exists_source_normalized_degree_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_offset_angular_geometry",
+      "source_sha256": "3a4d7c84821fe400bbd80077cbcaee88a40a019297c517ff4fe0b44df67de4d6",
+      "olean_sha256": "a96321ed2719aca9cf038470dc81573fe25bb5b3e977f47ece7c6ae0eec9b966",
+      "names": [
+        "NativeOffsetAngularGeometry.matrix_action_general",
+        "NativeOffsetAngularGeometry.quotient_difference",
+        "NativeOffsetAngularGeometry.incident_offsets_close"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_offset_menu_count",
+      "source_sha256": "b74be759b9836236cd8a606f3a80f37e71e55c3fbfe709914a876912a7217cb0",
+      "olean_sha256": "604c00ec7646cbc04999f9575d150856e6ec8990ddf398c36e4c0dec8ef8f8cb",
+      "names": [
+        "NativeOffsetMenuCount.pairImage",
+        "NativeOffsetMenuCount.right_fiber_card",
+        "NativeOffsetMenuCount.offset_count_from_point_menus",
+        "NativeOffsetMenuCount.geometric_offset_count",
+        "NativeOffsetMenuCount.exists_coherent_offset_core"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_original_point_angular_lower",
+      "source_sha256": "dfd40402a580a3d40f86f0370e03286410a0352bf31f4e1d9d80604eaa202caf",
+      "olean_sha256": "b5ae01d488c1c8a863e6f66fc47aa79a3949011bb945672a2508531889e919fd",
+      "names": [
+        "NativeOriginalPointAngularLower.translateAngle",
+        "NativeOriginalPointAngularLower.translateAngle_injective",
+        "NativeOriginalPointAngularLower.angular_global_readback",
+        "NativeOriginalPointAngularLower.pointMenu",
+        "NativeOriginalPointAngularLower.pointMenu_card",
+        "NativeOriginalPointAngularLower.original_point_angular_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_post_graph_slice_data",
+      "source_sha256": "e0ecc8e145666bcb6c233cd19abe30ffb520cb31b2356c3c9c93a6d49c6832ed",
+      "olean_sha256": "82beeb1e5ae02164d3331fc744e4847c828e56a416f9e3cfc8fad8b22f2910af",
+      "names": [
+        "NativePostGraphSliceData.HasTranslatedSliceData",
+        "NativePostGraphSliceData.HasHeightCoreWith",
+        "NativePostGraphSliceData.HasPostGraphParentProfiles"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_maps",
+      "source_sha256": "2e0f0fa1d455d2462172908e5fd000289cff144a34ec494bad685dfc07f9c810",
+      "olean_sha256": "7aff61c194c476a0634212de6ecc9d28f0467448b65baccd6c8863889aecc53f",
+      "names": [
+        "NativeReferenceXYGridMaps.pxy",
+        "NativeReferenceXYGridMaps.coarseXY",
+        "NativeReferenceXYGridMaps.pxy_height",
+        "NativeReferenceXYGridMaps.coarseXY_x",
+        "NativeReferenceXYGridMaps.coarseXY_y",
+        "NativeReferenceXYGridMaps.same_floor_abs",
+        "NativeReferenceXYGridMaps.floor_neighbor",
+        "NativeReferenceXYGridMaps.euclidean_coord_bound",
+        "NativeReferenceXYGridMaps.quotient_nodeSlope"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_menus",
+      "source_sha256": "4cda70554da960339fe6f3924ded76069112a596736b3f9e6c013e77a69a61e2",
+      "olean_sha256": "32508005c3f8abc3a061cce908f691304cfb3a472ac9f4b0f3ef77de26fb4d70",
+      "names": [
+        "NativeReferenceXYGridMenus.vectorBox",
+        "NativeReferenceXYGridMenus.vectorBox_card",
+        "NativeReferenceXYGridMenus.xyBox",
+        "NativeReferenceXYGridMenus.xyBox_card",
+        "NativeReferenceXYGridMenus.coarseIndex_one",
+        "NativeReferenceXYGridMenus.coarseXY_one",
+        "NativeReferenceXYGridMenus.pref_neighbor_of_old_dist",
+        "NativeReferenceXYGridMenus.inverse_menu",
+        "NativeReferenceXYGridMenus.forward_menu"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_metric",
+      "source_sha256": "8c1800b9f32c2864ca2028404a6d014b5fdb882220f9e4a1a1b9d6d84a8763a7",
+      "olean_sha256": "41f0fcb8aa87b55d234f9cbe0a08bc74d5c34506f7212e1422da82b6fc20cece",
+      "names": [
+        "NativeReferenceXYGridMetric.old_height_gap",
+        "NativeReferenceXYGridMetric.old_dist_le_raw",
+        "NativeReferenceXYGridMetric.raw_dist_le_old",
+        "NativeReferenceXYGridMetric.raw_height_gap",
+        "NativeReferenceXYGridMetric.old_dist_of_coordinate_bounds",
+        "NativeReferenceXYGridMetric.raw_dist_of_coarse_pref",
+        "NativeReferenceXYGridMetric.old_dist_of_coarse_XY"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_points",
+      "source_sha256": "3cfce59d54e6dc762d05409ccc0e9bfae2c5f007b798b2320c71637416757b8e",
+      "olean_sha256": "f50d13d5ef8c03cf2aafd766ad4f14520926c1e70164f41a54a324346bf9c7d3",
+      "names": [
+        "NativeReferenceXYGridPoints.rho",
+        "NativeReferenceXYGridPoints.sigma",
+        "NativeReferenceXYGridPoints.mu",
+        "NativeReferenceXYGridPoints.prefMesh",
+        "NativeReferenceXYGridPoints.heightMesh",
+        "NativeReferenceXYGridPoints.mu_pos",
+        "NativeReferenceXYGridPoints.rho_pos",
+        "NativeReferenceXYGridPoints.sigma_pos",
+        "NativeReferenceXYGridPoints.prefMesh_pos",
+        "NativeReferenceXYGridPoints.heightMesh_pos",
+        "NativeReferenceXYGridPoints.prefMesh_eq",
+        "NativeReferenceXYGridPoints.heightMesh_eq",
+        "NativeReferenceXYGridPoints.mu_phase",
+        "NativeReferenceXYGridPoints.oldPoint",
+        "NativeReferenceXYGridPoints.rawPoint",
+        "NativeReferenceXYGridPoints.original_phase_rounding",
+        "NativeReferenceXYGridPoints.physical_rounding",
+        "NativeReferenceXYGridPoints.pref",
+        "NativeReferenceXYGridPoints.pref_height",
+        "NativeReferenceXYGridPoints.pref_spatial",
+        "NativeReferenceXYGridPoints.pref_height_floor",
+        "NativeReferenceXYGridPoints.coarseIndex",
+        "NativeReferenceXYGridPoints.coarseIndex_height",
+        "NativeReferenceXYGridPoints.coarseIndex_spatial",
+        "NativeReferenceXYGridPoints.floor_div_scale",
+        "NativeReferenceXYGridPoints.coarse_pref_spatial"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_algebra",
+      "source_sha256": "c2133f6098033ae4e149e2f9e1b0751b5832d2b7694b7804c2bfc80bcc522eba",
+      "olean_sha256": "370de5a1fc4a51830d34a7e32c914a8969365e55d4084749fca883371b212392",
+      "names": [
+        "NativeRetainedSliceBudgetAlgebra.quotientCost",
+        "NativeRetainedSliceBudgetAlgebra.quotientCost_pos",
+        "NativeRetainedSliceBudgetAlgebra.retained_constant_le_reference",
+        "NativeRetainedSliceBudgetAlgebra.quotientCost_le"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_costs",
+      "source_sha256": "19c2e7ed44682b355081ed9922022b50d696c897b31ae0b75bdf67970a0663e7",
+      "olean_sha256": "13c322fe20ebad78811d63dd2d0d4b87234ad17c0c8709428f1c384b74e6aff8",
+      "names": [
+        "NativeRetainedSliceBudgetCosts.third_core_parent_cost",
+        "NativeRetainedSliceBudgetCosts.rank_parent_retention_power"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_extra",
+      "source_sha256": "0dc893953b84049bc342802f5269a715eb5f552407e445fd83d994b0e3cfe4f9",
+      "olean_sha256": "d20f46b66fb8022d83c4952fb1ed569cf34adcf9ce1bbc76aa39e7fad8308856",
+      "names": [
+        "NativeRetainedSliceBudgetExtra.extraCoefficient",
+        "NativeRetainedSliceBudgetExtra.extraConstant",
+        "NativeRetainedSliceBudgetExtra.extraConstant_one_le",
+        "NativeRetainedSliceBudgetExtra.graphCost_pos",
+        "NativeRetainedSliceBudgetExtra.squared_loss",
+        "NativeRetainedSliceBudgetExtra.extra_coefficient_bound"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_parent_graph_configuration",
+      "source_sha256": "9e684acbdf3e5c95e20b93d22022452c7bcc7efa6952f742fa00047226e675ae",
+      "olean_sha256": "ece02d2a079d06e2f7124b9358b9dbad16ed1ffe84c38c2db0a2842d634be93f",
+      "names": [
+        "NativeSharpParentGraphConfiguration.SharpCurveParentFinalCleanupData",
+        "NativeSharpParentGraphConfiguration.HasSharpCurveParentRetainedHistory",
+        "NativeSharpParentGraphConfiguration.HasSharpCurveParentStage",
+        "NativeSharpParentGraphConfiguration.middleSelected",
+        "NativeSharpParentGraphConfiguration.middle_selected_depth",
+        "NativeSharpParentGraphConfiguration.half_depth_eq_depth",
+        "NativeSharpParentGraphConfiguration.sharp_stage_with_parent_graph",
+        "NativeSharpParentGraphConfiguration.exists_sharp_parent_graph_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_parent_graph_data",
+      "source_sha256": "bc87ca32e1c60e081ca6c0e424e02b058e8724ab6391b2b1114f69f2472f44f8",
+      "olean_sha256": "5a93051be972cab7aeed72af7bd07cbac7a40082e49d6e07954030968e98fb9b",
+      "names": [
+        "NativeSharpParentGraphData.HasParentHeightCore",
+        "NativeSharpParentGraphData.HasSharpCurveParentProfiles",
+        "NativeSharpParentGraphData.attach_sharp_parent_graph",
+        "NativeSharpParentGraphData.sharp_curve_parent_profiles_forget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_parent_graph_forget",
+      "source_sha256": "885cd79e12f8aa48de477964665d6015132167369a723cf9898b88f99f7888e2",
+      "olean_sha256": "c693a22717461b59d75678643e7943f3d16afa20691c1d1d53afa04a76d80dcb",
+      "names": [
+        "NativeSharpParentGraphForget.curve_parent_profiles_forget",
+        "NativeSharpParentGraphForget.curve_cleanup_forget",
+        "NativeSharpParentGraphForget.curve_retained_forget",
+        "NativeSharpParentGraphForget.curve_stage_forget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_translated_slice_grain_join",
+      "source_sha256": "0ee225d92a8d4b3210fe3499c890ecae340e996f828fa78debdb5f448cec6ce4",
+      "olean_sha256": "80ee50eccbe365b4904a182c6e0df9f357614bf509f193c8e413589c33d5343c",
+      "names": [
+        "NativeTranslatedSliceGrainJoin.construct_translated_slice_grain"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_join",
+      "source_sha256": "270affe39bf6f90d2eadcd863fcd240a5d157c7a4218cd5e13cfd0ae2bb66fb0",
+      "olean_sha256": "c261faf216aebcbe690b2d5eb059b8d5aed6799015c6eae3fe352a878e5d8375",
+      "names": [
+        "NativeTwoMapRetainedSliceJoin.height_image_cap",
+        "NativeTwoMapRetainedSliceJoin.height_card_le_of_class_bounds",
+        "NativeTwoMapRetainedSliceJoin.menu_classes_all_radius64"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_labels",
+      "source_sha256": "5f4aaf31a5df175ccc3f3ce6dda2cd8a92e3ddbc494ef2593f82575f4057a72e",
+      "olean_sha256": "265de60d0e8f0068769c909e0ae12397fc97c7a9ac3d1bf1f468c3af1b030852",
+      "names": [
+        "NativeTwoMapRetainedSliceLabels.encode",
+        "NativeTwoMapRetainedSliceLabels.encode_height",
+        "NativeTwoMapRetainedSliceLabels.encode_left",
+        "NativeTwoMapRetainedSliceLabels.encode_right",
+        "NativeTwoMapRetainedSliceLabels.encode_injective",
+        "NativeTwoMapRetainedSliceLabels.coarse",
+        "NativeTwoMapRetainedSliceLabels.append_div",
+        "NativeTwoMapRetainedSliceLabels.encode_coarse",
+        "NativeTwoMapRetainedSliceLabels.image_encode_card",
+        "NativeTwoMapRetainedSliceLabels.encoded_fiber_eq",
+        "NativeTwoMapRetainedSliceLabels.encoded_uniformity"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_radius",
+      "source_sha256": "aba3bfdcde0693e8f2398cad95321d086c74e066d47fa253cbf12b69df0ed265",
+      "olean_sha256": "5ccd611a720c14911b55795b2014ec94ceb7b09cfff6e3b54f3f8168e2f77f4b",
+      "names": [
+        "NativeTwoMapRetainedSliceRadius.all_radius_bounds64"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_upper",
+      "source_sha256": "f179e202ad0bd16a8d84ddb554a21c9b17f9fc378158a76fb34d66e0eb72b672",
+      "olean_sha256": "d2fd328af2aab7c43a408f2a9307877d0508667018be1cea36d562ba4c773ecc",
+      "names": [
+        "NativeTwoMapRetainedSliceUpper.retained_class_upper"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T17:49:04.299256+00:00",
+  "exit_code": 0
+}

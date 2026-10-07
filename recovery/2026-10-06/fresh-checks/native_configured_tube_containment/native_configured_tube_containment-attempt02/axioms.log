@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3007c28b712e9521702bed1f5dc56176dee73bb466058c793a3282e7db4c6243.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_configured_tube_containment-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_configured_tube_containment-attempt02/Readback.lean"]
+SOURCE_SHA256 d032a82e2d5c808dd2a1fc9e1511f7f5b84fe5ff4ed2693ce6aca214a7778fd6
+'NativeConfiguredTubeContainment.original_infDist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredTubeContainment.original_infDist_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredTubeContainment.rounded_infDist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredTubeContainment.rounded_mem_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredTubeContainment.chart_pullback_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredTubeContainment.charted_mem_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredTubeContainment.actual_configured_mem_representative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

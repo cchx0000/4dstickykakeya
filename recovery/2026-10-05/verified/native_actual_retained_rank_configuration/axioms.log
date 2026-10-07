@@ -1,0 +1,33 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T110056975177", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T110056975177/AggregateReadback.lean"]
+READBACK_SHA256 13a6f8aaba22fa6bd739ae2c40da3abddae17640c53a0a0adc0c2d2e7f5d4263
+Dedicated staging slot 3 acquired UTC: 2026-10-05T11:05:55.367747+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7926416 kB
+'NativeActualRetainedRankConfiguration.HasSecondStageCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRetainedRankConfiguration.exists_actual_retained_rank_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeApproximateFiberIteration.directionAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.directionAt_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.fiber_mono_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.full_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.iterated_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.iterated_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.le_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.overlap_le_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.predecessorMinimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.radius_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberIteration.radius_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowRelations.exists_refined_row_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowRelations.rowPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowRelations.rowRelationMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowRelations.rowRelationMenu_old' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowRelations.rowRelationMenu_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowRelations.rowRelationMenu_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowRelations.rowRelationMenu_uniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialShadowPointMenu.cellIndex_mem_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialShadowPointMenu.physical_cube_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialShadowPointMenu.spatial_point_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

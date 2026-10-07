@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_rotated_cell_menu
+set_option autoImplicit false
+#print axioms NativeRotatedCellMenu.select_finite_menu
+#print axioms NativeRotatedCellMenu.select_point_menu
+#print axioms NativeRotatedCellMenu.select_original_edge_menu
+#print axioms NativeRotatedCellMenu.select_edges_inheriting_predicate
+#print axioms NativeRotatedCellMenu.exists_combined_palette_cutoff

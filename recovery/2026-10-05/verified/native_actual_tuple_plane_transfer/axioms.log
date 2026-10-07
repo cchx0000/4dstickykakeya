@@ -1,0 +1,41 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T114511191686", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T114511191686/AggregateReadback.lean"]
+READBACK_SHA256 e586ef9ff3ea80cb0a2cd4d1e59401768e64ac3ad2ff962bb65b629b0d206f09
+Dedicated staging slot 3 acquired UTC: 2026-10-05T11:50:24.615424+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7794560 kB
+'NativeActualTuplePlaneTransfer.actual_chain_plane_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualTuplePlaneTransfer.chain_span_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualTuplePlaneTransfer.exists_global_plane_representatives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIteratedProjectionGrains.iterated_grain_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIteratedProjectionGrains.minimumFiber_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIteratedProjectionGrains.native_chain_grain_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.grain_count_computed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.grain_count_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.infDist_le_normal_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.label_mem_box_of_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.minimumFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.normal_norm_le_of_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.representative_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.representative_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.representatives_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.same_label_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedProjectionGrains.vertexLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpanCoefficientPower.coefficientCost_le_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSquaredGrainQueries.pairedQueries' depends on axioms: [propext, Quot.sound]
+'NativeSquaredGrainQueries.pairedQueries_short' depends on axioms: [propext, Quot.sound]
+'NativeSquaredGrainQueries.pairedQueries_uniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSquaredGrainQueries.pairedQueries_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSquaredGrainQueries.pairedQueries_vertex' depends on axioms: [propext, Quot.sound]
+'NativeSquaredGrainQueries.paired_query_count' depends on axioms: [propext, Quot.sound]
+'NativeSquaredGrainQueries.phaseDepth' does not depend on any axioms
+'NativeSquaredGrainQueries.phaseDepth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSquaredGrainQueries.phase_inverse_le_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSquaredGrainQueries.short_fine_scale_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSquaredGrainQueries.squared_scale_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSquaredGrainQueries.stopping_depth_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

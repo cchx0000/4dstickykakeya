@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_translated_height_freeze
+import Theorems.Thm_StickyKakeya4_native_graph_point_cuts
+set_option autoImplicit false
+#print axioms NativeTranslatedHeightFreeze.reference_height_coarse_floor
+#print axioms NativeTranslatedHeightFreeze.frozen
+#print axioms NativeTranslatedHeightFreeze.frozen_readback
+#print axioms NativeTranslatedHeightFreeze.select_and_freeze
+#print axioms NativeGraphPhysicalLocalization.cut
+#print axioms NativeGraphPhysicalLocalization.cut_subset
+#print axioms NativeGraphPhysicalLocalization.cut_nonempty
+#print axioms NativeGraphPhysicalLocalization.cut_full_tube_fiber
+#print axioms NativeGraphPhysicalLocalization.cut_point_cell

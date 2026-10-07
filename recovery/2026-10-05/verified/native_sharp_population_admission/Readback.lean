@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_population_admission
+
+#print axioms NativeSharpPopulationAdmission.original_refinement_cost
+#print axioms NativeSharpPopulationAdmission.sharp_population_readback
+#print axioms NativeSharpPopulationAdmission.hierarchy_admission_margins
+#print axioms NativeSharpPopulationAdmission.exists_sharp_admission_cutoff

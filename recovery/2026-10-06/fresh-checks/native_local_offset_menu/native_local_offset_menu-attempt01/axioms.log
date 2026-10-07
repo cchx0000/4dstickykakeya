@@ -1,0 +1,14 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/f73d1e6192268dcc088747ebc394df4e8f598eb6dff6343424182fee285e06b8.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_local_offset_menu-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_local_offset_menu-attempt01/Readback.lean"]
+SOURCE_SHA256 66b83ef25e7b938a6f64886f027ce8afe09ac0f53a67ef2e6d72fca264db834a
+'NativeLocalOffsetMenu.WholePoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetMenu.whole_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetMenu.whole_trans' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetMenu.lift_point_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetMenu.LocalData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetMenu.localData_of_whole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetMenu.select_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetMenu.select_prepared_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetMenu.whole_mass_eq_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetMenu.select_prepared_incidences' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

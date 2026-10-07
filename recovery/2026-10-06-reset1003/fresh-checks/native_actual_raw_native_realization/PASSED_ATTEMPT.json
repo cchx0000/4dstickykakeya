@@ -1,0 +1,63 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_raw_native_realization",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.lean",
+  "source_sha256": "3f99b4333d976fb2068b90b6446ffc121b65b2e0e94aa1699b89de20d27cfbd7",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.olean",
+  "names": [
+    "NativeActualRawNativeRealization.absoluteDepth",
+    "NativeActualRawNativeRealization.parentDepth",
+    "NativeActualRawNativeRealization.footprintDepth",
+    "NativeActualRawNativeRealization.menu_depth_readback",
+    "NativeActualRawNativeRealization.exists_final_native_cutoff",
+    "NativeActualRawNativeRealization.actual_lower_payment",
+    "NativeActualRawNativeRealization.exists_raw_source_cutoff",
+    "NativeActualRawNativeRealization.exists_actual_native_source"
+  ],
+  "started_utc": "2026-10-06T23:20:51.593315+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "f6b17e2e8ca03f01982d24cf0494ed49dd5f7c7bc14da28261e065d12b5cfc0f",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T23:21:50.400858+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2322",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeActualRawNativeRealization.absoluteDepth": [],
+    "NativeActualRawNativeRealization.parentDepth": [],
+    "NativeActualRawNativeRealization.footprintDepth": [],
+    "NativeActualRawNativeRealization.menu_depth_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRawNativeRealization.exists_final_native_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRawNativeRealization.actual_lower_payment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRawNativeRealization.exists_raw_source_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRawNativeRealization.exists_actual_native_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T23:23:34.798535+00:00",
+  "canonical_scope": "new_canonical_module"
+}

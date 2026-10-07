@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/6ef3a03b47310f0d95a98ad5cf6ddc5f25b665699b7f4837b8dcfaf60463f3cb.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_zero_parent_physical_map-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_zero_parent_physical_map-attempt03/Readback.lean"]
+SOURCE_SHA256 2a7307641a945494a66995e4cab457c0eb682d05c5fda63c35e8b99344937a40
+'NativeZeroParentPhysicalMap.zero_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeZeroParentPhysicalMap.zero_map_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeZeroParentPhysicalMap.zero_map_source_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

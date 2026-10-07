@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_height_graph_residue_separation
+set_option autoImplicit false
+#print axioms HeightGraphResidueSeparation.parameterX
+#print axioms HeightGraphResidueSeparation.parameterY
+#print axioms HeightGraphResidueSeparation.graphGrid
+#print axioms HeightGraphResidueSeparation.graphGrid_height
+#print axioms HeightGraphResidueSeparation.graphGrid_tangent
+#print axioms HeightGraphResidueSeparation.graphGrid_normal
+#print axioms HeightGraphResidueSeparation.parameter_ext
+#print axioms HeightGraphResidueSeparation.midpoint_distance
+#print axioms HeightGraphResidueSeparation.colored_coordinate_gap
+#print axioms HeightGraphResidueSeparation.graphGrid_residue_separation
+#print axioms HeightGraphResidueSeparation.graphGrid_separated
+#print axioms HeightGraphResidueSeparation.graphGrid_injective
+#print axioms HeightGraphResidueSeparation.select_original_weighted_points
+#print axioms HeightGraphResidueSeparation.select_original_edges

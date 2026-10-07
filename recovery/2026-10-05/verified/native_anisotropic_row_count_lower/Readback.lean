@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_anisotropic_row_count_lower
+
+#print axioms NativeAnisotropicRowCountLower.image_row_count_lower
+#print axioms NativeAnisotropicRowCountLower.shortEdges_subset_parent
+#print axioms NativeAnisotropicRowCountLower.chargeConstant
+#print axioms NativeAnisotropicRowCountLower.parent_counts_of_actual_rows
+#print axioms NativeAnisotropicRowCountLower.queried_parent_counts_lower

@@ -1,0 +1,212 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3754b2b6711f5ae70407ec542514274be55948c7b18b04cd52d4fc68f5bcb8c3.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean"]
+SOURCE_SHA256 01c36807bae47703fad6a8a6cc5dad8f7bc7672b9eda23ab9d7f027e17dd2c5e
+LOCK_ACQUIRED_UTC 2026-10-06T21:31:57.445770+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:355:22: error: unexpected token '('; expected ')', ',' or ':'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:355:12: error: typeclass instance problem is stuck
+  AddLeftMono ?m.481
+
+Note: Lean will not try to resolve this typeclass instance problem because the first, second, and third type arguments to `AddLeftMono` contain metavariables. These arguments must be fully determined before Lean will try to resolve the typeclass.
+
+Hint: Adding type annotations and supplying implicit arguments to functions can give Lean more information for typeclass resolution. For example, if you have a variable `x` that you intend to be a `Nat`, but Lean reports it as having an unresolved type like `?m`, replacing `x` with `(x : Nat)` can get typeclass resolution un-stuck.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:342:30: error: unsolved goals
+case calc.step
+mu : ℝ
+hmu : 0 < mu
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+C F : ℤ → ℝ
+k l : Index
+hC : |C (k 3)| ≤ 1
+hF : |F (k 3)| ≤ 1
+hY : packedHigherKey mu O C F k = packedHigherKey mu O C F l
+hX : packedXKey mu O k = packedXKey mu O l
+x : E4 := O (cellCenter mu k)
+y : E4 := O (cellCenter mu l)
+ht : k 3 = l 3
+h0 : |x.ofLp 0 - y.ofLp 0| ≤ mu
+h1 : |x.ofLp 1 - y.ofLp 1| ≤ mu
+hq : |higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y| ≤ mu
+he :
+  x.ofLp 2 - y.ofLp 2 =
+    higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y + C (k 3) * (x.ofLp 0 - y.ofLp 0) +
+      F (k 3) * (x.ofLp 1 - y.ofLp 1)
+hc : |C (k 3)| * |x.ofLp 0 - y.ofLp 0| ≤ 1 * mu
+hf : |F (k 3)| * |x.ofLp 1 - y.ofLp 1| ≤ 1 * mu
+⊢ |higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y| + |C (k 3)| * |x.ofLp 0 - y.ofLp 0| +
+      |F (k 3)| * |x.ofLp 1 - y.ofLp 1| ≤
+    3 * mu
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:321:53: error: unsolved goals
+mu : ℝ
+hmu : 0 < mu
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+C F : ℤ → ℝ
+k l : Index
+hC : |C (k 3)| ≤ 1
+hF : |F (k 3)| ≤ 1
+hY : packedHigherKey mu O C F k = packedHigherKey mu O C F l
+hX : packedXKey mu O k = packedXKey mu O l
+x : E4 := O (cellCenter mu k)
+y : E4 := O (cellCenter mu l)
+ht : k 3 = l 3
+h0 : |x.ofLp 0 - y.ofLp 0| ≤ mu
+h1 : |x.ofLp 1 - y.ofLp 1| ≤ mu
+hq : |higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y| ≤ mu
+he :
+  x.ofLp 2 - y.ofLp 2 =
+    higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y + C (k 3) * (x.ofLp 0 - y.ofLp 0) +
+      F (k 3) * (x.ofLp 1 - y.ofLp 1)
+h2 : |x.ofLp 2 - y.ofLp 2| ≤ 3 * mu
+⊢ dist (cellCenter mu k) (cellCenter mu l) ≤ 6 * mu
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:397:6: error: Type mismatch: After simplification, term
+  hh
+ has type
+  @LE.le ℝ Real.instPreorder.toLE (dist (mu * (↑(k j) + 1 / 2)) (mu * (↑(l j) + 1 / 2))) (6 * mu)
+but is expected to have type
+  @LE.le ℝ Real.instLE (dist (mu * (↑(k j) + 1 / 2)) (mu * (↑(l j) + 1 / 2))) (↑6 * mu)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:483:21: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:541:17: error: unexpected token '('; expected ')', ',' or ':'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:541:10: error: typeclass instance problem is stuck
+  IsOrderedAddMonoid ?m.296
+
+Note: Lean will not try to resolve this typeclass instance problem because the first, second, and third type arguments to `IsOrderedAddMonoid` contain metavariables. These arguments must be fully determined before Lean will try to resolve the typeclass.
+
+Hint: Adding type annotations and supplying implicit arguments to functions can give Lean more information for typeclass resolution. For example, if you have a variable `x` that you intend to be a `Nat`, but Lean reports it as having an unresolved type like `?m`, replacing `x` with `(x : Nat)` can get typeclass resolution un-stuck.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:527:76: error: unsolved goals
+case calc.step
+O : E4 ≃ₗᵢ[ℝ] E4
+C F : ℝ
+x y : E4
+hc : ∀ (j : Fin 4), |(O x).ofLp j - (O y).ofLp j| ≤ dist x y
+he :
+  packedQuotient O C F x - packedQuotient O C F y =
+    (O x).ofLp 2 - (O y).ofLp 2 - C * ((O x).ofLp 0 - (O y).ofLp 0) - F * ((O x).ofLp 1 - (O y).ofLp 1)
+⊢ |(O x).ofLp 2 - (O y).ofLp 2| + |C| * |(O x).ofLp 0 - (O y).ofLp 0| + |F| * |(O x).ofLp 1 - (O y).ofLp 1| ≤
+    (1 + |C| + |F|) * dist x y
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:588:36: error: unexpected token '≤'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:588:33: error: A placeholder `_` cannot be used where a function is expected
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:925:23: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:930:23: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:988:5: error: Variable name `hk0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:988:38: error: Variable name `hs0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1419:84: error: unsolved goals
+case «0».«0»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+anchor : Fin 2 → ℝ
+tau : ℝ
+⊢ (x.ofLp 1 - F 0 0 * x.ofLp 0 - anchor 0) / tau = NormalizedQuantizedPatches.affine anchor tau (lowerQuotient F x) 0
+
+case «0».«1»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+anchor : Fin 2 → ℝ
+tau : ℝ
+⊢ (x.ofLp 2 - F 1 0 * x.ofLp 0 - anchor 1) / tau = NormalizedQuantizedPatches.affine anchor tau (lowerQuotient F x) 1
+
+case «1».«0»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+anchor : Fin 2 → ℝ
+tau : ℝ
+⊢ (x.ofLp 2 - F 1 0 * x.ofLp 0 - anchor 1) / tau =
+    NormalizedQuantizedPatches.affine (anchor ∘ ⇑(Equiv.swap 0 1)) tau (lowerQuotient F x ∘ ⇑(Equiv.swap 0 1)) 0
+
+case «1».«1»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+anchor : Fin 2 → ℝ
+tau : ℝ
+⊢ (x.ofLp 1 - F 0 0 * x.ofLp 0 - anchor 0) / tau =
+    NormalizedQuantizedPatches.affine (anchor ∘ ⇑(Equiv.swap 0 1)) tau (lowerQuotient F x ∘ ⇑(Equiv.swap 0 1)) 1
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1424:56: error: This simp argument is unused:
+  lowerQuotient
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [normalizedLowerQuotient, normalChart, LinearIsometryEquiv.piLpCongrLeft_apply, Equiv.piCongrLeft',
+    chartRows, chartPoint, chartPerm, RealScaleTubeProfileTransfer.normalized, Equiv.swap_apply_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1425:6: error: This simp argument is unused:
+  RealScaleTubeProfileTransfer.normalized
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [normalizedLowerQuotient, normalChart, LinearIsometryEquiv.piLpCongrLeft_apply, Equiv.piCongrLeft',
+    chartRows, chartPoint, chartPerm, lowerQuotient, Equiv.swap_apply_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1596:4: error: Type mismatch: After simplification, term
+  hh
+ has type
+  lowerQuotient (Fcfg (coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2).1)
+      (point D a m p Split.oneTwo P hP hd F Fcfg R0 z.2) =
+    NativeQuotientGridCenters.center (2⁻¹ ^ u / 512) (coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2).2
+but is expected to have type
+  lowerQuotient (Fcfg (oldH / ↑(8 * R0))) cfg = ypoint z
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1750:18: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1920:58: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1924:64: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1928:66: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1976:56: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1987:6: error: Type mismatch: After simplification, term
+  Eq.symm (NativePackedFrameIsometry.frame_height Split.oneTwo P hP hd (O0.symm x))
+ has type
+  (O0.symm x).ofLp 3 = ((NativePackedFrameIsometry.frame Split.oneTwo P hP hd) (O0.symm x)).ofLp 3
+but is expected to have type
+  (O0.symm x).ofLp 3 = x.ofLp 3
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1994:6: error: Type mismatch: After simplification, term
+  hWitness
+ has type
+  |NativeHigherQuotientParentTransport.higherY
+          (chartRows W.chart (Fcfg (oldH / ↑(8 * R0))) 1 0 - theta * chartRows W.chart (Fcfg (oldH / ↑(8 * R0))) 0 0)
+          theta ((normalChart W.chart) (point D a m p Split.oneTwo P hP hd F Fcfg R0 z.2)) -
+        (NativeDyadicTubeStopping.scale (2⁻¹ ^ u / 512) ↑W.tauDepth * y +
+          (NativeAngularChartSelection.chartPoint W.chart anchor 1 -
+            theta * NativeAngularChartSelection.chartPoint W.chart anchor 0))| ≤
+    2 * NativeDyadicTubeStopping.scale (2⁻¹ ^ u / 512) ↑W.rhoDepth
+but is expected to have type
+  |NativeHigherQuotientParentTransport.higherY (M 1 0 - theta * M 0 0) theta (O (O0.symm (cfg z.2))) -
+        (tau * y + alpha)| ≤
+    2 * rhoA
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1999:17: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:2000:7: error(lean.unknownIdentifier): Unknown identifier `physicalMap`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:2009:51: error: Type mismatch: After simplification, term
+  hYAD
+ has type
+  FiniteVoronoiRealADCoarsening.ADBounds Y
+    (NativeDyadicTubeStopping.scale (2⁻¹ ^ u / 512) ↑W.rhoDepth /
+      NativeDyadicTubeStopping.scale (2⁻¹ ^ u / 512) ↑W.tauDepth)
+    ((NativeDyadicTubeStopping.scale (2⁻¹ ^ u / 512) ↑W.rhoDepth /
+        NativeDyadicTubeStopping.scale (2⁻¹ ^ u / 512) ↑W.tauDepth) ^
+      (-zeta))
+    (t - W.exponent)
+but is expected to have type
+  FiniteVoronoiRealADCoarsening.ADBounds Y (sigma / 32768) ((sigma / 32768) ^ (-zeta)) (t - W.exponent)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:2020:58: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+LEAN_FINISHED_UTC 2026-10-06T21:33:46.444485+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

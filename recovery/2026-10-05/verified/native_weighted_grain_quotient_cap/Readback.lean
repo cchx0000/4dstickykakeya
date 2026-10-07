@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_cap
+
+#print axioms NativeWeightedGrainQuotientCap.selected_X_cross
+#print axioms NativeWeightedGrainQuotientCap.source_selected_X_cross
+#print axioms NativeWeightedGrainQuotientCap.weighted_density_cap_cancellation
+#print axioms NativeWeightedGrainQuotientCap.local_threshold_to_X

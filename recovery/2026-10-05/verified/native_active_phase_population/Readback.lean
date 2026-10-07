@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_active_phase_population
+
+#print axioms NativeActivePhasePopulation.rowConstant
+#print axioms NativeActivePhasePopulation.rowConstant_pos
+#print axioms NativeActivePhasePopulation.retained_incidence_capacity
+#print axioms NativeActivePhasePopulation.parent_retained_eq
+#print axioms NativeActivePhasePopulation.parent_incidence_capacity
+#print axioms NativeActivePhasePopulation.activePhases
+#print axioms NativeActivePhasePopulation.activePhases_subset
+#print axioms NativeActivePhasePopulation.active_phase_population

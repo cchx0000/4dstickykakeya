@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_parent_point_region_counts
+
+set_option autoImplicit false
+#print axioms NativeParentPointRegionCounts.core_parent_point_uniformity
+#print axioms NativeParentPointRegionCounts.regionEdges
+#print axioms NativeParentPointRegionCounts.regionPoints
+#print axioms NativeParentPointRegionCounts.region_card_fiber_sum
+#print axioms NativeParentPointRegionCounts.region_point_retention
+#print axioms NativeParentPointRegionCounts.region_points_image
+#print axioms NativeParentPointRegionCounts.source_parent_region_counts
+#print axioms NativeParentPointRegionCounts.subset_region_upper
+#print axioms NativeParentPointRegionCounts.uniform_region_counts

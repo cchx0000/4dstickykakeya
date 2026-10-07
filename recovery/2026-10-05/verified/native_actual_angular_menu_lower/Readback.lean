@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_angular_menu_lower
+
+#print axioms NativeActualAngularMenuLower.mean_le_point_fiber
+#print axioms NativeActualAngularMenuLower.point_angular_menu_lower
+#print axioms NativeActualAngularMenuLower.weighted_angular_numerator_lower

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_third_XY_data
+
+#print axioms NativeThirdXYData.xyConstant
+#print axioms NativeThirdXYData.xyConstant_one_le
+#print axioms NativeThirdXYData.HasThirdXYData

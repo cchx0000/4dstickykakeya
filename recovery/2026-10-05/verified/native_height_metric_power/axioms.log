@@ -1,0 +1,27 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161943770726", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161943770726/AggregateReadback.lean"]
+READBACK_SHA256 ce55fafa510699861942f2c42fd0dd61f7cdaa128db240928c26e5de27516153
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:19:44.576923+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8770408 kB
+'NativeGrainHeightProjectionDirect.ancestor_height_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionDirect.coordinates_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionDirect.infDist_sub_smul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionDirect.mixed_vertex_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionDirect.physical_difference_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGrainHeightProjectionDirect.raw_mesh_times_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionDirect.unchanged_quotient_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHeightMetricPower.absorb_normalized_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricPower.actual_metric_constant_paid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricPower.exists_grain_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricPower.exists_uniform_metric_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricPower.menu_gap_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricPower.metricConstant_small_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricPower.metricConstant_small_loss_of_grain_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHeightMetricPower.normalizationConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

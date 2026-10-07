@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_paid_third_budget
+
+#print axioms NativePaidThirdBudget.HasBudget
+#print axioms NativePaidThirdBudget.exists_paid_third_budget

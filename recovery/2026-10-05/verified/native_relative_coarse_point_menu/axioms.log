@@ -1,0 +1,26 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_relative_coarse_point_menu_readback.lean"]
+SOURCE_SHA256 1467e6e37ba3d6b9fb9a3f7a629705bc339cb39d66d4fd0a0a591f6781455f2c
+FIFO compiler ticket: 01791183072669367706-c1208e9bbfef4d57a9a1ef9d88b440be.request
+FIFO compiler acquired UTC: 2026-10-05T06:51:12.670458+00:00
+'NativeRelativeCoarsePointMenu.localMesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.roundedHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.doubleFront' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.doubleLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.globalLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.pointMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.pointMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.rounded_height_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.rounded_height_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.bridge_representative_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.double_front_center_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.double_label_mem_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.doubleLabel_eq_source_projected' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRelativeCoarsePointMenu.globalLabel_eq_projected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.dyadic_double_label_mem_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarsePointMenu.dyadic_point_fiber_image_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

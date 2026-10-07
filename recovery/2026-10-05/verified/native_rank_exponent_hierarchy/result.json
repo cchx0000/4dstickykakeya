@@ -1,0 +1,89 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_rank_exponent_hierarchy",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_rank_exponent_hierarchy.lean",
+  "source_sha256": "fd83bce5ef1f0beeb7f48329c029c274a142687c5a7626ce446a9197507f7bc2",
+  "names": [
+    "NativeRankExponentHierarchy.rankLoss",
+    "NativeRankExponentHierarchy.cutoff",
+    "NativeRankExponentHierarchy.commonBudget",
+    "NativeRankExponentHierarchy.rankLoss_pos",
+    "NativeRankExponentHierarchy.cutoff_bounds",
+    "NativeRankExponentHierarchy.commonBudget_pos",
+    "NativeRankExponentHierarchy.cutoff_mul_rankLoss",
+    "NativeRankExponentHierarchy.rankLoss_le_initial",
+    "NativeRankExponentHierarchy.adjacent_identities",
+    "NativeRankExponentHierarchy.test_parameters",
+    "NativeRankExponentHierarchy.rank_one_power_margin"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T09:33:26.413503+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "34ee3917ce8e0bdbdb801b54e00debeee79866c32c8508fd51ee6eb2380eb8dc",
+  "source_execution_complete_utc": "2026-10-05T09:41:41.754540+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T094626557434",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeRankExponentHierarchy.rankLoss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.commonBudget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.rankLoss_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.cutoff_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.commonBudget_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.cutoff_mul_rankLoss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.rankLoss_le_initial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.adjacent_identities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.test_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankExponentHierarchy.rank_one_power_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T09:57:06.455069+00:00"
+}

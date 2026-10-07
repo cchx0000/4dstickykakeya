@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_local_pair_uniform_core
+set_option autoImplicit false
+#print axioms NativeLocalPairUniformCore.retentionCost
+#print axioms NativeLocalPairUniformCore.exists_retained_scheduled_pair_core
+#print axioms NativeLocalPairUniformCore.exists_original_scheduled_pair_core

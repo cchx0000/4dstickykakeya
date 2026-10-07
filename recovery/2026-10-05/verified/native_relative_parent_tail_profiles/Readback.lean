@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_relative_parent_tail_profiles
+#print axioms NativeRelativeParentTailProfiles.source_thickness_dyadic
+#print axioms NativeRelativeParentTailProfiles.tail_radius_ratio_le
+#print axioms NativeRelativeParentTailProfiles.source_all_dyadic_population
+#print axioms NativeRelativeParentTailProfiles.source_all_dyadic_population_power

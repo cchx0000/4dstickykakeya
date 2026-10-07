@@ -1,0 +1,11 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_rank_plane_tube_support_readback.lean"]
+SOURCE_SHA256 6c3357de3ba576af93c2c06a0d58696bff2d850e206138ab6816b3b202a5d739
+FIFO compiler ticket: 01791188725507743695-8f1cc4e81fe54bd39fa913fc66fe5c77.request
+FIFO compiler acquired UTC: 2026-10-05T08:25:25.508502+00:00
+'NativeRankPlaneTubeSupport.direction_eq_height_slopeVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankPlaneTubeSupport.tube_displacement_near_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankPlaneTubeSupport.original_incident_tube_near_plane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

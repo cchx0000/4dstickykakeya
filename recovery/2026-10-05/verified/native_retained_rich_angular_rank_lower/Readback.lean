@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_retained_rich_angular_rank_lower
+
+#print axioms NativeRetainedRichAngularRankLower.actual_retained_rich_angular_rank_lower

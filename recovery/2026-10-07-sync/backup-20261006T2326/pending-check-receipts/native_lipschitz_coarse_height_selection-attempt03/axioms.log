@@ -1,0 +1,26 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/fc377e542fb43d5a44e38ddc652a4643c579eaf38acc535849b8c8c7d73dd297.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_lipschitz_coarse_height_selection-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_lipschitz_coarse_height_selection-attempt03/Readback.lean"]
+SOURCE_SHA256 3c82861fa452ff14c347c2c03f473204f80241bbc05764b55e63f287fd311703
+LOCK_ACQUIRED_UTC 2026-10-06T14:38:27.221984+00:00
+SHARED_SLOT 3
+LEAN_PID 64
+'NativeLipschitzCoarseHeightSelection.subdivisions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.subdivisions_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.fine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.coarse_eq_fine_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.paint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.same_coarse_same_fine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.coarse_color_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.center_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.center_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.colored_height_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeLipschitzCoarseHeightSelection.selectedField' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLipschitzCoarseHeightSelection.select_weighted_coarse_field' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T14:38:39.359740+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

@@ -1,0 +1,16 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T102242998783", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T102242998783/AggregateReadback.lean"]
+READBACK_SHA256 dfe57ec4094e9464b7bbaa5cc682af06e1f916f0103cb63e41ff58183fc26d3c
+Dedicated staging slot 3 acquired UTC: 2026-10-05T10:26:24.474250+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7962036 kB
+'NativeOriginalAngularTupleMenu.angularMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalAngularTupleMenu.angularMenu_eq_image_coarseMenu' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalAngularTupleMenu.angularTuple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalAngularTupleMenu.angular_member_fine_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalAngularTupleMenu.coarse_member_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalAngularTupleMenu.coarse_to_angular_card_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTransverseFiberDiameter.approximate_fiber_diameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTransverseFiberDiameter.transverse_scalar_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,82 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T201225279042", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T201225279042/AggregateReadback.lean"]
+READBACK_SHA256 9e6ffdc682fa41acd47c508d4c533ce428c512afea3b87b2954450a30ec14f48
+Dedicated staging slot 3 acquired UTC: 2026-10-05T20:12:26.070012+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8769012 kB
+'NativeAllDyadicReferenceAngularUpper.exists_all_dyadic_angular_ball_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAllDyadicReferenceAngularUpper.width_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularBottomEndpoint.extend_bottom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCandidatePaidXYConfiguration.exists_candidate_paid_XY_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConditionalGridCoverage.exists_grid_predecessor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalGridCoverage.exists_query_predecessors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalGridCoverage.gridDepth_schedule' depends on axioms: [propext]
+'NativeConditionalGridCoverage.queryIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalGridCoverage.queryIndex_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalGridCoverage.queryIndex_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalGridPowerCost.dyadic_width_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalGridPowerCost.gap_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalGridPowerCost.middle_width_dyadic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalGridPowerCost.two_scale_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalUpperParameters.exists_upper_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExtraPaidXYConfiguration.exists_extra_paid_XY_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePaidMeshAngularUpper.exists_paid_mesh_angular_ball_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePaidMeshAngularUpper.meshAngularConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaidThirdBudget.HasBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaidThirdBudget.exists_paid_third_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaidThirdReadback.constants_from_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaidXYParameters.exists_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightNumeratorUpper.pairUpperConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightNumeratorUpper.pairUpperConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightNumeratorUpper.parent_column_pair_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightNumeratorUpper.shortRowColumnCost' depends on axioms: [propext]
+'NativeVariableHeightNumeratorUpper.short_pair_column_image_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeVariableHeightReferenceCounts.column_multiplicity_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeVariableHeightReferenceCounts.column_point_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightReferenceCounts.reference_column_point_power_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeVariableHeightReferenceCounts.reference_numerator_height_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeVariableHeightRowLower.chargeConstant' depends on axioms: [propext]
+'NativeVariableHeightRowLower.parent_counts_of_actual_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightRowLower.queried_parent_counts_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightRowLower.shortEdges_subset_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightSourceBridge.comparisonCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightSourceBridge.comparisonCost_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightSourceBridge.queried_global_source_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeVariableHeightSourceCounts.queried_column_point_power_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWindowXFibers.fineX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXFibers.fineX_image_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXFibers.fine_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXFibers.gridBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXFibers.gridBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXFibers.gridDiv_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXFibers.gridDiv_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXFibers.window_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXFibers.window_fiber_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMenus.forward_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMenus.inverse_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMenus.reference_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMenus.window_pxy_x' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMenus.window_pxy_y' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYSourceCaps.actual_window_capacities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYSourceCaps.finest_window_capacities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYSourceCaps.scheduled_window_capacities' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

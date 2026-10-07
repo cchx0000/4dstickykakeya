@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_normalized_cell_reverse_menu
+
+#print axioms NativeNormalizedCellReverseMenu.reverseMenu
+#print axioms NativeNormalizedCellReverseMenu.reverseMenu_card
+#print axioms NativeNormalizedCellReverseMenu.physical_cell_mem_reverse

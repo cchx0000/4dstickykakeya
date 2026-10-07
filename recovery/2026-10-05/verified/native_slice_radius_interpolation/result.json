@@ -1,0 +1,68 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_slice_radius_interpolation",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_slice_radius_interpolation.lean",
+  "source_sha256": "90ce05ea4a5eb7d2a4d780a9757c07a0e1f2593435b7a2abce37b89b67ca2169",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_slice_radius_interpolation.olean",
+  "names": [
+    "NativeSliceRadiusInterpolation.radius",
+    "NativeSliceRadiusInterpolation.radius_pos",
+    "NativeSliceRadiusInterpolation.adjacent_ratio",
+    "NativeSliceRadiusInterpolation.bracket_real_radius",
+    "NativeSliceRadiusInterpolation.ballCount",
+    "NativeSliceRadiusInterpolation.ballCount_mono",
+    "NativeSliceRadiusInterpolation.all_radius_bounds"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:42:59.479506+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "821c8abd27e06c391c5d25b7f0585e60191c615493efb7f923b5c91737e0c777",
+  "source_execution_complete_utc": "2026-10-05T16:43:06.675290+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164628582946",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSliceRadiusInterpolation.radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSliceRadiusInterpolation.radius_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSliceRadiusInterpolation.adjacent_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSliceRadiusInterpolation.bracket_real_radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSliceRadiusInterpolation.ballCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSliceRadiusInterpolation.ballCount_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSliceRadiusInterpolation.all_radius_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:46:33.820796+00:00"
+}

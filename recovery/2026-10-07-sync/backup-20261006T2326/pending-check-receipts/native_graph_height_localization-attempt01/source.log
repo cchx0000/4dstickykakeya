@@ -1,0 +1,12 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/e492a359b2fbfc2e876e948b731a70cfc0ca5290f806a295e5b8729c9086af40.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_graph_height_localization.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_height_localization.lean"]
+SOURCE_SHA256 928676900e3b99b4d8e2150f0dc10c534a9f2c5c148612305e69984f1db253e2
+LOCK_ACQUIRED_UTC 2026-10-06T14:30:43.402240+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_height_localization.lean:173:4: error: mod_cast has type
+  #(vertices (J b) height) ≤ #(Zb b) * #(TwoTubePathCollisionCount.tubes I)
+but is expected to have type
+  mass b ≤ ↑(#(Zb b) * #(TwoTubePathCollisionCount.tubes I))
+LEAN_FINISHED_UTC 2026-10-06T14:34:21.605572+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

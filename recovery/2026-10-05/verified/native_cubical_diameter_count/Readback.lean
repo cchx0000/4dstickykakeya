@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_cubical_diameter_count
+
+#print axioms NativeCubicalDiameterCount.indexBox
+#print axioms NativeCubicalDiameterCount.indexBox_card
+#print axioms NativeCubicalDiameterCount.capacity
+#print axioms NativeCubicalDiameterCount.coordinate_gap_le
+#print axioms NativeCubicalDiameterCount.mem_indexBox_of_dist
+#print axioms NativeCubicalDiameterCount.card_le_of_center_diameter
+#print axioms NativeCubicalDiameterCount.capacity_le_real
+#print axioms NativeCubicalDiameterCount.card_le_real_of_center_diameter

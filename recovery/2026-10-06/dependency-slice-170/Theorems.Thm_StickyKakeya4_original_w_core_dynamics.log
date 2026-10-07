@@ -1,0 +1,11 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-R", "/workspace/scratch/5f2524fd4117/4dstickykakeya", "-o", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/build/lib/lean/Theorems/Thm_StickyKakeya4_original_w_core_dynamics.olean", "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean"]
+SOURCE_SHA256 27244c7f2a4f5f51532e772758683dd143b3ce44a364238b69fdba6789d100ae
+'OriginalWCoreDynamics.rep_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.next_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.next_preserves_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.angles_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.M_subset_alphabet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.exists_original_core_dynamics' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OriginalWCoreDynamics.exists_original_total_core_dynamics' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

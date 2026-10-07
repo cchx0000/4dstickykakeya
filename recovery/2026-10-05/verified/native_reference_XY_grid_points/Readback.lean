@@ -1,0 +1,28 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_points
+
+#print axioms NativeReferenceXYGridPoints.rho
+#print axioms NativeReferenceXYGridPoints.sigma
+#print axioms NativeReferenceXYGridPoints.mu
+#print axioms NativeReferenceXYGridPoints.prefMesh
+#print axioms NativeReferenceXYGridPoints.heightMesh
+#print axioms NativeReferenceXYGridPoints.mu_pos
+#print axioms NativeReferenceXYGridPoints.rho_pos
+#print axioms NativeReferenceXYGridPoints.sigma_pos
+#print axioms NativeReferenceXYGridPoints.prefMesh_pos
+#print axioms NativeReferenceXYGridPoints.heightMesh_pos
+#print axioms NativeReferenceXYGridPoints.prefMesh_eq
+#print axioms NativeReferenceXYGridPoints.heightMesh_eq
+#print axioms NativeReferenceXYGridPoints.mu_phase
+#print axioms NativeReferenceXYGridPoints.oldPoint
+#print axioms NativeReferenceXYGridPoints.rawPoint
+#print axioms NativeReferenceXYGridPoints.original_phase_rounding
+#print axioms NativeReferenceXYGridPoints.physical_rounding
+#print axioms NativeReferenceXYGridPoints.pref
+#print axioms NativeReferenceXYGridPoints.pref_height
+#print axioms NativeReferenceXYGridPoints.pref_spatial
+#print axioms NativeReferenceXYGridPoints.pref_height_floor
+#print axioms NativeReferenceXYGridPoints.coarseIndex
+#print axioms NativeReferenceXYGridPoints.coarseIndex_height
+#print axioms NativeReferenceXYGridPoints.coarseIndex_spatial
+#print axioms NativeReferenceXYGridPoints.floor_div_scale
+#print axioms NativeReferenceXYGridPoints.coarse_pref_spatial

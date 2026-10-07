@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_source_parent_grain_cleanup
+
+#print axioms NativeSourceParentGrainCleanup.mixed_vertex_cross
+#print axioms NativeSourceParentGrainCleanup.density_cap_cancellation
+#print axioms NativeSourceParentGrainCleanup.cancel_depth_and_taxes
+#print axioms NativeSourceParentGrainCleanup.parentGrainConstant
+#print axioms NativeSourceParentGrainCleanup.source_parent_grain_cleanup

@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_retained_column_pair_core
+
+#print axioms NativeRetainedColumnPairCore.taggedPair
+#print axioms NativeRetainedColumnPairCore.relations
+#print axioms NativeRetainedColumnPairCore.relations_refl
+#print axioms NativeRetainedColumnPairCore.relations_symm
+#print axioms NativeRetainedColumnPairCore.caller_parent_pair_uniformity
+#print axioms NativeRetainedColumnPairCore.retained_pair_card
+#print axioms NativeRetainedColumnPairCore.retained_pair_multiplicity

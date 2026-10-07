@@ -1,0 +1,92 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_window_XY_reference_maps",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_window_XY_reference_maps.lean",
+  "source_sha256": "ddbf74baa5e76660593cbd4f0910ab79b8dd92f83405eb3f7d342a105d824ed6",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_window_XY_reference_maps.olean",
+  "names": [
+    "NativeWindowXYReferenceMaps.windowIndex",
+    "NativeWindowXYReferenceMaps.windowIndex_height",
+    "NativeWindowXYReferenceMaps.windowIndex_spatial",
+    "NativeWindowXYReferenceMaps.window_pref_spatial",
+    "NativeWindowXYReferenceMaps.window_pref_height",
+    "NativeWindowXYReferenceMaps.window_pref_column",
+    "NativeWindowXYReferenceMaps.dyadic_scale_mul",
+    "NativeWindowXYReferenceMaps.dyadic_height_width",
+    "NativeWindowXYReferenceMaps.scheduled_reference_readback",
+    "NativeWindowXYReferenceMaps.same_integer_window",
+    "NativeWindowXYReferenceMaps.reference_height_window",
+    "NativeWindowXYReferenceMaps.varying_inverse"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T19:57:02.093546+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "b6a186a61be2dafe1f02d3e6e67b83831adf3cd92d562b229f7028c7098e583c",
+  "source_execution_complete_utc": "2026-10-05T19:57:08.489325+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T200156810113",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeWindowXYReferenceMaps.windowIndex": [
+      "propext"
+    ],
+    "NativeWindowXYReferenceMaps.windowIndex_height": [
+      "propext"
+    ],
+    "NativeWindowXYReferenceMaps.windowIndex_spatial": [
+      "propext"
+    ],
+    "NativeWindowXYReferenceMaps.window_pref_spatial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowXYReferenceMaps.window_pref_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowXYReferenceMaps.window_pref_column": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowXYReferenceMaps.dyadic_scale_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowXYReferenceMaps.dyadic_height_width": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowXYReferenceMaps.scheduled_reference_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowXYReferenceMaps.same_integer_window": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowXYReferenceMaps.reference_height_window": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowXYReferenceMaps.varying_inverse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T20:02:03.627963+00:00"
+}

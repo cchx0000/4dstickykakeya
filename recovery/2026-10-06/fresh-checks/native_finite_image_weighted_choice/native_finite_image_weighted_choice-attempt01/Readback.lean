@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_finite_image_weighted_choice
+set_option autoImplicit false
+#print axioms NativeFiniteImageWeightedChoice.select_per_cell

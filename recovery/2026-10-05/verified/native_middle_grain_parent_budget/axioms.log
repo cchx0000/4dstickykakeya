@@ -1,0 +1,53 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T151458297559", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T151458297559/AggregateReadback.lean"]
+READBACK_SHA256 c792421b404ee23db148592e8289463404d946909a4ebb3253e6bbe9d280a8d4
+Dedicated staging slot 3 acquired UTC: 2026-10-05T15:14:59.076886+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8790752 kB
+'NativeMiddleGrainParentBudget.absorb_error_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.actual_middle_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.actual_middle_parent_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeMiddleGrainParentBudget.actual_test_radius_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.coefficient_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.errorConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.exists_uniform_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.grainDepth_middle' depends on axioms: [propext, Quot.sound]
+'NativeMiddleGrainParentBudget.middleDepth' does not depend on any axioms
+'NativeMiddleGrainParentBudget.middleIndex' depends on axioms: [propext, Quot.sound]
+'NativeMiddleGrainParentBudget.middle_depth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.middle_query_readback' depends on axioms: [propext, Quot.sound]
+'NativeMiddleGrainParentBudget.middle_scale_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.middle_scale_root_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.normalizedError' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.normalized_error_le_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.normalized_error_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleGrainParentBudget.parent_direction_from_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScheduledPairParentTransfer.coarse_pair_over_fine_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeScheduledPairParentTransfer.diagonal_pair_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScheduledPairParentTransfer.diagonal_pair_uniformity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScheduledPairParentTransfer.diagonal_parent_uniformity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeScheduledPairParentTransfer.fine_pair_determines_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeScheduledPairParentTransfer.parent_fine_pair_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScheduledPairParentTransfer.parent_fine_pair_uniformity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSourceParentGrainCleanup.cancel_depth_and_taxes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceParentGrainCleanup.density_cap_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceParentGrainCleanup.mixed_vertex_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceParentGrainCleanup.parentGrainConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceParentGrainCleanup.source_parent_grain_cleanup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUniformRetentionTransfer.finite_menu_retention_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUniformRetentionTransfer.image_card_le_mul_of_fiber_images' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeUniformRetentionTransfer.retained_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUniformRetentionTransfer.retained_image_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeUniformRetentionTransfer.uniform_subset_card_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

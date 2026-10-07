@@ -1,0 +1,132 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1ef56c938eb2d06b658ba4246e780328e8ffe2ce27ba9fae6d12215479031aec.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_intermediate_parent_population.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_intermediate_parent_population.lean"]
+SOURCE_SHA256 a5378ac1b8ee128a2c11079d4866a67cd67c7613a6d45e003869e278e852608e
+LOCK_ACQUIRED_UTC 2026-10-06T18:04:08.049655+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_intermediate_parent_population.lean:102:37: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_intermediate_parent_population.lean:130:56: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_intermediate_parent_population.lean:262:56: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+a : ℝ
+level b : ℕ
+Q : Finset Parent
+rep : Parent → Fin n
+E : Finset (Fin n × Index)
+hsep : ∀ p ∈ Q, ∀ q ∈ Q, p ≠ q → 64 / ↑(2 ^ b) ≤ dist (direction (D.line (rep p))) (direction (D.line (rep q)))
+etaA : ℝ
+hb : 6 ≤ b
+hA : IsWangZakharovNativeFiniteInput (NativeCoarseCellSource.source h a level b Q rep E hsep) etaA
+c : ℕ
+hc : c ≤ b - 6
+p : Parent
+C : FiniteScaleSource #Q := NativeCoarseCellSource.source h a level b Q rep E hsep
+hdy : (NativeCoarseCellSource.source h a level b Q rep E hsep).thickness = 2⁻¹ ^ (b - 6)
+hdC : 0 < (NativeCoarseCellSource.source h a level b Q rep E hsep).thickness
+hN : 0 < ↑(2 ^ c)
+hs : ↑(2 ^ c) * C.thickness ≤ 1
+hh :
+  ↑(#{i | parentLabel (NativeCoarseCellSource.source h a level b Q rep E hsep) 0 (2 ^ c) i = p}) ≤
+    5832 * (1 / (↑(2 ^ c) * (NativeCoarseCellSource.source h a level b Q rep E hsep).thickness)) ^ 3
+hscaled :
+  ↑(#{i | parentLabel (NativeCoarseCellSource.source h a level b Q rep E hsep) 0 (2 ^ c) i = p}) *
+      (↑(2 ^ c) * C.thickness / 64) ^ 3 ≤
+    5832 * (1 / (↑(2 ^ c) * (NativeCoarseCellSource.source h a level b Q rep E hsep).thickness)) ^ 3 *
+      (↑(2 ^ c) * C.thickness / 64) ^ 3
+⊢ C.thickness / C.thickness = 1
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_intermediate_parent_population.lean:306:43: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+a : ℝ
+level b : ℕ
+Q : Finset Parent
+rep : Parent → Fin n
+E : Finset (Fin n × Index)
+hsep : ∀ p ∈ Q, ∀ q ∈ Q, p ≠ q → 64 / ↑(2 ^ b) ≤ dist (direction (D.line (rep p))) (direction (D.line (rep q)))
+etaA e L : ℝ
+hb : 6 ≤ b
+hA : IsWangZakharovNativeFiniteInput (NativeCoarseCellSource.source h a level b Q rep E hsep) etaA
+selected : Finset (Fin #Q × Index)
+hselected : selected ⊆ NativeCubicalIncidenceCounts.incidences (intermediateCells a level b Q rep E)
+c : ℕ
+hc : c ≤ b - 6
+p : Parent
+hparent : ∀ z ∈ selected, z.1 ∈ parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p
+hlower :
+  L ≤
+    ↑(#(image (NativeLocalCellCoherence.localPair (NativeCoarseCellSource.source h a level b Q rep E hsep) 0 (2 ^ c) p)
+            selected)) *
+      (↑(2 ^ c) * (64 / ↑(2 ^ b)) / 128) ^ 4
+hbudget : NativeOriginalPrunedMass.volumeConstant * (5832 / 64 ^ 3) * (↑(2 ^ c) * (64 / ↑(2 ^ b)) / 64) ^ e ≤ L
+S : FiniteScaleSource #(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p) :=
+  NativeLocalParentSource.source hA univ selected 0 c p
+C : FiniteScaleSource #Q := NativeCoarseCellSource.source h a level b Q rep E hsep
+hg :
+  have S := NativeLocalParentSource.source hA univ selected 0 c p;
+  0 < S.thickness ∧
+    S.thickness ≤ 1 ∧
+      IsWZDyadicScale S.thickness ∧
+        (∀ (i : Fin #(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p)),
+            IsValidLine (S.line i)) ∧
+          (∀ (i : Fin #(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p)),
+              S.line i ∈ fixedCompactClass) ∧
+            (∀ (i : Fin #(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p)),
+                S.weight i = 1) ∧
+              (∀ (i : Fin #(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p)),
+                  S.fibreMark i = mark (S.line i)) ∧
+                (∀ (i : Fin #(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p)),
+                    MeasurableSet (S.shading i)) ∧
+                  (∀
+                      (i :
+                        Fin #(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p)),
+                      IsWZComparableCubicalShading S.thickness (S.shading i)) ∧
+                    (∀
+                        (i :
+                          Fin
+                            #(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p)),
+                        S.shading i ⊆ markedUnitTube (S.line i) S.thickness) ∧
+                      (∀
+                          (i j :
+                            Fin
+                              #(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c)
+                                  p)),
+                          i ≠ j → S.thickness ≤ dist (direction (S.line i)) (direction (S.line j))) ∧
+                        HasNormalizedWZGraphSlab S ∧ HasFixedWZGraphNormalization S
+hspos : 0 < S.thickness
+ht :
+  wzTotalTubeVolume S ≤
+    ↑(#(parentLabels (NativeCoarseCellSource.source h a level b Q rep E hsep) univ 0 (2 ^ c) p)) *
+      (ENNReal.ofReal NativeOriginalPrunedMass.volumeConstant * ENNReal.ofReal S.thickness ^ 3)
+htn : wzTotalTubeVolume S ≠ ∞
+htr0 :
+  (wzTotalTubeVolume S).toReal ≤
+    ↑(#(parentLabels C univ 0 (2 ^ c) p)) * (NativeOriginalPrunedMass.volumeConstant * S.thickness ^ 3)
+hn :
+  have C := NativeCoarseCellSource.source h a level b Q rep E hsep;
+  ↑(#(parentLabels C univ 0 (2 ^ c) p)) * (↑(2 ^ c) * C.thickness / 64) ^ 3 ≤ 5832 / 64 ^ 3
+htr : (wzTotalTubeVolume S).toReal ≤ NativeOriginalPrunedMass.volumeConstant * (5832 / 64 ^ 3)
+hmass :
+  wzTotalShadingVolume (NativeLocalParentSource.source hA univ selected 0 c p) =
+    ↑(#(image (NativeLocalCellCoherence.localPair (NativeCoarseCellSource.source h a level b Q rep E hsep) 0 (2 ^ c) p)
+            selected)) *
+      ENNReal.ofReal (↑(2 ^ c) * (NativeCoarseCellSource.source h a level b Q rep E hsep).thickness / 128) ^ 4
+hsn : wzTotalShadingVolume S ≠ ∞
+⊢ ↑(#(image (NativeLocalCellCoherence.localPair (NativeCoarseCellSource.source h a level b Q rep E hsep) 0 (2 ^ c) p)
+            selected)) *
+      (ENNReal.ofReal (↑(2 ^ c) * (NativeCoarseCellSource.source h a level b Q rep E hsep).thickness / 128)).toReal ^
+        4 =
+    ↑(#(image (NativeLocalCellCoherence.localPair C 0 (2 ^ c) p) selected)) * (↑(2 ^ c) * C.thickness / 128) ^ 4
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_intermediate_parent_population.lean:309:6: error: This simp argument is unused:
+  ENNReal.toReal_ofReal (show 0 ≤ ((2 ^ c : ℕ) : ℝ) * C.thickness / 128 from by have hdC := hA.1.2.1; positivity)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ENNReal.toReal_mul, ENNReal.toReal_natCast, ENNReal.toReal_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+LEAN_FINISHED_UTC 2026-10-06T18:05:16.147035+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

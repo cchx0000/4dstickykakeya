@@ -1,0 +1,19 @@
+import Theorems.Thm_StickyKakeya4_native_local_parent_volume
+set_option autoImplicit false
+#print axioms NativeLocalParentVolume.matrix
+#print axioms NativeLocalParentVolume.rawLinear
+#print axioms NativeLocalParentVolume.linearPart
+#print axioms NativeLocalParentVolume.matrix_det
+#print axioms NativeLocalParentVolume.linearPart_det
+#print axioms NativeLocalParentVolume.linearPart_det_ne_zero
+#print axioms NativeLocalParentVolume.rawLinear_apply
+#print axioms NativeLocalParentVolume.linearPart_apply
+#print axioms NativeLocalParentVolume.physicalMap_eq_linear_add
+#print axioms NativeLocalParentVolume.continuous_physicalMap
+#print axioms NativeLocalParentVolume.homeomorph
+#print axioms NativeLocalParentVolume.homeomorph_apply
+#print axioms NativeLocalParentVolume.measurableSet_image
+#print axioms NativeLocalParentVolume.measurableSet_preimage
+#print axioms NativeLocalParentVolume.volume_image
+#print axioms NativeLocalParentVolume.volume_preimage
+#print axioms NativeLocalParentVolume.convex_preimage

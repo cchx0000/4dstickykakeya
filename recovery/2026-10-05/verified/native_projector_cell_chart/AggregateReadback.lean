@@ -1,0 +1,20 @@
+import Theorems.Thm_StickyKakeya4_native_projector_cell_chart
+
+set_option autoImplicit false
+#print axioms NativeProjectorCellChart.basis
+#print axioms NativeProjectorCellChart.basis_expansion
+#print axioms NativeProjectorCellChart.basis_norm
+#print axioms NativeProjectorCellChart.card_cell
+#print axioms NativeProjectorCellChart.cell
+#print axioms NativeProjectorCellChart.chartCount
+#print axioms NativeProjectorCellChart.entry
+#print axioms NativeProjectorCellChart.entry_abs_le_one
+#print axioms NativeProjectorCellChart.norm_le_coordinate_sum
+#print axioms NativeProjectorCellChart.same_cell_column
+#print axioms NativeProjectorCellChart.same_cell_entry
+#print axioms NativeProjectorCellChart.same_cell_forward_gap
+#print axioms NativeProjectorCellChart.same_cell_operator_norm
+#print axioms NativeProjectorCellChart.same_cell_projection_difference
+#print axioms NativeProjectorCellChart.same_cell_projection_lift
+#print axioms NativeProjectorCellChart.select_whole_nodes
+#print axioms NativeProjectorCellChart.select_whole_nodes_with_lifts

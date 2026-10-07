@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_upper_parameters
+
+#print axioms NativeConditionalUpperParameters.exists_upper_parameters

@@ -1,0 +1,26 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_coarse_shading_uniformity_readback.lean"]
+SOURCE_SHA256 1d783defaaeda434e7850c3938c66324df6aa2433d40750d48d0ee8431f61ee8
+FIFO compiler ticket: 01791183153639721588-ebddbf493ea84a10bec66f8c0bc8fbbc.request
+FIFO compiler acquired UTC: 2026-10-05T06:52:33.640686+00:00
+'NativeCoarseShadingUniformity.nested_fiber_card_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.nested_image_fiber_card_comparable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoarseShadingUniformity.cellAncestor' depends on axioms: [propext]
+'NativeCoarseShadingUniformity.pairAncestor' depends on axioms: [propext]
+'NativeCoarseShadingUniformity.fixedPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.projectedLabel_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.fixedPair_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.fixedPair_image_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.rowCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.rowCells_at_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.mem_rowCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.rowCells_card_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.rowCells_eq_ancestor_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.rowChildren' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.rowChildren_card_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.rowChildren_comparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.rowCells_comparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseShadingUniformity.full_source_shading_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

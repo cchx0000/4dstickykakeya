@@ -1,0 +1,36 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T10:25:40.383714+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T102539217773",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T102539217773/AggregateReadback.lean"
+  ],
+  "readback_sha256": "86a5dbb789de72a028030de495953ec3d528d3ae261873c1a037c444d8cdeca6",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_mesoscopic_rank_configuration",
+      "source_sha256": "afbebd659ebebb29744151f007d3ed93ddbc023853fd0dc5df3d126b83c938fc",
+      "olean_sha256": "578b26d838a7ab5acf82e6a9567926f3fff6009a1a298937a32939f25a6b3eba",
+      "names": [
+        "NativeActualMesoscopicRankConfiguration.rankWindow",
+        "NativeActualMesoscopicRankConfiguration.rankWindow_pos",
+        "NativeActualMesoscopicRankConfiguration.fullSchedule_eq_rankWindow",
+        "NativeActualMesoscopicRankConfiguration.exists_actual_mesoscopic_rank_configuration"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T10:34:20.560915+00:00",
+  "exit_code": 0
+}

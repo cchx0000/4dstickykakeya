@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_coarse_source_parent_readback
+set_option autoImplicit false
+#print axioms NativeCoarseSourceParentReadback.contracted_line_eq_local_one
+#print axioms NativeCoarseSourceParentReadback.shiftedIntercept_zero
+#print axioms NativeCoarseSourceParentReadback.zeroProjection
+#print axioms NativeCoarseSourceParentReadback.projection_zero
+#print axioms NativeCoarseSourceParentReadback.source_parentLabel_relative
+#print axioms NativeCoarseSourceParentReadback.source_parentLabel
+#print axioms NativeCoarseSourceParentReadback.parent_fiber_old_labels
+#print axioms NativeCoarseSourceParentReadback.parent_image

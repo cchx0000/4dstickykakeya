@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_frozen_time_field
+set_option autoImplicit false
+#print axioms NativeFrozenTimeField.field
+#print axioms NativeFrozenTimeField.field_realization
+#print axioms NativeFrozenTimeField.field_norm_le
+#print axioms NativeFrozenTimeField.nested_height_readback
+#print axioms NativeFrozenTimeField.same_base_same_coarse
+#print axioms NativeFrozenTimeField.field_close_to_original
+#print axioms NativeFrozenTimeField.frozen_field_coarse
+#print axioms NativeFrozenTimeField.select_frozen_field

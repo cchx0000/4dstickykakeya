@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_generic_compatible_stage
+
+#print axioms NativeGenericCompatibleStage.pairedCount
+#print axioms NativeGenericCompatibleStage.HasCompatibleSquaredStage
+#print axioms NativeGenericCompatibleStage.compatibleCutoff
+#print axioms NativeGenericCompatibleStage.compatibleCutoff_pos
+#print axioms NativeGenericCompatibleStage.select_compatible_squared_stage

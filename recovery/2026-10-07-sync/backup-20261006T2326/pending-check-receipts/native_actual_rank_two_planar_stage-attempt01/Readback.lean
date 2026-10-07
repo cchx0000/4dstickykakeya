@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_rank_two_planar_stage
+set_option autoImplicit false
+#print axioms NativeActualRankTwoPlanarStage.exists_stage_supplier

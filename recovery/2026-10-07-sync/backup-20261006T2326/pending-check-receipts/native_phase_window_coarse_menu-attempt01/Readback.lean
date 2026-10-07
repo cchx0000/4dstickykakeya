@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_phase_window_coarse_menu
+set_option autoImplicit false
+#print axioms NativePhaseWindowCoarseMenu.coarse_depth_of_base
+#print axioms NativePhaseWindowCoarseMenu.exists_source_bilevel_menu_cutoff

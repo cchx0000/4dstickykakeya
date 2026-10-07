@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_relative_coarse_geometry
+
+#print axioms NativeRelativeCoarseGeometry.zeroGraphPoint
+#print axioms NativeRelativeCoarseGeometry.bridgePoint
+#print axioms NativeRelativeCoarseGeometry.zero_front_formula
+#print axioms NativeRelativeCoarseGeometry.local_front_bridge
+#print axioms NativeRelativeCoarseGeometry.cell_center_coordinate_error
+#print axioms NativeRelativeCoarseGeometry.zero_graph_time_error
+#print axioms NativeRelativeCoarseGeometry.same_relative_front_error
+#print axioms NativeRelativeCoarseGeometry.bridge_center_error

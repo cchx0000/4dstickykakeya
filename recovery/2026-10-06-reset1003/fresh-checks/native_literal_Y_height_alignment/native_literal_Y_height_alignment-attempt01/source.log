@@ -1,0 +1,98 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/326046c65df8c55ce03b89946ab483051755fb35b438351a885d963c8904e099.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_literal_Y_height_alignment.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_Y_height_alignment.lean"]
+SOURCE_SHA256 275c900a6b5dc793ad82737eac553954263e97fa483a410a46b6a8d74e738264
+LOCK_ACQUIRED_UTC 2026-10-06T16:37:39.909251+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_Y_height_alignment.lean:61:6: error(lean.unknownIdentifier): Unknown identifier `localBall`
+
+Note: It is not possible to treat `localBall` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_Y_height_alignment.lean:83:4: error: Type mismatch: After simplification, term
+  htop
+ has type
+  2⁻¹ ^ u / 512 * 2 ^ j ≤ 1
+but is expected to have type
+  2 ^ j * (2⁻¹ ^ u / 512) ≤ 2 ^ (u + 9) * (2⁻¹ ^ u / 512)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_Y_height_alignment.lean:113:81: error: unexpected identifier; expected '}'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_Y_height_alignment.lean:113:11: error: Fields missing: `selected`, `subset`, `nonempty`, `scale_lower`, `scale_order`, `scale_upper`, `exponent_nonneg`, `exponent_upper`, `gap`, `retention`, `aligned`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_Y_height_alignment.lean:99:94: error: unsolved goals
+zeta : ℝ
+hzeta : 0 < zeta
+eta0 chi : ℝ
+heta0 : 0 < eta0
+hchi : 0 < chi
+H :
+  ∀ (eta : ℝ),
+    0 < eta →
+      eta ≤ eta0 →
+        ∃ delta0,
+          0 < delta0 ∧
+            ∀ (A : Finset Plane) (delta t : ℝ),
+              A.Nonempty →
+                0 < delta →
+                  delta ≤ delta0 →
+                    0 ≤ t →
+                      t ≤ 2 →
+                        (∀ p ∈ A, ∀ q ∈ A, dist p q ≤ 1) →
+                          ADBounds A delta (delta ^ (-eta)) t →
+                            ∃ rho tau s j,
+                              ∃ A' ⊆ A,
+                                A'.Nonempty ∧
+                                  delta ≤ rho ∧
+                                    rho < tau ∧
+                                      tau ≤ 1 ∧
+                                        0 ≤ s ∧
+                                          s ≤ min t 1 ∧
+                                            (∃ ir it, rho = scale delta ir ∧ tau = scale delta it) ∧
+                                              delta ^ (-chi) ≤ tau / rho ∧
+                                                (rho / tau) ^ zeta * ↑(#A) ≤ ↑(#A') ∧
+                                                  delta ^ zeta * ↑(#A) ≤ ↑(#A') ∧
+                                                    ∀ a ∈ A',
+                                                      NearlyLiteralAligned
+                                                        (image (⇑(NativePaperAlignmentScales.normalization j a tau))
+                                                          (NativePaperAlignmentScales.localBall A' a tau))
+                                                        (rho / tau) t s ((rho / tau) ^ (-zeta))
+eta : ℝ
+heta : 0 < eta
+hetop : eta ≤ eta0
+delta0 : ℝ
+hd0 : 0 < delta0
+Hplanar :
+  ∀ (A : Finset Plane) (delta t : ℝ),
+    A.Nonempty →
+      0 < delta →
+        delta ≤ delta0 →
+          0 ≤ t →
+            t ≤ 2 →
+              (∀ p ∈ A, ∀ q ∈ A, dist p q ≤ 1) →
+                ADBounds A delta (delta ^ (-eta)) t →
+                  ∃ rho tau s j,
+                    ∃ A' ⊆ A,
+                      A'.Nonempty ∧
+                        delta ≤ rho ∧
+                          rho < tau ∧
+                            tau ≤ 1 ∧
+                              0 ≤ s ∧
+                                s ≤ min t 1 ∧
+                                  (∃ ir it, rho = scale delta ir ∧ tau = scale delta it) ∧
+                                    delta ^ (-chi) ≤ tau / rho ∧
+                                      (rho / tau) ^ zeta * ↑(#A) ≤ ↑(#A') ∧
+                                        delta ^ zeta * ↑(#A) ≤ ↑(#A') ∧
+                                          ∀ a ∈ A',
+                                            NearlyLiteralAligned
+                                              (image (⇑(NativePaperAlignmentScales.normalization j a tau))
+                                                (NativePaperAlignmentScales.localBall A' a tau))
+                                              (rho / tau) t s ((rho / tau) ^ (-zeta))
+Y : Finset Key
+u : ℕ
+t : ℝ
+hsmall : 2⁻¹ ^ u / 512 ≤ delta0
+ht : 0 ≤ t
+ht2 : t ≤ 2
+hdiam :
+  ∀ h ∈ image Prod.fst Y, ∀ p ∈ heightPoints Y (2⁻¹ ^ u / 512) h, ∀ q ∈ heightPoints Y (2⁻¹ ^ u / 512) h, dist p q ≤ 1
+hAD : ∀ h ∈ image Prod.fst Y, ADBounds (heightPoints Y (2⁻¹ ^ u / 512) h) (2⁻¹ ^ u / 512) ((2⁻¹ ^ u / 512) ^ (-eta)) t
+Hheight : ∀ (h : ↥(image Prod.fst Y)), Nonempty (HeightAlignment Y u t zeta chi ↑h)
+⊢ Nonempty ((h : ↥(image Prod.fst Y)) → HeightAlignment Y u t zeta chi ↑h)
+LEAN_FINISHED_UTC 2026-10-06T16:41:13.715413+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

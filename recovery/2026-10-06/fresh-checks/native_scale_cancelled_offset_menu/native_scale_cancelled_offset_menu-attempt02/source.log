@@ -1,0 +1,31 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b1da5ea299ed42f53d3fd612149a7995540ade020fdd7020972b04d8a0cc4e49.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.lean"]
+SOURCE_SHA256 e99f00c402aade43cdb3e4d2ce222ecdc012e6be03b9d066f1fd779e70db4ee3
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.lean:31:53: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.lean:92:6: error: Type mismatch: After simplification, term
+  hLower i
+ has type
+  ∀ p ∈ image Prod.fst S,
+    lower * (64 / rho i) ^ kappa ≤
+      ↑(#(@image (P × T) (Fin 4 → ℤ) (fun a b => Fintype.decidablePiFintype a b)
+            (fun z => angularKey (64 / rho i) (theta z.2)) ({z ∈ S | z.1 = p})))
+but is expected to have type
+  ∀ p ∈ image Prod.fst S,
+    lower * (64 / rho i) ^ kappa ≤
+      ↑(#(@image (P × T) (Fin 4 → ℤ) (fun a b => propDecidable (a = b)) (fun z => angularKey (64 / rho i) (theta z.2))
+            ({z ∈ S | z.1 = p})))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.lean:93:6: error: Type mismatch: After simplification, term
+  hUpper i
+ has type
+  ∀ (c : Cell),
+    ↑(#(@image (P × T) (Fin 4 → ℤ) (fun a b => Fintype.decidablePiFintype a b)
+            (fun z => angularKey (64 / rho i) (theta z.2)) (physicalFiber S (physical i) c))) ≤
+      upper * (64 / rho i) ^ kappa
+but is expected to have type
+  ∀ (c : Cell),
+    ↑(#(@image (P × T) (Fin 4 → ℤ) (fun a b => propDecidable (a = b)) (fun z => angularKey (64 / rho i) (theta z.2))
+            (physicalFiber S (physical i) c))) ≤
+      upper * (64 / rho i) ^ kappa
+
+EXIT_CODE=1

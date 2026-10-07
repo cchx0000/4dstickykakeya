@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_retained_fine_pair_density
+
+#print axioms NativeRetainedFinePairDensity.finePairCount
+#print axioms NativeRetainedFinePairDensity.full_mass_eq_pair_count
+#print axioms NativeRetainedFinePairDensity.pairDensityConstant
+#print axioms NativeRetainedFinePairDensity.pairDensityConstant_pos
+#print axioms NativeRetainedFinePairDensity.density_cross
+#print axioms NativeRetainedFinePairDensity.source_fine_pair_density

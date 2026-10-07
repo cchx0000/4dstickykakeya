@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_angular_bottom_endpoint
+
+#print axioms NativeAngularBottomEndpoint.extend_bottom

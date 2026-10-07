@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_full_reference_carrier_lower
+set_option autoImplicit false
+#print axioms NativeFullReferenceCarrierLower.full_carrier_count
+#print axioms NativeFullReferenceCarrierLower.full_carrier_lower
+#print axioms NativeFullReferenceCarrierLower.full_carrier_bounds

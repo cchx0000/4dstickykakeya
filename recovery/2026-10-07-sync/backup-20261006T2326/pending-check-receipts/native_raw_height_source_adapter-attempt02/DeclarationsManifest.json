@@ -1,0 +1,49 @@
+{
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_height_source_adapter.lean",
+  "status": "staging uncompiled revision after attempt01; two elaboration repairs; next compiler slot pending",
+  "source_sha256": "acd77f8dc3743b362a4bd3ddad85af98807dd426dcca062a6a1b12f337b86a6c",
+  "namespaces": [
+    "NativeRawHeightSourceAdapter"
+  ],
+  "declaration_count": 26,
+  "units": [
+    {
+      "source_unit": "native_raw_height_source_adapter",
+      "declarations": [
+        "NativeRawHeightSourceAdapter.rawTaggedKey",
+        "NativeRawHeightSourceAdapter.rawTranslatedHeight",
+        "NativeRawHeightSourceAdapter.translatedHeight_eq_raw",
+        "NativeRawHeightSourceAdapter.translatedHeight_eq_of_original_height_eq",
+        "NativeRawHeightSourceAdapter.translatedTag",
+        "NativeRawHeightSourceAdapter.translatedTags",
+        "NativeRawHeightSourceAdapter.taggedKey_eq_translatedTag",
+        "NativeRawHeightSourceAdapter.translatedTag_finalTime",
+        "NativeRawHeightSourceAdapter.translatedTags_final_image",
+        "NativeRawHeightSourceAdapter.translatedTag_injOn",
+        "NativeRawHeightSourceAdapter.translatedTags_card",
+        "NativeRawHeightSourceAdapter.translatedTags_coherent",
+        "NativeRawHeightSourceAdapter.translatedTags_subset",
+        "NativeRawHeightSourceAdapter.rawSelectedOccurrences",
+        "NativeRawHeightSourceAdapter.rawSelectedPairs",
+        "NativeRawHeightSourceAdapter.raw_selected_tagged_image",
+        "NativeRawHeightSourceAdapter.raw_selected_final_image",
+        "NativeRawHeightSourceAdapter.translated_selected_final_image",
+        "NativeRawHeightSourceAdapter.translated_selected_final_card",
+        "NativeRawHeightSourceAdapter.final_pair_mem_iff_outputCell",
+        "NativeRawHeightSourceAdapter.translated_selected_sourceCells_eq_raw",
+        "NativeRawHeightSourceAdapter.translated_selected_raw_witness",
+        "NativeRawHeightSourceAdapter.occurrence_original_injective",
+        "NativeRawHeightSourceAdapter.actual_occurrences_card",
+        "NativeRawHeightSourceAdapter.actual_occurrence_exists_unique",
+        "NativeRawHeightSourceAdapter.select_raw_height"
+      ]
+    }
+  ],
+  "imports": [
+    "Theorems.Thm_StickyKakeya4_native_remembered_source_construction"
+  ],
+  "purpose": "Exact original grid-height tags and translation adapter; actual occurrence uniqueness and same final image/card/sourceCells; original support and marks unchanged",
+  "verified_declarations": 0,
+  "repository_mutations": false,
+  "prior_attempt": "/workspace/shared/sticky-recovery-20261006/verification/native_raw_height_source_adapter-attempt01/result.json"
+}

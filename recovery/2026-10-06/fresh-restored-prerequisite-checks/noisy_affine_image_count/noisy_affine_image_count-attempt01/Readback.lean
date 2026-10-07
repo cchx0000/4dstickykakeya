@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_noisy_affine_image_count
+set_option autoImplicit false
+#print axioms NoisyAffineImageCount.same_floor_difference
+#print axioms NoisyAffineImageCount.noisy_pair_gap
+#print axioms NoisyAffineImageCount.integer_card_le_span
+#print axioms NoisyAffineImageCount.integer_card_bound
+#print axioms NoisyAffineImageCount.noisy_fiber_bound
+#print axioms NoisyAffineImageCount.noisy_image_count
+#print axioms NoisyAffineImageCount.delta_fiber_bound
+#print axioms NoisyAffineImageCount.delta_image_count
+#print axioms NoisyAffineImageCount.labelled_noisy_fiber_bound
+#print axioms NoisyAffineImageCount.labelled_noisy_image_count
+#print axioms NoisyAffineImageCount.coordinate_fiber_image_count
+#print axioms NoisyAffineImageCount.coarse_noisy_image_count

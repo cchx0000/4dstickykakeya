@@ -1,0 +1,156 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_rich_directional_layers",
+  "source": "/workspace/shared/sticky-recovery-20261005/packet-prerequisites/live/Theorems/Thm_StickyKakeya4_rich_directional_layers.lean",
+  "source_sha256": "18797e298e99a297d5f4e214856255dcc1e81bc2f63d54c4d9383b4d129b4ab2",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/packet-prerequisites/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/packet-prerequisites/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/packet-prerequisites/olean/Theorems/Thm_StickyKakeya4_rich_directional_layers.olean",
+  "names": [
+    "RichDirectionalLayers.classFiber",
+    "RichDirectionalLayers.richRestriction",
+    "RichDirectionalLayers.richRestriction_subset",
+    "RichDirectionalLayers.richRestriction_predecessors",
+    "RichDirectionalLayers.richRestriction_card_loss",
+    "RichDirectionalLayers.richLayers",
+    "RichDirectionalLayers.richLayers_zero",
+    "RichDirectionalLayers.richLayers_succ",
+    "RichDirectionalLayers.richLayers_step_subset",
+    "RichDirectionalLayers.richLayers_subset_start",
+    "RichDirectionalLayers.richLayers_predecessors",
+    "RichDirectionalLayers.richLayers_card_loss",
+    "RichDirectionalLayers.richLayers_half_of_budget",
+    "RichDirectionalLayers.richThreshold",
+    "RichDirectionalLayers.richThreshold_positive",
+    "RichDirectionalLayers.richThreshold_product_positive",
+    "RichDirectionalLayers.richThreshold_budget",
+    "RichDirectionalLayers.class_count_mul_le",
+    "RichDirectionalLayers.construct_richLayers",
+    "RichDirectionalLayers.richThreshold_crossmul",
+    "RichDirectionalLayers.richThreshold_density",
+    "RichDirectionalLayers.classFiber_eq_affineFiber",
+    "RichDirectionalLayers.construct_independent_rich_layers"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T11:40:10.327630+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "0e969da756c2196330a6bec7b7df4c0f27496036533c262eb5582627eda982f6",
+  "source_execution_complete_utc": "2026-10-05T11:45:19.693023+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T115728926894",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "RichDirectionalLayers.classFiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richRestriction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richRestriction_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richRestriction_predecessors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richRestriction_card_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richLayers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richLayers_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richLayers_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richLayers_step_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richLayers_subset_start": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richLayers_predecessors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richLayers_card_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richLayers_half_of_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richThreshold": [],
+    "RichDirectionalLayers.richThreshold_positive": [],
+    "RichDirectionalLayers.richThreshold_product_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richThreshold_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.class_count_mul_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.construct_richLayers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richThreshold_crossmul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.richThreshold_density": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.classFiber_eq_affineFiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "RichDirectionalLayers.construct_independent_rich_layers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:05:40.066208+00:00"
+}

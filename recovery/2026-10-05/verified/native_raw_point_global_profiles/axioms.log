@@ -1,0 +1,22 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T133127485374", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T133127485374/AggregateReadback.lean"]
+READBACK_SHA256 2fe4ee7f11600a470e0c6ae3e58a6d7c34ff693dbaf994d8d5abd515d12a3207
+Dedicated staging slot 3 acquired UTC: 2026-10-05T13:31:59.452408+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7742208 kB
+'NativeRawPointGlobalProfiles.all_depth_raw_point_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawPointGlobalProfiles.global_shadow_bounds_of_conditional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRawPointGlobalProfiles.global_shadow_multiplicity_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRawPointGlobalProfiles.global_shadow_multiplicity_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRawPointGlobalProfiles.original_shading_mass_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawPointGlobalProfiles.raw_point_count_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawPointGlobalProfiles.retained_raw_point_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawPointGlobalProfiles.source_hereditary_conditional_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

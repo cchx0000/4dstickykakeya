@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_native_actual_configured_point
+set_option autoImplicit false
+#print axioms NativeActualConfiguredPoint.assemble_height
+#print axioms NativeActualConfiguredPoint.assemble_spatial
+#print axioms NativeActualConfiguredPoint.graphGrid
+#print axioms NativeActualConfiguredPoint.sourceLabel
+#print axioms NativeActualConfiguredPoint.point
+#print axioms NativeActualConfiguredPoint.point_factorization
+#print axioms NativeActualConfiguredPoint.sourceLabel_oneTwo
+#print axioms NativeActualConfiguredPoint.sourceLabel_twoOne
+#print axioms NativeActualConfiguredPoint.sourceLabel_height
+#print axioms NativeActualConfiguredPoint.graphGrid_height
+#print axioms NativeActualConfiguredPoint.point_height_floor
+#print axioms NativeActualConfiguredPoint.sourceLabel_coordinates
+#print axioms NativeActualConfiguredPoint.graphGrid_distance
+#print axioms NativeActualConfiguredPoint.point_distance

@@ -1,0 +1,170 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:40:48.581073+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164047926585",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164047926585/AggregateReadback.lean"
+  ],
+  "readback_sha256": "24d1b2f33bb4bd9f9e1771fe7e16972e95fadcae77f23e57aa9304a53a5b81c7",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_slice_class_balls",
+      "source_sha256": "4682a9407ffe6d748a12cd0a430cb334729234e9f7e833d7a0b0d99ec024d478",
+      "olean_sha256": "4ea18b8a4516d035339f355a7b4af6d046502cc755252e9542363c2467e0f5db",
+      "names": [
+        "NativeSliceClassBalls.preparedClass",
+        "NativeSliceClassBalls.spatialBall",
+        "NativeSliceClassBalls.realized",
+        "NativeSliceClassBalls.realizedSlice",
+        "NativeSliceClassBalls.realized_injective_on_height",
+        "NativeSliceClassBalls.realized_dist_iff",
+        "NativeSliceClassBalls.realized_ball_card",
+        "NativeSliceClassBalls.preparedClass_subset_ball",
+        "NativeSliceClassBalls.ball_class_mem_halo",
+        "NativeSliceClassBalls.ball_class_card_le",
+        "NativeSliceClassBalls.prepared_ball_upper",
+        "NativeSliceClassBalls.prepared_real_ball_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_core",
+      "source_sha256": "e840f73472b884ed5ed8b47f6ef3910519bf68f06f40ecbf012501bbc2a151ac",
+      "olean_sha256": "20492a1ec6e987b72e08877d01c02762308c9d7c7dc958beb61323caf1b34022",
+      "names": [
+        "NativeRetainedSliceCore.relations",
+        "NativeRetainedSliceCore.refinementCost",
+        "NativeRetainedSliceCore.refinementCost_pos",
+        "NativeRetainedSliceCore.relations_refl",
+        "NativeRetainedSliceCore.relations_symm",
+        "NativeRetainedSliceCore.exists_retained_slice_core",
+        "NativeRetainedSliceCore.exists_retained_slice_counts"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_actual",
+      "source_sha256": "be56362a17571290ba1a9b0746de816ae63d0df1160de14f9e5e07dac4cce862",
+      "olean_sha256": "bb3cdc610d5ecb2a8107cba6c313300974a6077846e5c528edc12c4318c14571",
+      "names": [
+        "NativeRetainedSliceActual.exists_actual_retained_slice_counts"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_budget",
+      "source_sha256": "0c2b544d512b17d8e0cff55fe331cdc22a35e2fef516304970a72acb9612b65f",
+      "olean_sha256": "360941b79636d564ec838b0b420924223f3d6c51d65f169c8e809d04e1aa5439",
+      "names": [
+        "NativeRetainedSliceBudget.exists_retained_slice_budget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_selection",
+      "source_sha256": "0c076568ceea18197c20730d25f284fb68b4f0d84871d06a5d5bb999ef88258d",
+      "olean_sha256": "759d63195ddc21f362ba12e8b8a1813222ba31b94b3c5792a926de65c59e34a5",
+      "names": [
+        "NativeWeightedGrainQuotientSelection.grain",
+        "NativeWeightedGrainQuotientSelection.chosen",
+        "NativeWeightedGrainQuotientSelection.selected",
+        "NativeWeightedGrainQuotientSelection.chosen_spec",
+        "NativeWeightedGrainQuotientSelection.selected_subset",
+        "NativeWeightedGrainQuotientSelection.selected_grain",
+        "NativeWeightedGrainQuotientSelection.selected_grain_nonempty",
+        "NativeWeightedGrainQuotientSelection.selected_grain_image",
+        "NativeWeightedGrainQuotientSelection.local_mass_retention",
+        "NativeWeightedGrainQuotientSelection.mass_retention",
+        "NativeWeightedGrainQuotientSelection.card_retention_ceil",
+        "NativeWeightedGrainQuotientSelection.local_card_retention"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_geometry",
+      "source_sha256": "58ad78d13dfd6dcba33fff7eb0815e16515f3f736a2a12d4de39af313a77ded0",
+      "olean_sha256": "b71f84747e2c8378a6bcec874b939f010db7ed601e37162ebdf264741fd3e331",
+      "names": [
+        "NativeWeightedGrainQuotientGeometry.grain_mixed_eq",
+        "NativeWeightedGrainQuotientGeometry.quotientLabel",
+        "NativeWeightedGrainQuotientGeometry.pick",
+        "NativeWeightedGrainQuotientGeometry.retained",
+        "NativeWeightedGrainQuotientGeometry.retained_subset",
+        "NativeWeightedGrainQuotientGeometry.quotientLabel_on_mixed",
+        "NativeWeightedGrainQuotientGeometry.quotient_image_eq",
+        "NativeWeightedGrainQuotientGeometry.retained_mixed_fiber",
+        "NativeWeightedGrainQuotientGeometry.retained_mixed_vertices",
+        "NativeWeightedGrainQuotientGeometry.retained_vertices_le_X"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_source",
+      "source_sha256": "b8824106120d2cfd894d720f8e15c7e0c9c4a1e09b179988698b5f2b17eca0d4",
+      "olean_sha256": "995f08dca88d6379f5f798e26ca2cf2ae8aef373150953173eeae6cb8ae1934b",
+      "names": [
+        "NativeWeightedGrainQuotientSource.quotientCap",
+        "NativeWeightedGrainQuotientSource.quotientCap_pos",
+        "NativeWeightedGrainQuotientSource.source_quotient_cap",
+        "NativeWeightedGrainQuotientSource.source_retention",
+        "NativeWeightedGrainQuotientSource.threshold_transfer"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_prescribed_grain_history",
+      "source_sha256": "235f4ccd9a034bbf4b54c8ad18b9de50e687231af346c6b60eb5e6e8bc9d4cc9",
+      "olean_sha256": "4b2a1f1443a8cf2859cbf8231ccbc782a03d418ff368b494fe97d0225cc31ea2",
+      "names": [
+        "NativePrescribedGrainHistory.IsPrescribedNodeSystem",
+        "NativePrescribedGrainHistory.prescribed_system_forget",
+        "NativePrescribedGrainHistory.prescribed_system_word",
+        "NativePrescribedGrainHistory.construct_prescribed_grain_history"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_prescribed_retained_history",
+      "source_sha256": "3671db769dc8e846721ed297d793d47dbf755072b7c8fef15e355306f9ea7593",
+      "olean_sha256": "9b38bc3d6f528ab0e4923b1ef9eead20b317cc7dbbd5bfff4d85190f6bdb84cf",
+      "names": [
+        "NativePrescribedRetainedHistory.HasPrescribedRetainedHistory",
+        "NativePrescribedRetainedHistory.prescribed_retained_forget",
+        "NativePrescribedRetainedHistory.construct_prescribed_retained_history"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_prescribed_history_configuration",
+      "source_sha256": "b74ee5b99a3c9dd13a4b90c97ed7cf8ad112553ae46a8c1c951e7c7cbaa607ec",
+      "olean_sha256": "57eeb8757a2257664a75c69ecc15a31aa8e2425a900af2c1d817471f50742ef1",
+      "names": [
+        "NativePrescribedHistoryConfiguration.HasPrescribedHistoryStage",
+        "NativePrescribedHistoryConfiguration.prescribed_history_stage_of_compatible",
+        "NativePrescribedHistoryConfiguration.exists_prescribed_history_configuration",
+        "NativePrescribedHistoryConfiguration.prescribed_history_stage_forget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_prescribed_final_configuration",
+      "source_sha256": "6792588a551bf174396c8b5a5532af9b7c0b14f045a759511ba142d1964b929f",
+      "olean_sha256": "806498ef9ea49b1e43d11b8402070a5868db87fe0d2a49059cf713d3a818b83b",
+      "names": [
+        "NativePrescribedFinalConfiguration.HasPrescribedFinalRetainedHistory",
+        "NativePrescribedFinalConfiguration.HasPrescribedFinalStage",
+        "NativePrescribedFinalConfiguration.prescribed_final_retained_of_history",
+        "NativePrescribedFinalConfiguration.prescribed_final_retained_history",
+        "NativePrescribedFinalConfiguration.prescribed_final_stage_of_history",
+        "NativePrescribedFinalConfiguration.prescribed_final_stage_history",
+        "NativePrescribedFinalConfiguration.exists_prescribed_final_configuration",
+        "NativePrescribedFinalConfiguration.prescribed_final_retained_forget",
+        "NativePrescribedFinalConfiguration.prescribed_final_stage_forget"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:40:57.164917+00:00",
+  "exit_code": 0
+}

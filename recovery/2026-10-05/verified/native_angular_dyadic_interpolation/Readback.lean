@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_angular_dyadic_interpolation
+
+#print axioms NativeAngularDyadicInterpolation.angular_ancestor
+#print axioms NativeAngularDyadicInterpolation.physical_ancestor
+#print axioms NativeAngularDyadicInterpolation.descendants
+#print axioms NativeAngularDyadicInterpolation.descendants_card
+#print axioms NativeAngularDyadicInterpolation.mem_descendants
+#print axioms NativeAngularDyadicInterpolation.angular_fiber_card
+#print axioms NativeAngularDyadicInterpolation.angular_image_interpolation
+#print axioms NativeAngularDyadicInterpolation.bottom_angular_interpolation

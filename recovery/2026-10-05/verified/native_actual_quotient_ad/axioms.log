@@ -1,0 +1,38 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T184750092620", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T184750092620/AggregateReadback.lean"]
+READBACK_SHA256 b12aca1540b2ea195bd3b126ba714db63a9709a4eb5af67a0e31884452753f21
+Dedicated staging slot 3 acquired UTC: 2026-10-05T18:47:56.799271+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8711212 kB
+'NativeActualQuotientAD.of_reference_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualSharpXPower.source_reference_X_power_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularRankContradiction.angular_count_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularRankContradiction.exists_original_scale_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularRankContradiction.incompatible_rank_two_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularRankContradiction.rank_gain_survives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularTestScale.exists_actual_test_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularTestScale.exists_dyadic_angular_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularTestSourceWindow.exists_original_test_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularTestSourceWindow.original_angular_depth_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundedReferenceRelativeUpper.exists_bounded_reference_engine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeQuotientConstantBound.quotientConstant_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceRelativeMenu.caller_uniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceRelativeMenu.relation_count' depends on axioms: [propext]
+'NativeReferenceRelativeMenu.relations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceRelativeMenu.relations_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceRelativeMenu.relations_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScheduledAngularAncestor.exists_actual_angular_ancestor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeScheduledAngularAncestor.formal_uniformity_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetPower.baseConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetPower.baseConstant_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetPower.fiber_coefficient_rank_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetPower.rank_bound_to_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetPower.sourceConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetPower.sourceConstant_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetPower.squared_scale_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXHistoryPower.actual_time_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXHistoryPower.history_power_to_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

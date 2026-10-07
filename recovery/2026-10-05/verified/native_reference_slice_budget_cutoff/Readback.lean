@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_reference_slice_budget_cutoff
+
+#print axioms NativeReferenceSliceBudgetCutoff.exists_fixed_ad_parameters
+#print axioms NativeReferenceSliceBudgetCutoff.exists_source_constant_cutoff
+#print axioms NativeReferenceSliceBudgetCutoff.sourceCutoff
+#print axioms NativeReferenceSliceBudgetCutoff.sourceCutoff_pos
+#print axioms NativeReferenceSliceBudgetCutoff.sourceCutoff_le_one
+#print axioms NativeReferenceSliceBudgetCutoff.sourceCutoff_pays
+#print axioms NativeReferenceSliceBudgetCutoff.absorb_remaining_power

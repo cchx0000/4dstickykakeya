@@ -1,0 +1,23 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1eea51410323b0b4e76cab6453be521cb32faacfa285cb21768545233a93645a.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.lean"]
+SOURCE_SHA256 0c7fadfe893dc8310d31b12fc745a02fa9d2c61ab24d41ced21c673badf1aa6a
+LOCK_ACQUIRED_UTC 2026-10-06T23:05:54.851776+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.lean:86:36: error: Application type mismatch: The argument
+  add_le_add_right (norm_add_le ?m.847 ?m.848) ?m.849
+has type
+  ?m.849 + ‖?m.847 + ?m.848‖ ≤ ?m.849 + (‖?m.847‖ + ‖?m.848‖)
+but is expected to have type
+  ‖(g - h) (u₁ - u₂) + t • (b₁ - b₂ - h (a₁ - a₂))‖ +
+      ‖z₁ + h x₁ - (y₁ + g u₁) - t • b₁ - (z₂ + h x₂ - (y₂ + g u₂) - t • b₂)‖ ≤
+    ‖(g - h) (u₁ - u₂)‖ + ‖t • (b₁ - b₂ - h (a₁ - a₂))‖ +
+      ‖z₁ + h x₁ - (y₁ + g u₁) - t • b₁ - (z₂ + h x₂ - (y₂ + g u₂) - t • b₂)‖
+in the application
+  LE.le.trans
+    (norm_add_le ((g - h) (u₁ - u₂) + t • (b₁ - b₂ - h (a₁ - a₂)))
+      (z₁ + h x₁ - (y₁ + g u₁) - t • b₁ - (z₂ + h x₂ - (y₂ + g u₂) - t • b₂)))
+    (add_le_add_right (norm_add_le ?m.847 ?m.848) ?m.849)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.lean:93:75: error: unexpected token 'omit'; expected 'lemma'
+LEAN_FINISHED_UTC 2026-10-06T23:06:12.517167+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

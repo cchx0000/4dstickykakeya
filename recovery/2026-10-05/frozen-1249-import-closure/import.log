@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "/workspace/shared/sticky-recovery-20261005/frozen-1249-import-closure-attempt01/AllCurrentTheorems.lean"]
+'StickyKakeya4.sticky_kakeya_four_dimensional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ StickyKakeya4.wang_zakharov_published_volume_estimate]
+'NativeFixedZeroOriginalTheorem.sticky_kakeya_four_dimensional_of_fixed_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualDimensionRangeConfiguration.extremalExponent_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePopulationParentSelection.source_population_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSmallLossParentBudget.actual_middle_parent_direction_small_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/50ac26b07fa694d51922f1ce244c1833656cc0b17994a0e9eb4a13c79167a882.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_matrix_height_wholepoint.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matrix_height_wholepoint.lean"]
+SOURCE_SHA256 6e3673b884a68fa052b6acdcae5efea842eda450702989cbdd96c9d702c18d95
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matrix_height_wholepoint.lean:87:2: error: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matrix_height_wholepoint.lean:126:26: error(lean.unknownIdentifier): Unknown identifier `not_mem_empty`
+
+EXIT_CODE=1

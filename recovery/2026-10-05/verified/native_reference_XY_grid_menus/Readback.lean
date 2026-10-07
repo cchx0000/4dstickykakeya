@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_menus
+
+#print axioms NativeReferenceXYGridMenus.vectorBox
+#print axioms NativeReferenceXYGridMenus.vectorBox_card
+#print axioms NativeReferenceXYGridMenus.xyBox
+#print axioms NativeReferenceXYGridMenus.xyBox_card
+#print axioms NativeReferenceXYGridMenus.coarseIndex_one
+#print axioms NativeReferenceXYGridMenus.coarseXY_one
+#print axioms NativeReferenceXYGridMenus.pref_neighbor_of_old_dist
+#print axioms NativeReferenceXYGridMenus.inverse_menu
+#print axioms NativeReferenceXYGridMenus.forward_menu

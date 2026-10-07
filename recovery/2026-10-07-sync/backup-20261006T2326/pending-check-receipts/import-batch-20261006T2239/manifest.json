@@ -1,0 +1,53 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T22:40:00.972178+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_current_graph_rank_cap"
+  ],
+  "names": [
+    "NativeCurrentGraphRankCap.graphPlane",
+    "NativeCurrentGraphRankCap.originalGraphPlane",
+    "NativeCurrentGraphRankCap.originalGraphPlane_finrank",
+    "NativeCurrentGraphRankCap.graphWitness",
+    "NativeCurrentGraphRankCap.graphWitness_coordinates",
+    "NativeCurrentGraphRankCap.graphWitness_mem",
+    "NativeCurrentGraphRankCap.graphWitness_distance",
+    "NativeCurrentGraphRankCap.original_graph_infDist",
+    "NativeCurrentGraphRankCap.current_residual_of_readback",
+    "NativeCurrentGraphRankCap.pointNear_graph_eq",
+    "NativeCurrentGraphRankCap.point_minimal_graph_rank",
+    "NativeCurrentGraphRankCap.exists_current_graph_rank_retention",
+    "NativeCurrentGraphRankCap.pointSlab",
+    "NativeCurrentGraphRankCap.current_slab_of_rank_two_failure",
+    "NativeCurrentGraphRankCap.terminal_current_slab",
+    "NativeCurrentGraphRankCap.retained_slab_normalization",
+    "NativeCurrentGraphRankCap.paid_radius_interpolation",
+    "NativeCurrentGraphRankCap.selected_plane_rank_eq",
+    "NativeCurrentGraphRankCap.exists_current_graph_rank_slab_retention"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2239.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2239",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2239/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T22:41:08.547399+00:00",
+  "results": [
+    {
+      "attempt": "native_current_graph_rank_cap-attempt02",
+      "state": "passed",
+      "declarations": 19
+    }
+  ]
+}

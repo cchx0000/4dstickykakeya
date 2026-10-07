@@ -1,0 +1,17 @@
+{
+  "state": "passed",
+  "source_commit": "511a4c082f798fe6150f6c6d1b3e7b1dc02b00dd",
+  "project_module_count": 187,
+  "full_project_build": false,
+  "command": [
+    "bash",
+    "-c",
+    "source /workspace/scratch/5f2524fd4117/lean-tools/environment.sh\nexec ./scripts/build-bounded.sh \"$@\"",
+    "coarse-prerequisites-targets",
+    "Theorems.Thm_StickyKakeya4_native_full_coarse_extremal_consumer"
+  ],
+  "executor_start_utc": "2026-10-05T05:30:55.559469+00:00",
+  "exit_code": 0,
+  "changed_sources": [],
+  "executor_finished_utc": "2026-10-05T05:32:59.704465+00:00"
+}

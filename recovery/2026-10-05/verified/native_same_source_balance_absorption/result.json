@@ -1,0 +1,36 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_same_source_balance_absorption",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_same_source_balance_absorption.lean",
+  "source_sha256": "f28c515bb73b84a54f41a8a773e4ff5a10f6428a43620fbd9f5ed3b6830c9ce2",
+  "names": [
+    "NativeSameSourceBalanceAbsorption.exists_balance_cutoff",
+    "NativeSameSourceBalanceAbsorption.absorb_balance_cost",
+    "NativeSameSourceBalanceAbsorption.exists_actual_parent_near_lower"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:42:56.349159+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeSameSourceBalanceAbsorption.exists_balance_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameSourceBalanceAbsorption.absorb_balance_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameSourceBalanceAbsorption.exists_actual_parent_near_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "371f3e87f75c3924b7357052dc0b572b1c3236bc962f08c07bac09545c62a7a2",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:43:05.784458+00:00"
+}

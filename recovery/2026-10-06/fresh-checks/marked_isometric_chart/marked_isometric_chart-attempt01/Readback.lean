@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_marked_isometric_chart
+set_option autoImplicit false
+#print axioms MarkedIsometricChart.point
+#print axioms MarkedIsometricChart.line
+#print axioms MarkedIsometricChart.point_isometry
+#print axioms MarkedIsometricChart.point_surjective
+#print axioms MarkedIsometricChart.valid_line
+#print axioms MarkedIsometricChart.raw_front_readback
+#print axioms MarkedIsometricChart.unitFront_image
+#print axioms MarkedIsometricChart.tube_membership
+#print axioms MarkedIsometricChart.tube_image

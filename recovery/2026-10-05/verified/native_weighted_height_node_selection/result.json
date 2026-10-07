@@ -1,0 +1,68 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_weighted_height_node_selection",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_weighted_height_node_selection.lean",
+  "source_sha256": "740a4192e524801740045944db50cef6fbfe0146da30732fad7e4ddc1d9ba422",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_weighted_height_node_selection.olean",
+  "names": [
+    "NativeWeightedHeightNodeSelection.weighted_height_node_selection",
+    "NativeWeightedHeightNodeSelection.weighted_height_node_selection_nonempty",
+    "NativeWeightedHeightNodeSelection.cutByNodes",
+    "NativeWeightedHeightNodeSelection.mem_cutByNodes",
+    "NativeWeightedHeightNodeSelection.surviving_grain_fiber_eq",
+    "NativeWeightedHeightNodeSelection.surviving_grain_label_fiber_eq",
+    "NativeWeightedHeightNodeSelection.surviving_grain_weight_eq"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T15:30:47.423102+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "4832e538792e1b0ab9e0ac84b5c26b27fa6a61dca58aa1426107ee18393edc3f",
+  "source_execution_complete_utc": "2026-10-05T15:30:52.627810+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T154033020820",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeWeightedHeightNodeSelection.weighted_height_node_selection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedHeightNodeSelection.weighted_height_node_selection_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedHeightNodeSelection.cutByNodes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedHeightNodeSelection.mem_cutByNodes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedHeightNodeSelection.surviving_grain_fiber_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedHeightNodeSelection.surviving_grain_label_fiber_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedHeightNodeSelection.surviving_grain_weight_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T15:40:38.344814+00:00"
+}

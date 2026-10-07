@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_exact_height_fields
+set_option autoImplicit false
+#print axioms NativeExactHeightFields.physicalHeight
+#print axioms NativeExactHeightFields.frozen_eq_on_selected
+#print axioms NativeExactHeightFields.select_two_exact_fields

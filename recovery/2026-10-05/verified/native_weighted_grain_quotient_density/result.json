@@ -1,0 +1,44 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_density",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_weighted_grain_quotient_density.lean",
+  "source_sha256": "0be589ebc3201a5863191a7fa3bd83731bc993c154a822a8480bb646c3f5272d",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_weighted_grain_quotient_density.olean",
+  "names": [
+    "NativeWeightedGrainQuotientDensity.every_retained_fiber_density",
+    "NativeWeightedGrainQuotientDensity.every_H3_fiber_density",
+    "NativeWeightedGrainQuotientDensity.every_H3_fiber_density_cross"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:48:45.588077+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "70fdd3be4fb5376ac3896735a76bf5abb7af8558f5ce57eef9e2e4de89c8b677",
+  "source_execution_complete_utc": "2026-10-05T16:48:50.613615+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T165126334039",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeWeightedGrainQuotientDensity.every_retained_fiber_density": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientDensity.every_H3_fiber_density": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientDensity.every_H3_fiber_density_cross": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:51:31.581703+00:00"
+}

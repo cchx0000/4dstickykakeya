@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_saturated_mixed_grain_core
+
+#print axioms NativeSaturatedMixedGrainCore.SaturatedMaps
+#print axioms NativeSaturatedMixedGrainCore.HasPointSaturation
+#print axioms NativeSaturatedMixedGrainCore.HasMixedSaturation
+#print axioms NativeSaturatedMixedGrainCore.exists_simultaneous_saturated_core
+#print axioms NativeSaturatedMixedGrainCore.exists_automatic_saturated_core
+#print axioms NativeSaturatedMixedGrainCore.exists_saturated_mixed_dense_core
+#print axioms NativeSaturatedMixedGrainCore.source_saturated_mixed_grain_core

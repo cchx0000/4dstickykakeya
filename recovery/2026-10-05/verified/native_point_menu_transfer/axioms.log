@@ -1,0 +1,9 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_point_menu_transfer_readback.lean"]
+SOURCE_SHA256 53919b225f2ffba3f796b338b994bc5facd52cfcd77ddc176de4ab5123205252
+FIFO compiler ticket: 01791178732952613897-056b3d09877c48218ad8e0c2f608489b.request
+FIFO compiler acquired UTC: 2026-10-05T05:38:52.953107+00:00
+'NativePointMenuTransfer.subset_card_le_support_mul_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointMenuTransfer.point_degree_le_menu_mul_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointMenuTransfer.multiplicity_le_menu_mul_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

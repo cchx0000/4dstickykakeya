@@ -1,0 +1,6 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/5ef26460aea7046fc64e8d0831812ac429e8f4898f2687424e32b52872c7e056.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_window_depth_brackets-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_window_depth_brackets-attempt01/Readback.lean"]
+SOURCE_SHA256 176b325c83493825cfa12b915fc2c37377c68be0561a590fc5b29c2f75be9616
+'NativeWindowDepthBrackets.bracket_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowDepthBrackets.dyadic_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

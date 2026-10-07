@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_rank_exponent_hierarchy
+
+#print axioms NativeRankExponentHierarchy.rankLoss
+#print axioms NativeRankExponentHierarchy.cutoff
+#print axioms NativeRankExponentHierarchy.commonBudget
+#print axioms NativeRankExponentHierarchy.rankLoss_pos
+#print axioms NativeRankExponentHierarchy.cutoff_bounds
+#print axioms NativeRankExponentHierarchy.commonBudget_pos
+#print axioms NativeRankExponentHierarchy.cutoff_mul_rankLoss
+#print axioms NativeRankExponentHierarchy.rankLoss_le_initial
+#print axioms NativeRankExponentHierarchy.adjacent_identities
+#print axioms NativeRankExponentHierarchy.test_parameters
+#print axioms NativeRankExponentHierarchy.rank_one_power_margin

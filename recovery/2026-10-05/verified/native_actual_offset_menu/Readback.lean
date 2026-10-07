@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_actual_offset_menu
+
+#print axioms NativeActualOffsetMenu.angular_cell_local_difference
+#print axioms NativeActualOffsetMenu.actual_offset_count

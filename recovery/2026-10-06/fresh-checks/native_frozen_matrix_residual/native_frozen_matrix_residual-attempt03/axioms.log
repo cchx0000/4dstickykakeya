@@ -1,0 +1,8 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/9394b8aa9c1a3ceb438388814006031ccc8ff15684a7eff2f54a79b15cfb56c0.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_frozen_matrix_residual-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_frozen_matrix_residual-attempt03/Readback.lean"]
+SOURCE_SHA256 1bf5931acec3b0b735a4d12c7c6e1dc087f4e0ca11f3b522a8c7db81109b9986
+'NativeFrozenMatrixResidual.matrix_residual_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFrozenMatrixResidual.select_frozen_matrix_with_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

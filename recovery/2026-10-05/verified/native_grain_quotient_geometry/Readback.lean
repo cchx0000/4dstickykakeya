@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_grain_quotient_geometry
+
+#print axioms NativeGrainQuotientGeometry.residual
+#print axioms NativeGrainQuotientGeometry.residual_apply
+#print axioms NativeGrainQuotientGeometry.residual_norm
+#print axioms NativeGrainQuotientGeometry.residual_eq_zero_of_mem
+#print axioms NativeGrainQuotientGeometry.residual_norm_le_infDist
+#print axioms NativeGrainQuotientGeometry.coordinates
+#print axioms NativeGrainQuotientGeometry.coordinates_norm_le_infDist
+#print axioms NativeGrainQuotientGeometry.parent_coordinates_difference
+#print axioms NativeGrainQuotientGeometry.mixed_vertices_near

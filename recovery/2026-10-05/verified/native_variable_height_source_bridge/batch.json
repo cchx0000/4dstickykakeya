@@ -1,0 +1,214 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T20:12:26.043344+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T201225279042",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T201225279042/AggregateReadback.lean"
+  ],
+  "readback_sha256": "9e6ffdc682fa41acd47c508d4c533ce428c512afea3b87b2954450a30ec14f48",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_all_dyadic_reference_angular_upper",
+      "source_sha256": "8dccb5793de6623b7f33dac15ee32cb32056f930d3a0734ccdb79c2bdd5b64ce",
+      "olean_sha256": "c3b7426cc6a45e9d555f1689c1e65671b0adc121bddfab882d1aae17f3a3d665",
+      "names": [
+        "NativeAllDyadicReferenceAngularUpper.width_mono",
+        "NativeAllDyadicReferenceAngularUpper.exists_all_dyadic_angular_ball_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_angular_bottom_endpoint",
+      "source_sha256": "2addd4a3273d59aad7a9690a0d98f1b61d7a69359221a8df0e5f170ace570206",
+      "olean_sha256": "b902bd8caf493368f2caf4531e9ed42608bc62f35dc997ff3f548e4a62c82e56",
+      "names": [
+        "NativeAngularBottomEndpoint.extend_bottom"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_candidate_paid_XY_configuration",
+      "source_sha256": "3e4b43d046d40c8e0f5bb6441086ed790af561ee37c0ba7900c64379e895d8d4",
+      "olean_sha256": "067014784254b7c14771d4aebef17f2ad137460a9d8bb147a088d044ac24d2dc",
+      "names": [
+        "NativeCandidatePaidXYConfiguration.exists_candidate_paid_XY_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_conditional_grid_coverage",
+      "source_sha256": "11a8cc4928441053ca4176cffa9a720d5b68185dade2936a8c2d66a9fb922bb5",
+      "olean_sha256": "caee55af1410ba7616364e69dbd34d9a26b25092c5df4c4fffb24eb4a276f8f3",
+      "names": [
+        "NativeConditionalGridCoverage.gridDepth_schedule",
+        "NativeConditionalGridCoverage.exists_grid_predecessor",
+        "NativeConditionalGridCoverage.queryIndex",
+        "NativeConditionalGridCoverage.queryIndex_candidate",
+        "NativeConditionalGridCoverage.queryIndex_pair",
+        "NativeConditionalGridCoverage.exists_query_predecessors"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_conditional_grid_power_cost",
+      "source_sha256": "3cc771d6e29a266ce32fbea244bd671633ff761826e2120078bd086382833f78",
+      "olean_sha256": "1c3576d5131e3aa8a36750091d3e3129b3ab45599a78e2c1b0af76dd3dda3aa5",
+      "names": [
+        "NativeConditionalGridPowerCost.dyadic_width_ratio",
+        "NativeConditionalGridPowerCost.middle_width_dyadic",
+        "NativeConditionalGridPowerCost.gap_cost",
+        "NativeConditionalGridPowerCost.two_scale_cost"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_conditional_upper_parameters",
+      "source_sha256": "507e4f5a3332f6a687f9127866fbc5f70ddd0d03e6fafa51b8c67b51915da68f",
+      "olean_sha256": "348097503dab40e0a13400da14ee55b88a7b8f9b97acf5a6e52c849cd146eb9d",
+      "names": [
+        "NativeConditionalUpperParameters.exists_upper_parameters"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_extra_paid_XY_configuration",
+      "source_sha256": "2187a2e725b134dbaa6f26c9acfd5bbb4e03c3a852eb1aebac4e6078ffb73158",
+      "olean_sha256": "5932d270863f0afd33f44adce32133e13caeac2c99d6e20bb0cfd9930ac4fde2",
+      "names": [
+        "NativeExtraPaidXYConfiguration.exists_extra_paid_XY_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_paid_XY_parameters",
+      "source_sha256": "0fd5d775825486266b2d6a507b678f433340615a12c408c9270289112ec8efa1",
+      "olean_sha256": "52997a5d76b39c944b5075d1d2e84ce3a8febebe3339d0b0b2e94af36aeeb134",
+      "names": [
+        "NativePaidXYParameters.exists_parameters"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_paid_mesh_angular_upper",
+      "source_sha256": "e441915d7cd97938591dcbbb13b315b9775028e07f45c4cd8e4630740076e185",
+      "olean_sha256": "a54dd0bdbbe322e788ec6e2031a35d7fa6e33e0c298d3d76b9d50a0ac86a6507",
+      "names": [
+        "NativePaidMeshAngularUpper.meshAngularConstant",
+        "NativePaidMeshAngularUpper.exists_paid_mesh_angular_ball_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_paid_third_budget",
+      "source_sha256": "1c1446bfd3110dfa5a956c6fafe7b62e6122fc2a8cc7987cf91c075f96131c11",
+      "olean_sha256": "6c933a59a0529b225808931c3fb85ed3398915c86cf61f5395961ae0a02f8401",
+      "names": [
+        "NativePaidThirdBudget.HasBudget",
+        "NativePaidThirdBudget.exists_paid_third_budget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_paid_third_readback",
+      "source_sha256": "4b22d49ff2561de5bc35cd13d610055938c07ba15885aab8cf64f66a566d59ce",
+      "olean_sha256": "f3effc31f07b3fb54e442d6dd68e4f7d3bd04fa6e46d556a468bce6a93e9fd08",
+      "names": [
+        "NativePaidThirdReadback.constants_from_budget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_variable_height_numerator_upper",
+      "source_sha256": "83bcc82a92b38da6d33a74b5bd69c501ed1070a5443c57057446c39fdb675d0f",
+      "olean_sha256": "9192f51a3d97854e8c254e93f7a8cbe5927a91adc9600304c888508ca85a4679",
+      "names": [
+        "NativeVariableHeightNumeratorUpper.shortRowColumnCost",
+        "NativeVariableHeightNumeratorUpper.pairUpperConstant",
+        "NativeVariableHeightNumeratorUpper.pairUpperConstant_pos",
+        "NativeVariableHeightNumeratorUpper.short_pair_column_image_card",
+        "NativeVariableHeightNumeratorUpper.parent_column_pair_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_variable_height_reference_counts",
+      "source_sha256": "4deb271d845399142571695c43643e0bfaa84267a5debc45453bbb29dfb11279",
+      "olean_sha256": "0a7ce76e628f721464bbd0d266d8436c688dc1fbcc795241ca9c24d27b45626c",
+      "names": [
+        "NativeVariableHeightReferenceCounts.column_point_image",
+        "NativeVariableHeightReferenceCounts.column_multiplicity_card",
+        "NativeVariableHeightReferenceCounts.reference_numerator_height_bounds",
+        "NativeVariableHeightReferenceCounts.reference_column_point_power_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_variable_height_row_lower",
+      "source_sha256": "ac5e435cb0da1fa58afcf5d3f385c10aef60dda6b7cbd6b52d2ed4f882c74ed4",
+      "olean_sha256": "b35385b378e728808e1e50a6c05b934f0985f1712ee88a99f1de436afd01ffe1",
+      "names": [
+        "NativeVariableHeightRowLower.shortEdges_subset_parent",
+        "NativeVariableHeightRowLower.chargeConstant",
+        "NativeVariableHeightRowLower.parent_counts_of_actual_rows",
+        "NativeVariableHeightRowLower.queried_parent_counts_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_variable_height_source_bridge",
+      "source_sha256": "38381a75d7d16d614560c12bedbeb72b127531e56c444d852f9dba821a71532b",
+      "olean_sha256": "e189b512da2f360b23e4564b10fb3eb05affe556f54900fb04b183175e983149",
+      "names": [
+        "NativeVariableHeightSourceBridge.comparisonCost",
+        "NativeVariableHeightSourceBridge.comparisonCost_pos",
+        "NativeVariableHeightSourceBridge.queried_global_source_comparison"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_variable_height_source_counts",
+      "source_sha256": "4561e7618da7eb55d918b90084c76b230c06cde33611b41d88ff7a62c0cb10c1",
+      "olean_sha256": "1383b9b0be34a4bef0ef0d44080ef0ef75ec1a6df7c6f49ffb9f4743ae721098",
+      "names": [
+        "NativeVariableHeightSourceCounts.queried_column_point_power_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_window_XY_menus",
+      "source_sha256": "c8f9ef3488e42e16aa0fec1bfdaffea62580d1334a00beb04cf2c045dd221145",
+      "olean_sha256": "cc78eee502463bff991c16b27e5b974d4a4b1461b125eb06ba1808577c19126b",
+      "names": [
+        "NativeWindowXYMenus.window_pxy_x",
+        "NativeWindowXYMenus.window_pxy_y",
+        "NativeWindowXYMenus.reference_neighbor",
+        "NativeWindowXYMenus.inverse_menu",
+        "NativeWindowXYMenus.forward_menu"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_window_XY_source_caps",
+      "source_sha256": "2a8c3b5f271adca785482b130a62199a8daa4bb827a53437b69ca5663cad83e6",
+      "olean_sha256": "28676f8f531cadb4aff14c0cd16b082be1194861e999d7b44f0564471f45e85d",
+      "names": [
+        "NativeWindowXYSourceCaps.actual_window_capacities",
+        "NativeWindowXYSourceCaps.scheduled_window_capacities",
+        "NativeWindowXYSourceCaps.finest_window_capacities"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_window_X_fibers",
+      "source_sha256": "df3a7d7507ea8392298cd59f3319f402690a0bba48a45f0f6b825d2d5f59a80c",
+      "olean_sha256": "bd67c2aa9ea879164522b6d87eb8ab71ebef2a3bd655a1765dda3dbeab4ff41e",
+      "names": [
+        "NativeWindowXFibers.gridBox",
+        "NativeWindowXFibers.gridBox_card",
+        "NativeWindowXFibers.gridDiv_fiber_card",
+        "NativeWindowXFibers.gridDiv_card_le",
+        "NativeWindowXFibers.fineX",
+        "NativeWindowXFibers.fine_fiber_card",
+        "NativeWindowXFibers.fineX_image_subset",
+        "NativeWindowXFibers.window_fiber_card",
+        "NativeWindowXFibers.window_fiber_density"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T20:12:30.664265+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_generic_parent_graph
+
+#print axioms NativeGenericParentGraph.SaturatedCurveParentFinalCleanupData
+#print axioms NativeGenericParentGraph.HasSaturatedCurveParentRetainedHistory
+#print axioms NativeGenericParentGraph.HasSaturatedCurveParentStage
+#print axioms NativeGenericParentGraph.middleSelected
+#print axioms NativeGenericParentGraph.middle_selected_depth
+#print axioms NativeGenericParentGraph.half_depth_eq_depth
+#print axioms NativeGenericParentGraph.saturated_stage_with_parent_graph

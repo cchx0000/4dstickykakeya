@@ -1,0 +1,73 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-R", "/workspace/scratch/5f2524fd4117/4dstickykakeya", "-o", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/build/lib/lean/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.olean", "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean"]
+SOURCE_SHA256 20f9cb3ef162ba052485ce519dcdbc8b368e9f2a3a48473f6a59855e98cbc236
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:43:5: warning: Variable name `hsource` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsource
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:43:32: warning: Variable name `hK` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hK
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:43:45: warning: Variable name `hW` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hW
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:44:5: warning: Variable name `hnormalLoss` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnormalLoss
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:122:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:508:18: warning: Variable name `hθ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hθ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:508:31: warning: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:661:5: warning: Variable name `hc₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hc₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:661:20: warning: Variable name `hQ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hQ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:1726:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:1906:5: warning: Variable name `hpacking` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpacking
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+
+EXIT_CODE=0

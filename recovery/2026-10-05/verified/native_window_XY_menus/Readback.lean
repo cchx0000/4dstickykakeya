@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_window_XY_menus
+
+#print axioms NativeWindowXYMenus.window_pxy_x
+#print axioms NativeWindowXYMenus.window_pxy_y
+#print axioms NativeWindowXYMenus.reference_neighbor
+#print axioms NativeWindowXYMenus.inverse_menu
+#print axioms NativeWindowXYMenus.forward_menu

@@ -1,0 +1,676 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3754b2b6711f5ae70407ec542514274be55948c7b18b04cd52d4fc68f5bcb8c3.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean"]
+SOURCE_SHA256 21b38e6dd3d36b190d58075dad115c0ce4b7134575867a4b597658c0e110bbe7
+LOCK_ACQUIRED_UTC 2026-10-06T21:24:05.363762+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:86:46: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Matroid ?m.1) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Matroid ?m.1
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:86:49: error(lean.unknownIdentifier): Unknown identifier `u`
+
+Note: It is not possible to treat `u` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:90:63: error: unsolved goals
+mu : ℝ
+hmu : sorry <m sorry
+C F : ℤ → ℝ
+k : Index
+⊢ mu * ↑(k 2) * mu⁻¹ * 2 - mu * C (k 3) * ↑(k 0) * mu⁻¹ * 2 - mu * C (k 3) * mu⁻¹ - mu * F (k 3) * ↑(k 1) * mu⁻¹ * 2 -
+        mu * F (k 3) * mu⁻¹ +
+      mu * mu⁻¹ =
+    1 + ↑(k 2) * 2 - C (k 3) - C (k 3) * ↑(k 0) * 2 - F (k 3) - F (k 3) * ↑(k 1) * 2
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:100:26: error: Type mismatch: After simplification, term
+  congrFun hX 0
+ has type
+  @Eq ℤ (k (Fin.castSucc 0).castSucc) (l (Fin.castSucc 0).castSucc)
+but is expected to have type
+  @Eq ℤ (k 0) (l 0)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:101:26: error: Type mismatch: After simplification, term
+  congrFun hX 1
+ has type
+  @Eq ℤ (k (Fin.castSucc 1).castSucc) (l (Fin.castSucc 1).castSucc)
+but is expected to have type
+  @Eq ℤ (k 1) (l 1)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:132:2: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:158:44: error: Variable name `hU` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hU
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:202:42: error: Type mismatch: After simplification, term
+  hCapacity y hy
+ has type
+  ↑(#({k ∈ image Prod.snd ({e ∈ E | key e.2 = v}) | label k = y})) ≤ capacity
+but is expected to have type
+  ↑(#(image id ({v ∈ P | label v = y}))) ≤ capacity
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:203:4: error: Type mismatch: After simplification, term
+  hh
+ has type
+  ↑(#(image id P)) ≤ capacity * ↑(#(image label P))
+but is expected to have type
+  ↑(#P) ≤ capacity * ↑(#(image label P))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:307:41: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Matroid ?m.1) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Matroid ?m.1
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:307:44: error(lean.unknownIdentifier): Unknown identifier `u`
+
+Note: It is not possible to treat `u` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:308:27: error: Type mismatch
+  x - y
+has type
+  ℝ
+but is expected to have type
+  Matroid ?m.21
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:308:26: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  Lattice (Matroid ?m.21)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:308:33: error(lean.unknownIdentifier): Unknown identifier `u`
+
+Note: It is not possible to treat `u` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:348:18: error: unexpected token '|*'; expected '|' or '|ₘ'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:316:48: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Matroid ?m.1) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Matroid ?m.1
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:316:51: error(lean.unknownIdentifier): Unknown identifier `u`
+
+Note: It is not possible to treat `u` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:325:13: error: Type mismatch
+  x.ofLp 0 - y.ofLp 0
+has type
+  (fun x => ℝ) 0
+but is expected to have type
+  Matroid ?m.77
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:325:12: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  Lattice (Matroid ?m.77)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:325:23: error(lean.unknownIdentifier): Unknown identifier `u`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:321:53: error: unsolved goals
+mu : ℝ
+hmu : sorry <m sorry
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+C F : ℤ → ℝ
+k l : Index
+hC : |C (k 3)| ≤ 1
+hF : |F (k 3)| ≤ 1
+hY : packedHigherKey mu O C F k = packedHigherKey mu O C F l
+hX : packedXKey mu O k = packedXKey mu O l
+x : E4 := O (cellCenter mu k)
+y : E4 := O (cellCenter mu l)
+ht : k 3 = l 3
+⊢ dist (cellCenter mu k) (cellCenter mu l) ≤ 6 * mu
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:378:70: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Matroid ?m.1) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Matroid ?m.1
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:378:73: error(lean.unknownIdentifier): Unknown identifier `u`
+
+Note: It is not possible to treat `u` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:391:17: error(lean.unknownIdentifier): Unknown identifier `same_joint_key_distance`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:398:73: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:404:20: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Matroid ?m.1) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Matroid ?m.1
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:404:23: error(lean.unknownIdentifier): Unknown identifier `u`
+
+Note: It is not possible to treat `u` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:427:5: error(lean.unknownIdentifier): Unknown identifier `joint_native_cell_capacity`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:432:20: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Matroid ?m.1) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Matroid ?m.1
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:432:23: error(lean.unknownIdentifier): Unknown identifier `u`
+
+Note: It is not possible to treat `u` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:461:40: error: Application type mismatch: The argument
+  (mem_filter.mp he).right
+has type
+  packedCoarseKey mu O C F R e.2 = v
+but is expected to have type
+  packedHigherKey mu O C F e.2 = (v.1, y)
+in the application
+  congrArg Prod.fst (mem_filter.mp he).right
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:474:13: error(lean.unknownIdentifier): Unknown identifier `joint_native_cell_capacity`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:477:4: error: `simp` made no progress
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:494:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (physicalMap ?D ?a ?N ?p ?x).ofLp 3
+in the target expression
+  (physicalMap D a N p x).ofLp (Fin.last 3) - (physicalMap D a N p y).ofLp (Fin.last 3) =
+    horizontalScale N * (x.ofLp (Fin.last 3) - y.ofLp (Fin.last 3))
+
+case refine_1
+n : ℕ
+D : FiniteScaleSource n
+a : ℝ
+N : ℕ
+p : NativeOriginalParentSelection.Parent
+x y : E4
+ht : x.ofLp 3 = y.ofLp 3
+v : Fin 4
+⊢ (physicalMap D a N p x).ofLp (Fin.last 3) - (physicalMap D a N p y).ofLp (Fin.last 3) =
+    horizontalScale N * (x.ofLp (Fin.last 3) - y.ofLp (Fin.last 3))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:536:24: error: unexpected token '|*'; expected '|' or '|ₘ'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:588:36: error: unexpected token '≤'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:582:18: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  Lattice (Graph ?m.378 ?m.379)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:583:81: error(lean.unknownIdentifier): Unknown identifier `igma`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:582:19: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  HSub ℝ ℝ (Graph ?m.378 ?m.379)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:560:92: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+a : ℝ
+N : ℕ
+p : NativeOriginalParentSelection.Parent
+O : E4 ≃ₗᵢ[ℝ] E4
+C F : ℝ
+hC : |C| ≤ 1
+hF : |F| ≤ 1
+rho tau d sigma alpha y : ℝ
+hSigma : 0 < sigma
+hd : d = 8 * rho
+hScale : sigma = ↑N * d / 64
+hTau : horizontalScale N * tau = 512
+x anchor : E4
+ht : x.ofLp 3 = anchor.ofLp 3
+k : Index
+hOld : |packedQuotient O C F x - (tau * y + alpha)| ≤ 2 * rho
+hHalo : dist (cellCenter (sigma / 2) k) (physicalMap D a N p x) ≤ 4 * sigma
+z : E4 := cellCenter (sigma / 2) k
+q : E4 := physicalMap D a N p x
+hCost : 1 + |C| + |F| ≤ 3
+hMove : |packedQuotient O C F z - packedQuotient O C F q| ≤ 12 * sigma
+hOldScaled : horizontalScale N * (2 * rho) = sigma / 32
+hRead :
+  packedQuotient O C F (physicalMap D a N p x) =
+    horizontalScale N * packedQuotient O C F x + packedParentShift D a N p O C F anchor
+he :
+  packedQuotient O C F q - (512 * y + (horizontalScale N * alpha + packedParentShift D a N p O C F anchor)) =
+    horizontalScale N * (packedQuotient O C F x - (tau * y + alpha))
+⊢ |packedQuotient O C F (cellCenter (sigma / 2) k) -
+        (512 * y + (horizontalScale N * alpha + packedParentShift D a N p O C F anchor))| ≤
+    13 * sigma
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:635:2: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:691:10: error: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:815:4: error: linarith failed to find a contradiction
+X : Type u_1
+P : Finset X
+q : X → ℝ
+Y : Finset ℝ
+sigma r beta : ℝ
+hSigma : 0 < sigma
+hr : sigma / 2 ≤ r
+H : ∀ p ∈ P, ∃ y ∈ Y, |q p - (512 * y + beta)| ≤ 13 * sigma
+hr0 : 0 < r
+p : X
+hp : p ∈ P
+hk : (fun x => ⌊q p / r⌋) ∈ scalarGrid P q r
+y : ℝ
+hy : y ∈ Y
+hclose : |q p - (512 * y + beta)| ≤ 13 * sigma
+j : Fin 1
+hm : |r * (↑⌊q p / r⌋ + 1 / 2) - q p| ≤ r / 2
+ht : |r * (↑⌊q p / r⌋ + 1 / 2) - (512 * y + beta)| ≤ |r * (↑⌊q p / r⌋ + 1 / 2) - q p| + |q p - (512 * y + beta)|
+a✝ : 27 * r < |r * (↑⌊q p / r⌋ + 1 / 2) - (512 * y + beta)|
+⊢ False
+failed
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:923:2: error: unsolved goals
+X : Type u_1
+P : Finset X
+q : X → ℝ
+Y : Finset ℝ
+sigma e r beta K alpha : ℝ
+hSigma : 0 < sigma
+heq : e = sigma / 32768
+hr : sigma / 2 ≤ r
+hr1 : r ≤ 1
+hK : 1 ≤ K
+hAlpha : 0 ≤ alpha
+H : ADBounds Y e K alpha
+hY : ∀ y ∈ Y, |y| ≤ 1
+hNear : ∀ p ∈ P, ∃ y ∈ Y, |q p - (512 * y + beta)| ≤ 13 * sigma
+he : 0 < e
+hr0 : 0 < r
+her : e ≤ r / 512
+hr512 : r / 512 ≤ 1
+he1 : e ≤ 1
+hK0 : 0 < K
+h2K : 1 ≤ 2 * K
+A : Finset (Fin 1 → ℝ) := image (⇑(shiftedScalar (beta / 512))) Y
+B : Finset (Fin 1 → ℤ) := scalarGrid P q r
+hYad : ADBounds Y e (2 * K) alpha
+hAad : ADBounds A e (2 * K) alpha
+hGlobal : ↑(#A) ≤ 2 * K * e ^ (-alpha)
+hScaledGlobal : e ^ alpha * ↑(#A) ≤ 2 * K
+hN : ∀ k ∈ scalarGrid P q r, ∃ a ∈ image (⇑(shiftedScalar (beta / 512))) Y, dist (center (r / 512) k) a ≤ 27 * (r / 512)
+witness : (Fin 1 → ℤ) → Fin 1 → ℝ := fun k => if hk : k ∈ B then Classical.choose ⋯ else 0
+hMem : ∀ k ∈ B, witness k ∈ A
+hClose : ∀ k ∈ B, dist (center (r / 512) k) (witness k) ≤ ↑27 * (r / 512)
+hh : ↑(#B) ≤ ↑((4 * 27 + 5) ^ 1) * (2 * K) ^ 2 * (r / 512) ^ (-alpha)
+⊢ True ∨ (r * (1 / 512)) ^ (-alpha) = 0
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:926:2: error: unsolved goals
+X : Type u_1
+P : Finset X
+q : X → ℝ
+Y : Finset ℝ
+sigma e r beta K alpha : ℝ
+hSigma : 0 < sigma
+heq : e = sigma / 32768
+hr : sigma / 2 ≤ r
+hr1 : r ≤ 1
+hK : 1 ≤ K
+hAlpha : 0 ≤ alpha
+H : ADBounds Y e K alpha
+hY : ∀ y ∈ Y, |y| ≤ 1
+hNear : ∀ p ∈ P, ∃ y ∈ Y, |q p - (512 * y + beta)| ≤ 13 * sigma
+he : 0 < e
+hr0 : 0 < r
+her : e ≤ r / 512
+hr512 : r / 512 ≤ 1
+he1 : e ≤ 1
+hK0 : 0 < K
+h2K : 1 ≤ 2 * K
+A : Finset (Fin 1 → ℝ) := image (⇑(shiftedScalar (beta / 512))) Y
+B : Finset (Fin 1 → ℤ) := scalarGrid P q r
+hYad : ADBounds Y e (2 * K) alpha
+hAad : ADBounds A e (2 * K) alpha
+hGlobal : ↑(#A) ≤ 2 * K * e ^ (-alpha)
+hScaledGlobal : e ^ alpha * ↑(#A) ≤ 2 * K
+hN : ∀ k ∈ scalarGrid P q r, ∃ a ∈ image (⇑(shiftedScalar (beta / 512))) Y, dist (center (r / 512) k) a ≤ 27 * (r / 512)
+witness : (Fin 1 → ℤ) → Fin 1 → ℝ := fun k => if hk : k ∈ B then Classical.choose ⋯ else 0
+hMem : ∀ k ∈ B, witness k ∈ A
+hClose : ∀ k ∈ B, dist (center (r / 512) k) (witness k) ≤ ↑27 * (r / 512)
+x : Fin 1 → ℝ
+R : ℝ
+hR : r / 512 ≤ R
+hR1 : R ≤ 1
+hh :
+  ↑(#({k ∈ B | dist (center (r / 512) k) x ≤ R})) ≤
+    ↑((4 * 27 + 5) ^ 1) * (2 * K) ^ 2 * (2 * (↑27 + 2)) ^ alpha * (R / (r / 512)) ^ alpha
+⊢ (True ∨ 58 ^ alpha = 0) ∨ (R * r⁻¹ * 512) ^ alpha = 0
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:934:46: error: unexpected token ')'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:987:46: error: unexpected token ')'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1269:34: error: Type mismatch
+  rfl
+has type
+  ?m.44 = ?m.44
+but is expected to have type
+  factory g O C F n D eta h a level R original schedule (Fin.castAdd (g + 1 + (g + 1)) x✝¹) x✝ x✝
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1270:33: error: Type mismatch
+  rfl
+has type
+  ?m.54 = ?m.54
+but is expected to have type
+  factory g O C F n D eta h a level R original schedule (Fin.natAdd 1 (Fin.castAdd (g + 1) x✝¹)) x✝ x✝
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1270:50: error: Type mismatch
+  rfl
+has type
+  ?m.58 = ?m.58
+but is expected to have type
+  factory g O C F n D eta h a level R original schedule (Fin.natAdd 1 (Fin.natAdd (g + 1) x✝¹)) x✝ x✝
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1274:42: error(lean.invalidField): Invalid field `symm`: The environment does not contain `Decidable.rec.symm`, so it is not possible to project the field `symm` from an expression
+  hh
+of type
+  Decidable.rec
+    (fun h =>
+      (fun hi =>
+          ⋯ ▸
+            (fun i =>
+                Fin.addCases (motive := fun x => Fin n × Index → Fin n × Index → Prop)
+                  (fun j x y =>
+                    packedCoarseKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) x.2 =
+                      packedCoarseKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) y.2)
+                  (fun j x y =>
+                    localXKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) x.2 =
+                      localXKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) y.2)
+                  i)
+              (Fin.subNat 1 (Fin.cast ⋯ (Fin.castAdd (g + 1 + (g + 1)) x✝²)) ⋯))
+        h)
+    (fun h =>
+      (fun hi =>
+          ⋯ ▸
+            (fun x x_1 y => packedHigherKey (D.thickness / 2) O C F x_1.2 = packedHigherKey (D.thickness / 2) O C F y.2)
+              ((Fin.castAdd (g + 1 + (g + 1)) x✝²).castLT hi))
+        h)
+    ((↑(Fin.castAdd (g + 1 + (g + 1)) x✝²)).decLt 1) x✝¹ x✝
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1275:41: error(lean.invalidField): Invalid field `symm`: The environment does not contain `Decidable.rec.symm`, so it is not possible to project the field `symm` from an expression
+  hh
+of type
+  Decidable.rec
+    (fun h =>
+      (fun hi =>
+          ⋯ ▸
+            (fun i =>
+                Fin.addCases (motive := fun x => Fin n × Index → Fin n × Index → Prop)
+                  (fun j x y =>
+                    packedCoarseKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) x.2 =
+                      packedCoarseKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) y.2)
+                  (fun j x y =>
+                    localXKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) x.2 =
+                      localXKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) y.2)
+                  i)
+              (Fin.subNat 1 (Fin.cast ⋯ (Fin.natAdd 1 (Fin.castAdd (g + 1) x✝²))) ⋯))
+        h)
+    (fun h =>
+      (fun hi =>
+          ⋯ ▸
+            (fun x x_1 y => packedHigherKey (D.thickness / 2) O C F x_1.2 = packedHigherKey (D.thickness / 2) O C F y.2)
+              ((Fin.natAdd 1 (Fin.castAdd (g + 1) x✝²)).castLT hi))
+        h)
+    ((↑(Fin.natAdd 1 (Fin.castAdd (g + 1) x✝²))).decLt 1) x✝¹ x✝
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1275:67: error(lean.invalidField): Invalid field `symm`: The environment does not contain `Decidable.rec.symm`, so it is not possible to project the field `symm` from an expression
+  hh
+of type
+  Decidable.rec
+    (fun h =>
+      (fun hi =>
+          ⋯ ▸
+            (fun i =>
+                Fin.addCases (motive := fun x => Fin n × Index → Fin n × Index → Prop)
+                  (fun j x y =>
+                    packedCoarseKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) x.2 =
+                      packedCoarseKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) y.2)
+                  (fun j x y =>
+                    localXKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) x.2 =
+                      localXKey (D.thickness / 2) O C F (coarseRatio level (schedule j)) y.2)
+                  i)
+              (Fin.subNat 1 (Fin.cast ⋯ (Fin.natAdd 1 (Fin.natAdd (g + 1) x✝²))) ⋯))
+        h)
+    (fun h =>
+      (fun hi =>
+          ⋯ ▸
+            (fun x x_1 y => packedHigherKey (D.thickness / 2) O C F x_1.2 = packedHigherKey (D.thickness / 2) O C F y.2)
+              ((Fin.natAdd 1 (Fin.natAdd (g + 1) x✝²)).castLT hi))
+        h)
+    ((↑(Fin.natAdd 1 (Fin.natAdd (g + 1) x✝²))).decLt 1) x✝¹ x✝
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1292:57: error: Application type mismatch: The argument
+  hx
+has type
+  x ∈ ref.E1
+of sort `Prop` but is expected to have type
+  Fin n × Index
+of sort `Type` in the application
+  H (Fin.castAdd (g + 1 + (g + 1)) 0) x hx
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1296:58: error: Application type mismatch: The argument
+  hx
+has type
+  x ∈ ref.E1
+of sort `Prop` but is expected to have type
+  Fin n × Index
+of sort `Type` in the application
+  H (Fin.natAdd 1 (Fin.castAdd (g + 1) j)) x hx
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1299:57: error: Application type mismatch: The argument
+  hx
+has type
+  x ∈ ref.E1
+of sort `Prop` but is expected to have type
+  Fin n × Index
+of sort `Type` in the application
+  H (Fin.natAdd 1 (Fin.natAdd (g + 1) j)) x hx
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1310:15: error: unexpected token 'in'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1382:73: error: unsolved goals
+case «1»
+x : E4
+⊢ x.ofLp ((Equiv.swap 1 2) 3) = x.ofLp 3
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1385:74: error: unsolved goals
+case «1»
+x : E4
+⊢ x.ofLp ((Equiv.swap 1 2) 0) = x.ofLp 0
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1392:88: error: unsolved goals
+case «1».«0»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+⊢ x.ofLp ((Equiv.swap 1 2) 0) = x.ofLp 0 ∨ F 1 0 = 0
+
+case «1».«1»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+⊢ x.ofLp ((Equiv.swap 1 2) 0) = x.ofLp 0 ∨ F 0 0 = 0
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1401:84: error: unsolved goals
+case «0».«0»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+anchor : Fin 2 → ℝ
+tau : ℝ
+⊢ (x.ofLp 1 - F 0 0 * x.ofLp 0 - anchor 0) / tau =
+    RealScaleTubeProfileTransfer.normalized id anchor tau (lowerQuotient F x) 0
+
+case «0».«1»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+anchor : Fin 2 → ℝ
+tau : ℝ
+⊢ (x.ofLp 2 - F 1 0 * x.ofLp 0 - anchor 1) / tau =
+    RealScaleTubeProfileTransfer.normalized id anchor tau (lowerQuotient F x) 1
+
+case «1».«0»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+anchor : Fin 2 → ℝ
+tau : ℝ
+⊢ (x.ofLp 2 - F 1 0 * x.ofLp ((Equiv.swap 1 2) 0) - anchor 1) / tau =
+    RealScaleTubeProfileTransfer.normalized id (anchor ∘ ⇑(Equiv.swap 0 1)) tau (lowerQuotient F x ∘ ⇑(Equiv.swap 0 1))
+      0
+
+case «1».«1»
+F : Matrix (Fin 2) (Fin 1) ℝ
+x : E4
+anchor : Fin 2 → ℝ
+tau : ℝ
+⊢ (x.ofLp 1 - F 0 0 * x.ofLp ((Equiv.swap 1 2) 0) - anchor 0) / tau =
+    RealScaleTubeProfileTransfer.normalized id (anchor ∘ ⇑(Equiv.swap 0 1)) tau (lowerQuotient F x ∘ ⇑(Equiv.swap 0 1))
+      1
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1406:56: error: This simp argument is unused:
+  lowerQuotient
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [normalizedLowerQuotient, normalChart, LinearIsometryEquiv.piLpCongrLeft_apply, Equiv.piCongrLeft',
+    chartRows, chartPoint, chartPerm, NormalizedQuantizedPatches.affine]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1419:83: error: unexpected token ')'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1502:21: error: unexpected token ')'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1633:18: error: Application type mismatch: The argument
+  sigma
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.58 ?m.59
+in the application
+  Graph.IsSpanningSubgraph sigma
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1633:25: error(lean.unknownIdentifier): Unknown identifier `igma0`
+
+Note: It is not possible to treat `igma0` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1646:14: error: Type mismatch
+  sigma ^ (eta0 / 2 - 2 * etaUnion / chi)
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.362 ?m.363
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1646:45: error(lean.unknownIdentifier): Unknown identifier `igma`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1646:45: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  HPow (Graph ?m.362 ?m.363) ℝ ?m.413
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1635:30: error: unsolved goals
+eta0 Cnum Cden : ℝ
+hEta : 0 < eta0
+hNum : 0 < Cnum
+hDen : 0 < Cden
+sigma0 : ℝ
+hs0 : 0 < sigma0
+hs01 : sigma0 ≤ 1
+Hcut : ∀ (delta : ℝ), 0 < delta → delta ≤ sigma0 → Cnum * Cden * delta ^ (eta0 / 4) ≤ 1
+E chi etaUnion sigma L U : ℝ
+_hE : 0 ≤ E
+hEtop : E ≤ eta0 / 4
+hChi : 0 < chi
+_hUnion : 0 ≤ etaUnion
+hUnionTop : etaUnion ≤ chi * eta0 / 32
+hSigma : 0 < sigma
+hSmall : sorry ≤s sorry
+hL : sigma ^ (5 * E / 4096) / Cden ≤ L
+hU : U ≤ Cnum * sigma ^ (-(2 * etaUnion / chi))
+hs1 : sigma ≤ 1
+hUnionLoss : 2 * etaUnion / chi ≤ eta0 / 16
+hMargin : 5 * E / 4096 + eta0 / 4 ≤ eta0 / 2 - 2 * etaUnion / chi
+⊢ U * sigma ^ (eta0 / 2) ≤ L
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1687:25: error: unexpected token 'in'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1682:8: error: Application type mismatch: The argument
+  sigma
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.34 ?m.35
+in the application
+  Graph.IsSpanningSubgraph sigma
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1682:15: error(lean.unknownIdentifier): Unknown identifier `igma0`
+
+Note: It is not possible to treat `igma0` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1687:12: error: Type mismatch
+  delta ^ power
+has type
+  ℝ
+but is expected to have type
+  Matroid ?m.101
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1682:41: error: unsolved goals
+case hh
+power sigma0 deltaRef : ℝ
+hPower : 0 < power
+hSigma : 0 < sigma0
+hRef : 0 < deltaRef
+delta0 : ℝ
+hd0 : 0 < delta0
+hd01 : delta0 ≤ 1
+H : ∀ (delta : ℝ), 0 < delta → delta ≤ delta0 → 1 * delta ^ power ≤ min sigma0 deltaRef
+delta sigma : ℝ
+hd : 0 < delta
+hsmall : delta ≤ delta0
+hwindow : sigma ≤ delta ^ power
+⊢ sorry ≤m sorry
+
+power sigma0 deltaRef : ℝ
+hPower : 0 < power
+hSigma : 0 < sigma0
+hRef : 0 < deltaRef
+delta0 : ℝ
+hd0 : 0 < delta0
+hd01 : delta0 ≤ 1
+H : ∀ (delta : ℝ), 0 < delta → delta ≤ delta0 → 1 * delta ^ power ≤ min sigma0 deltaRef
+delta sigma : ℝ
+hd : 0 < delta
+hsmall : delta ≤ delta0
+hwindow : sigma ≤ delta ^ power
+hh : sorry ≤m sorry
+⊢ sorry ≤s sorry ∧ sigma ≤ deltaRef
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1729:32: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Graph ?m.9 ?m.10) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Graph ?m.9 ?m.10
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1729:35: error(lean.unknownIdentifier): Unknown identifier `hadeLower`
+
+Note: It is not possible to treat `hadeLower` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1732:15: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Matroid ?m.76) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Matroid ?m.76
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1732:18: error(lean.unknownIdentifier): Unknown identifier `esh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1731:84: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta tau seed e zeta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+htau : 0 < tau
+L g : ℕ
+ref : Reference h tau htau seed e zeta L g
+shadeLower : ℝ
+hShade0 : sorry ≤s sorry
+hShade : ENNReal.ofReal shadeLower ≤ wzTotalShadingVolume D
+⊢ 16 * shadeLower ≤ ↑(factor ref.dimension (g + 1) L) * ↑(#ref.E1) * D.thickness ^ 4
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1751:47: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Graph ?m.13 ?m.14) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Graph ?m.13 ?m.14
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1751:50: error(lean.unknownIdentifier): Unknown identifier `hadeLower`
+
+Note: It is not possible to treat `hadeLower` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1755:16: error(lean.unknownIdentifier): Unknown identifier `actual_shading_to_reference_mass`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1753:72: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta tau seed e zeta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+htau : 0 < tau
+L g : ℕ
+ref : Reference h tau htau seed e zeta L g
+heta : 0 ≤ eta
+shadeLower : ℝ
+hShade0 : sorry ≤s sorry
+hShade : ENNReal.ofReal shadeLower ≤ wzTotalShadingVolume D
+hd : 0 < D.thickness
+⊢ 16 * shadeLower * D.thickness ^ (seed / 8) ≤ ↑(#ref.E1) * D.thickness ^ 4
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1851:21: error: unexpected token ')'; expected term
+LEAN_FINISHED_UTC 2026-10-06T21:25:00.060539+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

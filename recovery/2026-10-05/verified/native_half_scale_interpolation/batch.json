@@ -1,0 +1,201 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T18:32:55.665288+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T183254928927",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T183254928927/AggregateReadback.lean"
+  ],
+  "readback_sha256": "3e4f3386dcc9960d79457134acc8e3a233a58a74303ae5ce017fde14ff31d9fd",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_offset_cell_caps",
+      "source_sha256": "5a2211ae9a64622c54639c2780784a08ffd07e621c75586bc864c80874b769ef",
+      "olean_sha256": "07f118eabd0865e5b9102f9584e99693f25a6c1abeb7e0946196ec57925b613d",
+      "names": [
+        "NativeActualOffsetCellCaps.point_fiber_in_cell",
+        "NativeActualOffsetCellCaps.actual_cell_offset_cap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_sharp_X_lower",
+      "source_sha256": "7f204a36242a95ee0d09d3d30d70686e7a00117097fa120b97f95d0705864cc4",
+      "olean_sha256": "28e09b90d7a519716096812b7c5f9ee621941dc4b91887600ccf674d97e01859",
+      "names": [
+        "NativeActualSharpXLower.source_reference_X_cross"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_fixed_coherence_cost",
+      "source_sha256": "a83e60e7e71cad2fa53aeda01901d58effac66ceb36ac029b8382d6b98e40989",
+      "olean_sha256": "1573c5ca9c23e1915da73e0133249ca346dce5553ead96fbdcf74d26d53ac85f",
+      "names": [
+        "NativeFixedCoherenceCost.actual_cap_one_le",
+        "NativeFixedCoherenceCost.ceiling_product_bound",
+        "NativeFixedCoherenceCost.fixed_round_power_cost"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_fixed_offset_coherence",
+      "source_sha256": "f14522ae7d6d8bacdb08da80a9b7003c633423a359002e466710b834a91e604e",
+      "olean_sha256": "1bff8c8cb30d1e9817021fb423c3cf7a4b10188dc017fe9c0568a2efb062810a",
+      "names": [
+        "NativeFixedOffsetCoherence.offsetMesh",
+        "NativeFixedOffsetCoherence.offsetMesh_pos",
+        "NativeFixedOffsetCoherence.same_offset_norm",
+        "NativeFixedOffsetCoherence.select_fixed_offset_menu"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_half_scale_interpolation",
+      "source_sha256": "16d41498e3d0e5bf5d7e571c75df831aa1b43dd338595eb96f0ce37cf34d5bb5",
+      "olean_sha256": "26d64c7657b0e68804507b2e23448f1fd78e8b8f421addadd20172b799da57d6",
+      "names": [
+        "NativeHalfScaleInterpolation.all_radius_counts",
+        "NativeHalfScaleInterpolation.constant",
+        "NativeHalfScaleInterpolation.constant_one_le",
+        "NativeHalfScaleInterpolation.ADBounds_of_counts"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_quotient_fiber_readback",
+      "source_sha256": "4c5674b8d3ee7c4a49dff30c7b90df1e98ba30b59b4c55ddc1ac87b70aed56e5",
+      "olean_sha256": "eb73c784a18b6a587e85c1c1bdbf171e32aec5e483c573fa77764b63fe91c043",
+      "names": [
+        "NativeQuotientFiberReadback.product_fiber_image",
+        "NativeQuotientFiberReadback.product_fiber_card",
+        "NativeQuotientFiberReadback.actual_referenceX_card"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_quotient_grid_centers",
+      "source_sha256": "c9cc950bfb1ca23979c12230ebe52e2a72c05032db533662662faa2648fbf34f",
+      "olean_sha256": "0e6f2872cf5fd23ce58ae13aeeef6cfa5e17b3445c97bca3e4adb9e6c1623bef",
+      "names": [
+        "NativeQuotientGridCenters.center",
+        "NativeQuotientGridCenters.center_injective",
+        "NativeQuotientGridCenters.center_dist_iff",
+        "NativeQuotientGridCenters.ball_card",
+        "NativeQuotientGridCenters.quotient_ball_count",
+        "NativeQuotientGridCenters.quotient_card"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_quotient_lattice_counts",
+      "source_sha256": "2393a37476fe794614582f8082558c478e5430a3abe2dae879b97119573e3418",
+      "olean_sha256": "62d951faa76d6610a4bc3bb4850b784f3d9ec29ab67b6fd150e6d53421f204ae",
+      "names": [
+        "NativeQuotientLatticeCounts.global_card_le",
+        "NativeQuotientLatticeCounts.global_quotient_card_le",
+        "NativeQuotientLatticeCounts.quotient_counts"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_quotient_lattice_transport",
+      "source_sha256": "57de87799500b608cde58f6fa2ae98fbca6dea6e961ead6ab1636c502da9c202",
+      "olean_sha256": "55bb8a60d1ae5d7432ef6e46aef8b802d5f5f9a70339d4c3486f7e734bd35e30",
+      "names": [
+        "NativeQuotientLatticeTransport.productSlice",
+        "NativeQuotientLatticeTransport.atHeight",
+        "NativeQuotientLatticeTransport.atHeight_injective",
+        "NativeQuotientLatticeTransport.height_slice_eq",
+        "NativeQuotientLatticeTransport.spatial_box_iff",
+        "NativeQuotientLatticeTransport.spatial_ball_eq",
+        "NativeQuotientLatticeTransport.ambient_box_real_card",
+        "NativeQuotientLatticeTransport.realized_slice_eq",
+        "NativeQuotientLatticeTransport.ambient_bounds_of_AD"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_angular_cap",
+      "source_sha256": "968fea2b3597cc1d6e8347c0df638eff4b3d03ed96be3268a8e96e3a4b1448ca",
+      "olean_sha256": "db32174c1ccda0e63f53680445bff88f9a05885887b7bbc7284ad7e6be844bfc",
+      "names": [
+        "NativeReferenceXYGridAngularCap.angle",
+        "NativeReferenceXYGridAngularCap.angle_mem_box",
+        "NativeReferenceXYGridAngularCap.same_tangent_bin_diameter",
+        "NativeReferenceXYGridAngularCap.affine_angle_cap",
+        "NativeReferenceXYGridAngularCap.localAngle",
+        "NativeReferenceXYGridAngularCap.source_local_angle_cap",
+        "NativeReferenceXYGridAngularCap.localAngle_inverse",
+        "NativeReferenceXYGridAngularCap.localAngle_image_card",
+        "NativeReferenceXYGridAngularCap.original_angular_cap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_support",
+      "source_sha256": "74284d96a34d4773107561f8ddb59536f46c97b606180fd2bbc1c7dbd28840a2",
+      "olean_sha256": "638da066cfd2cb486adcd9a315215663d933ee759c881e2b033c857d6526ff00",
+      "names": [
+        "NativeReferenceXYGridSupport.halfWidth",
+        "NativeReferenceXYGridSupport.mu_halfWidth",
+        "NativeReferenceXYGridSupport.mu_fullWidth",
+        "NativeReferenceXYGridSupport.terminal_bounds",
+        "NativeReferenceXYGridSupport.oldPoint_norm",
+        "NativeReferenceXYGridSupport.rawPoint_norm",
+        "NativeReferenceXYGridSupport.label_support",
+        "NativeReferenceXYGridSupport.pxy_support",
+        "NativeReferenceXYGridSupport.dyadic_pxy_support"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_original_parent_profiles",
+      "source_sha256": "61a5c637d636cea6033468b8acd86c06ffffa5607afd196832ff6e205d2c1bf3",
+      "olean_sha256": "e000a2827f2bc84630ce35c60453b0baa140eeee26745c3658c23e7aa6d3c208",
+      "names": [
+        "NativeReferenceOriginalParentProfiles.endpoint_constant_from_first_cost",
+        "NativeReferenceOriginalParentProfiles.actual_all_parent_profiles"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_ancestor_angular_lower",
+      "source_sha256": "b4a15a3631497b181b83ca847671f2a928815b40c990b6fbe566249e6f251314",
+      "olean_sha256": "311945f03a432ddcd31ca5a34904e61ca0294e95211089c5bae5bced227c2408",
+      "names": [
+        "NativeSaturatedAncestorAngularLower.ancestor_point_fiber_upper",
+        "NativeSaturatedAncestorAngularLower.saturated_ancestor_point_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_angular_rank_budget",
+      "source_sha256": "a9768ef3c89445ddd08a387be25c96e4fb9ab190acf86fc290652faf78a92e68",
+      "olean_sha256": "8d5f4f4c4a567e58f84d10bfc4d7c43c96e3c93f77155b5006a57759bb38eba8",
+      "names": [
+        "NativeSaturatedAngularRankBudget.angular_parent_cost",
+        "NativeSaturatedAngularRankBudget.angular_rank_cost"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_X_power_algebra",
+      "source_sha256": "d8ab4c3c3d80826b4f3dae98ad25b6d0687be74b00c048fa39535ed4e66f8f34",
+      "olean_sha256": "b5ba352fbf2db635995ba663623feba9a9d1e45dadb96cc2d0cefcb40171d956",
+      "names": [
+        "NativeSharpXPowerAlgebra.fiberCoefficient",
+        "NativeSharpXPowerAlgebra.gain_identity",
+        "NativeSharpXPowerAlgebra.gain_to_X"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_X_source_count",
+      "source_sha256": "46dc228b425e69b00350b712ecd504a5062cab1407f8d3e0f91b5151a32ace80",
+      "olean_sha256": "f1448eccb7b67889dddfdb887ea8b49148a07c353c4da502d6c0068aa1c59440",
+      "names": [
+        "NativeSharpXSourceCount.cancel_depth_and_taxes_le",
+        "NativeSharpXSourceCount.source_threshold_cross_cancellation"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T18:33:10.529631+00:00",
+  "exit_code": 0
+}

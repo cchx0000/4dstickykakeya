@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_quotient_ad
+
+#print axioms NativeActualQuotientAD.of_reference_cross

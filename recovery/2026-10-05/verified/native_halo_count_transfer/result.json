@@ -1,0 +1,44 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_halo_count_transfer",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_halo_count_transfer.lean",
+  "source_sha256": "d284db45e7d0762e5934e3e30cdeca2453f9f9e1c510a3267bc0f7387954bc3b",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_halo_count_transfer.olean",
+  "names": [
+    "NativeHaloCountTransfer.relation_card_mul_le",
+    "NativeHaloCountTransfer.rows_card_mul_le_of_menu",
+    "NativeHaloCountTransfer.multiplicity_transfer"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T14:35:02.601547+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "2449542e44254770568557afe8538039c0cc8fafcb7246b798cca33ef580c935",
+  "source_execution_complete_utc": "2026-10-05T14:35:39.943748+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T143926951018",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeHaloCountTransfer.relation_card_mul_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHaloCountTransfer.rows_card_mul_le_of_menu": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHaloCountTransfer.multiplicity_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T14:39:32.337099+00:00"
+}

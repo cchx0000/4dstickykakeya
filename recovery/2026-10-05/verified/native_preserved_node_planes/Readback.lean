@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_preserved_node_planes
+
+#print axioms NativePreservedNodePlanes.incident_near_chosen_span
+#print axioms NativePreservedNodePlanes.incident_near_grain_plane

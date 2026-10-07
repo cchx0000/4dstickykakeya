@@ -1,0 +1,32 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1540.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1540", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1540/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T15:40:02.802621+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+'NativeActualConfiguredResidue.parameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualConfiguredResidue.parameter_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualConfiguredResidue.parameterX_eq_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualConfiguredResidue.parameterY_eq_recoded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualConfiguredResidue.parameterY_of_frozen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualConfiguredResidue.graphGrid_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualConfiguredResidue.graphGrid_eq_iff_parameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualConfiguredResidue.graphGrid_eq_iff_keys' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualConfiguredResidue.select_actual_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.coarseYKey' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.coarseYKey_of_frozen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.geometricPairKey' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.relations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.relations_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.relations_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.caller_coarseY_uniformity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.completeRelations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.completeRelations_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.completeRelations_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredThirdRelation.caller_geometricPair_uniformity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConfiguredThirdRelation.caller_configuredPoint_uniformity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T15:43:04.525903+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

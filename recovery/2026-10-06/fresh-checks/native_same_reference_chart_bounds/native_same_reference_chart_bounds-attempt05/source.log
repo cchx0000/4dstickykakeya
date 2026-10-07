@@ -1,0 +1,354 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/8f1fbb83971ff625ebf16b9f7d234b1c9bd9929e45dc96a894afaa6f33d02d2f.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.lean"]
+SOURCE_SHA256 d0fa3a28632a30b96470c83545861d4e89c0c075cb8ac33f856a6c6916aa654a
+LOCK_ACQUIRED_UTC 2026-10-06T08:53:30.038470+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 236, num: 3):
+    [reduction] outParam ↦ 236
+    [reduction] DecidableEq ↦ 44
+    [reduction] Parent ↦ 29
+  [type_class] used instances (max: 61, num: 4):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 61
+    [type_class] Real.instPow ↦ 32
+    [type_class] instHPow ↦ 31
+    [type_class] Vector.instHMul ↦ 21
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+elaboration took 295ms
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 55, num: 1):
+    [reduction] LE.le ↦ 55
+  [reduction] unfolded reducible declarations (max: 250, num: 3):
+    [reduction] outParam ↦ 250
+    [reduction] DecidableEq ↦ 59
+    [reduction] Parent ↦ 40
+  [type_class] used instances (max: 61, num: 4):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 61
+    [type_class] Real.instPow ↦ 32
+    [type_class] instHPow ↦ 31
+    [type_class] Vector.instHMul ↦ 21
+  [kernel] unfolded declarations (max: 194, num: 48):
+    [kernel] Add.add ↦ 194
+    [kernel] HAdd.hAdd ↦ 194
+    [kernel] List.rec ↦ 178
+    [kernel] Int.casesOn ↦ 132
+    [kernel] Int.rec ↦ 117
+    [kernel] List.casesOn ↦ 112
+    [kernel] OfNat.ofNat ↦ 91
+    [kernel] WithLp.ofLp ↦ 82
+    [kernel] Equiv.toFun ↦ 64
+    [kernel] Neg.neg ↦ 56
+    [kernel] Int.add.match_1 ↦ 52
+    [kernel] HSub.hSub ↦ 51
+    [kernel] Sub.sub ↦ 51
+    [kernel] HSMul.hSMul ↦ 50
+    [kernel] SMul.smul ↦ 50
+    [kernel] SubNegMonoid.toAddMonoid ↦ 50
+    [kernel] instDecidableEqList.match_1 ↦ 50
+    [kernel] List.map._f ↦ 50
+    [kernel] instHAdd ↦ 48
+    [kernel] Nat.casesOn ↦ 44
+    [kernel] AddSemigroup.toAdd ↦ 42
+    [kernel] AddCommMonoid.toAddMonoid ↦ 40
+    [kernel] AddMonoid.toAddSemigroup ↦ 40
+    [kernel] AddCommGroup.toAddGroup ↦ 39
+    [kernel] AddGroup.toSubNegMonoid ↦ 39
+    [kernel] HMul.hMul ↦ 39
+    [kernel] Mul.mul ↦ 39
+    [kernel] NormedAddCommGroup.toAddCommGroup ↦ 38
+    [kernel] Equiv.invFun ↦ 36
+    [kernel] Int.add ↦ 36
+    [kernel] SeminormedAddCommGroup.toAddCommGroup ↦ 35
+    [kernel] Int.negOfNat.match_1 ↦ 35
+    [kernel] inferInstance ↦ 34
+    [kernel] Nat.rec ↦ 32
+    [kernel] Real.instAdd ↦ 32
+    [kernel] Real.instAddCommGroup ↦ 30
+    [kernel] Ring.toAddCommGroup ↦ 30
+    [kernel] List.brecOn ↦ 28
+    [kernel] Int.neg.match_1 ↦ 28
+    [kernel] Option.rec ↦ 26
+    [kernel] NormedAddCommGroup.toSeminormedAddCommGroup ↦ 25
+    [kernel] List.brecOn.go ↦ 25
+    [kernel] Int.negOfNat ↦ 24
+    [kernel] Option.casesOn ↦ 24
+    [kernel] Real.normedAddCommGroup ↦ 23
+    [kernel] NSMul.nsmul ↦ 22
+    [kernel] List.zipWithAll._f ↦ 21
+    [kernel] List.zipWithAll.match_1 ↦ 21
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 29, num: 1):
+    [reduction] outParam ↦ 29
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+elaboration took 440ms
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 24, num: 2):
+    [reduction] Add.add ↦ 24
+    [reduction] LT.lt ↦ 23
+  [reduction] unfolded reducible declarations (max: 167, num: 6):
+    [reduction] inferInstance ↦ 167
+    [reduction] outParam ↦ 141
+    [reduction] Nat.cast ↦ 115
+    [reduction] FiniteScaleSource.thickness ↦ 64
+    [reduction] FunLike ↦ 31
+    [reduction] Function.swap ↦ 26
+  [type_class] used instances (max: 22, num: 1):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 22
+  [def_eq] heuristic for solving `f a =?= f b` (max: 77, num: 2):
+    [def_eq] instHAdd ↦ 77
+    [def_eq] LE.le ↦ 22
+  [kernel] unfolded declarations (max: 126, num: 27):
+    [kernel] OfNat.ofNat ↦ 126
+    [kernel] Add.add ↦ 105
+    [kernel] HAdd.hAdd ↦ 105
+    [kernel] HMul.hMul ↦ 104
+    [kernel] Mul.mul ↦ 104
+    [kernel] Int.casesOn ↦ 70
+    [kernel] List.rec ↦ 69
+    [kernel] Int.rec ↦ 60
+    [kernel] AddCommMonoid.toAddMonoid ↦ 51
+    [kernel] NatCast.natCast ↦ 47
+    [kernel] List.casesOn ↦ 44
+    [kernel] inferInstance ↦ 36
+    [kernel] HPow.hPow ↦ 34
+    [kernel] Pow.pow ↦ 34
+    [kernel] HSub.hSub ↦ 33
+    [kernel] Sub.sub ↦ 33
+    [kernel] NPow.npow ↦ 32
+    [kernel] Nat.casesOn ↦ 29
+    [kernel] Neg.neg ↦ 29
+    [kernel] Semiring.toNatCast ↦ 29
+    [kernel] Int.add.match_1 ↦ 25
+    [kernel] AddMonoid.toZero ↦ 24
+    [kernel] Int.negOfNat.match_1 ↦ 24
+    [kernel] instHAdd ↦ 23
+    [kernel] Nat.rec ↦ 23
+    [kernel] LT.lt ↦ 22
+    [kernel] Monoid.toOne ↦ 21
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 22, num: 1):
+    [reduction] PiLp ↦ 22
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 96, num: 14):
+    [reduction] MarkedIsometricFiniteTransport.source ↦ 96
+    [reduction] DFunLike.coe ↦ 48
+    [reduction] EquivLike.coe ↦ 48
+    [reduction] MarkedIsometricChart.line ↦ 48
+    [reduction] fullSource ↦ 48
+    [reduction] unweightedMarkedShadingSource ↦ 48
+    [reduction] dist ↦ 44
+    [reduction] Add.add ↦ 24
+    [reduction] HAdd.hAdd ↦ 24
+    [reduction] HSub.hSub ↦ 24
+    [reduction] Neg.neg ↦ 24
+    [reduction] direction ↦ 24
+    [reduction] offset ↦ 24
+    [reduction] Sub.sub ↦ 24
+  [reduction] unfolded reducible declarations (max: 168, num: 9):
+    [reduction] Prod.fst ↦ 168
+    [reduction] FiniteScaleSource.line ↦ 144
+    [reduction] Prod.snd ↦ 120
+    [reduction] AddHom.toFun ↦ 48
+    [reduction] LinearEquiv.toLinearMap ↦ 48
+    [reduction] LinearIsometryEquiv.toLinearEquiv ↦ 48
+    [reduction] LinearMap.toAddHom ↦ 48
+    [reduction] WithLp.ofLp ↦ 48
+    [reduction] PiLp ↦ 24
+  [def_eq] heuristic for solving `f a =?= f b` (max: 24, num: 1):
+    [def_eq] MarkedIsometricChart.line ↦ 24
+  [kernel] unfolded declarations (max: 96, num: 16):
+    [kernel] WithLp.ofLp ↦ 96
+    [kernel] dist ↦ 88
+    [kernel] Add.add ↦ 75
+    [kernel] HAdd.hAdd ↦ 75
+    [kernel] HSub.hSub ↦ 48
+    [kernel] Neg.neg ↦ 48
+    [kernel] Sub.sub ↦ 48
+    [kernel] Prod.fst ↦ 42
+    [kernel] Prod.snd ↦ 34
+    [kernel] HPow.hPow ↦ 32
+    [kernel] Pow.pow ↦ 32
+    [kernel] PseudoMetricSpace.toDist ↦ 29
+    [kernel] Real.pseudoMetricSpace ↦ 24
+    [kernel] AddHom.toFun ↦ 22
+    [kernel] DFunLike.coe ↦ 22
+    [kernel] EquivLike.coe ↦ 22
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 733, num: 8):
+    [reduction] outParam ↦ 733
+    [reduction] PiLp ↦ 148
+    [reduction] EuclideanSpace ↦ 127
+    [reduction] E4 ↦ 127
+    [reduction] DecidableEq ↦ 37
+    [reduction] Parent ↦ 29
+    [reduction] inferInstance ↦ 28
+    [reduction] FiniteDimensional ↦ 24
+  [type_class] used instances (max: 165, num: 6):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 165
+    [type_class] instHPow ↦ 91
+    [type_class] Vector.instHMul ↦ 87
+    [type_class] Real.instPow ↦ 67
+    [type_class] ENNReal.instPowReal ↦ 28
+    [type_class] instHMul ↦ 26
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+elaboration took 54.2s
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 2750, num: 29):
+    [reduction] Multiset.map ↦ 2750
+    [reduction] image ↦ 2010
+    [reduction] Multiset.toFinset ↦ 2010
+    [reduction] Multiset.dedup ↦ 1930
+    [reduction] NativeCoarseShadingCapacity.coarse ↦ 1560
+    [reduction] filter ↦ 1170
+    [reduction] Multiset.filter ↦ 1110
+    [reduction] NativeCoarseShadingCapacity.rows ↦ 450
+    [reduction] iSup ↦ 150
+    [reduction] Set.iUnion ↦ 150
+    [reduction] Set.range ↦ 150
+    [reduction] sSup ↦ 150
+    [reduction] Multiset.Mem ↦ 120
+    [reduction] SetLike.coe ↦ 120
+    [reduction] LE.le ↦ 88
+    [reduction] HSub.hSub ↦ 70
+    [reduction] Sub.sub ↦ 70
+    [reduction] HPow.hPow ↦ 66
+    [reduction] Pow.pow ↦ 66
+    [reduction] HMul.hMul ↦ 52
+    [reduction] Mul.mul ↦ 52
+    [reduction] NatCast.natCast ↦ 50
+    [reduction] NPow.npow ↦ 36
+    [reduction] indefiniteDescription ↦ 30
+    [reduction] NatPow.pow ↦ 30
+    [reduction] NativeFullCoarseShadow.shadow ↦ 30
+    [reduction] wzCellShading ↦ 30
+    [reduction] Div.div ↦ 26
+    [reduction] HDiv.hDiv ↦ 26
+  [reduction] unfolded reducible declarations (max: 5910, num: 12):
+    [reduction] Quot.liftOn ↦ 5910
+    [reduction] val ↦ 5720
+    [reduction] outParam ↦ 819
+    [reduction] PiLp ↦ 172
+    [reduction] EuclideanSpace ↦ 145
+    [reduction] E4 ↦ 145
+    [reduction] Nat.casesOn ↦ 110
+    [reduction] inferInstance ↦ 64
+    [reduction] Nat.cast ↦ 52
+    [reduction] DecidableEq ↦ 47
+    [reduction] Parent ↦ 38
+    [reduction] FiniteDimensional ↦ 32
+  [type_class] used instances (max: 179, num: 6):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 179
+    [type_class] instHPow ↦ 98
+    [type_class] Vector.instHMul ↦ 93
+    [type_class] Real.instPow ↦ 67
+    [type_class] ENNReal.instPowReal ↦ 34
+    [type_class] instHMul ↦ 30
+  [def_eq] heuristic for solving `f a =?= f b` (max: 75, num: 9):
+    [def_eq] iSup ↦ 75
+    [def_eq] Set.iUnion ↦ 75
+    [def_eq] Set.range ↦ 75
+    [def_eq] Multiset.Mem ↦ 60
+    [def_eq] image ↦ 40
+    [def_eq] Multiset.toFinset ↦ 40
+    [def_eq] filter ↦ 30
+    [def_eq] NativeCoarseShadingCapacity.rows ↦ 30
+    [def_eq] Nat.cast ↦ 26
+  [reduction] Axioms (possibly imported non-exposed defs) that were tried to be unfolded (max: 50, num: 1):
+    [reduction] choice ↦ 50
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+tactic execution of Lean.Parser.Tactic.exact took 210ms
+elaboration took 53.8s
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.lean:100:8: error: (kernel) deterministic timeout
+type checking took 53.7s
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 542, num: 7):
+    [reduction] outParam ↦ 542
+    [reduction] PiLp ↦ 145
+    [reduction] EuclideanSpace ↦ 124
+    [reduction] E4 ↦ 124
+    [reduction] DecidableEq ↦ 32
+    [reduction] inferInstance ↦ 26
+    [reduction] FiniteDimensional ↦ 24
+  [type_class] used instances (max: 117, num: 6):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 117
+    [type_class] instHPow ↦ 70
+    [type_class] Vector.instHMul ↦ 60
+    [type_class] Real.instPow ↦ 49
+    [type_class] ENNReal.instPowReal ↦ 25
+    [type_class] instHMul ↦ 24
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+elaboration took 319ms
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 51, num: 5):
+    [reduction] LE.le ↦ 51
+    [reduction] HMul.hMul ↦ 36
+    [reduction] Mul.mul ↦ 36
+    [reduction] HPow.hPow ↦ 22
+    [reduction] Pow.pow ↦ 22
+  [reduction] unfolded reducible declarations (max: 591, num: 8):
+    [reduction] outParam ↦ 591
+    [reduction] PiLp ↦ 157
+    [reduction] EuclideanSpace ↦ 133
+    [reduction] E4 ↦ 133
+    [reduction] inferInstance ↦ 43
+    [reduction] DecidableEq ↦ 39
+    [reduction] FiniteDimensional ↦ 28
+    [reduction] Parent ↦ 25
+  [type_class] used instances (max: 130, num: 6):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 130
+    [type_class] instHPow ↦ 71
+    [type_class] Vector.instHMul ↦ 60
+    [type_class] Real.instPow ↦ 49
+    [type_class] ENNReal.instPowReal ↦ 25
+    [type_class] instHMul ↦ 24
+  [kernel] unfolded declarations (max: 120, num: 21):
+    [kernel] Add.add ↦ 120
+    [kernel] HAdd.hAdd ↦ 120
+    [kernel] AddCommMonoid.toAddMonoid ↦ 52
+    [kernel] SubNegMonoid.toAddMonoid ↦ 52
+    [kernel] instHAdd ↦ 38
+    [kernel] HMul.hMul ↦ 38
+    [kernel] Mul.mul ↦ 38
+    [kernel] AddCommGroup.toAddGroup ↦ 37
+    [kernel] AddGroup.toSubNegMonoid ↦ 37
+    [kernel] OfNat.ofNat ↦ 37
+    [kernel] AddSemigroup.toAdd ↦ 36
+    [kernel] Neg.neg ↦ 36
+    [kernel] WithLp.ofLp ↦ 36
+    [kernel] AddMonoid.toAddSemigroup ↦ 33
+    [kernel] inferInstance ↦ 28
+    [kernel] Real.instAdd ↦ 27
+    [kernel] NormedAddCommGroup.toAddCommGroup ↦ 26
+    [kernel] SeminormedAddCommGroup.toAddCommGroup ↦ 26
+    [kernel] HSMul.hSMul ↦ 22
+    [kernel] Ring.toAddCommGroup ↦ 22
+    [kernel] SMul.smul ↦ 22
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.lean:144:8: error: (kernel) unknown constant 'NativeSameReferenceChartBounds.chart_bounds_of_populations'
+cumulative profiling times:
+	attribute application 0.636ms
+	congr simp thm 0.861ms
+	elaboration 110s
+	fix level params 0.857ms
+	instantiate metavars 1.94ms
+	let-to-have transformation 41.4ms
+	linting 146ms
+	module linting 0.00166ms
+	norm_num 29.5ms
+	overlappingInstancesLinter 22.8ms
+	parsing 24.2ms
+	process pre-definitions 16ms
+	ring 31.3ms
+	share common exprs 12.2ms
+	simp 11ms
+	tactic execution 550ms
+	tacticAnalysis 26.8ms
+	type checking 53.8s
+	typeclass inference 567ms
+LEAN_FINISHED_UTC 2026-10-06T08:56:04.339058+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

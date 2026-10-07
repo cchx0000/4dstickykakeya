@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_coarse_uniform_image_degrees
+#print axioms NativeCoarseUniformImageDegrees.point_fiber_card_sum
+#print axioms NativeCoarseUniformImageDegrees.point_fiber_card_cross
+#print axioms NativeCoarseUniformImageDegrees.image_point_degree_cross
+#print axioms NativeCoarseUniformImageDegrees.image_point_degree_le_multiplicity

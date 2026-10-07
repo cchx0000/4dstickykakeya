@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_alignment_parent_width
+set_option autoImplicit false
+#print axioms NativeAlignmentParentWidth.exists_factor_gap_cutoff
+#print axioms NativeAlignmentParentWidth.parent_4096_depth
+#print axioms NativeAlignmentParentWidth.exists_actual_parent_cutoff

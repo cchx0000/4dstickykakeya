@@ -1,0 +1,61 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T15:40:02.591631+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_actual_configured_residue",
+    "Theorems.Thm_StickyKakeya4_native_configured_third_relation"
+  ],
+  "names": [
+    "NativeActualConfiguredResidue.parameter",
+    "NativeActualConfiguredResidue.parameter_height",
+    "NativeActualConfiguredResidue.parameterX_eq_coarse",
+    "NativeActualConfiguredResidue.parameterY_eq_recoded",
+    "NativeActualConfiguredResidue.parameterY_of_frozen",
+    "NativeActualConfiguredResidue.graphGrid_eq",
+    "NativeActualConfiguredResidue.graphGrid_eq_iff_parameter",
+    "NativeActualConfiguredResidue.graphGrid_eq_iff_keys",
+    "NativeActualConfiguredResidue.select_actual_edges",
+    "NativeConfiguredThirdRelation.coarseYKey",
+    "NativeConfiguredThirdRelation.coarseYKey_of_frozen",
+    "NativeConfiguredThirdRelation.geometricPairKey",
+    "NativeConfiguredThirdRelation.relations",
+    "NativeConfiguredThirdRelation.relations_refl",
+    "NativeConfiguredThirdRelation.relations_symm",
+    "NativeConfiguredThirdRelation.caller_coarseY_uniformity",
+    "NativeConfiguredThirdRelation.completeRelations",
+    "NativeConfiguredThirdRelation.completeRelations_refl",
+    "NativeConfiguredThirdRelation.completeRelations_symm",
+    "NativeConfiguredThirdRelation.caller_geometricPair_uniformity",
+    "NativeConfiguredThirdRelation.caller_configuredPoint_uniformity"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1540.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1540",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1540/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T15:43:04.593566+00:00",
+  "results": [
+    {
+      "attempt": "native_actual_configured_residue-attempt04",
+      "state": "passed",
+      "declarations": 9
+    },
+    {
+      "attempt": "native_configured_third_relation-attempt01",
+      "state": "passed",
+      "declarations": 12
+    }
+  ]
+}

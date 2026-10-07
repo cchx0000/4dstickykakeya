@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_fixed_offset_coherence
+
+#print axioms NativeFixedOffsetCoherence.offsetMesh
+#print axioms NativeFixedOffsetCoherence.offsetMesh_pos
+#print axioms NativeFixedOffsetCoherence.same_offset_norm
+#print axioms NativeFixedOffsetCoherence.select_fixed_offset_menu

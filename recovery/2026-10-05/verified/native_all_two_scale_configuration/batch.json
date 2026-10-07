@@ -1,0 +1,46 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T09:20:50.040958+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py",
+    "--slots",
+    "2",
+    "--lock-dir",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T092046708471",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T092046708471/AggregateReadback.lean"
+  ],
+  "readback_sha256": "4c9700ed3ca3243a5cc88976d6451ec78683a7fcb4863db564d392fc9666ba40",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_middle_two_scale_configuration",
+      "source_sha256": "961a7d36f6b2da3547166d8db2f4513aacf8aef944cdba878d73c30f283932bc",
+      "olean_sha256": "e51ac54dab70bd6496d528259c484292bae6ad3adf461f6d88ff1f725407039a",
+      "names": [
+        "NativeMiddleTwoScaleConfiguration.exists_middle_two_scale_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_all_two_scale_configuration",
+      "source_sha256": "c389dd8e09dc9614742a12c49b608d14eb451dd540715c4987062c6841d1b419",
+      "olean_sha256": "98484b858e9fd4aae3c338d46fb5fc68016b8982dada0c2cdd38ae49265957ea",
+      "names": [
+        "NativeAllTwoScaleConfiguration.boundaryWindow",
+        "NativeAllTwoScaleConfiguration.boundaryWindow_pos",
+        "NativeAllTwoScaleConfiguration.fullSchedule",
+        "NativeAllTwoScaleConfiguration.exists_all_two_scale_configuration"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T09:26:55.883413+00:00",
+  "exit_code": 0
+}

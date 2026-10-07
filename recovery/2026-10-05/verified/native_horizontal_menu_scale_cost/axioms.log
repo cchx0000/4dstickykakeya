@@ -1,0 +1,84 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T170652781040", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T170652781040/AggregateReadback.lean"]
+READBACK_SHA256 4cb1e4d61069ef5b4501754ea5accd8995a6c702ed517e23839757098f209502
+Dedicated staging slot 3 acquired UTC: 2026-10-05T17:06:53.485875+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8773008 kB
+'NativeFixedMenuSliceAD.fixed_menu_reference_all_radius_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedMenuSliceAD.menu_gap_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedMenuSliceAD.menu_gap_power_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalMenuScaleCost.intrinsic_gap_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalMenuScaleCost.intrinsic_gap_power_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalMenuScaleCost.parent_scale_dyadic_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRealizedSliceGeometry.floor_center_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRealizedSliceGeometry.horizontalMesh_le_eighth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRealizedSliceGeometry.realized_column_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRealizedSliceGeometry.realized_point_coordinate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRealizedSliceGeometry.realized_slice_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRealizedSliceGeometry.realized_slice_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceAD.fixed_menu_reference_slice_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceADConstant.ADBounds_of_asymmetric_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceADConstant.constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceADConstant.one_le_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightChart.mapped_chart_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightChart.raw_chart_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightFibers.every_reference_fiber_density_cross' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTranslatedGrainHeightFibers.mixed_X_subset_referenceX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightFibers.mixed_reference_key_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightFibers.referenceKey' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightFibers.referenceKey_column' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightFibers.referenceX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightMetric.mapped' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightMetric.mapped_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightMetric.mapped_norm_on_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightMetric.mapped_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightMetric.rawAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightMetric.rawAt_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightMetric.referenceHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightMetric.referenceHeight_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.actual_height_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.actual_height_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.actual_raw_cell_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.actual_translated_cell_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTranslatedGrainHeightOverlap.floor_shift_carry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.floor_shift_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.rawHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.rawHeight_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.raw_cell_translated_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.translatedHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.translatedHeight_column' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.translatedHeight_readback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTranslatedGrainHeightOverlap.translated_cell_raw_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightOverlap.two_integer_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.card_retention_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.first_card_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.first_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.first_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.first_translated_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTranslatedGrainHeightSelection.hereditary_alignment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.rawHeight_of_mixed_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.second_card_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.second_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.second_saturated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.second_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.second_subset_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.selected_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.surviving_grain_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedGrainHeightSelection.surviving_local_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTranslatedGrainHeightSelection.translated_determines_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,17 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4a29906d18c84291b799e86f1ecdcf503947a58ece663cbbeba1fa2c9b6eb7ce.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean"]
+SOURCE_SHA256 454a7d46762a9efba14efe1e7c4f106e5be8548887362c5e19bebca88909ed3c
+LOCK_ACQUIRED_UTC 2026-10-06T21:06:08.302496+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:659:26: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:659:57: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:659:72: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+LEAN_FINISHED_UTC 2026-10-06T21:06:53.152723+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

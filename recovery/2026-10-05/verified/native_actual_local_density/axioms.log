@@ -1,0 +1,8 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_actual_local_density_readback.lean"]
+SOURCE_SHA256 1adc4a80880cc044839ec4d69f84113d1fda08f5ce28a2801a043b371e77e603
+FIFO compiler ticket: 01791177554169087546-560b5fd9061e4a61bd1bed8dfc51ec41.request
+FIFO compiler acquired UTC: 2026-10-05T05:19:14.169542+00:00
+'NativeActualLocalDensity.total_tube_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualLocalDensity.source_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,54 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_graph_height_localization",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_height_localization.lean",
+  "source_sha256": "e305e5dc783d442d50ef79d4af0389cc99e208230165f2934441d7608e0f1af5",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_graph_height_localization.olean",
+  "names": [
+    "NativeGraphHeightLocalization.cut_vertices",
+    "NativeGraphHeightLocalization.exists_height_bin",
+    "NativeGraphHeightLocalization.exists_massive_height_bin",
+    "NativeGraphHeightLocalization.floor_window_diameter",
+    "NativeGraphHeightLocalization.exists_massive_height_window"
+  ],
+  "started_utc": "2026-10-06T14:39:52.496107+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "22be3fcd9693a986cb5cb8eac2595e6a624234c42047e3640393a85ec46bc6b2",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T14:46:35.607993+00:00",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1459",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeGraphHeightLocalization.cut_vertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGraphHeightLocalization.exists_height_bin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGraphHeightLocalization.exists_massive_height_bin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGraphHeightLocalization.floor_window_diameter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGraphHeightLocalization.exists_massive_height_window": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T15:05:42.979678+00:00"
+}

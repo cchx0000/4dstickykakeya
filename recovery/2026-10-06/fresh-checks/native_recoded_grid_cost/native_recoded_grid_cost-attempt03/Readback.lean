@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_recoded_grid_cost
+set_option autoImplicit false
+#print axioms NativeRecodedGridCost.coefficient_le_power
+#print axioms NativeRecodedGridCost.low_dim_coefficient_le

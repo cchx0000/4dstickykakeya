@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_rank_one_physical_upper
+
+#print axioms NativeRankOnePhysicalUpper.rank_one_multiplicity_upper

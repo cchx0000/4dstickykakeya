@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_capped_old_ancestors
+set_option autoImplicit false
+#print axioms NativeCappedOldAncestors.exists_capped_depth
+#print axioms NativeCappedOldAncestors.oldAncestor
+#print axioms NativeCappedOldAncestors.terminal_injective
+#print axioms NativeCappedOldAncestors.representative_readback
+#print axioms NativeCappedOldAncestors.fiber_card
+#print axioms NativeCappedOldAncestors.full_fiber_population
+#print axioms NativeCappedOldAncestors.capped_chart_gaps
+#print axioms NativeCappedOldAncestors.carrier_scale_normalization
+#print axioms NativeCappedOldAncestors.exists_full_source_ancestors

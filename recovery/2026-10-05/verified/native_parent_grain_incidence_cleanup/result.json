@@ -1,0 +1,110 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_parent_grain_incidence_cleanup",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_parent_grain_incidence_cleanup.lean",
+  "source_sha256": "6a3483c1439a45de858ad945bac6da30407d53215b6b3b5c57216cd4f78cfc64",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_parent_grain_incidence_cleanup.olean",
+  "names": [
+    "NativeParentGrainIncidenceCleanup.cutEdges",
+    "NativeParentGrainIncidenceCleanup.mixedLabel",
+    "NativeParentGrainIncidenceCleanup.mixedFiber",
+    "NativeParentGrainIncidenceCleanup.mixedVertices",
+    "NativeParentGrainIncidenceCleanup.cutEdges_subset",
+    "NativeParentGrainIncidenceCleanup.cutEdges_card",
+    "NativeParentGrainIncidenceCleanup.cutEdges_points",
+    "NativeParentGrainIncidenceCleanup.cutEdges_grain_image",
+    "NativeParentGrainIncidenceCleanup.parent_mixed_fiber_eq",
+    "NativeParentGrainIncidenceCleanup.mixed_fiber_geometry",
+    "NativeParentGrainIncidenceCleanup.mixed_label_count",
+    "NativeParentGrainIncidenceCleanup.mixed_fiber_vertex_cap",
+    "NativeParentGrainIncidenceCleanup.exists_mixed_dense_core",
+    "NativeParentGrainIncidenceCleanup.exists_cleaned_parent"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T15:00:52.080662+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "33fa5a65551d4d27c9cb01a8bb9053920719d9ec23ed8eafabc065f9b13973e9",
+  "source_execution_complete_utc": "2026-10-05T15:00:57.770360+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150422049901",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeParentGrainIncidenceCleanup.cutEdges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.mixedLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.mixedFiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.mixedVertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.cutEdges_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.cutEdges_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.cutEdges_points": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.cutEdges_grain_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.parent_mixed_fiber_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.mixed_fiber_geometry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.mixed_label_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.mixed_fiber_vertex_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.exists_mixed_dense_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGrainIncidenceCleanup.exists_cleaned_parent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T15:04:27.293124+00:00"
+}

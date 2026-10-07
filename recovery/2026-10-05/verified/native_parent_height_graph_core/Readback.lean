@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_parent_height_graph_core
+
+#print axioms NativeParentHeightGraphCore.selectionCost
+#print axioms NativeParentHeightGraphCore.construct_parent_height_graph_core

@@ -1,0 +1,53 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_graph_point_cuts",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_point_cuts.lean",
+  "source_sha256": "22785f8d52777a004305617839065dfd7a925a0ab32ce645ca2028e5402e02c8",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_graph_point_cuts.olean",
+  "names": [
+    "NativeGraphPhysicalLocalization.cut",
+    "NativeGraphPhysicalLocalization.cut_subset",
+    "NativeGraphPhysicalLocalization.cut_nonempty",
+    "NativeGraphPhysicalLocalization.cut_full_tube_fiber",
+    "NativeGraphPhysicalLocalization.cut_point_cell"
+  ],
+  "started_utc": "2026-10-06T14:18:36.347551+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "308496045f8d3dfe7e282a6a66b19c3f5c3e72e6aa2a27c6685334fd3b30b9fa",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T14:24:08.644021+00:00",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1429",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeGraphPhysicalLocalization.cut": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeGraphPhysicalLocalization.cut_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGraphPhysicalLocalization.cut_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGraphPhysicalLocalization.cut_full_tube_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGraphPhysicalLocalization.cut_point_cell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T14:34:29.791239+00:00"
+}

@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_hereditary_scale_upper
+import Theorems.Thm_StickyKakeya4_native_local_direction_tube_support
+
+set_option autoImplicit false
+#print axioms NativeHereditaryScaleUpper.all_pair_upper
+#print axioms NativeHereditaryScaleUpper.boundary_pair_upper_separate_cost
+#print axioms NativeHereditaryScaleUpper.hereditary_three_loss
+#print axioms NativeHereditaryScaleUpper.middle_pair_upper
+#print axioms NativeHereditaryScaleUpper.reference_cost_budgets
+#print axioms NativeLocalDirectionTubeSupport.original_local_quadratic_packet
+#print axioms NativeLocalDirectionTubeSupport.tube_local_displacement_near_plane

@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_coarse_scale_interpolation
+#print axioms NativeCoarseScaleInterpolation.coarseMenu
+#print axioms NativeCoarseScaleInterpolation.coarseMenu_card
+#print axioms NativeCoarseScaleInterpolation.fineMenu
+#print axioms NativeCoarseScaleInterpolation.fineMenu_card
+#print axioms NativeCoarseScaleInterpolation.coarse_mem_implies_fine_mem
+#print axioms NativeCoarseScaleInterpolation.floor_close
+#print axioms NativeCoarseScaleInterpolation.cellIndex_mem_coarseMenu
+#print axioms NativeCoarseScaleInterpolation.actualPair
+#print axioms NativeCoarseScaleInterpolation.coarse_mesh_ratio
+#print axioms NativeCoarseScaleInterpolation.actual_pair_menu
+#print axioms NativeCoarseScaleInterpolation.pair_fiber_image_card_le
+#print axioms NativeCoarseScaleInterpolation.point_fiber_image_card_le
+#print axioms NativeCoarseScaleInterpolation.actual_multiplicity_le
+#print axioms NativeCoarseScaleInterpolation.full_source_multiplicity_le

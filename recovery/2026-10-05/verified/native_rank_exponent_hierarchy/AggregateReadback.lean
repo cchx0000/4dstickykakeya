@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_native_rank_exponent_hierarchy
+import Theorems.Thm_StickyKakeya4_native_rank_one_excluded_from_source_cost
+
+set_option autoImplicit false
+#print axioms NativeRankExponentHierarchy.adjacent_identities
+#print axioms NativeRankExponentHierarchy.commonBudget
+#print axioms NativeRankExponentHierarchy.commonBudget_pos
+#print axioms NativeRankExponentHierarchy.cutoff
+#print axioms NativeRankExponentHierarchy.cutoff_bounds
+#print axioms NativeRankExponentHierarchy.cutoff_mul_rankLoss
+#print axioms NativeRankExponentHierarchy.rankLoss
+#print axioms NativeRankExponentHierarchy.rankLoss_le_initial
+#print axioms NativeRankExponentHierarchy.rankLoss_pos
+#print axioms NativeRankExponentHierarchy.rank_one_power_margin
+#print axioms NativeRankExponentHierarchy.test_parameters
+#print axioms NativeRankOneExcludedFromSourceCost.exists_actual_rank_one_exclusion

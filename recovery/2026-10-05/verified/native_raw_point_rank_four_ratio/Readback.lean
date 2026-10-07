@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_raw_point_rank_four_ratio
+
+#print axioms NativeRawPointRankFourRatio.core_physical_uniformities
+#print axioms NativeRawPointRankFourRatio.retained_scheduled_full_upper
+#print axioms NativeRawPointRankFourRatio.squared_profile_cross
+#print axioms NativeRawPointRankFourRatio.pointRatioConstant
+#print axioms NativeRawPointRankFourRatio.pointRatioConstant_pos
+#print axioms NativeRawPointRankFourRatio.source_squared_raw_ratio
+#print axioms NativeRawPointRankFourRatio.squared_depth_in_middle
+#print axioms NativeRawPointRankFourRatio.source_squared_raw_ratio_of_middle_window
+#print axioms NativeRawPointRankFourRatio.vertices_card_eq_rawPointCount

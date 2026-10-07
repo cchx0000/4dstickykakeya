@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_generic_graph_rank
+
+#print axioms NativeGenericGraphRank.graph_rank_of_query

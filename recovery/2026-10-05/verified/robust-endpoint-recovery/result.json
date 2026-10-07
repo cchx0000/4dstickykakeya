@@ -1,0 +1,44 @@
+{
+  "source_sha256": "7f080921ccdf427d243a742787d32451e1cd37ced43cd9d8779712b978e0d360",
+  "names": [
+    "OriginalUniformWeakRobustProjection.exists_uniform_original_local_projection",
+    "OriginalUniformWeakRobustProjection.exists_uniform_original_robust_projection"
+  ],
+  "state": "passed",
+  "command": [
+    "lake",
+    "env",
+    "python3",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py",
+    "--slots",
+    "2",
+    "--lock-dir",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks",
+    "--",
+    "lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/live",
+    "/workspace/shared/sticky-recovery-20261005/live/RobustRecoveryReadback.lean"
+  ],
+  "started_utc": "2026-10-05T04:35:59.170668+00:00",
+  "exit_code": 0,
+  "axioms": {
+    "OriginalUniformWeakRobustProjection.exists_uniform_original_local_projection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OriginalUniformWeakRobustProjection.exists_uniform_original_robust_projection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing": [],
+  "extra_axioms": {},
+  "source_unchanged": true,
+  "finished_utc": "2026-10-05T04:36:08.190498+00:00"
+}

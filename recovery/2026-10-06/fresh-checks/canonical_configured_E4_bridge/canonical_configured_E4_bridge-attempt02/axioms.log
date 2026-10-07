@@ -1,0 +1,20 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/03095a536bae7fbb0e6b344aaec000fa7667df6bf36db43f7b13e91d8684fbee.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/canonical_configured_E4_bridge-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/canonical_configured_E4_bridge-attempt02/Readback.lean"]
+SOURCE_SHA256 f0b0e3d214b673fcdb37ca566499ff045a8a60fd765f07619a5dc8ec6371bf70
+'CanonicalConfiguredE4Bridge.tangentDim' does not depend on any axioms
+'CanonicalConfiguredE4Bridge.normalDim' does not depend on any axioms
+'CanonicalConfiguredE4Bridge.tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.assemble' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.configuredChart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.configured_coordinate_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.dist_le_three_of_coordinate_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CanonicalConfiguredE4Bridge.configuredChart_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.configuredPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.configuredPoint_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.actual_rounding_modulus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.actual_rounding_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredE4Bridge.select_actual_original_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

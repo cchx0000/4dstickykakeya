@@ -1,0 +1,118 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T11:57:29.917707+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T115728926894",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T115728926894/AggregateReadback.lean"
+  ],
+  "readback_sha256": "0b558a7798843637bb05c0a5fee46092c7ea936d003cdc5c394d02173b1cfe2c",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_local_plane_packet_transfer",
+      "source_sha256": "26410719e713361e3ed978cc9e83c3ae848ec0635f77c96d4693103cddd772cf",
+      "olean_sha256": "c1d7e579e698429725788b41330e282bf64f8eb1a6779143ca6d8970420adb1d",
+      "names": [
+        "NativeLocalPlanePacketTransfer.matching_word_near_plane",
+        "NativeLocalPlanePacketTransfer.matching_chain_plane_transfer",
+        "NativeLocalPlanePacketTransfer.exists_global_local_plane_representatives"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_quantized_line_packets",
+      "source_sha256": "824df97f001d2ae2263f13c7b1fb095dcca979f5d9963aee7ea532f6ce582fa5",
+      "olean_sha256": "c0d8e195ce9f0af3a3a263ae27b28b2ba98fb2e2564eeb7405944a2f71de2766",
+      "names": [
+        "NativeQuantizedLinePackets.packetLabel",
+        "NativeQuantizedLinePackets.neighbors",
+        "NativeQuantizedLinePackets.neighbors_card",
+        "NativeQuantizedLinePackets.mem_indexBox_symm",
+        "NativeQuantizedLinePackets.mem_neighbors_symm",
+        "NativeQuantizedLinePackets.floor_mem_interval",
+        "NativeQuantizedLinePackets.abs_sub_le_of_floor_mem",
+        "NativeQuantizedLinePackets.label_mem_box_of_normal_bound",
+        "NativeQuantizedLinePackets.near_of_label_mem_box",
+        "NativeQuantizedLinePackets.packetLabel_mem_neighbors",
+        "NativeQuantizedLinePackets.neighbors_geometry",
+        "NativeQuantizedLinePackets.packet",
+        "NativeQuantizedLinePackets.occurrences",
+        "NativeQuantizedLinePackets.packet_geometry",
+        "NativeQuantizedLinePackets.row_subset_occurrences",
+        "NativeQuantizedLinePackets.packet_overlap",
+        "NativeQuantizedLinePackets.occurrence_overlap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_rich_directional_layers",
+      "source_sha256": "18797e298e99a297d5f4e214856255dcc1e81bc2f63d54c4d9383b4d129b4ab2",
+      "olean_sha256": "0e969da756c2196330a6bec7b7df4c0f27496036533c262eb5582627eda982f6",
+      "names": [
+        "RichDirectionalLayers.classFiber",
+        "RichDirectionalLayers.richRestriction",
+        "RichDirectionalLayers.richRestriction_subset",
+        "RichDirectionalLayers.richRestriction_predecessors",
+        "RichDirectionalLayers.richRestriction_card_loss",
+        "RichDirectionalLayers.richLayers",
+        "RichDirectionalLayers.richLayers_zero",
+        "RichDirectionalLayers.richLayers_succ",
+        "RichDirectionalLayers.richLayers_step_subset",
+        "RichDirectionalLayers.richLayers_subset_start",
+        "RichDirectionalLayers.richLayers_predecessors",
+        "RichDirectionalLayers.richLayers_card_loss",
+        "RichDirectionalLayers.richLayers_half_of_budget",
+        "RichDirectionalLayers.richThreshold",
+        "RichDirectionalLayers.richThreshold_positive",
+        "RichDirectionalLayers.richThreshold_product_positive",
+        "RichDirectionalLayers.richThreshold_budget",
+        "RichDirectionalLayers.class_count_mul_le",
+        "RichDirectionalLayers.construct_richLayers",
+        "RichDirectionalLayers.richThreshold_crossmul",
+        "RichDirectionalLayers.richThreshold_density",
+        "RichDirectionalLayers.classFiber_eq_affineFiber",
+        "RichDirectionalLayers.construct_independent_rich_layers"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_weighted_rich_directional_layers",
+      "source_sha256": "afd4a9a1a50f32c80fa28c7f6f341948f4f9c44c409d94315563d5c199957d6e",
+      "olean_sha256": "70c98620ca461e00a375fc4ccd565a011b95b75a822a47c2d3922048f58e1224",
+      "names": [
+        "WeightedRichDirectionalLayers.mass",
+        "WeightedRichDirectionalLayers.mass_mono",
+        "WeightedRichDirectionalLayers.mass_partition",
+        "WeightedRichDirectionalLayers.weightedRestriction",
+        "WeightedRichDirectionalLayers.weightedRestriction_subset",
+        "WeightedRichDirectionalLayers.weightedRestriction_predecessors",
+        "WeightedRichDirectionalLayers.weightedRestriction_mass_loss",
+        "WeightedRichDirectionalLayers.weightedLayers",
+        "WeightedRichDirectionalLayers.weightedLayers_zero",
+        "WeightedRichDirectionalLayers.weightedLayers_succ",
+        "WeightedRichDirectionalLayers.weightedLayers_step_subset",
+        "WeightedRichDirectionalLayers.weightedLayers_subset_start",
+        "WeightedRichDirectionalLayers.weightedLayers_predecessors",
+        "WeightedRichDirectionalLayers.weightedLayers_mass_loss",
+        "WeightedRichDirectionalLayers.active_column_count",
+        "WeightedRichDirectionalLayers.construct_weightedLayers",
+        "WeightedRichDirectionalLayers.mass_le_image_card_mul",
+        "WeightedRichDirectionalLayers.geometric_classFiber_eq",
+        "WeightedRichDirectionalLayers.image_geometric_classFiber",
+        "WeightedRichDirectionalLayers.weighted_predecessor_vertices",
+        "WeightedRichDirectionalLayers.positive_predecessor_ceiling",
+        "WeightedRichDirectionalLayers.construct_weighted_independent_grains"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T12:05:40.069134+00:00",
+  "exit_code": 0
+}

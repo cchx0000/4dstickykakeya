@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_uniform_retention_transfer
+
+#print axioms NativeUniformRetentionTransfer.image_card_le_mul_of_fiber_images
+#print axioms NativeUniformRetentionTransfer.uniform_subset_card_cross
+#print axioms NativeUniformRetentionTransfer.finite_menu_retention_cross
+#print axioms NativeUniformRetentionTransfer.retained_image_card
+#print axioms NativeUniformRetentionTransfer.retained_image_multiplicity

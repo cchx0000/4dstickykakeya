@@ -1,0 +1,15 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/179b467fc8e6c2779e3d5134d457e696be6f5e1f65cd53651d580c0631ac3127.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_grid_support_population.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_support_population.lean"]
+SOURCE_SHA256 422eccb5000c504dcd6d20cd4e5fabbad6c38101e6de58b3bc1222936f005e6b
+LOCK_ACQUIRED_UTC 2026-10-06T11:44:56.486564+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_support_population.lean:99:4: error: mod_cast has type
+  #({q ∈ B | dist x (witness q) ≤ rho}) ≤ (4 * 2 + 1) ^ d
+but is expected to have type
+  ↑(#({q ∈ B | dist x (witness q) ≤ rho})) ≤ M
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_support_population.lean:129:21: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+LEAN_FINISHED_UTC 2026-10-06T11:48:30.045842+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

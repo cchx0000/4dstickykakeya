@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_parent_slice_relation_readback
+
+#print axioms NativeParentSliceRelationReadback.parentEdges_twice
+#print axioms NativeParentSliceRelationReadback.parent_relations

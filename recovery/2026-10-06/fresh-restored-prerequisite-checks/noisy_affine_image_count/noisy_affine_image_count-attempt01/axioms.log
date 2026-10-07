@@ -1,0 +1,20 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0beb48e758bd92d8d36e0464987b8034654a2e5e920428b8a857251f7962e6d6.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/noisy_affine_image_count-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/noisy_affine_image_count-attempt01/Readback.lean"]
+SOURCE_SHA256 137e5af37b78592f50e2ab8b4ace1ba2bfcbba500e39bd8dfec610a9b76ff190
+LOCK_ACQUIRED_UTC 2026-10-06T09:25:26.603837+00:00
+SHARED_SLOT 2
+LEAN_PID 64
+'NoisyAffineImageCount.same_floor_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.noisy_pair_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.integer_card_le_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.integer_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.noisy_fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.noisy_image_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.delta_fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.delta_image_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.labelled_noisy_fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.labelled_noisy_image_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.coordinate_fiber_image_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoisyAffineImageCount.coarse_noisy_image_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T09:26:59.721469+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

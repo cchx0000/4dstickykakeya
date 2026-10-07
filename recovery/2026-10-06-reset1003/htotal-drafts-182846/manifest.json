@@ -1,0 +1,287 @@
+{
+  "created_utc": "20261006T182846",
+  "state": "UNVERIFIED_SOURCE_DRAFTS_NO_GATE_LAUNCHED",
+  "files": [
+    {
+      "slug": "native_actual_baseline_graph_mass",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_baseline_graph_mass.lean",
+      "source_sha256": "a40566f00292342b0561931f00101ea831b1021d34883b68f2f4baf628fa3952",
+      "declarations": [
+        "of_admitted_core",
+        "exists_actual_baseline_mass"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_matched_shadow_configured_output",
+        "Theorems.Thm_StickyKakeya4_native_matched_shadow_mass",
+        "Theorems.Thm_StickyKakeya4_native_actual_sparse_reference_admission"
+      ]
+    },
+    {
+      "slug": "native_whole_Y_graph_retention",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_whole_Y_graph_retention.lean",
+      "source_sha256": "6de64dc53fb0bad0d3664c51d9682bbe6c0492b948d4b07ae2de4162da248b67",
+      "declarations": [
+        "graph_retention",
+        "select_actual_common_graph",
+        "localSigma",
+        "localSigma_pos",
+        "fraction_eq_localSigma",
+        "total_fiber_weight"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_configured_Y_weighted_retention",
+        "Theorems.Thm_StickyKakeya4_native_retained_slice_count_transfer",
+        "Theorems.Thm_StickyKakeya4_native_literal_Y_height_alignment"
+      ]
+    },
+    {
+      "slug": "native_actual_common_Y_graph_mass",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_common_Y_graph_mass.lean",
+      "source_sha256": "d99a9140f9bba2f68f582c42f070907fd40dd748f7a70c9527171b2a2e2a0eb2",
+      "declarations": [
+        "caller_uniformities",
+        "exists_actual_common_mass"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_actual_baseline_graph_mass",
+        "Theorems.Thm_StickyKakeya4_native_whole_Y_graph_retention",
+        "Theorems.Thm_StickyKakeya4_native_configured_third_relation"
+      ]
+    },
+    {
+      "slug": "native_common_Y_total_budget",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_common_Y_total_budget.lean",
+      "source_sha256": "5ccfd1ab1d7dec1a4082144fe8bbddc004d455f2d1210cf545ed7efcb2edd4a5",
+      "declarations": [
+        "fine_mesh_eq",
+        "input_mesh_eq",
+        "source_thickness_sq_le_original",
+        "radix_cost_from_raw",
+        "local_sigma_from_gap",
+        "exists_total_cutoff",
+        "pay_actual_graph_mass"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_actual_common_Y_graph_mass",
+        "Theorems.Thm_StickyKakeya4_native_output_alignment_menu_budget"
+      ]
+    },
+    {
+      "slug": "native_actual_Y_total_mass",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_Y_total_mass.lean",
+      "source_sha256": "faf8d1a1a3bcf832286edc633274af1276cd0875f3fadd58d822cc8e2d8acd9d",
+      "declarations": [
+        "exists_actual_total_mass"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_common_Y_total_budget",
+        "Theorems.Thm_StickyKakeya4_native_same_Q_fine_graph"
+      ]
+    },
+    {
+      "slug": "native_baseline_third_retention_trace",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_baseline_third_retention_trace.lean",
+      "source_sha256": "4db0eb21b978f27cb0254a369c7212d29989530b5aac045473511e3d3fe169eb",
+      "declarations": [
+        "from_third_source"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_third_XY_source_data",
+        "Theorems.Thm_StickyKakeya4_native_parent_height_graph_core"
+      ]
+    },
+    {
+      "slug": "native_Y_total_parameter_order",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_Y_total_parameter_order.lean",
+      "source_sha256": "f64c63810c848c0bff65fddf824449f58f063bdacbb7ccbb5786e8f22bb31979",
+      "declarations": [
+        "exists_planar_loss",
+        "exists_source_taxes"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_common_Y_total_budget"
+      ]
+    },
+    {
+      "slug": "native_actual_baseline_retention_payment",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_baseline_retention_payment.lean",
+      "source_sha256": "ec808efaa1d31686f216cc754d1bfa5adbc6af5132f5bab98fffce69fdd48be1",
+      "declarations": [
+        "continuation_cost_readback",
+        "final_third_allowance",
+        "baseline_factor_identity",
+        "exists_actual_retention_cutoff"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_actual_height_third_join",
+        "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_extra",
+        "Theorems.Thm_StickyKakeya4_native_retention_output_power",
+        "Theorems.Thm_StickyKakeya4_native_actual_sparse_reference_admission",
+        "Theorems.Thm_StickyKakeya4_native_paid_third_budget"
+      ]
+    },
+    {
+      "slug": "native_Y_total_epsilon_budget",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_Y_total_epsilon_budget.lean",
+      "source_sha256": "de50faad4fad27fcd6d713454325bc08627824c26a316c3e8ab05e79cda86689",
+      "declarations": [
+        "radix_cost_at_epsilon",
+        "exists_epsilon_cutoff",
+        "pay_actual_graph_mass_at_epsilon",
+        "actual_third_tax"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_common_Y_total_budget",
+        "Theorems.Thm_StickyKakeya4_native_rank_exponent_hierarchy"
+      ]
+    },
+    {
+      "slug": "native_actual_Y_epsilon_total_mass",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_Y_epsilon_total_mass.lean",
+      "source_sha256": "c8ca1f2d15f23c856298ba3012d02846be469c000d8112654f7252ded65fd51b",
+      "declarations": [
+        "exists_actual_total_mass"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_Y_total_epsilon_budget",
+        "Theorems.Thm_StickyKakeya4_native_same_Q_fine_graph"
+      ]
+    },
+    {
+      "slug": "native_prescribed_reference_admission",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prescribed_reference_admission.lean",
+      "source_sha256": "e58153f2789cde8459857b0c1a31943dc4645b38c48e9b860781e19704689255",
+      "declarations": [
+        "exists_accuracy",
+        "exists_prescribed_parent_admission"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_reference_parent_population",
+        "Theorems.Thm_StickyKakeya4_native_reference_parent_admission_budget",
+        "Theorems.Thm_StickyKakeya4_native_actual_relative_coarse_admission",
+        "Theorems.Thm_StickyKakeya4_native_reference_admission_invariance"
+      ]
+    },
+    {
+      "slug": "native_reference_admission_invariance",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_reference_admission_invariance.lean",
+      "source_sha256": "ef3a3ff6576df28ce3c3693b00c22d6039d77dae9c9bdc842cdc297fc13e12b9",
+      "declarations": [
+        "sourceCells_parent_eq",
+        "source_parent_eq",
+        "representative_eq",
+        "fullSource_eq",
+        "outputTube_eq",
+        "fine_graph_eq"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_configured_output_pairs",
+        "Theorems.Thm_StickyKakeya4_native_full_coarse_shadow",
+        "Theorems.Thm_StickyKakeya4_native_original_parent_density_core"
+      ]
+    },
+    {
+      "slug": "native_Y_source_parameter_ledger",
+      "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_Y_source_parameter_ledger.lean",
+      "source_sha256": "43efd4a7c954e2fb82fb4d316924bca21be007d786b65a7318a261206a2244b7",
+      "declarations": [
+        "baselineAccuracy",
+        "smallTax",
+        "baseline_accuracy_bounds",
+        "geometry_tax_bound",
+        "actual_total_tax"
+      ],
+      "status": "UNVERIFIED_SOURCE_DRAFT",
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_Y_total_epsilon_budget",
+        "Theorems.Thm_StickyKakeya4_native_actual_new_cut_budget"
+      ]
+    }
+  ],
+  "external_direct_imports": {
+    "Theorems.Thm_StickyKakeya4_native_matched_shadow_configured_output": {
+      "current_olean_present": false
+    },
+    "Theorems.Thm_StickyKakeya4_native_matched_shadow_mass": {
+      "current_olean_present": false
+    },
+    "Theorems.Thm_StickyKakeya4_native_actual_sparse_reference_admission": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_configured_Y_weighted_retention": {
+      "current_olean_present": false
+    },
+    "Theorems.Thm_StickyKakeya4_native_retained_slice_count_transfer": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_literal_Y_height_alignment": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_configured_third_relation": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_output_alignment_menu_budget": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_same_Q_fine_graph": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_third_XY_source_data": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_parent_height_graph_core": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_actual_height_third_join": {
+      "current_olean_present": false
+    },
+    "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_extra": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_retention_output_power": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_paid_third_budget": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_rank_exponent_hierarchy": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_reference_parent_population": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_reference_parent_admission_budget": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_actual_relative_coarse_admission": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_configured_output_pairs": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_full_coarse_shadow": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_parent_density_core": {
+      "current_olean_present": true
+    },
+    "Theorems.Thm_StickyKakeya4_native_actual_new_cut_budget": {
+      "current_olean_present": true
+    }
+  },
+  "preferred_total_factory": "NativeActualYEpsilonTotalMass.exists_actual_total_mass",
+  "weaker_valid_alternative": "NativeActualYTotalMass.exists_actual_total_mass",
+  "scope": "Same original D/R/E1 reference; actual baseline sparse admission and whole-Y common selector; literal fine graph/weight total. No later height/rich-joint retention claimed."
+}

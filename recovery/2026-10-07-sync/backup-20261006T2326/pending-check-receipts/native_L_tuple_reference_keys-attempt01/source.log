@@ -1,0 +1,30 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1062e39592c07b1f0bd2f2959cb7b2ddab3ecd8c90c6c175ac68b91fb74c0535.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean"]
+SOURCE_SHA256 f0f855a187a22a3df531a9d07470f6e44ea813f96b9d4665ac0fd4916ac7f36d
+LOCK_ACQUIRED_UTC 2026-10-06T23:18:46.679667+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:32:54: error: invalid `▸` notation, expected result type of cast is 
+  (w.2.2.2, w.2.1) ∈ E
+however, the equality 
+  hs
+of type 
+  z.swap.swap = (w.2.1, w.2.2.2).swap
+does not contain the expected result type on either the left or the right hand side
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:44:12: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:44:40: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:58:28: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:58:54: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:83:12: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:83:40: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:108:5: error(lean.unknownIdentifier): Unknown identifier `reference_key_fiber_upper`
+LEAN_FINISHED_UTC 2026-10-06T23:19:22.432691+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

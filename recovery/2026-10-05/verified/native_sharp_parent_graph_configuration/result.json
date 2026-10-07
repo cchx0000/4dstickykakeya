@@ -1,0 +1,71 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_sharp_parent_graph_configuration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_sharp_parent_graph_configuration.lean",
+  "source_sha256": "9e684acbdf3e5c95e20b93d22022452c7bcc7efa6952f742fa00047226e675ae",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_sharp_parent_graph_configuration.olean",
+  "names": [
+    "NativeSharpParentGraphConfiguration.SharpCurveParentFinalCleanupData",
+    "NativeSharpParentGraphConfiguration.HasSharpCurveParentRetainedHistory",
+    "NativeSharpParentGraphConfiguration.HasSharpCurveParentStage",
+    "NativeSharpParentGraphConfiguration.middleSelected",
+    "NativeSharpParentGraphConfiguration.middle_selected_depth",
+    "NativeSharpParentGraphConfiguration.half_depth_eq_depth",
+    "NativeSharpParentGraphConfiguration.sharp_stage_with_parent_graph",
+    "NativeSharpParentGraphConfiguration.exists_sharp_parent_graph_configuration"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T17:38:01.965306+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "ece02d2a079d06e2f7124b9358b9dbad16ed1ffe84c38c2db0a2842d634be93f",
+  "source_execution_complete_utc": "2026-10-05T17:38:22.002990+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T174858706998",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSharpParentGraphConfiguration.SharpCurveParentFinalCleanupData": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphConfiguration.HasSharpCurveParentRetainedHistory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphConfiguration.HasSharpCurveParentStage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphConfiguration.middleSelected": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphConfiguration.middle_selected_depth": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphConfiguration.half_depth_eq_depth": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphConfiguration.sharp_stage_with_parent_graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphConfiguration.exists_sharp_parent_graph_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T17:49:04.293135+00:00"
+}

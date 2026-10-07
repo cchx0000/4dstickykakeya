@@ -1,0 +1,56 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_saturated_population_parent_configuration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_saturated_population_parent_configuration.lean",
+  "source_sha256": "3516f1c7c0cff4c758cd947a96ca38410c48296134d3703120443daeb9edd006",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_saturated_population_parent_configuration.olean",
+  "names": [
+    "NativeSaturatedPopulationParentConfiguration.SaturatedParentFinalCleanupData",
+    "NativeSaturatedPopulationParentConfiguration.HasSaturatedParentRetainedHistory",
+    "NativeSaturatedPopulationParentConfiguration.HasSaturatedPopulationParentStage",
+    "NativeSaturatedPopulationParentConfiguration.saturated_stage_with_population_parent",
+    "NativeSaturatedPopulationParentConfiguration.exists_saturated_population_parent_configuration"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T18:04:53.491029+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "0441cbad9fe1a94f5a32c1a6577a52ede089ed47e66176cf4955f53eb81e14ab",
+  "source_execution_complete_utc": "2026-10-05T18:05:47.769943+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T181541209987",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSaturatedPopulationParentConfiguration.SaturatedParentFinalCleanupData": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedPopulationParentConfiguration.HasSaturatedParentRetainedHistory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedPopulationParentConfiguration.HasSaturatedPopulationParentStage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedPopulationParentConfiguration.saturated_stage_with_population_parent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedPopulationParentConfiguration.exists_saturated_population_parent_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T18:16:50.020695+00:00"
+}

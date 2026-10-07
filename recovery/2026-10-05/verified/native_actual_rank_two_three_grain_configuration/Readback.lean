@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_rank_two_three_grain_configuration
+
+#print axioms NativeActualRankTwoThreeGrainConfiguration.exists_actual_rank_two_three_grain_configuration

@@ -1,0 +1,50 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T22:25:18.547217+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_fixed_reference_angular_profile"
+  ],
+  "names": [
+    "NativeFixedReferenceAngularProfile.ballIncidences",
+    "NativeFixedReferenceAngularProfile.ballDirections",
+    "NativeFixedReferenceAngularProfile.ballDirections_card",
+    "NativeFixedReferenceAngularProfile.formal_uniformity",
+    "NativeFixedReferenceAngularProfile.parent_point_uniformity",
+    "NativeFixedReferenceAngularProfile.uniform_point_fiber_le_mean",
+    "NativeFixedReferenceAngularProfile.parent_point_fiber_bounds",
+    "NativeFixedReferenceAngularProfile.parent_point_fiber_upper",
+    "NativeFixedReferenceAngularProfile.same_parent_direction_close",
+    "NativeFixedReferenceAngularProfile.scheduled_ball_lower",
+    "NativeFixedReferenceAngularProfile.floor_mem_radius",
+    "NativeFixedReferenceAngularProfile.ball_angular_cells_card",
+    "NativeFixedReferenceAngularProfile.scheduled_ball_upper",
+    "NativeFixedReferenceAngularProfile.scheduled_angular_profile",
+    "NativeFixedReferenceAngularProfile.relative_power",
+    "NativeFixedReferenceAngularProfile.scheduled_angular_power_profile"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2225.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2225",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2225/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T22:29:43.993778+00:00",
+  "results": [
+    {
+      "attempt": "native_fixed_reference_angular_profile-attempt02",
+      "state": "passed",
+      "declarations": 16
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_reference_slice_ad
+
+#print axioms NativeReferenceSliceAD.fixed_menu_reference_slice_AD

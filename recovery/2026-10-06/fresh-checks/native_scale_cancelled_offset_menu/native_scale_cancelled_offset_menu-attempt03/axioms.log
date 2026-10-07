@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b1da5ea299ed42f53d3fd612149a7995540ade020fdd7020972b04d8a0cc4e49.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_scale_cancelled_offset_menu-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_scale_cancelled_offset_menu-attempt03/Readback.lean"]
+SOURCE_SHA256 8547a199b9c2ec4ae5f2b1ad1807f1c5653fa05cbcd787954e400206269e886c
+'NativeScaleCancelledOffsetMenu.ceiling_scale_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaleCancelledOffsetMenu.offset_width_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaleCancelledOffsetMenu.select_actual_scale_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

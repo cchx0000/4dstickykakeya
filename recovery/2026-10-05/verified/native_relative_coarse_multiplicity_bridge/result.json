@@ -1,0 +1,42 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_relative_coarse_multiplicity_bridge",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_relative_coarse_multiplicity_bridge.lean",
+  "source_sha256": "198542275ab45cdd9e7deb0462e6cb5d562737036ea2fdab83a047ab7ec25197",
+  "names": [
+    "NativeRelativeCoarseMultiplicityBridge.globalPair",
+    "NativeRelativeCoarseMultiplicityBridge.relativePair",
+    "NativeRelativeCoarseMultiplicityBridge.globalPair_eq_actualPair",
+    "NativeRelativeCoarseMultiplicityBridge.conditional_global_relative_multiplicity"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T06:59:53.112053+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeRelativeCoarseMultiplicityBridge.globalPair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRelativeCoarseMultiplicityBridge.relativePair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRelativeCoarseMultiplicityBridge.globalPair_eq_actualPair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRelativeCoarseMultiplicityBridge.conditional_global_relative_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "80741d0ccbcfa0e2ddc435b0911f9fad79e95951683b58695f3a677ed928acc1",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T07:05:00.784864+00:00"
+}

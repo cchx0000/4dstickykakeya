@@ -1,0 +1,9 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/f944e09adeb7d9824685f23f58ed76c5c81b57bcecb92a768f729dae255f1a7a.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_full_chart_direction_bounds-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_full_chart_direction_bounds-attempt01/Readback.lean"]
+SOURCE_SHA256 25e182c094e6fcadb8255c6e176ce6b46eea31531d8802b515ea45a37084b466
+LOCK_ACQUIRED_UTC 2026-10-06T08:56:17.810140+00:00
+SHARED_SLOT 3
+LEAN_PID 63
+'NativeFullChartDirectionBounds.full_source_slope_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T08:57:34.833774+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

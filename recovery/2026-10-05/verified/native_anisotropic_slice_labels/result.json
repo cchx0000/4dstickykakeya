@@ -1,0 +1,84 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_slice_labels",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_anisotropic_slice_labels.lean",
+  "source_sha256": "112007686080fe722b7fd404f498d76ab2ccca2e28550acbdbb83095448e9fb7",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_anisotropic_slice_labels.olean",
+  "names": [
+    "NativeAnisotropicSliceLabels.horizontalCoarsen",
+    "NativeAnisotropicSliceLabels.horizontalCoarsen_height",
+    "NativeAnisotropicSliceLabels.columnLabel_horizontalCoarsen",
+    "NativeAnisotropicSliceLabels.slicePoint",
+    "NativeAnisotropicSliceLabels.sliceClass",
+    "NativeAnisotropicSliceLabels.sliceClass_height",
+    "NativeAnisotropicSliceLabels.sliceClass_point_eq_column",
+    "NativeAnisotropicSliceLabels.sliceRelations",
+    "NativeAnisotropicSliceLabels.sliceRelations_refl",
+    "NativeAnisotropicSliceLabels.sliceRelations_symm",
+    "NativeAnisotropicSliceLabels.caller_column_uniformities"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T15:51:38.226712+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "b6aabf355593eba934361943a0e5591d673552f37e5b5e3a0f953a3d5e837063",
+  "source_execution_complete_utc": "2026-10-05T15:51:43.251076+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160017276020",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeAnisotropicSliceLabels.horizontalCoarsen": [
+      "propext"
+    ],
+    "NativeAnisotropicSliceLabels.horizontalCoarsen_height": [
+      "propext"
+    ],
+    "NativeAnisotropicSliceLabels.columnLabel_horizontalCoarsen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicSliceLabels.slicePoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicSliceLabels.sliceClass": [
+      "propext"
+    ],
+    "NativeAnisotropicSliceLabels.sliceClass_height": [
+      "propext"
+    ],
+    "NativeAnisotropicSliceLabels.sliceClass_point_eq_column": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicSliceLabels.sliceRelations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicSliceLabels.sliceRelations_refl": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicSliceLabels.sliceRelations_symm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicSliceLabels.caller_column_uniformities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:00:23.501568+00:00"
+}

@@ -1,0 +1,36 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/e664e8287e645d269bce36c508dbc1e3b2b50e6dc78e5d53faaf0bff4a77995d.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_window_full_power_cost.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_window_full_power_cost.lean"]
+SOURCE_SHA256 8dadac7adfec5c114200db2cb0a4aab35442e306fdb125df29dc671588a0286f
+LOCK_ACQUIRED_UTC 2026-10-06T08:59:13.134421+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_window_full_power_cost.lean:36:6: error: linarith failed to find a contradiction
+rho K B e s : ℝ
+J : ℕ
+hrho : 0 < rho
+hK : 0 ≤ K
+hs2 : s ≤ 2
+HK : K ≤ rho ^ (-e)
+HB : B ^ 2 ≤ 512 * rho ^ (-(3 / ↑J))
+hproduct : K * B ^ 2 ≤ 512 * rho ^ (-(e + 3 / ↑J))
+h4 : 4 ^ s ≤ 16
+hp : 0 ≤ rho ^ (-(e + 3 / ↑J))
+a✝ : 18014398509481984 * rho ^ (-(3 / ↑J) + -e) < 17592186044416 * (512 * rho ^ (-(3 / ↑J) + -e))
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_window_full_power_cost.lean:49:50: error: unsolved goals
+rho K B e s b epsilon : ℝ
+J : ℕ
+hrho : 0 < rho
+hrho1 : rho ≤ 1
+hK : 0 ≤ K
+hs2 : s ≤ 2
+hb : 0 < b
+HK : K ≤ rho ^ (-e)
+HB : B ^ 2 ≤ 512 * rho ^ (-(3 / ↑J))
+hcut : rho ≤ 2 ^ (-54 / b)
+hbudget : e + 3 / ↑J + b ≤ epsilon
+hexp : -54 / b * -b = 54
+⊢ 0 ≤ ?m.240
+LEAN_FINISHED_UTC 2026-10-06T09:01:32.625532+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

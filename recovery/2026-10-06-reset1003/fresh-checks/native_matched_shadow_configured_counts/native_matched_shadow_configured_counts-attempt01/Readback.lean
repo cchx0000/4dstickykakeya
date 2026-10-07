@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_matched_shadow_configured_counts
+set_option autoImplicit false
+#print axioms NativeMatchedShadowConfiguredCounts.separated_ball_card
+#print axioms NativeMatchedShadowConfiguredCounts.shadowLabel
+#print axioms NativeMatchedShadowConfiguredCounts.inverse_point_fiber
+#print axioms NativeMatchedShadowConfiguredCounts.forward_point_fiber
+#print axioms NativeMatchedShadowConfiguredCounts.pair_fiber_bound
+#print axioms NativeMatchedShadowConfiguredCounts.inverse_image_bounds
+#print axioms NativeMatchedShadowConfiguredCounts.image_bounds

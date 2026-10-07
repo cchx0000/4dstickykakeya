@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_supported_two_map_transfer
+
+#print axioms NativeSupportedTwoMapTransfer.coarse_image_count_le
+#print axioms NativeSupportedTwoMapTransfer.retained_class_count_cross
+#print axioms NativeSupportedTwoMapTransfer.retained_class_count_lower

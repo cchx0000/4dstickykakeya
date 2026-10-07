@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_complete_parent_profiles
+
+#print axioms NativeCompleteParentProfiles.HasCompleteParentProfiles
+#print axioms NativeCompleteParentProfiles.complete_selected_parent_profiles

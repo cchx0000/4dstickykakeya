@@ -1,0 +1,99 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:03:23.032607+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160322233768",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160322233768/AggregateReadback.lean"
+  ],
+  "readback_sha256": "420c96b7ef52028a8a02521e6aaeeec20887b3dd260e8c2f62685b6a7524e092",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_height_residue_selection",
+      "source_sha256": "cccaf4ed41ef012e8e1ddd2dd3c591573a62865600bb991dc06dd5e7749f46cf",
+      "olean_sha256": "d2515c8ead853f37a6a85b95bf13d1e1b95131957a779d7f981375d64a9815d7",
+      "names": [
+        "NativeHeightResidueSelection.same_residue_close_quotient",
+        "NativeHeightResidueSelection.select_height_residues",
+        "NativeHeightResidueSelection.selected_close_heights_same_ancestor",
+        "NativeHeightResidueSelection.exists_residue_separated_node_cut"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_height_slope_variation",
+      "source_sha256": "3aae2b23266ca66e460b10a52a31856c5c30ed486257442a5c204e2c9e522fa0",
+      "olean_sha256": "b2fc997aab3734549846b97407d07eb65e8edbb84e9fc09653bd8fdcb29611d1",
+      "names": [
+        "NativeActualHeightSlopeVariation.horizontalPlane",
+        "NativeActualHeightSlopeVariation.horizontalPlane_le",
+        "NativeActualHeightSlopeVariation.matching_node_horizontal_gap",
+        "NativeActualHeightSlopeVariation.matching_node_matrix_variation",
+        "NativeActualHeightSlopeVariation.matching_height_slope_variation"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_coarse_height_slope_variation",
+      "source_sha256": "1c800212b8c66eee28f1128d2f9a7419d548e07d98eeb341f27af1fb6bb6aa79",
+      "olean_sha256": "49cb2f00961c7d164b52767d8536eedb889dca006f33c233256fac2774668be0",
+      "names": [
+        "NativeCoarseHeightSlopeVariation.node_pair_witness",
+        "NativeCoarseHeightSlopeVariation.same_ancestor_installed_word",
+        "NativeCoarseHeightSlopeVariation.same_coarse_height_slope_variation"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_population_parent_selection",
+      "source_sha256": "638dbacfe8765ddaa83fc5fe405e2b252c4a7fe7cceb5cacc6d43417c0c753e1",
+      "olean_sha256": "ec7f7de25b2ca3b716db98c63b1d91f0741c52448c2555916e5f6945f0bd5c27",
+      "names": [
+        "NativePopulationParentSelection.exists_population_parent",
+        "NativePopulationParentSelection.population_implies_reference_retention",
+        "NativePopulationParentSelection.source_population_parent"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_grain_quotient_injection",
+      "source_sha256": "a0e40ba525bf9c77f8cec97e8785d2a3936efced2f810ea3e91789a1f444449b",
+      "olean_sha256": "db06adbc4d0df733cf6d21e39d1a3e89a18ff0a240e33f679b5a59772e95e389",
+      "names": [
+        "NativeGrainQuotientInjection.tangentCoordinates",
+        "NativeGrainQuotientInjection.tangentCoordinates_norm",
+        "NativeGrainQuotientInjection.residual_mem_normalSpace",
+        "NativeGrainQuotientInjection.coordinates_norm_eq_residual",
+        "NativeGrainQuotientInjection.norm_le_coordinates",
+        "NativeGrainQuotientInjection.same_label_coordinate_bound",
+        "NativeGrainQuotientInjection.same_label_norm_bound",
+        "NativeGrainQuotientInjection.same_coordinate_bins_norm",
+        "NativeGrainQuotientInjection.physical_vertex_separated",
+        "NativeGrainQuotientInjection.physical_difference_horizontal"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_grain_quotient_image",
+      "source_sha256": "25a276139fb1b9c5cbfaf1fe4d5362148bd96c5db55125d6b5a3a64c11136eca",
+      "olean_sha256": "4eb0925a40c16d41f80eb7156d508dbf4485a128a5fbef203b754949408e6166",
+      "names": [
+        "NativeGrainQuotientImage.rawTangent",
+        "NativeGrainQuotientImage.tangent_label_injOn",
+        "NativeGrainQuotientImage.X",
+        "NativeGrainQuotientImage.X_card",
+        "NativeGrainQuotientImage.exists_dense_X",
+        "NativeGrainQuotientImage.full_tangent_image_lower",
+        "NativeGrainQuotientImage.phase_quotient_loss"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:03:28.289626+00:00",
+  "exit_code": 0
+}

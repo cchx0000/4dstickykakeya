@@ -1,0 +1,78 @@
+{
+  "state": "source_passed_pending_readback",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_graph_rank_cap.lean",
+  "source_sha256": "1eae27c9a3890db220bb7b777c50f03c9a66e3dbe29d9674d967f110d8b78486",
+  "created_utc": "2026-10-06T22:22:12.919510+00:00",
+  "namespace": "NativeCurrentGraphRankCap",
+  "declarations": [
+    "NativeCurrentGraphRankCap.graphPlane",
+    "NativeCurrentGraphRankCap.originalGraphPlane",
+    "NativeCurrentGraphRankCap.originalGraphPlane_finrank",
+    "NativeCurrentGraphRankCap.graphWitness",
+    "NativeCurrentGraphRankCap.graphWitness_coordinates",
+    "NativeCurrentGraphRankCap.graphWitness_mem",
+    "NativeCurrentGraphRankCap.graphWitness_distance",
+    "NativeCurrentGraphRankCap.original_graph_infDist",
+    "NativeCurrentGraphRankCap.current_residual_of_readback",
+    "NativeCurrentGraphRankCap.pointNear_graph_eq",
+    "NativeCurrentGraphRankCap.point_minimal_graph_rank",
+    "NativeCurrentGraphRankCap.exists_current_graph_rank_retention",
+    "NativeCurrentGraphRankCap.pointSlab",
+    "NativeCurrentGraphRankCap.current_slab_of_rank_two_failure",
+    "NativeCurrentGraphRankCap.terminal_current_slab",
+    "NativeCurrentGraphRankCap.retained_slab_normalization",
+    "NativeCurrentGraphRankCap.paid_radius_interpolation",
+    "NativeCurrentGraphRankCap.selected_plane_rank_eq",
+    "NativeCurrentGraphRankCap.exists_current_graph_rank_slab_retention"
+  ],
+  "imports": [
+    "Theorems.Thm_StickyKakeya4_native_incident_rank_selection",
+    "Theorems.Thm_StickyKakeya4_native_slab_original_plane"
+  ],
+  "missing_runtime_dependencies": [],
+  "scope": "Original current incidence graph rank-three cap; exact constructed top plane; finite weighted same-source selection; terminal tested-radius weighted slab consumer; exact selected rank under explicit previous-menu inequalities. No kappa>1 wrapper, replacement extremizer, rank-one exclusion, unconditional strict descent, all-width slab conclusion, or Section20 terminal contradiction.",
+  "source_interface": "HasThirdXYSourceData gives T subset S and field readback/norm but no affine offset/residual. Restrict upstream coherence_of_actual_upper hres using current_residual_of_readback. All output labels retain original source D and current E.",
+  "verification": "Strict source attempt02 exit0 with autoImplicit=false, warningAsError=true, maxHeartbeats=1200000, slot2. Independent imported axiom gate explicitly deferred to parent.",
+  "writes": [
+    "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_graph_rank_cap.lean",
+    "/workspace/shared/sticky-recovery-20261006/current-graph-rank-cap-manifest.json"
+  ],
+  "updated_utc": "2026-10-06T22:38:44.728896+00:00",
+  "line_count": 486,
+  "source_checks": {
+    "sorry_admit_axiom_tokens": [],
+    "only_allowed_file_and_manifest_written": true,
+    "compiler_invoked": true
+  },
+  "combined_endpoint": "NativeCurrentGraphRankCap.exists_current_graph_rank_slab_retention",
+  "attempt": 2,
+  "slot": 2,
+  "maxHeartbeats": 1200000,
+  "dependency_pool": {
+    "path": "/workspace/shared/sticky-recovery-20261006/dependency-slice-20261006T222200-pool/status.json",
+    "state": "passed",
+    "total": 437,
+    "compiled": 5,
+    "reused": 432
+  },
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_current_graph_rank_cap.olean",
+  "olean_sha256": "82e796e34d0a6f1b6ab5cefcc420609da9b3802f141eb2e7c5249c86e2d8988c",
+  "source_receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_current_graph_rank_cap-attempt02/result.json",
+  "source_log": "/workspace/shared/sticky-recovery-20261006/verification/native_current_graph_rank_cap-attempt02/source.log",
+  "readback_file": "/workspace/shared/sticky-recovery-20261006/verification/native_current_graph_rank_cap-attempt02/Readback.lean",
+  "verified_declaration_count": 19,
+  "source_unchanged": true,
+  "artifact_unchanged": true,
+  "import_artifacts": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_incident_rank_selection",
+      "path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_incident_rank_selection.olean",
+      "sha256": "f25656bbd86f1a20c3238e59098e42b6f45480759ab62e7d53a67ddf4bbfb3e0"
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_slab_original_plane",
+      "path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_slab_original_plane.olean",
+      "sha256": "1d4a5d6eb55b301d051a1065a482a96c3bfc1e632edde1a60a37df4056f5043b"
+    }
+  ]
+}

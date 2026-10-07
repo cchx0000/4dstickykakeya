@@ -1,0 +1,79 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T10:44:24.971072+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T104423291334",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T104423291334/AggregateReadback.lean"
+  ],
+  "readback_sha256": "b4da64b4c85fff789f97781cfca3efa7a26b01fc28fc778555adc748da40d8f7",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_approximate_fiber_count",
+      "source_sha256": "487a08eec4d8a4fd24f2f23138c613fea65759fb2e98c43147510d67840b96b4",
+      "olean_sha256": "d9c715c3ee1ea03376d0e113fabab9955e545436b269e4fec636ccc532d9b251",
+      "names": [
+        "NativeApproximateFiberCount.fiber",
+        "NativeApproximateFiberCount.infDist_sub_comm",
+        "NativeApproximateFiberCount.card_le_of_approximate_fibers",
+        "NativeApproximateFiberCount.intersection_card_le",
+        "NativeApproximateFiberCount.capacity_le_transverse_power",
+        "NativeApproximateFiberCount.intersection_card_le_transverse_power",
+        "NativeApproximateFiberCount.near_sup_of_two",
+        "NativeApproximateFiberCount.backward_fiber_sum_bound",
+        "NativeApproximateFiberCount.backward_fiber_sum_bound_real",
+        "NativeApproximateFiberCount.minimumPredecessor",
+        "NativeApproximateFiberCount.minimumPredecessor_le",
+        "NativeApproximateFiberCount.backward_fiber_step"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_global_angular_representatives",
+      "source_sha256": "2654da2fe9b78fd211c6c6ad00813b2a1ceaf5507d6c1298f88ceca9c7857183",
+      "olean_sha256": "b43697879368227130912ddd5cf3a5bb0258729d073cddaee7455bf9849a6eb4",
+      "names": [
+        "NativeGlobalAngularRepresentatives.globalAngularMenu",
+        "NativeGlobalAngularRepresentatives.global_fine_representative",
+        "NativeGlobalAngularRepresentatives.exists_global_representatives",
+        "NativeGlobalAngularRepresentatives.exists_global_transverse_packets"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_refined_global_rows",
+      "source_sha256": "b6905d7b3fc141e0950bee744b971c1febc3064e0bb1fcb12a6eb26969022c56",
+      "olean_sha256": "39fb486e25a7730ca66f7d0c000d2cbf205c1afe861fb76a1bf2d0e687b1bc2a",
+      "names": [
+        "NativeRefinedGlobalRows.first_cost_without_radix",
+        "NativeRefinedGlobalRows.nonrank_row_cost",
+        "NativeRefinedGlobalRows.retention_radix_six",
+        "NativeRefinedGlobalRows.nonrank_short_row_cost",
+        "NativeRefinedGlobalRows.refined_projected_row_lower",
+        "NativeRefinedGlobalRows.retained_richness_coefficient",
+        "NativeRefinedGlobalRows.refined_projected_row_lower_absorbed"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_refined_row_density",
+      "source_sha256": "f261df0195515be14511dd42d094f2c96589454918f7cbd4ee8af947ba660588",
+      "olean_sha256": "804177f4019cf284e179ff36bc210350b69f4133063aafc65da5ce623c8c3d63",
+      "names": [
+        "NativeRefinedRowDensity.finest_pair_scale_valid",
+        "NativeRefinedRowDensity.finest_rich_row_bounds",
+        "NativeRefinedRowDensity.two_stage_finest_row_bounds"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T10:46:58.192789+00:00",
+  "exit_code": 0
+}

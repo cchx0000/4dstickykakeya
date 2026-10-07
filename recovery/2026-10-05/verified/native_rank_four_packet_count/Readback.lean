@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_rank_four_packet_count
+
+#print axioms NativeRankFourPacketCount.ratio_le_ceilDiv
+#print axioms NativeRankFourPacketCount.current_node_cap
+#print axioms NativeRankFourPacketCount.retained_node_cross
+#print axioms NativeRankFourPacketCount.four_stage_vertex_count

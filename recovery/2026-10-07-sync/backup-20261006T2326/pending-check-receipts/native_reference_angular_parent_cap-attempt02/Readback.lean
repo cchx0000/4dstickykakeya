@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_reference_angular_parent_cap
+set_option autoImplicit false
+#print axioms NativeReferenceAngularParentCap.slopeCell
+#print axioms NativeReferenceAngularParentCap.single_cell
+#print axioms NativeReferenceAngularParentCap.phase_card_le_angular_card
+#print axioms NativeReferenceAngularParentCap.same_reference_phase_card

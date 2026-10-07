@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_refined_short_row_density
+
+#print axioms NativeRefinedShortRowDensity.queried_rowChildren_comparable
+#print axioms NativeRefinedShortRowDensity.installed_rowChildren_comparable
+#print axioms NativeRefinedShortRowDensity.rowChildren_card_sum
+#print axioms NativeRefinedShortRowDensity.row_card_le_children
+#print axioms NativeRefinedShortRowDensity.queried_children_card_bound
+#print axioms NativeRefinedShortRowDensity.installed_children_card_bound
+#print axioms NativeRefinedShortRowDensity.count_lower_of_partition
+#print axioms NativeRefinedShortRowDensity.volume_constant_bound
+#print axioms NativeRefinedShortRowDensity.short_cell_cost
+#print axioms NativeRefinedShortRowDensity.queried_short_row_lower

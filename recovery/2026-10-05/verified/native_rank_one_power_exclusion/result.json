@@ -1,0 +1,35 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_rank_one_power_exclusion",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_rank_one_power_exclusion.lean",
+  "source_sha256": "7c07bb98eba1722d1a4e7ed285024ede2d4119e5d4c239f71ae1dc5a686cb19c",
+  "names": [
+    "NativeRankOnePowerExclusion.rank_one_budget_le",
+    "NativeRankOnePowerExclusion.rank_one_excluded"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T08:42:18.689812+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "9fce90ff2450a33230ee32e90c81698f4786a368248d4a9d68ea18aeaffaec6b",
+  "source_execution_complete_utc": "2026-10-05T08:53:49.602874+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T085527286272",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeRankOnePowerExclusion.rank_one_budget_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankOnePowerExclusion.rank_one_excluded": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T09:02:17.061168+00:00"
+}

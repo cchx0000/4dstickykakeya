@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_rank_one_slope_cap
+
+#print axioms NativeRankOneSlopeCap.rank_one_cap
+#print axioms NativeRankOneSlopeCap.near_labels_cap
+#print axioms NativeRankOneSlopeCap.slopeVector_eq_normalized_direction
+#print axioms NativeRankOneSlopeCap.slopeVector_norm_le_two
+#print axioms NativeRankOneSlopeCap.actual_slope_cap

@@ -1,0 +1,152 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_nodal_reference_lift",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_nodal_reference_lift.lean",
+  "source_sha256": "743f4b36332325413ce972e84f040c4d98a6d5a7ee09070009edf143c899d470",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_nodal_reference_lift.olean",
+  "names": [
+    "NativeNodalReferenceLift.roundedVertex",
+    "NativeNodalReferenceLift.roundedVertex_distance",
+    "NativeNodalReferenceLift.rounded_occupied_overlap",
+    "NativeNodalReferenceLift.referenceLift",
+    "NativeNodalReferenceLift.currentLift",
+    "NativeNodalReferenceLift.currentLift_snd_injective",
+    "NativeNodalReferenceLift.currentLift_card",
+    "NativeNodalReferenceLift.currentLift_mass",
+    "NativeNodalReferenceLift.currentLift_subset_reference",
+    "NativeNodalReferenceLift.referenceLift_original",
+    "NativeNodalReferenceLift.reference_label_duplication",
+    "NativeNodalReferenceLift.referenceLift_card",
+    "NativeNodalReferenceLift.boxReference",
+    "NativeNodalReferenceLift.box_reference_duplication",
+    "NativeNodalReferenceLift.boxReference_mass",
+    "NativeNodalReferenceLift.fixed_node_vertex_mass",
+    "NativeNodalReferenceLift.referenceLift_subset_box",
+    "NativeNodalReferenceLift.occupiedLabels_nodes",
+    "NativeNodalReferenceLift.rounded_currentLift_subset_box",
+    "NativeNodalReferenceLift.taggedPacket",
+    "NativeNodalReferenceLift.tagged_packet_overlap"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:28:21.440291+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "266f231ccba83bee40024989dd15e1e76e59995b072ab94647d76fa2b259675a",
+  "source_execution_complete_utc": "2026-10-05T12:36:49.711528+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T124702882429",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeNodalReferenceLift.roundedVertex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.roundedVertex_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.rounded_occupied_overlap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.referenceLift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.currentLift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.currentLift_snd_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.currentLift_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.currentLift_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.currentLift_subset_reference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.referenceLift_original": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.reference_label_duplication": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.referenceLift_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.boxReference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.box_reference_duplication": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.boxReference_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.fixed_node_vertex_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.referenceLift_subset_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.occupiedLabels_nodes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.rounded_currentLift_subset_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.taggedPacket": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNodalReferenceLift.tagged_packet_overlap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:48:51.652048+00:00"
+}

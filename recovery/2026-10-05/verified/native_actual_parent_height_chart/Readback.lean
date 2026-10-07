@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_parent_height_chart
+
+#print axioms NativeActualParentHeightChart.nodeCut_image
+#print axioms NativeActualParentHeightChart.nodeCut_nested
+#print axioms NativeActualParentHeightChart.select_actual_parent_height_chart

@@ -1,0 +1,191 @@
+{
+  "state": "passed",
+  "kind": "recovered complete verification; not original Lake exit zero",
+  "original_attempt": "terminal unknown after exec-server transport disconnection",
+  "source_commit": "aac42d003671beb5eb9dacbd77154ba60e41bc26",
+  "frozen_modules": 1020,
+  "original_built": 1018,
+  "isolated_missing": [
+    "Solutions.Sol_StickyKakeya4_selector_closure",
+    "Solutions.Sol_StickyKakeya4_sticky_kakeya_four_dimensional"
+  ],
+  "started_utc": "2026-10-05T13:47:36.350635+00:00",
+  "checks": [
+    {
+      "label": "Sol_StickyKakeya4_selector_closure-source",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "-R",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/live",
+        "-o",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/olean/Solutions/Sol_StickyKakeya4_selector_closure.olean",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/live/Solutions/Sol_StickyKakeya4_selector_closure.lean"
+      ],
+      "start_utc": "2026-10-05T13:47:36.351083+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:48:19.653758+00:00"
+    },
+    {
+      "label": "Sol_StickyKakeya4_sticky_kakeya_four_dimensional-source",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "-R",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/live",
+        "-o",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/olean/Solutions/Sol_StickyKakeya4_sticky_kakeya_four_dimensional.olean",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/live/Solutions/Sol_StickyKakeya4_sticky_kakeya_four_dimensional.lean"
+      ],
+      "start_utc": "2026-10-05T13:48:19.654102+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:48:42.716826+00:00"
+    },
+    {
+      "label": "frozen-theorem-aggregate",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/FrozenTheoremsReadback.lean"
+      ],
+      "start_utc": "2026-10-05T13:48:42.718066+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:50:11.036076+00:00"
+    },
+    {
+      "label": "SmokeTest-import",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/SmokeTestReadback.lean"
+      ],
+      "start_utc": "2026-10-05T13:50:11.037466+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:50:13.543436+00:00"
+    },
+    {
+      "label": "Sol_StickyKakeya4_borel_selector_reduction-import",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/Sol_StickyKakeya4_borel_selector_reductionReadback.lean"
+      ],
+      "start_utc": "2026-10-05T13:50:13.543834+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:50:55.122261+00:00"
+    },
+    {
+      "label": "Sol_StickyKakeya4_exact_collision_identity-import",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/Sol_StickyKakeya4_exact_collision_identityReadback.lean"
+      ],
+      "start_utc": "2026-10-05T13:50:55.123267+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:51:35.135867+00:00"
+    },
+    {
+      "label": "Sol_StickyKakeya4_hereditary_finite_scale_to_frostman-import",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/Sol_StickyKakeya4_hereditary_finite_scale_to_frostmanReadback.lean"
+      ],
+      "start_utc": "2026-10-05T13:51:35.137318+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:52:22.085630+00:00"
+    },
+    {
+      "label": "Sol_StickyKakeya4_lossless_edge_flow_carleson-import",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/Sol_StickyKakeya4_lossless_edge_flow_carlesonReadback.lean"
+      ],
+      "start_utc": "2026-10-05T13:52:22.087374+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:53:12.320878+00:00"
+    },
+    {
+      "label": "Sol_StickyKakeya4_maslov_incidence_equivalence-import",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/Sol_StickyKakeya4_maslov_incidence_equivalenceReadback.lean"
+      ],
+      "start_utc": "2026-10-05T13:53:12.321277+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:54:05.332711+00:00"
+    },
+    {
+      "label": "Sol_StickyKakeya4_selector_closure-import",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/Sol_StickyKakeya4_selector_closureReadback.lean"
+      ],
+      "start_utc": "2026-10-05T13:54:05.334408+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:54:41.237263+00:00"
+    },
+    {
+      "label": "Sol_StickyKakeya4_sticky_kakeya_four_dimensional-import",
+      "command": [
+        "flock",
+        "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+        "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+        "-j1",
+        "-DautoImplicit=false",
+        "-DwarningAsError=true",
+        "/workspace/shared/sticky-recovery-20261005/recovered-frozen-1020/Sol_StickyKakeya4_sticky_kakeya_four_dimensionalReadback.lean"
+      ],
+      "start_utc": "2026-10-05T13:54:41.237855+00:00",
+      "exit_code": 0,
+      "finish_utc": "2026-10-05T13:54:57.464719+00:00"
+    }
+  ],
+  "changed_sources": [],
+  "artifact_count": 1020,
+  "finished_utc": "2026-10-05T13:54:58.243597+00:00"
+}

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_configured_phase_fibers
+set_option autoImplicit false
+#print axioms NativeConfiguredPhaseFibers.relative_phase_fiber_card
+#print axioms NativeConfiguredPhaseFibers.local_source_phase_fiber_card
+#print axioms NativeConfiguredPhaseFibers.local_source_representative_fiber_card

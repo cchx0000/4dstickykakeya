@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_two_scale_configuration
+
+#print axioms NativeTwoScaleConfiguration.depth_gap_power
+#print axioms NativeTwoScaleConfiguration.HasConditionalTwoScale
+#print axioms NativeTwoScaleConfiguration.exists_two_scale_configuration

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_actual_retained_rank_configuration
+
+#print axioms NativeActualRetainedRankConfiguration.HasSecondStageCore
+#print axioms NativeActualRetainedRankConfiguration.exists_actual_retained_rank_configuration

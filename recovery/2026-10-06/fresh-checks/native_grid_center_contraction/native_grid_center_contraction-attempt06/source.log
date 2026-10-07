@@ -1,0 +1,11 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/f5019c9956830e4adbf73dccf92a96dfe86f1b5e1b2bc655ce436379123cb4a4.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean"]
+SOURCE_SHA256 620d45ea2d9e2794390497425142ea4ef32db44609182e6e96a5261a39957c71
+LOCK_ACQUIRED_UTC 2026-10-06T08:42:16.010223+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean:39:2: error: Unused tactic linter: `all_goals try exact Subsingleton.elim _ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+LEAN_FINISHED_UTC 2026-10-06T08:43:18.023676+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

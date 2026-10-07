@@ -1,0 +1,16 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_coarse_scale_reverse_readback.lean"]
+SOURCE_SHA256 569f5133e2b53c1686af3baa1a23f33aa5efae1e6f0e4ec45c81b3e99a248c43
+FIFO compiler ticket: 01791180651938144143-0d692c1d01694d249316aecb3867e61e.request
+FIFO compiler acquired UTC: 2026-10-05T06:10:51.939172+00:00
+'NativeCoarseScaleReverse.phaseMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleReverse.phaseMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleReverse.parentMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleReverse.parentMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleReverse.phase_mem_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleReverse.parent_mem_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleReverse.pair_fiber_image_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleReverse.point_fiber_image_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleReverse.actual_multiplicity_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleReverse.full_source_multiplicity_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

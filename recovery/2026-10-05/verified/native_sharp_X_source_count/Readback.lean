@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_X_source_count
+
+#print axioms NativeSharpXSourceCount.cancel_depth_and_taxes_le
+#print axioms NativeSharpXSourceCount.source_threshold_cross_cancellation

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_configured_Y_weighted_retention
+set_option autoImplicit false
+#print axioms NativeConfiguredYWeightedRetention.uniform_subset_retention
+#print axioms NativeConfiguredYWeightedRetention.select_literal_Y
+#print axioms NativeConfiguredYWeightedRetention.from_source_data

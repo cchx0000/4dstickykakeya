@@ -1,0 +1,264 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_local_parent_source",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_local_parent_source.lean",
+  "source_sha256": "f5aeb6d0ad263728623a3c5b89f3120ff37c6b624d911dfcf414f884be21d3fe",
+  "names": [
+    "NativeLocalParentSource.parentLabels",
+    "NativeLocalParentSource.mem_parentLabels",
+    "NativeLocalParentSource.selectedCells",
+    "NativeLocalParentSource.mem_selectedCells",
+    "NativeLocalParentSource.selectedCells_subset",
+    "NativeLocalParentSource.selected_incidences",
+    "NativeLocalParentSource.outputCells",
+    "NativeLocalParentSource.mem_outputCells",
+    "NativeLocalParentSource.outputCells_subset",
+    "NativeLocalParentSource.selected_shading_subset_tube",
+    "NativeLocalParentSource.sourceCells",
+    "NativeLocalParentSource.source_direction_separation",
+    "NativeLocalParentSource.source",
+    "NativeLocalParentSource.source_thickness",
+    "NativeLocalParentSource.source_line",
+    "NativeLocalParentSource.source_shading",
+    "NativeLocalParentSource.source_weights_fibreMark",
+    "NativeLocalParentSource.source_geometric_fields",
+    "NativeLocalParentSource.source_original_labels",
+    "NativeLocalParentSource.originalPair",
+    "NativeLocalParentSource.originalPair_injective",
+    "NativeLocalParentSource.source_incidences_readback",
+    "NativeLocalParentSource.source_incidence_card",
+    "NativeLocalParentSource.source_support_readback",
+    "NativeLocalParentSource.selected_cell_fiber_card_le",
+    "NativeLocalParentSource.selected_card_le_output_card",
+    "NativeLocalParentSource.selected_shading_mass_scale",
+    "NativeLocalParentSource.source_total_shading",
+    "NativeLocalParentSource.source_union_volume",
+    "NativeLocalParentSource.source_multiplicity",
+    "NativeLocalParentSource.sum_originalLabel",
+    "NativeLocalParentSource.source_total_shading_eq_parent",
+    "NativeLocalParentSource.selected_parent_mass_le_source",
+    "NativeLocalParentSource.source_center_height_zero",
+    "NativeLocalParentSource.selected_cells_meet_front",
+    "NativeLocalParentSource.selected_shading_mass_scale_enn",
+    "NativeLocalParentSource.selected_parent_mass_le_source_enn",
+    "NativeLocalParentSource.source_total_tubes_eq_parent",
+    "NativeLocalParentSource.selected_parent_card",
+    "NativeLocalParentSource.selected_parent_shading_eq_card",
+    "NativeLocalParentSource.selected_parent_real_shading_eq_card"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:08:21.365927+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeLocalParentSource.parentLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.mem_parentLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selectedCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.mem_selectedCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selectedCells_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_incidences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.outputCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.mem_outputCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.outputCells_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_shading_subset_tube": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.sourceCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_direction_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_thickness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_line": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_shading": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_weights_fibreMark": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_geometric_fields": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_original_labels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.originalPair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.originalPair_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_incidences_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_incidence_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_support_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_cell_fiber_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_card_le_output_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_shading_mass_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_total_shading": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_union_volume": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.sum_originalLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_total_shading_eq_parent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_parent_mass_le_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_center_height_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_cells_meet_front": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_shading_mass_scale_enn": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_parent_mass_le_source_enn": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.source_total_tubes_eq_parent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_parent_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_parent_shading_eq_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentSource.selected_parent_real_shading_eq_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "2927ecfa1d07f302b6f10ef67f8728653c54363fd8979093085a971a6773c8c5",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:09:33.570293+00:00"
+}

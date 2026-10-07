@@ -1,0 +1,27 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_local_menu_interpolation_readback.lean"]
+SOURCE_SHA256 b9a5a1b8b4b2aa2ec3e8b21b399dc5f6cd63d72c3d4b42e9939d2a5084669e90
+FIFO compiler ticket: 01791179293452753986-9d706fd75407472c9378bbf7fd7c495d.request
+FIFO compiler acquired UTC: 2026-10-05T05:48:54.286708+00:00
+'NativeLocalMenuInterpolation.parentPointLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.parentPointRel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.parentPointRel_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.parentPointRel_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.edgeMultiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.degree_eq_parent_point_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.parent_point_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.parentEdges_subset_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.subset_edgeMultiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.off_menu_parent_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.core_off_menu_parent_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeLocalMenuInterpolation.localScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.localScale_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.localScale_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.dyadic_gap_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.localScale_gap_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.localScale_negative_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.off_menu_parent_power_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalMenuInterpolation.off_menu_parent_power_absorbed' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

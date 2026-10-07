@@ -1,0 +1,33 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/82fb903e4c7af0ac1c94f28428f3d96e043c92d283d08978e9ab79fa3108c055.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean"]
+SOURCE_SHA256 a2cbc7628e2b9e722977de77a83979943f6b41da891e4edb01c598263a44a0dd
+LOCK_ACQUIRED_UTC 2026-10-06T21:48:46.985467+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean:83:12: error(lean.unknownIdentifier): Unknown identifier `historyDepth`
+
+Note: It is not possible to treat `historyDepth` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean:96:13: error(lean.unknownIdentifier): Unknown identifier `retentionCost`
+
+Note: It is not possible to treat `retentionCost` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean:117:9: error(lean.unknownIdentifier): Unknown identifier `nodePlane`
+
+Note: It is not possible to treat `nodePlane` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean:126:17: error(lean.unknownIdentifier): Unknown identifier `nodePlane`
+
+Note: It is not possible to treat `nodePlane` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean:151:40: error(lean.unknownIdentifier): Unknown identifier `physicalMesh`
+
+Note: It is not possible to treat `physicalMesh` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean:168:40: error(lean.unknownIdentifier): Unknown identifier `fiberCoefficient`
+
+Note: It is not possible to treat `fiberCoefficient` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean:196:77: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean:197:60: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_rank_two_planar_stage.lean:40:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (14000000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+LEAN_FINISHED_UTC 2026-10-06T22:18:49.949732+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

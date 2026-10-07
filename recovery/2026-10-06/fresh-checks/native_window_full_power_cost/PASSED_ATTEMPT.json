@@ -1,0 +1,33 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_window_full_power_cost",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_window_full_power_cost.lean",
+  "source_sha256": "256328b4bb8672bb2a51bf7efbf824d33e4750bbb359c37f6cf430de8fa69bc8",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_window_full_power_cost.olean",
+  "names": [
+    "NativeWindowFullPowerCost.complete_cost_le",
+    "NativeWindowFullPowerCost.paid_complete_cost"
+  ],
+  "started_utc": "2026-10-06T09:03:44.124547+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "0b27a1c9ebde50acebb524627674e754d59dbc55f826cbdb8f86c48a02ac971b",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeWindowFullPowerCost.complete_cost_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowFullPowerCost.paid_complete_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T09:11:21.449605+00:00"
+}

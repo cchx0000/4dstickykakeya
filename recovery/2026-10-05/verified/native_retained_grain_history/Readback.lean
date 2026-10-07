@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_retained_grain_history
+
+#print axioms NativeRetainedGrainHistory.historyCutoff
+#print axioms NativeRetainedGrainHistory.historyCutoff_spec
+#print axioms NativeRetainedGrainHistory.rank_halving_cost
+#print axioms NativeRetainedGrainHistory.retained_power_after_halving
+#print axioms NativeRetainedGrainHistory.historyDepth
+#print axioms NativeRetainedGrainHistory.historyDepth_eq_depth
+#print axioms NativeRetainedGrainHistory.historyDepth_le_stop
+#print axioms NativeRetainedGrainHistory.HasRetainedHistory
+#print axioms NativeRetainedGrainHistory.construct_actual_retained_history

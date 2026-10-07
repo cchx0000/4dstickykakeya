@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_column_population_bounds
+
+#print axioms NativeColumnPopulationBounds.relativeWidth
+#print axioms NativeColumnPopulationBounds.relativeWidth_pos
+#print axioms NativeColumnPopulationBounds.inverse_scale_cube
+#print axioms NativeColumnPopulationBounds.column_point_image
+#print axioms NativeColumnPopulationBounds.column_phase_height_image
+#print axioms NativeColumnPopulationBounds.column_height_image
+#print axioms NativeColumnPopulationBounds.column_multiplicity_card
+#print axioms NativeColumnPopulationBounds.reference_numerator_height_bounds

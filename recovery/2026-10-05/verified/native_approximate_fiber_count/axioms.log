@@ -1,0 +1,42 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T104423291334", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T104423291334/AggregateReadback.lean"]
+READBACK_SHA256 b4da64b4c85fff789f97781cfca3efa7a26b01fc28fc778555adc748da40d8f7
+Dedicated staging slot 3 acquired UTC: 2026-10-05T10:45:40.987059+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7775008 kB
+'NativeApproximateFiberCount.backward_fiber_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.backward_fiber_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.backward_fiber_sum_bound_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.capacity_le_transverse_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.card_le_of_approximate_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.infDist_sub_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.intersection_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.intersection_card_le_transverse_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeApproximateFiberCount.minimumPredecessor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.minimumPredecessor_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeApproximateFiberCount.near_sup_of_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGlobalAngularRepresentatives.exists_global_representatives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGlobalAngularRepresentatives.exists_global_transverse_packets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGlobalAngularRepresentatives.globalAngularMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGlobalAngularRepresentatives.global_fine_representative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRefinedGlobalRows.first_cost_without_radix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedGlobalRows.nonrank_row_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedGlobalRows.nonrank_short_row_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedGlobalRows.refined_projected_row_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedGlobalRows.refined_projected_row_lower_absorbed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRefinedGlobalRows.retained_richness_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedGlobalRows.retention_radix_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowDensity.finest_pair_scale_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowDensity.finest_rich_row_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedRowDensity.two_stage_finest_row_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

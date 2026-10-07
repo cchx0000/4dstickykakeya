@@ -1,0 +1,116 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_weighted_packet_layers",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_weighted_packet_layers.lean",
+  "source_sha256": "457cf37ef823bfc608acc5496aaaca29870958b2a9ad2c7800dedb51ea9caf87",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_weighted_packet_layers.olean",
+  "names": [
+    "NativeWeightedPacketLayers.packetMass",
+    "NativeWeightedPacketLayers.restriction",
+    "NativeWeightedPacketLayers.restriction_subset",
+    "NativeWeightedPacketLayers.restriction_predecessors",
+    "NativeWeightedPacketLayers.restriction_mass_loss",
+    "NativeWeightedPacketLayers.overlapCount",
+    "NativeWeightedPacketLayers.cover_count_le_overlap",
+    "NativeWeightedPacketLayers.packet_mass_sum",
+    "NativeWeightedPacketLayers.packet_mass_sum_le",
+    "NativeWeightedPacketLayers.active_packet_count",
+    "NativeWeightedPacketLayers.layers",
+    "NativeWeightedPacketLayers.layers_step_subset",
+    "NativeWeightedPacketLayers.layers_subset_start",
+    "NativeWeightedPacketLayers.layers_predecessors",
+    "NativeWeightedPacketLayers.layers_mass_loss"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:05:54.227231+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "a0e28e7b4c76d6a4e9681324dfdfdd38d961ceadf0f5e6a8fa4ad3e0d288e54a",
+  "source_execution_complete_utc": "2026-10-05T12:11:42.203106+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T121214248540",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeWeightedPacketLayers.packetMass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.restriction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.restriction_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.restriction_predecessors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.restriction_mass_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.overlapCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.cover_count_le_overlap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.packet_mass_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.packet_mass_sum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.active_packet_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.layers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.layers_step_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.layers_subset_start": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.layers_predecessors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedPacketLayers.layers_mass_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:16:18.515073+00:00"
+}

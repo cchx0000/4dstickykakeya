@@ -1,0 +1,19 @@
+import Theorems.Thm_StickyKakeya4_native_quantized_line_packets
+
+#print axioms NativeQuantizedLinePackets.packetLabel
+#print axioms NativeQuantizedLinePackets.neighbors
+#print axioms NativeQuantizedLinePackets.neighbors_card
+#print axioms NativeQuantizedLinePackets.mem_indexBox_symm
+#print axioms NativeQuantizedLinePackets.mem_neighbors_symm
+#print axioms NativeQuantizedLinePackets.floor_mem_interval
+#print axioms NativeQuantizedLinePackets.abs_sub_le_of_floor_mem
+#print axioms NativeQuantizedLinePackets.label_mem_box_of_normal_bound
+#print axioms NativeQuantizedLinePackets.near_of_label_mem_box
+#print axioms NativeQuantizedLinePackets.packetLabel_mem_neighbors
+#print axioms NativeQuantizedLinePackets.neighbors_geometry
+#print axioms NativeQuantizedLinePackets.packet
+#print axioms NativeQuantizedLinePackets.occurrences
+#print axioms NativeQuantizedLinePackets.packet_geometry
+#print axioms NativeQuantizedLinePackets.row_subset_occurrences
+#print axioms NativeQuantizedLinePackets.packet_overlap
+#print axioms NativeQuantizedLinePackets.occurrence_overlap

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_local_plane_packet_transfer
+
+#print axioms NativeLocalPlanePacketTransfer.matching_word_near_plane
+#print axioms NativeLocalPlanePacketTransfer.matching_chain_plane_transfer
+#print axioms NativeLocalPlanePacketTransfer.exists_global_local_plane_representatives

@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_scaled_line_packets
+
+#print axioms NativeScaledLinePackets.packet
+#print axioms NativeScaledLinePackets.occurrences
+#print axioms NativeScaledLinePackets.packetLabel_mem_neighbors_of_row
+#print axioms NativeScaledLinePackets.packet_geometry
+#print axioms NativeScaledLinePackets.row_subset_occurrences
+#print axioms NativeScaledLinePackets.packet_overlap
+#print axioms NativeScaledLinePackets.occurrence_overlap
+#print axioms NativeScaledLinePackets.rounded_row_subset
+#print axioms NativeScaledLinePackets.rounded_occurrence_overlap
+#print axioms NativeScaledLinePackets.rounded_packet_geometry

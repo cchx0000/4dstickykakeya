@@ -1,0 +1,52 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T193536987063", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T193536987063/AggregateReadback.lean"]
+READBACK_SHA256 f8a3f3c15bd101ca85cc05f69cc337afb9cf03c3f681c30d8e647f8873879040
+Dedicated staging slot 3 acquired UTC: 2026-10-05T19:36:43.501451+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8699564 kB
+'NativeGenericFinalHistory.HasPrescribedFinalStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericFinalHistory.prescribed_final_stage_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericFinalHistory.prescribed_final_stage_of_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericParentGraph.HasSaturatedCurveParentRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericParentGraph.HasSaturatedCurveParentStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericParentGraph.SaturatedCurveParentFinalCleanupData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericParentGraph.half_depth_eq_depth' depends on axioms: [propext, Quot.sound]
+'NativeGenericParentGraph.middleSelected' depends on axioms: [propext, Quot.sound]
+'NativeGenericParentGraph.middle_selected_depth' depends on axioms: [propext, Quot.sound]
+'NativeGenericParentGraph.saturated_stage_with_parent_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericParentMenu.HasPrescribedHorizontalStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericParentMenu.callerRelations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericParentMenu.prescribed_stage_with_horizontal_menu' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericPrescribedHistory.HasPrescribedHistoryStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericPrescribedHistory.prescribed_history_stage_of_compatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericSaturatedParent.HasSaturatedParentRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericSaturatedParent.HasSaturatedPopulationParentStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericSaturatedParent.SaturatedParentFinalCleanupData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericSaturatedParent.saturated_stage_with_population_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePhysicalReferenceData.HasPhysicalUniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhysicalReferenceData.retained_scheduled_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhysicalReferenceData.squared_raw_ratio_of_middle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYFixedBudget.exists_source_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYFixedBudget.fixedCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYFixedBudget.fixedCost_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYFixedBudget.pay_XY_and_quotient_constants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYFixedBudget.sourceCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYFixedBudget.sourceCutoff_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYFixedBudget.sourceCutoff_pays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYFixedBudget.sourceCutoff_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

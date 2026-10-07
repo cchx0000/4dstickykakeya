@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_old_parent_near_lower_readback.lean"]
+SOURCE_SHA256 9ea2f858863231b60c5f3dd73cc655138d11b38718737dbe6347f7ec4def873d
+FIFO compiler ticket: 01791180847042178990-6488fc738c96466e9ef775b5bc6c3f10.request
+FIFO compiler acquired UTC: 2026-10-05T06:14:07.043182+00:00
+'NativeOldParentNearLower.all_old_parent_near_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOldParentNearLower.old_cost_le_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOldParentNearLower.actual_old_parent_near_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

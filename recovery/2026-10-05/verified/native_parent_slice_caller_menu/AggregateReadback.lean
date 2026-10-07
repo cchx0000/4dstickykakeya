@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_parent_slice_caller_menu
+
+set_option autoImplicit false
+#print axioms NativeParentSliceCallerMenu.classLabel
+#print axioms NativeParentSliceCallerMenu.parent_occupied_class_counts
+#print axioms NativeParentSliceCallerMenu.parent_uniformities
+#print axioms NativeParentSliceCallerMenu.pointLabel
+#print axioms NativeParentSliceCallerMenu.relations
+#print axioms NativeParentSliceCallerMenu.relations_refl
+#print axioms NativeParentSliceCallerMenu.relations_symm

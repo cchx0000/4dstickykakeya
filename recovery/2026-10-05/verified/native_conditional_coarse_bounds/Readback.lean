@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_coarse_bounds
+
+#print axioms NativeConditionalCoarseBounds.physical_to_relative
+#print axioms NativeConditionalCoarseBounds.physical_lower

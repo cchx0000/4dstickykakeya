@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_physical_local_offset_coherence",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_physical_local_offset_coherence.lean",
+  "source_sha256": "6fac89b037e08b387b75f1f4ec63b7d6cf7706155620aaa5d9a3c339135c7064",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_physical_local_offset_coherence.olean",
+  "names": [
+    "NativePhysicalLocalOffsetCoherence.actual_local_cell_offset_cap",
+    "NativePhysicalLocalOffsetCoherence.select_actual_matrix_offset_menu"
+  ],
+  "started_utc": "2026-10-06T20:31:25.982236+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "25f41132283246343e1b0fcdcf597523ba2612be5401f85037d025ce5f3ac7b9",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T20:33:30.718013+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2051",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativePhysicalLocalOffsetCoherence.actual_local_cell_offset_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhysicalLocalOffsetCoherence.select_actual_matrix_offset_menu": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T20:54:11.985681+00:00",
+  "canonical_scope": "new_canonical_module"
+}

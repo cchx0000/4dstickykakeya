@@ -1,0 +1,14 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/16739dd59dcc1538fff4d193a7ab8c085cafe1d1091a22d0ed4a65896a819249.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_Y_common_scale_selection.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_Y_common_scale_selection.lean"]
+SOURCE_SHA256 861574afc5b893e7b2764f9bfaf2fa0a26ffc65190d5b818e7b005ca20482471
+LOCK_ACQUIRED_UTC 2026-10-06T13:53:38.569942+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_Y_common_scale_selection.lean:48:4: error: Type mismatch: After simplification, term
+  hc
+ has type
+  @LE.le ℕ instLENat (↑(#selected)) (2 * (u + 10) ^ 2 * (bins + 1) * ↑(#({a ∈ selected | menu a.1 = c})))
+but is expected to have type
+  @LE.le ℕ instLENat (#selected) (2 * (u + 10) ^ 2 * (bins + 1) * #({z ∈ selected | menu z.1 = c}))
+LEAN_FINISHED_UTC 2026-10-06T13:54:07.033994+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

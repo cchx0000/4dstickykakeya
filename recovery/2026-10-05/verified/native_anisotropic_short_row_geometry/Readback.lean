@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_anisotropic_short_row_geometry
+
+#print axioms NativeAnisotropicShortRowGeometry.chartWidth
+#print axioms NativeAnisotropicShortRowGeometry.columnLabel
+#print axioms NativeAnisotropicShortRowGeometry.columnHalo
+#print axioms NativeAnisotropicShortRowGeometry.columnHalo_card
+#print axioms NativeAnisotropicShortRowGeometry.chart_spatial_sub
+#print axioms NativeAnisotropicShortRowGeometry.chart_height_sub
+#print axioms NativeAnisotropicShortRowGeometry.short_row_chart_close
+#print axioms NativeAnisotropicShortRowGeometry.short_row_column_mem_halo

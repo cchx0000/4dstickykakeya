@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_mixed_grain_core
+
+#print axioms NativeSharpMixedGrainCore.HasMixedIncidenceThreshold
+#print axioms NativeSharpMixedGrainCore.source_sharp_mixed_grain_core

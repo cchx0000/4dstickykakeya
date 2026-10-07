@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_reference_slice_budget_final
+
+#print axioms NativeReferenceSliceBudgetFinal.actual_reference_constant_le_power

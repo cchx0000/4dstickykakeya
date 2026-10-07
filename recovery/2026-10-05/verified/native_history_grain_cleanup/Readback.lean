@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_history_grain_cleanup
+
+#print axioms NativeHistoryGrainCleanup.classical_image_eq
+#print axioms NativeHistoryGrainCleanup.density_from_count
+#print axioms NativeHistoryGrainCleanup.exists_actual_final_grain_core

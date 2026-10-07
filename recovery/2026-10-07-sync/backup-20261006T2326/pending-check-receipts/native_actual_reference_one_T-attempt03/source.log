@@ -1,0 +1,1592 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2c3e3a85e913422c9b5a2d77dfd086aca17b4c7332d77dc8e1d91174e2c0f5ab.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean"]
+SOURCE_SHA256 3abf4608edca470d7cd60ef9d12c43bc8cc2367e8b60f473cdbfcb6035639642
+LOCK_ACQUIRED_UTC 2026-10-06T21:02:51.402482+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:117:12: error: don't know how to synthesize placeholder for argument `w`
+context:
+n g L L2 L3 dOld dExtra Jhorizontal Khalf : ℕ
+D : FiniteScaleSource n
+eta tau seed e zeta eta0 c c2 epsilonGraph : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+htau : 0 < tau
+ref : Reference h tau htau seed e zeta L g
+F : Finset (Fin n × Index)
+hFref : F ⊆ ref.E1
+oldPlane : Index → Submodule ℝ E4
+j : Fin (g + 1)
+hNearF : ∀ z ∈ F, Metric.infDist (slopeVector D z.1) ↑(oldPlane z.2) ≤ radius (rankWindow tau) ⋯ g ref.level j
+selected : Fin (2 * Khalf)
+_hKhalf : 0 < Khalf
+hmid : historyDepth (2 * Khalf) (↑(ref.schedule j)) selected = middleDepth ↑(ref.schedule j)
+RelOld : Fin dOld → Fin n × Index → Fin n × Index → Prop
+m : ℕ := ⋯
+r : ℝ := ⋯
+lambda : ℝ := ⋯
+F1 : ℕ := ⋯
+G : ℕ := ⋯
+F2 : ℕ := ⋯
+Q2 : ℕ := ⋯
+previous : Fin 4
+_hPrevious : ↑previous + 1 = ↑1
+test : Fin (g + 1)
+_hTest : test ∈ NativeRankMesoscopicRadiusMenu.allowed D.thickness (rankWindow tau) ⋯ g ref.level (cutoff c previous)
+_hrq : radius (rankWindow tau) ⋯ g ref.level j ≤ radius (rankWindow tau) ⋯ g ref.level test
+_hqr : radius (rankWindow tau) ⋯ g ref.level test ≤ radius (rankWindow tau) ⋯ g ref.level j ^ (2 * c)
+hqRaw :
+  radius (rankWindow tau) ⋯ g ref.level j ^ (2 * c) / (2 * D.thickness ^ (-(1 / ↑g))) ≤
+    radius (rankWindow tau) ⋯ g ref.level test
+E2 : Finset (Fin n × Index)
+hE2F : E2 ⊆ F
+hE2n : E2.Nonempty
+_hE2old : E2 ⊆ retained ref.original ref.R
+_hRetF :
+  #F ≤
+    retentionCost
+        (size (dOld + 1) (Jhorizontal + 1) + (2 * Khalf + 1 + (2 * Khalf + 1)) + (2 * Khalf + 1 + (2 * Khalf + 1)) +
+              (2 * Khalf + 1 + (2 * Khalf + 1)) +
+            1 +
+          (g + 1) * (g + 1))
+        1 L2 *
+      #E2
+_hRetE1 :
+  radius (rankWindow tau) ⋯ g ref.level j ^ rankLoss eta0 c 1 / (4 * (↑g + 1)) * ↑(#ref.E1) ≤
+    ↑(retentionCost
+          (size (dOld + 1) (Jhorizontal + 1) + (2 * Khalf + 1 + (2 * Khalf + 1)) + (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                (2 * Khalf + 1 + (2 * Khalf + 1)) +
+              1 +
+            (g + 1) * (g + 1))
+          1 L2) *
+      ↑(#E2)
+_hNearE2 :
+  radius (rankWindow tau) ⋯ g ref.level j ^ rankLoss eta0 c 1 / (4 * (↑g + 1)) /
+        (↑(factor ref.dimension (g + 1) L) *
+          ↑(retentionCost
+              (size (dOld + 1) (Jhorizontal + 1) + (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                      (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                    (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                  1 +
+                (g + 1) * (g + 1))
+              1 L2)) *
+      NativeIncidenceMultiplicityTower.multiplicity (incidences ref.original) ≤
+    NativeIncidenceMultiplicityTower.multiplicity E2
+Hcaller2 :
+  ∀ (i : Fin (dOld + 1)) (x y : Fin n × Index),
+    x ∈ E2 →
+      y ∈ E2 →
+        degree (fun x => 1) (NativeParentOriginalPointMenu.relations D ref.a (middleDepth ↑(ref.schedule j)) RelOld i)
+            E2 x ≤
+          NativeSourceSizeBounds.radix (#F) L2 ^ 2 *
+            degree (fun x => 1)
+              (NativeParentOriginalPointMenu.relations D ref.a (middleDepth ↑(ref.schedule j)) RelOld i) E2 y
+_hGrains :
+  ∀ (i : Fin (2 * Khalf + 1)),
+    have m := NativeRetainedQueryMenu.grainDepth (2 * Khalf) (↑(ref.schedule j)) i;
+    have b := phaseDepth m;
+    have Delta := 64 / ↑(2 ^ m);
+    have rep := NativeCoarseDirectionThinning.representative h ref.R ref.a (2 ^ b);
+    6 ≤ m ∧
+      m ≤ b ∧
+        b ≤ ref.level ∧
+          0 < Delta ∧
+            Delta ≤ 1 ∧
+              64 / ↑(2 ^ b) = Delta ^ 2 ∧
+                1 / ↑(2 ^ b) ≤ Delta ^ 2 ∧
+                  D.thickness ≤ Delta ^ 2 ∧
+                    Delta / (64 / ↑(2 ^ b)) = 1 / Delta ∧
+                      HasUniformFibers E2 (NativeSourceSizeBounds.radix (#F) L2)
+                          (NativeCoarseShadingUniformity.fixedPair D ref.a ref.level b b rep) ∧
+                        HasUniformFibers E2 (NativeSourceSizeBounds.radix (#F) L2)
+                            (NativeCoarseShadingUniformity.fixedPair D ref.a ref.level b m rep) ∧
+                          (HasUniformFibers E2 (NativeSourceSizeBounds.radix (#F) L2) fun z =>
+                              spatialLabel D (2 ^ b) z.2) ∧
+                            HasUniformFibers E2 (NativeSourceSizeBounds.radix (#F) L2) fun z =>
+                              spatialLabel D (2 ^ m) z.2
+_hPoint : HasUniformFibers E2 (NativeSourceSizeBounds.radix (#F) L2) Prod.snd
+_hRows :
+  ∀ (i j : Fin (g + 1)),
+    HasUniformFibers E2 (NativeSourceSizeBounds.radix (#F) L2)
+      (NativeRefinedRowRelations.rowPair h ref.R ref.a ref.schedule i j)
+_hRich :
+  ∀ e_1 ∈ E2,
+    D.thickness ^ eta * ↑(2 ^ ref.level) /
+        (16384 *
+            (↑(factor ref.dimension (g + 1) L) /
+                (radius (rankWindow tau) ⋯ g ref.level j ^ rankLoss eta0 c 1 / (4 * (↑g + 1))) *
+              ↑(retentionCost
+                  (size (dOld + 1) (Jhorizontal + 1) + (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                          (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                        (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                      1 +
+                    (g + 1) * (g + 1))
+                  1 L2)) *
+          ↑(NativeSourceSizeBounds.radix (#F) L2) ^ 2) ≤
+      ↑(#(NativeLocalPairFibers.pairFiber D ref.a (2 ^ ref.level) E2
+            (NativeLocalPairFibers.localPair D ref.a (2 ^ ref.level) e_1)))
+H2 :
+  125 * 175616 * 16384 *
+          ↑(factor
+              (size (dOld + 1) (Jhorizontal + 1) + (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                      (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                    (2 * Khalf + 1 + (2 * Khalf + 1)) +
+                  1 +
+                (g + 1) * (g + 1))
+              1 L2) *
+        ↑(NativeSourceSizeBounds.radix (#F) L2) ^ 2 *
+      D.thickness ^ (-eta) ≤
+    D.thickness ^ (-c2)
+hPlane : ∀ k ∈ image Prod.snd E2, Module.finrank ℝ ↥(oldPlane k) = ↑1 + 1
+_hTuples :
+  ∀ k ∈ image Prod.snd E2,
+    have A := NativeIncidentRankSelection.pointSet E2 k;
+    have v := fun z => slopeVector D z.1;
+    have C := chains A v (radius (rankWindow tau) ⋯ g ref.level test) (↑1 + 1);
+    C.Nonempty ∧
+      (↑(#A) / 2) ^ (↑1 + 1) ≤ ↑(#C) ∧
+        ∀ xs ∈ C,
+          xs.length = ↑1 + 1 ∧
+            (∀ z ∈ xs, z ∈ E2 ∧ z.2 = k) ∧
+              Separated v (radius (rankWindow tau) ⋯ g ref.level test) xs ∧
+                (LinearIndependent ℝ fun i => v (xs.get i)) ∧
+                  radius (rankWindow tau) ⋯ g ref.level test ^ (2 * (↑1 + 1)) ≤
+                    (Matrix.gram ℝ fun i => v (xs.get i)).det
+_hFamily :
+  ∀ (w : Index → ℕ),
+    RetainedFamily D ref.a (↑(ref.schedule j)) E2 (radius (rankWindow tau) ⋯ g ref.level test) (↑1 + 1) w (2 * Khalf)
+      (radius (rankWindow tau) ⋯ g ref.level j ^ (2 * ↑(↑1 + 1) * rankLoss eta0 c 1))
+_hQueries :
+  ∀ (u : Fin (Jhorizontal + 1)),
+    HasUniformFibers E2 (NativeSourceSizeBounds.radix (#F) L2)
+        (NativeCoarseShadingUniformity.fixedPair D ref.a ref.level
+          (NativeFixedHorizontalMenu.depths Jhorizontal (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) u)
+          (NativeFixedHorizontalMenu.depths Jhorizontal (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) u)
+          (NativeCoarseDirectionThinning.representative h ref.R ref.a
+            (2 ^
+              NativeFixedHorizontalMenu.depths Jhorizontal (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+                u))) ∧
+      HasUniformFibers E2 (NativeSourceSizeBounds.radix (#F) L2)
+        (NativeCoarseShadingUniformity.fixedPair D ref.a ref.level
+          (NativeFixedHorizontalMenu.depths Jhorizontal (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) u)
+          (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+          (NativeCoarseDirectionThinning.representative h ref.R ref.a
+            (2 ^
+              NativeFixedHorizontalMenu.depths Jhorizontal (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) u)))
+_hColumns :
+  ∀ (p : Parent),
+    (HasUniformFibers (parentEdges D ref.a (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) E2 p)
+        (NativeSourceSizeBounds.radix (#F) L2) fun z =>
+        NativeAnisotropicSliceLabels.slicePoint D ref.a (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) p z.2) ∧
+      ∀ (u : Fin (Jhorizontal + 1)),
+        HasUniformFibers (parentEdges D ref.a (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) E2 p)
+          (NativeSourceSizeBounds.radix (#F) L2) fun z =>
+          NativeAnisotropicShortRowGeometry.columnLabel D ref.a
+            (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) p
+            (64 /
+              ↑(2 ^
+                  NativeFixedHorizontalMenu.depths Jhorizontal (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+                    u))
+            (64 / ↑(2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)) z.2
+_hCounts :
+  ∀ (p : Parent) (u : Fin (Jhorizontal + 1)),
+    have A :=
+      image
+        (fun z =>
+          NativeAnisotropicSliceLabels.slicePoint D ref.a (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) p z.2)
+        (parentEdges D ref.a (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) E2 p);
+    ∀ x ∈ A,
+      ∀ y ∈ A,
+        #({z ∈ A |
+              NativeAnisotropicSliceLabels.sliceClass (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+                  (NativeFixedHorizontalMenu.depths Jhorizontal (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+                    u)
+                  z =
+                NativeAnisotropicSliceLabels.sliceClass (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+                  (NativeFixedHorizontalMenu.depths Jhorizontal (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+                    u)
+                  x}) ≤
+          NativeSourceSizeBounds.radix (#F) L2 ^ 4 *
+            #({z ∈ A |
+                NativeAnisotropicSliceLabels.sliceClass (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+                    (NativeFixedHorizontalMenu.depths Jhorizontal
+                      (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) u)
+                    z =
+                  NativeAnisotropicSliceLabels.sliceClass (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+                    (NativeFixedHorizontalMenu.depths Jhorizontal
+                      (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected) u)
+                    y})
+q : ℝ := ⋯
+hq : 0 < q
+hq1 : q ≤ 1
+h21 : E2 ⊆ ref.E1
+hG : 0 < G
+hGF : G ≤ F2
+hQ2 : 0 < Q2
+Hpoint : ∀ (p : Parent), HasUniformFibers (parentEdges D ref.a (2 ^ m) E2 p) Q2 Prod.snd
+C : Finset (Index × List (Fin 3 → ℤ))
+_hC :
+  C ⊆
+    NativeCompatibleAngularCandidates.terminalFamily D ref.a (↑(ref.schedule j)) E2
+      (radius (rankWindow tau) ⋯ g ref.level test) (↑1 + 1)
+S0 : Finset Index
+hS0 : S0 ⊆ image Prod.snd E2
+_hS : S0 = image Prod.fst C
+_hInjective : ∀ (x y : Index × List (Fin 3 → ℤ)), x ∈ C → y ∈ C → x.1 = y.1 → x = y
+_hPointMass : SelfUniform.mass (fun p => pointWeight E2 p.1) C = SelfUniform.mass (pointWeight E2) S0
+_hRetained :
+  radius (rankWindow tau) ⋯ g ref.level j ^ (2 * ↑(↑1 + 1) * rankLoss eta0 c 1) *
+      ↑(SelfUniform.mass (pointWeight E2) (image Prod.snd E2)) ≤
+    ↑(SelfUniform.mass (pointWeight E2) S0)
+_hCompat :
+  ∀ j_1 < 2 * Khalf + 1,
+    ∀ (x y : Index × List (Fin 3 → ℤ)),
+      x ∈ C →
+        y ∈ C →
+          spatialLabel D (2 ^ NativeCompatibleAngularCandidates.depth (2 * Khalf) (↑(ref.schedule j)) j_1) x.1 =
+              spatialLabel D (2 ^ NativeCompatibleAngularCandidates.depth (2 * Khalf) (↑(ref.schedule j)) j_1) y.1 →
+            NativeCompatibleAngularCandidates.projectWord (↑(ref.schedule j))
+                (NativeCompatibleAngularCandidates.depth (2 * Khalf) (↑(ref.schedule j)) j_1) x.2 =
+              NativeCompatibleAngularCandidates.projectWord (↑(ref.schedule j))
+                (NativeCompatibleAngularCandidates.depth (2 * Khalf) (↑(ref.schedule j)) j_1) y.2
+_hWitness :
+  ∀ p ∈ C,
+    NativeCompatibleAngularCandidates.LocalWitness D ref.a (↑(ref.schedule j)) E2
+      (radius (rankWindow tau) ⋯ g ref.level test) (↑1 + 1) p
+_hTrace :
+  ∀ j_1 < 2 * Khalf,
+    ∀ v ∈ image (NativeCompatibleAngularCandidates.node D (2 * Khalf) (↑(ref.schedule j)) (j_1 + 1)) C,
+      NativeCompatibleAngularCandidates.ancestorNode
+            (NativeCompatibleAngularCandidates.depth (2 * Khalf) (↑(ref.schedule j)) (j_1 + 1))
+            (NativeCompatibleAngularCandidates.depth (2 * Khalf) (↑(ref.schedule j)) j_1) v ∈
+          image (NativeCompatibleAngularCandidates.node D (2 * Khalf) (↑(ref.schedule j)) j_1) C ∧
+        (NativeCompatibleAngularCandidates.candidate D (2 * Khalf) (↑(ref.schedule j)) (j_1 + 1) C v ∩
+            NativeCompatibleAngularCandidates.candidate D (2 * Khalf) (↑(ref.schedule j)) j_1 C
+              (NativeCompatibleAngularCandidates.ancestorNode
+                (NativeCompatibleAngularCandidates.depth (2 * Khalf) (↑(ref.schedule j)) (j_1 + 1))
+                (NativeCompatibleAngularCandidates.depth (2 * Khalf) (↑(ref.schedule j)) j_1) v)).Nonempty
+point : Fin (2 * Khalf) → Index → Index
+tuple : Fin (2 * Khalf) → Index → Fin (↑1 + 1) → Fin n × Index
+anchor : Fin (2 * Khalf) → Index → Fin (↑1 + 1) → Fin n
+Hsys :
+  ∀ (i : Fin (2 * Khalf)),
+    IsNodeDirectionSystem D ref.a (historyDepth (2 * Khalf) (↑(ref.schedule j)) i) E2 S0
+      (radius (rankWindow tau) ⋯ g ref.level test) (↑1 + 1) (point i) (tuple i) (anchor i)
+_hWord :
+  ∀ (i : Fin (2 * Khalf)),
+    ∀ p ∈ C,
+      NativeOriginalAngularTupleMenu.angularTuple D ref.a (historyDepth (2 * Khalf) (↑(ref.schedule j)) i)
+          (List.ofFn (tuple i (spatialLabel D (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) i) p.1))) =
+        NativeCompatibleAngularCandidates.projectWord (↑(ref.schedule j))
+          (historyDepth (2 * Khalf) (↑(ref.schedule j)) i) p.2
+_hSame :
+  ∀ (i : Fin (2 * Khalf)) (x y : Index × List (Fin 3 → ℤ)),
+    x ∈ C →
+      y ∈ C →
+        NativeCompatibleAngularCandidates.projectWord (↑(ref.schedule j))
+              (historyDepth (2 * Khalf) (↑(ref.schedule j)) i) x.2 =
+            NativeCompatibleAngularCandidates.projectWord (↑(ref.schedule j))
+              (historyDepth (2 * Khalf) (↑(ref.schedule j)) i) y.2 →
+          tuple i (spatialLabel D (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) i) x.1) =
+              tuple i (spatialLabel D (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) i) y.1) ∧
+            point i (spatialLabel D (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) i) x.1) =
+              point i (spatialLabel D (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) i) y.1)
+_hHistory :
+  HasGrainHistory D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+    (fun i => natStageDirectionIndex h (tuple i)) S0 (NativeSourceSizeBounds.radix (#F) L2)
+    (radius (rankWindow tau) ⋯ g ref.level j ^ rankLoss eta0 c 1 / (4 * (↑g + 1))) (seed / 8) c2
+_hHistoryRet :
+  radius (rankWindow tau) ⋯ g ref.level j ^ ((2 * ↑(↑1 + 1) + 1) * rankLoss eta0 c 1) * ↑(#E2) ≤
+    ↑(WeightedRichDirectionalLayers.mass
+        (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+          (fun i => natStageDirectionIndex h (tuple i)) S0 (2 * Khalf))
+        (pointWeight E2))
+points : Finset Index
+hPointsFinal :
+  points ⊆
+    history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1) (fun j => natStageDirectionIndex h (tuple j)) S0
+      (2 * Khalf)
+_hPointsN : points.Nonempty
+_hHalf :
+  WeightedRichDirectionalLayers.mass
+      (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1) (fun j => natStageDirectionIndex h (tuple j))
+        S0 (2 * Khalf))
+      (pointWeight E2) ≤
+    2 * WeightedRichDirectionalLayers.mass points (pointWeight E2)
+_hTotal :
+  WeightedRichDirectionalLayers.mass S0 (pointWeight E2) ≤
+    2 ^ (2 * Khalf + 1) * WeightedRichDirectionalLayers.mass points (pointWeight E2)
+hMass :
+  radius (rankWindow tau) ⋯ g ref.level j ^ ((2 * ↑(↑1 + 1) + 1) * rankLoss eta0 c 1) * ↑(#E2) ≤
+    ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2))
+_hGrainCounts :
+  ∀ (j_1 : Fin (2 * Khalf)),
+    0 <
+        (fun j_2 =>
+            NativeActualProjectedGrainCount.predecessorProduct D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2) E2
+              (NativeSourceSizeBounds.radix (#F) L2)
+              (scaleThreshold D E2 (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+                  (fun j => natStageDirectionIndex h (tuple j)) S0 ↑j_2)
+                (↑1 + 1) (natStageDirectionIndex h (tuple j_2)))
+              (↑1 + 1))
+          j_1 ∧
+      ↑((fun j_2 =>
+                  vertexCap E2 (spatialLabel D (2 ^ phaseDepth (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)))
+                    (NativeSourceSizeBounds.radix (#F) L2))
+                j_1) *
+            ↑((fun j_2 =>
+                  NativeActualProjectedGrainCount.predecessorProduct D
+                    (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2) E2 (NativeSourceSizeBounds.radix (#F) L2)
+                    (scaleThreshold D E2 (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                      (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+                        (fun j => natStageDirectionIndex h (tuple j)) S0 ↑j_2)
+                      (↑1 + 1) (natStageDirectionIndex h (tuple j_2)))
+                    (↑1 + 1))
+                j_1) *
+          ↑(#(image
+                ((fun j_2 =>
+                    NativeActualProjectedGrainCount.taggedLabel D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                      ((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) j_2) (↑1 + 1))
+                  j_1)
+                (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+                  (fun j => natStageDirectionIndex h (tuple j)) S0 (2 * Khalf)))) ≤
+        625 * NativeActualProjectedGrainCount.transverseCost (radius (rankWindow tau) ⋯ g ref.level test) (↑1 + 1) *
+            ↑(NativeSourceSizeBounds.radix (#F) L2) ^ 2 *
+          ↑(#E2)
+_hDense :
+  ∀ (j_1 : Fin (2 * Khalf)),
+    ∀ x ∈ points,
+      NativeAutomaticWeightedGrainCore.threshold
+            (WeightedRichDirectionalLayers.mass
+              (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+                (fun j => natStageDirectionIndex h (tuple j)) S0 (2 * Khalf))
+              (pointWeight E2))
+            (2 * Khalf)
+            #(image
+                ((fun j_2 =>
+                    NativeActualProjectedGrainCount.taggedLabel D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                      ((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) j_2) (↑1 + 1))
+                  j_1)
+                (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+                  (fun j => natStageDirectionIndex h (tuple j)) S0 (2 * Khalf))) ≤
+          WeightedRichDirectionalLayers.mass
+            (RichDirectionalLayers.classFiber points
+              ((fun j_2 =>
+                  NativeActualProjectedGrainCount.taggedLabel D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                    ((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) j_2) (↑1 + 1))
+                j_1)
+              ((fun j_2 =>
+                  NativeActualProjectedGrainCount.taggedLabel D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                    ((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) j_2) (↑1 + 1))
+                j_1 x))
+            (pointWeight E2) ∧
+        ↑(WeightedRichDirectionalLayers.mass
+                        (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+                          (fun j => natStageDirectionIndex h (tuple j)) S0 (2 * Khalf))
+                        (pointWeight E2)) /
+                    ↑(#E2) *
+                  ↑((fun j_2 =>
+                        vertexCap E2
+                          (spatialLabel D (2 ^ phaseDepth (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)))
+                          (NativeSourceSizeBounds.radix (#F) L2))
+                      j_1) *
+                ↑((fun j_2 =>
+                      NativeActualProjectedGrainCount.predecessorProduct D
+                        (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2) E2 (NativeSourceSizeBounds.radix (#F) L2)
+                        (scaleThreshold D E2 (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                          (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+                            (fun j => natStageDirectionIndex h (tuple j)) S0 ↑j_2)
+                          (↑1 + 1) (natStageDirectionIndex h (tuple j_2)))
+                        (↑1 + 1))
+                    j_1) /
+              (1250 * ↑(2 * Khalf) *
+                  NativeActualProjectedGrainCount.transverseCost (radius (rankWindow tau) ⋯ g ref.level test) (↑1 + 1) *
+                ↑(NativeSourceSizeBounds.radix (#F) L2) ^ 2) <
+            ↑(WeightedRichDirectionalLayers.mass
+                (RichDirectionalLayers.classFiber points
+                  ((fun j_2 =>
+                      NativeActualProjectedGrainCount.taggedLabel D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                        ((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) j_2) (↑1 + 1))
+                    j_1)
+                  ((fun j_2 =>
+                      NativeActualProjectedGrainCount.taggedLabel D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                        ((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) j_2) (↑1 + 1))
+                    j_1 x))
+                (pointWeight E2)) ∧
+          ∀
+            y ∈
+              RichDirectionalLayers.classFiber points
+                ((fun j_2 =>
+                    NativeActualProjectedGrainCount.taggedLabel D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                      ((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) j_2) (↑1 + 1))
+                  j_1)
+                ((fun j_2 =>
+                    NativeActualProjectedGrainCount.taggedLabel D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_2)
+                      ((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) j_2) (↑1 + 1))
+                  j_1 x),
+            spatialLabel D (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1) y =
+                spatialLabel D (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1) x ∧
+              Metric.infDist
+                  (rawVertex D (phaseDepth (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1)) y -
+                    rawVertex D (phaseDepth (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1)) x)
+                  ↑((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) j_1
+                      (spatialLabel D (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1) x)) ≤
+                2 *
+                  NativeActualProjectedGrainCount.grainWidth (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1) (↑1 + 1)
+_hSysFinal :
+  ∀ (j_1 : Fin (2 * Khalf)),
+    IsNodeDirectionSystem D ref.a (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1) E2 points
+      (radius (rankWindow tau) ⋯ g ref.level test) (↑1 + 1) (point j_1) (tuple j_1) (anchor j_1)
+_hFinalTrace :
+  ∀ (j_1 : Fin (2 * Khalf)),
+    ∀ k ∈ points,
+      (spatialLabel D (2 ^ historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1) k, k) ∈
+        scaleLayers D E2 (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1)
+          (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+            (fun j => natStageDirectionIndex h (tuple j)) S0 ↑j_1)
+          (↑1 + 1) (natStageDirectionIndex h (tuple j_1)) (↑1 + 1)
+Hprofiles :
+  HasXYParentProfiles h ref.original ref.R ref.E1 E2 ref.a ref.level
+    (historyDepth (2 * Khalf) (↑(ref.schedule j)) selected)
+    ((fun j node => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple j node))) selected) points
+    (radius (rankWindow tau) ⋯ g ref.level test) (↑1 + 1) (NativeSourceSizeBounds.radix (#F) L2)
+    (factor ref.dimension (g + 1) L)
+    (retentionCost
+      (size (dOld + 1) (Jhorizontal + 1) + (2 * Khalf + 1 + (2 * Khalf + 1)) + (2 * Khalf + 1 + (2 * Khalf + 1)) +
+            (2 * Khalf + 1 + (2 * Khalf + 1)) +
+          1 +
+        (g + 1) * (g + 1))
+      1 L2)
+    ((fun j_1 =>
+        NativeActualProjectedGrainCount.predecessorProduct D (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1) E2
+          (NativeSourceSizeBounds.radix (#F) L2)
+          (scaleThreshold D E2 (historyDepth (2 * Khalf) (↑(ref.schedule j)) j_1)
+            (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) (↑1 + 1)
+              (fun j => natStageDirectionIndex h (tuple j)) S0 ↑j_1)
+            (↑1 + 1) (natStageDirectionIndex h (tuple j_1)))
+          (↑1 + 1))
+      selected)
+    (radius (rankWindow tau) ⋯ g ref.level j ^ rankLoss eta0 c 1 / (4 * (↑g + 1))) zeta tau seed c2 Jhorizontal
+    (dExtra + 3) L3 (↑(ref.schedule j)) Khalf (tuple selected) (radius (rankWindow tau) ⋯ g ref.level j) epsilonGraph
+hPoints : points ⊆ S0
+HsysMiddle : IsNodeDirectionSystem D ref.a m E2 S0 q 2 (point selected) (tuple selected) (anchor selected)
+hMass' : r ^ (5 * rankLoss eta0 c 1) * ↑(#E2) ≤ ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2))
+⊢ ℕ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:420:31: error: unexpected identifier; expected ')', ',' or ':'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:420:6: error: typeclass instance problem is stuck
+  PosMulMono ?m.4135
+
+Note: Lean will not try to resolve this typeclass instance problem because the first, second, third, and fourth type arguments to `PosMulMono` are metavariables. These arguments must be fully determined before Lean will try to resolve the typeclass.
+
+Hint: Adding type annotations and supplying implicit arguments to functions can give Lean more information for typeclass resolution. For example, if you have a variable `x` that you intend to be a `Nat`, but Lean reports it as having an unresolved type like `?m`, replacing `x` with `(x : Nat)` can get typeclass resolution un-stuck.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:287:63: error: unsolved goals
+n g L dOld dExtra Jhorizontal L3 : ℕ
+D : FiniteScaleSource n
+eta zeta seed tau e eta0 c c2 r q epsilonGraph : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+htau : 0 < tau
+ref : Reference h tau htau seed e zeta L g
+Kcoh Ksupport Kupper Khalf : ℕ
+loss seedCap deltaUpper : ℝ
+hc : 0 < c
+hc1 : c ≤ 1
+Hupper : HasUpperEngine Kupper (c ^ 3 / 8) loss seedCap deltaUpper
+Hcaller1 : HasCallerUniformities ref (factory g Kupper)
+heta : 0 ≤ eta
+hzeta : 0 ≤ zeta
+hetaSeed : eta ≤ seed / 8
+hzseed : zeta ≤ seed / 256
+hseedCap : seed ≤ seedCap
+hUpperSmall : D.thickness ≤ deltaUpper
+he0 : 0 < eta0
+hcUnit : c ≤ 1 / (eta0 + 1)
+hr : 0 < r
+hr1 : r ≤ 1
+hrdelta : r ≤ D.thickness ^ cutoff c 1
+htauHalf : tau ≤ 1 / 2
+hTau : tau ≤ commonBudget eta0 c / 1024
+hTauHistory : tau ≤ commonBudget eta0 c / (1000 * (↑(2 * Khalf) + 1))
+hseed : seed ≤ tau / 16384
+hc2 : c2 = commonBudget eta0 c / 4
+hg : 0 < g
+hgrid : 1 / ↑g < rankWindow tau / 4
+j : Fin (g + 1)
+hstop18 : 18 ≤ ↑(ref.schedule j)
+hstopCap : ↑(ref.schedule j) ≤ ref.level / 4
+hidentity : 48 * ↑(2 ^ ↑(ref.schedule j)) * r = 1
+hdelta : 64 * D.thickness ≤ r ^ 2
+hExtraSmall : D.thickness ≤ NativeHistoryDimensionRange.extraCutoff c hc hc1 g
+heGraph : 0 < epsilonGraph
+heGraphHalf : epsilonGraph ≤ 1 / 2
+heSmall : eta0 ≤ epsilonGraph
+hcSmall : c ≤ epsilonGraph / 24
+hKhalf : 0 < Khalf
+hq : 0 < q
+hq1 : q ≤ 1
+hqraw : r ^ (2 * c) / (2 * D.thickness ^ (-(1 / ↑g))) ≤ q
+hError : D.thickness ^ (cutoff c 1 * epsilonGraph / 2) ≤ 1 / errorConstant
+E2 : Finset (Fin n × Index)
+h21 : E2 ⊆ ref.E1
+hE2n : E2.Nonempty
+F2 G Q2 Lgrain : ℕ
+hG : 0 < G
+hGF : G ≤ F2
+H2 : 125 * 175616 * 16384 * ↑F2 * ↑Q2 ^ 2 * D.thickness ^ (-eta) ≤ D.thickness ^ (-c2)
+epsilonPaid deltaBudget : ℝ
+Hbudget : HasBudget epsilonPaid eta0 c g Khalf (dExtra + 3) Jhorizontal L3 deltaBudget
+hBudgetSmall : D.thickness ≤ deltaBudget
+points S0 : Finset Index
+hPoints : points ⊆ S0
+hMass : r ^ (5 * rankLoss eta0 c 1) * ↑(#E2) ≤ ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2))
+point : Index → Index
+tuple : Index → Fin 2 → Fin n × Index
+anchor : Index → Fin 2 → Fin n
+oldPlane : Index → Submodule ℝ E4
+hOld : ∀ k ∈ S0, Module.finrank ℝ ↥(oldPlane k) = 2
+hNear : ∀ z ∈ E2, Metric.infDist (slopeVector D z.1) ↑(oldPlane z.2) ≤ r
+m : ℕ := middleDepth ↑(ref.schedule j)
+F1 : ℕ := factor ref.dimension (g + 1) L
+lambda : ℝ := r ^ rankLoss eta0 c 1 / (4 * (↑g + 1))
+W : ℝ := ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2))
+population : ℝ := lambda * W / (2 * ↑F1 * ↑G * ↑(#E2)) * D.thickness ^ eta
+retain : ℝ := population / rowConstant
+PL : ℝ :=
+  profileLower D.thickness population (columnEpsilon D.thickness lambda (seed / 8) c2) tau (seed / 8)
+    (min (NativeAllTwoScaleConfiguration.boundaryWindow tau) (tau / 16 / 1000))
+PU : ℝ := profileUpper D.thickness (columnEpsilon D.thickness lambda (seed / 8) c2) tau
+plane : Index → Submodule ℝ E4 := nodePlane D tuple
+RelOld : Fin dOld → Fin n × Index → Fin n × Index → Prop
+u R0 : ℕ
+hR0 : 0 < R0
+hbase : rho m ≤ mu m * ↑R0
+hbaseEq : mu m * ↑R0 = 2⁻¹ ^ u
+depths : Fin Kcoh → ℕ
+hdepths : ∀ (k : Fin Kcoh), 6 ≤ depths k ∧ depths k ≤ m + 6
+hErrorWindow : ∀ (k : Fin Kcoh), 5 / 4 * rho m ^ (1 - 2 * epsilonGraph) ≤ 64 / ↑(2 ^ depths k)
+supportDepths : Fin Ksupport → ℕ
+hSupport : ∀ (k : Fin Ksupport), supportDepths k ≤ u + 6
+extras :
+  Parent →
+    Finset (Fin n × Index) →
+      (P : Submodule ℝ E4) →
+        P ≤ heightKernel →
+          Module.finrank ℝ ↥P = 1 →
+            (ℤ → Matrix (Fin 2) (Fin 1) ℝ) →
+              (ℤ → Matrix (Fin 2) (Fin 1) ℝ) →
+                Finset (Fin n × Index) → Fin dExtra → Fin n × Index → Fin n × Index → Prop
+hExtraRefl :
+  ∀ (p : Parent) (Hgraph : Finset (Fin n × Index)) (P : Submodule ℝ E4) (hP : P ≤ heightKernel)
+    (hd : Module.finrank ℝ ↥P = 1) (f Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ) (U : Finset (Fin n × Index)) (k : Fin dExtra)
+    (x : Fin n × Index), extras p Hgraph P hP hd f Fcfg U k x x
+hExtraSymm :
+  ∀ (p : Parent) (Hgraph : Finset (Fin n × Index)) (P : Submodule ℝ E4) (hP : P ≤ heightKernel)
+    (hd : Module.finrank ℝ ↥P = 1) (f Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ) (U : Finset (Fin n × Index)) (k : Fin dExtra)
+    (x y : Fin n × Index), extras p Hgraph P hP hd f Fcfg U k x y → extras p Hgraph P hP hd f Fcfg U k y x
+threshold : ℝ := ↑(#(cutEdges E2 points)) / (2 * ↑(#(image (mixedLabel D ref.a m plane 2) (cutEdges E2 points))))
+Hsys : IsNodeDirectionSystem D ref.a m E2 S0 q 2 point tuple anchor
+Hcaller2 :
+  ∀ (i : Fin (dOld + 1)) (x y : Fin n × Index),
+    x ∈ E2 →
+      y ∈ E2 →
+        SelfUniform.degree (fun x => 1) (NativeParentOriginalPointMenu.relations D ref.a m RelOld i) E2 x ≤
+          Q2 ^ 2 * SelfUniform.degree (fun x => 1) (NativeParentOriginalPointMenu.relations D ref.a m RelOld i) E2 y
+Hpoint : ∀ (p : Parent), HasUniformFibers (parentEdges D ref.a (2 ^ m) E2 p) Q2 Prod.snd
+_hTheta : 0 < lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2))
+_hPopulation :
+  0 <
+    lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) * D.thickness ^ eta
+_hRetain :
+  0 <
+    lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) *
+        D.thickness ^ eta /
+      rowConstant
+H : Finset (Fin n × Index)
+hHpoints : H ⊆ cutEdges E2 points
+_hHn : H.Nonempty
+_hHalf : WeightedRichDirectionalLayers.mass points (pointWeight E2) ≤ 2 * #H
+p : Parent
+_hp : p ∈ image (parentLabel D ref.a (2 ^ m)) ref.R
+_hHpn : (parentEdges D ref.a (2 ^ m) H p).Nonempty
+hPop :
+  lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) * D.thickness ^ eta *
+      ↑(#({i ∈ ref.R | parentLabel D ref.a (2 ^ m) i = p})) ≤
+    D.thickness * ↑(#(parentEdges D ref.a (2 ^ m) H p))
+hReference :
+  ∀ I ⊆ NativeOriginalParentDensityCore.retained ref.original ref.R,
+    lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) *
+            D.thickness ^ eta /
+          rowConstant *
+        ↑(#(parentEdges D ref.a (2 ^ m) I p)) ≤
+      ↑(#(parentEdges D ref.a (2 ^ m) H p))
+_hGrains :
+  ∀ x ∈ parentEdges D ref.a (2 ^ m) H p,
+    lambda * D.thickness ^ (2 * eta + 3 * zeta + 7 * tau) *
+          ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) *
+        ↑Lgrain <
+      NativeSourceParentGrainCleanup.parentGrainConstant * NativeActualProjectedGrainCount.transverseCost q 2 *
+                ↑Q2 ^ 2 *
+              ↑F1 *
+            ↑G *
+          ↑(#E2) *
+        ↑(#(mixedVertices D ref.a m (phaseDepth m) plane 2 (parentEdges D ref.a (2 ^ m) H p)
+              (mixedLabel D ref.a m plane 2 x)))
+_hThreshold :
+  NativeSharpMixedGrainCore.HasMixedIncidenceThreshold D ref.a m plane 2 E2 points (parentEdges D ref.a (2 ^ m) H p)
+hsat : HasPointSaturation (parentEdges D ref.a (2 ^ m) E2 p) (parentEdges D ref.a (2 ^ m) H p)
+_hProfiles :
+  ∀ (u : Fin (Jhorizontal + 1)),
+    NativeCombinedParentProfiles.HasParentProfiles h ref.R ref.E1 E2 ref.a ref.level m
+      (NativeFixedHorizontalMenu.depths Jhorizontal m u) p
+      (lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) *
+          D.thickness ^ eta /
+        rowConstant)
+      lambda tau seed c2
+_hCleaned :
+  ∀ (u : Fin (Jhorizontal + 1)),
+    have relative := 64 / ↑(2 ^ NativeFixedHorizontalMenu.depths Jhorizontal m u) / (64 / ↑(2 ^ m));
+    have M :=
+      (NativeFiniteKakeyaCounts.multiplicity
+          (NativeFullCoarseShadow.fullSource h ref.R ref.a ref.level (NativeFixedHorizontalMenu.depths Jhorizontal m u)
+            (parentEdges D ref.a (2 ^ m) H p))).toReal;
+    lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) *
+                D.thickness ^ eta /
+              rowConstant *
+            D.thickness ^
+              (tau + seed / 8 + 10 * min (NativeAllTwoScaleConfiguration.boundaryWindow tau) (tau / 16 / 1000)) *
+          relative ^ (-extremalExponent) ≤
+        M ∧
+      M ≤ D.thickness ^ (-(3 * tau)) * relative ^ (-extremalExponent)
+_hHeightL :
+  lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) * D.thickness ^ eta ≤
+    43904 * (64 / ↑(2 ^ m)) *
+      ↑(#(NativePhaseHeightPopulation.heightLabels D ref.a (64 / ↑(2 ^ m)) (parentEdges D ref.a (2 ^ m) E2 p)))
+_hHeightU :
+  64 / ↑(2 ^ m) *
+      ↑(#(NativePhaseHeightPopulation.heightLabels D ref.a (64 / ↑(2 ^ m)) (parentEdges D ref.a (2 ^ m) E2 p))) ≤
+    10
+_hPhases :
+  ∀ (f : ℕ),
+    m ≤ f →
+      f ≤ ref.level →
+        (lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) *
+                    D.thickness ^ eta *
+                  D.thickness ^ (2 * zeta) *
+                (↑(2 ^ f) / ↑(2 ^ m)) ^ 3 ≤
+              rowConstant * ↑(#(activePhases D ref.a f (parentEdges D ref.a (2 ^ m) E2 p))) ∧
+            ↑(#(activePhases D ref.a f (parentEdges D ref.a (2 ^ m) E2 p))) ≤
+              D.thickness ^ (-2 * zeta) * (↑(2 ^ f) / ↑(2 ^ m)) ^ 3) ∧
+          lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) *
+                  D.thickness ^ eta *
+                D.thickness ^ (2 * zeta) *
+              (↑(2 ^ f) / ↑(2 ^ m)) ^ 3 ≤
+            43904 * (64 / ↑(2 ^ m)) *
+              ↑(#(NativePhaseHeightPopulation.phaseHeightLabels D ref.a (64 / ↑(2 ^ m)) f
+                    (parentEdges D ref.a (2 ^ m) E2 p)))
+_hPlane : plane = fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))
+hMetricPaid :
+  512 * metricConstant ((↑(ref.schedule j) - 6) / (2 * Khalf) + 1) (NativeSeparatedSpanControl.coefficientCost 2 q 2) ≤
+    r ^ (-2 * epsilonGraph)
+_hell : 1 ≤ 2
+_hell4 : 2 ≤ 4
+Nodes : Finset Index
+_hNodes : Nodes ⊆ image (fineNode D m) (parentEdges D ref.a (2 ^ m) H p)
+u0 : Index
+_hu0 : u0 ∈ Nodes
+hP0 : (fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u)) u0 ≤ heightKernel
+hd :
+  Module.finrank ℝ
+      ↥((fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u)) u0) =
+    2 - 1
+f : ℤ → Matrix (Fin (4 - 2)) (Fin (2 - 1)) ℝ
+B : Finset Index
+hBN : B ⊆ Nodes
+_hBn : B.Nonempty
+Hgraph : Finset (Fin n × Index)
+hGraphEq : Hgraph = nodeCut D m (parentEdges D ref.a (2 ^ m) H p) B
+hGraphHp : Hgraph ⊆ parentEdges D ref.a (2 ^ m) H p
+hGraphN : Hgraph.Nonempty
+hGraphNodes : image (fineNode D m) Hgraph = B
+hGraphRet : #(parentEdges D ref.a (2 ^ m) H p) ≤ selectionCost Khalf * #Hgraph
+hGraphParent : ∀ z ∈ Hgraph, parentLabel D ref.a (2 ^ m) z.1 = p
+_hAlign :
+  ∀ (j_1 : Fin (Khalf + 1)) (u v : Index),
+    u ∈ Nodes →
+      v ∈ Nodes →
+        NativeCompatibleAngularCandidates.spatialAncestor m (halfDepth Khalf (↑(ref.schedule j)) j_1) u 3 =
+            NativeCompatibleAngularCandidates.spatialAncestor m (halfDepth Khalf (↑(ref.schedule j)) j_1) v 3 →
+          NativeCompatibleAngularCandidates.spatialAncestor m (halfDepth Khalf (↑(ref.schedule j)) j_1) u =
+            NativeCompatibleAngularCandidates.spatialAncestor m (halfDepth Khalf (↑(ref.schedule j)) j_1) v
+_hResid :
+  ∀ (j_1 : Fin (Khalf + 1)) (u v : Index),
+    u ∈ B →
+      v ∈ B →
+        |u 3 - v 3| < ↑(2 ^ (m - halfDepth Khalf (↑(ref.schedule j)) j_1)) →
+          NativeCompatibleAngularCandidates.spatialAncestor m (halfDepth Khalf (↑(ref.schedule j)) j_1) u 3 =
+            NativeCompatibleAngularCandidates.spatialAncestor m (halfDepth Khalf (↑(ref.schedule j)) j_1) v 3
+_hZero : ∀ t ∉ image (fun u => u 3) Nodes, f t = 0
+hF : ∀ (t : ℤ), ‖f t‖ ≤ 1 / 4
+hCell :
+  ∀ u ∈ Nodes,
+    cell ((fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u)) u0) =
+      cell ((fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u)) u)
+hRead :
+  ∀ u ∈ Nodes,
+    f (u 3) =
+      nodeSlope ((fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u)) u0) hP0
+        2 _hell _hell4 hd
+        ((fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u)) u) ⋯
+_hGraph :
+  ∀ u ∈ Nodes,
+    ∀ (v : E4),
+      v ∈ (fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u)) u ↔
+        ∃ x,
+          ↑((domainBasis
+                        ((fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u))
+                          u0)
+                        2 hd).repr.symm
+                  x) +
+              ↑((normalBasis
+                        ((fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u))
+                          u0)
+                        hP0 2 _hell _hell4 hd).repr.symm
+                  (matrixVector (f (u 3)) x)) =
+            v
+hMetricGraph :
+  ∀ u ∈ B,
+    ∀ v ∈ B,
+      ‖f (u 3) - f (v 3)‖ ≤
+          metricConstant ((↑(ref.schedule j) - 6) / (2 * Khalf) + 1)
+              (NativeSeparatedSpanControl.coefficientCost 2 q 2) *
+            |rawHeightCoordinate m (u 3) - rawHeightCoordinate m (v 3)| ∧
+        ∀ (shift : ℝ),
+          ‖f (u 3) - f (v 3)‖ ≤
+            512 *
+                metricConstant ((↑(ref.schedule j) - 6) / (2 * Khalf) + 1)
+                  (NativeSeparatedSpanControl.coefficientCost 2 q 2) *
+              |chartHeightCoordinate m shift (u 3) - chartHeightCoordinate m shift (v 3)|
+_hFib :
+  ∀ c ∈ image (mixedLabel D ref.a m (fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) 2) Hgraph,
+    mixedFiber D ref.a m (fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) 2 Hgraph c =
+        mixedFiber D ref.a m (fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) 2
+          (parentEdges D ref.a (2 ^ m) H p) c ∧
+      ∀ (b : ℕ),
+        mixedVertices D ref.a m b (fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) 2 Hgraph c =
+          mixedVertices D ref.a m b (fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) 2
+            (parentEdges D ref.a (2 ^ m) H p) c
+HfinishAll :
+  ∀ (Rel : Fin (dExtra + 3) → Fin n × Index → Fin n × Index → Prop),
+    (∀ (j : Fin (dExtra + 3)) (x : Fin n × Index), Rel j x x) →
+      (∀ (j : Fin (dExtra + 3)) (x y : Fin n × Index), Rel j x y → Rel j y x) →
+        HasThirdXYFinish D eta zeta ref.a q tau (seed / 8) c2 lambda
+          (↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / ↑(#E2)) F1 G Q2 m tuple E2 Hgraph
+          ((fun u => sliceSpace ((fun u => spanOf (fun z => slopeVector D z.1) (List.ofFn (tuple u))) u)) u0) hP0 _hell
+          _hell4 hd f p
+          (lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) *
+            D.thickness ^ eta)
+          (profileLower D.thickness
+            (lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) *
+              D.thickness ^ eta)
+            (columnEpsilon D.thickness lambda (seed / 8) c2) tau (seed / 8)
+            (min (NativeAllTwoScaleConfiguration.boundaryWindow tau) (tau / 16 / 1000)))
+          (profileUpper D.thickness (columnEpsilon D.thickness lambda (seed / 8) c2) tau)
+          (lambda * ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / (2 * ↑F1 * ↑G * ↑(#E2)) *
+              D.thickness ^ eta /
+            rowConstant)
+          (↑(selectionCost Khalf))
+          (↑(#(cutEdges E2 points)) / (2 * ↑(#(image (mixedLabel D ref.a m plane 2) (cutEdges E2 points)))))
+          (r ^ (-2 * epsilonGraph)) L3 Rel
+Hp : Finset (Fin n × Index) := parentEdges D ref.a (2 ^ m) H p
+P0 : Submodule ℝ E4 := horizontalPlane D tuple u0
+hHE2 : H ⊆ E2
+hHpE2p : Hp ⊆ parentEdges D ref.a (2 ^ m) E2 p
+hGraphE2 : Hgraph ⊆ E2
+hGraphRef : Hgraph ⊆ ref.E1
+Hsat : Saturated (parentEdges D ref.a (2 ^ m) E2 p) Hgraph Prod.snd
+hGraphPoints : ∀ z ∈ Hgraph, z.2 ∈ S0
+hNode : ∀ z ∈ Hgraph, spatialLabel D (2 ^ m) z.2 ∈ B
+hGraphNode : ∀ k ∈ image Prod.snd Hgraph, spatialLabel D (2 ^ m) k ∈ Nodes
+hCell' : ∀ k ∈ image Prod.snd Hgraph, cell P0 = cell (horizontalPlane D tuple (spatialLabel D (2 ^ m) k))
+hRead' :
+  ∀ k ∈ image Prod.snd Hgraph,
+    f (rawHeight D m k) = nodeSlope P0 hP0 2 ⋯ ⋯ hd (horizontalPlane D tuple (spatialLabel D (2 ^ m) k)) ⋯
+hMetric :
+  ∀ z ∈ Hgraph,
+    ∀ w ∈ Hgraph,
+      ‖f (rawHeight D m z.2) - f (rawHeight D m w.2)‖ ≤
+        r ^ (-2 * epsilonGraph) *
+          |chartHeightCoordinate m 0 (rawHeight D m z.2) - chartHeightCoordinate m 0 (rawHeight D m w.2)|
+hRefRet : population / rowConstant * ↑(#(parentEdges D ref.a (2 ^ m) ref.E1 p)) ≤ ↑(#(parentEdges D ref.a (2 ^ m) E2 p))
+Hcoh :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta zeta seed tau e eta0 c2 r q epsilon metric : ℝ)
+    (h : IsWangZakharovNativeFiniteInput D eta) (htau : 0 < tau) (L g Khalf : ℕ),
+    0 ≤ eta →
+      0 ≤ zeta →
+        eta ≤ seed / 8 →
+          zeta ≤ seed / 256 →
+            seed ≤ seedCap →
+              D.thickness ≤ deltaUpper →
+                ∀ (ref : Reference h tau htau seed e zeta L g),
+                  HasCallerUniformities ref (factory g Kupper) →
+                    ∀ (E2 S : Finset (Fin n × Index)) (points : Finset Index),
+                      E2 ⊆ ref.E1 →
+                        E2.Nonempty →
+                          S.Nonempty →
+                            ∀ (rank : Fin 4),
+                              1 ≤ ↑rank →
+                                ↑rank + 1 ≤ 3 →
+                                  0 < eta0 →
+                                    c ≤ 1 / (eta0 + 1) →
+                                      0 < r →
+                                        r ≤ 1 →
+                                          r ≤ D.thickness ^ cutoff c rank →
+                                            r ^ ((2 * ↑(↑rank + 1) + 1) * rankLoss eta0 c rank) * ↑(#E2) ≤
+                                                ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) →
+                                              tau ≤ 1 / 2 →
+                                                tau ≤ commonBudget eta0 c / 1024 →
+                                                  tau ≤ commonBudget eta0 c / (1000 * (↑(2 * Khalf) + 1)) →
+                                                    seed ≤ tau / 16384 →
+                                                      c2 = commonBudget eta0 c / 4 →
+                                                        0 < g →
+                                                          1 / ↑g < rankWindow tau / 4 →
+                                                            ∀ (F2 G Q2 : ℕ),
+                                                              0 < G →
+                                                                G ≤ F2 →
+                                                                  125 * 175616 * 16384 * ↑F2 * ↑Q2 ^ 2 *
+                                                                        D.thickness ^ (-eta) ≤
+                                                                      D.thickness ^ (-c2) →
+                                                                    ∀ (j : Fin (g + 1)),
+                                                                      18 ≤ ↑(ref.schedule j) →
+                                                                        ↑(ref.schedule j) ≤ ref.level / 4 →
+                                                                          48 * ↑(2 ^ ↑(ref.schedule j)) * r = 1 →
+                                                                            64 * D.thickness ≤ r ^ 2 →
+                                                                              D.thickness ≤
+                                                                                  NativeHistoryDimensionRange.extraCutoff
+                                                                                    c hc hc1 g →
+                                                                                have m := middleDepth ↑(ref.schedule j);
+                                                                                ∀ (p : Parent),
+                                                                                  Saturated
+                                                                                      (parentEdges D ref.a (2 ^ m) E2 p)
+                                                                                      S Prod.snd →
+                                                                                    HasUniformFibers
+                                                                                        (parentEdges D ⋯ (2 ^ m) E2 p)
+                                                                                        Q2 Prod.snd →
+                                                                                      (have lambda :=
+                                                                                          r ^ rankLoss eta0 c rank /
+                                                                                            (4 * (↑g + 1));
+                                                                                        ⋯) →
+                                                                                        0 < epsilon → ⋯
+_choice : Index → Fin n
+xi : Index → EuclideanSpace ℝ (Fin (4 - (↑1 + 1)))
+_hChoice :
+  ∀
+    k ∈
+      image Prod.snd
+        (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+          (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+            (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+            (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8))),
+    (_choice k, k) ∈
+        second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+          (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+            (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+            (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)) ∧
+      ‖xi k‖ ≤ 5 / 2
+_hResidual :
+  ∀
+    z ∈
+      second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+        (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+          (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+          (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)),
+    ‖(NativeReferenceXYGridLinear.quotientMap P0 hP0 (↑1 + 1) ⋯ ⋯ hd
+              (f (rawHeight D (middleDepth ↑(ref.schedule j)) z.2)))
+            (NativeIncidentAffineAnchorGeometry.localHorizontalSlope D (2 ^ middleDepth ↑(ref.schedule j)) p z.1) -
+          xi z.2‖ ≤
+      5 / 4 * (64 / ↑(2 ^ middleDepth ↑(ref.schedule j))) ^ (1 - 2 * epsilonGraph)
+Pcoh : Finset Index
+_hPcoh :
+  Pcoh ⊆
+    image Prod.snd
+      (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+        (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+          (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+          (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+hSpreN :
+  (NativeFinitePointCoherence.lift
+      (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+        (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+          (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+          (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+      Prod.snd Pcoh).Nonempty
+hSpreFull :
+  NativeFinitePointCoherence.lift
+      (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+        (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+          (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+          (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+      Prod.snd Pcoh ⊆
+    second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+      (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+        Hgraph P0 hP0 ⋯ ⋯ hd
+        (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8))
+_hSpreSat :
+  Saturated (parentEdges D ref.a (2 ^ middleDepth ↑(ref.schedule j)) E2 p)
+    (NativeFinitePointCoherence.lift
+      (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+        (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+          (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+          (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+      Prod.snd Pcoh)
+    Prod.snd
+_hCoherenceCost :
+  #(second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+        (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+          (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+          (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8))) ≤
+    (NativeMatrixHeightWholePoint.modulus (2 * r ^ (-2 * epsilonGraph)) ^ (2 * Kcoh) *
+        ∏ j,
+          ⌈4 ^ (4 - (↑1 + 1)) * (meshAngularConstant * r ^ (-loss) * (64 / ↑(2 ^ depths j)) ^ (-extremalExponent)) /
+              ((64 / ↑(2 ^ depths j)) ^ (-extremalExponent) /
+                (2744 * rowConstant * (↑g + 1) * r ^ (-(9 * rankLoss eta0 c 1))))⌉₊) *
+      #(NativeFinitePointCoherence.lift
+          (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+            (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+              (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+              (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+          Prod.snd Pcoh)
+hCpre :
+  0 <
+    quotientCost q *
+      ↑(NativeMatrixHeightWholePoint.modulus (2 * r ^ (-2 * epsilonGraph)) ^ (2 * Kcoh) *
+          ∏ j,
+            ⌈4 ^ (4 - (↑1 + 1)) * (meshAngularConstant * r ^ (-loss) * (64 / ↑(2 ^ depths j)) ^ (-extremalExponent)) /
+                ((64 / ↑(2 ^ depths j)) ^ (-extremalExponent) /
+                  (2744 * rowConstant * (↑g + 1) * r ^ (-(9 * rankLoss eta0 c 1))))⌉₊)
+hPreRet :
+  ↑(#Hgraph) ≤
+    quotientCost q *
+        ↑(NativeMatrixHeightWholePoint.modulus (2 * r ^ (-2 * epsilonGraph)) ^ (2 * Kcoh) *
+            ∏ j,
+              ⌈4 ^ (4 - (↑1 + 1)) * (meshAngularConstant * r ^ (-loss) * (64 / ↑(2 ^ depths j)) ^ (-extremalExponent)) /
+                  ((64 / ↑(2 ^ depths j)) ^ (-extremalExponent) /
+                    (2744 * rowConstant * (↑g + 1) * r ^ (-(9 * rankLoss eta0 c 1))))⌉₊) *
+      ↑(#(NativeFinitePointCoherence.lift
+            (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+              (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+                (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+                (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+            Prod.snd Pcoh))
+_hFiber :
+  ∀ k ∈ Pcoh,
+    {z ∈
+          NativeFinitePointCoherence.lift
+            (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+              (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+                (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+                (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+            Prod.snd Pcoh |
+        z.2 = k} =
+      {z ∈
+          second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+            (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+              (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+              (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)) |
+        z.2 = k}
+hCoherent :
+  ∀ (u : Fin Kcoh) (z w : Fin n × Index),
+    z ∈
+        NativeFinitePointCoherence.lift
+          (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+            (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+              (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+              (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+          Prod.snd Pcoh →
+      w ∈
+          NativeFinitePointCoherence.lift
+            (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+              (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+                (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+                (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+            Prod.snd Pcoh →
+        physicalCell D ref.a (2 ^ middleDepth ↑(ref.schedule j)) (2 ^ depths u) p z.2 =
+            physicalCell D ref.a (2 ^ middleDepth ↑(ref.schedule j)) (2 ^ depths u) p w.2 →
+          ‖f (rawHeight D (middleDepth ↑(ref.schedule j)) z.2) - f (rawHeight D (middleDepth ↑(ref.schedule j)) w.2)‖ <
+              64 / ↑(2 ^ depths u) ∧
+            ‖xi z.2 - xi w.2‖ ≤ 129 / 4 * (64 / ↑(2 ^ depths u))
+_hHeightCoherent :
+  ∀ (u : Fin Kcoh) (z w : Fin n × Index),
+    z ∈
+        NativeFinitePointCoherence.lift
+          (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+            (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+              (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+              (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+          Prod.snd Pcoh →
+      w ∈
+          NativeFinitePointCoherence.lift
+            (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+              (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+                (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+                (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+            Prod.snd Pcoh →
+        physicalCell D ref.a (2 ^ middleDepth ↑(ref.schedule j)) (2 ^ depths u) p z.2 3 =
+            physicalCell D ref.a (2 ^ middleDepth ↑(ref.schedule j)) (2 ^ depths u) p w.2 3 →
+          ‖f (rawHeight D (middleDepth ↑(ref.schedule j)) z.2) - f (rawHeight D (middleDepth ↑(ref.schedule j)) w.2)‖ <
+            64 / ↑(2 ^ depths u)
+HnextRaw :
+  ∀
+    Snext ⊆
+      NativeFinitePointCoherence.lift
+        (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+          (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+            (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+            (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+        Prod.snd Pcoh,
+    ∀ (Cextra : ℝ),
+      0 < Cextra →
+        ↑(#(NativeFinitePointCoherence.lift
+                  (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+                      (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+                  Prod.snd Pcoh)) ≤
+            Cextra * ↑(#Snext) →
+          ∀ (Rel3 : Fin (dExtra + 3) → Fin n × Index → Fin n × Index → Prop),
+            (∀ (j : Fin (dExtra + 3)) (x : Fin n × Index), Rel3 j x x) →
+              (∀ (j : Fin (dExtra + 3)) (x y : Fin n × Index), Rel3 j x y → Rel3 j y x) →
+                have Ctotal :=
+                  quotientCost q *
+                      ↑(NativeMatrixHeightWholePoint.modulus (2 * r ^ (-2 * epsilonGraph)) ^ (2 * Kcoh) *
+                          ∏ j,
+                            ⌈4 ^ (4 - (↑1 + 1)) *
+                                  (meshAngularConstant * r ^ (-loss) * (64 / ↑(2 ^ depths j)) ^ (-extremalExponent)) /
+                                ((64 / ↑(2 ^ depths j)) ^ (-extremalExponent) /
+                                  (2744 * rowConstant * (↑g + 1) * r ^ (-(9 * rankLoss eta0 c 1))))⌉₊) *
+                    Cextra;
+                have Q3 := NativeSourceSizeBounds.radix (#Snext) L3;
+                have F3 := refinementCost (dExtra + 3 + 2) (Jhorizontal + 1) L3;
+                have CX :=
+                  Ctotal / quotientCost q *
+                    fiberCoefficient D.thickness eta zeta tau (seed / 8) c2 (r ^ rankLoss eta0 c 1 / (4 * (↑g + 1)))
+                      (↑(WeightedRichDirectionalLayers.mass points (pointWeight E2)) / ↑(#E2))
+                      (factor ref.dimension (g + 1) L) G Q2 F3 Q3 q (↑1 + 1);
+                ∃ T,
+                  HasThirdXYSourceData D zeta ref.a (middleDepth ↑(ref.schedule j)) (nodePlane D tuple) E2 Hgraph Snext
+                      T P0 hP0 ⋯ ⋯ hd f p population PL PU Q2 retain (↑(selectionCost Khalf)) Ctotal threshold L3 Rel3
+                      CX ∧
+                    (∀ (u : Fin Kcoh) (z w : Fin n × Index),
+                        z ∈ T →
+                          w ∈ T →
+                            physicalCell D ref.a (2 ^ middleDepth ↑(ref.schedule j)) (2 ^ depths u) p z.2 =
+                                physicalCell D ref.a (2 ^ middleDepth ↑(ref.schedule j)) (2 ^ depths u) p w.2 →
+                              ‖f (rawHeight D (middleDepth ↑(ref.schedule j)) z.2) -
+                                      f (rawHeight D (middleDepth ↑(ref.schedule j)) w.2)‖ <
+                                  64 / ↑(2 ^ depths u) ∧
+                                ‖xi z.2 - xi w.2‖ ≤ 129 / 4 * (64 / ↑(2 ^ depths u))) ∧
+                      (∀ (u : Fin Kcoh) (z w : Fin n × Index),
+                          z ∈ T →
+                            w ∈ T →
+                              physicalCell D ref.a (2 ^ middleDepth ↑(ref.schedule j)) (2 ^ depths u) p z.2 3 =
+                                  physicalCell D ref.a (2 ^ middleDepth ↑(ref.schedule j)) (2 ^ depths u) p w.2 3 →
+                                ‖f (rawHeight D (middleDepth ↑(ref.schedule j)) z.2) -
+                                      f (rawHeight D (middleDepth ↑(ref.schedule j)) w.2)‖ <
+                                  64 / ↑(2 ^ depths u)) ∧
+                        have field :=
+                          fixedField D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+                            (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j))
+                              (↑1 + 1) (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+                              (physicalMesh (middleDepth ↑(ref.schedule j))
+                                  (phaseDepth (middleDepth ↑(ref.schedule j))) /
+                                8))
+                            f;
+                        ∀ v ∈ image (fun z => translatedHeight D ref.a (middleDepth ↑(ref.schedule j)) z.2) T,
+                          ∀ w ∈ image (fun z => translatedHeight D ref.a (middleDepth ↑(ref.schedule j)) z.2) T,
+                            ‖field v - field w‖ ≤
+                              3 * r ^ (-2 * epsilonGraph) *
+                                |referenceHeight (middleDepth ↑(ref.schedule j)) v -
+                                    referenceHeight (middleDepth ↑(ref.schedule j)) w|
+Sq : Finset (Fin n × Index) :=
+  NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+    (physicalMesh m (phaseDepth m) / 8)
+Sfull : Finset (Fin n × Index) := second D ref.a m 2 plane Sq
+F : ℤ → Matrix (Fin (4 - 2)) (Fin (2 - 1)) ℝ := fixedField D ref.a m 2 plane Sq f
+Spre : Finset (Fin n × Index) := NativeFinitePointCoherence.lift Sfull Prod.snd Pcoh
+Gcoh : ℕ :=
+  NativeActualNewCutBudget.coherenceCharge Kcoh 2 g meshAngularConstant rowConstant r loss (rankLoss eta0 c 1)
+    (r ^ (-2 * epsilonGraph)) extremalExponent fun k => 64 / ↑(2 ^ depths k)
+Cpre : ℝ := quotientCost q * ↑Gcoh
+hCpreNorm : 0 < Cpre
+hPreRetNorm : ↑(#Hgraph) ≤ Cpre * ↑(#Spre)
+hFullGraph : Sfull ⊆ Hgraph
+hSpreGraph : Spre ⊆ Hgraph
+Hnext :
+  ∀ U ⊆ Spre,
+    ∀ (Cextra : ℝ),
+      0 < Cextra →
+        ↑(#Spre) ≤ Cextra * ↑(#U) →
+          ∀ (Rel3 : Fin (dExtra + 3) → Fin n × Index → Fin n × Index → Prop),
+            (∀ (k : Fin (dExtra + 3)) (z : Fin n × Index), Rel3 k z z) →
+              (∀ (k : Fin (dExtra + 3)) (z w : Fin n × Index), Rel3 k z w → Rel3 k w z) →
+                let Ctotal := Cpre * Cextra;
+                let Q3 := NativeSourceSizeBounds.radix (#U) L3;
+                let F3 := refinementCost (dExtra + 3 + 2) (Jhorizontal + 1) L3;
+                let CX :=
+                  Ctotal / quotientCost q *
+                    fiberCoefficient D.thickness eta zeta tau (seed / 8) c2 lambda (W / ↑(#E2)) F1 G Q2 F3 Q3 q 2;
+                ∃ T,
+                  HasThirdXYSourceData D zeta ref.a m plane E2 Hgraph U T P0 hP0 ⋯ ⋯ hd f p population PL PU Q2 retain
+                    (↑(selectionCost Khalf)) Ctotal threshold L3 Rel3 CX
+M : Fin Ksupport → ℕ := fun k => 2 ^ supportDepths k
+Jsupport : Fin Ksupport → ℕ := fun k => 2 ^ (u + 6 - supportDepths k)
+hmu : 0 < mu m
+hIntegral : ∀ (k : Fin Ksupport), 64 / ↑(M k) = mu m * ↑R0 * ↑(Jsupport k)
+hMenu : ∀ (k : Fin Ksupport), mu m * ↑R0 ≤ 64 / ↑(M k)
+Rels : Finset (Fin n × Index) →
+  (ℤ → Matrix (Fin 2) (Fin 1) ℝ) → (ℤ → ℝ) → Fin (dExtra + 3) → Fin n × Index → Fin n × Index → Prop :=
+  fun U Fcfg _Gcfg =>
+    completeRelations D ref.a m p Split.oneTwo P0 hP0 hd F Fcfg R0 u (extras p Hgraph P0 hP0 hd f Fcfg U)
+Bh : Finset Index
+_hBh : Bh ⊆ image Prod.snd Spre
+hCfg :
+  ∀ (t : ℤ),
+    ‖frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+          (fixedField D ref.a m 2 plane
+            (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+              (physicalMesh m (phaseDepth m) / 8))
+            f)
+          t‖ ≤
+      1 / 4
+B0 : Finset Index
+_hB0 : B0 ⊆ image Prod.snd (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+_color : Fin 4 → Fin 8
+BhFinal : Finset Index
+_hBFinal :
+  BhFinal ⊆
+    image Prod.snd
+      (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+hUN :
+  (NativeMatrixHeightWholePoint.edgeLift
+      (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+      Prod.snd BhFinal).Nonempty
+hUS :
+  NativeMatrixHeightWholePoint.edgeLift
+      (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+      Prod.snd BhFinal ⊆
+    Spre
+hHeightCost :
+  #Spre ≤
+    8 * R0 * 53 ^ (4 * Ksupport) * 8 ^ 4 *
+      #(NativeMatrixHeightWholePoint.edgeLift
+          (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+          Prod.snd BhFinal)
+_hOldFib :
+  ∀ k ∈ BhFinal,
+    {z ∈
+          NativeMatrixHeightWholePoint.edgeLift
+            (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+            Prod.snd BhFinal |
+        z.2 = k} =
+      {z ∈ Spre | z.2 = k}
+hFrozen :
+  ∀
+    z ∈
+      NativeMatrixHeightWholePoint.edgeLift
+        (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+        Prod.snd BhFinal,
+    frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+          (fixedField D ref.a m 2 plane
+            (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+              (physicalMesh m (phaseDepth m) / 8))
+            f)
+          (translatedHeight D ref.a m z.2 / ↑(8 * R0)) =
+        fixedField D ref.a m 2 plane
+          (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+            (physicalMesh m (phaseDepth m) / 8))
+          f (translatedHeight D ref.a m z.2) ∧
+      frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) (fun x => 0)
+          (translatedHeight D ref.a m z.2 / ↑(8 * R0)) =
+        0
+_hFine :
+  ∀ (j : Fin Ksupport),
+    ∀
+      x ∈
+        NativeMatrixHeightWholePoint.edgeLift
+          (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+          Prod.snd BhFinal,
+      ∀
+        y ∈
+          NativeMatrixHeightWholePoint.edgeLift
+            (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+            Prod.snd BhFinal,
+        wzDyadicCellIndex (64 / ↑(M j) / 512)
+              (NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                (fixedField D ref.a m 2 plane
+                  (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                    (physicalMesh m (phaseDepth m) / 8))
+                  f)
+                (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f))
+                R0 x.2) =
+            wzDyadicCellIndex (64 / ↑(M j) / 512)
+              (NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                (fixedField D ref.a m 2 plane
+                  (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                    (physicalMesh m (phaseDepth m) / 8))
+                  f)
+                (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f))
+                R0 y.2) →
+          physicalCell D ref.a (2 ^ m) (M j) p x.2 = physicalCell D ref.a (2 ^ m) (M j) p y.2
+_hTime :
+  ∀ (j : Fin Ksupport) (x y : Index),
+    ⌊(NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f)
+                  (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                    (fixedField D ref.a m 2 plane
+                      (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                        (physicalMesh m (phaseDepth m) / 8))
+                      f))
+                  R0 x).ofLp
+              3 /
+            (64 / ↑(M j) / 512)⌋ =
+        ⌊(NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f)
+                  (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                    (fixedField D ref.a m 2 plane
+                      (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                        (physicalMesh m (phaseDepth m) / 8))
+                      f))
+                  R0 y).ofLp
+              3 /
+            (64 / ↑(M j) / 512)⌋ →
+      physicalCell D ref.a (2 ^ m) (M j) p x 3 = physicalCell D ref.a (2 ^ m) (M j) p y 3
+_hColor :
+  ∀ k ∈ BhFinal,
+    SeparatedAlignmentPatches.color 8 ⋯
+        (NativeActualConfiguredResidue.parameter Split.oneTwo (mu m) R0
+          (fixedField D ref.a m 2 plane
+            (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+              (physicalMesh m (phaseDepth m) / 8))
+            f)
+          (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+            (fixedField D ref.a m 2 plane
+              (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                (physicalMesh m (phaseDepth m) / 8))
+              f))
+          (NativeActualConfiguredPoint.sourceLabel D ref.a m p Split.oneTwo P0 hP0 hd
+            (fixedField D ref.a m 2 plane
+              (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                (physicalMesh m (phaseDepth m) / 8))
+              f)
+            k)) =
+      _color
+hSep :
+  ∀
+    x ∈
+      image
+        (fun z =>
+          NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+            (fixedField D ref.a m 2 plane
+              (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                (physicalMesh m (phaseDepth m) / 8))
+              f)
+            (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+              (fixedField D ref.a m 2 plane
+                (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                  (physicalMesh m (phaseDepth m) / 8))
+                f))
+            R0 z.2)
+        (NativeMatrixHeightWholePoint.edgeLift
+          (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+          Prod.snd BhFinal),
+    ∀
+      y ∈
+        image
+          (fun z =>
+            NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+              (fixedField D ref.a m 2 plane
+                (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                  (physicalMesh m (phaseDepth m) / 8))
+                f)
+              (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                (fixedField D ref.a m 2 plane
+                  (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                    (physicalMesh m (phaseDepth m) / 8))
+                  f))
+              R0 z.2)
+          (NativeMatrixHeightWholePoint.edgeLift
+            (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+            Prod.snd BhFinal),
+      x ≠ y → mu m * ↑R0 / 64 ≤ dist x y
+_hTimeSep :
+  ∀
+    z ∈
+      NativeMatrixHeightWholePoint.edgeLift
+        (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+        Prod.snd BhFinal,
+    ∀
+      u ∈
+        NativeMatrixHeightWholePoint.edgeLift
+          (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+          Prod.snd BhFinal,
+      (NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                (fixedField D ref.a m 2 plane
+                  (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                    (physicalMesh m (phaseDepth m) / 8))
+                  f)
+                (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f))
+                R0 z.2).ofLp
+            3 ≠
+          (NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                (fixedField D ref.a m 2 plane
+                  (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                    (physicalMesh m (phaseDepth m) / 8))
+                  f)
+                (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f))
+                R0 u.2).ofLp
+            3 →
+        mu m * ↑R0 / 64 ≤
+          dist
+            ((NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f)
+                  (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                    (fixedField D ref.a m 2 plane
+                      (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                        (physicalMesh m (phaseDepth m) / 8))
+                      f))
+                  R0 z.2).ofLp
+              3)
+            ((NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f)
+                  (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                    (fixedField D ref.a m 2 plane
+                      (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                        (physicalMesh m (phaseDepth m) / 8))
+                      f))
+                  R0 u.2).ofLp
+              3)
+_hWide :
+  ∀ (j : Fin Ksupport),
+    ∀
+      x ∈
+        NativeMatrixHeightWholePoint.edgeLift
+          (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+          Prod.snd BhFinal,
+      ∀
+        y ∈
+          NativeMatrixHeightWholePoint.edgeLift
+            (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+            Prod.snd BhFinal,
+        wzDyadicCellIndex (64 / ↑(M j) / 64)
+              (NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                (fixedField D ref.a m 2 plane
+                  (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                    (physicalMesh m (phaseDepth m) / 8))
+                  f)
+                (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f))
+                R0 x.2) =
+            wzDyadicCellIndex (64 / ↑(M j) / 64)
+              (NativeActualConfiguredPoint.point D ref.a m p Split.oneTwo P0 hP0 hd
+                (fixedField D ref.a m 2 plane
+                  (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                    (physicalMesh m (phaseDepth m) / 8))
+                  f)
+                (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+                  (fixedField D ref.a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    f))
+                R0 y.2) →
+          physicalCell D ref.a (2 ^ m) (M j) p x.2 = physicalCell D ref.a (2 ^ m) (M j) p y.2
+_hSingle :
+  ∀
+    T ⊆
+      NativeMatrixHeightWholePoint.edgeLift
+        (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+        Prod.snd BhFinal,
+    ∀ z ∈ T,
+      ∀ w ∈ T,
+        translatedHeight D ref.a m z.2 / ↑(8 * R0) = translatedHeight D ref.a m w.2 / ↑(8 * R0) →
+          translatedHeight D ref.a m z.2 = translatedHeight D ref.a m w.2
+_hRaw :
+  ∀
+    z ∈
+      NativeMatrixHeightWholePoint.edgeLift
+        (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+        Prod.snd BhFinal,
+    frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+        (fixedField D ref.a m 2 plane
+          (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+            (physicalMesh m (phaseDepth m) / 8))
+          f)
+        (translatedHeight D ref.a m z.2 / ↑(8 * R0)) =
+      f (rawHeight D m z.2)
+T : Finset (Fin n × Index)
+HT :
+  HasThirdXYSourceData D zeta ref.a m plane E2 Hgraph
+    (NativeMatrixHeightWholePoint.edgeLift
+      (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+      Prod.snd BhFinal)
+    T P0 hP0 ⋯ ⋯ hd f p population PL PU Q2 retain (↑(selectionCost Khalf))
+    (Cpre * ↑(8 * R0 * 53 ^ (4 * Ksupport) * 8 ^ 4)) threshold L3
+    (Rels
+      (NativeMatrixHeightWholePoint.edgeLift
+        (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+        Prod.snd BhFinal)
+      (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+        (fixedField D ref.a m 2 plane
+          (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+            (physicalMesh m (phaseDepth m) / 8))
+          f))
+      (frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) fun x => 0))
+    (Cpre * ↑(8 * R0 * 53 ^ (4 * Ksupport) * 8 ^ 4) / quotientCost q *
+      fiberCoefficient D.thickness eta zeta tau (seed / 8) c2 lambda (W / ↑(#E2)) F1 G Q2
+        (refinementCost (dExtra + 3 + 2) (Jhorizontal + 1) L3)
+        (NativeSourceSizeBounds.radix
+          (#(NativeMatrixHeightWholePoint.edgeLift
+              (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd
+                B0)
+              Prod.snd BhFinal))
+          L3)
+        q 2)
+hTU :
+  T ⊆
+    NativeMatrixHeightWholePoint.edgeLift
+      (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+      Prod.snd BhFinal
+_hFinalRaw :
+  ∀ z ∈ T,
+    frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh)
+          (fixedField D ref.a m 2 plane
+            (NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+              (physicalMesh m (phaseDepth m) / 8))
+            f)
+          (translatedHeight D ref.a m z.2 / ↑(8 * R0)) =
+        f (rawHeight D m z.2) ∧
+      frozen D ref.a m R0 (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) (fun x => 0)
+          (translatedHeight D ref.a m z.2 / ↑(8 * R0)) =
+        0
+hSingleT :
+  ∀ z ∈ T,
+    ∀ w ∈ T,
+      translatedHeight D ref.a m z.2 / ↑(8 * R0) = translatedHeight D ref.a m w.2 / ↑(8 * R0) →
+        translatedHeight D ref.a m z.2 = translatedHeight D ref.a m w.2
+Sh : Finset (Fin n × Index) := NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh
+Fcfg : ℤ → Matrix (Fin (4 - 2)) (Fin (2 - 1)) ℝ := frozen D ref.a m R0 Sh F
+U0 : Finset (Fin n × Index) := NativeMatrixHeightWholePoint.edgeLift Sh Prod.snd B0
+U : Finset (Fin n × Index) := NativeMatrixHeightWholePoint.edgeLift U0 Prod.snd BhFinal
+Cextra : ℝ := ↑(8 * R0 * 53 ^ (4 * Ksupport) * 8 ^ 4)
+Ctotal : ℝ := Cpre * Cextra
+hTotal : ↑(#Hgraph) ≤ Ctotal * ↑(#U)
+⊢ ∃ p Hp Hgraph,
+    population * ↑(#(NativeLocalParentSource.parentLabels D ref.R ref.a (2 ^ m) p)) ≤ D.thickness * ↑(#Hp) ∧
+      #Hp ≤ selectionCost Khalf * #Hgraph ∧
+        ∃ P0,
+          ∃ (hP0 : P0 ≤ heightKernel) (hd : Module.finrank ℝ ↥P0 = 1),
+            ∃ f,
+              (∀ (height : ℤ), ‖f height‖ ≤ 1 / 4) ∧
+                let Sq :=
+                  NativeWeightedGrainQuotientGeometry.retained D ref.a m 2 plane Hgraph P0 hP0 ⋯ ⋯ hd
+                    (physicalMesh m (phaseDepth m) / 8);
+                let F := fixedField D ref.a m 2 plane Sq f;
+                let Gcoh :=
+                  NativeActualNewCutBudget.coherenceCharge Kcoh 2 g meshAngularConstant rowConstant r loss
+                    (rankLoss eta0 c 1) (r ^ (-2 * epsilonGraph)) extremalExponent fun k => 64 / ↑(2 ^ depths k);
+                let Ctotal := quotientCost q * ↑Gcoh * ↑(8 * R0 * 53 ^ (4 * Ksupport) * 8 ^ 4);
+                ∃ xi Spre U T Fcfg,
+                  Spre.Nonempty ∧
+                    U.Nonempty ∧
+                      T.Nonempty ∧
+                        T ⊆ U ∧
+                          U ⊆ Spre ∧
+                            Spre ⊆ Hgraph ∧
+                              Hgraph ⊆ ref.E1 ∧
+                                ↑(#Hgraph) ≤ Ctotal * ↑(#U) ∧
+                                  0 < Ctotal ∧
+                                    Ctotal =
+                                        quotientCost q *
+                                          ↑(NativeActualNewCutBudget.newCutCharge Kcoh Ksupport 2 g R0
+                                              meshAngularConstant rowConstant r loss (rankLoss eta0 c 1)
+                                              (r ^ (-2 * epsilonGraph)) extremalExponent fun k =>
+                                              64 / ↑(2 ^ depths k)) ∧
+                                      (∀ (height : ℤ), ‖Fcfg height‖ ≤ 1 / 4) ∧
+                                        let Q3 := NativeSourceSizeBounds.radix (#U) L3;
+                                        let F3 := refinementCost (dExtra + 3 + 2) (Jhorizontal + 1) L3;
+                                        let CX :=
+                                          Ctotal / quotientCost q *
+                                            fiberCoefficient D.thickness eta zeta tau (seed / 8) c2 lambda (W / ↑(#E2))
+                                              F1 G Q2 F3 Q3 q 2;
+                                        1 ≤ F3 ∧
+                                          1 ≤ Q3 ∧
+                                            ↑F3 * ↑Q3 ^ 4 ≤ D.thickness ^ (-(commonBudget eta0 c / 4)) ∧
+                                              HasThirdXYSourceData D zeta ref.a m plane E2 Hgraph U T P0 hP0 ⋯ ⋯ hd f p
+                                                  population PL PU Q2 retain (↑(selectionCost Khalf)) Ctotal threshold
+                                                  L3
+                                                  (completeRelations D ref.a m p Split.oneTwo P0 hP0 hd F Fcfg R0 u
+                                                    (extras p Hgraph P0 hP0 hd f Fcfg U))
+                                                  CX ∧
+                                                (∀ z ∈ U, parentLabel D ref.a (2 ^ m) z.1 = p) ∧
+                                                  (∀ z ∈ T, parentLabel D ref.a (2 ^ m) z.1 = p) ∧
+                                                    (∀ z ∈ T,
+                                                        Fcfg (translatedHeight D ref.a m z.2 / ↑(8 * R0)) =
+                                                          F (translatedHeight D ref.a m z.2)) ∧
+                                                      (∀ z ∈ T,
+                                                          ∀ w ∈ T,
+                                                            translatedHeight D ref.a m z.2 / ↑(8 * R0) =
+                                                                translatedHeight D ref.a m w.2 / ↑(8 * R0) →
+                                                              translatedHeight D ref.a m z.2 =
+                                                                translatedHeight D ref.a m w.2) ∧
+                                                        (∀
+                                                            x ∈
+                                                              image
+                                                                (fun z =>
+                                                                  NativeActualConfiguredPoint.point D ref.a m p
+                                                                    Split.oneTwo P0 hP0 hd F Fcfg R0 z.2)
+                                                                T,
+                                                            ∀
+                                                              y ∈
+                                                                image
+                                                                  (fun z =>
+                                                                    NativeActualConfiguredPoint.point D ⋯ m p
+                                                                      Split.oneTwo P0 hP0 hd F Fcfg R0 z.2)
+                                                                  T,
+                                                              x ≠ y → mu m * ↑R0 / 64 ≤ dist x y) ∧
+                                                          ∀ (k : Fin Kcoh) (z w : Fin n × Index),
+                                                            z ∈ T →
+                                                              w ∈ T →
+                                                                physicalCell D ref.a (2 ^ m) (2 ^ depths k) p z.2 =
+                                                                    physicalCell D ref.a (2 ^ m) (2 ^ depths k) p w.2 →
+                                                                  ‖⋯‖ < 64 / ↑(2 ^ depths k) ∧
+                                                                    ‖⋯‖ ≤ 129 / 4 * (64 / ↑(2 ^ depths k))
+LEAN_FINISHED_UTC 2026-10-06T21:05:23.108469+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

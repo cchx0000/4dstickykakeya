@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/ea51553ed2f7afb4ea1772e224976dbba46bae40e2970f1ca9bbe4fe9fac017e.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_exact_height_fields-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_exact_height_fields-attempt01/Readback.lean"]
+SOURCE_SHA256 7b8cc7965ea438dd175548af92017eb600b4ddd4b0bba183cde000e186bca30e
+'NativeExactHeightFields.physicalHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExactHeightFields.frozen_eq_on_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExactHeightFields.select_two_exact_fields' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

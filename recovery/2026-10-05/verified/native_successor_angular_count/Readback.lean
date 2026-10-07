@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_successor_angular_count
+
+#print axioms NativeSuccessorAngularCount.successorEdges
+#print axioms NativeSuccessorAngularCount.successorLabels
+#print axioms NativeSuccessorAngularCount.successorLabels_mono
+#print axioms NativeSuccessorAngularCount.successor_card_le_of_subset
+#print axioms NativeSuccessorAngularCount.root_angular_image_card
+#print axioms NativeSuccessorAngularCount.localized_angular_image_card
+#print axioms NativeSuccessorAngularCount.actual_successor_card

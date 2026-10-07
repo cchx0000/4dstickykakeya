@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_X_budget_cutoff
+
+#print axioms NativeSharpXBudgetCutoff.exists_source_cutoff
+#print axioms NativeSharpXBudgetCutoff.sourceCutoff
+#print axioms NativeSharpXBudgetCutoff.sourceCutoff_pos
+#print axioms NativeSharpXBudgetCutoff.sourceCutoff_pays
+#print axioms NativeSharpXBudgetCutoff.sourceCutoff_le_one
+#print axioms NativeSharpXBudgetCutoff.paid_X_lower

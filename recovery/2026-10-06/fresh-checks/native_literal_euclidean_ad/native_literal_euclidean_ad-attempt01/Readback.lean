@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_literal_euclidean_ad
+set_option autoImplicit false
+#print axioms NativeLiteralEuclideanAD.toLp_injective
+#print axioms NativeLiteralEuclideanAD.sup_dist_le_toLp
+#print axioms NativeLiteralEuclideanAD.toLp_dist_le
+#print axioms NativeLiteralEuclideanAD.ADBounds_toLp
+#print axioms NativeLiteralEuclideanAD.one_dimensional_AD
+#print axioms NativeLiteralEuclideanAD.planar_AD

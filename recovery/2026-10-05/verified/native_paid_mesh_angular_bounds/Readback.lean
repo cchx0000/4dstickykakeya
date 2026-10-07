@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_paid_mesh_angular_bounds
+
+#print axioms NativePaidMeshAngularBounds.ballEdges
+#print axioms NativePaidMeshAngularBounds.exists_paid_mesh_angular_bounds

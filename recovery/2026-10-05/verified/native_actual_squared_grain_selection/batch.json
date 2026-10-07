@@ -1,0 +1,106 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T12:05:02.787961+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T120459552376",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T120459552376/AggregateReadback.lean"
+  ],
+  "readback_sha256": "22fbc3b809354fcdc9ade25936efe6758a490d2f3f2c26d67add7bcab81d1d75",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_squared_grain_selection",
+      "source_sha256": "4dab4d6ea0d864c5e2b8a0da7799af2cc268b9716a4983798fee75e7be3e7f59",
+      "olean_sha256": "6c109fa7ecbf692da9355d4d1d06fdb6139413b74975866c89dce014ce1008dc",
+      "names": [
+        "NativeActualSquaredGrainSelection.grain_scale_pos_le_one",
+        "NativeActualSquaredGrainSelection.thickness_le_squared_scale",
+        "NativeActualSquaredGrainSelection.select_squared_grain_second_stage"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_compatible_angular_candidates",
+      "source_sha256": "4bf682dafe5c0be48579e59eeedf53b83773d287d52d6ad5a08a6e9da8f772d7",
+      "olean_sha256": "085be7eddd54e2575e034b6fe1fcfe4e5e384293900d7a4c8a5e7003f638f4b3",
+      "names": [
+        "NativeCompatibleAngularCandidates.angularAncestor",
+        "NativeCompatibleAngularCandidates.projectWord",
+        "NativeCompatibleAngularCandidates.spatialAncestor",
+        "NativeCompatibleAngularCandidates.angularAncestor_label",
+        "NativeCompatibleAngularCandidates.spatialLabel_coordinate",
+        "NativeCompatibleAngularCandidates.spatialAncestor_label",
+        "NativeCompatibleAngularCandidates.angularTuple_cons",
+        "NativeCompatibleAngularCandidates.angularTuple_length",
+        "NativeCompatibleAngularCandidates.projectWord_angularTuple",
+        "NativeCompatibleAngularCandidates.projectWord_self",
+        "NativeCompatibleAngularCandidates.depth",
+        "NativeCompatibleAngularCandidates.depth_bounds",
+        "NativeCompatibleAngularCandidates.depth_zero",
+        "NativeCompatibleAngularCandidates.depth_last",
+        "NativeCompatibleAngularCandidates.depth_mono",
+        "NativeCompatibleAngularCandidates.terminalFamily",
+        "NativeCompatibleAngularCandidates.terminal_member",
+        "NativeCompatibleAngularCandidates.LocalWitness",
+        "NativeCompatibleAngularCandidates.terminal_local_witness",
+        "NativeCompatibleAngularCandidates.wordSuccessors",
+        "NativeCompatibleAngularCandidates.wordSuccessors_card",
+        "NativeCompatibleAngularCandidates.angularTuple_mem_successors",
+        "NativeCompatibleAngularCandidates.allWords",
+        "NativeCompatibleAngularCandidates.allWords_card",
+        "NativeCompatibleAngularCandidates.angularTuple_mem_allWords",
+        "NativeCompatibleAngularCandidates.angularLabel_mem_root_box",
+        "NativeCompatibleAngularCandidates.projected_root_card",
+        "NativeCompatibleAngularCandidates.projected_successor_card",
+        "NativeCompatibleAngularCandidates.node",
+        "NativeCompatibleAngularCandidates.ancestorNode",
+        "NativeCompatibleAngularCandidates.candidate",
+        "NativeCompatibleAngularCandidates.actual_node_ancestor",
+        "NativeCompatibleAngularCandidates.selected_child_parent_trace",
+        "NativeCompatibleAngularCandidates.singleCapacity",
+        "NativeCompatibleAngularCandidates.selectionBudget",
+        "NativeCompatibleAngularCandidates.HasCompatibleCandidates",
+        "NativeCompatibleAngularCandidates.select_actual_candidates",
+        "NativeCompatibleAngularCandidates.from_master_reference"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_scaled_line_packets",
+      "source_sha256": "6afe753a5720a70ad905a3eb8e65f1119f634a3676f8da3d32d075c73626ffbb",
+      "olean_sha256": "bf36452fa44b333b51760b5da863d5aa5809c4df5d9f4d63436c65f418404ea1",
+      "names": [
+        "NativeScaledLinePackets.packet",
+        "NativeScaledLinePackets.occurrences",
+        "NativeScaledLinePackets.packetLabel_mem_neighbors_of_row",
+        "NativeScaledLinePackets.packet_geometry",
+        "NativeScaledLinePackets.row_subset_occurrences",
+        "NativeScaledLinePackets.packet_overlap",
+        "NativeScaledLinePackets.occurrence_overlap",
+        "NativeScaledLinePackets.rounded_row_subset",
+        "NativeScaledLinePackets.rounded_occurrence_overlap",
+        "NativeScaledLinePackets.rounded_packet_geometry"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_weighted_projection_grains",
+      "source_sha256": "98d321e531addaf8ece789d6d11c9e9d545859a1a0a3e237bdee80d43bd6d04d",
+      "olean_sha256": "7e97be2eb50b919651ec04ba87c854948838eeb7bd29e7368c3dbbad5c32a84f",
+      "names": [
+        "NativeWeightedProjectionGrains.dense_projection_grains",
+        "NativeWeightedProjectionGrains.normalization_of_nonempty"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T12:10:12.775876+00:00",
+  "exit_code": 0
+}

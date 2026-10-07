@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_grid_support_population
+set_option autoImplicit false
+#print axioms NativeGridSupportPopulation.global_card_of_bounded_AD
+#print axioms NativeGridSupportPopulation.occupied_keys_of_AD
+#print axioms NativeGridSupportPopulation.bounded_AD_occupied_keys

@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_relative_coarse_parameter_bridge
+
+#print axioms NativeRelativeCoarseParameterBridge.globalProjection
+#print axioms NativeRelativeCoarseParameterBridge.globalBox
+#print axioms NativeRelativeCoarseParameterBridge.globalProjection_mem_box
+#print axioms NativeRelativeCoarseParameterBridge.globalBox_card
+#print axioms NativeRelativeCoarseParameterBridge.dyadic_globalProjection
+#print axioms NativeRelativeCoarseParameterBridge.relative_global_box
+#print axioms NativeRelativeCoarseParameterBridge.relative_fiber_global_labels_card_le

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_slice_class_algebra
+
+#print axioms NativeSliceClassAlgebra.scaled_power_quotient
+#print axioms NativeSliceClassAlgebra.global_count_ratio_bounds
+#print axioms NativeSliceClassAlgebra.class_bounds_from_global_counts

@@ -1,0 +1,21 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_original_cell_presentation_unique_readback.lean"]
+SOURCE_SHA256 300b3f73461ba3ceeba223609d977167f482bbb004551bd01b059e88f8b2297b
+FIFO compiler ticket: 01791186223989979941-95ab90ef28f64eda9f9084bc4fa3f693.request
+FIFO compiler acquired UTC: 2026-10-05T07:43:43.991107+00:00
+'NativeOriginalCellPresentationUnique.mem_cells_iff_center_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalCellPresentationUnique.cells_eq_of_shading_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellPresentationUnique.restricted_cells_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellPresentationUnique.restricted_incidences_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalCellPresentationUnique.subset_original_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCellPresentationUnique.core_subset_original_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalCellPresentationUnique.core_preserves_original_predicate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

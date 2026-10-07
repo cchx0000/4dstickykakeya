@@ -1,0 +1,51 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_single_height_coarse_Y_ad",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_single_height_coarse_Y_ad.lean",
+  "source_sha256": "a5a24f07980ce040c834a96446084a10a4b613d63830aa173d63ee3f80c77214",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_single_height_coarse_Y_ad.olean",
+  "names": [
+    "NativeSingleHeightCoarseYAD.coarseConstant",
+    "NativeSingleHeightCoarseYAD.finalConstant",
+    "NativeSingleHeightCoarseYAD.coarse_contracted_AD",
+    "NativeSingleHeightCoarseYAD.key_image_eq_one_height"
+  ],
+  "started_utc": "2026-10-06T16:09:00.630639+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "7fa7e8883fce6ce6622949a5e5a7ea5e67b252bc7e61e3799e0b4144ec02eb09",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T16:10:55.150372+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1638",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeSingleHeightCoarseYAD.coarseConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSingleHeightCoarseYAD.finalConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSingleHeightCoarseYAD.coarse_contracted_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSingleHeightCoarseYAD.key_image_eq_one_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T16:44:52.153663+00:00",
+  "canonical_scope": "new_canonical_module"
+}

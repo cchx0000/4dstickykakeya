@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_initial_extra_relations
+
+#print axioms NativeInitialExtraRelations.relations
+#print axioms NativeInitialExtraRelations.relations_refl
+#print axioms NativeInitialExtraRelations.relations_symm
+#print axioms NativeInitialExtraRelations.caller_uniformities

@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_grain_quotient_fibers
+
+#print axioms NativeGrainQuotientFibers.mixed_height_count
+#print axioms NativeGrainQuotientFibers.fiber
+#print axioms NativeGrainQuotientFibers.exists_mixed_dense_fiber
+#print axioms NativeGrainQuotientFibers.physicalMesh
+#print axioms NativeGrainQuotientFibers.physicalMesh_pos
+#print axioms NativeGrainQuotientFibers.diameter_div_physicalMesh
+#print axioms NativeGrainQuotientFibers.phase_diameter_div_physicalMesh
+#print axioms NativeGrainQuotientFibers.density_transfer

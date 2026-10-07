@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_same_Q_fine_graph
+set_option autoImplicit false
+#print axioms NativeSameQFineGraph.phase
+#print axioms NativeSameQFineGraph.graph
+#print axioms NativeSameQFineGraph.weight
+#print axioms NativeSameQFineGraph.graph_restrict
+#print axioms NativeSameQFineGraph.sum_weight_eq_graph
+#print axioms NativeSameQFineGraph.total_weight_eq_graph

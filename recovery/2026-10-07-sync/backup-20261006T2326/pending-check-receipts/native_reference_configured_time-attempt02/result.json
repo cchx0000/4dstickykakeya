@@ -1,0 +1,52 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_reference_configured_time",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_reference_configured_time.lean",
+  "source_sha256": "d4904bdb8fe7745bb5f61040e3784c16d0bd1fed7352c3eb2b25b36b9b07195f",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_reference_configured_time.olean",
+  "names": [
+    "NativeReferenceConfiguredTime.raw_old_time_error",
+    "NativeReferenceConfiguredTime.coarse_height_readback",
+    "NativeReferenceConfiguredTime.coarse_height_error",
+    "NativeReferenceConfiguredTime.coarse_height_coordinate_budget",
+    "NativeReferenceConfiguredTime.final_height_floor"
+  ],
+  "started_utc": "2026-10-06T14:03:41.109372+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "5a931c3a3d091f261d4df53b46f0c0285cc02090b919cfbbe616888f6cf9a569",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeReferenceConfiguredTime.raw_old_time_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceConfiguredTime.coarse_height_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceConfiguredTime.coarse_height_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceConfiguredTime.coarse_height_coordinate_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceConfiguredTime.final_height_floor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T14:23:42.643687+00:00"
+}

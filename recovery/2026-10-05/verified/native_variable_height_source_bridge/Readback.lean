@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_variable_height_source_bridge
+
+#print axioms NativeVariableHeightSourceBridge.comparisonCost
+#print axioms NativeVariableHeightSourceBridge.comparisonCost_pos
+#print axioms NativeVariableHeightSourceBridge.queried_global_source_comparison

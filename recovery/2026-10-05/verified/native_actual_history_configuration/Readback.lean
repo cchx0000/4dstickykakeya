@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_history_configuration
+
+#print axioms NativeActualHistoryConfiguration.HasHistorySquaredStage
+#print axioms NativeActualHistoryConfiguration.history_stage_of_compatible
+#print axioms NativeActualHistoryConfiguration.exists_actual_history_configuration

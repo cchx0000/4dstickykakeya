@@ -1,0 +1,62 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:41:07.929941+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164107267028",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164107267028/AggregateReadback.lean"
+  ],
+  "readback_sha256": "ee843ad7558041258fde7a4c04112f836d0979db64ded50e042ae3a0ad3662d1",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_column_exponents",
+      "source_sha256": "14cb30ae672df0413daa82e742268db0b8664685509daacc92baf6103e5f6491",
+      "olean_sha256": "52b76daab00a8926e68ad76197bec77f090357ca82152f43486a828b94384ad2",
+      "names": [
+        "NativeReferenceColumnExponents.lowerCountCoefficient",
+        "NativeReferenceColumnExponents.upperCountCoefficient",
+        "NativeReferenceColumnExponents.count_coefficients_pos",
+        "NativeReferenceColumnExponents.quotient_power_bounds",
+        "NativeReferenceColumnExponents.reference_column_point_power_bounds",
+        "NativeReferenceColumnExponents.reference_height_point_power_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_slice_population_algebra",
+      "source_sha256": "c5d367daebd8c036be77a3b5936e9532684736245a574be205e5e2a430dc48a8",
+      "olean_sha256": "8334ab9faabcaeffa7dc733d8c5008d11a8e7958c9f62735f0d50b4c4adb4b61",
+      "names": [
+        "NativeSlicePopulationAlgebra.slice_ratio_bounds",
+        "NativeSlicePopulationAlgebra.slice_power_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_column_population_bounds",
+      "source_sha256": "db5618e3d7b0c88191fa20f5143dbfe4db0daeba9e087da3f0e90d233fd2a5cd",
+      "olean_sha256": "d804b58bd3e602ad8157c819e3c7b147cccc83bdb934f1b2b67d6db3e92811c1",
+      "names": [
+        "NativeColumnPopulationBounds.relativeWidth",
+        "NativeColumnPopulationBounds.relativeWidth_pos",
+        "NativeColumnPopulationBounds.inverse_scale_cube",
+        "NativeColumnPopulationBounds.column_point_image",
+        "NativeColumnPopulationBounds.column_phase_height_image",
+        "NativeColumnPopulationBounds.column_height_image",
+        "NativeColumnPopulationBounds.column_multiplicity_card",
+        "NativeColumnPopulationBounds.reference_numerator_height_bounds"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:41:12.438543+00:00",
+  "exit_code": 0
+}

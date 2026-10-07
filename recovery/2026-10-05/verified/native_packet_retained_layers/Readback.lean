@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_packet_retained_layers
+
+#print axioms NativePacketRetainedLayers.referenceMinimum
+#print axioms NativePacketRetainedLayers.referenceMinimum_le
+#print axioms NativePacketRetainedLayers.le_referenceMinimum
+#print axioms NativePacketRetainedLayers.referenceBudget
+#print axioms NativePacketRetainedLayers.referenceBudget_positive
+#print axioms NativePacketRetainedLayers.active_count_reference_budget
+#print axioms NativePacketRetainedLayers.construct_actual_packet_layers

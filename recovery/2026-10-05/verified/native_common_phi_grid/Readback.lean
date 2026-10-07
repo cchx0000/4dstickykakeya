@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_common_phi_grid
+
+#print axioms NativeCommonPhiGrid.angle_grid_mem_box
+#print axioms NativeCommonPhiGrid.double_bin_distance
+#print axioms NativeCommonPhiGrid.inverse_projected_fiber_cap
+#print axioms NativeCommonPhiGrid.same_angle_distance
+#print axioms NativeCommonPhiGrid.forward_projected_fiber_cap
+#print axioms NativeCommonPhiGrid.angular_card_le_projected

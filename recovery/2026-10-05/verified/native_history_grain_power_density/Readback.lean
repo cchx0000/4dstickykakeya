@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_history_grain_power_density
+
+#print axioms NativeHistoryGrainPowerDensity.scaleGain
+#print axioms NativeHistoryGrainPowerDensity.scaleGain_nonneg
+#print axioms NativeHistoryGrainPowerDensity.scale_predecessor_power_lower
+#print axioms NativeHistoryGrainPowerDensity.exists_actual_power_dense_grain_core

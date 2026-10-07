@@ -1,0 +1,57 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_same_point_slope_consistency",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_point_slope_consistency.lean",
+  "source_sha256": "b7b5655421ef188bb332506da18d550a42cdf245181ce8720f723b3395e7c59f",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_same_point_slope_consistency.olean",
+  "names": [
+    "NativeSamePointSlopeConsistency.normal_component_controls_kernel_distance",
+    "NativeSamePointSlopeConsistency.functional_witness_error",
+    "NativeSamePointSlopeConsistency.from_actual_line_and_quotient",
+    "NativeSamePointSlopeConsistency.same_point_error",
+    "NativeSamePointSlopeConsistency.bounded_discrepancy",
+    "NativeSamePointSlopeConsistency.from_actual_double_representation"
+  ],
+  "started_utc": "2026-10-06T09:40:30.427515+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "a14f683cc0fc50fcdc5381ac7c9734350bb5dd6ad88405c6463fe76f49dea401",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeSamePointSlopeConsistency.normal_component_controls_kernel_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSamePointSlopeConsistency.functional_witness_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSamePointSlopeConsistency.from_actual_line_and_quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSamePointSlopeConsistency.same_point_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSamePointSlopeConsistency.bounded_discrepancy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSamePointSlopeConsistency.from_actual_double_representation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T09:43:51.420226+00:00"
+}

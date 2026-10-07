@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_bounded_parent_point_transfer
+
+#print axioms NativeBoundedParentPointTransfer.image_point_degree_le
+#print axioms NativeBoundedParentPointTransfer.multiplicity_le_menu_mul_degree
+#print axioms NativeBoundedParentPointTransfer.uniform_images_multiplicity

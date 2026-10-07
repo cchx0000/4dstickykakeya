@@ -1,0 +1,11 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1ddf86c7f6c7c262f6ee376cea63aefae140f2237ef117d169923cc9b70c5772.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_alignment_parent_width.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_alignment_parent_width.lean"]
+SOURCE_SHA256 c0a625a35ec7913f1c99280be2432877ec8cdd38421ef6b9fdd008958044cf0f
+LOCK_ACQUIRED_UTC 2026-10-06T14:26:31.879845+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_alignment_parent_width.lean:58:15: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+LEAN_FINISHED_UTC 2026-10-06T14:28:38.875157+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

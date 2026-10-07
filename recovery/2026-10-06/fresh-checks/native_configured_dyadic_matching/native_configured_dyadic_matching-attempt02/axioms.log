@@ -1,0 +1,8 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/d6f38347c8ce0da569b580d3a15d209c6684827b0884dbe3978559a312274b1e.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_configured_dyadic_matching-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_configured_dyadic_matching-attempt02/Readback.lean"]
+SOURCE_SHA256 f9b1bfb537454115a469e1f4c113cf772062e5ceb151fc394fa980b3f89e9187
+'NativeConfiguredDyadicMatching.configured_depth_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredDyadicMatching.configured_scale_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredDyadicMatching.configured_scale_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredDyadicMatching.match_actual_scales' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

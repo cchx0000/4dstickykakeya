@@ -1,0 +1,40 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2051.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2051", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2051/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T20:50:53.995625+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+'NativeFixedSourceReference.fixed_balanced_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSourceReference.fixed_two_scale_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSourceReference.fixed_middle_two_scale_extra_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedSourceReference.fixed_all_two_scale_extra_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedSourceReference.exists_fixed_source_reference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSourceReference.union_pos_of_shading_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSourceReference.native_near_of_volume_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSourceReference.exists_reference_from_volume_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRememberedReferenceTags.oldHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRememberedReferenceTags.oldHeight_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRememberedReferenceTags.reference_edge_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhysicalLocalOffsetCoherence.actual_local_cell_offset_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePhysicalLocalOffsetCoherence.select_actual_matrix_offset_menu' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePreThirdHeightSupport.configured_fine_to_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePreThirdHeightSupport.select_actual_height_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourcePhysicalCoherence.HasUpperEngine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourcePhysicalCoherence.mesh_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourcePhysicalCoherence.HasPhysicalCoherenceEngine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourcePhysicalCoherence.coherence_of_actual_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhysicalCoherentThirdJoin.from_actual_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualHeightThirdJoin.source_total_charge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualHeightThirdJoin.attach_rank_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualHeightThirdJoin.attach_rank_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T20:54:11.918961+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

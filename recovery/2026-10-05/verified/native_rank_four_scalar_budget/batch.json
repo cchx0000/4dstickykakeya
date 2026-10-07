@@ -1,0 +1,53 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:12:42.149221+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141241440208",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141241440208/AggregateReadback.lean"
+  ],
+  "readback_sha256": "46f64dcc5b42156faa1cd298cbb796dd00eeb2154f59fae2738bc8041b4a821c",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_four_scalar_budget",
+      "source_sha256": "02b6633b0d3baee06fb4bd768d223ff6ed4b6f62dd31302d3fb1d50eb094bf38",
+      "olean_sha256": "8cf91a7d8906c9c8d500e99b6e9f36c7b8619e99f3e11dc9f259b53038ec5851",
+      "names": [
+        "NativeRankFourScalarBudget.countConstant",
+        "NativeRankFourScalarBudget.countConstant_pos",
+        "NativeRankFourScalarBudget.pointLoss",
+        "NativeRankFourScalarBudget.source_cost_product",
+        "NativeRankFourScalarBudget.actual_count_power",
+        "NativeRankFourScalarBudget.totalExponent",
+        "NativeRankFourScalarBudget.fixedConstant",
+        "NativeRankFourScalarBudget.fixedConstant_pos",
+        "NativeRankFourScalarBudget.actual_test_lower",
+        "NativeRankFourScalarBudget.force_scale_power",
+        "NativeRankFourScalarBudget.grid_inverse_le_tau",
+        "NativeRankFourScalarBudget.tau_budget",
+        "NativeRankFourScalarBudget.exponent_budget",
+        "NativeRankFourScalarBudget.rank_four_loss_le",
+        "NativeRankFourScalarBudget.exponent_le_half_kappa",
+        "NativeRankFourScalarBudget.exists_rank_four_hierarchy",
+        "NativeRankFourScalarBudget.rank_four_middle_lower",
+        "NativeRankFourScalarBudget.exists_scalar_cutoff",
+        "NativeRankFourScalarBudget.impossible_scale_power",
+        "NativeRankFourScalarBudget.contradiction_from_counts",
+        "NativeRankFourScalarBudget.exists_rank_four_exclusion"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:12:46.750257+00:00",
+  "exit_code": 0
+}

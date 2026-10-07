@@ -1,0 +1,332 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/8340c0a11f80c1aa4433905c7dcb8319a836a9f533b04547afd4bb7e8a250e35.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.lean"]
+SOURCE_SHA256 e7ffd16aaee6c81c5b84bdfc3d9623e49346207269f664a189f689392a392b6f
+LOCK_ACQUIRED_UTC 2026-10-06T23:14:37.441188+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.lean:44:10: error(lean.unknownIdentifier): Unknown identifier `localSigma`
+
+Note: It is not possible to treat `localSigma` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.lean:49:74: error(lean.unknownIdentifier): Unknown identifier `localSigma`
+
+Note: It is not possible to treat `localSigma` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.lean:87:11: error(lean.unknownIdentifier): Unknown identifier `localSigma`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.lean:283:6: error: Type mismatch: After simplification, term
+  hMassQ
+ has type
+  (source h R Eref a m p).thickness ^ (3 * z) / 2 ≤
+    normalization D m * ↑(#(NativeSameQSourceRestriction.restrict D a m b p Q Tcur))
+but is expected to have type
+  r ^ (3 * z) / 2 ≤ 0
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.lean:318:89: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.lean:318:34: error: unsolved goals
+Eout widthWindow : ℝ
+hEout : 0 < Eout
+hWindowPos : 0 < widthWindow
+sigma0 : ℝ
+hsigma0 : 0 < sigma0
+hsigma064 : sigma0 ≤ 1 / 64
+Hfinal :
+  ∀ (sigma : ℝ),
+    0 < sigma →
+      sigma ≤ sigma0 →
+        2048 ^ 3 * sigma ^ (Eout / 8) ≤ sigma ^ (Eout / 16) ∧
+          373248 * 512 ^ 4 * sigma ^ (Eout / 8) ≤ sigma ^ (17 * Eout / 256) ∧
+            volumeConstant * (5832 / 64 ^ 3) * sigma ^ (Eout / 8) ≤
+              sigma ^ (5 * Eout / 4096) / (8589934592 * phaseConstant)
+rCut : ℝ
+hrCut : 0 < rCut
+_hrCut8 : rCut ≤ 1 / 8
+Hcut :
+  ∀ (r d sigma eta : ℝ) (level b : ℕ),
+    0 < r →
+      r ≤ rCut →
+        r = 2⁻¹ ^ level →
+          b ≤ level →
+            r ≤ d →
+              d ≤ sigma →
+                sigma ≤ r ^ widthWindow →
+                  eta ≤ widthWindow * Eout / 4096 →
+                    d ≤ 1 / 64 ∧
+                      sigma ≤ sigma0 ∧
+                        sigma < 1 ∧
+                          have z1 := exponent r sigma (Eout / 256);
+                          colorCost * r ^ z1 ≤ 1 ∧
+                            2 * pruneCost * (↑b + 1) * r ^ (3 * z1) ≤ 1 ∧
+                              1088 * fineCapacity * r ^ z1 ≤ 1 ∧
+                                10077696 * r ^ (8 * z1) ≤ 1 ∧
+                                  NativeCoarsePowerWindow.densityCost * r ^ z1 ≤ 1 ∧
+                                    NativeCoarseRelativeCW.cwCost * r ^ (2 * z1 - eta) ≤ 1
+n dRel J : ℕ
+D : FiniteScaleSource n
+eta etaS a zeta pExp : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+R : Finset (Fin n)
+Eref : Finset (Fin n × Index)
+level m b0 b c depth : ℕ
+hm : 12 ≤ m
+hb0 : 8 ≤ b0
+hb : b ≤ b0
+hc : c ≤ b - 6
+hc6 : 6 ≤ c
+hdepth : 6 ≤ depth
+hzeta : 0 ≤ zeta
+HB : HasOriginalBackbone D original R a level zeta
+hmb0 : m + b0 ≤ level
+hf : phaseDepth m ≤ level
+hscale : D.thickness ≤ rho m ^ 2
+p : Parent
+hRef : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaS
+hRefK :
+  ∀ (i : Fin #(parentLabels D R a (2 ^ m) p)),
+    (source h R Eref a m p).line i ∈ NativeUnitParentNormalization.fixedCompactClass
+hbudget : 64 ^ 3 * (source h R Eref a m p).thickness ^ pExp ≤ D.thickness ^ zeta
+hRefSmall : (source h R Eref a m p).thickness ≤ rCut
+hetaRef : etaS ≤ widthWindow * Eout / 4096
+hpExp : 0 ≤ pExp
+hpMin : pExp ≤ widthWindow * Eout / 4096
+hwidth : 64 / ↑(2 ^ depth) = 512 * (64 / ↑(2 ^ c))
+plane : Index → Submodule ℝ E4
+E Hgraph S0 T0 Tcur : Finset (Fin n × Index)
+hT0 : T0 ⊆ incidences original
+hcur : Tcur ⊆ T0
+hEref : Eref ⊆ incidences original
+hTref : T0 ⊆ Eref
+hparent : ∀ z ∈ T0, z.1 ∈ parentLabels D R a (2 ^ m) p
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+Fraw Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+hCfg : ∀ (t : ℤ) (i : Fin 2) (j : Fin 1), |Fcfg t i j| ≤ 1 / 4
+population PL PU : ℝ
+Qref : ℕ
+lambda Gcost Cpre threshold : ℝ
+L3 : ℕ
+Rel : Fin dRel → Fin n × Index → Fin n × Index → Prop
+Hdata :
+  HasThirdXYData D zeta a m plane E Hgraph S0 T0 P hP ⋯ ⋯ hd Fraw p population PL PU Qref lambda Gcost Cpre threshold L3
+    Rel
+R0 : ℕ
+hR0 : 0 < R0
+hbase : rho m ≤ mu m * ↑R0
+hmatch : mu m * ↑R0 = 4096 / ↑(2 ^ b0)
+hkappa : extremalExponent ≤ 3
+sigma : ℝ := ↑(2 ^ c) * (64 / ↑(2 ^ b)) / 64
+hWindow : sigma ≤ (source h R Eref a m p).thickness ^ widthWindow
+hRaw : sigma ^ (Eout / 4096) ≤ normalization D m * ↑(#Tcur)
+z : ℝ := exponent (source h R Eref a m p).thickness sigma (Eout / 256)
+etaA : ℝ := exponent (64 / ↑(2 ^ b)) sigma (Eout / 16)
+K : ℝ :=
+  xyConstant D.thickness zeta population PL PU lambda (Gcost * Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3)) Qref
+    (NativeSourceSizeBounds.radix (#S0) L3) J m
+r : ℝ := (source h R Eref a m p).thickness
+d : ℝ := 64 / ↑(2 ^ b)
+z2 : ℝ := exponent d sigma Eout
+hr : 0 < r
+hdpos : 0 < d
+hmb : m + b ≤ level
+hguard : ↑(2 ^ b) * (source h R Eref a m p).thickness ≤ 1
+hrd : r ≤ d
+hds : d ≤ sigma
+hdy : r = 2⁻¹ ^ (level - m + 6)
+_hdSmall : d ≤ 1 / 64
+hsSmall : sigma ≤ sigma0
+hs1 : sigma < 1
+hcolor : colorCost * r ^ exponent r sigma (Eout / 256) ≤ 1
+hprune : 2 * pruneCost * (↑b + 1) * r ^ (3 * exponent r sigma (Eout / 256)) ≤ 1
+hshadeCost : 1088 * fineCapacity * r ^ exponent r sigma (Eout / 256) ≤ 1
+hupper : 10077696 * r ^ (8 * exponent r sigma (Eout / 256)) ≤ 1
+hdensity : NativeCoarsePowerWindow.densityCost * r ^ exponent r sigma (Eout / 256) ≤ 1
+hcw : NativeCoarseRelativeCW.cwCost * r ^ (2 * exponent r sigma (Eout / 256) - etaS) ≤ 1
+_hWinD : sigma ≤ d ^ widthWindow
+hzMin : widthWindow * Eout / 4096 ≤ exponent r sigma (Eout / 256)
+hetaA : 0 < exponent d sigma (Eout / 16)
+hetaAupper : exponent d sigma (Eout / 16) ≤ Eout / 256
+hz2Min : widthWindow * Eout / 16 ≤ exponent d sigma Eout
+hratio : exponent d sigma (Eout / 16) = exponent d sigma Eout / 16
+hA : d ^ exponent d sigma (Eout / 16) = sigma ^ (Eout / 256)
+h8 : r ^ (8 * exponent r sigma (Eout / 256)) = sigma ^ (Eout / 512)
+h5 : r ^ (5 * exponent r sigma (Eout / 256)) = sigma ^ (5 * Eout / 4096)
+h2 : d ^ exponent d sigma Eout = sigma ^ (Eout / 16)
+hpowerA : d ^ exponent d sigma (Eout / 16) ≤ r ^ (8 * exponent r sigma (Eout / 256))
+_hMassPower : d ^ exponent d sigma Eout ≤ r ^ (5 * exponent r sigma (Eout / 256))
+hpz : pExp ≤ z
+hr1 : r < 1
+hs : 0 < sigma
+hzread : r ^ z = sigma ^ (Eout / 4096)
+htotal : r ^ z ≤ normalization D m * ↑(#Tcur)
+hParentCur : ∀ v ∈ Tcur, v.1 ∈ parentLabels D R a (2 ^ m) p
+Q : Finset Parent
+hsep :
+  ∀ q ∈ Q,
+    ∀ q' ∈ Q,
+      q ≠ q' →
+        64 / ↑(2 ^ b) ≤
+          dist (direction ((source h R Eref a m p).line (representative hRef univ 0 (2 ^ b) q)))
+            (direction ((source h R Eref a m p).line (representative hRef univ 0 (2 ^ b) q')))
+hQP : Q ⊆ image (parentLabel (source h R Eref a m p) 0 (2 ^ b)) univ
+hQne : Q.Nonempty
+hrep : ∀ q ∈ Q, parentLabel (source h R Eref a m p) 0 (2 ^ b) (representative hRef univ 0 (2 ^ b) q) = q
+hterminal :
+  ∀ (ell : Fin (b + 1)) (q : Parent),
+    {q' ∈ Q | NativeDyadicParentCells.ancestor b (↑ell) q' = q}.Nonempty →
+      (source h R Eref a m p).thickness ^ (8 * z) * (↑(2 ^ b) / ↑(2 ^ ↑ell)) ^ 3 ≤
+        ↑(#({q' ∈ Q | NativeDyadicParentCells.ancestor b (↑ell) q' = q}))
+hC :
+  IsWangZakharovNativeFiniteInput
+    (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+      (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+    etaA
+hCthick :
+  (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+        (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep).thickness =
+    64 / ↑(2 ^ b)
+_hCompact :
+  ∀ (i : Fin #Q),
+    (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+            (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep).line
+        i ∈
+      NativeUnitParentNormalization.fixedCompactClass
+_hShadeC :
+  (source h R Eref a m p).thickness ^ (5 * z) ≤
+    (wzTotalShadingVolume
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)).toReal
+_hret :
+  (source h R Eref a m p).thickness ^ pExp / (2 * colorCost) * (normalization D m * ↑(#Tcur)) ≤
+    normalization D m * ↑(#(NativeSameQSourceRestriction.restrict D a m b p Q Tcur))
+hMassQ :
+  (source h R Eref a m p).thickness ^ (3 * z) / 2 ≤
+    normalization D m * ↑(#(NativeSameQSourceRestriction.restrict D a m b p Q Tcur))
+_hUniversal :
+  (source h R Eref a m p).thickness ^ pExp *
+        (normalization D m * ↑(#(NativeSameQSourceRestriction.restrict D a m b p Q Tcur))) /
+      (16 * 87808) ≤
+    (wzTotalShadingVolume
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)).toReal
+C : FiniteScaleSource #Q :=
+  NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+    (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep
+TQ : Finset (Fin n × Index) := NativeSameQSourceRestriction.restrict D a m b p Q Tcur
+hTQne : TQ.Nonempty
+qOld : Parent
+A : Finset (Fin n × Index)
+hAT : A ⊆ Tcur
+hAne : A.Nonempty
+hPhase : ∀ z ∈ A, relativeLabel D a (2 ^ m) p (2 ^ b) z.1 ∈ Q ∧ relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld
+B : Finset (ℤ × Fin #Q × Index)
+hBO :
+  B ⊆
+    image
+      (rawTaggedKey
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld))
+      (occurrences h R a m b p ⋯ Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+hRawCoherent : ∀ v ∈ B, ∀ w ∈ B, finalTime v = finalTime w → v.1 = w.1
+hBT :
+  translatedTags D a m B ⊆
+    image
+      (taggedKey D a m
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld))
+      (occurrences h R a m b p ⋯ Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+hCoherent : ∀ v ∈ translatedTags D a m B, ∀ w ∈ translatedTags D a m B, finalTime v = finalTime w → v.1 = w.1
+hEne :
+  (selectedPairs D a m
+      (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+        (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+      c (zeroProjection qOld) (occurrences h R a m b p ⋯ Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+      (translatedTags D a m B)).Nonempty
+hEinc :
+  selectedPairs D a m
+      (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+        (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+      c (zeroProjection qOld) (occurrences h R a m b p ⋯ Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+      (translatedTags D a m B) ⊆
+    incidences (actualRows h R Eref Tcur level m b p hRef Q)
+hParentFinal :
+  ∀
+    z ∈
+      selectedPairs D a m
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld) (occurrences h R a m b p ⋯ Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+        (translatedTags D a m B),
+    z.1 ∈
+      parentLabels
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        univ 0 (2 ^ c) (zeroProjection qOld)
+hImage :
+  image
+      (localPair
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        0 (2 ^ c) (zeroProjection qOld))
+      (selectedPairs D a m
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld) (occurrences h R a m b p ⋯ Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+        (translatedTags D a m B)) =
+    image Prod.snd B
+hShade :
+  ENNReal.ofReal
+      ((source h R Eref a m p).thickness ^ (2 * pExp) * normalization D m *
+          ↑(#(NativeSameQSourceRestriction.restrict D a m b p Q Tcur)) /
+        (4294967296 * phaseConstant)) ≤
+    wzTotalShadingVolume
+      (source hC univ
+        (selectedPairs D a m
+          (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+            (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+          c (zeroProjection qOld) (occurrences h R a m b p ⋯ Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+          (translatedTags D a m B))
+        0 c (zeroProjection qOld))
+hUnion :
+  volume
+      (sourceUnion
+        (source hC univ
+          (selectedPairs D a m
+            (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+              (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+            c (zeroProjection qOld) (occurrences h R a m b p ⋯ Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+            (translatedTags D a m B))
+          0 c (zeroProjection qOld))) ≤
+    ENNReal.ofReal
+      (NativeRememberedSourceUnion.unionConstant
+          (xyConstant D.thickness zeta population PL PU lambda (Gcost * Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3))
+            Qref (NativeSourceSizeBounds.radix (#S0) L3) J m) *
+        (source hC univ
+              (selectedPairs D a m
+                (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+                  (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+                c (zeroProjection qOld) (occurrences h R a m b p ⋯ Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+                (translatedTags D a m B))
+              0 c (zeroProjection qOld)).thickness ^
+          extremalExponent)
+cells : Fin #Q → Finset Index := actualRows h R Eref Tcur level m b p hRef Q
+hp : (parentLabels D R a (2 ^ m) p).Nonempty := card_pos.mp hRef.left.left
+pA : Parent := zeroProjection qOld
+Occ : Finset ((Fin #Q × Index) × Fin n × Index) := occurrences h R a m b p hp Q cells A
+Efinal : Finset (Fin #Q × Index) := selectedPairs D a m C c pA Occ (translatedTags D a m B)
+L : ℝ := r ^ (2 * pExp) * (normalization D m * ↑(#TQ)) / (4294967296 * phaseConstant)
+hLower : sigma ^ (5 * Eout / 4096) / (8589934592 * phaseConstant) ≤ L
+hL : 0 ≤ L
+hShadeL : ENNReal.ofReal L ≤ wzTotalShadingVolume (source hC univ Efinal 0 c pA)
+hbudgets :
+  2048 ^ 3 * sigma ^ (Eout / 8) ≤ sigma ^ (Eout / 16) ∧
+    373248 * 512 ^ 4 * sigma ^ (Eout / 8) ≤ sigma ^ (17 * Eout / 256) ∧
+      volumeConstant * (5832 / 64 ^ 3) * sigma ^ (Eout / 8) ≤ sigma ^ (5 * Eout / 4096) / (8589934592 * phaseConstant)
+hpower2 : d ^ z2 ≤ r ^ (8 * z)
+hCWread : d ^ (etaA + z2) = sigma ^ (17 * Eout / 256)
+hh : 0 < widthWindow * Eout / 16
+⊢ 0 ≤ z2
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_native_realization.lean:348:8: error: declaration uses `sorry`
+LEAN_FINISHED_UTC 2026-10-06T23:15:31.168332+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

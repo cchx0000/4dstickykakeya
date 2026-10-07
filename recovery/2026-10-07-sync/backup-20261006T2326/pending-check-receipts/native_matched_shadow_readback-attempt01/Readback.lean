@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_matched_shadow_readback
+set_option autoImplicit false
+#print axioms NativeMatchedShadowReadback.mixed_full_shading
+#print axioms NativeMatchedShadowReadback.mixed_full_multiplicity

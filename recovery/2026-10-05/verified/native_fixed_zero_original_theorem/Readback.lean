@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_fixed_zero_original_theorem
+
+#print axioms NativeFixedZeroOriginalTheorem.sticky_kakeya_four_dimensional_of_fixed_zero

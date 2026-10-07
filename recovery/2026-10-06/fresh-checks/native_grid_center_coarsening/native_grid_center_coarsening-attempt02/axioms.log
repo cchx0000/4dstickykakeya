@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/9530c92951e7d26c5e5fd3cbf9c744702e8f118685929076936c533437e03e03.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_grid_center_coarsening-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_grid_center_coarsening-attempt02/Readback.lean"]
+SOURCE_SHA256 a00d1420245374c803eb00156219b710d18d8f19547f8fe5154554bb12d551ea
+'NativeGridCenterCoarsening.divide' does not depend on any axioms
+'NativeGridCenterCoarsening.center_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGridCenterCoarsening.coarsened_ADBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

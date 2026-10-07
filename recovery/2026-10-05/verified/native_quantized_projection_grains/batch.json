@@ -1,0 +1,93 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T11:45:12.876034+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T114511191686",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T114511191686/AggregateReadback.lean"
+  ],
+  "readback_sha256": "e586ef9ff3ea80cb0a2cd4d1e59401768e64ac3ad2ff962bb65b629b0d206f09",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_tuple_plane_transfer",
+      "source_sha256": "8b83e222e4946ddb899e14cfba7c3f99575dda32024be2c19681db1f21e27933",
+      "olean_sha256": "c22d7bb12828daeaa1a3c48384543017f208b8042575f6b54805f7626f653622",
+      "names": [
+        "NativeActualTuplePlaneTransfer.chain_span_finrank",
+        "NativeActualTuplePlaneTransfer.actual_chain_plane_transfer",
+        "NativeActualTuplePlaneTransfer.exists_global_plane_representatives"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_iterated_projection_grains",
+      "source_sha256": "7d9de9627e87c3074246f49a2eca60be888bf290163806f14a4736da91cff7a0",
+      "olean_sha256": "6b0c19be86a63a8f030b976cf8c108cd5160c264ac8949c760c64d5339c67f73",
+      "names": [
+        "NativeIteratedProjectionGrains.minimumFiber_attained",
+        "NativeIteratedProjectionGrains.iterated_grain_count",
+        "NativeIteratedProjectionGrains.native_chain_grain_count"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_quantized_projection_grains",
+      "source_sha256": "427bfaf04199ef3383330d49df6f8cec6492f397e0644b32a45257c2e8114d8d",
+      "olean_sha256": "0d942da44ca37d7764ade56f2cae4a514d55cb487eb65e57d871134fbccb5284",
+      "names": [
+        "NativeQuantizedProjectionGrains.normal",
+        "NativeQuantizedProjectionGrains.label",
+        "NativeQuantizedProjectionGrains.vertexLabel",
+        "NativeQuantizedProjectionGrains.normal_norm_le_of_near",
+        "NativeQuantizedProjectionGrains.infDist_le_normal_norm",
+        "NativeQuantizedProjectionGrains.label_mem_box_of_near",
+        "NativeQuantizedProjectionGrains.same_label_near",
+        "NativeQuantizedProjectionGrains.representative",
+        "NativeQuantizedProjectionGrains.representative_mem",
+        "NativeQuantizedProjectionGrains.representative_label",
+        "NativeQuantizedProjectionGrains.representatives_cover",
+        "NativeQuantizedProjectionGrains.minimumFiber",
+        "NativeQuantizedProjectionGrains.grain_count_mul",
+        "NativeQuantizedProjectionGrains.grain_count_computed"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_span_coefficient_power",
+      "source_sha256": "ca869ff0c0d9fdca0c5a0a82ca87ce8d0e72e8bae47c05c2a18c0cddec33e61f",
+      "olean_sha256": "5b43f4679b3879a8afd0dab4e06b1401b88fa7c71fcfb14b4513a869da55541f",
+      "names": [
+        "NativeSpanCoefficientPower.coefficientCost_le_power"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_squared_grain_queries",
+      "source_sha256": "8e43d55118419fd74fa82a792196d0dc075a2f298f8e79fd48c6df03c3f08729",
+      "olean_sha256": "a83dffe36e6f786ce28dfeadb12de96e6a8d2fa6710426df2ac530bbb42cdcf1",
+      "names": [
+        "NativeSquaredGrainQueries.phaseDepth",
+        "NativeSquaredGrainQueries.phaseDepth_bounds",
+        "NativeSquaredGrainQueries.squared_scale_identity",
+        "NativeSquaredGrainQueries.phase_inverse_le_square",
+        "NativeSquaredGrainQueries.short_fine_scale_ratio",
+        "NativeSquaredGrainQueries.pairedQueries",
+        "NativeSquaredGrainQueries.paired_query_count",
+        "NativeSquaredGrainQueries.pairedQueries_short",
+        "NativeSquaredGrainQueries.pairedQueries_vertex",
+        "NativeSquaredGrainQueries.pairedQueries_valid",
+        "NativeSquaredGrainQueries.pairedQueries_uniformities",
+        "NativeSquaredGrainQueries.stopping_depth_cap"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T11:52:14.763083+00:00",
+  "exit_code": 0
+}

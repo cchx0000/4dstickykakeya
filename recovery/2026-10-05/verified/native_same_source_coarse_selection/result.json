@@ -1,0 +1,42 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_same_source_coarse_selection",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_same_source_coarse_selection.lean",
+  "source_sha256": "71b93bda1f772186f66a9f0bf5f380206cd7be969419c562d72f508462e0981f",
+  "names": [
+    "NativeSameSourceCoarseSelection.selected_dyadic_shading_transfer",
+    "NativeSameSourceCoarseSelection.original_mass_le_selected",
+    "NativeSameSourceCoarseSelection.selected_color_mass",
+    "NativeSameSourceCoarseSelection.same_source_coarse_selection"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:33:18.005094+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeSameSourceCoarseSelection.selected_dyadic_shading_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameSourceCoarseSelection.original_mass_le_selected": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameSourceCoarseSelection.selected_color_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameSourceCoarseSelection.same_source_coarse_selection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "7e16a9d63b2917585b2b340aa1d81a8caa4b46666269154da73c4fd73e2e712a",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:33:28.726565+00:00"
+}

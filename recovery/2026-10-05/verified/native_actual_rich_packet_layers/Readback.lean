@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_actual_rich_packet_layers
+
+#print axioms NativeActualRichPacketLayers.referenceConstant
+#print axioms NativeActualRichPacketLayers.referenceConstant_pos
+#print axioms NativeActualRichPacketLayers.packetMass_eq_of_subset
+#print axioms NativeActualRichPacketLayers.real_le_referenceMinimum
+#print axioms NativeActualRichPacketLayers.original_point_mass_positive
+#print axioms NativeActualRichPacketLayers.packet_overlap_le
+#print axioms NativeActualRichPacketLayers.computed_reference_budget_le
+#print axioms NativeActualRichPacketLayers.threshold_ratio_lower
+#print axioms NativeActualRichPacketLayers.construct_rich_packet_layers

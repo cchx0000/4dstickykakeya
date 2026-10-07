@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_middle_window_balance
+
+#print axioms NativeMiddleWindowBalance.HasMiddleScale
+#print axioms NativeMiddleWindowBalance.radix_sq_le_of_transfer_cost
+#print axioms NativeMiddleWindowBalance.large_level_of_grid
+#print axioms NativeMiddleWindowBalance.coarse_upper_of_admission
+#print axioms NativeMiddleWindowBalance.middle_old_parent_bounds
+#print axioms NativeMiddleWindowBalance.middle_coarse_lower
+#print axioms NativeMiddleWindowBalance.HasOriginalBackbone
+#print axioms NativeMiddleWindowBalance.canonicalSchedule
+#print axioms NativeMiddleWindowBalance.exists_middle_configuration

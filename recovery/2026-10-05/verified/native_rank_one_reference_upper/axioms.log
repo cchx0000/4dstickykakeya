@@ -1,0 +1,11 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_rank_one_reference_upper_readback.lean"]
+SOURCE_SHA256 1ee06e58ba9880b41168e80d82ed6adff532f657ea86860fd6702e5f809cae36
+FIFO compiler ticket: 01791188316948833227-c53f00adc7484b809118652148a42bc2.request
+FIFO compiler acquired UTC: 2026-10-05T08:18:36.950168+00:00
+'NativeRankOneReferenceUpper.point_degree_le_reference_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankOneReferenceUpper.selected_parent_cap_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankOneReferenceUpper.original_selected_parent_cap_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

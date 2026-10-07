@@ -1,0 +1,32 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_mass_reference_coarse_selection",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_mass_reference_coarse_selection.lean",
+  "source_sha256": "e2f9fa518b540887d26b1bebbdd808b294e2066eb7c87a29c6ca02d20eba32a5",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_mass_reference_coarse_selection.olean",
+  "names": [
+    "NativeMassReferenceCoarseSelection.same_reference_coarse_selection_of_mass"
+  ],
+  "started_utc": "2026-10-06T17:13:42.513150+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "1fcd92907eb7b4669cdeb617d5562b204006e749b305ba872746f253fd903a7f",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T17:18:03.474776+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1721",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeMassReferenceCoarseSelection.same_reference_coarse_selection_of_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T17:24:35.287243+00:00"
+}

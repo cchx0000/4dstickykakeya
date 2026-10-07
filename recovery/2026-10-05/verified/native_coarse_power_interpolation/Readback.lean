@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_coarse_power_interpolation
+#print axioms NativeCoarsePowerInterpolation.middle_lower_of_forward_bound_general
+#print axioms NativeCoarsePowerInterpolation.middle_lower_of_forward_bound

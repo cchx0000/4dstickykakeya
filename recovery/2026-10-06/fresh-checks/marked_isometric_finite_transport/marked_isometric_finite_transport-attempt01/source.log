@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0349b32f834783b7a6449e6b89f6cc0ca355d9d5505636ab06587bdfd2d56ff6.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_marked_isometric_finite_transport.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_marked_isometric_finite_transport.lean"]
+SOURCE_SHA256 581d25537855d482405cc99f04b7d622de5a3104490160970e1076f8c938dd7f
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_marked_isometric_finite_transport.lean:68:2: error: Type mismatch: After simplification, term
+  hh
+ has type
+  @Convex ℝ E4 Real.semiring Real.partialOrder (PiLp.seminormedAddCommGroup 2 fun x => ℝ).toAddCommMonoid
+    DistribMulAction.toDistribSMul.toSMul ((fun x => ↑O.toLinearEquiv (x + -c)) ⁻¹' U)
+but is expected to have type
+  @Convex ℝ E4 Real.semiring Real.partialOrder
+    (WithLp.instAddCommGroup 2 ((i : Fin 4) → (fun x => ℝ) i)).toAddCommMonoid
+    (WithLp.instSMul 2 ℝ ((i : Fin 4) → (fun x => ℝ) i)) (point O c ⁻¹' U)
+
+EXIT_CODE=1

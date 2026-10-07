@@ -1,0 +1,13 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2d5e10e0f2010684b58cd86fc36a1e06fb3739f282a0d8dd865b8c8506decb97.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_lipschitz_height_edge_lift.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_height_edge_lift.lean"]
+SOURCE_SHA256 50676a5613e2908cce5b63967a3b86c0a2dfe65f065fb9f879d95ddb125cc73a
+LOCK_ACQUIRED_UTC 2026-10-06T15:03:17.376738+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_height_edge_lift.lean:100:4: error: Unused tactic linter: `change
+  residue q hq (fine R origin q (height p)) = best (coarse R origin (height p)) ∧
+    residue 8 (by decide) (coarse R origin (height p)) = color` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+LEAN_FINISHED_UTC 2026-10-06T15:04:38.133776+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

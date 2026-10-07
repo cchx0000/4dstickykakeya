@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_coordinate_volume_transport
+set_option autoImplicit false
+#print axioms NativeCoordinateVolumeTransport.scalar
+#print axioms NativeCoordinateVolumeTransport.planar
+#print axioms NativeCoordinateVolumeTransport.scalarEquiv
+#print axioms NativeCoordinateVolumeTransport.planarEquiv
+#print axioms NativeCoordinateVolumeTransport.three_last_measurePreserving
+#print axioms NativeCoordinateVolumeTransport.scalar_measurePreserving
+#print axioms NativeCoordinateVolumeTransport.planar_measurePreserving
+#print axioms NativeCoordinateVolumeTransport.scalar_volume_preimage
+#print axioms NativeCoordinateVolumeTransport.planar_volume_preimage
+#print axioms NativeCoordinateVolumeTransport.scalar_CW_transfer
+#print axioms NativeCoordinateVolumeTransport.planar_CW_transfer

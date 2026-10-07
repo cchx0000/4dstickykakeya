@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_recoded_grid_upper
+set_option autoImplicit false
+#print axioms NativeRecodedGridUpper.incidence_sum_swap
+#print axioms NativeRecodedGridUpper.grid_ball_upper_of_witnesses
+#print axioms NativeRecodedGridUpper.actual_grid_ball_upper

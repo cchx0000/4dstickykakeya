@@ -1,0 +1,47 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T08:55:30.505463+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py",
+    "--slots",
+    "2",
+    "--lock-dir",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T085527286272",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T085527286272/AggregateReadback.lean"
+  ],
+  "readback_sha256": "98b59d1ac8321174618e6b4b9f0e79f08af9f86fa8065ac7447096763df292d5",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_master_point_relations",
+      "source_sha256": "9a21f3333daf11909bf5b894d971a80a7e5e0d0b7bff2977bac2307f9fcbe752",
+      "olean_sha256": "f268ebc2fe8c895b7830c05fcc254691888fd23bf023805a4f10780b6ad6bc37",
+      "names": [
+        "NativeMasterPointRelations.masterRelations",
+        "NativeMasterPointRelations.masterRelations_refl",
+        "NativeMasterPointRelations.masterRelations_symm",
+        "NativeMasterPointRelations.master_uniformities"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_one_power_exclusion",
+      "source_sha256": "7c07bb98eba1722d1a4e7ed285024ede2d4119e5d4c239f71ae1dc5a686cb19c",
+      "olean_sha256": "9fce90ff2450a33230ee32e90c81698f4786a368248d4a9d68ea18aeaffaec6b",
+      "names": [
+        "NativeRankOnePowerExclusion.rank_one_budget_le",
+        "NativeRankOnePowerExclusion.rank_one_excluded"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T09:02:17.062195+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_horizontal_grain_slice
+
+set_option autoImplicit false
+#print axioms NativeActualHorizontalGrainSlice.actual_node_horizontal_slice
+#print axioms NativeActualHorizontalGrainSlice.node_graph_direction

@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_native_slice_class_balls
+
+#print axioms NativeSliceClassBalls.preparedClass
+#print axioms NativeSliceClassBalls.spatialBall
+#print axioms NativeSliceClassBalls.realized
+#print axioms NativeSliceClassBalls.realizedSlice
+#print axioms NativeSliceClassBalls.realized_injective_on_height
+#print axioms NativeSliceClassBalls.realized_dist_iff
+#print axioms NativeSliceClassBalls.realized_ball_card
+#print axioms NativeSliceClassBalls.preparedClass_subset_ball
+#print axioms NativeSliceClassBalls.ball_class_mem_halo
+#print axioms NativeSliceClassBalls.ball_class_card_le
+#print axioms NativeSliceClassBalls.prepared_ball_upper
+#print axioms NativeSliceClassBalls.prepared_real_ball_bounds

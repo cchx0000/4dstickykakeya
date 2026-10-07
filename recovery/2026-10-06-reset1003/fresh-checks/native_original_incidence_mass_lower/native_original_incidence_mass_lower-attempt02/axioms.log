@@ -1,0 +1,13 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2131.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2131", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2131/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T21:31:58.893873+00:00
+SHARED_SLOT 1
+LEAN_PID 58
+'NativeOriginalIncidenceMassLower.retentionConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalIncidenceMassLower.native_volume_population_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalIncidenceMassLower.raw_incidence_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalIncidenceMassLower.paid_raw_incidence_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T21:33:08.791861+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

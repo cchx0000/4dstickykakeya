@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_native_actual_projected_grain_count
+
+#print axioms NativeActualProjectedGrainCount.grainWidth
+#print axioms NativeActualProjectedGrainCount.grainWidth_pos
+#print axioms NativeActualProjectedGrainCount.projectionLabel
+#print axioms NativeActualProjectedGrainCount.taggedLabel
+#print axioms NativeActualProjectedGrainCount.predecessorProduct
+#print axioms NativeActualProjectedGrainCount.transverseCost
+#print axioms NativeActualProjectedGrainCount.transverseCost_pos
+#print axioms NativeActualProjectedGrainCount.actual_projection_minimum_lower
+#print axioms NativeActualProjectedGrainCount.actual_node_grain_count
+#print axioms NativeActualProjectedGrainCount.restricted_node_grain_count
+#print axioms NativeActualProjectedGrainCount.cap_mul_raw_vertices_le
+#print axioms NativeActualProjectedGrainCount.tagged_same_label_near

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_new_cut_output_budget
+set_option autoImplicit false
+#print axioms NativeNewCutOutputBudget.actual_multiplier
+#print axioms NativeNewCutOutputBudget.paid_Y_constant_at_output
+#print axioms NativeNewCutOutputBudget.exists_Y_output_cutoff

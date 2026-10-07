@@ -1,0 +1,61 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_finite_tuple_fibers",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_finite_tuple_fibers.lean",
+  "source_sha256": "9c5fcbdb8065be3f1ec962ea68de094199ada874f6b436796fa1d047b499c8ca",
+  "names": [
+    "NativeFiniteTupleFibers.tupleLifts",
+    "NativeFiniteTupleFibers.cons_pair_injective",
+    "NativeFiniteTupleFibers.mem_tupleLifts",
+    "NativeFiniteTupleFibers.tupleLifts_card_le",
+    "NativeFiniteTupleFibers.list_map_fiber_card_le",
+    "NativeFiniteTupleFibers.card_le_coarse_tuple_card_mul",
+    "NativeFiniteTupleFibers.coarse_tuple_card_lower"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T09:23:44.411548+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "efd36ad0dff48b378da97be8ded46e3e8ea03539dc658d4cc2040e28581fe925",
+  "source_execution_complete_utc": "2026-10-05T09:32:16.821962+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T093609588642",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeFiniteTupleFibers.tupleLifts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFiniteTupleFibers.cons_pair_injective": [],
+    "NativeFiniteTupleFibers.mem_tupleLifts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFiniteTupleFibers.tupleLifts_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFiniteTupleFibers.list_map_fiber_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFiniteTupleFibers.card_le_coarse_tuple_card_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFiniteTupleFibers.coarse_tuple_card_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T09:46:29.147313+00:00"
+}

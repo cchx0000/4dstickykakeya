@@ -1,0 +1,31 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T092623555415", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T092623555415/AggregateReadback.lean"]
+READBACK_SHA256 4858230f656c779faae1af78937418f5bad2e63ebe2e2162357a7d20d8d1c6df
+FIFO compiler ticket: 01791192839542858493-af3a281ed192401ebfc52d64376a6449.request
+FIFO compiler acquired UTC: 2026-10-05T09:33:59.543650+00:00
+'NativeHereditaryConditionalUpper.active_parent_upper_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHereditaryConditionalUpper.boundary_pair_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHereditaryConditionalUpper.conditional_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHereditaryConditionalUpper.depthPower_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHereditaryConditionalUpper.far_pair_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHereditaryConditionalUpper.parent_subset_reference_ancestor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHereditaryConditionalUpper.short_gap_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHereditaryConditionalUpper.subset_outer_parent_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankOneBranchBudget.actual_rank_one_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.allowed_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.allowed_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.depth_lower_of_radius_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.exists_installed_rank_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.exists_test_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.last_depth_ge_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.last_radius_le_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.radius_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.radius_le_one_div_48' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.radius_parent_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.radius_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusMenu.relative_power_of_radius_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

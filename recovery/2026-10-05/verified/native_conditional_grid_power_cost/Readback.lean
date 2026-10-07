@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_grid_power_cost
+
+#print axioms NativeConditionalGridPowerCost.dyadic_width_ratio
+#print axioms NativeConditionalGridPowerCost.middle_width_dyadic
+#print axioms NativeConditionalGridPowerCost.gap_cost
+#print axioms NativeConditionalGridPowerCost.two_scale_cost

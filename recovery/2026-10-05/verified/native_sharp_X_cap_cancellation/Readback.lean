@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_X_cap_cancellation
+
+#print axioms NativeSharpXCapCancellation.cross_cap_cancellation

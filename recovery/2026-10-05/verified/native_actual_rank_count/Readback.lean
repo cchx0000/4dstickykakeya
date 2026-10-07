@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_rank_count
+
+#print axioms NativeActualRankCount.loss_power
+#print axioms NativeActualRankCount.clear_count
+#print axioms NativeActualRankCount.actual_rank_count

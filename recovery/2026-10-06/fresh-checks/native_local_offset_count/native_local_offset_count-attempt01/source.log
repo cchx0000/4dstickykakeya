@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4c19c86447a209b22745474f0e833d97a2c5145c2e388ab98f1fec643e85dd6f.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_local_offset_count.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_count.lean"]
+SOURCE_SHA256 a71f3fbef4ba4ce7c51c8461dce8cf3b5c13ac07df278d8ba8771aec4e65a414
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_count.lean:146:4: error: mod_cast has type
+  ∑ c ∈ @image (P × T) (Fin ell → ℤ) (fun a b => propDecidable (a = b)) f S, #(image g ({z ∈ S | f z = c})) =
+    ∑ a ∈ image g S, #(image f ({z ∈ S | g z = a}))
+but is expected to have type
+  ∑ x ∈ @image (P × T) (Fin ell → ℤ) (fun a b => Fintype.decidablePiFintype a b) f S, #(image g ({z ∈ S | f z = x})) =
+    ∑ x ∈ image g S, #(image f ({z ∈ S | g z = x}))
+
+EXIT_CODE=1

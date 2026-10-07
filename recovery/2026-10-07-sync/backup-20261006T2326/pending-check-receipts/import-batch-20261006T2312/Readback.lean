@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_L_tuple_common_cloud
+set_option autoImplicit false
+#print axioms NativeLTupleCommonCloud.difference_action_bound
+#print axioms NativeLTupleCommonCloud.quotient_cloud
+#print axioms NativeLTupleCommonCloud.same_grain_move_cloud
+#print axioms NativeLTupleCommonCloud.actual_two_arm_common_cloud

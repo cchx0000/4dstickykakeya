@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_height_window_relations
+
+#print axioms NativeHeightWindowRelations.coarsen
+#print axioms NativeHeightWindowRelations.coarsen_column
+#print axioms NativeHeightWindowRelations.relations
+#print axioms NativeHeightWindowRelations.relations_refl
+#print axioms NativeHeightWindowRelations.relations_symm
+#print axioms NativeHeightWindowRelations.caller_window_uniformities
+#print axioms NativeHeightWindowRelations.points
+#print axioms NativeHeightWindowRelations.points_horizontal_coarsen
+#print axioms NativeHeightWindowRelations.horizontal_class_counts
+#print axioms NativeHeightWindowRelations.window_height_counts_comparable

@@ -1,0 +1,84 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_height_window_relations",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_height_window_relations.lean",
+  "source_sha256": "6d3f18cc96ffd2c10f992740c886def84cc0905995ac17e5fd2e002a5ae8616e",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_height_window_relations.olean",
+  "names": [
+    "NativeHeightWindowRelations.coarsen",
+    "NativeHeightWindowRelations.coarsen_column",
+    "NativeHeightWindowRelations.relations",
+    "NativeHeightWindowRelations.relations_refl",
+    "NativeHeightWindowRelations.relations_symm",
+    "NativeHeightWindowRelations.caller_window_uniformities",
+    "NativeHeightWindowRelations.points",
+    "NativeHeightWindowRelations.points_horizontal_coarsen",
+    "NativeHeightWindowRelations.horizontal_class_counts",
+    "NativeHeightWindowRelations.window_height_counts_comparable"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T19:44:25.708346+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "60e884516f525217cdf2593c04d8dd8f1afb96c15e3bffcef4b35c8923e48010",
+  "source_execution_complete_utc": "2026-10-05T19:44:59.936632+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T194736125165",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeHeightWindowRelations.coarsen": [
+      "propext"
+    ],
+    "NativeHeightWindowRelations.coarsen_column": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightWindowRelations.relations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightWindowRelations.relations_refl": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightWindowRelations.relations_symm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightWindowRelations.caller_window_uniformities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightWindowRelations.points": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightWindowRelations.points_horizontal_coarsen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightWindowRelations.horizontal_class_counts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightWindowRelations.window_height_counts_comparable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T19:48:40.485916+00:00"
+}

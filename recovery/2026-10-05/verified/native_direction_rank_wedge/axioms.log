@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_direction_rank_wedge_readback.lean"]
+SOURCE_SHA256 e8dbfba48a108a6b818c2766dc54ca520cae5bb6f127dd0ba2feaebb851228d6
+FIFO compiler ticket: 01791188624993862029-03a7820c1e4c421ba545c2ddb5381a93.request
+FIFO compiler acquired UTC: 2026-10-05T08:23:44.994549+00:00
+'NativeDirectionRankWedge.cons_image_after_zero' depends on axioms: [propext, Quot.sound]
+'NativeDirectionRankWedge.cons_image_after_succ' depends on axioms: [propext, Quot.sound]
+'NativeDirectionRankWedge.separated_tail_distances' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDirectionRankWedge.separated_gram_det_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDirectionRankWedge.chains_gram_det_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDirectionRankWedge.concentration_or_many_transverse_chains' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeDirectionRankWedge.incident_slope_quantitative_dichotomy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

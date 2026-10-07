@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_native_rank_radius_rounding
+
+#print axioms NativeRankRadiusRounding.atDepth
+#print axioms NativeRankRadiusRounding.atDepth_pos
+#print axioms NativeRankRadiusRounding.atDepth_antitone
+#print axioms NativeRankRadiusRounding.atDepth_succ
+#print axioms NativeRankRadiusRounding.atDepth_ratio
+#print axioms NativeRankRadiusRounding.exists_target_depth
+#print axioms NativeRankRadiusRounding.gap_power
+#print axioms NativeRankRadiusRounding.exists_near_radius
+#print axioms NativeRankRadiusRounding.exists_mesoscopic_test_radius
+#print axioms NativeRankRadiusRounding.first_radius_lower
+#print axioms NativeRankRadiusRounding.target_le_first_radius
+#print axioms NativeRankRadiusRounding.exists_mesoscopic_test_radius_of_cutoff

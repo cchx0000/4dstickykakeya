@@ -1,0 +1,11 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/24fee5f39b9a5a2ce177b059be7fec0f96583800fc1a3f9204227349d160a3fc.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_actual_configured_base.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean"]
+SOURCE_SHA256 9fd61cd289959ede3724be0681d8e44273f2b9cf9f830630f2baea493e326c61
+LOCK_ACQUIRED_UTC 2026-10-06T12:23:49.226492+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:44:16: error: unexpected token '∧'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:107:24: error: unexpected token '∧'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:185:15: error: unexpected token ')'; expected term
+LEAN_FINISHED_UTC 2026-10-06T12:25:38.191223+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

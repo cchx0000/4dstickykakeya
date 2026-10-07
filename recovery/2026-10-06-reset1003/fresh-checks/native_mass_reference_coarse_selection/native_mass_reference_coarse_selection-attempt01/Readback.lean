@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_mass_reference_coarse_selection
+set_option autoImplicit false
+#print axioms NativeMassReferenceCoarseSelection.same_reference_coarse_selection_of_mass

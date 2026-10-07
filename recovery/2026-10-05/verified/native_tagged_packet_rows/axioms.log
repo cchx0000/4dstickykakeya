@@ -1,0 +1,46 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T124702882429", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T124702882429/AggregateReadback.lean"]
+READBACK_SHA256 172843b91803aac422aa737506e6fae4f8884b748e72969d8cc1e6dc893ec188
+Dedicated staging slot 3 acquired UTC: 2026-10-05T12:48:03.058062+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8026928 kB
+'NativeActualAngularMenuCost.actual_cost_ratio_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualAngularMenuCost.original_factor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualAngularMenuCost.parent_scale_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualAngularMenuCost.retained_mean_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualAngularMenuCost.stopping_weighted_numerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAutomaticWeightedGrainCore.exists_automatic_simultaneous_dense_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAutomaticWeightedGrainCore.threshold' does not depend on any axioms
+'NativeAutomaticWeightedGrainCore.threshold_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAutomaticWeightedGrainCore.threshold_crossmul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAutomaticWeightedGrainCore.threshold_pos' does not depend on any axioms
+'NativeAutomaticWeightedGrainCore.threshold_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.boxReference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.boxReference_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.box_reference_duplication' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.currentLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.currentLift_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.currentLift_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.currentLift_snd_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.currentLift_subset_reference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.fixed_node_vertex_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.occupiedLabels_nodes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.referenceLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.referenceLift_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.referenceLift_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.referenceLift_subset_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.reference_label_duplication' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.roundedVertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.roundedVertex_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.rounded_currentLift_subset_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.rounded_occupied_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.taggedPacket' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNodalReferenceLift.tagged_packet_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPacketReference.full_fiber_mem_packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPacketReference.rawVertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketRows.assignedLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketRows.packetSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketRows.reference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketRows.short_closure_tag_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

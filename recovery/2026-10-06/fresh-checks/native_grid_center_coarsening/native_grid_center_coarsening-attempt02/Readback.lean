@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_grid_center_coarsening
+set_option autoImplicit false
+#print axioms NativeGridCenterCoarsening.divide
+#print axioms NativeGridCenterCoarsening.center_displacement
+#print axioms NativeGridCenterCoarsening.coarsened_ADBounds

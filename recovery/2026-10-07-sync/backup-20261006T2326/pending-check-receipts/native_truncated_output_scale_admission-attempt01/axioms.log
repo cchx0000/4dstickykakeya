@@ -1,0 +1,11 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/f17f12b6303f396d179243e1067b13a3d0885302f5f621d562be278909eb6a05.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_truncated_output_scale_admission-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_truncated_output_scale_admission-attempt01/Readback.lean"]
+SOURCE_SHA256 4653a75ce656d57afa024d860f0976607ab3f6e3881a8cfee507f2df64b53bd6
+LOCK_ACQUIRED_UTC 2026-10-06T13:44:56.660576+00:00
+SHARED_SLOT 3
+LEAN_PID 127
+'NativeTruncatedOutputScaleAdmission.exists_same_reference_admission_through' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T13:49:34.422232+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

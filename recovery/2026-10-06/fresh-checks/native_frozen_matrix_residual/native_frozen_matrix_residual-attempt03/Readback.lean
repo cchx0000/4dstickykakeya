@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_frozen_matrix_residual
+set_option autoImplicit false
+#print axioms NativeFrozenMatrixResidual.matrix_residual_transfer
+#print axioms NativeFrozenMatrixResidual.select_frozen_matrix_with_residual

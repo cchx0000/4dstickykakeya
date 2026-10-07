@@ -1,0 +1,94 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_remembered_source_mass_construction",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean",
+  "source_sha256": "069f18711b415ff0046685bb2c345ede131667489f5743a3503957715d36b9ff",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.olean",
+  "names": [
+    "NativeActualPhaseHeightPopulation.actual_full_phase_card",
+    "NativeActualPhaseHeightPopulation.relative_parent_mem_full",
+    "NativeActualMassiveOldPhase.image_card_le_sum_fiber_images",
+    "NativeActualMassiveOldPhase.graph_filter_relative_phase",
+    "NativeActualMassiveOldPhase.from_original_reference_same_Q",
+    "NativeRememberedSourceShading.count_to_mass",
+    "NativeRememberedSourceShading.select_height_and_shading",
+    "NativeRememberedSourceRealization.phaseConstant",
+    "NativeRememberedSourceRealization.massive_phase_payment",
+    "NativeRememberedSourceRealization.power_payment",
+    "NativeRememberedSourceRealization.exists_same_Q_source"
+  ],
+  "started_utc": "2026-10-06T21:08:13.899279+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "declarations_manifest_sha256": "595413350b255721cf38b56c1265faf81eb2e7a4b7aed9b2e9f817d6dfc4a46d",
+  "declaration_coverage": "Exact namespace-qualified source declaration sequence equals the frozen manifest",
+  "source_exit_code": 0,
+  "olean_sha256": "db128f5b31ea75230d1abe0cc6810a8c0d11409da84b316fcc0f3635f0b6e929",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T21:09:07.171141+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2121",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeActualPhaseHeightPopulation.actual_full_phase_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualPhaseHeightPopulation.relative_parent_mem_full": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualMassiveOldPhase.image_card_le_sum_fiber_images": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualMassiveOldPhase.graph_filter_relative_phase": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualMassiveOldPhase.from_original_reference_same_Q": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceShading.count_to_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceShading.select_height_and_shading": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceRealization.phaseConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceRealization.massive_phase_payment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceRealization.power_payment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceRealization.exists_same_Q_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T21:22:15.356404+00:00"
+}

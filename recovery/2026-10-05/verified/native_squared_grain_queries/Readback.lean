@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_native_squared_grain_queries
+
+#print axioms NativeSquaredGrainQueries.phaseDepth
+#print axioms NativeSquaredGrainQueries.phaseDepth_bounds
+#print axioms NativeSquaredGrainQueries.squared_scale_identity
+#print axioms NativeSquaredGrainQueries.phase_inverse_le_square
+#print axioms NativeSquaredGrainQueries.short_fine_scale_ratio
+#print axioms NativeSquaredGrainQueries.pairedQueries
+#print axioms NativeSquaredGrainQueries.paired_query_count
+#print axioms NativeSquaredGrainQueries.pairedQueries_short
+#print axioms NativeSquaredGrainQueries.pairedQueries_vertex
+#print axioms NativeSquaredGrainQueries.pairedQueries_valid
+#print axioms NativeSquaredGrainQueries.pairedQueries_uniformities
+#print axioms NativeSquaredGrainQueries.stopping_depth_cap

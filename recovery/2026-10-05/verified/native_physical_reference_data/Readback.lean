@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_physical_reference_data
+
+#print axioms NativePhysicalReferenceData.HasPhysicalUniformities
+#print axioms NativePhysicalReferenceData.retained_scheduled_upper
+#print axioms NativePhysicalReferenceData.squared_raw_ratio_of_middle

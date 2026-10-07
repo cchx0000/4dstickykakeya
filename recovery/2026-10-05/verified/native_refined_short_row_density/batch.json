@@ -1,0 +1,68 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T11:24:14.084158+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112412665596",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112412665596/AggregateReadback.lean"
+  ],
+  "readback_sha256": "66a7f55da398b192ae68080faa991f5db9f755b047e9d53e87226487867a2b16",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_same_fine_parent_packet",
+      "source_sha256": "e49036e4c24fb5a8ea8acb2353a916089c10e9d9b34247f81e5eb3767900ea77",
+      "olean_sha256": "7e6635aebfbe24f0aad00638bcaafb55a507a05e84252099f498044ca53a7597",
+      "names": [
+        "NativeSameFineParentPacket.tube_height_from_chart_shift",
+        "NativeSameFineParentPacket.same_parent_displacement_error",
+        "NativeSameFineParentPacket.same_fine_parent_quadratic_packet",
+        "NativeSameFineParentPacket.same_fine_parent_cell_packet"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_query_rank_configuration",
+      "source_sha256": "f5a29822a441a56b2b501cf84197f2f7ce41fb78a8655e73482acbf428959bb4",
+      "olean_sha256": "ae1c59d9bbb339d05e00903b7c7e447d7cd325d31f436fa9e543115252c2ff0b",
+      "names": [
+        "NativeActualQueryRankConfiguration.HasQuerySecondStageCore",
+        "NativeActualQueryRankConfiguration.decode_second_stage_queries",
+        "NativeActualQueryRankConfiguration.stopping_depth_ge",
+        "NativeActualQueryRankConfiguration.grainDepth_strict_step",
+        "NativeActualQueryRankConfiguration.stopping_depth_six",
+        "NativeActualQueryRankConfiguration.stopping_physical_scale",
+        "NativeActualQueryRankConfiguration.exists_actual_query_rank_configuration",
+        "NativeActualQueryRankConfiguration.select_grain_second_stage"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_refined_short_row_density",
+      "source_sha256": "29f0905cfdaf3666f760fe75797917c74d3bb92bfb2c5798de510ee925f7b407",
+      "olean_sha256": "6e1d3e8af758a9ce8354b76fe8eccac06d0c620b09e0d77cf193ca402f7bbd10",
+      "names": [
+        "NativeRefinedShortRowDensity.queried_rowChildren_comparable",
+        "NativeRefinedShortRowDensity.installed_rowChildren_comparable",
+        "NativeRefinedShortRowDensity.rowChildren_card_sum",
+        "NativeRefinedShortRowDensity.row_card_le_children",
+        "NativeRefinedShortRowDensity.queried_children_card_bound",
+        "NativeRefinedShortRowDensity.installed_children_card_bound",
+        "NativeRefinedShortRowDensity.count_lower_of_partition",
+        "NativeRefinedShortRowDensity.volume_constant_bound",
+        "NativeRefinedShortRowDensity.short_cell_cost",
+        "NativeRefinedShortRowDensity.queried_short_row_lower"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T11:27:16.145454+00:00",
+  "exit_code": 0
+}

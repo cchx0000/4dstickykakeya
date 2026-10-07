@@ -1,0 +1,21 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1eea51410323b0b4e76cab6453be521cb32faacfa285cb21768545233a93645a.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.lean"]
+SOURCE_SHA256 920cc3dd9c81dbb91b41c30eba8c75beb05d392d6cc2c1599dff0a42d4af8424
+LOCK_ACQUIRED_UTC 2026-10-06T23:04:55.252974+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.lean:20:13: error: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.lean:52:13: error: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.lean:65:18: error: unexpected token '|*'; expected '|' or '|ₘ'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_V_L_contact_identity.lean:94:0: error: automatically included section variable(s) unused in theorem `NativeVLContactIdentity.l_residual_of_v`:
+  [NormedSpace ℝ Y]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ Y] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+LEAN_FINISHED_UTC 2026-10-06T23:05:02.181002+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

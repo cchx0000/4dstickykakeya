@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_fixed_coherence_cost
+
+#print axioms NativeFixedCoherenceCost.actual_cap_one_le
+#print axioms NativeFixedCoherenceCost.ceiling_product_bound
+#print axioms NativeFixedCoherenceCost.fixed_round_power_cost

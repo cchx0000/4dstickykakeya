@@ -1,0 +1,18 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145256331010", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145256331010/AggregateReadback.lean"]
+READBACK_SHA256 39a24e6fcd839dff6cf52acc76f91e04da430346feba8ea2a08fc115568390f0
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:52:57.186481+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8787452 kB
+'NativeAnisotropicRowCountLower.chargeConstant' depends on axioms: [propext]
+'NativeAnisotropicRowCountLower.image_row_count_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicRowCountLower.parent_counts_of_actual_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicRowCountLower.queried_parent_counts_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicRowCountLower.shortEdges_subset_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentHorizontalReadback.local_slope_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentHorizontalReadback.physical_map_horizontal_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeParentHorizontalReadback.physical_map_horizontal_infDist' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

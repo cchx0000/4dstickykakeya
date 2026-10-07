@@ -1,0 +1,61 @@
+{
+  "state": "UNVERIFIED",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean",
+  "sha256": "5387b2c1819f0960d826633dc51fd632e5cdfef8d71e899dc8b67aaa9f2343c5",
+  "declarations": [
+    "NativeFixedSourceReference.fixed_balanced_configuration",
+    "NativeFixedSourceReference.fixed_two_scale_configuration",
+    "NativeFixedSourceReference.fixed_middle_two_scale_extra_configuration",
+    "NativeFixedSourceReference.fixed_all_two_scale_extra_configuration",
+    "NativeFixedSourceReference.exists_fixed_source_reference",
+    "NativeFixedSourceReference.union_pos_of_shading_lower",
+    "NativeFixedSourceReference.native_near_of_volume_bounds",
+    "NativeFixedSourceReference.exists_reference_from_volume_bounds"
+  ],
+  "units": [
+    {
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/consumer-drafts/native_fixed_source_reference_body.UNVERIFIED.lean",
+      "sha256": "420b4f2dad155d75f2753fd96da8c5bbdc20136cb7eded5ddbb21fff16fee8db",
+      "start_line": 10,
+      "declarations": [
+        "NativeFixedSourceReference.fixed_balanced_configuration",
+        "NativeFixedSourceReference.fixed_two_scale_configuration",
+        "NativeFixedSourceReference.fixed_middle_two_scale_extra_configuration",
+        "NativeFixedSourceReference.fixed_all_two_scale_extra_configuration",
+        "NativeFixedSourceReference.exists_fixed_source_reference"
+      ]
+    },
+    {
+      "path": "/workspace/shared/sticky-recovery-20261006/consumer-drafts/native_fixed_source_near_body.UNVERIFIED.lean",
+      "sha256": "0b7bfcf99b53b6d24426bda5becd2aff64beb4f8d786e5c4f292c0eba00f0ae5",
+      "start_line": 544,
+      "declarations": [
+        "NativeFixedSourceReference.union_pos_of_shading_lower",
+        "NativeFixedSourceReference.native_near_of_volume_bounds"
+      ]
+    },
+    {
+      "path": "/workspace/shared/sticky-recovery-20261006/consumer-drafts/native_fixed_source_reference_public.UNVERIFIED.lean",
+      "sha256": "c5195b78b23e7176f91e04e2e6fd9dea5a5f09009114b3b5013ca13e322871b9",
+      "start_line": 619,
+      "declarations": [
+        "NativeFixedSourceReference.exists_reference_from_volume_bounds"
+      ]
+    }
+  ],
+  "external_imports": [
+    "Theorems.Thm_StickyKakeya4_native_extra_queried_rank_configuration",
+    "Theorems.Thm_StickyKakeya4_native_fixed_compact_multiplicity",
+    "Theorems.Thm_StickyKakeya4_native_joint_absorbed_near_balance",
+    "Theorems.Thm_StickyKakeya4_native_original_cell_presentation_unique"
+  ],
+  "scope_boundary": {
+    "fixed_source": "The public entrance retains the given finite source D literally. In its intended call, D is the already constructed remembered local source S; the native proof and volume bounds must come from the same actual S.",
+    "proved_by_draft": "The output has ref.original=cells and ref.E1 subset incidences(cells). NativeOriginalCellPresentationUnique.cells_eq_of_shading_eq identifies the generic cubical presentation with the actual remembered cells at S.thickness/2.",
+    "hereditary_geometry": "Every restriction of E1, including the finite rank selection, retains the same original tube/cell label. A geometric witness predicate attached to that original cell height k(3), including its chosen remembered old height and higher-plane/quotient upper or error witnesses, survives by restriction.",
+    "first_later_boundary": "A subsequent mesoscopic physical/source map uses rawHeight or translatedHeight, which can merge distinct original cell heights. Neither label is asserted here to determine the inherited higher field. Such a common field requires a new actual factorization or a new selected-old-height argument for those literal maps.",
+    "not_inherited": "No dense higher-X population, higher-Y AD lower, whole-current-point fiber, or new-scale Reference profile is inherited from an arbitrary cut. The remembered-height framework can be reused only after its actual same-source count and complete-reference AD inputs are established at that later scale.",
+    "near_multiplicity": "The public theorem derives near multiplicity internally from actual shading lower L, actual union upper U*delta^kappa, and the scalar payment U*delta^eta<=L. No desired near-multiplicity premise is added to that public theorem.",
+    "verification": "All eight declarations are UNVERIFIED; no fresh source or imported-axiom result is claimed."
+  }
+}

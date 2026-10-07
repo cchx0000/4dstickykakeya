@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_full_reference_quotient_drift
+set_option autoImplicit false
+#print axioms NativeFullReferenceQuotientDrift.full_quotient_drift
+#print axioms NativeFullReferenceQuotientDrift.indexed_quotient_drift
+#print axioms NativeFullReferenceQuotientDrift.same_reference_quotient_drift

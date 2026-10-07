@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_core
+
+#print axioms NativeRetainedSliceCore.relations
+#print axioms NativeRetainedSliceCore.refinementCost
+#print axioms NativeRetainedSliceCore.refinementCost_pos
+#print axioms NativeRetainedSliceCore.relations_refl
+#print axioms NativeRetainedSliceCore.relations_symm
+#print axioms NativeRetainedSliceCore.exists_retained_slice_core
+#print axioms NativeRetainedSliceCore.exists_retained_slice_counts

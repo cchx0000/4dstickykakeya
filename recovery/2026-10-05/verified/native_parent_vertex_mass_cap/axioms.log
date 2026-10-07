@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150503139497", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150503139497/AggregateReadback.lean"]
+READBACK_SHA256 504d09589005182bf4b797c876514f486b6e561587450fb38e875bc40265d54d
+Dedicated staging slot 3 acquired UTC: 2026-10-05T15:05:03.918065+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8743728 kB
+'NativeParentVertexMassCap.average_le_twice_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentVertexMassCap.cap_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentVertexMassCap.depth_power_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentVertexMassCap.parentCapConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentVertexMassCap.parentCapConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentVertexMassCap.source_parent_vertex_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentVertexMassCap.uniform_subset_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,27 @@
+import Theorems.Thm_StickyKakeya4_canonical_grid_recoding
+set_option autoImplicit false
+#print axioms CanonicalGridRecoding.center
+#print axioms CanonicalGridRecoding.coarseGrid
+#print axioms CanonicalGridRecoding.recodedY
+#print axioms CanonicalGridRecoding.coarseGrid_eq_ediv
+#print axioms CanonicalGridRecoding.preimageBox
+#print axioms CanonicalGridRecoding.preimageBox_card
+#print axioms CanonicalGridRecoding.mem_preimageBox
+#print axioms CanonicalGridRecoding.coarseGrid_fiber_card
+#print axioms CanonicalGridRecoding.matrix_displacement
+#print axioms CanonicalGridRecoding.floor_displacement
+#print axioms CanonicalGridRecoding.recodedY_near
+#print axioms CanonicalGridRecoding.neighborBox
+#print axioms CanonicalGridRecoding.neighborBox_card
+#print axioms CanonicalGridRecoding.recodedY_mem_neighbors
+#print axioms CanonicalGridRecoding.oldIndex
+#print axioms CanonicalGridRecoding.newX
+#print axioms CanonicalGridRecoding.errorMatrix
+#print axioms CanonicalGridRecoding.newY
+#print axioms CanonicalGridRecoding.oldY
+#print axioms CanonicalGridRecoding.Neighbor
+#print axioms CanonicalGridRecoding.old_fiber_capacity
+#print axioms CanonicalGridRecoding.actual_neighbor
+#print axioms CanonicalGridRecoding.old_fiber_menu
+#print axioms CanonicalGridRecoding.threshold_inputs
+#print axioms CanonicalGridRecoding.threshold_support_cover

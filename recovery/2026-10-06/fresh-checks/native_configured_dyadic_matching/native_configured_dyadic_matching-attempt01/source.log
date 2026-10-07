@@ -1,0 +1,55 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/d6f38347c8ce0da569b580d3a15d209c6684827b0884dbe3978559a312274b1e.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.lean"]
+SOURCE_SHA256 3bc12146f7448dc9286e1a9ca73c9ea3c65f8f09a96e2ce3ae1920ab659a76a9
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.lean:30:4: error: invalid 'calc' step, left-hand side is
+  2 ^ u * 4096 * (2 ^ u)⁻¹ : ℝ
+but is expected to be
+  ↑(2 ^ u * 2 ^ 12) * (2 ^ u)⁻¹ : ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.lean:27:13: error: This simp argument is unused:
+  Nat.cast_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_ofNat, pow_add, inv_pow, show (2 : ℝ) ^ 12 = 4096 by norm_num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.lean:27:27: error: This simp argument is unused:
+  Nat.cast_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_pow, pow_add, inv_pow, show (2 : ℝ) ^ 12 = 4096 by norm_num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.lean:28:4: error: This simp argument is unused:
+  show (2 : ℝ) ^ 12 = 4096 by norm_num
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_pow, Nat.cast_ofNat, pow_add, inv_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.lean:72:45: error: unsolved goals
+delta : ℝ
+level m u : ℕ
+hdy : delta = 2⁻¹ ^ level
+hquarter : m ≤ level / 4
+hcfg : 64 / ↑(2 ^ m) ≤ 2⁻¹ ^ u
+hdepth : u + 6 ≤ m
+hb : u + 12 ≤ m + 6
+hlocal : u + 12 ≤ level - m + 6
+hd : 0 < delta
+hp : ↑(2 ^ (u + 12)) ≤ ↑(2 ^ (m + 6))
+hfine : ↑(2 ^ ↑⟨2 * m, ⋯⟩) * delta ≤ 1
+⊢ ↑(2 ^ m * 64) * delta * 2 ^ m * (1 / 64) = delta * ↑(2 ^ (m * 2))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.lean:74:58: error: This simp argument is unused:
+  show (2 : ℝ) ^ 6 = 64 by norm_num
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_pow, Nat.cast_ofNat, pow_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+
+EXIT_CODE=1

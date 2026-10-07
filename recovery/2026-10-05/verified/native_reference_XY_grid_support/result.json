@@ -1,0 +1,78 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_support",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_reference_XY_grid_support.lean",
+  "source_sha256": "74284d96a34d4773107561f8ddb59536f46c97b606180fd2bbc1c7dbd28840a2",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_reference_XY_grid_support.olean",
+  "names": [
+    "NativeReferenceXYGridSupport.halfWidth",
+    "NativeReferenceXYGridSupport.mu_halfWidth",
+    "NativeReferenceXYGridSupport.mu_fullWidth",
+    "NativeReferenceXYGridSupport.terminal_bounds",
+    "NativeReferenceXYGridSupport.oldPoint_norm",
+    "NativeReferenceXYGridSupport.rawPoint_norm",
+    "NativeReferenceXYGridSupport.label_support",
+    "NativeReferenceXYGridSupport.pxy_support",
+    "NativeReferenceXYGridSupport.dyadic_pxy_support"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T18:27:26.564604+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "638da066cfd2cb486adcd9a315215663d933ee759c881e2b033c857d6526ff00",
+  "source_execution_complete_utc": "2026-10-05T18:31:00.818743+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T183254928927",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeReferenceXYGridSupport.halfWidth": [
+      "propext"
+    ],
+    "NativeReferenceXYGridSupport.mu_halfWidth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridSupport.mu_fullWidth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridSupport.terminal_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridSupport.oldPoint_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridSupport.rawPoint_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridSupport.label_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridSupport.pxy_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridSupport.dyadic_pxy_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T18:33:10.525839+00:00"
+}

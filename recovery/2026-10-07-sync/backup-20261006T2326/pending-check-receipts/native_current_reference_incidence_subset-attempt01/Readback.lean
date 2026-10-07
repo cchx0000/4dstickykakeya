@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_current_reference_incidence_subset
+set_option autoImplicit false
+#print axioms NativeCurrentReferenceIncidenceSubset.source_cells_mono
+#print axioms NativeCurrentReferenceIncidenceSubset.source_incidences_mono

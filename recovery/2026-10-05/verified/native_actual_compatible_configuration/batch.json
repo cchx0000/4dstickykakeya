@@ -1,0 +1,64 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:29:24.569739+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T132923073754",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T132923073754/AggregateReadback.lean"
+  ],
+  "readback_sha256": "7d0c5106706fcdb92e8f260eaba40ba173eedb71bbd85ab60426532d536b8d9b",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_compatible_configuration",
+      "source_sha256": "71b7b46ae21bccb4942510df210243af7fc504090340ffc9f94ed8744da762b2",
+      "olean_sha256": "a9618491d61c803873abd9de476c161a24d056977664f743f335ccaf0358abab",
+      "names": [
+        "NativeActualCompatibleConfiguration.pairedCount",
+        "NativeActualCompatibleConfiguration.pairedCount_eq",
+        "NativeActualCompatibleConfiguration.HasCompatibleSquaredStage",
+        "NativeActualCompatibleConfiguration.exists_actual_compatible_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_tagged_node_vertex_count",
+      "source_sha256": "c3004de325fb21a34cc23a0c566affcf8d06859eb3eb0945c76db8b5874fc861",
+      "olean_sha256": "e84b01b3b8a4b930394155c41da49b8f11adb48491c5f2048c39089ff914764e",
+      "names": [
+        "NativeTaggedNodeVertexCount.current_tag_node",
+        "NativeTaggedNodeVertexCount.vertex_ancestor",
+        "NativeTaggedNodeVertexCount.current_nodes_disjoint",
+        "NativeTaggedNodeVertexCount.sum_current_vertices_le",
+        "NativeTaggedNodeVertexCount.layers_vertices_sum_le"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_rich_packet_layers",
+      "source_sha256": "0c392131c5adba37cb81d90f9046e844338ed12cf5b0504e5e58d962418b8f00",
+      "olean_sha256": "07602f81c395e88474f83a9e516e917f2ca84add1001b5e734c1673128e36a08",
+      "names": [
+        "NativeActualRichPacketLayers.referenceConstant",
+        "NativeActualRichPacketLayers.referenceConstant_pos",
+        "NativeActualRichPacketLayers.packetMass_eq_of_subset",
+        "NativeActualRichPacketLayers.real_le_referenceMinimum",
+        "NativeActualRichPacketLayers.original_point_mass_positive",
+        "NativeActualRichPacketLayers.packet_overlap_le",
+        "NativeActualRichPacketLayers.computed_reference_budget_le",
+        "NativeActualRichPacketLayers.threshold_ratio_lower",
+        "NativeActualRichPacketLayers.construct_rich_packet_layers"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:30:38.846891+00:00",
+  "exit_code": 0
+}

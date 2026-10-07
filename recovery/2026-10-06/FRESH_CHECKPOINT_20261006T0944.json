@@ -1,0 +1,37 @@
+{
+  "generated_at_utc": "2026-10-06T09:44:55.363659+00:00",
+  "current_project_module_count": 1628,
+  "recovered_remote_baseline": "912dc065d2be0bded29e47a817afd4ab89becdf1",
+  "fresh_strict_modules": 69,
+  "fresh_strict_declarations": 432,
+  "fresh_axiom_gate": "standard foundational axioms only",
+  "fresh_project_wide_build": "NOT_RUN",
+  "fresh_prerequisite_slice_modules": 381,
+  "historical_full_build": {
+    "status": "passed",
+    "exit_code": 0,
+    "lake_jobs": 9612,
+    "log": "verification/wz903-default-build.log",
+    "command": "STICKY_LEAN_BINARY=/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean STICKY_BUILD_JOBS=2 scripts/build-bounded.sh",
+    "module_count": 903,
+    "source_base_tree": "63a7cd1963bf985c7c66e5a3166dbca671544bc3",
+    "source_snapshot": "verification/wz903-source-snapshot.json",
+    "scope": "Full 903-module default build; previous 847 source hashes unchanged"
+  },
+  "later_recovery_checkpoint": {
+    "module_count": 1559,
+    "state": "exact source, full Git history and historical verification records restored and merged",
+    "historical_native_exponent_upper_bound": 1,
+    "fresh_reverification": "not yet run for the restored full dependency graph"
+  },
+  "original_final_theorem": "unfinished; kappa=0 remains open",
+  "unchanged_legacy_axiom_dependency": "StickyKakeya4.wang_zakharov_published_volume_estimate",
+  "publication": {
+    "remote_commit": "912dc065d2be0bded29e47a817afd4ab89becdf1",
+    "new_github_writes": "none; prior write approval unresolved"
+  },
+  "scope": "October6 checks are fresh; October5 source and verification receipts restored exactly. Full merged graph not freshly rebuilt; targeted interface dependency DAG remains separately recorded.",
+  "restored_later_commit": "d230529b106cce0bc703abd30673d01af7d4efa9",
+  "restored_archive_sha256": "8755eef68515a3c6fef4e138c06852534ca4f3512ad4b8bafe482af1c112b948",
+  "restored_pending_snapshot_count": 99
+}

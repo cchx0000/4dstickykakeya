@@ -1,0 +1,64 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:13:00.838597+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T131259474030",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T131259474030/AggregateReadback.lean"
+  ],
+  "readback_sha256": "484312eec2014e5cc42c394ecf0456eca8c78ed0feee441b7c303f84f64e3de9",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_compatible_weighted_retention",
+      "source_sha256": "2cd0da9c261fe6f4bff8a76939c81f19f39fd1f1c27cfbfc5000526d01d09609",
+      "olean_sha256": "a517b8953a0613b0ee9d4f63d21dc1d191c75cb90cd696cf8afaea232c3ca3c1",
+      "names": [
+        "NativeCompatibleWeightedRetention.menuCost",
+        "NativeCompatibleWeightedRetention.combinedLoss",
+        "NativeCompatibleWeightedRetention.retainedFraction",
+        "NativeCompatibleWeightedRetention.menuCost_pos",
+        "NativeCompatibleWeightedRetention.retainedFraction_closed_form",
+        "NativeCompatibleWeightedRetention.denominator_power",
+        "NativeCompatibleWeightedRetention.cancel_terminal_scale",
+        "NativeCompatibleWeightedRetention.RetainedFamily",
+        "NativeCompatibleWeightedRetention.retainedFamily_mono",
+        "NativeCompatibleWeightedRetention.exact_retention_from_numerator",
+        "NativeCompatibleWeightedRetention.from_master_and_actual_cost",
+        "NativeCompatibleWeightedRetention.combinedLoss_budget",
+        "NativeCompatibleWeightedRetention.delta_loss_lower",
+        "NativeCompatibleWeightedRetention.exists_rank_retention_cutoff",
+        "NativeCompatibleWeightedRetention.exists_uniform_weak_retention"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_tagged_packet_fiber_iteration",
+      "source_sha256": "3572b015665772fc2860379b6b5a22fdd65fa467d4bf3644e46b9dcbb6a6257b",
+      "olean_sha256": "26386eec8b5fd904faceb3e496264fce63519c869b6f7c2b4c7b513a2dba6fe8",
+      "names": [
+        "NativeTaggedPacketFiberIteration.nodeVertices",
+        "NativeTaggedPacketFiberIteration.layers",
+        "NativeTaggedPacketFiberIteration.fixed_node_cap",
+        "NativeTaggedPacketFiberIteration.packet_predecessor_geometry",
+        "NativeTaggedPacketFiberIteration.step_vertex_count",
+        "NativeTaggedPacketFiberIteration.node_vertex_predecessors",
+        "NativeTaggedPacketFiberIteration.node_minimum_lower",
+        "NativeTaggedPacketFiberIteration.layers_antitone",
+        "NativeTaggedPacketFiberIteration.nodeVertices_mono",
+        "NativeTaggedPacketFiberIteration.actual_chain_lower_bound"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:19:05.406548+00:00",
+  "exit_code": 0
+}

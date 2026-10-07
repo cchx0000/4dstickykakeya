@@ -1,0 +1,56 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_tagged_node_vertex_count",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_tagged_node_vertex_count.lean",
+  "source_sha256": "c3004de325fb21a34cc23a0c566affcf8d06859eb3eb0945c76db8b5874fc861",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_tagged_node_vertex_count.olean",
+  "names": [
+    "NativeTaggedNodeVertexCount.current_tag_node",
+    "NativeTaggedNodeVertexCount.vertex_ancestor",
+    "NativeTaggedNodeVertexCount.current_nodes_disjoint",
+    "NativeTaggedNodeVertexCount.sum_current_vertices_le",
+    "NativeTaggedNodeVertexCount.layers_vertices_sum_le"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T13:10:55.424539+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "e84b01b3b8a4b930394155c41da49b8f11adb48491c5f2048c39089ff914764e",
+  "source_execution_complete_utc": "2026-10-05T13:16:44.698790+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T132923073754",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeTaggedNodeVertexCount.current_tag_node": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedNodeVertexCount.vertex_ancestor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedNodeVertexCount.current_nodes_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedNodeVertexCount.sum_current_vertices_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedNodeVertexCount.layers_vertices_sum_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T13:30:38.844311+00:00"
+}

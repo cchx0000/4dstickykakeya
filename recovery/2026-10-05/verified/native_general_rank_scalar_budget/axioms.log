@@ -1,0 +1,35 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T142728846729", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T142728846729/AggregateReadback.lean"]
+READBACK_SHA256 8ddb8f0c84acefd9c4e476c936e7dcd2c83c4e9a2ef4bdf5b0bcecb4d8b169a4
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:27:29.637495+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8768948 kB
+'NativeGeneralRankScalarBudget.actual_count_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.combinedConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.combinedConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.dimension' does not depend on any axioms
+'NativeGeneralRankScalarBudget.dimension_range_from_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.exists_uniform_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.exists_uniform_hierarchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.exponent_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.fixedConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.fixedConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.force_scale_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.geometricConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.hierarchy_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.impossible_scale_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.middle_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.pointLoss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.positiveGap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.positiveGap_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.positiveGap_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.rankLoss_le_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.rankLoss_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.rank_exponent_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.tau_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.tau_le_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGeneralRankScalarBudget.totalExponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryRankFourExclusion.extraCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryRankFourExclusion.extraCutoff_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryRankFourExclusion.history_stage_rank_ne_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

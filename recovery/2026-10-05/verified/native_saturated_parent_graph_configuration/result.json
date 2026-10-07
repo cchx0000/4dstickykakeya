@@ -1,0 +1,71 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_saturated_parent_graph_configuration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_saturated_parent_graph_configuration.lean",
+  "source_sha256": "b21a0d5715719d53f6af329dca4dc2e5430d522d7d3e959d567ea52509800958",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_saturated_parent_graph_configuration.olean",
+  "names": [
+    "NativeSaturatedParentGraphConfiguration.SaturatedCurveParentFinalCleanupData",
+    "NativeSaturatedParentGraphConfiguration.HasSaturatedCurveParentRetainedHistory",
+    "NativeSaturatedParentGraphConfiguration.HasSaturatedCurveParentStage",
+    "NativeSaturatedParentGraphConfiguration.middleSelected",
+    "NativeSaturatedParentGraphConfiguration.middle_selected_depth",
+    "NativeSaturatedParentGraphConfiguration.half_depth_eq_depth",
+    "NativeSaturatedParentGraphConfiguration.saturated_stage_with_parent_graph",
+    "NativeSaturatedParentGraphConfiguration.exists_saturated_parent_graph_configuration"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T18:06:45.304106+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "57b182e49103b997e41602cb28f0df06285d91284e88fae0c93e2c93b2eb0d2f",
+  "source_execution_complete_utc": "2026-10-05T18:08:18.413660+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T181541209987",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSaturatedParentGraphConfiguration.SaturatedCurveParentFinalCleanupData": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedParentGraphConfiguration.HasSaturatedCurveParentRetainedHistory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedParentGraphConfiguration.HasSaturatedCurveParentStage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedParentGraphConfiguration.middleSelected": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSaturatedParentGraphConfiguration.middle_selected_depth": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSaturatedParentGraphConfiguration.half_depth_eq_depth": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSaturatedParentGraphConfiguration.saturated_stage_with_parent_graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedParentGraphConfiguration.exists_saturated_parent_graph_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T18:16:50.009812+00:00"
+}

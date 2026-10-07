@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_coarse_height_slope_variation
+
+#print axioms NativeCoarseHeightSlopeVariation.node_pair_witness
+#print axioms NativeCoarseHeightSlopeVariation.same_ancestor_installed_word
+#print axioms NativeCoarseHeightSlopeVariation.same_coarse_height_slope_variation

@@ -1,0 +1,12 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_coarse_uniform_image_degrees_readback.lean"]
+SOURCE_SHA256 8527ef05ecf3714e1f9fe4317e4167dadaaff876f827b9089a27709cce0306fb
+FIFO compiler ticket: 01791178558752867494-92f6c48b6f014e4eabdf3fc3b10ded72.request
+FIFO compiler acquired UTC: 2026-10-05T05:35:58.753212+00:00
+'NativeCoarseUniformImageDegrees.point_fiber_card_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseUniformImageDegrees.point_fiber_card_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseUniformImageDegrees.image_point_degree_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseUniformImageDegrees.image_point_degree_le_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

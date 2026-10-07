@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_encoded_quotient_ad
+
+#print axioms NativeEncodedQuotientAD.quotientConstant
+#print axioms NativeEncodedQuotientAD.quotientConstant_one_le
+#print axioms NativeEncodedQuotientAD.quotient_AD_of_encoded_AD

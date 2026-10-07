@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_nested_parent_physical_menu
+
+#print axioms NativeNestedParentPhysicalMenu.rebase
+#print axioms NativeNestedParentPhysicalMenu.physical_rebase
+#print axioms NativeNestedParentPhysicalMenu.parent_shear_bound
+#print axioms NativeNestedParentPhysicalMenu.rebase_coordinate_bound
+#print axioms NativeNestedParentPhysicalMenu.innerMenu
+#print axioms NativeNestedParentPhysicalMenu.innerMenu_card
+#print axioms NativeNestedParentPhysicalMenu.physical_cell_mem_innerMenu
+#print axioms NativeNestedParentPhysicalMenu.angular_image_global_card
+#print axioms NativeNestedParentPhysicalMenu.nested_angular_image_card

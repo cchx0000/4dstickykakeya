@@ -1,0 +1,23 @@
+import Theorems.Thm_StickyKakeya4_native_nodal_reference_lift
+
+#print axioms NativeNodalReferenceLift.roundedVertex
+#print axioms NativeNodalReferenceLift.roundedVertex_distance
+#print axioms NativeNodalReferenceLift.rounded_occupied_overlap
+#print axioms NativeNodalReferenceLift.referenceLift
+#print axioms NativeNodalReferenceLift.currentLift
+#print axioms NativeNodalReferenceLift.currentLift_snd_injective
+#print axioms NativeNodalReferenceLift.currentLift_card
+#print axioms NativeNodalReferenceLift.currentLift_mass
+#print axioms NativeNodalReferenceLift.currentLift_subset_reference
+#print axioms NativeNodalReferenceLift.referenceLift_original
+#print axioms NativeNodalReferenceLift.reference_label_duplication
+#print axioms NativeNodalReferenceLift.referenceLift_card
+#print axioms NativeNodalReferenceLift.boxReference
+#print axioms NativeNodalReferenceLift.box_reference_duplication
+#print axioms NativeNodalReferenceLift.boxReference_mass
+#print axioms NativeNodalReferenceLift.fixed_node_vertex_mass
+#print axioms NativeNodalReferenceLift.referenceLift_subset_box
+#print axioms NativeNodalReferenceLift.occupiedLabels_nodes
+#print axioms NativeNodalReferenceLift.rounded_currentLift_subset_box
+#print axioms NativeNodalReferenceLift.taggedPacket
+#print axioms NativeNodalReferenceLift.tagged_packet_overlap

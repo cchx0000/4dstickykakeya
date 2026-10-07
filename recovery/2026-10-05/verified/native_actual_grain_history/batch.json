@@ -1,0 +1,51 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:37:08.308086+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T133706856539",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T133706856539/AggregateReadback.lean"
+  ],
+  "readback_sha256": "adccbaaf26b3f595839dff18621970f4b2bf488e1676822331ec24a0ac68c5d4",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_grain_history",
+      "source_sha256": "f28efbde4f017188fb33983582ce1f8b5bef693ef44a7cbcd9beb1db62866a60",
+      "olean_sha256": "b08765295cf8c9a3e5f0dd3ab99f15df281643e50a59137df76434728571069b",
+      "names": [
+        "NativeActualGrainHistory.scaleLift",
+        "NativeActualGrainHistory.scaleThreshold",
+        "NativeActualGrainHistory.scaleLayers",
+        "NativeActualGrainHistory.nextPoints",
+        "NativeActualGrainHistory.HasScaleRecord",
+        "NativeActualGrainHistory.scaleLayers_subset_lift",
+        "NativeActualGrainHistory.lift_of_snd_image",
+        "NativeActualGrainHistory.lift_snd_image",
+        "NativeActualGrainHistory.original_tag_mem_lift",
+        "NativeActualGrainHistory.terminal_lift",
+        "NativeActualGrainHistory.terminal_mass",
+        "NativeActualGrainHistory.nextPoints_subset",
+        "NativeActualGrainHistory.record_retention",
+        "NativeActualGrainHistory.history",
+        "NativeActualGrainHistory.history_step_subset",
+        "NativeActualGrainHistory.history_antitone",
+        "NativeActualGrainHistory.HasGrainHistory",
+        "NativeActualGrainHistory.history_of_rich_scales",
+        "NativeActualGrainHistory.construct_actual_grain_history"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:39:07.453038+00:00",
+  "exit_code": 0
+}

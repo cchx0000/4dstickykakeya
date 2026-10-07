@@ -1,0 +1,12 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_same_source_coarse_admission_readback.lean"]
+SOURCE_SHA256 db6bcd86858eb952d83bc5907179a87040abd14f7ae6554193b943979513190f
+FIFO compiler ticket: 01791178500357624939-16dd97814e144bd0b3d2c3fde8f77602.request
+FIFO compiler acquired UTC: 2026-10-05T05:35:00.358200+00:00
+'NativeSameSourceCoarseAdmission.same_source_coarse_admission' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSameSourceCoarseAdmission.same_source_full_coarse_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

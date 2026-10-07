@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:51:44.300982+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155143580424",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155143580424/AggregateReadback.lean"
+  ],
+  "readback_sha256": "58a5892add27207376dc8d7870991c3cd9bb6c7ef81174cd7cd093dceae687dd",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_small_loss_parent_budget",
+      "source_sha256": "d16e387fff120875f62ebbaed138ac90832c9faa85e11401fe5a1767c41d6cbf",
+      "olean_sha256": "a1554ccada404fda81e15cd914c6223270e1251923f5c78db1c51255cffd6700",
+      "names": [
+        "NativeSmallLossParentBudget.actual_test_radius_small_loss",
+        "NativeSmallLossParentBudget.coefficient_small_loss",
+        "NativeSmallLossParentBudget.normalized_error_small_loss",
+        "NativeSmallLossParentBudget.exists_uniform_small_loss_cutoff",
+        "NativeSmallLossParentBudget.absorb_small_loss",
+        "NativeSmallLossParentBudget.actual_middle_error_small_loss",
+        "NativeSmallLossParentBudget.actual_middle_parent_direction_small_loss"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:51:48.895287+00:00",
+  "exit_code": 0
+}

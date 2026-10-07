@@ -1,0 +1,34 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2144.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2144", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2144/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T21:44:34.644428+00:00
+SHARED_SLOT 1
+LEAN_PID 58
+'NativePrescribedExtraPaidXYConfiguration.exists_prescribed_extra_paid_XY_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConditionalReferenceParentSlots.baseQuery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceParentSlots.parentDepth_baseQuery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceParentSlots.parentSlot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceParentSlots.factory_parent_slot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePrescribedConditionalPaidXYConfiguration.exists_prescribed_conditional_paid_XY_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPhysicalReferenceConfiguration.exists_prescribed_physical_reference_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualBaselineScaleGuards.depth_guard' depends on axioms: [propext, Quot.sound]
+'NativeActualBaselineScaleGuards.reference_depth_guard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualBaselineScaleGuards.source_mesh_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualBaselineScaleGuards.source_thickness_ge_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualBaselineScaleGuards.exists_source_mesh_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceBaselineBase.exists_source_baseline_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinalSourceScopeReadback.original_scope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinalSourceScopeReadback.parent_scope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinalSourceScopeReadback.active_reference_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinalSourceScopeReadback.middle_guards' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualThirdHistoryReadback.fraction_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualThirdHistoryReadback.source_record' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T21:48:06.065104+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

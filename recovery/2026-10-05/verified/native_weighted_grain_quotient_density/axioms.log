@@ -1,0 +1,47 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T165126334039", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T165126334039/AggregateReadback.lean"]
+READBACK_SHA256 596b0f806ebba8130516ec4f002e26fe1756a49dfce299166b9fc17eb1cefb2c
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:51:27.115451+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8762244 kB
+'NativeFixedHorizontalMenu.depths' depends on axioms: [propext]
+'NativeFixedHorizontalMenu.depths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedHorizontalMenu.depths_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedHorizontalMenu.depths_last' depends on axioms: [propext, Quot.sound]
+'NativeFixedHorizontalMenu.depths_monotone' depends on axioms: [propext]
+'NativeFixedHorizontalMenu.depths_zero' depends on axioms: [propext]
+'NativeReferenceHorizontalMenu.caller_reference_menu_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceHorizontalMenu.menu_width_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceAllRadii.caller_reference_all_radius_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceSliceAllRadii.horizontalMesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceAllRadii.horizontalMesh_outer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceAllRadii.horizontalMesh_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceAllRadii.horizontalMesh_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceMenuBallJoin.height_card_le_of_class_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceMenuBallJoin.menu_classes_all_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientDensity.every_H3_fiber_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientDensity.every_H3_fiber_density_cross' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWeightedGrainQuotientDensity.every_retained_fiber_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWeightedGrainQuotientFibers.edgeX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientFibers.fullX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientFibers.key' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientFibers.mixed_edgeX_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientFibers.mixed_key_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientFibers.wholeX_subset_fullX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientHereditary.edgeX_image_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientHereditary.hereditary_X_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientHereditary.hereditary_mixed_X_subset_fullX' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWeightedGrainQuotientHereditary.hereditary_vertices_le_X' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWeightedGrainQuotientHereditary.subset_wholeFiber_card_le_X' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

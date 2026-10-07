@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_grain_height_projection_source
+
+#print axioms NativeGrainHeightProjectionSource.nodePlane
+#print axioms NativeGrainHeightProjectionSource.sourceError
+#print axioms NativeGrainHeightProjectionSource.sourceDiameter
+#print axioms NativeGrainHeightProjectionSource.sourceError_pos
+#print axioms NativeGrainHeightProjectionSource.sourceDiameter_pos
+#print axioms NativeGrainHeightProjectionSource.source_mixed_spread
+#print axioms NativeGrainHeightProjectionSource.source_occupied_quotient_card
+#print axioms NativeGrainHeightProjectionSource.sourceDiameter_le
+#print axioms NativeGrainHeightProjectionSource.phase_working_mesh
+#print axioms NativeGrainHeightProjectionSource.source_quotient_cost

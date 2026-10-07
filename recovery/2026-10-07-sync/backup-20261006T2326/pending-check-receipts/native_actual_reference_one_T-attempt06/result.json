@@ -1,0 +1,54 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_reference_one_T",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean",
+  "source_sha256": "7eb76b4e31c548338af45e5fe0600c9e776df560a0b5884549fbfe5f69056b31",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.olean",
+  "names": [
+    "NativeRankTwoXYStageReadback.secondDimension",
+    "NativeRankTwoXYStageReadback.extract",
+    "NativeActualCoherentHeightCoreFull.integral_width",
+    "NativeActualCoherentHeightCoreFull.from_parent_profiles",
+    "NativeActualXYStageHeightJoinFull.from_xy_stage"
+  ],
+  "started_utc": "2026-10-06T21:17:39.434283+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "declarations_manifest_sha256": "ec9a6222ae0154bbaee83c48d81e09a067036a020ba30d2ea85e703c1ea6c95d",
+  "declaration_coverage": "Exact namespace-qualified source declaration sequence equals the frozen manifest",
+  "source_exit_code": 0,
+  "olean_sha256": "905b159d5b7cd72fb5f15628afa8fd9def45b7f9e044ae993842f42d5e90e513",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T21:18:36.363191+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2122",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeRankTwoXYStageReadback.secondDimension": [],
+    "NativeRankTwoXYStageReadback.extract": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualCoherentHeightCoreFull.integral_width": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualCoherentHeightCoreFull.from_parent_profiles": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualXYStageHeightJoinFull.from_xy_stage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T21:23:21.583072+00:00"
+}

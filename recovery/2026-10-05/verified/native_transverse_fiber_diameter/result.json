@@ -1,0 +1,35 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_transverse_fiber_diameter",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_transverse_fiber_diameter.lean",
+  "source_sha256": "7914942d43d7dca27628d4806e65d4299fcd3ff8e32b0ef2a69c454f8698d69b",
+  "names": [
+    "NativeTransverseFiberDiameter.transverse_scalar_bound",
+    "NativeTransverseFiberDiameter.approximate_fiber_diameter"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T10:10:50.248933+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "6f31e13940b6a599d258ec8474c3755566849474a8ef8d291c65213cb82d80e5",
+  "source_execution_complete_utc": "2026-10-05T10:20:51.895551+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T102242998783",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeTransverseFiberDiameter.transverse_scalar_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTransverseFiberDiameter.approximate_fiber_diameter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T10:27:21.205153+00:00"
+}

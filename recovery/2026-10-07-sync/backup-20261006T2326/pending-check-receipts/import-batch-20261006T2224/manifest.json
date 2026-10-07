@@ -1,0 +1,45 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T22:24:21.514257+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_actual_raw_weight_source"
+  ],
+  "names": [
+    "NativeActualRawWeightSource.raw_cardinality_lower",
+    "NativeActualRawWeightSource.paid_raw_cardinality_lower",
+    "NativeActualRawWeightSource.normalization",
+    "NativeActualRawWeightSource.rawWeight",
+    "NativeActualRawWeightSource.sum_raw_weight",
+    "NativeActualRawWeightSource.total_raw_weight",
+    "NativeActualRawWeightSource.raw_shadow_card_bound",
+    "NativeActualRawWeightSource.raw_weight_upper",
+    "NativeActualRawWeightSource.same_Q_shading_bridge",
+    "NativeActualRawWeightSource.same_Q_source_shading",
+    "NativeActualRawWeightSource.exists_same_Q_source"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2224.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2224",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2224/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T22:25:37.171802+00:00",
+  "results": [
+    {
+      "attempt": "native_actual_raw_weight_source-attempt02",
+      "state": "passed",
+      "declarations": 11
+    }
+  ]
+}

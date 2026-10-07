@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_common_phi_source
+
+#print axioms NativeCommonPhiSource.cellThickness
+#print axioms NativeCommonPhiSource.cellThickness_nonneg
+#print axioms NativeCommonPhiSource.cellThickness_le
+#print axioms NativeCommonPhiSource.angularCell_readback
+#print axioms NativeCommonPhiSource.localSlope_distance
+#print axioms NativeCommonPhiSource.coherent_cell_residual
+#print axioms NativeCommonPhiSource.coherent_cell_projection

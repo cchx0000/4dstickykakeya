@@ -1,0 +1,116 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_compatible_weighted_retention",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_compatible_weighted_retention.lean",
+  "source_sha256": "2cd0da9c261fe6f4bff8a76939c81f19f39fd1f1c27cfbfc5000526d01d09609",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_compatible_weighted_retention.olean",
+  "names": [
+    "NativeCompatibleWeightedRetention.menuCost",
+    "NativeCompatibleWeightedRetention.combinedLoss",
+    "NativeCompatibleWeightedRetention.retainedFraction",
+    "NativeCompatibleWeightedRetention.menuCost_pos",
+    "NativeCompatibleWeightedRetention.retainedFraction_closed_form",
+    "NativeCompatibleWeightedRetention.denominator_power",
+    "NativeCompatibleWeightedRetention.cancel_terminal_scale",
+    "NativeCompatibleWeightedRetention.RetainedFamily",
+    "NativeCompatibleWeightedRetention.retainedFamily_mono",
+    "NativeCompatibleWeightedRetention.exact_retention_from_numerator",
+    "NativeCompatibleWeightedRetention.from_master_and_actual_cost",
+    "NativeCompatibleWeightedRetention.combinedLoss_budget",
+    "NativeCompatibleWeightedRetention.delta_loss_lower",
+    "NativeCompatibleWeightedRetention.exists_rank_retention_cutoff",
+    "NativeCompatibleWeightedRetention.exists_uniform_weak_retention"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:58:55.326755+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "a517b8953a0613b0ee9d4f63d21dc1d191c75cb90cd696cf8afaea232c3ca3c1",
+  "source_execution_complete_utc": "2026-10-05T13:06:46.435244+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T131259474030",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeCompatibleWeightedRetention.menuCost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.combinedLoss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.retainedFraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.menuCost_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.retainedFraction_closed_form": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.denominator_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.cancel_terminal_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.RetainedFamily": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.retainedFamily_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.exact_retention_from_numerator": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.from_master_and_actual_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.combinedLoss_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.delta_loss_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.exists_rank_retention_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleWeightedRetention.exists_uniform_weak_retention": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T13:19:05.401034+00:00"
+}

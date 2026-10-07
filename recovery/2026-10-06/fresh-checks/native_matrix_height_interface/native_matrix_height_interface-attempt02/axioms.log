@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/d520e2646465e00e0e66707f3ed1d0e1b6b21532a75838cc7e7f1747a3da82d6.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_matrix_height_interface-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_matrix_height_interface-attempt02/Readback.lean"]
+SOURCE_SHA256 a5424e4ef0594d8a22eaf9b47901075e09bc10249a14c555b1c3b0851c19767f
+'NativeMatrixHeightInterface.two_by_one_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightInterface.one_by_two_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightInterface.entry_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightInterface.exists_entry_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightInterface.select_matrix_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightInterface.select_matrix_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

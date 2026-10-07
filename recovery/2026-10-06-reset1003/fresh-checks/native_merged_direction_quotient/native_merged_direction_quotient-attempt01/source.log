@@ -1,0 +1,68 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/cf8f1123c0906c55a5b903eafdd39eeeef766d9c84b4a086e88db25ea53db20c.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_merged_direction_quotient.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_merged_direction_quotient.lean"]
+SOURCE_SHA256 10f7e09a9a4b2b81595584a0b47617d2e3b8b5897ce2b2894127481d2d92de29
+LOCK_ACQUIRED_UTC 2026-10-06T12:45:30.745723+00:00
+SHARED_SLOT 3
+LEAN_PID 60
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_merged_direction_quotient.lean:71:61: error: unsolved goals
+Omega : Type u_1
+Point : Type u_2
+Cell : Type u_3
+U T : Finset Omega
+hTU : T ⊆ U
+point : Omega → Point
+cell : Omega → Cell
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+ell : ℕ
+hell : 1 ≤ ell
+hell4 : ell ≤ 4
+hd : Module.finrank ℝ ↥P = ell - 1
+M : Point → Matrix (Fin (4 - ell)) (Fin (ell - 1)) ℝ
+xi : Omega → EuclideanSpace ℝ (Fin (4 - ell))
+fine coarse : Omega → E4
+Delta : ℝ
+hDelta : 0 ≤ Delta
+hM : ∀ w ∈ U, ‖M (point w)‖ ≤ 1 / 4
+hread : ∀ w ∈ U, ∀ v ∈ U, point w = point v → cell w = cell v
+hcoh : ∀ w ∈ U, ∀ v ∈ U, cell w = cell v → ‖xi w - xi v‖ ≤ 129 / 4 * (64 * Delta)
+hres : ∀ w ∈ U, ‖(quotientMap P hP ell hell hell4 hd (M (point w))) (fine w) - xi w‖ ≤ 64 * Delta
+hmove : ∀ w ∈ T, ‖coarse w - fine w‖ ≤ 3 / 64 * Delta
+w : Omega
+hw : w ∈ T
+hh :
+  ‖(quotientMap P hP ell hell hell4 hd (M (point w))) (coarse w) - pointOffset U point xi (point w)‖ ≤
+    64 * Delta + 2 * (3 / 64 * Delta) + 129 / 4 * (64 * Delta)
+⊢ Delta * (3 / 32) ≤ Delta * (3 / 32)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_merged_direction_quotient.lean:71:74: error: unsolved goals
+Omega : Type u_1
+Point : Type u_2
+Cell : Type u_3
+U T : Finset Omega
+hTU : T ⊆ U
+point : Omega → Point
+cell : Omega → Cell
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+ell : ℕ
+hell : 1 ≤ ell
+hell4 : ell ≤ 4
+hd : Module.finrank ℝ ↥P = ell - 1
+M : Point → Matrix (Fin (4 - ell)) (Fin (ell - 1)) ℝ
+xi : Omega → EuclideanSpace ℝ (Fin (4 - ell))
+fine coarse : Omega → E4
+Delta : ℝ
+hDelta : 0 ≤ Delta
+hM : ∀ w ∈ U, ‖M (point w)‖ ≤ 1 / 4
+hread : ∀ w ∈ U, ∀ v ∈ U, point w = point v → cell w = cell v
+hcoh : ∀ w ∈ U, ∀ v ∈ U, cell w = cell v → ‖xi w - xi v‖ ≤ 129 / 4 * (64 * Delta)
+hres : ∀ w ∈ U, ‖(quotientMap P hP ell hell hell4 hd (M (point w))) (fine w) - xi w‖ ≤ 64 * Delta
+hmove : ∀ w ∈ T, ‖coarse w - fine w‖ ≤ 3 / 64 * Delta
+w : Omega
+hw : w ∈ T
+hh :
+  ‖(quotientMap P hP ell hell hell4 hd (M (point w))) (coarse w) - pointOffset U point xi (point w)‖ ≤
+    64 * Delta + 2 * (3 / 64 * Delta) + 129 / 4 * (64 * Delta)
+⊢ Delta * 2064 ≤ Delta * 2064
+LEAN_FINISHED_UTC 2026-10-06T12:50:03.896395+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

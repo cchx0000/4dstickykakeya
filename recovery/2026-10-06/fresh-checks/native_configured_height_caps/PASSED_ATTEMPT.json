@@ -1,0 +1,51 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_configured_height_caps",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_height_caps.lean",
+  "source_sha256": "a4cfaa0472f04b8dcc1d015e50fce8ea3cf2e49961348b57d6199b0da844b614",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_configured_height_caps.olean",
+  "names": [
+    "NativeConfiguredHeightCaps.finalTime_gap",
+    "NativeConfiguredHeightCaps.time_image_separation",
+    "NativeConfiguredHeightCaps.time_image_interval_cap",
+    "NativeConfiguredHeightCaps.unconditional_interval_cap",
+    "NativeConfiguredHeightCaps.residue_eight_interval_cap"
+  ],
+  "started_utc": "2026-10-06T08:47:25.698463+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "aeefb1579e19e4be7308c1d0bac1a4c555b03ab9d43ecf939779f7a90746bfef",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeConfiguredHeightCaps.finalTime_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredHeightCaps.time_image_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredHeightCaps.time_image_interval_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredHeightCaps.unconditional_interval_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredHeightCaps.residue_eight_interval_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T08:53:58.089757+00:00"
+}

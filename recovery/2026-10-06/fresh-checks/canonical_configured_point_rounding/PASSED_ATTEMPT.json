@@ -1,0 +1,99 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_canonical_configured_point_rounding",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_point_rounding.lean",
+  "source_sha256": "6e03fcaab810ec39e6606409beef2e5e0b17c9b5703fd8eed045c51eb0ede10a",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_canonical_configured_point_rounding.olean",
+  "names": [
+    "CanonicalConfiguredPointRounding.grid",
+    "CanonicalConfiguredPointRounding.graphPoint",
+    "CanonicalConfiguredPointRounding.quotient",
+    "CanonicalConfiguredPointRounding.midpoint_error",
+    "CanonicalConfiguredPointRounding.center_grid_error",
+    "CanonicalConfiguredPointRounding.graph_perturbation",
+    "CanonicalConfiguredPointRounding.graph_recode_identity",
+    "CanonicalConfiguredPointRounding.coarseX",
+    "CanonicalConfiguredPointRounding.configuredNormal",
+    "CanonicalConfiguredPointRounding.coarseX_error",
+    "CanonicalConfiguredPointRounding.configuredNormal_error",
+    "CanonicalConfiguredPointRounding.fine_graph_error",
+    "CanonicalConfiguredPointRounding.actual_coordinate_errors"
+  ],
+  "started_utc": "2026-10-06T06:08:54.782032+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "5bf75d905e7ab897094c60dd3125c62325f0a49d2c09913c079aabcead428341",
+  "readback_exit_code": 0,
+  "axioms": {
+    "CanonicalConfiguredPointRounding.grid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.graphPoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.midpoint_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.center_grid_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.graph_perturbation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.graph_recode_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.coarseX": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.configuredNormal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.coarseX_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.configuredNormal_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.fine_graph_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredPointRounding.actual_coordinate_errors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:08:59.956229+00:00"
+}

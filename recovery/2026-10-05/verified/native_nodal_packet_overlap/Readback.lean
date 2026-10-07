@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_native_nodal_packet_overlap
+
+#print axioms NativeNodalPacketOverlap.normal_norm_le_infDist
+#print axioms NativeNodalPacketOverlap.graph_displacement
+#print axioms NativeNodalPacketOverlap.packet_anchor_distance
+#print axioms NativeNodalPacketOverlap.original_anchor_distance
+#print axioms NativeNodalPacketOverlap.node_mem_box
+#print axioms NativeNodalPacketOverlap.hits
+#print axioms NativeNodalPacketOverlap.hit_node_mem_box
+#print axioms NativeNodalPacketOverlap.nodal_packet_overlap
+#print axioms NativeNodalPacketOverlap.nodal_duplication
+#print axioms NativeNodalPacketOverlap.occupiedLabels
+#print axioms NativeNodalPacketOverlap.occupiedLabels_anchors
+#print axioms NativeNodalPacketOverlap.occupied_overlap

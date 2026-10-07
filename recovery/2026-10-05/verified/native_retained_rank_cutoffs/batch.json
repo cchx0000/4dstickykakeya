@@ -1,0 +1,58 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T10:51:07.293024+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T105104169928",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T105104169928/AggregateReadback.lean"
+  ],
+  "readback_sha256": "9e122f46bc9eea9965ba10195212b7eff79471bdbec8a690ca2446dbd3392a66",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_rank_cutoffs",
+      "source_sha256": "b8e6d51271a14e3c71c4b797650cd9e8743359aed26974b85d1577d9b7ae8408",
+      "olean_sha256": "ded892c1a2dca060d833c3e1017afdce09b7010e2ba8d641d0449f8083898ffe",
+      "names": [
+        "NativeRetainedRankCutoffs.finePointMenu",
+        "NativeRetainedRankCutoffs.finePointMenu_refl",
+        "NativeRetainedRankCutoffs.finePointMenu_symm",
+        "NativeRetainedRankCutoffs.finePointMenu_uniformities",
+        "NativeRetainedRankCutoffs.exists_rank_half_mass_cutoff",
+        "NativeRetainedRankCutoffs.exists_rank_rounding_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_spatial_angular_geometry",
+      "source_sha256": "ba13f4d63b4393d147bae163c954ac6abfabc4277a47521c5122b9c5a5901a64",
+      "olean_sha256": "0fcb9e6eb78db57e821ef29adb1200d008cd385adb00a1247ccc657a261dc104",
+      "names": [
+        "NativeSpatialAngularGeometry.spatialLabel",
+        "NativeSpatialAngularGeometry.angularLabel",
+        "NativeSpatialAngularGeometry.parent_angular",
+        "NativeSpatialAngularGeometry.integerBox",
+        "NativeSpatialAngularGeometry.integerBox_card",
+        "NativeSpatialAngularGeometry.floor_mem_interval",
+        "NativeSpatialAngularGeometry.same_cell_coordinate_close",
+        "NativeSpatialAngularGeometry.spatial_coordinate_close",
+        "NativeSpatialAngularGeometry.chart_spatial_sub",
+        "NativeSpatialAngularGeometry.oldTime_sub",
+        "NativeSpatialAngularGeometry.physicalMap_zero_sub",
+        "NativeSpatialAngularGeometry.intercept_close",
+        "NativeSpatialAngularGeometry.phase_parent_image_card"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T10:56:18.738975+00:00",
+  "exit_code": 0
+}

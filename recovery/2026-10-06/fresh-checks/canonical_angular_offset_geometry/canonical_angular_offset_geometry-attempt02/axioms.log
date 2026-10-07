@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/48cb338c6c0579a31b0da74bfa335dd989f181907e51d3e3559b382d4bde3524.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/canonical_angular_offset_geometry-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/canonical_angular_offset_geometry-attempt02/Readback.lean"]
+SOURCE_SHA256 13a0e7410f76e50b5fad8dbf805b5261d8e943734a274be4df420c2f1e372f66
+'CanonicalAngularOffsetGeometry.angularKey' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.angularKey_eq_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.angularKey_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.tangentIndex' depends on axioms: [propext, Quot.sound]
+'CanonicalAngularOffsetGeometry.normalIndex' depends on axioms: [propext, Quot.sound]
+'CanonicalAngularOffsetGeometry.tangent_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.normal_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.rotated_coordinate_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.chart_coordinates_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.rotated_coordinate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.chart_coordinates_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.affineResidual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalAngularOffsetGeometry.shared_actual_angle_offsets' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,12 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0ac96149a28c6e210f533c798de81d306e49576f75631ef2360a82add7a9ffbb.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_rotated_cell_selection-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_rotated_cell_selection-attempt02/Readback.lean"]
+SOURCE_SHA256 5faad39a0752e57ba36afddb6b7bbb844fdc6af6f7e96e392f5a61257b8fac11
+'NativeRotatedCellSelection.rotatedCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRotatedCellSelection.cellColor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRotatedCellSelection.same_grid_coordinate_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRotatedCellSelection.same_grid_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRotatedCellSelection.same_rotated_cell_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRotatedCellSelection.floor_difference_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRotatedCellSelection.same_color_same_original_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRotatedCellSelection.select_one_rotated_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

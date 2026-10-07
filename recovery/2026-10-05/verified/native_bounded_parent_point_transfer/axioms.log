@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_bounded_parent_point_transfer_readback.lean"]
+SOURCE_SHA256 93921a9112acfd8bb33832d92a32778254984807629be54532f67bec3fe61b4f
+FIFO compiler ticket: 01791183392377792164-6acfbf136c28453fb69d69f31e9b4341.request
+FIFO compiler acquired UTC: 2026-10-05T06:56:32.378300+00:00
+'NativeBoundedParentPointTransfer.image_point_degree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundedParentPointTransfer.multiplicity_le_menu_mul_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeBoundedParentPointTransfer.uniform_images_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

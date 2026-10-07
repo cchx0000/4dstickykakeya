@@ -1,0 +1,49 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0a91aa32c32253b129953118fe8be381d5a8037036ea032dd850589573f96063.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_current_graph_rank_cap.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_graph_rank_cap.lean"]
+SOURCE_SHA256 4736c1b431d90836f35147222e36bb486ab6565b31c76b54c82b421704d0e0fe
+LOCK_ACQUIRED_UTC 2026-10-06T22:34:03.298897+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_graph_rank_cap.lean:58:10: error: Application type mismatch: The argument
+  hh.left
+has type
+  (tangentCoordinates P 3 hd) ((frameEquiv P hP 3 ⋯ ⋯ hd).symm ((phi, (Matrix.toEuclideanLin M) phi + xi), 1)) = phi
+but is expected to have type
+  (tangentCoordinates P 3 hd) (graphWitness P hP hd M xi phi) = phi
+in the application
+  And.intro hh.left
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_graph_rank_cap.lean:58:20: error: Application type mismatch: The argument
+  hh.right.right
+has type
+  ((frameEquiv P hP 3 ⋯ ⋯ hd).symm ((phi, (Matrix.toEuclideanLin M) phi + xi), 1)).ofLp 3 = 1
+but is expected to have type
+  (graphWitness P hP hd M xi phi).ofLp 3 = 1
+in the application
+  ⟨?m.69, hh.right.right⟩
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_graph_rank_cap.lean:62:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (tangentCoordinates P 3 hd) ((frameEquiv P hP 3 ⋯ ⋯ hd).symm ((phi, (Matrix.toEuclideanLin M) phi + xi), 1))
+in the target expression
+  (NativeReferenceXYGridLinear.normalCoordinates P hP 3 ⋯ ⋯ hd) (graphWitness P hP hd M xi phi) -
+      (Matrix.toEuclideanLin M) ((tangentCoordinates P 3 hd) (graphWitness P hP hd M xi phi)) =
+    xi
+
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 2
+M : Matrix (Fin 1) (Fin 2) ℝ
+xi : EuclideanSpace ℝ (Fin 1)
+phi : EuclideanSpace ℝ (Fin 2)
+hh :
+  (tangentCoordinates P 3 hd) ((frameEquiv P hP 3 ⋯ ⋯ hd).symm ((phi, (Matrix.toEuclideanLin M) phi + xi), 1)) = phi ∧
+    (NativeReferenceXYGridLinear.normalCoordinates P hP 3 ⋯ ⋯ hd)
+          ((frameEquiv P hP 3 ⋯ ⋯ hd).symm ((phi, (Matrix.toEuclideanLin M) phi + xi), 1)) =
+        (Matrix.toEuclideanLin M) phi + xi ∧
+      ((frameEquiv P hP 3 ⋯ ⋯ hd).symm ((phi, (Matrix.toEuclideanLin M) phi + xi), 1)).ofLp 3 = 1
+⊢ (NativeReferenceXYGridLinear.normalCoordinates P hP 3 ⋯ ⋯ hd) (graphWitness P hP hd M xi phi) -
+      (Matrix.toEuclideanLin M) ((tangentCoordinates P 3 hd) (graphWitness P hP hd M xi phi)) =
+    xi
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_graph_rank_cap.lean:343:38: error: Unused tactic linter: `change Module.finrank ℝ Q ≤ 2` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+LEAN_FINISHED_UTC 2026-10-06T22:36:35.680439+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_source_quotient_ad
+
+#print axioms NativeSourceQuotientAD.source_quotient_AD

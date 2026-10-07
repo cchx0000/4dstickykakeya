@@ -1,0 +1,59 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_original_point_angular_lower",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_original_point_angular_lower.lean",
+  "source_sha256": "dfd40402a580a3d40f86f0370e03286410a0352bf31f4e1d9d80604eaa202caf",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_original_point_angular_lower.olean",
+  "names": [
+    "NativeOriginalPointAngularLower.translateAngle",
+    "NativeOriginalPointAngularLower.translateAngle_injective",
+    "NativeOriginalPointAngularLower.angular_global_readback",
+    "NativeOriginalPointAngularLower.pointMenu",
+    "NativeOriginalPointAngularLower.pointMenu_card",
+    "NativeOriginalPointAngularLower.original_point_angular_lower"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T17:47:38.331400+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "b5ae01d488c1c8a863e6f66fc47aa79a3949011bb945672a2508531889e919fd",
+  "source_execution_complete_utc": "2026-10-05T17:47:45.988856+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T174858706998",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeOriginalPointAngularLower.translateAngle": [
+      "propext"
+    ],
+    "NativeOriginalPointAngularLower.translateAngle_injective": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeOriginalPointAngularLower.angular_global_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOriginalPointAngularLower.pointMenu": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOriginalPointAngularLower.pointMenu_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOriginalPointAngularLower.original_point_angular_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T17:49:04.280954+00:00"
+}

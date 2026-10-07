@@ -1,0 +1,8 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_joint_actual_near_balance_readback.lean"]
+SOURCE_SHA256 191f01e4ce5db8ef9762d0cede2257a465fb1fdb9f4f652cb56852abca56b863
+FIFO compiler ticket: 01791181151722926144-de004642ae9048e4a4e0949b291c6c72.request
+FIFO compiler acquired UTC: 2026-10-05T06:19:11.723656+00:00
+'NativeJointActualNearBalance.HasNearScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeJointActualNearBalance.joint_actual_near_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

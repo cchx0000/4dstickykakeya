@@ -1,0 +1,20 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_reference_menu
+
+#print axioms NativeConditionalReferenceMenu.queryCount
+#print axioms NativeConditionalReferenceMenu.relationCount
+#print axioms NativeConditionalReferenceMenu.relation_count
+#print axioms NativeConditionalReferenceMenu.candidate
+#print axioms NativeConditionalReferenceMenu.pair
+#print axioms NativeConditionalReferenceMenu.gridDepth
+#print axioms NativeConditionalReferenceMenu.outerDepth
+#print axioms NativeConditionalReferenceMenu.sigmaDepth
+#print axioms NativeConditionalReferenceMenu.rhoDepth
+#print axioms NativeConditionalReferenceMenu.parentDepth
+#print axioms NativeConditionalReferenceMenu.relativeScales
+#print axioms NativeConditionalReferenceMenu.gridDepth_bounds
+#print axioms NativeConditionalReferenceMenu.query_bounds
+#print axioms NativeConditionalReferenceMenu.query_phase_depth
+#print axioms NativeConditionalReferenceMenu.factory
+#print axioms NativeConditionalReferenceMenu.factory_refl
+#print axioms NativeConditionalReferenceMenu.factory_symm
+#print axioms NativeConditionalReferenceMenu.reference_uniformities

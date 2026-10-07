@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_normalized_cell_relative_core
+
+#print axioms NativeNormalizedCellRelativeCore.backboneRepresentative
+#print axioms NativeNormalizedCellRelativeCore.pairLabel
+#print axioms NativeNormalizedCellRelativeCore.pointLabel
+#print axioms NativeNormalizedCellRelativeCore.relations
+#print axioms NativeNormalizedCellRelativeCore.relations_refl
+#print axioms NativeNormalizedCellRelativeCore.relations_symm
+#print axioms NativeNormalizedCellRelativeCore.caller_relative_uniformities
+#print axioms NativeNormalizedCellRelativeCore.normalizedPair
+#print axioms NativeNormalizedCellRelativeCore.physical_fiber_relative_menu
+#print axioms NativeNormalizedCellRelativeCore.normalized_cell_degree_upper

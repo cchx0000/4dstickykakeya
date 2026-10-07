@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_fixed_horizontal_menu
+
+#print axioms NativeFixedHorizontalMenu.depths
+#print axioms NativeFixedHorizontalMenu.depths_zero
+#print axioms NativeFixedHorizontalMenu.depths_last
+#print axioms NativeFixedHorizontalMenu.depths_bounds
+#print axioms NativeFixedHorizontalMenu.depths_monotone
+#print axioms NativeFixedHorizontalMenu.depths_gap

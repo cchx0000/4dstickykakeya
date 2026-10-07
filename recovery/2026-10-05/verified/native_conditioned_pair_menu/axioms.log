@@ -1,0 +1,22 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_conditioned_pair_menu_readback.lean"]
+SOURCE_SHA256 2e35a1bc6c7a436a71a8779c9e2f21a5c2595ba4cb72cef0191aaa26fdc355ce
+FIFO compiler ticket: 01791184057751507479-46668f67b087447f94c822660c50afe9.request
+FIFO compiler acquired UTC: 2026-10-05T07:07:37.752273+00:00
+'NativeConditionedPairMenu.conditioned_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.conditioned_uniformity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.uniformity_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.fixedDoublePair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.fixedDoublePair_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.conditionedGlobalPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.conditionedGlobalPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.conditionedRelativePair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.conditionedRelativePoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.conditional_pair_uniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.pairMenuSize' does not depend on any axioms
+'NativeConditionedPairMenu.pairMenuSize_eq' depends on axioms: [propext]
+'NativeConditionedPairMenu.pairRelationMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.pairRelationMenu_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.pairRelationMenu_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionedPairMenu.pairRelationMenu_uniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

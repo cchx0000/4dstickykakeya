@@ -1,0 +1,122 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_coarse_shading_uniformity",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_coarse_shading_uniformity.lean",
+  "source_sha256": "1d783defaaeda434e7850c3938c66324df6aa2433d40750d48d0ee8431f61ee8",
+  "names": [
+    "NativeCoarseShadingUniformity.nested_fiber_card_sum",
+    "NativeCoarseShadingUniformity.nested_image_fiber_card_comparable",
+    "NativeCoarseShadingUniformity.cellAncestor",
+    "NativeCoarseShadingUniformity.pairAncestor",
+    "NativeCoarseShadingUniformity.fixedPair",
+    "NativeCoarseShadingUniformity.projectedLabel_ancestor",
+    "NativeCoarseShadingUniformity.fixedPair_ancestor",
+    "NativeCoarseShadingUniformity.fixedPair_image_ancestor",
+    "NativeCoarseShadingUniformity.rowCells",
+    "NativeCoarseShadingUniformity.rowCells_at_source",
+    "NativeCoarseShadingUniformity.mem_rowCells",
+    "NativeCoarseShadingUniformity.rowCells_card_eq",
+    "NativeCoarseShadingUniformity.rowCells_eq_ancestor_image",
+    "NativeCoarseShadingUniformity.rowChildren",
+    "NativeCoarseShadingUniformity.rowChildren_card_eq",
+    "NativeCoarseShadingUniformity.rowChildren_comparable",
+    "NativeCoarseShadingUniformity.rowCells_comparable",
+    "NativeCoarseShadingUniformity.full_source_shading_readback"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T06:36:19.881804+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeCoarseShadingUniformity.nested_fiber_card_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.nested_image_fiber_card_comparable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.cellAncestor": [
+      "propext"
+    ],
+    "NativeCoarseShadingUniformity.pairAncestor": [
+      "propext"
+    ],
+    "NativeCoarseShadingUniformity.fixedPair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.projectedLabel_ancestor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.fixedPair_ancestor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.fixedPair_image_ancestor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.rowCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.rowCells_at_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.mem_rowCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.rowCells_card_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.rowCells_eq_ancestor_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.rowChildren": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.rowChildren_card_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.rowChildren_comparable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.rowCells_comparable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseShadingUniformity.full_source_shading_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "b949622bad4ab34b178e5131cc4a51a727a18886186d5d28f920b441d94be140",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T06:53:51.014702+00:00"
+}

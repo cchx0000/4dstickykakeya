@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_actual_compatible_configuration
+
+#print axioms NativeActualCompatibleConfiguration.pairedCount
+#print axioms NativeActualCompatibleConfiguration.pairedCount_eq
+#print axioms NativeActualCompatibleConfiguration.HasCompatibleSquaredStage
+#print axioms NativeActualCompatibleConfiguration.exists_actual_compatible_configuration

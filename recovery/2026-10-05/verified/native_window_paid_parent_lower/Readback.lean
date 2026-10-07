@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_window_paid_parent_lower
+
+#print axioms NativeWindowPaidParentLower.window_parent_power_lower
+#print axioms NativeWindowPaidParentLower.master_parent_power_lower

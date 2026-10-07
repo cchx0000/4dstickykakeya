@@ -1,0 +1,24 @@
+import Theorems.Thm_StickyKakeya4_marked_isometric_finite_transport
+set_option autoImplicit false
+#print axioms MarkedIsometricFiniteTransport.line_injective
+#print axioms MarkedIsometricFiniteTransport.carrierMap
+#print axioms MarkedIsometricFiniteTransport.tree
+#print axioms MarkedIsometricFiniteTransport.source
+#print axioms MarkedIsometricFiniteTransport.point_measurePreserving
+#print axioms MarkedIsometricFiniteTransport.point_measurableEmbedding
+#print axioms MarkedIsometricFiniteTransport.point_volume_preimage
+#print axioms MarkedIsometricFiniteTransport.point_volume_image
+#print axioms MarkedIsometricFiniteTransport.convex_preimage
+#print axioms MarkedIsometricFiniteTransport.point_mem_image
+#print axioms MarkedIsometricFiniteTransport.valid_lines
+#print axioms MarkedIsometricFiniteTransport.shading_measurable
+#print axioms MarkedIsometricFiniteTransport.shading_subset_tube
+#print axioms MarkedIsometricFiniteTransport.contained_tube_count
+#print axioms MarkedIsometricFiniteTransport.CW_transport
+#print axioms MarkedIsometricFiniteTransport.shading_volume
+#print axioms MarkedIsometricFiniteTransport.total_shading_volume
+#print axioms MarkedIsometricFiniteTransport.total_tube_volume
+#print axioms MarkedIsometricFiniteTransport.sourceFunction_pullback
+#print axioms MarkedIsometricFiniteTransport.sourceUnion_image
+#print axioms MarkedIsometricFiniteTransport.sourceUnion_volume
+#print axioms MarkedIsometricFiniteTransport.sourceMass_eq

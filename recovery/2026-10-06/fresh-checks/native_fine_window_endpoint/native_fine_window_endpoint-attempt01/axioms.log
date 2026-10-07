@@ -1,0 +1,5 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/7e3105ccc94708ddd0e1206096b8b8c85ddd565adf22d621b4f456176cb7f68e.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_fine_window_endpoint-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_fine_window_endpoint-attempt01/Readback.lean"]
+SOURCE_SHA256 b50dc2576a5424cfbab1351c238366997348e3fb45d843e4d40202a7f9fdc6aa
+'NativeFineWindowEndpoint.short_window_ADBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

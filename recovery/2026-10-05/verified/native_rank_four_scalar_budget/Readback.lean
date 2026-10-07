@@ -1,0 +1,23 @@
+import Theorems.Thm_StickyKakeya4_native_rank_four_scalar_budget
+
+#print axioms NativeRankFourScalarBudget.countConstant
+#print axioms NativeRankFourScalarBudget.countConstant_pos
+#print axioms NativeRankFourScalarBudget.pointLoss
+#print axioms NativeRankFourScalarBudget.source_cost_product
+#print axioms NativeRankFourScalarBudget.actual_count_power
+#print axioms NativeRankFourScalarBudget.totalExponent
+#print axioms NativeRankFourScalarBudget.fixedConstant
+#print axioms NativeRankFourScalarBudget.fixedConstant_pos
+#print axioms NativeRankFourScalarBudget.actual_test_lower
+#print axioms NativeRankFourScalarBudget.force_scale_power
+#print axioms NativeRankFourScalarBudget.grid_inverse_le_tau
+#print axioms NativeRankFourScalarBudget.tau_budget
+#print axioms NativeRankFourScalarBudget.exponent_budget
+#print axioms NativeRankFourScalarBudget.rank_four_loss_le
+#print axioms NativeRankFourScalarBudget.exponent_le_half_kappa
+#print axioms NativeRankFourScalarBudget.exists_rank_four_hierarchy
+#print axioms NativeRankFourScalarBudget.rank_four_middle_lower
+#print axioms NativeRankFourScalarBudget.exists_scalar_cutoff
+#print axioms NativeRankFourScalarBudget.impossible_scale_power
+#print axioms NativeRankFourScalarBudget.contradiction_from_counts
+#print axioms NativeRankFourScalarBudget.exists_rank_four_exclusion

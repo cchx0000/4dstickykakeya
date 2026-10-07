@@ -1,0 +1,25 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_local_cell_coherence_readback.lean"]
+SOURCE_SHA256 9fe387095c4f3e72a2c648c31533d426b0d79bb955728d222c00022b5bb15349
+FIFO compiler ticket: 01791175611240294995-3980559a66d54d73b7e98b340d8a8351.request
+FIFO compiler acquired UTC: 2026-10-05T04:47:31.767184+00:00
+'NativeLocalCellCoherence.frontPoint_coordinate_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.physicalCell_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.frontPoint_height_eq_physicalCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.cellLabel_height_eq_physicalCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.frontPoint_near_physicalCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.neighborBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.neighborBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.cellIndex_mem_neighborBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.original_cell_output_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.same_original_cell_image_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.parent_original_cell_image_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.output_support_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.localCellLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.localPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.pointShadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.pairFiber_snd_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.pairFiber_card_le_shadow_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.retained_shadow_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalCellCoherence.retained_shadow_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

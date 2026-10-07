@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_configured_height_caps
+set_option autoImplicit false
+#print axioms NativeConfiguredHeightCaps.finalTime_gap
+#print axioms NativeConfiguredHeightCaps.time_image_separation
+#print axioms NativeConfiguredHeightCaps.time_image_interval_cap
+#print axioms NativeConfiguredHeightCaps.unconditional_interval_cap
+#print axioms NativeConfiguredHeightCaps.residue_eight_interval_cap

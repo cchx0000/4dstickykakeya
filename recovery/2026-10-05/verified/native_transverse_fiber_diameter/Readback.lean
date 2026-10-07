@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_transverse_fiber_diameter
+
+#print axioms NativeTransverseFiberDiameter.transverse_scalar_bound
+#print axioms NativeTransverseFiberDiameter.approximate_fiber_diameter

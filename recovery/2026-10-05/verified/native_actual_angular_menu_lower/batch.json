@@ -1,0 +1,83 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T12:24:41.984829+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T122439466262",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T122439466262/AggregateReadback.lean"
+  ],
+  "readback_sha256": "0a838fd1284dc7a94c46eb718f393ae8f3da746579c345bf82075d8eec59df77",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_angular_menu_lower",
+      "source_sha256": "66054560e246d56e3e9c7f89dabfb33b2e2eaf35b45a760196f2abb3b9d08c87",
+      "olean_sha256": "76c1e20cfc815b46e9d193bef71c94901070e3278c0eba91692cc601fbfd6390",
+      "names": [
+        "NativeActualAngularMenuLower.mean_le_point_fiber",
+        "NativeActualAngularMenuLower.point_angular_menu_lower",
+        "NativeActualAngularMenuLower.weighted_angular_numerator_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_nodal_packet_overlap",
+      "source_sha256": "1c8721e9701df8455e8e328eb9c73be078af0fda55eb0c4e1ef98c3448175ea0",
+      "olean_sha256": "ce2cba96dbd02deb4c53024edf2b0a7f80c684b078c56354bce81adb42a2be24",
+      "names": [
+        "NativeNodalPacketOverlap.normal_norm_le_infDist",
+        "NativeNodalPacketOverlap.graph_displacement",
+        "NativeNodalPacketOverlap.packet_anchor_distance",
+        "NativeNodalPacketOverlap.original_anchor_distance",
+        "NativeNodalPacketOverlap.node_mem_box",
+        "NativeNodalPacketOverlap.hits",
+        "NativeNodalPacketOverlap.hit_node_mem_box",
+        "NativeNodalPacketOverlap.nodal_packet_overlap",
+        "NativeNodalPacketOverlap.nodal_duplication",
+        "NativeNodalPacketOverlap.occupiedLabels",
+        "NativeNodalPacketOverlap.occupiedLabels_anchors",
+        "NativeNodalPacketOverlap.occupied_overlap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_packet_retained_layers",
+      "source_sha256": "f7b68e64e79d3bda8b9992b5225fa8b28cceebc1c7b5d5ba21dd002ec441a189",
+      "olean_sha256": "f8cf930aa4d33764d0cc07f5437883ac075f9bb629a8eea0e5c1ae84df690c94",
+      "names": [
+        "NativePacketRetainedLayers.referenceMinimum",
+        "NativePacketRetainedLayers.referenceMinimum_le",
+        "NativePacketRetainedLayers.le_referenceMinimum",
+        "NativePacketRetainedLayers.referenceBudget",
+        "NativePacketRetainedLayers.referenceBudget_positive",
+        "NativePacketRetainedLayers.active_count_reference_budget",
+        "NativePacketRetainedLayers.construct_actual_packet_layers"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_simultaneous_weighted_grain_core",
+      "source_sha256": "85c6641a2b7f1558d44b125d11a5a186622c8dfe63093176646e5a133a252673",
+      "olean_sha256": "7ce127e5ae7052ad4f93f59b1c243f5d1b4cb5f94738877365ef3d2e3a991f04",
+      "names": [
+        "NativeSimultaneousWeightedGrainCore.classBudget",
+        "NativeSimultaneousWeightedGrainCore.eraseFiber",
+        "NativeSimultaneousWeightedGrainCore.eraseFiber_subset",
+        "NativeSimultaneousWeightedGrainCore.eraseFiber_mass",
+        "NativeSimultaneousWeightedGrainCore.eraseFiber_budget",
+        "NativeSimultaneousWeightedGrainCore.exists_simultaneous_dense_core",
+        "NativeSimultaneousWeightedGrainCore.removed_mass_le",
+        "NativeSimultaneousWeightedGrainCore.exists_simultaneous_dense_core_half"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T12:30:04.707343+00:00",
+  "exit_code": 0
+}

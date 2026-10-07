@@ -1,0 +1,74 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_grain_quotient_fibers",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_grain_quotient_fibers.lean",
+  "source_sha256": "0f99324ab30fb721be143be1f77415b11abd3cc93ede05d6dd0f191b69800e02",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_grain_quotient_fibers.olean",
+  "names": [
+    "NativeGrainQuotientFibers.mixed_height_count",
+    "NativeGrainQuotientFibers.fiber",
+    "NativeGrainQuotientFibers.exists_mixed_dense_fiber",
+    "NativeGrainQuotientFibers.physicalMesh",
+    "NativeGrainQuotientFibers.physicalMesh_pos",
+    "NativeGrainQuotientFibers.diameter_div_physicalMesh",
+    "NativeGrainQuotientFibers.phase_diameter_div_physicalMesh",
+    "NativeGrainQuotientFibers.density_transfer"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T15:56:57.855613+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "8819b8ad87faa768ad1a0bc41c044781aa61147a4aa7425186efa15a4ba001e0",
+  "source_execution_complete_utc": "2026-10-05T15:57:03.400671+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160017276020",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeGrainQuotientFibers.mixed_height_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainQuotientFibers.fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainQuotientFibers.exists_mixed_dense_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainQuotientFibers.physicalMesh": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainQuotientFibers.physicalMesh_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainQuotientFibers.diameter_div_physicalMesh": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainQuotientFibers.phase_diameter_div_physicalMesh": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainQuotientFibers.density_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:00:23.503228+00:00"
+}

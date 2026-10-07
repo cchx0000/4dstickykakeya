@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_actual_XY_budget_comparison
+
+#print axioms NativeActualXYBudgetComparison.actualXYConstant
+#print axioms NativeActualXYBudgetComparison.base_XY_le_retained

@@ -1,0 +1,57 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_literal_euclidean_ad",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_euclidean_ad.lean",
+  "source_sha256": "68d3b84ddfd60a533174818e7b025fb5043ecbec707f922b7296fd1c41e0ce1a",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_literal_euclidean_ad.olean",
+  "names": [
+    "NativeLiteralEuclideanAD.toLp_injective",
+    "NativeLiteralEuclideanAD.sup_dist_le_toLp",
+    "NativeLiteralEuclideanAD.toLp_dist_le",
+    "NativeLiteralEuclideanAD.ADBounds_toLp",
+    "NativeLiteralEuclideanAD.one_dimensional_AD",
+    "NativeLiteralEuclideanAD.planar_AD"
+  ],
+  "started_utc": "2026-10-06T06:15:59.918438+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "08f78dc70368d9650d33727efdede9861794e2a26945b13a2e60cbda4c20b40a",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeLiteralEuclideanAD.toLp_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLiteralEuclideanAD.sup_dist_le_toLp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLiteralEuclideanAD.toLp_dist_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLiteralEuclideanAD.ADBounds_toLp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLiteralEuclideanAD.one_dimensional_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLiteralEuclideanAD.planar_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:16:04.317226+00:00"
+}

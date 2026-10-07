@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_scale_cancelled_offset_menu
+set_option autoImplicit false
+#print axioms NativeScaleCancelledOffsetMenu.ceiling_scale_cancel
+#print axioms NativeScaleCancelledOffsetMenu.offset_width_le
+#print axioms NativeScaleCancelledOffsetMenu.select_actual_scale_menu

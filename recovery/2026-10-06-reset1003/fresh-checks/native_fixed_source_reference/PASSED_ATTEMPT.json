@@ -1,0 +1,75 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_fixed_source_reference",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean",
+  "source_sha256": "fd2126fa776a26a97b9b9155e73e0e4a1b2f7aff4f6d51fefbe95828265f6f70",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.olean",
+  "names": [
+    "NativeFixedSourceReference.fixed_balanced_configuration",
+    "NativeFixedSourceReference.fixed_two_scale_configuration",
+    "NativeFixedSourceReference.fixed_middle_two_scale_extra_configuration",
+    "NativeFixedSourceReference.fixed_all_two_scale_extra_configuration",
+    "NativeFixedSourceReference.exists_fixed_source_reference",
+    "NativeFixedSourceReference.union_pos_of_shading_lower",
+    "NativeFixedSourceReference.native_near_of_volume_bounds",
+    "NativeFixedSourceReference.exists_reference_from_volume_bounds"
+  ],
+  "started_utc": "2026-10-06T20:33:38.498037+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "b548aa1f344aaf024f0c4f409777c8029d0a8dba80872197f31edb072d13885c",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T20:37:58.687411+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2051",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeFixedSourceReference.fixed_balanced_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSourceReference.fixed_two_scale_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSourceReference.fixed_middle_two_scale_extra_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSourceReference.fixed_all_two_scale_extra_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSourceReference.exists_fixed_source_reference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSourceReference.union_pos_of_shading_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSourceReference.native_near_of_volume_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSourceReference.exists_reference_from_volume_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T20:54:11.979380+00:00",
+  "canonical_scope": "new_canonical_module"
+}

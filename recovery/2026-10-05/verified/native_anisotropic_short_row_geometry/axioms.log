@@ -1,0 +1,20 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T144244026758", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T144244026758/AggregateReadback.lean"]
+READBACK_SHA256 f8fa989a13d126c04fb2fcc482826db01d3ac3092632b98e72b395caee2ed0ba
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:42:44.797103+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8783960 kB
+'NativeActualRankCount.actual_rank_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRankCount.clear_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRankCount.loss_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicShortRowGeometry.chartWidth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicShortRowGeometry.chart_height_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicShortRowGeometry.chart_spatial_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicShortRowGeometry.columnHalo' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicShortRowGeometry.columnHalo_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicShortRowGeometry.columnLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicShortRowGeometry.short_row_chart_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicShortRowGeometry.short_row_column_mem_halo' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryDimensionRange.extraCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryDimensionRange.extraCutoff_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryDimensionRange.history_stage_dimension_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

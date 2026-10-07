@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_local_offset_geometry
+set_option autoImplicit false
+#print axioms NativeLocalOffsetGeometry.affine_offset_difference
+#print axioms NativeLocalOffsetGeometry.shared_angle_offsets

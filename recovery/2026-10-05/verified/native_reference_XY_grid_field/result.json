@@ -1,0 +1,72 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_field",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_reference_XY_grid_field.lean",
+  "source_sha256": "868032fbc441497f298059f5c806f118a0a77ce0c2e76724bdd1652066684844",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_reference_XY_grid_field.olean",
+  "names": [
+    "NativeReferenceXYGridField.slice_horizontal",
+    "NativeReferenceXYGridField.fixedField",
+    "NativeReferenceXYGridField.fixedField_norm",
+    "NativeReferenceXYGridField.fixedField_zero_off",
+    "NativeReferenceXYGridField.fixedField_readback",
+    "NativeReferenceXYGridField.fixed_pxy_readback",
+    "NativeReferenceXYGridField.pref_squared",
+    "NativeReferenceXYGridField.coarseIndex_horizontalCoarsen"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T18:01:11.227509+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "1254d793d13463de7c4da4c2c66fd4e30b576ef0c47c137e4ae4995030c22695",
+  "source_execution_complete_utc": "2026-10-05T18:02:00.149803+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180420918225",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeReferenceXYGridField.slice_horizontal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridField.fixedField": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridField.fixedField_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridField.fixedField_zero_off": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridField.fixedField_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridField.fixed_pxy_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridField.pref_squared": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceXYGridField.coarseIndex_horizontalCoarsen": [
+      "propext"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T18:05:03.877486+00:00"
+}

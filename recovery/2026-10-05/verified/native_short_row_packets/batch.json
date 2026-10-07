@@ -1,0 +1,88 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T12:12:15.463607+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T121214248540",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T121214248540/AggregateReadback.lean"
+  ],
+  "readback_sha256": "4a1691dd85bca72295a391db21e5dc912f70f3f033757c7f79d6288609f108be",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_weighted_packet_layers",
+      "source_sha256": "457cf37ef823bfc608acc5496aaaca29870958b2a9ad2c7800dedb51ea9caf87",
+      "olean_sha256": "a0e28e7b4c76d6a4e9681324dfdfdd38d961ceadf0f5e6a8fa4ad3e0d288e54a",
+      "names": [
+        "NativeWeightedPacketLayers.packetMass",
+        "NativeWeightedPacketLayers.restriction",
+        "NativeWeightedPacketLayers.restriction_subset",
+        "NativeWeightedPacketLayers.restriction_predecessors",
+        "NativeWeightedPacketLayers.restriction_mass_loss",
+        "NativeWeightedPacketLayers.overlapCount",
+        "NativeWeightedPacketLayers.cover_count_le_overlap",
+        "NativeWeightedPacketLayers.packet_mass_sum",
+        "NativeWeightedPacketLayers.packet_mass_sum_le",
+        "NativeWeightedPacketLayers.active_packet_count",
+        "NativeWeightedPacketLayers.layers",
+        "NativeWeightedPacketLayers.layers_step_subset",
+        "NativeWeightedPacketLayers.layers_subset_start",
+        "NativeWeightedPacketLayers.layers_predecessors",
+        "NativeWeightedPacketLayers.layers_mass_loss"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_short_row_packets",
+      "source_sha256": "786280c930e7f108fc65146466e082531edd037b79ac1226b75b0c1128692c0c",
+      "olean_sha256": "a2d5bd560ac8562dafe572dd2aa8aacae5373675721e4dc0130504c67554d675",
+      "names": [
+        "NativeShortRowPackets.shortEdges",
+        "NativeShortRowPackets.shortCells",
+        "NativeShortRowPackets.shortVertices",
+        "NativeShortRowPackets.shortVertexClosure",
+        "NativeShortRowPackets.shortVertices_eq_cells_image",
+        "NativeShortRowPackets.projected_image_eq_rowChildren",
+        "NativeShortRowPackets.projected_short_height",
+        "NativeShortRowPackets.short_member_readback",
+        "NativeShortRowPackets.short_member_packet",
+        "NativeShortRowPackets.short_vertex_witness",
+        "NativeShortRowPackets.short_vertex_cube_packet",
+        "NativeShortRowPackets.short_vertex_rounded_packet",
+        "NativeShortRowPackets.short_vertex_rounded_height",
+        "NativeShortRowPackets.short_vertex_closure_packet"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_angular_candidate_capacity_product",
+      "source_sha256": "1057799e8f0d942e1e3b384e436987802a035538adfbef65b4003119f742f2b7",
+      "olean_sha256": "f6a2e38c9de54d1dc937ebc119f8ccb033b2e3977752210e77d8e7a01d050df6",
+      "names": [
+        "NativeAngularCandidateCapacityProduct.costConstant",
+        "NativeAngularCandidateCapacityProduct.costConstant_one_le",
+        "NativeAngularCandidateCapacityProduct.depthPower_comp",
+        "NativeAngularCandidateCapacityProduct.depthPower_pow",
+        "NativeAngularCandidateCapacityProduct.depthPower_product",
+        "NativeAngularCandidateCapacityProduct.depthPower_one_le",
+        "NativeAngularCandidateCapacityProduct.singleCapacity_cast_le",
+        "NativeAngularCandidateCapacityProduct.successor_capacity_product",
+        "NativeAngularCandidateCapacityProduct.selectionBudget_zero",
+        "NativeAngularCandidateCapacityProduct.selectionBudget_succ",
+        "NativeAngularCandidateCapacityProduct.selectionBudget_product_split",
+        "NativeAngularCandidateCapacityProduct.selectionBudget_product_le",
+        "NativeAngularCandidateCapacityProduct.native_master_product_bound"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T12:16:18.519478+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_original_point_angular_lower
+
+#print axioms NativeOriginalPointAngularLower.translateAngle
+#print axioms NativeOriginalPointAngularLower.translateAngle_injective
+#print axioms NativeOriginalPointAngularLower.angular_global_readback
+#print axioms NativeOriginalPointAngularLower.pointMenu
+#print axioms NativeOriginalPointAngularLower.pointMenu_card
+#print axioms NativeOriginalPointAngularLower.original_point_angular_lower

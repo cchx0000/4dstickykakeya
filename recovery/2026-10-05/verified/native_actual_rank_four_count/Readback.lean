@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_actual_rank_four_count
+
+#print axioms NativeActualRankFourCount.rankFourConstant
+#print axioms NativeActualRankFourCount.rankFourConstant_pos
+#print axioms NativeActualRankFourCount.clear_four_count
+#print axioms NativeActualRankFourCount.actual_rank_four_count

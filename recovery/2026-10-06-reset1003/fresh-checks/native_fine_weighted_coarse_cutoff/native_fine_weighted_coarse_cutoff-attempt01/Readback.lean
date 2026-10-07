@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_fine_weighted_coarse_cutoff
+set_option autoImplicit false
+#print axioms NativeFineWeightedCoarseCutoff.exists_uniform_cutoff
+#print axioms NativeFineWeightedCoarseCutoff.effective_power
+#print axioms NativeFineWeightedCoarseCutoff.exists_effective_cutoff
+#print axioms NativeFineWeightedCoarseCutoff.two_output_power_readback
+#print axioms NativeFineWeightedCoarseCutoff.two_output_lower_bounds
+#print axioms NativeFineWeightedCoarseCutoff.ordered_two_output_parameters
+#print axioms NativeFineWeightedCoarseCutoff.exists_two_output_cutoff

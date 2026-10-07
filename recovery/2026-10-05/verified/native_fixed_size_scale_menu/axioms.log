@@ -1,0 +1,30 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_fixed_size_scale_menu_readback.lean"]
+SOURCE_SHA256 9e859a3ed41d26b0a6f74896b16f1c1fa32fed75ab6ff79f666daffb005be404
+FIFO compiler ticket: 01791179943449929184-8e350d4e895148e7b7483150c378b4ef.request
+FIFO compiler acquired UTC: 2026-10-05T06:01:04.659482+00:00
+'NativeFixedSizeScaleMenu.schedule' depends on axioms: [propext]
+'NativeFixedSizeScaleMenu.schedule_zero' depends on axioms: [propext]
+'NativeFixedSizeScaleMenu.schedule_last' depends on axioms: [propext]
+'NativeFixedSizeScaleMenu.exists_predecessor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.exists_predecessor_in_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.dyadic_gap_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.depth_le_of_dyadic_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.exists_fixed_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.clippedSchedule' depends on axioms: [propext]
+'NativeFixedSizeScaleMenu.clippedSchedule_bounds' depends on axioms: [propext]
+'NativeFixedSizeScaleMenu.clippedSchedule_fix' depends on axioms: [propext]
+'NativeFixedSizeScaleMenu.lowerDepth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.upperDepth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.upperDepth_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.depth_interval_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.windowSchedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.windowSchedule_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.exists_window_predecessor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.windowSchedule_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.windowSchedule_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.depth_window_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.exists_source_window_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.gap_le_twice_fraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedSizeScaleMenu.gap_le_twice_fraction_of_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

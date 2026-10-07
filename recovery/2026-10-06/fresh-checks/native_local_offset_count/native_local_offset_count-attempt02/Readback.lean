@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_local_offset_count
+set_option autoImplicit false
+#print axioms NativeLocalOffsetCount.offsetCell
+#print axioms NativeLocalOffsetCount.neighbors
+#print axioms NativeLocalOffsetCount.neighbors_card
+#print axioms NativeLocalOffsetCount.floor_difference_le_one
+#print axioms NativeLocalOffsetCount.joint_fiber_card
+#print axioms NativeLocalOffsetCount.sum_fiber_image_card
+#print axioms NativeLocalOffsetCount.double_count_fiber_images
+#print axioms NativeLocalOffsetCount.angle_offset_cap
+#print axioms NativeLocalOffsetCount.actual_offset_count

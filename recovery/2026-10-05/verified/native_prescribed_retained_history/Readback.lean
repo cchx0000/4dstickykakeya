@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_prescribed_retained_history
+
+#print axioms NativePrescribedRetainedHistory.HasPrescribedRetainedHistory
+#print axioms NativePrescribedRetainedHistory.prescribed_retained_forget
+#print axioms NativePrescribedRetainedHistory.construct_prescribed_retained_history

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_actual_reference_one_T_geometry
+set_option autoImplicit false
+#print axioms NativeActualReferenceOneTGeometry.HasFinalGeometry
+#print axioms NativeActualReferenceOneTGeometry.geometry_mono
+#print axioms NativeActualReferenceOneTGeometry.from_parent_profiles
+#print axioms NativeActualReferenceOneTGeometry.from_xy_stage

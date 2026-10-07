@@ -1,0 +1,41 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:07:06.529062+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140705796702",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140705796702/AggregateReadback.lean"
+  ],
+  "readback_sha256": "f31800788c5ae18beeb33aabb9849ed2ca02ec9a57f8b634c1eff4b884c8f642",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_point_region_counts",
+      "source_sha256": "3ab00d264a6e72c7c9c51e6f423f970aaee8fb1db720368c8acee17aa2403079",
+      "olean_sha256": "92133e92fb0ea439b25838902fea446db4627a8ec6fd918ebeb1a71d4cdf6dcd",
+      "names": [
+        "NativeParentPointRegionCounts.regionEdges",
+        "NativeParentPointRegionCounts.regionPoints",
+        "NativeParentPointRegionCounts.region_points_image",
+        "NativeParentPointRegionCounts.region_card_fiber_sum",
+        "NativeParentPointRegionCounts.uniform_region_counts",
+        "NativeParentPointRegionCounts.subset_region_upper",
+        "NativeParentPointRegionCounts.region_point_retention",
+        "NativeParentPointRegionCounts.core_parent_point_uniformity",
+        "NativeParentPointRegionCounts.source_parent_region_counts"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:07:11.090051+00:00",
+  "exit_code": 0
+}

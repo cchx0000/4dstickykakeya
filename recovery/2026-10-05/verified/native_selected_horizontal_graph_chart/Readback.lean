@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_selected_horizontal_graph_chart
+
+#print axioms NativeSelectedHorizontalGraphChart.totalGraph
+#print axioms NativeSelectedHorizontalGraphChart.totalGraph_eq
+#print axioms NativeSelectedHorizontalGraphChart.totalGraph_norm
+#print axioms NativeSelectedHorizontalGraphChart.totalGraph_horizontal
+#print axioms NativeSelectedHorizontalGraphChart.totalGraph_characterization
+#print axioms NativeSelectedHorizontalGraphChart.totalGraph_variation
+#print axioms NativeSelectedHorizontalGraphChart.select_horizontal_graph_chart

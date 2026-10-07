@@ -1,0 +1,41 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:33:27.078444+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T143326406197",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T143326406197/AggregateReadback.lean"
+  ],
+  "readback_sha256": "0283171490653418e0be67024b135f4f1bd6609d9932a6a12b93651a372331e0",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_rank_two_three_grain_configuration",
+      "source_sha256": "810a0bfb4757d8bfb96cef76e6989dbfa22f672426336162aecb623e122423ce",
+      "olean_sha256": "bac215717078a7e16934cd620b838ee032506dbbcc55b15ecee945485ca93dac",
+      "names": [
+        "NativeActualRankTwoThreeGrainConfiguration.exists_actual_rank_two_three_grain_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_graph_direction_in_plane",
+      "source_sha256": "be390e9b3bfb315fde56865f90b96c8604fd3858a75a971fe00a01396bc7cfa2",
+      "olean_sha256": "58ed0337ac397ea5a43aa61b8b2565e2a9eb2002d01549906d8c2afbf2a252e4",
+      "names": [
+        "NativeGraphDirectionInPlane.exists_near_graph_direction"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:35:38.300515+00:00",
+  "exit_code": 0
+}

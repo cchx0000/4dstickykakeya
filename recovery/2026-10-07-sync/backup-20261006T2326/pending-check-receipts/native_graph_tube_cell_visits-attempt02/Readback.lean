@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_graph_tube_cell_visits
+set_option autoImplicit false
+#print axioms NativeGraphTubeCellVisits.visited
+#print axioms NativeGraphTubeCellVisits.same_tube_coordinate_diameter
+#print axioms NativeGraphTubeCellVisits.visited_card_le

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_same_reference_chart_bounds
+set_option autoImplicit false
+#print axioms NativeSameReferenceChartBounds.population_through
+#print axioms NativeSameReferenceChartBounds.source_scale_guard
+#print axioms NativeSameReferenceChartBounds.same_reference_chart_bounds

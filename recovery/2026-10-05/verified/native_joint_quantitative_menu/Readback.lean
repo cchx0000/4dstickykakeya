@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_joint_quantitative_menu
+#print axioms NativeJointQuantitativeMenu.HasCoarseScale
+#print axioms NativeJointQuantitativeMenu.joint_upper_with_parameters
+#print axioms NativeJointQuantitativeMenu.joint_quantitative_relations

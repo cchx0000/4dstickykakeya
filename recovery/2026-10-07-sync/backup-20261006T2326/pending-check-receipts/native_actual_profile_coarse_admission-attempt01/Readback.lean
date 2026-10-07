@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_profile_coarse_admission
+set_option autoImplicit false
+#print axioms NativeActualProfileCoarseAdmission.exists_same_reference_admission_of_actual_profile

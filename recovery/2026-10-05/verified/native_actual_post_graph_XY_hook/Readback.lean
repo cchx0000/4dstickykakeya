@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_post_graph_XY_hook
+
+#print axioms NativeActualPostGraphXYHook.attach_actual_post_graph_XY

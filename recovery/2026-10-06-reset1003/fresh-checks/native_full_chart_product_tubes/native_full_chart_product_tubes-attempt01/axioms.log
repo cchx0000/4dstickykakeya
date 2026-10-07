@@ -1,0 +1,10 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3f796f1f1cf2c44f18ab1306aa79cff38d57d5c3cba0d1a247ccfe637a00e0d6.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_full_chart_product_tubes-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_full_chart_product_tubes-attempt01/Readback.lean"]
+SOURCE_SHA256 bd48d79a9effc77493e6c0655d72c14efeb8e63f3707248f753bcb80e5139d8f
+LOCK_ACQUIRED_UTC 2026-10-06T10:54:06.916074+00:00
+SHARED_SLOT 3
+LEAN_PID 63
+'NativeFullChartProductTubes.scalar_tube_containment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullChartProductTubes.planar_tube_containment' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T10:55:53.200979+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

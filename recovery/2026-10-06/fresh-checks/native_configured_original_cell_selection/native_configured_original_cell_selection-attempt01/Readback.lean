@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_configured_original_cell_selection
+set_option autoImplicit false
+#print axioms NativeConfiguredOriginalCellSelection.same_cell_old_dist
+#print axioms NativeConfiguredOriginalCellSelection.same_residue_original_cell
+#print axioms NativeConfiguredOriginalCellSelection.select_one
+#print axioms NativeConfiguredOriginalCellSelection.select_finite_menu
+#print axioms NativeConfiguredOriginalCellSelection.select_original_edges

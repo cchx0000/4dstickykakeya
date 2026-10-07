@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_saturated_population_parent_profiles
+
+#print axioms NativeSaturatedPopulationParentProfiles.HasSaturatedPopulationParentProfiles
+#print axioms NativeSaturatedPopulationParentProfiles.source_saturated_population_parent_profiles

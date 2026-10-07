@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_combined_parent_profiles
+
+#print axioms NativeCombinedParentProfiles.HasParentProfiles
+#print axioms NativeCombinedParentProfiles.horizontal_window
+#print axioms NativeCombinedParentProfiles.source_parent_profiles

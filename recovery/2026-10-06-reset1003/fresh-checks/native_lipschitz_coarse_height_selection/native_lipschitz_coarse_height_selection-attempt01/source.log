@@ -1,0 +1,124 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/fc377e542fb43d5a44e38ddc652a4643c579eaf38acc535849b8c8c7d73dd297.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean"]
+SOURCE_SHA256 847d3d185262577caae8da923f83b3380f2d4ee0873da9aa2d30eb357dbe8767
+LOCK_ACQUIRED_UTC 2026-10-06T14:26:34.946533+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean:50:13: error: don't know how to synthesize implicit argument `hL`
+  @residue_eq_emod q ?m.11 (fine R origin q x) (fine R origin q y) (congrArg Prod.snd hp)
+context:
+R origin x y : ℝ
+q : ℕ
+hq : 0 < q
+hc : coarse R origin x = coarse R origin y
+hp : paint R origin q hq x = paint R origin q hq y
+⊢ 0 < q
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean:49:43: error: unsolved goals
+R origin x y : ℝ
+q : ℕ
+hq : 0 < q
+hc : coarse R origin x = coarse R origin y
+hp : paint R origin q hq x = paint R origin q hq y
+⊢ fine R origin q x = fine R origin q y
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean:61:2: error: don't know how to synthesize implicit argument `hL`
+  @residue_eq_emod 8 (?m.29 hq hp) (coarse R origin x) (coarse R origin y) (congrArg Prod.fst hp)
+context:
+R origin x y : ℝ
+q : ℕ
+hq : 0 < q
+hp : paint R origin q hq x = paint R origin q hq y
+⊢ 0 < 8
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean:91:4: error: linarith failed to find a contradiction
+R origin x y : ℝ
+hR : 0 < R
+hc : coarse R origin x ≠ coarse R origin y
+hp : coarse R origin x % 8 = coarse R origin y % 8
+hx : |x - center R origin (coarse R origin x)| ≤ R / 2
+hy : |y - center R origin (coarse R origin y)| ≤ R / 2
+hg : ↑8 ≤ |↑(coarse R origin x) - ↑(coarse R origin y)|
+a✝ : R * |↑(coarse R origin x) - ↑(coarse R origin y)| < 8 * R
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean:97:2: error: linarith failed to find a contradiction
+R origin x y : ℝ
+hR : 0 < R
+hc : coarse R origin x ≠ coarse R origin y
+hp : coarse R origin x % 8 = coarse R origin y % 8
+hx : |x - center R origin (coarse R origin x)| ≤ R / 2
+hy : |y - center R origin (coarse R origin y)| ≤ R / 2
+hg : ↑8 ≤ |↑(coarse R origin x) - ↑(coarse R origin y)|
+hgap : 8 * R ≤ dist (center R origin (coarse R origin x)) (center R origin (coarse R origin y))
+h1 : |x - y| ≤ |x - center R origin (coarse R origin x)| + |center R origin (coarse R origin x) - y|
+h2 :
+  dist (center R origin (coarse R origin x)) y ≤
+    |center R origin (coarse R origin x) - center R origin (coarse R origin y)| +
+      |y - center R origin (coarse R origin y)|
+a✝ : 9 / 8 * dist (center R origin (coarse R origin x)) (center R origin (coarse R origin y)) < |x - y|
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean:128:2: error: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean:173:10: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  NativeFrozenTimeField.field T (fun z => height z - origin) F R ⌊(height x - origin) / R⌋
+in the target expression
+  dist (NativeFrozenTimeField.field T (fun z => height z - origin) F R (coarse R origin (height x)))
+      (NativeFrozenTimeField.field T (fun z => height z - origin) F R (coarse R origin (height y))) ≤
+    9 / 8 * L * dist (center R origin (coarse R origin (height x))) (center R origin (coarse R origin (height y)))
+
+case neg
+A : Type u_1
+V : Type u_2
+inst✝ : NormedAddCommGroup V
+S : Finset A
+w : A → ℕ
+height : A → ℝ
+F : A → V
+L R origin B : ℝ
+hL : 0 ≤ L
+hR : 0 < R
+hB : 0 ≤ B
+hF : ∀ x ∈ S, ‖F x‖ ≤ B
+hLip : ∀ x ∈ S, ∀ y ∈ S, dist (F x) (F y) ≤ L * |height x - height y|
+q : ℕ := subdivisions L
+hq : 0 < q := (subdivisions_bounds L).left
+this : Nonempty (Fin q) := Nonempty.intro ⟨0, hq⟩
+color : Fin 8 × Fin q
+hret : ∑ a ∈ S, w a ≤ Fintype.card (Fin 8 × Fin q) * ∑ a ∈ S with paint R origin q hq (height a) = color, w a
+T : Finset A := {x ∈ S | paint R origin q hq (height x) = color}
+hTS : T ⊆ S
+hretN : mass S w ≤ 8 * q * mass T w
+hpaint : ∀ x ∈ T, ∀ y ∈ T, paint R origin q hq (height x) = paint R origin q hq (height y)
+hfine :
+  ∀ x ∈ T,
+    ∀ y ∈ T,
+      coarse R origin (height x) = coarse R origin (height y) → fine R origin q (height x) = fine R origin q (height y)
+hqR : 0 < ↑q
+hsmall : L * (R / ↑q) ≤ R
+U : Finset A
+hUT : U ⊆ {x ∈ S | paint R origin q hq (height x) = color}
+x : A
+hx : x ∈ U
+y : A
+hy : y ∈ U
+hxT : x ∈ {x ∈ S | paint R origin q hq (height x) = color}
+hyT : y ∈ {x ∈ S | paint R origin q hq (height x) = color}
+v : A
+hv : v ∈ T
+hvF : NativeFrozenTimeField.field T (fun z => height z - origin) F R ⌊(height x - origin) / R⌋ = F v
+z : A
+hz : z ∈ T
+hzF : NativeFrozenTimeField.field T (fun z => height z - origin) F R ⌊(height y - origin) / R⌋ = F z
+hvheight : coarse R origin (height v) = coarse R origin (height x)
+hzheight : coarse R origin (height z) = coarse R origin (height y)
+he : ¬coarse R origin (height x) = coarse R origin (height y)
+⊢ dist (NativeFrozenTimeField.field T (fun z => height z - origin) F R (coarse R origin (height x)))
+      (NativeFrozenTimeField.field T (fun z => height z - origin) F R (coarse R origin (height y))) ≤
+    9 / 8 * L * dist (center R origin (coarse R origin (height x))) (center R origin (coarse R origin (height y)))
+LEAN_FINISHED_UTC 2026-10-06T14:26:46.417243+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

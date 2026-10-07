@@ -1,0 +1,112 @@
+{
+  "status": "UNVERIFIED_RECONSTRUCTION",
+  "reconstruction_date_utc": "2026-10-06",
+  "verification_performed": "Filesystem readback, UTF-8 source inventory and SHA256 comparison only. No Lean, Lake, toolchain installation, build or axiom audit was run.",
+  "file_count": 7,
+  "declaration_count": 19,
+  "files": [
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_actual_window_global_count.lean",
+      "namespace": "NativeActualWindowGlobalCount",
+      "declarations": [
+        "NativeActualWindowGlobalCount.of_reference_cross"
+      ],
+      "status": "UNVERIFIED_RECONSTRUCTION",
+      "sha256_with_banner": "57e3ba452e6c01d99f56386d4012220fe723b1b002772a8f6aa247b04c3f3b60",
+      "sha256_without_banner": "def8561d85bc930dca5a87ee08f80699a91df2c7549598e1db58ced1fcae9ede",
+      "matches_recorded_prior_hash": false,
+      "recorded_prior_source_sha256": null,
+      "prior_status": "Unsubmitted draft in the prior environment; reconstructed from visible task context."
+    },
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_pre_third_window_metric.lean",
+      "namespace": "NativePreThirdWindowMetric",
+      "declarations": [
+        "NativePreThirdWindowMetric.fixed_field_metric"
+      ],
+      "status": "UNVERIFIED_RECONSTRUCTION",
+      "sha256_with_banner": "e86b58a6b80af1f2b20d5f98e560bf5a6e4b2f5033802fe65d814b2b06140166",
+      "sha256_without_banner": "3f43d248c6eb32a09b66f0532a10d45c14258058bd7af05ccd67fd792eb01ee2",
+      "matches_recorded_prior_hash": true,
+      "recorded_prior_source_sha256": "3f43d248c6eb32a09b66f0532a10d45c14258058bd7af05ccd67fd792eb01ee2",
+      "prior_status": "Attempt02 had source_passed on Oct5 at21:10:28 UTC; no new-environment check has run."
+    },
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_source_window_XY_ad.lean",
+      "namespace": "NativeSourceWindowXYAD",
+      "declarations": [
+        "NativeSourceWindowXYAD.source_window_AD"
+      ],
+      "status": "UNVERIFIED_RECONSTRUCTION",
+      "sha256_with_banner": "e0b1a7fe1b5c1875608fb891a14366c8957a05a5de9a98e6f7e2d3f8d3106bb1",
+      "sha256_without_banner": "155f498b932234c6f4fd6e860adb528edc62f2bf0abcae063695be926319b479",
+      "matches_recorded_prior_hash": false,
+      "recorded_prior_source_sha256": null,
+      "prior_status": "Unsubmitted draft in the prior environment; reconstructed from visible task context."
+    },
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_source_window_Y_ad.lean",
+      "namespace": "NativeSourceWindowYAD",
+      "declarations": [
+        "NativeSourceWindowYAD.source_window_quotient_AD"
+      ],
+      "status": "UNVERIFIED_RECONSTRUCTION",
+      "sha256_with_banner": "8f12c767b6e7e60c9801c38980e2c01204b24e56eec537c4532b55403c832646",
+      "sha256_without_banner": "78b6a5ec85270ce5ecff8c40b382acf59fede3fd13983218f81ee85e73c943b6",
+      "matches_recorded_prior_hash": false,
+      "recorded_prior_source_sha256": null,
+      "prior_status": "Unsubmitted draft in the prior environment; reconstructed from visible task context."
+    },
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_third_window_uniformity.lean",
+      "namespace": "NativeThirdWindowUniformity",
+      "declarations": [
+        "NativeThirdWindowUniformity.from_source_data"
+      ],
+      "status": "UNVERIFIED_RECONSTRUCTION",
+      "sha256_with_banner": "132f02c7dc6cb6ae225e8f00452fbba2480015fbf456ce34055dbe3394132e80",
+      "sha256_without_banner": "07af0c12cdffd15f6a24bd4b848f81d9b96446ac362942817d20e263676bd54c",
+      "matches_recorded_prior_hash": false,
+      "recorded_prior_source_sha256": null,
+      "prior_status": "Unsubmitted draft in the prior environment; reconstructed from visible task context."
+    },
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_window_XY_relation_menu.lean",
+      "namespace": "NativeWindowXYRelationMenu",
+      "declarations": [
+        "NativeWindowXYRelationMenu.depth",
+        "NativeWindowXYRelationMenu.depth_first",
+        "NativeWindowXYRelationMenu.depth_last",
+        "NativeWindowXYRelationMenu.depth_bounds",
+        "NativeWindowXYRelationMenu.depth_monotone",
+        "NativeWindowXYRelationMenu.depth_gap",
+        "NativeWindowXYRelationMenu.relations",
+        "NativeWindowXYRelationMenu.relations_refl",
+        "NativeWindowXYRelationMenu.relations_symm",
+        "NativeWindowXYRelationMenu.caller_uniformities"
+      ],
+      "status": "UNVERIFIED_RECONSTRUCTION",
+      "sha256_with_banner": "265c0fa2d6a73bb199497d04e81ad08bf6c2ffaae982b1cb37233b0bf5a2a92b",
+      "sha256_without_banner": "2566716f31290621841801e709fe7a65fc7083e4ce5efeedc46e3b52419ab0b0",
+      "matches_recorded_prior_hash": true,
+      "recorded_prior_source_sha256": "2566716f31290621841801e709fe7a65fc7083e4ce5efeedc46e3b52419ab0b0",
+      "prior_status": "Attempt04 was submitted on Oct5; its terminal result was not observed before the platform failure."
+    },
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_window_height_support.lean",
+      "namespace": "NativeWindowHeightSupport",
+      "declarations": [
+        "NativeWindowHeightSupport.actual_height_bound",
+        "NativeWindowHeightSupport.translated_height_bound",
+        "NativeWindowHeightSupport.ediv_eq_sign",
+        "NativeWindowHeightSupport.large_window_height_stable"
+      ],
+      "status": "UNVERIFIED_RECONSTRUCTION",
+      "sha256_with_banner": "aa36583f07a6817e713e92b6043730c31a40b05cbbe33cbec862a42d73ca480b",
+      "sha256_without_banner": "d307930e7a129c045b429dfbfd980afcd4335470bfc8fa33071b8aeac7b8ab5c",
+      "matches_recorded_prior_hash": false,
+      "recorded_prior_source_sha256": null,
+      "prior_status": "Unsubmitted draft in the prior environment; reconstructed from visible task context."
+    }
+  ]
+}

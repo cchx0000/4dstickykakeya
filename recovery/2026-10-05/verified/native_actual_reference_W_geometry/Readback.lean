@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_actual_reference_W_geometry
+
+#print axioms NativeActualReferenceWGeometry.incidences
+#print axioms NativeActualReferenceWGeometry.incidence_card
+#print axioms NativeActualReferenceWGeometry.equal_column_height_gap
+#print axioms NativeActualReferenceWGeometry.same_phase_height_column_halo
+#print axioms NativeActualReferenceWGeometry.heightColumnCost
+#print axioms NativeActualReferenceWGeometry.pointsAt_card_bound

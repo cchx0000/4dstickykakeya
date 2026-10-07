@@ -1,0 +1,15 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140705796702", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140705796702/AggregateReadback.lean"]
+READBACK_SHA256 f31800788c5ae18beeb33aabb9849ed2ca02ec9a57f8b634c1eff4b884c8f642
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:07:06.554303+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8779816 kB
+'NativeParentPointRegionCounts.core_parent_point_uniformity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentPointRegionCounts.regionEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentPointRegionCounts.regionPoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentPointRegionCounts.region_card_fiber_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentPointRegionCounts.region_point_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentPointRegionCounts.region_points_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentPointRegionCounts.source_parent_region_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentPointRegionCounts.subset_region_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentPointRegionCounts.uniform_region_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,10 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/e664e8287e645d269bce36c508dbc1e3b2b50e6dc78e5d53faaf0bff4a77995d.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_window_full_power_cost-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_window_full_power_cost-attempt02/Readback.lean"]
+SOURCE_SHA256 256328b4bb8672bb2a51bf7efbf824d33e4750bbb359c37f6cf430de8fa69bc8
+LOCK_ACQUIRED_UTC 2026-10-06T09:09:05.248773+00:00
+SHARED_SLOT 3
+LEAN_PID 64
+'NativeWindowFullPowerCost.complete_cost_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowFullPowerCost.paid_complete_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T09:11:21.440892+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

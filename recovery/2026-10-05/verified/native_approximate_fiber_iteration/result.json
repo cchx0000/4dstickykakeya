@@ -1,0 +1,104 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_approximate_fiber_iteration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_approximate_fiber_iteration.lean",
+  "source_sha256": "66ec7af933b8700fadd9c948ef8e2b21183aa30250fb0439cc501c9a02005621",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_approximate_fiber_iteration.olean",
+  "names": [
+    "NativeApproximateFiberIteration.radius",
+    "NativeApproximateFiberIteration.radius_pos",
+    "NativeApproximateFiberIteration.le_radius",
+    "NativeApproximateFiberIteration.radius_succ",
+    "NativeApproximateFiberIteration.directionAt",
+    "NativeApproximateFiberIteration.directionAt_eq",
+    "NativeApproximateFiberIteration.predecessorMinimum",
+    "NativeApproximateFiberIteration.overlap",
+    "NativeApproximateFiberIteration.fiber_mono_radius",
+    "NativeApproximateFiberIteration.iterated_count",
+    "NativeApproximateFiberIteration.overlap_le_common",
+    "NativeApproximateFiberIteration.iterated_lower_bound",
+    "NativeApproximateFiberIteration.full_lower_bound"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T10:49:34.630242+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "7ddd89d8ff833a26933facb680afc1e0e5f4384b0902ab26880e33f99da04bcd",
+  "source_execution_complete_utc": "2026-10-05T10:53:40.800613+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T110056975177",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeApproximateFiberIteration.radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.radius_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.le_radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.radius_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.directionAt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.directionAt_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.predecessorMinimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.overlap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.fiber_mono_radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.iterated_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.overlap_le_common": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.iterated_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberIteration.full_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T11:07:32.420193+00:00"
+}

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_paid_third_data
+
+#print axioms NativePaidThirdData.ADBounds_mono_constant
+#print axioms NativePaidThirdData.paid_data_from_budget

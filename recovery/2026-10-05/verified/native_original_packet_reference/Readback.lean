@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_original_packet_reference
+
+#print axioms NativeOriginalPacketReference.rawVertex
+#print axioms NativeOriginalPacketReference.full_fiber_mem_packet

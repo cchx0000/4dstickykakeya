@@ -1,0 +1,108 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164047926585", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164047926585/AggregateReadback.lean"]
+READBACK_SHA256 24d1b2f33bb4bd9f9e1771fe7e16972e95fadcae77f23e57aa9304a53a5b81c7
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:40:52.560524+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8721120 kB
+'NativePrescribedFinalConfiguration.HasPrescribedFinalRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedFinalConfiguration.HasPrescribedFinalStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePrescribedFinalConfiguration.exists_prescribed_final_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedFinalConfiguration.prescribed_final_retained_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedFinalConfiguration.prescribed_final_retained_history' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedFinalConfiguration.prescribed_final_retained_of_history' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedFinalConfiguration.prescribed_final_stage_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedFinalConfiguration.prescribed_final_stage_history' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedFinalConfiguration.prescribed_final_stage_of_history' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedGrainHistory.IsPrescribedNodeSystem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePrescribedGrainHistory.construct_prescribed_grain_history' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedGrainHistory.prescribed_system_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePrescribedGrainHistory.prescribed_system_word' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePrescribedHistoryConfiguration.HasPrescribedHistoryStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedHistoryConfiguration.exists_prescribed_history_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedHistoryConfiguration.prescribed_history_stage_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedHistoryConfiguration.prescribed_history_stage_of_compatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedRetainedHistory.HasPrescribedRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedRetainedHistory.construct_prescribed_retained_history' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedRetainedHistory.prescribed_retained_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceActual.exists_actual_retained_slice_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRetainedSliceBudget.exists_retained_slice_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceCore.exists_retained_slice_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceCore.exists_retained_slice_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceCore.refinementCost' depends on axioms: [propext]
+'NativeRetainedSliceCore.refinementCost_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceCore.relations' depends on axioms: [propext, Quot.sound]
+'NativeRetainedSliceCore.relations_refl' depends on axioms: [propext, Quot.sound]
+'NativeRetainedSliceCore.relations_symm' depends on axioms: [propext, Quot.sound]
+'NativeSliceClassBalls.ball_class_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.ball_class_mem_halo' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.preparedClass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.preparedClass_subset_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.prepared_ball_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.prepared_real_ball_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.realized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.realizedSlice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.realized_ball_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.realized_dist_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.realized_injective_on_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassBalls.spatialBall' depends on axioms: [propext, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.grain_mixed_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.pick' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.quotientLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.quotientLabel_on_mixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.quotient_image_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.retained_mixed_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.retained_mixed_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.retained_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientGeometry.retained_vertices_le_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.card_retention_ceil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.chosen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.chosen_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.grain' depends on axioms: [propext, Quot.sound]
+'NativeWeightedGrainQuotientSelection.local_card_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.local_mass_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.mass_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.selected_grain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.selected_grain_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSelection.selected_grain_nonempty' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWeightedGrainQuotientSelection.selected_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSource.quotientCap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSource.quotientCap_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSource.source_quotient_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSource.source_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientSource.threshold_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

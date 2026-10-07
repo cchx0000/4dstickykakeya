@@ -1,0 +1,16 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_incident_rank_selection_readback.lean"]
+SOURCE_SHA256 a3142a148aeafbe2956275b45259cd2c19f067224dda6eb2f396355dc4c50307
+FIFO compiler ticket: 01791189235804752907-d7beb50d383e462da46235cfe7022342.request
+FIFO compiler acquired UTC: 2026-10-05T08:33:55.805746+00:00
+'NativeIncidentRankSelection.pointSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentRankSelection.pointNear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentRankSelection.pointNear_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentRankSelection.point_minimal_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentRankSelection.point_category_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentRankSelection.point_category_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentRankSelection.point_filter_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentRankSelection.card_eq_sum_pointSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentRankSelection.pointwise_retention_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentRankSelection.exists_rank_scale_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

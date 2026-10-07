@@ -1,0 +1,74 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_active_phase_population",
+  "source": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live/Theorems/Thm_StickyKakeya4_native_active_phase_population.lean",
+  "source_sha256": "a8a2de31213b5b6e97e38223084e6d6c94e6fb796b4f8869de1713bbb14c4e69",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean/Theorems/Thm_StickyKakeya4_native_active_phase_population.olean",
+  "names": [
+    "NativeActivePhasePopulation.rowConstant",
+    "NativeActivePhasePopulation.rowConstant_pos",
+    "NativeActivePhasePopulation.retained_incidence_capacity",
+    "NativeActivePhasePopulation.parent_retained_eq",
+    "NativeActivePhasePopulation.parent_incidence_capacity",
+    "NativeActivePhasePopulation.activePhases",
+    "NativeActivePhasePopulation.activePhases_subset",
+    "NativeActivePhasePopulation.active_phase_population"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T15:57:01.850352+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "ab706866979cba81d7292e1e9dee62a06b3c087dcde4b4b13b53d567f4752967",
+  "source_execution_complete_utc": "2026-10-05T15:57:09.144718+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160017276020",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeActivePhasePopulation.rowConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActivePhasePopulation.rowConstant_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActivePhasePopulation.retained_incidence_capacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActivePhasePopulation.parent_retained_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActivePhasePopulation.parent_incidence_capacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActivePhasePopulation.activePhases": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActivePhasePopulation.activePhases_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActivePhasePopulation.active_phase_population": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:00:23.504140+00:00"
+}

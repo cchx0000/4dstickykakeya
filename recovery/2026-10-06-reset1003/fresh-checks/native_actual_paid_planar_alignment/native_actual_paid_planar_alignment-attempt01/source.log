@@ -1,0 +1,276 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/ae5b5ff8753bec7ea5227608fb4506f9741cb7f5b385c38262ef6243dc067cae.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_paid_planar_alignment.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_paid_planar_alignment.lean"]
+SOURCE_SHA256 04424e7a9e3488a87af406c6281eeee794b3e6d23412305629afd320c33e231c
+LOCK_ACQUIRED_UTC 2026-10-06T20:10:16.624475+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_paid_planar_alignment.lean:38:41: error(lean.unknownIdentifier): Unknown identifier `incidences`
+
+Note: It is not possible to treat `incidences` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_paid_planar_alignment.lean:65:38: error(lean.unknownIdentifier): Unknown identifier `fiberCoefficient`
+
+Note: It is not possible to treat `fiberCoefficient` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_paid_planar_alignment.lean:71:61: error(lean.unknownIdentifier): Unknown identifier `phaseDepth`
+
+Note: It is not possible to treat `phaseDepth` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_paid_planar_alignment.lean:92:56: error(lean.unknownIdentifier): Unknown identifier `phaseDepth`
+
+Note: It is not possible to treat `phaseDepth` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_paid_planar_alignment.lean:123:34: error(lean.unknownIdentifier): Unknown identifier `fiberCoefficient`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_paid_planar_alignment.lean:125:13: error(lean.unknownIdentifier): Unknown identifier `xyConstant`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_paid_planar_alignment.lean:100:85: error: unsolved goals
+zeta53 : ℝ
+hzeta53 : 0 < zeta53
+etaThreshold chi : ℝ
+hThreshold : 0 < etaThreshold
+hchi : 0 < chi
+Hplanar :
+  ∀ (eta53 : ℝ),
+    0 < eta53 →
+      eta53 ≤ etaThreshold →
+        ∃ delta0,
+          0 < delta0 ∧
+            ∀ (n d J : ℕ) (D : FiniteScaleSource n) (eta a zeta : ℝ),
+              IsWangZakharovNativeFiniteInput D eta →
+                ∀ (original : Fin n → Finset Index),
+                  (∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i) →
+                    (∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)) →
+                      ∀ (m level u : ℕ),
+                        12 ≤ m →
+                          D.thickness = 2⁻¹ ^ level →
+                            NativeSquaredGrainQueries.phaseDepth m ≤ level →
+                              ∀ (p : Parent) (plane : Index → Submodule ℝ E4) (E Hgraph S T : Finset (Fin n × Index)),
+                                S ⊆ NativeCubicalIncidenceCounts.incidences original →
+                                  (∀ z ∈ S, parentLabel D a (2 ^ m) z.1 = p) →
+                                    ∀ (P : Submodule ℝ E4) (hP : P ≤ heightKernel) (hd : Module.finrank ℝ ↥P = 1)
+                                      (Fraw Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ) (population PL PU : ℝ) (Qref : ℕ)
+                                      (lambda G Cpre threshold : ℝ) (L3 : ℕ)
+                                      (Rel : Fin d → Fin n × Index → Fin n × Index → Prop) (CX : ℝ) (R : ℕ),
+                                      0 < R →
+                                        mu m * ↑R = 2⁻¹ ^ u →
+                                          extremalExponent ≤ 2 →
+                                            HasThirdXYSourceData D zeta a m plane E Hgraph S T P hP ⋯ ⋯ hd Fraw p
+                                                population PL PU Qref lambda G Cpre threshold L3 Rel CX →
+                                              let Sq :=
+                                                NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯
+                                                  ⋯ hd (physicalMesh m (NativeSquaredGrainQueries.phaseDepth m) / 8);
+                                              let F := fixedField D a m 2 plane Sq Fraw;
+                                              let key := fun z =>
+                                                coarseYKey D a m p CanonicalConfiguredE4Bridge.Split.oneTwo P hP hd F
+                                                  Fcfg R z.2;
+                                              have Q3 := NativeSourceSizeBounds.radix (#S) L3;
+                                              have F3 := refinementCost (d + 2) (J + 1) L3;
+                                              have KXY :=
+                                                NativeThirdXYData.xyConstant D.thickness zeta population PL PU lambda
+                                                  (G * Cpre * ↑F3) Qref Q3 J m;
+                                              have KY :=
+                                                quotientConstant 1 2 (1 / (32 * CX)) KXY (3 - extremalExponent);
+                                              (∀ z ∈ T,
+                                                  F (translatedHeight D a m z.2) =
+                                                    Fcfg (translatedHeight D a m z.2 / ↑(8 * R))) →
+                                                (∀ z ∈ T,
+                                                    ∀ w ∈ T,
+                                                      translatedHeight D a m z.2 / ↑(8 * R) =
+                                                          translatedHeight D a m w.2 / ↑(8 * R) →
+                                                        translatedHeight D a m z.2 = translatedHeight D a m w.2) →
+                                                  2⁻¹ ^ u / 512 ≤ delta0 →
+                                                    finalConstant KY (2 - extremalExponent) ≤
+                                                        (2⁻¹ ^ u / 512) ^ (-eta53) →
+                                                      Nonempty
+                                                        ((height : ↥(image Prod.fst ⋯)) →
+                                                          HeightAlignment (image key T) u (⋯ - extremalExponent) zeta53
+                                                            chi ↑height)
+eta53 : ℝ
+he53 : 0 < eta53
+he53Top : eta53 ≤ etaThreshold
+Kcoh Ksupport g : ℕ
+meshConstant row : ℝ
+hC : 0 ≤ meshConstant
+hrow : 0 ≤ row
+deltaPlanar : ℝ
+hDeltaPlanar : 0 < deltaPlanar
+H53 :
+  ∀ (n d J : ℕ) (D : FiniteScaleSource n) (eta a zeta : ℝ),
+    IsWangZakharovNativeFiniteInput D eta →
+      ∀ (original : Fin n → Finset Index),
+        (∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i) →
+          (∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)) →
+            ∀ (m level u : ℕ),
+              12 ≤ m →
+                D.thickness = 2⁻¹ ^ level →
+                  NativeSquaredGrainQueries.phaseDepth m ≤ level →
+                    ∀ (p : Parent) (plane : Index → Submodule ℝ E4) (E Hgraph S T : Finset (Fin n × Index)),
+                      S ⊆ NativeCubicalIncidenceCounts.incidences original →
+                        (∀ z ∈ S, parentLabel D a (2 ^ m) z.1 = p) →
+                          ∀ (P : Submodule ℝ E4) (hP : P ≤ heightKernel) (hd : Module.finrank ℝ ↥P = 1)
+                            (Fraw Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ) (population PL PU : ℝ) (Qref : ℕ)
+                            (lambda G Cpre threshold : ℝ) (L3 : ℕ) (Rel : Fin d → Fin n × Index → Fin n × Index → Prop)
+                            (CX : ℝ) (R : ℕ),
+                            0 < R →
+                              mu m * ↑R = 2⁻¹ ^ u →
+                                extremalExponent ≤ 2 →
+                                  HasThirdXYSourceData D zeta a m plane E Hgraph S T P hP ⋯ ⋯ hd Fraw p population PL PU
+                                      Qref lambda G Cpre threshold L3 Rel CX →
+                                    let Sq :=
+                                      NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+                                        (physicalMesh m (NativeSquaredGrainQueries.phaseDepth m) / 8);
+                                    let F := fixedField D a m 2 plane Sq Fraw;
+                                    let key := fun z =>
+                                      coarseYKey D a m p CanonicalConfiguredE4Bridge.Split.oneTwo P hP hd F Fcfg R z.2;
+                                    have Q3 := NativeSourceSizeBounds.radix (#S) L3;
+                                    have F3 := refinementCost (d + 2) (J + 1) L3;
+                                    have KXY :=
+                                      NativeThirdXYData.xyConstant D.thickness zeta population PL PU lambda
+                                        (G * Cpre * ↑F3) Qref Q3 J m;
+                                    have KY := quotientConstant 1 2 (1 / (32 * CX)) KXY (3 - extremalExponent);
+                                    (∀ z ∈ T,
+                                        F (translatedHeight D a m z.2) = Fcfg (translatedHeight D a m z.2 / ↑(8 * R))) →
+                                      (∀ z ∈ T,
+                                          ∀ w ∈ T,
+                                            translatedHeight D a m z.2 / ↑(8 * R) =
+                                                translatedHeight D a m w.2 / ↑(8 * R) →
+                                              translatedHeight D a m z.2 = translatedHeight D a m w.2) →
+                                        2⁻¹ ^ u / 512 ≤ deltaPlanar →
+                                          finalConstant KY (2 - extremalExponent) ≤ (2⁻¹ ^ u / 512) ^ (-eta53) →
+                                            Nonempty
+                                              ((height : ↥(image Prod.fst (image key T))) →
+                                                HeightAlignment (image key T) u (2 - extremalExponent) zeta53 chi
+                                                  ↑height)
+C : ℝ := fixedFactor Kcoh Ksupport g meshConstant row
+hCpos : 0 < C
+eps0 : ℝ
+heps0 : 0 < eps0
+heps01 : eps0 ≤ 1
+Hpay :
+  ∀ (M r rho Delta deltaY nu paid K s : ℝ),
+    0 ≤ M →
+      0 < r →
+        0 < rho →
+          0 < deltaY →
+            deltaY ≤ Delta →
+              Delta ≤ eps0 →
+                0 ≤ nu →
+                  nu ≤ 1 / 2 →
+                    0 ≤ paid →
+                      0 ≤ K →
+                        s ≤ 2 →
+                          Delta ^ 2 ≤ rho →
+                            rho ^ 2 ≤ 6144 * r →
+                              M ≤ C * r ^ (-nu) →
+                                K ≤ M ^ 2 * rho ^ (-paid) →
+                                  16 * nu + 4 * paid ≤ eta53 / 2 →
+                                    512 ^ s * 169 * (81 * (169 * K) ^ 2 * 12 ^ s) ≤ deltaY ^ (-eta53)
+epsilon eta0 c delta0 : ℝ
+K d J L3 n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+Hbudget : HasBudget epsilon eta0 c g K d J L3 delta0
+he : 0 < epsilon
+h : IsWangZakharovNativeFiniteInput D eta
+hsmall : D.thickness ≤ delta0
+heta : 0 ≤ eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+S : Finset (Fin n × Index)
+hS : S ⊆ sorry
+hSn : S.Nonempty
+F1 F2 G Q1 Q2 m : ℕ
+hF1 : 0 < F1
+hG : 0 < G
+hQ1 : 1 ≤ Q1
+hQ2 : 0 < Q2
+hGF : G ≤ F2
+hm12 : 12 ≤ m
+zeta lambda b tau seed c2 r q : ℝ
+hetaSeed : eta ≤ seed / 8
+htau0 : 0 ≤ tau
+htau : tau ≤ commonBudget eta0 c / 1024
+hseed : seed ≤ tau / 16384
+hzeta : zeta ≤ seed / 256
+hc2 : c2 = commonBudget eta0 c / 4
+H1 : 125 * 175616 * 16384 * ↑F1 * ↑Q1 ^ 2 * D.thickness ^ (-eta) ≤ D.thickness ^ (-(seed / 8))
+H2 : 125 * 175616 * 16384 * ↑F2 * ↑Q2 ^ 2 * D.thickness ^ (-eta) ≤ D.thickness ^ (-c2)
+hr : 0 < r
+hr1 : r ≤ 1
+hrdelta : r ≤ D.thickness ^ cutoff c 1
+hlambda : lambda = r ^ rankLoss eta0 c 1 / (4 * (↑g + 1))
+hb : r ^ ((2 * ↑2 + 1) * rankLoss eta0 c 1) ≤ b
+hq : 0 < q
+hq1 : q ≤ 1
+hgrid : 1 / ↑g < NativeActualMesoscopicRankConfiguration.rankWindow tau / 4
+hqraw : r ^ (2 * c) / (2 * D.thickness ^ (-(1 / ↑g))) ≤ q
+hscale : (64 / ↑(2 ^ m)) ^ 2 ≤ 6144 * r
+Cpre : ℝ
+hCpre : 0 < Cpre
+a : ℝ
+plane : Index → Submodule ℝ E4
+E Hgraph T : Finset (Fin n × Index)
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hdim : Module.finrank ℝ ↥P = 2 - 1
+Fraw : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+p : Parent
+t : ℝ
+Rel3 : Fin d → Fin n × Index → Fin n × Index → Prop
+Hdata :
+  let F3 := refinementCost (d + 2) (J + 1) L3;
+  let Q3 := NativeSourceSizeBounds.radix (#S) L3;
+  let w := min (boundaryWindow tau) (tau / 16 / 1000);
+  let pop := population D.thickness eta lambda b ↑F1 ↑G;
+  let eps := columnEpsilon D.thickness lambda (seed / 8) c2;
+  let CX := Cpre / quotientCost q * sorry;
+  HasThirdXYSourceData D zeta a m plane E Hgraph S T P hP ⋯ ⋯ hdim Fraw p pop
+    (profileLower D.thickness pop eps tau (seed / 8) w) (profileUpper D.thickness eps tau) Q2 (pop / rowConstant)
+    (↑(selectionCost K)) Cpre t L3 Rel3 CX
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+level u R0 : ℕ
+hdy : D.thickness = 2⁻¹ ^ level
+hf : sorry ≤ level
+hp : ∀ z ∈ S, parentLabel D a (2 ^ m) z.1 = p
+hR0 : 0 < R0
+hbaseEq : mu m * ↑R0 = 2⁻¹ ^ u
+hk : extremalExponent ≤ 2
+loss metric epsilonGeom : ℝ
+depths : Fin Kcoh → ℕ
+hLoss : 0 ≤ loss
+hRankLoss : 0 ≤ rankLoss eta0 c 1
+hmetric : 0 ≤ metric
+heGeom : 0 ≤ epsilonGeom
+heGeom4 : epsilonGeom ≤ 1 / 4
+hLip : metric ≤ r ^ (-2 * epsilonGeom)
+hstopLo : 3072 * r ≤ rho m ^ 2
+hHeight : ↑(8 * R0) ≤ 1280 * (rho m / 64) ^ (-2 * epsilonGeom)
+hCost :
+  Cpre =
+    quotientCost q *
+      ↑(newCutCharge Kcoh Ksupport 2 g R0 meshConstant row r loss (rankLoss eta0 c 1) metric extremalExponent fun j =>
+          64 / ↑(2 ^ depths j))
+hSmall : 64 / ↑(2 ^ (u + 12)) ≤ min eps0 deltaPlanar
+hShape : 64 * (64 / ↑(2 ^ (u + 12))) ≤ 2 * max (5 / 4 * rho m ^ (1 - 2 * epsilonGeom)) (rho m)
+hNu : newExponent Kcoh epsilonGeom loss (rankLoss eta0 c 1) ≤ 1 / 2
+hMargin : 16 * newExponent Kcoh epsilonGeom loss (rankLoss eta0 c 1) + 4 * epsilon ≤ eta53 / 2
+Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+Sq : Finset (Fin n × Index) :=
+  NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hdim (physicalMesh m sorry / 8)
+field : ℤ → Matrix (Fin (4 - 2)) (Fin (2 - 1)) ℝ := fixedField D a m 2 plane Sq Fraw
+key : Fin n × Index →
+  ℤ × CanonicalGridRecoding.Grid (CanonicalConfiguredE4Bridge.normalDim CanonicalConfiguredE4Bridge.Split.oneTwo) :=
+  fun z => coarseYKey D a m p CanonicalConfiguredE4Bridge.Split.oneTwo P hP hdim field Fcfg R0 z.2
+hfreeze : ∀ z ∈ T, field (translatedHeight D a m z.2) = Fcfg (translatedHeight D a m z.2 / ↑(8 * R0))
+Hsingle :
+  ∀ z ∈ T,
+    ∀ w ∈ T,
+      translatedHeight D a m z.2 / ↑(8 * R0) = translatedHeight D a m w.2 / ↑(8 * R0) →
+        translatedHeight D a m z.2 = translatedHeight D a m w.2
+hm6 : 6 ≤ m
+F3 : ℕ := refinementCost (d + 2) (J + 1) L3
+Q3 : ℕ := NativeSourceSizeBounds.radix (#S) L3
+w : ℝ := min (boundaryWindow tau) (tau / 16 / 1000)
+pop : ℝ := population D.thickness eta lambda b ↑F1 ↑G
+col : ℝ := columnEpsilon D.thickness lambda (seed / 8) c2
+CX : ℝ := Cpre / quotientCost q * sorry
+⊢ Nonempty
+    ((height : ↥(image Prod.fst (image key T))) →
+      HeightAlignment (image key T) u (2 - extremalExponent) zeta53 chi ↑height)
+LEAN_FINISHED_UTC 2026-10-06T20:11:23.528220+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

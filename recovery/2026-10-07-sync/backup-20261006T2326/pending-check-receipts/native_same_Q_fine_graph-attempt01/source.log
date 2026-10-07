@@ -1,0 +1,30 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/79e484a7665a73f3c83ddf5067c651f4f1951d251ce5ba98f12a8dc289a4c371.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_same_Q_fine_graph.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_fine_graph.lean"]
+SOURCE_SHA256 f47f35d787d1b6afe04f743f8f214d49a680c48073f59bcf187a25ba67533c36
+LOCK_ACQUIRED_UTC 2026-10-06T17:38:21.998710+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_fine_graph.lean:76:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  #({z ∈ ?m.103 | ?m.89 z ∈ ↑?m.91})
+in the target expression
+  #({z ∈ G | f z ∈ Q}) = ∑ q ∈ Q, #({z ∈ G | f z = q})
+
+n : ℕ
+D : FiniteScaleSource n
+eta etaS : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref T : Finset (Fin n × Index)
+a : ℝ
+m b0 b : ℕ
+hb : b ≤ b0
+p : Parent
+hS : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaS
+configured : Index → E4
+Q : Finset Parent
+hT : ∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p
+G : Finset (E4 × OutputIndex h R Eref a m b0 p) := graph h R Eref a m b0 p hS configured T
+f : E4 × OutputIndex h R Eref a m b0 p → Parent := fun z => phase h R Eref a m b0 b p z.2
+⊢ #({z ∈ G | f z ∈ Q}) = ∑ q ∈ Q, #({z ∈ G | f z = q})
+LEAN_FINISHED_UTC 2026-10-06T17:43:10.753380+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

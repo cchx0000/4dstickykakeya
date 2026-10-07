@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_realized_slice_geometry
+
+#print axioms NativeRealizedSliceGeometry.horizontalMesh_le_eighth
+#print axioms NativeRealizedSliceGeometry.floor_center_error
+#print axioms NativeRealizedSliceGeometry.realized_column_error
+#print axioms NativeRealizedSliceGeometry.realized_point_coordinate_bound
+#print axioms NativeRealizedSliceGeometry.realized_slice_geometry
+#print axioms NativeRealizedSliceGeometry.realized_slice_separated

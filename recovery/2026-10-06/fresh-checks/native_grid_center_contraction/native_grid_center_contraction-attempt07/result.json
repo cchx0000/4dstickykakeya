@@ -1,0 +1,33 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_grid_center_contraction",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean",
+  "source_sha256": "5026c02d1881268be6bc202380e8e794a8ab651ea13b6494e689b95e81a66c51",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.olean",
+  "names": [
+    "NativeGridCenterContraction.contracted_grid_AD",
+    "NativeGridCenterContraction.coarsest_grid_AD"
+  ],
+  "started_utc": "2026-10-06T08:44:09.126257+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "1facf4ba0e276c0d282fac5d9b25e9f8ac268c2cfb790ec0949a27636427279f",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeGridCenterContraction.contracted_grid_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGridCenterContraction.coarsest_grid_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T08:48:41.977100+00:00"
+}

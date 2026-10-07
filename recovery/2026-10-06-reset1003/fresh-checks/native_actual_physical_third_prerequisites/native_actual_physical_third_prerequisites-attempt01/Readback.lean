@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_actual_physical_third_prerequisites
+set_option autoImplicit false
+#print axioms NativePreThirdHeightSupport.configured_fine_to_support
+#print axioms NativePreThirdHeightSupport.select_actual_height_support
+#print axioms NativeSourcePhysicalCoherence.HasUpperEngine
+#print axioms NativeSourcePhysicalCoherence.mesh_window
+#print axioms NativeSourcePhysicalCoherence.HasPhysicalCoherenceEngine
+#print axioms NativeSourcePhysicalCoherence.coherence_of_actual_upper
+#print axioms NativePhysicalCoherentThirdJoin.from_actual_source
+#print axioms NativeActualHeightThirdJoin.source_total_charge
+#print axioms NativeActualHeightThirdJoin.attach_rank_two
+#print axioms NativeActualHeightThirdJoin.attach_rank_three

@@ -1,0 +1,126 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_projector_cell_chart",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_projector_cell_chart.lean",
+  "source_sha256": "d972aa48c658d6ff491ee7f447ad7a07955e2bd4692f98a61aedcde8cf976bc9",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_projector_cell_chart.olean",
+  "names": [
+    "NativeProjectorCellChart.basis",
+    "NativeProjectorCellChart.basis_norm",
+    "NativeProjectorCellChart.basis_expansion",
+    "NativeProjectorCellChart.norm_le_coordinate_sum",
+    "NativeProjectorCellChart.entry",
+    "NativeProjectorCellChart.entry_abs_le_one",
+    "NativeProjectorCellChart.chartCount",
+    "NativeProjectorCellChart.cell",
+    "NativeProjectorCellChart.card_cell",
+    "NativeProjectorCellChart.same_cell_entry",
+    "NativeProjectorCellChart.same_cell_column",
+    "NativeProjectorCellChart.same_cell_projection_difference",
+    "NativeProjectorCellChart.same_cell_operator_norm",
+    "NativeProjectorCellChart.same_cell_forward_gap",
+    "NativeProjectorCellChart.same_cell_projection_lift",
+    "NativeProjectorCellChart.select_whole_nodes",
+    "NativeProjectorCellChart.select_whole_nodes_with_lifts"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T15:29:07.027669+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "63b2c74cba4d9422fa8c84e8d9972032918c1a680137893171d8d3b02729987e",
+  "source_execution_complete_utc": "2026-10-05T15:29:16.301895+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T153325354641",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeProjectorCellChart.basis": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.basis_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.basis_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.norm_le_coordinate_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.entry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.entry_abs_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.chartCount": [
+      "propext"
+    ],
+    "NativeProjectorCellChart.cell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.card_cell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.same_cell_entry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.same_cell_column": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.same_cell_projection_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.same_cell_operator_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.same_cell_forward_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.same_cell_projection_lift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.select_whole_nodes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeProjectorCellChart.select_whole_nodes_with_lifts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T15:33:30.557335+00:00"
+}

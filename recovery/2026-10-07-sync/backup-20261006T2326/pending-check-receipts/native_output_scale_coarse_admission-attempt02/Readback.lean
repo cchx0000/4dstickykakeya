@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_output_scale_coarse_admission
+set_option autoImplicit false
+#print axioms NativeOutputScaleCoarseAdmission.exists_same_reference_admission

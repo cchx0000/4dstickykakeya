@@ -1,0 +1,20 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_coarse_scale_interpolation_readback.lean"]
+SOURCE_SHA256 425cde198ca5969e1cd5bb41e338c79ec4ab7552891bcb19cbf62252d07eb580
+FIFO compiler ticket: 01791179490584941645-28a68248abf24e36b78625b9eaf6eea2.request
+FIFO compiler acquired UTC: 2026-10-05T05:53:57.895854+00:00
+'NativeCoarseScaleInterpolation.coarseMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.coarseMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.fineMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.fineMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.coarse_mem_implies_fine_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.floor_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.cellIndex_mem_coarseMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.actualPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.coarse_mesh_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.actual_pair_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.pair_fiber_image_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.point_fiber_image_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.actual_multiplicity_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseScaleInterpolation.full_source_multiplicity_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

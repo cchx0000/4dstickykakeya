@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_trimmed_angular_class_counts
+
+#print axioms NativeTrimmedAngularClassCounts.coarse_fiber_image
+#print axioms NativeTrimmedAngularClassCounts.nested_fiber
+#print axioms NativeTrimmedAngularClassCounts.coarse_weight_sum
+#print axioms NativeTrimmedAngularClassCounts.distinct_class_lower
+#print axioms NativeTrimmedAngularClassCounts.distinct_class_upper

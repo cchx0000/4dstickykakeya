@@ -1,0 +1,21 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/24e0ba1940eb2b044c75b4eacdf7d8020fe479c1b4e106cf70c0fda08e92242c.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_recoded_grid_cost.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_cost.lean"]
+SOURCE_SHA256 25d2631470974bed42759246127c53f0ac7aadd5106096fb288b235a5bd52817
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_cost.lean:55:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  alpha ^ ↑4
+in the target expression
+  alpha ^ (↑l + s) ≤ alpha ^ 4
+
+l : ℕ
+alpha K s : ℝ
+hl : l ≤ 2
+halpha : 1 ≤ alpha
+hs : 0 ≤ s
+hs2 : s ≤ 2
+ha : 0 < alpha
+h13 : 13 ^ l ≤ 169
+h16 : 16 ^ s ≤ 256
+hlr : ↑l ≤ 2
+hh : alpha ^ (↑l + s) ≤ alpha ^ 4
+⊢ alpha ^ (↑l + s) ≤ alpha ^ 4
+
+EXIT_CODE=1

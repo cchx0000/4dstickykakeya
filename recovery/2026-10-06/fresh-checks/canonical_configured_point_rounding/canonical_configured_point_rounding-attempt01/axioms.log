@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/fb6ee437037e9e0fac65bb0f245cec1297cb81be0235d976434505507165a68c.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/canonical_configured_point_rounding-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/canonical_configured_point_rounding-attempt01/Readback.lean"]
+SOURCE_SHA256 6e03fcaab810ec39e6606409beef2e5e0b17c9b5703fd8eed045c51eb0ede10a
+'CanonicalConfiguredPointRounding.grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.graphPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.midpoint_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.center_grid_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.graph_perturbation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.graph_recode_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.coarseX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.configuredNormal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.coarseX_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.configuredNormal_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.fine_graph_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalConfiguredPointRounding.actual_coordinate_errors' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,38 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_window_coefficient_comparison",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_window_coefficient_comparison.lean",
+  "source_sha256": "63544aa4312f1dfd4a69e6d1f9ff961038e2edb373f368b3c802191aa85104cd",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_window_coefficient_comparison.olean",
+  "names": [
+    "NativeWindowCoefficientComparison.geometric_factor_bound",
+    "NativeWindowCoefficientComparison.source_ratio_le"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T20:23:22.006159+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "4b3fd828365e763436ef92ae1ee454dd11858daf0a1a2aeb349ca56abe761496",
+  "source_execution_complete_utc": "2026-10-05T20:23:27.444025+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T202453104102",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeWindowCoefficientComparison.geometric_factor_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWindowCoefficientComparison.source_ratio_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T20:24:58.497962+00:00"
+}

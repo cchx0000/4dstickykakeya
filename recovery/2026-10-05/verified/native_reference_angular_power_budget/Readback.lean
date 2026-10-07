@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_reference_angular_power_budget
+
+#print axioms NativeReferenceAngularPowerBudget.first_cost_angular_factor
+#print axioms NativeReferenceAngularPowerBudget.relative_power_payment
+#print axioms NativeReferenceAngularPowerBudget.independent_exponent_margin
+#print axioms NativeReferenceAngularPowerBudget.coherence_radius_payment
+#print axioms NativeReferenceAngularPowerBudget.coherence_excess_factor

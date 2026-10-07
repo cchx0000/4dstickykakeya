@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_actual_caps
+
+#print axioms NativeTwoMapRetainedSliceActualCaps.dimension_sum
+#print axioms NativeTwoMapRetainedSliceActualCaps.encodedPoint
+#print axioms NativeTwoMapRetainedSliceActualCaps.encodedPoint_height
+#print axioms NativeTwoMapRetainedSliceActualCaps.encodedPoint_coarse
+#print axioms NativeTwoMapRetainedSliceActualCaps.image_composed_encode_card
+#print axioms NativeTwoMapRetainedSliceActualCaps.encoded_capacities

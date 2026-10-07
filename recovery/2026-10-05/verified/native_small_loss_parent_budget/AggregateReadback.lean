@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_small_loss_parent_budget
+
+set_option autoImplicit false
+#print axioms NativeSmallLossParentBudget.absorb_small_loss
+#print axioms NativeSmallLossParentBudget.actual_middle_error_small_loss
+#print axioms NativeSmallLossParentBudget.actual_middle_parent_direction_small_loss
+#print axioms NativeSmallLossParentBudget.actual_test_radius_small_loss
+#print axioms NativeSmallLossParentBudget.coefficient_small_loss
+#print axioms NativeSmallLossParentBudget.exists_uniform_small_loss_cutoff
+#print axioms NativeSmallLossParentBudget.normalized_error_small_loss

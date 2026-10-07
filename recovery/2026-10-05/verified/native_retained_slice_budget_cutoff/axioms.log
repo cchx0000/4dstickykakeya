@@ -1,0 +1,36 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T175702517727", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T175702517727/AggregateReadback.lean"]
+READBACK_SHA256 b9ec9d0b350e70d0f5341ed7f4dd4aa4121c0864a170dfa9c0ce03202331506f
+Dedicated staging slot 3 acquired UTC: 2026-10-05T17:58:54.803060+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8721848 kB
+'NativeNormalizedPopulationAdmissionBudget.exists_original_population_admission_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNormalizedPopulationAdmissionBudget.local_scale_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedPopulationAdmissionBudget.pay_local_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedPopulationAdmissionBudget.populationValue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedPopulationAdmissionBudget.population_from_original_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceXYGridCaps.filtered_image_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridCaps.fine_forward_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridCaps.fine_inverse_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridCaps.forward_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridCaps.inverse_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridCaps.lift_incidence_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLocal.floor_center_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLocal.grid_ball_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLocal.inBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLocal.local_inverse_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetCutoff.exists_extra_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetCutoff.exists_third_budget_cutoffs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetCutoff.extraCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetCutoff.extraCutoff_pays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetCutoff.extraCutoff_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetFinal.actual_retained_constant_le_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRetainedSliceBudgetFinal.exists_initial_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetFinal.source_eta_allowance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceAD.all_radius_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

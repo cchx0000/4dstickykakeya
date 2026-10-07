@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_slab_plane_pullback
+
+#print axioms NativeSlabPlanePullback.nativePlane
+#print axioms NativeSlabPlanePullback.nativeWitness
+#print axioms NativeSlabPlanePullback.nativePlane_finrank
+#print axioms NativeSlabPlanePullback.nativeWitness_coordinates
+#print axioms NativeSlabPlanePullback.frame_graph_error
+#print axioms NativeSlabPlanePullback.nativeWitness_distance
+#print axioms NativeSlabPlanePullback.native_slab_pullback

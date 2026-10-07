@@ -1,0 +1,37 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T123513278205", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T123513278205/AggregateReadback.lean"]
+READBACK_SHA256 9e92d3b662a654ff9bf74ac0a5157845451a5507f820d2d09156a43e19e437d6
+Dedicated staging slot 3 acquired UTC: 2026-10-05T12:40:35.915001+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7907260 kB
+'NativeFullVertexFiberDensity.anchor_mem_short_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullVertexFiberDensity.cap_le_vertex_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullVertexFiberDensity.full_vertex_fiber_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullVertexFiberDensity.full_vertex_fibers_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullVertexFiberDensity.queried_short_closure_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullVertexFiberDensity.short_children_le_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullVertexFiberDensity.short_closure_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullVertexFiberDensity.short_closure_weight_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullVertexFiberDensity.vertex_lift_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.center_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.embedded_vertex_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.mass_le_vertices_mul_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.mass_pointWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.pointWeight' depends on axioms: [propext, Quot.sound]
+'NativeQueriedVertexWeights.queried_vertex_mass_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.reference_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.squared_grain_width' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertexCap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertexCap_le_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertexCap_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertexMultiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertex_lower_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertex_mass_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertex_mass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertex_mass_le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertex_upper_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQueriedVertexWeights.weighted_approximate_predecessor_vertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeQueriedVertexWeights.weighted_predecessor_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

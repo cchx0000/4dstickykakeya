@@ -1,0 +1,23 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-R", "/workspace/scratch/5f2524fd4117/4dstickykakeya", "-o", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/build/lib/lean/Theorems/Thm_StickyKakeya4_canonical_sphere_measure.olean", "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean"]
+SOURCE_SHA256 1dbe6c2dd74c3d2eed860e74a58253e4f2e2de530a3363513b6398ce8cb2d231
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:18:4: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:636:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:957:4: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:965:48: warning: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+
+EXIT_CODE=0

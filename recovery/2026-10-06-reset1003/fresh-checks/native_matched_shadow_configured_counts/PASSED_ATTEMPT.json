@@ -1,0 +1,69 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_matched_shadow_configured_counts",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_counts.lean",
+  "source_sha256": "309d504e6b6710d06945921733aaff863f30a3c08fbc5ddf8d429a130997b1f9",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_counts.olean",
+  "names": [
+    "NativeMatchedShadowConfiguredCounts.separated_ball_card",
+    "NativeMatchedShadowConfiguredCounts.shadowLabel",
+    "NativeMatchedShadowConfiguredCounts.inverse_point_fiber",
+    "NativeMatchedShadowConfiguredCounts.forward_point_fiber",
+    "NativeMatchedShadowConfiguredCounts.pair_fiber_bound",
+    "NativeMatchedShadowConfiguredCounts.inverse_image_bounds",
+    "NativeMatchedShadowConfiguredCounts.image_bounds"
+  ],
+  "started_utc": "2026-10-06T18:22:41.841937+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "6cb7ebab7c3be5349be9a234217f6c994d168c12d8d87251f24e353c747e36b0",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T18:26:49.307730+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1842",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeMatchedShadowConfiguredCounts.separated_ball_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatchedShadowConfiguredCounts.shadowLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatchedShadowConfiguredCounts.inverse_point_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatchedShadowConfiguredCounts.forward_point_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatchedShadowConfiguredCounts.pair_fiber_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatchedShadowConfiguredCounts.inverse_image_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatchedShadowConfiguredCounts.image_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T18:44:51.327370+00:00",
+  "canonical_scope": "new_canonical_module"
+}

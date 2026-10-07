@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_alignment_scale_menu_budget
+import Theorems.Thm_StickyKakeya4_native_graph_height_localization
+set_option autoImplicit false
+#print axioms NativeAlignmentScaleMenuBudget.exists_refined_menu_cutoff
+#print axioms NativeGraphHeightLocalization.cut_vertices
+#print axioms NativeGraphHeightLocalization.exists_height_bin
+#print axioms NativeGraphHeightLocalization.exists_massive_height_bin
+#print axioms NativeGraphHeightLocalization.floor_window_diameter
+#print axioms NativeGraphHeightLocalization.exists_massive_height_window

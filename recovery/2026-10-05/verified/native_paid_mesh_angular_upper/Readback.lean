@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_paid_mesh_angular_upper
+
+#print axioms NativePaidMeshAngularUpper.meshAngularConstant
+#print axioms NativePaidMeshAngularUpper.exists_paid_mesh_angular_ball_upper

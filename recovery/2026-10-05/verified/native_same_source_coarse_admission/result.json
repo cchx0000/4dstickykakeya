@@ -1,0 +1,30 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_same_source_coarse_admission",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_same_source_coarse_admission.lean",
+  "source_sha256": "db6bcd86858eb952d83bc5907179a87040abd14f7ae6554193b943979513190f",
+  "names": [
+    "NativeSameSourceCoarseAdmission.same_source_coarse_admission",
+    "NativeSameSourceCoarseAdmission.same_source_full_coarse_upper"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:34:54.902932+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeSameSourceCoarseAdmission.same_source_coarse_admission": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameSourceCoarseAdmission.same_source_full_coarse_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "40d669c67e1cc158681fa806a04b5d52130d33508a769fd67b9d43362011eb52",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:35:04.685783+00:00"
+}

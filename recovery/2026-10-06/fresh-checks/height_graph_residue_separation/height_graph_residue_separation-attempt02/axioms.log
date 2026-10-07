@@ -1,0 +1,20 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/264539e11f360083a818b35aec460a523869c11cfb2bb964505b8e7a24be5a5b.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/height_graph_residue_separation-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/height_graph_residue_separation-attempt02/Readback.lean"]
+SOURCE_SHA256 c065b6357ad2d7678b6adff68699ba6fe25cad22f492de363fab04a9f1abbea7
+'HeightGraphResidueSeparation.parameterX' depends on axioms: [propext, Quot.sound]
+'HeightGraphResidueSeparation.parameterY' depends on axioms: [propext, Quot.sound]
+'HeightGraphResidueSeparation.graphGrid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.graphGrid_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.graphGrid_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.graphGrid_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.parameter_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.midpoint_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.colored_coordinate_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.graphGrid_residue_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.graphGrid_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.graphGrid_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HeightGraphResidueSeparation.select_original_weighted_points' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'HeightGraphResidueSeparation.select_original_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

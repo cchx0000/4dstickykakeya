@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_post_graph_XY_hook_stage
+
+#print axioms NativePostGraphXYHookStage.XYCleanupData
+#print axioms NativePostGraphXYHookStage.HasXYRetainedHistory
+#print axioms NativePostGraphXYHookStage.HasXYStage
+#print axioms NativePostGraphXYHookStage.stage_with_post_graph_XY

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_effective_output_threshold
+set_option autoImplicit false
+#print axioms NativeEffectiveOutputThreshold.exponent
+#print axioms NativeEffectiveOutputThreshold.power_readback
+#print axioms NativeEffectiveOutputThreshold.fixed_lower_bound
+#print axioms NativeEffectiveOutputThreshold.fixed_upper_bound
+#print axioms NativeEffectiveOutputThreshold.exists_output_cutoff

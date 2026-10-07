@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_transfer
+
+#print axioms NativeTwoMapRetainedSliceTransfer.point_image_retention
+#print axioms NativeTwoMapRetainedSliceTransfer.coarse_image_count_le
+#print axioms NativeTwoMapRetainedSliceTransfer.retained_class_count_cross
+#print axioms NativeTwoMapRetainedSliceTransfer.retained_class_count_lower

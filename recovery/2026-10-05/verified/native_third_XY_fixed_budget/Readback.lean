@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_third_XY_fixed_budget
+
+#print axioms NativeThirdXYFixedBudget.fixedCost
+#print axioms NativeThirdXYFixedBudget.fixedCost_one_le
+#print axioms NativeThirdXYFixedBudget.exists_source_cutoff
+#print axioms NativeThirdXYFixedBudget.sourceCutoff
+#print axioms NativeThirdXYFixedBudget.sourceCutoff_pos
+#print axioms NativeThirdXYFixedBudget.sourceCutoff_pays
+#print axioms NativeThirdXYFixedBudget.sourceCutoff_le_one
+#print axioms NativeThirdXYFixedBudget.pay_XY_and_quotient_constants

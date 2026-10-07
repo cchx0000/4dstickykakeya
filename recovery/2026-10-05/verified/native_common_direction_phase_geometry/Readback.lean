@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_common_direction_phase_geometry
+
+#print axioms NativeCommonDirectionPhaseGeometry.physical_cell_gap
+#print axioms NativeCommonDirectionPhaseGeometry.physical_height_bound
+#print axioms NativeCommonDirectionPhaseGeometry.front_equation
+#print axioms NativeCommonDirectionPhaseGeometry.source_front_error
+#print axioms NativeCommonDirectionPhaseGeometry.scalar_intercept_spread
+#print axioms NativeCommonDirectionPhaseGeometry.physical_intercept_spread
+#print axioms NativeCommonDirectionPhaseGeometry.original_intercept_difference

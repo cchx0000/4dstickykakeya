@@ -1,0 +1,49 @@
+{
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_whole_Y_total.lean",
+  "source_sha256": "c287cb51d37d1d13d5f610481cd4a0adbb25d04d6898a6f1bd0c51bcd1464aff",
+  "declaration_count": 5,
+  "namespaces": [
+    "NativeRawWholeYRetention",
+    "NativeActualRawYTotalMass",
+    "NativeActualRawThirdTotalMass"
+  ],
+  "units": [
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_whole_Y_retention.lean",
+      "origin_sha256": "060f0d402d1c1f9e640ef984956638a4ae2a265ec0189dda6b9a40aca260c09c",
+      "namespace": "NativeRawWholeYRetention",
+      "declarations": [
+        "NativeRawWholeYRetention.select_actual_common_edges",
+        "NativeRawWholeYRetention.normalized_mass_transfer",
+        "NativeRawWholeYRetention.pay_raw_mass_at_epsilon"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_Y_total_mass.lean",
+      "origin_sha256": "e6a3656a9c53278c9448b417e67fcf8f23303a42790fed8bb74c5b6835b02eab",
+      "namespace": "NativeActualRawYTotalMass",
+      "declarations": [
+        "NativeActualRawYTotalMass.exists_actual_raw_total"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_third_total_mass.lean",
+      "origin_sha256": "5efc5b63cef79b57e64d2658c345da489589ac9337d9aa8c34b9629ee78413f5",
+      "namespace": "NativeActualRawThirdTotalMass",
+      "declarations": [
+        "NativeActualRawThirdTotalMass.exists_raw_total_supplier"
+      ]
+    }
+  ],
+  "scope": "UNVERIFIED combined draft; source originals preserved; only chain-internal imports removed and anonymous sections closed.",
+  "adaptations": [
+    {
+      "attempt": 2,
+      "change": "Proof-only fixes after terminal attempt01: type the divided cardinality, remove redundant simp argument, separate the polynomial side of normalization, open actual scale namespace, and underscore unused names in universally quantified returned interface. All assumptions and declaration statements preserved."
+    },
+    {
+      "attempt": 3,
+      "change": "Replace convert on the raw normalization inequality by two explicit ring identities and N/N cancellation; underscore one unused returned-interface binder name. Same assumptions/conclusions."
+    }
+  ]
+}

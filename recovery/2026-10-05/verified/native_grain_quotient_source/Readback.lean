@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_grain_quotient_source
+
+#print axioms NativeGrainQuotientSource.node_system_full_image_lower
+#print axioms NativeGrainQuotientSource.node_system_exists_dense_X
+#print axioms NativeGrainQuotientSource.node_system_source_density

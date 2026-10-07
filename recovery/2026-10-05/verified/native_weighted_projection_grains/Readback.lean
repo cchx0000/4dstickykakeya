@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_weighted_projection_grains
+
+#print axioms NativeWeightedProjectionGrains.dense_projection_grains
+#print axioms NativeWeightedProjectionGrains.normalization_of_nonempty

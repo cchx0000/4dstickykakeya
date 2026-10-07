@@ -1,0 +1,61 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2c3e3a85e913422c9b5a2d77dfd086aca17b4c7332d77dc8e1d91174e2c0f5ab.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean"]
+SOURCE_SHA256 f94e8c69fb0b5cdd7650873d17d0a92bf82bcdc967e8eeeb6fa40ac73a1cde10
+LOCK_ACQUIRED_UTC 2026-10-06T20:58:41.367560+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:110:4: error: Type mismatch: After simplification, term
+  hMass
+ has type
+  radius (rankWindow tau) ⋯ g ref.level j ^ ((2 * 2 + 1) * rankLoss eta0 c 1) * ↑(#E2) ≤
+    ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2))
+but is expected to have type
+  radius (rankWindow tau) ⋯ g ref.level j ^ (5 * rankLoss eta0 c 1) * ↑(#E2) ≤
+    ↑(WeightedRichDirectionalLayers.mass points (pointWeight E2))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:313:28: error(lean.unknownIdentifier): Unknown identifier `fineNode`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:383:58: error: not a positivity goal
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:408:50: error: mod_cast has type
+  #Spre ≤
+    8 * R0 * 53 ^ (4 * Ksupport) * 8 ^ 4 *
+      #(NativeMatrixHeightWholePoint.edgeLift
+          (NativeMatrixHeightWholePoint.edgeLift (NativeMatrixHeightWholePoint.edgeLift Spre Prod.snd Bh) Prod.snd B0)
+          Prod.snd BhFinal)
+but is expected to have type
+  ↑(#Spre) ≤ Cextra * ↑(#U)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:409:28: error: Type mismatch: After simplification, term
+  mul_le_mul_of_nonneg_left hh (LT.lt.le hCpre)
+ has type
+  quotientCost q *
+      (↑(NativeMatrixHeightWholePoint.modulus (2 * r ^ (-2 * epsilonGraph)) ^ (2 * Kcoh) *
+            ∏ x,
+              ⌈4 ^ (4 - (↑1 + 1)) *
+                    (meshAngularConstant * (r ^ (-loss) * (64 / ↑(2 ^ depths x)) ^ (-extremalExponent))) /
+                  ((64 / ↑(2 ^ depths x)) ^ (-extremalExponent) /
+                    (2744 * (rowConstant * ((↑g + 1) * r ^ (-(9 * rankLoss eta0 c 1))))))⌉₊) *
+        ↑(#Spre)) ≤
+    quotientCost q *
+      (↑(NativeMatrixHeightWholePoint.modulus (2 * r ^ (-2 * epsilonGraph)) ^ (2 * Kcoh) *
+            ∏ x,
+              ⌈4 ^ (4 - (↑1 + 1)) *
+                    (meshAngularConstant * (r ^ (-loss) * (64 / ↑(2 ^ depths x)) ^ (-extremalExponent))) /
+                  ((64 / ↑(2 ^ depths x)) ^ (-extremalExponent) /
+                    (2744 * (rowConstant * ((↑g + 1) * r ^ (-(9 * rankLoss eta0 c 1))))))⌉₊) *
+        (Cextra * ↑(#U)))
+but is expected to have type
+  quotientCost q *
+      (↑(NativeMatrixHeightWholePoint.modulus (2 * r ^ (-2 * epsilonGraph)) ^ (2 * Kcoh) *
+            ∏ x,
+              ⌈4 ^ (4 - (↑1 + 1)) *
+                    (meshAngularConstant * (r ^ (-loss) * (64 / ↑(2 ^ depths x)) ^ (-extremalExponent))) /
+                  ((64 / ↑(2 ^ depths x)) ^ (-extremalExponent) /
+                    (2744 * (rowConstant * ((↑g + 1) * r ^ (-(9 * rankLoss eta0 c 1))))))⌉₊) *
+        ↑(#(NativeFinitePointCoherence.lift
+              (second D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1) (nodePlane D tuple)
+                (NativeWeightedGrainQuotientGeometry.retained D ref.a (middleDepth ↑(ref.schedule j)) (↑1 + 1)
+                  (nodePlane D tuple) Hgraph P0 hP0 ⋯ ⋯ hd
+                  (physicalMesh (middleDepth ↑(ref.schedule j)) (phaseDepth (middleDepth ↑(ref.schedule j))) / 8)))
+              Prod.snd Pcoh))) ≤
+    Cpre * (Cextra * ↑(#U))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:417:17: error(lean.unknownIdentifier): Unknown identifier `incidences`
+LEAN_FINISHED_UTC 2026-10-06T20:59:34.087937+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

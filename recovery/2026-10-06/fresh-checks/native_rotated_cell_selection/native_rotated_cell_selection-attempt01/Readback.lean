@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_rotated_cell_selection
+set_option autoImplicit false
+#print axioms NativeRotatedCellSelection.rotatedCell
+#print axioms NativeRotatedCellSelection.cellColor
+#print axioms NativeRotatedCellSelection.same_grid_coordinate_close
+#print axioms NativeRotatedCellSelection.same_grid_dist_le
+#print axioms NativeRotatedCellSelection.same_rotated_cell_dist_le
+#print axioms NativeRotatedCellSelection.floor_difference_le_two
+#print axioms NativeRotatedCellSelection.same_color_same_original_cell
+#print axioms NativeRotatedCellSelection.select_one_rotated_grid

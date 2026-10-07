@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_actual_reference_W_physical
+
+#print axioms NativeActualReferenceWPhysical.position
+#print axioms NativeActualReferenceWPhysical.position_coordinate_error
+#print axioms NativeActualReferenceWPhysical.local_front_phase_error
+#print axioms NativeActualReferenceWPhysical.local_front_graph
+#print axioms NativeActualReferenceWPhysical.original_column_residual
+#print axioms NativeActualReferenceWPhysical.geometric_incidence_residual

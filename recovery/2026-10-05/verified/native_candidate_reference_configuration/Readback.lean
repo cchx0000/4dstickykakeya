@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_candidate_reference_configuration
+
+#print axioms NativeCandidateReferenceConfiguration.HasCandidateReferenceUpper
+#print axioms NativeCandidateReferenceConfiguration.exists_candidate_reference_configuration

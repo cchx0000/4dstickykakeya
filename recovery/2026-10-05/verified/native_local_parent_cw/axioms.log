@@ -1,0 +1,13 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_local_parent_cw_readback.lean"]
+SOURCE_SHA256 3640051060f7c56cfdaba8d80256dd3dc7291b002483fce722b680ad070c25c6
+FIFO compiler ticket: 01791176314744696384-59955b2da2134736aa2227ba870e106a.request
+FIFO compiler acquired UTC: 2026-10-05T04:58:34.746259+00:00
+'NativeLocalParentCW.containedLabels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentCW.original_card_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentCW.contained_card_le_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentCW.parent_count_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentCW.original_local_CW' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentCW.compact_original_local_parent_CW' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentCW.compact_original_local_parent_AD_CW' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

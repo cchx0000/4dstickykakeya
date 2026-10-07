@@ -1,0 +1,113 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/8b0ddc1489f6ffb505ed50fdb2aea4e56e483bedf104f06b4abce438ee210ddf.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_joint_local_xy_geometry.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_joint_local_xy_geometry.lean"]
+SOURCE_SHA256 1ad892612d91eeecf83c2b902ccec9d86d2fff462126f6590b4b59ea4d2b0f92
+LOCK_ACQUIRED_UTC 2026-10-06T19:46:03.302665+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_joint_local_xy_geometry.lean:70:4: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+m ell : ℕ
+hm : 6 ≤ m
+p : Parent
+i : Fin n
+hi : parentLabel D a (2 ^ m) i = p
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hell : 1 ≤ ell
+hell4 : ell ≤ 4
+hd : Module.finrank ℝ ↥P = ell - 1
+F : ℤ → Matrix (Fin (4 - ell)) (Fin (ell - 1)) ℝ
+hF : ∀ (t : ℤ), ‖F t‖ ≤ 1 / 4
+R0 depth : ℕ
+hR0 : 0 < R0
+hsmall : 512 * mu m ≤ 64 / ↑(2 ^ depth)
+hbase : ↑R0 * mu m ≤ 64 / ↑(2 ^ depth)
+k l : Index
+ht : translatedHeight D a m k = translatedHeight D a m l
+hcell : physicalCell D a (2 ^ m) (2 ^ depth) p k = physicalCell D a (2 ^ m) (2 ^ depth) p l
+Delta : ℝ := 64 / ↑(2 ^ depth)
+base : ℝ := ↑R0 * mu m
+hDelta : 0 < Delta
+hbasep : 0 < base
+hmu : 0 < mu m
+hold : dist (oldPoint D a m p k) (oldPoint D a m p l) ≤ 2 * Delta
+hraw0 : dist (rawPoint D a m p k) (rawPoint D a m p l) ≤ dist (oldPoint D a m p k) (oldPoint D a m p l) + 256 * mu m
+hraw : ‖rawPoint D a m p k - rawPoint D a m p l‖ ≤ 2 * Delta + 256 * mu m
+j : Fin (ell - 1)
+hn :
+  ‖(tangentCoordinates P ell hd) (rawPoint D a m p k - rawPoint D a m p l)‖ ≤ ‖rawPoint D a m p k - rawPoint D a m p l‖
+hc :
+  |((tangentCoordinates P ell hd) (rawPoint D a m p k)).ofLp j -
+        ((tangentCoordinates P ell hd) (rawPoint D a m p l)).ofLp j| ≤
+    ‖(tangentCoordinates P ell hd) (rawPoint D a m p k) - (tangentCoordinates P ell hd) (rawPoint D a m p l)‖
+a✝ :
+  4 * Delta + 512 * mu m <
+    |((tangentCoordinates P ell hd) (rawPoint D a m p k)).ofLp j -
+        ((tangentCoordinates P ell hd) (rawPoint D a m p l)).ofLp j|
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_joint_local_xy_geometry.lean:81:4: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+m ell : ℕ
+hm : 6 ≤ m
+p : Parent
+i : Fin n
+hi : parentLabel D a (2 ^ m) i = p
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hell : 1 ≤ ell
+hell4 : ell ≤ 4
+hd : Module.finrank ℝ ↥P = ell - 1
+F : ℤ → Matrix (Fin (4 - ell)) (Fin (ell - 1)) ℝ
+hF : ∀ (t : ℤ), ‖F t‖ ≤ 1 / 4
+R0 depth : ℕ
+hR0 : 0 < R0
+hsmall : 512 * mu m ≤ 64 / ↑(2 ^ depth)
+hbase : ↑R0 * mu m ≤ 64 / ↑(2 ^ depth)
+k l : Index
+ht : translatedHeight D a m k = translatedHeight D a m l
+hcell : physicalCell D a (2 ^ m) (2 ^ depth) p k = physicalCell D a (2 ^ m) (2 ^ depth) p l
+Delta : ℝ := 64 / ↑(2 ^ depth)
+base : ℝ := ↑R0 * mu m
+hDelta : 0 < Delta
+hbasep : 0 < base
+hmu : 0 < mu m
+hold : dist (oldPoint D a m p k) (oldPoint D a m p l) ≤ 2 * Delta
+hraw0 : dist (rawPoint D a m p k) (rawPoint D a m p l) ≤ dist (oldPoint D a m p k) (oldPoint D a m p l) + 256 * mu m
+hraw : ‖rawPoint D a m p k - rawPoint D a m p l‖ ≤ 2 * Delta + 256 * mu m
+hX :
+  ∀ (j : Fin (ell - 1)),
+    |((tangentCoordinates P ell hd) (rawPoint D a m p k)).ofLp j -
+          ((tangentCoordinates P ell hd) (rawPoint D a m p l)).ofLp j| ≤
+      4 * Delta + 512 * mu m
+j : Fin (4 - ell)
+hn :
+  ‖(quotientMap P hP ell hell hell4 hd (F (translatedHeight D a m k))) (rawPoint D a m p k - rawPoint D a m p l)‖ ≤
+    2 * ‖rawPoint D a m p k - rawPoint D a m p l‖
+hc :
+  |((quotientMap P hP ell hell hell4 hd (F (translatedHeight D a m k))) (rawPoint D a m p k)).ofLp j -
+        ((quotientMap P hP ell hell hell4 hd (F (translatedHeight D a m k))) (rawPoint D a m p l)).ofLp j| ≤
+    ‖(quotientMap P hP ell hell hell4 hd (F (translatedHeight D a m k))) (rawPoint D a m p k) -
+        (quotientMap P hP ell hell hell4 hd (F (translatedHeight D a m k))) (rawPoint D a m p l)‖
+a✝ :
+  4 * Delta + 512 * mu m <
+    |((quotientMap P hP ell hell hell4 hd (F (translatedHeight D a m k))) (rawPoint D a m p k)).ofLp j -
+        ((quotientMap P hP ell hell hell4 hd (F (translatedHeight D a m k))) (rawPoint D a m p l)).ofLp j|
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_joint_local_xy_geometry.lean:86:32: error: Application type mismatch: The argument
+  y.2.2
+has type
+  Fin (4 - ell) → ℤ
+but is expected to have type
+  Fin (4 - ell) → ℝ
+in the application
+  Fin.append ?m.483 y.2.2
+LEAN_FINISHED_UTC 2026-10-06T19:48:46.077673+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

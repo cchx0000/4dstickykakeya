@@ -1,0 +1,97 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_selection",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_weighted_grain_quotient_selection.lean",
+  "source_sha256": "0c076568ceea18197c20730d25f284fb68b4f0d84871d06a5d5bb999ef88258d",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_weighted_grain_quotient_selection.olean",
+  "names": [
+    "NativeWeightedGrainQuotientSelection.grain",
+    "NativeWeightedGrainQuotientSelection.chosen",
+    "NativeWeightedGrainQuotientSelection.selected",
+    "NativeWeightedGrainQuotientSelection.chosen_spec",
+    "NativeWeightedGrainQuotientSelection.selected_subset",
+    "NativeWeightedGrainQuotientSelection.selected_grain",
+    "NativeWeightedGrainQuotientSelection.selected_grain_nonempty",
+    "NativeWeightedGrainQuotientSelection.selected_grain_image",
+    "NativeWeightedGrainQuotientSelection.local_mass_retention",
+    "NativeWeightedGrainQuotientSelection.mass_retention",
+    "NativeWeightedGrainQuotientSelection.card_retention_ceil",
+    "NativeWeightedGrainQuotientSelection.local_card_retention"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:29:00.426286+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "759d63195ddc21f362ba12e8b8a1813222ba31b94b3c5792a926de65c59e34a5",
+  "source_execution_complete_utc": "2026-10-05T16:29:05.394650+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164047926585",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeWeightedGrainQuotientSelection.grain": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.chosen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.selected": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.chosen_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.selected_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.selected_grain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.selected_grain_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.selected_grain_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.local_mass_retention": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.mass_retention": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.card_retention_ceil": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWeightedGrainQuotientSelection.local_card_retention": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:40:57.149021+00:00"
+}

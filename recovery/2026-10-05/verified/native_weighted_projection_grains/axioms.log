@@ -1,0 +1,67 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T120459552376", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T120459552376/AggregateReadback.lean"]
+READBACK_SHA256 22fbc3b809354fcdc9ade25936efe6758a490d2f3f2c26d67add7bcab81d1d75
+Dedicated staging slot 3 acquired UTC: 2026-10-05T12:08:50.626804+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7918796 kB
+'NativeActualSquaredGrainSelection.grain_scale_pos_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualSquaredGrainSelection.select_squared_grain_second_stage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualSquaredGrainSelection.thickness_le_squared_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompatibleAngularCandidates.HasCompatibleCandidates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.LocalWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.actual_node_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.allWords' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.allWords_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.ancestorNode' depends on axioms: [propext]
+'NativeCompatibleAngularCandidates.angularAncestor' depends on axioms: [propext]
+'NativeCompatibleAngularCandidates.angularAncestor_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.angularLabel_mem_root_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.angularTuple_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.angularTuple_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.angularTuple_mem_allWords' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.angularTuple_mem_successors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompatibleAngularCandidates.candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.depth' depends on axioms: [propext]
+'NativeCompatibleAngularCandidates.depth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.depth_last' depends on axioms: [propext, Quot.sound]
+'NativeCompatibleAngularCandidates.depth_mono' depends on axioms: [propext]
+'NativeCompatibleAngularCandidates.depth_zero' depends on axioms: [propext]
+'NativeCompatibleAngularCandidates.from_master_reference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.node' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.projectWord' depends on axioms: [propext]
+'NativeCompatibleAngularCandidates.projectWord_angularTuple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.projectWord_self' depends on axioms: [propext, Quot.sound]
+'NativeCompatibleAngularCandidates.projected_root_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.projected_successor_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.select_actual_candidates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.selected_child_parent_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompatibleAngularCandidates.selectionBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.singleCapacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.spatialAncestor' depends on axioms: [propext]
+'NativeCompatibleAngularCandidates.spatialAncestor_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.spatialLabel_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.terminalFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.terminal_local_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.terminal_member' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.wordSuccessors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleAngularCandidates.wordSuccessors_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.occurrence_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.occurrences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.packetLabel_mem_neighbors_of_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.packet_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.packet_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.rounded_occurrence_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.rounded_packet_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.rounded_row_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaledLinePackets.row_subset_occurrences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedProjectionGrains.dense_projection_grains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedProjectionGrains.normalization_of_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

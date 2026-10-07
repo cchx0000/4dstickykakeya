@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_grain_quotient_image
+
+#print axioms NativeGrainQuotientImage.rawTangent
+#print axioms NativeGrainQuotientImage.tangent_label_injOn
+#print axioms NativeGrainQuotientImage.X
+#print axioms NativeGrainQuotientImage.X_card
+#print axioms NativeGrainQuotientImage.exists_dense_X
+#print axioms NativeGrainQuotientImage.full_tangent_image_lower
+#print axioms NativeGrainQuotientImage.phase_quotient_loss

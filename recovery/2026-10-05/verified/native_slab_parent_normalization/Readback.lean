@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_slab_parent_normalization
+
+#print axioms NativeSlabParentNormalization.unparentDirection
+#print axioms NativeSlabParentNormalization.unparentDirection_last
+#print axioms NativeSlabParentNormalization.unparent_parent
+#print axioms NativeSlabParentNormalization.parent_unparent
+#print axioms NativeSlabParentNormalization.parentEquiv
+#print axioms NativeSlabParentNormalization.parentEquiv_apply
+#print axioms NativeSlabParentNormalization.parentEquiv_symm_apply
+#print axioms NativeSlabParentNormalization.unparentDirection_sub
+#print axioms NativeSlabParentNormalization.unparent_distance
+#print axioms NativeSlabParentNormalization.parentDirection_lift
+#print axioms NativeSlabParentNormalization.parent_coordinates

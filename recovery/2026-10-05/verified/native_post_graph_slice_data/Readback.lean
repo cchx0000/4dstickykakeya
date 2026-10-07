@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_post_graph_slice_data
+
+#print axioms NativePostGraphSliceData.HasTranslatedSliceData
+#print axioms NativePostGraphSliceData.HasHeightCoreWith
+#print axioms NativePostGraphSliceData.HasPostGraphParentProfiles

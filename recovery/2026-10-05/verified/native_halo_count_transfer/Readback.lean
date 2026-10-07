@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_halo_count_transfer
+
+#print axioms NativeHaloCountTransfer.relation_card_mul_le
+#print axioms NativeHaloCountTransfer.rows_card_mul_le_of_menu
+#print axioms NativeHaloCountTransfer.multiplicity_transfer

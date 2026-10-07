@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_local_parent_source_counts
+set_option autoImplicit false
+#print axioms NativeLocalParentSourceCounts.card_filter_originalLabel
+#print axioms NativeLocalParentSourceCounts.source_carrierBallCount
+#print axioms NativeLocalParentSourceCounts.source_containedTubeCount

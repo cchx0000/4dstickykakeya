@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_window_source_counts
+
+#print axioms NativeWindowSourceCounts.queried_window_point_power_bounds
+#print axioms NativeWindowSourceCounts.prepared_window_geometry

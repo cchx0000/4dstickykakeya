@@ -1,0 +1,23 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_endpoint_parent_bounds_readback.lean"]
+SOURCE_SHA256 ebc04d94383bbec0b5c19346afddf1377bb4e057a6b4f324f923ed302cc3cef2
+FIFO compiler ticket: 01791185043428326331-a2246abc2d5143a189533b3368b0a8b6.request
+FIFO compiler acquired UTC: 2026-10-05T07:24:03.429457+00:00
+'NativeEndpointParentBounds.one_le_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.multiplicity_le_tube_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.active_descendants_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.old_parent_upper_from_children' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.localScale_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.old_parent_power_upper_from_children' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeEndpointParentBounds.old_parent_geometric_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.inverse_relative_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.localScale_inverse_remaining' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.localScale_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.local_negative_power_le_remaining' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeEndpointParentBounds.old_parent_dyadic_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEndpointParentBounds.one_le_full_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

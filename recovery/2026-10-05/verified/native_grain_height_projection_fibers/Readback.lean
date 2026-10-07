@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_grain_height_projection_fibers
+
+#print axioms NativeGrainHeightProjectionFibers.wholeFiber
+#print axioms NativeGrainHeightProjectionFibers.wholeX
+#print axioms NativeGrainHeightProjectionFibers.wholeFiber_card_le_X
+#print axioms NativeGrainHeightProjectionFibers.exists_dense_wholeX

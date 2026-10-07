@@ -1,0 +1,70 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4c86333e2497701fbe88ab6c63889e05bd6194930e2e83aa4c2498a86eaee218.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean"]
+SOURCE_SHA256 44b4846c483623fc62c9b2e7ad9d32511ff443760e6504b0b73443b913d88f21
+LOCK_ACQUIRED_UTC 2026-10-06T22:59:37.627622+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:32:45: error: Type mismatch
+  add_le_add_left (abs_add_le ?m.164 ?m.165) ?m.166
+has type
+  |?m.164 + ?m.165| + ?m.166 ≤ |?m.164| + |?m.165| + ?m.166
+but is expected to have type
+  ‖offset line‖ + |mark line + t| ≤ ‖offset line‖ + (|mark line| + |t|)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:43:75: error(lean.unknownIdentifier): Unknown identifier `mesh`
+
+Note: It is not possible to treat `mesh` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:45:57: error(lean.unknownIdentifier): Unknown identifier `mesh`
+
+Note: It is not possible to treat `mesh` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:48:28: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:60:75: error(lean.unknownIdentifier): Unknown identifier `mesh`
+
+Note: It is not possible to treat `mesh` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:65:12: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Matroid ?m.56) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Matroid ?m.56
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:65:15: error(lean.unknownIdentifier): Unknown identifier `esh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:62:73: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+hK : ∀ (i : Fin n), D.line i ∈ fixedCompactClass
+cells : Fin n → Finset Index
+hCells : ∀ (i : Fin n), D.shading i = wzCellShading sorry cells i
+E : Finset (Fin n × Index)
+hE : E ⊆ incidences cells
+P : Finset Index := image Prod.snd E
+hd : 0 < D.thickness
+⊢ ↑(#(image (fun k => k 3) (image Prod.snd E))) ≤ 32 / D.thickness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:96:75: error(lean.unknownIdentifier): Unknown identifier `mesh`
+
+Note: It is not possible to treat `mesh` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:100:22: error(lean.unknownIdentifier): Unknown identifier `mesh`
+
+Note: It is not possible to treat `mesh` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:102:44: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:102:72: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:103:67: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:104:50: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:106:32: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:106:59: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:115:65: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:135:75: error(lean.unknownIdentifier): Unknown identifier `mesh`
+
+Note: It is not possible to treat `mesh` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:137:44: error(lean.unknownIdentifier): Unknown identifier `mesh`
+
+Note: It is not possible to treat `mesh` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:139:68: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:140:49: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:140:73: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:141:18: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:142:16: error(lean.unknownIdentifier): Unknown identifier `mesh`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_compact_source_coordinate_caps_draft_2218.lean:147:43: error: failed to prove positivity/nonnegativity/nonzeroness
+LEAN_FINISHED_UTC 2026-10-06T23:00:34.255758+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

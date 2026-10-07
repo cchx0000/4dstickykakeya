@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_paid_parent_multiplicity_lower
+
+#print axioms NativePaidParentMultiplicityLower.parent_full_source_retained_lower
+#print axioms NativePaidParentMultiplicityLower.parent_conditional_power_lower

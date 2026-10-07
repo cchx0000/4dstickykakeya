@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_finite_point_coherence
+set_option autoImplicit false
+#print axioms NativeFinitePointCoherence.weighted_finite_selection
+#print axioms NativeFinitePointCoherence.pointWeight
+#print axioms NativeFinitePointCoherence.lift
+#print axioms NativeFinitePointCoherence.lift_fiber
+#print axioms NativeFinitePointCoherence.lift_card
+#print axioms NativeFinitePointCoherence.support_mass
+#print axioms NativeFinitePointCoherence.cell_offset_image
+#print axioms NativeFinitePointCoherence.select_original_point_fibers

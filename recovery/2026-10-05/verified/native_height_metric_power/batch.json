@@ -1,0 +1,54 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:19:44.552183+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161943770726",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161943770726/AggregateReadback.lean"
+  ],
+  "readback_sha256": "ce55fafa510699861942f2c42fd0dd61f7cdaa128db240928c26e5de27516153",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_height_metric_power",
+      "source_sha256": "0e48054392a678cf5c99d13797c31cb556ae75cbbb63396418225d07d9ed9fbb",
+      "olean_sha256": "a5ef3048b5937445d2bfb089e9ec3ebd6175009fde0777eda556b31361e231ba",
+      "names": [
+        "NativeHeightMetricPower.exists_grain_count",
+        "NativeHeightMetricPower.menu_gap_power",
+        "NativeHeightMetricPower.metricConstant_small_loss",
+        "NativeHeightMetricPower.metricConstant_small_loss_of_grain_count",
+        "NativeHeightMetricPower.normalizationConstant",
+        "NativeHeightMetricPower.absorb_normalized_metric",
+        "NativeHeightMetricPower.exists_uniform_metric_cutoff",
+        "NativeHeightMetricPower.actual_metric_constant_paid"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_grain_height_projection_direct",
+      "source_sha256": "0064e59f036027b17a9d4b508a057c99aa5eb62cb12864b08070491dcab052ef",
+      "olean_sha256": "0a7e4d349d63e4ac2586e30f363ea1e4ee735df5b5887dfa877a071c7d2c153b",
+      "names": [
+        "NativeGrainHeightProjectionDirect.coordinates_norm",
+        "NativeGrainHeightProjectionDirect.infDist_sub_smul_le",
+        "NativeGrainHeightProjectionDirect.physical_difference_decomposition",
+        "NativeGrainHeightProjectionDirect.unchanged_quotient_difference",
+        "NativeGrainHeightProjectionDirect.raw_mesh_times_ancestor",
+        "NativeGrainHeightProjectionDirect.ancestor_height_gap",
+        "NativeGrainHeightProjectionDirect.mixed_vertex_ancestor"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:19:49.108237+00:00",
+  "exit_code": 0
+}

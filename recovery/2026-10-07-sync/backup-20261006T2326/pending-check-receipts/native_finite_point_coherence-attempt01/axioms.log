@@ -1,0 +1,16 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/691115dbdf1370d6ed972b4d7019e80a3037411327d7597760805076fb34e127.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_finite_point_coherence-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_finite_point_coherence-attempt01/Readback.lean"]
+SOURCE_SHA256 8b0b229cd39e81768713554774e80b41ce9ce715b53847e9c925a6c592d62461
+LOCK_ACQUIRED_UTC 2026-10-06T11:45:36.480198+00:00
+SHARED_SLOT 2
+LEAN_PID 64
+'NativeFinitePointCoherence.weighted_finite_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.pointWeight' depends on axioms: [propext, Quot.sound]
+'NativeFinitePointCoherence.lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.lift_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.lift_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.support_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.cell_offset_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.select_original_point_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T11:49:26.423576+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

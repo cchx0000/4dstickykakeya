@@ -1,0 +1,48 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_endpoint_power_budgets",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_endpoint_power_budgets.lean",
+  "source_sha256": "26f2ad23902c1a4376afeea295d7ec34ff20d28ac9d90271992f3d1fd74eb3d8",
+  "names": [
+    "NativeEndpointPowerBudgets.cube_cost",
+    "NativeEndpointPowerBudgets.lower_le_one_of_cost",
+    "NativeEndpointPowerBudgets.coarse_negative_power_le_depth",
+    "NativeEndpointPowerBudgets.initial_coarse_lower",
+    "NativeEndpointPowerBudgets.terminal_old_parent_bounds"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T07:28:59.060452+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeEndpointPowerBudgets.cube_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeEndpointPowerBudgets.lower_le_one_of_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeEndpointPowerBudgets.coarse_negative_power_le_depth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeEndpointPowerBudgets.initial_coarse_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeEndpointPowerBudgets.terminal_old_parent_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "d587b9603663438207b3082563059788a4185ed861af566b8ebb564f15009e13",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T07:35:28.453074+00:00"
+}

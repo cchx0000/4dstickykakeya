@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_configured_slice_occupancy
+set_option autoImplicit false
+#print axioms NativeConfiguredSliceOccupancy.height_first_dist
+#print axioms NativeConfiguredSliceOccupancy.pointsAt_card_le
+#print axioms NativeConfiguredSliceOccupancy.full_source_pointsAt

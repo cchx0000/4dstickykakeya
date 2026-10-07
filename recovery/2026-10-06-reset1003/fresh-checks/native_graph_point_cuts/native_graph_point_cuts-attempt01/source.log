@@ -1,0 +1,28 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/abce8974e255d6d00254de0d2cfac525bd6abfac7a4959cb7a2b0186a7f7c648.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_graph_point_cuts.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_point_cuts.lean"]
+SOURCE_SHA256 57fcf550129f812f93d8e62a232206a38f11dec3b9e3d8bd7c3b93f9d7443558
+LOCK_ACQUIRED_UTC 2026-10-06T14:14:51.834013+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_point_cuts.lean:17:0: error: automatically included section variable(s) unused in theorem `NativeGraphPhysicalLocalization.cut_subset`:
+  [DecidableEq P]
+  [DecidableEq T]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq P] [DecidableEq T] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_point_cuts.lean:20:0: error: automatically included section variable(s) unused in theorem `NativeGraphPhysicalLocalization.cut_nonempty`:
+  [DecidableEq P]
+  [DecidableEq T]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq P] [DecidableEq T] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_point_cuts.lean:31:0: error: automatically included section variable(s) unused in theorem `NativeGraphPhysicalLocalization.cut_point_cell`:
+  [DecidableEq T]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq T] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+LEAN_FINISHED_UTC 2026-10-06T14:16:13.256254+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

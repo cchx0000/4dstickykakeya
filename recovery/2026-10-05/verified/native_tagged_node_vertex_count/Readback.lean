@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_tagged_node_vertex_count
+
+#print axioms NativeTaggedNodeVertexCount.current_tag_node
+#print axioms NativeTaggedNodeVertexCount.vertex_ancestor
+#print axioms NativeTaggedNodeVertexCount.current_nodes_disjoint
+#print axioms NativeTaggedNodeVertexCount.sum_current_vertices_le
+#print axioms NativeTaggedNodeVertexCount.layers_vertices_sum_le

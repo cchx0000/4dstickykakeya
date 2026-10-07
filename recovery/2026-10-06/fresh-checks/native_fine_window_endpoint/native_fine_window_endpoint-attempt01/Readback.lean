@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_fine_window_endpoint
+set_option autoImplicit false
+#print axioms NativeFineWindowEndpoint.short_window_ADBounds

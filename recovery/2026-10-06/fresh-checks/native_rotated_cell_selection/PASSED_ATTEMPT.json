@@ -1,0 +1,69 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_rotated_cell_selection",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_rotated_cell_selection.lean",
+  "source_sha256": "5faad39a0752e57ba36afddb6b7bbb844fdc6af6f7e96e392f5a61257b8fac11",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_rotated_cell_selection.olean",
+  "names": [
+    "NativeRotatedCellSelection.rotatedCell",
+    "NativeRotatedCellSelection.cellColor",
+    "NativeRotatedCellSelection.same_grid_coordinate_close",
+    "NativeRotatedCellSelection.same_grid_dist_le",
+    "NativeRotatedCellSelection.same_rotated_cell_dist_le",
+    "NativeRotatedCellSelection.floor_difference_le_two",
+    "NativeRotatedCellSelection.same_color_same_original_cell",
+    "NativeRotatedCellSelection.select_one_rotated_grid"
+  ],
+  "started_utc": "2026-10-06T05:59:58.162840+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "7ddae8fa81b49c9c2b3f4c2de958276c802cf5b43af76cc3351afeb2ceb40960",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeRotatedCellSelection.rotatedCell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRotatedCellSelection.cellColor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRotatedCellSelection.same_grid_coordinate_close": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRotatedCellSelection.same_grid_dist_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRotatedCellSelection.same_rotated_cell_dist_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRotatedCellSelection.floor_difference_le_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRotatedCellSelection.same_color_same_original_cell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRotatedCellSelection.select_one_rotated_grid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:00:07.812555+00:00"
+}

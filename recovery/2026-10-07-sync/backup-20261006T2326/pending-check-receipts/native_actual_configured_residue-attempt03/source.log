@@ -1,0 +1,11 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b4ca89560804109260581830564fcc47d9fe3d2e84d298b3d8ef6dd5fb23fcd8.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_configured_residue.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_residue.lean"]
+SOURCE_SHA256 e32fd5f0fa05427095862d110ac71a678d9f1b255b82ada27ab207311f8d3726
+LOCK_ACQUIRED_UTC 2026-10-06T15:24:24.497465+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_residue.lean:71:4: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+LEAN_FINISHED_UTC 2026-10-06T15:27:37.433574+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

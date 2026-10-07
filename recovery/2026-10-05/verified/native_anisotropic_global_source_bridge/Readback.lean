@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_anisotropic_global_source_bridge
+
+#print axioms NativeAnisotropicGlobalSourceBridge.columnPair
+#print axioms NativeAnisotropicGlobalSourceBridge.comparisonCost
+#print axioms NativeAnisotropicGlobalSourceBridge.comparisonCost_pos
+#print axioms NativeAnisotropicGlobalSourceBridge.image_multiplicity_of_time_counts
+#print axioms NativeAnisotropicGlobalSourceBridge.queried_global_source_comparison

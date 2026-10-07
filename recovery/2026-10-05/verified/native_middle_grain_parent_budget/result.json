@@ -1,0 +1,127 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_middle_grain_parent_budget",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_middle_grain_parent_budget.lean",
+  "source_sha256": "1230a5a75f144b66eb562cb4d2af6293bdb83791775a344f57927054db46e3a1",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_middle_grain_parent_budget.olean",
+  "names": [
+    "NativeMiddleGrainParentBudget.middleIndex",
+    "NativeMiddleGrainParentBudget.middleDepth",
+    "NativeMiddleGrainParentBudget.grainDepth_middle",
+    "NativeMiddleGrainParentBudget.middle_depth_bounds",
+    "NativeMiddleGrainParentBudget.middle_query_readback",
+    "NativeMiddleGrainParentBudget.middle_scale_bounds",
+    "NativeMiddleGrainParentBudget.middle_scale_root_bound",
+    "NativeMiddleGrainParentBudget.normalizedError",
+    "NativeMiddleGrainParentBudget.normalized_error_le_scale",
+    "NativeMiddleGrainParentBudget.actual_test_radius_lower",
+    "NativeMiddleGrainParentBudget.coefficient_power_bound",
+    "NativeMiddleGrainParentBudget.errorConstant",
+    "NativeMiddleGrainParentBudget.normalized_error_power",
+    "NativeMiddleGrainParentBudget.exists_uniform_cutoff",
+    "NativeMiddleGrainParentBudget.absorb_error_constant",
+    "NativeMiddleGrainParentBudget.actual_middle_error",
+    "NativeMiddleGrainParentBudget.parent_direction_from_error",
+    "NativeMiddleGrainParentBudget.actual_middle_parent_direction"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T15:10:53.784647+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "ce6d640fefda7d10c2ff056c4fae455a6a8d476dc98ca127e5bb781aa7602f1d",
+  "source_execution_complete_utc": "2026-10-05T15:11:02.705133+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T151458297559",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeMiddleGrainParentBudget.middleIndex": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.middleDepth": [],
+    "NativeMiddleGrainParentBudget.grainDepth_middle": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.middle_depth_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.middle_query_readback": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.middle_scale_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.middle_scale_root_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.normalizedError": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.normalized_error_le_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.actual_test_radius_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.coefficient_power_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.errorConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.normalized_error_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.exists_uniform_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.absorb_error_constant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.actual_middle_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.parent_direction_from_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMiddleGrainParentBudget.actual_middle_parent_direction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T15:15:03.895157+00:00"
+}

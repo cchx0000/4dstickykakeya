@@ -1,0 +1,114 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T19:29:34.240920+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T192932859225",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T192932859225/AggregateReadback.lean"
+  ],
+  "readback_sha256": "ec5f75e7fced16da98fa56f65e23284c8ae191fad58bbc2f097d7095079a8156",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_candidate_queried_rank_configuration",
+      "source_sha256": "8c940f21f1b854d3e63e89e63bfc84cbceb9338537e725aa3bcbe6189ab8802b",
+      "olean_sha256": "8d752486df04d26045c2b91312e663bf916702a1902af94d6a02c902381ff78f",
+      "names": [
+        "NativeCandidateQueriedRankConfiguration.exists_candidate_queried_rank_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_conditional_angular_count_transfer",
+      "source_sha256": "aa8826b5a8f393d7767fc06350374bf1d8cd62f601ddd2bdbb8e3438732eaa3c",
+      "olean_sha256": "e53e62a54ed3829f478bc0eae271a660a80d43f3826183ef414f6f103e17da2b",
+      "names": [
+        "NativeConditionalAngularCountTransfer.nested_parent_power",
+        "NativeConditionalAngularCountTransfer.nested_relative_width",
+        "NativeConditionalAngularCountTransfer.nested_angular_count",
+        "NativeConditionalAngularCountTransfer.conditional_angular_count"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_extra_queried_rank_configuration",
+      "source_sha256": "c08622444272ab56bad1065d669ede6ae220bf6308d72d8e9458aee6c37c0b0b",
+      "olean_sha256": "57bcf70d2976f304917eb7c7b7827b4a190f36fe98294ec073350de59ed084d6",
+      "names": [
+        "NativeExtraQueriedRankConfiguration.MenuFactory",
+        "NativeExtraQueriedRankConfiguration.MenuRefl",
+        "NativeExtraQueriedRankConfiguration.MenuSymm",
+        "NativeExtraQueriedRankConfiguration.HasCallerUniformities",
+        "NativeExtraQueriedRankConfiguration.exists_extra_queried_rank_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_generic_compatible_stage",
+      "source_sha256": "fd908806504851ce7c3bae666cc77d094a3217dde91af89f8b9ff13b6acc9dbc",
+      "olean_sha256": "5343ccd651a5b12594c89b8b1763b2d8be92dd7861b9a8680f52101c2c339531",
+      "names": [
+        "NativeGenericCompatibleStage.pairedCount",
+        "NativeGenericCompatibleStage.HasCompatibleSquaredStage",
+        "NativeGenericCompatibleStage.compatibleCutoff",
+        "NativeGenericCompatibleStage.compatibleCutoff_pos",
+        "NativeGenericCompatibleStage.select_compatible_squared_stage"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_nested_parent_physical_menu",
+      "source_sha256": "7ebc4406386cd929c9c2fdc16e35246978b68fea5654524f9c992e1f8172efa7",
+      "olean_sha256": "341a72edfc850a78122c989c6450490e60ef412ac01dc7876f2c2c5dece94d5e",
+      "names": [
+        "NativeNestedParentPhysicalMenu.rebase",
+        "NativeNestedParentPhysicalMenu.physical_rebase",
+        "NativeNestedParentPhysicalMenu.parent_shear_bound",
+        "NativeNestedParentPhysicalMenu.rebase_coordinate_bound",
+        "NativeNestedParentPhysicalMenu.innerMenu",
+        "NativeNestedParentPhysicalMenu.innerMenu_card",
+        "NativeNestedParentPhysicalMenu.physical_cell_mem_innerMenu",
+        "NativeNestedParentPhysicalMenu.angular_image_global_card",
+        "NativeNestedParentPhysicalMenu.nested_angular_image_card"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_angular_coarse_endpoint",
+      "source_sha256": "8a408620f509979c145ee19f782b6ff6f4c3a43eb69b410c97a64d1750053ad2",
+      "olean_sha256": "30271a2dae4343239c7c8015a9690b02dbb6439def21f45c4fea9d0da22b0f28",
+      "names": [
+        "NativeParentAngularCoarseEndpoint.angular_image_box",
+        "NativeParentAngularCoarseEndpoint.angular_menu_box",
+        "NativeParentAngularCoarseEndpoint.coarse_endpoint_cost"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_parent_complete_angular_upper",
+      "source_sha256": "7ee3f1c318c4d8a348628e64780472590b7d6be28db734afebe1fb5af4c59d1b",
+      "olean_sha256": "192dcbf3c3e53e1f8378bec86be3c24fb41b794444236093bafdee1fda82ce26",
+      "names": [
+        "NativeReferenceParentCompleteAngularUpper.exists_reference_parent_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_third_XY_constant_comparison",
+      "source_sha256": "d59ac0b5f965be4951495de0fa12d935c4b4efc77c5f6a21cd6ca5a01e18b19a",
+      "olean_sha256": "592dc34b387d88471d6f05b47653790597f253c1822df71155f1b013a85c03f1",
+      "names": [
+        "NativeThirdXYConstantComparison.geometryCost",
+        "NativeThirdXYConstantComparison.geometryCost_one_le",
+        "NativeThirdXYConstantComparison.constant_grid_comparison",
+        "NativeThirdXYConstantComparison.gap_power_comparison",
+        "NativeThirdXYConstantComparison.xyConstant_le_retained"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T19:30:01.443819+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_actual_sparse_reference_admission
+set_option autoImplicit false
+#print axioms NativeActualSparseReferenceAdmission.retentionFactor
+#print axioms NativeActualSparseReferenceAdmission.exists_actual_sparse_admission

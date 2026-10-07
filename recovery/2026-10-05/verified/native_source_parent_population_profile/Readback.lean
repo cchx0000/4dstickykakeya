@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_source_parent_population_profile
+
+#print axioms NativeSourceParentPopulationProfile.source_parent_population_profile

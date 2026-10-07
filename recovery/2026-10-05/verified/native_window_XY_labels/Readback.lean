@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_window_XY_labels
+
+#print axioms NativeWindowXYLabels.gridDiv
+#print axioms NativeWindowXYLabels.window
+#print axioms NativeWindowXYLabels.window_height
+#print axioms NativeWindowXYLabels.gridDiv_comp
+#print axioms NativeWindowXYLabels.window_coarse
+#print axioms NativeWindowXYLabels.window_comp
+#print axioms NativeWindowXYLabels.encode_window_coarse

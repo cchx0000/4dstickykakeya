@@ -1,0 +1,74 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_query_rank_configuration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_actual_query_rank_configuration.lean",
+  "source_sha256": "f5a29822a441a56b2b501cf84197f2f7ce41fb78a8655e73482acbf428959bb4",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_actual_query_rank_configuration.olean",
+  "names": [
+    "NativeActualQueryRankConfiguration.HasQuerySecondStageCore",
+    "NativeActualQueryRankConfiguration.decode_second_stage_queries",
+    "NativeActualQueryRankConfiguration.stopping_depth_ge",
+    "NativeActualQueryRankConfiguration.grainDepth_strict_step",
+    "NativeActualQueryRankConfiguration.stopping_depth_six",
+    "NativeActualQueryRankConfiguration.stopping_physical_scale",
+    "NativeActualQueryRankConfiguration.exists_actual_query_rank_configuration",
+    "NativeActualQueryRankConfiguration.select_grain_second_stage"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T11:21:09.681665+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "ae1c59d9bbb339d05e00903b7c7e447d7cd325d31f436fa9e543115252c2ff0b",
+  "source_execution_complete_utc": "2026-10-05T11:22:01.192493+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112412665596",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeActualQueryRankConfiguration.HasQuerySecondStageCore": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualQueryRankConfiguration.decode_second_stage_queries": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualQueryRankConfiguration.stopping_depth_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualQueryRankConfiguration.grainDepth_strict_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualQueryRankConfiguration.stopping_depth_six": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualQueryRankConfiguration.stopping_physical_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualQueryRankConfiguration.exists_actual_query_rank_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualQueryRankConfiguration.select_grain_second_stage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T11:27:16.140194+00:00"
+}

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_generic_reference_rank
+
+#print axioms NativeGenericReferenceRank.HasRankSelection
+#print axioms NativeGenericReferenceRank.exists_rank_selection_cutoff

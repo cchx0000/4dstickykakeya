@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_local
+
+#print axioms NativeReferenceXYGridLocal.floor_center_error
+#print axioms NativeReferenceXYGridLocal.grid_ball_pair
+#print axioms NativeReferenceXYGridLocal.inBox
+#print axioms NativeReferenceXYGridLocal.local_inverse_cover

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_X_power_algebra
+
+#print axioms NativeSharpXPowerAlgebra.fiberCoefficient
+#print axioms NativeSharpXPowerAlgebra.gain_identity
+#print axioms NativeSharpXPowerAlgebra.gain_to_X

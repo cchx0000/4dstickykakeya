@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_core
+
+#print axioms NativeTwoMapRetainedSliceCore.exists_two_map_slice_grain_core

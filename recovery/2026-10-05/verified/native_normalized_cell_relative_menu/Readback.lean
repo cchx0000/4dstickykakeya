@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_normalized_cell_relative_menu
+
+#print axioms NativeNormalizedCellRelativeMenu.physicalPoint
+#print axioms NativeNormalizedCellRelativeMenu.physicalCell
+#print axioms NativeNormalizedCellRelativeMenu.zero_local_front
+#print axioms NativeNormalizedCellRelativeMenu.double_front_physical_error
+#print axioms NativeNormalizedCellRelativeMenu.forwardMenu
+#print axioms NativeNormalizedCellRelativeMenu.forwardMenu_card
+#print axioms NativeNormalizedCellRelativeMenu.double_label_mem_forward

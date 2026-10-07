@@ -1,0 +1,133 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T19:21:02.341564+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T192100658727",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T192100658727/AggregateReadback.lean"
+  ],
+  "readback_sha256": "593b05a23c1a1451a07c3ef51ce62256c582127e5805f4218515f0d2aeb3ef09",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_common_direction_phase_geometry",
+      "source_sha256": "481d4d8bfcd5c32670ae02130245515be83ea59f736c1623dcf3d001a1ac4221",
+      "olean_sha256": "8090d4eee440ec23a53539b74df9ec55a238c266e47cfb31273859f0c5b7145c",
+      "names": [
+        "NativeCommonDirectionPhaseGeometry.physical_cell_gap",
+        "NativeCommonDirectionPhaseGeometry.physical_height_bound",
+        "NativeCommonDirectionPhaseGeometry.front_equation",
+        "NativeCommonDirectionPhaseGeometry.source_front_error",
+        "NativeCommonDirectionPhaseGeometry.scalar_intercept_spread",
+        "NativeCommonDirectionPhaseGeometry.physical_intercept_spread",
+        "NativeCommonDirectionPhaseGeometry.original_intercept_difference"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_common_direction_phase_menu",
+      "source_sha256": "9ac0639d156eda5b9bfbead1ac812c81537a0cc9f3c6ba1d9650f188fc445a42",
+      "olean_sha256": "d6f0378e3eb3dcbb8c275fd6cd3574978e16bc3663605513ee0c3a91ec891e9d",
+      "names": [
+        "NativeCommonDirectionPhaseMenu.phaseMenu",
+        "NativeCommonDirectionPhaseMenu.phaseMenu_card",
+        "NativeCommonDirectionPhaseMenu.same_angle_original_slope",
+        "NativeCommonDirectionPhaseMenu.original_parent_mem_menu",
+        "NativeCommonDirectionPhaseMenu.original_phase_cap",
+        "NativeCommonDirectionPhaseMenu.dyadic_sigma",
+        "NativeCommonDirectionPhaseMenu.dyadic_source_error",
+        "NativeCommonDirectionPhaseMenu.dyadic_phase_cap",
+        "NativeCommonDirectionPhaseMenu.full_R_representative_readback"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_generic_query_rank",
+      "source_sha256": "9ae52f941f3e7aa5c1c975d012d877672db1a445b6e552321b557d4bd1202f6c",
+      "olean_sha256": "bb0cfe2c413633b99d986fd62d508003b4c4d4cf89c6980e9b07dd8d65f44e7d",
+      "names": [
+        "NativeGenericQueryRank.HasQueriedRankSelection",
+        "NativeGenericQueryRank.exists_query_depth_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_generic_reference_data",
+      "source_sha256": "b4a59bd29f82cf0d8804b9db2f5e6f83376ca6df225d065b6ab6a79c60e4a925",
+      "olean_sha256": "53fc4cdf3a8c0b8db500c85c31a9e164f5ccfcf90131a3308e962d61b777a0aa",
+      "names": [
+        "NativeGenericReferenceData.factor_pos",
+        "NativeGenericReferenceData.global_near"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_generic_reference_queries",
+      "source_sha256": "9623517d680ff9c97fa0347c28cedc99aa4bb5a29368e464aa6dc97835bb8c80",
+      "olean_sha256": "0fc0ead28672d0b525ec022065c5afe312764188acfdaa6a3406b19d5fb3f4aa",
+      "names": [
+        "NativeGenericReferenceQueries.HasQuerySecondStageCore",
+        "NativeGenericReferenceQueries.decode_second_stage_queries"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_generic_reference_rank",
+      "source_sha256": "6ca37e927974489c54a4fe836020a5a8282dcda69c249f999290e3d74c0bc213",
+      "olean_sha256": "4badc22e743fe5879c48e0518df041617a8fc4ba24bec35679f48c90e310e9f4",
+      "names": [
+        "NativeGenericReferenceRank.HasRankSelection",
+        "NativeGenericReferenceRank.exists_rank_selection_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_generic_reference_second_stage",
+      "source_sha256": "8657a3959ebf0e9f9bf19cb4e2087ecf06e9910ee44522e8e268f25a7716a71d",
+      "olean_sha256": "e4c9202c69212770f970b92727d5821a937a196d916989dfd42b92c1c824b31c",
+      "names": [
+        "NativeGenericReferenceSecondStage.HasSecondStageCore",
+        "NativeGenericReferenceSecondStage.HasRetainedRankSelection",
+        "NativeGenericReferenceSecondStage.exists_second_stage_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_generic_squared_grain_selection",
+      "source_sha256": "be232bd74f6a2644397a7396489b5be12c94a2245db9307304afccb92750fc56",
+      "olean_sha256": "05725a1d0af50c41e59ba3e0a5a3a97e720cc85fc5e7f84ad0f1ef9ef295e8ad",
+      "names": [
+        "NativeGenericSquaredGrainSelection.select_squared_grain_second_stage"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_source_third_XY_bundle",
+      "source_sha256": "c4fce13e53410929532b52a669050a030380c827fd154753dfb7a0737bfdd0e1",
+      "olean_sha256": "aee37b24a8bcb470935c08a70b06d3b1f48bdc5cf678b5a53822d2a5f5b539c2",
+      "names": [
+        "NativeSourceThirdXYBundle.exists_source_third_XY_bundle"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_third_XY_construction",
+      "source_sha256": "f104b88de7dd58a64075557b8dc166e1b7214bf909f31de75f0aa04c9162ccc8",
+      "olean_sha256": "b597d6b9b39fb40a22c1243d102b58972cfb3ba1be6bf6fdb3c40074dbaca6d2",
+      "names": [
+        "NativeThirdXYConstruction.construct_third_XY_data"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_third_XY_source_data",
+      "source_sha256": "dc31b7a5c09a84eb562a1596fad3c0382c80866f0438b6517f41d435a5502628",
+      "olean_sha256": "a58604c99f1b195dbcc497f40d75acaf64b533d46b1e247fc83376c81024fad9",
+      "names": [
+        "NativeThirdXYSourceData.HasThirdXYSourceData"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T19:21:32.529478+00:00",
+  "exit_code": 0
+}

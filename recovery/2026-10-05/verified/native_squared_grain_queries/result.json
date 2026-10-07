@@ -1,0 +1,90 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_squared_grain_queries",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_squared_grain_queries.lean",
+  "source_sha256": "8e43d55118419fd74fa82a792196d0dc075a2f298f8e79fd48c6df03c3f08729",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_squared_grain_queries.olean",
+  "names": [
+    "NativeSquaredGrainQueries.phaseDepth",
+    "NativeSquaredGrainQueries.phaseDepth_bounds",
+    "NativeSquaredGrainQueries.squared_scale_identity",
+    "NativeSquaredGrainQueries.phase_inverse_le_square",
+    "NativeSquaredGrainQueries.short_fine_scale_ratio",
+    "NativeSquaredGrainQueries.pairedQueries",
+    "NativeSquaredGrainQueries.paired_query_count",
+    "NativeSquaredGrainQueries.pairedQueries_short",
+    "NativeSquaredGrainQueries.pairedQueries_vertex",
+    "NativeSquaredGrainQueries.pairedQueries_valid",
+    "NativeSquaredGrainQueries.pairedQueries_uniformities",
+    "NativeSquaredGrainQueries.stopping_depth_cap"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T11:32:39.416561+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "a83dffe36e6f786ce28dfeadb12de96e6a8d2fa6710426df2ac530bbb42cdcf1",
+  "source_execution_complete_utc": "2026-10-05T11:40:35.872247+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T114511191686",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSquaredGrainQueries.phaseDepth": [],
+    "NativeSquaredGrainQueries.phaseDepth_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.squared_scale_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.phase_inverse_le_square": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.short_fine_scale_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.pairedQueries": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.paired_query_count": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.pairedQueries_short": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.pairedQueries_vertex": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.pairedQueries_valid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.pairedQueries_uniformities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSquaredGrainQueries.stopping_depth_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T11:52:14.762453+00:00"
+}

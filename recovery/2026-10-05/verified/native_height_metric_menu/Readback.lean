@@ -1,0 +1,20 @@
+import Theorems.Thm_StickyKakeya4_native_height_metric_menu
+
+#print axioms NativeHeightMetricMenu.meshWidth
+#print axioms NativeHeightMetricMenu.meshWidth_pos
+#print axioms NativeHeightMetricMenu.meshWidth_ratio
+#print axioms NativeHeightMetricMenu.rawHeightCoordinate
+#print axioms NativeHeightMetricMenu.rawHeightCoordinate_distance
+#print axioms NativeHeightMetricMenu.chartHeightCoordinate
+#print axioms NativeHeightMetricMenu.chartHeightCoordinate_distance
+#print axioms NativeHeightMetricMenu.menu_crossing
+#print axioms NativeHeightMetricMenu.halfDepth
+#print axioms NativeHeightMetricMenu.halfDepth_zero
+#print axioms NativeHeightMetricMenu.halfDepth_last
+#print axioms NativeHeightMetricMenu.halfDepth_mono
+#print axioms NativeHeightMetricMenu.halfDepth_le_middle
+#print axioms NativeHeightMetricMenu.halfDepth_gap
+#print axioms NativeHeightMetricMenu.metricConstant
+#print axioms NativeHeightMetricMenu.metricConstant_nonneg
+#print axioms NativeHeightMetricMenu.metric_from_menu
+#print axioms NativeHeightMetricMenu.metric_from_menu_chart

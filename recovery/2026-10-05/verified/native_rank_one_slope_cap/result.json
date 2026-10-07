@@ -1,0 +1,48 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_rank_one_slope_cap",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_rank_one_slope_cap.lean",
+  "source_sha256": "78d94b62acae5fdbed27b80ef9d7fbe87a12720340212da81dfd81aaf96df13f",
+  "names": [
+    "NativeRankOneSlopeCap.rank_one_cap",
+    "NativeRankOneSlopeCap.near_labels_cap",
+    "NativeRankOneSlopeCap.slopeVector_eq_normalized_direction",
+    "NativeRankOneSlopeCap.slopeVector_norm_le_two",
+    "NativeRankOneSlopeCap.actual_slope_cap"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T07:50:46.706224+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeRankOneSlopeCap.rank_one_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankOneSlopeCap.near_labels_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankOneSlopeCap.slopeVector_eq_normalized_direction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankOneSlopeCap.slopeVector_norm_le_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankOneSlopeCap.actual_slope_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "da2e204633c11419db14914cedbee05686548fd1d7ed27fc5353a512d4c507f9",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T08:13:41.711778+00:00"
+}

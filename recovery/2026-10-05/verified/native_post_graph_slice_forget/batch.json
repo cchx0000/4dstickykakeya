@@ -1,0 +1,76 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T18:00:28.506269+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180026924298",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180026924298/AggregateReadback.lean"
+  ],
+  "readback_sha256": "220a52cf3f7ccc14fbf73c740548214fcf33a77b0efa6d974d3aba627171a032",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_original_point_saturation",
+      "source_sha256": "7c692870358e37ecac09c1a456dbcdcc93ce5d690853a12516a10eef43984678",
+      "olean_sha256": "56e2eab95d33a71bb5492ce4e4d585125aa4acc253a4728bc4dca2fa8d7948f7",
+      "names": [
+        "NativeOriginalPointSaturation.Saturated",
+        "NativeOriginalPointSaturation.saturated_filter",
+        "NativeOriginalPointSaturation.saturated_selected",
+        "NativeOriginalPointSaturation.original_fiber_eq",
+        "NativeOriginalPointSaturation.point_uniformity",
+        "NativeOriginalPointSaturation.nodeCut_saturation",
+        "NativeOriginalPointSaturation.same_point_mixed",
+        "NativeOriginalPointSaturation.quotient_saturation",
+        "NativeOriginalPointSaturation.translated_heights_saturation",
+        "NativeOriginalPointSaturation.saturated_graph_quotient_heights"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_post_graph_slice_forget",
+      "source_sha256": "89ee1436de429ef1734c792b3f6c3421b7bf5b1b2be362402a6e48b9490929f3",
+      "olean_sha256": "41433c126e9a26af99857c79286bf806f82b5921c367d3ed5a26071d572432a2",
+      "names": [
+        "NativePostGraphSliceForget.height_core_with_forget",
+        "NativePostGraphSliceForget.profiles_forget",
+        "NativePostGraphSliceForget.curve_cleanup_forget",
+        "NativePostGraphSliceForget.curve_retained_forget",
+        "NativePostGraphSliceForget.curve_stage_forget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_native",
+      "source_sha256": "94df3a814bb0e0208fa38e23e74971a2f2b20705e43b08e28a7030ab545b14f0",
+      "olean_sha256": "7020978c8180f0083511f526d84750da2e5b149627f69ca17530a24174ae41c4",
+      "names": [
+        "NativeRetainedSliceBudgetNative.exists_actual_native_retained_budget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_mixed_grain_core",
+      "source_sha256": "788e0ed151e2698a94b732fe305febb8d76a8cf5ee72baaf1fb00e78109344b4",
+      "olean_sha256": "79a6b39767f3d3eb447867f710d8453356904bdc6b2f60d8e3203a9ca999df59",
+      "names": [
+        "NativeSaturatedMixedGrainCore.SaturatedMaps",
+        "NativeSaturatedMixedGrainCore.HasPointSaturation",
+        "NativeSaturatedMixedGrainCore.HasMixedSaturation",
+        "NativeSaturatedMixedGrainCore.exists_simultaneous_saturated_core",
+        "NativeSaturatedMixedGrainCore.exists_automatic_saturated_core",
+        "NativeSaturatedMixedGrainCore.exists_saturated_mixed_dense_core",
+        "NativeSaturatedMixedGrainCore.source_saturated_mixed_grain_core"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T18:01:06.641898+00:00",
+  "exit_code": 0
+}

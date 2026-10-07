@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_truncated_retention_coarse_selection
+set_option autoImplicit false
+#print axioms NativeTruncatedRetentionCoarseSelection.same_reference_coarse_selection_through

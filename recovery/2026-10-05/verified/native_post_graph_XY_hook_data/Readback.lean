@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_post_graph_XY_hook_data
+
+#print axioms NativePostGraphXYHookData.HasThirdXYFinish
+#print axioms NativePostGraphXYHookData.HasXYParentProfiles

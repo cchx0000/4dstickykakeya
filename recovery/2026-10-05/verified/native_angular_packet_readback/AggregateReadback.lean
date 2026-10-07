@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_second_refinement_cost
+import Theorems.Thm_StickyKakeya4_native_angular_packet_readback
+
+set_option autoImplicit false
+#print axioms NativeAngularPacketReadback.original_tube_packet_from_angular_label
+#print axioms NativeAngularPacketReadback.same_angular_slopeVector_dist
+#print axioms NativeSecondRefinementCost.exists_second_refinement_cost
+#print axioms NativeSecondRefinementCost.retained_cost_le_factor

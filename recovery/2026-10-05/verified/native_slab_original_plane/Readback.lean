@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_slab_original_plane
+
+#print axioms NativeSlabOriginalPlane.originalPlane
+#print axioms NativeSlabOriginalPlane.originalWitness
+#print axioms NativeSlabOriginalPlane.originalPlane_finrank
+#print axioms NativeSlabOriginalPlane.original_slab_pullback
+#print axioms NativeSlabOriginalPlane.original_infDist
+#print axioms NativeSlabOriginalPlane.original_point_slab_near

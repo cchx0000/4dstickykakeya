@@ -1,0 +1,49 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:54:08.083196+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155407386059",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155407386059/AggregateReadback.lean"
+  ],
+  "readback_sha256": "4b97678e904409f8c58a4c075fcb9a22f33b30053deca6fafc705bb396afa7bf",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_grain_quotient_geometry",
+      "source_sha256": "9341b508e086461272ddd7ee3df4c0acaa64adb5417100c3d0c481176d0d478a",
+      "olean_sha256": "81c5b5349b94ef1bac3ae301d4bf9e2497e23b7467988db3145f9386c470d7b6",
+      "names": [
+        "NativeGrainQuotientGeometry.residual",
+        "NativeGrainQuotientGeometry.residual_apply",
+        "NativeGrainQuotientGeometry.residual_norm",
+        "NativeGrainQuotientGeometry.residual_eq_zero_of_mem",
+        "NativeGrainQuotientGeometry.residual_norm_le_infDist",
+        "NativeGrainQuotientGeometry.coordinates",
+        "NativeGrainQuotientGeometry.coordinates_norm_le_infDist",
+        "NativeGrainQuotientGeometry.parent_coordinates_difference",
+        "NativeGrainQuotientGeometry.mixed_vertices_near"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_original_parent_grain_cleanup",
+      "source_sha256": "e45c0f93c21ebc8883de2d4e9285dfcf81040f2e020353590c4bf63863360db9",
+      "olean_sha256": "4115dc71352fc5c2db71f95a0c0053a998c92076032dd440d9561da2aa732e47",
+      "names": [
+        "NativeOriginalParentGrainCleanup.source_original_parent_grain_cleanup"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:54:12.541595+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_parent_local_XY_grain_core
+
+#print axioms NativeParentLocalXYGrainCore.exists_parent_local_xy_grain_core

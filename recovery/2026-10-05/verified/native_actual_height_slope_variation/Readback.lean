@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_actual_height_slope_variation
+
+#print axioms NativeActualHeightSlopeVariation.horizontalPlane
+#print axioms NativeActualHeightSlopeVariation.horizontalPlane_le
+#print axioms NativeActualHeightSlopeVariation.matching_node_horizontal_gap
+#print axioms NativeActualHeightSlopeVariation.matching_node_matrix_variation
+#print axioms NativeActualHeightSlopeVariation.matching_height_slope_variation

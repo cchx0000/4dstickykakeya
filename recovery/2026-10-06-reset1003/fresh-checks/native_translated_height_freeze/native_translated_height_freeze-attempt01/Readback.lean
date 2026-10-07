@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_translated_height_freeze
+set_option autoImplicit false
+#print axioms NativeTranslatedHeightFreeze.reference_height_coarse_floor
+#print axioms NativeTranslatedHeightFreeze.frozen
+#print axioms NativeTranslatedHeightFreeze.select_and_freeze

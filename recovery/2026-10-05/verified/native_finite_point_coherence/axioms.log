@@ -1,0 +1,50 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T182006131431", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T182006131431/AggregateReadback.lean"]
+READBACK_SHA256 feaed08e4d27c567b02e1748c0f94c902485017ed2fee3c55128d9b9d44e6218
+Dedicated staging slot 3 acquired UTC: 2026-10-05T18:20:45.960294+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8676384 kB
+'NativeFinitePointCoherence.cell_offset_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.lift_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.lift_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.pointWeight' depends on axioms: [propext, Quot.sound]
+'NativeFinitePointCoherence.select_original_point_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.support_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFinitePointCoherence.weighted_finite_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridIncidence.dyadic_original_edge_rawPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceXYGridIncidence.frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridIncidence.frame_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridIncidence.frame_infDist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridIncidence.frame_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridIncidence.frame_line_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridIncidence.framed_retained_original_incidence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceXYGridIncidence.original_edge_rawPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridIncidence.original_edge_rawPoint_three_rho' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceXYGridIncidence.point_quotient_reconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceXYGridIncidence.retained_original_rawPoint_incidence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedPointAngularLower.saturated_multiplicity_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedPointAngularLower.saturated_reference_point_angular_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedPointAngularLower.saturated_refined_multiplicity_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpReferenceAngularUpper.angular_menu_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpReferenceAngularUpper.exists_actual_reference_angular_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpReferenceAngularUpper.reference_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXCapCancellation.cross_cap_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

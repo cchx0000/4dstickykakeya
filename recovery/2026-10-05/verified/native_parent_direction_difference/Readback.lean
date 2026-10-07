@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_parent_direction_difference
+
+#print axioms NativeParentDirectionDifference.difference_near_submodule
+#print axioms NativeParentDirectionDifference.subspace_infDist_smul
+#print axioms NativeParentDirectionDifference.incident_difference_near_horizontal
+#print axioms NativeParentDirectionDifference.parent_normalized_horizontal_difference

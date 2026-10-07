@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_all_dyadic_reference_angular_upper
+
+#print axioms NativeAllDyadicReferenceAngularUpper.width_mono
+#print axioms NativeAllDyadicReferenceAngularUpper.exists_all_dyadic_angular_ball_upper

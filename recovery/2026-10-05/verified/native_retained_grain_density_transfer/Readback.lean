@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_retained_grain_density_transfer
+
+#print axioms NativeRetainedGrainDensityTransfer.original_grain_count_cross
+#print axioms NativeRetainedGrainDensityTransfer.retained_grain_density
+#print axioms NativeRetainedGrainDensityTransfer.retained_grain_density_two_stage
+#print axioms NativeRetainedGrainDensityTransfer.extra_relation_grain_uniformity

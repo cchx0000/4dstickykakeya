@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-R", "/workspace/scratch/5f2524fd4117/4dstickykakeya", "-o", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/build/lib/lean/Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.olean", "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean"]
+SOURCE_SHA256 05170899beec23a965604d9ef9f65620078514bc55d89cc13e3e1756a69a08df
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean:406:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean:533:24: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean:606:36: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+
+EXIT_CODE=0

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_coarse_height_endpoint
+set_option autoImplicit false
+#print axioms NativeCoarseHeightEndpoint.height_label_eq_sign
+#print axioms NativeCoarseHeightEndpoint.height_label_stable
+#print axioms NativeCoarseHeightEndpoint.heightWindow_stable

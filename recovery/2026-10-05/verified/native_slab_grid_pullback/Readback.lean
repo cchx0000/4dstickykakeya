@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_slab_grid_pullback
+
+#print axioms NativeSlabGridPullback.phiCenter
+#print axioms NativeSlabGridPullback.phiCenter_error
+#print axioms NativeSlabGridPullback.grid_slab_transfer
+#print axioms NativeSlabGridPullback.original_grid_infDist
+#print axioms NativeSlabGridPullback.original_grid_point_slab_near

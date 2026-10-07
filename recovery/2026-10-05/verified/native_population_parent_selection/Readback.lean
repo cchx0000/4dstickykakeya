@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_population_parent_selection
+
+#print axioms NativePopulationParentSelection.exists_population_parent
+#print axioms NativePopulationParentSelection.population_implies_reference_retention
+#print axioms NativePopulationParentSelection.source_population_parent

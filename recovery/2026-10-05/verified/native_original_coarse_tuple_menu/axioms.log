@@ -1,0 +1,33 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T095730386420", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T095730386420/AggregateReadback.lean"]
+READBACK_SHA256 4239acfbdf26c2a9826c56803794ac8dcabeacb87d569d679a2a1c4a9eb52725
+FIFO compiler ticket: 01791195110799234084-e6024d952b584cf385bdd8ad7397f780.request
+FIFO compiler acquired UTC: 2026-10-05T10:11:50.800283+00:00
+'NativeOriginalCoarseTupleMenu.coarseMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCoarseTupleMenu.coarseTuple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCoarseTupleMenu.formal_uniform_in_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalCoarseTupleMenu.previous_rank_coarse_tuple_menu' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalCoarseTupleMenu.reference_point_parent_fiber_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalCoarseTupleMenu.retained_point_parent_fiber_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRankRadiusRounding.atDepth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.atDepth_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.atDepth_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.atDepth_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.atDepth_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.exists_mesoscopic_test_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.exists_mesoscopic_test_radius_of_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRankRadiusRounding.exists_near_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.exists_target_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.first_radius_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.gap_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankRadiusRounding.target_le_first_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceCoreGlobalNear.core_global_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

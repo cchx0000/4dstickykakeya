@@ -1,0 +1,42 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_coarse_uniform_image_degrees",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_coarse_uniform_image_degrees.lean",
+  "source_sha256": "8527ef05ecf3714e1f9fe4317e4167dadaaff876f827b9089a27709cce0306fb",
+  "names": [
+    "NativeCoarseUniformImageDegrees.point_fiber_card_sum",
+    "NativeCoarseUniformImageDegrees.point_fiber_card_cross",
+    "NativeCoarseUniformImageDegrees.image_point_degree_cross",
+    "NativeCoarseUniformImageDegrees.image_point_degree_le_multiplicity"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:35:53.738820+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeCoarseUniformImageDegrees.point_fiber_card_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseUniformImageDegrees.point_fiber_card_cross": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseUniformImageDegrees.image_point_degree_cross": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseUniformImageDegrees.image_point_degree_le_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "04b1993a72679bddd68b2480875bdb3a33a28c02900c4623eeffdaa215eeffab",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:36:02.953341+00:00"
+}

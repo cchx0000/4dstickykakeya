@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_anisotropic_counts_upper
+
+#print axioms NativeAnisotropicCountsUpper.column_point_image_card_le
+#print axioms NativeAnisotropicCountsUpper.point_image_card_le_columns
+#print axioms NativeAnisotropicCountsUpper.pair_image_card_le_columns
+#print axioms NativeAnisotropicCountsUpper.parent_counts_upper

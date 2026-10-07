@@ -1,0 +1,280 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T20:01:57.656955+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T200156810113",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T200156810113/AggregateReadback.lean"
+  ],
+  "readback_sha256": "c02825a637426eeee0d19f2c6b42a97cdba4f7399a3ccf2d697f526a591f31ac",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_XY_pre_loss_budget",
+      "source_sha256": "06b1002b05335365db3d5e3913c4285d86c336f0d5b36598b0b3fa6898b46629",
+      "olean_sha256": "e0ee7bb64245383fa8b8f2c57ec044d283d0d0f30041fae10ef2420e96b2fb3f",
+      "names": [
+        "NativeXYPreLossBudget.constant_pre_loss",
+        "NativeXYPreLossBudget.xyConstant_pre_loss"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_XY_budget_allowance",
+      "source_sha256": "6dd2bccef947be40aa6b54b04c9712e4cea62ce95f37bc0f4d693484239df83c",
+      "olean_sha256": "8306efff34dd68363fee4d4b40388460cd1cff93f6c7ceaef77d20d4953457f3",
+      "names": [
+        "NativeActualXYBudgetAllowance.exists_actual_native_XY_budget_with_raw"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_XY_budget_source",
+      "source_sha256": "1c7a00e37ea2a9c393ac90cf11fdf9048d13c0b3ad7ea777a57c3db4d433d2df",
+      "olean_sha256": "b8cf4c6d4388afbeb11ef755d3a27283a16239f2318df9d34145f547c4a1bad7",
+      "names": [
+        "NativeActualXYBudgetSource.exists_actual_native_XY_budget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_post_graph_XY_hook",
+      "source_sha256": "6324317b2e38e4a4cd6b84d1bffd13ad7a55be2b3155d0543cf852347a712b21",
+      "olean_sha256": "fbfd77d67212b2cd941764cdcee91b0e07882a6758c843f2c5f7c44b44c63e98",
+      "names": [
+        "NativeActualPostGraphXYHook.attach_actual_post_graph_XY"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_angular_dyadic_interpolation",
+      "source_sha256": "4af5ecc380456c1cc973a225c34e67faa9f9cede1e4e5b3ff0e4575b81ce1608",
+      "olean_sha256": "27064a72d3ae42f3a6db5c9f1b0bc54565c07048fdbbbc80e372f9339bfab809",
+      "names": [
+        "NativeAngularDyadicInterpolation.angular_ancestor",
+        "NativeAngularDyadicInterpolation.physical_ancestor",
+        "NativeAngularDyadicInterpolation.descendants",
+        "NativeAngularDyadicInterpolation.descendants_card",
+        "NativeAngularDyadicInterpolation.mem_descendants",
+        "NativeAngularDyadicInterpolation.angular_fiber_card",
+        "NativeAngularDyadicInterpolation.angular_image_interpolation",
+        "NativeAngularDyadicInterpolation.bottom_angular_interpolation"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_candidate_XY_configuration",
+      "source_sha256": "f4d25acbfb8917596ed563068a81ab773a1405b9b693a4b2c2a851ded8c2d1a9",
+      "olean_sha256": "9a9c2f09310584205b38d97d6cfe916e39ee1b97d7d08a71c551a5a59a889799",
+      "names": [
+        "NativeCandidateXYConfiguration.exists_candidate_XY_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_conditional_reference_angular_upper",
+      "source_sha256": "d7649c194a87001f727c27fecf08bbc6e8d40bae26bf512eddf7813483ec15c5",
+      "olean_sha256": "ab144730bf0284f3353ac88c4b3834a6effbfedfe4e22dbe8d5df0f89b4c80c0",
+      "names": [
+        "NativeConditionalReferenceAngularUpper.exists_reference_angular_ball_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_conditional_reference_menu",
+      "source_sha256": "373359d96f3ce42a4e834dd7275e6c361db400292c616dbe4268fef3848ccf4e",
+      "olean_sha256": "d6867052e5bb649a9259c275640f1f262c80ff2393ea56004cf3c10a99a81f0a",
+      "names": [
+        "NativeConditionalReferenceMenu.queryCount",
+        "NativeConditionalReferenceMenu.relationCount",
+        "NativeConditionalReferenceMenu.relation_count",
+        "NativeConditionalReferenceMenu.candidate",
+        "NativeConditionalReferenceMenu.pair",
+        "NativeConditionalReferenceMenu.gridDepth",
+        "NativeConditionalReferenceMenu.outerDepth",
+        "NativeConditionalReferenceMenu.sigmaDepth",
+        "NativeConditionalReferenceMenu.rhoDepth",
+        "NativeConditionalReferenceMenu.parentDepth",
+        "NativeConditionalReferenceMenu.relativeScales",
+        "NativeConditionalReferenceMenu.gridDepth_bounds",
+        "NativeConditionalReferenceMenu.query_bounds",
+        "NativeConditionalReferenceMenu.query_phase_depth",
+        "NativeConditionalReferenceMenu.factory",
+        "NativeConditionalReferenceMenu.factory_refl",
+        "NativeConditionalReferenceMenu.factory_symm",
+        "NativeConditionalReferenceMenu.reference_uniformities"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_extra_XY_configuration",
+      "source_sha256": "3a7ec2ae1023f49034994ac29cc14448851cebbc5014ee5571893dcc62b53ac8",
+      "olean_sha256": "aad60720abc7642748b604d1ac0611dfab61e4979d44a20b38368cb8480fb38d",
+      "names": [
+        "NativeExtraXYConfiguration.exists_extra_XY_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_generic_XY_rank",
+      "source_sha256": "1d0751b9dc56cdbfbbe735f68819838e07a4a7d0f3478dfb246017249c286915",
+      "olean_sha256": "114781a5e2e5e2567417693e9747db0e02c83f240982d4f975e0405c67976000",
+      "names": [
+        "NativeGenericXYRank.HasXYRankSelection",
+        "NativeGenericXYRank.xy_rank_of_graph"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_post_graph_XY_hook_data",
+      "source_sha256": "7c9c5e612f864112306c8f39d1bff7e7a319cac1d8708eef31f42cca0f40b2b6",
+      "olean_sha256": "de3745a41dffcf5abfac4ad287684d315bf4a12a75de6b943ea163d3d511f3b1",
+      "names": [
+        "NativePostGraphXYHookData.HasThirdXYFinish",
+        "NativePostGraphXYHookData.HasXYParentProfiles"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_post_graph_XY_hook_stage",
+      "source_sha256": "20fd0245167f1c8ff5bcee59e0706b011f50befdd4961d17ef47111dee95ee5d",
+      "olean_sha256": "c275c2c39141d21bd10ff5cf9a3d7ad1ebcf395276e8c6849332471e3c039936",
+      "names": [
+        "NativePostGraphXYHookStage.XYCleanupData",
+        "NativePostGraphXYHookStage.HasXYRetainedHistory",
+        "NativePostGraphXYHookStage.HasXYStage",
+        "NativePostGraphXYHookStage.stage_with_post_graph_XY"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_post_graph_XY_stage",
+      "source_sha256": "71f56e35eda01222fab65a51422ba846d3329dbf9db307a17a2f4a6574bf03c5",
+      "olean_sha256": "1c70698e27eccf5c2c772b2e1032b82d026fd978352f8c4a8e61089deaca06df",
+      "names": [
+        "NativePostGraphXYStage.XYCleanupData",
+        "NativePostGraphXYStage.HasXYRetainedHistory",
+        "NativePostGraphXYStage.HasXYStage",
+        "NativePostGraphXYStage.stage_with_post_graph_XY"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_same_source_angular_ball_upper",
+      "source_sha256": "3a9dc9ad00d753e2246fe4e9a1b79ce6c00a6c89c34b2bb4053d3ab3b0cbd189",
+      "olean_sha256": "88f23aa3711a505f6be030b02f2fb70c291abc6dc72dca714e892dd5a505cb0f",
+      "names": [
+        "NativeSameSourceAngularBallUpper.exists_angular_ball_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_supported_two_map_ad",
+      "source_sha256": "0f1fefccfd0c2ed7e5b1b94252fdde608ebeba63301f4bf5585e30d126f7e21f",
+      "olean_sha256": "4c2bbc9ff90cfd9c350b0140520518d8bdfc75cd87ddc36c36c74b65340fe7ea",
+      "names": [
+        "NativeSupportedTwoMapAD.all_radius_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_supported_two_map_transfer",
+      "source_sha256": "1b1c993d35e03baf470cf2f45c7f5b063c98ea57ba952e43ee8d0f74856b8dab",
+      "olean_sha256": "517cf8d0dca3f21f653d15223a92961f72ffa4af1529a17185bc6a081cc5db8a",
+      "names": [
+        "NativeSupportedTwoMapTransfer.coarse_image_count_le",
+        "NativeSupportedTwoMapTransfer.retained_class_count_cross",
+        "NativeSupportedTwoMapTransfer.retained_class_count_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_supported_two_map_upper",
+      "source_sha256": "6ff354b2be7fb9a02026fb76b745c01d5cfe66a6dbe6617008d5e57229109990",
+      "olean_sha256": "526d73f016945160dc01083c5f4e230a57d6dc970aea23d08e0a9a84acfd1792",
+      "names": [
+        "NativeSupportedTwoMapUpper.retained_class_upper",
+        "NativeSupportedTwoMapUpper.height_image_cap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_variable_height_counts_upper",
+      "source_sha256": "e9a3064a265580db716f59495d28a0031197e71b925c7aefc46eb48f22ffea06",
+      "olean_sha256": "d99e45f90376f8849e54f148a499e3f659b9bc6b927ebfc1d109ad14f6d61e6b",
+      "names": [
+        "NativeVariableHeightCountsUpper.column_point_image_card_le",
+        "NativeVariableHeightCountsUpper.point_image_card_le_columns",
+        "NativeVariableHeightCountsUpper.pair_image_card_le_columns",
+        "NativeVariableHeightCountsUpper.parent_counts_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_variable_height_geometry",
+      "source_sha256": "333ecd695c28e6efa6dbb3a8bfca61a58168be283e9e43e248280f80c0bdf7c5",
+      "olean_sha256": "0dbc1f965cb2d12aa76b1c57b06427e9d4293822c48821e803e9bc10edf42b41",
+      "names": [
+        "NativeVariableHeightGeometry.short_row_chart_close",
+        "NativeVariableHeightGeometry.short_row_column_mem_halo"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_variable_height_population",
+      "source_sha256": "f911ada409a1993db09b0cb9be0a19a3eaa2c48429b9eb4ec78d1c3ebb46d0c2",
+      "olean_sha256": "6f761e56232d500f6658d3d4664861572bcf8bf00d6226633b1910714547d035",
+      "names": [
+        "NativeVariableHeightPopulation.phase_height_population",
+        "NativeVariableHeightPopulation.parent_height_population",
+        "NativeVariableHeightPopulation.height_population_upper",
+        "NativeVariableHeightPopulation.height_population_upper_eight",
+        "NativeVariableHeightPopulation.columnPair",
+        "NativeVariableHeightPopulation.column_phase_height_image",
+        "NativeVariableHeightPopulation.column_height_image",
+        "NativeVariableHeightPopulation.reference_numerator_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_window_XY_labels",
+      "source_sha256": "f789169116b191da99f1c3ee04d654e3b42c7542781341e158ce46dacb603790",
+      "olean_sha256": "53635de076dd39a6fcd8f77d56d85f38a402e04288e1372dc15c62c286d54434",
+      "names": [
+        "NativeWindowXYLabels.gridDiv",
+        "NativeWindowXYLabels.window",
+        "NativeWindowXYLabels.window_height",
+        "NativeWindowXYLabels.gridDiv_comp",
+        "NativeWindowXYLabels.window_coarse",
+        "NativeWindowXYLabels.window_comp",
+        "NativeWindowXYLabels.encode_window_coarse"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_window_XY_metric",
+      "source_sha256": "f255d01f1754ffcd6b8eb4a3424c51f6406f062dd3ea40199fb7889c3de6da54",
+      "olean_sha256": "d220518f38b1374f9df7ad6a4259d4bfb3ad37982b035836fcd2aa20cdcb3c9e",
+      "names": [
+        "NativeWindowXYMetric.old_height_window",
+        "NativeWindowXYMetric.raw_height_window",
+        "NativeWindowXYMetric.raw_dist_of_window_pref",
+        "NativeWindowXYMetric.old_dist_of_window_coordinates",
+        "NativeWindowXYMetric.field_window_variation",
+        "NativeWindowXYMetric.menuRadius",
+        "NativeWindowXYMetric.menuRadius_lower",
+        "NativeWindowXYMetric.menu_cost_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_window_XY_reference_maps",
+      "source_sha256": "ddbf74baa5e76660593cbd4f0910ab79b8dd92f83405eb3f7d342a105d824ed6",
+      "olean_sha256": "b6a186a61be2dafe1f02d3e6e67b83831adf3cd92d562b229f7028c7098e583c",
+      "names": [
+        "NativeWindowXYReferenceMaps.windowIndex",
+        "NativeWindowXYReferenceMaps.windowIndex_height",
+        "NativeWindowXYReferenceMaps.windowIndex_spatial",
+        "NativeWindowXYReferenceMaps.window_pref_spatial",
+        "NativeWindowXYReferenceMaps.window_pref_height",
+        "NativeWindowXYReferenceMaps.window_pref_column",
+        "NativeWindowXYReferenceMaps.dyadic_scale_mul",
+        "NativeWindowXYReferenceMaps.dyadic_height_width",
+        "NativeWindowXYReferenceMaps.scheduled_reference_readback",
+        "NativeWindowXYReferenceMaps.same_integer_window",
+        "NativeWindowXYReferenceMaps.reference_height_window",
+        "NativeWindowXYReferenceMaps.varying_inverse"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T20:02:03.628230+00:00",
+  "exit_code": 0
+}

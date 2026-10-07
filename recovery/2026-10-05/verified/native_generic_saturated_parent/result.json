@@ -1,0 +1,50 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_generic_saturated_parent",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_generic_saturated_parent.lean",
+  "source_sha256": "50d74d7190b1dcb63dc588fc8500ed5f0254aa3b782e6b4fb3b847041148d153",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_generic_saturated_parent.olean",
+  "names": [
+    "NativeGenericSaturatedParent.SaturatedParentFinalCleanupData",
+    "NativeGenericSaturatedParent.HasSaturatedParentRetainedHistory",
+    "NativeGenericSaturatedParent.HasSaturatedPopulationParentStage",
+    "NativeGenericSaturatedParent.saturated_stage_with_population_parent"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T19:32:27.764917+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "2a56d4b1a7c9c7b3d820ddf6b192d5d831685c5ec51137971a4ea5896b851c88",
+  "source_execution_complete_utc": "2026-10-05T19:33:24.673568+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T193536987063",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeGenericSaturatedParent.SaturatedParentFinalCleanupData": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGenericSaturatedParent.HasSaturatedParentRetainedHistory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGenericSaturatedParent.HasSaturatedPopulationParentStage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGenericSaturatedParent.saturated_stage_with_population_parent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T19:37:07.718853+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "state": "passed",
+  "parallel_registrations": 32,
+  "concurrency": 8,
+  "union_count": 32,
+  "existing_ledgers_valid": [
+    {
+      "path": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean/OWN_MODULES.json",
+      "owned_count": 17,
+      "sha256": "ddafe4a010eb7547a73db316303f02c3b0d5492bc1d0195a82c6cf86654a36ef"
+    },
+    {
+      "path": "/workspace/shared/sticky-recovery-20261005/recovered-spatial-geometry/olean/OWN_MODULES.json",
+      "owned_count": 1,
+      "sha256": "7098537b5f10522e372803907d861573eceaeb7b4b376fcbf654615c85c6d983"
+    }
+  ],
+  "fix": "per-root bookkeeping lock plus atomic ownership-ledger replace; no compiler restart"
+}

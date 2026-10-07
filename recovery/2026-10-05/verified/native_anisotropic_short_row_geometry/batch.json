@@ -1,0 +1,60 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:42:44.767761+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T144244026758",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T144244026758/AggregateReadback.lean"
+  ],
+  "readback_sha256": "f8fa989a13d126c04fb2fcc482826db01d3ac3092632b98e72b395caee2ed0ba",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_rank_count",
+      "source_sha256": "95092141f08c94aab2150d83cb282af9593840c64ae1ff96452465219072c705",
+      "olean_sha256": "9d97d30971dde8b2235740cc21e2dc1bf24ca89b4b7ffedb3417df9486edc155",
+      "names": [
+        "NativeActualRankCount.loss_power",
+        "NativeActualRankCount.clear_count",
+        "NativeActualRankCount.actual_rank_count"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_history_dimension_range",
+      "source_sha256": "2c83a9f25fec9f586a2591cb04bd04c8641602da7039c4b262b997c1d1025e19",
+      "olean_sha256": "2d24d9de3f3b2b1d6fa67947d26bccf6c4263d13381bcaf244e3dd551579935f",
+      "names": [
+        "NativeHistoryDimensionRange.extraCutoff",
+        "NativeHistoryDimensionRange.extraCutoff_spec",
+        "NativeHistoryDimensionRange.history_stage_dimension_range"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_short_row_geometry",
+      "source_sha256": "3e6801863eab1c67ee0e91b1550b695fbac3baa19af96980fb4a11a5682c550c",
+      "olean_sha256": "3732546f7af2d8d990d4278bae658853b147ad83cb4c1fd23bc8dbe8b15cc03e",
+      "names": [
+        "NativeAnisotropicShortRowGeometry.chartWidth",
+        "NativeAnisotropicShortRowGeometry.columnLabel",
+        "NativeAnisotropicShortRowGeometry.columnHalo",
+        "NativeAnisotropicShortRowGeometry.columnHalo_card",
+        "NativeAnisotropicShortRowGeometry.chart_spatial_sub",
+        "NativeAnisotropicShortRowGeometry.chart_height_sub",
+        "NativeAnisotropicShortRowGeometry.short_row_chart_close",
+        "NativeAnisotropicShortRowGeometry.short_row_column_mem_halo"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:42:49.708402+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_raw_same_point_old_cell_menu_draft_2300
+set_option autoImplicit false
+#print axioms NativeRawSamePointOldCellMenuDraft2300.rawCellWitnesses
+#print axioms NativeRawSamePointOldCellMenuDraft2300.source_cell_raw_witness
+#print axioms NativeRawSamePointOldCellMenuDraft2300.same_raw_original_height
+#print axioms NativeRawSamePointOldCellMenuDraft2300.actual_raw_cell_old_menu

@@ -1,0 +1,11 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_global_coarse_rows_readback.lean"]
+SOURCE_SHA256 581be9d19005cddcbd19653d6695b413ce9fe3c139a2ae1aa09e7df43dde9105
+FIFO compiler ticket: 01791189801984274263-399be5def8424c64932c3f73921b1286.request
+FIFO compiler acquired UTC: 2026-10-05T08:43:21.985286+00:00
+'NativeGlobalCoarseRows.pair_fiber_le_projected_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGlobalCoarseRows.core_projected_row_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGlobalCoarseRows.core_projected_row_lower_absorbed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGlobalCoarseRows.projected_row_volume_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGlobalCoarseRows.projected_row_card_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

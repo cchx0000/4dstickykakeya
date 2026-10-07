@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_native_phase_height_population
+
+#print axioms NativePhaseHeightPopulation.heightLabel
+#print axioms NativePhaseHeightPopulation.column_height_readback
+#print axioms NativePhaseHeightPopulation.heightLabel_integer
+#print axioms NativePhaseHeightPopulation.height_row_card
+#print axioms NativePhaseHeightPopulation.dyadic_height_mesh
+#print axioms NativePhaseHeightPopulation.dyadic_height_row_capacity
+#print axioms NativePhaseHeightPopulation.heightEdges
+#print axioms NativePhaseHeightPopulation.phaseHeightLabels
+#print axioms NativePhaseHeightPopulation.retained_height_capacity
+#print axioms NativePhaseHeightPopulation.phase_height_population
+#print axioms NativePhaseHeightPopulation.heightLabels
+#print axioms NativePhaseHeightPopulation.parent_height_population
+#print axioms NativePhaseHeightPopulation.original_translated_height_abs
+#print axioms NativePhaseHeightPopulation.height_population_upper

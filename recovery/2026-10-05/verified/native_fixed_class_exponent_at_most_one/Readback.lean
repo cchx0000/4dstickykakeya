@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_fixed_class_exponent_at_most_one
+
+#print axioms NativeFixedClassExponentAtMostOne.extremalExponent_le_one

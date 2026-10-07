@@ -1,0 +1,38 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:45:28.053853+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T154527332079",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T154527332079/AggregateReadback.lean"
+  ],
+  "readback_sha256": "5879adde43bca4018912d952314718c6e9b3668646a4db70fdcdf8a6c1ff247e",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_height_spatial_cells",
+      "source_sha256": "b433da4dd779739a36554f835a307ad49b940441de9a56528d140a4ff348231c",
+      "olean_sha256": "20dc8f1d53d1e801fb7946167844d196f302a72860eb3b2a0a5d221b50097724",
+      "names": [
+        "NativeParentHeightSpatialCells.same_height_cell_close",
+        "NativeParentHeightSpatialCells.same_parent_height_distance",
+        "NativeParentHeightSpatialCells.parent_height_spatial_count",
+        "NativeParentHeightSpatialCells.dyadic_scale_le_one",
+        "NativeParentHeightSpatialCells.dyadic_parent_height_spatial_count",
+        "NativeParentHeightSpatialCells.ancestor_height_spatial_count"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:45:32.452686+00:00",
+  "exit_code": 0
+}

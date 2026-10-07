@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_local_offset_selection
+set_option autoImplicit false
+#print axioms NativeLocalOffsetSelection.physicalFiber
+#print axioms NativeLocalOffsetSelection.fiber_points_cell
+#print axioms NativeLocalOffsetSelection.point_fiber_eq
+#print axioms NativeLocalOffsetSelection.same_offset_coordinates
+#print axioms NativeLocalOffsetSelection.actual_cell_offset_cap
+#print axioms NativeLocalOffsetSelection.actual_weighted_offset_selection
+#print axioms NativeLocalOffsetSelection.actual_incidence_offset_selection

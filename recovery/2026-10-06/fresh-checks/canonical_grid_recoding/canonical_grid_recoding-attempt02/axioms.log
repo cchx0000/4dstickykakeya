@@ -1,0 +1,29 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/115802eb3aa31f646f96905a1879bcd72ef0749b961a38ef8dd2dd1df6796c52.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/canonical_grid_recoding-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/canonical_grid_recoding-attempt02/Readback.lean"]
+SOURCE_SHA256 cd8ea1e7d783319d6a1654c7c57ce22f94e1abc09c94c03f79e27a5078acfb51
+'CanonicalGridRecoding.center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.coarseGrid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.recodedY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.coarseGrid_eq_ediv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.preimageBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.preimageBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.mem_preimageBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.coarseGrid_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.matrix_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.floor_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.recodedY_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.neighborBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.neighborBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.recodedY_mem_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.oldIndex' does not depend on any axioms
+'CanonicalGridRecoding.newX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.errorMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.newY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.oldY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.Neighbor' does not depend on any axioms
+'CanonicalGridRecoding.old_fiber_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.actual_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.old_fiber_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.threshold_inputs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CanonicalGridRecoding.threshold_support_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

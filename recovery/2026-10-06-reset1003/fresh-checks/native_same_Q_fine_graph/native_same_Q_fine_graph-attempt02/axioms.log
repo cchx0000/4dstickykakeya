@@ -1,0 +1,23 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1755.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1755", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1755/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T17:56:17.507711+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+'NativeRememberedHeightGeometry.binOrigin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRememberedHeightGeometry.input_center_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRememberedHeightGeometry.old_height_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRememberedHeightGeometry.actual_old_heights_per_bin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQSourceRestriction.restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQSourceRestriction.source_cells_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQSourceRestriction.source_incidences_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQSourceRestriction.rows_filter_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQSourceRestriction.source_rows_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQFineGraph.phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQFineGraph.graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQFineGraph.weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQFineGraph.graph_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQFineGraph.sum_weight_eq_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQFineGraph.total_weight_eq_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameQShadowMass.sum_shadow_weight_eq_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T17:59:13.717839+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

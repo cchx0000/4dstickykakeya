@@ -1,0 +1,36 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:17:45.728555+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141744882086",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141744882086/AggregateReadback.lean"
+  ],
+  "readback_sha256": "07141c4cc085a2f3e766ce5e6d11e1ae4a29d936fa4138685db842c3806300c2",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_dense_phase_parent_retention",
+      "source_sha256": "5f5813bc2c84ea5e10943297bc78caa65311c5c82d0cd8ccfb57d85f4619c597",
+      "olean_sha256": "f751d2dcd05e12f582f74dbe6c8608711e2cec836d2e9418876bbd3a8d72cd3a",
+      "names": [
+        "NativeDensePhaseParentRetention.exists_retained_fiber",
+        "NativeDensePhaseParentRetention.support_retention",
+        "NativeDensePhaseParentRetention.source_dense_parent",
+        "NativeDensePhaseParentRetention.parent_region_commute"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:17:51.014273+00:00",
+  "exit_code": 0
+}

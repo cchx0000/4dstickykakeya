@@ -1,0 +1,43 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2139.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2139", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2139/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T21:39:27.085029+00:00
+SHARED_SLOT 1
+LEAN_PID 58
+'NativeRawHeightSourceAdapter.rawTaggedKey' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.rawTranslatedHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translatedHeight_eq_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translatedHeight_eq_of_original_height_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRawHeightSourceAdapter.translatedTag' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translatedTags' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.taggedKey_eq_translatedTag' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translatedTag_finalTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translatedTags_final_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translatedTag_injOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translatedTags_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translatedTags_coherent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translatedTags_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.rawSelectedOccurrences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.rawSelectedPairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.raw_selected_tagged_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.raw_selected_final_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translated_selected_final_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRawHeightSourceAdapter.translated_selected_final_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.final_pair_mem_iff_outputCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.translated_selected_sourceCells_eq_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRawHeightSourceAdapter.translated_selected_raw_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRawHeightSourceAdapter.occurrence_original_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.actual_occurrences_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawHeightSourceAdapter.actual_occurrence_exists_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRawHeightSourceAdapter.select_raw_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T21:42:19.928798+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

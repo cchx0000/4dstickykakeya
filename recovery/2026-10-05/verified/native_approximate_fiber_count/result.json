@@ -1,0 +1,95 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_approximate_fiber_count",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_approximate_fiber_count.lean",
+  "source_sha256": "487a08eec4d8a4fd24f2f23138c613fea65759fb2e98c43147510d67840b96b4",
+  "names": [
+    "NativeApproximateFiberCount.fiber",
+    "NativeApproximateFiberCount.infDist_sub_comm",
+    "NativeApproximateFiberCount.card_le_of_approximate_fibers",
+    "NativeApproximateFiberCount.intersection_card_le",
+    "NativeApproximateFiberCount.capacity_le_transverse_power",
+    "NativeApproximateFiberCount.intersection_card_le_transverse_power",
+    "NativeApproximateFiberCount.near_sup_of_two",
+    "NativeApproximateFiberCount.backward_fiber_sum_bound",
+    "NativeApproximateFiberCount.backward_fiber_sum_bound_real",
+    "NativeApproximateFiberCount.minimumPredecessor",
+    "NativeApproximateFiberCount.minimumPredecessor_le",
+    "NativeApproximateFiberCount.backward_fiber_step"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T10:27:38.597630+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "d9c715c3ee1ea03376d0e113fabab9955e545436b269e4fec636ccc532d9b251",
+  "source_execution_complete_utc": "2026-10-05T10:36:55.917019+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T104423291334",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeApproximateFiberCount.fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.infDist_sub_comm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.card_le_of_approximate_fibers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.intersection_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.capacity_le_transverse_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.intersection_card_le_transverse_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.near_sup_of_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.backward_fiber_sum_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.backward_fiber_sum_bound_real": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.minimumPredecessor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.minimumPredecessor_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeApproximateFiberCount.backward_fiber_step": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T10:46:58.185393+00:00"
+}

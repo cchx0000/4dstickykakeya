@@ -1,0 +1,238 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_compatible_angular_candidates",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_compatible_angular_candidates.lean",
+  "source_sha256": "4bf682dafe5c0be48579e59eeedf53b83773d287d52d6ad5a08a6e9da8f772d7",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_compatible_angular_candidates.olean",
+  "names": [
+    "NativeCompatibleAngularCandidates.angularAncestor",
+    "NativeCompatibleAngularCandidates.projectWord",
+    "NativeCompatibleAngularCandidates.spatialAncestor",
+    "NativeCompatibleAngularCandidates.angularAncestor_label",
+    "NativeCompatibleAngularCandidates.spatialLabel_coordinate",
+    "NativeCompatibleAngularCandidates.spatialAncestor_label",
+    "NativeCompatibleAngularCandidates.angularTuple_cons",
+    "NativeCompatibleAngularCandidates.angularTuple_length",
+    "NativeCompatibleAngularCandidates.projectWord_angularTuple",
+    "NativeCompatibleAngularCandidates.projectWord_self",
+    "NativeCompatibleAngularCandidates.depth",
+    "NativeCompatibleAngularCandidates.depth_bounds",
+    "NativeCompatibleAngularCandidates.depth_zero",
+    "NativeCompatibleAngularCandidates.depth_last",
+    "NativeCompatibleAngularCandidates.depth_mono",
+    "NativeCompatibleAngularCandidates.terminalFamily",
+    "NativeCompatibleAngularCandidates.terminal_member",
+    "NativeCompatibleAngularCandidates.LocalWitness",
+    "NativeCompatibleAngularCandidates.terminal_local_witness",
+    "NativeCompatibleAngularCandidates.wordSuccessors",
+    "NativeCompatibleAngularCandidates.wordSuccessors_card",
+    "NativeCompatibleAngularCandidates.angularTuple_mem_successors",
+    "NativeCompatibleAngularCandidates.allWords",
+    "NativeCompatibleAngularCandidates.allWords_card",
+    "NativeCompatibleAngularCandidates.angularTuple_mem_allWords",
+    "NativeCompatibleAngularCandidates.angularLabel_mem_root_box",
+    "NativeCompatibleAngularCandidates.projected_root_card",
+    "NativeCompatibleAngularCandidates.projected_successor_card",
+    "NativeCompatibleAngularCandidates.node",
+    "NativeCompatibleAngularCandidates.ancestorNode",
+    "NativeCompatibleAngularCandidates.candidate",
+    "NativeCompatibleAngularCandidates.actual_node_ancestor",
+    "NativeCompatibleAngularCandidates.selected_child_parent_trace",
+    "NativeCompatibleAngularCandidates.singleCapacity",
+    "NativeCompatibleAngularCandidates.selectionBudget",
+    "NativeCompatibleAngularCandidates.HasCompatibleCandidates",
+    "NativeCompatibleAngularCandidates.select_actual_candidates",
+    "NativeCompatibleAngularCandidates.from_master_reference"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T11:52:06.213513+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "085be7eddd54e2575e034b6fe1fcfe4e5e384293900d7a4c8a5e7003f638f4b3",
+  "source_execution_complete_utc": "2026-10-05T12:01:22.275102+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T120459552376",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeCompatibleAngularCandidates.angularAncestor": [
+      "propext"
+    ],
+    "NativeCompatibleAngularCandidates.projectWord": [
+      "propext"
+    ],
+    "NativeCompatibleAngularCandidates.spatialAncestor": [
+      "propext"
+    ],
+    "NativeCompatibleAngularCandidates.angularAncestor_label": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.spatialLabel_coordinate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.spatialAncestor_label": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.angularTuple_cons": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.angularTuple_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.projectWord_angularTuple": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.projectWord_self": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.depth": [
+      "propext"
+    ],
+    "NativeCompatibleAngularCandidates.depth_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.depth_zero": [
+      "propext"
+    ],
+    "NativeCompatibleAngularCandidates.depth_last": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.depth_mono": [
+      "propext"
+    ],
+    "NativeCompatibleAngularCandidates.terminalFamily": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.terminal_member": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.LocalWitness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.terminal_local_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.wordSuccessors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.wordSuccessors_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.angularTuple_mem_successors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.allWords": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.allWords_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.angularTuple_mem_allWords": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.angularLabel_mem_root_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.projected_root_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.projected_successor_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.node": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.ancestorNode": [
+      "propext"
+    ],
+    "NativeCompatibleAngularCandidates.candidate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.actual_node_ancestor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.selected_child_parent_trace": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.singleCapacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.selectionBudget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.HasCompatibleCandidates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.select_actual_candidates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleAngularCandidates.from_master_reference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:10:12.772566+00:00"
+}

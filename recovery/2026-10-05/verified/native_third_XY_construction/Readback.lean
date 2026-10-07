@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_third_XY_construction
+
+#print axioms NativeThirdXYConstruction.construct_third_XY_data

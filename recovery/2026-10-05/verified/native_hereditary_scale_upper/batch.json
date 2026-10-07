@@ -1,0 +1,48 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T09:51:37.576297+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py",
+    "--slots",
+    "2",
+    "--lock-dir",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T095134768993",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T095134768993/AggregateReadback.lean"
+  ],
+  "readback_sha256": "42775bab33bcde8ee470c4e098b4015e7490644cef9efa39f06860129b9b8a4f",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_hereditary_scale_upper",
+      "source_sha256": "368720055ad3ed8bb81940974d0067c4bdb0e939fc786dfd5eab33ee0fb1a5b2",
+      "olean_sha256": "e0d76db766f73273a7dcb0b48a45c0be0f773b9938d8e24d32d23d68df1a4a60",
+      "names": [
+        "NativeHereditaryScaleUpper.middle_pair_upper",
+        "NativeHereditaryScaleUpper.boundary_pair_upper_separate_cost",
+        "NativeHereditaryScaleUpper.all_pair_upper",
+        "NativeHereditaryScaleUpper.reference_cost_budgets",
+        "NativeHereditaryScaleUpper.hereditary_three_loss"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_local_direction_tube_support",
+      "source_sha256": "40af64dbd8199e0bd09702f7551e62a9793213b9ba16a086149bc80af5fe453d",
+      "olean_sha256": "1bfe3de398ef38b45cdd22be37caecbd1f75ca631d9e923d6406ec3ddabccc2b",
+      "names": [
+        "NativeLocalDirectionTubeSupport.tube_local_displacement_near_plane",
+        "NativeLocalDirectionTubeSupport.original_local_quadratic_packet"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T10:04:22.000685+00:00",
+  "exit_code": 0
+}

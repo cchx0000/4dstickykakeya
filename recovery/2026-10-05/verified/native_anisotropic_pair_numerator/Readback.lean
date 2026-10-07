@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_anisotropic_pair_numerator
+
+#print axioms NativeAnisotropicPairNumerator.shortRowColumnCost
+#print axioms NativeAnisotropicPairNumerator.pairUpperConstant
+#print axioms NativeAnisotropicPairNumerator.pairUpperConstant_pos
+#print axioms NativeAnisotropicPairNumerator.short_pair_column_image_card
+#print axioms NativeAnisotropicPairNumerator.fixedPair_card_sum
+#print axioms NativeAnisotropicPairNumerator.parent_column_pair_upper

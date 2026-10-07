@@ -1,0 +1,36 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_balanced_configuration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_balanced_configuration.lean",
+  "source_sha256": "71d9045dd41e976cb930e6133237dc1550a5895b590fef770e55f84aea90bbdb",
+  "names": [
+    "NativeBalancedConfiguration.HasBalancedScale",
+    "NativeBalancedConfiguration.pure_near_to_balanced",
+    "NativeBalancedConfiguration.exists_balanced_configuration"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T06:18:34.759630+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeBalancedConfiguration.HasBalancedScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBalancedConfiguration.pure_near_to_balanced": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBalancedConfiguration.exists_balanced_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "ff350bc9f4895206870dd11a4ec910d90d18947cf957398a356394cec5a9bdad",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T06:36:12.514456+00:00"
+}

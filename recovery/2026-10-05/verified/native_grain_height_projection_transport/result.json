@@ -1,0 +1,104 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_grain_height_projection_transport",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_grain_height_projection_transport.lean",
+  "source_sha256": "3c0fb8fc6be83441816798a77f0a3066251edf3f1c66aa7548ad35db9706935c",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_grain_height_projection_transport.olean",
+  "names": [
+    "NativeGrainHeightProjectionTransport.parentDirection",
+    "NativeGrainHeightProjectionTransport.parentDirection_last",
+    "NativeGrainHeightProjectionTransport.parentDirection_sub",
+    "NativeGrainHeightProjectionTransport.parentDirection_slopeVector",
+    "NativeGrainHeightProjectionTransport.retained_direction_norm",
+    "NativeGrainHeightProjectionTransport.exists_parent_controlled_direction",
+    "NativeGrainHeightProjectionTransport.projectToHeight",
+    "NativeGrainHeightProjectionTransport.projectToHeight_last",
+    "NativeGrainHeightProjectionTransport.projectToHeight_sub",
+    "NativeGrainHeightProjectionTransport.physical_projectToHeight",
+    "NativeGrainHeightProjectionTransport.physical_projection_displacement",
+    "NativeGrainHeightProjectionTransport.removeHeight_norm_general",
+    "NativeGrainHeightProjectionTransport.projected_grain_near"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:14:26.271906+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "66bbeb324ef70ac124453ffd8909d10536754aab36a5ba354d4c97fbc2fb7335",
+  "source_execution_complete_utc": "2026-10-05T16:14:32.483291+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161649745264",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeGrainHeightProjectionTransport.parentDirection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.parentDirection_last": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.parentDirection_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.parentDirection_slopeVector": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.retained_direction_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.exists_parent_controlled_direction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.projectToHeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.projectToHeight_last": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.projectToHeight_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.physical_projectToHeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.physical_projection_displacement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.removeHeight_norm_general": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGrainHeightProjectionTransport.projected_grain_near": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:16:55.402095+00:00"
+}

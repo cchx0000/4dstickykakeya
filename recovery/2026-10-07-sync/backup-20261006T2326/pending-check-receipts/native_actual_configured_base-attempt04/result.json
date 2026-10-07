@@ -1,0 +1,75 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_configured_base",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean",
+  "source_sha256": "b0bd608987ebf04ea3b94f5075786dbed8357f2e3aa89be0d020724723b70eff",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_actual_configured_base.olean",
+  "names": [
+    "NativeActualConfiguredBase.exists_source_rho_cutoff",
+    "NativeActualConfiguredBase.exists_actual_base",
+    "NativeActualConfiguredBase.exists_source_base",
+    "NativeActualConfiguredBase.prepared_multiple",
+    "NativeActualConfiguredBase.preparedDepths",
+    "NativeActualConfiguredBase.preparedDepths_zero",
+    "NativeActualConfiguredBase.preparedDepths_succ",
+    "NativeActualConfiguredBase.preparedDepths_bounds",
+    "NativeActualConfiguredBase.preparedDepths_base_scale",
+    "NativeActualConfiguredBase.preparedDepths_multiples"
+  ],
+  "started_utc": "2026-10-06T12:47:28.064822+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "1d1b4bce336f72e307ede23ce68280b44537960c6b0e8a98f9dcad56afc3cb75",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeActualConfiguredBase.exists_source_rho_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualConfiguredBase.exists_actual_base": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualConfiguredBase.exists_source_base": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualConfiguredBase.prepared_multiple": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualConfiguredBase.preparedDepths": [
+      "propext"
+    ],
+    "NativeActualConfiguredBase.preparedDepths_zero": [
+      "propext"
+    ],
+    "NativeActualConfiguredBase.preparedDepths_succ": [
+      "propext"
+    ],
+    "NativeActualConfiguredBase.preparedDepths_bounds": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeActualConfiguredBase.preparedDepths_base_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualConfiguredBase.preparedDepths_multiples": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T13:04:07.224376+00:00"
+}

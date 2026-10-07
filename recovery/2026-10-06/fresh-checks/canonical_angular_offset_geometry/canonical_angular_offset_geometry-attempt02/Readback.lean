@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_canonical_angular_offset_geometry
+set_option autoImplicit false
+#print axioms CanonicalAngularOffsetGeometry.angularKey
+#print axioms CanonicalAngularOffsetGeometry.angularKey_eq_grid
+#print axioms CanonicalAngularOffsetGeometry.angularKey_distance
+#print axioms CanonicalAngularOffsetGeometry.tangentIndex
+#print axioms CanonicalAngularOffsetGeometry.normalIndex
+#print axioms CanonicalAngularOffsetGeometry.tangent_readback
+#print axioms CanonicalAngularOffsetGeometry.normal_readback
+#print axioms CanonicalAngularOffsetGeometry.rotated_coordinate_distance
+#print axioms CanonicalAngularOffsetGeometry.chart_coordinates_close
+#print axioms CanonicalAngularOffsetGeometry.rotated_coordinate_bound
+#print axioms CanonicalAngularOffsetGeometry.chart_coordinates_bound
+#print axioms CanonicalAngularOffsetGeometry.affineResidual
+#print axioms CanonicalAngularOffsetGeometry.shared_actual_angle_offsets

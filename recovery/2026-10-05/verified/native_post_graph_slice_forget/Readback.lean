@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_post_graph_slice_forget
+
+#print axioms NativePostGraphSliceForget.height_core_with_forget
+#print axioms NativePostGraphSliceForget.profiles_forget
+#print axioms NativePostGraphSliceForget.curve_cleanup_forget
+#print axioms NativePostGraphSliceForget.curve_retained_forget
+#print axioms NativePostGraphSliceForget.curve_stage_forget

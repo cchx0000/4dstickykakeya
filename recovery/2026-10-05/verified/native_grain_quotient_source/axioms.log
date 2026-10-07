@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160630444648", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160630444648/AggregateReadback.lean"]
+READBACK_SHA256 f1763ab291a2d312aaefe6a197cfcab64f0b4158bbc67530470042569855b587
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:06:31.134821+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8792848 kB
+'NativeGrainQuotientSource.node_system_exists_dense_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientSource.node_system_full_image_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientSource.node_system_source_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

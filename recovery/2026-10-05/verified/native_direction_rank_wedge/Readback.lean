@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_direction_rank_wedge
+
+#print axioms NativeDirectionRankWedge.cons_image_after_zero
+#print axioms NativeDirectionRankWedge.cons_image_after_succ
+#print axioms NativeDirectionRankWedge.separated_tail_distances
+#print axioms NativeDirectionRankWedge.separated_gram_det_lower
+#print axioms NativeDirectionRankWedge.chains_gram_det_lower
+#print axioms NativeDirectionRankWedge.concentration_or_many_transverse_chains
+#print axioms NativeDirectionRankWedge.incident_slope_quantitative_dichotomy

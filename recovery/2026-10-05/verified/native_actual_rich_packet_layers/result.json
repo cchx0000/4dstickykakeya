@@ -1,0 +1,78 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_rich_packet_layers",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_actual_rich_packet_layers.lean",
+  "source_sha256": "0c392131c5adba37cb81d90f9046e844338ed12cf5b0504e5e58d962418b8f00",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_actual_rich_packet_layers.olean",
+  "names": [
+    "NativeActualRichPacketLayers.referenceConstant",
+    "NativeActualRichPacketLayers.referenceConstant_pos",
+    "NativeActualRichPacketLayers.packetMass_eq_of_subset",
+    "NativeActualRichPacketLayers.real_le_referenceMinimum",
+    "NativeActualRichPacketLayers.original_point_mass_positive",
+    "NativeActualRichPacketLayers.packet_overlap_le",
+    "NativeActualRichPacketLayers.computed_reference_budget_le",
+    "NativeActualRichPacketLayers.threshold_ratio_lower",
+    "NativeActualRichPacketLayers.construct_rich_packet_layers"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T13:23:07.211288+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "07602f81c395e88474f83a9e516e917f2ca84add1001b5e734c1673128e36a08",
+  "source_execution_complete_utc": "2026-10-05T13:24:32.733130+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T132923073754",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeActualRichPacketLayers.referenceConstant": [
+      "propext"
+    ],
+    "NativeActualRichPacketLayers.referenceConstant_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRichPacketLayers.packetMass_eq_of_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRichPacketLayers.real_le_referenceMinimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRichPacketLayers.original_point_mass_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRichPacketLayers.packet_overlap_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRichPacketLayers.computed_reference_budget_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRichPacketLayers.threshold_ratio_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualRichPacketLayers.construct_rich_packet_layers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T13:30:38.846017+00:00"
+}

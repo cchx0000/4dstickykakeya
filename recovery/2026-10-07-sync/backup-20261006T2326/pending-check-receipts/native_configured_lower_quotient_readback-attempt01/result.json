@@ -1,0 +1,68 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_configured_lower_quotient_readback",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_lower_quotient_readback.lean",
+  "source_sha256": "d4b42067665eeef0a3d87b7e0b86f5872ea9e3c34555cd7827ff68b967e635c5",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_configured_lower_quotient_readback.olean",
+  "names": [
+    "NativeConfiguredLowerQuotientReadback.lowerQuotient",
+    "NativeConfiguredLowerQuotientReadback.graphGrid_quotient",
+    "NativeConfiguredLowerQuotientReadback.coarse_height_readback",
+    "NativeConfiguredLowerQuotientReadback.point_quotient_readback",
+    "NativeConfiguredLowerQuotientReadback.lowerQuotient_dist",
+    "NativeConfiguredLowerQuotientReadback.key_center_dist_of_same_coarse_height",
+    "NativeConfiguredLowerQuotientReadback.key_center_dist_of_same_old_height"
+  ],
+  "started_utc": "2026-10-06T21:19:30.274775+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "1b060b2534304bdc21fcaab1eb6dbb34fbccfa6011db798e818fec1e3e44631e",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T21:20:06.299996+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2121",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeConfiguredLowerQuotientReadback.lowerQuotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredLowerQuotientReadback.graphGrid_quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredLowerQuotientReadback.coarse_height_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredLowerQuotientReadback.point_quotient_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredLowerQuotientReadback.lowerQuotient_dist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredLowerQuotientReadback.key_center_dist_of_same_coarse_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredLowerQuotientReadback.key_center_dist_of_same_old_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T21:22:15.359888+00:00"
+}

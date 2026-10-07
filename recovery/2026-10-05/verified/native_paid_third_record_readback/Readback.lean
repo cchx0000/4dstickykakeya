@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_paid_third_record_readback
+
+#print axioms NativePaidThirdRecordReadback.paid_record_from_budget

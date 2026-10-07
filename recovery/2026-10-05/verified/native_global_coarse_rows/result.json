@@ -1,0 +1,48 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_global_coarse_rows",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_global_coarse_rows.lean",
+  "source_sha256": "581be9d19005cddcbd19653d6695b413ce9fe3c139a2ae1aa09e7df43dde9105",
+  "names": [
+    "NativeGlobalCoarseRows.pair_fiber_le_projected_rows",
+    "NativeGlobalCoarseRows.core_projected_row_lower",
+    "NativeGlobalCoarseRows.core_projected_row_lower_absorbed",
+    "NativeGlobalCoarseRows.projected_row_volume_upper",
+    "NativeGlobalCoarseRows.projected_row_card_upper"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T08:15:57.462179+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeGlobalCoarseRows.pair_fiber_le_projected_rows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGlobalCoarseRows.core_projected_row_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGlobalCoarseRows.core_projected_row_lower_absorbed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGlobalCoarseRows.projected_row_volume_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGlobalCoarseRows.projected_row_card_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "73b8c415e9e35f9c600f6e1b91f500783670df96a60d775bbd6a6aad334fdb0a",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T08:44:55.443822+00:00"
+}

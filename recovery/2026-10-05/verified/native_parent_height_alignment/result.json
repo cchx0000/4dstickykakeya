@@ -1,0 +1,133 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_parent_height_alignment",
+  "source": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live/Theorems/Thm_StickyKakeya4_native_parent_height_alignment.lean",
+  "source_sha256": "c9e79fc8bd2ebebdba3a2fd22fc5e3dcfbe67f33a3aa801d863e95c6f2051498",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean/Theorems/Thm_StickyKakeya4_native_parent_height_alignment.olean",
+  "names": [
+    "NativeParentHeightAlignment.fineNode",
+    "NativeParentHeightAlignment.nodeWeight",
+    "NativeParentHeightAlignment.nodeCut",
+    "NativeParentHeightAlignment.mem_nodeCut",
+    "NativeParentHeightAlignment.nodeWeight_total",
+    "NativeParentHeightAlignment.nodeCut_card",
+    "NativeParentHeightAlignment.nodeCut_subset",
+    "NativeParentHeightAlignment.nodeCut_saturated",
+    "NativeParentHeightAlignment.exists_height_aligned_nodes",
+    "NativeParentHeightAlignment.heightNode",
+    "NativeParentHeightAlignment.heightNode_readback",
+    "NativeParentHeightAlignment.heightNode_occupied",
+    "NativeParentHeightAlignment.spatialAncestor_self",
+    "NativeParentHeightAlignment.fine_heightNode_readback",
+    "NativeParentHeightAlignment.cut_heightNode_readback",
+    "NativeParentHeightAlignment.height_plane_readback",
+    "NativeParentHeightAlignment.nodeCut_mixed_fiber_eq",
+    "NativeParentHeightAlignment.nodeCut_mixed_vertices_eq"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T15:48:07.446702+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "3a99605340813721f4199e6239d07f2371ab1bed194503c52168ade8949c1e87",
+  "source_execution_complete_utc": "2026-10-05T15:48:12.808904+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155124006464",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeParentHeightAlignment.fineNode": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.nodeWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.nodeCut": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.mem_nodeCut": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.nodeWeight_total": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.nodeCut_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.nodeCut_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.nodeCut_saturated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.exists_height_aligned_nodes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.heightNode": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.heightNode_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.heightNode_occupied": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.spatialAncestor_self": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.fine_heightNode_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.cut_heightNode_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.height_plane_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.nodeCut_mixed_fiber_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentHeightAlignment.nodeCut_mixed_vertices_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T15:51:34.638264+00:00"
+}

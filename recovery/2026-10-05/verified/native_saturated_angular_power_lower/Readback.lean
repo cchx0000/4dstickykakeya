@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_saturated_angular_power_lower
+
+#print axioms NativeSaturatedAngularPowerLower.local_scale_ratio
+#print axioms NativeSaturatedAngularPowerLower.ancestor_parent_power_upper
+#print axioms NativeSaturatedAngularPowerLower.actual_angular_scale_ratio
+#print axioms NativeSaturatedAngularPowerLower.cancel_parent_powers
+#print axioms NativeSaturatedAngularPowerLower.saturated_reference_power_lower

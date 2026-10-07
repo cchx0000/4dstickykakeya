@@ -1,0 +1,98 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T12:47:04.349303+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T124702882429",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T124702882429/AggregateReadback.lean"
+  ],
+  "readback_sha256": "172843b91803aac422aa737506e6fae4f8884b748e72969d8cc1e6dc893ec188",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_angular_menu_cost",
+      "source_sha256": "baf9a7acc1f1ae328d773a517c3ff65dfc26e9e47ba342c52382f0edc36e7f8e",
+      "olean_sha256": "951c9d957aa4aeca2f8af6d094b1bf82457adab31af535eace8ab5a3eef4ac26",
+      "names": [
+        "NativeActualAngularMenuCost.retained_mean_lower",
+        "NativeActualAngularMenuCost.actual_cost_ratio_lower",
+        "NativeActualAngularMenuCost.parent_scale_identity",
+        "NativeActualAngularMenuCost.original_factor_pos",
+        "NativeActualAngularMenuCost.stopping_weighted_numerator"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_automatic_weighted_grain_core",
+      "source_sha256": "d905d7fb3d067a85e665a6c06cf50514b578179ad4b8c4c648b865aade119bf5",
+      "olean_sha256": "d43253ae573bc6960cffd2530d55583349ccf6cb4e53efdc020eff011148e132",
+      "names": [
+        "NativeAutomaticWeightedGrainCore.threshold",
+        "NativeAutomaticWeightedGrainCore.threshold_pos",
+        "NativeAutomaticWeightedGrainCore.threshold_budget",
+        "NativeAutomaticWeightedGrainCore.threshold_crossmul",
+        "NativeAutomaticWeightedGrainCore.threshold_real",
+        "NativeAutomaticWeightedGrainCore.exists_automatic_simultaneous_dense_core"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_nodal_reference_lift",
+      "source_sha256": "743f4b36332325413ce972e84f040c4d98a6d5a7ee09070009edf143c899d470",
+      "olean_sha256": "266f231ccba83bee40024989dd15e1e76e59995b072ab94647d76fa2b259675a",
+      "names": [
+        "NativeNodalReferenceLift.roundedVertex",
+        "NativeNodalReferenceLift.roundedVertex_distance",
+        "NativeNodalReferenceLift.rounded_occupied_overlap",
+        "NativeNodalReferenceLift.referenceLift",
+        "NativeNodalReferenceLift.currentLift",
+        "NativeNodalReferenceLift.currentLift_snd_injective",
+        "NativeNodalReferenceLift.currentLift_card",
+        "NativeNodalReferenceLift.currentLift_mass",
+        "NativeNodalReferenceLift.currentLift_subset_reference",
+        "NativeNodalReferenceLift.referenceLift_original",
+        "NativeNodalReferenceLift.reference_label_duplication",
+        "NativeNodalReferenceLift.referenceLift_card",
+        "NativeNodalReferenceLift.boxReference",
+        "NativeNodalReferenceLift.box_reference_duplication",
+        "NativeNodalReferenceLift.boxReference_mass",
+        "NativeNodalReferenceLift.fixed_node_vertex_mass",
+        "NativeNodalReferenceLift.referenceLift_subset_box",
+        "NativeNodalReferenceLift.occupiedLabels_nodes",
+        "NativeNodalReferenceLift.rounded_currentLift_subset_box",
+        "NativeNodalReferenceLift.taggedPacket",
+        "NativeNodalReferenceLift.tagged_packet_overlap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_original_packet_reference",
+      "source_sha256": "0159c04ff02567c7098044cecc74e92a2d7f29e4de035cd980ac4cb04cefea9c",
+      "olean_sha256": "63ed63d7c3020d3b85371d9d74e481ea4711ad17dd1adba6f1f0be9a31d300aa",
+      "names": [
+        "NativeOriginalPacketReference.rawVertex",
+        "NativeOriginalPacketReference.full_fiber_mem_packet"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_tagged_packet_rows",
+      "source_sha256": "d39c1d389e0b08dfa3f6f96be458b171915476e7ca06012338be0b0894d20e26",
+      "olean_sha256": "7881c3242f04ed7b8f2ca29d0960b92425bb0927d76f2b4b4b76bdf43d4b8591",
+      "names": [
+        "NativeTaggedPacketRows.reference",
+        "NativeTaggedPacketRows.packetSet",
+        "NativeTaggedPacketRows.assignedLabel",
+        "NativeTaggedPacketRows.short_closure_tag_subset"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T12:48:51.658071+00:00",
+  "exit_code": 0
+}

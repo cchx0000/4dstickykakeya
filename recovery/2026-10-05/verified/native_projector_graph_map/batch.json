@@ -1,0 +1,73 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:40:33.780815+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T154033020820",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T154033020820/AggregateReadback.lean"
+  ],
+  "readback_sha256": "05e40e3ee745c3bd05b0406d41b6b7be5cffd6ad0dd79414e2111a87340bb21e",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_projector_graph_map",
+      "source_sha256": "ea09f28602c1a4b6b5d06fb7b88742a7f2e2eff3e720ba042192279a0da9cc16",
+      "olean_sha256": "b94b18d62b2a64f70df964a911ed89f78883eee528fb3e0c2a3df827dcdea1b6",
+      "names": [
+        "NativeProjectorGraphMap.projectionMap",
+        "NativeProjectorGraphMap.projectionMap_bijective",
+        "NativeProjectorGraphMap.projectionEquiv",
+        "NativeProjectorGraphMap.projectionEquiv_apply",
+        "NativeProjectorGraphMap.inverse_norm",
+        "NativeProjectorGraphMap.inverse_projection",
+        "NativeProjectorGraphMap.graphMap",
+        "NativeProjectorGraphMap.graphMap_val",
+        "NativeProjectorGraphMap.graphMap_decomposition",
+        "NativeProjectorGraphMap.graphMap_norm",
+        "NativeProjectorGraphMap.graphMap_characterization",
+        "NativeProjectorGraphMap.graphMap_horizontal",
+        "NativeProjectorGraphMap.graphMap_variation"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_selected_horizontal_graph_chart",
+      "source_sha256": "a6c52c01fbde379d5103f39917c440dc6ff60567c27968a807389d2b1df15695",
+      "olean_sha256": "c61fc088f0591a0a3a77248475057bc89678581151d6e2611b851a8ddc879279",
+      "names": [
+        "NativeSelectedHorizontalGraphChart.totalGraph",
+        "NativeSelectedHorizontalGraphChart.totalGraph_eq",
+        "NativeSelectedHorizontalGraphChart.totalGraph_norm",
+        "NativeSelectedHorizontalGraphChart.totalGraph_horizontal",
+        "NativeSelectedHorizontalGraphChart.totalGraph_characterization",
+        "NativeSelectedHorizontalGraphChart.totalGraph_variation",
+        "NativeSelectedHorizontalGraphChart.select_horizontal_graph_chart"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_weighted_height_node_selection",
+      "source_sha256": "740a4192e524801740045944db50cef6fbfe0146da30732fad7e4ddc1d9ba422",
+      "olean_sha256": "4832e538792e1b0ab9e0ac84b5c26b27fa6a61dca58aa1426107ee18393edc3f",
+      "names": [
+        "NativeWeightedHeightNodeSelection.weighted_height_node_selection",
+        "NativeWeightedHeightNodeSelection.weighted_height_node_selection_nonempty",
+        "NativeWeightedHeightNodeSelection.cutByNodes",
+        "NativeWeightedHeightNodeSelection.mem_cutByNodes",
+        "NativeWeightedHeightNodeSelection.surviving_grain_fiber_eq",
+        "NativeWeightedHeightNodeSelection.surviving_grain_label_fiber_eq",
+        "NativeWeightedHeightNodeSelection.surviving_grain_weight_eq"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:40:38.345141+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,22 @@
+import Theorems.Thm_StickyKakeya4_native_queried_vertex_weights
+
+#print axioms NativeQueriedVertexWeights.pointWeight
+#print axioms NativeQueriedVertexWeights.vertices
+#print axioms NativeQueriedVertexWeights.vertexMultiplicity
+#print axioms NativeQueriedVertexWeights.vertexCap
+#print axioms NativeQueriedVertexWeights.mass_pointWeight
+#print axioms NativeQueriedVertexWeights.reference_mass
+#print axioms NativeQueriedVertexWeights.vertex_mass_eq
+#print axioms NativeQueriedVertexWeights.vertex_upper_cross
+#print axioms NativeQueriedVertexWeights.vertex_lower_cross
+#print axioms NativeQueriedVertexWeights.vertex_mass_bounds
+#print axioms NativeQueriedVertexWeights.vertex_mass_le_cap
+#print axioms NativeQueriedVertexWeights.vertexCap_pos
+#print axioms NativeQueriedVertexWeights.vertexCap_le_average
+#print axioms NativeQueriedVertexWeights.mass_le_vertices_mul_cap
+#print axioms NativeQueriedVertexWeights.weighted_approximate_predecessor_vertices
+#print axioms NativeQueriedVertexWeights.center_injective
+#print axioms NativeQueriedVertexWeights.embedded_vertex_cap
+#print axioms NativeQueriedVertexWeights.weighted_predecessor_vertices
+#print axioms NativeQueriedVertexWeights.queried_vertex_mass_bounds
+#print axioms NativeQueriedVertexWeights.squared_grain_width

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_parent_horizontal_query_menu
+
+#print axioms NativeParentHorizontalQueryMenu.size
+#print axioms NativeParentHorizontalQueryMenu.relations
+#print axioms NativeParentHorizontalQueryMenu.relations_refl
+#print axioms NativeParentHorizontalQueryMenu.relations_symm
+#print axioms NativeParentHorizontalQueryMenu.uniformities

@@ -1,0 +1,89 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_weighted_canonical_recoding",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean",
+  "source_sha256": "d64c52556a7dc26829c2246cca22a79f6d66af0a3e78683123326bc60ad173dc",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.olean",
+  "names": [
+    "WeightedCanonicalRecoding.pointLabel",
+    "WeightedCanonicalRecoding.oldPoints",
+    "WeightedCanonicalRecoding.fineXCells",
+    "WeightedCanonicalRecoding.old_label_fiber_eq",
+    "WeightedCanonicalRecoding.old_label_fiber_card",
+    "WeightedCanonicalRecoding.label_weight_eq_sum_point_weights",
+    "WeightedCanonicalRecoding.retained_point_weight_mass",
+    "WeightedCanonicalRecoding.threshold",
+    "WeightedCanonicalRecoding.threshold_nonneg",
+    "WeightedCanonicalRecoding.threshold_budget",
+    "WeightedCanonicalRecoding.real_retention",
+    "WeightedCanonicalRecoding.exists_actual_coarse_recoding"
+  ],
+  "started_utc": "2026-10-06T06:00:20.883561+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "f538b9493f54d5c71682d77c898715d394598b5c5adfd744174995a9c87f01e1",
+  "readback_exit_code": 0,
+  "axioms": {
+    "WeightedCanonicalRecoding.oldPoints": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.fineXCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.old_label_fiber_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.old_label_fiber_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.label_weight_eq_sum_point_weights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.retained_point_weight_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.threshold": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.threshold_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.threshold_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.real_retention": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.exists_actual_coarse_recoding": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedCanonicalRecoding.pointLabel": []
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:00:25.846443+00:00"
+}

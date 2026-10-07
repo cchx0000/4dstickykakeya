@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_variable_height_reference_counts
+
+#print axioms NativeVariableHeightReferenceCounts.column_point_image
+#print axioms NativeVariableHeightReferenceCounts.column_multiplicity_card
+#print axioms NativeVariableHeightReferenceCounts.reference_numerator_height_bounds
+#print axioms NativeVariableHeightReferenceCounts.reference_column_point_power_bounds

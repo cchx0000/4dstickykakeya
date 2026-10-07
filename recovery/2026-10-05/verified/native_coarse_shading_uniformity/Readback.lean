@@ -1,0 +1,20 @@
+import Theorems.Thm_StickyKakeya4_native_coarse_shading_uniformity
+
+#print axioms NativeCoarseShadingUniformity.nested_fiber_card_sum
+#print axioms NativeCoarseShadingUniformity.nested_image_fiber_card_comparable
+#print axioms NativeCoarseShadingUniformity.cellAncestor
+#print axioms NativeCoarseShadingUniformity.pairAncestor
+#print axioms NativeCoarseShadingUniformity.fixedPair
+#print axioms NativeCoarseShadingUniformity.projectedLabel_ancestor
+#print axioms NativeCoarseShadingUniformity.fixedPair_ancestor
+#print axioms NativeCoarseShadingUniformity.fixedPair_image_ancestor
+#print axioms NativeCoarseShadingUniformity.rowCells
+#print axioms NativeCoarseShadingUniformity.rowCells_at_source
+#print axioms NativeCoarseShadingUniformity.mem_rowCells
+#print axioms NativeCoarseShadingUniformity.rowCells_card_eq
+#print axioms NativeCoarseShadingUniformity.rowCells_eq_ancestor_image
+#print axioms NativeCoarseShadingUniformity.rowChildren
+#print axioms NativeCoarseShadingUniformity.rowChildren_card_eq
+#print axioms NativeCoarseShadingUniformity.rowChildren_comparable
+#print axioms NativeCoarseShadingUniformity.rowCells_comparable
+#print axioms NativeCoarseShadingUniformity.full_source_shading_readback

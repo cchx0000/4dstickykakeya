@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_paid_third_readback
+
+#print axioms NativePaidThirdReadback.constants_from_budget

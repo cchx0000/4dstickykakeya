@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_finite_slice_homogeneity
+
+#print axioms NativeFiniteSliceHomogeneity.coarsen_fiber_comparison
+#print axioms NativeFiniteSliceHomogeneity.fiber_card_average_cross

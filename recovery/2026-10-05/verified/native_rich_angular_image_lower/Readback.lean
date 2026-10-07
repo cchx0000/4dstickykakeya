@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_rich_angular_image_lower
+
+#print axioms NativeRichAngularImageLower.point_fiber_le_angular_image
+#print axioms NativeRichAngularImageLower.rich_class_angular_lower

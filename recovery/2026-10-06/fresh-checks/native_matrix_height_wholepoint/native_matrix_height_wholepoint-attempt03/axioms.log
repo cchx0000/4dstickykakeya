@@ -1,0 +1,18 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/50ac26b07fa694d51922f1ce244c1833656cc0b17994a0e9eb4a13c79167a882.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_matrix_height_wholepoint-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_matrix_height_wholepoint-attempt03/Readback.lean"]
+SOURCE_SHA256 5a77f1d9eaaab32a2e85c3fd4c5adf16ef4fdfd7aee83fff615330290756de7d
+'NativeMatrixHeightWholePoint.mass' depends on axioms: [propext, Quot.sound]
+'NativeMatrixHeightWholePoint.heightCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.modulus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.modulus_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.same_height_cell_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.select_color_per_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.select_one_height_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.select_height_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.modulus_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.select_above_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.edgeLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.edgeLift_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.edgeLift_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatrixHeightWholePoint.select_original_edge_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

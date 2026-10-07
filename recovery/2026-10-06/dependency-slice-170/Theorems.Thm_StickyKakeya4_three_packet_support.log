@@ -1,0 +1,8 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-R", "/workspace/scratch/5f2524fd4117/4dstickykakeya", "-o", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/build/lib/lean/Theorems/Thm_StickyKakeya4_three_packet_support.olean", "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_three_packet_support.lean"]
+SOURCE_SHA256 24b76214a8b6d2636ee117912f726a4d9e7ec665770617489e9a239332921e4f
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_three_packet_support.lean:92:4: warning: Try `simp at hprob` instead of `simpa using hprob`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_three_packet_support.lean:100:13: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+EXIT_CODE=0

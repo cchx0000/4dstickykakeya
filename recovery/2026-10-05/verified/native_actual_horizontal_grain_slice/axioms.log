@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141406329215", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141406329215/AggregateReadback.lean"]
+READBACK_SHA256 251d39fcdba32bd0cd04d87852473a8aa54a310bff770f067c78604d3bb947a0
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:14:07.085325+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8781188 kB
+'NativeActualHorizontalGrainSlice.actual_node_horizontal_slice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualHorizontalGrainSlice.node_graph_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

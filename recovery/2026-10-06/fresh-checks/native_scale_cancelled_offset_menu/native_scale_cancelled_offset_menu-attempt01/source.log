@@ -1,0 +1,26 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b1da5ea299ed42f53d3fd612149a7995540ade020fdd7020972b04d8a0cc4e49.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.lean"]
+SOURCE_SHA256 c9e78bc5690c68360e871decda429ba0397d4b42f5f41cd4265d75922666dbba
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.lean:31:39: error: unsolved goals
+E delta rho v : ℝ
+hrho : 0 < rho
+hE : E ≤ delta
+hscale : delta ≤ rho
+hv : v ≤ rho
+⊢ 4 * 16 = 64
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.lean:69:49: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.lean:83:37: error: Application type mismatch: The argument
+  hLower i
+has type
+  ∀ p ∈ image Prod.fst S,
+    lower * (64 / rho i) ^ kappa ≤
+      ↑(#(@image (P × T) (Fin 4 → ℤ) (fun a b => Fintype.decidablePiFintype a b)
+            (fun z => angularKey (64 / rho i) (theta z.2)) ({z ∈ S | z.1 = p})))
+but is expected to have type
+  ∀ p ∈ image Prod.fst S,
+    lower * M i ^ kappa ≤
+      ↑(#(@image (P × T) (Fin 4 → ℤ) (fun a b => propDecidable (a = b)) (fun z => angle i z.2) ({z ∈ S | z.1 = p})))
+in the application
+  And.intro (hLower i)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_scale_cancelled_offset_menu.lean:95:17: error: failed to prove positivity/nonnegativity/nonzeroness
+
+EXIT_CODE=1

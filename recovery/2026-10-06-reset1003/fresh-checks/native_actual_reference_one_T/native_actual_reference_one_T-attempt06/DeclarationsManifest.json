@@ -1,0 +1,64 @@
+{
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean",
+  "source_sha256": "7eb76b4e31c548338af45e5fe0600c9e776df560a0b5884549fbfe5f69056b31",
+  "declaration_count": 5,
+  "namespaces": [
+    "NativeRankTwoXYStageReadback",
+    "NativeActualCoherentHeightCoreFull",
+    "NativeActualXYStageHeightJoinFull"
+  ],
+  "units": [
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_rank_two_XY_stage_readback.lean",
+      "origin_sha256": "b1500d282338ba2653fc70143d9874d678d23462f83b7c9b701edfd44c5e6915",
+      "namespace": "NativeRankTwoXYStageReadback",
+      "declarations": [
+        "NativeRankTwoXYStageReadback.secondDimension",
+        "NativeRankTwoXYStageReadback.extract"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_coherent_height_core_full.lean",
+      "origin_sha256": "fcb25b2b8ce9da2e12d1637363d6c51007d9d23e6e8cf1065bb1061b8bccf0f0",
+      "namespace": "NativeActualCoherentHeightCoreFull",
+      "declarations": [
+        "NativeActualCoherentHeightCoreFull.integral_width",
+        "NativeActualCoherentHeightCoreFull.from_parent_profiles"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_XY_stage_height_join_full.lean",
+      "origin_sha256": "9aa2e1e69d9ce531a12726e6045890cf43dea2e14bb20e527bd4ab24291374df",
+      "namespace": "NativeActualXYStageHeightJoinFull",
+      "declarations": [
+        "NativeActualXYStageHeightJoinFull.from_xy_stage"
+      ]
+    }
+  ],
+  "scope": "UNVERIFIED combined same-E2/one-final-third constructor; original source snapshots preserved. Source state recorded here; no gate launched.",
+  "adaptations": [
+    {
+      "change": "Future import adaptation to the source-passed physical/third combined package; preserves all original namespaces and proof bodies. One-T adds explicit nodePlane namespace opening."
+    },
+    {
+      "attempt": 2,
+      "changes": "Terminal attempt01: unfold actual history m/q/r lets and numeral rank; open existing mesh/coefficient/history namespaces; make implicit rank ell=2 explicit. No source witness or quantitative hypothesis changed."
+    },
+    {
+      "attempt": 3,
+      "changes": "Terminal attempt02 fixes: normalize real5 coefficient, open fineNode/incidence namespaces, explicit Nat power positivity, unfold actual height-cut U/cost before cast, and normalize the literal coherence-charge readback. No hypotheses, dimensions or witnesses changed."
+    },
+    {
+      "attempt": 4,
+      "changes": "Terminal attempt03: return the literal computed predecessorProduct as Lgrain rather than an unconstrained existential placeholder; repair layout of the actual retention multiplication. All source/cost assumptions unchanged."
+    },
+    {
+      "attempt": 5,
+      "changes": "Terminal attempt04: explicit eta-expanded equality for the unchanged actual node tuple plane; remove the redundant ring after rank arithmetic. Statements and witness choices unchanged."
+    },
+    {
+      "attempt": 6,
+      "changes": "Terminal attempt05 sole diagnostic: strict unnecessary-sequence linter; replace one <;> by ;. All statements and proof substance unchanged."
+    }
+  ]
+}

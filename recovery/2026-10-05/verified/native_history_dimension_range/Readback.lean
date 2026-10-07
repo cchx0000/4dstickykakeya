@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_history_dimension_range
+
+#print axioms NativeHistoryDimensionRange.extraCutoff
+#print axioms NativeHistoryDimensionRange.extraCutoff_spec
+#print axioms NativeHistoryDimensionRange.history_stage_dimension_range

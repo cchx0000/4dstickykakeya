@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_translated_slice_grain_join
+
+#print axioms NativeTranslatedSliceGrainJoin.construct_translated_slice_grain

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_same_point_slope_consistency
+set_option autoImplicit false
+#print axioms NativeSamePointSlopeConsistency.functional_witness_error
+#print axioms NativeSamePointSlopeConsistency.from_actual_line_and_quotient
+#print axioms NativeSamePointSlopeConsistency.same_point_error
+#print axioms NativeSamePointSlopeConsistency.bounded_discrepancy
+#print axioms NativeSamePointSlopeConsistency.from_actual_double_representation

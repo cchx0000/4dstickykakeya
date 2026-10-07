@@ -1,0 +1,48 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_separated_gram_determinant",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_separated_gram_determinant.lean",
+  "source_sha256": "04a5275edd03566a995b9439240e4f324d9b1683ca9e44945de0f97a428cda38",
+  "names": [
+    "NativeSeparatedGramDeterminant.infDist_le_norm_gramSchmidt",
+    "NativeSeparatedGramDeterminant.inner_gramSchmidt_self",
+    "NativeSeparatedGramDeterminant.gram_det_eq_prod_norm_sq",
+    "NativeSeparatedGramDeterminant.basis_gram_det_lower",
+    "NativeSeparatedGramDeterminant.gram_det_lower_of_span_distance"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T07:45:34.525150+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeSeparatedGramDeterminant.infDist_le_norm_gramSchmidt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSeparatedGramDeterminant.inner_gramSchmidt_self": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSeparatedGramDeterminant.gram_det_eq_prod_norm_sq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSeparatedGramDeterminant.basis_gram_det_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSeparatedGramDeterminant.gram_det_lower_of_span_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "fedc3a0ca417dbc762c11632685863f2183d44a99547bd67e7ad74afe887b119",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T07:54:24.326731+00:00"
+}

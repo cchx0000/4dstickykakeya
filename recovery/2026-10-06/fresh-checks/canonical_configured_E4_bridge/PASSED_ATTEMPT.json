@@ -1,0 +1,97 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_canonical_configured_E4_bridge",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean",
+  "source_sha256": "f0b0e3d214b673fcdb37ca566499ff045a8a60fd765f07619a5dc8ec6371bf70",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.olean",
+  "names": [
+    "CanonicalConfiguredE4Bridge.tangentDim",
+    "CanonicalConfiguredE4Bridge.normalDim",
+    "CanonicalConfiguredE4Bridge.tangent",
+    "CanonicalConfiguredE4Bridge.normal",
+    "CanonicalConfiguredE4Bridge.assemble",
+    "CanonicalConfiguredE4Bridge.configuredChart",
+    "CanonicalConfiguredE4Bridge.configured_coordinate_error",
+    "CanonicalConfiguredE4Bridge.dist_le_three_of_coordinate_error",
+    "CanonicalConfiguredE4Bridge.configuredChart_distance",
+    "CanonicalConfiguredE4Bridge.configuredPoint",
+    "CanonicalConfiguredE4Bridge.configuredPoint_distance",
+    "CanonicalConfiguredE4Bridge.actual_rounding_modulus",
+    "CanonicalConfiguredE4Bridge.actual_rounding_cost",
+    "CanonicalConfiguredE4Bridge.select_actual_original_edges"
+  ],
+  "started_utc": "2026-10-06T06:13:39.975991+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "b6fd9a526ccf314a00c5f35dc87ee343a018dbf5678b7eef207f2f7d0e28d568",
+  "readback_exit_code": 0,
+  "axioms": {
+    "CanonicalConfiguredE4Bridge.tangent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.normal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.assemble": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.configuredChart": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.configured_coordinate_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.dist_le_three_of_coordinate_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.configuredChart_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.configuredPoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.configuredPoint_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.actual_rounding_modulus": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.actual_rounding_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.select_actual_original_edges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalConfiguredE4Bridge.tangentDim": [],
+    "CanonicalConfiguredE4Bridge.normalDim": []
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:13:49.539843+00:00"
+}

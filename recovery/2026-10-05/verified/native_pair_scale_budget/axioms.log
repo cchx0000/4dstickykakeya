@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_pair_scale_budget_readback.lean"]
+SOURCE_SHA256 0c4950de0f17fbe6166150294996dcfb376a8d9e7d16550e36f888804ece5334
+FIFO compiler ticket: 01791184225038702150-e0db76b67d0942399ea208af7cbfdc3d.request
+FIFO compiler acquired UTC: 2026-10-05T07:10:25.039077+00:00
+'NativePairScaleBudget.radix_four_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePairScaleBudget.dyadic_scale_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePairScaleBudget.relative_scale_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePairScaleBudget.relative_local_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePairScaleBudget.relative_power_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePairScaleBudget.parameter_margins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePairScaleBudget.conditional_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

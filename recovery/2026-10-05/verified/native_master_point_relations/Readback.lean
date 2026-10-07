@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_master_point_relations
+
+#print axioms NativeMasterPointRelations.masterRelations
+#print axioms NativeMasterPointRelations.masterRelations_refl
+#print axioms NativeMasterPointRelations.masterRelations_symm
+#print axioms NativeMasterPointRelations.master_uniformities

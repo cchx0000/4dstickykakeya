@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_normalized_offset_time
+
+#print axioms NativeNormalizedOffsetTime.same_floor_distance
+#print axioms NativeNormalizedOffsetTime.quantized_time_distance
+#print axioms NativeNormalizedOffsetTime.physical_cell_time_distance
+#print axioms NativeNormalizedOffsetTime.raw_height_window
+#print axioms NativeNormalizedOffsetTime.chart_height_window
+#print axioms NativeNormalizedOffsetTime.translated_height_window

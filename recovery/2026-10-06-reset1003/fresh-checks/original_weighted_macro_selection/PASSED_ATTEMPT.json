@@ -1,0 +1,84 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_original_weighted_macro_selection",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_original_weighted_macro_selection.lean",
+  "source_sha256": "b01b29f064dd6b5304115cc667ade89f5bcdb07c753a6a671643c499b9570b4f",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_original_weighted_macro_selection.olean",
+  "names": [
+    "OriginalWeightedMacroSelection.localPoints",
+    "OriginalWeightedMacroSelection.localHeights",
+    "OriginalWeightedMacroSelection.sum_original_local_points",
+    "OriginalWeightedMacroSelection.occupiedHeightPairs",
+    "OriginalWeightedMacroSelection.local_heights_pair_fiber",
+    "OriginalWeightedMacroSelection.sum_local_heights_eq_pairs",
+    "OriginalWeightedMacroSelection.sum_local_heights_eq_height_cells",
+    "OriginalWeightedMacroSelection.weighted_denominator_of_height_cells",
+    "OriginalWeightedMacroSelection.exists_original_weighted_macro",
+    "OriginalWeightedMacroSelection.exists_physical_weighted_macro"
+  ],
+  "started_utc": "2026-10-06T14:29:42.479953+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "9f1cc1ad46acea6c7726f8861f22ddd7cd731b98d388fdeb836d565d18b10222",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T14:36:13.676624+00:00",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1443",
+  "readback_exit_code": 0,
+  "axioms": {
+    "OriginalWeightedMacroSelection.localPoints": [
+      "propext",
+      "Quot.sound"
+    ],
+    "OriginalWeightedMacroSelection.localHeights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OriginalWeightedMacroSelection.sum_original_local_points": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OriginalWeightedMacroSelection.occupiedHeightPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OriginalWeightedMacroSelection.local_heights_pair_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OriginalWeightedMacroSelection.sum_local_heights_eq_pairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OriginalWeightedMacroSelection.sum_local_heights_eq_height_cells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OriginalWeightedMacroSelection.weighted_denominator_of_height_cells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OriginalWeightedMacroSelection.exists_original_weighted_macro": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OriginalWeightedMacroSelection.exists_physical_weighted_macro": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T14:53:13.461599+00:00",
+  "canonical_scope": "rechecked_existing_canonical_source"
+}

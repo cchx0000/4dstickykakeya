@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_variable_height_population
+
+#print axioms NativeVariableHeightPopulation.phase_height_population
+#print axioms NativeVariableHeightPopulation.parent_height_population
+#print axioms NativeVariableHeightPopulation.height_population_upper
+#print axioms NativeVariableHeightPopulation.height_population_upper_eight
+#print axioms NativeVariableHeightPopulation.columnPair
+#print axioms NativeVariableHeightPopulation.column_phase_height_image
+#print axioms NativeVariableHeightPopulation.column_height_image
+#print axioms NativeVariableHeightPopulation.reference_numerator_lower

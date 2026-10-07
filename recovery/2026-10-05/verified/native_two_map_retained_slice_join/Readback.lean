@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_join
+
+#print axioms NativeTwoMapRetainedSliceJoin.height_image_cap
+#print axioms NativeTwoMapRetainedSliceJoin.height_card_le_of_class_bounds
+#print axioms NativeTwoMapRetainedSliceJoin.menu_classes_all_radius64

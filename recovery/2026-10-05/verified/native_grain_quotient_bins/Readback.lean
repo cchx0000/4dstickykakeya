@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_grain_quotient_bins
+
+#print axioms NativeGrainQuotientBins.label
+#print axioms NativeGrainQuotientBins.box
+#print axioms NativeGrainQuotientBins.label_mem_box
+#print axioms NativeGrainQuotientBins.box_card
+#print axioms NativeGrainQuotientBins.occupied_card
+#print axioms NativeGrainQuotientBins.exists_dense_fiber
+#print axioms NativeGrainQuotientBins.exists_dense_quotient_fiber
+#print axioms NativeGrainQuotientBins.heightFiber
+#print axioms NativeGrainQuotientBins.rawCoordinates
+#print axioms NativeGrainQuotientBins.diameter
+#print axioms NativeGrainQuotientBins.diameter_pos
+#print axioms NativeGrainQuotientBins.height_fiber_diameter
+#print axioms NativeGrainQuotientBins.mixed_occupied_quotient_card

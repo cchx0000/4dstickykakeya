@@ -1,0 +1,30 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_scheduled_local_multiplicity",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_scheduled_local_multiplicity.lean",
+  "source_sha256": "5c4d4f0ca3db9f5d53cc5994dbeeef3e2bf212bb6f8aee3093f2be06b7130aea",
+  "names": [
+    "NativeScheduledLocalMultiplicity.exists_retained_scheduled_multiplicity",
+    "NativeScheduledLocalMultiplicity.exists_original_scheduled_multiplicity"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T04:58:08.085325+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeScheduledLocalMultiplicity.exists_retained_scheduled_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeScheduledLocalMultiplicity.exists_original_scheduled_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "c903af57c16ad39cb595513156b480d60d5e9baa6bfe921c334bde1c9c6077cd",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T04:58:44.995259+00:00"
+}

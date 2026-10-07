@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_final_third_total_mass
+set_option autoImplicit false
+#print axioms NativeActualFinalThirdTotalMass.exists_actual_total_supplier

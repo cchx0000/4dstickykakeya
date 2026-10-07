@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_actual_dimension_range_configuration
+
+#print axioms NativeActualDimensionRangeConfiguration.exists_actual_dimension_range_configuration
+#print axioms NativeActualDimensionRangeConfiguration.extremalExponent_le_two

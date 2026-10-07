@@ -1,0 +1,9 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_local_parent_source_counts_readback.lean"]
+SOURCE_SHA256 cf6dbcd70308536e74c862d97cdac05960abb260fb715a10d8a7d7956742668d
+FIFO compiler ticket: 01791177088507699612-d626ec3390a24efd86eea237d53a076b.request
+FIFO compiler acquired UTC: 2026-10-05T05:11:28.508044+00:00
+'NativeLocalParentSourceCounts.card_filter_originalLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentSourceCounts.source_carrierBallCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentSourceCounts.source_containedTubeCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

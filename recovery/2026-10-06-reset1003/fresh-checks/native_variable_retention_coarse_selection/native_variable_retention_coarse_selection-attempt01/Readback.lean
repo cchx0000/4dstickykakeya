@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_variable_retention_coarse_selection
+set_option autoImplicit false
+#print axioms NativeVariableRetentionCoarseSelection.original_mass_le_selected_real
+#print axioms NativeVariableRetentionCoarseSelection.same_reference_coarse_selection

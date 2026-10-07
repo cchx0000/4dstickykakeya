@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_parent_height_spatial_cells
+
+#print axioms NativeParentHeightSpatialCells.same_height_cell_close
+#print axioms NativeParentHeightSpatialCells.same_parent_height_distance
+#print axioms NativeParentHeightSpatialCells.parent_height_spatial_count
+#print axioms NativeParentHeightSpatialCells.dyadic_scale_le_one
+#print axioms NativeParentHeightSpatialCells.dyadic_parent_height_spatial_count
+#print axioms NativeParentHeightSpatialCells.ancestor_height_spatial_count

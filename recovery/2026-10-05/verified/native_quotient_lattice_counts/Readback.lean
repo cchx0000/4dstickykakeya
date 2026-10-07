@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_quotient_lattice_counts
+
+#print axioms NativeQuotientLatticeCounts.global_card_le
+#print axioms NativeQuotientLatticeCounts.global_quotient_card_le
+#print axioms NativeQuotientLatticeCounts.quotient_counts

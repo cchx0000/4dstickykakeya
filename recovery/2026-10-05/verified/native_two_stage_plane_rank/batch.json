@@ -1,0 +1,88 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T09:13:28.946104+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py",
+    "--slots",
+    "2",
+    "--lock-dir",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T091326952765",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T091326952765/AggregateReadback.lean"
+  ],
+  "readback_sha256": "2ed285c80a7296556f387094bb39cc58c64e96fb6d0488ca6039fad6e5a5d929",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_last_menu_shading_size",
+      "source_sha256": "1bc0c9ae212ab02a65b2d2980e5284d446e0280e67611009b0f428041786e522",
+      "olean_sha256": "2561a07413dda838c32d8007a24db41f7bc1f5afaa8d038c42ae12cca78e4f74",
+      "names": [
+        "NativeLastMenuShadingSize.upperDepth_scale_lower",
+        "NativeLastMenuShadingSize.rowCells_eq_rows",
+        "NativeLastMenuShadingSize.window_core_global_row_bounds",
+        "NativeLastMenuShadingSize.rowCells_volume",
+        "NativeLastMenuShadingSize.row_volume_bounds_of_global_count",
+        "NativeLastMenuShadingSize.coefficient_power_lower",
+        "NativeLastMenuShadingSize.absorb_global_count_and_volume"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_stage_transverse_tuples",
+      "source_sha256": "7dfaa4d1d7b2bac7ad34fdec304a6cf2cfe09953088774b3e85c4e4b64d278b1",
+      "olean_sha256": "dddbcd5c3d7754affd0f00faa32ee79cfbe7bd0e6cfada8df30493669ddf9bd8",
+      "names": [
+        "NativeTwoStageTransverseTuples.unit_mass_eq_card",
+        "NativeTwoStageTransverseTuples.unit_chainMass_eq_card",
+        "NativeTwoStageTransverseTuples.point_near_le_half",
+        "NativeTwoStageTransverseTuples.point_transverse_chains",
+        "NativeTwoStageTransverseTuples.previous_rank_menu_transverse_chains"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_stage_plane_rank",
+      "source_sha256": "f5e8e4dd1cfefdd100e45ac38cccc43ceb07bdbabe1adba1213ec4ffb702b605",
+      "olean_sha256": "f80a301d5a968b11f19a863cb0269e7052b4143ec87d4994479c46f1a9572f04",
+      "names": [
+        "NativeTwoStagePlaneRank.point_plane_rank_eq",
+        "NativeTwoStagePlaneRank.previous_rank_menu_plane_rank"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_middle_two_scale_balance",
+      "source_sha256": "de03e62318bff3a317d0a233df5802da5e9981bd67071940b07ed823b284a5e3",
+      "olean_sha256": "7608e944d85fae976eb35965bd30e8f7b792829a0b35a01e04d3450770ae5259",
+      "names": [
+        "NativeMiddleTwoScaleBalance.middle_pair_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_scale_boundary_balance",
+      "source_sha256": "94e9dc064002965ad32bc3f0c214c2344e1906b651419e78df32138a41390b34",
+      "olean_sha256": "1785303687105ac643477ba6d6edfca419b97fa6d89486653448184ab058658b",
+      "names": [
+        "NativeTwoScaleBoundaryBalance.depthPower_mono",
+        "NativeTwoScaleBoundaryBalance.boundary_pair_bounds",
+        "NativeTwoScaleBoundaryBalance.all_pair_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_one_source_cutoff",
+      "source_sha256": "87f4aeb3724d5b7b2300844d6aa0ef35c54dc0d4b0a1637504ecbf4a52ec3187",
+      "olean_sha256": "f579c2ec5272ad13a1b10e66a98a758faca8d7347567ea615824d3c987bf5fdb",
+      "names": [
+        "NativeRankOneSourceCutoff.exists_source_cutoff"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T09:17:59.347364+00:00",
+  "exit_code": 0
+}

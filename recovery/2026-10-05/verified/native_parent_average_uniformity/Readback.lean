@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_parent_average_uniformity
+#print axioms NativeParentAverageUniformity.multiplicity_le_of_fiber_comparison
+#print axioms NativeParentAverageUniformity.formal_pair_fiber
+#print axioms NativeParentAverageUniformity.parent_multiplicity_le

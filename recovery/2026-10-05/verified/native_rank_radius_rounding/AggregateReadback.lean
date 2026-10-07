@@ -1,0 +1,24 @@
+import Theorems.Thm_StickyKakeya4_native_original_coarse_tuple_menu
+import Theorems.Thm_StickyKakeya4_native_rank_radius_rounding
+import Theorems.Thm_StickyKakeya4_native_reference_core_global_near
+
+set_option autoImplicit false
+#print axioms NativeOriginalCoarseTupleMenu.coarseMenu
+#print axioms NativeOriginalCoarseTupleMenu.coarseTuple
+#print axioms NativeOriginalCoarseTupleMenu.formal_uniform_in_parent
+#print axioms NativeOriginalCoarseTupleMenu.previous_rank_coarse_tuple_menu
+#print axioms NativeOriginalCoarseTupleMenu.reference_point_parent_fiber_upper
+#print axioms NativeOriginalCoarseTupleMenu.retained_point_parent_fiber_upper
+#print axioms NativeRankRadiusRounding.atDepth
+#print axioms NativeRankRadiusRounding.atDepth_antitone
+#print axioms NativeRankRadiusRounding.atDepth_pos
+#print axioms NativeRankRadiusRounding.atDepth_ratio
+#print axioms NativeRankRadiusRounding.atDepth_succ
+#print axioms NativeRankRadiusRounding.exists_mesoscopic_test_radius
+#print axioms NativeRankRadiusRounding.exists_mesoscopic_test_radius_of_cutoff
+#print axioms NativeRankRadiusRounding.exists_near_radius
+#print axioms NativeRankRadiusRounding.exists_target_depth
+#print axioms NativeRankRadiusRounding.first_radius_lower
+#print axioms NativeRankRadiusRounding.gap_power
+#print axioms NativeRankRadiusRounding.target_le_first_radius
+#print axioms NativeReferenceCoreGlobalNear.core_global_near

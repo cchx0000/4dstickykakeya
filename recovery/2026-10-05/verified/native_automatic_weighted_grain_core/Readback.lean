@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_automatic_weighted_grain_core
+
+#print axioms NativeAutomaticWeightedGrainCore.threshold
+#print axioms NativeAutomaticWeightedGrainCore.threshold_pos
+#print axioms NativeAutomaticWeightedGrainCore.threshold_budget
+#print axioms NativeAutomaticWeightedGrainCore.threshold_crossmul
+#print axioms NativeAutomaticWeightedGrainCore.threshold_real
+#print axioms NativeAutomaticWeightedGrainCore.exists_automatic_simultaneous_dense_core

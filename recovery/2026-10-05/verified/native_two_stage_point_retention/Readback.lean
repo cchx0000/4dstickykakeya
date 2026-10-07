@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_two_stage_point_retention
+
+#print axioms NativeTwoStagePointRetention.point_retention_of_two_uniformities

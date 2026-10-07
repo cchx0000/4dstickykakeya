@@ -1,0 +1,8 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180113219024", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180113219024/AggregateReadback.lean"]
+READBACK_SHA256 5f9b603fa998325d9727e4db602c615f4827048e98e4e6a7ef0f14c7b50bd07e
+Dedicated staging slot 3 acquired UTC: 2026-10-05T18:02:27.340882+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8761752 kB
+'NativePointwiseAngularTrim.exists_pointwise_angular_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointwiseAngularTrim.point_image_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

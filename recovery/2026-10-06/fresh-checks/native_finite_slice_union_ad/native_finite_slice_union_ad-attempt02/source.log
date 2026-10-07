@@ -1,0 +1,16 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4eac14246d6e12bb718a1d72029fe1e021e55c70ccdbb4ddd03547af49a4c79f.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_finite_slice_union_ad.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_finite_slice_union_ad.lean"]
+SOURCE_SHA256 7031f7df3345dbf7cf6abd24a8429f8995a2fba78dee4496e2e9d0051b87bcb7
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_finite_slice_union_ad.lean:121:0: error: automatically included section variable(s) unused in theorem `NativeFiniteSliceUnionAD.global_bound_of_half_mesh`:
+  [PseudoMetricSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PseudoMetricSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_finite_slice_union_ad.lean:146:0: error: automatically included section variable(s) unused in theorem `NativeFiniteSliceUnionAD.heightWindow_eq_biUnion`:
+  [PseudoMetricSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PseudoMetricSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+
+EXIT_CODE=1

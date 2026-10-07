@@ -1,0 +1,28 @@
+{
+  "state": "UNVERIFIED_AFTER_TERMINAL_PROOF_REPAIR",
+  "created_utc": "2026-10-06T22:20:41.228957+00:00",
+  "source_path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_weight_source.lean",
+  "source_sha256": "a326fdded60b663b00e6fe5fa2aa33d750aacbc5b1721007fb00a374fcfcf0c9",
+  "namespace": "NativeActualRawWeightSource",
+  "declarations": [
+    "raw_cardinality_lower",
+    "paid_raw_cardinality_lower",
+    "normalization",
+    "rawWeight",
+    "sum_raw_weight",
+    "total_raw_weight",
+    "raw_shadow_card_bound",
+    "raw_weight_upper",
+    "same_Q_shading_bridge",
+    "same_Q_source_shading",
+    "exists_same_Q_source"
+  ],
+  "count": 11,
+  "scope": "Direct actual Hp-cardinality reader plus original nu-weight and true doublePair shadow readback; same Q selected once with eps=1, terminal profiles and actual native C retained. No sourceCells-card substitution for original raw mass.",
+  "previous_attempt": "verification/native_actual_raw_weight_source-attempt01",
+  "repairs": [
+    "Explicit cardinal-fiber lemma arguments",
+    "Named actual tube-fiber membership before applying raw capacity",
+    "Unfold W and Sref aliases before the total-weight rewrite"
+  ]
+}

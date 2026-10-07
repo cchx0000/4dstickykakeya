@@ -1,0 +1,9 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_local_transfer_budget_readback.lean"]
+SOURCE_SHA256 0e84a130d9a38d18b20f6a8dbd45ccbaa37e93d6b52ae64da79cbc86cf68d6d7
+FIFO compiler ticket: 01791178389311298352-67d01670f3534b67a15439f01adc742c.request
+FIFO compiler acquired UTC: 2026-10-05T05:33:09.311663+00:00
+'NativeLocalTransferBudget.transferCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalTransferBudget.transferCoefficient_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalTransferBudget.exists_parent_transfer_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

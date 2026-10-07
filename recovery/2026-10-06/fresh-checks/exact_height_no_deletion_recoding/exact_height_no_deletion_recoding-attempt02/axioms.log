@@ -1,0 +1,18 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/df834c4e443fcb6e63ae9ebb23981c681665121163915620f6d6a7e3dd1bcd05.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/exact_height_no_deletion_recoding-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/exact_height_no_deletion_recoding-attempt02/Readback.lean"]
+SOURCE_SHA256 47def10f6fa8fa2c91097f32180172765bd1cdab3c31b826d01444cb03fdd50b
+'ExactHeightNoDeletionRecoding.coarsenLabel' does not depend on any axioms
+'ExactHeightNoDeletionRecoding.actualLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.recodedY_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.newY_eq_oldY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.actualLabel_eq_coarsenLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.old_fiber_maps_into_one_Y' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.old_fiber_coarseX_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.exact_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.newY_coarseX_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.taggedEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.taggedEdges_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.taggedEdges_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.tagged_point_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExactHeightNoDeletionRecoding.actual_no_deletion_recoding' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

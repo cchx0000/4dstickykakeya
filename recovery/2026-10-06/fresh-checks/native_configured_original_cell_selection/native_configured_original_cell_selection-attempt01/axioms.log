@@ -1,0 +1,11 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1baa98fdb5e933440eb3881c3c27a11f062b547732a0305cd42d23d426311688.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_configured_original_cell_selection-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_configured_original_cell_selection-attempt01/Readback.lean"]
+SOURCE_SHA256 8b6510cc524897d8e32a74ffeda5eb4e7dc3bc8f0537326c6c3f58838dc1d879
+'NativeConfiguredOriginalCellSelection.same_cell_old_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredOriginalCellSelection.same_residue_original_cell' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConfiguredOriginalCellSelection.select_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredOriginalCellSelection.select_finite_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredOriginalCellSelection.select_original_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

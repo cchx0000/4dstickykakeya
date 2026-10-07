@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_actual_quotient_support
+
+#print axioms NativeActualQuotientSupport.product_support
+#print axioms NativeActualQuotientSupport.encoded_image
+#print axioms NativeActualQuotientSupport.halfWidth_pos
+#print axioms NativeActualQuotientSupport.quotient_exponent

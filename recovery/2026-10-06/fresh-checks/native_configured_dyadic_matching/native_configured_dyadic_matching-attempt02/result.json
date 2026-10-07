@@ -1,0 +1,45 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_configured_dyadic_matching",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.lean",
+  "source_sha256": "f9b1bfb537454115a469e1f4c113cf772062e5ceb151fc394fa980b3f89e9187",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_configured_dyadic_matching.olean",
+  "names": [
+    "NativeConfiguredDyadicMatching.configured_depth_le",
+    "NativeConfiguredDyadicMatching.configured_scale_product",
+    "NativeConfiguredDyadicMatching.configured_scale_identities",
+    "NativeConfiguredDyadicMatching.match_actual_scales"
+  ],
+  "started_utc": "2026-10-06T07:16:49.365414+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "17277f7c1c2b34b3516340c69eb182f77ee2088b6584c409b9cd99bd78dff3a4",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeConfiguredDyadicMatching.configured_depth_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredDyadicMatching.configured_scale_product": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredDyadicMatching.configured_scale_identities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredDyadicMatching.match_actual_scales": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T07:20:08.379997+00:00"
+}

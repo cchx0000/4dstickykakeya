@@ -1,0 +1,31 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T093609588642", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T093609588642/AggregateReadback.lean"]
+READBACK_SHA256 b385998f05288c855344d2f6ee1db242757a9cbaa8e30e5e90264c9245e5d613
+FIFO compiler ticket: 01791193494827474020-f0c4107b908042b8a83e77b2bbf6cb58.request
+FIFO compiler acquired UTC: 2026-10-05T09:44:54.828486+00:00
+'NativeFiniteTupleFibers.card_le_coarse_tuple_card_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteTupleFibers.coarse_tuple_card_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteTupleFibers.cons_pair_injective' does not depend on any axioms
+'NativeFiniteTupleFibers.list_map_fiber_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteTupleFibers.mem_tupleLifts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteTupleFibers.tupleLifts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteTupleFibers.tupleLifts_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankMesoscopicRadiusMenu.allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankMesoscopicRadiusMenu.allowed_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankMesoscopicRadiusMenu.allowed_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankMesoscopicRadiusMenu.exists_mesoscopic_rank_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRankMesoscopicRadiusMenu.exists_middle_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankMesoscopicRadiusMenu.menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankMesoscopicRadiusMenu.radius_ge_quarter_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankMesoscopicRadiusMenu.radius_le_cutoff_of_eighth_depth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRankMesoscopicRadiusMenu.radius_square_ge_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoStageTransversalityBudget.exists_half_mass_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoStageTransversalityBudget.retention_radix_le_of_transfer_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTwoStageTransversalityBudget.test_power_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

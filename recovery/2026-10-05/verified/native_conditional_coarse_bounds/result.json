@@ -1,0 +1,30 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_conditional_coarse_bounds",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_conditional_coarse_bounds.lean",
+  "source_sha256": "d4b3192d509680c543fba2abb10775733a4799c348c532c5ef837b113b71ddf1",
+  "names": [
+    "NativeConditionalCoarseBounds.physical_to_relative",
+    "NativeConditionalCoarseBounds.physical_lower"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T07:16:29.906776+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeConditionalCoarseBounds.physical_to_relative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConditionalCoarseBounds.physical_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "ebf6c8742e25a9acc595e0bc0023aba29c51d12f2e85d59ec09bdabd4816a38a",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T07:29:09.089439+00:00"
+}

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_reference_parent_grain_cleanup
+
+#print axioms NativeReferenceParentGrainCleanup.source_mixed_grain_core
+#print axioms NativeReferenceParentGrainCleanup.source_reference_parent_grain_cleanup

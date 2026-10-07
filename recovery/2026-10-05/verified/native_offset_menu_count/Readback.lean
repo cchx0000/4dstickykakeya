@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_offset_menu_count
+
+#print axioms NativeOffsetMenuCount.pairImage
+#print axioms NativeOffsetMenuCount.right_fiber_card
+#print axioms NativeOffsetMenuCount.offset_count_from_point_menus
+#print axioms NativeOffsetMenuCount.geometric_offset_count
+#print axioms NativeOffsetMenuCount.exists_coherent_offset_core

@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_common_phi_metric
+
+#print axioms NativeCommonPhiMetric.frozen_residual
+#print axioms NativeCommonPhiMetric.normal_graph_error
+#print axioms NativeCommonPhiMetric.tangent_distance
+#print axioms NativeCommonPhiMetric.full_distance
+#print axioms NativeCommonPhiMetric.tangent_ball_inverse
+#print axioms NativeCommonPhiMetric.tangent_ball_pair_inverse

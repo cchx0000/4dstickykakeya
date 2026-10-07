@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_X_history_power
+
+#print axioms NativeSharpXHistoryPower.actual_time_count
+#print axioms NativeSharpXHistoryPower.history_power_to_X

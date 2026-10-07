@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_rank_mesoscopic_radius_menu
+
+#print axioms NativeRankMesoscopicRadiusMenu.menu
+#print axioms NativeRankMesoscopicRadiusMenu.allowed
+#print axioms NativeRankMesoscopicRadiusMenu.allowed_antitone
+#print axioms NativeRankMesoscopicRadiusMenu.exists_middle_entry
+#print axioms NativeRankMesoscopicRadiusMenu.radius_le_cutoff_of_eighth_depth
+#print axioms NativeRankMesoscopicRadiusMenu.allowed_nonempty
+#print axioms NativeRankMesoscopicRadiusMenu.radius_ge_quarter_power
+#print axioms NativeRankMesoscopicRadiusMenu.radius_square_ge_source
+#print axioms NativeRankMesoscopicRadiusMenu.exists_mesoscopic_rank_retention

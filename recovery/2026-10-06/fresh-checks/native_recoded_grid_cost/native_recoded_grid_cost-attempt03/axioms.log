@@ -1,0 +1,6 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/24e0ba1940eb2b044c75b4eacdf7d8020fe479c1b4e106cf70c0fda08e92242c.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_recoded_grid_cost-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_recoded_grid_cost-attempt03/Readback.lean"]
+SOURCE_SHA256 fe0b7be3fc121bb477a7bb064a8575a857b43ca03a09366e240709a5e812d445
+'NativeRecodedGridCost.coefficient_le_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRecodedGridCost.low_dim_coefficient_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

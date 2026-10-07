@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_span_coefficient_power
+
+#print axioms NativeSpanCoefficientPower.coefficientCost_le_power

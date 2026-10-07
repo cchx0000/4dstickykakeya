@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_generic_reference_queries
+
+#print axioms NativeGenericReferenceQueries.HasQuerySecondStageCore
+#print axioms NativeGenericReferenceQueries.decode_second_stage_queries

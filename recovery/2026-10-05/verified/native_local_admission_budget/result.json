@@ -1,0 +1,66 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_local_admission_budget",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_local_admission_budget.lean",
+  "source_sha256": "ee30ca0d41cfc927f418c7af154637b6645ce6973feba0e17a249525734f2eb1",
+  "names": [
+    "NativeLocalAdmissionBudget.incidenceConstant",
+    "NativeLocalAdmissionBudget.incidenceConstant_pos",
+    "NativeLocalAdmissionBudget.original_incidence_card_upper",
+    "NativeLocalAdmissionBudget.retained_radix_sq_upper",
+    "NativeLocalAdmissionBudget.pay_power",
+    "NativeLocalAdmissionBudget.densityCoefficient",
+    "NativeLocalAdmissionBudget.densityCoefficient_nonneg",
+    "NativeLocalAdmissionBudget.exists_uniform_source_budget"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:14:56.187138+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeLocalAdmissionBudget.incidenceConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalAdmissionBudget.incidenceConstant_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalAdmissionBudget.original_incidence_card_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalAdmissionBudget.retained_radix_sq_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalAdmissionBudget.pay_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalAdmissionBudget.densityCoefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalAdmissionBudget.densityCoefficient_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalAdmissionBudget.exists_uniform_source_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "e84f70dd01950fa78c54ac2fc01f3183e941e5b2a518c452522966dbf5079376",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:15:07.302803+00:00"
+}

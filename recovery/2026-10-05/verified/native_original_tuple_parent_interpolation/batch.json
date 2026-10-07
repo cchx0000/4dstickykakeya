@@ -1,0 +1,58 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T10:16:52.158393+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T101649460276",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T101649460276/AggregateReadback.lean"
+  ],
+  "readback_sha256": "58f9dc3e0279784b5de7956b87d5d435c3438e6b63153a4732d658deb8f395b5",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_cubical_diameter_count",
+      "source_sha256": "997151f9948b27a517a8a2471095ad64976645d30929244cb14b3968d5acdf70",
+      "olean_sha256": "1aa7fde2128047ec85e4b8da809820ce3ca3765a3bb515e591236c33eab035a1",
+      "names": [
+        "NativeCubicalDiameterCount.indexBox",
+        "NativeCubicalDiameterCount.indexBox_card",
+        "NativeCubicalDiameterCount.capacity",
+        "NativeCubicalDiameterCount.coordinate_gap_le",
+        "NativeCubicalDiameterCount.mem_indexBox_of_dist",
+        "NativeCubicalDiameterCount.card_le_of_center_diameter",
+        "NativeCubicalDiameterCount.capacity_le_real",
+        "NativeCubicalDiameterCount.card_le_real_of_center_diameter"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_original_tuple_parent_interpolation",
+      "source_sha256": "0bfd0b61920d797e6de5662e0b91da817e5071e60e8d734d2bc71b6709ba598a",
+      "olean_sha256": "2b50b447460fd811c1556b2d0ef8332b524c0ca92864ebb279208361027be67b",
+      "names": [
+        "NativeOriginalTupleParentInterpolation.point_parent_fiber_subset_ancestor",
+        "NativeOriginalTupleParentInterpolation.point_parent_fiber_upper_of_ancestor",
+        "NativeOriginalTupleParentInterpolation.coarse_menu_lower_of_ancestor"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_hereditary_upper",
+      "source_sha256": "475caa3fa9a520f340976697d3b390095169bdc000274c646117e6cfbcdde59c",
+      "olean_sha256": "fc78dcbce13959fa14aabefc4397fdfcad38083c9645371beba6786d362fd75f",
+      "names": [
+        "NativeReferenceHereditaryUpper.from_master_reference"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T10:24:29.283294+00:00",
+  "exit_code": 0
+}

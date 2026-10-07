@@ -1,0 +1,21 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/5fbe1da7daf340673690daa2d6aabc222fa45edb974e45d99dcdfaf000e7a1ae.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_actual_new_cut_budget-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_actual_new_cut_budget-attempt02/Readback.lean"]
+SOURCE_SHA256 4250d04f9cb89217233c849c5f76e153e5a06daf91e1554ff7e7f194fced84e0
+LOCK_ACQUIRED_UTC 2026-10-06T13:39:52.081874+00:00
+SHARED_SLOT 3
+LEAN_PID 63
+'NativeActualNewCutBudget.offsetCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.offsetCharge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.coherenceCharge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.newCutCharge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.fixedFactor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.newExponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.offsetCharge_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.ceiling_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.offset_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.coherenceCharge_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.newCutCharge_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.stop_radius_le_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualNewCutBudget.source_new_cut_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T13:40:20.766245+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

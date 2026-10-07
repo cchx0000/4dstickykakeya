@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_X_budget_actual
+
+#print axioms NativeSharpXBudgetActual.actual_fiber_coefficient_le_power

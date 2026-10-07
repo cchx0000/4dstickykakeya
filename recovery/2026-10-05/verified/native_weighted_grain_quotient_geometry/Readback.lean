@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_geometry
+
+#print axioms NativeWeightedGrainQuotientGeometry.grain_mixed_eq
+#print axioms NativeWeightedGrainQuotientGeometry.quotientLabel
+#print axioms NativeWeightedGrainQuotientGeometry.pick
+#print axioms NativeWeightedGrainQuotientGeometry.retained
+#print axioms NativeWeightedGrainQuotientGeometry.retained_subset
+#print axioms NativeWeightedGrainQuotientGeometry.quotientLabel_on_mixed
+#print axioms NativeWeightedGrainQuotientGeometry.quotient_image_eq
+#print axioms NativeWeightedGrainQuotientGeometry.retained_mixed_fiber
+#print axioms NativeWeightedGrainQuotientGeometry.retained_mixed_vertices
+#print axioms NativeWeightedGrainQuotientGeometry.retained_vertices_le_X

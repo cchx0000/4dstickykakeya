@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_pointwise_trim_preservation
+
+#print axioms NativePointwiseTrimPreservation.filtered_point_image
+#print axioms NativePointwiseTrimPreservation.filtered_point_fiber
+#print axioms NativePointwiseTrimPreservation.point_class_half_retention
+#print axioms NativePointwiseTrimPreservation.point_class_image_unchanged

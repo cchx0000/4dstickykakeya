@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_two_scale_boundary_window
+
+#print axioms NativeTwoScaleBoundaryWindow.exists_clamped_depths

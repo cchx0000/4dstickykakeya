@@ -1,0 +1,101 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T18:36:36.401050+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T183635559885",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T183635559885/AggregateReadback.lean"
+  ],
+  "readback_sha256": "f9c01875c1d4f0b1fb7a386b3bc0dc9bc66ebbadc7d0039ea80f675c2986b349",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_quotient_density",
+      "source_sha256": "1e98d38a5954daabac2a2ed4eaf9914f5a6e9e58819b90c2be865e6617c8a108",
+      "olean_sha256": "09cd9f15a4eb3cdb170ebf61e782150827c71ca9a8eff24e9c437b8984f73781",
+      "names": [
+        "NativeActualQuotientDensity.rho_halfWidth",
+        "NativeActualQuotientDensity.normalized_density",
+        "NativeActualQuotientDensity.reference_cross_dense"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_quotient_support",
+      "source_sha256": "e15cbafc850ab971d83099b9f2be8e5811df3e1e7bdba3883efa1c9df8f3b0da",
+      "olean_sha256": "b4f50117f9142fc9cd78175f332e20a248c6b9ec95193bb05c0021f0f22f6488",
+      "names": [
+        "NativeActualQuotientSupport.product_support",
+        "NativeActualQuotientSupport.encoded_image",
+        "NativeActualQuotientSupport.halfWidth_pos",
+        "NativeActualQuotientSupport.quotient_exponent"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_encoded_quotient_ad",
+      "source_sha256": "df913983089fe8c5a52fc3ba3112e02372ebc01249a65fdb7bd9233beacbb66f",
+      "olean_sha256": "354ef640870aa6fa61d40ba5fb5ae9c70c8f9e2de35c17945b9cf04e4a08f08d",
+      "names": [
+        "NativeEncodedQuotientAD.quotientConstant",
+        "NativeEncodedQuotientAD.quotientConstant_one_le",
+        "NativeEncodedQuotientAD.quotient_AD_of_encoded_AD"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_source_angular_cap",
+      "source_sha256": "c572b7cc5a4045462e91599370c58f4284023a3706cf3f033471da91d57a1e67",
+      "olean_sha256": "e045a73384c783c1a43659ab9b7cb9369905c102bfa41d545a535d8fa2d73f2d",
+      "names": [
+        "NativeReferenceXYGridSourceAngularCap.angularCapConstant",
+        "NativeReferenceXYGridSourceAngularCap.dyadic_resolution",
+        "NativeReferenceXYGridSourceAngularCap.dyadic_cap_power",
+        "NativeReferenceXYGridSourceAngularCap.pointMenu_original_card",
+        "NativeReferenceXYGridSourceAngularCap.point_menu_cap",
+        "NativeReferenceXYGridSourceAngularCap.quotient_anchor_readback",
+        "NativeReferenceXYGridSourceAngularCap.actual_point_angular_cap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_angular_power_lower",
+      "source_sha256": "ccd7f37999bfad951384dd263791eddd52a3f300cccdf57f2578e4442c68dc39",
+      "olean_sha256": "6ce7d187d22b0a4155be0cd0078d62a651e89dfc82acb20cc0242f4d3156e094",
+      "names": [
+        "NativeSaturatedAngularPowerLower.local_scale_ratio",
+        "NativeSaturatedAngularPowerLower.ancestor_parent_power_upper",
+        "NativeSaturatedAngularPowerLower.actual_angular_scale_ratio",
+        "NativeSaturatedAngularPowerLower.cancel_parent_powers",
+        "NativeSaturatedAngularPowerLower.saturated_reference_power_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_source_angular_rank_lower",
+      "source_sha256": "429accd692d8558956fa1c2a219214c685324f65cf50a6443090152e6081f6c4",
+      "olean_sha256": "1b997042907f761afef282e8af62dd49f1dd57720886602ac43d28e159bc5c9a",
+      "names": [
+        "NativeSaturatedSourceAngularRankLower.actual_saturated_angular_rank_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_X_budget_costs",
+      "source_sha256": "c28f066350251601c68a209a0bb81fac8619e930c15eb54b9c283def5a5c9fc1",
+      "olean_sha256": "244524aee9953e73461b7914637104a1e33cf5bae9e8b2584ce782b15bb9e215",
+      "names": [
+        "NativeSharpXBudgetCosts.raw_cost_power",
+        "NativeSharpXBudgetCosts.rank_denominator",
+        "NativeSharpXBudgetCosts.transverse_power",
+        "NativeSharpXBudgetCosts.reference_factor"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T18:42:31.394211+00:00",
+  "exit_code": 0
+}

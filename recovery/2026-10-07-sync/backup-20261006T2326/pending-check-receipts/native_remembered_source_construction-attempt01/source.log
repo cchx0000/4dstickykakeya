@@ -1,0 +1,398 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/fc89ff8a1f453ec7424ea95779ffa352860df88cd3399852ed9c2a566287e183.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean"]
+SOURCE_SHA256 8d462ed4951f90653cfdace13de9c9173f1195c719450789a5e10afdc0b099b8
+LOCK_ACQUIRED_UTC 2026-10-06T19:58:43.230547+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:62:2: error: Tactic `tauto` failed
+
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+backbone : Finset (Fin n)
+a : ℝ
+m b : ℕ
+p : Parent
+hp : (parentLabels D backbone a (2 ^ m) p).Nonempty
+Q : Finset Parent
+cells : Fin #Q → Finset Index
+A : Finset (Fin n × Index)
+z : (Fin #Q × Index) × Fin n × Index
+⊢ z ∈ (incidences cells).product A ∧
+      NativeCoarseCellSource.parentIndex Q z.1.1 = relativeLabel D a (2 ^ m) p (2 ^ b) z.2.1 ∧
+        z.1.2 = (doublePair h backbone a m p hp (2 ^ b) z.2).2 ↔
+    z.1 ∈ incidences cells ∧
+      z.2 ∈ A ∧
+        NativeCoarseCellSource.parentIndex Q z.1.1 = relativeLabel D a (2 ^ m) p (2 ^ b) z.2.1 ∧
+          z.1.2 = (doublePair h backbone a m p hp (2 ^ b) z.2).2
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:61:36: error: This simp argument is unused:
+  mem_product
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [occurrences, mem_filter]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:108:2: error: Tactic `rfl` failed: The left-hand side
+  image (NativeLocalCellCoherence.localPair C 0 (2 ^ c) pA ∘ Prod.fst)
+    (selectedOccurrences D a m C c pA O (image (taggedKey D a m C c pA) (selectedOccurrences D a m C c pA O B)))
+is not definitionally equal to the right-hand side
+  image (Prod.snd ∘ taggedKey D a m C c pA) (selectedOccurrences D a m C c pA O B)
+
+n nA : ℕ
+D : FiniteScaleSource n
+a : ℝ
+m : ℕ
+C : FiniteScaleSource nA
+c : ℕ
+pA : Parent
+O : Finset ((Fin nA × Index) × Fin n × Index)
+B : Finset (ℤ × Fin nA × Index)
+hB : B ⊆ image (taggedKey D a m C c pA) O
+⊢ image (NativeLocalCellCoherence.localPair C 0 (2 ^ c) pA ∘ Prod.fst)
+      (selectedOccurrences D a m C c pA O (image (taggedKey D a m C c pA) (selectedOccurrences D a m C c pA O B))) =
+    image (Prod.snd ∘ taggedKey D a m C c pA) (selectedOccurrences D a m C c pA O B)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:193:8: error: Invalid rewrite argument: Expected an equality or iff proof or definition name, but `U` is a value of type
+  Finset (Fin n × Index)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:231:27: error: `ring_nf` made no progress on the goal
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:243:64: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:245:13: error(lean.unknownIdentifier): Unknown identifier `cell_center_coordinate_error`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:241:82: error: unsolved goals
+n : ℕ
+C : FiniteScaleSource n
+eta : ℝ
+hC : IsWangZakharovNativeFiniteInput C eta
+cells : Fin n → Finset Index
+hcells : ∀ (i : Fin n), C.shading i = wzCellShading (mesh C) cells i
+ha : ∀ (i : Fin n), wzGraphTime (C.line i) 0 - mark (C.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+N : ℕ
+hN : 0 < N
+p : Parent
+i : Fin n
+k : Index
+hk : k ∈ cells i
+he : 0 < ↑N * C.thickness / 128
+j : Fin 4
+⊢ |(cellCenter (↑N * C.thickness / 128) (localCellLabel C 0 N p (i, k))).ofLp j -
+        (physicalMap C 0 N p (cellCenter (mesh C) k)).ofLp j| ≤
+    ↑N * C.thickness / 64
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:340:66: error(lean.unknownIdentifier): Unknown identifier `fixedCompactClass`
+
+Note: It is not possible to treat `fixedCompactClass` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:413:76: error(lean.unknownIdentifier): Unknown identifier `fixedCompactClass`
+
+Note: It is not possible to treat `fixedCompactClass` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:457:8: error(lean.unknownIdentifier): Unknown identifier `full_old_phase_diameter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:561:78: error(lean.unknownIdentifier): Unknown identifier `fixedCompactClass`
+
+Note: It is not possible to treat `fixedCompactClass` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:603:35: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:608:17: error(lean.unknownIdentifier): Unknown identifier `actual_configured_diameter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:644:42: error: Type mismatch: After simplification, term
+  hbound
+ has type
+  6 ^ (3 - extremalExponent) *
+      (9 ^ 3 *
+        ((13 ^ 3) ^ 2 *
+          ((6 * (64 / ↑(2 ^ depth)) / (↑Rd * mu m)) ^ (3 - extremalExponent) * (K ^ 2 * ↑(#(image physical A)))))) ≤
+    6 ^ (3 - extremalExponent) *
+      (9 ^ 3 * ((13 ^ 3) ^ 2 * ((6 * (64 / ↑(2 ^ depth)) / (↑Rd * mu m)) ^ (3 - extremalExponent) * (257 ^ 4 * K ^ 2))))
+but is expected to have type
+  C * ↑(#(image physical A)) ≤
+    6 ^ (3 - extremalExponent) *
+      (9 ^ 3 * ((13 ^ 3) ^ 2 * ((6 * (64 / ↑(2 ^ depth)) / (↑Rd * mu m)) ^ (3 - extremalExponent) * (257 ^ 4 * K ^ 2))))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:726:42: error: typeclass instance problem is stuck, it is often due to metavariables
+  (i : Fin 4) → PseudoMetricSpace (?m.194 i)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:733:28: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b - c ≥ 65
+  a ≤ 64
+where
+ a := |cell x j - cell y j|
+ b := cell y j
+ c := cell x j
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:733:37: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b - c ≥ 65
+  a ≤ 64
+where
+ a := |cell x j - cell y j|
+ b := cell x j
+ c := cell y j
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:803:31: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta etaC a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+backbone : Finset (Fin n)
+m b : ℕ
+hm : 6 ≤ m
+p : Parent
+hp : (parentLabels D backbone a (2 ^ m) p).Nonempty
+hNscale : ↑(2 ^ m) * D.thickness ≤ 1
+hRelScale : ↑(2 ^ m) * D.thickness * ↑(2 ^ b) ≤ 64
+Q : Finset Parent
+C : FiniteScaleSource #Q
+hC : IsWangZakharovNativeFiniteInput C etaC
+cells : Fin #Q → Finset Index
+hcells : ∀ (i : Fin #Q), C.shading i = wzCellShading (mesh C) cells i
+haC : ∀ (i : Fin #Q), wzGraphTime (C.line i) 0 - mark (C.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+hthickness : C.thickness = 64 / ↑(2 ^ b)
+A : Finset (Fin n × Index)
+hA : A ⊆ NativeCubicalIncidenceCounts.incidences original
+hparent : ∀ z ∈ A, z.1 ∈ parentLabels D backbone a (2 ^ m) p
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+F Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+hF : ∀ (t : ℤ), ‖F t‖ ≤ 1 / 4
+hCfg : ∀ (t : ℤ) (i : Fin 2) (j : Fin 1), |Fcfg t i j| ≤ 1 / 4
+R0 Rd : ℕ
+hR0 : 0 < R0
+hRd : 512 ≤ Rd
+hbase : rho m ≤ mu m * ↑R0
+hmatch : mu m * ↑R0 ≤ 4096 / ↑(2 ^ b)
+hmesh : ↑Rd * mu m = 512 * C.thickness
+c : ℕ
+pA : Parent
+V : Finset ((Fin #Q × Index) × Fin n × Index)
+hV : V ⊆ occurrences h backbone a m b p hp Q cells A
+hcurrent : ∀ z ∈ V, parentLabel C 0 (2 ^ c) z.1.1 = pA
+q : XY 2
+U : Finset ((Fin #Q × Index) × Fin n × Index) := {z ∈ V | coarseXY 2 Rd (pxy D a m 2 p P hP ⋯ ⋯ hd F z.2.2) = q}
+hFe : ∀ (t : ℤ) (i : Fin 2) (j : Fin 1), |F t i j| ≤ 1 / 4
+hBaseD : mu m * ↑R0 ≤ 64 * C.thickness
+⊢ (↑(2 ^ m))⁻¹ * 64 = rho m
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:865:13: error(lean.unknownIdentifier): Unknown identifier `cell_center_coordinate_error`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:856:89: error: unsolved goals
+n : ℕ
+C : FiniteScaleSource n
+eta : ℝ
+hC : IsWangZakharovNativeFiniteInput C eta
+cells : Fin n → Finset Index
+hcells : ∀ (i : Fin n), C.shading i = wzCellShading (mesh C) cells i
+ha : ∀ (i : Fin n), wzGraphTime (C.line i) 0 - mark (C.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+N : ℕ
+hN : 0 < N
+p : Parent
+hs1 : ↑N * C.thickness / 64 ≤ 1
+i : Fin n
+k : Index
+hk : k ∈ cells i
+hd : 0 < C.thickness
+he : 0 < ↑N * C.thickness / 128
+ho : |NativeOriginalPaddedCells.oldTime C 0 k| ≤ 1
+hf : |(frontPoint C 0 N p i k).ofLp 3| ≤ 1 / 128
+⊢ |(cellCenter (↑N * C.thickness / 128) (localCellLabel C 0 N p (i, k))).ofLp 3| ≤ 1
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:957:78: error(lean.unknownIdentifier): Unknown identifier `fixedCompactClass`
+
+Note: It is not possible to treat `fixedCompactClass` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1011:47: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1047:16: error(lean.unknownIdentifier): Unknown identifier `rank_two_from_third`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1245:10: error: Invalid rewrite argument: Expected an equality or iff proof or definition name, but `S` is a value of type
+  Finset Index
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1454:35: error: Application type mismatch: The argument
+  rho m
+has type
+  ℝ
+but is expected to have type
+  Matroid ?m.167
+in the application
+  Matroid.IsMinor (rho m)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1454:42: error(lean.unknownIdentifier): Unknown identifier `u`
+
+Note: It is not possible to treat `u` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1465:6: error(lean.unknownIdentifier): Unknown identifier `fineCapacity`
+
+Note: It is not possible to treat `fineCapacity` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1519:62: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta etaS a zeta pExp : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+R : Finset (Fin n)
+Eref T : Finset (Fin n × Index)
+level m b0 b : ℕ
+hm : 6 ≤ m
+hb0 : 8 ≤ b0
+hb : b ≤ b0
+HB : NativeMiddleWindowBalance.HasOriginalBackbone D original R a level zeta
+hmb0 : m + b0 ≤ level
+hscale : D.thickness ≤ rho m ^ 2
+p : Parent
+hp : (parentLabels D R a (2 ^ m) p).Nonempty
+hS : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaS
+hbudget : 64 ^ 3 * (source h R Eref a m p).thickness ^ pExp ≤ D.thickness ^ zeta
+hT : T ⊆ incidences original
+hparent : ∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p
+s : Split
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hdim : Module.finrank ℝ ↥P = tangentDim s
+F Fcfg : ℤ → Matrix (Fin (normalDim s)) (Fin (tangentDim s)) ℝ
+hF : ∀ (t : ℤ) (i : Fin (normalDim s)) (j : Fin (tangentDim s)), |F t i j| ≤ 1 / 4
+hCfg : ∀ (t : ℤ) (i : Fin (normalDim s)) (j : Fin (tangentDim s)), |Fcfg t i j| ≤ 1 / 4
+R0 : ℕ
+hR0 : 0 < R0
+hbase : sorry ≤m sorry * ↑R0
+hmatch : mu m * ↑R0 = 4096 / ↑(2 ^ b0)
+Q : Finset Parent
+C : FiniteScaleSource #Q
+c : ℕ
+pA : Parent
+A : Finset (Fin n × Index)
+hAT : A ⊆ T
+hAQ : ∀ z ∈ A, relativeLabel D a (2 ^ m) p (2 ^ b) z.1 ∈ Q
+cfg : Index → E4 := NativeActualConfiguredPoint.point D a m p s P hP hdim F Fcfg R0
+hpointSep : ∀ x ∈ image (fun z => cfg z.2) T, ∀ y ∈ image (fun z => cfg z.2) T, x ≠ y → 64 / ↑(2 ^ b0) ≤ dist x y
+cells : Fin #Q → Finset Index := actualRows h R Eref T level m b p hS Q
+Occ : Finset ((Fin #Q × Index) × Fin n × Index) := occurrences h R a m b p hp Q cells A
+Sref : FiniteScaleSource #(parentLabels D R a (2 ^ m) p) := source h R Eref a m p
+eps : ℝ := 64 / ↑(2 ^ b0)
+d : ℝ := 64 / ↑(2 ^ b)
+O : E4 ≃ₗᵢ[ℝ] E4 := NativePackedFrameIsometry.frame s P hP hdim
+pair : Fin n × Index → E4 × OutputIndex h R Eref a m b0 p := fun z => (cfg z.2, outputTube h R Eref a m b0 p hS z.1)
+G : Finset (E4 × OutputIndex h R Eref a m b0 p) := image pair T
+selected : Finset (Fin #(parentLabels D R a (2 ^ m) p) × Index) := incidences (sourceCells D R T a (2 ^ m) p)
+hNle : ↑(2 ^ b) ≤ ↑(2 ^ b0)
+hepsd : eps ≤ d
+hstep : 1 / ↑(2 ^ b) ≤ d
+hRefScale : ↑(2 ^ b0) * Sref.thickness ≤ 1
+Hprofile :
+  have S := source h R Eref a m p;
+  ∀ (j : Fin (b0 + 1)) (q : Parent),
+    {i | parentLabel S 0 (2 ^ ↑j) i = q}.Nonempty →
+      S.thickness ^ pExp * (1 / ↑(2 ^ ↑j) / S.thickness) ^ 3 ≤ ↑(#{i | parentLabel S 0 (2 ^ ↑j) i = q}) ∧
+        ↑(#{i | parentLabel S 0 (2 ^ ↑j) i = q}) ≤ S.thickness ^ (-pExp) * (1 / ↑(2 ^ ↑j) / S.thickness) ^ 3
+Hfine :
+  ∀ (q : Parent),
+    {i | parentLabel Sref 0 (2 ^ b0) i = q}.Nonempty →
+      Sref.thickness ^ pExp * (1 / ↑(2 ^ b0) / Sref.thickness) ^ 3 ≤ ↑(#{i | parentLabel Sref 0 (2 ^ b0) i = q})
+hGgeom :
+  ∀ (x : E4) (i : OutputIndex h R Eref a m b0 p),
+    (x, i) ∈ G →
+      x ∈
+        markedUnitTube
+          (MarkedIsometricChart.line O 0
+            ((NativeFullCoarseShadow.fullSource hS univ 0 (level - m + 6) b0 selected).line i))
+          eps
+hGpoints : image Prod.fst G = image (fun z => cfg z.2) T
+hGsep : ∀ x ∈ image Prod.fst G, ∀ y ∈ image Prod.fst G, x ≠ y → eps ≤ dist x y
+hOrig : image Prod.snd Occ = A
+⊢ image (fun z => pair z.2) Occ = image (pair ∘ Prod.snd) Occ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1538:10: error: Failed to rewrite using equation theorems for `NativeActualConfiguredPoint.point`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1541:10: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  NativeDyadicParentCells.ancestor b0 b
+    (NativeCoarseCellSource.parentIndex (image (parentLabel (source h R Eref a m p) 0 (2 ^ b0)) univ)
+      (outputTube h R Eref a m b0 p hS z.2.1))
+in the target expression
+  oldAncestor Sref univ 0 b0 b (outputTube h R Eref a m b0 p hS z.2.1) = NativeCoarseCellSource.parentIndex Q v.2.1
+
+case refine_2
+n : ℕ
+D : FiniteScaleSource n
+eta etaS a zeta pExp : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+R : Finset (Fin n)
+Eref T : Finset (Fin n × Index)
+level m b0 b : ℕ
+hm : 6 ≤ m
+hb0 : 8 ≤ b0
+hb : b ≤ b0
+HB : NativeMiddleWindowBalance.HasOriginalBackbone D original R a level zeta
+hmb0 : m + b0 ≤ level
+hscale : D.thickness ≤ rho m ^ 2
+p : Parent
+hp : (parentLabels D R a (2 ^ m) p).Nonempty
+hS : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaS
+hbudget : 64 ^ 3 * (source h R Eref a m p).thickness ^ pExp ≤ D.thickness ^ zeta
+hT : T ⊆ incidences original
+hparent : ∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p
+s : Split
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hdim : Module.finrank ℝ ↥P = tangentDim s
+F Fcfg : ℤ → Matrix (Fin (normalDim s)) (Fin (tangentDim s)) ℝ
+hF : ∀ (t : ℤ) (i : Fin (normalDim s)) (j : Fin (tangentDim s)), |F t i j| ≤ 1 / 4
+hCfg : ∀ (t : ℤ) (i : Fin (normalDim s)) (j : Fin (tangentDim s)), |Fcfg t i j| ≤ 1 / 4
+R0 : ℕ
+hR0 : 0 < R0
+hbase : sorry ≤m sorry * ↑R0
+hmatch : mu m * ↑R0 = 4096 / ↑(2 ^ b0)
+Q : Finset Parent
+C : FiniteScaleSource #Q
+c : ℕ
+pA : Parent
+A : Finset (Fin n × Index)
+hAT : A ⊆ T
+hAQ : ∀ z ∈ A, relativeLabel D a (2 ^ m) p (2 ^ b) z.1 ∈ Q
+cfg : Index → E4 := NativeActualConfiguredPoint.point D a m p s P hP hdim F Fcfg R0
+hpointSep : ∀ x ∈ image (fun z => cfg z.2) T, ∀ y ∈ image (fun z => cfg z.2) T, x ≠ y → 64 / ↑(2 ^ b0) ≤ dist x y
+cells : Fin #Q → Finset Index := actualRows h R Eref T level m b p hS Q
+Occ : Finset ((Fin #Q × Index) × Fin n × Index) := occurrences h R a m b p hp Q cells A
+Sref : FiniteScaleSource #(parentLabels D R a (2 ^ m) p) := source h R Eref a m p
+eps : ℝ := 64 / ↑(2 ^ b0)
+d : ℝ := 64 / ↑(2 ^ b)
+O : E4 ≃ₗᵢ[ℝ] E4 := NativePackedFrameIsometry.frame s P hP hdim
+pair : Fin n × Index → E4 × OutputIndex h R Eref a m b0 p := fun z => (cfg z.2, outputTube h R Eref a m b0 p hS z.1)
+G : Finset (E4 × OutputIndex h R Eref a m b0 p) := image pair T
+selected : Finset (Fin #(parentLabels D R a (2 ^ m) p) × Index) := incidences (sourceCells D R T a (2 ^ m) p)
+hNle : ↑(2 ^ b) ≤ ↑(2 ^ b0)
+hepsd : eps ≤ d
+hstep : 1 / ↑(2 ^ b) ≤ d
+hRefScale : ↑(2 ^ b0) * Sref.thickness ≤ 1
+Hprofile :
+  have S := source h R Eref a m p;
+  ∀ (j : Fin (b0 + 1)) (q : Parent),
+    {i | parentLabel S 0 (2 ^ ↑j) i = q}.Nonempty →
+      S.thickness ^ pExp * (1 / ↑(2 ^ ↑j) / S.thickness) ^ 3 ≤ ↑(#{i | parentLabel S 0 (2 ^ ↑j) i = q}) ∧
+        ↑(#{i | parentLabel S 0 (2 ^ ↑j) i = q}) ≤ S.thickness ^ (-pExp) * (1 / ↑(2 ^ ↑j) / S.thickness) ^ 3
+Hfine :
+  ∀ (q : Parent),
+    {i | parentLabel Sref 0 (2 ^ b0) i = q}.Nonempty →
+      Sref.thickness ^ pExp * (1 / ↑(2 ^ b0) / Sref.thickness) ^ 3 ≤ ↑(#{i | parentLabel Sref 0 (2 ^ b0) i = q})
+hGgeom :
+  ∀ (x : E4) (i : OutputIndex h R Eref a m b0 p),
+    (x, i) ∈ G →
+      x ∈
+        markedUnitTube
+          (MarkedIsometricChart.line O 0
+            ((NativeFullCoarseShadow.fullSource hS univ 0 (level - m + 6) b0 selected).line i))
+          eps
+hGpoints : image Prod.fst G = image (fun z => cfg z.2) T
+hGsep : ∀ x ∈ image Prod.fst G, ∀ y ∈ image Prod.fst G, x ≠ y → eps ≤ dist x y
+hOrig : image Prod.snd Occ = A
+hImage : image (fun z => pair z.2) Occ = image pair A
+v : ℤ × Fin #Q × Index
+_hv : v ∈ image (taggedKey D a m C c pA) Occ
+V : Finset ((Fin #Q × Index) × Fin n × Index) := {z ∈ Occ | taggedKey D a m C c pA z = v}
+time : ℝ := NativeConfiguredTimeCoarsening.finalTime (mu m * ↑R0) (v.1 / ↑(8 * R0))
+z : (Fin #Q × Index) × Fin n × Index
+hz : z ∈ V
+hu : pair z.2 ∈ image (fun z => pair z.2) V
+hzO : z ∈ Occ
+hzKey : taggedKey D a m C c pA z = v
+_hzCell : z.1 ∈ incidences cells
+hzA : z.2 ∈ A
+hzPhase : NativeCoarseCellSource.parentIndex Q z.1.1 = relativeLabel D a (2 ^ m) p (2 ^ b) z.2.1
+_hshadow : z.1.2 = (doublePair h R a m p hp (2 ^ b) z.2).2
+hheight : translatedHeight D a m z.2.2 = v.1
+htube : z.1.1 = v.2.1
+⊢ oldAncestor Sref univ 0 b0 b (outputTube h R Eref a m b0 p hS z.2.1) = NativeCoarseCellSource.parentIndex Q v.2.1
+LEAN_FINISHED_UTC 2026-10-06T19:59:56.908644+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

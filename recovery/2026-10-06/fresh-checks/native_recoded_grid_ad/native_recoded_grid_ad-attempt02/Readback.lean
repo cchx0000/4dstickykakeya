@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_recoded_grid_ad
+set_option autoImplicit false
+#print axioms NativeRecodedGridAD.near_center_ball_lower
+#print axioms NativeRecodedGridAD.two_way_grid_ADBounds
+#print axioms NativeRecodedGridAD.two_way_grid_cover_ADBounds

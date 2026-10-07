@@ -1,0 +1,95 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_rank_radius_rounding",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_rank_radius_rounding.lean",
+  "source_sha256": "5fd3f6301e06063dde57fe9f65c594aace4b55c56bd019167a69623027a6dcfe",
+  "names": [
+    "NativeRankRadiusRounding.atDepth",
+    "NativeRankRadiusRounding.atDepth_pos",
+    "NativeRankRadiusRounding.atDepth_antitone",
+    "NativeRankRadiusRounding.atDepth_succ",
+    "NativeRankRadiusRounding.atDepth_ratio",
+    "NativeRankRadiusRounding.exists_target_depth",
+    "NativeRankRadiusRounding.gap_power",
+    "NativeRankRadiusRounding.exists_near_radius",
+    "NativeRankRadiusRounding.exists_mesoscopic_test_radius",
+    "NativeRankRadiusRounding.first_radius_lower",
+    "NativeRankRadiusRounding.target_le_first_radius",
+    "NativeRankRadiusRounding.exists_mesoscopic_test_radius_of_cutoff"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T09:43:57.126668+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "05835608f7e852b63400df6dafb64f841ce69099bfae520d8f68699f1a312138",
+  "source_execution_complete_utc": "2026-10-05T09:53:41.654941+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T095730386420",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeRankRadiusRounding.atDepth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.atDepth_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.atDepth_antitone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.atDepth_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.atDepth_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.exists_target_depth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.gap_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.exists_near_radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.exists_mesoscopic_test_radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.first_radius_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.target_le_first_radius": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRankRadiusRounding.exists_mesoscopic_test_radius_of_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T10:13:14.836463+00:00"
+}

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_history_grain_count
+
+#print axioms NativeHistoryGrainCount.tagged_card_le_sum
+#print axioms NativeHistoryGrainCount.actual_global_grain_count
+#print axioms NativeHistoryGrainCount.scale_predecessor_product_pos
+#print axioms NativeHistoryGrainCount.history_grain_counts

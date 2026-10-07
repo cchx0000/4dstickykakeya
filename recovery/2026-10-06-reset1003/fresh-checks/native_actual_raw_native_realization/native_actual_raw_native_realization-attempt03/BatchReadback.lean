@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_actual_raw_native_realization
+set_option autoImplicit false
+#print axioms NativeActualRawNativeRealization.absoluteDepth
+#print axioms NativeActualRawNativeRealization.parentDepth
+#print axioms NativeActualRawNativeRealization.footprintDepth
+#print axioms NativeActualRawNativeRealization.menu_depth_readback
+#print axioms NativeActualRawNativeRealization.exists_final_native_cutoff
+#print axioms NativeActualRawNativeRealization.actual_lower_payment
+#print axioms NativeActualRawNativeRealization.exists_raw_source_cutoff
+#print axioms NativeActualRawNativeRealization.exists_actual_native_source

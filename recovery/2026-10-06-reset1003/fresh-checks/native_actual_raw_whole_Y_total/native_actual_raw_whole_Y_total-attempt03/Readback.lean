@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_actual_raw_whole_Y_total
+set_option autoImplicit false
+#print axioms NativeRawWholeYRetention.select_actual_common_edges
+#print axioms NativeRawWholeYRetention.normalized_mass_transfer
+#print axioms NativeRawWholeYRetention.pay_raw_mass_at_epsilon
+#print axioms NativeActualRawYTotalMass.exists_actual_raw_total
+#print axioms NativeActualRawThirdTotalMass.exists_raw_total_supplier

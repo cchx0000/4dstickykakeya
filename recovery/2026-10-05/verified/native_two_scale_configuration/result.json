@@ -1,0 +1,36 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_two_scale_configuration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_two_scale_configuration.lean",
+  "source_sha256": "135789966d1f26a1aa33037497e84a4907ad921014b29b9520bd6156eea1a8b6",
+  "names": [
+    "NativeTwoScaleConfiguration.depth_gap_power",
+    "NativeTwoScaleConfiguration.HasConditionalTwoScale",
+    "NativeTwoScaleConfiguration.exists_two_scale_configuration"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T07:40:42.057578+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeTwoScaleConfiguration.depth_gap_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoScaleConfiguration.HasConditionalTwoScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoScaleConfiguration.exists_two_scale_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "fe40349441a5dc64c924d2ed1834deda4ce5624288ba4224082a0882002186ed",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T07:51:04.078948+00:00"
+}

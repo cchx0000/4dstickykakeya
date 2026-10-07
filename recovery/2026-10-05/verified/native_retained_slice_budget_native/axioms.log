@@ -1,0 +1,41 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180026924298", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180026924298/AggregateReadback.lean"]
+READBACK_SHA256 220a52cf3f7ccc14fbf73c740548214fcf33a77b0efa6d974d3aba627171a032
+Dedicated staging slot 3 acquired UTC: 2026-10-05T18:00:41.731325+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8664484 kB
+'NativeOriginalPointSaturation.Saturated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointSaturation.nodeCut_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointSaturation.original_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointSaturation.point_uniformity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointSaturation.quotient_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointSaturation.same_point_mixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointSaturation.saturated_filter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointSaturation.saturated_graph_quotient_heights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalPointSaturation.saturated_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointSaturation.translated_heights_saturation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceForget.curve_cleanup_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceForget.curve_retained_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceForget.curve_stage_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceForget.height_core_with_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceForget.profiles_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetNative.exists_actual_native_retained_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedMixedGrainCore.HasMixedSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedMixedGrainCore.HasPointSaturation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedMixedGrainCore.SaturatedMaps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedMixedGrainCore.exists_automatic_saturated_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedMixedGrainCore.exists_saturated_mixed_dense_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedMixedGrainCore.exists_simultaneous_saturated_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedMixedGrainCore.source_saturated_mixed_grain_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_native_configured_third_relation
+set_option autoImplicit false
+#print axioms NativeConfiguredThirdRelation.coarseYKey
+#print axioms NativeConfiguredThirdRelation.coarseYKey_of_frozen
+#print axioms NativeConfiguredThirdRelation.geometricPairKey
+#print axioms NativeConfiguredThirdRelation.relations
+#print axioms NativeConfiguredThirdRelation.relations_refl
+#print axioms NativeConfiguredThirdRelation.relations_symm
+#print axioms NativeConfiguredThirdRelation.caller_coarseY_uniformity
+#print axioms NativeConfiguredThirdRelation.completeRelations
+#print axioms NativeConfiguredThirdRelation.completeRelations_refl
+#print axioms NativeConfiguredThirdRelation.completeRelations_symm
+#print axioms NativeConfiguredThirdRelation.caller_geometricPair_uniformity
+#print axioms NativeConfiguredThirdRelation.caller_configuredPoint_uniformity

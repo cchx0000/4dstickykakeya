@@ -1,0 +1,14 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_same_source_coarse_selection_readback.lean"]
+SOURCE_SHA256 71b93bda1f772186f66a9f0bf5f380206cd7be969419c562d72f508462e0981f
+FIFO compiler ticket: 01791178404537535946-f32ca3292667402d9478867111970b89.request
+FIFO compiler acquired UTC: 2026-10-05T05:33:24.538139+00:00
+'NativeSameSourceCoarseSelection.selected_dyadic_shading_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSameSourceCoarseSelection.original_mass_le_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceCoarseSelection.selected_color_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceCoarseSelection.same_source_coarse_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

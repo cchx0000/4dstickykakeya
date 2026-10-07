@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_angular_rank_contradiction
+
+#print axioms NativeAngularRankContradiction.angular_count_cancellation
+#print axioms NativeAngularRankContradiction.rank_gain_survives
+#print axioms NativeAngularRankContradiction.incompatible_rank_two_counts
+#print axioms NativeAngularRankContradiction.exists_original_scale_cutoff

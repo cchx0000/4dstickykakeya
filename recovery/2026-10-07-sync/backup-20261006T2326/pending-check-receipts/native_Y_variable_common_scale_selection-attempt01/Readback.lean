@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_Y_variable_common_scale_selection
+set_option autoImplicit false
+#print axioms NativeYCommonScaleSelection.variable_retention_select_common

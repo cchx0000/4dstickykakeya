@@ -1,0 +1,26 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_original_parent_density_core_readback.lean"]
+SOURCE_SHA256 8ed0309b8dd308d32ec74dce256fc35fcaef141304afb2e8a42790a3ed1d22ce
+FIFO compiler ticket: 01791176715430957948-d462b9bfe080424b894229dd44c4350e.request
+FIFO compiler acquired UTC: 2026-10-05T05:05:15.532117+00:00
+'NativeOriginalParentDensityCore.retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.parentEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.retained_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.retained_shading_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.original_card_le_twice_retained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalParentDensityCore.unit_degree_eq_parentEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.parent_population_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.cardinal_le_parent_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.parent_average_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.factor' depends on axioms: [propext]
+'NativeOriginalParentDensityCore.coreRadix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.IsCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentDensityCore.exists_retained_parent_density_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalParentDensityCore.compact_original_scheduled_parent_density_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

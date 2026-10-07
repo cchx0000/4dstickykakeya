@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_configured_cell_selection
+set_option autoImplicit false
+#print axioms NativeActualConfiguredCellSelection.select_actual_edges

@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_finite_slice_union_ad
+set_option autoImplicit false
+#print axioms NativeFiniteSliceUnionAD.carrierBall_biUnion
+#print axioms NativeFiniteSliceUnionAD.arbitrary_center_ball_upper
+#print axioms NativeFiniteSliceUnionAD.finite_union_ADBounds
+#print axioms NativeFiniteSliceUnionAD.global_bound_of_half_mesh
+#print axioms NativeFiniteSliceUnionAD.heightSlice
+#print axioms NativeFiniteSliceUnionAD.heightWindow
+#print axioms NativeFiniteSliceUnionAD.heightWindow_eq_biUnion
+#print axioms NativeFiniteSliceUnionAD.heightWindow_eight_ADBounds

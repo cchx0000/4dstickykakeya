@@ -1,0 +1,17 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/fc377e542fb43d5a44e38ddc652a4643c579eaf38acc535849b8c8c7d73dd297.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean"]
+SOURCE_SHA256 c9bb327f46c6fbea29f05ed45c50cc57e1b7d86a34c4e87792f9f67fd4061888
+LOCK_ACQUIRED_UTC 2026-10-06T14:34:21.608055+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean:51:13: error(lean.unknownIdentifier): Unknown constant `Int.emod_add_ediv`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_lipschitz_coarse_height_selection.lean:49:43: error: unsolved goals
+R origin x y : ℝ
+q : ℕ
+hq : 0 < q
+hc : coarse R origin x = coarse R origin y
+hp : paint R origin q hq x = paint R origin q hq y
+he : fine R origin q x % ↑q = fine R origin q y % ↑q
+⊢ fine R origin q x = fine R origin q y
+LEAN_FINISHED_UTC 2026-10-06T14:34:43.843189+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

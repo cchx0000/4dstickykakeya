@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_generic_parent_menu
+
+#print axioms NativeGenericParentMenu.HasPrescribedHorizontalStage
+#print axioms NativeGenericParentMenu.callerRelations
+#print axioms NativeGenericParentMenu.prescribed_stage_with_horizontal_menu

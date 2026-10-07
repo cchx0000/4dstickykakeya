@@ -1,0 +1,22 @@
+import Theorems.Thm_StickyKakeya4_native_retained_query_menu
+
+#print axioms NativeRetainedQueryMenu.appendEqualities
+#print axioms NativeRetainedQueryMenu.appendEqualities_refl
+#print axioms NativeRetainedQueryMenu.appendEqualities_symm
+#print axioms NativeRetainedQueryMenu.appendEqualities_uniformities
+#print axioms NativeRetainedQueryMenu.fineQueryPair
+#print axioms NativeRetainedQueryMenu.shortQueryPair
+#print axioms NativeRetainedQueryMenu.rawQueryPoint
+#print axioms NativeRetainedQueryMenu.queryMenu
+#print axioms NativeRetainedQueryMenu.queryMenu_refl
+#print axioms NativeRetainedQueryMenu.queryMenu_symm
+#print axioms NativeRetainedQueryMenu.queryMenu_uniformities
+#print axioms NativeRetainedQueryMenu.grainDepth
+#print axioms NativeRetainedQueryMenu.grainDepth_bounds
+#print axioms NativeRetainedQueryMenu.grainDepth_zero
+#print axioms NativeRetainedQueryMenu.grainDepth_last
+#print axioms NativeRetainedQueryMenu.grainDepth_mono
+#print axioms NativeRetainedQueryMenu.grainDepth_succ_gap
+#print axioms NativeRetainedQueryMenu.grainQueries
+#print axioms NativeRetainedQueryMenu.grainQueries_valid
+#print axioms NativeRetainedQueryMenu.grainQueries_six_le

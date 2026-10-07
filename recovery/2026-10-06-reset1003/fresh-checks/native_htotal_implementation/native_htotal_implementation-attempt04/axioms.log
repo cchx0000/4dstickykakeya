@@ -1,0 +1,56 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2010.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2010", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2010/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T20:10:29.001379+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+'NativeWholeYGraphRetention.graph_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWholeYGraphRetention.select_actual_common_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWholeYGraphRetention.localSigma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWholeYGraphRetention.localSigma_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWholeYGraphRetention.fraction_eq_localSigma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWholeYGraphRetention.total_fiber_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualCommonYGraphMass.caller_uniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualCommonYGraphMass.exists_actual_common_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonYTotalBudget.fine_mesh_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonYTotalBudget.input_mesh_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonYTotalBudget.source_thickness_sq_le_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonYTotalBudget.radix_cost_from_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonYTotalBudget.local_sigma_from_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonYTotalBudget.exists_total_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonYTotalBudget.pay_actual_graph_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualYTotalMass.exists_actual_total_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBaselineThirdRetentionTrace.from_third_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYTotalParameterOrder.exists_planar_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYTotalParameterOrder.exists_source_taxes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualBaselineRetentionPayment.continuation_cost_readback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualBaselineRetentionPayment.final_third_allowance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualBaselineRetentionPayment.baseline_factor_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualBaselineRetentionPayment.exists_actual_retention_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeYTotalEpsilonBudget.radix_cost_at_epsilon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYTotalEpsilonBudget.exists_epsilon_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYTotalEpsilonBudget.pay_actual_graph_mass_at_epsilon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYTotalEpsilonBudget.actual_third_tax' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualYEpsilonTotalMass.exists_actual_total_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceAdmissionInvariance.sourceCells_parent_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceAdmissionInvariance.source_parent_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceAdmissionInvariance.representative_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceAdmissionInvariance.fullSource_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceAdmissionInvariance.outputTube_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceAdmissionInvariance.fine_graph_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePrescribedReferenceAdmission.exists_accuracy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePrescribedReferenceAdmission.exists_prescribed_parent_admission' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeYSourceParameterLedger.baselineAccuracy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYSourceParameterLedger.smallTax' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYSourceParameterLedger.baseline_accuracy_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYSourceParameterLedger.geometry_tax_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYSourceParameterLedger.actual_total_tax' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T20:11:38.305602+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

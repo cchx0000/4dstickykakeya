@@ -1,0 +1,134 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_retained_query_menu",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_retained_query_menu.lean",
+  "source_sha256": "2b6780ec6ce9a95e174c03c480e96636214805df047bbfa6c290e1d8ab2cb356",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_retained_query_menu.olean",
+  "names": [
+    "NativeRetainedQueryMenu.appendEqualities",
+    "NativeRetainedQueryMenu.appendEqualities_refl",
+    "NativeRetainedQueryMenu.appendEqualities_symm",
+    "NativeRetainedQueryMenu.appendEqualities_uniformities",
+    "NativeRetainedQueryMenu.fineQueryPair",
+    "NativeRetainedQueryMenu.shortQueryPair",
+    "NativeRetainedQueryMenu.rawQueryPoint",
+    "NativeRetainedQueryMenu.queryMenu",
+    "NativeRetainedQueryMenu.queryMenu_refl",
+    "NativeRetainedQueryMenu.queryMenu_symm",
+    "NativeRetainedQueryMenu.queryMenu_uniformities",
+    "NativeRetainedQueryMenu.grainDepth",
+    "NativeRetainedQueryMenu.grainDepth_bounds",
+    "NativeRetainedQueryMenu.grainDepth_zero",
+    "NativeRetainedQueryMenu.grainDepth_last",
+    "NativeRetainedQueryMenu.grainDepth_mono",
+    "NativeRetainedQueryMenu.grainDepth_succ_gap",
+    "NativeRetainedQueryMenu.grainQueries",
+    "NativeRetainedQueryMenu.grainQueries_valid",
+    "NativeRetainedQueryMenu.grainQueries_six_le"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T11:14:50.596116+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "83415a5f8b2ce78b840fd5894bb58381b1f22987a04351c001acebe0b89a3730",
+  "source_execution_complete_utc": "2026-10-05T11:18:04.537958+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112245855625",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeRetainedQueryMenu.appendEqualities": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.appendEqualities_refl": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.appendEqualities_symm": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.appendEqualities_uniformities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.fineQueryPair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.shortQueryPair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.rawQueryPoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.queryMenu": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.queryMenu_refl": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.queryMenu_symm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.queryMenu_uniformities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.grainDepth": [
+      "propext"
+    ],
+    "NativeRetainedQueryMenu.grainDepth_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.grainDepth_zero": [
+      "propext"
+    ],
+    "NativeRetainedQueryMenu.grainDepth_last": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.grainDepth_mono": [
+      "propext"
+    ],
+    "NativeRetainedQueryMenu.grainDepth_succ_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.grainQueries": [
+      "propext"
+    ],
+    "NativeRetainedQueryMenu.grainQueries_valid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedQueryMenu.grainQueries_six_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T11:25:14.779469+00:00"
+}

@@ -1,0 +1,42 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2313.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2313", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2313/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T23:13:30.759311+00:00
+SHARED_SLOT 1
+LEAN_PID 58
+'NativeCurrentRankOneAngularBound.pointDirections' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCurrentRankOneAngularBound.pointDirections_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCurrentRankOneAngularBound.ballIncidences_subset_pointSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentRankOneAngularBound.current_rank_one_direction_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentRankOneAngularBound.current_rank_one_upper_of_balls' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentRankOneAngularBound.reference_degree_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCurrentRankOneAngularBound.normalize_angular_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCurrentRankOneAngularBound.current_rank_one_relative_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentRankOneAngularBound.current_degree_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCurrentRankOneAngularBound.rank_one_threshold_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCurrentRankOneAngularBound.global_retention_from_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentRankOneAngularBound.compose_actual_parent_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentRankOneAngularBound.exists_current_rank_one_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentRankOneAngularBound.exists_rank_one_gap_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCurrentRankOneAngularBound.exists_reference_rank_one_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentRankOneAngularBound.exists_reference_rank_one_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentRankOneAngularBound.selected_rank_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T23:13:58.320719+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

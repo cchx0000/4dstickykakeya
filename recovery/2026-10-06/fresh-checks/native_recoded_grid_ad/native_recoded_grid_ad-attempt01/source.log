@@ -1,0 +1,14 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/5cf9cdd3fba55088d13f512eb73432d58b81e9f274336b8961f14d688e663a46.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_recoded_grid_ad.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_ad.lean"]
+SOURCE_SHA256 581efedf785e4ca3346002b44971bd0bb08a62cf893d12efd7fa955a68f9c2e5
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_ad.lean:34:6: error: Type mismatch: After simplification, term
+  hnear
+ has type
+  @LE.le ℝ Real.instLE (dist b0 a0) (alpha * rho)
+but is expected to have type
+  @LE.le ℝ Real.instLE (dist (if True then b0 else f a0) a0) (alpha * rho)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_ad.lean:60:4: error: mod_cast has type
+  (1 : ℕ) ≤ (4 * N + 5) ^ l
+but is expected to have type
+  (1 : ℝ) ≤ M
+
+EXIT_CODE=1

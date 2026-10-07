@@ -1,0 +1,65 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:55:58.514666+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155557747544",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155557747544/AggregateReadback.lean"
+  ],
+  "readback_sha256": "3fb496f9ce847969ef94c6d0eaa09da38b87b90cb3495708212e04c4bce6d798",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_height_slope_coordinates",
+      "source_sha256": "ffebdf4e9af8138373ea812b0146142d40139c8d6051cc71b0fe04822da88805",
+      "olean_sha256": "d7fcdecb4d370875d183a0bd1988af5b3f900313d65a6f856f44b1449abb5fca",
+      "names": [
+        "NativeHeightSlopeCoordinates.nodeSlope",
+        "NativeHeightSlopeCoordinates.nodeSlope_norm",
+        "NativeHeightSlopeCoordinates.nodeSlope_variation",
+        "NativeHeightSlopeCoordinates.matrixVector",
+        "NativeHeightSlopeCoordinates.nodeSlope_action",
+        "NativeHeightSlopeCoordinates.nodeSlope_graph",
+        "NativeHeightSlopeCoordinates.fine_heightNode_mem",
+        "NativeHeightSlopeCoordinates.heightSlope",
+        "NativeHeightSlopeCoordinates.heightSlope_zero_off",
+        "NativeHeightSlopeCoordinates.heightSlope_norm",
+        "NativeHeightSlopeCoordinates.heightSlope_readback",
+        "NativeHeightSlopeCoordinates.heightSlope_variation",
+        "NativeHeightSlopeCoordinates.exists_height_slope_chart"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_grain_quotient_bins",
+      "source_sha256": "4bd0c063828c24c3ac1056c2ea2100c2fb0ce655c455fa941afdffbf0b17ce7f",
+      "olean_sha256": "9c1af32daec37a71e90b990a0fd0704723da211e53a81935891304dc3ae8a23f",
+      "names": [
+        "NativeGrainQuotientBins.label",
+        "NativeGrainQuotientBins.box",
+        "NativeGrainQuotientBins.label_mem_box",
+        "NativeGrainQuotientBins.box_card",
+        "NativeGrainQuotientBins.occupied_card",
+        "NativeGrainQuotientBins.exists_dense_fiber",
+        "NativeGrainQuotientBins.exists_dense_quotient_fiber",
+        "NativeGrainQuotientBins.heightFiber",
+        "NativeGrainQuotientBins.rawCoordinates",
+        "NativeGrainQuotientBins.diameter",
+        "NativeGrainQuotientBins.diameter_pos",
+        "NativeGrainQuotientBins.height_fiber_diameter",
+        "NativeGrainQuotientBins.mixed_occupied_quotient_card"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:56:03.338046+00:00",
+  "exit_code": 0
+}

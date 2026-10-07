@@ -1,0 +1,29 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_same_source_multiplicity_balance_readback.lean"]
+SOURCE_SHA256 f26d689d8f1b09a0a0ac6a51ee6a0f58b24229ffbb785c82ed67a957c9f7ea10
+FIFO compiler ticket: 01791178851928439573-9dd87bfe43214540b8eb7bf303499725.request
+FIFO compiler acquired UTC: 2026-10-05T05:40:53.839411+00:00
+'NativeSameSourceMultiplicityBalance.multiplicity_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceMultiplicityBalance.selected_multiplicity_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSameSourceMultiplicityBalance.selected_source_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceMultiplicityBalance.fine_le_coarse_from_parent_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSameSourceMultiplicityBalance.exists_parent_from_coarse_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSameSourceMultiplicityBalance.actual_scale_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceMultiplicityBalance.complementary_power_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSameSourceMultiplicityBalance.complementary_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceMultiplicityBalance.move_density_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceMultiplicityBalance.localCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceMultiplicityBalance.balanceCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceMultiplicityBalance.coarse_near_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceMultiplicityBalance.exists_parent_near_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

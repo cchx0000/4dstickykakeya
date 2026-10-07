@@ -1,0 +1,46 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0f3325aa1010e559c9a659f6bb905a16e142adfd52a78f87ec8e3b30eac45772.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_actual_configured_cell_selection.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_cell_selection.lean"]
+SOURCE_SHA256 74512b873517533c623b71633af17641988cbfe08c1f998e2b87fc6ad292f157
+LOCK_ACQUIRED_UTC 2026-10-06T15:13:07.552818+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_cell_selection.lean:62:68: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_cell_selection.lean:62:14: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+m : ℕ
+hm : 6 ≤ m
+p : Parent
+A : Finset (Fin n × Index)
+hparent : ∀ z ∈ A, parentLabel D a (2 ^ m) z.1 = p
+s : Split
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = tangentDim s
+F Fcfg : ℤ → Matrix (Fin (normalDim s)) (Fin (tangentDim s)) ℝ
+hF : ∀ (t : ℤ), ‖F t‖ ≤ 1 / 4
+hCfg : ∀ (t : ℤ), ‖Fcfg t‖ ≤ 1 / 4
+R0 : ℕ
+hR0 : 0 < R0
+hbase : rho m ≤ mu m * ↑R0
+K : ℕ
+M : Fin K → ℕ
+hM : ∀ (j : Fin K), 0 < M j
+hmenu : ∀ (j : Fin K), mu m * ↑R0 ≤ 64 / ↑(M j)
+hFe : ∀ (t : ℤ) (i : Fin (normalDim s)) (j : Fin (tangentDim s)), |F t i j| ≤ 1 / 4
+hCe : ∀ (t : ℤ) (i : Fin (normalDim s)) (j : Fin (tangentDim s)), |Fcfg t i j| ≤ 1 / 4
+hraw : ∀ k ∈ image Prod.snd A, dist (rawPoint D a m p k) (oldPoint D a m p k) ≤ 128 * mu m
+hscale : ∀ (j : Fin K), 64 * mu m ≤ 64 / ↑(M j)
+hround :
+  ∀ (j : Fin K),
+    ∀ k ∈ image Prod.snd A,
+      dist (NativeActualConfiguredPoint.point D a m p s P hP hd F Fcfg R0 k)
+          ((frame s P hP hd) ((1 / 512) • rawPoint D a m p k - 0)) ≤
+        3 * (64 / ↑(M j) / 512)
+j : Fin K
+hj : 0 < ↑(M j)
+⊢ 0 < 64 / ↑(M j)
+LEAN_FINISHED_UTC 2026-10-06T15:14:54.046551+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

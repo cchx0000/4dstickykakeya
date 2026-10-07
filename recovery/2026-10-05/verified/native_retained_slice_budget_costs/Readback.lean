@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_budget_costs
+
+#print axioms NativeRetainedSliceBudgetCosts.third_core_parent_cost
+#print axioms NativeRetainedSliceBudgetCosts.rank_parent_retention_power

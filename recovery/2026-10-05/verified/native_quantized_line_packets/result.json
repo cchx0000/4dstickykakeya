@@ -1,0 +1,128 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_quantized_line_packets",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_quantized_line_packets.lean",
+  "source_sha256": "824df97f001d2ae2263f13c7b1fb095dcca979f5d9963aee7ea532f6ce582fa5",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_quantized_line_packets.olean",
+  "names": [
+    "NativeQuantizedLinePackets.packetLabel",
+    "NativeQuantizedLinePackets.neighbors",
+    "NativeQuantizedLinePackets.neighbors_card",
+    "NativeQuantizedLinePackets.mem_indexBox_symm",
+    "NativeQuantizedLinePackets.mem_neighbors_symm",
+    "NativeQuantizedLinePackets.floor_mem_interval",
+    "NativeQuantizedLinePackets.abs_sub_le_of_floor_mem",
+    "NativeQuantizedLinePackets.label_mem_box_of_normal_bound",
+    "NativeQuantizedLinePackets.near_of_label_mem_box",
+    "NativeQuantizedLinePackets.packetLabel_mem_neighbors",
+    "NativeQuantizedLinePackets.neighbors_geometry",
+    "NativeQuantizedLinePackets.packet",
+    "NativeQuantizedLinePackets.occurrences",
+    "NativeQuantizedLinePackets.packet_geometry",
+    "NativeQuantizedLinePackets.row_subset_occurrences",
+    "NativeQuantizedLinePackets.packet_overlap",
+    "NativeQuantizedLinePackets.occurrence_overlap"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T11:40:44.767849+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "c0d8e195ce9f0af3a3a263ae27b28b2ba98fb2e2564eeb7405944a2f71de2766",
+  "source_execution_complete_utc": "2026-10-05T11:46:51.084757+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T115728926894",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeQuantizedLinePackets.packetLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.neighbors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.neighbors_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.mem_indexBox_symm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.mem_neighbors_symm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.floor_mem_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.abs_sub_le_of_floor_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.label_mem_box_of_normal_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.near_of_label_mem_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.packetLabel_mem_neighbors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.neighbors_geometry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.packet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.occurrences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.packet_geometry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.row_subset_occurrences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.packet_overlap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuantizedLinePackets.occurrence_overlap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:05:40.063614+00:00"
+}

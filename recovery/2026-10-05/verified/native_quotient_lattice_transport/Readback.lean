@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_quotient_lattice_transport
+
+#print axioms NativeQuotientLatticeTransport.productSlice
+#print axioms NativeQuotientLatticeTransport.atHeight
+#print axioms NativeQuotientLatticeTransport.atHeight_injective
+#print axioms NativeQuotientLatticeTransport.height_slice_eq
+#print axioms NativeQuotientLatticeTransport.spatial_box_iff
+#print axioms NativeQuotientLatticeTransport.spatial_ball_eq
+#print axioms NativeQuotientLatticeTransport.ambient_box_real_card
+#print axioms NativeQuotientLatticeTransport.realized_slice_eq
+#print axioms NativeQuotientLatticeTransport.ambient_bounds_of_AD

@@ -1,0 +1,113 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/a628b89219e3676799f3b9f1bd1d0424d59abd9b1e6d02939eac769311b4006f.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean"]
+SOURCE_SHA256 149ead7542818bd6c589ff7afeff6319ec578551ea45aa123df25002d70ef05e
+LOCK_ACQUIRED_UTC 2026-10-06T17:24:56.987155+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean:63:2: error: unsolved goals
+case pos
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref T : Finset (Fin n × Index)
+a : ℝ
+m b : ℕ
+p : Parent
+Q : Finset Parent
+z : Fin #(parentLabels D R a (2 ^ m) p) × Index
+hz : parentLabel (source h R Eref a m p) 0 (2 ^ b) z.1 ∈ Q
+⊢ (z.2 ∈ if parentLabel (source ?h R ?Eref a m p) 0 (2 ^ b) z.1 ∈ Q then sourceCells D R T a (2 ^ m) p z.1 else ∅) ↔
+    z.2 ∈ sourceCells D R T a (2 ^ m) p z.1
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean:64:29: error(lean.unknownIdentifier): Unknown identifier `not_mem_empty`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean:64:2: error: unsolved goals
+case neg
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref T : Finset (Fin n × Index)
+a : ℝ
+m b : ℕ
+p : Parent
+Q : Finset Parent
+z : Fin #(parentLabels D R a (2 ^ m) p) × Index
+hz : parentLabel (source h R Eref a m p) 0 (2 ^ b) z.1 ∉ Q
+⊢ (z.2 ∈ if parentLabel (source ?h R ?Eref a m p) 0 (2 ^ b) z.1 ∈ Q then sourceCells D R T a (2 ^ m) p z.1 else ∅) ↔
+    False
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean:59:76: error: unsolved goals
+case h
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref T : Finset (Fin n × Index)
+a : ℝ
+m b : ℕ
+p : Parent
+Q : Finset Parent
+z : Fin #(parentLabels D R a (2 ^ m) p) × Index
+⊢ IsWangZakharovNativeFiniteInput D ?m.69
+
+case Eref
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref T : Finset (Fin n × Index)
+a : ℝ
+m b : ℕ
+p : Parent
+Q : Finset Parent
+z : Fin #(parentLabels D R a (2 ^ m) p) × Index
+⊢ Finset (Fin n × Index)
+
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref T : Finset (Fin n × Index)
+a : ℝ
+m b : ℕ
+p : Parent
+Q : Finset Parent
+z : Fin #(parentLabels D R a (2 ^ m) p) × Index
+⊢ ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean:63:19: error: This simp argument is unused:
+  if_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hz, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean:64:19: error: This simp argument is unused:
+  if_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hz, not_mem_empty, and_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean:79:20: error: Invalid `⟨...⟩` notation: The expected type
+  Quot.lift (fun l => z ∈ l) ⋯ {a_1 ∈ E | parentLabel D a N a_1.1 = q}.val
+is not an inductive type
+
+Note: This notation can only be used when the expected type is an inductive type with a single constructor
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean:81:10: error: Invalid `⟨...⟩` notation: The expected type
+  Quot.lift (fun l => z ∈ l) ⋯ {a_1 ∈ {z ∈ E | parentLabel D a N z.1 ∈ Q} | parentLabel D a N a_1.1 = q}.val
+is not an inductive type
+
+Note: This notation can only be used when the expected type is an inductive type with a single constructor
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_source_restriction.lean:77:13: error: This simp argument is unused:
+  mem_filter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [label]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+LEAN_FINISHED_UTC 2026-10-06T17:30:34.690754+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

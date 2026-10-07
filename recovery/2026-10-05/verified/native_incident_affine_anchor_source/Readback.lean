@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_incident_affine_anchor_source
+
+#print axioms NativeIncidentAffineAnchorSource.exists_actual_incident_affine_anchors

@@ -1,0 +1,12 @@
+COMMAND ["lake", "env", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/RobustRecoveryReadback.lean"]
+SOURCE_SHA256 7f080921ccdf427d243a742787d32451e1cd37ced43cd9d8779712b978e0d360
+FIFO compiler ticket: 01791174959948036239-1a8950a85c3b4b09a09d9db222422ee6.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:59.948545+00:00
+'OriginalUniformWeakRobustProjection.exists_uniform_original_local_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OriginalUniformWeakRobustProjection.exists_uniform_original_robust_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

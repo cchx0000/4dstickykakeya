@@ -1,0 +1,58 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_direction_rank_wedge",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_direction_rank_wedge.lean",
+  "source_sha256": "e8dbfba48a108a6b818c2766dc54ca520cae5bb6f127dd0ba2feaebb851228d6",
+  "names": [
+    "NativeDirectionRankWedge.cons_image_after_zero",
+    "NativeDirectionRankWedge.cons_image_after_succ",
+    "NativeDirectionRankWedge.separated_tail_distances",
+    "NativeDirectionRankWedge.separated_gram_det_lower",
+    "NativeDirectionRankWedge.chains_gram_det_lower",
+    "NativeDirectionRankWedge.concentration_or_many_transverse_chains",
+    "NativeDirectionRankWedge.incident_slope_quantitative_dichotomy"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T08:00:23.366551+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeDirectionRankWedge.cons_image_after_zero": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankWedge.cons_image_after_succ": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankWedge.separated_tail_distances": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankWedge.separated_gram_det_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankWedge.chains_gram_det_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankWedge.concentration_or_many_transverse_chains": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankWedge.incident_slope_quantitative_dichotomy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "fc6365b0571b0fb649f1699b5cfc89c0eaf75aba34417c9e1fa608b3bf78a950",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T08:25:25.486036+00:00"
+}

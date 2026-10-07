@@ -1,0 +1,145 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_queried_vertex_weights",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_queried_vertex_weights.lean",
+  "source_sha256": "ff9c2e8ceef68ff16e36b657a76a01c12fb5f9d5d5c4805183298bc3e40ab9c2",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_queried_vertex_weights.olean",
+  "names": [
+    "NativeQueriedVertexWeights.pointWeight",
+    "NativeQueriedVertexWeights.vertices",
+    "NativeQueriedVertexWeights.vertexMultiplicity",
+    "NativeQueriedVertexWeights.vertexCap",
+    "NativeQueriedVertexWeights.mass_pointWeight",
+    "NativeQueriedVertexWeights.reference_mass",
+    "NativeQueriedVertexWeights.vertex_mass_eq",
+    "NativeQueriedVertexWeights.vertex_upper_cross",
+    "NativeQueriedVertexWeights.vertex_lower_cross",
+    "NativeQueriedVertexWeights.vertex_mass_bounds",
+    "NativeQueriedVertexWeights.vertex_mass_le_cap",
+    "NativeQueriedVertexWeights.vertexCap_pos",
+    "NativeQueriedVertexWeights.vertexCap_le_average",
+    "NativeQueriedVertexWeights.mass_le_vertices_mul_cap",
+    "NativeQueriedVertexWeights.weighted_approximate_predecessor_vertices",
+    "NativeQueriedVertexWeights.center_injective",
+    "NativeQueriedVertexWeights.embedded_vertex_cap",
+    "NativeQueriedVertexWeights.weighted_predecessor_vertices",
+    "NativeQueriedVertexWeights.queried_vertex_mass_bounds",
+    "NativeQueriedVertexWeights.squared_grain_width"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:20:26.048713+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "05b03e7a49e5161e1468f42731733d7ab7813c2a7a0381cbecdc1e7aa100abb7",
+  "source_execution_complete_utc": "2026-10-05T12:24:50.790769+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T123513278205",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeQueriedVertexWeights.pointWeight": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertexMultiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertexCap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.mass_pointWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.reference_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertex_mass_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertex_upper_cross": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertex_lower_cross": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertex_mass_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertex_mass_le_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertexCap_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.vertexCap_le_average": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.mass_le_vertices_mul_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.weighted_approximate_predecessor_vertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.center_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.embedded_vertex_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.weighted_predecessor_vertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.queried_vertex_mass_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQueriedVertexWeights.squared_grain_width": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:42:08.929566+00:00"
+}

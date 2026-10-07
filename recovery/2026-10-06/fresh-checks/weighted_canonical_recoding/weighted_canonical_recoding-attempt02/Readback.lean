@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_weighted_canonical_recoding
+set_option autoImplicit false
+#print axioms WeightedCanonicalRecoding.pointLabel
+#print axioms WeightedCanonicalRecoding.oldPoints
+#print axioms WeightedCanonicalRecoding.fineXCells
+#print axioms WeightedCanonicalRecoding.old_label_fiber_eq
+#print axioms WeightedCanonicalRecoding.old_label_fiber_card
+#print axioms WeightedCanonicalRecoding.label_weight_eq_sum_point_weights
+#print axioms WeightedCanonicalRecoding.retained_point_weight_mass
+#print axioms WeightedCanonicalRecoding.threshold
+#print axioms WeightedCanonicalRecoding.threshold_nonneg
+#print axioms WeightedCanonicalRecoding.threshold_budget
+#print axioms WeightedCanonicalRecoding.real_retention
+#print axioms WeightedCanonicalRecoding.exists_actual_coarse_recoding

@@ -1,0 +1,12 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_scheduled_local_multiplicity_readback.lean"]
+SOURCE_SHA256 5c4d4f0ca3db9f5d53cc5994dbeeef3e2bf212bb6f8aee3093f2be06b7130aea
+FIFO compiler ticket: 01791176297688864379-5ac2d9ec9e5c45e1982c641eb8bc8cef.request
+FIFO compiler acquired UTC: 2026-10-05T04:58:17.689941+00:00
+'NativeScheduledLocalMultiplicity.exists_retained_scheduled_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeScheduledLocalMultiplicity.exists_original_scheduled_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

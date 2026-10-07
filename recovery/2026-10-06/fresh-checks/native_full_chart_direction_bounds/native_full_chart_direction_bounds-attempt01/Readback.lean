@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_full_chart_direction_bounds
+set_option autoImplicit false
+#print axioms NativeFullChartDirectionBounds.full_source_slope_bound

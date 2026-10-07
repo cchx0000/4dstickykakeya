@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/fc66b064da48e49f8e4f12c3f3912b5e7676a45602177eadb41edf505eb2e221.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/marked_isometric_chart-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/marked_isometric_chart-attempt02/Readback.lean"]
+SOURCE_SHA256 84212fc8d7b2c7e217d8c127978f9888de6422b93b68334d2d0a84cb5dc06a2d
+'MarkedIsometricChart.point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MarkedIsometricChart.line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MarkedIsometricChart.point_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MarkedIsometricChart.point_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MarkedIsometricChart.valid_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MarkedIsometricChart.raw_front_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MarkedIsometricChart.unitFront_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MarkedIsometricChart.tube_membership' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MarkedIsometricChart.tube_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

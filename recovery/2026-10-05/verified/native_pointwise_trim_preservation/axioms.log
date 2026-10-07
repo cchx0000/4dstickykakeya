@@ -1,0 +1,38 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180420918225", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180420918225/AggregateReadback.lean"]
+READBACK_SHA256 f1226e3cdce9eeda8763eecd7a48f16a2feac63f1e99ff7f6532b609c6f892bb
+Dedicated staging slot 3 acquired UTC: 2026-10-05T18:04:38.345880+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8530880 kB
+'NativePointwiseTrimPreservation.filtered_point_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointwiseTrimPreservation.filtered_point_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointwiseTrimPreservation.point_class_half_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointwiseTrimPreservation.point_class_image_unchanged' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridField.coarseIndex_horizontalCoarsen' depends on axioms: [propext]
+'NativeReferenceXYGridField.fixedField' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridField.fixedField_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridField.fixedField_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridField.fixedField_zero_off' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridField.fixed_pxy_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridField.pref_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridField.slice_horizontal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedCompleteParentProfiles.HasSaturatedCompleteParentProfiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedCompleteParentProfiles.complete_saturated_selected_parent_profiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedPopulationParentProfiles.HasSaturatedPopulationParentProfiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedPopulationParentProfiles.source_saturated_population_parent_profiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTwoMapRetainedSliceActualCaps.dimension_sum' depends on axioms: [propext, Quot.sound]
+'NativeTwoMapRetainedSliceActualCaps.encodedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceActualCaps.encodedPoint_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceActualCaps.encodedPoint_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceActualCaps.encoded_capacities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceActualCaps.image_composed_encode_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_reference_hereditary_upper
+
+#print axioms NativeReferenceHereditaryUpper.from_master_reference

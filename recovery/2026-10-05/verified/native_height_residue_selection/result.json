@@ -1,0 +1,50 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_height_residue_selection",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_height_residue_selection.lean",
+  "source_sha256": "cccaf4ed41ef012e8e1ddd2dd3c591573a62865600bb991dc06dd5e7749f46cf",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_height_residue_selection.olean",
+  "names": [
+    "NativeHeightResidueSelection.same_residue_close_quotient",
+    "NativeHeightResidueSelection.select_height_residues",
+    "NativeHeightResidueSelection.selected_close_heights_same_ancestor",
+    "NativeHeightResidueSelection.exists_residue_separated_node_cut"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:01:25.566814+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "d2515c8ead853f37a6a85b95bf13d1e1b95131957a779d7f981375d64a9815d7",
+  "source_execution_complete_utc": "2026-10-05T16:01:31.180489+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160322233768",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeHeightResidueSelection.same_residue_close_quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightResidueSelection.select_height_residues": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightResidueSelection.selected_close_heights_same_ancestor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHeightResidueSelection.exists_residue_separated_node_cut": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:03:28.284799+00:00"
+}

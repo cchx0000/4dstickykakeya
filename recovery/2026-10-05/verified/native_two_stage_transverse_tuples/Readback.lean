@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_two_stage_transverse_tuples
+
+#print axioms NativeTwoStageTransverseTuples.unit_mass_eq_card
+#print axioms NativeTwoStageTransverseTuples.unit_chainMass_eq_card
+#print axioms NativeTwoStageTransverseTuples.point_near_le_half
+#print axioms NativeTwoStageTransverseTuples.point_transverse_chains
+#print axioms NativeTwoStageTransverseTuples.previous_rank_menu_transverse_chains

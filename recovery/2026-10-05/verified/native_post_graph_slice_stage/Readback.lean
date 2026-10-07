@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_post_graph_slice_stage
+
+#print axioms NativePostGraphSliceStage.PostGraphCleanupData
+#print axioms NativePostGraphSliceStage.HasPostGraphRetainedHistory
+#print axioms NativePostGraphSliceStage.HasPostGraphStage
+#print axioms NativePostGraphSliceStage.stage_with_post_graph_slice

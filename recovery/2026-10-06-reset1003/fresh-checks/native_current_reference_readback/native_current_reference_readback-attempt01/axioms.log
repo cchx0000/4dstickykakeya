@@ -1,0 +1,14 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/f026fe29caa76b62d4738a9335c893dc95ca9df98554d3c39ccdfc5f43eb075a.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_current_reference_readback-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_current_reference_readback-attempt01/Readback.lean"]
+SOURCE_SHA256 d59f756785f484db083d6322af03b95a8af95888658ee800f572f1a1e43bac49
+LOCK_ACQUIRED_UTC 2026-10-06T12:22:15.045674+00:00
+SHARED_SLOT 3
+LEAN_PID 63
+'NativeCurrentReferenceReadback.selected_relative_incidence_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCurrentReferenceReadback.selected_relative_source_shading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T12:23:49.224559+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

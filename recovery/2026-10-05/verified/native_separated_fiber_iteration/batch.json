@@ -1,0 +1,87 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T11:22:47.558036+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112245855625",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112245855625/AggregateReadback.lean"
+  ],
+  "readback_sha256": "cacf9bf1d17b9f073275ce8822d5ced848c776e5dea23ac9b3f2cb400fa0dba5",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_separated_fiber_iteration",
+      "source_sha256": "515785cffe6d43f88562ca73a8486f77567caf0b9d2993eeca9597178d82b1d9",
+      "olean_sha256": "feb44d68710273b4a95e7527b1d312d5c2df9d26bc39cb10a99f60a30bb92a50",
+      "names": [
+        "NativeSeparatedFiberIteration.reverseFamily",
+        "NativeSeparatedFiberIteration.reverseFamily_range",
+        "NativeSeparatedFiberIteration.reverseFamily_prefix_image",
+        "NativeSeparatedFiberIteration.separated_prefix_distances",
+        "NativeSeparatedFiberIteration.separated_lower_bound",
+        "NativeSeparatedFiberIteration.native_chain_lower_bound"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_successor_angular_count",
+      "source_sha256": "b5bf1386b7e564a93de6389ee8e639cc3482e232a4ba6e2546309f9a06a6119a",
+      "olean_sha256": "efb48d2c949beac216931f49007066e17d6317fc5560d9ae17afe68f5ebaf8fe",
+      "names": [
+        "NativeSuccessorAngularCount.successorEdges",
+        "NativeSuccessorAngularCount.successorLabels",
+        "NativeSuccessorAngularCount.successorLabels_mono",
+        "NativeSuccessorAngularCount.successor_card_le_of_subset",
+        "NativeSuccessorAngularCount.root_angular_image_card",
+        "NativeSuccessorAngularCount.localized_angular_image_card",
+        "NativeSuccessorAngularCount.actual_successor_card"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_master_successor_menu",
+      "source_sha256": "eca6a62589a85bd0fb8f39dbf3b6e08fc803d835243eec4ad7059c6cbdc61bab",
+      "olean_sha256": "6fbc55055baaf002ed9e5acfffd0a6be879862aabc6374e6c4a96dbfee03dbea",
+      "names": [
+        "NativeMasterSuccessorMenu.from_master_reference"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_query_menu",
+      "source_sha256": "2b6780ec6ce9a95e174c03c480e96636214805df047bbfa6c290e1d8ab2cb356",
+      "olean_sha256": "83415a5f8b2ce78b840fd5894bb58381b1f22987a04351c001acebe0b89a3730",
+      "names": [
+        "NativeRetainedQueryMenu.appendEqualities",
+        "NativeRetainedQueryMenu.appendEqualities_refl",
+        "NativeRetainedQueryMenu.appendEqualities_symm",
+        "NativeRetainedQueryMenu.appendEqualities_uniformities",
+        "NativeRetainedQueryMenu.fineQueryPair",
+        "NativeRetainedQueryMenu.shortQueryPair",
+        "NativeRetainedQueryMenu.rawQueryPoint",
+        "NativeRetainedQueryMenu.queryMenu",
+        "NativeRetainedQueryMenu.queryMenu_refl",
+        "NativeRetainedQueryMenu.queryMenu_symm",
+        "NativeRetainedQueryMenu.queryMenu_uniformities",
+        "NativeRetainedQueryMenu.grainDepth",
+        "NativeRetainedQueryMenu.grainDepth_bounds",
+        "NativeRetainedQueryMenu.grainDepth_zero",
+        "NativeRetainedQueryMenu.grainDepth_last",
+        "NativeRetainedQueryMenu.grainDepth_mono",
+        "NativeRetainedQueryMenu.grainDepth_succ_gap",
+        "NativeRetainedQueryMenu.grainQueries",
+        "NativeRetainedQueryMenu.grainQueries_valid",
+        "NativeRetainedQueryMenu.grainQueries_six_le"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T11:25:14.780316+00:00",
+  "exit_code": 0
+}

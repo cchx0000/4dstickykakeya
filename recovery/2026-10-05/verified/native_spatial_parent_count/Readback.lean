@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_spatial_parent_count
+
+#print axioms NativeSpatialParentCount.raw_point_count_le_one
+#print axioms NativeSpatialParentCount.fine_pair_count_in_raw_cell
+#print axioms NativeSpatialParentCount.parent_count_le_pair_count
+#print axioms NativeSpatialParentCount.source_global_subset_upper
+#print axioms NativeSpatialParentCount.source_spatial_parent_count

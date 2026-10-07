@@ -1,0 +1,110 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_phase_height_population",
+  "source": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live/Theorems/Thm_StickyKakeya4_native_phase_height_population.lean",
+  "source_sha256": "198f6be2c80a3cdc01f403096447566f2daff251822349b8c960407c70b50b8c",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean/Theorems/Thm_StickyKakeya4_native_phase_height_population.olean",
+  "names": [
+    "NativePhaseHeightPopulation.heightLabel",
+    "NativePhaseHeightPopulation.column_height_readback",
+    "NativePhaseHeightPopulation.heightLabel_integer",
+    "NativePhaseHeightPopulation.height_row_card",
+    "NativePhaseHeightPopulation.dyadic_height_mesh",
+    "NativePhaseHeightPopulation.dyadic_height_row_capacity",
+    "NativePhaseHeightPopulation.heightEdges",
+    "NativePhaseHeightPopulation.phaseHeightLabels",
+    "NativePhaseHeightPopulation.retained_height_capacity",
+    "NativePhaseHeightPopulation.phase_height_population",
+    "NativePhaseHeightPopulation.heightLabels",
+    "NativePhaseHeightPopulation.parent_height_population",
+    "NativePhaseHeightPopulation.original_translated_height_abs",
+    "NativePhaseHeightPopulation.height_population_upper"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:09:41.755433+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "e22ac37ef3d3c07d472d480cb5e1e984c4968d6823d72b06f7aaf77e59664623",
+  "source_execution_complete_utc": "2026-10-05T16:09:49.531496+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161649745264",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativePhaseHeightPopulation.heightLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.column_height_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.heightLabel_integer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.height_row_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.dyadic_height_mesh": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.dyadic_height_row_capacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.heightEdges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.phaseHeightLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.retained_height_capacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.phase_height_population": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.heightLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.parent_height_population": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.original_translated_height_abs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhaseHeightPopulation.height_population_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:16:55.400606+00:00"
+}

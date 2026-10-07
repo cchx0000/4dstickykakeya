@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_normalized_cell_angular_menu
+
+#print axioms NativeNormalizedCellAngularMenu.angularCell
+#print axioms NativeNormalizedCellAngularMenu.relativeAngle
+#print axioms NativeNormalizedCellAngularMenu.angular_readback
+#print axioms NativeNormalizedCellAngularMenu.angularMenu
+#print axioms NativeNormalizedCellAngularMenu.angular_menu_le_degree
+#print axioms NativeNormalizedCellAngularMenu.original_angular_menu_upper

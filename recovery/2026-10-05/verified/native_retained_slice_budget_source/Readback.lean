@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_budget_source
+
+#print axioms NativeRetainedSliceBudgetSource.actualRetainedConstant
+#print axioms NativeRetainedSliceBudgetSource.actualRetainedConstant_le
+#print axioms NativeRetainedSliceBudgetSource.quotientTolerance
+#print axioms NativeRetainedSliceBudgetSource.quotientTolerance_bounds
+#print axioms NativeRetainedSliceBudgetSource.actual_quotient_test

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_parent_reference_relation_menu
+
+#print axioms NativeParentReferenceRelationMenu.relations
+#print axioms NativeParentReferenceRelationMenu.relations_refl
+#print axioms NativeParentReferenceRelationMenu.relations_symm
+#print axioms NativeParentReferenceRelationMenu.uniformities

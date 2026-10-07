@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_merged_direction_quotient
+set_option autoImplicit false
+#print axioms NativeMergedDirectionQuotient.retained_quotient_residual
+#print axioms NativeMergedDirectionQuotient.configured_residual_267

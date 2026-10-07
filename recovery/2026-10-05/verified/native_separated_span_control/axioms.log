@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T113048291414", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T113048291414/AggregateReadback.lean"]
+READBACK_SHA256 e99621239958e5335570f19adade1c119525beada6fb7d1be146971655d1eecd
+Dedicated staging slot 3 acquired UTC: 2026-10-05T11:35:23.564661+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7823376 kB
+'NativeSeparatedSpanControl.coefficientCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSeparatedSpanControl.coefficientCost_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSeparatedSpanControl.coefficient_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSeparatedSpanControl.span_near_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,19 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T095134768993", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T095134768993/AggregateReadback.lean"]
+READBACK_SHA256 42775bab33bcde8ee470c4e098b4015e7490644cef9efa39f06860129b9b8a4f
+FIFO compiler ticket: 01791194550672335062-121c596c3854467382d89ee8c1220254.request
+FIFO compiler acquired UTC: 2026-10-05T10:02:30.673258+00:00
+'NativeHereditaryScaleUpper.all_pair_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHereditaryScaleUpper.boundary_pair_upper_separate_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHereditaryScaleUpper.hereditary_three_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHereditaryScaleUpper.middle_pair_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHereditaryScaleUpper.reference_cost_budgets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalDirectionTubeSupport.original_local_quadratic_packet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeLocalDirectionTubeSupport.tube_local_displacement_near_plane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

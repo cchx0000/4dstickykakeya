@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_actual_reference_W_directions
+
+#print axioms NativeActualReferenceWDirections.slope
+#print axioms NativeActualReferenceWDirections.representative_parent
+#print axioms NativeActualReferenceWDirections.full_direction_menu
+#print axioms NativeActualReferenceWDirections.witness_full_direction_conditions

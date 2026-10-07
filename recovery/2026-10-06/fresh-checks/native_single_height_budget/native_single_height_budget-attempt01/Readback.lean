@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_single_height_budget
+set_option autoImplicit false
+#print axioms NativeSingleHeightBudget.height_cost_from_error_envelope

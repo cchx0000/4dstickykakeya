@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_angular_scale_readback
+
+#print axioms NativeConditionalAngularScaleReadback.relative_width_ratio
+#print axioms NativeConditionalAngularScaleReadback.inner_query_product
+#print axioms NativeConditionalAngularScaleReadback.actual_nested_scale_budgets

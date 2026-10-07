@@ -1,0 +1,25 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134909250044", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134909250044/AggregateReadback.lean"]
+READBACK_SHA256 6c562c191f2c8c58c1041f457ded7e8da0bb91acbd85c5ef120fb43a4998e99f
+Dedicated staging slot 3 acquired UTC: 2026-10-05T13:50:42.323106+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8296016 kB
+'NativeActualProjectedGrainCount.actual_node_grain_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.actual_projection_minimum_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualProjectedGrainCount.cap_mul_raw_vertices_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.grainWidth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.grainWidth_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.predecessorProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.projectionLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.restricted_node_grain_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.taggedLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.tagged_same_label_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.transverseCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualProjectedGrainCount.transverseCost_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatiblePlaneVariation.compatible_installed_span_variation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompatiblePlaneVariation.installed_word_coarsens' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatiblePlaneVariation.matching_word_span_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

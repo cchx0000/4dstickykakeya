@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_relative_label_ancestry
+set_option autoImplicit false
+#print axioms NativeJointKeyDescent.relative_ancestor
+#print axioms NativeJointKeyDescent.relative_image_card_antitone

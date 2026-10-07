@@ -1,0 +1,20 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_local_parent_multiplicity_readback.lean"]
+SOURCE_SHA256 12922cc3403997e7d2e226e3e6d2ff9c352109d495a00c60db756a87e07ce006
+FIFO compiler ticket: 01791176134797833152-aa3f3937a31c41ed8411255f46b7cdf2.request
+FIFO compiler acquired UTC: 2026-10-05T04:55:34.798801+00:00
+'NativeLocalParentMultiplicity.parentEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentMultiplicity.parentEdges_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentMultiplicity.globalPair_eq_localPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentMultiplicity.parent_fiber_eq_global' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentMultiplicity.parent_pair_fiber_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentMultiplicity.retained_pair_fiber_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentMultiplicity.retained_pair_image_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentMultiplicity.parent_multiplicity_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentMultiplicity.native_parent_multiplicity_cross' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeLocalParentMultiplicity.native_parent_multiplicity_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

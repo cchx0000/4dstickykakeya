@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_post_graph_configuration
+
+#print axioms NativeActualPostGraphConfiguration.exists_actual_post_graph_configuration

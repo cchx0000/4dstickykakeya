@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_rank_packet_count
+
+#print axioms NativeRankPacketCount.stage_vertex_count

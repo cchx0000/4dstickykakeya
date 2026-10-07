@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_local_extremal
+#print axioms NativeActualLocalExtremal.exists_relative_window_cutoff
+#print axioms NativeActualLocalExtremal.compact_original_scheduled_local_extremal_upper

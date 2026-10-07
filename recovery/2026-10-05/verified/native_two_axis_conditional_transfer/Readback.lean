@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_two_axis_conditional_transfer
+
+#print axioms NativeTwoAxisConditionalTransfer.conditional_full_eq_image
+#print axioms NativeTwoAxisConditionalTransfer.scheduled_image_bounds
+#print axioms NativeTwoAxisConditionalTransfer.core_conditioned_uniformities
+#print axioms NativeTwoAxisConditionalTransfer.far_pair_bounds

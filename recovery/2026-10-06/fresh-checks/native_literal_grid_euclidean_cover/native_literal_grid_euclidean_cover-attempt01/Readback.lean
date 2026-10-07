@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_literal_grid_euclidean_cover
+set_option autoImplicit false
+#print axioms NativeLiteralGridEuclideanCover.euclideanCoverCount
+#print axioms NativeLiteralGridEuclideanCover.EuclideanCoverAD
+#print axioms NativeLiteralGridEuclideanCover.euclidean_cover_of_sup_cover

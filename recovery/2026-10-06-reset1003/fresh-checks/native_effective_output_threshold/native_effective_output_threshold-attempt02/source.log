@@ -1,0 +1,9 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1b05347832b7b162701f69604b01eebefbc042cf84446b354825df8f6df4cabc.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_effective_output_threshold.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_effective_output_threshold.lean"]
+SOURCE_SHA256 44c5350e5cd6f47d45c218a7dc7771738b6a1e581147290169702f9ba3942f75
+LOCK_ACQUIRED_UTC 2026-10-06T12:10:06.918026+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_effective_output_threshold.lean:43:25: error: `ring_nf` made no progress on the goal
+LEAN_FINISHED_UTC 2026-10-06T12:14:31.046055+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

@@ -1,0 +1,60 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_scale_menu_successor",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_scale_menu_successor.lean",
+  "source_sha256": "573e819fa985b3e7c2051d182ba1e579d9a5d91eaf3be71e7a08145d3f3ef4bd",
+  "names": [
+    "NativeScaleMenuSuccessor.exists_successor",
+    "NativeScaleMenuSuccessor.exists_clipped_successor",
+    "NativeScaleMenuSuccessor.exists_window_successor",
+    "NativeScaleMenuSuccessor.partition_multiplicity_lower",
+    "NativeScaleMenuSuccessor.nested_parentEdges_eq",
+    "NativeScaleMenuSuccessor.off_menu_parent_lower",
+    "NativeScaleMenuSuccessor.off_menu_parent_power_lower"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T06:20:27.956135+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeScaleMenuSuccessor.exists_successor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeScaleMenuSuccessor.exists_clipped_successor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeScaleMenuSuccessor.exists_window_successor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeScaleMenuSuccessor.partition_multiplicity_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeScaleMenuSuccessor.nested_parentEdges_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeScaleMenuSuccessor.off_menu_parent_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeScaleMenuSuccessor.off_menu_parent_power_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "83d570bd68816165fef94dc1cb2516ba978ac4b66223a4e7b89e70c5b713947f",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T06:38:09.208171+00:00"
+}

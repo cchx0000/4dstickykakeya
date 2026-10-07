@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_same_source_balance_absorption
+#print axioms NativeSameSourceBalanceAbsorption.exists_balance_cutoff
+#print axioms NativeSameSourceBalanceAbsorption.absorb_balance_cost
+#print axioms NativeSameSourceBalanceAbsorption.exists_actual_parent_near_lower

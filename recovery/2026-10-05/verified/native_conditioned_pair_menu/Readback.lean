@@ -1,0 +1,18 @@
+import Theorems.Thm_StickyKakeya4_native_conditioned_pair_menu
+
+#print axioms NativeConditionedPairMenu.conditioned_fiber_eq
+#print axioms NativeConditionedPairMenu.conditioned_uniformity
+#print axioms NativeConditionedPairMenu.uniformity_congr
+#print axioms NativeConditionedPairMenu.fixedDoublePair
+#print axioms NativeConditionedPairMenu.fixedDoublePair_eq
+#print axioms NativeConditionedPairMenu.conditionedGlobalPair
+#print axioms NativeConditionedPairMenu.conditionedGlobalPoint
+#print axioms NativeConditionedPairMenu.conditionedRelativePair
+#print axioms NativeConditionedPairMenu.conditionedRelativePoint
+#print axioms NativeConditionedPairMenu.conditional_pair_uniformities
+#print axioms NativeConditionedPairMenu.pairMenuSize
+#print axioms NativeConditionedPairMenu.pairMenuSize_eq
+#print axioms NativeConditionedPairMenu.pairRelationMenu
+#print axioms NativeConditionedPairMenu.pairRelationMenu_refl
+#print axioms NativeConditionedPairMenu.pairRelationMenu_symm
+#print axioms NativeConditionedPairMenu.pairRelationMenu_uniformities

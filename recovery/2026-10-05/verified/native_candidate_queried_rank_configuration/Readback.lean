@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_candidate_queried_rank_configuration
+
+#print axioms NativeCandidateQueriedRankConfiguration.exists_candidate_queried_rank_configuration

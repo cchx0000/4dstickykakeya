@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/fab02fd73282062cdc21e355d7502e4de846ef890372e1521dfd1d94b49c8b21.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_single_height_recoding-attempt04", "/workspace/shared/sticky-recovery-20261006/verification/native_single_height_recoding-attempt04/Readback.lean"]
+SOURCE_SHA256 ee05bf450c6dbac68fce994be91a5947d1d1b7303490feee30e7b1cb1829f4c7
+'NativeSingleHeightRecoding.heightColor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSingleHeightRecoding.select_one_old_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSingleHeightRecoding.coarse_height_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSingleHeightRecoding.select_original_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSingleHeightRecoding.frozen_matrix_consistency' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

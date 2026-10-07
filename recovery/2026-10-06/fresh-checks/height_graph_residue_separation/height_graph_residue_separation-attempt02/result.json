@@ -1,0 +1,103 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_height_graph_residue_separation",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_height_graph_residue_separation.lean",
+  "source_sha256": "c065b6357ad2d7678b6adff68699ba6fe25cad22f492de363fab04a9f1abbea7",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_height_graph_residue_separation.olean",
+  "names": [
+    "HeightGraphResidueSeparation.parameterX",
+    "HeightGraphResidueSeparation.parameterY",
+    "HeightGraphResidueSeparation.graphGrid",
+    "HeightGraphResidueSeparation.graphGrid_height",
+    "HeightGraphResidueSeparation.graphGrid_tangent",
+    "HeightGraphResidueSeparation.graphGrid_normal",
+    "HeightGraphResidueSeparation.parameter_ext",
+    "HeightGraphResidueSeparation.midpoint_distance",
+    "HeightGraphResidueSeparation.colored_coordinate_gap",
+    "HeightGraphResidueSeparation.graphGrid_residue_separation",
+    "HeightGraphResidueSeparation.graphGrid_separated",
+    "HeightGraphResidueSeparation.graphGrid_injective",
+    "HeightGraphResidueSeparation.select_original_weighted_points",
+    "HeightGraphResidueSeparation.select_original_edges"
+  ],
+  "started_utc": "2026-10-06T06:31:15.482335+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "c63cbbf48d76e1bc01205a7c9d623d669b16d3ce2e228bbc2621ca161bc82b84",
+  "readback_exit_code": 0,
+  "axioms": {
+    "HeightGraphResidueSeparation.parameterX": [
+      "propext",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.parameterY": [
+      "propext",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.graphGrid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.graphGrid_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.graphGrid_tangent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.graphGrid_normal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.parameter_ext": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.midpoint_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.colored_coordinate_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.graphGrid_residue_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.graphGrid_separated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.graphGrid_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.select_original_weighted_points": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "HeightGraphResidueSeparation.select_original_edges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:31:30.855085+00:00"
+}

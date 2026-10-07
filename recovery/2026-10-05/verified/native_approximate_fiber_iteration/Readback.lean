@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_approximate_fiber_iteration
+
+#print axioms NativeApproximateFiberIteration.radius
+#print axioms NativeApproximateFiberIteration.radius_pos
+#print axioms NativeApproximateFiberIteration.le_radius
+#print axioms NativeApproximateFiberIteration.radius_succ
+#print axioms NativeApproximateFiberIteration.directionAt
+#print axioms NativeApproximateFiberIteration.directionAt_eq
+#print axioms NativeApproximateFiberIteration.predecessorMinimum
+#print axioms NativeApproximateFiberIteration.overlap
+#print axioms NativeApproximateFiberIteration.fiber_mono_radius
+#print axioms NativeApproximateFiberIteration.iterated_count
+#print axioms NativeApproximateFiberIteration.overlap_le_common
+#print axioms NativeApproximateFiberIteration.iterated_lower_bound
+#print axioms NativeApproximateFiberIteration.full_lower_bound

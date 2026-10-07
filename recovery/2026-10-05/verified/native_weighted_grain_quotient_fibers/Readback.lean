@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_fibers
+
+#print axioms NativeWeightedGrainQuotientFibers.key
+#print axioms NativeWeightedGrainQuotientFibers.edgeX
+#print axioms NativeWeightedGrainQuotientFibers.fullX
+#print axioms NativeWeightedGrainQuotientFibers.mixed_edgeX_image
+#print axioms NativeWeightedGrainQuotientFibers.mixed_key_eq
+#print axioms NativeWeightedGrainQuotientFibers.wholeX_subset_fullX

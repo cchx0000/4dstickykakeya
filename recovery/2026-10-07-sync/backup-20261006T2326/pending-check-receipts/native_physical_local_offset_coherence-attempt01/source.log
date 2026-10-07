@@ -1,0 +1,113 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/03fbe601cc20d356f17bb4895bdb233346fb7a61bf9b10efb6b8d1925d7cbbc1.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_physical_local_offset_coherence.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_physical_local_offset_coherence.lean"]
+SOURCE_SHA256 a18a5ab46015823f14a27f9f0884aa2dd3169ce5d44df7da1165ed9ff9355c36
+LOCK_ACQUIRED_UTC 2026-10-06T20:28:08.233349+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_physical_local_offset_coherence.lean:142:23: error: Invalid projection: Projections extract constructor fields for one-constructor inductive types. The expression
+  hz.left
+has type
+  Quot.lift (fun l => z ∈ l) ⋯ Smat.val
+which is not a one-constructor inductive type.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_physical_local_offset_coherence.lean:143:23: error: Invalid `⟨...⟩` notation: The expected type
+  Quot.lift (fun l => z ∈ l) ⋯ Smat.val
+is not an inductive type
+
+Note: This notation can only be used when the expected type is an inductive type with a single constructor
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_physical_local_offset_coherence.lean:159:6: error: linarith failed to find a contradiction
+n K : ℕ
+D : FiniteScaleSource n
+a : ℝ
+m : ℕ
+p : Parent
+S : Finset (Fin n × Index)
+hS : S.Nonempty
+hp : ∀ z ∈ S, parentLabel D a (2 ^ m) z.1 = p
+P0 : Submodule ℝ E4
+hP0 : P0 ≤ heightKernel
+ell : ℕ
+hell23 : ell = 2 ∨ ell = 3
+hell : 1 ≤ ell
+hell4 : ell ≤ 4
+hd : Module.finrank ℝ ↥P0 = ell - 1
+F : ℤ → Matrix (Fin (4 - ell)) (Fin (ell - 1)) ℝ
+xi : Index → EuclideanSpace ℝ (Fin (4 - ell))
+error metric shift : ℝ
+he : 0 ≤ error
+hmetric : 0 ≤ metric
+M : Fin K → ℕ
+hM : ∀ (j : Fin K), 0 < M j
+hwindow : ∀ (j : Fin K), meshWidth m / 512 ≤ 64 / ↑(M j)
+hErrorWindow : ∀ (j : Fin K), error ≤ 64 / ↑(M j)
+d upper : Fin K → ℝ
+hdpos : ∀ (j : Fin K), 0 < d j
+hF : ∀ k ∈ image Prod.snd S, ‖F (rawHeight D m k)‖ ≤ 1 / 4
+Hmetric :
+  ∀ z ∈ S,
+    ∀ u ∈ S,
+      ‖F (rawHeight D m z.2) - F (rawHeight D m u.2)‖ ≤
+        metric * |chartHeightCoordinate m shift (rawHeight D m z.2) - chartHeightCoordinate m shift (rawHeight D m u.2)|
+hres :
+  ∀ z ∈ S,
+    ‖(quotientMap P0 hP0 ell hell hell4 hd (F (rawHeight D m z.2))) (localHorizontalSlope D (2 ^ m) p z.1) - xi z.2‖ ≤
+      error
+hlower :
+  ∀ (j : Fin K),
+    ∀ k ∈ image Prod.snd S, d j ≤ ↑(#(image (fun z => angularCell D (2 ^ m) (M j) p z.1) ({z ∈ S | z.2 = k})))
+hupper : ∀ (j : Fin K) (c : Index), ↑(#(angularMenu D a m (M j) p S c)) ≤ upper j
+R : ℕ := modulus (2 * metric)
+Bmat : Finset Index
+hBmat : Bmat ⊆ image Prod.snd S
+hSmat : (lift S Prod.snd Bmat).Nonempty
+hMatrixCost : #S ≤ modulus (2 * metric) ^ (2 * K) * #(lift S Prod.snd Bmat)
+hMatrix :
+  ∀ (j : Fin K) (z u : Fin n × Index),
+    z ∈ lift S Prod.snd Bmat →
+      u ∈ lift S Prod.snd Bmat →
+        physicalCell D a (2 ^ m) (M j) p z.2 3 = physicalCell D a (2 ^ m) (M j) p u.2 3 →
+          ‖F (NativeSpatialAngularGeometry.spatialLabel D (2 ^ m) z.2 3) -
+                F (NativeSpatialAngularGeometry.spatialLabel D (2 ^ m) u.2 3)‖ <
+            64 / ↑(M j)
+hMatrixFiber : ∀ k ∈ Bmat, {z ∈ lift S Prod.snd Bmat | z.2 = k} = {z ∈ S | z.2 = k}
+Smat : Finset (Fin n × Index) := lift S Prod.snd Bmat
+hMatSub : Smat ⊆ S
+hMatPoint : ∀ k ∈ image Prod.snd Smat, k ∈ Bmat
+hLowerMat :
+  ∀ (j : Fin K),
+    ∀ k ∈ image Prod.snd Smat, d j ≤ ↑(#(image (fun z => angularCell D (2 ^ m) (M j) p z.1) ({z ∈ Smat | z.2 = k})))
+hUpperMat : ∀ (j : Fin K) (c : Index), ↑(#(angularMenu D a m (M j) p Smat c)) ≤ upper j
+H : Fin K → ℝ := fun j => 2 * error + 48 / ↑(M j) + 8 * (64 / ↑(M j))
+hH : ∀ (j : Fin K), 0 < H j
+hcap :
+  ∀ (j : Fin K),
+    have H := 2 * error + 48 / ↑(M j) + 8 * (64 / ↑(M j));
+    ∀ (c : Index),
+      ↑(#(image (fun z => label H (xi z.2)) ({z ∈ Smat | physicalCell D a (2 ^ m) (M j) p z.2 = c}))) ≤
+        4 ^ (4 - ell) * upper j / d j
+B : Finset Index
+hB : B ⊆ image Prod.snd Smat
+hFinal : (lift S Prod.snd B).Nonempty
+hOffsetCost : #Smat ≤ (∏ j, ⌈4 ^ (4 - ell) * upper j / d j⌉₊) * #(lift S Prod.snd B)
+hOffset :
+  ∀ (j : Fin K) (z w : Fin n × Index),
+    z ∈ lift S Prod.snd B →
+      w ∈ lift S Prod.snd B →
+        physicalCell D a (2 ^ m) (M j) p z.2 = physicalCell D a (2 ^ m) (M j) p w.2 →
+          label (H j) (xi z.2) = label (H j) (xi w.2)
+hOffsetFiber : ∀ x ∈ B, {z ∈ lift S Prod.snd B | z.2 = x} = {z ∈ Smat | z.2 = x}
+hBMat : B ⊆ Bmat
+hBS : B ⊆ image Prod.snd S
+hLift : lift Smat Prod.snd B = lift S Prod.snd B
+hFinalMat : lift S Prod.snd B ⊆ Smat
+j : Fin K
+z u : Fin n × Index
+hz : z ∈ lift S Prod.snd B
+hu : u ∈ lift S Prod.snd B
+hcell : physicalCell D a (2 ^ m) (M j) p z.2 = physicalCell D a (2 ^ m) (M j) p u.2
+hx : ‖xi z.2 - xi u.2‖ ≤ 3 * H j
+hh : error ≤ 64 / ↑(M j)
+a✝ : 129 / 4 * (64 / ↑(M j)) < 3 * (2 * error + 48 / ↑(M j) + 8 * (64 / ↑(M j)))
+⊢ False
+failed
+LEAN_FINISHED_UTC 2026-10-06T20:29:10.879273+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

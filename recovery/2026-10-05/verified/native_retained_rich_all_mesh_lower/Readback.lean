@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_retained_rich_all_mesh_lower
+
+#print axioms NativeRetainedRichAllMeshLower.actual_all_mesh_rich_class_lower

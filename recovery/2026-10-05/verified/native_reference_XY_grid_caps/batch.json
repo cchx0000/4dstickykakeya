@@ -1,0 +1,91 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T17:57:03.644872+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T175702517727",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T175702517727/AggregateReadback.lean"
+  ],
+  "readback_sha256": "b9ec9d0b350e70d0f5341ed7f4dd4aa4121c0864a170dfa9c0ce03202331506f",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_population_admission_budget",
+      "source_sha256": "bed7cf7e3bf40acc9098e09630f79ffa1c7ce7d56a83a122df09291d5d2f6f7f",
+      "olean_sha256": "90ff9131a7f6c3e20da1400d0cd04ea21e0b6b1a6cf702273ef480f61ba9007f",
+      "names": [
+        "NativeNormalizedPopulationAdmissionBudget.populationValue",
+        "NativeNormalizedPopulationAdmissionBudget.population_from_original_mass",
+        "NativeNormalizedPopulationAdmissionBudget.local_scale_root",
+        "NativeNormalizedPopulationAdmissionBudget.pay_local_root",
+        "NativeNormalizedPopulationAdmissionBudget.exists_original_population_admission_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_caps",
+      "source_sha256": "44a6fb4e9d0510cee759885a17c4dcc55fd9800a23db4012b897259edd2b4bea",
+      "olean_sha256": "49f9961fdfbd99b12869edba897b741ae776ad8e1d38d4a6ad40b06cf2b5416d",
+      "names": [
+        "NativeReferenceXYGridCaps.inverse_capacity",
+        "NativeReferenceXYGridCaps.forward_capacity",
+        "NativeReferenceXYGridCaps.fine_inverse_capacity",
+        "NativeReferenceXYGridCaps.fine_forward_capacity",
+        "NativeReferenceXYGridCaps.filtered_image_points",
+        "NativeReferenceXYGridCaps.lift_incidence_capacity"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_local",
+      "source_sha256": "bb61e1392dc5c189915efcf6e410f788d3f0026104a0a709bc826ab3a2dedfbf",
+      "olean_sha256": "6279ada8c8ef0a287309fc28724283257f70627aaf1289ad2c6bda1ed3afb358",
+      "names": [
+        "NativeReferenceXYGridLocal.floor_center_error",
+        "NativeReferenceXYGridLocal.grid_ball_pair",
+        "NativeReferenceXYGridLocal.inBox",
+        "NativeReferenceXYGridLocal.local_inverse_cover"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_cutoff",
+      "source_sha256": "95c076ff3f6c90e1c0da7441fc19f0d7704ff38dcae76ebbd3c0ab4369d9449f",
+      "olean_sha256": "8c81533a85fd2ef503e8e96daf3f239dad9fdb80faf46714c57e55e88fed0c65",
+      "names": [
+        "NativeRetainedSliceBudgetCutoff.exists_extra_cutoff",
+        "NativeRetainedSliceBudgetCutoff.extraCutoff",
+        "NativeRetainedSliceBudgetCutoff.extraCutoff_pos",
+        "NativeRetainedSliceBudgetCutoff.extraCutoff_pays",
+        "NativeRetainedSliceBudgetCutoff.exists_third_budget_cutoffs"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_final",
+      "source_sha256": "4cee591fac4803c60ae549945eb75c78973a9f39e1c64614a39c460ef46a1bf8",
+      "olean_sha256": "eff0b607014eed1a52e5da53bf4404d8ca72e3b562a5215139b7c6033fbb99d4",
+      "names": [
+        "NativeRetainedSliceBudgetFinal.exists_initial_parameters",
+        "NativeRetainedSliceBudgetFinal.source_eta_allowance",
+        "NativeRetainedSliceBudgetFinal.actual_retained_constant_le_power"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_ad",
+      "source_sha256": "78018e967569cba19695d76f92181791de2514745d27d060077d922885e59143",
+      "olean_sha256": "92e1a8081fb5692debf3c52c2853e59290b61fdd377a59598788118883d3b801",
+      "names": [
+        "NativeTwoMapRetainedSliceAD.all_radius_bounds"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T17:59:21.366290+00:00",
+  "exit_code": 0
+}

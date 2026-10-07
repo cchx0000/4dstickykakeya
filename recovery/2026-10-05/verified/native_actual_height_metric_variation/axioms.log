@@ -1,0 +1,15 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161908235592", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161908235592/AggregateReadback.lean"]
+READBACK_SHA256 2e0e361f681fc0e5f94a463c8dd9ef066b13db7b534768ee5579cf6171702691
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:19:09.097140+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8772716 kB
+'NativeActualHeightMetricVariation.actual_half_metric_variation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualHeightMetricVariation.actual_metric_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedPopulationSelection.exists_nested_population_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNestedPopulationSelection.nested_parent_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedPopulationSelection.parentEdges_nested_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

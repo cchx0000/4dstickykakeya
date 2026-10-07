@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_history_rank_four_exclusion
+
+#print axioms NativeHistoryRankFourExclusion.extraCutoff
+#print axioms NativeHistoryRankFourExclusion.extraCutoff_spec
+#print axioms NativeHistoryRankFourExclusion.history_stage_rank_ne_four

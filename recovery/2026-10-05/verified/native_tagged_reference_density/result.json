@@ -1,0 +1,62 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_tagged_reference_density",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_tagged_reference_density.lean",
+  "source_sha256": "a854e7d392c6b13960ba089817db759576c940e5f49e27685f9c357eb0ab0f23",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_tagged_reference_density.olean",
+  "names": [
+    "NativeTaggedReferenceDensity.tagWeight",
+    "NativeTaggedReferenceDensity.tag_mass",
+    "NativeTaggedReferenceDensity.reference_mass_le",
+    "NativeTaggedReferenceDensity.reference_vertex_cap",
+    "NativeTaggedReferenceDensity.tagged_packet_mass_ge_closure",
+    "NativeTaggedReferenceDensity.queried_tagged_packet_lower"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:52:36.726825+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "04e440ef71d7eda5c7ce85becb064dbf4d41ded57e30fa444dec01cffef1cfbf",
+  "source_execution_complete_utc": "2026-10-05T12:59:41.484478+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T130516538645",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeTaggedReferenceDensity.tagWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedReferenceDensity.tag_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedReferenceDensity.reference_mass_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedReferenceDensity.reference_vertex_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedReferenceDensity.tagged_packet_mass_ge_closure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedReferenceDensity.queried_tagged_packet_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T13:09:30.664607+00:00"
+}

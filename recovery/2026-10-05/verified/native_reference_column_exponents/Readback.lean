@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_reference_column_exponents
+
+#print axioms NativeReferenceColumnExponents.lowerCountCoefficient
+#print axioms NativeReferenceColumnExponents.upperCountCoefficient
+#print axioms NativeReferenceColumnExponents.count_coefficients_pos
+#print axioms NativeReferenceColumnExponents.quotient_power_bounds
+#print axioms NativeReferenceColumnExponents.reference_column_point_power_bounds
+#print axioms NativeReferenceColumnExponents.reference_height_point_power_bounds

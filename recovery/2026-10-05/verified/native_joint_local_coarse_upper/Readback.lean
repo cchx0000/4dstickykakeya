@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_joint_local_coarse_upper
+#print axioms NativeJointLocalCoarseUpper.remove_small_power
+#print axioms NativeJointLocalCoarseUpper.joint_same_source_local_coarse_upper

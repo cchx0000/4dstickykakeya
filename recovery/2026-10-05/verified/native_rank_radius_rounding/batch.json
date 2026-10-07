@@ -1,0 +1,67 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T09:57:33.327699+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py",
+    "--slots",
+    "2",
+    "--lock-dir",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T095730386420",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T095730386420/AggregateReadback.lean"
+  ],
+  "readback_sha256": "4239acfbdf26c2a9826c56803794ac8dcabeacb87d569d679a2a1c4a9eb52725",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_original_coarse_tuple_menu",
+      "source_sha256": "679387e3b0592f6daf8b21268df00819c33933b0cc2a99b4519d1b9affa6c4b7",
+      "olean_sha256": "eb94b49c32b88330c54cca2c6db12193e81f65d532fd59914982da336f95d75a",
+      "names": [
+        "NativeOriginalCoarseTupleMenu.coarseTuple",
+        "NativeOriginalCoarseTupleMenu.coarseMenu",
+        "NativeOriginalCoarseTupleMenu.formal_uniform_in_parent",
+        "NativeOriginalCoarseTupleMenu.reference_point_parent_fiber_upper",
+        "NativeOriginalCoarseTupleMenu.retained_point_parent_fiber_upper",
+        "NativeOriginalCoarseTupleMenu.previous_rank_coarse_tuple_menu"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_radius_rounding",
+      "source_sha256": "5fd3f6301e06063dde57fe9f65c594aace4b55c56bd019167a69623027a6dcfe",
+      "olean_sha256": "05835608f7e852b63400df6dafb64f841ce69099bfae520d8f68699f1a312138",
+      "names": [
+        "NativeRankRadiusRounding.atDepth",
+        "NativeRankRadiusRounding.atDepth_pos",
+        "NativeRankRadiusRounding.atDepth_antitone",
+        "NativeRankRadiusRounding.atDepth_succ",
+        "NativeRankRadiusRounding.atDepth_ratio",
+        "NativeRankRadiusRounding.exists_target_depth",
+        "NativeRankRadiusRounding.gap_power",
+        "NativeRankRadiusRounding.exists_near_radius",
+        "NativeRankRadiusRounding.exists_mesoscopic_test_radius",
+        "NativeRankRadiusRounding.first_radius_lower",
+        "NativeRankRadiusRounding.target_le_first_radius",
+        "NativeRankRadiusRounding.exists_mesoscopic_test_radius_of_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_core_global_near",
+      "source_sha256": "12e11491c24309e9c0a347cc8dbd8c23824fc40893084ad411eb34893cb23591",
+      "olean_sha256": "010821c164cff0f5e90659a135b7f1a99c55a50f6f08e3026bbb1d871ca7cfc2",
+      "names": [
+        "NativeReferenceCoreGlobalNear.core_global_near"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T10:13:14.838746+00:00",
+  "exit_code": 0
+}

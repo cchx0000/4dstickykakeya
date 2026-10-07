@@ -1,0 +1,114 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/298b2f32fddad99ae54c326f2d82764cb8221e98b94c3c6ff9f2093bc20411bf.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_output.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_output.lean"]
+SOURCE_SHA256 e2d5264b195803282f55014d5a1842765a031033e4b7c4d07b1aa83627c26426
+LOCK_ACQUIRED_UTC 2026-10-06T18:57:04.920943+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_output.lean:47:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z.2)) A)
+in the target expression
+  have cfg := fun z => NativeActualConfiguredPoint.point D a m p s P hP hd F Fcfg R0 z.2;
+  #(image (fun z => (doublePair h R a m p hQ (2 ^ b) z).2) A) ≤ 5 ^ 4 * #(image cfg A) ∧
+    #(image (doublePair h R a m p hQ (2 ^ b)) A) ≤
+      5 ^ 4 * #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z)) A)
+
+n : ℕ
+D : FiniteScaleSource n
+eta etaS a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+R : Finset (Fin n)
+Eref A : Finset (Fin n × Index)
+m b : ℕ
+hm : 6 ≤ m
+hNscale : ↑(2 ^ m) * D.thickness ≤ 1
+hRelScale : ↑(2 ^ m) * D.thickness * ↑(2 ^ b) ≤ 64
+p : Parent
+hQ : (parentLabels D R a (2 ^ m) p).Nonempty
+hS : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaS
+hA : A ⊆ incidences original
+hparent : ∀ z ∈ A, z.1 ∈ parentLabels D R a (2 ^ m) p
+s : Split
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = tangentDim s
+F Fcfg : ℤ → Matrix (Fin (normalDim s)) (Fin (tangentDim s)) ℝ
+hF : ∀ (t : ℤ) (u : Fin (normalDim s)) (v : Fin (tangentDim s)), |F t u v| ≤ 1 / 4
+hCfg : ∀ (t : ℤ) (u : Fin (normalDim s)) (v : Fin (tangentDim s)), |Fcfg t u v| ≤ 1 / 4
+R0 : ℕ
+hR0 : 0 < R0
+hbase : rho m ≤ mu m * ↑R0
+hmatch : mu m * ↑R0 ≤ 4096 / ↑(2 ^ b)
+cfg : Index → E4 := NativeActualConfiguredPoint.point D a m p s P hP hd F Fcfg R0
+shadow : Finset (Parent × Index) := image (doublePair h R a m p hQ (2 ^ b)) A
+output : Finset (E4 × OutputIndex h R Eref a m b p) := image (fun z => (cfg z.2, outputTube h R Eref a m b p hS z.1)) A
+hh :
+  have cfg := fun z => NativeActualConfiguredPoint.point D a m p s P hP hd F Fcfg R0 z.2;
+  #(image (fun z => (doublePair h R a m p hQ (2 ^ b) z).2) A) ≤ 5 ^ 4 * #(image cfg A) ∧
+    #(image (doublePair h R a m p hQ (2 ^ b)) A) ≤
+      5 ^ 4 * #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z)) A)
+hp : #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z.2)) A) = #output
+⊢ #(image Prod.snd shadow) ≤ 5 ^ 4 * #(image Prod.fst output) ∧ #shadow ≤ 5 ^ 4 * #output
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_output.lean:86:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z.2)) A)
+in the target expression
+  have cfg := fun z => NativeActualConfiguredPoint.point D a m p s P hP hd F Fcfg R0 z.2;
+  #(image (fun z => (doublePair h R a m p hQ (2 ^ b) z).2) A) ≤ 5 ^ 4 * #(image cfg A) ∧
+    #(image cfg A) ≤ 33 ^ 4 * #(image (fun z => (doublePair h R a m p hQ (2 ^ b) z).2) A) ∧
+      #(image (doublePair h R a m p hQ (2 ^ b)) A) ≤
+          5 ^ 4 * #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z)) A) ∧
+        #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z)) A) ≤
+          33 ^ 4 * #(image (doublePair h R a m p hQ (2 ^ b)) A)
+
+n : ℕ
+D : FiniteScaleSource n
+eta etaS a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+R : Finset (Fin n)
+Eref A : Finset (Fin n × Index)
+m b : ℕ
+hm : 6 ≤ m
+hNscale : ↑(2 ^ m) * D.thickness ≤ 1
+hRelScale : ↑(2 ^ m) * D.thickness * ↑(2 ^ b) ≤ 64
+p : Parent
+hQ : (parentLabels D R a (2 ^ m) p).Nonempty
+hS : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaS
+hA : A ⊆ incidences original
+hparent : ∀ z ∈ A, z.1 ∈ parentLabels D R a (2 ^ m) p
+s : Split
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = tangentDim s
+F Fcfg : ℤ → Matrix (Fin (normalDim s)) (Fin (tangentDim s)) ℝ
+hF : ∀ (t : ℤ) (u : Fin (normalDim s)) (v : Fin (tangentDim s)), |F t u v| ≤ 1 / 4
+hCfg : ∀ (t : ℤ) (u : Fin (normalDim s)) (v : Fin (tangentDim s)), |Fcfg t u v| ≤ 1 / 4
+R0 : ℕ
+hR0 : 0 < R0
+hbase : rho m ≤ mu m * ↑R0
+hmatch : mu m * ↑R0 = 4096 / ↑(2 ^ b)
+hsep :
+  ∀ x ∈ image (fun z => NativeActualConfiguredPoint.point D a m p s P hP hd F Fcfg R0 z.2) A,
+    ∀ y ∈ image (fun z => NativeActualConfiguredPoint.point D a m p s P hP hd F Fcfg R0 z.2) A,
+      x ≠ y → mu m * ↑R0 / 64 ≤ dist x y
+cfg : Index → E4 := NativeActualConfiguredPoint.point D a m p s P hP hd F Fcfg R0
+shadow : Finset (Parent × Index) := image (doublePair h R a m p hQ (2 ^ b)) A
+output : Finset (E4 × OutputIndex h R Eref a m b p) := image (fun z => (cfg z.2, outputTube h R Eref a m b p hS z.1)) A
+hh :
+  have cfg := fun z => NativeActualConfiguredPoint.point D a m p s P hP hd F Fcfg R0 z.2;
+  #(image (fun z => (doublePair h R a m p hQ (2 ^ b) z).2) A) ≤ 5 ^ 4 * #(image cfg A) ∧
+    #(image cfg A) ≤ 33 ^ 4 * #(image (fun z => (doublePair h R a m p hQ (2 ^ b) z).2) A) ∧
+      #(image (doublePair h R a m p hQ (2 ^ b)) A) ≤
+          5 ^ 4 * #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z)) A) ∧
+        #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z)) A) ≤
+          33 ^ 4 * #(image (doublePair h R a m p hQ (2 ^ b)) A)
+hp : #(image (fun z => (NativeRelativeParentLabels.relativeLabel D a (2 ^ m) p (2 ^ b) z.1, cfg z.2)) A) = #output
+⊢ #(image Prod.snd shadow) ≤ 5 ^ 4 * #(image Prod.fst output) ∧
+    #(image Prod.fst output) ≤ 33 ^ 4 * #(image Prod.snd shadow) ∧
+      #shadow ≤ 5 ^ 4 * #output ∧ #output ≤ 33 ^ 4 * #shadow
+LEAN_FINISHED_UTC 2026-10-06T18:58:24.307690+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

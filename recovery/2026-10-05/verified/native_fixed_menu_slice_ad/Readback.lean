@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_fixed_menu_slice_ad
+
+#print axioms NativeFixedMenuSliceAD.menu_gap_cost
+#print axioms NativeFixedMenuSliceAD.menu_gap_power_cost
+#print axioms NativeFixedMenuSliceAD.fixed_menu_reference_all_radius_bounds

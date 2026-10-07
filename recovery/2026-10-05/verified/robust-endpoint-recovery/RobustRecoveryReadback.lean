@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_original_uniform_weak_robust_projection
+#print axioms OriginalUniformWeakRobustProjection.exists_uniform_original_local_projection
+#print axioms OriginalUniformWeakRobustProjection.exists_uniform_original_robust_projection

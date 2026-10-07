@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_horizontal_menu_scale_cost
+
+#print axioms NativeHorizontalMenuScaleCost.parent_scale_dyadic_span
+#print axioms NativeHorizontalMenuScaleCost.intrinsic_gap_cost
+#print axioms NativeHorizontalMenuScaleCost.intrinsic_gap_power_cost

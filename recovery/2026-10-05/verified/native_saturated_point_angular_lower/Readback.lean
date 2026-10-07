@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_saturated_point_angular_lower
+
+#print axioms NativeSaturatedPointAngularLower.saturated_multiplicity_lower
+#print axioms NativeSaturatedPointAngularLower.saturated_refined_multiplicity_lower
+#print axioms NativeSaturatedPointAngularLower.saturated_reference_point_angular_lower

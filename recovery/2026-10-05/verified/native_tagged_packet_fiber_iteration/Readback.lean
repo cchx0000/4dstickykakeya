@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_tagged_packet_fiber_iteration
+
+#print axioms NativeTaggedPacketFiberIteration.nodeVertices
+#print axioms NativeTaggedPacketFiberIteration.layers
+#print axioms NativeTaggedPacketFiberIteration.fixed_node_cap
+#print axioms NativeTaggedPacketFiberIteration.packet_predecessor_geometry
+#print axioms NativeTaggedPacketFiberIteration.step_vertex_count
+#print axioms NativeTaggedPacketFiberIteration.node_vertex_predecessors
+#print axioms NativeTaggedPacketFiberIteration.node_minimum_lower
+#print axioms NativeTaggedPacketFiberIteration.layers_antitone
+#print axioms NativeTaggedPacketFiberIteration.nodeVertices_mono
+#print axioms NativeTaggedPacketFiberIteration.actual_chain_lower_bound

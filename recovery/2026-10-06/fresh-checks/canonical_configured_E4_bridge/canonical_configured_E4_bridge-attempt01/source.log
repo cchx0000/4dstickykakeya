@@ -1,0 +1,157 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/03095a536bae7fbb0e6b344aaec000fa7667df6bf36db43f7b13e91d8684fbee.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean"]
+SOURCE_SHA256 d08ee7415b7d55765c797ebfd9de5a9ccec7ddbf6272b77b23ed7ff50263c1be
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:33:39: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (tangentDim Split.oneTwo)) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin (tangentDim Split.oneTwo)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:33:43: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (normalDim Split.oneTwo)) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin (normalDim Split.oneTwo)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:33:47: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (normalDim Split.oneTwo)) 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Fin (normalDim Split.oneTwo)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:34:39: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (tangentDim Split.twoOne)) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin (tangentDim Split.twoOne)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:34:43: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (tangentDim Split.twoOne)) 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Fin (tangentDim Split.twoOne)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:34:47: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (normalDim Split.twoOne)) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin (normalDim Split.twoOne)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:58:18: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (tangentDim Split.oneTwo)) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin (tangentDim Split.oneTwo)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:58:31: error: linarith failed to find a contradiction
+mu : ℝ
+R : ℕ
+hmu : 0 < mu
+hR : 0 < R
+z : E4
+hrho : 0 < mu * ↑R
+Fold Fcfg : Matrix (Fin (normalDim Split.oneTwo)) (Fin (tangentDim Split.oneTwo)) ℝ
+hOld : ∀ (i : Fin (normalDim Split.oneTwo)) (j : Fin (tangentDim Split.oneTwo)), |Fold i j| ≤ 1 / 4
+hCfg : ∀ (i : Fin (normalDim Split.oneTwo)) (j : Fin (tangentDim Split.oneTwo)), |Fcfg i j| ≤ 1 / 4
+hX :
+  ∀ (j : Fin (tangentDim Split.oneTwo)),
+    |coarseX mu R (grid mu (tangent Split.oneTwo z)) j - tangent Split.oneTwo z j| ≤ mu * ↑R
+hN :
+  ∀ (i : Fin (normalDim Split.oneTwo)),
+    |configuredNormal mu R Fold Fcfg (grid mu (tangent Split.oneTwo z))
+            (grid mu (quotient Fold (tangent Split.oneTwo z) (normal Split.oneTwo z))) i -
+          normal Split.oneTwo z i| ≤
+      3 / 2 * (mu * ↑R)
+hT : |mu * ↑R * (↑⌊z.ofLp 3 / (mu * ↑R)⌋ + 1 / 2) - z.ofLp 3| ≤ mu * ↑R / 2
+a✝ : ?m.608 < mu * ↑R
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:59:17: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (normalDim Split.oneTwo)) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin (normalDim Split.oneTwo)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:60:17: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (normalDim Split.oneTwo)) 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Fin (normalDim Split.oneTwo)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:67:18: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (tangentDim Split.twoOne)) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin (tangentDim Split.twoOne)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:67:31: error: linarith failed to find a contradiction
+mu : ℝ
+R : ℕ
+hmu : 0 < mu
+hR : 0 < R
+z : E4
+hrho : 0 < mu * ↑R
+Fold Fcfg : Matrix (Fin (normalDim Split.twoOne)) (Fin (tangentDim Split.twoOne)) ℝ
+hOld : ∀ (i : Fin (normalDim Split.twoOne)) (j : Fin (tangentDim Split.twoOne)), |Fold i j| ≤ 1 / 4
+hCfg : ∀ (i : Fin (normalDim Split.twoOne)) (j : Fin (tangentDim Split.twoOne)), |Fcfg i j| ≤ 1 / 4
+hX :
+  ∀ (j : Fin (tangentDim Split.twoOne)),
+    |coarseX mu R (grid mu (tangent Split.twoOne z)) j - tangent Split.twoOne z j| ≤ mu * ↑R
+hN :
+  ∀ (i : Fin (normalDim Split.twoOne)),
+    |configuredNormal mu R Fold Fcfg (grid mu (tangent Split.twoOne z))
+            (grid mu (quotient Fold (tangent Split.twoOne z) (normal Split.twoOne z))) i -
+          normal Split.twoOne z i| ≤
+      3 / 2 * (mu * ↑R)
+hT : |mu * ↑R * (↑⌊z.ofLp 3 / (mu * ↑R)⌋ + 1 / 2) - z.ofLp 3| ≤ mu * ↑R / 2
+a✝ : ?m.1157 < mu * ↑R
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:68:18: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (tangentDim Split.twoOne)) 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Fin (tangentDim Split.twoOne)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:68:31: error: linarith failed to find a contradiction
+mu : ℝ
+R : ℕ
+hmu : 0 < mu
+hR : 0 < R
+z : E4
+hrho : 0 < mu * ↑R
+Fold Fcfg : Matrix (Fin (normalDim Split.twoOne)) (Fin (tangentDim Split.twoOne)) ℝ
+hOld : ∀ (i : Fin (normalDim Split.twoOne)) (j : Fin (tangentDim Split.twoOne)), |Fold i j| ≤ 1 / 4
+hCfg : ∀ (i : Fin (normalDim Split.twoOne)) (j : Fin (tangentDim Split.twoOne)), |Fcfg i j| ≤ 1 / 4
+hX :
+  ∀ (j : Fin (tangentDim Split.twoOne)),
+    |coarseX mu R (grid mu (tangent Split.twoOne z)) j - tangent Split.twoOne z j| ≤ mu * ↑R
+hN :
+  ∀ (i : Fin (normalDim Split.twoOne)),
+    |configuredNormal mu R Fold Fcfg (grid mu (tangent Split.twoOne z))
+            (grid mu (quotient Fold (tangent Split.twoOne z) (normal Split.twoOne z))) i -
+          normal Split.twoOne z i| ≤
+      3 / 2 * (mu * ↑R)
+hT : |mu * ↑R * (↑⌊z.ofLp 3 / (mu * ↑R)⌋ + 1 / 2) - z.ofLp 3| ≤ mu * ↑R / 2
+a✝ : ?m.1165 < mu * ↑R
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_configured_E4_bridge.lean:69:17: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Fin (normalDim Split.twoOne)) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin (normalDim Split.twoOne)
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+
+EXIT_CODE=1

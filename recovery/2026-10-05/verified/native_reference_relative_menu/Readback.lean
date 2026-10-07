@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_reference_relative_menu
+
+#print axioms NativeReferenceRelativeMenu.relations
+#print axioms NativeReferenceRelativeMenu.relation_count
+#print axioms NativeReferenceRelativeMenu.relations_refl
+#print axioms NativeReferenceRelativeMenu.relations_symm
+#print axioms NativeReferenceRelativeMenu.caller_uniformities

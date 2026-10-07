@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_refined_global_rows
+
+#print axioms NativeRefinedGlobalRows.first_cost_without_radix
+#print axioms NativeRefinedGlobalRows.nonrank_row_cost
+#print axioms NativeRefinedGlobalRows.retention_radix_six
+#print axioms NativeRefinedGlobalRows.nonrank_short_row_cost
+#print axioms NativeRefinedGlobalRows.refined_projected_row_lower
+#print axioms NativeRefinedGlobalRows.retained_richness_coefficient
+#print axioms NativeRefinedGlobalRows.refined_projected_row_lower_absorbed

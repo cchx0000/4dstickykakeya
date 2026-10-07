@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_post_graph_slice
+
+#print axioms NativeActualPostGraphSlice.attach_actual_post_graph_slice

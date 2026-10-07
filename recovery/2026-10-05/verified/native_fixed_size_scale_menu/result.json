@@ -1,0 +1,150 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_fixed_size_scale_menu",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_fixed_size_scale_menu.lean",
+  "source_sha256": "9e859a3ed41d26b0a6f74896b16f1c1fa32fed75ab6ff79f666daffb005be404",
+  "names": [
+    "NativeFixedSizeScaleMenu.schedule",
+    "NativeFixedSizeScaleMenu.schedule_zero",
+    "NativeFixedSizeScaleMenu.schedule_last",
+    "NativeFixedSizeScaleMenu.exists_predecessor",
+    "NativeFixedSizeScaleMenu.exists_predecessor_in_window",
+    "NativeFixedSizeScaleMenu.dyadic_gap_power",
+    "NativeFixedSizeScaleMenu.depth_le_of_dyadic_cutoff",
+    "NativeFixedSizeScaleMenu.exists_fixed_parameters",
+    "NativeFixedSizeScaleMenu.clippedSchedule",
+    "NativeFixedSizeScaleMenu.clippedSchedule_bounds",
+    "NativeFixedSizeScaleMenu.clippedSchedule_fix",
+    "NativeFixedSizeScaleMenu.lowerDepth",
+    "NativeFixedSizeScaleMenu.upperDepth",
+    "NativeFixedSizeScaleMenu.upperDepth_le",
+    "NativeFixedSizeScaleMenu.depth_interval_nonempty",
+    "NativeFixedSizeScaleMenu.windowSchedule",
+    "NativeFixedSizeScaleMenu.windowSchedule_bounds",
+    "NativeFixedSizeScaleMenu.exists_window_predecessor",
+    "NativeFixedSizeScaleMenu.windowSchedule_zero",
+    "NativeFixedSizeScaleMenu.windowSchedule_last",
+    "NativeFixedSizeScaleMenu.depth_window_powers",
+    "NativeFixedSizeScaleMenu.exists_source_window_menu",
+    "NativeFixedSizeScaleMenu.gap_le_twice_fraction",
+    "NativeFixedSizeScaleMenu.gap_le_twice_fraction_of_cutoff"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:57:07.242690+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeFixedSizeScaleMenu.schedule": [
+      "propext"
+    ],
+    "NativeFixedSizeScaleMenu.schedule_zero": [
+      "propext"
+    ],
+    "NativeFixedSizeScaleMenu.schedule_last": [
+      "propext"
+    ],
+    "NativeFixedSizeScaleMenu.exists_predecessor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.exists_predecessor_in_window": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.dyadic_gap_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.depth_le_of_dyadic_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.exists_fixed_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.clippedSchedule": [
+      "propext"
+    ],
+    "NativeFixedSizeScaleMenu.clippedSchedule_bounds": [
+      "propext"
+    ],
+    "NativeFixedSizeScaleMenu.clippedSchedule_fix": [
+      "propext"
+    ],
+    "NativeFixedSizeScaleMenu.lowerDepth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.upperDepth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.upperDepth_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.depth_interval_nonempty": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.windowSchedule": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.windowSchedule_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.exists_window_predecessor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.windowSchedule_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.windowSchedule_last": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.depth_window_powers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.exists_source_window_menu": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.gap_le_twice_fraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedSizeScaleMenu.gap_le_twice_fraction_of_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "2140102d1b093a9e74969d9ea0b651f62a4342c0e83432448be5ff7285a5fa68",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T06:02:28.446361+00:00"
+}

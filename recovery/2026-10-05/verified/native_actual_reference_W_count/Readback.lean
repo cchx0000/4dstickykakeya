@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_reference_W_count
+
+#print axioms NativeActualReferenceWCount.point_image
+#print axioms NativeActualReferenceWCount.tube_image
+#print axioms NativeActualReferenceWCount.retained_original_W_count

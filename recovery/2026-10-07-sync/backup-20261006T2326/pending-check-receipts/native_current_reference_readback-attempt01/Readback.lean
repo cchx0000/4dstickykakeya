@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_current_reference_readback
+set_option autoImplicit false
+#print axioms NativeCurrentReferenceReadback.selected_relative_incidence_image
+#print axioms NativeCurrentReferenceReadback.selected_relative_source_shading

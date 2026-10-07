@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_rank_one_physical_upper_readback.lean"]
+SOURCE_SHA256 cef1a7a4d2b23a6bef78dc02dfe37e805b4efe3c789eb346e943fcbd5d025240
+FIFO compiler ticket: 01791190063730515935-b9cef2159171446cb4d1b9989db27992.request
+FIFO compiler acquired UTC: 2026-10-05T08:47:43.731619+00:00
+'NativeRankOnePhysicalUpper.rank_one_multiplicity_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

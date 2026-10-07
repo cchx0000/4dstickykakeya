@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_angular_packet_readback
+
+#print axioms NativeAngularPacketReadback.same_angular_slopeVector_dist
+#print axioms NativeAngularPacketReadback.original_tube_packet_from_angular_label

@@ -1,0 +1,36 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:04:40.802012+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160440086469",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160440086469/AggregateReadback.lean"
+  ],
+  "readback_sha256": "39de8fe52bbbd0b560e452d9739cc7a9dcbebe4c1b6737866f6b5efaf59a4629",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_parent_menu_configuration",
+      "source_sha256": "c6a0386e923949385760b10c13e409518aacc61e0b16f15441a0a080179a3f36",
+      "olean_sha256": "f366714357e6fe990cbcaa8fb5b3f5ba33834f3a343aaa0eca2b80a5f7a65f66",
+      "names": [
+        "NativeActualParentMenuConfiguration.HasHorizontalFinalStage",
+        "NativeActualParentMenuConfiguration.callerRelations",
+        "NativeActualParentMenuConfiguration.stage_with_horizontal_menu",
+        "NativeActualParentMenuConfiguration.exists_actual_parent_menu_configuration"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:04:45.427301+00:00",
+  "exit_code": 0
+}

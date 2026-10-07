@@ -1,0 +1,62 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_retained_fine_pair_density",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_retained_fine_pair_density.lean",
+  "source_sha256": "bed305275fd89a7e5791be2b7297a53d18f74f01809d60b20bb648f89dbf5d46",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_retained_fine_pair_density.olean",
+  "names": [
+    "NativeRetainedFinePairDensity.finePairCount",
+    "NativeRetainedFinePairDensity.full_mass_eq_pair_count",
+    "NativeRetainedFinePairDensity.pairDensityConstant",
+    "NativeRetainedFinePairDensity.pairDensityConstant_pos",
+    "NativeRetainedFinePairDensity.density_cross",
+    "NativeRetainedFinePairDensity.source_fine_pair_density"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T14:56:17.229547+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "f613684709a4512dcd24c2ac273b7a376cda247e2f4285d7209e7a998b3c0dfd",
+  "source_execution_complete_utc": "2026-10-05T14:56:25.858822+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150422049901",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeRetainedFinePairDensity.finePairCount": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedFinePairDensity.full_mass_eq_pair_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedFinePairDensity.pairDensityConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedFinePairDensity.pairDensityConstant_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedFinePairDensity.density_cross": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedFinePairDensity.source_fine_pair_density": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T15:04:27.291579+00:00"
+}

@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_anisotropic_slice_labels
+
+#print axioms NativeAnisotropicSliceLabels.horizontalCoarsen
+#print axioms NativeAnisotropicSliceLabels.horizontalCoarsen_height
+#print axioms NativeAnisotropicSliceLabels.columnLabel_horizontalCoarsen
+#print axioms NativeAnisotropicSliceLabels.slicePoint
+#print axioms NativeAnisotropicSliceLabels.sliceClass
+#print axioms NativeAnisotropicSliceLabels.sliceClass_height
+#print axioms NativeAnisotropicSliceLabels.sliceClass_point_eq_column
+#print axioms NativeAnisotropicSliceLabels.sliceRelations
+#print axioms NativeAnisotropicSliceLabels.sliceRelations_refl
+#print axioms NativeAnisotropicSliceLabels.sliceRelations_symm
+#print axioms NativeAnisotropicSliceLabels.caller_column_uniformities

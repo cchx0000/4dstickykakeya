@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_graph_point_cuts
+set_option autoImplicit false
+#print axioms NativeGraphPhysicalLocalization.cut
+#print axioms NativeGraphPhysicalLocalization.cut_subset
+#print axioms NativeGraphPhysicalLocalization.cut_nonempty
+#print axioms NativeGraphPhysicalLocalization.cut_full_tube_fiber
+#print axioms NativeGraphPhysicalLocalization.cut_point_cell

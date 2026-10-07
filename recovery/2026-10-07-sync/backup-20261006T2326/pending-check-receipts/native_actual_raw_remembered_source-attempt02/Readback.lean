@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_actual_raw_remembered_source
+set_option autoImplicit false
+#print axioms NativeActualRawRememberedSource.massive_old_phase
+#print axioms NativeActualRawRememberedSource.occurrence_tagged_bound
+#print axioms NativeActualRawRememberedSource.occurrence_raw_heights_per_bin
+#print axioms NativeActualRawRememberedSource.count_to_mass
+#print axioms NativeActualRawRememberedSource.select_raw_height_and_shading
+#print axioms NativeActualRawRememberedSource.phase_mass_payment
+#print axioms NativeActualRawRememberedSource.exists_same_Q_source

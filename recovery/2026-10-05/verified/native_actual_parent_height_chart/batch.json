@@ -1,0 +1,55 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:31:00.698862+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T163059921794",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T163059921794/AggregateReadback.lean"
+  ],
+  "readback_sha256": "a740fd8388fbb28141e0decdc29760462f42a2ff631e51ee72971178ceec4ec9",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_parent_height_chart",
+      "source_sha256": "8824b2ad65affbcd28ed2d6562e008940e8f46913440e69ca0794df5a3cad2b7",
+      "olean_sha256": "199b97f6f4b3f7eddece66cbf06c1d583ecfde32cedd389e098eac7bd74534ab",
+      "names": [
+        "NativeActualParentHeightChart.nodeCut_image",
+        "NativeActualParentHeightChart.nodeCut_nested",
+        "NativeActualParentHeightChart.select_actual_parent_height_chart"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_height_graph_core",
+      "source_sha256": "b4b9b363d8bb5aa41dfaa431796b705960031f1d50d958af89296856098f3291",
+      "olean_sha256": "7e78887b9644a8bb0eea590b37821294789556259a679aac1d501bf5906df64e",
+      "names": [
+        "NativeParentHeightGraphCore.selectionCost",
+        "NativeParentHeightGraphCore.construct_parent_height_graph_core"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_count_transfer",
+      "source_sha256": "070ce6f48f169d133a086276a794a2d7c2042bf1b94ce64458703d5c8222c328",
+      "olean_sha256": "aa514990e8fa52c9465548d3b786ba5686fb48cdd2e04848cc4bbb3805f738e2",
+      "names": [
+        "NativeRetainedSliceCountTransfer.point_image_retention",
+        "NativeRetainedSliceCountTransfer.point_class_homogeneity",
+        "NativeRetainedSliceCountTransfer.retained_class_count_cross",
+        "NativeRetainedSliceCountTransfer.retained_class_count_lower"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:31:11.109243+00:00",
+  "exit_code": 0
+}

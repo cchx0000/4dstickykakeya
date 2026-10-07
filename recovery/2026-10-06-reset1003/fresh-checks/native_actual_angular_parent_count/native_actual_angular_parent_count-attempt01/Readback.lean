@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_actual_angular_parent_count
+set_option autoImplicit false
+#print axioms NativeActualAngularParentCount.physicalCell_coarsen_eight
+#print axioms NativeActualAngularParentCount.physicalCell_refinement_card
+#print axioms NativeActualAngularParentCount.source_cell_readback
+#print axioms NativeActualAngularParentCount.same_original_parent_count

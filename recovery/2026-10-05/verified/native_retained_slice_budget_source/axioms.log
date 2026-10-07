@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T175057422201", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T175057422201/AggregateReadback.lean"]
+READBACK_SHA256 392db2c0b8152825b0ac159bf9a476eb0c74898f10544b79a1dc0347f95e8903
+Dedicated staging slot 3 acquired UTC: 2026-10-05T17:50:58.169014+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8771752 kB
+'NativeActualOffsetMenu.actual_offset_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualOffsetMenu.angular_cell_local_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceStage.HasPostGraphRetainedHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceStage.HasPostGraphStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceStage.PostGraphCleanupData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceStage.stage_with_post_graph_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetSource.actualRetainedConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetSource.actualRetainedConstant_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetSource.actual_quotient_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetSource.quotientTolerance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetSource.quotientTolerance_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

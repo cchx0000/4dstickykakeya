@@ -1,0 +1,44 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_parent_graph_forget",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_parent_graph_forget.lean",
+  "source_sha256": "5c30aa629087cf6aeade7952d5ee41822cfdfed4753166317c3a830d56e4e485",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_parent_graph_forget.olean",
+  "names": [
+    "NativeParentGraphForget.curve_cleanup_forget",
+    "NativeParentGraphForget.curve_retained_forget",
+    "NativeParentGraphForget.curve_stage_forget"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T17:09:48.640680+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "35b40c1df5363127008a3a882d76ae460ff7f04bb738ca33c9f2a30f446d4084",
+  "source_execution_complete_utc": "2026-10-05T17:09:56.199280+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T171625154458",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeParentGraphForget.curve_cleanup_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGraphForget.curve_retained_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeParentGraphForget.curve_stage_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T17:16:32.219856+00:00"
+}

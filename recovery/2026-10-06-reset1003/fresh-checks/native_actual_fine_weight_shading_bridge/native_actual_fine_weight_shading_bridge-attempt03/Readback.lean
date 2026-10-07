@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge
+set_option autoImplicit false
+#print axioms NativeActualFineWeightShadingBridge.pair_capacity_to_shading
+#print axioms NativeActualFineWeightShadingBridge.fine_graph_le_shadow
+#print axioms NativeActualFineWeightShadingBridge.same_Q_weight_shading
+#print axioms NativeActualFineWeightShadingBridge.actual_weight_upper

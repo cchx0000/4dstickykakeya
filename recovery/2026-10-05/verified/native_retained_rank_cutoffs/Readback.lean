@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_retained_rank_cutoffs
+
+#print axioms NativeRetainedRankCutoffs.finePointMenu
+#print axioms NativeRetainedRankCutoffs.finePointMenu_refl
+#print axioms NativeRetainedRankCutoffs.finePointMenu_symm
+#print axioms NativeRetainedRankCutoffs.finePointMenu_uniformities
+#print axioms NativeRetainedRankCutoffs.exists_rank_half_mass_cutoff
+#print axioms NativeRetainedRankCutoffs.exists_rank_rounding_cutoff

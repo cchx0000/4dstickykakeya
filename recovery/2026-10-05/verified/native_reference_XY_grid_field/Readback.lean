@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_field
+
+#print axioms NativeReferenceXYGridField.slice_horizontal
+#print axioms NativeReferenceXYGridField.fixedField
+#print axioms NativeReferenceXYGridField.fixedField_norm
+#print axioms NativeReferenceXYGridField.fixedField_zero_off
+#print axioms NativeReferenceXYGridField.fixedField_readback
+#print axioms NativeReferenceXYGridField.fixed_pxy_readback
+#print axioms NativeReferenceXYGridField.pref_squared
+#print axioms NativeReferenceXYGridField.coarseIndex_horizontalCoarsen

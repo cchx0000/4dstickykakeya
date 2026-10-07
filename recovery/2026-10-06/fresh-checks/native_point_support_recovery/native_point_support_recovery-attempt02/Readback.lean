@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_point_support_recovery
+set_option autoImplicit false
+#print axioms NativePointSupportRecovery.restore_original_fibers

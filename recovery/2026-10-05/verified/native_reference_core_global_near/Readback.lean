@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_reference_core_global_near
+
+#print axioms NativeReferenceCoreGlobalNear.core_global_near

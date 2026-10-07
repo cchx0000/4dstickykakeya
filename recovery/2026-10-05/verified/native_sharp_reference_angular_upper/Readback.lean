@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_reference_angular_upper
+
+#print axioms NativeSharpReferenceAngularUpper.angular_menu_mono
+#print axioms NativeSharpReferenceAngularUpper.reference_population
+#print axioms NativeSharpReferenceAngularUpper.exists_actual_reference_angular_upper

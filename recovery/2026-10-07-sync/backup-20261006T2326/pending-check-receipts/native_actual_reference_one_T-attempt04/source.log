@@ -1,0 +1,52 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2c3e3a85e913422c9b5a2d77dfd086aca17b4c7332d77dc8e1d91174e2c0f5ab.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean"]
+SOURCE_SHA256 80df49595966201daf7959f7225138021b1d8aa2b220ae8553e5249e013381c4
+LOCK_ACQUIRED_UTC 2026-10-06T21:08:55.452366+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:123:4: error: Type mismatch: After simplification, term
+  Hprofiles
+ has type
+  @HasXYParentProfiles n D eta h ref.original ref.R ref.E1 E2 ref.a ref.level (middleDepth ↑(ref.schedule j))
+    (fun node => spanOf (fun z => slopeVector D z.1) [tuple selected node 0, tuple selected node 1]) points
+    (radius (rankWindow tau) ⋯ g ref.level test) 2 (NativeSourceSizeBounds.radix (#F) L2)
+    (factor ref.dimension (g + 1) L)
+    (retentionCost
+      (size (dOld + 1) (Jhorizontal + 1) + (2 * Khalf + 1 + (2 * Khalf + 1)) + (2 * Khalf + 1 + (2 * Khalf + 1)) +
+            (2 * Khalf + 1 + (2 * Khalf + 1)) +
+          1 +
+        (g + 1) * (g + 1))
+      1 L2)
+    (NativeActualProjectedGrainCount.predecessorProduct D (middleDepth ↑(ref.schedule j)) E2
+      (NativeSourceSizeBounds.radix (#F) L2)
+      (scaleThreshold D E2 (middleDepth ↑(ref.schedule j))
+        (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) 2 (fun j => natStageDirectionIndex h (tuple j)) S0
+          ↑selected)
+        2 (natStageDirectionIndex h (tuple selected)))
+      2)
+    (radius (rankWindow tau) ⋯ g ref.level j ^ rankLoss eta0 c 1 / (4 * (↑g + 1))) zeta tau seed c2 Jhorizontal
+    (dExtra + 3) L3 (↑(ref.schedule j)) Khalf (tuple selected) (radius (rankWindow tau) ⋯ g ref.level j) epsilonGraph
+but is expected to have type
+  @HasXYParentProfiles n D eta h ref.original ref.R ref.E1 E2 ref.a ref.level (middleDepth ↑(ref.schedule j))
+    (nodePlane D (tuple selected)) points (radius (rankWindow tau) ⋯ g ref.level test) 2
+    (NativeSourceSizeBounds.radix (#F) L2) (factor ref.dimension (g + 1) L)
+    (retentionCost
+      (size (dOld + 1) (Jhorizontal + 1) + (2 * Khalf + 1 + (2 * Khalf + 1)) + (2 * Khalf + 1 + (2 * Khalf + 1)) +
+            (2 * Khalf + 1 + (2 * Khalf + 1)) +
+          1 +
+        (g + 1) * (g + 1))
+      1 L2)
+    (NativeActualProjectedGrainCount.predecessorProduct D (middleDepth ↑(ref.schedule j)) E2
+      (NativeSourceSizeBounds.radix (#F) L2)
+      (scaleThreshold D E2 (middleDepth ↑(ref.schedule j))
+        (history D E2 (historyDepth (2 * Khalf) ↑(ref.schedule j)) 2 (fun i => natStageDirectionIndex h (tuple i)) S0
+          ↑selected)
+        2 (natStageDirectionIndex h (tuple selected)))
+      2)
+    (radius (rankWindow tau) ⋯ g ref.level j ^ rankLoss eta0 c 1 / (4 * (↑g + 1))) zeta tau seed c2 Jhorizontal
+    (dExtra + 3) L3 (↑(ref.schedule j)) Khalf (tuple selected) (radius (rankWindow tau) ⋯ g ref.level j) epsilonGraph
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean:346:75: error: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+LEAN_FINISHED_UTC 2026-10-06T21:09:51.188866+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

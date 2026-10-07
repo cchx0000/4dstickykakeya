@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_grid_support_local
+set_option autoImplicit false
+#print axioms NativeGridSupportLocal.enlarge_AD
+#print axioms NativeGridSupportLocal.occupied_ball_upper

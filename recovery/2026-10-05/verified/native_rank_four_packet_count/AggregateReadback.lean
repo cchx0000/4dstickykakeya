@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_rank_four_packet_count
+import Theorems.Thm_StickyKakeya4_native_history_grain_count
+
+set_option autoImplicit false
+#print axioms NativeHistoryGrainCount.actual_global_grain_count
+#print axioms NativeHistoryGrainCount.history_grain_counts
+#print axioms NativeHistoryGrainCount.scale_predecessor_product_pos
+#print axioms NativeHistoryGrainCount.tagged_card_le_sum
+#print axioms NativeRankFourPacketCount.current_node_cap
+#print axioms NativeRankFourPacketCount.four_stage_vertex_count
+#print axioms NativeRankFourPacketCount.ratio_le_ceilDiv
+#print axioms NativeRankFourPacketCount.retained_node_cross

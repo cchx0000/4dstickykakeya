@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_full_reference_coarse_CW
+set_option autoImplicit false
+#print axioms NativeFullReferenceCoarseCW.full_parent_card_lower
+#print axioms NativeFullReferenceCoarseCW.full_contained_count
+#print axioms NativeFullReferenceCoarseCW.full_CW_real
+#print axioms NativeFullReferenceCoarseCW.full_CW
+#print axioms NativeFullReferenceCoarseCW.full_shading_readback

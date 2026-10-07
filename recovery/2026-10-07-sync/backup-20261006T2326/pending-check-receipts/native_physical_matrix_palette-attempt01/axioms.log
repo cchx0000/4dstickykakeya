@@ -1,0 +1,12 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0d9b680f1c89b2473465292dff2ef0fca014ea13cfee8630dedd822ea5d683a0.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_physical_matrix_palette-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_physical_matrix_palette-attempt01/Readback.lean"]
+SOURCE_SHA256 eab2add7ed65fcf1323729339548a2f2d9bf430d67bbb65121b4e3ee39d252fd
+LOCK_ACQUIRED_UTC 2026-10-06T12:10:54.992665+00:00
+SHARED_SLOT 3
+LEAN_PID 63
+'NativePhysicalMatrixPalette.physical_height_chart_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhysicalMatrixPalette.select_actual_raw_matrix_palette' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T12:14:50.280896+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

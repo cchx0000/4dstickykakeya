@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_actual_angular_menu_cost
+
+#print axioms NativeActualAngularMenuCost.retained_mean_lower
+#print axioms NativeActualAngularMenuCost.actual_cost_ratio_lower
+#print axioms NativeActualAngularMenuCost.parent_scale_identity
+#print axioms NativeActualAngularMenuCost.original_factor_pos
+#print axioms NativeActualAngularMenuCost.stopping_weighted_numerator

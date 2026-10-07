@@ -1,0 +1,36 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T11:30:49.734564+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T113048291414",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T113048291414/AggregateReadback.lean"
+  ],
+  "readback_sha256": "e99621239958e5335570f19adade1c119525beada6fb7d1be146971655d1eecd",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_separated_span_control",
+      "source_sha256": "5b0de99baa8ac74e774530a5481ce849243e3a92f26cafd5c193e4c0940cec2d",
+      "olean_sha256": "d861b50ec290243ff35016232a789c6157ab001737dc27a72c3bbe13e1bda9d1",
+      "names": [
+        "NativeSeparatedSpanControl.coefficientCost",
+        "NativeSeparatedSpanControl.coefficientCost_nonneg",
+        "NativeSeparatedSpanControl.coefficient_sum_bound",
+        "NativeSeparatedSpanControl.span_near_plane"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T11:36:58.397866+00:00",
+  "exit_code": 0
+}

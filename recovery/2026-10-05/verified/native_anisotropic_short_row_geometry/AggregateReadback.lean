@@ -1,0 +1,19 @@
+import Theorems.Thm_StickyKakeya4_native_actual_rank_count
+import Theorems.Thm_StickyKakeya4_native_history_dimension_range
+import Theorems.Thm_StickyKakeya4_native_anisotropic_short_row_geometry
+
+set_option autoImplicit false
+#print axioms NativeActualRankCount.actual_rank_count
+#print axioms NativeActualRankCount.clear_count
+#print axioms NativeActualRankCount.loss_power
+#print axioms NativeAnisotropicShortRowGeometry.chartWidth
+#print axioms NativeAnisotropicShortRowGeometry.chart_height_sub
+#print axioms NativeAnisotropicShortRowGeometry.chart_spatial_sub
+#print axioms NativeAnisotropicShortRowGeometry.columnHalo
+#print axioms NativeAnisotropicShortRowGeometry.columnHalo_card
+#print axioms NativeAnisotropicShortRowGeometry.columnLabel
+#print axioms NativeAnisotropicShortRowGeometry.short_row_chart_close
+#print axioms NativeAnisotropicShortRowGeometry.short_row_column_mem_halo
+#print axioms NativeHistoryDimensionRange.extraCutoff
+#print axioms NativeHistoryDimensionRange.extraCutoff_spec
+#print axioms NativeHistoryDimensionRange.history_stage_dimension_range

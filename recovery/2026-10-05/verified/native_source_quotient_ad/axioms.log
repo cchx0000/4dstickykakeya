@@ -1,0 +1,25 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T185637460951", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T185637460951/AggregateReadback.lean"]
+READBACK_SHA256 fffe48c9a8334964e5366bf209bb8c5dd783d5a184ba82218ed5e88f9f2a4038
+Dedicated staging slot 3 acquired UTC: 2026-10-05T18:57:26.132219+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8077616 kB
+'NativeActualPaidXPower.source_reference_X_small_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceParentAdmissionBudget.exists_first_stage_admission_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceParentAngularUpper.exists_reference_parent_angular_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceParentPopulation.candidate_middle_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceParentPopulation.candidate_middle_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceParentPopulation.first_cost_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceParentPopulation.reference_parent_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetActual.actual_fiber_coefficient_le_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetCutoff.exists_source_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetCutoff.paid_X_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetCutoff.sourceCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetCutoff.sourceCutoff_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetCutoff.sourceCutoff_pays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetCutoff.sourceCutoff_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceQuotientAD.source_quotient_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

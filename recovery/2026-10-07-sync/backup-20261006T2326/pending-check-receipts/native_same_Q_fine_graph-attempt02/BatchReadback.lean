@@ -1,0 +1,21 @@
+import Theorems.Thm_StickyKakeya4_native_remembered_height_geometry
+import Theorems.Thm_StickyKakeya4_native_same_Q_source_restriction
+import Theorems.Thm_StickyKakeya4_native_same_Q_fine_graph
+import Theorems.Thm_StickyKakeya4_native_same_Q_shadow_mass
+set_option autoImplicit false
+#print axioms NativeRememberedHeightGeometry.binOrigin
+#print axioms NativeRememberedHeightGeometry.input_center_interval
+#print axioms NativeRememberedHeightGeometry.old_height_interval
+#print axioms NativeRememberedHeightGeometry.actual_old_heights_per_bin
+#print axioms NativeSameQSourceRestriction.restrict
+#print axioms NativeSameQSourceRestriction.source_cells_restrict
+#print axioms NativeSameQSourceRestriction.source_incidences_restrict
+#print axioms NativeSameQSourceRestriction.rows_filter_parent
+#print axioms NativeSameQSourceRestriction.source_rows_restrict
+#print axioms NativeSameQFineGraph.phase
+#print axioms NativeSameQFineGraph.graph
+#print axioms NativeSameQFineGraph.weight
+#print axioms NativeSameQFineGraph.graph_restrict
+#print axioms NativeSameQFineGraph.sum_weight_eq_graph
+#print axioms NativeSameQFineGraph.total_weight_eq_graph
+#print axioms NativeSameQShadowMass.sum_shadow_weight_eq_pairs

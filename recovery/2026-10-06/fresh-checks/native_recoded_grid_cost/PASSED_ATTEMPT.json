@@ -1,0 +1,33 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_recoded_grid_cost",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_cost.lean",
+  "source_sha256": "fe0b7be3fc121bb477a7bb064a8575a857b43ca03a09366e240709a5e812d445",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_recoded_grid_cost.olean",
+  "names": [
+    "NativeRecodedGridCost.coefficient_le_power",
+    "NativeRecodedGridCost.low_dim_coefficient_le"
+  ],
+  "started_utc": "2026-10-06T06:17:43.015680+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "57d412b4af17fe5727a226ae020b265454331a7ea5cf27abaf71c5a9117b604f",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeRecodedGridCost.coefficient_le_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRecodedGridCost.low_dim_coefficient_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:17:52.498344+00:00"
+}

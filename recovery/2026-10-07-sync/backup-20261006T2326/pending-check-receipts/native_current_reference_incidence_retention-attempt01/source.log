@@ -1,0 +1,9 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/fba1425fbb4ebcd3f3f05c91ff58db66967aa7457081bdb1f98f8dad5e7fa5bc.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_current_reference_incidence_retention.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_reference_incidence_retention.lean"]
+SOURCE_SHA256 aa033a2bbdb843d01509c9d693e3e143757ac0efa7998245073b65c4cfb55b3e
+LOCK_ACQUIRED_UTC 2026-10-06T12:02:45.104158+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_reference_incidence_retention.lean:106:29: error: `ring_nf` made no progress on the goal
+LEAN_FINISHED_UTC 2026-10-06T12:06:14.829639+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

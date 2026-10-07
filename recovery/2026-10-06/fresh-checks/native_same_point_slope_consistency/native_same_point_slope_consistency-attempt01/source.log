@@ -1,0 +1,49 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/8dc4b5dd7b16978f8c330c9f9cf6e650536e1f2440de4836cdd115af78558257.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_same_point_slope_consistency.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_point_slope_consistency.lean"]
+SOURCE_SHA256 fe4f0d32ccb27024f6cfabbfdc00aa49a87ead53baf5fc8f21d3f93b94de61ba
+LOCK_ACQUIRED_UTC 2026-10-06T09:37:43.421047+00:00
+SHARED_SLOT 2
+LEAN_PID 248
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_point_slope_consistency.lean:90:6: error: Type mismatch
+  add_le_add_left (Eq.mp (congrArg (LE.le |C + F * A|) (congrArg (HAdd.hAdd |C|) (abs_mul F A))) (abs_add_le C (F * A)))
+    ?m.162
+has type
+  |C + F * A| + ?m.162 ≤ |C| + |F| * |A| + ?m.162
+but is expected to have type
+  |B| + |C + F * A| ≤ |B| + (|C| + |F| * |A|)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_point_slope_consistency.lean:112:23: error: unexpected token '|*'; expected '|' or '|ₘ'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_point_slope_consistency.lean:111:71: error: unsolved goals
+J : Finset ℤ
+p : ℤ → Point
+y : ℤ → ℝ
+Y : Finset ℝ
+delta rho A B C F c d x0 eu ev eh K gamma lam : ℝ
+hd : 0 < delta
+hr : 0 < rho
+hr1 : rho ≤ 1
+hA : |A| ≤ 1
+hB : |B| ≤ 1
+hC : |C| ≤ 1
+hF : |F| ≤ 1
+heu : 0 ≤ eu
+hev : 0 ≤ ev
+heh : 0 ≤ eh
+hsmall : eh + ev + |F| * eu ≤ rho
+hstep : 3 * delta ≤ rho
+hK : 1 ≤ K
+hg : 0 < gamma
+hg1 : gamma ≤ 1
+hl : 0 < lam
+hdense : lam / delta ≤ ↑J.card
+hY : ∀ z ∈ Y, -1 ≤ z ∧ z ≤ 1
+hy : ∀ n ∈ J, y n ∈ Y
+hKT : IntervalKatzTao Y rho K gamma
+hx : ∀ n ∈ J, p n 0 = x0 + delta * ↑n
+hbounded : ∀ n ∈ J, |p n 0| ≤ 1
+hu : ∀ n ∈ J, |p n 1 - (c + A * p n 0)| ≤ eu
+hv : ∀ n ∈ J, |p n 2 - (d + B * p n 0)| ≤ ev
+hh : ∀ n ∈ J, |y n - (p n 2 - C * p n 0 - F * p n 1)| ≤ eh
+error : ℝ := eh + ev + |F|
+⊢ |B - correctedSlope A C F| ≤ rho * max 1 ((32 * K / lam) ^ (1 / gamma))
+LEAN_FINISHED_UTC 2026-10-06T09:39:16.480695+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

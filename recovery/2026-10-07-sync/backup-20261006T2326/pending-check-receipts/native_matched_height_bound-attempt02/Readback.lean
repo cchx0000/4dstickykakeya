@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_matched_height_bound
+set_option autoImplicit false
+#print axioms NativeMatchedHeightBound.point_time_bound
+#print axioms NativeMatchedHeightBound.baseline_height_bound

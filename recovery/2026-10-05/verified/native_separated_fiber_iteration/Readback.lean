@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_separated_fiber_iteration
+
+#print axioms NativeSeparatedFiberIteration.reverseFamily
+#print axioms NativeSeparatedFiberIteration.reverseFamily_range
+#print axioms NativeSeparatedFiberIteration.reverseFamily_prefix_image
+#print axioms NativeSeparatedFiberIteration.separated_prefix_distances
+#print axioms NativeSeparatedFiberIteration.separated_lower_bound
+#print axioms NativeSeparatedFiberIteration.native_chain_lower_bound

@@ -1,0 +1,53 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:23:57.367586+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T162356536836",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T162356536836/AggregateReadback.lean"
+  ],
+  "readback_sha256": "af070e564b00e2eaed2e1cc79a56b3f14734f3eaff85c9159cee85af1ab994a1",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_grain_height_projection_source",
+      "source_sha256": "e9f8b7d9ed7c7361c122d0470b217d6b35dea07c6b6bf0b9bfbf77b5d9d99da9",
+      "olean_sha256": "b7b71ee66a51366f17aa4abb7cf6202a9598de99328d8f9dd5d6599a8840fd68",
+      "names": [
+        "NativeGrainHeightProjectionSource.nodePlane",
+        "NativeGrainHeightProjectionSource.sourceError",
+        "NativeGrainHeightProjectionSource.sourceDiameter",
+        "NativeGrainHeightProjectionSource.sourceError_pos",
+        "NativeGrainHeightProjectionSource.sourceDiameter_pos",
+        "NativeGrainHeightProjectionSource.source_mixed_spread",
+        "NativeGrainHeightProjectionSource.source_occupied_quotient_card",
+        "NativeGrainHeightProjectionSource.sourceDiameter_le",
+        "NativeGrainHeightProjectionSource.phase_working_mesh",
+        "NativeGrainHeightProjectionSource.source_quotient_cost"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_grain_height_projection_fibers",
+      "source_sha256": "10cf040515bfe0290a69064f5e4d2e305b9af89acde02cdf22bdcf349453d92e",
+      "olean_sha256": "79e3f7f6a27a2ba991c6f92c5770f672e0c1a7c5e60ce94697f1348d742e96c7",
+      "names": [
+        "NativeGrainHeightProjectionFibers.wholeFiber",
+        "NativeGrainHeightProjectionFibers.wholeX",
+        "NativeGrainHeightProjectionFibers.wholeFiber_card_le_X",
+        "NativeGrainHeightProjectionFibers.exists_dense_wholeX"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:24:02.008631+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_third_XY_source_data
+
+#print axioms NativeThirdXYSourceData.HasThirdXYSourceData

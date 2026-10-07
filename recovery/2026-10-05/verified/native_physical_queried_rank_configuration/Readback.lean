@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_physical_queried_rank_configuration
+
+#print axioms NativePhysicalQueriedRankConfiguration.exists_candidate_queried_rank_configuration
+#print axioms NativePhysicalQueriedRankConfiguration.exists_extra_queried_rank_configuration

@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_slice_count_comparison
+
+#print axioms NativeSliceCountComparison.points
+#print axioms NativeSliceCountComparison.heightSlice
+#print axioms NativeSliceCountComparison.points_coarsen
+#print axioms NativeSliceCountComparison.column_class_counts_comparable
+#print axioms NativeSliceCountComparison.reference_height_counts_comparable
+#print axioms NativeSliceCountComparison.reference_slice_average_cross
+#print axioms NativeSliceCountComparison.caller_local_class_counts
+#print axioms NativeSliceCountComparison.HasSliceAverage
+#print axioms NativeSliceCountComparison.caller_reference_slice_averages

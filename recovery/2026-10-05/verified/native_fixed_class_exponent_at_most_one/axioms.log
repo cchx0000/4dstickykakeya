@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T190010463252", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T190010463252/AggregateReadback.lean"]
+READBACK_SHA256 499da2e9a82b9c14f0dfd5b2c9d58a56e31ab5aa1187cdca53efa24353dbbddb
+Dedicated staging slot 3 acquired UTC: 2026-10-05T19:02:02.170699+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8652628 kB
+'NativeFixedClassExponentAtMostOne.extremalExponent_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

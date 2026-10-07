@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_squared_grain_selection
+
+#print axioms NativeActualSquaredGrainSelection.grain_scale_pos_le_one
+#print axioms NativeActualSquaredGrainSelection.thickness_le_squared_scale
+#print axioms NativeActualSquaredGrainSelection.select_squared_grain_second_stage

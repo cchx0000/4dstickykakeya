@@ -1,0 +1,9 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/eaea37999a4477ae9bdd478b4bce29a27da315158fda89fbf32db791554d83d5.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_remembered_height_geometry.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_height_geometry.lean"]
+SOURCE_SHA256 8a74b10c52d9a4ecc7c864be759c61036f894ddc1d61bb6eb32947130ecf6a71
+LOCK_ACQUIRED_UTC 2026-10-06T17:42:17.477158+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_height_geometry.lean:62:27: error: `dsimp` made no progress
+LEAN_FINISHED_UTC 2026-10-06T17:45:52.739725+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

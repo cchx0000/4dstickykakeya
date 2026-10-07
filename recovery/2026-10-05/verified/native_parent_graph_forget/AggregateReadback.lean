@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_parent_graph_forget
+
+set_option autoImplicit false
+#print axioms NativeParentGraphForget.curve_cleanup_forget
+#print axioms NativeParentGraphForget.curve_retained_forget
+#print axioms NativeParentGraphForget.curve_stage_forget

@@ -1,0 +1,62 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_same_Q_fine_graph",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_Q_fine_graph.lean",
+  "source_sha256": "92cafbf92565226f3fb8fd8d1e967827a60b02b1904ded2e927d741d04a7324d",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_same_Q_fine_graph.olean",
+  "names": [
+    "NativeSameQFineGraph.phase",
+    "NativeSameQFineGraph.graph",
+    "NativeSameQFineGraph.weight",
+    "NativeSameQFineGraph.graph_restrict",
+    "NativeSameQFineGraph.sum_weight_eq_graph",
+    "NativeSameQFineGraph.total_weight_eq_graph"
+  ],
+  "started_utc": "2026-10-06T17:44:40.221563+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "92b48de02388342e587dbfb3f78ef57adf3bd0631f3c198a845a31fed9b4b3e2",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T17:49:11.559616+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1755",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeSameQFineGraph.phase": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameQFineGraph.graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameQFineGraph.weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameQFineGraph.graph_restrict": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameQFineGraph.sum_weight_eq_graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameQFineGraph.total_weight_eq_graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T17:59:13.760683+00:00"
+}

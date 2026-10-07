@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_lipschitz_local_height_selection
+set_option autoImplicit false
+#print axioms NativeLipschitzLocalHeightSelection.selected_field_bounds
+#print axioms NativeLipschitzLocalHeightSelection.select_locally_retained_field

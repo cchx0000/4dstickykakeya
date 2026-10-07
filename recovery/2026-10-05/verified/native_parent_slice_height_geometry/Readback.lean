@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_parent_slice_height_geometry
+
+#print axioms NativeParentSliceHeightGeometry.physical_parent_spatial_bound
+#print axioms NativeParentSliceHeightGeometry.endpointHeightMenu
+#print axioms NativeParentSliceHeightGeometry.endpointHeightMenu_card
+#print axioms NativeParentSliceHeightGeometry.endpoint_column_mem_menu
+#print axioms NativeParentSliceHeightGeometry.endpoint_height_card_le

@@ -1,0 +1,88 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:14:59.053347+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T151458297559",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T151458297559/AggregateReadback.lean"
+  ],
+  "readback_sha256": "c792421b404ee23db148592e8289463404d946909a4ebb3253e6bbe9d280a8d4",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_source_parent_grain_cleanup",
+      "source_sha256": "d9332ed15a59ee84a6306049d3fa28306d94cffde7ceb16ed01619abed5a707f",
+      "olean_sha256": "7f5c2381dc910ed486eee77fabe05446851facb1eb1497759ea1e582f88456af",
+      "names": [
+        "NativeSourceParentGrainCleanup.mixed_vertex_cross",
+        "NativeSourceParentGrainCleanup.density_cap_cancellation",
+        "NativeSourceParentGrainCleanup.cancel_depth_and_taxes",
+        "NativeSourceParentGrainCleanup.parentGrainConstant",
+        "NativeSourceParentGrainCleanup.source_parent_grain_cleanup"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_middle_grain_parent_budget",
+      "source_sha256": "1230a5a75f144b66eb562cb4d2af6293bdb83791775a344f57927054db46e3a1",
+      "olean_sha256": "ce6d640fefda7d10c2ff056c4fae455a6a8d476dc98ca127e5bb781aa7602f1d",
+      "names": [
+        "NativeMiddleGrainParentBudget.middleIndex",
+        "NativeMiddleGrainParentBudget.middleDepth",
+        "NativeMiddleGrainParentBudget.grainDepth_middle",
+        "NativeMiddleGrainParentBudget.middle_depth_bounds",
+        "NativeMiddleGrainParentBudget.middle_query_readback",
+        "NativeMiddleGrainParentBudget.middle_scale_bounds",
+        "NativeMiddleGrainParentBudget.middle_scale_root_bound",
+        "NativeMiddleGrainParentBudget.normalizedError",
+        "NativeMiddleGrainParentBudget.normalized_error_le_scale",
+        "NativeMiddleGrainParentBudget.actual_test_radius_lower",
+        "NativeMiddleGrainParentBudget.coefficient_power_bound",
+        "NativeMiddleGrainParentBudget.errorConstant",
+        "NativeMiddleGrainParentBudget.normalized_error_power",
+        "NativeMiddleGrainParentBudget.exists_uniform_cutoff",
+        "NativeMiddleGrainParentBudget.absorb_error_constant",
+        "NativeMiddleGrainParentBudget.actual_middle_error",
+        "NativeMiddleGrainParentBudget.parent_direction_from_error",
+        "NativeMiddleGrainParentBudget.actual_middle_parent_direction"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_scheduled_pair_parent_transfer",
+      "source_sha256": "63a6166ea5bf3378dd1b9471d509591e71625f87595e51c88c3357cff61c79b8",
+      "olean_sha256": "a39fbf6cada0148a1da930556550a31f9bfea4bbcb2cc1dc41dcfb35b33a77dc",
+      "names": [
+        "NativeScheduledPairParentTransfer.diagonal_pair_fiber_eq",
+        "NativeScheduledPairParentTransfer.diagonal_pair_uniformity",
+        "NativeScheduledPairParentTransfer.fine_pair_determines_parent",
+        "NativeScheduledPairParentTransfer.parent_fine_pair_fiber_eq",
+        "NativeScheduledPairParentTransfer.parent_fine_pair_uniformity",
+        "NativeScheduledPairParentTransfer.diagonal_parent_uniformity",
+        "NativeScheduledPairParentTransfer.coarse_pair_over_fine_card_le"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_uniform_retention_transfer",
+      "source_sha256": "01f5eef54a29c2b1f2f7cb206e5305aa084cfcd1175cb680c82b7383b61a0393",
+      "olean_sha256": "645f85a449dc8d8b8793df4c133a151230ca6b684772e53ddeb782e426462b4a",
+      "names": [
+        "NativeUniformRetentionTransfer.image_card_le_mul_of_fiber_images",
+        "NativeUniformRetentionTransfer.uniform_subset_card_cross",
+        "NativeUniformRetentionTransfer.finite_menu_retention_cross",
+        "NativeUniformRetentionTransfer.retained_image_card",
+        "NativeUniformRetentionTransfer.retained_image_multiplicity"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:15:03.896763+00:00",
+  "exit_code": 0
+}

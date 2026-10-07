@@ -1,0 +1,25 @@
+import Theorems.Thm_StickyKakeya4_native_fixed_size_scale_menu
+#print axioms NativeFixedSizeScaleMenu.schedule
+#print axioms NativeFixedSizeScaleMenu.schedule_zero
+#print axioms NativeFixedSizeScaleMenu.schedule_last
+#print axioms NativeFixedSizeScaleMenu.exists_predecessor
+#print axioms NativeFixedSizeScaleMenu.exists_predecessor_in_window
+#print axioms NativeFixedSizeScaleMenu.dyadic_gap_power
+#print axioms NativeFixedSizeScaleMenu.depth_le_of_dyadic_cutoff
+#print axioms NativeFixedSizeScaleMenu.exists_fixed_parameters
+#print axioms NativeFixedSizeScaleMenu.clippedSchedule
+#print axioms NativeFixedSizeScaleMenu.clippedSchedule_bounds
+#print axioms NativeFixedSizeScaleMenu.clippedSchedule_fix
+#print axioms NativeFixedSizeScaleMenu.lowerDepth
+#print axioms NativeFixedSizeScaleMenu.upperDepth
+#print axioms NativeFixedSizeScaleMenu.upperDepth_le
+#print axioms NativeFixedSizeScaleMenu.depth_interval_nonempty
+#print axioms NativeFixedSizeScaleMenu.windowSchedule
+#print axioms NativeFixedSizeScaleMenu.windowSchedule_bounds
+#print axioms NativeFixedSizeScaleMenu.exists_window_predecessor
+#print axioms NativeFixedSizeScaleMenu.windowSchedule_zero
+#print axioms NativeFixedSizeScaleMenu.windowSchedule_last
+#print axioms NativeFixedSizeScaleMenu.depth_window_powers
+#print axioms NativeFixedSizeScaleMenu.exists_source_window_menu
+#print axioms NativeFixedSizeScaleMenu.gap_le_twice_fraction
+#print axioms NativeFixedSizeScaleMenu.gap_le_twice_fraction_of_cutoff

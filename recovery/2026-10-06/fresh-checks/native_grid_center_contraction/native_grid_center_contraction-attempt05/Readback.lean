@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_grid_center_contraction
+set_option autoImplicit false
+#print axioms NativeGridCenterContraction.contracted_grid_AD
+#print axioms NativeGridCenterContraction.coarsest_grid_AD

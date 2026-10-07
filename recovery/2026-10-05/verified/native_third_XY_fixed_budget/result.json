@@ -1,0 +1,74 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_third_XY_fixed_budget",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_third_XY_fixed_budget.lean",
+  "source_sha256": "4bd96d7d683ad294fed537ff5d9a70898bcfb73536a4cdb7769a7155289b2eaa",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_third_XY_fixed_budget.olean",
+  "names": [
+    "NativeThirdXYFixedBudget.fixedCost",
+    "NativeThirdXYFixedBudget.fixedCost_one_le",
+    "NativeThirdXYFixedBudget.exists_source_cutoff",
+    "NativeThirdXYFixedBudget.sourceCutoff",
+    "NativeThirdXYFixedBudget.sourceCutoff_pos",
+    "NativeThirdXYFixedBudget.sourceCutoff_pays",
+    "NativeThirdXYFixedBudget.sourceCutoff_le_one",
+    "NativeThirdXYFixedBudget.pay_XY_and_quotient_constants"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T19:33:58.613152+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "5e322362cd35253fdd3aa02be0daf67afe2c31eaf56ba4d0c1c41f315c67799e",
+  "source_execution_complete_utc": "2026-10-05T19:35:00.181016+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T193536987063",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeThirdXYFixedBudget.fixedCost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeThirdXYFixedBudget.fixedCost_one_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeThirdXYFixedBudget.exists_source_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeThirdXYFixedBudget.sourceCutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeThirdXYFixedBudget.sourceCutoff_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeThirdXYFixedBudget.sourceCutoff_pays": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeThirdXYFixedBudget.sourceCutoff_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeThirdXYFixedBudget.pay_XY_and_quotient_constants": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T19:37:07.721239+00:00"
+}

@@ -1,0 +1,110 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_translated_grain_height_overlap",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_translated_grain_height_overlap.lean",
+  "source_sha256": "968ff47cb6753cbd6e94ff308fb9e5faa5fc10e761f882c5032685f6a4cca3d5",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_translated_grain_height_overlap.olean",
+  "names": [
+    "NativeTranslatedGrainHeightOverlap.floor_shift_carry",
+    "NativeTranslatedGrainHeightOverlap.two_integer_card",
+    "NativeTranslatedGrainHeightOverlap.raw_cell_translated_card",
+    "NativeTranslatedGrainHeightOverlap.translated_cell_raw_card",
+    "NativeTranslatedGrainHeightOverlap.rawHeight",
+    "NativeTranslatedGrainHeightOverlap.translatedHeight",
+    "NativeTranslatedGrainHeightOverlap.rawHeight_readback",
+    "NativeTranslatedGrainHeightOverlap.translatedHeight_readback",
+    "NativeTranslatedGrainHeightOverlap.translatedHeight_column",
+    "NativeTranslatedGrainHeightOverlap.actual_raw_cell_card",
+    "NativeTranslatedGrainHeightOverlap.actual_translated_cell_card",
+    "NativeTranslatedGrainHeightOverlap.floor_shift_distance",
+    "NativeTranslatedGrainHeightOverlap.actual_height_distance",
+    "NativeTranslatedGrainHeightOverlap.actual_height_metric"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:54:13.772453+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "53e38b23b14d767cff7830e277c00af6cb2851fa642a4362911e8d5e1cf0007a",
+  "source_execution_complete_utc": "2026-10-05T16:54:19.697875+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T170652781040",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeTranslatedGrainHeightOverlap.floor_shift_carry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.two_integer_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.raw_cell_translated_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.translated_cell_raw_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.rawHeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.translatedHeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.rawHeight_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.translatedHeight_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.translatedHeight_column": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.actual_raw_cell_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.actual_translated_cell_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.floor_shift_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.actual_height_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedGrainHeightOverlap.actual_height_metric": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T17:06:58.224760+00:00"
+}

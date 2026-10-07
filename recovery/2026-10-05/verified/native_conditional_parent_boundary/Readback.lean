@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_parent_boundary
+
+#print axioms NativeConditionalParentBoundary.conditional_ancestor_image_card
+#print axioms NativeConditionalParentBoundary.coarser_outer_parent_upper

@@ -1,0 +1,58 @@
+{
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean",
+  "source_sha256": "b4ea9500e84c1e2d512d995b50b3b4ce10c403ad28fc0a17c22cdadfd8a33066",
+  "declaration_count": 10,
+  "namespaces": [
+    "NativePreThirdHeightSupport",
+    "NativeSourcePhysicalCoherence",
+    "NativePhysicalCoherentThirdJoin",
+    "NativeActualHeightThirdJoin"
+  ],
+  "units": [
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_pre_third_height_support.lean",
+      "origin_sha256": "315652d64ae43ab85c8a30ae103f5baf6d88ff222a3412ab514c7695aeb27c86",
+      "namespace": "NativePreThirdHeightSupport",
+      "declarations": [
+        "NativePreThirdHeightSupport.configured_fine_to_support",
+        "NativePreThirdHeightSupport.select_actual_height_support"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_source_physical_coherence.lean",
+      "origin_sha256": "7a9d01220d636c09c7462eb1f7d0f0670848ee851d5b506999bdb3b3800d5813",
+      "namespace": "NativeSourcePhysicalCoherence",
+      "declarations": [
+        "NativeSourcePhysicalCoherence.HasUpperEngine",
+        "NativeSourcePhysicalCoherence.mesh_window",
+        "NativeSourcePhysicalCoherence.HasPhysicalCoherenceEngine",
+        "NativeSourcePhysicalCoherence.coherence_of_actual_upper"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_physical_coherent_third_join.lean",
+      "origin_sha256": "7cb1f1fe8f658332f0f359d6c43470eaede3d5215aa73016ffb1de36732f045f",
+      "namespace": "NativePhysicalCoherentThirdJoin",
+      "declarations": [
+        "NativePhysicalCoherentThirdJoin.from_actual_source"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_height_third_join.lean",
+      "origin_sha256": "4ec261813772e43f6f84ce06a62536888ab72ce7dfd0455d9e5a34e2a2045d3f",
+      "namespace": "NativeActualHeightThirdJoin",
+      "declarations": [
+        "NativeActualHeightThirdJoin.source_total_charge",
+        "NativeActualHeightThirdJoin.attach_rank_two",
+        "NativeActualHeightThirdJoin.attach_rank_three"
+      ]
+    }
+  ],
+  "scope": "UNVERIFIED initial combined source. Original snapshots preserved; no mathematical statement or proof body changes. Internal imports removed and original anonymous sections closed.",
+  "adaptations": [
+    {
+      "attempt": 2,
+      "changes": "Terminal attempt01 proof-only fixes: explicit dyadic-cell unfolding; local Sh/U/Cextra readback; missing namespace opens; raise inherited500k elaboration budget to6m and remove diagnostic tracing. All ten statements unchanged."
+    }
+  ]
+}

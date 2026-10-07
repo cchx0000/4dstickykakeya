@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2788bf86df08972ba92ad14ed5f50b6c64c45418db1fbe5a47e3e47db7cbcac9.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_recoded_grid_upper.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_upper.lean"]
+SOURCE_SHA256 29011c90d1b7fa8885c361da4558a7a710bf0edd1bbff65af5ce7a67dc948ed6
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_upper.lean:15:13: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  DecidablePred (rel k)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_upper.lean:16:14: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  DecidablePred fun k => rel k a
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_upper.lean:105:37: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_upper.lean:106:4: error: mod_cast has type
+  #({k ∈ S | dist a (witness k) ≤ rho}) ≤ (4 * N + 5) ^ l
+but is expected to have type
+  ↑(#({k ∈ S | dist a (witness k) ≤ rho})) ≤ M
+
+EXIT_CODE=1

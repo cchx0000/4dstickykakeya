@@ -1,0 +1,36 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_bounded_parent_point_transfer",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_bounded_parent_point_transfer.lean",
+  "source_sha256": "93921a9112acfd8bb33832d92a32778254984807629be54532f67bec3fe61b4f",
+  "names": [
+    "NativeBoundedParentPointTransfer.image_point_degree_le",
+    "NativeBoundedParentPointTransfer.multiplicity_le_menu_mul_degree",
+    "NativeBoundedParentPointTransfer.uniform_images_multiplicity"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T06:40:44.112181+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeBoundedParentPointTransfer.image_point_degree_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundedParentPointTransfer.multiplicity_le_menu_mul_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundedParentPointTransfer.uniform_images_multiplicity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "09de0463e828290da2035083d9b9b9ab735491acb8bb3b3cfcc2a230799fe87a",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T06:57:43.515676+00:00"
+}

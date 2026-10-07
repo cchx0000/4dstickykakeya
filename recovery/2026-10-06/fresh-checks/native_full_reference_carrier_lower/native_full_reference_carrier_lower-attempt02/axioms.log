@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3febb17b679169bb13642d1dc2b1d00bec4c53df3b64537b1b208e87f4f3ea6f.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_full_reference_carrier_lower-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_full_reference_carrier_lower-attempt02/Readback.lean"]
+SOURCE_SHA256 25a1722e700bd5ad9857ff95984f13710823c84b3575a9636f389ac91d75612f
+'NativeFullReferenceCarrierLower.full_carrier_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullReferenceCarrierLower.full_carrier_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullReferenceCarrierLower.full_carrier_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

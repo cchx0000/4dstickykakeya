@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_lipschitz_height_edge_lift
+set_option autoImplicit false
+#print axioms NativeLipschitzHeightEdgeLift.lift_cell_card
+#print axioms NativeLipschitzHeightEdgeLift.source_cell_card
+#print axioms NativeLipschitzHeightEdgeLift.select_original_edges

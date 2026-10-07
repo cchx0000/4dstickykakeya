@@ -1,0 +1,1044 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b9ede43c80cbba6e30a80806415480c30367cb8f11b41b6c2191f9f088e3972e.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean"]
+SOURCE_SHA256 f55d44bbc76aaebe86c8becdfa9723bd038444b9fc8709ba2170c4f9d7419941
+LOCK_ACQUIRED_UTC 2026-10-06T20:35:17.572006+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean:38:2: error: Type mismatch: After simplification, term
+  hh
+ has type
+  @Eq ℤ ⌊x.ofLp j / (delta / 64)⌋ ⌊y.ofLp j / (delta / 64)⌋
+but is expected to have type
+  @Eq ℤ (wzDyadicCellIndex (delta / 64) x j) (wzDyadicCellIndex (delta / 64) y j)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean:120:4: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  g ≥ 1
+  f ≥ 0
+  e ≥ 0
+  e - f ≥ 0
+  d ≥ 1
+  c ≥ 0
+  b ≥ 6
+where
+ b := ↑m
+ c := ↑(tangentDim s)
+ d := ↑R0
+ e := ↑(8 * R0) * ↑(#(edgeLift S Prod.snd Bh))
+ f := ↑(#S)
+ g := ↑(#(edgeLift S Prod.snd Bh))
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 187, num: 1):
+    [reduction] outParam ↦ 187
+  [type_class] used instances (max: 108, num: 1):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 108
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 27, num: 1):
+    [reduction] outParam ↦ 27
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 46, num: 3):
+    [reduction] LE.le ↦ 46
+    [reduction] HPow.hPow ↦ 23
+    [reduction] Pow.pow ↦ 23
+  [reduction] unfolded reducible declarations (max: 185, num: 3):
+    [reduction] outParam ↦ 185
+    [reduction] inferInstance ↦ 173
+    [reduction] Nat.cast ↦ 103
+  [type_class] used instances (max: 45, num: 2):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 45
+    [type_class] Lean.Grind.Ring.OfSemiring.instLEQOfOrderedAdd ↦ 26
+  [def_eq] heuristic for solving `f a =?= f b` (max: 34, num: 3):
+    [def_eq] instHDiv ↦ 34
+    [def_eq] instOfNatAtLeastTwo ↦ 25
+    [def_eq] instHAdd ↦ 21
+  [kernel] unfolded declarations (max: 84, num: 16):
+    [kernel] OfNat.ofNat ↦ 84
+    [kernel] HMul.hMul ↦ 64
+    [kernel] Mul.mul ↦ 64
+    [kernel] Add.add ↦ 37
+    [kernel] HAdd.hAdd ↦ 37
+    [kernel] inferInstance ↦ 35
+    [kernel] Div.div ↦ 30
+    [kernel] HDiv.hDiv ↦ 30
+    [kernel] HPow.hPow ↦ 30
+    [kernel] Pow.pow ↦ 30
+    [kernel] AddMonoid.toZero ↦ 24
+    [kernel] LE.le ↦ 24
+    [kernel] Semigroup.toMul ↦ 23
+    [kernel] LT.lt ↦ 22
+    [kernel] AddCommMonoid.toAddMonoid ↦ 21
+    [kernel] Semiring.toMonoid ↦ 21
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 253, num: 4):
+    [reduction] LE.le ↦ 253
+    [reduction] LT.lt ↦ 60
+    [reduction] CoeHTCT.coe ↦ 31
+    [reduction] CoeT.coe ↦ 31
+  [reduction] unfolded reducible declarations (max: 1299, num: 9):
+    [reduction] outParam ↦ 1299
+    [reduction] EuclideanSpace ↦ 287
+    [reduction] PiLp ↦ 278
+    [reduction] DecidableEq ↦ 137
+    [reduction] E4 ↦ 125
+    [reduction] Index ↦ 101
+    [reduction] semiOutParam ↦ 42
+    [reduction] FunLike ↦ 33
+    [reduction] inferInstance ↦ 31
+  [type_class] used instances (max: 453, num: 13):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 453
+    [type_class] instHPow ↦ 116
+    [type_class] Real.instPow ↦ 113
+    [type_class] instHMul ↦ 65
+    [type_class] Vector.instHMul ↦ 53
+    [type_class] Real.instNatCast ↦ 45
+    [type_class] instCoeT ↦ 27
+    [type_class] instCoeTOfCoeDep ↦ 27
+    [type_class] instCoeTOfCoeHTCT ↦ 27
+    [type_class] instCoeHTCTNatOfNatCast ↦ 24
+    [type_class] Nat.instNeZeroSucc ↦ 22
+    [type_class] instOfNatAtLeastTwo ↦ 21
+    [type_class] Nat.instAtLeastTwoHAddOfNat ↦ 21
+  [def_eq] heuristic for solving `f a =?= f b` (max: 24, num: 1):
+    [def_eq] IsWangZakharovNativeFiniteInput ↦ 24
+  [kernel] unfolded declarations (max: 239, num: 47):
+    [kernel] Add.add ↦ 239
+    [kernel] HAdd.hAdd ↦ 239
+    [kernel] OfNat.ofNat ↦ 145
+    [kernel] List.rec ↦ 120
+    [kernel] Int.casesOn ↦ 116
+    [kernel] Int.rec ↦ 104
+    [kernel] instHAdd ↦ 98
+    [kernel] SubNegMonoid.toAddMonoid ↦ 80
+    [kernel] List.casesOn ↦ 77
+    [kernel] AddCommGroup.toAddGroup ↦ 69
+    [kernel] AddGroup.toSubNegMonoid ↦ 69
+    [kernel] AddSemigroup.toAdd ↦ 69
+    [kernel] instOfNatNat ↦ 64
+    [kernel] AddMonoid.toAddSemigroup ↦ 59
+    [kernel] inferInstance ↦ 53
+    [kernel] AddCommMonoid.toAddMonoid ↦ 53
+    [kernel] Equiv.toFun ↦ 46
+    [kernel] WithLp.ofLp ↦ 46
+    [kernel] Nat.casesOn ↦ 43
+    [kernel] HSub.hSub ↦ 42
+    [kernel] Sub.sub ↦ 42
+    [kernel] Int.add.match_1 ↦ 41
+    [kernel] Semiring.toAddCommMonoid ↦ 39
+    [kernel] instDecidableEqList.match_1 ↦ 37
+    [kernel] List.map._f ↦ 37
+    [kernel] Nat.rec ↦ 36
+    [kernel] Real.instAdd ↦ 36
+    [kernel] Int.negOfNat.match_1 ↦ 36
+    [kernel] Int.neg.match_1 ↦ 34
+    [kernel] Equiv.invFun ↦ 32
+    [kernel] Real.instAddCommGroup ↦ 32
+    [kernel] Ring.toAddCommGroup ↦ 32
+    [kernel] HSMul.hSMul ↦ 30
+    [kernel] Option.rec ↦ 30
+    [kernel] SMul.smul ↦ 30
+    [kernel] Int.add ↦ 29
+    [kernel] List.brecOn ↦ 29
+    [kernel] Int.negOfNat ↦ 27
+    [kernel] Int.neg ↦ 26
+    [kernel] Neg.neg ↦ 26
+    [kernel] Option.casesOn ↦ 26
+    [kernel] List.brecOn.go ↦ 25
+    [kernel] AddCommGroup.toAddCommMonoid ↦ 23
+    [kernel] Equiv.add ↦ 23
+    [kernel] NSMul.nsmul ↦ 22
+    [kernel] outParam ↦ 21
+    [kernel] AddCommSemigroup.toAddSemigroup ↦ 21
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 28, num: 1):
+    [reduction] outParam ↦ 28
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 1218, num: 41):
+    [reduction] LE.le ↦ 1218
+    [reduction] OfNat.ofNat ↦ 522
+    [reduction] DFunLike.coe ↦ 502
+    [reduction] Mul.mul ↦ 404
+    [reduction] HMul.hMul ↦ 356
+    [reduction] HSub.hSub ↦ 256
+    [reduction] Sub.sub ↦ 256
+    [reduction] Div.div ↦ 245
+    [reduction] HDiv.hDiv ↦ 209
+    [reduction] LT.lt ↦ 200
+    [reduction] Pow.pow ↦ 165
+    [reduction] HPow.hPow ↦ 159
+    [reduction] Add.add ↦ 148
+    [reduction] HAdd.hAdd ↦ 148
+    [reduction] WithLp.equiv ↦ 138
+    [reduction] NatCast.natCast ↦ 122
+    [reduction] LinearEquiv.trans ↦ 120
+    [reduction] rowConstant ↦ 74
+    [reduction] Nat.rec ↦ 68
+    [reduction] WithLp.addEquiv ↦ 68
+    [reduction] WithLp.linearEquiv ↦ 68
+    [reduction] One.one ↦ 58
+    [reduction] NPow.npow ↦ 52
+    [reduction] EquivLike.coe ↦ 44
+    [reduction] SetLike.coe ↦ 42
+    [reduction] norm ↦ 40
+    [reduction] LinearIsometryEquiv.piLpCongrLeft ↦ 38
+    [reduction] LinearIsometryEquiv.trans ↦ 38
+    [reduction] OrthonormalBasis.reindex ↦ 38
+    [reduction] DivInvMonoid.div' ↦ 36
+    [reduction] NatPow.pow ↦ 36
+    [reduction] Quotient.mk ↦ 32
+    [reduction] CauSeq.Completion.mk ↦ 32
+    [reduction] Equiv.piCongrLeft' ↦ 30
+    [reduction] LinearEquiv.piCongrLeft' ↦ 30
+    [reduction] normalBasis ↦ 30
+    [reduction] Multiset.Mem ↦ 28
+    [reduction] Neg.neg ↦ 28
+    [reduction] finCongr ↦ 24
+    [reduction] Set ↦ 21
+    [reduction] Zero.zero ↦ 21
+  [reduction] unfolded reducible declarations (max: 643, num: 45):
+    [reduction] outParam ↦ 643
+    [reduction] EuclideanSpace ↦ 633
+    [reduction] PiLp ↦ 612
+    [reduction] LinearMap.toAddHom ↦ 548
+    [reduction] AddHom.toFun ↦ 458
+    [reduction] Nat.cast ↦ 437
+    [reduction] LinearEquiv.toLinearMap ↦ 368
+    [reduction] Equiv.invFun ↦ 332
+    [reduction] Equiv.toFun ↦ 308
+    [reduction] inferInstance ↦ 247
+    [reduction] Function.Injective.subNegMonoid ↦ 185
+    [reduction] Equiv.addCommGroup ↦ 181
+    [reduction] Function.Injective.addCommGroup ↦ 181
+    [reduction] Function.Injective.addGroup ↦ 180
+    [reduction] LinearIsometryEquiv.toLinearEquiv ↦ 160
+    [reduction] WithLp.ofLp ↦ 157
+    [reduction] Index ↦ 124
+    [reduction] OrthonormalBasis.repr ↦ 122
+    [reduction] DecidableEq ↦ 114
+    [reduction] AddEquiv.toEquiv ↦ 110
+    [reduction] Equiv.sub ↦ 108
+    [reduction] Ne ↦ 88
+    [reduction] Prod.snd ↦ 70
+    [reduction] Nat.casesOn ↦ 68
+    [reduction] LinearEquiv.invFun ↦ 56
+    [reduction] val ↦ 54
+    [reduction] PartialOrder.ofSetLike ↦ 54
+    [reduction] Quot.liftOn ↦ 53
+    [reduction] LE.ofSetLike ↦ 52
+    [reduction] FunLike ↦ 51
+    [reduction] E4 ↦ 50
+    [reduction] Equiv.add ↦ 48
+    [reduction] Equiv.smul ↦ 48
+    [reduction] Equiv.zero ↦ 48
+    [reduction] Function.Injective.addMonoid ↦ 48
+    [reduction] Function.Injective.addSemigroup ↦ 48
+    [reduction] Function.Injective.addZeroClass ↦ 48
+    [reduction] Reference.schedule ↦ 47
+    [reduction] Fin.val ↦ 41
+    [reduction] Prod.fst ↦ 39
+    [reduction] DecidablePred ↦ 38
+    [reduction] Quotient.mk'' ↦ 32
+    [reduction] Real.cauchy ↦ 32
+    [reduction] Parent ↦ 24
+    [reduction] AddLeftMono ↦ 21
+  [type_class] used instances (max: 202, num: 3):
+    [type_class] Lean.Grind.Ring.OfSemiring.instLEQOfOrderedAdd ↦ 202
+    [type_class] Lean.Grind.Ring.OfSemiring.instLTQOfOrderedAdd ↦ 116
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 81
+  [def_eq] heuristic for solving `f a =?= f b` (max: 109, num: 14):
+    [def_eq] instHAdd ↦ 109
+    [def_eq] instHSMul ↦ 69
+    [def_eq] DivInvMonoid.div' ↦ 53
+    [def_eq] LE.le ↦ 48
+    [def_eq] NSMul.toSMul ↦ 45
+    [def_eq] WithLp.instModule ↦ 27
+    [def_eq] Zero.toOfNat0 ↦ 27
+    [def_eq] Nat.cast ↦ 23
+    [def_eq] Real.rpow ↦ 22
+    [def_eq] instHMul ↦ 21
+    [def_eq] Pi.addCommGroup ↦ 21
+    [def_eq] Pi.instAdd ↦ 21
+    [def_eq] Pi.instZero ↦ 21
+    [def_eq] Pi.Function.module ↦ 21
+  [kernel] unfolded declarations (max: 627, num: 112):
+    [kernel] Add.add ↦ 627
+    [kernel] HAdd.hAdd ↦ 627
+    [kernel] OfNat.ofNat ↦ 352
+    [kernel] Int.casesOn ↦ 329
+    [kernel] HSub.hSub ↦ 319
+    [kernel] Sub.sub ↦ 319
+    [kernel] Int.rec ↦ 304
+    [kernel] List.rec ↦ 271
+    [kernel] HMul.hMul ↦ 251
+    [kernel] Mul.mul ↦ 251
+    [kernel] Equiv.toFun ↦ 191
+    [kernel] List.casesOn ↦ 183
+    [kernel] WithLp.ofLp ↦ 178
+    [kernel] SubNegMonoid.toAddMonoid ↦ 171
+    [kernel] instHAdd ↦ 161
+    [kernel] AddCommMonoid.toAddMonoid ↦ 159
+    [kernel] DFunLike.coe ↦ 138
+    [kernel] AddSemigroup.toAdd ↦ 137
+    [kernel] Option.rec ↦ 134
+    [kernel] AddGroup.toSubNegMonoid ↦ 132
+    [kernel] AddCommGroup.toAddGroup ↦ 129
+    [kernel] LE.le ↦ 124
+    [kernel] Option.casesOn ↦ 124
+    [kernel] AddHom.toFun ↦ 123
+    [kernel] AddMonoid.toAddSemigroup ↦ 121
+    [kernel] inferInstance ↦ 117
+    [kernel] Nat.casesOn ↦ 117
+    [kernel] Neg.neg ↦ 116
+    [kernel] Equiv.invFun ↦ 114
+    [kernel] Int.add.match_1 ↦ 112
+    [kernel] Int.negOfNat.match_1 ↦ 109
+    [kernel] Int.neg.match_1 ↦ 105
+    [kernel] List.brecOn ↦ 104
+    [kernel] Int.add ↦ 88
+    [kernel] Real.instAdd ↦ 84
+    [kernel] Ring.toAddCommGroup ↦ 81
+    [kernel] List.brecOn.go ↦ 81
+    [kernel] HSMul.hSMul ↦ 80
+    [kernel] Int.neg ↦ 80
+    [kernel] Nat.rec ↦ 80
+    [kernel] SMul.smul ↦ 80
+    [kernel] LT.lt ↦ 78
+    [kernel] instDecidableEqList.match_1 ↦ 78
+    [kernel] List.map._f ↦ 78
+    [kernel] Lean.Omega.Coeffs.dot ↦ 75
+    [kernel] Int.negOfNat ↦ 69
+    [kernel] Decidable.casesOn ↦ 67
+    [kernel] Decidable.rec ↦ 67
+    [kernel] Semiring.toAddCommMonoid ↦ 66
+    [kernel] Option.getD.match_1 ↦ 64
+    [kernel] Lean.Omega.Constraint.sat' ↦ 64
+    [kernel] Real.instAddCommGroup ↦ 63
+    [kernel] Div.div ↦ 62
+    [kernel] HDiv.hDiv ↦ 62
+    [kernel] LinearMap.toAddHom ↦ 56
+    [kernel] NatCast.natCast ↦ 56
+    [kernel] Lean.Omega.Constraint.lowerBound ↦ 48
+    [kernel] Lean.Omega.Constraint.upperBound ↦ 48
+    [kernel] AddMonoid.toZero ↦ 47
+    [kernel] HPow.hPow ↦ 46
+    [kernel] Int.sub ↦ 46
+    [kernel] Pow.pow ↦ 46
+    [kernel] instOfNatNat ↦ 45
+    [kernel] ite ↦ 45
+    [kernel] NSMul.nsmul ↦ 44
+    [kernel] instHSub ↦ 42
+    [kernel] Bool.casesOn ↦ 41
+    [kernel] List.getLast?.match_1 ↦ 41
+    [kernel] Lean.Omega.LinearCombo.coeffs ↦ 41
+    [kernel] Lean.Omega.LinearCombo.const ↦ 41
+    [kernel] Int.subNatNat ↦ 40
+    [kernel] Membership.mem ↦ 40
+    [kernel] Prod.casesOn ↦ 40
+    [kernel] Prod.rec ↦ 40
+    [kernel] Bool.rec ↦ 39
+    [kernel] List.map ↦ 38
+    [kernel] Equiv.add ↦ 36
+    [kernel] Ring.toSemiring ↦ 36
+    [kernel] Lean.Omega.LinearCombo.eval ↦ 36
+    [kernel] AddZero.toZero ↦ 34
+    [kernel] Int.le ↦ 34
+    [kernel] Option.getD ↦ 34
+    [kernel] LinearMap.instFunLike ↦ 33
+    [kernel] Nat.cast ↦ 32
+    [kernel] norm ↦ 32
+    [kernel] AddZeroClass.toAddZero ↦ 31
+    [kernel] LinearEquiv.toLinearMap ↦ 31
+    [kernel] List.foldr._f ↦ 31
+    [kernel] AddCommGroup.toAddCommMonoid ↦ 30
+    [kernel] Option.map ↦ 30
+    [kernel] Lean.Omega.normalize?.match_1 ↦ 30
+    [kernel] instHMul ↦ 29
+    [kernel] instHSMul ↦ 28
+    [kernel] Semiring.toMonoid ↦ 28
+    [kernel] Function.Injective.addSemigroup ↦ 28
+    [kernel] AddCommSemigroup.toAddSemigroup ↦ 27
+    [kernel] List.zipWithAll._f ↦ 27
+    [kernel] List.zipWithAll.match_1 ↦ 27
+    [kernel] List.zipWithAll ↦ 25
+    [kernel] Semigroup.toMul ↦ 25
+    [kernel] Function.Injective.addMonoid ↦ 25
+    [kernel] LinearMap.comp ↦ 24
+    [kernel] SubNegMonoid.toSub ↦ 24
+    [kernel] DecidableEq ↦ 23
+    [kernel] Pi.instAdd ↦ 23
+    [kernel] DecidablePred ↦ 22
+    [kernel] List.foldr ↦ 22
+    [kernel] Option.merge ↦ 22
+    [kernel] Function.Injective.subNegMonoid ↦ 22
+    [kernel] Option.merge.match_1 ↦ 22
+    [kernel] instOfNat ↦ 21
+    [kernel] CommSemiring.toSemiring ↦ 21
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean:461:17: error(lean.unknownIdentifier): Unknown identifier `nodePlane`
+
+Note: It is not possible to treat `nodePlane` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean:508:40: error(lean.unknownIdentifier): Unknown identifier `referenceHeight`
+
+Note: It is not possible to treat `referenceHeight` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean:508:60: error(lean.unknownIdentifier): Unknown identifier `referenceHeight`
+
+Note: It is not possible to treat `referenceHeight` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 719, num: 6):
+    [reduction] LE.le ↦ 719
+    [reduction] LT.lt ↦ 102
+    [reduction] CoeHTCT.coe ↦ 47
+    [reduction] CoeT.coe ↦ 47
+    [reduction] OfNat.ofNat ↦ 32
+    [reduction] Matrix ↦ 24
+  [reduction] unfolded reducible declarations (max: 2107, num: 9):
+    [reduction] outParam ↦ 2107
+    [reduction] EuclideanSpace ↦ 224
+    [reduction] PiLp ↦ 214
+    [reduction] DecidableEq ↦ 119
+    [reduction] E4 ↦ 119
+    [reduction] Index ↦ 65
+    [reduction] semiOutParam ↦ 39
+    [reduction] FunLike ↦ 33
+    [reduction] inferInstance ↦ 29
+  [type_class] used instances (max: 711, num: 12):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 711
+    [type_class] Real.instPow ↦ 254
+    [type_class] instHPow ↦ 253
+    [type_class] instHMul ↦ 88
+    [type_class] instHDiv ↦ 84
+    [type_class] Vector.instHMul ↦ 84
+    [type_class] Real.instNatCast ↦ 49
+    [type_class] instCoeT ↦ 35
+    [type_class] instCoeTOfCoeDep ↦ 35
+    [type_class] instCoeTOfCoeHTCT ↦ 35
+    [type_class] instCoeHTCTNatOfNatCast ↦ 32
+    [type_class] BoxIntegral.Box.instMembershipForallReal ↦ 21
+  [def_eq] heuristic for solving `f a =?= f b` (max: 37, num: 2):
+    [def_eq] IsWangZakharovNativeFiniteInput ↦ 37
+    [def_eq] LE.le ↦ 22
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean:530:4: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (500000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 464820, num: 112):
+    [reduction] DFunLike.coe ↦ 464820
+    [reduction] Module.finrank ↦ 73514
+    [reduction] Cardinal.toENatAux ↦ 72688
+    [reduction] Function.extend ↦ 72688
+    [reduction] ENat.toNat ↦ 71862
+    [reduction] WithTop.recTopCoe ↦ 71862
+    [reduction] WithTop.untopD ↦ 71862
+    [reduction] Add.add ↦ 69963
+    [reduction] HAdd.hAdd ↦ 69963
+    [reduction] Nat.rec ↦ 59256
+    [reduction] indefiniteDescription ↦ 40582
+    [reduction] univ ↦ 32690
+    [reduction] Fintype.elems ↦ 32690
+    [reduction] NativeSelectedHorizontalGraphChart.totalGraph ↦ 26432
+    [reduction] LinearEquiv.trans ↦ 25560
+    [reduction] EquivLike.coe ↦ 24990
+    [reduction] Multiset.ofList ↦ 24951
+    [reduction] HSub.hSub ↦ 23867
+    [reduction] Sub.sub ↦ 23867
+    [reduction] Classical.choose ↦ 23240
+    [reduction] Equiv.trans ↦ 20604
+    [reduction] LinearEquiv.ofBijective ↦ 20604
+    [reduction] LinearEquiv.ofInjective ↦ 20604
+    [reduction] LinearEquiv.ofLeftInverse ↦ 20604
+    [reduction] Submodule.prodEquivOfIsCompl ↦ 20604
+    [reduction] filter ↦ 20213
+    [reduction] Multiset.filter ↦ 20142
+    [reduction] OfNat.ofNat ↦ 18506
+    [reduction] Zero.zero ↦ 17550
+    [reduction] Quot.lift ↦ 16993
+    [reduction] sInf ↦ 14141
+    [reduction] HSMul.hSMul ↦ 13158
+    [reduction] SMul.smul ↦ 13158
+    [reduction] Submodule.subtype ↦ 12460
+    [reduction] LinearMap.fst ↦ 12274
+    [reduction] Submodule.orthogonalProjectionOnto ↦ 12274
+    [reduction] Submodule.projectionOnto ↦ 12274
+    [reduction] Submodule.projectionOntoL ↦ 12274
+    [reduction] NativeWeightedGrainQuotientSelection.selected ↦ 11196
+    [reduction] NativeWeightedGrainQuotientGeometry.retained ↦ 11182
+    [reduction] Fin.foldr ↦ 9870
+    [reduction] List.ofFn ↦ 9870
+    [reduction] Multiset.attach ↦ 9470
+    [reduction] Multiset.pmap ↦ 9470
+    [reduction] Eq.rec ↦ 9313
+    [reduction] decidable_of_decidable_of_iff ↦ 9110
+    [reduction] decidable_of_iff ↦ 9110
+    [reduction] NativeWeightedGrainQuotientSelection.grain ↦ 9018
+    [reduction] NSMul.nsmul ↦ 8772
+    [reduction] Quotient ↦ 8582
+    [reduction] Multiset ↦ 8581
+    [reduction] Multiset.map ↦ 7810
+    [reduction] SetLike.coe ↦ 6908
+    [reduction] image ↦ 6696
+    [reduction] Multiset.toFinset ↦ 6694
+    [reduction] LE.le ↦ 6404
+    [reduction] HMul.hMul ↦ 6176
+    [reduction] Mul.mul ↦ 6176
+    [reduction] ContinuousLinearMap.comp ↦ 5724
+    [reduction] NativeQuantizedProjectionGrains.normal ↦ 5724
+    [reduction] Submodule.starProjection ↦ 5724
+    [reduction] Submodule.subtypeL ↦ 5724
+    [reduction] iInf ↦ 5561
+    [reduction] spanOf ↦ 5561
+    [reduction] NativeGrainHeightProjectionSource.nodePlane ↦ 5561
+    [reduction] Set.iInter ↦ 5561
+    [reduction] Submodule.span ↦ 5561
+    [reduction] Prod.rec ↦ 5440
+    [reduction] Multiset.dedup ↦ 5280
+    [reduction] Multiset.decidableForallMultiset ↦ 3832
+    [reduction] NativeParentGrainIncidenceCleanup.mixedLabel ↦ 3674
+    [reduction] WithLp.addEquiv ↦ 3304
+    [reduction] WithLp.linearEquiv ↦ 3304
+    [reduction] _root_.decEq ↦ 2720
+    [reduction] parentLabel ↦ 2720
+    [reduction] FloorRing.floor ↦ 2636
+    [reduction] Int.floor ↦ 2636
+    [reduction] Div.div ↦ 2608
+    [reduction] HDiv.hDiv ↦ 2608
+    [reduction] LinearEquiv.ofTop ↦ 2606
+    [reduction] Inter.inter ↦ 2478
+    [reduction] min ↦ 2478
+    [reduction] sliceSpace ↦ 2478
+    [reduction] Set.inter ↦ 2478
+    [reduction] DivInvMonoid.div' ↦ 1780
+    [reduction] Equiv.piCongrLeft' ↦ 1652
+    [reduction] LinearEquiv.piCongrLeft' ↦ 1652
+    [reduction] LinearIsometryEquiv.piLpCongrLeft ↦ 1652
+    [reduction] LinearIsometryEquiv.trans ↦ 1652
+    [reduction] NativeGrainQuotientBins.rawCoordinates ↦ 1652
+    [reduction] NativeGrainQuotientGeometry.coordinates ↦ 1652
+    [reduction] normalBasis ↦ 1652
+    [reduction] OrthonormalBasis.reindex ↦ 1652
+    [reduction] NativeActualProjectedGrainCount.projectionLabel ↦ 954
+    [reduction] NativeActualProjectedGrainCount.taggedLabel ↦ 954
+    [reduction] NativeQuantizedProjectionGrains.label ↦ 954
+    [reduction] NativeQuantizedProjectionGrains.vertexLabel ↦ 954
+    [reduction] Submodule.orthogonal ↦ 954
+    [reduction] NativeGrainQuotientBins.label ↦ 826
+    [reduction] NativeGrainQuotientGeometry.residual ↦ 826
+    [reduction] quotientLabel ↦ 826
+    [reduction] Neg.neg ↦ 826
+    [reduction] List.rec ↦ 817
+    [reduction] Multiset.decidableExistsMultiset ↦ 182
+    [reduction] LT.lt ↦ 151
+    [reduction] CoeHTCT.coe ↦ 52
+    [reduction] CoeT.coe ↦ 52
+    [reduction] NativePhaseHeightPopulation.heightLabel ↦ 40
+    [reduction] translatedHeight ↦ 40
+    [reduction] Finset.Nonempty ↦ 36
+    [reduction] Multiset.Mem ↦ 36
+    [reduction] Matrix ↦ 24
+  [reduction] unfolded reducible declarations (max: 218890, num: 56):
+    [reduction] ZeroHom.toFun ↦ 218890
+    [reduction] LinearMap.toAddHom ↦ 170484
+    [reduction] Decidable.casesOn ↦ 148684
+    [reduction] OneHom.toFun ↦ 145376
+    [reduction] Nat.casesOn ↦ 144941
+    [reduction] AddHom.toFun ↦ 140620
+    [reduction] val ↦ 114929
+    [reduction] Equiv.invFun ↦ 74260
+    [reduction] MulHom.toFun ↦ 72688
+    [reduction] Option.casesOn ↦ 72688
+    [reduction] Submodule.toAddSubmonoid ↦ 63899
+    [reduction] LinearEquiv.toLinearMap ↦ 62858
+    [reduction] AddSubmonoid.toAddSubsemigroup ↦ 50619
+    [reduction] LinearEquiv.invFun ↦ 45466
+    [reduction] Fin.val ↦ 39478
+    [reduction] OrthonormalBasis.repr ↦ 37996
+    [reduction] Bool.casesOn ↦ 36344
+    [reduction] Nat.decEq ↦ 36344
+    [reduction] Subtype.val ↦ 35700
+    [reduction] LinearIsometryEquiv.toLinearEquiv ↦ 34692
+    [reduction] Quot.liftOn ↦ 33268
+    [reduction] Equiv.toFun ↦ 29120
+    [reduction] AddEquiv.toEquiv ↦ 28992
+    [reduction] ContinuousLinearMap.toLinearMap ↦ 27410
+    [reduction] PSigma.fst ↦ 24068
+    [reduction] LinearEquiv.toAddEquiv ↦ 23210
+    [reduction] Quot.indep ↦ 16993
+    [reduction] Equiv.add ↦ 14810
+    [reduction] Eq.ndrec ↦ 13484
+    [reduction] Eq.ndrecOn ↦ 13484
+    [reduction] Quot.rec ↦ 13484
+    [reduction] Prod.fst ↦ 12274
+    [reduction] AddSubsemigroup.carrier ↦ 9883
+    [reduction] Quot.recOn ↦ 9470
+    [reduction] PSigma.snd ↦ 9313
+    [reduction] Equiv.zero ↦ 8772
+    [reduction] List.casesOn ↦ 8498
+    [reduction] Prod.casesOn ↦ 5440
+    [reduction] inferInstance ↦ 4452
+    [reduction] Function.Injective.addMonoid ↦ 4388
+    [reduction] Function.Injective.addSemigroup ↦ 4388
+    [reduction] WithLp.ofLp ↦ 4258
+    [reduction] Quot.recOnSubsingleton ↦ 4014
+    [reduction] Quotient.recOnSubsingleton ↦ 4014
+    [reduction] outParam ↦ 2219
+    [reduction] EuclideanSpace ↦ 1191
+    [reduction] PiLp ↦ 1181
+    [reduction] Int.casesOn ↦ 856
+    [reduction] FunLike ↦ 404
+    [reduction] DecidableEq ↦ 190
+    [reduction] E4 ↦ 121
+    [reduction] Index ↦ 85
+    [reduction] semiOutParam ↦ 41
+    [reduction] Parent ↦ 31
+    [reduction] PartialOrder.ofSetLike ↦ 22
+    [reduction] LE.ofSetLike ↦ 21
+  [type_class] used instances (max: 728, num: 12):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 728
+    [type_class] instHPow ↦ 255
+    [type_class] Real.instPow ↦ 254
+    [type_class] instHMul ↦ 90
+    [type_class] instHDiv ↦ 88
+    [type_class] Vector.instHMul ↦ 84
+    [type_class] Real.instNatCast ↦ 56
+    [type_class] instCoeT ↦ 40
+    [type_class] instCoeTOfCoeDep ↦ 40
+    [type_class] instCoeTOfCoeHTCT ↦ 40
+    [type_class] instCoeHTCTNatOfNatCast ↦ 37
+    [type_class] BoxIntegral.Box.instMembershipForallReal ↦ 22
+  [def_eq] heuristic for solving `f a =?= f b` (max: 15230, num: 44):
+    [def_eq] instHAdd ↦ 15230
+    [def_eq] Pi.addCommGroup ↦ 2193
+    [def_eq] Pi.module ↦ 2193
+    [def_eq] WithLp.instModule ↦ 2193
+    [def_eq] Classical.choose ↦ 1780
+    [def_eq] indefiniteDescription ↦ 1367
+    [def_eq] DivInvMonoid.div' ↦ 1303
+    [def_eq] Set.inter ↦ 1239
+    [def_eq] Not ↦ 1114
+    [def_eq] Int.floor ↦ 890
+    [def_eq] dite ↦ 836
+    [def_eq] sliceSpace ↦ 826
+    [def_eq] NativeActualProjectedGrainCount.projectionLabel ↦ 477
+    [def_eq] NativeActualProjectedGrainCount.taggedLabel ↦ 477
+    [def_eq] NativeParentGrainIncidenceCleanup.mixedLabel ↦ 477
+    [def_eq] NativeQuantizedProjectionGrains.label ↦ 477
+    [def_eq] NativeQuantizedProjectionGrains.vertexLabel ↦ 477
+    [def_eq] Cardinal.toENatAux ↦ 413
+    [def_eq] ENat.toNat ↦ 413
+    [def_eq] Function.extend ↦ 413
+    [def_eq] Module.finrank ↦ 413
+    [def_eq] NativeGrainQuotientBins.label ↦ 413
+    [def_eq] NativeGrainQuotientBins.rawCoordinates ↦ 413
+    [def_eq] NativeSelectedHorizontalGraphChart.totalGraph ↦ 413
+    [def_eq] quotientLabel ↦ 413
+    [def_eq] WithTop.recTopCoe ↦ 413
+    [def_eq] WithTop.untopD ↦ 413
+    [def_eq] WithTop.instRepr.match_1 ↦ 413
+    [def_eq] decide ↦ 294
+    [def_eq] filter ↦ 143
+    [def_eq] Multiset.filter ↦ 140
+    [def_eq] List.filter ↦ 139
+    [def_eq] Multiset.ofList ↦ 139
+    [def_eq] NativeWeightedGrainQuotientSelection.selected ↦ 74
+    [def_eq] NativeWeightedGrainQuotientGeometry.retained ↦ 71
+    [def_eq] NativeWeightedGrainQuotientSelection.grain ↦ 71
+    [def_eq] IsWangZakharovNativeFiniteInput ↦ 43
+    [def_eq] image ↦ 36
+    [def_eq] Multiset.map ↦ 35
+    [def_eq] Multiset.toFinset ↦ 35
+    [def_eq] Multiset.dedup ↦ 34
+    [def_eq] LE.le ↦ 33
+    [def_eq] Finset.Nonempty ↦ 21
+    [def_eq] Multiset.Mem ↦ 21
+  [reduction] Axioms (possibly imported non-exposed defs) that were tried to be unfolded (max: 184805, num: 2):
+    [reduction] sorryAx ↦ 184805
+    [reduction] choice ↦ 122042
+  [kernel] unfolded declarations (max: 135, num: 32):
+    [kernel] Int.casesOn ↦ 135
+    [kernel] Int.rec ↦ 123
+    [kernel] Add.add ↦ 105
+    [kernel] HAdd.hAdd ↦ 105
+    [kernel] List.rec ↦ 98
+    [kernel] HSub.hSub ↦ 86
+    [kernel] Sub.sub ↦ 86
+    [kernel] OfNat.ofNat ↦ 80
+    [kernel] List.casesOn ↦ 68
+    [kernel] Option.rec ↦ 59
+    [kernel] Option.casesOn ↦ 55
+    [kernel] Nat.casesOn ↦ 50
+    [kernel] Int.neg.match_1 ↦ 49
+    [kernel] List.brecOn ↦ 48
+    [kernel] Int.negOfNat.match_1 ↦ 48
+    [kernel] Int.add.match_1 ↦ 43
+    [kernel] Int.neg ↦ 39
+    [kernel] Neg.neg ↦ 39
+    [kernel] List.brecOn.go ↦ 38
+    [kernel] Int.add ↦ 37
+    [kernel] Lean.Omega.Coeffs.dot ↦ 34
+    [kernel] Nat.rec ↦ 32
+    [kernel] Int.negOfNat ↦ 31
+    [kernel] Lean.Omega.Constraint.sat' ↦ 30
+    [kernel] instDecidableEqList.match_1 ↦ 28
+    [kernel] List.map._f ↦ 28
+    [kernel] Option.getD.match_1 ↦ 26
+    [kernel] Decidable.casesOn ↦ 25
+    [kernel] Decidable.rec ↦ 25
+    [kernel] instHAdd ↦ 24
+    [kernel] Lean.Omega.Constraint.lowerBound ↦ 22
+    [kernel] Lean.Omega.Constraint.upperBound ↦ 22
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean:397:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (500000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 82, num: 1):
+    [reduction] outParam ↦ 82
+  [type_class] used instances (max: 22, num: 1):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 22
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded reducible declarations (max: 112, num: 3):
+    [reduction] Nat.cast ↦ 112
+    [reduction] outParam ↦ 86
+    [reduction] inferInstance ↦ 24
+  [type_class] used instances (max: 22, num: 1):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 22
+  [kernel] unfolded declarations (max: 39, num: 3):
+    [kernel] HMul.hMul ↦ 39
+    [kernel] Mul.mul ↦ 39
+    [kernel] OfNat.ofNat ↦ 27
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 146, num: 7):
+    [reduction] Split.rec ↦ 146
+    [reduction] LE.le ↦ 122
+    [reduction] HSub.hSub ↦ 118
+    [reduction] Sub.sub ↦ 118
+    [reduction] OfNat.ofNat ↦ 34
+    [reduction] CoeHTCT.coe ↦ 28
+    [reduction] CoeT.coe ↦ 28
+  [reduction] unfolded reducible declarations (max: 603, num: 9):
+    [reduction] outParam ↦ 603
+    [reduction] Split.casesOn ↦ 146
+    [reduction] PiLp ↦ 129
+    [reduction] EuclideanSpace ↦ 117
+    [reduction] E4 ↦ 117
+    [reduction] tangentDim ↦ 87
+    [reduction] DecidableEq ↦ 68
+    [reduction] normalDim ↦ 59
+    [reduction] Index ↦ 47
+  [type_class] used instances (max: 239, num: 8):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 239
+    [type_class] Lean.Grind.Ring.OfSemiring.instLEQOfOrderedAdd ↦ 32
+    [type_class] OrderDual.instPow_1 ↦ 31
+    [type_class] instHPow ↦ 30
+    [type_class] Vector.instHMul ↦ 29
+    [type_class] instCoeT ↦ 21
+    [type_class] instCoeTOfCoeDep ↦ 21
+    [type_class] instCoeTOfCoeHTCT ↦ 21
+  [def_eq] heuristic for solving `f a =?= f b` (max: 83, num: 1):
+    [def_eq] Matrix ↦ 83
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean:724:53: error: mod_cast has type
+  #S ≤ 8 * R0 * 53 ^ (4 * K) * 8 ^ 4 * #(edgeLift (edgeLift (edgeLift S Prod.snd Bh) Prod.snd B0) Prod.snd B)
+but is expected to have type
+  ↑(#S) ≤ Cextra * ↑(#U)
+[theorem] NativeActualHeightThirdJoin.attach_rank_two
+  [size] 22695
+  [occs] And ↦ 937
+  [occs] Eq ↦ 650
+  [occs] HDiv.hDiv ↦ 491
+  [occs] NativeActualConfiguredPoint.point ↦ 462
+  [occs] LE.le ↦ 368
+  [occs] HMul.hMul ↦ 341
+  [occs] Prod.snd ↦ 337
+  [occs] Membership.mem ↦ 330
+  [occs] WithLp.ofLp ↦ 324
+  [occs] Nat.cast ↦ 227
+  [occs] wzDyadicCellIndex ↦ 212
+  [occs] edgeLift ↦ 209
+  [occs] translatedHeight ↦ 204
+  [occs] image ↦ 187
+  [occs] frozen ↦ 162
+  [occs] physicalCell ↦ 160
+  [occs] Exists ↦ 152
+  [occs] card ↦ 117
+  [occs] Fin ↦ 105
+  [occs] Int.floor ↦ 100
+  [occs] Prod ↦ 94
+  [occs] HPow.hPow ↦ 89
+  [occs] Finset ↦ 81
+  [occs] filter ↦ 75
+  [occs] HAdd.hAdd ↦ 64
+  [occs] SetLike.instMembership ↦ 63
+  [occs] instSetLike ↦ 62
+  [occs] PartialOrder.toPreorder ↦ 62
+  [occs] Preorder.toLE ↦ 60
+  [occs] instPartialOrder ↦ 59
+  [occs] mu ↦ 57
+  [occs] dist ↦ 57
+  [occs] Ne ↦ 57
+  [occs] SeparatedAlignmentPatches.color ↦ 52
+  [occs] NativeActualConfiguredResidue.parameter ↦ 52
+  [occs] Fintype.decidablePiFintype ↦ 41
+  [occs] NativeActualConfiguredPoint.sourceLabel ↦ 39
+  [occs] rawHeight ↦ 37
+  [occs] OfNat.ofNat ↦ 37
+  [occs] NativeSourceSizeBounds.radix ↦ 36
+  [occs] Finset.Nonempty ↦ 36
+  [occs] fiberCoefficient ↦ 35
+  [occs] HasThirdXYSourceData ↦ 33
+  [occs] refinementCost ↦ 32
+  [occs] quotientCost ↦ 31
+  [occs] FiniteScaleSource.thickness ↦ 31
+  [occs] And.intro ↦ 21
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 272, num: 21):
+    [reduction] Split.rec ↦ 272
+    [reduction] LE.le ↦ 240
+    [reduction] HSub.hSub ↦ 214
+    [reduction] Sub.sub ↦ 214
+    [reduction] OfNat.ofNat ↦ 81
+    [reduction] HSMul.hSMul ↦ 72
+    [reduction] SMul.smul ↦ 72
+    [reduction] SetLike.coe ↦ 60
+    [reduction] norm ↦ 55
+    [reduction] Set ↦ 43
+    [reduction] filter ↦ 39
+    [reduction] Multiset.filter ↦ 39
+    [reduction] nnnorm ↦ 36
+    [reduction] CoeHTCT.coe ↦ 33
+    [reduction] CoeT.coe ↦ 33
+    [reduction] Mul.mul ↦ 32
+    [reduction] edgeLift ↦ 30
+    [reduction] NatCast.natCast ↦ 28
+    [reduction] assemble ↦ 24
+    [reduction] NativeActualConfiguredPoint.graphGrid ↦ 24
+    [reduction] NativeActualConfiguredPoint.point ↦ 24
+  [reduction] unfolded reducible declarations (max: 765, num: 22):
+    [reduction] outParam ↦ 765
+    [reduction] Split.casesOn ↦ 272
+    [reduction] PiLp ↦ 163
+    [reduction] EuclideanSpace ↦ 148
+    [reduction] E4 ↦ 148
+    [reduction] tangentDim ↦ 142
+    [reduction] DecidableEq ↦ 111
+    [reduction] inferInstance ↦ 111
+    [reduction] normalDim ↦ 106
+    [reduction] val ↦ 95
+    [reduction] Index ↦ 95
+    [reduction] Quot.liftOn ↦ 59
+    [reduction] Nat.cast ↦ 57
+    [reduction] WithLp.ofLp ↦ 48
+    [reduction] Prod.snd ↦ 38
+    [reduction] FunLike ↦ 37
+    [reduction] LE.ofSetLike ↦ 37
+    [reduction] PartialOrder.ofSetLike ↦ 37
+    [reduction] Ne ↦ 29
+    [reduction] semiOutParam ↦ 24
+    [reduction] Equiv.invFun ↦ 24
+    [reduction] Equiv.toFun ↦ 24
+  [type_class] used instances (max: 267, num: 11):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 267
+    [type_class] Lean.Grind.Ring.OfSemiring.instLEQOfOrderedAdd ↦ 45
+    [type_class] OrderDual.instPow_1 ↦ 36
+    [type_class] instHPow ↦ 35
+    [type_class] Vector.instHMul ↦ 33
+    [type_class] instCoeT ↦ 26
+    [type_class] instCoeTOfCoeDep ↦ 26
+    [type_class] instCoeTOfCoeHTCT ↦ 26
+    [type_class] instCoeHTCTNatOfNatCast ↦ 25
+    [type_class] instHMul ↦ 24
+    [type_class] Real.instNatCast ↦ 22
+  [def_eq] heuristic for solving `f a =?= f b` (max: 157, num: 6):
+    [def_eq] Matrix ↦ 157
+    [def_eq] edgeLift ↦ 57
+    [def_eq] Matrix.vecCons ↦ 36
+    [def_eq] frozen ↦ 36
+    [def_eq] CanonicalConfiguredPointRounding.configuredNormal ↦ 24
+    [def_eq] Matrix.zero ↦ 21
+  [kernel] unfolded declarations (max: 60, num: 14):
+    [kernel] Mul.mul ↦ 60
+    [kernel] OfNat.ofNat ↦ 60
+    [kernel] HMul.hMul ↦ 52
+    [kernel] Add.add ↦ 51
+    [kernel] HAdd.hAdd ↦ 51
+    [kernel] LE.le ↦ 39
+    [kernel] Membership.mem ↦ 38
+    [kernel] DecidableEq ↦ 37
+    [kernel] inferInstance ↦ 31
+    [kernel] HSMul.hSMul ↦ 24
+    [kernel] norm ↦ 24
+    [kernel] SMul.smul ↦ 24
+    [kernel] AddCommMonoid.toAddMonoid ↦ 21
+    [kernel] SeminormedAddGroup.toNorm ↦ 21
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 146, num: 7):
+    [reduction] Split.rec ↦ 146
+    [reduction] LE.le ↦ 122
+    [reduction] HSub.hSub ↦ 118
+    [reduction] Sub.sub ↦ 118
+    [reduction] OfNat.ofNat ↦ 34
+    [reduction] CoeHTCT.coe ↦ 28
+    [reduction] CoeT.coe ↦ 28
+  [reduction] unfolded reducible declarations (max: 603, num: 9):
+    [reduction] outParam ↦ 603
+    [reduction] Split.casesOn ↦ 146
+    [reduction] PiLp ↦ 129
+    [reduction] EuclideanSpace ↦ 117
+    [reduction] E4 ↦ 117
+    [reduction] tangentDim ↦ 87
+    [reduction] DecidableEq ↦ 68
+    [reduction] normalDim ↦ 59
+    [reduction] Index ↦ 47
+  [type_class] used instances (max: 239, num: 8):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 239
+    [type_class] Lean.Grind.Ring.OfSemiring.instLEQOfOrderedAdd ↦ 32
+    [type_class] OrderDual.instPow_1 ↦ 31
+    [type_class] instHPow ↦ 30
+    [type_class] Vector.instHMul ↦ 29
+    [type_class] instCoeT ↦ 21
+    [type_class] instCoeTOfCoeDep ↦ 21
+    [type_class] instCoeTOfCoeHTCT ↦ 21
+  [def_eq] heuristic for solving `f a =?= f b` (max: 83, num: 1):
+    [def_eq] Matrix ↦ 83
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean:847:53: error: mod_cast has type
+  #S ≤ 8 * R0 * 53 ^ (4 * K) * 8 ^ 4 * #(edgeLift (edgeLift (edgeLift S Prod.snd Bh) Prod.snd B0) Prod.snd B)
+but is expected to have type
+  ↑(#S) ≤ Cextra * ↑(#U)
+[theorem] NativeActualHeightThirdJoin.attach_rank_three
+  [size] 22696
+  [occs] And ↦ 937
+  [occs] Eq ↦ 650
+  [occs] HDiv.hDiv ↦ 491
+  [occs] NativeActualConfiguredPoint.point ↦ 462
+  [occs] LE.le ↦ 368
+  [occs] HMul.hMul ↦ 341
+  [occs] Prod.snd ↦ 337
+  [occs] Membership.mem ↦ 330
+  [occs] WithLp.ofLp ↦ 324
+  [occs] Nat.cast ↦ 227
+  [occs] wzDyadicCellIndex ↦ 212
+  [occs] edgeLift ↦ 209
+  [occs] translatedHeight ↦ 204
+  [occs] image ↦ 187
+  [occs] frozen ↦ 162
+  [occs] physicalCell ↦ 160
+  [occs] Exists ↦ 152
+  [occs] card ↦ 117
+  [occs] Fin ↦ 105
+  [occs] Int.floor ↦ 100
+  [occs] Prod ↦ 94
+  [occs] HPow.hPow ↦ 89
+  [occs] Finset ↦ 81
+  [occs] filter ↦ 75
+  [occs] HAdd.hAdd ↦ 64
+  [occs] SetLike.instMembership ↦ 63
+  [occs] instSetLike ↦ 62
+  [occs] PartialOrder.toPreorder ↦ 62
+  [occs] Preorder.toLE ↦ 60
+  [occs] instPartialOrder ↦ 59
+  [occs] mu ↦ 57
+  [occs] dist ↦ 57
+  [occs] Ne ↦ 57
+  [occs] SeparatedAlignmentPatches.color ↦ 52
+  [occs] NativeActualConfiguredResidue.parameter ↦ 52
+  [occs] Fintype.decidablePiFintype ↦ 41
+  [occs] NativeActualConfiguredPoint.sourceLabel ↦ 39
+  [occs] rawHeight ↦ 37
+  [occs] OfNat.ofNat ↦ 37
+  [occs] NativeSourceSizeBounds.radix ↦ 36
+  [occs] Finset.Nonempty ↦ 36
+  [occs] fiberCoefficient ↦ 35
+  [occs] HasThirdXYSourceData ↦ 33
+  [occs] refinementCost ↦ 32
+  [occs] quotientCost ↦ 31
+  [occs] FiniteScaleSource.thickness ↦ 31
+  [occs] And.intro ↦ 21
+[diag] Diagnostics
+  [reduction] unfolded declarations (max: 272, num: 21):
+    [reduction] Split.rec ↦ 272
+    [reduction] LE.le ↦ 240
+    [reduction] HSub.hSub ↦ 214
+    [reduction] Sub.sub ↦ 214
+    [reduction] OfNat.ofNat ↦ 81
+    [reduction] HSMul.hSMul ↦ 72
+    [reduction] SMul.smul ↦ 72
+    [reduction] SetLike.coe ↦ 60
+    [reduction] norm ↦ 55
+    [reduction] Set ↦ 43
+    [reduction] filter ↦ 39
+    [reduction] Multiset.filter ↦ 39
+    [reduction] nnnorm ↦ 36
+    [reduction] CoeHTCT.coe ↦ 33
+    [reduction] CoeT.coe ↦ 33
+    [reduction] Mul.mul ↦ 32
+    [reduction] edgeLift ↦ 30
+    [reduction] NatCast.natCast ↦ 28
+    [reduction] assemble ↦ 24
+    [reduction] NativeActualConfiguredPoint.graphGrid ↦ 24
+    [reduction] NativeActualConfiguredPoint.point ↦ 24
+  [reduction] unfolded reducible declarations (max: 765, num: 22):
+    [reduction] outParam ↦ 765
+    [reduction] Split.casesOn ↦ 272
+    [reduction] PiLp ↦ 163
+    [reduction] EuclideanSpace ↦ 148
+    [reduction] E4 ↦ 148
+    [reduction] tangentDim ↦ 142
+    [reduction] DecidableEq ↦ 111
+    [reduction] inferInstance ↦ 111
+    [reduction] normalDim ↦ 106
+    [reduction] val ↦ 95
+    [reduction] Index ↦ 95
+    [reduction] Quot.liftOn ↦ 59
+    [reduction] Nat.cast ↦ 57
+    [reduction] WithLp.ofLp ↦ 48
+    [reduction] Prod.snd ↦ 38
+    [reduction] FunLike ↦ 37
+    [reduction] LE.ofSetLike ↦ 37
+    [reduction] PartialOrder.ofSetLike ↦ 37
+    [reduction] Ne ↦ 29
+    [reduction] semiOutParam ↦ 24
+    [reduction] Equiv.invFun ↦ 24
+    [reduction] Equiv.toFun ↦ 24
+  [type_class] used instances (max: 267, num: 11):
+    [type_class] Lean.Grind.CommRing.OfCommSemiring.instOfNatQ ↦ 267
+    [type_class] Lean.Grind.Ring.OfSemiring.instLEQOfOrderedAdd ↦ 45
+    [type_class] OrderDual.instPow_1 ↦ 36
+    [type_class] instHPow ↦ 35
+    [type_class] Vector.instHMul ↦ 33
+    [type_class] instCoeT ↦ 26
+    [type_class] instCoeTOfCoeDep ↦ 26
+    [type_class] instCoeTOfCoeHTCT ↦ 26
+    [type_class] instCoeHTCTNatOfNatCast ↦ 25
+    [type_class] instHMul ↦ 24
+    [type_class] Real.instNatCast ↦ 22
+  [def_eq] heuristic for solving `f a =?= f b` (max: 157, num: 5):
+    [def_eq] Matrix ↦ 157
+    [def_eq] edgeLift ↦ 57
+    [def_eq] Matrix.vecCons ↦ 36
+    [def_eq] frozen ↦ 36
+    [def_eq] Matrix.zero ↦ 21
+  [kernel] unfolded declarations (max: 60, num: 14):
+    [kernel] Mul.mul ↦ 60
+    [kernel] OfNat.ofNat ↦ 60
+    [kernel] HMul.hMul ↦ 52
+    [kernel] Add.add ↦ 51
+    [kernel] HAdd.hAdd ↦ 51
+    [kernel] LE.le ↦ 39
+    [kernel] Membership.mem ↦ 38
+    [kernel] DecidableEq ↦ 37
+    [kernel] inferInstance ↦ 31
+    [kernel] HSMul.hSMul ↦ 24
+    [kernel] norm ↦ 24
+    [kernel] SMul.smul ↦ 24
+    [kernel] AddCommMonoid.toAddMonoid ↦ 21
+    [kernel] SeminormedAddGroup.toNorm ↦ 21
+  use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+LEAN_FINISHED_UTC 2026-10-06T20:40:47.157538+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

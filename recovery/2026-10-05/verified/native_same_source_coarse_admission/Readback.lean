@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_same_source_coarse_admission
+#print axioms NativeSameSourceCoarseAdmission.same_source_coarse_admission
+#print axioms NativeSameSourceCoarseAdmission.same_source_full_coarse_upper

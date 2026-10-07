@@ -1,0 +1,160 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/430768d548bbb07755203b5791775b6ce96a75a0aaccb0b753b98ee35ae1c023.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean"]
+SOURCE_SHA256 1b7c20ca1057f0cda70b8d9b9907ab62302726b744d82e34935236d2a70edf43
+LOCK_ACQUIRED_UTC 2026-10-06T21:35:26.776074+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean:49:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  NativeLocalParentCells.cellLabel D a N p i k 3
+in the target expression
+  (WithLp.toLp 2 fun j => ↑N * D.thickness / 128 * (↑(NativeLocalParentCells.cellLabel D a N p i k j) + 1 / 2)).ofLp 3 =
+    ↑N * D.thickness / 128 * (↑((k 3 - shift D a) / ↑(8 * N)) + 1 / 2)
+
+n : ℕ
+D : FiniteScaleSource n
+hdelta : 0 < D.thickness
+a : ℝ
+N : ℕ
+hN : 0 < N
+p : Parent
+i : Fin n
+k : Index
+⊢ (WithLp.toLp 2 fun j => ↑N * D.thickness / 128 * (↑(NativeLocalParentCells.cellLabel D a N p i k j) + 1 / 2)).ofLp 3 =
+    ↑N * D.thickness / 128 * (↑((k 3 - shift D a) / ↑(8 * N)) + 1 / 2)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean:57:45: error: unexpected token '⌋'; expected ')', ',' or ':'
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean:154:2: error: linarith failed to find a contradiction
+X : Type u_1
+n : ℕ
+D : FiniteScaleSource n
+hdelta : 0 < D.thickness
+a : ℝ
+N M : ℕ
+hN : 0 < N
+hM : 0 < M
+p : Parent
+V : Finset X
+cell : X → Index
+tube rep : X → Fin n
+hFine : D.thickness ≤ ↑N * D.thickness / 64
+hScale : ↑N * D.thickness / 64 ≤ 64 / ↑M
+q : ℤ
+hShadow : ∀ v ∈ V, doubleLabel D a N M p (rep v) (tube v) (cell v) 3 = q
+r : ℝ := ↑N * D.thickness / 64
+d : ℝ := 64 / ↑M
+time : X → (fun x => ℝ) 3 := fun v => (doubleFront D a N p (rep v) (tube v) (cell v)).ofLp 3
+hd : 0 < d
+hr : 0 < r
+hNear :
+  ∀ v ∈ V, |D.thickness / 524288 * ↑(cell v 3) + D.thickness * (-↑(shift D a) + 1 / 2) / 524288 - time v| ≤ r / 2048
+hWindow : ∀ v ∈ V, d / 2 * ↑q ≤ time v ∧ time v ≤ d / 2 * ↑q + d / 2
+hh : ↑(#(image (fun v => cell v 3) V)) ≤ (d / 2 + 2 * (r / 2048)) / (D.thickness / 524288) + 2
+he : ((d / 2 + 2 * (r / 2048)) / (D.thickness / 524288) + 2) * D.thickness = 262144 * d + 512 * r + 2 * D.thickness
+hc : ↑(#(image (fun v => cell v 3) V)) * D.thickness ≤ 262144 * d + 512 * r + 2 * D.thickness
+a✝ : 1048576 * d < ↑(#(image (fun v => cell v 3) V)) * D.thickness
+⊢ False
+failed
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean:216:2: error: linarith failed to find a contradiction
+X : Type u_1
+n nC : ℕ
+D : FiniteScaleSource n
+hdelta : 0 < D.thickness
+a : ℝ
+N M L : ℕ
+hN : 0 < N
+hM : 0 < M
+hL : 0 < L
+p : Parent
+C : FiniteScaleSource nC
+hC : C.thickness = 64 / ↑M
+pA : Parent
+V : Finset X
+cell : X → Index
+tube rep : X → Fin n
+midTube : X → Fin nC
+hFine : D.thickness ≤ ↑N * D.thickness / 64
+hScale : ↑N * D.thickness / 64 ≤ 64 / ↑M
+hSigma : 64 / ↑M ≤ ↑L * (64 / ↑M) / 64
+q : ℤ
+hFinal :
+  ∀ v ∈ V, NativeLocalParentCells.cellLabel C 0 L pA (midTube v) (doubleLabel D a N M p (rep v) (tube v) (cell v)) 3 = q
+r : ℝ := ↑N * D.thickness / 64
+d : ℝ := 64 / ↑M
+sigma : ℝ := ↑L * d / 64
+time : X → (fun x => ℝ) 3 := fun v => (doubleFront D a N p (rep v) (tube v) (cell v)).ofLp 3
+hd : 0 < d
+hr : 0 < r
+hs : 0 < sigma
+hCpos : 0 < C.thickness
+hNear :
+  ∀ v ∈ V, |D.thickness / 524288 * ↑(cell v 3) + D.thickness * (-↑(shift D a) + 1 / 2) / 524288 - time v| ≤ r / 2048
+hWindow : ∀ v ∈ V, 256 * sigma * ↑q ≤ time v ∧ time v ≤ 256 * sigma * ↑q + 256 * sigma
+hh : ↑(#(image (fun v => cell v 3) V)) ≤ (256 * sigma + 2 * (r / 2048)) / (D.thickness / 524288) + 2
+he :
+  ((256 * sigma + 2 * (r / 2048)) / (D.thickness / 524288) + 2) * D.thickness =
+    134217728 * sigma + 512 * r + 2 * D.thickness
+hc : ↑(#(image (fun v => cell v 3) V)) * D.thickness ≤ 134217728 * sigma + 512 * r + 2 * D.thickness
+a✝ : 268435456 * sigma < ↑(#(image (fun v => cell v 3) V)) * D.thickness
+⊢ False
+failed
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean:232:2: error: unsolved goals
+case e'_3
+n : ℕ
+D : FiniteScaleSource n
+eta a zeta pExp : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+R : Finset (Fin n)
+level : ℕ
+HB : HasOriginalBackbone D original R a level zeta
+Eref : Finset (Fin n × Index)
+m b : ℕ
+hmb : m + b ≤ level
+p q : Parent
+hbudget : 64 ^ 3 * (source h R Eref a m p).thickness ^ pExp ≤ D.thickness ^ zeta
+Sref : FiniteScaleSource #(parentLabels D R a (2 ^ m) p) := source h R Eref a m p
+hq : (backbone Sref 0 (2 ^ b) q).Nonempty
+H :
+  have S := source h R Eref a m p;
+  ∀ (j : Fin (b + 1)) (q : Parent),
+    {i | parentLabel S 0 (2 ^ ↑j) i = q}.Nonempty →
+      S.thickness ^ pExp * (1 / ↑(2 ^ ↑j) / S.thickness) ^ 3 ≤ ↑(#{i | parentLabel S 0 (2 ^ ↑j) i = q}) ∧
+        ↑(#{i | parentLabel S 0 (2 ^ ↑j) i = q}) ≤ S.thickness ^ (-pExp) * (1 / ↑(2 ^ ↑j) / S.thickness) ^ 3
+hu :
+  ↑(#{i | parentLabel (source h R Eref a m p) 0 (2 ^ ↑⟨b, ⋯⟩) i = q}) ≤
+    (source h R Eref a m p).thickness ^ (-pExp) * (1 / ↑(2 ^ ↑⟨b, ⋯⟩) / (source h R Eref a m p).thickness) ^ 3
+⊢ ↑(#(backbone (source h R Eref a m p) 0 (2 ^ b) q)) = ↑(#{x | parentLabel (source h R Eref a m p) 0 (2 ^ b) x = q})
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean:236:4: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean:285:4: error: Type mismatch: After simplification, term
+  Nat.cast_le.mpr hh
+ has type
+  ↑(#({z ∈ A | z.2 3 = t})) ≤ 21952 * ↑(#tubes)
+but is expected to have type
+  ↑(#(image id ({z ∈ A | z.2 3 = t}))) ≤ 21952 * ↑(#tubes)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean:289:2: error: `simp` made no progress
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_incidence_height_population_draft_2123.lean:317:55: error: unexpected token ')'; expected term
+LEAN_FINISHED_UTC 2026-10-06T21:36:48.760485+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

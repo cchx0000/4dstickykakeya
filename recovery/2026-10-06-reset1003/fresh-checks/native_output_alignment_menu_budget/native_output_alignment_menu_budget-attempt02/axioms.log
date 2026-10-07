@@ -1,0 +1,15 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1404.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1404", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1404/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T14:09:03.582547+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+'NativeActualSparseReferenceAdmission.retentionFactor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualSparseReferenceAdmission.exists_actual_sparse_admission' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOutputAlignmentMenuBudget.exists_menu_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOutputAlignmentMenuBudget.inverse_selected_fraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYCommonScaleSelection.menu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeYCommonScaleSelection.select_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T14:11:51.429217+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

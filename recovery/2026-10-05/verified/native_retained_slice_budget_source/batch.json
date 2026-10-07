@@ -1,0 +1,57 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T17:50:58.143244+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T175057422201",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T175057422201/AggregateReadback.lean"
+  ],
+  "readback_sha256": "392db2c0b8152825b0ac159bf9a476eb0c74898f10544b79a1dc0347f95e8903",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_offset_menu",
+      "source_sha256": "e4aa43e4d21f3b6f484b69ed5455d8ffb0d32b7be691e47c8aa88a34de5b6021",
+      "olean_sha256": "3c97abd840f0fd69869c69dfbd94caad449a04cfe274b28f73ec08ac41865efb",
+      "names": [
+        "NativeActualOffsetMenu.angular_cell_local_difference",
+        "NativeActualOffsetMenu.actual_offset_count"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_post_graph_slice_stage",
+      "source_sha256": "cd21148d28ee5a053d4c23840d333c98704e59e82e22866943c14a3fc3b3665e",
+      "olean_sha256": "8f28cfe8ab36cb5fb96bb74c8c89d7aeb32f485b1dd721f820f2536df583d602",
+      "names": [
+        "NativePostGraphSliceStage.PostGraphCleanupData",
+        "NativePostGraphSliceStage.HasPostGraphRetainedHistory",
+        "NativePostGraphSliceStage.HasPostGraphStage",
+        "NativePostGraphSliceStage.stage_with_post_graph_slice"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_source",
+      "source_sha256": "1f54abde3bc141a86482448c7e9c517ac89d6c49fc421875dce7ca94b24becf9",
+      "olean_sha256": "1aafaaa5784df70d192bd8a551f7a3536f25c4700328f91b46c6fe741522e0bd",
+      "names": [
+        "NativeRetainedSliceBudgetSource.actualRetainedConstant",
+        "NativeRetainedSliceBudgetSource.actualRetainedConstant_le",
+        "NativeRetainedSliceBudgetSource.quotientTolerance",
+        "NativeRetainedSliceBudgetSource.quotientTolerance_bounds",
+        "NativeRetainedSliceBudgetSource.actual_quotient_test"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T17:51:02.808523+00:00",
+  "exit_code": 0
+}

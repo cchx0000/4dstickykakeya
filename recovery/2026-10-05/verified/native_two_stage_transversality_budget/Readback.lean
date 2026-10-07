@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_two_stage_transversality_budget
+
+#print axioms NativeTwoStageTransversalityBudget.retention_radix_le_of_transfer_cost
+#print axioms NativeTwoStageTransversalityBudget.test_power_le
+#print axioms NativeTwoStageTransversalityBudget.exists_half_mass_cutoff

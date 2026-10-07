@@ -1,0 +1,18 @@
+import Theorems.Thm_StickyKakeya4_native_local_pair_fibers
+set_option autoImplicit false
+#print axioms NativeLocalPairFibers.localPair
+#print axioms NativeLocalPairFibers.localCells
+#print axioms NativeLocalPairFibers.pairFiber
+#print axioms NativeLocalPairFibers.pairRelation
+#print axioms NativeLocalPairFibers.pairFiber_at_edge
+#print axioms NativeLocalPairFibers.comparable_of_relation_uniformity
+#print axioms NativeLocalPairFibers.local_cells_capacity
+#print axioms NativeLocalPairFibers.pair_image_subset
+#print axioms NativeLocalPairFibers.pair_image_capacity
+#print axioms NativeLocalPairFibers.original_incidence_lower
+#print axioms NativeLocalPairFibers.original_incidence_lower_weak
+#print axioms NativeLocalPairFibers.cardinal_le_comparable_fiber
+#print axioms NativeLocalPairFibers.pair_fiber_lower_of_richness
+#print axioms NativeLocalPairFibers.occupied_pair_fiber_lower
+#print axioms NativeLocalPairFibers.unit_degree_eq_pairFiber
+#print axioms NativeLocalPairFibers.pair_fiber_lower_of_self_uniform_richness

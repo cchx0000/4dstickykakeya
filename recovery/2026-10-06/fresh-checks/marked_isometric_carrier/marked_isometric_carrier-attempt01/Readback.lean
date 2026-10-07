@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_marked_isometric_carrier
+set_option autoImplicit false
+#print axioms MarkedIsometricCarrier.carrier
+#print axioms MarkedIsometricCarrier.projection_correction_dist
+#print axioms MarkedIsometricCarrier.chart_offset_dist
+#print axioms MarkedIsometricCarrier.chart_carrier_dist_le
+#print axioms MarkedIsometricCarrier.line_inverse
+#print axioms MarkedIsometricCarrier.carrier_dist_le_chart
+#print axioms MarkedIsometricCarrier.carrier_dist_two_sided

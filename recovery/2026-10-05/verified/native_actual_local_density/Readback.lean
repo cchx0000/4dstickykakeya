@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_local_density
+#print axioms NativeActualLocalDensity.total_tube_upper
+#print axioms NativeActualLocalDensity.source_density

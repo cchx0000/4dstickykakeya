@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_near_power_cleanup
+#print axioms NativeNearPowerCleanup.remove_complementary_error
+#print axioms NativeNearPowerCleanup.absorb_and_remove_error

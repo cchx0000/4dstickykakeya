@@ -1,0 +1,65 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_generic_parent_graph",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_generic_parent_graph.lean",
+  "source_sha256": "40bff6143f1db6c1290da21cbf7bdefeb229d4f0fa160067bd62205f28a2ec2a",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_generic_parent_graph.olean",
+  "names": [
+    "NativeGenericParentGraph.SaturatedCurveParentFinalCleanupData",
+    "NativeGenericParentGraph.HasSaturatedCurveParentRetainedHistory",
+    "NativeGenericParentGraph.HasSaturatedCurveParentStage",
+    "NativeGenericParentGraph.middleSelected",
+    "NativeGenericParentGraph.middle_selected_depth",
+    "NativeGenericParentGraph.half_depth_eq_depth",
+    "NativeGenericParentGraph.saturated_stage_with_parent_graph"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T19:34:05.499960+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "d26b2c2a55945e0de8e3a4d26702b653431c5ac0fd71a10d5ef52de83fafcea1",
+  "source_execution_complete_utc": "2026-10-05T19:35:28.008897+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T193536987063",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeGenericParentGraph.SaturatedCurveParentFinalCleanupData": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGenericParentGraph.HasSaturatedCurveParentRetainedHistory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGenericParentGraph.HasSaturatedCurveParentStage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGenericParentGraph.middleSelected": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeGenericParentGraph.middle_selected_depth": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeGenericParentGraph.half_depth_eq_depth": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeGenericParentGraph.saturated_stage_with_parent_graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T19:37:07.709084+00:00"
+}

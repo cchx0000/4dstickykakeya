@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_saturated_parent_graph_forget
+
+#print axioms NativeSaturatedParentGraphForget.curve_parent_profiles_forget
+#print axioms NativeSaturatedParentGraphForget.curve_cleanup_forget
+#print axioms NativeSaturatedParentGraphForget.curve_retained_forget
+#print axioms NativeSaturatedParentGraphForget.curve_stage_forget

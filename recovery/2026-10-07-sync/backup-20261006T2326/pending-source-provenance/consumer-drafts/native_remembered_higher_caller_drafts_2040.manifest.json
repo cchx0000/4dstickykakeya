@@ -1,0 +1,108 @@
+{
+  "status": "UNVERIFIED; no compiler or axiom audit; no canonical edits",
+  "units": [
+    {
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_higher_key_factory_draft_2032.lean",
+      "sha256": "fbee7a0b60df47d7747c7c386754ac9be63b3c0f2b5c54e3fa4b95b9720a0eeb",
+      "declaration_count": 14,
+      "declarations": [
+        "NativeRememberedHigherKeyFactoryDraft2032.oldHeight",
+        "NativeRememberedHigherKeyFactoryDraft2032.oldHeight_readback",
+        "NativeRememberedHigherKeyFactoryDraft2032.source_cell_occurrence",
+        "NativeRememberedHigherKeyFactoryDraft2032.retained_cell_occurrence",
+        "NativeRememberedHigherKeyFactoryDraft2032.extraCount",
+        "NativeRememberedHigherKeyFactoryDraft2032.coarseRatio",
+        "NativeRememberedHigherKeyFactoryDraft2032.coarseXKey",
+        "NativeRememberedHigherKeyFactoryDraft2032.localXKey",
+        "NativeRememberedHigherKeyFactoryDraft2032.keyRelations",
+        "NativeRememberedHigherKeyFactoryDraft2032.factory",
+        "NativeRememberedHigherKeyFactoryDraft2032.factory_refl",
+        "NativeRememberedHigherKeyFactoryDraft2032.factory_symm",
+        "NativeRememberedHigherKeyFactoryDraft2032.reference_key_uniformities",
+        "NativeRememberedHigherKeyFactoryDraft2032.exists_reference_with_higher_keys"
+      ],
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_source_construction",
+        "Theorems.Thm_StickyKakeya4_native_actual_higher_transfer_construction_draft_2020",
+        "Theorems.Thm_StickyKakeya4_native_extra_queried_rank_configuration",
+        "Theorems.Thm_StickyKakeya4_native_fixed_source_reference"
+      ],
+      "verified": false
+    },
+    {
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_alignment_patch_draft_2036.lean",
+      "sha256": "8ef6e32dcbae8536eecb6a3989cc7c7ca6bc11dd7c2a78887c1df60d2d73e6bb",
+      "declaration_count": 11,
+      "declarations": [
+        "NativeRememberedAlignmentPatchDraft2036.normalChart",
+        "NativeRememberedAlignmentPatchDraft2036.normalChart_height",
+        "NativeRememberedAlignmentPatchDraft2036.normalChart_tangent",
+        "NativeRememberedAlignmentPatchDraft2036.chartRows",
+        "NativeRememberedAlignmentPatchDraft2036.normalChart_quotient",
+        "NativeRememberedAlignmentPatchDraft2036.normalized_chart_quotient",
+        "NativeRememberedAlignmentPatchDraft2036.permuted_witness_pullback",
+        "NativeRememberedAlignmentPatchDraft2036.actual_phase_Y_distance",
+        "NativeRememberedAlignmentPatchDraft2036.selected_key_center_mem",
+        "NativeRememberedAlignmentPatchDraft2036.selected_height_patch",
+        "NativeRememberedAlignmentPatchDraft2036.actual_old_height_scalar_family"
+      ],
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_configured_lower_quotient_readback",
+        "Theorems.Thm_StickyKakeya4_native_remembered_source_construction",
+        "Theorems.Thm_StickyKakeya4_native_literal_Y_height_alignment",
+        "Theorems.Thm_StickyKakeya4_native_actual_higher_transfer_construction_draft_2020"
+      ],
+      "verified": false
+    },
+    {
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_second_reference_payment_draft_2043.lean",
+      "sha256": "cb702eebc03eabb9fa853fac9ddc815c9a6a9d60b08da02068e3d8399d3ee89d",
+      "declaration_count": 3,
+      "declarations": [
+        "NativeSecondReferencePaymentDraft2043.exists_volume_payment_cutoff",
+        "NativeSecondReferencePaymentDraft2043.native_input_at_half_eta0",
+        "NativeSecondReferencePaymentDraft2043.exists_original_cutoff"
+      ],
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_wz_carrier_pruning",
+        "Theorems.Thm_StickyKakeya4_native_finite_kakeya_counts"
+      ],
+      "verified": false
+    },
+    {
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_higher_reference_mass_draft_2045.lean",
+      "sha256": "d0cd00662f421fc997ebe65e7a780bdb829c69999527a5787798825537141a80",
+      "declaration_count": 3,
+      "declarations": [
+        "NativeHigherReferenceMassDraft2045.reference_factor_upper",
+        "NativeHigherReferenceMassDraft2045.actual_shading_to_reference_mass",
+        "NativeHigherReferenceMassDraft2045.normalized_reference_mass"
+      ],
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_generic_reference_data",
+        "Theorems.Thm_StickyKakeya4_native_two_stage_transversality_budget"
+      ],
+      "verified": false
+    },
+    {
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_final_time_scalar_draft_2054.lean",
+      "verified": false,
+      "sha256": "6f5334528f208c9173d7a3096ade6da94c31c4c8d9b5c8e0b4607cbe19de6c47",
+      "declarations": [
+        "NativeRememberedFinalTimeScalarDraft2054.timeCells",
+        "NativeRememberedFinalTimeScalarDraft2054.occupied_alignment_height",
+        "NativeRememberedFinalTimeScalarDraft2054.actual_final_time_scalar_family"
+      ],
+      "declaration_count": 3,
+      "imports": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_higher_key_factory_draft_2032",
+        "Theorems.Thm_StickyKakeya4_native_remembered_alignment_patch_draft_2036"
+      ]
+    }
+  ],
+  "preserved_frozen_source": "Thm_StickyKakeya4_native_actual_higher_transfer_construction_draft_2020.lean",
+  "scope": "Actual occupied S cell-time supplies selected original occurrence; derive old-height slice, true first-alignment patch, normalized quotient identity, physical common height and actual4sigma halo internally. Output corrected field, FULL scalar Y at sigma/32768,13sigma source-cell witnesses, and all-radius global/local halo covers on actual native timeCells. Fixed1+2(g+1) higher-key menu, fixed-source Reference wrapper, source mass reader and scalar entrance-payment readers included. The occupied_alignment_height reader derives the actual coarse-height membership and exact W/common-menu readback from a genuine selected source occurrence.",
+  "remaining": "All sources are UNVERIFIED and no gate is requested. Common first-menu chart/rho/tau and literal kept slice identities remain actual constructor inputs. Choose these per occupied final time and assemble total C,F,Y,beta fields; then apply the prepared finite key factory. Connect degree and mass on exactly ref.E1 at sigma=S.thickness. Later parent normalization needs the actual conditional-parent/scaled degree and local-cell readback, and any later cut needs its own queried comparability before a profile lower is reused. No final Eq143, higher AD lower, dense X, or kappa=0 closure is claimed.",
+  "declaration_count": 34,
+  "parameter_order": "Second tolerance/arity -> seed/e/zeta/L/g/eta0/delta0 before S; choose first E<=eta0/4, actual final native e=E/8 and weaken to eta0/2; first zeta53 -> chi -> etaUnion<=chi*eta0/32 and raw budgets before original D. Native input payment uses same-S U,L only. The1-s higher-cover tax belongs to final higher AD tolerance; choose its high-s threshold before this entrance chain, not as a loss to E/8. O,C,F labels only after S and before ref.E1. Fixed scalar-payment/original positive-power cutoffs are conditional on actual same-S shading/union and power-window source estimates."
+}

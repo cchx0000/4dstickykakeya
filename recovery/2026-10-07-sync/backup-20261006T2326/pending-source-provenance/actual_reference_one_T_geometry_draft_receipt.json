@@ -1,0 +1,17 @@
+{
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T_geometry.lean",
+  "source_sha256": "e50ca9f0bf66aa4ec8707eb551d12267ab50c5a0f371e95245eb6b8370614995",
+  "state": "UNVERIFIED_DRAFT_NO_GATE_QUEUED",
+  "declarations": [
+    "NativeActualReferenceOneTGeometry.HasFinalGeometry",
+    "NativeActualReferenceOneTGeometry.geometry_mono",
+    "NativeActualReferenceOneTGeometry.from_parent_profiles",
+    "NativeActualReferenceOneTGeometry.from_xy_stage"
+  ],
+  "declaration_count": 4,
+  "original_source": "Theorems.Thm_StickyKakeya4_native_actual_reference_one_T",
+  "original_source_sha256": "7eb76b4e31c548338af45e5fe0600c9e776df560a0b5884549fbfe5f69056b31",
+  "changes": "Retain the exact hMetric on Hgraph and hResidual on Sfull through T subset U subset Spre. Existing geometry/coherence and height/third constructors invoked once as in the original wrapper. No added assumptions or selections. Full old output retained and HasFinalGeometry appended.",
+  "scope": "Rank-two branch, preserving exact ref.dimension, E2, P0, f, xi and final U/T. Does not claim to resolve rank-three kappa=0 entrance.",
+  "created_utc": "2026-10-06T23:02:46.264933+00:00"
+}

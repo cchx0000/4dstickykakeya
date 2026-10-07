@@ -1,0 +1,11 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/52eb73e301172be4feed4d3da0c500c6649b27df6a3cf7d6fe8dc7c89f38c368.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_graph_tube_cell_visits-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_graph_tube_cell_visits-attempt02/Readback.lean"]
+SOURCE_SHA256 5256d3b186a1b9b5a6d63b0d87b80e78789bfec73c36671bebd69abef117001d
+LOCK_ACQUIRED_UTC 2026-10-06T13:36:48.598293+00:00
+SHARED_SLOT 3
+LEAN_PID 63
+'NativeGraphTubeCellVisits.visited' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGraphTubeCellVisits.same_tube_coordinate_diameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGraphTubeCellVisits.visited_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T13:39:52.079883+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

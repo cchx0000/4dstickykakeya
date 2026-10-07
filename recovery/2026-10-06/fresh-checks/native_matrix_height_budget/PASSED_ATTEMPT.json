@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_matrix_height_budget",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matrix_height_budget.lean",
+  "source_sha256": "b69dde924aa9ce1785aad0322867c0dc6ce38ce05eebb1c693a3d9707be93d30",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_matrix_height_budget.olean",
+  "names": [
+    "NativeMatrixHeightBudget.palette_le_explicit_power",
+    "NativeMatrixHeightBudget.natural_palette_le_explicit_power",
+    "NativeMatrixHeightBudget.exists_uniform_palette_cutoff"
+  ],
+  "started_utc": "2026-10-06T05:47:00.527425+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "8bdd093b1a6ba035de00b17c7138af4402372169b3b311af45e266ec7becf1ca",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeMatrixHeightBudget.palette_le_explicit_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatrixHeightBudget.natural_palette_le_explicit_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatrixHeightBudget.exists_uniform_palette_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T05:47:07.012413+00:00"
+}

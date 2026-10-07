@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_extra_graph_configuration
+
+#print axioms NativeExtraGraphConfiguration.exists_extra_graph_configuration

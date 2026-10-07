@@ -1,0 +1,50 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_reference_slice_budget_costs",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_reference_slice_budget_costs.lean",
+  "source_sha256": "552a97774c0d7d070cba099956b0a9ad1cc39c458d9f64bf354873a23aaf90ca",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_reference_slice_budget_costs.olean",
+  "names": [
+    "NativeReferenceSliceBudgetCosts.first_retention_density_cost",
+    "NativeReferenceSliceBudgetCosts.pay_actual_costs",
+    "NativeReferenceSliceBudgetCosts.source_exponent_le",
+    "NativeReferenceSliceBudgetCosts.pay_source_costs"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T17:12:34.599205+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "159a0595b5cf9f17275e9883649f502b60dece4a8a8299117f789085630e0eda",
+  "source_execution_complete_utc": "2026-10-05T17:12:40.586602+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T172640548218",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeReferenceSliceBudgetCosts.first_retention_density_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceSliceBudgetCosts.pay_actual_costs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceSliceBudgetCosts.source_exponent_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceSliceBudgetCosts.pay_source_costs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T17:26:45.987539+00:00"
+}

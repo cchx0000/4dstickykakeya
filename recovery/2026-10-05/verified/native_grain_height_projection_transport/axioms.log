@@ -1,0 +1,111 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161649745264", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161649745264/AggregateReadback.lean"]
+READBACK_SHA256 ce69c88c6cc62ca5c18249219ed57f1363f389a77a1ad18d22d5302abe2fb471
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:16:50.496929+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8778232 kB
+'NativeActualPopulationParentConfiguration.HasParentRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualPopulationParentConfiguration.HasPopulationParentStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualPopulationParentConfiguration.ParentFinalCleanupData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualPopulationParentConfiguration.exists_actual_population_parent_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualPopulationParentConfiguration.stage_with_population_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAnisotropicPairNumerator.fixedPair_card_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicPairNumerator.pairUpperConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicPairNumerator.pairUpperConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicPairNumerator.parent_column_pair_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicPairNumerator.shortRowColumnCost' depends on axioms: [propext]
+'NativeAnisotropicPairNumerator.short_pair_column_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteSliceHomogeneity.coarsen_fiber_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteSliceHomogeneity.fiber_card_average_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionTransport.exists_parent_controlled_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGrainHeightProjectionTransport.parentDirection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionTransport.parentDirection_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionTransport.parentDirection_slopeVector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGrainHeightProjectionTransport.parentDirection_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionTransport.physical_projectToHeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGrainHeightProjectionTransport.physical_projection_displacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGrainHeightProjectionTransport.projectToHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionTransport.projectToHeight_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionTransport.projectToHeight_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionTransport.projected_grain_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainHeightProjectionTransport.removeHeight_norm_general' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGrainHeightProjectionTransport.retained_direction_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHeightMetricMenu.chartHeightCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.chartHeightCoordinate_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.halfDepth' depends on axioms: [propext, Quot.sound]
+'NativeHeightMetricMenu.halfDepth_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.halfDepth_last' depends on axioms: [propext, Quot.sound]
+'NativeHeightMetricMenu.halfDepth_le_middle' depends on axioms: [propext, Quot.sound]
+'NativeHeightMetricMenu.halfDepth_mono' depends on axioms: [propext, Quot.sound]
+'NativeHeightMetricMenu.halfDepth_zero' depends on axioms: [propext, Quot.sound]
+'NativeHeightMetricMenu.menu_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.meshWidth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.meshWidth_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.meshWidth_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.metricConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.metricConstant_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.metric_from_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.metric_from_menu_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.rawHeightCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightMetricMenu.rawHeightCoordinate_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentSliceHeightGeometry.endpointHeightMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentSliceHeightGeometry.endpointHeightMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentSliceHeightGeometry.endpoint_column_mem_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentSliceHeightGeometry.endpoint_height_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentSliceHeightGeometry.physical_parent_spatial_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePhaseHeightPopulation.column_height_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.dyadic_height_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.dyadic_height_row_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.heightEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.heightLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.heightLabel_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.heightLabels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.height_population_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.height_row_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.original_translated_height_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.parent_height_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.phaseHeightLabels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.phase_height_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightPopulation.retained_height_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePopulationParentProfiles.HasPopulationParentProfiles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePopulationParentProfiles.source_population_parent_profiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSliceCountComparison.HasSliceAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceCountComparison.caller_local_class_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceCountComparison.caller_reference_slice_averages' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceCountComparison.column_class_counts_comparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceCountComparison.heightSlice' depends on axioms: [propext, Quot.sound]
+'NativeSliceCountComparison.points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceCountComparison.points_coarsen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceCountComparison.reference_height_counts_comparable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSliceCountComparison.reference_slice_average_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSourceParentPopulationProfile.source_parent_population_profile' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

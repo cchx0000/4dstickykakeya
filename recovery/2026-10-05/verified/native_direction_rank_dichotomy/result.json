@@ -1,0 +1,186 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_direction_rank_dichotomy",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_direction_rank_dichotomy.lean",
+  "source_sha256": "162918f0ae97ca7895dc9897eb93e9236d09d4b74efb45581f6cf91fb52c065b",
+  "names": [
+    "NativeDirectionRankDichotomy.mass",
+    "NativeDirectionRankDichotomy.spanOf",
+    "NativeDirectionRankDichotomy.nearLabels",
+    "NativeDirectionRankDichotomy.farLabels",
+    "NativeDirectionRankDichotomy.children",
+    "NativeDirectionRankDichotomy.chains",
+    "NativeDirectionRankDichotomy.chainWeight",
+    "NativeDirectionRankDichotomy.chainMass",
+    "NativeDirectionRankDichotomy.Separated",
+    "NativeDirectionRankDichotomy.spanOf_finrank_le",
+    "NativeDirectionRankDichotomy.mem_chains_succ",
+    "NativeDirectionRankDichotomy.chains_length",
+    "NativeDirectionRankDichotomy.chains_labels",
+    "NativeDirectionRankDichotomy.chains_separated",
+    "NativeDirectionRankDichotomy.separated_linearIndependent",
+    "NativeDirectionRankDichotomy.chains_gram_det_ne_zero",
+    "NativeDirectionRankDichotomy.chainWeight_nonneg",
+    "NativeDirectionRankDichotomy.children_disjoint",
+    "NativeDirectionRankDichotomy.children_weight",
+    "NativeDirectionRankDichotomy.chainMass_succ",
+    "NativeDirectionRankDichotomy.far_mass_ge",
+    "NativeDirectionRankDichotomy.broad_chain_mass",
+    "NativeDirectionRankDichotomy.concentration_or_many_chains",
+    "NativeDirectionRankDichotomy.near_mass_mono",
+    "NativeDirectionRankDichotomy.retained_broad_chain_mass",
+    "NativeDirectionRankDichotomy.slopeVector",
+    "NativeDirectionRankDichotomy.slopeVector_last",
+    "NativeDirectionRankDichotomy.incident_slope_dichotomy"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T07:32:11.506912+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeDirectionRankDichotomy.mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.spanOf": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.nearLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.farLabels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.children": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.chains": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.chainWeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.chainMass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.Separated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.spanOf_finrank_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.mem_chains_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.chains_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.chains_labels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.chains_separated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.separated_linearIndependent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.chains_gram_det_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.chainWeight_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.children_disjoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.children_weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.chainMass_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.far_mass_ge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.broad_chain_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.concentration_or_many_chains": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.near_mass_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.retained_broad_chain_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.slopeVector": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.slopeVector_last": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeDirectionRankDichotomy.incident_slope_dichotomy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "03c83a50287aa4b184dfd08a14981cf27eca8e676e2460664bbb18b76f3566af",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T07:40:31.542965+00:00"
+}

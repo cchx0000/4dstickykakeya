@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_raw_point_source_profiles
+
+#print axioms NativeRawPointSourceProfiles.rawPointCount
+#print axioms NativeRawPointSourceProfiles.shadowPointCount
+#print axioms NativeRawPointSourceProfiles.full_mass_eq_multiplicity_point_volume
+#print axioms NativeRawPointSourceProfiles.raw_point_upper
+#print axioms NativeRawPointSourceProfiles.raw_point_lower_with_retention
+#print axioms NativeRawPointSourceProfiles.middle_raw_point_profile
+#print axioms NativeRawPointSourceProfiles.two_stage_incidence_retention

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_XY_grain_core
+
+#print axioms NativeActualXYGrainCore.exists_actual_xy_grain_core

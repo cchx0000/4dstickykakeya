@@ -1,0 +1,71 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T09:26:26.464471+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py",
+    "--slots",
+    "2",
+    "--lock-dir",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T092623555415",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T092623555415/AggregateReadback.lean"
+  ],
+  "readback_sha256": "4858230f656c779faae1af78937418f5bad2e63ebe2e2162357a7d20d8d1c6df",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_hereditary_conditional_upper",
+      "source_sha256": "a014ee514107924c42c85e819ad05ccf66e7db65a55d8acfd151fa36ef596a55",
+      "olean_sha256": "67da70c152ebfc9fb5b62126be32d65699cdafdb71fe11cef8a5ebc964330084",
+      "names": [
+        "NativeHereditaryConditionalUpper.parent_subset_reference_ancestor",
+        "NativeHereditaryConditionalUpper.active_parent_upper_all",
+        "NativeHereditaryConditionalUpper.subset_outer_parent_upper",
+        "NativeHereditaryConditionalUpper.far_pair_upper",
+        "NativeHereditaryConditionalUpper.conditional_upper",
+        "NativeHereditaryConditionalUpper.short_gap_upper",
+        "NativeHereditaryConditionalUpper.depthPower_mono",
+        "NativeHereditaryConditionalUpper.boundary_pair_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_one_branch_budget",
+      "source_sha256": "1947184ac6121bcd0cb7c2156c974310b29a1a6a2871334e35e7613a133a239f",
+      "olean_sha256": "b83b8233414939cfce1cdf59a4e90215e9fa5342407612b43007352bc8c70a03",
+      "names": [
+        "NativeRankOneBranchBudget.actual_rank_one_budget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_radius_menu",
+      "source_sha256": "c7a3439f10ed86849ad25e091d96e3dd4db018e22266e3c441b079661cf491b3",
+      "olean_sha256": "2a9f5e72796cb50772cf49d08c5ed06864cbdde63d74d83cd56a2bda977fe81d",
+      "names": [
+        "NativeRankRadiusMenu.radius",
+        "NativeRankRadiusMenu.radius_pos",
+        "NativeRankRadiusMenu.radius_parent_identity",
+        "NativeRankRadiusMenu.radius_le_one_div_48",
+        "NativeRankRadiusMenu.radius_geometry",
+        "NativeRankRadiusMenu.last_depth_ge_half",
+        "NativeRankRadiusMenu.last_radius_le_cutoff",
+        "NativeRankRadiusMenu.allowed",
+        "NativeRankRadiusMenu.allowed_nonempty",
+        "NativeRankRadiusMenu.allowed_antitone",
+        "NativeRankRadiusMenu.exists_test_radius",
+        "NativeRankRadiusMenu.depth_lower_of_radius_cutoff",
+        "NativeRankRadiusMenu.relative_power_of_radius_cutoff",
+        "NativeRankRadiusMenu.exists_installed_rank_retention"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T09:34:44.676856+00:00",
+  "exit_code": 0
+}

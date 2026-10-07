@@ -1,0 +1,5 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/10cc9eeddfc97d4bc92ed67c1ed013c5043e5fad88499d055e6dbac2be0627d7.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_finite_image_weighted_choice-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_finite_image_weighted_choice-attempt01/Readback.lean"]
+SOURCE_SHA256 316b658604367ab0a79c2496831a58571e1e35ef212fb468640c7f04d54070a9
+'NativeFiniteImageWeightedChoice.select_per_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

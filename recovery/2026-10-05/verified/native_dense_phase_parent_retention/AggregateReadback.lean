@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_dense_phase_parent_retention
+
+set_option autoImplicit false
+#print axioms NativeDensePhaseParentRetention.exists_retained_fiber
+#print axioms NativeDensePhaseParentRetention.parent_region_commute
+#print axioms NativeDensePhaseParentRetention.source_dense_parent
+#print axioms NativeDensePhaseParentRetention.support_retention

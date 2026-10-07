@@ -1,0 +1,74 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_column_population_bounds",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_column_population_bounds.lean",
+  "source_sha256": "db5618e3d7b0c88191fa20f5143dbfe4db0daeba9e087da3f0e90d233fd2a5cd",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_column_population_bounds.olean",
+  "names": [
+    "NativeColumnPopulationBounds.relativeWidth",
+    "NativeColumnPopulationBounds.relativeWidth_pos",
+    "NativeColumnPopulationBounds.inverse_scale_cube",
+    "NativeColumnPopulationBounds.column_point_image",
+    "NativeColumnPopulationBounds.column_phase_height_image",
+    "NativeColumnPopulationBounds.column_height_image",
+    "NativeColumnPopulationBounds.column_multiplicity_card",
+    "NativeColumnPopulationBounds.reference_numerator_height_bounds"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:28:47.746773+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "d804b58bd3e602ad8157c819e3c7b147cccc83bdb934f1b2b67d6db3e92811c1",
+  "source_execution_complete_utc": "2026-10-05T16:28:53.818103+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164107267028",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeColumnPopulationBounds.relativeWidth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeColumnPopulationBounds.relativeWidth_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeColumnPopulationBounds.inverse_scale_cube": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeColumnPopulationBounds.column_point_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeColumnPopulationBounds.column_phase_height_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeColumnPopulationBounds.column_height_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeColumnPopulationBounds.column_multiplicity_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeColumnPopulationBounds.reference_numerator_height_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:41:12.438185+00:00"
+}

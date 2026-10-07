@@ -1,0 +1,223 @@
+{
+  "created_utc": "2026-10-06T18:43Z",
+  "state": "UNVERIFIED",
+  "source_path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean",
+  "source_sha256": "f71bb47c4c0858934216d431c0ab73e7ff190cbd327a09ba8a54556b4d69014c",
+  "declaration_count": 36,
+  "namespaces": [
+    "NativeRememberedSourceMaps",
+    "NativeRememberedCellHalo",
+    "NativeRememberedPhaseFootprint",
+    "NativeRememberedPhaseCover",
+    "NativeRememberedCellFibers",
+    "NativeRememberedTimeUpper",
+    "NativeRememberedSourceUnion",
+    "NativeRememberedHeightSelection",
+    "NativeRememberedOccurrenceReadback",
+    "NativeRememberedFineCount"
+  ],
+  "external_imports": [
+    "Theorems.Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge",
+    "Theorems.Thm_StickyKakeya4_native_configured_height_caps",
+    "Theorems.Thm_StickyKakeya4_native_configured_output_pairs",
+    "Theorems.Thm_StickyKakeya4_native_current_reference_readback",
+    "Theorems.Thm_StickyKakeya4_native_finite_image_weighted_choice",
+    "Theorems.Thm_StickyKakeya4_native_full_chart_tube_graph",
+    "Theorems.Thm_StickyKakeya4_native_intermediate_parent_population",
+    "Theorems.Thm_StickyKakeya4_native_joint_local_xy_geometry",
+    "Theorems.Thm_StickyKakeya4_native_joint_spatial_geometry",
+    "Theorems.Thm_StickyKakeya4_native_matched_shadow_configured_geometry",
+    "Theorems.Thm_StickyKakeya4_native_original_phase_chart_gaps",
+    "Theorems.Thm_StickyKakeya4_native_phase_height_key",
+    "Theorems.Thm_StickyKakeya4_native_remembered_height_geometry",
+    "Theorems.Thm_StickyKakeya4_native_same_Q_source_restriction",
+    "Theorems.Thm_StickyKakeya4_native_third_XY_data"
+  ],
+  "units": [
+    {
+      "stem": "native_remembered_source_maps",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_maps.lean",
+      "sha256": "2fd204c7be77230a83c6a2b82a2383e9443e775496567614823b2f18a864d724",
+      "namespace": "NativeRememberedSourceMaps",
+      "declarations": [
+        "NativeRememberedSourceMaps.occurrences",
+        "NativeRememberedSourceMaps.mem_occurrences",
+        "NativeRememberedSourceMaps.taggedKey",
+        "NativeRememberedSourceMaps.finalTime",
+        "NativeRememberedSourceMaps.selectedOccurrences",
+        "NativeRememberedSourceMaps.selectedPairs",
+        "NativeRememberedSourceMaps.selected_tagged_image",
+        "NativeRememberedSourceMaps.selected_final_image",
+        "NativeRememberedSourceMaps.final_image_card",
+        "NativeRememberedSourceMaps.selected_pair_witness",
+        "NativeRememberedSourceMaps.select_old_height",
+        "NativeRememberedSourceMaps.tagged_height_card_eq_physical"
+      ],
+      "internal_dependencies": [],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 22,
+      "consolidated_end_line": 204,
+      "body_sha256": "2e8a403b905b08b34cb66396a01022f0bf122bbf889fe4100bd9a596c3e4ae3f"
+    },
+    {
+      "stem": "native_remembered_cell_halo",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_cell_halo.lean",
+      "sha256": "b378e73c42b0a28cc99e2bf322ba0eabd8f6ef0371ad759801b9eb025eb77497",
+      "namespace": "NativeRememberedCellHalo",
+      "declarations": [
+        "NativeRememberedCellHalo.physical_map_dist",
+        "NativeRememberedCellHalo.local_center_near_map",
+        "NativeRememberedCellHalo.occurrence_center_near"
+      ],
+      "internal_dependencies": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_source_maps"
+      ],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 205,
+      "consolidated_end_line": 321,
+      "body_sha256": "cd53bc50b89f32c0e355f479706e798f3139134b2a98cf327c19cc6927444d36"
+    },
+    {
+      "stem": "native_remembered_phase_footprint",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_phase_footprint.lean",
+      "sha256": "58801d19dd887dc711ca13e2cbd61d8e7486aa19883cccf5088f4f2d5e21f2ff",
+      "namespace": "NativeRememberedPhaseFootprint",
+      "declarations": [
+        "NativeRememberedPhaseFootprint.full_old_phase_diameter",
+        "NativeRememberedPhaseFootprint.actual_configured_diameter",
+        "NativeRememberedPhaseFootprint.oldPoint_dist_of_configured"
+      ],
+      "internal_dependencies": [],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 322,
+      "consolidated_end_line": 505,
+      "body_sha256": "9de123e14f4b03224e42b7b090f663d81797220347c1f19ef32d4fba69c8192c"
+    },
+    {
+      "stem": "native_remembered_phase_cover",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_phase_cover.lean",
+      "sha256": "3c568a60c3ddcc9d3d186715f9c0777990ccd9096b15c7191fcf9dd71ce500bd",
+      "namespace": "NativeRememberedPhaseCover",
+      "declarations": [
+        "NativeRememberedPhaseCover.physical_image_card_of_diameter",
+        "NativeRememberedPhaseCover.rank_two_from_third"
+      ],
+      "internal_dependencies": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_phase_footprint"
+      ],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 506,
+      "consolidated_end_line": 649,
+      "body_sha256": "9d30af3ec550bebf5f9ccc28f0e786d1ff0c79f6622376ae81f0c97f5736bd8a"
+    },
+    {
+      "stem": "native_remembered_cell_fibers",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_cell_fibers.lean",
+      "sha256": "5449ca78b5f960e6e7808c7dffefbb507d8baab27a970342714a465bdd81a125",
+      "namespace": "NativeRememberedCellFibers",
+      "declarations": [
+        "NativeRememberedCellFibers.configured_gap_of_coarse_XY",
+        "NativeRememberedCellFibers.local_cell_image_cap",
+        "NativeRememberedCellFibers.local_centers_cluster",
+        "NativeRememberedCellFibers.actual_fiber_card"
+      ],
+      "internal_dependencies": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_cell_halo"
+      ],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 650,
+      "consolidated_end_line": 831,
+      "body_sha256": "8a7aeafee977f151c6a3a0537bb342800c1a212698111fefb226c825a63c78dc"
+    },
+    {
+      "stem": "native_remembered_time_upper",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_time_upper.lean",
+      "sha256": "f619c93dd0fc555a5affd674775a313fe141e92224a311151167f4fd52354aa4",
+      "namespace": "NativeRememberedTimeUpper",
+      "declarations": [
+        "NativeRememberedTimeUpper.local_center_time_bound",
+        "NativeRememberedTimeUpper.local_time_card"
+      ],
+      "internal_dependencies": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_cell_halo"
+      ],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 832,
+      "consolidated_end_line": 917,
+      "body_sha256": "242d8126b5b55fd4cdfb304384b47438f2002d4382eb40760f1c0cfb5dfcfd71"
+    },
+    {
+      "stem": "native_remembered_source_union",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_union.lean",
+      "sha256": "848685e47b02e49e888aaaa92413acb0ef73a9ea1e791d36a86e9ae662714488",
+      "namespace": "NativeRememberedSourceUnion",
+      "declarations": [
+        "NativeRememberedSourceUnion.unionConstant",
+        "NativeRememberedSourceUnion.rank_two_union"
+      ],
+      "internal_dependencies": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_phase_cover",
+        "Theorems.Thm_StickyKakeya4_native_remembered_cell_fibers",
+        "Theorems.Thm_StickyKakeya4_native_remembered_time_upper"
+      ],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 918,
+      "consolidated_end_line": 1115,
+      "body_sha256": "b02bf90df75d67a64232d177781609d162aad1beed246901fb044c093fa38678"
+    },
+    {
+      "stem": "native_remembered_height_selection",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_height_selection.lean",
+      "sha256": "b82d839ce63eda2313767be0bf09929963b27bc7a0e490bd8d0a41ff3645cd63",
+      "namespace": "NativeRememberedHeightSelection",
+      "declarations": [
+        "NativeRememberedHeightSelection.occurrence_shadow_height",
+        "NativeRememberedHeightSelection.occurrence_heights_per_bin",
+        "NativeRememberedHeightSelection.select_actual_old_height"
+      ],
+      "internal_dependencies": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_source_maps"
+      ],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 1116,
+      "consolidated_end_line": 1301,
+      "body_sha256": "f21a163f3e30a1273147391e2c6d9244e4cc8dc58e325732c237122429095402"
+    },
+    {
+      "stem": "native_remembered_occurrence_readback",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_occurrence_readback.lean",
+      "sha256": "f2578d7c12d524f8816b0721984b4d2746cfe7013e99ddedd1b9628391915c08",
+      "namespace": "NativeRememberedOccurrenceReadback",
+      "declarations": [
+        "NativeRememberedOccurrenceReadback.actualRows",
+        "NativeRememberedOccurrenceReadback.actual_rows_readback",
+        "NativeRememberedOccurrenceReadback.original_image",
+        "NativeRememberedOccurrenceReadback.occurrence_current_parent"
+      ],
+      "internal_dependencies": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_source_maps"
+      ],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 1302,
+      "consolidated_end_line": 1411,
+      "body_sha256": "02bd4f598ddaa2f99863ceb39696fb22f2ba2d5ed45de7aac04751f4ecf66c46"
+    },
+    {
+      "stem": "native_remembered_fine_count",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_fine_count.lean",
+      "sha256": "f521eff0e02070ae50fe02d3d5bf52e9cab26065f4d851a7790a537420935cd5",
+      "namespace": "NativeRememberedFineCount",
+      "declarations": [
+        "NativeRememberedFineCount.fine_graph_le_tagged"
+      ],
+      "internal_dependencies": [
+        "Theorems.Thm_StickyKakeya4_native_remembered_occurrence_readback"
+      ],
+      "state": "UNVERIFIED",
+      "consolidated_start_line": 1412,
+      "consolidated_end_line": 1552,
+      "body_sha256": "3569c43ae2c91a6766646075b2622ec346d6d0b65e4c13b2ec943032ca39e040"
+    }
+  ],
+  "transform": "Delete import lines, collect identical external imports at file head, preserve every other original line, append one end per anonymous outer noncomputable section."
+}

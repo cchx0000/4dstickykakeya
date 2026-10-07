@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_graph_direction_in_plane
+
+#print axioms NativeGraphDirectionInPlane.exists_near_graph_direction

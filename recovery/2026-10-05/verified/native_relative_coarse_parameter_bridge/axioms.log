@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_relative_coarse_parameter_bridge_readback.lean"]
+SOURCE_SHA256 d73783cb794474606ff32455144ff3ed017aa8fa6f670fabf1b1007c33d8a0fe
+FIFO compiler ticket: 01791183310109840831-66466e9b73e145aa92101bd2beaebbeb.request
+FIFO compiler acquired UTC: 2026-10-05T06:55:10.110862+00:00
+'NativeRelativeCoarseParameterBridge.globalProjection' does not depend on any axioms
+'NativeRelativeCoarseParameterBridge.globalBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseParameterBridge.globalProjection_mem_box' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRelativeCoarseParameterBridge.globalBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseParameterBridge.dyadic_globalProjection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseParameterBridge.relative_global_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseParameterBridge.relative_fiber_global_labels_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

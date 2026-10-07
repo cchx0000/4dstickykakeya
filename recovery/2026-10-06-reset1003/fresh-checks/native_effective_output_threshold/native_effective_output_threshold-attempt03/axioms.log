@@ -1,0 +1,13 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1b05347832b7b162701f69604b01eebefbc042cf84446b354825df8f6df4cabc.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_effective_output_threshold-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_effective_output_threshold-attempt03/Readback.lean"]
+SOURCE_SHA256 0689589218db34cadddc64ae4a07eaacc5989b8d2b6ce8c60663a439c81f6fc2
+LOCK_ACQUIRED_UTC 2026-10-06T12:22:11.904566+00:00
+SHARED_SLOT 2
+LEAN_PID 63
+'NativeEffectiveOutputThreshold.exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEffectiveOutputThreshold.power_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEffectiveOutputThreshold.fixed_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEffectiveOutputThreshold.fixed_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEffectiveOutputThreshold.exists_output_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T12:23:49.224545+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_parent_graph_data
+
+#print axioms NativeSharpParentGraphData.HasParentHeightCore
+#print axioms NativeSharpParentGraphData.HasSharpCurveParentProfiles
+#print axioms NativeSharpParentGraphData.attach_sharp_parent_graph
+#print axioms NativeSharpParentGraphData.sharp_curve_parent_profiles_forget

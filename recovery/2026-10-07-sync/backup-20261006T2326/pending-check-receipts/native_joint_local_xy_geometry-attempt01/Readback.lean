@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_joint_local_xy_geometry
+set_option autoImplicit false
+#print axioms NativeJointLocalXYGeometry.scalar_center_gap
+#print axioms NativeJointLocalXYGeometry.base_XY_footprint
+#print axioms NativeJointLocalXYGeometry.base_center_readback
+#print axioms NativeJointLocalXYGeometry.source_height_cell_base_keys

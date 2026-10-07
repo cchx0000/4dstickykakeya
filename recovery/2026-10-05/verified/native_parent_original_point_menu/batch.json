@@ -1,0 +1,169 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T18:15:42.397690+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T181541209987",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T181541209987/AggregateReadback.lean"
+  ],
+  "readback_sha256": "26b47e7f699fee547475265868dbfcdf56555c4d171331b7c9fdf4c7deff30c2",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_offset_count",
+      "source_sha256": "b331b00d0168d197504198bb4a8532e5974f7e2a1e5ef6c9aef470674c8e2b8d",
+      "olean_sha256": "bff974446a1100ec2d14afe3a3b14e904ed79f4d3caa644c77134f207b5c8b84",
+      "names": [
+        "NativeNormalizedOffsetCount.offset_count_from_raw_field",
+        "NativeNormalizedOffsetCount.offset_count_from_mapped_field"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_offset_field",
+      "source_sha256": "df5c890820edb567233300f418c300c34783a3806ff57563bba194ab9f0b412f",
+      "olean_sha256": "baf2f2b5f497c24837783fedd94be1841f9c7cb1eb455479eba58f9a36dc0486",
+      "names": [
+        "NativeNormalizedOffsetField.raw_field_variation",
+        "NativeNormalizedOffsetField.translated_field_variation",
+        "NativeNormalizedOffsetField.mapped_raw_field_variation",
+        "NativeNormalizedOffsetField.window_variation_le_twice"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_offset_time",
+      "source_sha256": "8dbaf4c9781eff576f66ee0474835eb6384a26c8c46fe7c3f19170a3e640e323",
+      "olean_sha256": "12e7aa11dabede030a5500e72f501f2c54520e361918a23a53f8548a10f212b4",
+      "names": [
+        "NativeNormalizedOffsetTime.same_floor_distance",
+        "NativeNormalizedOffsetTime.quantized_time_distance",
+        "NativeNormalizedOffsetTime.physical_cell_time_distance",
+        "NativeNormalizedOffsetTime.raw_height_window",
+        "NativeNormalizedOffsetTime.chart_height_window",
+        "NativeNormalizedOffsetTime.translated_height_window"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_original_point_menu",
+      "source_sha256": "b25fd513c9733d37f4a1e2db297a529d67d37fc8843b7db6e09575265921b03b",
+      "olean_sha256": "8211b264b88ea9e0fb425bb1effbd814221ce6e7ff9388c8c7930fb0a94ee46e",
+      "names": [
+        "NativeParentOriginalPointMenu.relations",
+        "NativeParentOriginalPointMenu.relations_refl",
+        "NativeParentOriginalPointMenu.relations_symm",
+        "NativeParentOriginalPointMenu.parent_original_point_uniformities"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_reference_relation_menu",
+      "source_sha256": "f2cecd2d89b9f5c76c3619b3ca98a40249ca4cf068dcb646d4c0b7e7a80f3c5f",
+      "olean_sha256": "d8bf007b80fce206b457dd16e82370c4f463f68142d5c330dff2c8c7757d5840",
+      "names": [
+        "NativeParentReferenceRelationMenu.relations",
+        "NativeParentReferenceRelationMenu.relations_refl",
+        "NativeParentReferenceRelationMenu.relations_symm",
+        "NativeParentReferenceRelationMenu.uniformities"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_parent_graph_configuration",
+      "source_sha256": "b21a0d5715719d53f6af329dca4dc2e5430d522d7d3e959d567ea52509800958",
+      "olean_sha256": "57b182e49103b997e41602cb28f0df06285d91284e88fae0c93e2c93b2eb0d2f",
+      "names": [
+        "NativeSaturatedParentGraphConfiguration.SaturatedCurveParentFinalCleanupData",
+        "NativeSaturatedParentGraphConfiguration.HasSaturatedCurveParentRetainedHistory",
+        "NativeSaturatedParentGraphConfiguration.HasSaturatedCurveParentStage",
+        "NativeSaturatedParentGraphConfiguration.middleSelected",
+        "NativeSaturatedParentGraphConfiguration.middle_selected_depth",
+        "NativeSaturatedParentGraphConfiguration.half_depth_eq_depth",
+        "NativeSaturatedParentGraphConfiguration.saturated_stage_with_parent_graph",
+        "NativeSaturatedParentGraphConfiguration.exists_saturated_parent_graph_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_parent_graph_data",
+      "source_sha256": "9bcf32e2d4651287ecf7fbe1d9ef7f826eed0bed9d091201fbdf5b86fb0423fe",
+      "olean_sha256": "42122aa53f5b89f31593d0bbdcb034dea296d220784e26fa7538df8c0054814a",
+      "names": [
+        "NativeSaturatedParentGraphData.HasParentHeightCore",
+        "NativeSaturatedParentGraphData.HasSaturatedCurveParentProfiles",
+        "NativeSaturatedParentGraphData.attach_saturated_parent_graph",
+        "NativeSaturatedParentGraphData.saturated_curve_parent_profiles_forget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_parent_graph_forget",
+      "source_sha256": "1ca6250dc94b23299a949214f6c8dc5e99aed82bd7de9080f507e116bf4e8322",
+      "olean_sha256": "5f68d95e78aa71899b6451739655c73b3620a864b28bc3e1b328765911fbc215",
+      "names": [
+        "NativeSaturatedParentGraphForget.curve_parent_profiles_forget",
+        "NativeSaturatedParentGraphForget.curve_cleanup_forget",
+        "NativeSaturatedParentGraphForget.curve_retained_forget",
+        "NativeSaturatedParentGraphForget.curve_stage_forget"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_population_parent_configuration",
+      "source_sha256": "3516f1c7c0cff4c758cd947a96ca38410c48296134d3703120443daeb9edd006",
+      "olean_sha256": "0441cbad9fe1a94f5a32c1a6577a52ede089ed47e66176cf4955f53eb81e14ab",
+      "names": [
+        "NativeSaturatedPopulationParentConfiguration.SaturatedParentFinalCleanupData",
+        "NativeSaturatedPopulationParentConfiguration.HasSaturatedParentRetainedHistory",
+        "NativeSaturatedPopulationParentConfiguration.HasSaturatedPopulationParentStage",
+        "NativeSaturatedPopulationParentConfiguration.saturated_stage_with_population_parent",
+        "NativeSaturatedPopulationParentConfiguration.exists_saturated_population_parent_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_reference_graph_configuration",
+      "source_sha256": "6eb7af09bcbcee5769a0964d2629f75cc844b4ebad469a27ccc9ade4d96bd05e",
+      "olean_sha256": "c8eac9805f6f0077c0453f213e847aaeed34d41ed85a0c97e6c93838bda76bf1",
+      "names": [
+        "NativeSaturatedReferenceGraphConfiguration.exists_saturated_reference_graph_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_population_admission",
+      "source_sha256": "c243c723f941f20115d8deac33b9a36c1eb58fb926ee9f3790cd06981889c94b",
+      "olean_sha256": "d4c9609d0eba75ce3b8190372c4be856d724f7b161bc12270baa5a2bac835e67",
+      "names": [
+        "NativeSharpPopulationAdmission.original_refinement_cost",
+        "NativeSharpPopulationAdmission.sharp_population_readback",
+        "NativeSharpPopulationAdmission.hierarchy_admission_margins",
+        "NativeSharpPopulationAdmission.exists_sharp_admission_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_trimmed_angular_class_counts",
+      "source_sha256": "640de04989c82bc9304cef30cc62beef86bd3c97731f3d4f57eff31071a5b79d",
+      "olean_sha256": "d397d6f0f8f28245190fef34cac460790fc9a824c6e711ed36143923495cb23c",
+      "names": [
+        "NativeTrimmedAngularClassCounts.coarse_fiber_image",
+        "NativeTrimmedAngularClassCounts.nested_fiber",
+        "NativeTrimmedAngularClassCounts.coarse_weight_sum",
+        "NativeTrimmedAngularClassCounts.distinct_class_lower",
+        "NativeTrimmedAngularClassCounts.distinct_class_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_actual_ad",
+      "source_sha256": "7ae36acde407ae940366b3622c55b848a9196201373cfdc90c09fee0979b621c",
+      "olean_sha256": "62a026a7f32575e9958737d55a92d4aeef33d7e344f98384170b30e14c70e4a0",
+      "names": [
+        "NativeTwoMapRetainedSliceActualAD.actual_all_radius_bounds",
+        "NativeTwoMapRetainedSliceActualAD.actual_ADBounds"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T18:16:50.031024+00:00",
+  "exit_code": 0
+}

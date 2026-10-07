@@ -1,0 +1,28 @@
+import Theorems.Thm_StickyKakeya4_native_general_rank_scalar_budget
+
+#print axioms NativeGeneralRankScalarBudget.dimension
+#print axioms NativeGeneralRankScalarBudget.gap
+#print axioms NativeGeneralRankScalarBudget.positiveGap
+#print axioms NativeGeneralRankScalarBudget.positiveGap_pos
+#print axioms NativeGeneralRankScalarBudget.positiveGap_le
+#print axioms NativeGeneralRankScalarBudget.exists_uniform_hierarchy
+#print axioms NativeGeneralRankScalarBudget.rankLoss_le_linear
+#print axioms NativeGeneralRankScalarBudget.rankLoss_le_one
+#print axioms NativeGeneralRankScalarBudget.hierarchy_margin
+#print axioms NativeGeneralRankScalarBudget.geometricConstant
+#print axioms NativeGeneralRankScalarBudget.combinedConstant
+#print axioms NativeGeneralRankScalarBudget.combinedConstant_pos
+#print axioms NativeGeneralRankScalarBudget.pointLoss
+#print axioms NativeGeneralRankScalarBudget.actual_count_power
+#print axioms NativeGeneralRankScalarBudget.totalExponent
+#print axioms NativeGeneralRankScalarBudget.fixedConstant
+#print axioms NativeGeneralRankScalarBudget.fixedConstant_pos
+#print axioms NativeGeneralRankScalarBudget.force_scale_power
+#print axioms NativeGeneralRankScalarBudget.tau_budget
+#print axioms NativeGeneralRankScalarBudget.exponent_budget
+#print axioms NativeGeneralRankScalarBudget.rank_exponent_margin
+#print axioms NativeGeneralRankScalarBudget.tau_le_cutoff
+#print axioms NativeGeneralRankScalarBudget.middle_lower
+#print axioms NativeGeneralRankScalarBudget.exists_uniform_cutoff
+#print axioms NativeGeneralRankScalarBudget.impossible_scale_power
+#print axioms NativeGeneralRankScalarBudget.dimension_range_from_counts

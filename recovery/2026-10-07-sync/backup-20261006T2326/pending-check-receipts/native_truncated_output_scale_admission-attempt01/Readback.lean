@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_truncated_output_scale_admission
+set_option autoImplicit false
+#print axioms NativeTruncatedOutputScaleAdmission.exists_same_reference_admission_through

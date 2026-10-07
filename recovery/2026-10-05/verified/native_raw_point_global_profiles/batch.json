@@ -1,0 +1,40 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:31:30.349753+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T133127485374",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T133127485374/AggregateReadback.lean"
+  ],
+  "readback_sha256": "2fe4ee7f11600a470e0c6ae3e58a6d7c34ff693dbaf994d8d5abd515d12a3207",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_raw_point_global_profiles",
+      "source_sha256": "58b8960174bdbfb0a4fcf91475975b73edf939c9b54056cd854fe7e3e846fab7",
+      "olean_sha256": "e648aecce6cd28d2277af43cf242357437469392667478d801782d6ad1860d8a",
+      "names": [
+        "NativeRawPointGlobalProfiles.global_shadow_multiplicity_upper",
+        "NativeRawPointGlobalProfiles.global_shadow_multiplicity_lower",
+        "NativeRawPointGlobalProfiles.global_shadow_bounds_of_conditional",
+        "NativeRawPointGlobalProfiles.original_shading_mass_lower",
+        "NativeRawPointGlobalProfiles.all_depth_raw_point_profile",
+        "NativeRawPointGlobalProfiles.raw_point_count_mono",
+        "NativeRawPointGlobalProfiles.retained_raw_point_lower",
+        "NativeRawPointGlobalProfiles.source_hereditary_conditional_upper"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:32:41.857050+00:00",
+  "exit_code": 0
+}

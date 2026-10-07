@@ -1,0 +1,15 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T092046708471", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T092046708471/AggregateReadback.lean"]
+READBACK_SHA256 4c9700ed3ca3243a5cc88976d6451ec78683a7fcb4863db564d392fc9666ba40
+FIFO compiler ticket: 01791192326092931866-22ce7279de5c4391bc95e7201b85c1eb.request
+FIFO compiler acquired UTC: 2026-10-05T09:25:26.093958+00:00
+'NativeAllTwoScaleConfiguration.boundaryWindow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAllTwoScaleConfiguration.boundaryWindow_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAllTwoScaleConfiguration.exists_all_two_scale_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAllTwoScaleConfiguration.fullSchedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleTwoScaleConfiguration.exists_middle_two_scale_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

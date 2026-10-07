@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_scale_menu_successor_readback.lean"]
+SOURCE_SHA256 573e819fa985b3e7c2051d182ba1e579d9a5d91eaf3be71e7a08145d3f3ef4bd
+FIFO compiler ticket: 01791182219399685019-5f6512c322ce4b3e9e1e98773cc3d5b1.request
+FIFO compiler acquired UTC: 2026-10-05T06:36:59.400519+00:00
+'NativeScaleMenuSuccessor.exists_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaleMenuSuccessor.exists_clipped_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaleMenuSuccessor.exists_window_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaleMenuSuccessor.partition_multiplicity_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaleMenuSuccessor.nested_parentEdges_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaleMenuSuccessor.off_menu_parent_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeScaleMenuSuccessor.off_menu_parent_power_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

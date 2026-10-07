@@ -1,0 +1,44 @@
+{
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_one_T.lean",
+  "source_sha256": "d799ede4a407d08b459891725d997df1110993a151550907326aa95b652d81a6",
+  "declaration_count": 5,
+  "namespaces": [
+    "NativeRankTwoXYStageReadback",
+    "NativeActualCoherentHeightCoreFull",
+    "NativeActualXYStageHeightJoinFull"
+  ],
+  "units": [
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_rank_two_XY_stage_readback.lean",
+      "origin_sha256": "b1500d282338ba2653fc70143d9874d678d23462f83b7c9b701edfd44c5e6915",
+      "namespace": "NativeRankTwoXYStageReadback",
+      "declarations": [
+        "NativeRankTwoXYStageReadback.secondDimension",
+        "NativeRankTwoXYStageReadback.extract"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_coherent_height_core_full.lean",
+      "origin_sha256": "fcb25b2b8ce9da2e12d1637363d6c51007d9d23e6e8cf1065bb1061b8bccf0f0",
+      "namespace": "NativeActualCoherentHeightCoreFull",
+      "declarations": [
+        "NativeActualCoherentHeightCoreFull.integral_width",
+        "NativeActualCoherentHeightCoreFull.from_parent_profiles"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_XY_stage_height_join_full.lean",
+      "origin_sha256": "9aa2e1e69d9ce531a12726e6045890cf43dea2e14bb20e527bd4ab24291374df",
+      "namespace": "NativeActualXYStageHeightJoinFull",
+      "declarations": [
+        "NativeActualXYStageHeightJoinFull.from_xy_stage"
+      ]
+    }
+  ],
+  "scope": "UNVERIFIED combined same-E2/one-final-third constructor; original source snapshots preserved. Source state recorded here; no gate launched.",
+  "adaptations": [
+    {
+      "change": "Future import adaptation to the source-passed physical/third combined package; preserves all original namespaces and proof bodies. One-T adds explicit nodePlane namespace opening."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_saturated_angular_power_lower",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_saturated_angular_power_lower.lean",
+  "source_sha256": "ccd7f37999bfad951384dd263791eddd52a3f300cccdf57f2578e4442c68dc39",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_saturated_angular_power_lower.olean",
+  "names": [
+    "NativeSaturatedAngularPowerLower.local_scale_ratio",
+    "NativeSaturatedAngularPowerLower.ancestor_parent_power_upper",
+    "NativeSaturatedAngularPowerLower.actual_angular_scale_ratio",
+    "NativeSaturatedAngularPowerLower.cancel_parent_powers",
+    "NativeSaturatedAngularPowerLower.saturated_reference_power_lower"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T18:32:48.813094+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "6ce7d187d22b0a4155be0cd0078d62a651e89dfc82acb20cc0242f4d3156e094",
+  "source_execution_complete_utc": "2026-10-05T18:33:05.404841+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T183635559885",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSaturatedAngularPowerLower.local_scale_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedAngularPowerLower.ancestor_parent_power_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedAngularPowerLower.actual_angular_scale_ratio": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedAngularPowerLower.cancel_parent_powers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSaturatedAngularPowerLower.saturated_reference_power_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T18:42:31.392052+00:00"
+}

@@ -1,0 +1,129 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/846aa4927fcff9c51f49265a105152ffd4e4cd80ab97e0e038f5a97f7f75ce2d.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean"]
+SOURCE_SHA256 ea07a2aa600976f69925b83de9e9770c5efdbea2851cd06c72c69e5729e1ecc4
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:64:20: error: linarith failed to find a contradiction
+case right
+n : ℕ
+D : FiniteScaleSource n
+eta zeta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+N : ℕ
+hN : 0 < N
+hscale : ↑N * D.thickness ≤ 1
+H :
+  ∀ (p : Parent),
+    {i ∈ R | parentLabel D a N i = p}.Nonempty →
+      D.thickness ^ zeta * (1 / ↑N / D.thickness) ^ 3 ≤ ↑(#({i ∈ R | parentLabel D a N i = p}))
+Q : Finset Parent
+hQ : Q ⊆ image (parentLabel D a N) R
+rep : Parent → Fin n
+hrep : ∀ p ∈ Q, parentLabel D a N (rep p) = p
+sigma : ℝ
+hsigma : 0 ≤ sigma
+c : Fin 3 → ℝ
+hbox :
+  ∀ p ∈ Q,
+    ∀ (j : Fin 3),
+      c j ≤ NativeOriginalCellChartGeometry.slope (D.line (rep p)) j ∧
+        NativeOriginalCellChartGeometry.slope (D.line (rep p)) j ≤ c j + sigma
+F : Fin n → Parent := parentLabel D a N
+A : Finset (Fin n) := {i ∈ R | F i ∈ Q}
+hNr : 0 < ↑N
+hd : 0 < D.thickness
+hAQ : image F A = Q
+hsame : ∀ p ∈ Q, {i ∈ A | F i = p} = {i ∈ R | F i = p}
+i : Fin n
+hi : i ∈ A
+j : Fin 3
+hp : F i ∈ Q
+he : parentLabel D a N i = parentLabel D a N (rep (F i))
+hclose :
+  |NativeOriginalCellChartGeometry.slope (D.line i) j - NativeOriginalCellChartGeometry.slope (D.line (rep (F i))) j| ≤
+    1 / ↑N
+hlo :
+  -(1 / ↑N) ≤
+    NativeOriginalCellChartGeometry.slope (D.line i) j - NativeOriginalCellChartGeometry.slope (D.line (rep (F i))) j
+hhi :
+  NativeOriginalCellChartGeometry.slope (D.line i) j - NativeOriginalCellChartGeometry.slope (D.line (rep (F i))) j ≤
+    1 / ↑N
+hleft : c j ≤ NativeOriginalCellChartGeometry.slope (D.line (rep (F i))) j
+hright : NativeOriginalCellChartGeometry.slope (D.line (rep (F i))) j ≤ c j + sigma
+a✝ : c j - 1 / ↑N + (sigma + 2 / ↑N) < NativeOriginalCellChartGeometry.slope (D.line i) j
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:70:6: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta zeta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+N : ℕ
+hN : 0 < N
+hscale : ↑N * D.thickness ≤ 1
+H :
+  ∀ (p : Parent),
+    {i ∈ R | parentLabel D a N i = p}.Nonempty →
+      D.thickness ^ zeta * (1 / ↑N / D.thickness) ^ 3 ≤ ↑(#({i ∈ R | parentLabel D a N i = p}))
+Q : Finset Parent
+hQ : Q ⊆ image (parentLabel D a N) R
+rep : Parent → Fin n
+hrep : ∀ p ∈ Q, parentLabel D a N (rep p) = p
+sigma : ℝ
+hsigma : 0 ≤ sigma
+c : Fin 3 → ℝ
+hbox :
+  ∀ p ∈ Q,
+    ∀ (j : Fin 3),
+      c j ≤ NativeOriginalCellChartGeometry.slope (D.line (rep p)) j ∧
+        NativeOriginalCellChartGeometry.slope (D.line (rep p)) j ≤ c j + sigma
+F : Fin n → Parent := parentLabel D a N
+A : Finset (Fin n) := {i ∈ R | F i ∈ Q}
+hNr : 0 < ↑N
+hd : 0 < D.thickness
+hAQ : image F A = Q
+hsame : ∀ p ∈ Q, {i ∈ A | F i = p} = {i ∈ R | F i = p}
+hwide :
+  ∀ i ∈ A,
+    ∀ (j : Fin 3),
+      c j - 1 / ↑N ≤ NativeOriginalCellChartGeometry.slope (D.line i) j ∧
+        NativeOriginalCellChartGeometry.slope (D.line i) j ≤ c j - 1 / ↑N + (sigma + 2 / ↑N)
+hdelta : D.thickness ≤ 1 / ↑N
+hpos : 0 < 1 / ↑N
+a✝ : sigma + 2 / ↑N < D.thickness
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:103:47: error(lean.unknownIdentifier): Unknown identifier `Index`
+
+Note: It is not possible to treat `Index` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:113:47: error(lean.unknownIdentifier): Unknown identifier `Index`
+
+Note: It is not possible to treat `Index` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:117:65: error: unsolved goals
+case E
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+a : ℝ
+level b : ℕ
+E : Finset (Fin n × sorry)
+i : Fin #(image (parentLabel D a (2 ^ b)) R)
+⊢ Finset (Fin n × sorry)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:123:47: error(lean.unknownIdentifier): Unknown identifier `Index`
+
+Note: It is not possible to treat `Index` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:128:13: error: Ambiguous term
+  slope
+Possible interpretations:
+  _root_.slope : (?m.38 → ?m.40) → ?m.38 → ?m.38 → ?m.39
+  
+  NativeOriginalCellChartGeometry.slope : MarkedLine → Fin 3 → ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:134:60: error(lean.unknownIdentifier): Unknown identifier `Index`
+
+Note: It is not possible to treat `Index` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:166:60: error(lean.unknownIdentifier): Unknown identifier `Index`
+
+Note: It is not possible to treat `Index` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+
+EXIT_CODE=1

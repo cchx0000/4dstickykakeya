@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_coarse_scale_reverse
+#print axioms NativeCoarseScaleReverse.phaseMenu
+#print axioms NativeCoarseScaleReverse.phaseMenu_card
+#print axioms NativeCoarseScaleReverse.parentMenu
+#print axioms NativeCoarseScaleReverse.parentMenu_card
+#print axioms NativeCoarseScaleReverse.phase_mem_menu
+#print axioms NativeCoarseScaleReverse.parent_mem_menu
+#print axioms NativeCoarseScaleReverse.pair_fiber_image_card_le
+#print axioms NativeCoarseScaleReverse.point_fiber_image_card_le
+#print axioms NativeCoarseScaleReverse.actual_multiplicity_le
+#print axioms NativeCoarseScaleReverse.full_source_multiplicity_le

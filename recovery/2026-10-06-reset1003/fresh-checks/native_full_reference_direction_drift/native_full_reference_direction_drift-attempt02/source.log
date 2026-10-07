@@ -1,0 +1,68 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1314a20e5782898b5dc5c238fe129d51c3fde7f99dcdda05180a3c9017757608.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean"]
+SOURCE_SHA256 18bdb912e93e1c6de3b3e0b95f33aed99804ee93e5b1e8c7cac47900fdde0719
+LOCK_ACQUIRED_UTC 2026-10-06T11:26:01.227194+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:39:46: error: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [v, horizontalSlope, PiLp.sub_apply, ActualSlopeSource.heightPoint_last,
+    ActualSlopeSource.heightPoint_castSucc, sub_self, zero_pow (by decide : 2 ≠ 0), add_zero, Fin.sum_univ_three]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:101:23: error: Ambiguous term
+  source_line
+Possible interpretations:
+  NativeLocalParentSource.source_line : ∀ (h : IsWangZakharovNativeFiniteInput ?m.48 ?m.49) (R : Finset (Fin ?m.47))
+    (E : Finset (Fin ?m.47 × Index)) (a : ℝ) (m : ℕ) (p : Parent) (i : Fin #(parentLabels ?m.48 R a (2 ^ m) p)),
+    (NativeLocalParentSource.source h R E a m p).line i =
+      line ?m.48 a (2 ^ m) p (NativePaddedCellSource.originalLabel (parentLabels ?m.48 R a (2 ^ m) p) i)
+  
+  NativeCoarseCellSource.source_line : ∀ (h : IsWangZakharovNativeFiniteInput ?m.48 ?m.49) (a : ℝ) (level m : ℕ)
+    (Q : Finset Parent) (rep : Parent → Fin ?m.47) (E : Finset (Fin ?m.47 × Index))
+    (hsep :
+      ∀ p ∈ Q,
+        ∀ q ∈ Q,
+          p ≠ q →
+            64 / ↑(2 ^ m) ≤
+              dist (direction (FiniteScaleSource.line ?m.48 (rep p)))
+                (direction (FiniteScaleSource.line ?m.48 (rep q))))
+    (i : Fin #Q),
+    (NativeCoarseCellSource.source h a level m Q rep E hsep).line i =
+      NativeContractedUnitParent.line ?m.48 a (0, 0) (rep (parentIndex Q i))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:100:2: error: unsolved goals
+case refine_2
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref : Finset (Fin n × Index)
+a : ℝ
+m : ℕ
+p : Parent
+i : Fin #(parentLabels D R a (2 ^ m) p)
+v : Fin 4
+k : Fin 3
+⊢ NativeOriginalCellChartGeometry.slope ((NativeLocalParentSource.source h R Eref a m p).line i) k =
+    (localSlope D (2 ^ m) p (NativePaddedCellSource.originalLabel (parentLabels D R a (2 ^ m) p) i)).ofLp k
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:101:6: error: This simp argument is unused:
+  PiLp.toLp_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [horizontalSlope, localHorizontalSlope, ActualSlopeSource.heightPoint_castSucc, source_line,
+    slope_line]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:101:36: error: This simp argument is unused:
+  slope_line
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [horizontalSlope, localHorizontalSlope, ActualSlopeSource.heightPoint_castSucc, PiLp.toLp_apply,
+    source_line]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+LEAN_FINISHED_UTC 2026-10-06T11:28:41.624406+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

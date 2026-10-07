@@ -1,0 +1,16 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/24fee5f39b9a5a2ce177b059be7fec0f96583800fc1a3f9204227349d160a3fc.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_actual_configured_base.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean"]
+SOURCE_SHA256 e7267cc6c50a5f77b8e775e1b05f215f476566e222e65656d3ed1ae89225fb46
+LOCK_ACQUIRED_UTC 2026-10-06T12:41:37.226257+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:98:13: error: Application type mismatch: The argument
+  hHeight
+has type
+  8 * ↑R0 ≤ 1280 * (64 / 2 ^ m / 64) ^ (-(2 * epsilon))
+but is expected to have type
+  ↑(8 * 2 ^ (m - u)) ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilon)
+in the application
+  ⟨?m.1487, hHeight⟩
+LEAN_FINISHED_UTC 2026-10-06T12:45:30.743871+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

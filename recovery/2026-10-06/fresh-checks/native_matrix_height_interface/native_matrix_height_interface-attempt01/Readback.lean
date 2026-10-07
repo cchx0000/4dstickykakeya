@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_matrix_height_interface
+set_option autoImplicit false
+#print axioms NativeMatrixHeightInterface.two_by_one_distance
+#print axioms NativeMatrixHeightInterface.one_by_two_distance
+#print axioms NativeMatrixHeightInterface.entry_count
+#print axioms NativeMatrixHeightInterface.exists_entry_readback
+#print axioms NativeMatrixHeightInterface.select_matrix_points
+#print axioms NativeMatrixHeightInterface.select_matrix_edges

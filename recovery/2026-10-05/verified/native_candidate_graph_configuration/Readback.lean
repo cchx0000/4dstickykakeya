@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_candidate_graph_configuration
+
+#print axioms NativeCandidateGraphConfiguration.exists_candidate_graph_configuration

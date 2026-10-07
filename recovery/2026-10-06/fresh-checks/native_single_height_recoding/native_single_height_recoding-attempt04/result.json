@@ -1,0 +1,51 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_single_height_recoding",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_single_height_recoding.lean",
+  "source_sha256": "ee05bf450c6dbac68fce994be91a5947d1d1b7303490feee30e7b1cb1829f4c7",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_single_height_recoding.olean",
+  "names": [
+    "NativeSingleHeightRecoding.heightColor",
+    "NativeSingleHeightRecoding.select_one_old_height",
+    "NativeSingleHeightRecoding.coarse_height_readback",
+    "NativeSingleHeightRecoding.select_original_edges",
+    "NativeSingleHeightRecoding.frozen_matrix_consistency"
+  ],
+  "started_utc": "2026-10-06T06:31:26.427263+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "6ed1f0970a6bdc385aa0fd6ff00a708a897cc200471d8d3ead9415a892514c76",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeSingleHeightRecoding.heightColor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSingleHeightRecoding.select_one_old_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSingleHeightRecoding.coarse_height_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSingleHeightRecoding.select_original_edges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSingleHeightRecoding.frozen_matrix_consistency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:31:35.763536+00:00"
+}

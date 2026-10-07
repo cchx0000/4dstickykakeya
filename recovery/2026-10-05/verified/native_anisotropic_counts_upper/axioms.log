@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145609599960", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145609599960/AggregateReadback.lean"]
+READBACK_SHA256 725e9c4d01350cb2c236f0e9a9c748b96cb8f32c7edabb5b83ea1a7b6ec31628
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:56:14.897583+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8738504 kB
+'NativeAnisotropicCountsUpper.column_point_image_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicCountsUpper.pair_image_card_le_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicCountsUpper.parent_counts_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicCountsUpper.point_image_card_le_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

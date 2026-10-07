@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_reference_parent_population
+
+#print axioms NativeReferenceParentPopulation.candidate_middle_bounds
+#print axioms NativeReferenceParentPopulation.candidate_middle_square
+#print axioms NativeReferenceParentPopulation.first_cost_density
+#print axioms NativeReferenceParentPopulation.reference_parent_population

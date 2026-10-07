@@ -1,0 +1,77 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/ae774a38805675d0f1a276c8ef858cbfc310b20fa40075437cc9a08023830be8.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_raw_weight_source.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_weight_source.lean"]
+SOURCE_SHA256 39c923583c112bbaccda8ca79c693a7ca6dc738548a5afd1251fa230e1b4a179
+LOCK_ACQUIRED_UTC 2026-10-06T22:08:31.747694+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_weight_source.lean:119:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  #({z ∈ ?m.73 | ?m.59 z ∈ ↑?m.61})
+in the target expression
+  #({z ∈ T | f z ∈ Q}) = ∑ q ∈ Q, #({z ∈ T | f z = q})
+
+n : ℕ
+D : FiniteScaleSource n
+a : ℝ
+m b : ℕ
+p : Parent
+T : Finset (Fin n × Index)
+Q : Finset Parent
+f : Fin n × Index → Parent := fun z => relativeLabel D a (2 ^ m) p (2 ^ b) z.1
+⊢ #({z ∈ T | f z ∈ Q}) = ∑ q ∈ Q, #({z ∈ T | f z = q})
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_weight_source.lean:176:6: error: Tactic `apply` failed: could not unify the conclusion of `mem_filter.mpr`
+  ?m.286 ∈ filter ?m.283 ?m.285
+with the goal
+  doubleLabel D a (2 ^ m) (2 ^ b) p
+      (originalRepresentative h R a m p hp (2 ^ b) (relativeLabel D a (2 ^ m) p (2 ^ b) z.1)) z.1 z.2 3 =
+    v.2 3
+
+Note: The full type of `mem_filter.mpr` is
+  ?m.286 ∈ ?m.285 ∧ ?m.283 ?m.286 → ?m.286 ∈ filter ?m.283 ?m.285
+
+n : ℕ
+D : FiniteScaleSource n
+eta a zeta pExp : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+R : Finset (Fin n)
+level : ℕ
+HB : HasOriginalBackbone D original R a level zeta
+Eref T : Finset (Fin n × Index)
+m b : ℕ
+hm : 6 ≤ m
+hmb : m + b ≤ level
+p : Parent
+hp : (parentLabels D R a (2 ^ m) p).Nonempty
+hbudget : 64 ^ 3 * (source h R Eref a m p).thickness ^ pExp ≤ D.thickness ^ zeta
+hT : T ⊆ incidences original
+hparent : ∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p
+f : Fin n × Index → Parent × Index := doublePair h R a m p hp (2 ^ b)
+C : ℝ := 87808 * (source h R Eref a m p).thickness ^ (-pExp) * (64 / ↑(2 ^ b)) ^ 4
+v : Parent × Index
+A : Finset (Fin n × Index) := {z ∈ T | f z = v}
+H :
+  ∀ A ⊆ incidences original,
+    (∀ z ∈ A, z.1 ∈ relativeAtom D R a (2 ^ m) p (2 ^ b) v.1) →
+      ∀ (rep : Fin n × Index → Fin n) (t : ℤ),
+        (∀ z ∈ A, doubleLabel D a (2 ^ m) (2 ^ b) p (rep z) z.1 z.2 3 = t) →
+          D.thickness * (source h R Eref a m p).thickness ^ 3 * ↑(#A) ≤
+            87808 * (source h R Eref a m p).thickness ^ (-pExp) * (64 / ↑(2 ^ b)) ^ 4
+z : Fin n × Index
+hz : z ∈ A
+⊢ doubleLabel D a (2 ^ m) (2 ^ b) p
+      (originalRepresentative h R a m p hp (2 ^ b) (relativeLabel D a (2 ^ m) p (2 ^ b) z.1)) z.1 z.2 3 =
+    v.2 3
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_weight_source.lean:179:6: error: Type mismatch
+  congrFun (congrArg Prod.snd (mem_filter.mp hz).right) 3
+has type
+  (f z).2 3 = v.2 3
+but is expected to have type
+  z.1 ∈ relativeAtom D R a (2 ^ m) p (2 ^ b) v.1
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_raw_weight_source.lean:324:4: error: Type mismatch: After simplification, term
+  htotal
+ has type
+  r ^ z ≤ normalization D m * ↑(#T)
+but is expected to have type
+  r ^ z ≤ ∑ q ∈ image (parentLabel Sref 0 (2 ^ b)) univ, W q
+LEAN_FINISHED_UTC 2026-10-06T22:19:11.171865+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

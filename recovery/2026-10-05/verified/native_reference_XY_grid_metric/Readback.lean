@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_metric
+
+#print axioms NativeReferenceXYGridMetric.old_height_gap
+#print axioms NativeReferenceXYGridMetric.old_dist_le_raw
+#print axioms NativeReferenceXYGridMetric.raw_dist_le_old
+#print axioms NativeReferenceXYGridMetric.raw_height_gap
+#print axioms NativeReferenceXYGridMetric.old_dist_of_coordinate_bounds
+#print axioms NativeReferenceXYGridMetric.raw_dist_of_coarse_pref
+#print axioms NativeReferenceXYGridMetric.old_dist_of_coarse_XY

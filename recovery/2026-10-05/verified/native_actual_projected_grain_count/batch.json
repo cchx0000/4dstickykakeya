@@ -1,0 +1,54 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:49:12.419803+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134909250044",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134909250044/AggregateReadback.lean"
+  ],
+  "readback_sha256": "6c562c191f2c8c58c1041f457ded7e8da0bb91acbd85c5ef120fb43a4998e99f",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_compatible_plane_variation",
+      "source_sha256": "34763fae21f186b857734ad44838dc04b0a909fe004495d93a39f0ae0f4c505b",
+      "olean_sha256": "503d2cb8b839cdce92aafc4027d46dbcd072a3227de0b893b1b215759d772f10",
+      "names": [
+        "NativeCompatiblePlaneVariation.installed_word_coarsens",
+        "NativeCompatiblePlaneVariation.matching_word_span_variation",
+        "NativeCompatiblePlaneVariation.compatible_installed_span_variation"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_projected_grain_count",
+      "source_sha256": "362d0f41231e953cc6bedc5da055af289f73f3a352ea4a0c1eea5caebd7ab214",
+      "olean_sha256": "14fa515cb6d023415658c200dbe9374ddcc76524bd6cdc4f8822dd395d014249",
+      "names": [
+        "NativeActualProjectedGrainCount.grainWidth",
+        "NativeActualProjectedGrainCount.grainWidth_pos",
+        "NativeActualProjectedGrainCount.projectionLabel",
+        "NativeActualProjectedGrainCount.taggedLabel",
+        "NativeActualProjectedGrainCount.predecessorProduct",
+        "NativeActualProjectedGrainCount.transverseCost",
+        "NativeActualProjectedGrainCount.transverseCost_pos",
+        "NativeActualProjectedGrainCount.actual_projection_minimum_lower",
+        "NativeActualProjectedGrainCount.actual_node_grain_count",
+        "NativeActualProjectedGrainCount.restricted_node_grain_count",
+        "NativeActualProjectedGrainCount.cap_mul_raw_vertices_le",
+        "NativeActualProjectedGrainCount.tagged_same_label_near"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:51:26.210701+00:00",
+  "exit_code": 0
+}

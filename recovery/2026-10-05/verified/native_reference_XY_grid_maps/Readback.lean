@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_maps
+
+#print axioms NativeReferenceXYGridMaps.pxy
+#print axioms NativeReferenceXYGridMaps.coarseXY
+#print axioms NativeReferenceXYGridMaps.pxy_height
+#print axioms NativeReferenceXYGridMaps.coarseXY_x
+#print axioms NativeReferenceXYGridMaps.coarseXY_y
+#print axioms NativeReferenceXYGridMaps.same_floor_abs
+#print axioms NativeReferenceXYGridMaps.floor_neighbor
+#print axioms NativeReferenceXYGridMaps.euclidean_coord_bound
+#print axioms NativeReferenceXYGridMaps.quotient_nodeSlope

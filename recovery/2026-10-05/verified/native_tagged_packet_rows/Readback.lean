@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_tagged_packet_rows
+
+#print axioms NativeTaggedPacketRows.reference
+#print axioms NativeTaggedPacketRows.packetSet
+#print axioms NativeTaggedPacketRows.assignedLabel
+#print axioms NativeTaggedPacketRows.short_closure_tag_subset

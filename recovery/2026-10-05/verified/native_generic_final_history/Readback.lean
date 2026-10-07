@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_generic_final_history
+
+#print axioms NativeGenericFinalHistory.HasPrescribedFinalStage
+#print axioms NativeGenericFinalHistory.prescribed_final_stage_of_history
+#print axioms NativeGenericFinalHistory.prescribed_final_stage_history

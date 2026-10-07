@@ -1,0 +1,27 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T195158800044", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T195158800044/AggregateReadback.lean"]
+READBACK_SHA256 77c57324382053986653c20f6e6bfcc16ca987a471fc39bd135a86d5315f8cac
+Dedicated staging slot 3 acquired UTC: 2026-10-05T19:52:14.942210+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8619888 kB
+'NativeActualPostGraphXY.attach_actual_post_graph_XY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualXYBudgetComparison.actualXYConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualXYBudgetComparison.base_XY_le_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularBallCellCover.angular_ball_cell_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularBallCellCover.angular_ball_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCandidateGraphConfiguration.exists_candidate_graph_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCommonPhiSource.angularCell_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonPhiSource.cellThickness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonPhiSource.cellThickness_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonPhiSource.cellThickness_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonPhiSource.coherent_cell_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonPhiSource.coherent_cell_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCommonPhiSource.localSlope_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExtraGraphConfiguration.exists_extra_graph_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericGraphRank.graph_rank_of_query' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRichAngularImageLower.point_fiber_le_angular_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRichAngularImageLower.rich_class_angular_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

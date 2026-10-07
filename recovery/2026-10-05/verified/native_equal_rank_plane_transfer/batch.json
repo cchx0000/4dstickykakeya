@@ -1,0 +1,35 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T11:27:25.345957+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112724147427",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112724147427/AggregateReadback.lean"
+  ],
+  "readback_sha256": "ec95fd8b8b4f4ba40e9e3b0974c9e9a2f38336cf41b9785ee82bf3be6ce83434",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_equal_rank_plane_transfer",
+      "source_sha256": "b2a2ae4244c17bcc0c2ad6b1b91f99c3ddad99ffacf8d4d860e7ed286def3920",
+      "olean_sha256": "8115e3a5bd845813e422a880827abc05cfa4a415283da2754898136dee727c1a",
+      "names": [
+        "NativeEqualRankPlaneTransfer.projection_residual_eq_infDist",
+        "NativeEqualRankPlaneTransfer.controlled_projection_lift",
+        "NativeEqualRankPlaneTransfer.transfer_near_plane"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T11:28:44.179932+00:00",
+  "exit_code": 0
+}

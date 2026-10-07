@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_native_rank_radius_menu
+
+#print axioms NativeRankRadiusMenu.radius
+#print axioms NativeRankRadiusMenu.radius_pos
+#print axioms NativeRankRadiusMenu.radius_parent_identity
+#print axioms NativeRankRadiusMenu.radius_le_one_div_48
+#print axioms NativeRankRadiusMenu.radius_geometry
+#print axioms NativeRankRadiusMenu.last_depth_ge_half
+#print axioms NativeRankRadiusMenu.last_radius_le_cutoff
+#print axioms NativeRankRadiusMenu.allowed
+#print axioms NativeRankRadiusMenu.allowed_nonempty
+#print axioms NativeRankRadiusMenu.allowed_antitone
+#print axioms NativeRankRadiusMenu.exists_test_radius
+#print axioms NativeRankRadiusMenu.depth_lower_of_radius_cutoff
+#print axioms NativeRankRadiusMenu.relative_power_of_radius_cutoff
+#print axioms NativeRankRadiusMenu.exists_installed_rank_retention

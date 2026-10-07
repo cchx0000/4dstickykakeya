@@ -1,0 +1,159 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T17:06:53.458022+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T170652781040",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T170652781040/AggregateReadback.lean"
+  ],
+  "readback_sha256": "4cb1e4d61069ef5b4501754ea5accd8995a6c702ed517e23839757098f209502",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_fixed_menu_slice_ad",
+      "source_sha256": "ba4fe091eac0a008aaa69e70fb68923714da1c7219d8cff6cde54cafdf9d685b",
+      "olean_sha256": "f82ccbfd465fef5c1d39af35a0dc8daf709b3eeb9a0548d702fcd8ae4f10e6f7",
+      "names": [
+        "NativeFixedMenuSliceAD.menu_gap_cost",
+        "NativeFixedMenuSliceAD.menu_gap_power_cost",
+        "NativeFixedMenuSliceAD.fixed_menu_reference_all_radius_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_horizontal_menu_scale_cost",
+      "source_sha256": "e8b37c25416735aa0dca66b102c08937210b570b86631a43269392115e8bc074",
+      "olean_sha256": "202e75671e1a9ce756ed9c236d7f51e745a83865dac54eaad71065ccdc07a519",
+      "names": [
+        "NativeHorizontalMenuScaleCost.parent_scale_dyadic_span",
+        "NativeHorizontalMenuScaleCost.intrinsic_gap_cost",
+        "NativeHorizontalMenuScaleCost.intrinsic_gap_power_cost"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_realized_slice_geometry",
+      "source_sha256": "03ff64caf6f283dff65de5179c99d77019337566f41c32ef54c428cc033b2388",
+      "olean_sha256": "d740a5f8762a47340145b04583024db32bf9256f769903034bff6a70de491421",
+      "names": [
+        "NativeRealizedSliceGeometry.horizontalMesh_le_eighth",
+        "NativeRealizedSliceGeometry.floor_center_error",
+        "NativeRealizedSliceGeometry.realized_column_error",
+        "NativeRealizedSliceGeometry.realized_point_coordinate_bound",
+        "NativeRealizedSliceGeometry.realized_slice_geometry",
+        "NativeRealizedSliceGeometry.realized_slice_separated"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_slice_ad_constant",
+      "source_sha256": "5ac636d20601970570755d40ec5cc9dddefe5f232b1c523e328318331b022d70",
+      "olean_sha256": "4b1fd7c3b271ad11deae1e1408d8f9cf15627e06be539d3a8afa77c1e89a5cb1",
+      "names": [
+        "NativeSliceADConstant.constant",
+        "NativeSliceADConstant.one_le_constant",
+        "NativeSliceADConstant.ADBounds_of_asymmetric_counts"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_slice_ad",
+      "source_sha256": "b0501b3be41c3c47621f98c8666f5b1707dd7c49c3d4633587c06a8ff0ead666",
+      "olean_sha256": "18aeae5c0fb8b4709d5192ea03550cebb4d203a985e2abddcf57aa7a5fc035b6",
+      "names": [
+        "NativeReferenceSliceAD.fixed_menu_reference_slice_AD"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_translated_grain_height_overlap",
+      "source_sha256": "968ff47cb6753cbd6e94ff308fb9e5faa5fc10e761f882c5032685f6a4cca3d5",
+      "olean_sha256": "53e38b23b14d767cff7830e277c00af6cb2851fa642a4362911e8d5e1cf0007a",
+      "names": [
+        "NativeTranslatedGrainHeightOverlap.floor_shift_carry",
+        "NativeTranslatedGrainHeightOverlap.two_integer_card",
+        "NativeTranslatedGrainHeightOverlap.raw_cell_translated_card",
+        "NativeTranslatedGrainHeightOverlap.translated_cell_raw_card",
+        "NativeTranslatedGrainHeightOverlap.rawHeight",
+        "NativeTranslatedGrainHeightOverlap.translatedHeight",
+        "NativeTranslatedGrainHeightOverlap.rawHeight_readback",
+        "NativeTranslatedGrainHeightOverlap.translatedHeight_readback",
+        "NativeTranslatedGrainHeightOverlap.translatedHeight_column",
+        "NativeTranslatedGrainHeightOverlap.actual_raw_cell_card",
+        "NativeTranslatedGrainHeightOverlap.actual_translated_cell_card",
+        "NativeTranslatedGrainHeightOverlap.floor_shift_distance",
+        "NativeTranslatedGrainHeightOverlap.actual_height_distance",
+        "NativeTranslatedGrainHeightOverlap.actual_height_metric"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_translated_grain_height_selection",
+      "source_sha256": "9eb540d0d4f8a9bf61c7132c9be1fb3cea0153ca7fb6c967d90e428a417a3a37",
+      "olean_sha256": "f543715aa93d29949f05f6d12c3cd93d27869f1f3d29c93601d066f011bfc607",
+      "names": [
+        "NativeTranslatedGrainHeightSelection.first",
+        "NativeTranslatedGrainHeightSelection.second",
+        "NativeTranslatedGrainHeightSelection.first_subset",
+        "NativeTranslatedGrainHeightSelection.second_subset_first",
+        "NativeTranslatedGrainHeightSelection.second_subset",
+        "NativeTranslatedGrainHeightSelection.rawHeight_of_mixed_eq",
+        "NativeTranslatedGrainHeightSelection.first_menu",
+        "NativeTranslatedGrainHeightSelection.second_menu",
+        "NativeTranslatedGrainHeightSelection.first_card_retention",
+        "NativeTranslatedGrainHeightSelection.second_card_retention",
+        "NativeTranslatedGrainHeightSelection.card_retention_four",
+        "NativeTranslatedGrainHeightSelection.selected_uniform",
+        "NativeTranslatedGrainHeightSelection.first_translated_constant",
+        "NativeTranslatedGrainHeightSelection.translated_determines_raw",
+        "NativeTranslatedGrainHeightSelection.second_saturated",
+        "NativeTranslatedGrainHeightSelection.surviving_grain_eq",
+        "NativeTranslatedGrainHeightSelection.surviving_local_retention",
+        "NativeTranslatedGrainHeightSelection.hereditary_alignment"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_translated_grain_height_fibers",
+      "source_sha256": "2366efe142a1db8147215cd5e6b8c48446934b51960f265a69e917681ad71fbe",
+      "olean_sha256": "1590d08bb56e663708c91f8b3a6c8331c0a6e02cf87fc4bc42203b09cd9b9507",
+      "names": [
+        "NativeTranslatedGrainHeightFibers.referenceKey",
+        "NativeTranslatedGrainHeightFibers.referenceX",
+        "NativeTranslatedGrainHeightFibers.referenceKey_column",
+        "NativeTranslatedGrainHeightFibers.mixed_reference_key_eq",
+        "NativeTranslatedGrainHeightFibers.mixed_X_subset_referenceX",
+        "NativeTranslatedGrainHeightFibers.every_reference_fiber_density_cross"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_translated_grain_height_metric",
+      "source_sha256": "ad242770f06a7846ff9ad2dd08d52305e10e685a29bb25b67e3ab3d7e5c30092",
+      "olean_sha256": "a9acf28253c6f9be4ce571841857a29acf2c5c7e431098658dfe13791eb39621",
+      "names": [
+        "NativeTranslatedGrainHeightMetric.rawAt",
+        "NativeTranslatedGrainHeightMetric.rawAt_readback",
+        "NativeTranslatedGrainHeightMetric.mapped",
+        "NativeTranslatedGrainHeightMetric.mapped_readback",
+        "NativeTranslatedGrainHeightMetric.referenceHeight",
+        "NativeTranslatedGrainHeightMetric.referenceHeight_distance",
+        "NativeTranslatedGrainHeightMetric.mapped_metric",
+        "NativeTranslatedGrainHeightMetric.mapped_norm_on_image"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_translated_grain_height_chart",
+      "source_sha256": "747a960e340adf66ce4f10e7c630ba58a9a3e7095110f24b20e46edc87f2259f",
+      "olean_sha256": "940534f42c480b8abb6d8a498e690dd5361e8ce1dfd210bf61a4fbddde061750",
+      "names": [
+        "NativeTranslatedGrainHeightChart.raw_chart_distance",
+        "NativeTranslatedGrainHeightChart.mapped_chart_metric"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T17:06:58.231454+00:00",
+  "exit_code": 0
+}

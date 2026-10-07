@@ -1,0 +1,27 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164628582946", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164628582946/AggregateReadback.lean"]
+READBACK_SHA256 db70064041fb3df7132ded22be00f5297695f94bd669ae5f26a346786de688a2
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:46:29.320011+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8789464 kB
+'NativeRetainedGrainDensityCore.exists_slice_grain_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedGrainDensityCore.grainRelations' depends on axioms: [propext, Quot.sound]
+'NativeRetainedGrainDensityCore.grainRelations_refl' depends on axioms: [propext, Quot.sound]
+'NativeRetainedGrainDensityCore.grainRelations_symm' depends on axioms: [propext, Quot.sound]
+'NativeRetainedGrainDensityTransfer.extra_relation_grain_uniformity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRetainedGrainDensityTransfer.original_grain_count_cross' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRetainedGrainDensityTransfer.retained_grain_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedGrainDensityTransfer.retained_grain_density_two_stage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSliceRadiusInterpolation.adjacent_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceRadiusInterpolation.all_radius_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceRadiusInterpolation.ballCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceRadiusInterpolation.ballCount_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceRadiusInterpolation.bracket_real_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceRadiusInterpolation.radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceRadiusInterpolation.radius_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

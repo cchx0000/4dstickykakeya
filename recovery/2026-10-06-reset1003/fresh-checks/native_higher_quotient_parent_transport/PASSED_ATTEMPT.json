@@ -1,0 +1,185 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_higher_quotient_parent_transport",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_higher_quotient_parent_transport.lean",
+  "source_sha256": "cbffcba7d5c016e35b3ff4d76523da082b37fa6b6c39dbf3985e437190e93d1f",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_higher_quotient_parent_transport.olean",
+  "names": [
+    "NativeHigherQuotientParentTransport.timeOrigin",
+    "NativeHigherQuotientParentTransport.horizontalScale",
+    "NativeHigherQuotientParentTransport.horizontalScale_nonneg",
+    "NativeHigherQuotientParentTransport.horizontalScale_pos",
+    "NativeHigherQuotientParentTransport.higherX",
+    "NativeHigherQuotientParentTransport.higherY",
+    "NativeHigherQuotientParentTransport.tangentShift",
+    "NativeHigherQuotientParentTransport.quotientShift",
+    "NativeHigherQuotientParentTransport.physical_height",
+    "NativeHigherQuotientParentTransport.physical_coordinate",
+    "NativeHigherQuotientParentTransport.old_height_readback",
+    "NativeHigherQuotientParentTransport.carriedField",
+    "NativeHigherQuotientParentTransport.carriedField_readback",
+    "NativeHigherQuotientParentTransport.higherX_readback",
+    "NativeHigherQuotientParentTransport.higherY_readback",
+    "NativeHigherQuotientParentTransport.carried_quotient_readback",
+    "NativeHigherQuotientParentTransport.graph_representation",
+    "NativeHigherQuotientParentTransport.higherX_difference_same_height",
+    "NativeHigherQuotientParentTransport.higherX_distance_same_height",
+    "NativeHigherQuotientParentTransport.higherY_difference_same_height",
+    "NativeHigherQuotientParentTransport.higherY_distance_same_height",
+    "NativeHigherQuotientParentTransport.higherY_image",
+    "NativeHigherQuotientParentTransport.higherX_image",
+    "NativeHigherQuotientParentTransport.higherY_image_card",
+    "NativeHigherQuotientParentTransport.higherX_image_card",
+    "NativeHigherQuotientParentTransport.higherY_fiber_indices",
+    "NativeHigherQuotientParentTransport.quotient_error_of_point_motion"
+  ],
+  "started_utc": "2026-10-06T10:49:55.234431+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "5e97ffe703fb5142353fa851dc49bfb803f97441d57eda16d52cb26ed280391a",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeHigherQuotientParentTransport.timeOrigin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.horizontalScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.horizontalScale_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.horizontalScale_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherX": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherY": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.tangentShift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.quotientShift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.physical_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.physical_coordinate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.old_height_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.carriedField": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.carriedField_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherX_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherY_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.carried_quotient_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.graph_representation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherX_difference_same_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherX_distance_same_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherY_difference_same_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherY_distance_same_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherY_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherX_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherY_image_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherX_image_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.higherY_fiber_indices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherQuotientParentTransport.quotient_error_of_point_motion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T10:55:53.329826+00:00",
+  "canonical_scope": "new_canonical_module"
+}

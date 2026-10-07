@@ -1,0 +1,32 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155557747544", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155557747544/AggregateReadback.lean"]
+READBACK_SHA256 3fb496f9ce847969ef94c6d0eaa09da38b87b90cb3495708212e04c4bce6d798
+Dedicated staging slot 3 acquired UTC: 2026-10-05T15:55:58.540282+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8774404 kB
+'NativeGrainQuotientBins.box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.box_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.diameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.diameter_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.exists_dense_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.exists_dense_quotient_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.heightFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.height_fiber_diameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.label_mem_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.mixed_occupied_quotient_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.occupied_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientBins.rawCoordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.exists_height_slope_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.fine_heightNode_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.heightSlope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.heightSlope_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.heightSlope_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.heightSlope_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.heightSlope_zero_off' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.matrixVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.nodeSlope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.nodeSlope_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.nodeSlope_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.nodeSlope_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightSlopeCoordinates.nodeSlope_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

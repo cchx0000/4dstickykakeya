@@ -1,0 +1,8 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134000612481", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134000612481/AggregateReadback.lean"]
+READBACK_SHA256 8fcbb16015c4882764a9f76fa25f92aaf407afcbda57f4b8e8097007bec5b18e
+Dedicated staging slot 3 acquired UTC: 2026-10-05T13:40:02.676495+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8759708 kB
+'NativePreservedNodePlanes.incident_near_chosen_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePreservedNodePlanes.incident_near_grain_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

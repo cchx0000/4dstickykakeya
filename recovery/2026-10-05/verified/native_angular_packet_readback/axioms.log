@@ -1,0 +1,12 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T101939684950", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T101939684950/AggregateReadback.lean"]
+READBACK_SHA256 c686ab2cee9d50a8009cf184d0920316857fd881ecede5e783ae68429a159e49
+Dedicated staging slot 3 acquired UTC: 2026-10-05T10:24:29.305303+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8129068 kB
+'NativeAngularPacketReadback.original_tube_packet_from_angular_label' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAngularPacketReadback.same_angular_slopeVector_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSecondRefinementCost.exists_second_refinement_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSecondRefinementCost.retained_cost_le_factor' depends on axioms: [propext, Quot.sound]
+
+EXIT_CODE=0

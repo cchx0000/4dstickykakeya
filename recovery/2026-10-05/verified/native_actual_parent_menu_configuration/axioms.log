@@ -1,0 +1,14 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160440086469", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160440086469/AggregateReadback.lean"]
+READBACK_SHA256 39de8fe52bbbd0b560e452d9739cc7a9dcbebe4c1b6737866f6b5efaf59a4629
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:04:40.826159+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8784180 kB
+'NativeActualParentMenuConfiguration.HasHorizontalFinalStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualParentMenuConfiguration.callerRelations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualParentMenuConfiguration.exists_actual_parent_menu_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualParentMenuConfiguration.stage_with_horizontal_menu' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

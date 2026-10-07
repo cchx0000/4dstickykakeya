@@ -1,0 +1,81 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_scalar_katz_tao_slope_bound",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_scalar_katz_tao_slope_bound.lean",
+  "source_sha256": "66107be4177df35a6221d834d09d0d5905a16ce000d048777cfc661b426eec50",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_scalar_katz_tao_slope_bound.olean",
+  "names": [
+    "ScalarKatzTaoSlopeBound.intervalCells",
+    "ScalarKatzTaoSlopeBound.IntervalKatzTao",
+    "ScalarKatzTaoSlopeBound.four_scale_power",
+    "ScalarKatzTaoSlopeBound.global_cells_bound",
+    "ScalarKatzTaoSlopeBound.noisy_witness_interval",
+    "ScalarKatzTaoSlopeBound.noisy_cells_upper",
+    "ScalarKatzTaoSlopeBound.density_cells_lower",
+    "ScalarKatzTaoSlopeBound.ratio_power_bound",
+    "ScalarKatzTaoSlopeBound.noisy_slope_power",
+    "ScalarKatzTaoSlopeBound.scalar_slope_bound"
+  ],
+  "started_utc": "2026-10-06T09:27:02.970875+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "57feb544ba2e445c09ef35b941dca9c2af7f679e3998e782005afdd33cd1fb18",
+  "readback_exit_code": 0,
+  "axioms": {
+    "ScalarKatzTaoSlopeBound.intervalCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ScalarKatzTaoSlopeBound.IntervalKatzTao": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ScalarKatzTaoSlopeBound.four_scale_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ScalarKatzTaoSlopeBound.global_cells_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ScalarKatzTaoSlopeBound.noisy_witness_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ScalarKatzTaoSlopeBound.noisy_cells_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ScalarKatzTaoSlopeBound.density_cells_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ScalarKatzTaoSlopeBound.ratio_power_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ScalarKatzTaoSlopeBound.noisy_slope_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ScalarKatzTaoSlopeBound.scalar_slope_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T09:34:10.362258+00:00"
+}

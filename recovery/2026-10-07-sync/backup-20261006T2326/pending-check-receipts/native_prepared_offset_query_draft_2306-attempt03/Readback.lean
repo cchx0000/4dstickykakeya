@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_prepared_offset_query_draft_2306
+set_option autoImplicit false
+#print axioms NativePreparedOffsetQueryDraft2306.depth
+#print axioms NativePreparedOffsetQueryDraft2306.intermediate_depth_lower
+#print axioms NativePreparedOffsetQueryDraft2306.coherence_depth_guards
+#print axioms NativePreparedOffsetQueryDraft2306.exists_actual_offset_query
+#print axioms NativePreparedOffsetQueryDraft2306.gap_at_native_mesh
+#print axioms NativePreparedOffsetQueryDraft2306.exists_native_paid_query

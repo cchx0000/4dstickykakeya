@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_boundary_depths
+
+#print axioms NativeBoundaryDepths.lowerAnchor
+#print axioms NativeBoundaryDepths.upperAnchor
+#print axioms NativeBoundaryDepths.anchor_bounds
+#print axioms NativeBoundaryDepths.lower_gap
+#print axioms NativeBoundaryDepths.upper_gap
+#print axioms NativeBoundaryDepths.remaining_gap
+#print axioms NativeBoundaryDepths.initial_gap
+#print axioms NativeBoundaryDepths.boundaryWindow
+#print axioms NativeBoundaryDepths.boundaryWindow_pos
+#print axioms NativeBoundaryDepths.boundaryWindow_le_quarter
+#print axioms NativeBoundaryDepths.boundaryWindow_le_loss

@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/05e0f9ae09e03642cbe1f919195a0b5ccea1a07d3b7f5f90bd82d02e12092c65.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_capped_old_ancestors.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_capped_old_ancestors.lean"]
+SOURCE_SHA256 ce4c87f3e7dae1d0bbe6d1be472ea6f13d527fe2bb01e794cec06c9a2ddf25e7
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_capped_old_ancestors.lean:29:17: error(lean.unknownIdentifier): Unknown identifier `b`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_capped_old_ancestors.lean:112:47: error(lean.unknownIdentifier): Unknown identifier `b`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_capped_old_ancestors.lean:131:4: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+
+EXIT_CODE=1

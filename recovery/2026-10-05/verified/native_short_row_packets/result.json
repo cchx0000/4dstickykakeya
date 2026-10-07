@@ -1,0 +1,110 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_short_row_packets",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_short_row_packets.lean",
+  "source_sha256": "786280c930e7f108fc65146466e082531edd037b79ac1226b75b0c1128692c0c",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_short_row_packets.olean",
+  "names": [
+    "NativeShortRowPackets.shortEdges",
+    "NativeShortRowPackets.shortCells",
+    "NativeShortRowPackets.shortVertices",
+    "NativeShortRowPackets.shortVertexClosure",
+    "NativeShortRowPackets.shortVertices_eq_cells_image",
+    "NativeShortRowPackets.projected_image_eq_rowChildren",
+    "NativeShortRowPackets.projected_short_height",
+    "NativeShortRowPackets.short_member_readback",
+    "NativeShortRowPackets.short_member_packet",
+    "NativeShortRowPackets.short_vertex_witness",
+    "NativeShortRowPackets.short_vertex_cube_packet",
+    "NativeShortRowPackets.short_vertex_rounded_packet",
+    "NativeShortRowPackets.short_vertex_rounded_height",
+    "NativeShortRowPackets.short_vertex_closure_packet"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T11:57:53.521308+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "a2d5bd560ac8562dafe572dd2aa8aacae5373675721e4dc0130504c67554d675",
+  "source_execution_complete_utc": "2026-10-05T12:07:11.938673+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T121214248540",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeShortRowPackets.shortEdges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.shortCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.shortVertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.shortVertexClosure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.shortVertices_eq_cells_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.projected_image_eq_rowChildren": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.projected_short_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.short_member_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.short_member_packet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.short_vertex_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.short_vertex_cube_packet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.short_vertex_rounded_packet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.short_vertex_rounded_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeShortRowPackets.short_vertex_closure_packet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:16:18.517227+00:00"
+}

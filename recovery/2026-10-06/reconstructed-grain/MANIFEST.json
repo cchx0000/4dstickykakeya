@@ -1,0 +1,76 @@
+{
+  "reconstructed_utc": "2026-10-06T04:42:12.314437+00:00",
+  "provenance": "Visible conversation source patches and fixes only; no recovered original files or Lean result artifacts were available.",
+  "status": "UNVERIFIED",
+  "files": [
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_current_source_directions.lean",
+      "sha256": "1dabe237dd21ae97d717580d5165b8148c002702498e35af7def216b05f43575",
+      "bytes": 4626,
+      "declarations": [
+        "local_source_slopeVector",
+        "coarse_source_slopeVector",
+        "relative_graph_distance",
+        "representative_infDist"
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_current_source_geometry.lean",
+      "sha256": "0072f65b52098dc073b8e1cbaf450fa2459ccfbebe07442a05dfd8022db38e36",
+      "bytes": 8157,
+      "declarations": [
+        "final_scale",
+        "final_mesh",
+        "second_front_homothety",
+        "double_front_oldPoint_error",
+        "final_center_rawPoint_error"
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_sparse_coarse_admission.lean",
+      "sha256": "bba52637afc00604f3d0a6c02b701b3faa85b8fe7d8005d73118ee3ce2063c9a",
+      "bytes": 6121,
+      "declarations": [
+        "current_selected_cell_budget",
+        "native_sparse_coarse_source"
+      ],
+      "status": "UNVERIFIED"
+    },
+    {
+      "file": "Theorems/Thm_StickyKakeya4_native_sparse_coarse_selection.lean",
+      "sha256": "d192985687b38d407b9689fedab4bc4147630832ac2beac8330b74f35aa8f2f5",
+      "bytes": 6594,
+      "declarations": [
+        "power_at_coarse_scale",
+        "sparse_coarse_selection"
+      ],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "excluded": [
+    "native_current_retained_source: stronger T-native route, off integration",
+    "native_current_final_mesh_source: obsolete unverified stronger-route draft",
+    "native_current_reference_shading and native_current_reference_readback: pre-21:00 files expected in backup, not reconstructed"
+  ],
+  "context_hash_checks": {
+    "selection_attempt03": {
+      "expected": "27728ca1528811e7d41f0b4df19af8e98665a56c6a89ab0eddbfc8ed8aecf461",
+      "reconstructed_body_sha256": "27728ca1528811e7d41f0b4df19af8e98665a56c6a89ab0eddbfc8ed8aecf461",
+      "match": true
+    },
+    "geometry_attempt03_before_last_fix": {
+      "expected": "330da51e3a5b6df2a81d1a8a743429bcfb97932a9348380aeb9967501835ca75",
+      "reconstructed_previous_sha256": "330da51e3a5b6df2a81d1a8a743429bcfb97932a9348380aeb9967501835ca75",
+      "match": true
+    },
+    "directions_attempt01_before_last_fixes": {
+      "expected": "54c9eed5dea938dda7882d72e96989b0bc955a4f24e56a78c874e1c8a3f70860",
+      "reconstructed_previous_sha256": "54c9eed5dea938dda7882d72e96989b0bc955a4f24e56a78c874e1c8a3f70860",
+      "match": true
+    }
+  },
+  "verification_note": "Hash checks establish reconstruction fidelity only. No Lean compilation or imported-axiom audit was run in this environment.",
+  "integrity_checked_utc": "2026-10-06T04:42:25.698913+00:00"
+}

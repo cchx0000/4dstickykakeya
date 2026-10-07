@@ -1,0 +1,54 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:25:02.227994+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T152501430917",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T152501430917/AggregateReadback.lean"
+  ],
+  "readback_sha256": "ede8c34c7a864608365c3aab8c8b216a5c206309b899f67002cd5c06f93f67cb",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_early_window_successor",
+      "source_sha256": "387d37549b3b913bbd6a40c24d662a59d69b792506fef096fc4a4d8f6de9f365",
+      "olean_sha256": "ae7de1058ce6201923a574b183d9cade4bdb8f94df5d8b2e32d3f28cf33e7309",
+      "names": [
+        "NativeEarlyWindowSuccessor.exists_early_successor",
+        "NativeEarlyWindowSuccessor.exists_early_successor_power"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_paid_parent_scale_budget",
+      "source_sha256": "a523524bdfea24a13f0110dfce9466b7ab0f855bb5b821796ff4ad768fe259c9",
+      "olean_sha256": "eb6e0fc6db02dc36856647a68458a20937bf9c29044369f0568ec03eb25babc6",
+      "names": [
+        "NativePaidParentScaleBudget.uniform_radix_pos",
+        "NativePaidParentScaleBudget.geometry_radix_cost",
+        "NativePaidParentScaleBudget.transfer_denominator_cost",
+        "NativePaidParentScaleBudget.absorbed_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_window_paid_parent_lower",
+      "source_sha256": "07c5aef2937401d50dcc4c4711dc1b1c7a6c72b59242b5a3aa711022ad014c60",
+      "olean_sha256": "66adc40fb9c5d1098cfe7da7933bf213e79d2be253f447ad2bd586a14167b276",
+      "names": [
+        "NativeWindowPaidParentLower.window_parent_power_lower",
+        "NativeWindowPaidParentLower.master_parent_power_lower"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:25:07.552404+00:00",
+  "exit_code": 0
+}

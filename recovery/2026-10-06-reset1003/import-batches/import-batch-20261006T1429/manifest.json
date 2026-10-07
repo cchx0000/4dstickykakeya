@@ -1,0 +1,49 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T14:29:42.406342+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_translated_height_freeze",
+    "Theorems.Thm_StickyKakeya4_native_graph_point_cuts"
+  ],
+  "names": [
+    "NativeTranslatedHeightFreeze.reference_height_coarse_floor",
+    "NativeTranslatedHeightFreeze.frozen",
+    "NativeTranslatedHeightFreeze.frozen_readback",
+    "NativeTranslatedHeightFreeze.select_and_freeze",
+    "NativeGraphPhysicalLocalization.cut",
+    "NativeGraphPhysicalLocalization.cut_subset",
+    "NativeGraphPhysicalLocalization.cut_nonempty",
+    "NativeGraphPhysicalLocalization.cut_full_tube_fiber",
+    "NativeGraphPhysicalLocalization.cut_point_cell"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1429.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1429",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1429/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T14:34:29.791509+00:00",
+  "results": [
+    {
+      "attempt": "native_translated_height_freeze-attempt02",
+      "state": "passed",
+      "declarations": 4
+    },
+    {
+      "attempt": "native_graph_point_cuts-attempt02",
+      "state": "passed",
+      "declarations": 5
+    }
+  ]
+}

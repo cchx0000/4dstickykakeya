@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_variable_height_counts_upper
+
+#print axioms NativeVariableHeightCountsUpper.column_point_image_card_le
+#print axioms NativeVariableHeightCountsUpper.point_image_card_le_columns
+#print axioms NativeVariableHeightCountsUpper.pair_image_card_le_columns
+#print axioms NativeVariableHeightCountsUpper.parent_counts_upper

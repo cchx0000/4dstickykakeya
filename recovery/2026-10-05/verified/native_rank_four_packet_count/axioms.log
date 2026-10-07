@@ -1,0 +1,14 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140202961315", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140202961315/AggregateReadback.lean"]
+READBACK_SHA256 c0a7551f66f087df34b5bd12a5e23e67edaa5b0c6edf9fe372712e1b60fad9c5
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:02:03.786354+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8773276 kB
+'NativeHistoryGrainCount.actual_global_grain_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryGrainCount.history_grain_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryGrainCount.scale_predecessor_product_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryGrainCount.tagged_card_le_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourPacketCount.current_node_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourPacketCount.four_stage_vertex_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourPacketCount.ratio_le_ceilDiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourPacketCount.retained_node_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

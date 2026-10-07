@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_Y_common_scale_selection
+set_option autoImplicit false
+#print axioms NativeYCommonScaleSelection.menu_card
+#print axioms NativeYCommonScaleSelection.select_common

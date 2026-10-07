@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_grain_height_projection_density
+
+set_option autoImplicit false
+#print axioms NativeGrainHeightProjectionDensity.quotient_cost_le_fourth
+#print axioms NativeGrainHeightProjectionDensity.source_exists_dense_wholeX

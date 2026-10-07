@@ -1,0 +1,69 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_same_reference_chart_bounds",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.lean",
+  "source_sha256": "24a450096576108f385a509a717e9ea09341c4b0cb06a2f02ff8f6308b57343c",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.olean",
+  "names": [
+    "NativeSameReferenceChartBounds.population_through",
+    "NativeSameReferenceChartBounds.source_scale_guard",
+    "NativeSameReferenceChartBounds.full_chart_count_depth",
+    "NativeSameReferenceChartBounds.tube_count_congr",
+    "NativeSameReferenceChartBounds.full_thickness",
+    "NativeSameReferenceChartBounds.full_tube_count_depth",
+    "NativeSameReferenceChartBounds.chart_bounds_of_populations",
+    "NativeSameReferenceChartBounds.same_reference_chart_bounds"
+  ],
+  "started_utc": "2026-10-06T09:06:19.522026+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "3635681d5ee0ee5998906305288777138221c442503c2702edd6b7e184a6b256",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeSameReferenceChartBounds.population_through": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameReferenceChartBounds.source_scale_guard": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameReferenceChartBounds.full_chart_count_depth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameReferenceChartBounds.tube_count_congr": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameReferenceChartBounds.full_thickness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameReferenceChartBounds.full_tube_count_depth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameReferenceChartBounds.chart_bounds_of_populations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSameReferenceChartBounds.same_reference_chart_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T09:13:30.335471+00:00"
+}

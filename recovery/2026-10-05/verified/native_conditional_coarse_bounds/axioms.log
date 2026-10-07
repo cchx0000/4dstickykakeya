@@ -1,0 +1,8 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_conditional_coarse_bounds_readback.lean"]
+SOURCE_SHA256 d4b3192d509680c543fba2abb10775733a4799c348c532c5ef837b113b71ddf1
+FIFO compiler ticket: 01791185296231907470-4d3ffca1d30d4231a52a1737e63ed7c1.request
+FIFO compiler acquired UTC: 2026-10-05T07:28:16.232517+00:00
+'NativeConditionalCoarseBounds.physical_to_relative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalCoarseBounds.physical_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_joint_uniform_coarse_relations
+#print axioms NativeJointUniformCoarseRelations.menuSize
+#print axioms NativeJointUniformCoarseRelations.menuSize_eq
+#print axioms NativeJointUniformCoarseRelations.physicalPair
+#print axioms NativeJointUniformCoarseRelations.physicalPoint
+#print axioms NativeJointUniformCoarseRelations.formalPair
+#print axioms NativeJointUniformCoarseRelations.relationMenu
+#print axioms NativeJointUniformCoarseRelations.HasUniformFibers
+#print axioms NativeJointUniformCoarseRelations.unit_degree_eq_fiber
+#print axioms NativeJointUniformCoarseRelations.HasJointScale
+#print axioms NativeJointUniformCoarseRelations.joint_uniform_coarse_relations

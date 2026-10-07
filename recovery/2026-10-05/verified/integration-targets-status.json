@@ -1,0 +1,28 @@
+{
+  "state": "passed",
+  "source_commit": "5f8ecd03d7562bb5bad9541ed73175d25db5f90b",
+  "project_module_count": 290,
+  "full_project_build": false,
+  "command": [
+    "bash",
+    "-c",
+    "source /workspace/scratch/5f2524fd4117/lean-tools/environment.sh\nexec ./scripts/build-bounded.sh \"$@\"",
+    "integration-targets",
+    "Theorems.Thm_StickyKakeya4_original_uniform_weak_robust_projection",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_physical_map",
+    "Theorems.Thm_StickyKakeya4_native_coarse_direction_thinning",
+    "Theorems.Thm_StickyKakeya4_native_relative_parent_labels",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_ad",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_volume",
+    "Theorems.Thm_StickyKakeya4_native_local_cell_coherence",
+    "Theorems.Thm_StickyKakeya4_native_local_pair_fibers",
+    "Theorems.Thm_StickyKakeya4_native_local_pair_uniform_core",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_multiplicity",
+    "Theorems.Thm_StickyKakeya4_native_scheduled_local_multiplicity",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_cw"
+  ],
+  "executor_start_utc": "2026-10-05T05:03:18.281591+00:00",
+  "exit_code": 0,
+  "changed_sources": [],
+  "executor_finished_utc": "2026-10-05T05:10:46.929730+00:00"
+}

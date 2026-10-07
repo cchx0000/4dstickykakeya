@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_rich_angular_rank_payment
+
+#print axioms NativeRichAngularRankPayment.third_cost
+#print axioms NativeRichAngularRankPayment.cancel_rich_class

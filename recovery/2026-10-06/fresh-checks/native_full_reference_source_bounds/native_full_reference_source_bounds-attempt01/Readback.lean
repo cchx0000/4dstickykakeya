@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_full_reference_source_bounds
+set_option autoImplicit false
+#print axioms NativeFullReferenceSourceBounds.exists_full_reference_source_bounds

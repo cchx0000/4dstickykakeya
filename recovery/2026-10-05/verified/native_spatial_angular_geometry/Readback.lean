@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_spatial_angular_geometry
+
+#print axioms NativeSpatialAngularGeometry.spatialLabel
+#print axioms NativeSpatialAngularGeometry.angularLabel
+#print axioms NativeSpatialAngularGeometry.parent_angular
+#print axioms NativeSpatialAngularGeometry.integerBox
+#print axioms NativeSpatialAngularGeometry.integerBox_card
+#print axioms NativeSpatialAngularGeometry.floor_mem_interval
+#print axioms NativeSpatialAngularGeometry.same_cell_coordinate_close
+#print axioms NativeSpatialAngularGeometry.spatial_coordinate_close
+#print axioms NativeSpatialAngularGeometry.chart_spatial_sub
+#print axioms NativeSpatialAngularGeometry.oldTime_sub
+#print axioms NativeSpatialAngularGeometry.physicalMap_zero_sub
+#print axioms NativeSpatialAngularGeometry.intercept_close
+#print axioms NativeSpatialAngularGeometry.phase_parent_image_card

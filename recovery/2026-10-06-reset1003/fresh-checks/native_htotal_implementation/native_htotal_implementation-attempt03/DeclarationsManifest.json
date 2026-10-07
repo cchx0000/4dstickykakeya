@@ -1,0 +1,163 @@
+{
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean",
+  "source_sha256": "9472c6de9ecabadbc69db2a329733053d5d931293b316cdc0e68b36e8b0a1d68",
+  "declaration_count": 41,
+  "namespaces": [
+    "NativeWholeYGraphRetention",
+    "NativeActualCommonYGraphMass",
+    "NativeCommonYTotalBudget",
+    "NativeActualYTotalMass",
+    "NativeBaselineThirdRetentionTrace",
+    "NativeYTotalParameterOrder",
+    "NativeActualBaselineRetentionPayment",
+    "NativeYTotalEpsilonBudget",
+    "NativeActualYEpsilonTotalMass",
+    "NativeReferenceAdmissionInvariance",
+    "NativePrescribedReferenceAdmission",
+    "NativeYSourceParameterLedger"
+  ],
+  "units": [
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_whole_Y_graph_retention.lean",
+      "origin_sha256": "6de64dc53fb0bad0d3664c51d9682bbe6c0492b948d4b07ae2de4162da248b67",
+      "namespace": "NativeWholeYGraphRetention",
+      "declarations": [
+        "NativeWholeYGraphRetention.graph_retention",
+        "NativeWholeYGraphRetention.select_actual_common_graph",
+        "NativeWholeYGraphRetention.localSigma",
+        "NativeWholeYGraphRetention.localSigma_pos",
+        "NativeWholeYGraphRetention.fraction_eq_localSigma",
+        "NativeWholeYGraphRetention.total_fiber_weight"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_common_Y_graph_mass.lean",
+      "origin_sha256": "d99a9140f9bba2f68f582c42f070907fd40dd748f7a70c9527171b2a2e2a0eb2",
+      "namespace": "NativeActualCommonYGraphMass",
+      "declarations": [
+        "NativeActualCommonYGraphMass.caller_uniformities",
+        "NativeActualCommonYGraphMass.exists_actual_common_mass"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_common_Y_total_budget.lean",
+      "origin_sha256": "5ccfd1ab1d7dec1a4082144fe8bbddc004d455f2d1210cf545ed7efcb2edd4a5",
+      "namespace": "NativeCommonYTotalBudget",
+      "declarations": [
+        "NativeCommonYTotalBudget.fine_mesh_eq",
+        "NativeCommonYTotalBudget.input_mesh_eq",
+        "NativeCommonYTotalBudget.source_thickness_sq_le_original",
+        "NativeCommonYTotalBudget.radix_cost_from_raw",
+        "NativeCommonYTotalBudget.local_sigma_from_gap",
+        "NativeCommonYTotalBudget.exists_total_cutoff",
+        "NativeCommonYTotalBudget.pay_actual_graph_mass"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_Y_total_mass.lean",
+      "origin_sha256": "faf8d1a1a3bcf832286edc633274af1276cd0875f3fadd58d822cc8e2d8acd9d",
+      "namespace": "NativeActualYTotalMass",
+      "declarations": [
+        "NativeActualYTotalMass.exists_actual_total_mass"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_baseline_third_retention_trace.lean",
+      "origin_sha256": "4db0eb21b978f27cb0254a369c7212d29989530b5aac045473511e3d3fe169eb",
+      "namespace": "NativeBaselineThirdRetentionTrace",
+      "declarations": [
+        "NativeBaselineThirdRetentionTrace.from_third_source"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_Y_total_parameter_order.lean",
+      "origin_sha256": "f64c63810c848c0bff65fddf824449f58f063bdacbb7ccbb5786e8f22bb31979",
+      "namespace": "NativeYTotalParameterOrder",
+      "declarations": [
+        "NativeYTotalParameterOrder.exists_planar_loss",
+        "NativeYTotalParameterOrder.exists_source_taxes"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_baseline_retention_payment.lean",
+      "origin_sha256": "ec808efaa1d31686f216cc754d1bfa5adbc6af5132f5bab98fffce69fdd48be1",
+      "namespace": "NativeActualBaselineRetentionPayment",
+      "declarations": [
+        "NativeActualBaselineRetentionPayment.continuation_cost_readback",
+        "NativeActualBaselineRetentionPayment.final_third_allowance",
+        "NativeActualBaselineRetentionPayment.baseline_factor_identity",
+        "NativeActualBaselineRetentionPayment.exists_actual_retention_cutoff"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_Y_total_epsilon_budget.lean",
+      "origin_sha256": "de50faad4fad27fcd6d713454325bc08627824c26a316c3e8ab05e79cda86689",
+      "namespace": "NativeYTotalEpsilonBudget",
+      "declarations": [
+        "NativeYTotalEpsilonBudget.radix_cost_at_epsilon",
+        "NativeYTotalEpsilonBudget.exists_epsilon_cutoff",
+        "NativeYTotalEpsilonBudget.pay_actual_graph_mass_at_epsilon",
+        "NativeYTotalEpsilonBudget.actual_third_tax"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_Y_epsilon_total_mass.lean",
+      "origin_sha256": "c8ca1f2d15f23c856298ba3012d02846be469c000d8112654f7252ded65fd51b",
+      "namespace": "NativeActualYEpsilonTotalMass",
+      "declarations": [
+        "NativeActualYEpsilonTotalMass.exists_actual_total_mass"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_reference_admission_invariance.lean",
+      "origin_sha256": "ef3a3ff6576df28ce3c3693b00c22d6039d77dae9c9bdc842cdc297fc13e12b9",
+      "namespace": "NativeReferenceAdmissionInvariance",
+      "declarations": [
+        "NativeReferenceAdmissionInvariance.sourceCells_parent_eq",
+        "NativeReferenceAdmissionInvariance.source_parent_eq",
+        "NativeReferenceAdmissionInvariance.representative_eq",
+        "NativeReferenceAdmissionInvariance.fullSource_eq",
+        "NativeReferenceAdmissionInvariance.outputTube_eq",
+        "NativeReferenceAdmissionInvariance.fine_graph_eq"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prescribed_reference_admission.lean",
+      "origin_sha256": "e58153f2789cde8459857b0c1a31943dc4645b38c48e9b860781e19704689255",
+      "namespace": "NativePrescribedReferenceAdmission",
+      "declarations": [
+        "NativePrescribedReferenceAdmission.exists_accuracy",
+        "NativePrescribedReferenceAdmission.exists_prescribed_parent_admission"
+      ]
+    },
+    {
+      "origin_source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_Y_source_parameter_ledger.lean",
+      "origin_sha256": "43efd4a7c954e2fb82fb4d316924bca21be007d786b65a7318a261206a2244b7",
+      "namespace": "NativeYSourceParameterLedger",
+      "declarations": [
+        "NativeYSourceParameterLedger.baselineAccuracy",
+        "NativeYSourceParameterLedger.smallTax",
+        "NativeYSourceParameterLedger.baseline_accuracy_bounds",
+        "NativeYSourceParameterLedger.geometry_tax_bound",
+        "NativeYSourceParameterLedger.actual_total_tax"
+      ]
+    }
+  ],
+  "scope": "Combined exact frozen proof bodies, excluding separately checked native_actual_baseline_graph_mass and configured_Y_weighted_retention; only chain-internal imports removed and original anonymous sections explicitly closed. UNVERIFIED. Parent-authorized direct definitional cost proof, preserving original combined snapshot.",
+  "adaptations": [
+    {
+      "unit": "NativeActualBaselineRetentionPayment",
+      "declaration": "continuation_cost_readback",
+      "change": "Unfold the actual newCutCharge with Nat.cast_mul and ring, removing the irrelevant dependency on actual_height_third_join. Statement and all other proof bodies unchanged.",
+      "parent_authorized": "2026-10-06T19:49:43Z"
+    },
+    {
+      "attempt": 2,
+      "changes": "Strict attempt01 diagnostic fixes only: explicit namespaces/implicit a; cast/ring normalization; positivity facts; standard tactic/lint cleanup. No theorem statement assumptions changed."
+    },
+    {
+      "attempt": 3,
+      "changes": "Terminal attempt02 fixes: cast-one normalization; retain Nonempty proof after witness extraction; explicit rpow exponent equality; fixedCompactClass namespace; redundant tactics and unused hypothesis removal in proof. Public assumptions and41 names unchanged."
+    }
+  ]
+}

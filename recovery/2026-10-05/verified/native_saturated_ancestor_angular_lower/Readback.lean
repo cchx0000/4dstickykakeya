@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_saturated_ancestor_angular_lower
+
+#print axioms NativeSaturatedAncestorAngularLower.ancestor_point_fiber_upper
+#print axioms NativeSaturatedAncestorAngularLower.saturated_ancestor_point_lower

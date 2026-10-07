@@ -1,0 +1,40 @@
+import Theorems.Thm_StickyKakeya4_native_separated_fiber_iteration
+import Theorems.Thm_StickyKakeya4_native_successor_angular_count
+import Theorems.Thm_StickyKakeya4_native_master_successor_menu
+import Theorems.Thm_StickyKakeya4_native_retained_query_menu
+
+set_option autoImplicit false
+#print axioms NativeMasterSuccessorMenu.from_master_reference
+#print axioms NativeRetainedQueryMenu.appendEqualities
+#print axioms NativeRetainedQueryMenu.appendEqualities_refl
+#print axioms NativeRetainedQueryMenu.appendEqualities_symm
+#print axioms NativeRetainedQueryMenu.appendEqualities_uniformities
+#print axioms NativeRetainedQueryMenu.fineQueryPair
+#print axioms NativeRetainedQueryMenu.grainDepth
+#print axioms NativeRetainedQueryMenu.grainDepth_bounds
+#print axioms NativeRetainedQueryMenu.grainDepth_last
+#print axioms NativeRetainedQueryMenu.grainDepth_mono
+#print axioms NativeRetainedQueryMenu.grainDepth_succ_gap
+#print axioms NativeRetainedQueryMenu.grainDepth_zero
+#print axioms NativeRetainedQueryMenu.grainQueries
+#print axioms NativeRetainedQueryMenu.grainQueries_six_le
+#print axioms NativeRetainedQueryMenu.grainQueries_valid
+#print axioms NativeRetainedQueryMenu.queryMenu
+#print axioms NativeRetainedQueryMenu.queryMenu_refl
+#print axioms NativeRetainedQueryMenu.queryMenu_symm
+#print axioms NativeRetainedQueryMenu.queryMenu_uniformities
+#print axioms NativeRetainedQueryMenu.rawQueryPoint
+#print axioms NativeRetainedQueryMenu.shortQueryPair
+#print axioms NativeSeparatedFiberIteration.native_chain_lower_bound
+#print axioms NativeSeparatedFiberIteration.reverseFamily
+#print axioms NativeSeparatedFiberIteration.reverseFamily_prefix_image
+#print axioms NativeSeparatedFiberIteration.reverseFamily_range
+#print axioms NativeSeparatedFiberIteration.separated_lower_bound
+#print axioms NativeSeparatedFiberIteration.separated_prefix_distances
+#print axioms NativeSuccessorAngularCount.actual_successor_card
+#print axioms NativeSuccessorAngularCount.localized_angular_image_card
+#print axioms NativeSuccessorAngularCount.root_angular_image_card
+#print axioms NativeSuccessorAngularCount.successorEdges
+#print axioms NativeSuccessorAngularCount.successorLabels
+#print axioms NativeSuccessorAngularCount.successorLabels_mono
+#print axioms NativeSuccessorAngularCount.successor_card_le_of_subset

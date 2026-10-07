@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_population_parent_profiles
+
+#print axioms NativePopulationParentProfiles.HasPopulationParentProfiles
+#print axioms NativePopulationParentProfiles.source_population_parent_profiles

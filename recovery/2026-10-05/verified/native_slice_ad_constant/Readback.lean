@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_slice_ad_constant
+
+#print axioms NativeSliceADConstant.constant
+#print axioms NativeSliceADConstant.one_le_constant
+#print axioms NativeSliceADConstant.ADBounds_of_asymmetric_counts

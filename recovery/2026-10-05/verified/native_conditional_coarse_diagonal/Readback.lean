@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_coarse_diagonal
+
+#print axioms NativeConditionalCoarseDiagonal.actual_conditional_bounds
+#print axioms NativeConditionalCoarseDiagonal.short_gap_power
+#print axioms NativeConditionalCoarseDiagonal.actual_short_gap_power

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_phase_height_key
+set_option autoImplicit false
+#print axioms NativePhaseHeightKey.originalKey
+#print axioms NativePhaseHeightKey.constant_on_pair
+#print axioms NativePhaseHeightKey.old_height_card_eq_physical
+#print axioms NativePhaseHeightKey.onPair
+#print axioms NativePhaseHeightKey.onPair_readback

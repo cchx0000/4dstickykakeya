@@ -1,0 +1,8 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/90a12ca8bb1ce3ffd2c174f509702200c33993be10ab23284a59ced5648a33d1.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_configured_time_coarsening-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_configured_time_coarsening-attempt01/Readback.lean"]
+SOURCE_SHA256 981e81faec96f6f796dfdc1d0637074ec2a3c15f1b462e1c57165920084ef8e4
+'NativeConfiguredTimeCoarsening.finalTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredTimeCoarsening.floor_finalTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredTimeCoarsening.floor_from_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredTimeCoarsening.same_final_window_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_grain_one_arm_count
+set_option autoImplicit false
+#print axioms NativeGrainOneArmCount.halfEmbedding
+#print axioms NativeGrainOneArmCount.halves
+#print axioms NativeGrainOneArmCount.mem_halves
+#print axioms NativeGrainOneArmCount.halves_card
+#print axioms NativeGrainOneArmCount.square_incidence_le_tubes_halves
+#print axioms NativeGrainOneArmCount.arms
+#print axioms NativeGrainOneArmCount.mem_arms
+#print axioms NativeGrainOneArmCount.half_grain_image
+#print axioms NativeGrainOneArmCount.fourth_power_one_arm_bound
+#print axioms NativeGrainOneArmCount.armLabel
+#print axioms NativeGrainOneArmCount.lTuples
+#print axioms NativeGrainOneArmCount.l_tuple_conditions
+#print axioms NativeGrainOneArmCount.eighth_power_l_tuple_bound

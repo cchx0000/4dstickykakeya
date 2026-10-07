@@ -1,0 +1,163 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_canonical_grid_recoding",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_canonical_grid_recoding.lean",
+  "source_sha256": "cd8ea1e7d783319d6a1654c7c57ce22f94e1abc09c94c03f79e27a5078acfb51",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_canonical_grid_recoding.olean",
+  "names": [
+    "CanonicalGridRecoding.center",
+    "CanonicalGridRecoding.coarseGrid",
+    "CanonicalGridRecoding.recodedY",
+    "CanonicalGridRecoding.coarseGrid_eq_ediv",
+    "CanonicalGridRecoding.preimageBox",
+    "CanonicalGridRecoding.preimageBox_card",
+    "CanonicalGridRecoding.mem_preimageBox",
+    "CanonicalGridRecoding.coarseGrid_fiber_card",
+    "CanonicalGridRecoding.matrix_displacement",
+    "CanonicalGridRecoding.floor_displacement",
+    "CanonicalGridRecoding.recodedY_near",
+    "CanonicalGridRecoding.neighborBox",
+    "CanonicalGridRecoding.neighborBox_card",
+    "CanonicalGridRecoding.recodedY_mem_neighbors",
+    "CanonicalGridRecoding.oldIndex",
+    "CanonicalGridRecoding.newX",
+    "CanonicalGridRecoding.errorMatrix",
+    "CanonicalGridRecoding.newY",
+    "CanonicalGridRecoding.oldY",
+    "CanonicalGridRecoding.Neighbor",
+    "CanonicalGridRecoding.old_fiber_capacity",
+    "CanonicalGridRecoding.actual_neighbor",
+    "CanonicalGridRecoding.old_fiber_menu",
+    "CanonicalGridRecoding.threshold_inputs",
+    "CanonicalGridRecoding.threshold_support_cover"
+  ],
+  "started_utc": "2026-10-06T05:49:10.740535+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "4ace2a65a680366742461d6daa460e085d7b4798a991922a5e0ac8ebd40f4b42",
+  "readback_exit_code": 0,
+  "axioms": {
+    "CanonicalGridRecoding.center": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.coarseGrid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.recodedY": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.coarseGrid_eq_ediv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.preimageBox": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.preimageBox_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.mem_preimageBox": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.coarseGrid_fiber_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.matrix_displacement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.floor_displacement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.recodedY_near": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.neighborBox": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.neighborBox_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.recodedY_mem_neighbors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.newX": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.errorMatrix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.newY": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.oldY": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.old_fiber_capacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.actual_neighbor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.old_fiber_menu": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.threshold_inputs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.threshold_support_cover": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CanonicalGridRecoding.oldIndex": [],
+    "CanonicalGridRecoding.Neighbor": []
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T05:49:15.997810+00:00"
+}

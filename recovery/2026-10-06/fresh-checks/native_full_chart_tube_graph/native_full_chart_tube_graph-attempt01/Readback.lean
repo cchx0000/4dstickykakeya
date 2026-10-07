@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_full_chart_tube_graph
+set_option autoImplicit false
+#print axioms NativeFullChartTubeGraph.centered_tube_bounds
+#print axioms NativeFullChartTubeGraph.full_source_graph_bounds

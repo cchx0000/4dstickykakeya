@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_original_shading_restriction
+set_option autoImplicit false
+#print axioms NativeOriginalShadingRestriction.source
+#print axioms NativeOriginalShadingRestriction.shading_subset
+#print axioms NativeOriginalShadingRestriction.total_shading
+#print axioms NativeOriginalShadingRestriction.union_subset
+#print axioms NativeOriginalShadingRestriction.mass_retention
+#print axioms NativeOriginalShadingRestriction.native_input
+#print axioms NativeOriginalShadingRestriction.multiplicity_retention

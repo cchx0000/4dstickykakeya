@@ -1,0 +1,28 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164107267028", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164107267028/AggregateReadback.lean"]
+READBACK_SHA256 ee843ad7558041258fde7a4c04112f836d0979db64ded50e042ae3a0ad3662d1
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:41:07.959689+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8762248 kB
+'NativeColumnPopulationBounds.column_height_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeColumnPopulationBounds.column_multiplicity_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeColumnPopulationBounds.column_phase_height_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeColumnPopulationBounds.column_point_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeColumnPopulationBounds.inverse_scale_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeColumnPopulationBounds.reference_numerator_height_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeColumnPopulationBounds.relativeWidth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeColumnPopulationBounds.relativeWidth_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceColumnExponents.count_coefficients_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceColumnExponents.lowerCountCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceColumnExponents.quotient_power_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceColumnExponents.reference_column_point_power_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceColumnExponents.reference_height_point_power_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceColumnExponents.upperCountCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSlicePopulationAlgebra.slice_power_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSlicePopulationAlgebra.slice_ratio_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

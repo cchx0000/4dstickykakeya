@@ -1,0 +1,35 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_grid_center_coarsening",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_coarsening.lean",
+  "source_sha256": "a00d1420245374c803eb00156219b710d18d8f19547f8fe5154554bb12d551ea",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_grid_center_coarsening.olean",
+  "names": [
+    "NativeGridCenterCoarsening.divide",
+    "NativeGridCenterCoarsening.center_displacement",
+    "NativeGridCenterCoarsening.coarsened_ADBounds"
+  ],
+  "started_utc": "2026-10-06T07:30:09.676057+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "b05278c061f655e4537de4a31fd4d2dc59c5ecd4333b4933da55a2fa094cc9ef",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeGridCenterCoarsening.center_displacement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGridCenterCoarsening.coarsened_ADBounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGridCenterCoarsening.divide": []
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T07:33:04.087630+00:00"
+}

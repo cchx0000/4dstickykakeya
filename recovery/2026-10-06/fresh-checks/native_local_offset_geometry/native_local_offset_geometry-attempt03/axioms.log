@@ -1,0 +1,6 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0688f39745d540ae3eb6d7f05aebf5f4900d4279d65f443fb8cb228c36454fda.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_local_offset_geometry-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_local_offset_geometry-attempt03/Readback.lean"]
+SOURCE_SHA256 323fcaae2c6cebdcc12ccc77287811d33cb8bdda30bb763b02dd56d4cf5cb33d
+'NativeLocalOffsetGeometry.affine_offset_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetGeometry.shared_angle_offsets' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

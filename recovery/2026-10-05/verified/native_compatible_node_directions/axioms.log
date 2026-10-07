@@ -1,0 +1,39 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T130516538645", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T130516538645/AggregateReadback.lean"]
+READBACK_SHA256 7ba85e1f32d7d8b42b9b9f302f920c6c9bafe79c7883aa18aadb417ace9c6686
+Dedicated staging slot 3 acquired UTC: 2026-10-05T13:08:15.630780+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7969376 kB
+'NativeCompatibleNodeDirections.IsNodeDirectionSystem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.angular_ofFn_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.exists_node_direction_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.exists_node_word' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.exists_scheduled_node_directions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompatibleNodeDirections.natStageAnchorIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.natStageDirectionIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.nat_stage_anchor_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.nat_stage_index_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.node_direction_system_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.nodes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.projected_word_global' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.stageAnchorIndex' does not depend on any axioms
+'NativeCompatibleNodeDirections.stageDirectionIndex' does not depend on any axioms
+'NativeCompatibleNodeDirections.stage_anchor_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.stage_direction_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.stage_direction_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleNodeDirections.stage_index_readback' depends on axioms: [propext]
+'NativeCompatibleNodeDirections.terminal_fixed_tuple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawShadowPointComparison.point_image_card_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawShadowPointComparison.same_R_point_image_card_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRawShadowPointComparison.same_shadow_coordinate_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRawShadowPointComparison.shadow_spatial_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedReferenceDensity.queried_tagged_packet_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedReferenceDensity.reference_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedReferenceDensity.reference_vertex_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedReferenceDensity.tagWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedReferenceDensity.tag_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedReferenceDensity.tagged_packet_mass_ge_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

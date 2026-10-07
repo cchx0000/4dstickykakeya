@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_configured_Y_quarter_square",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_Y_quarter_square.lean",
+  "source_sha256": "28fef17121f0bc6d5b35c0cc5e4eaece820aeb6e9cb8a529f46b099e6b43a3a0",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_configured_Y_quarter_square.olean",
+  "names": [
+    "NativeConfiguredYQuarterSquare.contracted_midpoint_bound",
+    "NativeConfiguredYQuarterSquare.source_quarter_square"
+  ],
+  "started_utc": "2026-10-06T16:04:23.806111+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "e7ba8c8e487e3cba238d37eb533bcecda2caf1745ceabafce8a4ee919312a5d9",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T16:07:39.249391+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1638",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeConfiguredYQuarterSquare.contracted_midpoint_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredYQuarterSquare.source_quarter_square": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T16:44:52.145797+00:00",
+  "canonical_scope": "new_canonical_module"
+}

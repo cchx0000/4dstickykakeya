@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_actual_offset_cell_caps
+
+#print axioms NativeActualOffsetCellCaps.point_fiber_in_cell
+#print axioms NativeActualOffsetCellCaps.actual_cell_offset_cap

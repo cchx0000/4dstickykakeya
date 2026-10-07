@@ -1,0 +1,10 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_joint_local_coarse_upper_readback.lean"]
+SOURCE_SHA256 2ddb653d298ce2d01c08c10afecb0aeb76256d18b57e31f3f0e37ab4a89309b6
+FIFO compiler ticket: 01791178825700051390-6ca0d75e7665476ca42ad11fb1cef5d4.request
+FIFO compiler acquired UTC: 2026-10-05T05:40:27.507343+00:00
+'NativeJointLocalCoarseUpper.remove_small_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeJointLocalCoarseUpper.joint_same_source_local_coarse_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

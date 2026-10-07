@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_paid_XY_parameters
+
+#print axioms NativePaidXYParameters.exists_parameters

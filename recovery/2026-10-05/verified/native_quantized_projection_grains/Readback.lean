@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_native_quantized_projection_grains
+
+#print axioms NativeQuantizedProjectionGrains.normal
+#print axioms NativeQuantizedProjectionGrains.label
+#print axioms NativeQuantizedProjectionGrains.vertexLabel
+#print axioms NativeQuantizedProjectionGrains.normal_norm_le_of_near
+#print axioms NativeQuantizedProjectionGrains.infDist_le_normal_norm
+#print axioms NativeQuantizedProjectionGrains.label_mem_box_of_near
+#print axioms NativeQuantizedProjectionGrains.same_label_near
+#print axioms NativeQuantizedProjectionGrains.representative
+#print axioms NativeQuantizedProjectionGrains.representative_mem
+#print axioms NativeQuantizedProjectionGrains.representative_label
+#print axioms NativeQuantizedProjectionGrains.representatives_cover
+#print axioms NativeQuantizedProjectionGrains.minimumFiber
+#print axioms NativeQuantizedProjectionGrains.grain_count_mul
+#print axioms NativeQuantizedProjectionGrains.grain_count_computed

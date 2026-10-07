@@ -1,0 +1,12 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_two_axis_conditional_transfer_readback.lean"]
+SOURCE_SHA256 7819d7deedbf1e9aa55cdade67dbe7aaed53dfbad9924d41167e99274e41cdf0
+FIFO compiler ticket: 01791190257907141505-fde746bb8afb48d4a4db7985ce9806ec.request
+FIFO compiler acquired UTC: 2026-10-05T08:50:57.908231+00:00
+'NativeTwoAxisConditionalTransfer.conditional_full_eq_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisConditionalTransfer.scheduled_image_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisConditionalTransfer.core_conditioned_uniformities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTwoAxisConditionalTransfer.far_pair_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

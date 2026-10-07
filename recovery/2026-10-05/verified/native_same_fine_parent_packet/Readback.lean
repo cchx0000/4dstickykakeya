@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_same_fine_parent_packet
+
+#print axioms NativeSameFineParentPacket.tube_height_from_chart_shift
+#print axioms NativeSameFineParentPacket.same_parent_displacement_error
+#print axioms NativeSameFineParentPacket.same_fine_parent_quadratic_packet
+#print axioms NativeSameFineParentPacket.same_fine_parent_cell_packet

@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_native_approximate_fiber_count
+
+#print axioms NativeApproximateFiberCount.fiber
+#print axioms NativeApproximateFiberCount.infDist_sub_comm
+#print axioms NativeApproximateFiberCount.card_le_of_approximate_fibers
+#print axioms NativeApproximateFiberCount.intersection_card_le
+#print axioms NativeApproximateFiberCount.capacity_le_transverse_power
+#print axioms NativeApproximateFiberCount.intersection_card_le_transverse_power
+#print axioms NativeApproximateFiberCount.near_sup_of_two
+#print axioms NativeApproximateFiberCount.backward_fiber_sum_bound
+#print axioms NativeApproximateFiberCount.backward_fiber_sum_bound_real
+#print axioms NativeApproximateFiberCount.minimumPredecessor
+#print axioms NativeApproximateFiberCount.minimumPredecessor_le
+#print axioms NativeApproximateFiberCount.backward_fiber_step

@@ -1,0 +1,26 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/7d3b05c19743e74325ae364c8d4dadd4e14733ca16457bd914e4a2537687ed89.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_geometry.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_geometry.lean"]
+SOURCE_SHA256 6776a1f7023b696b729922d8bf096883fd9782d224befd3c9b55c57c601be5f8
+LOCK_ACQUIRED_UTC 2026-10-06T17:16:56.206326+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_geometry.lean:56:4: error: Type mismatch: After simplification, term
+  hv
+ has type
+  |(doubleFront D a (2 ^ m) p j i k).ofLp v - (physicalPoint D a (2 ^ m) p k).ofLp v / 512| ≤ (↑M)⁻¹
+but is expected to have type
+  |(doubleFront D a (2 ^ m) p j i k).ofLp v - 512⁻¹ * (oldPoint D a m p k).ofLp v| ≤ (↑M)⁻¹
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_geometry.lean:75:8: error: Type mismatch
+  add_le_add_left (dist_triangle ?m.556 ?m.557 ?m.558) ?m.559
+has type
+  dist ?m.556 ?m.558 + ?m.559 ≤ dist ?m.556 ?m.557 + dist ?m.557 ?m.558 + ?m.559
+but is expected to have type
+  dist cfg (O raw) + dist (O raw) (O front) ≤ dist cfg (O raw) + (dist (O raw) (O old) + dist (O old) (O front))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_geometry.lean:99:6: error: Type mismatch
+  add_le_add_right (add_le_add hc hrawBound) ?m.923
+has type
+  ?m.923 + (3 * (mu m * ↑R0 / 512) + 128 * mu m / 512) ≤ ?m.923 + (24 / ↑M + 16 / ↑M)
+but is expected to have type
+  3 * (mu m * ↑R0 / 512) + 128 * mu m / 512 + 2 / ↑M ≤ 24 / ↑M + 16 / ↑M + 2 / ↑M
+LEAN_FINISHED_UTC 2026-10-06T17:20:06.596816+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

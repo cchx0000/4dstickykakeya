@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_matched_shadow_configured_output
+set_option autoImplicit false
+#print axioms NativeMatchedShadowConfiguredOutput.actual_inverse_output_image_bounds
+#print axioms NativeMatchedShadowConfiguredOutput.actual_output_image_bounds

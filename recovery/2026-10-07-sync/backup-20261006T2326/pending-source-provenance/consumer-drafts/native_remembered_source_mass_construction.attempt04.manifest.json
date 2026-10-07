@@ -1,0 +1,85 @@
+{
+  "state": "UNVERIFIED; strict linter-only repair after terminal attempt03",
+  "created_utc": "2026-10-06T20:44:22.556607+00:00",
+  "source_path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean",
+  "source_sha256": "069f18711b415ff0046685bb2c345ede131667489f5743a3503957715d36b9ff",
+  "declaration_count": 11,
+  "namespaces": [
+    "NativeActualPhaseHeightPopulation",
+    "NativeActualMassiveOldPhase",
+    "NativeRememberedSourceShading",
+    "NativeRememberedSourceRealization"
+  ],
+  "external_imports": [
+    "Theorems.Thm_StickyKakeya4_native_actual_relative_coarse_admission",
+    "Theorems.Thm_StickyKakeya4_native_coarse_pruning_budget",
+    "Theorems.Thm_StickyKakeya4_native_middle_window_balance",
+    "Theorems.Thm_StickyKakeya4_native_remembered_source_construction",
+    "Theorems.Thm_StickyKakeya4_native_same_Q_fine_graph"
+  ],
+  "units": [
+    {
+      "stem": "native_actual_phase_height_population",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_phase_height_population.lean",
+      "sha256": "bd9fa064ca5cb153c94bcbdbed55d85c7867cd5ad38d9b2ef47bfb1fb29ff6bb",
+      "namespace": "NativeActualPhaseHeightPopulation",
+      "declarations": [
+        "NativeActualPhaseHeightPopulation.actual_full_phase_card",
+        "NativeActualPhaseHeightPopulation.relative_parent_mem_full"
+      ],
+      "consolidated_start_line": 10,
+      "consolidated_end_line": 60,
+      "repaired_body_sha256": "57607c339efb6055759d169ad7e0529da4501d43595227e484789cbcffb2fe85"
+    },
+    {
+      "stem": "native_actual_massive_old_phase",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_massive_old_phase.lean",
+      "sha256": "92c1e0921a6fe260b44d08e86a97df498d0282234297868ea7a1f641d14c09ca",
+      "namespace": "NativeActualMassiveOldPhase",
+      "declarations": [
+        "NativeActualMassiveOldPhase.image_card_le_sum_fiber_images",
+        "NativeActualMassiveOldPhase.graph_filter_relative_phase",
+        "NativeActualMassiveOldPhase.from_original_reference_same_Q"
+      ],
+      "consolidated_start_line": 61,
+      "consolidated_end_line": 256,
+      "repaired_body_sha256": "142ef826d7a64b7461e9930920a882aafbf13c23831170e3b446817328c703eb"
+    },
+    {
+      "stem": "native_remembered_source_shading",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_shading.lean",
+      "sha256": "2ea98633124bc06942e8cff1d7f9935ed3fe434e0a4010aafc8b84595c28fa96",
+      "namespace": "NativeRememberedSourceShading",
+      "declarations": [
+        "NativeRememberedSourceShading.count_to_mass",
+        "NativeRememberedSourceShading.select_height_and_shading"
+      ],
+      "consolidated_start_line": 257,
+      "consolidated_end_line": 437,
+      "repaired_body_sha256": "f6edb7247efd5548f42fb74e3519ac074811ba8866bb45f62cc2d192319efe33"
+    },
+    {
+      "stem": "native_remembered_source_realization",
+      "path": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_realization.lean",
+      "sha256": "a36e18018f75e19091d7cb9e4e93e940db805b4090fc89b9586b4e87d1238041",
+      "namespace": "NativeRememberedSourceRealization",
+      "declarations": [
+        "NativeRememberedSourceRealization.phaseConstant",
+        "NativeRememberedSourceRealization.massive_phase_payment",
+        "NativeRememberedSourceRealization.power_payment",
+        "NativeRememberedSourceRealization.exists_same_Q_source"
+      ],
+      "consolidated_start_line": 438,
+      "consolidated_end_line": 670,
+      "repaired_body_sha256": "bf483fbc65866b94556a980eae55425a88f302ba772206be85818a89d4633791"
+    }
+  ],
+  "transform": "Collect external imports, remove only imports from bodies, preserve named namespaces and statements/proofs, close each original anonymous noncomputable section.",
+  "updated_utc": "2026-10-06T21:08:12.153758+00:00",
+  "previous_attempt": "verification/native_remembered_source_mass_construction-attempt03",
+  "proof_edits": [
+    "Fully qualify restriction, normalize Nat cast, remove redundant terminal ring, explicit scalar calc, typed rho/mu inequality, and numeric8*4096=512*64 normalization. Statements unchanged.",
+    "Explicitly commute the common mu factor before multiplicative cancellation; no statement changes.",
+    "Replace three unnecessary sequence-focus combinators by ordinary sequential tactics; no proof goal or statement changes."
+  ]
+}

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_window_depth_brackets
+set_option autoImplicit false
+#print axioms NativeWindowDepthBrackets.bracket_depth
+#print axioms NativeWindowDepthBrackets.dyadic_factors

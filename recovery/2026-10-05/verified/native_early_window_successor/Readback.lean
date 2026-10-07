@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_early_window_successor
+
+#print axioms NativeEarlyWindowSuccessor.exists_early_successor
+#print axioms NativeEarlyWindowSuccessor.exists_early_successor_power

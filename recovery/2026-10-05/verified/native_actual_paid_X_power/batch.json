@@ -1,0 +1,89 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T18:56:38.396335+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T185637460951",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T185637460951/AggregateReadback.lean"
+  ],
+  "readback_sha256": "fffe48c9a8334964e5366bf209bb8c5dd783d5a184ba82218ed5e88f9f2a4038",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_paid_X_power",
+      "source_sha256": "87dafc562c01f9f133c993a1215de9cbf86d6e3b0fe6cf1dbfb5215923adde25",
+      "olean_sha256": "8af21966f2048a23f6441bd5cc56cf407a80fa4929dc419c55b5d7272fcc6d94",
+      "names": [
+        "NativeActualPaidXPower.source_reference_X_small_power"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_parent_admission_budget",
+      "source_sha256": "b5a099f02a0e0fa051b01f43ba3727cd3dbaf0d09de7c9e2eed98ef01ac6c32e",
+      "olean_sha256": "6fed2a2d1bbc7662bcaec85769e73b7b3e08155bd028016d8481f92343f3ea90",
+      "names": [
+        "NativeReferenceParentAdmissionBudget.exists_first_stage_admission_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_parent_angular_upper",
+      "source_sha256": "c44d2b2830bf4d55f5562b4424bca641fe1eb74360a0e1e30b65a16b68b5c58f",
+      "olean_sha256": "1b6e438085bea65b170484093a20805f0663085547c3c308d538d7ea58a8a0c9",
+      "names": [
+        "NativeReferenceParentAngularUpper.exists_reference_parent_angular_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_parent_population",
+      "source_sha256": "4c10ac83142d24946ac6ae22e1ea803825793b844cb1c0d06ea7b0698afd56bc",
+      "olean_sha256": "5793d7d1a25164f5169b7d1e4b62ebc82a24b94aae5dcb71049ba5ef497dac43",
+      "names": [
+        "NativeReferenceParentPopulation.candidate_middle_bounds",
+        "NativeReferenceParentPopulation.candidate_middle_square",
+        "NativeReferenceParentPopulation.first_cost_density",
+        "NativeReferenceParentPopulation.reference_parent_population"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_X_budget_actual",
+      "source_sha256": "8f69d12bcdd62dbaf31c93867fc92f4630e9b41853c93e86c37d1106cc2ea7af",
+      "olean_sha256": "c1ec3ab8669081c78ecf5237aad76f8b68e9840363ec41febaf9d415b573aa77",
+      "names": [
+        "NativeSharpXBudgetActual.actual_fiber_coefficient_le_power"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_X_budget_cutoff",
+      "source_sha256": "2c4fdf04c83beec44e42b4ce30be2300f5c3ed8da3fb7e616634d2b7279030e1",
+      "olean_sha256": "e81bb5694287f19d6a7dd5d8a0ca98aa5504c9adf7ec0825fceeb5390d63c480",
+      "names": [
+        "NativeSharpXBudgetCutoff.exists_source_cutoff",
+        "NativeSharpXBudgetCutoff.sourceCutoff",
+        "NativeSharpXBudgetCutoff.sourceCutoff_pos",
+        "NativeSharpXBudgetCutoff.sourceCutoff_pays",
+        "NativeSharpXBudgetCutoff.sourceCutoff_le_one",
+        "NativeSharpXBudgetCutoff.paid_X_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_source_quotient_ad",
+      "source_sha256": "b27fd809f3a2179ae0a412e2522ffc8670aebca29e5f89d5f905b72576039bf7",
+      "olean_sha256": "7f37518b2a69bd2efb3ed338da0fd60be45bc81f9136e52a69dc1bd0e8cf5f29",
+      "names": [
+        "NativeSourceQuotientAD.source_quotient_AD"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T18:57:51.505160+00:00",
+  "exit_code": 0
+}

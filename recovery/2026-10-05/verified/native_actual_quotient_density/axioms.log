@@ -1,0 +1,45 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T183635559885", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T183635559885/AggregateReadback.lean"]
+READBACK_SHA256 f9c01875c1d4f0b1fb7a386b3bc0dc9bc66ebbadc7d0039ea80f675c2986b349
+Dedicated staging slot 3 acquired UTC: 2026-10-05T18:42:26.471014+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8584984 kB
+'NativeActualQuotientDensity.normalized_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQuotientDensity.reference_cross_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQuotientDensity.rho_halfWidth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQuotientSupport.encoded_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQuotientSupport.halfWidth_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQuotientSupport.product_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQuotientSupport.quotient_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEncodedQuotientAD.quotientConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEncodedQuotientAD.quotientConstant_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEncodedQuotientAD.quotient_AD_of_encoded_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridSourceAngularCap.actual_point_angular_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceXYGridSourceAngularCap.angularCapConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridSourceAngularCap.dyadic_cap_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridSourceAngularCap.dyadic_resolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridSourceAngularCap.pointMenu_original_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceXYGridSourceAngularCap.point_menu_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridSourceAngularCap.quotient_anchor_readback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedAngularPowerLower.actual_angular_scale_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedAngularPowerLower.ancestor_parent_power_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedAngularPowerLower.cancel_parent_powers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedAngularPowerLower.local_scale_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedAngularPowerLower.saturated_reference_power_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedSourceAngularRankLower.actual_saturated_angular_rank_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpXBudgetCosts.rank_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetCosts.raw_cost_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetCosts.reference_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpXBudgetCosts.transverse_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

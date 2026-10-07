@@ -1,0 +1,170 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:16:50.469760+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161649745264",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161649745264/AggregateReadback.lean"
+  ],
+  "readback_sha256": "ce69c88c6cc62ca5c18249219ed57f1363f389a77a1ad18d22d5302abe2fb471",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_finite_slice_homogeneity",
+      "source_sha256": "5021c971932fa0b4bbd685ff973be02d7af984d97c97a65a6fde1a56c8ce0d52",
+      "olean_sha256": "c7719626a22175cc150cdbd301df7c8a11c86096a42f0b9bed094f92230c98d2",
+      "names": [
+        "NativeFiniteSliceHomogeneity.coarsen_fiber_comparison",
+        "NativeFiniteSliceHomogeneity.fiber_card_average_cross"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_slice_height_geometry",
+      "source_sha256": "e89f6482ee4ae1e8b0a9015d15f3fce5bc9ace278543dc431751d9056cb7318f",
+      "olean_sha256": "446f59e46fca29c90b8a564726a50a77e4045cc3925a34acf8b1c93b8c5c8d5a",
+      "names": [
+        "NativeParentSliceHeightGeometry.physical_parent_spatial_bound",
+        "NativeParentSliceHeightGeometry.endpointHeightMenu",
+        "NativeParentSliceHeightGeometry.endpointHeightMenu_card",
+        "NativeParentSliceHeightGeometry.endpoint_column_mem_menu",
+        "NativeParentSliceHeightGeometry.endpoint_height_card_le"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_slice_count_comparison",
+      "source_sha256": "de7a85cf5b1060017312b1b3f06d60d27098bca50c2372c215d6c5e8d233ee4a",
+      "olean_sha256": "237f3165a0fe93482129cccf0c1f8141728a38920c709558fbcb001a674b0924",
+      "names": [
+        "NativeSliceCountComparison.points",
+        "NativeSliceCountComparison.heightSlice",
+        "NativeSliceCountComparison.points_coarsen",
+        "NativeSliceCountComparison.column_class_counts_comparable",
+        "NativeSliceCountComparison.reference_height_counts_comparable",
+        "NativeSliceCountComparison.reference_slice_average_cross",
+        "NativeSliceCountComparison.caller_local_class_counts",
+        "NativeSliceCountComparison.HasSliceAverage",
+        "NativeSliceCountComparison.caller_reference_slice_averages"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_pair_numerator",
+      "source_sha256": "1b21cb0c3bd24da106c445b2ceae3988b422270e54773fed29cd7949a006c73c",
+      "olean_sha256": "339eade9439d8d1d50c876f28f835eb792b22c635c97cec0408418dc1174dce4",
+      "names": [
+        "NativeAnisotropicPairNumerator.shortRowColumnCost",
+        "NativeAnisotropicPairNumerator.pairUpperConstant",
+        "NativeAnisotropicPairNumerator.pairUpperConstant_pos",
+        "NativeAnisotropicPairNumerator.short_pair_column_image_card",
+        "NativeAnisotropicPairNumerator.fixedPair_card_sum",
+        "NativeAnisotropicPairNumerator.parent_column_pair_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_height_metric_menu",
+      "source_sha256": "7839a378199cdb8e3a528d03efa6307077cc718dcb9efde7a5244874d0730d78",
+      "olean_sha256": "4028f2f05ee3dbe24e84202f50c250f64228f7559610999fa847f47ebbcd272e",
+      "names": [
+        "NativeHeightMetricMenu.meshWidth",
+        "NativeHeightMetricMenu.meshWidth_pos",
+        "NativeHeightMetricMenu.meshWidth_ratio",
+        "NativeHeightMetricMenu.rawHeightCoordinate",
+        "NativeHeightMetricMenu.rawHeightCoordinate_distance",
+        "NativeHeightMetricMenu.chartHeightCoordinate",
+        "NativeHeightMetricMenu.chartHeightCoordinate_distance",
+        "NativeHeightMetricMenu.menu_crossing",
+        "NativeHeightMetricMenu.halfDepth",
+        "NativeHeightMetricMenu.halfDepth_zero",
+        "NativeHeightMetricMenu.halfDepth_last",
+        "NativeHeightMetricMenu.halfDepth_mono",
+        "NativeHeightMetricMenu.halfDepth_le_middle",
+        "NativeHeightMetricMenu.halfDepth_gap",
+        "NativeHeightMetricMenu.metricConstant",
+        "NativeHeightMetricMenu.metricConstant_nonneg",
+        "NativeHeightMetricMenu.metric_from_menu",
+        "NativeHeightMetricMenu.metric_from_menu_chart"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_population_parent_profiles",
+      "source_sha256": "1f5a11599f453cb03ffaae7ff045578f7da7d3992e6a6ecaad7b4903f8c6cd7e",
+      "olean_sha256": "612cc93f1e03300537cd3b5d7f5114e588b208d4c915fd2cd24f5ec3fcf6c67f",
+      "names": [
+        "NativePopulationParentProfiles.HasPopulationParentProfiles",
+        "NativePopulationParentProfiles.source_population_parent_profiles"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_phase_height_population",
+      "source_sha256": "198f6be2c80a3cdc01f403096447566f2daff251822349b8c960407c70b50b8c",
+      "olean_sha256": "e22ac37ef3d3c07d472d480cb5e1e984c4968d6823d72b06f7aaf77e59664623",
+      "names": [
+        "NativePhaseHeightPopulation.heightLabel",
+        "NativePhaseHeightPopulation.column_height_readback",
+        "NativePhaseHeightPopulation.heightLabel_integer",
+        "NativePhaseHeightPopulation.height_row_card",
+        "NativePhaseHeightPopulation.dyadic_height_mesh",
+        "NativePhaseHeightPopulation.dyadic_height_row_capacity",
+        "NativePhaseHeightPopulation.heightEdges",
+        "NativePhaseHeightPopulation.phaseHeightLabels",
+        "NativePhaseHeightPopulation.retained_height_capacity",
+        "NativePhaseHeightPopulation.phase_height_population",
+        "NativePhaseHeightPopulation.heightLabels",
+        "NativePhaseHeightPopulation.parent_height_population",
+        "NativePhaseHeightPopulation.original_translated_height_abs",
+        "NativePhaseHeightPopulation.height_population_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_source_parent_population_profile",
+      "source_sha256": "e465e0263ac13dc880e98c9db25a3cf3a0deb1b7e62dd6c1867df2f5e3d6e3e8",
+      "olean_sha256": "9f6bb66d532f182bb58dc0389cf7a17910cbcb73a3ec54dff1e910361a67d730",
+      "names": [
+        "NativeSourceParentPopulationProfile.source_parent_population_profile"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_grain_height_projection_transport",
+      "source_sha256": "3c0fb8fc6be83441816798a77f0a3066251edf3f1c66aa7548ad35db9706935c",
+      "olean_sha256": "66bbeb324ef70ac124453ffd8909d10536754aab36a5ba354d4c97fbc2fb7335",
+      "names": [
+        "NativeGrainHeightProjectionTransport.parentDirection",
+        "NativeGrainHeightProjectionTransport.parentDirection_last",
+        "NativeGrainHeightProjectionTransport.parentDirection_sub",
+        "NativeGrainHeightProjectionTransport.parentDirection_slopeVector",
+        "NativeGrainHeightProjectionTransport.retained_direction_norm",
+        "NativeGrainHeightProjectionTransport.exists_parent_controlled_direction",
+        "NativeGrainHeightProjectionTransport.projectToHeight",
+        "NativeGrainHeightProjectionTransport.projectToHeight_last",
+        "NativeGrainHeightProjectionTransport.projectToHeight_sub",
+        "NativeGrainHeightProjectionTransport.physical_projectToHeight",
+        "NativeGrainHeightProjectionTransport.physical_projection_displacement",
+        "NativeGrainHeightProjectionTransport.removeHeight_norm_general",
+        "NativeGrainHeightProjectionTransport.projected_grain_near"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_population_parent_configuration",
+      "source_sha256": "927548b83b1a8677395a7fb38c6867828adfd2a66700948a8afe1eba9b6f8927",
+      "olean_sha256": "9b6ab5c64a0a341b1d2494a3ccd87144afa7a64166f1b35685bd9f0847fe8d61",
+      "names": [
+        "NativeActualPopulationParentConfiguration.ParentFinalCleanupData",
+        "NativeActualPopulationParentConfiguration.HasParentRetainedHistory",
+        "NativeActualPopulationParentConfiguration.HasPopulationParentStage",
+        "NativeActualPopulationParentConfiguration.stage_with_population_parent",
+        "NativeActualPopulationParentConfiguration.exists_actual_population_parent_configuration"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:16:55.407696+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_configured_tube
+set_option autoImplicit false
+#print axioms NativeActualConfiguredTube.fullIndex
+#print axioms NativeActualConfiguredTube.fullIndex_readback
+#print axioms NativeActualConfiguredTube.point_mem_full_tube

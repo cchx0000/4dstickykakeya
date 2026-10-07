@@ -1,0 +1,76 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4ee03a5f85027f8009270539bd581933223958afaef837a91a2c36ac4a9c4e0c.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean"]
+SOURCE_SHA256 4d4683dc391ca8781af910040530bd725ee04a262cc4a79014feb65d120b478a
+LOCK_ACQUIRED_UTC 2026-10-06T22:49:59.761585+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:20:45: error: unexpected token ')'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:124:39: error(lean.unknownIdentifier): Unknown identifier `cheduledRadius`
+
+Note: It is not possible to treat `cheduledRadius` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:124:4: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  HMul ℕ ℝ (Graph ?m.27 ?m.28)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:160:2: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta tau seed e zeta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+htau : 0 < tau
+L g : ℕ
+ref : Reference h tau htau seed e zeta L g
+hg : 0 < g
+w : ℝ := rankWindow tau
+hw : 0 < w
+hm : (1 - w / 2) * ↑ref.level - 1 ≤ ↑↑(ref.schedule (Fin.last g))
+hd : D.thickness = 2 ^ (-↑ref.level)
+hp : 1 / ↑(2 ^ ↑(ref.schedule (Fin.last g))) ≤ 2 * D.thickness ^ (1 - w / 2)
+a✝ : 128 * D.thickness ^ (1 - rankWindow tau / 2) < 64 / ↑(2 ^ ↑(ref.schedule (Fin.last g)))
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:166:54: error: Application type mismatch: The argument
+  r
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.40 ?m.41
+in the application
+  Graph.IsSpanningSubgraph r
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:166:57: error(lean.unknownIdentifier): Unknown identifier `cheduledRadius`
+
+Note: It is not possible to treat `cheduledRadius` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:203:5: error: Application type mismatch: The argument
+  r
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.69 ?m.70
+in the application
+  Graph.IsSpanningSubgraph r
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:203:8: error(lean.unknownIdentifier): Unknown identifier `cheduledRadius`
+
+Note: It is not possible to treat `cheduledRadius` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:210:22: error: Application type mismatch: The argument
+  r
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.142 ?m.143
+in the application
+  Graph.IsSpanningSubgraph r
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:210:25: error(lean.unknownIdentifier): Unknown identifier `cheduledRadius`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:287:4: error: Type mismatch: After simplification, term
+  hh
+ has type
+  @LE.le ℝ Real.instPreorder.toLE
+    ((scheduledRadius ref j / D.thickness) ^ extremalExponent * (↑Q ^ 2 * D.thickness ^ (tau / 16)))
+    (D.thickness ^ seed * (scheduledRadius ref j / D.thickness) ^ extremalExponent)
+but is expected to have type
+  @LE.le ℝ Real.partialOrder.toLE
+    ((scheduledRadius ref j / D.thickness) ^ extremalExponent * (↑Q ^ 2 * D.thickness ^ (tau / 16)))
+    (D.thickness ^ seed * (64 / ↑(2 ^ ↑(ref.schedule j)) / D.thickness) ^ extremalExponent)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:344:9: error(lean.unknownIdentifier): Unknown identifier `all_radius_alternative`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile.lean:344:56: error: Tactic `rcases` failed: `x✝ : ?m.391` is not an inductive datatype
+LEAN_FINISHED_UTC 2026-10-06T22:51:08.680081+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

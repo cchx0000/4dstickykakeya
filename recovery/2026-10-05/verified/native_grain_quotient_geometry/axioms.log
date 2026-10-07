@@ -1,0 +1,18 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155407386059", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T155407386059/AggregateReadback.lean"]
+READBACK_SHA256 4b97678e904409f8c58a4c075fcb9a22f33b30053deca6fafc705bb396afa7bf
+Dedicated staging slot 3 acquired UTC: 2026-10-05T15:54:08.105878+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8719428 kB
+'NativeGrainQuotientGeometry.coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientGeometry.coordinates_norm_le_infDist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientGeometry.mixed_vertices_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientGeometry.parent_coordinates_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientGeometry.residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientGeometry.residual_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientGeometry.residual_eq_zero_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientGeometry.residual_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientGeometry.residual_norm_le_infDist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalParentGrainCleanup.source_original_parent_grain_cleanup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,31 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150422049901", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150422049901/AggregateReadback.lean"]
+READBACK_SHA256 3edfa0ebd8ecc162dc3b594dbc91b52433e6cebb88ed9b582d2f0469b6fe78d9
+Dedicated staging slot 3 acquired UTC: 2026-10-05T15:04:22.778431+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8771392 kB
+'NativeParentGrainIncidenceCleanup.cutEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.cutEdges_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.cutEdges_grain_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.cutEdges_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.cutEdges_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.exists_cleaned_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.exists_mixed_dense_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.mixedFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.mixedLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.mixedVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.mixed_fiber_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.mixed_fiber_vertex_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.mixed_label_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentGrainIncidenceCleanup.parent_mixed_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedFinePairDensity.density_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedFinePairDensity.finePairCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedFinePairDensity.full_mass_eq_pair_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedFinePairDensity.pairDensityConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedFinePairDensity.pairDensityConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedFinePairDensity.source_fine_pair_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialParentCount.fine_pair_count_in_raw_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialParentCount.parent_count_le_pair_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialParentCount.raw_point_count_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialParentCount.source_global_subset_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialParentCount.source_spatial_parent_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

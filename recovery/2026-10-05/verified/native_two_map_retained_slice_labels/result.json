@@ -1,0 +1,85 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_labels",
+  "source": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live/Theorems/Thm_StickyKakeya4_native_two_map_retained_slice_labels.lean",
+  "source_sha256": "5f4aaf31a5df175ccc3f3ce6dda2cd8a92e3ddbc494ef2593f82575f4057a72e",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean/Theorems/Thm_StickyKakeya4_native_two_map_retained_slice_labels.olean",
+  "names": [
+    "NativeTwoMapRetainedSliceLabels.encode",
+    "NativeTwoMapRetainedSliceLabels.encode_height",
+    "NativeTwoMapRetainedSliceLabels.encode_left",
+    "NativeTwoMapRetainedSliceLabels.encode_right",
+    "NativeTwoMapRetainedSliceLabels.encode_injective",
+    "NativeTwoMapRetainedSliceLabels.coarse",
+    "NativeTwoMapRetainedSliceLabels.append_div",
+    "NativeTwoMapRetainedSliceLabels.encode_coarse",
+    "NativeTwoMapRetainedSliceLabels.image_encode_card",
+    "NativeTwoMapRetainedSliceLabels.encoded_fiber_eq",
+    "NativeTwoMapRetainedSliceLabels.encoded_uniformity"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T17:42:54.487857+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "265de60d0e8f0068769c909e0ae12397fc97c7a9ac3d1bf1f468c3af1b030852",
+  "source_execution_complete_utc": "2026-10-05T17:42:59.875403+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T174858706998",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeTwoMapRetainedSliceLabels.encode": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeTwoMapRetainedSliceLabels.encode_height": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeTwoMapRetainedSliceLabels.encode_left": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoMapRetainedSliceLabels.encode_right": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoMapRetainedSliceLabels.encode_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoMapRetainedSliceLabels.coarse": [],
+    "NativeTwoMapRetainedSliceLabels.append_div": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeTwoMapRetainedSliceLabels.encode_coarse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoMapRetainedSliceLabels.image_encode_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoMapRetainedSliceLabels.encoded_fiber_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoMapRetainedSliceLabels.encoded_uniformity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T17:49:04.297837+00:00"
+}

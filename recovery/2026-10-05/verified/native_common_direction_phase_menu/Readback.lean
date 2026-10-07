@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_common_direction_phase_menu
+
+#print axioms NativeCommonDirectionPhaseMenu.phaseMenu
+#print axioms NativeCommonDirectionPhaseMenu.phaseMenu_card
+#print axioms NativeCommonDirectionPhaseMenu.same_angle_original_slope
+#print axioms NativeCommonDirectionPhaseMenu.original_parent_mem_menu
+#print axioms NativeCommonDirectionPhaseMenu.original_phase_cap
+#print axioms NativeCommonDirectionPhaseMenu.dyadic_sigma
+#print axioms NativeCommonDirectionPhaseMenu.dyadic_source_error
+#print axioms NativeCommonDirectionPhaseMenu.dyadic_phase_cap
+#print axioms NativeCommonDirectionPhaseMenu.full_R_representative_readback

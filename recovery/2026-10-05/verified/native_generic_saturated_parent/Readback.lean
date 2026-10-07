@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_generic_saturated_parent
+
+#print axioms NativeGenericSaturatedParent.SaturatedParentFinalCleanupData
+#print axioms NativeGenericSaturatedParent.HasSaturatedParentRetainedHistory
+#print axioms NativeGenericSaturatedParent.HasSaturatedPopulationParentStage
+#print axioms NativeGenericSaturatedParent.saturated_stage_with_population_parent

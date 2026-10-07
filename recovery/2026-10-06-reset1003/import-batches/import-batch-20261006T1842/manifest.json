@@ -1,0 +1,81 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T18:42:44.977306+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_phase_height_key",
+    "Theorems.Thm_StickyKakeya4_native_configured_slice_occupancy",
+    "Theorems.Thm_StickyKakeya4_native_fixed_height_pair_cap",
+    "Theorems.Thm_StickyKakeya4_native_matched_shadow_configured_counts",
+    "Theorems.Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge"
+  ],
+  "names": [
+    "NativePhaseHeightKey.originalKey",
+    "NativePhaseHeightKey.constant_on_pair",
+    "NativePhaseHeightKey.old_height_card_eq_physical",
+    "NativePhaseHeightKey.onPair",
+    "NativePhaseHeightKey.onPair_readback",
+    "NativeConfiguredSliceOccupancy.height_first_dist",
+    "NativeConfiguredSliceOccupancy.pointsAt_card_le",
+    "NativeConfiguredSliceOccupancy.full_source_pointsAt",
+    "NativeFixedHeightPairCap.same_height_card_le",
+    "NativeFixedHeightPairCap.full_source_old_slope_cube",
+    "NativeFixedHeightPairCap.full_source_old_parent_height_fiber",
+    "NativeFixedHeightPairCap.same_reference_old_parent_height_fiber",
+    "NativeMatchedShadowConfiguredCounts.separated_ball_card",
+    "NativeMatchedShadowConfiguredCounts.shadowLabel",
+    "NativeMatchedShadowConfiguredCounts.inverse_point_fiber",
+    "NativeMatchedShadowConfiguredCounts.forward_point_fiber",
+    "NativeMatchedShadowConfiguredCounts.pair_fiber_bound",
+    "NativeMatchedShadowConfiguredCounts.inverse_image_bounds",
+    "NativeMatchedShadowConfiguredCounts.image_bounds",
+    "NativeActualFineWeightShadingBridge.pair_capacity_to_shading",
+    "NativeActualFineWeightShadingBridge.fine_graph_le_shadow",
+    "NativeActualFineWeightShadingBridge.same_Q_weight_shading",
+    "NativeActualFineWeightShadingBridge.actual_weight_upper"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1842.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1842",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1842/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T18:44:51.332707+00:00",
+  "results": [
+    {
+      "attempt": "native_phase_height_key-attempt03",
+      "state": "passed",
+      "declarations": 5
+    },
+    {
+      "attempt": "native_configured_slice_occupancy-attempt02",
+      "state": "passed",
+      "declarations": 3
+    },
+    {
+      "attempt": "native_fixed_height_pair_cap-attempt02",
+      "state": "passed",
+      "declarations": 4
+    },
+    {
+      "attempt": "native_matched_shadow_configured_counts-attempt01",
+      "state": "passed",
+      "declarations": 7
+    },
+    {
+      "attempt": "native_actual_fine_weight_shading_bridge-attempt03",
+      "state": "passed",
+      "declarations": 4
+    }
+  ]
+}

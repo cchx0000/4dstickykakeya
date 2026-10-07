@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_third_single_height_Y_ad
+set_option autoImplicit false
+#print axioms NativeThirdSingleHeightYAD.from_third_data

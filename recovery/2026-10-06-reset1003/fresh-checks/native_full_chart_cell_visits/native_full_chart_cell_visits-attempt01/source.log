@@ -1,0 +1,17 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/727ec0fdda8929a000aba71818ada89dcc70c91d30cb94808f06c285857d2489.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_full_chart_cell_visits.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_chart_cell_visits.lean"]
+SOURCE_SHA256 4a86e16ea6a8ad9d01fd1cf8e284da6486305b3660e8be71eb4846984f7b21ed
+LOCK_ACQUIRED_UTC 2026-10-06T13:49:34.423335+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_chart_cell_visits.lean:43:6: error: 'change' tactic failed, pattern
+  |x.ofLp k.castSucc - intercept (line i) k - x.ofLp 3 * NativeOriginalCellChartGeometry.slope (line i) k| ≤ ?m.305
+is not definitionally equal to target
+  |x.ofLp k.castSucc - (graphBase (line i)).ofLp k.castSucc - x.ofLp 3 * (graphSlope (line i)).ofLp k.castSucc| ≤
+    8 * (64 / ↑(2 ^ b))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_chart_cell_visits.lean:49:6: error: 'change' tactic failed, pattern
+  |NativeOriginalCellChartGeometry.slope (line i) k| ≤ 2
+is not definitionally equal to target
+  |(graphSlope (line i)).ofLp k.castSucc| ≤ 2
+LEAN_FINISHED_UTC 2026-10-06T13:54:04.325954+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

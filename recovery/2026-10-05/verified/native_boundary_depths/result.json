@@ -1,0 +1,84 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_boundary_depths",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_boundary_depths.lean",
+  "source_sha256": "5dbf72676394de1127e68b52968c5bfe382fafdb4b5688b4fc651be38488c053",
+  "names": [
+    "NativeBoundaryDepths.lowerAnchor",
+    "NativeBoundaryDepths.upperAnchor",
+    "NativeBoundaryDepths.anchor_bounds",
+    "NativeBoundaryDepths.lower_gap",
+    "NativeBoundaryDepths.upper_gap",
+    "NativeBoundaryDepths.remaining_gap",
+    "NativeBoundaryDepths.initial_gap",
+    "NativeBoundaryDepths.boundaryWindow",
+    "NativeBoundaryDepths.boundaryWindow_pos",
+    "NativeBoundaryDepths.boundaryWindow_le_quarter",
+    "NativeBoundaryDepths.boundaryWindow_le_loss"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T07:15:22.259567+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeBoundaryDepths.lowerAnchor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.upperAnchor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.anchor_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.lower_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.upper_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.remaining_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.initial_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.boundaryWindow": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.boundaryWindow_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.boundaryWindow_le_quarter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBoundaryDepths.boundaryWindow_le_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "87e791774cdcd51bfdf438f51e37ec72036a4702a80b5e469f1ca571dcf82058",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T07:22:41.434071+00:00"
+}

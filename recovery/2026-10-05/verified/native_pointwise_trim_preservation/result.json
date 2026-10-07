@@ -1,0 +1,50 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_pointwise_trim_preservation",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_pointwise_trim_preservation.lean",
+  "source_sha256": "432607403a805b6672258e59c35b3d6338003855f1ef370af72df807743c8b6a",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_pointwise_trim_preservation.olean",
+  "names": [
+    "NativePointwiseTrimPreservation.filtered_point_image",
+    "NativePointwiseTrimPreservation.filtered_point_fiber",
+    "NativePointwiseTrimPreservation.point_class_half_retention",
+    "NativePointwiseTrimPreservation.point_class_image_unchanged"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T18:02:29.810023+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "193b50c7d0db8e3cc653f46f072ca61e449959b8a866539a4ad84c0b4b7e5951",
+  "source_execution_complete_utc": "2026-10-05T18:03:19.194754+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180420918225",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativePointwiseTrimPreservation.filtered_point_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePointwiseTrimPreservation.filtered_point_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePointwiseTrimPreservation.point_class_half_retention": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePointwiseTrimPreservation.point_class_image_unchanged": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T18:05:03.875858+00:00"
+}

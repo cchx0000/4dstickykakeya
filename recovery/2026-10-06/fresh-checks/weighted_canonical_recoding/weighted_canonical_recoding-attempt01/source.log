@@ -1,0 +1,219 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b74c225a5e934337026fc1e73c04c295207b0317872f775bfb731a38302001aa.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean"]
+SOURCE_SHA256 83e361b6eca3d7217c045c83cfed306092e81e15b4df5336a6b47d0aa05e7ff7
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean:56:4: error: unsolved goals
+case mpr.refine_1
+k l : ℕ
+E : Type u_1
+P : Type u_2
+H : Type u_3
+inst✝¹ : DecidableEq P
+inst✝ : DecidableEq H
+I : Finset E
+point : E → P
+height : P → H
+x : P → Grid k
+y : P → Grid l
+b : H × Grid l
+u : Grid k
+hu : u ∈ fineXCells I point height x y b
+hz : (b.1, u, b.2) ∈ image (fun u => (b.1, u, b.2)) (fineXCells I point height x y b)
+p : P
+hp : p ∈ oldPoints I point height y b
+hxp : x p = u
+hpI : p ∈ image point I
+hpb : (height p, y p) = b
+e : E
+he : e ∈ I
+hep : point e = p
+hh : (height p, y p).1 = b.1
+hy : (height p, y p).2 = b.2
+⊢ (height p, u, y p) = (b.1, u, b.2)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean:56:52: error: This simp argument is unused:
+  hh
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Function.comp_apply, pointLabel, hep, hy, hxp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean:56:55: error: This simp argument is unused:
+  hy
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Function.comp_apply, pointLabel, hep, hh, hxp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean:121:2: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean:200:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ∑ p ∈ image point J, #({e ∈ I | point e = p})
+in the target expression
+  ↑(#I) / (2 * ↑Q ^ 2) ≤ ∑ p ∈ image point J, ↑(#({e ∈ I | point e = p}))
+
+case refine_1
+k l : ℕ
+E : Type u_1
+P : Type u_2
+H : Type u_3
+Z : Type u_4
+inst✝³ : DecidableEq E
+inst✝² : DecidableEq P
+inst✝¹ : DecidableEq H
+inst✝ : DecidableEq Z
+I : Finset E
+point : E → P
+fineHeight : P → H
+fineX : P → Grid k
+fineY : P → Grid l
+hk : k ≤ 2
+hl : l ≤ 2
+mu : ℝ
+R Q : ℕ
+hmu : 0 < mu
+hR : 0 < R
+height : H → Z
+F : H → Matrix (Fin l) (Fin k) ℝ
+Fcfg : Z → Matrix (Fin l) (Fin k) ℝ
+hF : ∀ p ∈ image point I, ∀ (i : Fin l) (j : Fin k), |F (fineHeight p) i j - Fcfg (height (fineHeight p)) i j| ≤ mu * ↑R
+hx : ∀ p ∈ image point I, ∀ (j : Fin k), |center mu (fineX p) j| ≤ 1
+Dmin : ℝ
+hD : 0 ≤ Dmin
+hDense :
+  ∀ b ∈ image oldIndex (image (pointLabel fineHeight fineX fineY ∘ point) I),
+    Dmin ≤ ↑(#(fineXCells I point fineHeight fineX fineY b))
+hWeight :
+  ∀ a ∈ image (pointLabel fineHeight fineX fineY ∘ point) I,
+    ∀ b ∈ image (pointLabel fineHeight fineX fineY ∘ point) I,
+      #({e ∈ I | pointLabel fineHeight fineX fineY (point e) = a}) ≤
+        Q ^ 2 * #({e ∈ I | pointLabel fineHeight fineX fineY (point e) = b})
+label : P → Label H k l := pointLabel fineHeight fineX fineY
+L : Finset (Label H k l) := image (label ∘ point) I
+theta : ℝ := threshold Dmin R k
+G : Finset (Label H k l) :=
+  FiniteCoarseYThresholdSelection.keepLabels L oldIndex (newY mu R height F Fcfg) (newX mu R) theta
+J : Finset E := FiniteCoarseYThresholdSelection.liftEdges I (label ∘ point) G
+hFL : ∀ z ∈ L, ∀ (i : Fin l) (j : Fin k), |F z.1 i j - Fcfg (height z.1) i j| ≤ mu * ↑R
+hxL : ∀ z ∈ L, ∀ (j : Fin k), |center mu z.2.1 j| ≤ 1
+hMenu :
+  ∀ b ∈ image oldIndex L,
+    #(image (newY mu R height F Fcfg) (FiniteCoarseYThresholdSelection.oldFiber L oldIndex b)) ≤ 49
+hCapacity :
+  ∀ b ∈ image oldIndex L,
+    ∀ (q : Grid k), #({z ∈ FiniteCoarseYThresholdSelection.oldFiber L oldIndex b | newX mu R z = q}) ≤ R ^ k
+hNear : ∀ z ∈ L, Neighbor (oldY mu R height (oldIndex z)) (newY mu R height F Fcfg z)
+hBudget :
+  ∀ b ∈ image oldIndex L, 2 * 49 * ↑(R ^ k) * theta ≤ ↑(#(FiniteCoarseYThresholdSelection.oldFiber L oldIndex b))
+hJI :
+  FiniteCoarseYThresholdSelection.liftEdges I (label ∘ point)
+      (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+        (newX mu R) theta) ⊆
+    I
+hImage :
+  image (label ∘ point)
+      (FiniteCoarseYThresholdSelection.liftEdges I (label ∘ point)
+        (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+          (newX mu R) theta)) =
+    FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg) (newX mu R)
+      theta
+hMass :
+  #I ≤
+    2 * Q ^ 2 *
+      #(FiniteCoarseYThresholdSelection.liftEdges I (label ∘ point)
+          (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+            (newX mu R) theta))
+_hHalf :
+  ∀ u ∈ image oldIndex (image (label ∘ point) I),
+    #(FiniteCoarseYThresholdSelection.oldFiber (image (label ∘ point) I) oldIndex u) ≤
+      2 *
+        #(FiniteCoarseYThresholdSelection.oldFiber
+            (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+              (newX mu R) theta)
+            oldIndex u)
+_hSupport :
+  image oldIndex
+      (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+        (newX mu R) theta) =
+    image oldIndex (image (label ∘ point) I)
+_hDenseBranch :
+  ∀
+    b ∈
+      image (newY mu R height F Fcfg)
+        (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+          (newX mu R) theta),
+    ∃ u ∈ image oldIndex (image (label ∘ point) I),
+      (FiniteCoarseYThresholdSelection.branch
+            (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+              (newX mu R) theta)
+            oldIndex (newY mu R height F Fcfg) u b).Nonempty ∧
+        theta ≤
+          ↑(#(image (newX mu R)
+                (FiniteCoarseYThresholdSelection.branch
+                  (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex
+                    (newY mu R height F Fcfg) (newX mu R) theta)
+                  oldIndex (newY mu R height F Fcfg) u b)))
+hCover :
+  (∀ u ∈ image oldIndex (image (label ∘ point) I),
+      ∃
+        b ∈
+          image (newY mu R height F Fcfg)
+            (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+              (newX mu R) theta),
+        Neighbor (oldY mu R height u) b) ∧
+    ∀
+      b ∈
+        image (newY mu R height F Fcfg)
+          (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+            (newX mu R) theta),
+      ∃ u ∈ image oldIndex (image (label ∘ point) I), Neighbor (oldY mu R height u) b
+hPoints :
+  ∀
+    k_1 ∈
+      image point
+        (FiniteCoarseYThresholdSelection.liftEdges I (label ∘ point)
+          (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+            (newX mu R) theta)),
+    {e ∈
+          FiniteCoarseYThresholdSelection.liftEdges I (label ∘ point)
+            (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+              (newX mu R) theta) |
+        point e = k_1} =
+      {e ∈ I | point e = k_1}
+⊢ ↑(#I) / (2 * ↑Q ^ 2) ≤ ∑ p ∈ image point J, ↑(#({e ∈ I | point e = p}))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean:205:4: error: Type mismatch: After simplification, term
+  hCover.left
+ has type
+  ∀ u ∈ image oldIndex (image (label ∘ point) I),
+    ∃
+      b ∈
+        image (newY mu R height F Fcfg)
+          (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+            (newX mu R) theta),
+      Neighbor (oldY mu R height u) b
+but is expected to have type
+  ∀ b ∈ image oldIndex (image (pointLabel fineHeight fineX fineY ∘ point) I),
+    ∃ q ∈ image (newY mu R height F Fcfg) (image (pointLabel fineHeight fineX fineY ∘ point) J),
+      Neighbor (oldY mu R height b) q
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean:206:4: error: Type mismatch: After simplification, term
+  hCover.right
+ has type
+  ∀
+    b ∈
+      image (newY mu R height F Fcfg)
+        (FiniteCoarseYThresholdSelection.keepLabels (image (label ∘ point) I) oldIndex (newY mu R height F Fcfg)
+          (newX mu R) theta),
+    ∃ u ∈ image oldIndex (image (label ∘ point) I), Neighbor (oldY mu R height u) b
+but is expected to have type
+  ∀ q ∈ image (newY mu R height F Fcfg) (image (pointLabel fineHeight fineX fineY ∘ point) J),
+    ∃ b ∈ image oldIndex (image (pointLabel fineHeight fineX fineY ∘ point) I), Neighbor (oldY mu R height b) q
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_weighted_canonical_recoding.lean:211:4: error: Type mismatch: After simplification, term
+  hd
+ has type
+  theta ≤
+    ↑(#(image (newX mu R)
+          ({a ∈ FiniteCoarseYThresholdSelection.keepLabels L oldIndex (newY mu R height F Fcfg) (newX mu R) theta |
+            newY mu R height F Fcfg a = q})))
+but is expected to have type
+  threshold Dmin R k ≤
+    ↑(#(image (newX mu R) ({a ∈ image (pointLabel fineHeight fineX fineY ∘ point) J | newY mu R height F Fcfg a = q})))
+
+EXIT_CODE=1

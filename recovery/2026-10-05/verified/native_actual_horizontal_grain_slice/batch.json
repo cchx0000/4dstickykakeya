@@ -1,0 +1,34 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:14:07.059996+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141406329215",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141406329215/AggregateReadback.lean"
+  ],
+  "readback_sha256": "251d39fcdba32bd0cd04d87852473a8aa54a310bff770f067c78604d3bb947a0",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_horizontal_grain_slice",
+      "source_sha256": "e9953cc802aa04dbf446704e5db4fc95b4b42ff4d7778ffe49de64d6704a0dac",
+      "olean_sha256": "112a911d7647678627725e5f4600485e0d003c099e25835e528733a679f3e14a",
+      "names": [
+        "NativeActualHorizontalGrainSlice.node_graph_direction",
+        "NativeActualHorizontalGrainSlice.actual_node_horizontal_slice"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:14:11.560730+00:00",
+  "exit_code": 0
+}

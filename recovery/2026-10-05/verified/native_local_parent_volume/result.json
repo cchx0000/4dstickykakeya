@@ -1,0 +1,120 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_local_parent_volume",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_local_parent_volume.lean",
+  "source_sha256": "2a98a0c863366f46e9ad7ba08fdb823cddd39e76d1e29bb6411a09c56904eb49",
+  "names": [
+    "NativeLocalParentVolume.matrix",
+    "NativeLocalParentVolume.rawLinear",
+    "NativeLocalParentVolume.linearPart",
+    "NativeLocalParentVolume.matrix_det",
+    "NativeLocalParentVolume.linearPart_det",
+    "NativeLocalParentVolume.linearPart_det_ne_zero",
+    "NativeLocalParentVolume.rawLinear_apply",
+    "NativeLocalParentVolume.linearPart_apply",
+    "NativeLocalParentVolume.physicalMap_eq_linear_add",
+    "NativeLocalParentVolume.continuous_physicalMap",
+    "NativeLocalParentVolume.homeomorph",
+    "NativeLocalParentVolume.homeomorph_apply",
+    "NativeLocalParentVolume.measurableSet_image",
+    "NativeLocalParentVolume.measurableSet_preimage",
+    "NativeLocalParentVolume.volume_image",
+    "NativeLocalParentVolume.volume_preimage",
+    "NativeLocalParentVolume.convex_preimage"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T04:46:42.748127+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeLocalParentVolume.matrix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.rawLinear": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.linearPart": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.matrix_det": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.linearPart_det": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.linearPart_det_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.rawLinear_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.linearPart_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.physicalMap_eq_linear_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.continuous_physicalMap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.homeomorph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.homeomorph_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.measurableSet_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.measurableSet_preimage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.volume_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.volume_preimage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalParentVolume.convex_preimage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "b3eb1454dbbc4c97fe25185671a98ca4f08d77ae90ad6804995b96cc6a2a874d",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T04:49:14.552109+00:00"
+}

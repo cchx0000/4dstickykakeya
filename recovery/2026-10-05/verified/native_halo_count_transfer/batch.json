@@ -1,0 +1,46 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:39:27.652322+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T143926951018",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T143926951018/AggregateReadback.lean"
+  ],
+  "readback_sha256": "65c2d5f91f389bdc94689ad6ec32ab2078111363ec8ba5aee749dd6c090bd79a",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_direction_difference",
+      "source_sha256": "9874c9135e0c55deff92842077c8a4c0d46f2e17f51b2e1cd52f2a4c605f1635",
+      "olean_sha256": "14c917139a3267de1a23d295a62074d998640c9bba471fe987d768e7597b9b63",
+      "names": [
+        "NativeParentDirectionDifference.difference_near_submodule",
+        "NativeParentDirectionDifference.subspace_infDist_smul",
+        "NativeParentDirectionDifference.incident_difference_near_horizontal",
+        "NativeParentDirectionDifference.parent_normalized_horizontal_difference"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_halo_count_transfer",
+      "source_sha256": "d284db45e7d0762e5934e3e30cdeca2453f9f9e1c510a3267bc0f7387954bc3b",
+      "olean_sha256": "2449542e44254770568557afe8538039c0cc8fafcb7246b798cca33ef580c935",
+      "names": [
+        "NativeHaloCountTransfer.relation_card_mul_le",
+        "NativeHaloCountTransfer.rows_card_mul_le_of_menu",
+        "NativeHaloCountTransfer.multiplicity_transfer"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:39:32.337481+00:00",
+  "exit_code": 0
+}

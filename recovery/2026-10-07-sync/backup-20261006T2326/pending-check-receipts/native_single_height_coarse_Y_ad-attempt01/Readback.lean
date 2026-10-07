@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_single_height_coarse_Y_ad
+set_option autoImplicit false
+#print axioms NativeSingleHeightCoarseYAD.coarseConstant
+#print axioms NativeSingleHeightCoarseYAD.finalConstant
+#print axioms NativeSingleHeightCoarseYAD.coarse_contracted_AD
+#print axioms NativeSingleHeightCoarseYAD.key_image_eq_one_height

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_all_radii
+
+#print axioms NativeRetainedSliceAllRadii.retained_all_radius_bounds

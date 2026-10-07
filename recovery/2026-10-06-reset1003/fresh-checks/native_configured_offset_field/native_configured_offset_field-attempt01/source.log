@@ -1,0 +1,25 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3eba8207aa0e9a81d71e63d9337020378e1800970bbec3bfa7c8d441f891f75b.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_configured_offset_field.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_offset_field.lean"]
+SOURCE_SHA256 98c642974b0fdb8ec6e2763c7255d2d8e6fb3569a05d3c13a6e1f6034d74ada1
+LOCK_ACQUIRED_UTC 2026-10-06T11:24:03.411688+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_offset_field.lean:25:74: error: Application type mismatch: The argument
+  hc
+has type
+  c ∈
+    @image Omega (Fin 4 → ℤ) (fun a b => Fintype.decidablePiFintype a b) (fun w => wzDyadicCellIndex Delta (point w)) U
+but is expected to have type
+  c ∈ @image Omega (Fin 4 → ℤ) (fun a b => propDecidable (a = b)) (fun w => wzDyadicCellIndex Delta (point w)) U
+in the application
+  pointOffset_witness U (fun w => wzDyadicCellIndex Delta (point w)) xi c hc
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_offset_field.lean:40:59: error: Application type mismatch: The argument
+  hp
+has type
+  p ∈ @image Omega E4 (fun a b => WithLp.instDecidableEq 2 ((i : Fin 4) → (fun x => ℝ) i) a b) point U
+but is expected to have type
+  p ∈ @image Omega E4 (fun a b => propDecidable (a = b)) point U
+in the application
+  pointOffset_witness U point xi p hp
+LEAN_FINISHED_UTC 2026-10-06T11:26:50.955907+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

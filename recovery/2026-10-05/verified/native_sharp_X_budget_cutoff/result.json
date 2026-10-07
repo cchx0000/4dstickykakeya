@@ -1,0 +1,62 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_sharp_X_budget_cutoff",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_sharp_X_budget_cutoff.lean",
+  "source_sha256": "2c4fdf04c83beec44e42b4ce30be2300f5c3ed8da3fb7e616634d2b7279030e1",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_sharp_X_budget_cutoff.olean",
+  "names": [
+    "NativeSharpXBudgetCutoff.exists_source_cutoff",
+    "NativeSharpXBudgetCutoff.sourceCutoff",
+    "NativeSharpXBudgetCutoff.sourceCutoff_pos",
+    "NativeSharpXBudgetCutoff.sourceCutoff_pays",
+    "NativeSharpXBudgetCutoff.sourceCutoff_le_one",
+    "NativeSharpXBudgetCutoff.paid_X_lower"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T18:50:27.929877+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "e81bb5694287f19d6a7dd5d8a0ca98aa5504c9adf7ec0825fceeb5390d63c480",
+  "source_execution_complete_utc": "2026-10-05T18:50:33.045723+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T185637460951",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSharpXBudgetCutoff.exists_source_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpXBudgetCutoff.sourceCutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpXBudgetCutoff.sourceCutoff_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpXBudgetCutoff.sourceCutoff_pays": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpXBudgetCutoff.sourceCutoff_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpXBudgetCutoff.paid_X_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T18:57:51.503362+00:00"
+}

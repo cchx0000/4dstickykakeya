@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_budget_algebra
+
+#print axioms NativeRetainedSliceBudgetAlgebra.quotientCost
+#print axioms NativeRetainedSliceBudgetAlgebra.quotientCost_pos
+#print axioms NativeRetainedSliceBudgetAlgebra.retained_constant_le_reference
+#print axioms NativeRetainedSliceBudgetAlgebra.quotientCost_le

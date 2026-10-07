@@ -1,0 +1,30 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_same_source_near_balance",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_actual_same_source_near_balance.lean",
+  "source_sha256": "28b150866885dc65ac008a1f16cc5559ab1bdd68ada895e06bfc93991ed174e6",
+  "names": [
+    "NativeActualSameSourceNearBalance.core_parent_transfer",
+    "NativeActualSameSourceNearBalance.actual_same_source_near_balance"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:45:20.345182+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeActualSameSourceNearBalance.core_parent_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualSameSourceNearBalance.actual_same_source_near_balance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "059bf535a511175c0f73822dde027a27fa50e3d665699b262014e18a18833c7c",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:45:29.922742+00:00"
+}

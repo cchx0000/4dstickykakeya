@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_same_Q_shadow_mass
+set_option autoImplicit false
+#print axioms NativeSameQShadowMass.sum_shadow_weight_eq_pairs

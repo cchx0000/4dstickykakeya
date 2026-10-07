@@ -1,0 +1,293 @@
+{
+  "state": "read_only_source_trace_no_new_proof_or_fresh_verification_claim",
+  "observed_utc": "2026-10-06T15:58:37.604239+00:00",
+  "old_cluster_mismatch": {
+    "old_endpoints": [
+      "NativeOriginalScalarCW.scalar_original_CW_concentration",
+      "NativeOriginalPlanarCW.planar_original_CW_concentration"
+    ],
+    "required": "forall s,t in Z, norm(F s-F t) <= S0*sigma",
+    "actual_metric_supplier": "forall s,t in Z, norm(F s-F t) <= Lip*rho when diameter(Z)<=rho",
+    "why_not_an_implication": "sigma<=rho, so Lip*rho is generally larger than Lip*sigma. Substitution S0=Lip*rho/sigma introduces the full scale ratio; for sigma=rho^2 it is Lip/rho and cannot be called a fixed or already-paid small constant.",
+    "terminal_normal_direction": "TwoWalkBoxComparison.Data.terminal_normal_bound contains (2B+rho)*S, without a rho factor on its leading term. The existing whole-tube comparison therefore does not directly accept S=Lip*rho as S0*sigma."
+  },
+  "direct_packed_graph_endpoint": {
+    "theorem": "NativeScalarCollisionWindow.exists_scalar_original_phase_window_graph",
+    "CW_input": null,
+    "full_ambient_tube_population_input": null,
+    "actual_graph_counts": [
+      "C upper bounds pointsAt I height t z",
+      "D * #points(I) <= #I",
+      "U upper bounds the tubesAt(I,p) whose tangent slope is in each rho-ball",
+      "lambda * #Z * #tubes(I) <= #vertices(I,height)"
+    ],
+    "other_inputs": [
+      "I and finite reference Phi are nonempty",
+      "every actual incident tube is rho-close to some Phi label",
+      "actual tangent/normal incidence residuals",
+      "actual common point anchor residual with explicit DirErr",
+      "actual tube slope bound B",
+      "F norm bound Aop and variation <= Lip*rho",
+      "actual height support in Z and diameter <=rho",
+      "delta<=rho^2",
+      "positive grain width satisfying ((4B+1)Lip+(12+4Aop)max(DirErr,2IncErr))*rho^2 <= width"
+    ],
+    "derived": [
+      "original scalar collision mass",
+      "scalar terminal-fiber cap",
+      "rich core with retained witness mass",
+      "one literal maximal occupied phase window and its IsWindowGraph output"
+    ],
+    "same_source_requirement": "I must be the actual deduplicated configured-point/outputTube image. Old original edge cardinality is not #I."
+  },
+  "stronger_literal_macro_endpoint": {
+    "theorem": "NativeOriginalMacroPhaseWindow.exists_original_macro_phase_window",
+    "CW_input": null,
+    "source_inputs": [
+      "native input hD on its D",
+      "literal height separation/mass, tangent-fiber mass, grain and grain-union covering profiles",
+      "raw per-point angular AD and source realizers",
+      "actual macro angular cover and offset-coherence witnesses",
+      "incidence, normal-anchor and matrix oscillation bounds"
+    ],
+    "current_interface_mismatch": "Its tube parameter readers are NativeRescaledMacroTubeCount.scalarSlope/normalSlope for the old D,cells,a,N,parent coordinates. It cannot be applied to the coarse fullSource by assuming new direction separation, or identified with the packed orthonormal chart without a proved reader. The direct generic scalar-collision endpoint avoids this mismatch."
+  },
+  "visible_following_consumers": [
+    {
+      "theorem": "OriginalActualWindowBCGraph.exists_actual_window_BC_graph",
+      "inputs": "proved IsWindowGraph, nonempty finite Z/Phi, beta>0; no CW or carrier-population law",
+      "derived": "actual section, dyadic height-fiber class and BC graph, with explicit 18*levelCount(Z) density loss and original witness readback"
+    },
+    {
+      "theorem": "NativeOriginalPhaseWindowPopulation.original_enlarged_phase_ball_population",
+      "inputs": "actual common offset field on original physical Delta-cells; F norm bound; r<=Delta; 4*width+A*r<=Delta; positive meshes",
+      "CW_input": null,
+      "derived": "#(enlarged phase set in grid ball) <= 27*(2*Cxi*Delta/tau+2)^2*(2R/mesh+2)",
+      "remaining_actual_join": "The field must be supplied on the same final configured point support at the chosen physical Delta, via actual coherence/readback and whole-point cuts. Per-point incident anchors alone do not imply this spatial coherence."
+    }
+  ],
+  "branch_decision": "Keep the actual configured point/tube incidence, phase-key equality and deduplicated fiber readers. Do not compile extra terminal/old-ancestor CW interfaces merely for the old stronger-clustering wrappers until a current consumer uses them.",
+  "scale_and_error_reminders": [
+    "The fullSource physical thickness is Delta; analytic graph width is 8*Delta.",
+    "Merged-point normal-anchor error includes 129/4*deltaCfg coherence in addition to the single-old-point error. DirErr must remain explicit until that merged readback is proved.",
+    "The fullSource angular cube upper may use the admitted fine reference thickness epsilonRef with its explicit epsilonRef^(-e) factor; coarse direction separation is not assumed."
+  ],
+  "source_files": {
+    "native_original_scalar_cw": {
+      "path": "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_original_scalar_cw.lean",
+      "sha256": "64302417177232985cc4f16b4523899f51dfcc25f3baa13fe09055ff30fc9d42"
+    },
+    "native_original_planar_cw": {
+      "path": "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_original_planar_cw.lean",
+      "sha256": "358ae2e75bce539a4e2d296ada8df660784edd1a7de9558f04ca47b2aed939e3"
+    },
+    "native_scalar_collision_window": {
+      "path": "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_scalar_collision_window.lean",
+      "sha256": "132d3fb0a587ae5a3d16efc8eedfa200c7eb486177d6547c051bbf8172b78fc5"
+    },
+    "native_original_macro_phase_window": {
+      "path": "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_original_macro_phase_window.lean",
+      "sha256": "9be8d0e1e0a5243eca4b02711142d17aea0a2708de74ad5543feb308f8021a2e"
+    },
+    "original_actual_window_bc_graph": {
+      "path": "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_original_actual_window_bc_graph.lean",
+      "sha256": "e3ad0918a317261cc1f81570aec743d7f991d3b220acf2afd987ea3dc088e866"
+    },
+    "native_original_phase_window_population": {
+      "path": "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_native_original_phase_window_population.lean",
+      "sha256": "bc6d2f263a332fc6ec33340db764eddd8ee513909f9706944fdd11e4b87db460"
+    }
+  },
+  "actual_field_bridge": {
+    "frozen_core": "NativeConfiguredOffsetField (attempt03 fresh source/import passed)",
+    "core_receipt": "verification/native_configured_offset_field-attempt03/result.json",
+    "actual_map_consumer_draft": "NativeActualConfiguredOffsetField.from_actual_coherence",
+    "direct_phase_population_draft": "NativeScalarConfiguredOffsetField.enlarged_phase_population",
+    "source_same_cell_output": "Original xi diameter <=(129/4)*R_old on the pre-third source",
+    "actual_wide_support_readback": "same configured Delta-cell implies same old physical cell, with Delta=R_old/64",
+    "result_constant": "Cxi=2064",
+    "shared_point_offset": "NativeMergedPointOffsets.pointOffset on the same fixed U; later T only restricts it",
+    "no_second_point_choice": "Cell representatives are independent coarse-cell witnesses, but the pointOffset is reused unchanged; the difference is bounded using their actual U preimages"
+  },
+  "phase_scale_budget_draft": {
+    "module": "native_phase_window_scale_budget",
+    "verification": "attempt02 fresh source and independent imported axioms passed; frozen",
+    "parameters": "0<b<=1/8, 0<=epsilonGeom<=b/2, rho=r_stop^b",
+    "physical_Lip": "1728*r_stop^(-2*epsilonGeom), using the actual frozen configured-time conversion",
+    "normalized_mesh": "4099*rho",
+    "physical_tangent_mesh": "normalized_mesh*rho =4099*rho^2",
+    "physical_offset_mesh": "normalized_mesh*Lip*rho =4099*Lip*rho^2",
+    "grain_width": "(9*Lip+8193)*rho^2",
+    "target": "(36*Lip+40970)*rho^2 <=104000*r_stop^b",
+    "source_cutoff": "Apply exists_small_power_cutoff at amin*b before D, with target r_stop^b<=min(1/(128*104000),rhoBound)",
+    "analytic_width_readback": "actual base envelope + middle_scale_root_bound constant80 gives deltaCfg/8<=25*r_stop^(1/2-epsilonGeom), then<=rho^2 under the same cutoff",
+    "prepared_depth": "6<=d<=u+6, target<=Delta=1/2^d<=2*target, base<=64*Delta; the actual source affine error<=base supplies the physical-coherence guard",
+    "population_ratio": "Delta<=21*physical_offset_mesh gives the fixed factor27*86690^2 for Cxi2064",
+    "receipt": "verification/native_phase_window_scale_budget-attempt02/result.json",
+    "source_sha256": "20b3d1a6afc52c10d6182720e4cde16aee9078668ae59663fdddcf33d61fa2d0",
+    "olean_sha256": "28a46ed62488791a1b806971d45794c2d53d0097e7edeb75e1692dd3487cd4ff"
+  },
+  "scalar_terminal_edge_reader_draft": {
+    "module": "native_scalar_window_phase_edges",
+    "reason": "NativeScalarCollisionWindow outputs scalarTerminalCell, whereas the existing full-direction edge adapter uses another terminal cell",
+    "method": "Use graph_edge_original_witness on the actual scalar-terminal menu, scalar_terminal_gap, and the already-proved reference_original_normalized_phase; keep the concrete reference Phi angle"
+  },
+  "pending_same_source_readers": {
+    "native_configured_output_pairs": {
+      "source_sha256": "02f49fbd7d2a16dceccd294025c5ef04dc3db775b25e277d894ad2f494db9d2c",
+      "status": "unverified draft; no gate queued during parent staging hold"
+    },
+    "native_configured_incidence_fibers": {
+      "source_sha256": "e2752143722b463961ba1d2f0db1af42c6d122703eb37c19b93a58995f9985a7",
+      "status": "unverified; dependency gate pending"
+    },
+    "native_actual_configured_offset_field": {
+      "source_sha256": "bc1e976650c9e4e23bc8f949f5f2df7363edc7662d4badaca424d428e0f34f7c",
+      "status": "unverified; dependency gate pending"
+    },
+    "native_scalar_configured_offset_field": {
+      "source_sha256": "6fd9013c54ed71c6d5b39dd690039ca2864327cd0c643cc3d054c4b6f766ee0c",
+      "status": "unverified; dependency gate pending"
+    },
+    "native_scalar_window_phase_edges": {
+      "source_sha256": "7b87de18bd26de17b093f48ad99b36885f9845f9bffafd72c326d514604115a6",
+      "status": "unverified; dependency gate pending"
+    },
+    "native_phase_window_coarse_menu": {
+      "source_sha256": "37424a1ed0925a8c2eac026b902ce4c3585fff11bae9f19bb0ec76df6749dd96",
+      "status": "fresh source and imported axioms passed; frozen"
+    },
+    "native_graph_tube_cell_visits": {
+      "source_sha256": "5256d3b186a1b9b5a6d63b0d87b80e78789bfec73c36671bebd69abef117001d",
+      "status": "fresh source and independent imported axioms passed; frozen"
+    },
+    "native_graph_physical_localization": {
+      "state": "terminal_unknown_after_transport_loss",
+      "source_sha256": "af7576b61903c43d6adc316b478cc681e5bb0e8610cf0e17c3be28e345c0d1d5",
+      "receipt": "verification/native_graph_physical_localization-attempt02/result.json",
+      "observation": "Attempt02 terminal unknown after exec-server transport disconnected at15:16:02; result remains running. At15:18:33 the output lock and slot3 were both free, and source hash unchanged. No retry or downstream import started."
+    },
+    "native_core_physical_displacement": {
+      "source_sha256": "73167d5285adfe25526b403bb4eeda263b5e219819b2af0272b15ab0bd02f3bb",
+      "status": "unverified auxiliary draft; not scheduled"
+    },
+    "native_localized_phase_alphabet": {
+      "source_sha256": "b4c26107967d0fab42ec68919a7fa3eeb73ac7e5ad3af24e8a188b063dfec53d",
+      "status": "unverified auxiliary draft; not scheduled"
+    },
+    "native_core_spatial_window": {
+      "source_sha256": "2d412b932fb6254b6dc685cf3264767b73e9dd47e87312b72791423e0a795cca",
+      "status": "unverified auxiliary draft; not scheduled"
+    },
+    "native_graph_height_localization": {
+      "state": "passed_by_parent_batch1459",
+      "source_sha256": "e305e5dc783d442d50ef79d4af0389cc99e208230165f2934441d7608e0f1af5",
+      "olean_sha256": "22be3fcd9693a986cb5cb8eac2595e6a624234c42047e3640393a85ec46bc6b2",
+      "source_finished_utc": "2026-10-06T14:46:35.607993+00:00",
+      "started_utc": "2026-10-06T14:39:52.496107+00:00",
+      "receipt": "verification/native_graph_height_localization-attempt02/result.json",
+      "parent_import_finished_utc": "2026-10-06T15:05:42Z"
+    },
+    "native_full_chart_cell_visits": {
+      "source_sha256": "4e16e6763bd611c32bb564a6a7a39df97584026f72d413da2a1c417f65388f1b",
+      "status": "strict source passed and frozen; parent independent imported-axiom batch pending"
+    },
+    "native_configured_slice_occupancy": {
+      "source_sha256": "2d3a9dcef9b9cfa72eec569619c95bdba47e735b171e34dbf8eb925e5fe4b90a",
+      "status": "unverified staging draft"
+    },
+    "native_graph_point_cuts": {
+      "state": "passed",
+      "source_sha256": "22785f8d52777a004305617839065dfd7a925a0ab32ce645ca2028e5402e02c8",
+      "olean_sha256": "308496045f8d3dfe7e282a6a66b19c3f5c3e72e6aa2a27c6685334fd3b30b9fa",
+      "source_finished_utc": "2026-10-06T14:24:08.644021+00:00",
+      "started_utc": "2026-10-06T14:18:36.347551+00:00",
+      "receipt": "verification/native_graph_point_cuts-attempt02/result.json"
+    },
+    "native_full_source_window_localization": {
+      "status": "unverified draft; no check launched",
+      "source_sha256": "1c4c8605d6e848e4726c0e97fe8f2241830dc35e5e191e487bb440a3f4f34da9"
+    },
+    "native_actual_configured_height_caps": {
+      "source_sha256": "86dc5368177b2e876420301df521045eb604d382f1262e9bf2b1e25591a03b15",
+      "status": "unverified draft; no gate queued during parent staging hold"
+    },
+    "native_fixed_height_pair_cap": {
+      "source_sha256": "4afcda292dd814a3a8b317486197640b7bb17a7543398ff23047543b91fd6014",
+      "status": "unverified draft; no gate queued during parent staging hold"
+    }
+  },
+  "exact_pair_image_bridge": {
+    "module": "native_configured_output_pairs",
+    "namespace": "NativeConfiguredIncidenceFibers",
+    "same_phase_key": "relativeLabel at 2^(u+12)",
+    "same_actual_tube": "fullIndex of the original tube localIndex in the unchanged admitted fine parent source",
+    "image_cardinality": "outputPair_image_card gives equality, no fiber loss",
+    "occurrence_fibers": "outputPair_fiber_eq preserves the installed third pair relation",
+    "matched_shadow_consumer": "NativeMatchedShadowConfiguredOutput.actual_output_image_bounds, owned by grain worker; unverified"
+  },
+  "global_phase_alphabet_obligation": "The local phase-ball cap does not imply the whole alphabet norm bound. enlarged_original_phase_grid_bound separately needs tangent width rho and one common offset field within C*rho over the localized I. A coarse prepared query at width comparable to rho and an actual same-cell restriction can supply this on the same pointOffset.",
+  "finite_phase_menu": {
+    "state": "passed",
+    "source_sha256": "def5871f35ac0ffdcb20bea9737b64ed31e3ad8fee00b688d6abdcb7493526ab",
+    "olean_sha256": "5357194647683737422a027010971322198be08fb64ad57082c8e66842bfc4ab",
+    "finished_utc": "2026-10-06T12:27:36.220860+00:00"
+  },
+  "early_graph_localization_audit": {
+    "time_window": "Sum height-window vertices equals global height vertices; sum |Z_j|*|T_j| is at most |Z|*|T|. A weighted choice preserves lambda.",
+    "physical_cell": "In the chosen rho time window, slopes<=2 and analytic delta<=rho^2 give coordinate diameter<=4rho per tube. Width>=rho/2 implies at most17^4 actual physical cells per tube.",
+    "denominator": "Sum |T_cell| equals sum actual tube visit counts, via existing sum_local_heights_eq_height_cells applied to the deduplicated I.",
+    "numerator": "Only |V|<=sum |V_cell| is asserted for physical cells. A height/tube vertex can occur in several cells.",
+    "retention": "One actual cell preserves lambda/17^4 and all incident tubes at every surviving point.",
+    "average_degree_variant": "If only average D is known, remove points of degree<D/2 first; at least half the geometric edges survive, and the actual per-height per-tube cap C gives lambda/(2C).",
+    "source_status": "Visit geometry is source/import passed; point cuts and massive height localization are strict-source passed and frozen pending parent batch; physical selector attempt01 is active.",
+    "preferred_time_choice": "NativeGraphHeightLocalization.exists_massive_height_window is strict-source passed and frozen: lambda/2, V<=2*#bins*V_bin, and rho*lambda*#Z<=8*#Z_bin from the actual time box[-1,1]. Exact-lambda-only selection does not claim sufficient heights.",
+    "point_minimum_stage_guard": "The pending Q3^4 degree comparability applies to literal G(T) and later whole-point cuts. It cannot be transported through an earlier tube-parent or rich-joint pair cut without a new current-graph argument.",
+    "fixed_occupancy": "NativeConfiguredSliceOccupancy.full_source_pointsAt (staged): actual Delta-separated configured points plus the proved8Delta tube residual give C=130^3. Height-first Euclidean coordinates are a permutation of the same E4 point; ordinary product norm is not asserted isometric.",
+    "actual_height_api": "NativeGraphHeightLocalization.exists_massive_height_window uses actual heights I.image(height∘fst), and returns lambda/2, vertex mass, and rho*lambda*#Z<=8*#Z_window. It does not identify those cardinalities with original occurrences.",
+    "actual_full_source_composition": "Draft NativeFullSourceWindowLocalization.exists_same_source_window derives actual time bounds and tube visits from the unchanged admitted-reference fullSource. It returns lambda/(2*17^4) using the populated Z_window denominator, complete original point fibers, and the global height lower bound. No extra localization or tube-visit certificate is assumed.",
+    "admission_scope": "This height/cell localization feeds the scalar-window/BC graph only. The height-window raw edge or vertex retention has an explicit O(1/rho) tax. It is not a subpower pruning factor for a new sparse native source. Any such admission needs a separate same-reference window normalization or density cancellation proof; no raw F transport is claimed."
+  },
+  "coarse_phase_menu": {
+    "state": "passed",
+    "source_sha256": "37424a1ed0925a8c2eac026b902ce4c3585fff11bae9f19bb0ec76df6749dd96",
+    "olean_sha256": "c7363b6dc99c8bb98d429c5601c8bc7d39b2f12e008addc8eb74306ae96de983",
+    "finished_utc": "2026-10-06T12:56:26.297041+00:00"
+  },
+  "active_route": "Actual deduplicated graph -> massive rho-height window -> whole-point physical cell with lambda/17^4 -> common Phi and offset field -> scalar collision/window and actual BC consumers. No time rescaling of tubes.",
+  "post_core_route_status": "The three native_core_physical_displacement/native_localized_phase_alphabet/native_core_spatial_window drafts are auxiliary and unverified. The earlier whole-point route solves both the common-Phi and global-phase-alphabet issues; these post-core drafts are not scheduled.",
+  "tube_visit_gate": {
+    "state": "passed",
+    "source_sha256": "5256d3b186a1b9b5a6d63b0d87b80e78789bfec73c36671bebd69abef117001d",
+    "olean_sha256": "7aa974648400030be94f5cc24bbd87491ff6c79fd665d5d6e4decc1a20fe8633",
+    "finished_utc": "2026-10-06T13:39:52.111974+00:00"
+  },
+  "future_gate_protocol": "New attempts may use --defer-readback by parent instruction at13:46; freeze on source_passed_pending_readback and wait for the parent fresh batched imported-axiom gate. Existing active attempts remain unchanged.",
+  "full_source_visit_gate": {
+    "state": "source_passed_pending_readback",
+    "source_sha256": "4e16e6763bd611c32bb564a6a7a39df97584026f72d413da2a1c417f65388f1b",
+    "olean_sha256": "025dad45dd010056ae3feffcec5c7e1e6c6929e1ec1d736c74066ccd3e39e287",
+    "source_finished_utc": "2026-10-06T14:07:05.196469+00:00"
+  },
+  "staging_hold": "Parent requested at15:14:51 that all new gates pause until critical canonical DAG modules acquire and pass. Ready output-pair/field/window drafts are waiting; no new gate submitted.",
+  "scalar_coefficient_audit": {
+    "terminal_scale": "q=rho>0 gives imageLoss=2*rho/q+2=4",
+    "ratio": "R=U*#Phi/D",
+    "localized_lambda": "lambda_local=lambda_global/(2*17^4)",
+    "menu_density": "lambda_local^4/(16*C^5*R^3)",
+    "BC_density": "lambda_local^4/(288*C^5*levelCount(Z_window)*R^3)",
+    "scope": "Algebraic audit of existing definitions, not a newly checked declaration. The remaining actual source obligation is a same-cell subpower bound on U*#Phi/D; no raw window F is used."
+  },
+  "fixed_old_height_inverse_pair_cap": {
+    "module": "NativeFixedHeightPairCap",
+    "source_theorem": "NativeFixedHeightPairCap.same_reference_old_parent_height_fiber",
+    "counted_set": "Actual deduplicated configured-point/output-index pairs at one literal physical height and one old reference phase ancestor",
+    "bound": "130^3*5832*66^3*epsilonRef^(-e)*(rho/DeltaOut)^3",
+    "height_origin": "A fixed original translated height h maps to the one actual configured height finalTime(mu*R0)(h/(8R0)); no rho/DeltaOut height count occurs",
+    "parent_origin": "outputTube_ancestor_readback identifies the same old relativeLabel at 2^c with ancestor b c of the actual fullSource parent index",
+    "proof": "Actual charted point occupancy130^3, followed by the unchanged-index original fullSource slope cube upper. H and the source scale guard are derived internally from the same HB and reference budget. The extra coarse point restriction can be discarded for this upper bound.",
+    "dedup_warning": "For a coarse point key that does not factor through configured points, cover fine G by its images over original coarse-key fibers and use a union-cardinality upper; do not assume a single-valued coarse-point map.",
+    "guards": "c<=b, DeltaOut<=rho, 1/2^c<=rho. The counted fiber fixes physical height and oldAncestor on the original representative; no coarse point-key factorization is needed."
+  },
+  "global_height_denominator_owner": "Grain counts Z=B.image(actual configured physical height), with18/DeltaOut. Converting distinct old translated heights to this denominator requires Hsingle on the actual frozen baseline; arbitrary B>=T does not give equality."
+}

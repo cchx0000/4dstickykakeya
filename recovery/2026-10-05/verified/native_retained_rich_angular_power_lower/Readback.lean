@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_retained_rich_angular_power_lower
+
+#print axioms NativeRetainedRichAngularPowerLower.retained_rich_reference_power_lower

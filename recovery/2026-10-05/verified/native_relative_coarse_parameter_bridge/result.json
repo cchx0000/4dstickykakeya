@@ -1,0 +1,56 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_relative_coarse_parameter_bridge",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_relative_coarse_parameter_bridge.lean",
+  "source_sha256": "d73783cb794474606ff32455144ff3ed017aa8fa6f670fabf1b1007c33d8a0fe",
+  "names": [
+    "NativeRelativeCoarseParameterBridge.globalProjection",
+    "NativeRelativeCoarseParameterBridge.globalBox",
+    "NativeRelativeCoarseParameterBridge.globalProjection_mem_box",
+    "NativeRelativeCoarseParameterBridge.globalBox_card",
+    "NativeRelativeCoarseParameterBridge.dyadic_globalProjection",
+    "NativeRelativeCoarseParameterBridge.relative_global_box",
+    "NativeRelativeCoarseParameterBridge.relative_fiber_global_labels_card_le"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T06:38:46.864287+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeRelativeCoarseParameterBridge.globalBox": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRelativeCoarseParameterBridge.globalProjection_mem_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRelativeCoarseParameterBridge.globalBox_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRelativeCoarseParameterBridge.dyadic_globalProjection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRelativeCoarseParameterBridge.relative_global_box": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRelativeCoarseParameterBridge.relative_fiber_global_labels_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRelativeCoarseParameterBridge.globalProjection": []
+  },
+  "olean_sha256": "5a5c600d589e0ac9e3f044c2eaae7c63b7724618ab5c91e01f51276d257b354d",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T06:56:31.718218+00:00"
+}

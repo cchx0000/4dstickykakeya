@@ -1,0 +1,61 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:46:29.297099+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164628582946",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164628582946/AggregateReadback.lean"
+  ],
+  "readback_sha256": "db70064041fb3df7132ded22be00f5297695f94bd669ae5f26a346786de688a2",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_slice_radius_interpolation",
+      "source_sha256": "90ce05ea4a5eb7d2a4d780a9757c07a0e1f2593435b7a2abce37b89b67ca2169",
+      "olean_sha256": "821c8abd27e06c391c5d25b7f0585e60191c615493efb7f923b5c91737e0c777",
+      "names": [
+        "NativeSliceRadiusInterpolation.radius",
+        "NativeSliceRadiusInterpolation.radius_pos",
+        "NativeSliceRadiusInterpolation.adjacent_ratio",
+        "NativeSliceRadiusInterpolation.bracket_real_radius",
+        "NativeSliceRadiusInterpolation.ballCount",
+        "NativeSliceRadiusInterpolation.ballCount_mono",
+        "NativeSliceRadiusInterpolation.all_radius_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_grain_density_transfer",
+      "source_sha256": "6ee3ca88afd13b99428646a3dcc46880bd305af3962f3dfb0c5b292d21a192e0",
+      "olean_sha256": "2b1cc124a80a0d801a8a752a4f0eae19900be9f2450c049218fcd18efa391dfe",
+      "names": [
+        "NativeRetainedGrainDensityTransfer.original_grain_count_cross",
+        "NativeRetainedGrainDensityTransfer.retained_grain_density",
+        "NativeRetainedGrainDensityTransfer.retained_grain_density_two_stage",
+        "NativeRetainedGrainDensityTransfer.extra_relation_grain_uniformity"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_grain_density_core",
+      "source_sha256": "b1ece3d518ae53b121930572a5a763f9a16bd02c6df2b6aa4c6b271ee875c0be",
+      "olean_sha256": "c14db4714378be7a395693e107a824daffe47edaef4c9b7e4f130d0fef117ac3",
+      "names": [
+        "NativeRetainedGrainDensityCore.grainRelations",
+        "NativeRetainedGrainDensityCore.grainRelations_refl",
+        "NativeRetainedGrainDensityCore.grainRelations_symm",
+        "NativeRetainedGrainDensityCore.exists_slice_grain_core"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:46:33.822841+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_near_target_loss
+#print axioms NativeNearTargetLoss.lower_with_target_loss
+#print axioms NativeNearTargetLoss.upper_with_target_loss

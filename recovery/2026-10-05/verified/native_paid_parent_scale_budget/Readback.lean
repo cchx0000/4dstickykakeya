@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_paid_parent_scale_budget
+
+#print axioms NativePaidParentScaleBudget.uniform_radix_pos
+#print axioms NativePaidParentScaleBudget.geometry_radix_cost
+#print axioms NativePaidParentScaleBudget.transfer_denominator_cost
+#print axioms NativePaidParentScaleBudget.absorbed_lower

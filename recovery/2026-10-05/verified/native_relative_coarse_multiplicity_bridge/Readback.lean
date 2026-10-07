@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_relative_coarse_multiplicity_bridge
+
+#print axioms NativeRelativeCoarseMultiplicityBridge.globalPair
+#print axioms NativeRelativeCoarseMultiplicityBridge.relativePair
+#print axioms NativeRelativeCoarseMultiplicityBridge.globalPair_eq_actualPair
+#print axioms NativeRelativeCoarseMultiplicityBridge.conditional_global_relative_multiplicity

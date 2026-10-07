@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_slice_population_algebra
+
+#print axioms NativeSlicePopulationAlgebra.slice_ratio_bounds
+#print axioms NativeSlicePopulationAlgebra.slice_power_bounds

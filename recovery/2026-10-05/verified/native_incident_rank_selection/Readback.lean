@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_incident_rank_selection
+
+#print axioms NativeIncidentRankSelection.pointSet
+#print axioms NativeIncidentRankSelection.pointNear
+#print axioms NativeIncidentRankSelection.pointNear_top
+#print axioms NativeIncidentRankSelection.point_minimal_rank
+#print axioms NativeIncidentRankSelection.point_category_value
+#print axioms NativeIncidentRankSelection.point_category_fiber
+#print axioms NativeIncidentRankSelection.point_filter_near
+#print axioms NativeIncidentRankSelection.card_eq_sum_pointSet
+#print axioms NativeIncidentRankSelection.pointwise_retention_sum
+#print axioms NativeIncidentRankSelection.exists_rank_scale_retention

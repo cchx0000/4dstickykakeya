@@ -1,0 +1,76 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_retained_grain_history",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_retained_grain_history.lean",
+  "source_sha256": "fd16325cf6178cb995a79acb36b06384b5becb2e1f4d39aa8784267cfb1b95ea",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_retained_grain_history.olean",
+  "names": [
+    "NativeRetainedGrainHistory.historyCutoff",
+    "NativeRetainedGrainHistory.historyCutoff_spec",
+    "NativeRetainedGrainHistory.rank_halving_cost",
+    "NativeRetainedGrainHistory.retained_power_after_halving",
+    "NativeRetainedGrainHistory.historyDepth",
+    "NativeRetainedGrainHistory.historyDepth_eq_depth",
+    "NativeRetainedGrainHistory.historyDepth_le_stop",
+    "NativeRetainedGrainHistory.HasRetainedHistory",
+    "NativeRetainedGrainHistory.construct_actual_retained_history"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T13:48:29.847874+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "c3173c6670666a636c4d24f85813d3609b81149e64b47c0e17252e35ae6e3948",
+  "source_execution_complete_utc": "2026-10-05T13:49:50.862025+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T135309042027",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeRetainedGrainHistory.historyCutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedGrainHistory.historyCutoff_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedGrainHistory.rank_halving_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedGrainHistory.retained_power_after_halving": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedGrainHistory.historyDepth": [
+      "propext"
+    ],
+    "NativeRetainedGrainHistory.historyDepth_eq_depth": [
+      "propext"
+    ],
+    "NativeRetainedGrainHistory.historyDepth_le_stop": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedGrainHistory.HasRetainedHistory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedGrainHistory.construct_actual_retained_history": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T13:54:33.120123+00:00"
+}

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_angular_test_scale
+
+#print axioms NativeAngularTestScale.exists_dyadic_angular_scale
+#print axioms NativeAngularTestScale.exists_actual_test_scale

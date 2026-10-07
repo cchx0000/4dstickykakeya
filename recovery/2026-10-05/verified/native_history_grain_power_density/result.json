@@ -1,0 +1,50 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_history_grain_power_density",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_history_grain_power_density.lean",
+  "source_sha256": "ff1e87841a2b7368fc43977362898fbff4788991b5908ea5b4992d0aa319dcb1",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_history_grain_power_density.olean",
+  "names": [
+    "NativeHistoryGrainPowerDensity.scaleGain",
+    "NativeHistoryGrainPowerDensity.scaleGain_nonneg",
+    "NativeHistoryGrainPowerDensity.scale_predecessor_power_lower",
+    "NativeHistoryGrainPowerDensity.exists_actual_power_dense_grain_core"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T14:09:28.885956+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "101ec2a89c06ccd4ffbb0001ebd180c4d0cbf05aafaa810123418c17271bbf2f",
+  "source_execution_complete_utc": "2026-10-05T14:09:34.458419+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141047574988",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeHistoryGrainPowerDensity.scaleGain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHistoryGrainPowerDensity.scaleGain_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHistoryGrainPowerDensity.scale_predecessor_power_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHistoryGrainPowerDensity.exists_actual_power_dense_grain_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T14:10:53.346071+00:00"
+}

@@ -1,0 +1,14 @@
+import Theorems.Thm_StickyKakeya4_native_fine_weighted_coarse_core
+set_option autoImplicit false
+#print axioms NativeFineWeightedCoarseCore.fineCapacity
+#print axioms NativeFineWeightedCoarseCore.colorCost
+#print axioms NativeFineWeightedCoarseCore.pruneCost
+#print axioms NativeFineWeightedCoarseCore.fineCapacity_pos
+#print axioms NativeFineWeightedCoarseCore.colorCost_pos
+#print axioms NativeFineWeightedCoarseCore.pruneCost_pos
+#print axioms NativeFineWeightedCoarseCore.color_weight_retention
+#print axioms NativeFineWeightedCoarseCore.pruned_weight_retention
+#print axioms NativeFineWeightedCoarseCore.normalized_pruning_charge
+#print axioms NativeFineWeightedCoarseCore.same_Q_selection
+#print axioms NativeFineWeightedCoarseCore.actual_shading_from_fine_weights
+#print axioms NativeFineWeightedCoarseCore.same_Q_native_input

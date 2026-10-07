@@ -1,0 +1,75 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/5fbe1da7daf340673690daa2d6aabc222fa45edb974e45d99dcdfaf000e7a1ae.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean"]
+SOURCE_SHA256 83d4a5db1c68535a190a32a83d781d5e684aecf26273200c94731cfdc7b5b33b
+LOCK_ACQUIRED_UTC 2026-10-06T13:10:17.062230+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean:55:26: error: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean:61:16: error: don't know how to synthesize implicit argument `b`
+  @LT.lt.le ℝ Real.instPreorder (↑⌈A * r ^ ?m.68⌉₊) (A * r ^ ?m.68 + 1)
+    (Nat.ceil_lt_add_one (mul_nonneg hA (Real.rpow_nonneg (LT.lt.le hr) ?m.68)))
+context:
+A r power : ℝ
+hA : 0 ≤ A
+hr : 0 < r
+hr1 : r ≤ 1
+hpower : 0 ≤ power
+⊢ ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean:61:16: error: don't know how to synthesize implicit argument `a`
+  @LT.lt.le ℝ Real.instPreorder (↑⌈A * r ^ ?m.68⌉₊) (A * r ^ ?m.68 + 1)
+    (Nat.ceil_lt_add_one (mul_nonneg hA (Real.rpow_nonneg (LT.lt.le hr) ?m.68)))
+context:
+A r power : ℝ
+hA : 0 ≤ A
+hr : 0 < r
+hr1 : r ≤ 1
+hpower : 0 ≤ power
+⊢ ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean:61:17: error: don't know how to synthesize implicit argument `a`
+  @Nat.ceil_lt_add_one ℝ Real.semiring Real.linearOrder FloorRing.toFloorSemiring (A * r ^ ?m.68)
+    Real.instIsStrictOrderedRing (mul_nonneg hA (Real.rpow_nonneg (LT.lt.le hr) ?m.68))
+context:
+A r power : ℝ
+hA : 0 ≤ A
+hr : 0 < r
+hr1 : r ≤ 1
+hpower : 0 ≤ power
+⊢ ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean:61:38: error: don't know how to synthesize implicit argument `b`
+  @mul_nonneg ℝ instMulZeroClassOfSemiring A (r ^ ?m.68) instDistribLatticeOfLinearOrder.toSemilatticeInf.toPreorder
+    Real.instIsOrderedRing.toPosMulMono hA (Real.rpow_nonneg (LT.lt.le hr) ?m.68)
+context:
+A r power : ℝ
+hA : 0 ≤ A
+hr : 0 < r
+hr1 : r ≤ 1
+hpower : 0 ≤ power
+⊢ ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean:61:76: error: don't know how to synthesize placeholder for argument `y`
+context:
+A r power : ℝ
+hA : 0 ≤ A
+hr : 0 < r
+hr1 : r ≤ 1
+hpower : 0 ≤ power
+⊢ ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean:61:7: error: failed to infer `have` declaration type
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean:60:46: error: unsolved goals
+A r power : ℝ
+hA : 0 ≤ A
+hr : 0 < r
+hr1 : r ≤ 1
+hpower : 0 ≤ power
+⊢ ↑⌈A * r ^ (-power)⌉₊ ≤ (A + 1) * r ^ (-power)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_new_cut_budget.lean:85:34: error: Application type mismatch: The argument
+  add_le_add_right hA4 1
+has type
+  1 + offsetCoefficient normal g meshConstant row ≤ 1 + offsetCoefficient 4 g meshConstant row
+but is expected to have type
+  offsetCoefficient normal g meshConstant row + 1 ≤ offsetCoefficient 4 g meshConstant row + 1
+in the application
+  mul_le_mul_of_nonneg_right (add_le_add_right hA4 1)
+LEAN_FINISHED_UTC 2026-10-06T13:10:28.084722+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

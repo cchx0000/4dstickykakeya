@@ -1,0 +1,82 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T18:04:22.474829+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180420918225",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T180420918225/AggregateReadback.lean"
+  ],
+  "readback_sha256": "f1226e3cdce9eeda8763eecd7a48f16a2feac63f1e99ff7f6532b609c6f892bb",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_pointwise_trim_preservation",
+      "source_sha256": "432607403a805b6672258e59c35b3d6338003855f1ef370af72df807743c8b6a",
+      "olean_sha256": "193b50c7d0db8e3cc653f46f072ca61e449959b8a866539a4ad84c0b4b7e5951",
+      "names": [
+        "NativePointwiseTrimPreservation.filtered_point_image",
+        "NativePointwiseTrimPreservation.filtered_point_fiber",
+        "NativePointwiseTrimPreservation.point_class_half_retention",
+        "NativePointwiseTrimPreservation.point_class_image_unchanged"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_field",
+      "source_sha256": "868032fbc441497f298059f5c806f118a0a77ce0c2e76724bdd1652066684844",
+      "olean_sha256": "1254d793d13463de7c4da4c2c66fd4e30b576ef0c47c137e4ae4995030c22695",
+      "names": [
+        "NativeReferenceXYGridField.slice_horizontal",
+        "NativeReferenceXYGridField.fixedField",
+        "NativeReferenceXYGridField.fixedField_norm",
+        "NativeReferenceXYGridField.fixedField_zero_off",
+        "NativeReferenceXYGridField.fixedField_readback",
+        "NativeReferenceXYGridField.fixed_pxy_readback",
+        "NativeReferenceXYGridField.pref_squared",
+        "NativeReferenceXYGridField.coarseIndex_horizontalCoarsen"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_complete_parent_profiles",
+      "source_sha256": "763b3227017414c4c9671e2d1d4d0818f410c2ebab56d6884fe2d6670bc97c3e",
+      "olean_sha256": "4539d2c58f75e073208aa8b078cabc783ca664669899934e383dd597c572685b",
+      "names": [
+        "NativeSaturatedCompleteParentProfiles.HasSaturatedCompleteParentProfiles",
+        "NativeSaturatedCompleteParentProfiles.complete_saturated_selected_parent_profiles"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_saturated_population_parent_profiles",
+      "source_sha256": "a192a9f6bc6fb426b9f95824966fa5dab09b116fdce528a68afcd4950ab2feca",
+      "olean_sha256": "51d567062969ce4b9d6fa7b0c367c31f3a8d23213a6e7bc5c1540abf67b8ef16",
+      "names": [
+        "NativeSaturatedPopulationParentProfiles.HasSaturatedPopulationParentProfiles",
+        "NativeSaturatedPopulationParentProfiles.source_saturated_population_parent_profiles"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_actual_caps",
+      "source_sha256": "e62a437333679b7a3dba2a1d95543f934a514f886706fe84b0f6c871b7f745a8",
+      "olean_sha256": "028545d3b560213606bf5fc30a36b98c4f1fbe24d0b3c13c8c8f62a5d110704b",
+      "names": [
+        "NativeTwoMapRetainedSliceActualCaps.dimension_sum",
+        "NativeTwoMapRetainedSliceActualCaps.encodedPoint",
+        "NativeTwoMapRetainedSliceActualCaps.encodedPoint_height",
+        "NativeTwoMapRetainedSliceActualCaps.encodedPoint_coarse",
+        "NativeTwoMapRetainedSliceActualCaps.image_composed_encode_card",
+        "NativeTwoMapRetainedSliceActualCaps.encoded_capacities"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T18:05:03.881079+00:00",
+  "exit_code": 0
+}

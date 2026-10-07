@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_displaced_ad_lower
+set_option autoImplicit false
+#print axioms NativeDisplacedADLower.power_ratio_identity
+#print axioms NativeDisplacedADLower.fiber_card_upper
+#print axioms NativeDisplacedADLower.displaced_ball_lower
+#print axioms NativeDisplacedADLower.image_ball_lower

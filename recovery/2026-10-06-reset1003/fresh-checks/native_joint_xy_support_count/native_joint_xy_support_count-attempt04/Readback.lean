@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_joint_xy_support_count
+set_option autoImplicit false
+#print axioms NativeJointXYSupportCount.encoded_realized_bound
+#print axioms NativeJointXYSupportCount.source_realized_box
+#print axioms NativeJointXYSupportCount.realized_coarse_label
+#print axioms NativeJointXYSupportCount.coarse_xy_image_card
+#print axioms NativeJointXYSupportCount.source_height_physical_card
+#print axioms NativeJointXYSupportCount.source_height_base_keys_global

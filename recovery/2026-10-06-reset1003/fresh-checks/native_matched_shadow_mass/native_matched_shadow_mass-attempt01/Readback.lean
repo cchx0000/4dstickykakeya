@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_matched_shadow_mass
+set_option autoImplicit false
+#print axioms NativeMatchedShadowMass.core_mass_le_full
+#print axioms NativeMatchedShadowMass.full_pair_mass
+#print axioms NativeMatchedShadowMass.mixed_full_pair_mass

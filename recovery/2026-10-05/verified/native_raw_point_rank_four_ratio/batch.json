@@ -1,0 +1,41 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:49:34.479337+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134931411845",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134931411845/AggregateReadback.lean"
+  ],
+  "readback_sha256": "ac9265b69f7f88b3f5dae9b398200d1f92b8698797f6aeeab6c98be5940c409a",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_raw_point_rank_four_ratio",
+      "source_sha256": "fb4b34c8c9c1fb4545cabb9462c03ef9c602a4a5f4242621e0ff1ae61170b482",
+      "olean_sha256": "234ca9c698daf4d0343ff92560f4c645b4204aca94ee1d6395c9d193084601ea",
+      "names": [
+        "NativeRawPointRankFourRatio.core_physical_uniformities",
+        "NativeRawPointRankFourRatio.retained_scheduled_full_upper",
+        "NativeRawPointRankFourRatio.squared_profile_cross",
+        "NativeRawPointRankFourRatio.pointRatioConstant",
+        "NativeRawPointRankFourRatio.pointRatioConstant_pos",
+        "NativeRawPointRankFourRatio.source_squared_raw_ratio",
+        "NativeRawPointRankFourRatio.squared_depth_in_middle",
+        "NativeRawPointRankFourRatio.source_squared_raw_ratio_of_middle_window",
+        "NativeRawPointRankFourRatio.vertices_card_eq_rawPointCount"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:52:10.720301+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_old_parent_near_lower
+#print axioms NativeOldParentNearLower.all_old_parent_near_lower
+#print axioms NativeOldParentNearLower.old_cost_le_balance
+#print axioms NativeOldParentNearLower.actual_old_parent_near_lower

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_nested_population_selection
+
+#print axioms NativeNestedPopulationSelection.parentEdges_nested_eq
+#print axioms NativeNestedPopulationSelection.nested_parent_subset
+#print axioms NativeNestedPopulationSelection.exists_nested_population_parent

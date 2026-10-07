@@ -1,0 +1,37 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:58:38.762318+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145838083212",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145838083212/AggregateReadback.lean"
+  ],
+  "readback_sha256": "c5ddc1aea88c1ac850a5f44c6d61fe0e93f92ec42147007fce1699aa416fb8c7",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_global_source_bridge",
+      "source_sha256": "129fc136777289d52e9e23546f0803a88a965463d28cd4dda0af1ed05eacda07",
+      "olean_sha256": "89a1788e5c6aa251af1e5b46b1d733272e4c532d201f1f4cb13afaee3911bab8",
+      "names": [
+        "NativeAnisotropicGlobalSourceBridge.columnPair",
+        "NativeAnisotropicGlobalSourceBridge.comparisonCost",
+        "NativeAnisotropicGlobalSourceBridge.comparisonCost_pos",
+        "NativeAnisotropicGlobalSourceBridge.image_multiplicity_of_time_counts",
+        "NativeAnisotropicGlobalSourceBridge.queried_global_source_comparison"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:58:43.666394+00:00",
+  "exit_code": 0
+}

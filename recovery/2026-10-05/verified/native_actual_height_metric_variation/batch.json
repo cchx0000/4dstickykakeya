@@ -1,0 +1,44 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:19:09.070949+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161908235592",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161908235592/AggregateReadback.lean"
+  ],
+  "readback_sha256": "2e0e361f681fc0e5f94a463c8dd9ef066b13db7b534768ee5579cf6171702691",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_nested_population_selection",
+      "source_sha256": "37162898e01d5288583e50cf6ffc9b05d283d7b04a0580c40d33e7c95d4ba9f2",
+      "olean_sha256": "8dc187e357d9185e43dc7efd18a2496c5149e1c438de2d679626ec5d4eb55ab3",
+      "names": [
+        "NativeNestedPopulationSelection.parentEdges_nested_eq",
+        "NativeNestedPopulationSelection.nested_parent_subset",
+        "NativeNestedPopulationSelection.exists_nested_population_parent"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_height_metric_variation",
+      "source_sha256": "9fab8dff04c6919994366f13e9d0612a3e22a33f2b32eccdccee23998b082c6a",
+      "olean_sha256": "2741304fbf965887932e97f80527e96768bc5a7825debe1ef7ca372319dcbd80",
+      "names": [
+        "NativeActualHeightMetricVariation.actual_metric_variation",
+        "NativeActualHeightMetricVariation.actual_half_metric_variation"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:19:14.351757+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,18 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/5ea904fda9ba97fc570e723a5ac178808fcac3c6b0e25fdff37b023592519866.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_configured_slice_occupancy.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_slice_occupancy.lean"]
+SOURCE_SHA256 2d3a9dcef9b9cfa72eec569619c95bdba47e735b171e34dbf8eb925e5fe4b90a
+LOCK_ACQUIRED_UTC 2026-10-06T18:07:53.982645+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_slice_occupancy.lean:56:2: error: Type mismatch
+  hh
+has type
+  #(@pointsAt E4 T ℝ (fun a b => propDecidable (a = b)) (fun a b => propDecidable (a = b)) Real.decidableEq I
+        (fun p => p.ofLp 3) t z) ≤
+    2197000
+but is expected to have type
+  #(@pointsAt E4 T ((fun x => ℝ) 3) (fun a b => WithLp.instDecidableEq 2 ((i : Fin 4) → (fun x => ℝ) i) a b) inst✝
+        Real.decidableEq I (fun p => p.ofLp 3) t z) ≤
+    2197000
+LEAN_FINISHED_UTC 2026-10-06T18:12:21.549100+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

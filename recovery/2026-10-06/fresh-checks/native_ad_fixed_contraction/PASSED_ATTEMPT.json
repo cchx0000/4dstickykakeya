@@ -1,0 +1,33 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_ad_fixed_contraction",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_ad_fixed_contraction.lean",
+  "source_sha256": "5cb2c70ddaf078f0689aaa147bb8e9c7c42c39906469dad177a31781765e05cd",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_ad_fixed_contraction.olean",
+  "names": [
+    "NativeADFixedContraction.contract_AD",
+    "NativeADFixedContraction.coarse_mesh_AD"
+  ],
+  "started_utc": "2026-10-06T08:01:34.737094+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "ab2f9378098a0f0906c5be2470a3a44ba4e1f0c0034cef68898646589f10aeec",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeADFixedContraction.contract_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeADFixedContraction.coarse_mesh_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T08:07:33.120867+00:00"
+}

@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_hereditary_conditional_upper
+
+#print axioms NativeHereditaryConditionalUpper.parent_subset_reference_ancestor
+#print axioms NativeHereditaryConditionalUpper.active_parent_upper_all
+#print axioms NativeHereditaryConditionalUpper.subset_outer_parent_upper
+#print axioms NativeHereditaryConditionalUpper.far_pair_upper
+#print axioms NativeHereditaryConditionalUpper.conditional_upper
+#print axioms NativeHereditaryConditionalUpper.short_gap_upper
+#print axioms NativeHereditaryConditionalUpper.depthPower_mono
+#print axioms NativeHereditaryConditionalUpper.boundary_pair_upper

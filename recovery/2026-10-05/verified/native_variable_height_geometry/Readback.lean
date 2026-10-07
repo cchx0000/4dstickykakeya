@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_variable_height_geometry
+
+#print axioms NativeVariableHeightGeometry.short_row_chart_close
+#print axioms NativeVariableHeightGeometry.short_row_column_mem_halo

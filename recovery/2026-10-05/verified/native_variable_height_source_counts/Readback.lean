@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_variable_height_source_counts
+
+#print axioms NativeVariableHeightSourceCounts.queried_column_point_power_bounds

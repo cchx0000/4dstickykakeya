@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_height_metric_power
+
+#print axioms NativeHeightMetricPower.exists_grain_count
+#print axioms NativeHeightMetricPower.menu_gap_power
+#print axioms NativeHeightMetricPower.metricConstant_small_loss
+#print axioms NativeHeightMetricPower.metricConstant_small_loss_of_grain_count
+#print axioms NativeHeightMetricPower.normalizationConstant
+#print axioms NativeHeightMetricPower.absorb_normalized_metric
+#print axioms NativeHeightMetricPower.exists_uniform_metric_cutoff
+#print axioms NativeHeightMetricPower.actual_metric_constant_paid

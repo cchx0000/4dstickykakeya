@@ -1,0 +1,53 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T09:46:28.421501+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py",
+    "--slots",
+    "2",
+    "--lock-dir",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T094626557434",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T094626557434/AggregateReadback.lean"
+  ],
+  "readback_sha256": "246cfefe81fc6f6ae42d1d174d0bf0d85dc923c24167319d41e3d30528056e87",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_exponent_hierarchy",
+      "source_sha256": "fd83bce5ef1f0beeb7f48329c029c274a142687c5a7626ce446a9197507f7bc2",
+      "olean_sha256": "34ee3917ce8e0bdbdb801b54e00debeee79866c32c8508fd51ee6eb2380eb8dc",
+      "names": [
+        "NativeRankExponentHierarchy.rankLoss",
+        "NativeRankExponentHierarchy.cutoff",
+        "NativeRankExponentHierarchy.commonBudget",
+        "NativeRankExponentHierarchy.rankLoss_pos",
+        "NativeRankExponentHierarchy.cutoff_bounds",
+        "NativeRankExponentHierarchy.commonBudget_pos",
+        "NativeRankExponentHierarchy.cutoff_mul_rankLoss",
+        "NativeRankExponentHierarchy.rankLoss_le_initial",
+        "NativeRankExponentHierarchy.adjacent_identities",
+        "NativeRankExponentHierarchy.test_parameters",
+        "NativeRankExponentHierarchy.rank_one_power_margin"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_one_excluded_from_source_cost",
+      "source_sha256": "a17959612a8648ef70cfb57e60fc3b253bdec4729bbaf5b4cbf654c4b1b244c9",
+      "olean_sha256": "4a3080143e3bd0c850b110cd95ca6b618a1be92388941bd1a67958ddce5072e5",
+      "names": [
+        "NativeRankOneExcludedFromSourceCost.exists_actual_rank_one_exclusion"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T09:57:06.460995+00:00",
+  "exit_code": 0
+}

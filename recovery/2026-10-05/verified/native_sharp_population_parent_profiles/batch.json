@@ -1,0 +1,148 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T17:36:21.411967+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T173620705309",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T173620705309/AggregateReadback.lean"
+  ],
+  "readback_sha256": "cf42bed4a4d22e93ff910f81203e6f0c5eaa30e9863e426b87b23147d086c2a4",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_cell_relative_core",
+      "source_sha256": "b1fbfd1c65f4201f6f1517c91b7692e7e714d5a54b4d834755603a550d5b4f5f",
+      "olean_sha256": "8efe0b2efcd917a379659101705a521aa8a20ecb18fe1e1db031611c6e58817f",
+      "names": [
+        "NativeNormalizedCellRelativeCore.backboneRepresentative",
+        "NativeNormalizedCellRelativeCore.pairLabel",
+        "NativeNormalizedCellRelativeCore.pointLabel",
+        "NativeNormalizedCellRelativeCore.relations",
+        "NativeNormalizedCellRelativeCore.relations_refl",
+        "NativeNormalizedCellRelativeCore.relations_symm",
+        "NativeNormalizedCellRelativeCore.caller_relative_uniformities",
+        "NativeNormalizedCellRelativeCore.normalizedPair",
+        "NativeNormalizedCellRelativeCore.physical_fiber_relative_menu",
+        "NativeNormalizedCellRelativeCore.normalized_cell_degree_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_cell_relative_menu",
+      "source_sha256": "c590c26dfb83173061f445bd3410722ae28c841a2d541804f668f0cfe837c9d4",
+      "olean_sha256": "cf7eaf87afc9bbc9640f5936da7fe4fc008e64164a09487b9032673c3ef729a4",
+      "names": [
+        "NativeNormalizedCellRelativeMenu.physicalPoint",
+        "NativeNormalizedCellRelativeMenu.physicalCell",
+        "NativeNormalizedCellRelativeMenu.zero_local_front",
+        "NativeNormalizedCellRelativeMenu.double_front_physical_error",
+        "NativeNormalizedCellRelativeMenu.forwardMenu",
+        "NativeNormalizedCellRelativeMenu.forwardMenu_card",
+        "NativeNormalizedCellRelativeMenu.double_label_mem_forward"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_normalized_cell_source_upper",
+      "source_sha256": "a23e2287406df50bde05e9b10e7c42119950cc079bce42dde026f596b90af0d0",
+      "olean_sha256": "b349e15189933fb5f17a9d2b810af88c5652f872b624f88b269b451c6aa10c6d",
+      "names": [
+        "NativeNormalizedCellSourceUpper.source_native_from_population",
+        "NativeNormalizedCellSourceUpper.exists_source_normalized_degree_upper"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_local_slice_grain_ad",
+      "source_sha256": "f9efb7aee290c800a7ad6a61d2139922d6b5fa756e8d2cc8dfdf16d4d2c3ce0b",
+      "olean_sha256": "9c77dd9986dabcc92e1589e8694d8e55414cdd230b179d73199b1fe75d2eb7f8",
+      "names": [
+        "NativeParentLocalSliceGrainAD.exists_parent_local_slice_grain_AD"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_slice_relation_readback",
+      "source_sha256": "e83c89ef3f0c63e3f511609b68c909643c76c7c15263b14692a2f5c76705fa09",
+      "olean_sha256": "8b810e14a24649e991d842c07630d5fc0c67ec827f173d6dd9a4ee5c1ed31092",
+      "names": [
+        "NativeParentSliceRelationReadback.parentEdges_twice",
+        "NativeParentSliceRelationReadback.parent_relations"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_XY_grid_linear",
+      "source_sha256": "b62be80a5bc32d6f63de01fd33af0b455527629ab9632a746d6fb65f72cb4f87",
+      "olean_sha256": "016dbaa0a84995411a62a4709bd6bb11fc76d5c4fd63b5e648c9cbe702d6eae4",
+      "names": [
+        "NativeReferenceXYGridLinear.totalField",
+        "NativeReferenceXYGridLinear.totalField_on",
+        "NativeReferenceXYGridLinear.totalField_off",
+        "NativeReferenceXYGridLinear.totalField_norm",
+        "NativeReferenceXYGridLinear.euclidean_norm_le_sum",
+        "NativeReferenceXYGridLinear.matrix_action_norm",
+        "NativeReferenceXYGridLinear.normalCoordinates",
+        "NativeReferenceXYGridLinear.normalCoordinates_norm",
+        "NativeReferenceXYGridLinear.tangent_norm_le",
+        "NativeReferenceXYGridLinear.normal_norm_le",
+        "NativeReferenceXYGridLinear.quotientMap",
+        "NativeReferenceXYGridLinear.quotient_norm_le",
+        "NativeReferenceXYGridLinear.normalProjection_horizontal",
+        "NativeReferenceXYGridLinear.horizontal_inverse",
+        "NativeReferenceXYGridLinear.vertical",
+        "NativeReferenceXYGridLinear.vertical_last",
+        "NativeReferenceXYGridLinear.vertical_norm",
+        "NativeReferenceXYGridLinear.vertical_orthogonal",
+        "NativeReferenceXYGridLinear.coordinates_remove_vertical",
+        "NativeReferenceXYGridLinear.inverse_norm"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_complete_parent_profiles",
+      "source_sha256": "4373d16da9f3da30a85ff4d30d9126a06a43f7f9ba73623840fbb9740773ef89",
+      "olean_sha256": "cab7ef69cb5f47b90d62b89beb9088758ad4b175194e77f841455dc98d1d20f4",
+      "names": [
+        "NativeSharpCompleteParentProfiles.HasSharpCompleteParentProfiles",
+        "NativeSharpCompleteParentProfiles.complete_sharp_selected_parent_profiles"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_mixed_grain_core",
+      "source_sha256": "102907d55992a70f3adb0a4b2dc4669a4daf1b18669576a4d15be2bcef222a5d",
+      "olean_sha256": "7b0cdaf76dc5f63176091b7c21c8a8342e6dde4c318c831ed8e158f670f37d8e",
+      "names": [
+        "NativeSharpMixedGrainCore.HasMixedIncidenceThreshold",
+        "NativeSharpMixedGrainCore.source_sharp_mixed_grain_core"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_population_parent_configuration",
+      "source_sha256": "64a5199970f9b38db992656343f1c85fe3688708a53fd77a3ce9320e76b55e41",
+      "olean_sha256": "d924d4be65786166f0aff02cb1517be66ac240bbe47d920b1e2434ad8ca733f1",
+      "names": [
+        "NativeSharpPopulationParentConfiguration.SharpParentFinalCleanupData",
+        "NativeSharpPopulationParentConfiguration.HasSharpParentRetainedHistory",
+        "NativeSharpPopulationParentConfiguration.HasSharpPopulationParentStage",
+        "NativeSharpPopulationParentConfiguration.sharp_stage_with_population_parent",
+        "NativeSharpPopulationParentConfiguration.exists_sharp_population_parent_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_population_parent_profiles",
+      "source_sha256": "9404a3ac5c12551efacbaa90717bcd293b35c4e1dd860af0315ccdba66fa48c3",
+      "olean_sha256": "9405da703a17573c88d4faed485b94e46a25c0da31e1d7532aa711b33420ed7a",
+      "names": [
+        "NativeSharpPopulationParentProfiles.HasSharpPopulationParentProfiles",
+        "NativeSharpPopulationParentProfiles.source_sharp_population_parent_profiles"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T17:36:25.851956+00:00",
+  "exit_code": 0
+}

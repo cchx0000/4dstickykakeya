@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_normalized_offset_count
+
+#print axioms NativeNormalizedOffsetCount.offset_count_from_raw_field
+#print axioms NativeNormalizedOffsetCount.offset_count_from_mapped_field

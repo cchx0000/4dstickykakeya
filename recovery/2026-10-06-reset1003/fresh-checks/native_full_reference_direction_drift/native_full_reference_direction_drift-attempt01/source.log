@@ -1,0 +1,20 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1314a20e5782898b5dc5c238fe129d51c3fde7f99dcdda05180a3c9017757608.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean"]
+SOURCE_SHA256 0b2c96a41cc00bbc29147a63f69d76b33554cbb1e1f1ebf9905656251a1c3af9
+LOCK_ACQUIRED_UTC 2026-10-06T11:16:21.745370+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:21:32: error: Application type mismatch: The argument
+  fun j => NativeOriginalCellChartGeometry.slope l j
+has type
+  Fin 3 → ℝ
+but is expected to have type
+  E3
+in the application
+  ActualSlopeSource.heightPoint fun j => NativeOriginalCellChartGeometry.slope l j
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:33:9: error(lean.unknownIdentifier): Unknown identifier `euclidean_norm_le_sum`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:34:2: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:61:2: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_direction_drift.lean:80:8: error: declaration uses `sorry`
+LEAN_FINISHED_UTC 2026-10-06T11:22:52.194151+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

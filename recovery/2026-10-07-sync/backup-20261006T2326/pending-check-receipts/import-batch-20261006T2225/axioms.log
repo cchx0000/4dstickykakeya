@@ -1,0 +1,33 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2225.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2225", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2225/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T22:29:14.668622+00:00
+SHARED_SLOT 1
+LEAN_PID 58
+'NativeFixedReferenceAngularProfile.ballIncidences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.ballDirections' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.ballDirections_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.formal_uniformity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.parent_point_uniformity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.uniform_point_fiber_le_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedReferenceAngularProfile.parent_point_fiber_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedReferenceAngularProfile.parent_point_fiber_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.same_parent_direction_close' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedReferenceAngularProfile.scheduled_ball_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.floor_mem_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.ball_angular_cells_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.scheduled_ball_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.scheduled_angular_profile' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedReferenceAngularProfile.relative_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedReferenceAngularProfile.scheduled_angular_power_profile' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T22:29:43.964853+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

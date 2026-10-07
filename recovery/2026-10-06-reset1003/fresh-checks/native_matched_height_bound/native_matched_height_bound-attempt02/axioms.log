@@ -1,0 +1,49 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1811.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1811", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1811/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T18:13:19.789893+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+'NativeCoarseSourceParentReadback.contracted_line_eq_local_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoarseSourceParentReadback.shiftedIntercept_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseSourceParentReadback.zeroProjection' does not depend on any axioms
+'NativeCoarseSourceParentReadback.projection_zero' depends on axioms: [propext, Quot.sound]
+'NativeCoarseSourceParentReadback.source_parentLabel_relative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoarseSourceParentReadback.source_parentLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseSourceParentReadback.parent_fiber_old_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseSourceParentReadback.parent_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.parent_from_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.old_fiber_card_le_current' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIntermediateParentPopulation.intermediate_dyadic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.actual_population_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.actual_population_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.intermediateCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.intermediate_common_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.intermediate_common_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIntermediateParentPopulation.second_source_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.second_source_CW' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.second_source_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIntermediateParentPopulation.second_parent_normalized_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIntermediateParentPopulation.second_source_density_from_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeMatchedShadowConfiguredGeometry.distance_of_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeMatchedShadowConfiguredGeometry.point_front_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatchedShadowConfiguredGeometry.point_shadow_center_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeMatchedHeightBound.point_time_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatchedHeightBound.baseline_height_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T18:14:59.153398+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

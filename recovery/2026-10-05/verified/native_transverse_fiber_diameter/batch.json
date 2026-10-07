@@ -1,0 +1,47 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T10:22:45.455771+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T102242998783",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T102242998783/AggregateReadback.lean"
+  ],
+  "readback_sha256": "dfe57ec4094e9464b7bbaa5cc682af06e1f916f0103cb63e41ff58183fc26d3c",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_original_angular_tuple_menu",
+      "source_sha256": "fe19add0555e4aa279d3ab7557bcd6cb63ae74ece317f779f36ac975e0622939",
+      "olean_sha256": "603856fdd637f94985d95c28796eb90cb59800ec44af0ae828dc768a1d9a540a",
+      "names": [
+        "NativeOriginalAngularTupleMenu.angularTuple",
+        "NativeOriginalAngularTupleMenu.angularMenu",
+        "NativeOriginalAngularTupleMenu.angularMenu_eq_image_coarseMenu",
+        "NativeOriginalAngularTupleMenu.coarse_member_labels",
+        "NativeOriginalAngularTupleMenu.coarse_to_angular_card_lower",
+        "NativeOriginalAngularTupleMenu.angular_member_fine_witness"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_transverse_fiber_diameter",
+      "source_sha256": "7914942d43d7dca27628d4806e65d4299fcd3ff8e32b0ef2a69c454f8698d69b",
+      "olean_sha256": "6f31e13940b6a599d258ec8474c3755566849474a8ef8d291c65213cb82d80e5",
+      "names": [
+        "NativeTransverseFiberDiameter.transverse_scalar_bound",
+        "NativeTransverseFiberDiameter.approximate_fiber_diameter"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T10:27:21.206215+00:00",
+  "exit_code": 0
+}

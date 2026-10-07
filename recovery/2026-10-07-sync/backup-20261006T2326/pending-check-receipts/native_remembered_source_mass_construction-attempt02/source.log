@@ -1,0 +1,16 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4a29906d18c84291b799e86f1ecdcf503947a58ece663cbbeba1fa2c9b6eb7ce.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean"]
+SOURCE_SHA256 e5d457a893f5f6572c4841e5fd9ae447f3a241d35c9596058ae01ff0fd9ac387
+LOCK_ACQUIRED_UTC 2026-10-06T21:02:35.442654+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:602:70: error: Application type mismatch: The argument
+  hprod
+has type
+  mu m * 64 ≤ mu m * ↑R0
+but is expected to have type
+  64 * mu m ≤ ↑R0 * mu m
+in the application
+  (mul_le_mul_iff_left₀ (mu_pos m)).mp hprod
+LEAN_FINISHED_UTC 2026-10-06T21:04:57.098733+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

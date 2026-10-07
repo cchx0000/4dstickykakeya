@@ -1,0 +1,27 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T091326952765", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T091326952765/AggregateReadback.lean"]
+READBACK_SHA256 2ed285c80a7296556f387094bb39cc58c64e96fb6d0488ca6039fad6e5a5d929
+FIFO compiler ticket: 01791191802548795489-042036c120f74c52ba58f9c244cad7ad.request
+FIFO compiler acquired UTC: 2026-10-05T09:16:42.549804+00:00
+'NativeLastMenuShadingSize.absorb_global_count_and_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLastMenuShadingSize.coefficient_power_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLastMenuShadingSize.rowCells_eq_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLastMenuShadingSize.rowCells_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLastMenuShadingSize.row_volume_bounds_of_global_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLastMenuShadingSize.upperDepth_scale_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLastMenuShadingSize.window_core_global_row_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleTwoScaleBalance.middle_pair_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankOneSourceCutoff.exists_source_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoScaleBoundaryBalance.all_pair_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoScaleBoundaryBalance.boundary_pair_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoScaleBoundaryBalance.depthPower_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoStagePlaneRank.point_plane_rank_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoStagePlaneRank.previous_rank_menu_plane_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoStageTransverseTuples.point_near_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoStageTransverseTuples.point_transverse_chains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoStageTransverseTuples.previous_rank_menu_transverse_chains' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTwoStageTransverseTuples.unit_chainMass_eq_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoStageTransverseTuples.unit_mass_eq_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

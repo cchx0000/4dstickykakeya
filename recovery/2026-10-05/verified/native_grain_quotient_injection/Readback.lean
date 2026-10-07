@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_grain_quotient_injection
+
+#print axioms NativeGrainQuotientInjection.tangentCoordinates
+#print axioms NativeGrainQuotientInjection.tangentCoordinates_norm
+#print axioms NativeGrainQuotientInjection.residual_mem_normalSpace
+#print axioms NativeGrainQuotientInjection.coordinates_norm_eq_residual
+#print axioms NativeGrainQuotientInjection.norm_le_coordinates
+#print axioms NativeGrainQuotientInjection.same_label_coordinate_bound
+#print axioms NativeGrainQuotientInjection.same_label_norm_bound
+#print axioms NativeGrainQuotientInjection.same_coordinate_bins_norm
+#print axioms NativeGrainQuotientInjection.physical_vertex_separated
+#print axioms NativeGrainQuotientInjection.physical_difference_horizontal

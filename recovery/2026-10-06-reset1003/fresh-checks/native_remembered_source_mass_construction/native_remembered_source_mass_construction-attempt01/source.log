@@ -1,0 +1,654 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4a29906d18c84291b799e86f1ecdcf503947a58ece663cbbeba1fa2c9b6eb7ce.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean"]
+SOURCE_SHA256 73a70f803fdada8924b69f17365e353fae9c1045c443f1b7b5f51a4063c52e0b
+LOCK_ACQUIRED_UTC 2026-10-06T20:55:35.549993+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:117:14: error: Ambiguous term
+  restrict
+Possible interpretations:
+  NativeSameQSourceRestriction.restrict : FiniteScaleSource ?m.66 →
+    ℝ → ℕ → ℕ → Parent → Finset Parent → Finset (Fin ?m.66 × Index) → Finset (Fin ?m.66 × Index)
+  
+  Finset.restrict : (s : Finset ?m.66) → ((i : ?m.66) → ?m.67 i) → (i : ↥s) → ?m.67 ↑i
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:117:2: error: Type mismatch: After simplification, term
+  graph_restrict h Rfull Eref T a m b0 c hc p hS cfg {qOld} hParent
+ has type
+  graph h Rfull Eref a m b0 p hS cfg (NativeSameQSourceRestriction.restrict D a m c p {qOld} T) =
+    {x ∈ graph h Rfull Eref a m b0 p hS cfg T | phase h Rfull Eref a m b0 c p x.2 = qOld}
+but is expected to have type
+  graph h Rfull Eref a m b0 p hS cfg ({z ∈ T | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld}) =
+    {v ∈ graph h Rfull Eref a m b0 p hS cfg T | phase h Rfull Eref a m b0 c p v.2 = qOld}
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:242:15: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta etaS a zeta profile : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+Rfull : Finset (Fin n)
+level : ℕ
+hzeta : 0 ≤ zeta
+HB : NativeMiddleWindowBalance.HasOriginalBackbone D original Rfull a level zeta
+Eref T : Finset (Fin n × Index)
+m b0 b c : ℕ
+hm : m ≤ level
+hb0 : b0 ≤ level - m + 6
+hcb : c ≤ b
+hbb0 : b ≤ b0
+p : Parent
+hS : IsWangZakharovNativeFiniteInput (source h Rfull Eref a m p) etaS
+hbudget : 64 ^ 3 * (source h Rfull Eref a m p).thickness ^ profile ≤ D.thickness ^ zeta
+hsupport : T ⊆ NativeCubicalIncidenceCounts.incidences original
+hParent : ∀ z ∈ T, z.1 ∈ parentLabels D Rfull a (2 ^ m) p
+cfg : Index → E4
+Q : Finset Parent
+hmassPos : 0 < ∑ q ∈ Q, weight h Rfull Eref a m b0 b p hS cfg T q
+Gfine : Finset (Fin n × Index) → Finset (E4 × OutputIndex h Rfull Eref a m b0 p) :=
+  fun U => graph h Rfull Eref a m b0 p hS cfg U
+TQ : Finset (Fin n × Index) := NativeSameQSourceRestriction.restrict D a m b p Q T
+allParents : Finset Parent := image (parentLabel (source h Rfull Eref a m p) 0 (2 ^ c)) univ
+phaseCap : ℝ := 373248 * (source h Rfull Eref a m p).thickness ^ (-profile) * ↑(2 ^ c) ^ 3
+old : Fin n × Index → Parent := fun z => relativeLabel D a (2 ^ m) p (2 ^ c) z.1
+oldPhases : Finset Parent := image old TQ
+oldFiber : Parent → Finset (Fin n × Index) := fun q => {z ∈ TQ | old z = q}
+hc0 : c ≤ b0
+hcLevel : c ≤ level - m + 6
+hTQT : TQ ⊆ T
+hParentQ : ∀ z ∈ TQ, z.1 ∈ parentLabels D Rfull a (2 ^ m) p
+hFull : ↑(#allParents) ≤ phaseCap
+hphaseSub : oldPhases ⊆ allParents
+hphaseCard : ↑(#oldPhases) ≤ phaseCap
+hmass : ∑ q ∈ Q, weight h Rfull Eref a m b0 b p hS cfg T q = ↑(#(Gfine TQ))
+hGposR : 0 < ↑(#(Gfine TQ))
+hGpos : 0 < #(Gfine TQ)
+hTQn : TQ.Nonempty
+hphaseN : oldPhases.Nonempty
+qOld : Parent
+hqOld : qOld ∈ oldPhases
+hmax : ∀ x' ∈ oldPhases, #(Gfine (oldFiber x')) ≤ #(Gfine (oldFiber qOld))
+A : Finset (Fin n × Index) := oldFiber qOld
+hAn : A.Nonempty
+hATQ : A ⊆ TQ
+hAT : A ⊆ T
+hAsupport : A ⊆ NativeCubicalIncidenceCounts.incidences original
+hOriginal : ∀ z ∈ A, relativeLabel D a (2 ^ m) p (2 ^ b) z.1 ∈ Q ∧ relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld
+hGAn : (Gfine A).Nonempty
+hGraphFiber : Gfine A = {v ∈ Gfine TQ | phase h Rfull Eref a m b0 c p v.2 = qOld}
+hSameQ : Gfine TQ = {v ∈ Gfine T | phase h Rfull Eref a m b0 b p v.2 ∈ Q}
+hGraphSub : Gfine A ⊆ Gfine TQ
+hGraphPhase : ∀ v ∈ Gfine A, phase h Rfull Eref a m b0 b p v.2 ∈ Q ∧ phase h Rfull Eref a m b0 c p v.2 = qOld
+hcover : #(Gfine TQ) ≤ ∑ q ∈ oldPhases, #(Gfine (oldFiber q))
+⊢ ↑(#oldPhases) * #(Gfine A) = #oldPhases * #(Gfine A)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:483:6: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:495:25: error: `ring_nf` made no progress on the goal
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:596:23: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  64 * mu m
+in the target expression
+  mu m * 64 ≤ ↑R0 * mu m
+
+n dRel J : ℕ
+D : FiniteScaleSource n
+eta etaS etaC a zeta pExp : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+R : Finset (Fin n)
+Eref : Finset (Fin n × Index)
+level m b0 b c depth : ℕ
+hm : 12 ≤ m
+hb0 : 8 ≤ b0
+hb : b ≤ b0
+hc : c ≤ b - 6
+hc6 : 6 ≤ c
+hdepth : 6 ≤ depth
+hzeta : 0 ≤ zeta
+HB : NativeMiddleWindowBalance.HasOriginalBackbone D original R a level zeta
+hmb0 : m + b0 ≤ level
+hf : phaseDepth m ≤ level
+hscale : D.thickness ≤ rho m ^ 2
+p : Parent
+hRef : IsWangZakharovNativeFiniteInput (NativeLocalParentSource.source h R Eref a m p) etaS
+hRefK :
+  ∀ (i : Fin #(parentLabels D R a (2 ^ m) p)),
+    (NativeLocalParentSource.source h R Eref a m p).line i ∈ NativeUnitParentNormalization.fixedCompactClass
+hbudget : 64 ^ 3 * (NativeLocalParentSource.source h R Eref a m p).thickness ^ pExp ≤ D.thickness ^ zeta
+hwidth : 64 / ↑(2 ^ depth) = 512 * (64 / ↑(2 ^ c))
+plane : Index → Submodule ℝ E4
+E Hgraph S0 T0 Tcur : Finset (Fin n × Index)
+hT0 : T0 ⊆ incidences original
+hcur : Tcur ⊆ T0
+hparent : ∀ z ∈ T0, z.1 ∈ parentLabels D R a (2 ^ m) p
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+Fraw Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+hCfg : ∀ (t : ℤ) (i : Fin 2) (j : Fin 1), |Fcfg t i j| ≤ 1 / 4
+population PL PU : ℝ
+Qref : ℕ
+lambda Gcost Cpre threshold : ℝ
+L3 : ℕ
+Rel : Fin dRel → Fin n × Index → Fin n × Index → Prop
+Hdata :
+  HasThirdXYData D zeta a m plane E Hgraph S0 T0 P hP ⋯ ⋯ hd Fraw p population PL PU Qref lambda Gcost Cpre threshold L3
+    Rel
+R0 : ℕ
+hR0 : 0 < R0
+hbase : rho m ≤ mu m * ↑R0
+hmatch : mu m * ↑R0 = 4096 / ↑(2 ^ b0)
+Hsingle :
+  ∀ x ∈ T0,
+    ∀ y ∈ T0,
+      translatedHeight D a m x.2 / ↑(8 * R0) = translatedHeight D a m y.2 / ↑(8 * R0) →
+        translatedHeight D a m x.2 = translatedHeight D a m y.2
+hkappa : extremalExponent ≤ 3
+Q : Finset Parent
+hQ : Q ⊆ image (parentLabel (NativeLocalParentSource.source h R Eref a m p) 0 (2 ^ b)) univ
+hsep :
+  ∀ q ∈ Q,
+    ∀ q' ∈ Q,
+      q ≠ q' →
+        64 / ↑(2 ^ b) ≤
+          dist (direction ((NativeLocalParentSource.source h R Eref a m p).line (representative hRef univ 0 (2 ^ b) q)))
+            (direction ((NativeLocalParentSource.source h R Eref a m p).line (representative hRef univ 0 (2 ^ b) q')))
+Sq : Finset (Fin n × Index) :=
+  NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd (physicalMesh m (phaseDepth m) / 8)
+F : ℤ → Matrix (Fin (4 - 2)) (Fin (2 - 1)) ℝ := fixedField D a m 2 plane Sq Fraw
+cfg : Index → E4 := NativeActualConfiguredPoint.point D a m p Split.oneTwo P hP hd F Fcfg R0
+K : ℝ :=
+  xyConstant D.thickness zeta population PL PU lambda (Gcost * Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3)) Qref
+    (NativeSourceSizeBounds.radix (#S0) L3) J m
+C : FiniteScaleSource #Q :=
+  NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+    (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep
+hC : IsWangZakharovNativeFiniteInput C etaC
+hpointSep : ∀ x ∈ image (fun z => cfg z.2) T0, ∀ y ∈ image (fun z => cfg z.2) T0, x ≠ y → 64 / ↑(2 ^ b0) ≤ dist x y
+WQ : ℝ := ∑ q ∈ Q, NativeSameQFineGraph.weight h R Eref a m b0 b p hRef cfg Tcur q
+hWQ : 0 < WQ
+cells : Fin #Q → Finset Index := actualRows h R Eref Tcur level m b p hRef Q
+hp : (parentLabels D R a (2 ^ m) p).Nonempty := card_pos.mp hRef.left.left
+hTcur : Tcur ⊆ incidences original
+hParentCur : ∀ z ∈ Tcur, z.1 ∈ parentLabels D R a (2 ^ m) p
+_hTS : T0 ⊆ S0
+_hTn : T0.Nonempty
+_hCost : #S0 ≤ refinementCost (dRel + 2) (J + 1) L3 * #T0
+_hTH : T0 ⊆ Hgraph
+_hFinal : ↑(#Hgraph) ≤ Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3) * ↑(#T0)
+_hExtra :
+  ∀ (j : Fin dRel) (x y : Fin n × Index),
+    x ∈ T0 →
+      y ∈ T0 →
+        SelfUniform.degree (fun x => 1) (Rel j) T0 x ≤
+          NativeSourceSizeBounds.radix (#S0) L3 ^ 2 * SelfUniform.degree (fun x => 1) (Rel j) T0 y
+_hOld : NativeJointUniformCoarseRelations.HasUniformFibers T0 (NativeSourceSizeBounds.radix (#S0) L3) Prod.snd
+_hXY :
+  NativeJointUniformCoarseRelations.HasUniformFibers T0 (NativeSourceSizeBounds.radix (#S0) L3) fun z =>
+    NativeTwoMapRetainedSliceActualCaps.encodedPoint D a m 2 p P hP ⋯ ⋯ hd
+      (fixedField D a m 2 plane
+        (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+          (physicalMesh m (phaseDepth m) / 8))
+        Fraw)
+      z.2
+_hClass :
+  ∀ (j : Fin (J + 1)),
+    NativeJointUniformCoarseRelations.HasUniformFibers T0 (NativeSourceSizeBounds.radix (#S0) L3) fun z =>
+      NativeAnisotropicSliceLabels.horizontalCoarsen (phaseDepth m) (NativeFixedHorizontalMenu.depths J m j)
+        ((fun z =>
+            NativeTwoMapRetainedSliceActualCaps.encodedPoint D a m 2 p P hP ⋯ ⋯ hd
+              (fixedField D a m 2 plane
+                (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+                  (physicalMesh m (phaseDepth m) / 8))
+                Fraw)
+              z.2)
+          z)
+_hGrain :
+  NativeJointUniformCoarseRelations.HasUniformFibers T0 (NativeSourceSizeBounds.radix (#S0) L3)
+    (NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2)
+_hKey :
+  ∀ (x y : Fin n × Index),
+    x ∈ T0 →
+      y ∈ T0 →
+        NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2 x =
+            NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2 y →
+          NativeTranslatedGrainHeightFibers.referenceKey D a m 2 plane P hP ⋯ ⋯ hd (physicalMesh m (phaseDepth m) / 8)
+              x =
+            NativeTranslatedGrainHeightFibers.referenceKey D a m 2 plane P hP ⋯ ⋯ hd (physicalMesh m (phaseDepth m) / 8)
+              y
+_hThreshold :
+  ∀ x ∈ T0,
+    threshold ≤
+      Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3) * ↑(NativeSourceSizeBounds.radix (#S0) L3) ^ 2 *
+        ↑(#(NativeParentGrainIncidenceCleanup.mixedFiber D a m plane 2 T0
+              (NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2 x)))
+_hRet :
+  lambda * ↑(#(NativeOriginalParentDensityCore.parentEdges D a (2 ^ m) E p)) ≤
+    Gcost * Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3) * ↑(#T0)
+_Hxy :
+  ∀ (height : ℤ),
+    FiniteVoronoiRealADCoarsening.ADBounds
+      (NativeSliceClassBalls.realizedSlice
+        (image
+          (fun z =>
+            NativeTwoMapRetainedSliceActualCaps.encodedPoint D a m 2 p P hP ⋯ ⋯ hd
+              (fixedField D a m 2 plane
+                (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+                  (physicalMesh m (phaseDepth m) / 8))
+                Fraw)
+              z.2)
+          T0)
+        (mu m) height)
+      (mu m)
+      (xyConstant D.thickness zeta population PL PU lambda (Gcost * Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3)) Qref
+        (NativeSourceSizeBounds.radix (#S0) L3) J m)
+      (3 - extremalExponent)
+_hRead :
+  ∀ x ∈ T0,
+    fixedField D a m 2 plane
+        (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+          (physicalMesh m (phaseDepth m) / 8))
+        Fraw (translatedHeight D a m x.2) =
+      Fraw (rawHeight D m x.2)
+hNorm :
+  ∀ (height : ℤ),
+    ‖fixedField D a m 2 plane
+          (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+            (physicalMesh m (phaseDepth m) / 8))
+          Fraw height‖ ≤
+      1 / 4
+hF : ∀ (t : ℤ) (i : Fin (4 - 2)) (j : Fin (2 - 1)), |F t i j| ≤ 1 / 4
+qOld : Parent
+_hqOld : qOld ∈ image (parentLabel (NativeLocalParentSource.source h R Eref a m p) 0 (2 ^ c)) univ
+hAne :
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld}.Nonempty
+_hATQ :
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld} ⊆
+    NativeSameQSourceRestriction.restrict D a m b p Q Tcur
+hATcur :
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld} ⊆ Tcur
+_hAorig :
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld} ⊆
+    incidences original
+hPhase :
+  ∀ z ∈ {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld},
+    relativeLabel D a (2 ^ m) p (2 ^ b) z.1 ∈ Q ∧ relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld
+_hGne :
+  ((fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+      ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur |
+        relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld})).Nonempty
+_hGraph :
+  (fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+      ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld}) =
+    {v ∈
+        (fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+          (NativeSameQSourceRestriction.restrict D a m b p Q Tcur) |
+      NativeSameQFineGraph.phase h R Eref a m b0 c p v.2 = qOld}
+_hGPhase :
+  ∀
+    v ∈
+      (fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+        ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld}),
+    NativeSameQFineGraph.phase h R Eref a m b0 b p v.2 ∈ Q ∧ NativeSameQFineGraph.phase h R Eref a m b0 c p v.2 = qOld
+_hGCard :
+  ↑(#((fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+          (NativeSameQSourceRestriction.restrict D a m b p Q Tcur))) ≤
+    373248 * (NativeLocalParentSource.source h R Eref a m p).thickness ^ (-pExp) * ↑(2 ^ c) ^ 3 *
+      ↑(#((fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+            ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur |
+              relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld})))
+hMass :
+  ∑ q ∈ Q, NativeSameQFineGraph.weight h R Eref a m b0 b p hRef cfg Tcur q ≤
+    373248 * (NativeLocalParentSource.source h R Eref a m p).thickness ^ (-pExp) * ↑(2 ^ c) ^ 3 *
+      ↑(#((fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+            ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur |
+              relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld})))
+A : Finset (Fin n × Index) :=
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld}
+pA : Parent := zeroProjection qOld
+Occ : Finset ((Fin #Q × Index) × Fin n × Index) := occurrences h R a m b p hp Q cells A
+B : Finset (ℤ × Fin #Q × Index)
+hBO :
+  B ⊆
+    image
+      (taggedKey D a m
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld))
+      (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+hCoherent : ∀ v ∈ B, ∀ w ∈ B, finalTime v = finalTime w → v.1 = w.1
+hEne :
+  (selectedPairs D a m
+      (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+        (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+      c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B).Nonempty
+hEinc :
+  selectedPairs D a m
+      (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+        (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+      c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B ⊆
+    incidences (actualRows h R Eref Tcur level m b p hRef Q)
+hParentFinal :
+  ∀
+    z ∈
+      selectedPairs D a m
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B,
+    z.1 ∈
+      parentLabels
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        univ 0 (2 ^ c) (zeroProjection qOld)
+hImage :
+  image
+      (localPair
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        0 (2 ^ c) (zeroProjection qOld))
+      (selectedPairs D a m
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B) =
+    image Prod.snd B
+hShade :
+  ENNReal.ofReal
+      ((NativeLocalParentSource.source h R Eref a m p).thickness ^ pExp * (64 / ↑(2 ^ b0)) ^ 4 *
+          ↑(#(NativeSameQFineGraph.graph h R Eref a m b0 p hRef
+                (NativeActualConfiguredPoint.point D a m p Split.oneTwo P hP hd F Fcfg R0) A)) /
+        (65536 * fineCapacity * (64 / ↑(2 ^ c)) ^ 3)) ≤
+    wzTotalShadingVolume
+      (NativeLocalParentSource.source hC univ
+        (selectedPairs D a m
+          (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+            (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+          c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B)
+        0 c (zeroProjection qOld))
+Efinal : Finset (Fin #Q × Index) := selectedPairs D a m C c pA Occ B
+hCthick : C.thickness = 64 / ↑(2 ^ b)
+hrho : rho m = 64 * mu m
+⊢ mu m * 64 ≤ ↑R0 * mu m
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_mass_construction.lean:603:48: error: unsolved goals
+n dRel J : ℕ
+D : FiniteScaleSource n
+eta etaS etaC a zeta pExp : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+R : Finset (Fin n)
+Eref : Finset (Fin n × Index)
+level m b0 b c depth : ℕ
+hm : 12 ≤ m
+hb0 : 8 ≤ b0
+hb : b ≤ b0
+hc : c ≤ b - 6
+hc6 : 6 ≤ c
+hdepth : 6 ≤ depth
+hzeta : 0 ≤ zeta
+HB : NativeMiddleWindowBalance.HasOriginalBackbone D original R a level zeta
+hmb0 : m + b0 ≤ level
+hf : phaseDepth m ≤ level
+hscale : D.thickness ≤ rho m ^ 2
+p : Parent
+hRef : IsWangZakharovNativeFiniteInput (NativeLocalParentSource.source h R Eref a m p) etaS
+hRefK :
+  ∀ (i : Fin #(parentLabels D R a (2 ^ m) p)),
+    (NativeLocalParentSource.source h R Eref a m p).line i ∈ NativeUnitParentNormalization.fixedCompactClass
+hbudget : 64 ^ 3 * (NativeLocalParentSource.source h R Eref a m p).thickness ^ pExp ≤ D.thickness ^ zeta
+hwidth : 64 / ↑(2 ^ depth) = 512 * (64 / ↑(2 ^ c))
+plane : Index → Submodule ℝ E4
+E Hgraph S0 T0 Tcur : Finset (Fin n × Index)
+hT0 : T0 ⊆ incidences original
+hcur : Tcur ⊆ T0
+hparent : ∀ z ∈ T0, z.1 ∈ parentLabels D R a (2 ^ m) p
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+Fraw Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+hCfg : ∀ (t : ℤ) (i : Fin 2) (j : Fin 1), |Fcfg t i j| ≤ 1 / 4
+population PL PU : ℝ
+Qref : ℕ
+lambda Gcost Cpre threshold : ℝ
+L3 : ℕ
+Rel : Fin dRel → Fin n × Index → Fin n × Index → Prop
+Hdata :
+  HasThirdXYData D zeta a m plane E Hgraph S0 T0 P hP ⋯ ⋯ hd Fraw p population PL PU Qref lambda Gcost Cpre threshold L3
+    Rel
+R0 : ℕ
+hR0 : 0 < R0
+hbase : rho m ≤ mu m * ↑R0
+hmatch : mu m * ↑R0 = 4096 / ↑(2 ^ b0)
+Hsingle :
+  ∀ x ∈ T0,
+    ∀ y ∈ T0,
+      translatedHeight D a m x.2 / ↑(8 * R0) = translatedHeight D a m y.2 / ↑(8 * R0) →
+        translatedHeight D a m x.2 = translatedHeight D a m y.2
+hkappa : extremalExponent ≤ 3
+Q : Finset Parent
+hQ : Q ⊆ image (parentLabel (NativeLocalParentSource.source h R Eref a m p) 0 (2 ^ b)) univ
+hsep :
+  ∀ q ∈ Q,
+    ∀ q' ∈ Q,
+      q ≠ q' →
+        64 / ↑(2 ^ b) ≤
+          dist (direction ((NativeLocalParentSource.source h R Eref a m p).line (representative hRef univ 0 (2 ^ b) q)))
+            (direction ((NativeLocalParentSource.source h R Eref a m p).line (representative hRef univ 0 (2 ^ b) q')))
+Sq : Finset (Fin n × Index) :=
+  NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd (physicalMesh m (phaseDepth m) / 8)
+F : ℤ → Matrix (Fin (4 - 2)) (Fin (2 - 1)) ℝ := fixedField D a m 2 plane Sq Fraw
+cfg : Index → E4 := NativeActualConfiguredPoint.point D a m p Split.oneTwo P hP hd F Fcfg R0
+K : ℝ :=
+  xyConstant D.thickness zeta population PL PU lambda (Gcost * Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3)) Qref
+    (NativeSourceSizeBounds.radix (#S0) L3) J m
+C : FiniteScaleSource #Q :=
+  NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+    (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep
+hC : IsWangZakharovNativeFiniteInput C etaC
+hpointSep : ∀ x ∈ image (fun z => cfg z.2) T0, ∀ y ∈ image (fun z => cfg z.2) T0, x ≠ y → 64 / ↑(2 ^ b0) ≤ dist x y
+WQ : ℝ := ∑ q ∈ Q, NativeSameQFineGraph.weight h R Eref a m b0 b p hRef cfg Tcur q
+hWQ : 0 < WQ
+cells : Fin #Q → Finset Index := actualRows h R Eref Tcur level m b p hRef Q
+hp : (parentLabels D R a (2 ^ m) p).Nonempty := card_pos.mp hRef.left.left
+hTcur : Tcur ⊆ incidences original
+hParentCur : ∀ z ∈ Tcur, z.1 ∈ parentLabels D R a (2 ^ m) p
+_hTS : T0 ⊆ S0
+_hTn : T0.Nonempty
+_hCost : #S0 ≤ refinementCost (dRel + 2) (J + 1) L3 * #T0
+_hTH : T0 ⊆ Hgraph
+_hFinal : ↑(#Hgraph) ≤ Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3) * ↑(#T0)
+_hExtra :
+  ∀ (j : Fin dRel) (x y : Fin n × Index),
+    x ∈ T0 →
+      y ∈ T0 →
+        SelfUniform.degree (fun x => 1) (Rel j) T0 x ≤
+          NativeSourceSizeBounds.radix (#S0) L3 ^ 2 * SelfUniform.degree (fun x => 1) (Rel j) T0 y
+_hOld : NativeJointUniformCoarseRelations.HasUniformFibers T0 (NativeSourceSizeBounds.radix (#S0) L3) Prod.snd
+_hXY :
+  NativeJointUniformCoarseRelations.HasUniformFibers T0 (NativeSourceSizeBounds.radix (#S0) L3) fun z =>
+    NativeTwoMapRetainedSliceActualCaps.encodedPoint D a m 2 p P hP ⋯ ⋯ hd
+      (fixedField D a m 2 plane
+        (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+          (physicalMesh m (phaseDepth m) / 8))
+        Fraw)
+      z.2
+_hClass :
+  ∀ (j : Fin (J + 1)),
+    NativeJointUniformCoarseRelations.HasUniformFibers T0 (NativeSourceSizeBounds.radix (#S0) L3) fun z =>
+      NativeAnisotropicSliceLabels.horizontalCoarsen (phaseDepth m) (NativeFixedHorizontalMenu.depths J m j)
+        ((fun z =>
+            NativeTwoMapRetainedSliceActualCaps.encodedPoint D a m 2 p P hP ⋯ ⋯ hd
+              (fixedField D a m 2 plane
+                (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+                  (physicalMesh m (phaseDepth m) / 8))
+                Fraw)
+              z.2)
+          z)
+_hGrain :
+  NativeJointUniformCoarseRelations.HasUniformFibers T0 (NativeSourceSizeBounds.radix (#S0) L3)
+    (NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2)
+_hKey :
+  ∀ (x y : Fin n × Index),
+    x ∈ T0 →
+      y ∈ T0 →
+        NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2 x =
+            NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2 y →
+          NativeTranslatedGrainHeightFibers.referenceKey D a m 2 plane P hP ⋯ ⋯ hd (physicalMesh m (phaseDepth m) / 8)
+              x =
+            NativeTranslatedGrainHeightFibers.referenceKey D a m 2 plane P hP ⋯ ⋯ hd (physicalMesh m (phaseDepth m) / 8)
+              y
+_hThreshold :
+  ∀ x ∈ T0,
+    threshold ≤
+      Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3) * ↑(NativeSourceSizeBounds.radix (#S0) L3) ^ 2 *
+        ↑(#(NativeParentGrainIncidenceCleanup.mixedFiber D a m plane 2 T0
+              (NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2 x)))
+_hRet :
+  lambda * ↑(#(NativeOriginalParentDensityCore.parentEdges D a (2 ^ m) E p)) ≤
+    Gcost * Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3) * ↑(#T0)
+_Hxy :
+  ∀ (height : ℤ),
+    FiniteVoronoiRealADCoarsening.ADBounds
+      (NativeSliceClassBalls.realizedSlice
+        (image
+          (fun z =>
+            NativeTwoMapRetainedSliceActualCaps.encodedPoint D a m 2 p P hP ⋯ ⋯ hd
+              (fixedField D a m 2 plane
+                (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+                  (physicalMesh m (phaseDepth m) / 8))
+                Fraw)
+              z.2)
+          T0)
+        (mu m) height)
+      (mu m)
+      (xyConstant D.thickness zeta population PL PU lambda (Gcost * Cpre * ↑(refinementCost (dRel + 2) (J + 1) L3)) Qref
+        (NativeSourceSizeBounds.radix (#S0) L3) J m)
+      (3 - extremalExponent)
+_hRead :
+  ∀ x ∈ T0,
+    fixedField D a m 2 plane
+        (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+          (physicalMesh m (phaseDepth m) / 8))
+        Fraw (translatedHeight D a m x.2) =
+      Fraw (rawHeight D m x.2)
+hNorm :
+  ∀ (height : ℤ),
+    ‖fixedField D a m 2 plane
+          (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+            (physicalMesh m (phaseDepth m) / 8))
+          Fraw height‖ ≤
+      1 / 4
+hF : ∀ (t : ℤ) (i : Fin (4 - 2)) (j : Fin (2 - 1)), |F t i j| ≤ 1 / 4
+qOld : Parent
+_hqOld : qOld ∈ image (parentLabel (NativeLocalParentSource.source h R Eref a m p) 0 (2 ^ c)) univ
+hAne :
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld}.Nonempty
+_hATQ :
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld} ⊆
+    NativeSameQSourceRestriction.restrict D a m b p Q Tcur
+hATcur :
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld} ⊆ Tcur
+_hAorig :
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld} ⊆
+    incidences original
+hPhase :
+  ∀ z ∈ {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld},
+    relativeLabel D a (2 ^ m) p (2 ^ b) z.1 ∈ Q ∧ relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld
+_hGne :
+  ((fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+      ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur |
+        relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld})).Nonempty
+_hGraph :
+  (fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+      ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld}) =
+    {v ∈
+        (fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+          (NativeSameQSourceRestriction.restrict D a m b p Q Tcur) |
+      NativeSameQFineGraph.phase h R Eref a m b0 c p v.2 = qOld}
+_hGPhase :
+  ∀
+    v ∈
+      (fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+        ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld}),
+    NativeSameQFineGraph.phase h R Eref a m b0 b p v.2 ∈ Q ∧ NativeSameQFineGraph.phase h R Eref a m b0 c p v.2 = qOld
+_hGCard :
+  ↑(#((fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+          (NativeSameQSourceRestriction.restrict D a m b p Q Tcur))) ≤
+    373248 * (NativeLocalParentSource.source h R Eref a m p).thickness ^ (-pExp) * ↑(2 ^ c) ^ 3 *
+      ↑(#((fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+            ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur |
+              relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld})))
+hMass :
+  ∑ q ∈ Q, NativeSameQFineGraph.weight h R Eref a m b0 b p hRef cfg Tcur q ≤
+    373248 * (NativeLocalParentSource.source h R Eref a m p).thickness ^ (-pExp) * ↑(2 ^ c) ^ 3 *
+      ↑(#((fun U => NativeSameQFineGraph.graph h R Eref a m b0 p hRef cfg U)
+            ({z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur |
+              relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld})))
+A : Finset (Fin n × Index) :=
+  {z ∈ NativeSameQSourceRestriction.restrict D a m b p Q Tcur | relativeLabel D a (2 ^ m) p (2 ^ c) z.1 = qOld}
+pA : Parent := zeroProjection qOld
+Occ : Finset ((Fin #Q × Index) × Fin n × Index) := occurrences h R a m b p hp Q cells A
+B : Finset (ℤ × Fin #Q × Index)
+hBO :
+  B ⊆
+    image
+      (taggedKey D a m
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld))
+      (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A)
+hCoherent : ∀ v ∈ B, ∀ w ∈ B, finalTime v = finalTime w → v.1 = w.1
+hEne :
+  (selectedPairs D a m
+      (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+        (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+      c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B).Nonempty
+hEinc :
+  selectedPairs D a m
+      (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+        (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+      c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B ⊆
+    incidences (actualRows h R Eref Tcur level m b p hRef Q)
+hParentFinal :
+  ∀
+    z ∈
+      selectedPairs D a m
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B,
+    z.1 ∈
+      parentLabels
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        univ 0 (2 ^ c) (zeroProjection qOld)
+hImage :
+  image
+      (localPair
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        0 (2 ^ c) (zeroProjection qOld))
+      (selectedPairs D a m
+        (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+          (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+        c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B) =
+    image Prod.snd B
+hShade :
+  ENNReal.ofReal
+      ((NativeLocalParentSource.source h R Eref a m p).thickness ^ pExp * (64 / ↑(2 ^ b0)) ^ 4 *
+          ↑(#(NativeSameQFineGraph.graph h R Eref a m b0 p hRef
+                (NativeActualConfiguredPoint.point D a m p Split.oneTwo P hP hd F Fcfg R0) A)) /
+        (65536 * fineCapacity * (64 / ↑(2 ^ c)) ^ 3)) ≤
+    wzTotalShadingVolume
+      (NativeLocalParentSource.source hC univ
+        (selectedPairs D a m
+          (NativeCoarseCellSource.source hRef 0 (level - m + 6) b Q (representative hRef univ 0 (2 ^ b))
+            (incidences (sourceCells D R Tcur a (2 ^ m) p)) hsep)
+          c (zeroProjection qOld) (occurrences h R a m b p hp Q (actualRows h R Eref Tcur level m b p hRef Q) A) B)
+        0 c (zeroProjection qOld))
+Efinal : Finset (Fin #Q × Index) := selectedPairs D a m C c pA Occ B
+hCthick : C.thickness = 64 / ↑(2 ^ b)
+hR064 : 64 ≤ R0
+Rd : ℕ := 8 * R0 * 2 ^ (b0 - b)
+hRd512 : 512 ≤ Rd
+hpow : ↑(2 ^ b0) = ↑(2 ^ b) * ↑(2 ^ (b0 - b))
+⊢ 8 * 4096 = 512 * 64
+LEAN_FINISHED_UTC 2026-10-06T20:56:18.787551+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

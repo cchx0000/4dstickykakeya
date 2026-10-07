@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_angular_power_budget
+
+#print axioms NativeConditionalAngularPowerBudget.original_loss_to_rank
+#print axioms NativeConditionalAngularPowerBudget.first_radix_fourth_cost
+#print axioms NativeConditionalAngularPowerBudget.angular_slack_to_rank
+#print axioms NativeConditionalAngularPowerBudget.source_conditional_power_cost

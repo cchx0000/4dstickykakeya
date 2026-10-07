@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_conditional_coarse_diagonal_readback.lean"]
+SOURCE_SHA256 68324373f780528b9630042152987db068def46243083518cc125f882b77a4c1
+FIFO compiler ticket: 01791186031575942566-db5a9ff472534eaf85545e848829e1d4.request
+FIFO compiler acquired UTC: 2026-10-05T07:40:31.576912+00:00
+'NativeConditionalCoarseDiagonal.actual_conditional_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalCoarseDiagonal.short_gap_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalCoarseDiagonal.actual_short_gap_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

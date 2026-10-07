@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_matrix_height_budget
+set_option autoImplicit false
+#print axioms NativeMatrixHeightBudget.palette_le_explicit_power
+#print axioms NativeMatrixHeightBudget.natural_palette_le_explicit_power
+#print axioms NativeMatrixHeightBudget.exists_uniform_palette_cutoff

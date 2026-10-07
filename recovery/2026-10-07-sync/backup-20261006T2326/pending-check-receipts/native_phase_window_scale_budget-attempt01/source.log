@@ -1,0 +1,128 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b676b0a54884690941533817c66b149e86bf2f734acb741066a68334bd0365e8.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean"]
+SOURCE_SHA256 fd4e07fc3ebb666aeb40bbdc191ac2c42f97d4d113db384a61fad72d977bcb32
+LOCK_ACQUIRED_UTC 2026-10-06T11:48:30.049214+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:50:32: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Graph ?m.5 ?m.6) 6
+numerals are polymorphic in Lean, but the numeral `6` cannot be used in a context where the expected type is
+  Graph ?m.5 ?m.6
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:50:35: error(lean.unknownIdentifier): Unknown identifier `top`
+
+Note: It is not possible to treat `top` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:82:44: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Graph ?m.9 ?m.10) 6
+numerals are polymorphic in Lean, but the numeral `6` cannot be used in a context where the expected type is
+  Graph ?m.9 ?m.10
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:82:47: error(lean.unknownIdentifier): Unknown identifier `top`
+
+Note: It is not possible to treat `top` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:90:13: error(lean.unknownIdentifier): Unknown identifier `actual_base_analytic_bound`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:89:31: error: unsolved goals
+r b epsilon base : ℝ
+hr : 0 < r
+hr1 : r ≤ 1
+stop : ℕ
+hs : sorry ≤s sorry
+hidentity : 48 * ↑(2 ^ stop) * r = 1
+_hb : 0 < b
+hb8 : b ≤ 1 / 8
+he0 : 0 ≤ epsilon
+he : epsilon ≤ b / 2
+hsmall : r ^ b ≤ 1 / 25
+hbase : base ≤ 2 * max (5 / 4 * (64 / ↑(2 ^ middleDepth stop)) ^ (1 - 2 * epsilon)) (64 / ↑(2 ^ middleDepth stop))
+⊢ base / 8 ≤ phaseRho r b ^ 2
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:114:43: error: linarith failed to find a contradiction
+u : ℕ
+required : ℝ
+ht : 0 < required
+htop : required ≤ 1 / 128
+hbase : 2⁻¹ ^ u / 64 ≤ required
+d : ℕ
+hd : 6 ≤ d
+hlo : 64 * required ≤ 64 / ↑(2 ^ d)
+hhi : 64 / ↑(2 ^ d) ≤ 2 * (64 * required)
+a✝ : 1 / ↑(2 ^ d) < required
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:115:45: error: linarith failed to find a contradiction
+u : ℕ
+required : ℝ
+ht : 0 < required
+htop : required ≤ 1 / 128
+hbase : 2⁻¹ ^ u / 64 ≤ required
+d : ℕ
+hd : 6 ≤ d
+hlo : 64 * required ≤ 64 / ↑(2 ^ d)
+hhi : 64 / ↑(2 ^ d) ≤ 2 * (64 * required)
+hlo' : required ≤ 1 / ↑(2 ^ d)
+a✝ : 2 * required < 1 / ↑(2 ^ d)
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:170:51: error: linarith failed to find a contradiction
+Delta tau : ℝ
+hD : 0 ≤ Delta
+ht : 0 < tau
+hDt : Delta ≤ 21 * tau
+hratio : Delta / tau ≤ 21
+a✝ : 86690 < 2 * 2064 * Delta / tau + 2
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:181:18: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Graph ?m.62 ?m.63) 6
+numerals are polymorphic in Lean, but the numeral `6` cannot be used in a context where the expected type is
+  Graph ?m.62 ?m.63
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:181:21: error(lean.unknownIdentifier): Unknown identifier `top`
+
+Note: It is not possible to treat `top` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:207:18: error(lean.unknownIdentifier): Unknown identifier `analytic_le_phase_square`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_window_scale_budget.lean:191:36: error: unsolved goals
+amin b rhoBound : ℝ
+ha : 0 < amin
+hb : 0 < b
+hb8 : b ≤ 1 / 8
+hBound : 0 < rhoBound
+delta0 : ℝ
+hd0 : 0 < delta0
+hd01 : delta0 ≤ 1
+H : ∀ (delta : ℝ), 0 < delta → delta ≤ delta0 → delta ^ (amin * b) ≤ min (1 / (128 * 104000)) rhoBound
+delta r power : ℝ
+hd : 0 < delta
+hsmall : delta ≤ delta0
+hr : 0 < r
+hpower : amin ≤ power
+hrdelta : r ≤ delta ^ power
+epsilon : ℝ
+he0 : 0 ≤ epsilon
+he : epsilon ≤ b / 2
+stop u : ℕ
+hs : sorry ≤s sorry
+hidentity : 48 * ↑(2 ^ stop) * r = 1
+hbase : 2⁻¹ ^ u ≤ 2 * max (5 / 4 * (64 / ↑(2 ^ middleDepth stop)) ^ (1 - 2 * epsilon)) (64 / ↑(2 ^ middleDepth stop))
+hd1 : delta ≤ 1
+hr1 : r ≤ 1
+hrpow : r ^ b ≤ delta ^ (amin * b)
+hbudget : r ^ b ≤ min (1 / (128 * 104000)) rhoBound
+htiny : r ^ b ≤ 1 / (128 * 104000)
+hrho : 0 < phaseRho r b
+⊢ 0 < phaseRho r b ∧
+    phaseRho r b ≤ rhoBound ∧
+      2⁻¹ ^ u / 8 ≤ phaseRho r b ^ 2 ∧
+        ∃ d,
+          6 ≤ d ∧
+            d ≤ u + 6 ∧
+              tangentMesh r b ≤ 1 / ↑(2 ^ d) ∧
+                4 * grainWidth r b epsilon + tangentMesh r b ≤ 1 / ↑(2 ^ d) ∧
+                  1 / ↑(2 ^ d) ≤ 2 * target r b epsilon ∧ 2⁻¹ ^ u ≤ 64 / ↑(2 ^ d)
+LEAN_FINISHED_UTC 2026-10-06T11:53:13.201329+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

@@ -1,0 +1,30 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_near_power_cleanup",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_near_power_cleanup.lean",
+  "source_sha256": "8f255675ae02662c4d5b697a047b15e4966abe1eb117d523ce2d833b8536b2c6",
+  "names": [
+    "NativeNearPowerCleanup.remove_complementary_error",
+    "NativeNearPowerCleanup.absorb_and_remove_error"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:48:16.733371+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeNearPowerCleanup.remove_complementary_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNearPowerCleanup.absorb_and_remove_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "7ac10d41ad47b29cd644de910f958645505d0164a1d23ce17b118eeb28dcecbd",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:53:57.854620+00:00"
+}

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_actual_post_graph_configuration
+
+set_option autoImplicit false
+#print axioms NativeActualPostGraphConfiguration.exists_actual_post_graph_configuration

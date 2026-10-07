@@ -1,0 +1,112 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T200156810113", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T200156810113/AggregateReadback.lean"]
+READBACK_SHA256 c02825a637426eeee0d19f2c6b42a97cdba4f7399a3ccf2d697f526a591f31ac
+Dedicated staging slot 3 acquired UTC: 2026-10-05T20:01:59.114811+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8663240 kB
+'NativeActualPostGraphXYHook.attach_actual_post_graph_XY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualXYBudgetAllowance.exists_actual_native_XY_budget_with_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualXYBudgetSource.exists_actual_native_XY_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularDyadicInterpolation.angular_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularDyadicInterpolation.angular_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularDyadicInterpolation.angular_image_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAngularDyadicInterpolation.bottom_angular_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAngularDyadicInterpolation.descendants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularDyadicInterpolation.descendants_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularDyadicInterpolation.mem_descendants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularDyadicInterpolation.physical_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCandidateXYConfiguration.exists_candidate_XY_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConditionalReferenceAngularUpper.exists_reference_angular_ball_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConditionalReferenceMenu.candidate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.factory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.factory_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.factory_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.gridDepth' does not depend on any axioms
+'NativeConditionalReferenceMenu.gridDepth_bounds' depends on axioms: [propext, Quot.sound]
+'NativeConditionalReferenceMenu.outerDepth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.parentDepth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.queryCount' does not depend on any axioms
+'NativeConditionalReferenceMenu.query_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.query_phase_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.reference_uniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.relationCount' does not depend on any axioms
+'NativeConditionalReferenceMenu.relation_count' depends on axioms: [propext]
+'NativeConditionalReferenceMenu.relativeScales' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.rhoDepth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalReferenceMenu.sigmaDepth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExtraXYConfiguration.exists_extra_XY_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericXYRank.HasXYRankSelection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericXYRank.xy_rank_of_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYHookData.HasThirdXYFinish' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYHookData.HasXYParentProfiles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYHookStage.HasXYRetainedHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYHookStage.HasXYStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYHookStage.XYCleanupData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYHookStage.stage_with_post_graph_XY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYStage.HasXYRetainedHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYStage.HasXYStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYStage.XYCleanupData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphXYStage.stage_with_post_graph_XY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameSourceAngularBallUpper.exists_angular_ball_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSupportedTwoMapAD.all_radius_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSupportedTwoMapTransfer.coarse_image_count_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSupportedTwoMapTransfer.retained_class_count_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSupportedTwoMapTransfer.retained_class_count_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSupportedTwoMapUpper.height_image_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSupportedTwoMapUpper.retained_class_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightCountsUpper.column_point_image_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightCountsUpper.pair_image_card_le_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightCountsUpper.parent_counts_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightCountsUpper.point_image_card_le_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightGeometry.short_row_chart_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightGeometry.short_row_column_mem_halo' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightPopulation.columnPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightPopulation.column_height_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightPopulation.column_phase_height_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightPopulation.height_population_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightPopulation.height_population_upper_eight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeVariableHeightPopulation.parent_height_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightPopulation.phase_height_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVariableHeightPopulation.reference_numerator_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYLabels.encode_window_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYLabels.gridDiv' does not depend on any axioms
+'NativeWindowXYLabels.gridDiv_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYLabels.window' does not depend on any axioms
+'NativeWindowXYLabels.window_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYLabels.window_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYLabels.window_height' does not depend on any axioms
+'NativeWindowXYMetric.field_window_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMetric.menuRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMetric.menuRadius_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMetric.menu_cost_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMetric.old_dist_of_window_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMetric.old_height_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMetric.raw_dist_of_window_pref' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYMetric.raw_height_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYReferenceMaps.dyadic_height_width' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYReferenceMaps.dyadic_scale_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYReferenceMaps.reference_height_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYReferenceMaps.same_integer_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYReferenceMaps.scheduled_reference_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYReferenceMaps.varying_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYReferenceMaps.windowIndex' depends on axioms: [propext]
+'NativeWindowXYReferenceMaps.windowIndex_height' depends on axioms: [propext]
+'NativeWindowXYReferenceMaps.windowIndex_spatial' depends on axioms: [propext]
+'NativeWindowXYReferenceMaps.window_pref_column' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYReferenceMaps.window_pref_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowXYReferenceMaps.window_pref_spatial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeXYPreLossBudget.constant_pre_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeXYPreLossBudget.xyConstant_pre_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

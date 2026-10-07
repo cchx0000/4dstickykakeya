@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_configured_height_caps
+set_option autoImplicit false
+#print axioms NativeActualConfiguredHeightCaps.actual_height_image
+#print axioms NativeActualConfiguredHeightCaps.actual_height_separation
+#print axioms NativeActualConfiguredHeightCaps.actual_height_interval_cap

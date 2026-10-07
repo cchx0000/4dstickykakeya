@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_actual_mesoscopic_rank_configuration
+
+#print axioms NativeActualMesoscopicRankConfiguration.rankWindow
+#print axioms NativeActualMesoscopicRankConfiguration.rankWindow_pos
+#print axioms NativeActualMesoscopicRankConfiguration.fullSchedule_eq_rankWindow
+#print axioms NativeActualMesoscopicRankConfiguration.exists_actual_mesoscopic_rank_configuration

@@ -1,0 +1,15 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145838083212", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145838083212/AggregateReadback.lean"]
+READBACK_SHA256 c5ddc1aea88c1ac850a5f44c6d61fe0e93f92ec42147007fce1699aa416fb8c7
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:58:38.786445+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8756952 kB
+'NativeAnisotropicGlobalSourceBridge.columnPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicGlobalSourceBridge.comparisonCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicGlobalSourceBridge.comparisonCost_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAnisotropicGlobalSourceBridge.image_multiplicity_of_time_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAnisotropicGlobalSourceBridge.queried_global_source_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_complete_parent_profiles
+
+#print axioms NativeSharpCompleteParentProfiles.HasSharpCompleteParentProfiles
+#print axioms NativeSharpCompleteParentProfiles.complete_sharp_selected_parent_profiles

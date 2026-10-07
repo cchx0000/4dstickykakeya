@@ -1,0 +1,6 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "-o", "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_direction_rank_dichotomy.olean", "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_direction_rank_dichotomy.lean"]
+SOURCE_SHA256 162918f0ae97ca7895dc9897eb93e9236d09d4b74efb45581f6cf91fb52c065b
+FIFO compiler ticket: 01791185728476493102-db67b1c27ae44e099dac878fd46dd2aa.request
+FIFO compiler acquired UTC: 2026-10-05T07:35:28.477188+00:00
+
+EXIT_CODE=0

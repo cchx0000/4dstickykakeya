@@ -1,0 +1,30 @@
+import Theorems.Thm_StickyKakeya4_native_height_slope_coordinates
+import Theorems.Thm_StickyKakeya4_native_grain_quotient_bins
+
+set_option autoImplicit false
+#print axioms NativeGrainQuotientBins.box
+#print axioms NativeGrainQuotientBins.box_card
+#print axioms NativeGrainQuotientBins.diameter
+#print axioms NativeGrainQuotientBins.diameter_pos
+#print axioms NativeGrainQuotientBins.exists_dense_fiber
+#print axioms NativeGrainQuotientBins.exists_dense_quotient_fiber
+#print axioms NativeGrainQuotientBins.heightFiber
+#print axioms NativeGrainQuotientBins.height_fiber_diameter
+#print axioms NativeGrainQuotientBins.label
+#print axioms NativeGrainQuotientBins.label_mem_box
+#print axioms NativeGrainQuotientBins.mixed_occupied_quotient_card
+#print axioms NativeGrainQuotientBins.occupied_card
+#print axioms NativeGrainQuotientBins.rawCoordinates
+#print axioms NativeHeightSlopeCoordinates.exists_height_slope_chart
+#print axioms NativeHeightSlopeCoordinates.fine_heightNode_mem
+#print axioms NativeHeightSlopeCoordinates.heightSlope
+#print axioms NativeHeightSlopeCoordinates.heightSlope_norm
+#print axioms NativeHeightSlopeCoordinates.heightSlope_readback
+#print axioms NativeHeightSlopeCoordinates.heightSlope_variation
+#print axioms NativeHeightSlopeCoordinates.heightSlope_zero_off
+#print axioms NativeHeightSlopeCoordinates.matrixVector
+#print axioms NativeHeightSlopeCoordinates.nodeSlope
+#print axioms NativeHeightSlopeCoordinates.nodeSlope_action
+#print axioms NativeHeightSlopeCoordinates.nodeSlope_graph
+#print axioms NativeHeightSlopeCoordinates.nodeSlope_norm
+#print axioms NativeHeightSlopeCoordinates.nodeSlope_variation

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_ad_fixed_contraction
+set_option autoImplicit false
+#print axioms NativeADFixedContraction.contract_AD
+#print axioms NativeADFixedContraction.coarse_mesh_AD

@@ -1,0 +1,68 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_common_phi_source",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_common_phi_source.lean",
+  "source_sha256": "14a441f17f2756658c69862dea9241e5caf734198d0de965cbab8837e8e800e0",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_common_phi_source.olean",
+  "names": [
+    "NativeCommonPhiSource.cellThickness",
+    "NativeCommonPhiSource.cellThickness_nonneg",
+    "NativeCommonPhiSource.cellThickness_le",
+    "NativeCommonPhiSource.angularCell_readback",
+    "NativeCommonPhiSource.localSlope_distance",
+    "NativeCommonPhiSource.coherent_cell_residual",
+    "NativeCommonPhiSource.coherent_cell_projection"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T19:49:34.866175+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "abcd7d75497e59965baf742fd82bf8b79fd9ce3f4a9d141a5751de0a9b64b9be",
+  "source_execution_complete_utc": "2026-10-05T19:49:40.574009+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T195158800044",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeCommonPhiSource.cellThickness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonPhiSource.cellThickness_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonPhiSource.cellThickness_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonPhiSource.angularCell_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonPhiSource.localSlope_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonPhiSource.coherent_cell_residual": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonPhiSource.coherent_cell_projection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T19:52:19.367112+00:00"
+}

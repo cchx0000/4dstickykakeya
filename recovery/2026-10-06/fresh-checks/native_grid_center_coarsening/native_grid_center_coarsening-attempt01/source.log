@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/9530c92951e7d26c5e5fd3cbf9c744702e8f118685929076936c533437e03e03.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_grid_center_coarsening.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_coarsening.lean"]
+SOURCE_SHA256 08b70596daebe7d48829d7d1153d24a883d660ee4c7d33177df61009d9f00932
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_coarsening.lean:65:2: error: Type mismatch
+  hh
+has type
+  ADBounds (image (center (mu * ↑D)) (image (divide D) P)) (mu * ↑D) (9 ^ l * K ^ 2 * 12 ^ s) s
+but is expected to have type
+  ADBounds (image (center (mu * ↑D)) (image (divide D) P)) (mu * ↑D) (↑(9 ^ l) * K ^ 2 * 12 ^ s) s
+
+EXIT_CODE=1

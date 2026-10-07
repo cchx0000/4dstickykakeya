@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_actual_local_admission
+#print axioms NativeActualLocalAdmission.real_AD_to_enn
+#print axioms NativeActualLocalAdmission.negative_coefficient
+#print axioms NativeActualLocalAdmission.source_AD
+#print axioms NativeActualLocalAdmission.source_CW
+#print axioms NativeActualLocalAdmission.native_input
+#print axioms NativeActualLocalAdmission.HasExactTrace
+#print axioms NativeActualLocalAdmission.source_exact_trace
+#print axioms NativeActualLocalAdmission.source_parent_multiplicity_transfer
+#print axioms NativeActualLocalAdmission.compact_original_scheduled_native_admission

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_saturated_angular_rank_budget
+
+#print axioms NativeSaturatedAngularRankBudget.angular_parent_cost
+#print axioms NativeSaturatedAngularRankBudget.angular_rank_cost

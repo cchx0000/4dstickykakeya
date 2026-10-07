@@ -1,0 +1,16 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/d41848c6b6a8d5bb16c99980172521693b2b9930deabd2fd73de481eaae3f69a.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_phase_height_key.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_height_key.lean"]
+SOURCE_SHA256 6f75509e2f2059395ecd343e4ab5d35dbfb0803e372833a70698679f1b955c81
+LOCK_ACQUIRED_UTC 2026-10-06T18:28:36.578340+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_phase_height_key.lean:97:2: error: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+LEAN_FINISHED_UTC 2026-10-06T18:34:10.509892+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_budget_final
+
+#print axioms NativeRetainedSliceBudgetFinal.exists_initial_parameters
+#print axioms NativeRetainedSliceBudgetFinal.source_eta_allowance
+#print axioms NativeRetainedSliceBudgetFinal.actual_retained_constant_le_power

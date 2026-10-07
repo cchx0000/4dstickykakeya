@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/5cf9cdd3fba55088d13f512eb73432d58b81e9f274336b8961f14d688e663a46.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_recoded_grid_ad-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_recoded_grid_ad-attempt02/Readback.lean"]
+SOURCE_SHA256 c0916906f12466a4d6a516a77039e883f3116bca40caa53c8b8056383ef68d34
+'NativeRecodedGridAD.near_center_ball_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRecodedGridAD.two_way_grid_ADBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRecodedGridAD.two_way_grid_cover_ADBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

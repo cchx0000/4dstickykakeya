@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_same_reference_old_ancestors
+set_option autoImplicit false
+#print axioms NativeSameReferenceOldAncestors.from_original_backbone

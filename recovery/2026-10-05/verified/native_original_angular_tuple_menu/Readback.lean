@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_original_angular_tuple_menu
+
+#print axioms NativeOriginalAngularTupleMenu.angularTuple
+#print axioms NativeOriginalAngularTupleMenu.angularMenu
+#print axioms NativeOriginalAngularTupleMenu.angularMenu_eq_image_coarseMenu
+#print axioms NativeOriginalAngularTupleMenu.coarse_member_labels
+#print axioms NativeOriginalAngularTupleMenu.coarse_to_angular_card_lower
+#print axioms NativeOriginalAngularTupleMenu.angular_member_fine_witness

@@ -1,0 +1,19 @@
+{
+  "state": "passed",
+  "source_commit": "912dc065d2be0bded29e47a817afd4ab89becdf1",
+  "project_module_count": 276,
+  "full_project_build": false,
+  "command": [
+    "bash",
+    "-c",
+    "source /workspace/scratch/5f2524fd4117/lean-tools/environment.sh\nexec ./scripts/build-bounded.sh \"$@\"",
+    "critical-targets",
+    "Theorems.Thm_StickyKakeya4_original_uniform_weak_robust_projection",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_physical_map",
+    "Theorems.Thm_StickyKakeya4_native_coarse_direction_thinning"
+  ],
+  "executor_start_utc": "2026-10-05T04:03:30.328252+00:00",
+  "exit_code": 0,
+  "changed_sources": [],
+  "executor_finished_utc": "2026-10-05T04:52:40.055987+00:00"
+}

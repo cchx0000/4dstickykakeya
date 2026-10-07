@@ -1,3 +1,15 @@
+## 2026-10-07 saved-progress synchronization
+
+This checkpoint preserves the owner-selected October 6 23:26 recovery archive,
+including the exact committed source snapshot `d9ee5363bde9fc9e2734538eb97eb3164c9880d5`,
+its complete Git history bundle, verification records, and 449 separately labeled
+pending source snapshots. See [synchronization scope](docs/GITHUB_SYNC_20261007.md).
+No Lean, Lake, proof search, or new mathematical verification was run for this
+synchronization. Earlier publication-blocked statements below describe their
+historical checkpoints. The final theorem and kappa = 0 remain unfinished.
+
+The current kappa=0 entrance is still mathematically open: the verified one-T and planar constructions consume the rank-two branch. Excluding rank three only under kappa>1 gives the historical kappa<=1 result. See docs/NATIVE_RANK_ENTRY_SCOPE.md.
+
 # Current milestones: original-paper standard
 
 The final target is unchanged: Definition 1.1 / Theorem 1.2 of the original
@@ -6,6 +18,82 @@ full-direction marked family with packing-dimension-three unmarked carrier.
 No new regularity, routing certificate, or energy bound is a final hypothesis.
 See [ORIGINAL_PAPER_TARGETS.md](ORIGINAL_PAPER_TARGETS.md) for exact references.
 The earlier eight-item proposal is preserved in `PROVE2ME_TARGETS.md`.
+
+## 2026-10-06 10:03 executor reset and selected-backup restoration
+
+The owner reselected the latest source/history archive and all four cache parts. The restored source tree is exactly commit `d8ec7636`, with1,628 project modules. Its complete Git bundle, source archive hash,453 source/olean hashes, pinned compiler hash and project import closure all match. Official dependencies are restored and453 archived project artifacts passed an independent cache-only import after all compiler, dependency, source and artifact hashes were checked. Fresh post-reset source/import results are listed separately in verification/final-status.json.
+
+The live tree now contains1,748 project modules;852 public declarations have fresh source and independent-import checks in this executor.
+
+The pre-reset432 strict declaration checks below remain historical receipts; cached reuse is not source recompilation. The latest767-artifact snapshot has also passed independent cache-only import after source, artifact, compiler and import-closure checks. Reconstructed drafts count as verified only when their exact hashes appear in the fresh check receipts. The original final theorem and kappa=0 remain unfinished; the earlier GitHub write approval is still unresolved.
+
+## 2026-10-06 checkpoint before the10:03 reset
+
+The user-selected 1,559-module archive has been restored byte-for-byte and merged with all 69 new October6 modules. That pre-reset checkpoint contains1,628 project modules. The archive SHA256 matches the previously recorded value, its complete Git history is verified, and all 99 pending source snapshots match their recorded hashes. Nothing from the October6 work was overwritten.
+
+The 432 new October6 public declarations passed strict source checks and independent imported-axiom audits using only foundational axioms. Targeted prerequisite closures had checked 381 distinct modules before the10:03 executor reset. The restored October5 checks retain their historical scope; the full 1,628-module tree has not been rebuilt here. The historical unconditional bound kappa_fixed<=1 and its source are restored; kappa_fixed=0 and the original final theorem remain unfinished.
+
+The new actual-source work constructs full coarse-reference AD/CW internally, preserves original incidence weight in local-offset selection, and removes the global Lipschitz coefficient from the offset menu. One-old-height selection permits exact freezing of both grain fields and a no-deletion quotient coarsening. Literal graph rounding, separation and marked isometric tube geometry are proved independently. Their original-source joins and the remaining analytic branches are still being assembled. See [the source trace](docs/RECOVERED_CONFIGURATION_RECODING_20261006.md) and [current verification status](verification/final-status.json).
+
+The old GitHub write approval is still unresolved. This merge is a local recovery; it is not a remote publication or a claim of a fresh full build.
+
+## 2026-10-05 same-source geometric construction
+
+All results below have strict source and independent imported-axiom checks
+using only propext, Classical.choice and Quot.sound. The final target has
+not changed, and kappa_fixed=0 remains unproved.
+
+- The actual source factory constructs one original R/E1/E2 with both
+  conditional multiplicity bounds, the fixed horizontal menus, prescribed
+  angular-word tuples and their complete retained grain history
+- Actual rank and counting arguments exclude ranks one and four; the
+  remaining rank is two or three and satisfies kappa_fixed+rank<=4.
+  The source-derived angular lower and affine cap now prove kappa_fixed<=1
+  unconditionally; the equality case remains possible at this stage
+- Original total shading density produces one population-rich phase parent.
+  Its actual descendant tube/height counts and both reference profiles are
+  derived on that same source; individual shading rows are not assumed dense
+- Reference fixed-height slices have all-radius ADBounds of exponent
+  3-kappa_fixed, with actual mesh separation and diameter bounds. A third
+  original-incidence core retains those bounds and dense old grains together
+- Actual height alignment, a fixed orthonormal graph chart, prescribed-word
+  transport and boundary-safe interpolation give quantitative matrix slope
+  variation. Raw and translated height bins are synchronized by a proved
+  fixed-cost original-edge construction
+- Weighted quotient selection and the hereditary parent/vertex cap give
+  actual tangent-fiber density on the same retained core. No original point
+  is moved or replaced by an unweighted source
+
+The reference and retained spatial AD constants have been paid from the
+actual source costs. Actual XY AD, dense X fibers and quotient Y AD now hold
+on one retained core. The enlarged-reference source factory preserves the
+actual first-stage cost and exposes a paid pre-third coherence hook. The
+angular upper uses that same first reference, with the relative query
+parameters chosen in the corrected order before the source. Paying the
+coherence hook, common projected-direction profiles, coarse-time-window Y
+union regularity and the same-source W/L analytic branches
+remain active. The bound kappa_fixed<=1 has passed strict source and independent
+  imported-axiom checks; kappa_fixed=0 remains the final open target.
+The old source suppliers that choose a different native source cannot replace
+this R/E2. Intermediate output predicates are not final assumptions.
+
+The exact original final statement follows from fixed-compact exponent zero
+through `NativeFixedZeroOriginalTheorem.sticky_kakeya_four_dimensional_of_fixed_zero`.
+The public unconditional theorem still uses
+`StickyKakeya4.wang_zakharov_published_volume_estimate`.
+
+The current branch has 1,559 modules. The original1,020-module Lake attempt
+has terminal status unknown; isolated recovery of its two remaining Solutions
+and complete import verification passed. The latest unified closure of
+individually verified, unchanged artifacts covers 1,498 modules. See
+[current status](recovery/2026-10-05/CURRENT_RECOVERY_STATUS.json),
+[mathematical progress](recovery/2026-10-05/VERIFIED_NATIVE_PROGRESS.md), and
+[source/parent quantifiers](recovery/2026-10-05/NATIVE_PRESCRIBED_PARENT_GRAPH_AUDIT.md).
+
+## Historical checkpoint reports
+
+The following entries describe their original snapshots. Their old build
+status and open-interface lists are superseded by the current records above.
 
 ## 2026-10-04 weak-profile robust projection: canonical verification pending
 

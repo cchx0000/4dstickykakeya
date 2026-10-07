@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_configured_output_pairs
+set_option autoImplicit false
+#print axioms NativeConfiguredIncidenceFibers.localIndex
+#print axioms NativeConfiguredIncidenceFibers.localIndex_readback
+#print axioms NativeConfiguredIncidenceFibers.outputTube
+#print axioms NativeConfiguredIncidenceFibers.outputTube_readback
+#print axioms NativeConfiguredIncidenceFibers.outputTube_eq_iff
+#print axioms NativeConfiguredIncidenceFibers.outputPair_eq_iff
+#print axioms NativeConfiguredIncidenceFibers.outputPair_image_card
+#print axioms NativeConfiguredIncidenceFibers.outputPair_fiber_eq
+#print axioms NativeConfiguredIncidenceFibers.outputTube_ancestor_readback

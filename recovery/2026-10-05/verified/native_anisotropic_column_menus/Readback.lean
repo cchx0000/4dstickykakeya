@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_anisotropic_column_menus
+
+#print axioms NativeAnisotropicColumnMenus.columnHalo_symm
+#print axioms NativeAnisotropicColumnMenus.columnHalo_trans
+#print axioms NativeAnisotropicColumnMenus.same_floor_width_close
+#print axioms NativeAnisotropicColumnMenus.same_column_height_close
+#print axioms NativeAnisotropicColumnMenus.same_raw_column_mem_halo
+#print axioms NativeAnisotropicColumnMenus.same_column_same_height_spatial_close

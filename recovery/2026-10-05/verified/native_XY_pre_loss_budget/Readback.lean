@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_XY_pre_loss_budget
+
+#print axioms NativeXYPreLossBudget.constant_pre_loss
+#print axioms NativeXYPreLossBudget.xyConstant_pre_loss

@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_caps
+
+#print axioms NativeReferenceXYGridCaps.inverse_capacity
+#print axioms NativeReferenceXYGridCaps.forward_capacity
+#print axioms NativeReferenceXYGridCaps.fine_inverse_capacity
+#print axioms NativeReferenceXYGridCaps.fine_forward_capacity
+#print axioms NativeReferenceXYGridCaps.filtered_image_points
+#print axioms NativeReferenceXYGridCaps.lift_incidence_capacity

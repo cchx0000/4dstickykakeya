@@ -1,0 +1,47 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/07c99dd6932fa8608e54294285a69496ec56390e221c59a561cb10dcad4105c6.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_higher_quotient_parent_transport-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_higher_quotient_parent_transport-attempt01/Readback.lean"]
+SOURCE_SHA256 cbffcba7d5c016e35b3ff4d76523da082b37fa6b6c39dbf3985e437190e93d1f
+LOCK_ACQUIRED_UTC 2026-10-06T10:54:06.468903+00:00
+SHARED_SLOT 2
+LEAN_PID 63
+'NativeHigherQuotientParentTransport.timeOrigin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.horizontalScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.horizontalScale_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.horizontalScale_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.higherX' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.higherY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.tangentShift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.quotientShift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.physical_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.physical_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.old_height_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.carriedField' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.carriedField_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.higherX_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.higherY_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.carried_quotient_readback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHigherQuotientParentTransport.graph_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.higherX_difference_same_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHigherQuotientParentTransport.higherX_distance_same_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHigherQuotientParentTransport.higherY_difference_same_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHigherQuotientParentTransport.higherY_distance_same_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHigherQuotientParentTransport.higherY_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.higherX_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.higherY_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.higherX_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.higherY_fiber_indices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHigherQuotientParentTransport.quotient_error_of_point_motion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T10:55:53.319167+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

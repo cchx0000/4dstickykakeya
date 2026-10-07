@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_refined_row_relations
+
+#print axioms NativeRefinedRowRelations.rowPair
+#print axioms NativeRefinedRowRelations.rowRelationMenu
+#print axioms NativeRefinedRowRelations.rowRelationMenu_refl
+#print axioms NativeRefinedRowRelations.rowRelationMenu_symm
+#print axioms NativeRefinedRowRelations.rowRelationMenu_old
+#print axioms NativeRefinedRowRelations.rowRelationMenu_uniformities
+#print axioms NativeRefinedRowRelations.exists_refined_row_core

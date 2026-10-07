@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_prescribed_grain_history
+
+#print axioms NativePrescribedGrainHistory.IsPrescribedNodeSystem
+#print axioms NativePrescribedGrainHistory.prescribed_system_forget
+#print axioms NativePrescribedGrainHistory.prescribed_system_word
+#print axioms NativePrescribedGrainHistory.construct_prescribed_grain_history

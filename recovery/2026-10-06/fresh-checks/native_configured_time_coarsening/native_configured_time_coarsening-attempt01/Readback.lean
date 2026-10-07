@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_configured_time_coarsening
+set_option autoImplicit false
+#print axioms NativeConfiguredTimeCoarsening.finalTime
+#print axioms NativeConfiguredTimeCoarsening.floor_finalTime
+#print axioms NativeConfiguredTimeCoarsening.floor_from_original
+#print axioms NativeConfiguredTimeCoarsening.same_final_window_iff

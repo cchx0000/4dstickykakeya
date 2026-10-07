@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_grid_coverage
+
+#print axioms NativeConditionalGridCoverage.gridDepth_schedule
+#print axioms NativeConditionalGridCoverage.exists_grid_predecessor
+#print axioms NativeConditionalGridCoverage.queryIndex
+#print axioms NativeConditionalGridCoverage.queryIndex_candidate
+#print axioms NativeConditionalGridCoverage.queryIndex_pair
+#print axioms NativeConditionalGridCoverage.exists_query_predecessors

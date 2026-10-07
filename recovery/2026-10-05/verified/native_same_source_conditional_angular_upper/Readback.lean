@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_same_source_conditional_angular_upper
+
+#print axioms NativeSameSourceConditionalAngularUpper.conditionalConstant
+#print axioms NativeSameSourceConditionalAngularUpper.exists_conditional_angular_upper

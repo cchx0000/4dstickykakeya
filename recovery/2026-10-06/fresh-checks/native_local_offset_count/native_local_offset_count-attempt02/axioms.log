@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4c19c86447a209b22745474f0e833d97a2c5145c2e388ab98f1fec643e85dd6f.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_local_offset_count-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_local_offset_count-attempt02/Readback.lean"]
+SOURCE_SHA256 4de1b247db7141e8ab3cac591b0c586b84f8917e30b687fc136daa9e8c6e9b6c
+'NativeLocalOffsetCount.offsetCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetCount.neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetCount.neighbors_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetCount.floor_difference_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetCount.joint_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetCount.sum_fiber_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetCount.double_count_fiber_images' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetCount.angle_offset_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetCount.actual_offset_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

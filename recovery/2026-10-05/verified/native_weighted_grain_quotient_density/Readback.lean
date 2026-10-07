@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_density
+
+#print axioms NativeWeightedGrainQuotientDensity.every_retained_fiber_density
+#print axioms NativeWeightedGrainQuotientDensity.every_H3_fiber_density
+#print axioms NativeWeightedGrainQuotientDensity.every_H3_fiber_density_cross

@@ -1,0 +1,54 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160322233768", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160322233768/AggregateReadback.lean"]
+READBACK_SHA256 420c96b7ef52028a8a02521e6aaeeec20887b3dd260e8c2f62685b6a7524e092
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:03:23.066297+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8789448 kB
+'NativeActualHeightSlopeVariation.horizontalPlane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualHeightSlopeVariation.horizontalPlane_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualHeightSlopeVariation.matching_height_slope_variation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualHeightSlopeVariation.matching_node_horizontal_gap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualHeightSlopeVariation.matching_node_matrix_variation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoarseHeightSlopeVariation.node_pair_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseHeightSlopeVariation.same_ancestor_installed_word' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCoarseHeightSlopeVariation.same_coarse_height_slope_variation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGrainQuotientImage.X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientImage.X_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientImage.exists_dense_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientImage.full_tangent_image_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientImage.phase_quotient_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientImage.rawTangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientImage.tangent_label_injOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.coordinates_norm_eq_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.norm_le_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.physical_difference_horizontal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.physical_vertex_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.residual_mem_normalSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.same_coordinate_bins_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.same_label_coordinate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.same_label_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.tangentCoordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGrainQuotientInjection.tangentCoordinates_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightResidueSelection.exists_residue_separated_node_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeHeightResidueSelection.same_residue_close_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightResidueSelection.select_height_residues' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHeightResidueSelection.selected_close_heights_same_ancestor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePopulationParentSelection.exists_population_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePopulationParentSelection.population_implies_reference_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePopulationParentSelection.source_population_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

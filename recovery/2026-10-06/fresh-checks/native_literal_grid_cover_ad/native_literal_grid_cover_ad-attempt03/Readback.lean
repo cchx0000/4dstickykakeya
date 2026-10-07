@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_literal_grid_cover_ad
+set_option autoImplicit false
+#print axioms NativeLiteralGridCoverAD.label
+#print axioms NativeLiteralGridCoverAD.representatives
+#print axioms NativeLiteralGridCoverAD.coverCount
+#print axioms NativeLiteralGridCoverAD.CoverADBounds
+#print axioms NativeLiteralGridCoverAD.center_label_close
+#print axioms NativeLiteralGridCoverAD.anchor_mem
+#print axioms NativeLiteralGridCoverAD.upper_card
+#print axioms NativeLiteralGridCoverAD.lower_card
+#print axioms NativeLiteralGridCoverAD.cover_AD_of_representatives

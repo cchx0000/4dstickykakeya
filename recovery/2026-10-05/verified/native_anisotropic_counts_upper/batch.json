@@ -1,0 +1,36 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:56:10.408476+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145609599960",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145609599960/AggregateReadback.lean"
+  ],
+  "readback_sha256": "725e9c4d01350cb2c236f0e9a9c748b96cb8f32c7edabb5b83ea1a7b6ec31628",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_counts_upper",
+      "source_sha256": "46582b8ba03f9c4c52e532e8d5961d7d12e60ff12edfc2d3b23e2e27da0af3a9",
+      "olean_sha256": "9d6e0288f54f787d0dd5da5e5d899f430fcbf4d3e175c6f9c8bc8d3cc9e3fd8c",
+      "names": [
+        "NativeAnisotropicCountsUpper.column_point_image_card_le",
+        "NativeAnisotropicCountsUpper.point_image_card_le_columns",
+        "NativeAnisotropicCountsUpper.pair_image_card_le_columns",
+        "NativeAnisotropicCountsUpper.parent_counts_upper"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:56:19.665966+00:00",
+  "exit_code": 0
+}

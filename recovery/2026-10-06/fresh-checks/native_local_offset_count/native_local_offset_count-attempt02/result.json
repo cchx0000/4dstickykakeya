@@ -1,0 +1,75 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_local_offset_count",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_count.lean",
+  "source_sha256": "4de1b247db7141e8ab3cac591b0c586b84f8917e30b687fc136daa9e8c6e9b6c",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_local_offset_count.olean",
+  "names": [
+    "NativeLocalOffsetCount.offsetCell",
+    "NativeLocalOffsetCount.neighbors",
+    "NativeLocalOffsetCount.neighbors_card",
+    "NativeLocalOffsetCount.floor_difference_le_one",
+    "NativeLocalOffsetCount.joint_fiber_card",
+    "NativeLocalOffsetCount.sum_fiber_image_card",
+    "NativeLocalOffsetCount.double_count_fiber_images",
+    "NativeLocalOffsetCount.angle_offset_cap",
+    "NativeLocalOffsetCount.actual_offset_count"
+  ],
+  "started_utc": "2026-10-06T06:21:23.346711+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "b13e5995418607f566145734f578edcff82dc66e6b8f591f94fca24df51afff3",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeLocalOffsetCount.offsetCell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalOffsetCount.neighbors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalOffsetCount.neighbors_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalOffsetCount.floor_difference_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalOffsetCount.joint_fiber_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalOffsetCount.sum_fiber_image_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalOffsetCount.double_count_fiber_images": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalOffsetCount.angle_offset_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalOffsetCount.actual_offset_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:21:28.234313+00:00"
+}

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_parent_angular_coarse_endpoint
+
+#print axioms NativeParentAngularCoarseEndpoint.angular_image_box
+#print axioms NativeParentAngularCoarseEndpoint.angular_menu_box
+#print axioms NativeParentAngularCoarseEndpoint.coarse_endpoint_cost

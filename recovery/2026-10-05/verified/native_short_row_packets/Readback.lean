@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_native_short_row_packets
+
+#print axioms NativeShortRowPackets.shortEdges
+#print axioms NativeShortRowPackets.shortCells
+#print axioms NativeShortRowPackets.shortVertices
+#print axioms NativeShortRowPackets.shortVertexClosure
+#print axioms NativeShortRowPackets.shortVertices_eq_cells_image
+#print axioms NativeShortRowPackets.projected_image_eq_rowChildren
+#print axioms NativeShortRowPackets.projected_short_height
+#print axioms NativeShortRowPackets.short_member_readback
+#print axioms NativeShortRowPackets.short_member_packet
+#print axioms NativeShortRowPackets.short_vertex_witness
+#print axioms NativeShortRowPackets.short_vertex_cube_packet
+#print axioms NativeShortRowPackets.short_vertex_rounded_packet
+#print axioms NativeShortRowPackets.short_vertex_rounded_height
+#print axioms NativeShortRowPackets.short_vertex_closure_packet

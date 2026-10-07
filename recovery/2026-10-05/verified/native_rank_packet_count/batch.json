@@ -1,0 +1,33 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:37:19.543810+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T143718840208",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T143718840208/AggregateReadback.lean"
+  ],
+  "readback_sha256": "9e23d657cb0d30b7c2fa4f3e5095b9fceed9382b52052214555104b9a1f9d95b",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_packet_count",
+      "source_sha256": "5f52e1a18339ca0b50fc15301e7503f02ef23909bcefe5eb65f161a83f0216df",
+      "olean_sha256": "671af441d930e4650c3f0504168e6e91c064be6113812a4e95773e323be9b446",
+      "names": [
+        "NativeRankPacketCount.stage_vertex_count"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:37:29.690201+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,77 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:49:00.362540+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T144859608669",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T144859608669/AggregateReadback.lean"
+  ],
+  "readback_sha256": "6c2869316a76f7d3e4ebdc5e8ab4dd7244a001241a80e00f34d0135c988ec198",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_dimension_range_configuration",
+      "source_sha256": "c071b89a98db0315e4fe03d543f15549e047ef5593ac9cfbf55b951a4691860b",
+      "olean_sha256": "6240ef3a0fa6fccff7c99ca0a1fd19ed68ad9ce3cc003241a546a01b39c5cb26",
+      "names": [
+        "NativeActualDimensionRangeConfiguration.exists_actual_dimension_range_configuration",
+        "NativeActualDimensionRangeConfiguration.extremalExponent_le_two"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_column_menus",
+      "source_sha256": "2b28fd5fbd81912f4c0034fa216c95bf2f93def3afff164104a1ca0d2fd6bdd4",
+      "olean_sha256": "8b86f99bc0922da7c47eb60f0914aa98ee5bec795dfa4f1aae3cb8548d399f92",
+      "names": [
+        "NativeAnisotropicColumnMenus.columnHalo_symm",
+        "NativeAnisotropicColumnMenus.columnHalo_trans",
+        "NativeAnisotropicColumnMenus.same_floor_width_close",
+        "NativeAnisotropicColumnMenus.same_column_height_close",
+        "NativeAnisotropicColumnMenus.same_raw_column_mem_halo",
+        "NativeAnisotropicColumnMenus.same_column_same_height_spatial_close"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_raw_shadow_pair_comparison",
+      "source_sha256": "e0013620553974e1de063c979b29d5e3ab161a4fc0a0414485e9467a762569cd",
+      "olean_sha256": "e84add960e0dd1f3f96c486902db6baee2f9fe920177ec92b9d2b469eebfbd9b",
+      "names": [
+        "NativeRawShadowPairComparison.rawPair",
+        "NativeRawShadowPairComparison.pair_image_card_of_constant",
+        "NativeRawShadowPairComparison.pair_image_card_le_of_point_comparison",
+        "NativeRawShadowPairComparison.same_R_pair_image_card_comparison",
+        "NativeRawShadowPairComparison.image_multiplicity_le_of_card_bounds",
+        "NativeRawShadowPairComparison.same_R_multiplicity_comparison",
+        "NativeRawShadowPairComparison.same_R_full_source_multiplicity_comparison"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_column_capacity",
+      "source_sha256": "52817841f7729acbd4eed44ebf91e174d3379ddb1692130f1ae4f2680575461e",
+      "olean_sha256": "1fbb9c3f47a25e988a711a387a4559bd397cd0065c84c491b9a6ba1bb1220f72",
+      "names": [
+        "NativeAnisotropicColumnCapacity.heightMenu",
+        "NativeAnisotropicColumnCapacity.heightMenu_card",
+        "NativeAnisotropicColumnCapacity.same_column_height_mem_menu",
+        "NativeAnisotropicColumnCapacity.same_column_same_height_mem_halo",
+        "NativeAnisotropicColumnCapacity.column_height_fiber_card_le",
+        "NativeAnisotropicColumnCapacity.column_vertices_card_le",
+        "NativeAnisotropicColumnCapacity.column_vertices_card_le_mul",
+        "NativeAnisotropicColumnCapacity.dyadic_height_eq",
+        "NativeAnisotropicColumnCapacity.dyadic_column_vertices_card_le"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:49:05.561893+00:00",
+  "exit_code": 0
+}

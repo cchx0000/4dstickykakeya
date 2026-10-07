@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/9a37e56c3274bbd5345b609445028b7e757efd882cde841e8ff6034e4182696b.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_literal_grid_cover_ad-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_literal_grid_cover_ad-attempt03/Readback.lean"]
+SOURCE_SHA256 4009ab2e2610706e369cb258bcc8dd50c34cd37ae9799aa8e9ed9c605f0a29d3
+'NativeLiteralGridCoverAD.label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralGridCoverAD.representatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralGridCoverAD.coverCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralGridCoverAD.CoverADBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralGridCoverAD.center_label_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralGridCoverAD.anchor_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralGridCoverAD.upper_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralGridCoverAD.lower_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralGridCoverAD.cover_AD_of_representatives' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

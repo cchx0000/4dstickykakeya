@@ -1,0 +1,16 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2307.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2307", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2307/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T23:07:59.029960+00:00
+SHARED_SLOT 1
+LEAN_PID 58
+'NativeActualReferenceOneTGeometry.HasFinalGeometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceOneTGeometry.geometry_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceOneTGeometry.from_parent_profiles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceOneTGeometry.from_xy_stage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVLContactIdentity.v_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVLContactIdentity.v_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVLContactIdentity.terminal_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVLContactIdentity.terminal_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeVLContactIdentity.l_residual_of_v' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T23:08:28.019194+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

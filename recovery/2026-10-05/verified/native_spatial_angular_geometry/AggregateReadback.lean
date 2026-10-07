@@ -1,0 +1,23 @@
+import Theorems.Thm_StickyKakeya4_native_retained_rank_cutoffs
+import Theorems.Thm_StickyKakeya4_native_spatial_angular_geometry
+
+set_option autoImplicit false
+#print axioms NativeRetainedRankCutoffs.exists_rank_half_mass_cutoff
+#print axioms NativeRetainedRankCutoffs.exists_rank_rounding_cutoff
+#print axioms NativeRetainedRankCutoffs.finePointMenu
+#print axioms NativeRetainedRankCutoffs.finePointMenu_refl
+#print axioms NativeRetainedRankCutoffs.finePointMenu_symm
+#print axioms NativeRetainedRankCutoffs.finePointMenu_uniformities
+#print axioms NativeSpatialAngularGeometry.angularLabel
+#print axioms NativeSpatialAngularGeometry.chart_spatial_sub
+#print axioms NativeSpatialAngularGeometry.floor_mem_interval
+#print axioms NativeSpatialAngularGeometry.integerBox
+#print axioms NativeSpatialAngularGeometry.integerBox_card
+#print axioms NativeSpatialAngularGeometry.intercept_close
+#print axioms NativeSpatialAngularGeometry.oldTime_sub
+#print axioms NativeSpatialAngularGeometry.parent_angular
+#print axioms NativeSpatialAngularGeometry.phase_parent_image_card
+#print axioms NativeSpatialAngularGeometry.physicalMap_zero_sub
+#print axioms NativeSpatialAngularGeometry.same_cell_coordinate_close
+#print axioms NativeSpatialAngularGeometry.spatialLabel
+#print axioms NativeSpatialAngularGeometry.spatial_coordinate_close

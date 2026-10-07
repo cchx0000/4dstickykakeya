@@ -1,0 +1,50 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.lean",
+  "source_sha256": "b791c4c63cb80c6ffbc93a94aeb086eb122358ac2b308e2d88bf52f51cad9254",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.olean",
+  "names": [
+    "NativeActualFineWeightShadingBridge.pair_capacity_to_shading",
+    "NativeActualFineWeightShadingBridge.fine_graph_le_shadow",
+    "NativeActualFineWeightShadingBridge.same_Q_weight_shading",
+    "NativeActualFineWeightShadingBridge.actual_weight_upper"
+  ],
+  "started_utc": "2026-10-06T18:36:18.655950+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "c8d96f9ac29c60e4d98f8f9bc26cbe02c619d35ec443aa6bb499f9e170a4bb85",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T18:41:11.716361+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1842",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeActualFineWeightShadingBridge.pair_capacity_to_shading": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualFineWeightShadingBridge.fine_graph_le_shadow": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualFineWeightShadingBridge.same_Q_weight_shading": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualFineWeightShadingBridge.actual_weight_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T18:44:51.332277+00:00"
+}

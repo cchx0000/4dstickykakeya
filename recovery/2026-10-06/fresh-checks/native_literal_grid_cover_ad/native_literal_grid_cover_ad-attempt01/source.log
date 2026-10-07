@@ -1,0 +1,18 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/9a37e56c3274bbd5345b609445028b7e757efd882cde841e8ff6034e4182696b.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.lean"]
+SOURCE_SHA256 0a52f586d797fa60e004135ae05e77f2422400051c4ff7f517396636e4f49b2f
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.lean:50:24: error(lean.unknownIdentifier): Unknown constant `FiniteVoronoiPopulation.mem_carrierBall.mp`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.lean:50:11: error: Tactic `rcases` failed: `x✝ : ?m.121` is not an inductive datatype
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.lean:61:2: error: mod_cast has type
+  #(image (label rho) (carrierBall A a r)) ≤ #(carrierBall (representatives A rho) (center rho (label rho a)) (2 * r))
+but is expected to have type
+  coverCount A rho a r ≤ ↑(#(carrierBall (representatives A rho) (center rho (label rho a)) (2 * r)))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.lean:70:24: error(lean.unknownIdentifier): Unknown constant `FiniteVoronoiPopulation.mem_carrierBall.mp`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.lean:70:11: error: Tactic `rcases` failed: `x✝ : ?m.61` is not an inductive datatype
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.lean:83:2: error: mod_cast has type
+  #(carrierBall (representatives A rho) (center rho (label rho a)) (r / 2)) ≤ #(image (label rho) (carrierBall A a r))
+but is expected to have type
+  ↑(#(carrierBall (representatives A rho) (center rho (label rho a)) (r / 2))) ≤ coverCount A rho a r
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.lean:118:44: error(lean.unknownIdentifier): Unknown constant `FiniteVoronoiPopulation.mem_carrierBall.mpr`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_grid_cover_ad.lean:132:68: error(lean.unknownIdentifier): Unknown identifier `carrierBall_subset`
+
+EXIT_CODE=1

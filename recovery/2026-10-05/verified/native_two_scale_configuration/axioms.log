@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_two_scale_configuration_readback.lean"]
+SOURCE_SHA256 135789966d1f26a1aa33037497e84a4907ad921014b29b9520bd6156eea1a8b6
+FIFO compiler ticket: 01791186592372240524-0defaed267fd429cab066342ab12188b.request
+FIFO compiler acquired UTC: 2026-10-05T07:49:52.373004+00:00
+'NativeTwoScaleConfiguration.depth_gap_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoScaleConfiguration.HasConditionalTwoScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoScaleConfiguration.exists_two_scale_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

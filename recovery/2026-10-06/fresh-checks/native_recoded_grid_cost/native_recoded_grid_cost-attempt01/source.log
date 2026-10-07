@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/24e0ba1940eb2b044c75b4eacdf7d8020fe479c1b4e106cf70c0fda08e92242c.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_recoded_grid_cost.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_cost.lean"]
+SOURCE_SHA256 695affe96f3f108a7625fba4aba2976c76f03f34eea356da08442a00989e7ea1
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_recoded_grid_cost.lean:55:4: error: Type mismatch: After simplification, term
+  hh
+ has type
+  alpha ^ (↑l + s) ≤ alpha ^ (4 : ℝ)
+but is expected to have type
+  alpha ^ (↑l + s) ≤ alpha ^ (4 : ℕ)
+
+EXIT_CODE=1

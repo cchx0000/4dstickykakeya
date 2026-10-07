@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_translated_grain_height_chart
+
+#print axioms NativeTranslatedGrainHeightChart.raw_chart_distance
+#print axioms NativeTranslatedGrainHeightChart.mapped_chart_metric

@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_support
+
+#print axioms NativeReferenceXYGridSupport.halfWidth
+#print axioms NativeReferenceXYGridSupport.mu_halfWidth
+#print axioms NativeReferenceXYGridSupport.mu_fullWidth
+#print axioms NativeReferenceXYGridSupport.terminal_bounds
+#print axioms NativeReferenceXYGridSupport.oldPoint_norm
+#print axioms NativeReferenceXYGridSupport.rawPoint_norm
+#print axioms NativeReferenceXYGridSupport.label_support
+#print axioms NativeReferenceXYGridSupport.pxy_support
+#print axioms NativeReferenceXYGridSupport.dyadic_pxy_support

@@ -1,0 +1,64 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164429469021", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164429469021/AggregateReadback.lean"]
+READBACK_SHA256 be38b132ae6fe29c199b626dc4726d1ed433d441dc404f6619e0c86a1b7a1d1d
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:44:30.230847+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8780380 kB
+'NativeCompleteParentProfiles.HasCompleteParentProfiles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompleteParentProfiles.complete_selected_parent_profiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedParentMenuConfiguration.HasPrescribedHorizontalStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedParentMenuConfiguration.callerRelations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePrescribedParentMenuConfiguration.exists_prescribed_parent_menu_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedParentMenuConfiguration.prescribed_horizontal_stage_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedParentMenuConfiguration.prescribed_stage_with_horizontal_menu' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPopulationParentConfiguration.HasPrescribedParentRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPopulationParentConfiguration.HasPrescribedPopulationParentStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPopulationParentConfiguration.PrescribedParentFinalCleanupData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPopulationParentConfiguration.complete_profiles_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPopulationParentConfiguration.exists_prescribed_population_parent_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPopulationParentConfiguration.prescribed_parent_cleanup_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPopulationParentConfiguration.prescribed_parent_retained_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPopulationParentConfiguration.prescribed_population_stage_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativePrescribedPopulationParentConfiguration.prescribed_stage_with_population_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceSliceClassBounds.HasColumnPowerProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceClassBounds.reference_class_power_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceSliceClassBounds.relativeWidth_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassAlgebra.class_bounds_from_global_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassAlgebra.global_count_ratio_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSliceClassAlgebra.scaled_power_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientCap.local_threshold_to_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientCap.selected_X_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientCap.source_selected_X_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedGrainQuotientCap.weighted_density_cap_cancellation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

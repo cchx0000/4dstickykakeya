@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_extra_paid_XY_configuration
+
+#print axioms NativeExtraPaidXYConfiguration.exists_extra_paid_XY_configuration

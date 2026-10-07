@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_original_coarse_tuple_menu
+
+#print axioms NativeOriginalCoarseTupleMenu.coarseTuple
+#print axioms NativeOriginalCoarseTupleMenu.coarseMenu
+#print axioms NativeOriginalCoarseTupleMenu.formal_uniform_in_parent
+#print axioms NativeOriginalCoarseTupleMenu.reference_point_parent_fiber_upper
+#print axioms NativeOriginalCoarseTupleMenu.retained_point_parent_fiber_upper
+#print axioms NativeOriginalCoarseTupleMenu.previous_rank_coarse_tuple_menu

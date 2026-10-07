@@ -1,0 +1,243 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_remembered_source_construction",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean",
+  "source_sha256": "0ea0737fd7fb490b6fa1055cdbd9cb887713377f565a77a6faf64f3e7e86812c",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.olean",
+  "names": [
+    "NativeRememberedSourceMaps.occurrences",
+    "NativeRememberedSourceMaps.mem_occurrences",
+    "NativeRememberedSourceMaps.taggedKey",
+    "NativeRememberedSourceMaps.finalTime",
+    "NativeRememberedSourceMaps.selectedOccurrences",
+    "NativeRememberedSourceMaps.selectedPairs",
+    "NativeRememberedSourceMaps.selected_tagged_image",
+    "NativeRememberedSourceMaps.selected_final_image",
+    "NativeRememberedSourceMaps.final_image_card",
+    "NativeRememberedSourceMaps.selected_pair_witness",
+    "NativeRememberedSourceMaps.select_old_height",
+    "NativeRememberedSourceMaps.tagged_height_card_eq_physical",
+    "NativeRememberedCellHalo.physical_map_dist",
+    "NativeRememberedCellHalo.local_center_near_map",
+    "NativeRememberedCellHalo.occurrence_center_near",
+    "NativeRememberedPhaseFootprint.full_old_phase_diameter",
+    "NativeRememberedPhaseFootprint.actual_configured_diameter",
+    "NativeRememberedPhaseFootprint.oldPoint_dist_of_configured",
+    "NativeRememberedPhaseCover.physical_image_card_of_diameter",
+    "NativeRememberedPhaseCover.rank_two_from_third",
+    "NativeRememberedCellFibers.configured_gap_of_coarse_XY",
+    "NativeRememberedCellFibers.local_cell_image_cap",
+    "NativeRememberedCellFibers.local_centers_cluster",
+    "NativeRememberedCellFibers.actual_fiber_card",
+    "NativeRememberedTimeUpper.local_center_time_bound",
+    "NativeRememberedTimeUpper.local_time_card",
+    "NativeRememberedSourceUnion.unionConstant",
+    "NativeRememberedSourceUnion.rank_two_union",
+    "NativeRememberedHeightSelection.occurrence_shadow_height",
+    "NativeRememberedHeightSelection.occurrence_heights_per_bin",
+    "NativeRememberedHeightSelection.select_actual_old_height",
+    "NativeRememberedOccurrenceReadback.actualRows",
+    "NativeRememberedOccurrenceReadback.actual_rows_readback",
+    "NativeRememberedOccurrenceReadback.original_image",
+    "NativeRememberedOccurrenceReadback.occurrence_current_parent",
+    "NativeRememberedFineCount.fine_graph_le_tagged"
+  ],
+  "started_utc": "2026-10-06T20:22:56.969080+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "declarations_manifest_sha256": "73e6ccdcdd30c00a1c1dac44e09427ca77c3549cfefa6eaf6dcbd766de426690",
+  "declaration_coverage": "Exact namespace-qualified source declaration sequence equals the frozen manifest",
+  "source_exit_code": 0,
+  "olean_sha256": "5eead3d7d586492c7f5d0f34fe6dfdd650b11c683b40fb0af6a2d0bf8f1b92e3",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T20:24:30.187605+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2025",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeRememberedSourceMaps.occurrences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.mem_occurrences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.taggedKey": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.finalTime": [
+      "propext"
+    ],
+    "NativeRememberedSourceMaps.selectedOccurrences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.selectedPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.selected_tagged_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.selected_final_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.final_image_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.selected_pair_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.select_old_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceMaps.tagged_height_card_eq_physical": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedCellHalo.physical_map_dist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedCellHalo.local_center_near_map": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedCellHalo.occurrence_center_near": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedPhaseFootprint.full_old_phase_diameter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedPhaseFootprint.actual_configured_diameter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedPhaseFootprint.oldPoint_dist_of_configured": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedPhaseCover.physical_image_card_of_diameter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedPhaseCover.rank_two_from_third": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedCellFibers.configured_gap_of_coarse_XY": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedCellFibers.local_cell_image_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedCellFibers.local_centers_cluster": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedCellFibers.actual_fiber_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedTimeUpper.local_center_time_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedTimeUpper.local_time_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceUnion.unionConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedSourceUnion.rank_two_union": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHeightSelection.occurrence_shadow_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHeightSelection.occurrence_heights_per_bin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHeightSelection.select_actual_old_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedOccurrenceReadback.actualRows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedOccurrenceReadback.actual_rows_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedOccurrenceReadback.original_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedOccurrenceReadback.occurrence_current_parent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedFineCount.fine_graph_le_tagged": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T20:26:23.914352+00:00",
+  "canonical_scope": "new_canonical_module"
+}

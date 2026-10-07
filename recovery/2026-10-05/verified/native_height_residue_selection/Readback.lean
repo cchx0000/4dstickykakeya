@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_height_residue_selection
+
+#print axioms NativeHeightResidueSelection.same_residue_close_quotient
+#print axioms NativeHeightResidueSelection.select_height_residues
+#print axioms NativeHeightResidueSelection.selected_close_heights_same_ancestor
+#print axioms NativeHeightResidueSelection.exists_residue_separated_node_cut

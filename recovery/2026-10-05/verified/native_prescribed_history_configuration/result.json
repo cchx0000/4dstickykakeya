@@ -1,0 +1,50 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_prescribed_history_configuration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_prescribed_history_configuration.lean",
+  "source_sha256": "b74ee5b99a3c9dd13a4b90c97ed7cf8ad112553ae46a8c1c951e7c7cbaa607ec",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_prescribed_history_configuration.olean",
+  "names": [
+    "NativePrescribedHistoryConfiguration.HasPrescribedHistoryStage",
+    "NativePrescribedHistoryConfiguration.prescribed_history_stage_of_compatible",
+    "NativePrescribedHistoryConfiguration.exists_prescribed_history_configuration",
+    "NativePrescribedHistoryConfiguration.prescribed_history_stage_forget"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:36:27.223498+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "57eeb8757a2257664a75c69ecc15a31aa8e2425a900af2c1d817471f50742ef1",
+  "source_execution_complete_utc": "2026-10-05T16:36:40.988526+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164047926585",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativePrescribedHistoryConfiguration.HasPrescribedHistoryStage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedHistoryConfiguration.prescribed_history_stage_of_compatible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedHistoryConfiguration.exists_prescribed_history_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedHistoryConfiguration.prescribed_history_stage_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:40:57.156353+00:00"
+}

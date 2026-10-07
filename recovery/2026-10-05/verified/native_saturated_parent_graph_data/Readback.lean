@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_saturated_parent_graph_data
+
+#print axioms NativeSaturatedParentGraphData.HasParentHeightCore
+#print axioms NativeSaturatedParentGraphData.HasSaturatedCurveParentProfiles
+#print axioms NativeSaturatedParentGraphData.attach_saturated_parent_graph
+#print axioms NativeSaturatedParentGraphData.saturated_curve_parent_profiles_forget

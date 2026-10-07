@@ -1,0 +1,130 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_compatible_node_directions",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_compatible_node_directions.lean",
+  "source_sha256": "6ed7d50ea8200630927d4e20b28273ab4c7f2ea095da110c1663b190e14cb705",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_compatible_node_directions.olean",
+  "names": [
+    "NativeCompatibleNodeDirections.nodes",
+    "NativeCompatibleNodeDirections.IsNodeDirectionSystem",
+    "NativeCompatibleNodeDirections.angular_ofFn_coordinate",
+    "NativeCompatibleNodeDirections.terminal_fixed_tuple",
+    "NativeCompatibleNodeDirections.projected_word_global",
+    "NativeCompatibleNodeDirections.exists_node_word",
+    "NativeCompatibleNodeDirections.exists_node_direction_system",
+    "NativeCompatibleNodeDirections.node_direction_system_mono",
+    "NativeCompatibleNodeDirections.stageDirectionIndex",
+    "NativeCompatibleNodeDirections.stageAnchorIndex",
+    "NativeCompatibleNodeDirections.stage_direction_readback",
+    "NativeCompatibleNodeDirections.stage_anchor_readback",
+    "NativeCompatibleNodeDirections.stage_direction_bounds",
+    "NativeCompatibleNodeDirections.stage_index_readback",
+    "NativeCompatibleNodeDirections.natStageDirectionIndex",
+    "NativeCompatibleNodeDirections.natStageAnchorIndex",
+    "NativeCompatibleNodeDirections.nat_stage_index_readback",
+    "NativeCompatibleNodeDirections.nat_stage_anchor_readback",
+    "NativeCompatibleNodeDirections.exists_scheduled_node_directions"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:55:47.004705+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "961c96207e069c5794c74bb04301a9ee4386d7f3d6e2be5ae447d6247a654125",
+  "source_execution_complete_utc": "2026-10-05T13:02:40.979190+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T130516538645",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeCompatibleNodeDirections.nodes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.IsNodeDirectionSystem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.angular_ofFn_coordinate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.terminal_fixed_tuple": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.projected_word_global": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.exists_node_word": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.exists_node_direction_system": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.node_direction_system_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.stageDirectionIndex": [],
+    "NativeCompatibleNodeDirections.stageAnchorIndex": [],
+    "NativeCompatibleNodeDirections.stage_direction_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.stage_anchor_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.stage_direction_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.stage_index_readback": [
+      "propext"
+    ],
+    "NativeCompatibleNodeDirections.natStageDirectionIndex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.natStageAnchorIndex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.nat_stage_index_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.nat_stage_anchor_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCompatibleNodeDirections.exists_scheduled_node_directions": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T13:09:30.659440+00:00"
+}

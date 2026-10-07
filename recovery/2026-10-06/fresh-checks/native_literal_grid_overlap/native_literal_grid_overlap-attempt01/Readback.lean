@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_literal_grid_overlap
+set_option autoImplicit false
+#print axioms NativeLiteralGridOverlap.center
+#print axioms NativeLiteralGridOverlap.floor_center
+#print axioms NativeLiteralGridOverlap.center_injective
+#print axioms NativeLiteralGridOverlap.close_centers_mem_box
+#print axioms NativeLiteralGridOverlap.grid_ball_card_le
+#print axioms NativeLiteralGridOverlap.realized_ball_card

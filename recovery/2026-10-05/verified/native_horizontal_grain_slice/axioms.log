@@ -1,0 +1,31 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140629670964", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140629670964/AggregateReadback.lean"]
+READBACK_SHA256 62bfb248cde27e178a63a64cf63bd8ea97b774cc1181fd1fac9c3a08990c8e89
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:06:30.490568+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8772304 kB
+'NativeActualHistoryConfiguration.HasHistorySquaredStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualHistoryConfiguration.exists_actual_history_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualHistoryConfiguration.history_stage_of_compatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualRankFourCount.actual_rank_four_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRankFourCount.clear_four_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRankFourCount.rankFourConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRankFourCount.rankFourConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryGrainCleanup.classical_image_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryGrainCleanup.density_from_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHistoryGrainCleanup.exists_actual_final_grain_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.affine_slice_containment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.heightKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.heightKernel_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.near_horizontal_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.removeHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.removeHeight_mem_heightKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.removeHeight_mem_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.removeHeight_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.removeHeight_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.sliceSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeHorizontalGrainSlice.sliceSpace_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

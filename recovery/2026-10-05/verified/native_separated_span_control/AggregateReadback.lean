@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_separated_span_control
+
+set_option autoImplicit false
+#print axioms NativeSeparatedSpanControl.coefficientCost
+#print axioms NativeSeparatedSpanControl.coefficientCost_nonneg
+#print axioms NativeSeparatedSpanControl.coefficient_sum_bound
+#print axioms NativeSeparatedSpanControl.span_near_plane

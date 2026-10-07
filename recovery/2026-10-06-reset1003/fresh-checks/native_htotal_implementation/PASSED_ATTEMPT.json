@@ -1,0 +1,275 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_htotal_implementation",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean",
+  "source_sha256": "33067664f1c94648ed2930ba53b8727072c5dc8f9982a9c6dd91debb194516d8",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_htotal_implementation.olean",
+  "names": [
+    "NativeWholeYGraphRetention.graph_retention",
+    "NativeWholeYGraphRetention.select_actual_common_graph",
+    "NativeWholeYGraphRetention.localSigma",
+    "NativeWholeYGraphRetention.localSigma_pos",
+    "NativeWholeYGraphRetention.fraction_eq_localSigma",
+    "NativeWholeYGraphRetention.total_fiber_weight",
+    "NativeActualCommonYGraphMass.caller_uniformities",
+    "NativeActualCommonYGraphMass.exists_actual_common_mass",
+    "NativeCommonYTotalBudget.fine_mesh_eq",
+    "NativeCommonYTotalBudget.input_mesh_eq",
+    "NativeCommonYTotalBudget.source_thickness_sq_le_original",
+    "NativeCommonYTotalBudget.radix_cost_from_raw",
+    "NativeCommonYTotalBudget.local_sigma_from_gap",
+    "NativeCommonYTotalBudget.exists_total_cutoff",
+    "NativeCommonYTotalBudget.pay_actual_graph_mass",
+    "NativeActualYTotalMass.exists_actual_total_mass",
+    "NativeBaselineThirdRetentionTrace.from_third_source",
+    "NativeYTotalParameterOrder.exists_planar_loss",
+    "NativeYTotalParameterOrder.exists_source_taxes",
+    "NativeActualBaselineRetentionPayment.continuation_cost_readback",
+    "NativeActualBaselineRetentionPayment.final_third_allowance",
+    "NativeActualBaselineRetentionPayment.baseline_factor_identity",
+    "NativeActualBaselineRetentionPayment.exists_actual_retention_cutoff",
+    "NativeYTotalEpsilonBudget.radix_cost_at_epsilon",
+    "NativeYTotalEpsilonBudget.exists_epsilon_cutoff",
+    "NativeYTotalEpsilonBudget.pay_actual_graph_mass_at_epsilon",
+    "NativeYTotalEpsilonBudget.actual_third_tax",
+    "NativeActualYEpsilonTotalMass.exists_actual_total_mass",
+    "NativeReferenceAdmissionInvariance.sourceCells_parent_eq",
+    "NativeReferenceAdmissionInvariance.source_parent_eq",
+    "NativeReferenceAdmissionInvariance.representative_eq",
+    "NativeReferenceAdmissionInvariance.fullSource_eq",
+    "NativeReferenceAdmissionInvariance.outputTube_eq",
+    "NativeReferenceAdmissionInvariance.fine_graph_eq",
+    "NativePrescribedReferenceAdmission.exists_accuracy",
+    "NativePrescribedReferenceAdmission.exists_prescribed_parent_admission",
+    "NativeYSourceParameterLedger.baselineAccuracy",
+    "NativeYSourceParameterLedger.smallTax",
+    "NativeYSourceParameterLedger.baseline_accuracy_bounds",
+    "NativeYSourceParameterLedger.geometry_tax_bound",
+    "NativeYSourceParameterLedger.actual_total_tax"
+  ],
+  "started_utc": "2026-10-06T20:08:18.484518+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "declarations_manifest_sha256": "d04783677923a463a73a0b70f3e825a03a2215b9b0459f0bfc42abe42489ffd0",
+  "declaration_coverage": "Exact namespace-qualified source declaration sequence equals the frozen manifest",
+  "source_exit_code": 0,
+  "olean_sha256": "78bb58de101c626767c2a0e25005c95cd52243176cdd1e4aa53282a967d54869",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T20:09:34.107703+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2010",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeWholeYGraphRetention.graph_retention": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWholeYGraphRetention.select_actual_common_graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWholeYGraphRetention.localSigma": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWholeYGraphRetention.localSigma_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWholeYGraphRetention.fraction_eq_localSigma": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeWholeYGraphRetention.total_fiber_weight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualCommonYGraphMass.caller_uniformities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualCommonYGraphMass.exists_actual_common_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonYTotalBudget.fine_mesh_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonYTotalBudget.input_mesh_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonYTotalBudget.source_thickness_sq_le_original": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonYTotalBudget.radix_cost_from_raw": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonYTotalBudget.local_sigma_from_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonYTotalBudget.exists_total_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCommonYTotalBudget.pay_actual_graph_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualYTotalMass.exists_actual_total_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeBaselineThirdRetentionTrace.from_third_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYTotalParameterOrder.exists_planar_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYTotalParameterOrder.exists_source_taxes": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualBaselineRetentionPayment.continuation_cost_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualBaselineRetentionPayment.final_third_allowance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualBaselineRetentionPayment.baseline_factor_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualBaselineRetentionPayment.exists_actual_retention_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYTotalEpsilonBudget.radix_cost_at_epsilon": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYTotalEpsilonBudget.exists_epsilon_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYTotalEpsilonBudget.pay_actual_graph_mass_at_epsilon": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYTotalEpsilonBudget.actual_third_tax": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualYEpsilonTotalMass.exists_actual_total_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceAdmissionInvariance.sourceCells_parent_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceAdmissionInvariance.source_parent_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceAdmissionInvariance.representative_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceAdmissionInvariance.fullSource_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceAdmissionInvariance.outputTube_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeReferenceAdmissionInvariance.fine_graph_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedReferenceAdmission.exists_accuracy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedReferenceAdmission.exists_prescribed_parent_admission": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYSourceParameterLedger.baselineAccuracy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYSourceParameterLedger.smallTax": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYSourceParameterLedger.baseline_accuracy_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYSourceParameterLedger.geometry_tax_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeYSourceParameterLedger.actual_total_tax": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T20:11:38.323278+00:00",
+  "canonical_scope": "new_canonical_module"
+}

@@ -1,0 +1,63 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_marked_isometric_carrier",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_marked_isometric_carrier.lean",
+  "source_sha256": "2a6b28aa1a41df76e7e83b9c02ab258207a5c05ee6d81439ef67b50afac8ccd1",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_marked_isometric_carrier.olean",
+  "names": [
+    "MarkedIsometricCarrier.carrier",
+    "MarkedIsometricCarrier.projection_correction_dist",
+    "MarkedIsometricCarrier.chart_offset_dist",
+    "MarkedIsometricCarrier.chart_carrier_dist_le",
+    "MarkedIsometricCarrier.line_inverse",
+    "MarkedIsometricCarrier.carrier_dist_le_chart",
+    "MarkedIsometricCarrier.carrier_dist_two_sided"
+  ],
+  "started_utc": "2026-10-06T06:49:16.716868+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "75e7ab0c5187ece7cefbd04504927c9e747a0c2cbbc59ab11ea7efaf859e0b1a",
+  "readback_exit_code": 0,
+  "axioms": {
+    "MarkedIsometricCarrier.carrier": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "MarkedIsometricCarrier.projection_correction_dist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "MarkedIsometricCarrier.chart_offset_dist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "MarkedIsometricCarrier.chart_carrier_dist_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "MarkedIsometricCarrier.line_inverse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "MarkedIsometricCarrier.carrier_dist_le_chart": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "MarkedIsometricCarrier.carrier_dist_two_sided": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:49:26.619364+00:00"
+}

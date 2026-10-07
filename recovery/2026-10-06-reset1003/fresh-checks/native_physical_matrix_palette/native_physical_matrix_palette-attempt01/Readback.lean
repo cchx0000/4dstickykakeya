@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_physical_matrix_palette
+set_option autoImplicit false
+#print axioms NativePhysicalMatrixPalette.physical_height_chart_window
+#print axioms NativePhysicalMatrixPalette.select_actual_raw_matrix_palette

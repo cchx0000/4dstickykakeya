@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_original_point_saturation
+
+#print axioms NativeOriginalPointSaturation.Saturated
+#print axioms NativeOriginalPointSaturation.saturated_filter
+#print axioms NativeOriginalPointSaturation.saturated_selected
+#print axioms NativeOriginalPointSaturation.original_fiber_eq
+#print axioms NativeOriginalPointSaturation.point_uniformity
+#print axioms NativeOriginalPointSaturation.nodeCut_saturation
+#print axioms NativeOriginalPointSaturation.same_point_mixed
+#print axioms NativeOriginalPointSaturation.quotient_saturation
+#print axioms NativeOriginalPointSaturation.translated_heights_saturation
+#print axioms NativeOriginalPointSaturation.saturated_graph_quotient_heights

@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_master_point_relations
+import Theorems.Thm_StickyKakeya4_native_rank_one_power_exclusion
+
+set_option autoImplicit false
+#print axioms NativeMasterPointRelations.masterRelations
+#print axioms NativeMasterPointRelations.masterRelations_refl
+#print axioms NativeMasterPointRelations.masterRelations_symm
+#print axioms NativeMasterPointRelations.master_uniformities
+#print axioms NativeRankOnePowerExclusion.rank_one_budget_le
+#print axioms NativeRankOnePowerExclusion.rank_one_excluded

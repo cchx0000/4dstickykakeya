@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_ad_fixed_mesh_refinement
+set_option autoImplicit false
+#print axioms NativeADFixedMeshRefinement.refine_mesh

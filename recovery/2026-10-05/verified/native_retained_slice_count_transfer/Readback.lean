@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_count_transfer
+
+#print axioms NativeRetainedSliceCountTransfer.point_image_retention
+#print axioms NativeRetainedSliceCountTransfer.point_class_homogeneity
+#print axioms NativeRetainedSliceCountTransfer.retained_class_count_cross
+#print axioms NativeRetainedSliceCountTransfer.retained_class_count_lower

@@ -1,0 +1,17 @@
+import Theorems.Thm_StickyKakeya4_canonical_recoding_homogeneity
+set_option autoImplicit false
+#print axioms CanonicalRecodingHomogeneity.grid_scale
+#print axioms CanonicalRecodingHomogeneity.center_scale
+#print axioms CanonicalRecodingHomogeneity.graphPoint_scale
+#print axioms CanonicalRecodingHomogeneity.quotient_scale
+#print axioms CanonicalRecodingHomogeneity.coarseGrid_scale
+#print axioms CanonicalRecodingHomogeneity.recodedY_scale
+#print axioms CanonicalRecodingHomogeneity.coarseX_scale
+#print axioms CanonicalRecodingHomogeneity.configuredNormal_scale
+#print axioms CanonicalRecodingHomogeneity.tangent_scale
+#print axioms CanonicalRecodingHomogeneity.normal_scale
+#print axioms CanonicalRecodingHomogeneity.assemble_scale
+#print axioms CanonicalRecodingHomogeneity.rounded_height_scale
+#print axioms CanonicalRecodingHomogeneity.configuredChart_scale
+#print axioms CanonicalRecodingHomogeneity.configuredPoint_scale
+#print axioms CanonicalRecodingHomogeneity.configuredPoint_div512

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_window_full_power_cost
+set_option autoImplicit false
+#print axioms NativeWindowFullPowerCost.complete_cost_le
+#print axioms NativeWindowFullPowerCost.paid_complete_cost

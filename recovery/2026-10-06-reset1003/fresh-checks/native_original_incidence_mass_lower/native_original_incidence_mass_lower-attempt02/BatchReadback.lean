@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_original_incidence_mass_lower
+set_option autoImplicit false
+#print axioms NativeOriginalIncidenceMassLower.retentionConstant
+#print axioms NativeOriginalIncidenceMassLower.native_volume_population_lower
+#print axioms NativeOriginalIncidenceMassLower.raw_incidence_lower
+#print axioms NativeOriginalIncidenceMassLower.paid_raw_incidence_lower

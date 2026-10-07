@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_local_parent_cw
+set_option autoImplicit false
+#print axioms NativeLocalParentCW.containedLabels
+#print axioms NativeLocalParentCW.original_card_upper
+#print axioms NativeLocalParentCW.contained_card_le_preimage
+#print axioms NativeLocalParentCW.parent_count_coefficient
+#print axioms NativeLocalParentCW.original_local_CW
+#print axioms NativeLocalParentCW.compact_original_local_parent_CW
+#print axioms NativeLocalParentCW.compact_original_local_parent_AD_CW

@@ -1,0 +1,12 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b3be9e69d426156fbf890a312b9eb0416378c2e05885fb9763401a8e6d55c54c.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.lean"]
+SOURCE_SHA256 95f0fef454fe44855899d83b99a9cd53bf2181c2cbba23167a29a023a7b414ec
+LOCK_ACQUIRED_UTC 2026-10-06T18:32:18.506892+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.lean:380:6: error: mod_cast has type
+  #J = ∑ z ∈ Z, #({u ∈ J | u.1.ofLp 3 = z})
+but is expected to have type
+  ↑(#J) = ∑ z ∈ Z, ↑(#({u ∈ J | u.1.ofLp 3 = z}))
+LEAN_FINISHED_UTC 2026-10-06T18:35:07.097647+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

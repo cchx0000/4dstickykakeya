@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_normalized_offset_field
+
+#print axioms NativeNormalizedOffsetField.raw_field_variation
+#print axioms NativeNormalizedOffsetField.translated_field_variation
+#print axioms NativeNormalizedOffsetField.mapped_raw_field_variation
+#print axioms NativeNormalizedOffsetField.window_variation_le_twice

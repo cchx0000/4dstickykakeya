@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_paid_third_record
+
+#print axioms NativePaidThirdRecord.HasPaidThirdXYSourceData

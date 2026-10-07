@@ -1,0 +1,166 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/319c891e2648eb7e199c38de01cf0f27991d67dfe4aafe2afb50191bf1493b7b.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_output_scale_coarse_admission.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_output_scale_coarse_admission.lean"]
+SOURCE_SHA256 8bf083ada361bb28e47e5e3afc5f6fbe3f3e47d5cf206efac916d242fcb1e8be
+LOCK_ACQUIRED_UTC 2026-10-06T12:25:40.065218+00:00
+SHARED_SLOT 2
+LEAN_PID 60
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_output_scale_coarse_admission.lean:13:61: error: unknown namespace `NativeFullCoarseShadow`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_output_scale_coarse_admission.lean:53:49: error(lean.unknownIdentifier): Unknown identifier `fullSource`
+
+Note: It is not possible to treat `fullSource` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_output_scale_coarse_admission.lean:115:18: error(lean.unknownIdentifier): Unknown identifier `native_input`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_output_scale_coarse_admission.lean:55:71: error: unsolved goals
+e window : ℝ
+he : 0 < e
+hw : 0 < window
+zetaMin : ℝ := window * e / 16
+hzMin : 0 < zetaMin
+ds : ℝ
+hds : 0 < ds
+HS :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta : ℝ) (h : IsWangZakharovNativeFiniteInput D eta),
+    D.thickness ≤ ds →
+      eta ≤ zetaMin / 16 →
+        ∀ (zeta F : ℝ),
+          zetaMin ≤ zeta →
+            0 < F →
+              43 * F * NativeCoarseMassBudget.colorCost * D.thickness ^ zeta ≤ 1 →
+                ∀ (original : Fin n → Finset Index) (a : ℝ) (level : ℕ) (R : Finset (Fin n))
+                  (E : Finset (Fin n × Index)),
+                  (∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i) →
+                    D.thickness = 2⁻¹ ^ level →
+                      (∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)) →
+                        R.Nonempty →
+                          E ⊆ retained original R →
+                            ↑(#(incidences original)) ≤ F * ↑(#E) →
+                              (∀ (ell : Fin (level + 1)) (p : Parent),
+                                  {i ∈ R | parentLabel D a (2 ^ ↑ell) i = p}.Nonempty →
+                                    D.thickness ^ zeta * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3 ≤
+                                        ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ∧
+                                      ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ≤
+                                        D.thickness ^ (-zeta) * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3) →
+                                ∀ (m : ℕ),
+                                  6 ≤ m →
+                                    m ≤ level →
+                                      ∃ S ⊆ image (parentLabel D a (2 ^ m)) R,
+                                        S.Nonempty ∧
+                                          have rep := representative h R a (2 ^ m);
+                                          (∀ p ∈ S, rep p ∈ R ∧ parentLabel D a (2 ^ m) (rep p) = p) ∧
+                                            (∀ p ∈ S,
+                                                ∀ q ∈ S,
+                                                  p ≠ q →
+                                                    64 / ↑(2 ^ m) ≤
+                                                      dist (direction (D.line (rep p))) (direction (D.line (rep q)))) ∧
+                                              D.thickness ^ (5 * zeta) ≤ ∑ p ∈ S, weight D a level m rep E p ∧
+                                                ∀ (ell : Fin (m + 1)) (p : Parent),
+                                                  {q ∈ S | NativeDyadicParentCells.ancestor m (↑ell) q = p}.Nonempty →
+                                                    D.thickness ^ (8 * zeta) * (↑(2 ^ m) / ↑(2 ^ ↑ell)) ^ 3 ≤
+                                                        ↑(#({q ∈ S |
+                                                              NativeDyadicParentCells.ancestor m (↑ell) q = p})) ∧
+                                                      ↑(#({q ∈ S | NativeDyadicParentCells.ancestor m (↑ell) q = p})) ≤
+                                                        D.thickness ^ (-2 * zeta) * (↑(2 ^ m) / ↑(2 ^ ↑ell)) ^ 3
+dOut : ℝ
+hdOut : 0 < dOut
+hdOutSmall : dOut ≤ 1 / 64
+Hout :
+  ∀ (Delta F : ℝ),
+    0 < Delta →
+      Delta ≤ dOut →
+        0 ≤ F →
+          F ≤ Delta ^ (-(e / 32)) →
+            43 * F * NativeCoarseMassBudget.colorCost * Delta ^ (e / 16) ≤ 1 ∧
+              10077696 * Delta ^ (e / 2) ≤ 1 ∧ densityCost * Delta ^ (e / 16) ≤ 1 ∧ cwCost * Delta ^ (e / 16) ≤ 1
+dw : ℝ
+hdw : 0 < dw
+_hdw1 : dw ≤ 1
+HW : ∀ (delta : ℝ), 0 < delta → delta ≤ dw → delta ^ window ≤ dOut
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+hK : ∀ (i : Fin n), D.line i ∈ fixedCompactClass
+hsmall : D.thickness ≤ min (1 / 128) (min ds dw)
+heta : eta ≤ zetaMin / 16
+original : Fin n → Finset Index
+a : ℝ
+level : ℕ
+R : Finset (Fin n)
+E : Finset (Fin n × Index)
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+hdy : D.thickness = 2⁻¹ ^ level
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+hR : R.Nonempty
+hE : E ⊆ retained original R
+H :
+  ∀ (ell : Fin (level + 1)) (p : Parent),
+    {i ∈ R | parentLabel D a (2 ^ ↑ell) i = p}.Nonempty →
+      D.thickness ^ zetaMin * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3 ≤ ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ∧
+        ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ≤
+          D.thickness ^ (-zetaMin) * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3
+b : ℕ
+F : ℝ
+hb : 6 ≤ b
+hbl : b ≤ level
+hfine : D.thickness ≤ 1 / ↑(2 ^ b)
+hwindow : 64 / ↑(2 ^ b) ≤ D.thickness ^ window
+hF : 0 < F
+hFupper : F ≤ (64 / ↑(2 ^ b)) ^ (-(e / 32))
+hret : ↑(#(incidences original)) ≤ F * ↑(#E)
+rep : Parent → Fin n := representative h R a (2 ^ b)
+Delta : ℝ := 64 / ↑(2 ^ b)
+zeta : ℝ := exponent D.thickness Delta e
+hd : 0 < D.thickness
+hd1 : D.thickness < 1
+hD : 0 < Delta
+hDOut : Delta ≤ dOut
+hD1 : Delta ≤ 1
+hz : zetaMin ≤ zeta
+hzeta : 0 < zeta
+hp : ∀ (k : ℝ), D.thickness ^ (k * zeta) = Delta ^ (k * e / 16)
+hp1 : D.thickness ^ zeta = Delta ^ (e / 16)
+hp5 : D.thickness ^ (5 * zeta) = Delta ^ (5 * e / 16)
+hp8 : D.thickness ^ (8 * zeta) = Delta ^ (e / 2)
+habsorb : 43 * F * NativeCoarseMassBudget.colorCost * Delta ^ (e / 16) ≤ 1
+hupper : 10077696 * Delta ^ (e / 2) ≤ 1
+hdensity : densityCost * Delta ^ (e / 16) ≤ 1
+hCW : cwCost * Delta ^ (e / 16) ≤ 1
+Hnew :
+  ∀ (ell : Fin (level + 1)) (p : Parent),
+    {i ∈ R | parentLabel D a (2 ^ ↑ell) i = p}.Nonempty →
+      D.thickness ^ zeta * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3 ≤ ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ∧
+        ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ≤ D.thickness ^ (-zeta) * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3
+Q : Finset Parent
+hQP : Q ⊆ image (parentLabel D a (2 ^ b)) R
+hQne : Q.Nonempty
+hQrep : ∀ p ∈ Q, representative h R a (2 ^ b) p ∈ R ∧ parentLabel D a (2 ^ b) (representative h R a (2 ^ b) p) = p
+hsep :
+  ∀ p ∈ Q,
+    ∀ q ∈ Q,
+      p ≠ q →
+        64 / ↑(2 ^ b) ≤
+          dist (direction (D.line (representative h R a (2 ^ b) p)))
+            (direction (D.line (representative h R a (2 ^ b) q)))
+hshade : D.thickness ^ (5 * zeta) ≤ ∑ p ∈ Q, weight D a level b (representative h R a (2 ^ b)) E p
+Hpruned :
+  ∀ (ell : Fin (b + 1)) (p : Parent),
+    {q ∈ Q | NativeDyadicParentCells.ancestor b (↑ell) q = p}.Nonempty →
+      D.thickness ^ (8 * zeta) * (↑(2 ^ b) / ↑(2 ^ ↑ell)) ^ 3 ≤
+          ↑(#({q ∈ Q | NativeDyadicParentCells.ancestor b (↑ell) q = p})) ∧
+        ↑(#({q ∈ Q | NativeDyadicParentCells.ancestor b (↑ell) q = p})) ≤
+          D.thickness ^ (-2 * zeta) * (↑(2 ^ b) / ↑(2 ^ ↑ell)) ^ 3
+hEorig : ∀ x ∈ E, x.2 ∈ original x.1
+hscale : ↑(2 ^ b) * D.thickness ≤ 1
+hpower : Delta ^ e ≤ D.thickness ^ (8 * zeta)
+hcw : cwCost * D.thickness ^ (8 * zeta - (eta + 6 * zeta)) ≤ 1
+⊢ ∃ Q,
+    ∃ (hsep : ∀ p ∈ Q, ∀ q ∈ Q, p ≠ q → 64 / ↑(2 ^ b) ≤ dist (direction (D.line (rep p))) (direction (D.line (rep q)))),
+      Q ⊆ image (parentLabel D a (2 ^ b)) R ∧
+        Q.Nonempty ∧
+          let C := source h a level b Q rep E hsep;
+          IsWangZakharovNativeFiniteInput C e ∧
+            (∀ (i : Fin #Q), C.line i ∈ fixedCompactClass) ∧
+              (ENNReal.ofReal (64 / ↑(2 ^ b))).rpow (7 * e / 16) * NativeFiniteKakeyaCounts.multiplicity sorry ≤
+                  NativeFiniteKakeyaCounts.multiplicity C ∧
+                (64 / ↑(2 ^ b)) ^ (5 * e / 16) ≤ (wzTotalShadingVolume C).toReal
+LEAN_FINISHED_UTC 2026-10-06T12:27:38.174160+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

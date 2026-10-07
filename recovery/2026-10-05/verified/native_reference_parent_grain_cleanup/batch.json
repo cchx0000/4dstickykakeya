@@ -1,0 +1,43 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:21:27.288010+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T152126585690",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T152126585690/AggregateReadback.lean"
+  ],
+  "readback_sha256": "e7a1fa161a391add96defab42edb10cd90a71a41eaf0b619e5b4cf97f327f16e",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_parent_grain_cleanup",
+      "source_sha256": "a0f6ae4e5576c692b256667215c05a582dfa933222f7f7728289090d131f5ec9",
+      "olean_sha256": "24f7d62aeaf5c92f0a317128be24a7d28cfc555f655ffe61335edb7b906971d6",
+      "names": [
+        "NativeReferenceParentGrainCleanup.source_mixed_grain_core",
+        "NativeReferenceParentGrainCleanup.source_reference_parent_grain_cleanup"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_paid_parent_multiplicity_lower",
+      "source_sha256": "579bf7e652e9cdd32d805b7bd951d9ec92d1b89a88ed0b0dc2b6992216090d41",
+      "olean_sha256": "d166f82664cf15d2e1223e3763b14c73c9d5eec4e8ca32481472e688b620454a",
+      "names": [
+        "NativePaidParentMultiplicityLower.parent_full_source_retained_lower",
+        "NativePaidParentMultiplicityLower.parent_conditional_power_lower"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:21:31.775628+00:00",
+  "exit_code": 0
+}

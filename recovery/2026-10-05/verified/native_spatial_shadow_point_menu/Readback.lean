@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_spatial_shadow_point_menu
+
+#print axioms NativeSpatialShadowPointMenu.cellIndex_mem_box
+#print axioms NativeSpatialShadowPointMenu.physical_cube_close
+#print axioms NativeSpatialShadowPointMenu.spatial_point_image_card

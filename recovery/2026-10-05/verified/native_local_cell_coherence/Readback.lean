@@ -1,0 +1,21 @@
+import Theorems.Thm_StickyKakeya4_native_local_cell_coherence
+set_option autoImplicit false
+#print axioms NativeLocalCellCoherence.frontPoint_coordinate_error
+#print axioms NativeLocalCellCoherence.physicalCell_height
+#print axioms NativeLocalCellCoherence.frontPoint_height_eq_physicalCell
+#print axioms NativeLocalCellCoherence.cellLabel_height_eq_physicalCell
+#print axioms NativeLocalCellCoherence.frontPoint_near_physicalCell
+#print axioms NativeLocalCellCoherence.neighborBox
+#print axioms NativeLocalCellCoherence.neighborBox_card
+#print axioms NativeLocalCellCoherence.cellIndex_mem_neighborBox
+#print axioms NativeLocalCellCoherence.original_cell_output_menu
+#print axioms NativeLocalCellCoherence.same_original_cell_image_card_le
+#print axioms NativeLocalCellCoherence.parent_original_cell_image_card_le
+#print axioms NativeLocalCellCoherence.output_support_card_le
+#print axioms NativeLocalCellCoherence.localCellLabel
+#print axioms NativeLocalCellCoherence.localPair
+#print axioms NativeLocalCellCoherence.pointShadow
+#print axioms NativeLocalCellCoherence.pairFiber_snd_injective
+#print axioms NativeLocalCellCoherence.pairFiber_card_le_shadow_fiber
+#print axioms NativeLocalCellCoherence.retained_shadow_card_le
+#print axioms NativeLocalCellCoherence.retained_shadow_compression

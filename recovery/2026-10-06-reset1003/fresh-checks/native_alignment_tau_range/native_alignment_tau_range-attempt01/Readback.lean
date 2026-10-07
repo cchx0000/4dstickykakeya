@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_alignment_tau_range
+set_option autoImplicit false
+#print axioms NativeAlignmentTauRange.exists_gap_cutoff
+#print axioms NativeAlignmentTauRange.input_mesh_product
+#print axioms NativeAlignmentTauRange.phase_depth
+#print axioms NativeAlignmentTauRange.interior_depth
+#print axioms NativeAlignmentTauRange.top_depth

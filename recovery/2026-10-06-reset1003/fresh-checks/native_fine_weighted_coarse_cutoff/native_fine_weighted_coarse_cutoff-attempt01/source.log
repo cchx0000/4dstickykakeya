@@ -1,0 +1,10 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/44592205df36641fca5d034bace3bb1545dd2f7e5b8200f96000db3aa02015dc.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_cutoff.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_cutoff.lean"]
+SOURCE_SHA256 00751c9486e3a849bca8d7d2aeb3eec967b00868cc126c4caab17af2ef9019e6
+LOCK_ACQUIRED_UTC 2026-10-06T17:03:44.937598+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_cutoff.lean:33:34: error(lean.unknownIdentifier): Unknown identifier `exists_positive_rpow_absorption_threshold`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_cutoff.lean:33:9: error: Tactic `rcases` failed: `x✝ : ?m.209` is not an inductive datatype
+LEAN_FINISHED_UTC 2026-10-06T17:06:43.481762+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

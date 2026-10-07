@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_offset_angular_geometry
+
+#print axioms NativeOffsetAngularGeometry.matrix_action_general
+#print axioms NativeOffsetAngularGeometry.quotient_difference
+#print axioms NativeOffsetAngularGeometry.incident_offsets_close

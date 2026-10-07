@@ -1,0 +1,10 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0ca27a49ac8c4d6fdd7a8421ebe67866b693c3a88edd3c91551e167d2d589154.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_matched_shadow_readback-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_matched_shadow_readback-attempt01/Readback.lean"]
+SOURCE_SHA256 e304946770172e024ced0ee4f9bb851ef0ef6310963d2f9b5e0fb42d51de2c8b
+LOCK_ACQUIRED_UTC 2026-10-06T12:29:28.949727+00:00
+SHARED_SLOT 3
+LEAN_PID 63
+'NativeMatchedShadowReadback.mixed_full_shading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatchedShadowReadback.mixed_full_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T12:31:35.611888+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

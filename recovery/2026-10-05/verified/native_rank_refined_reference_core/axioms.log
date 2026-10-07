@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_rank_refined_reference_core_readback.lean"]
+SOURCE_SHA256 660149c1af4a8d82c8e784f863115cae7e0bf27c79a9cf3706a13b5dfc33bf8a
+FIFO compiler ticket: 01791187400927200517-b5a55826f8e5455ab6c82eceb0b2bba4.request
+FIFO compiler acquired UTC: 2026-10-05T08:03:20.928464+00:00
+'NativeRankRefinedReferenceCore.exists_refined_reference_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

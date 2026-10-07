@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_pointwise_angular_trim
+
+#print axioms NativePointwiseAngularTrim.exists_pointwise_angular_core
+#print axioms NativePointwiseAngularTrim.point_image_unchanged

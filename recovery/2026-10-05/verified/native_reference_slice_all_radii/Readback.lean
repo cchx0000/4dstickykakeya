@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_reference_slice_all_radii
+
+#print axioms NativeReferenceSliceAllRadii.horizontalMesh
+#print axioms NativeReferenceSliceAllRadii.horizontalMesh_pos
+#print axioms NativeReferenceSliceAllRadii.horizontalMesh_readback
+#print axioms NativeReferenceSliceAllRadii.horizontalMesh_outer
+#print axioms NativeReferenceSliceAllRadii.caller_reference_all_radius_bounds

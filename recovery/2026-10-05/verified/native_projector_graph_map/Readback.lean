@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_projector_graph_map
+
+#print axioms NativeProjectorGraphMap.projectionMap
+#print axioms NativeProjectorGraphMap.projectionMap_bijective
+#print axioms NativeProjectorGraphMap.projectionEquiv
+#print axioms NativeProjectorGraphMap.projectionEquiv_apply
+#print axioms NativeProjectorGraphMap.inverse_norm
+#print axioms NativeProjectorGraphMap.inverse_projection
+#print axioms NativeProjectorGraphMap.graphMap
+#print axioms NativeProjectorGraphMap.graphMap_val
+#print axioms NativeProjectorGraphMap.graphMap_decomposition
+#print axioms NativeProjectorGraphMap.graphMap_norm
+#print axioms NativeProjectorGraphMap.graphMap_characterization
+#print axioms NativeProjectorGraphMap.graphMap_horizontal
+#print axioms NativeProjectorGraphMap.graphMap_variation

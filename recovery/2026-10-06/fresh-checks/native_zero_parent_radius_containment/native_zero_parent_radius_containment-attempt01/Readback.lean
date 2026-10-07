@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_zero_parent_radius_containment
+set_option autoImplicit false
+#print axioms NativeZeroParentRadiusContainment.radius_infDist
+#print axioms NativeZeroParentRadiusContainment.rounded_radius_mem
+#print axioms NativeZeroParentRadiusContainment.actual_configured_radius_mem

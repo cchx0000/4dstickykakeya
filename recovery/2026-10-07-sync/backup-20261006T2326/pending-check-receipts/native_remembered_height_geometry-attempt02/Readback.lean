@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_remembered_height_geometry
+set_option autoImplicit false
+#print axioms NativeRememberedHeightGeometry.binOrigin
+#print axioms NativeRememberedHeightGeometry.input_center_interval
+#print axioms NativeRememberedHeightGeometry.old_height_interval
+#print axioms NativeRememberedHeightGeometry.actual_old_heights_per_bin

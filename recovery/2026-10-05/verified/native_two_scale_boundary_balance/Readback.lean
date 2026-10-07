@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_two_scale_boundary_balance
+
+#print axioms NativeTwoScaleBoundaryBalance.depthPower_mono
+#print axioms NativeTwoScaleBoundaryBalance.boundary_pair_bounds
+#print axioms NativeTwoScaleBoundaryBalance.all_pair_bounds

@@ -1,0 +1,25 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T105104169928", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T105104169928/AggregateReadback.lean"]
+READBACK_SHA256 9e122f46bc9eea9965ba10195212b7eff79471bdbec8a690ca2446dbd3392a66
+Dedicated staging slot 3 acquired UTC: 2026-10-05T10:54:44.238319+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7952572 kB
+'NativeRetainedRankCutoffs.exists_rank_half_mass_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedRankCutoffs.exists_rank_rounding_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedRankCutoffs.finePointMenu' depends on axioms: [propext, Quot.sound]
+'NativeRetainedRankCutoffs.finePointMenu_refl' depends on axioms: [propext, Quot.sound]
+'NativeRetainedRankCutoffs.finePointMenu_symm' depends on axioms: [propext, Quot.sound]
+'NativeRetainedRankCutoffs.finePointMenu_uniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.angularLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.chart_spatial_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.floor_mem_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.integerBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.integerBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.intercept_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.oldTime_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.parent_angular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.phase_parent_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.physicalMap_zero_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.same_cell_coordinate_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.spatialLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSpatialAngularGeometry.spatial_coordinate_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

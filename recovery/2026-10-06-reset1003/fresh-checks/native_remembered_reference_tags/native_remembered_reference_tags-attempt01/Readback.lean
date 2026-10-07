@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_remembered_reference_tags
+set_option autoImplicit false
+#print axioms NativeRememberedReferenceTags.oldHeight
+#print axioms NativeRememberedReferenceTags.oldHeight_readback
+#print axioms NativeRememberedReferenceTags.reference_edge_witness

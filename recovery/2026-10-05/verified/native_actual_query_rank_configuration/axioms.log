@@ -1,0 +1,38 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112412665596", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T112412665596/AggregateReadback.lean"]
+READBACK_SHA256 66a7f55da398b192ae68080faa991f5db9f755b047e9d53e87226487867a2b16
+Dedicated staging slot 3 acquired UTC: 2026-10-05T11:25:52.674926+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8033024 kB
+'NativeActualQueryRankConfiguration.HasQuerySecondStageCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQueryRankConfiguration.decode_second_stage_queries' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualQueryRankConfiguration.exists_actual_query_rank_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualQueryRankConfiguration.grainDepth_strict_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQueryRankConfiguration.select_grain_second_stage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualQueryRankConfiguration.stopping_depth_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQueryRankConfiguration.stopping_depth_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualQueryRankConfiguration.stopping_physical_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedShortRowDensity.count_lower_of_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedShortRowDensity.installed_children_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedShortRowDensity.installed_rowChildren_comparable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRefinedShortRowDensity.queried_children_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedShortRowDensity.queried_rowChildren_comparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedShortRowDensity.queried_short_row_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedShortRowDensity.rowChildren_card_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedShortRowDensity.row_card_le_children' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedShortRowDensity.short_cell_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRefinedShortRowDensity.volume_constant_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameFineParentPacket.same_fine_parent_cell_packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameFineParentPacket.same_fine_parent_quadratic_packet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSameFineParentPacket.same_parent_displacement_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSameFineParentPacket.tube_height_from_chart_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

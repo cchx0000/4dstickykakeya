@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_fine_weighted_source_selection
+set_option autoImplicit false
+#print axioms NativeActualFineWeightedSourceSelection.exists_same_Q_source

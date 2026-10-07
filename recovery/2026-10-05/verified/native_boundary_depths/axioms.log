@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_boundary_depths_readback.lean"]
+SOURCE_SHA256 5dbf72676394de1127e68b52968c5bfe382fafdb4b5688b4fc651be38488c053
+FIFO compiler ticket: 01791184877954926433-f4d2d5b948d74b9685e7de733fb73bb9.request
+FIFO compiler acquired UTC: 2026-10-05T07:21:17.955555+00:00
+'NativeBoundaryDepths.lowerAnchor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.upperAnchor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.anchor_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.lower_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.upper_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.remaining_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.initial_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.boundaryWindow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.boundaryWindow_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.boundaryWindow_le_quarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeBoundaryDepths.boundaryWindow_le_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,10 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/52eb73e301172be4feed4d3da0c500c6649b27df6a3cf7d6fe8dc7c89f38c368.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_graph_tube_cell_visits.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_tube_cell_visits.lean"]
+SOURCE_SHA256 45125b6039e5f53815a5008128a9cbd9c4d57b6378caf294a089aa5e7dd904a7
+LOCK_ACQUIRED_UTC 2026-10-06T13:10:28.087689+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_tube_cell_visits.lean:34:7: error(lean.unknownIdentifier): Unknown identifier `abs_add`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_graph_tube_cell_visits.lean:67:61: error: No goals to be solved
+LEAN_FINISHED_UTC 2026-10-06T13:13:16.793300+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

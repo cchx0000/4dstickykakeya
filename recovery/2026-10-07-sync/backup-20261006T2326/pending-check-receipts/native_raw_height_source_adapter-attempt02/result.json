@@ -1,0 +1,184 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_raw_height_source_adapter",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_raw_height_source_adapter.lean",
+  "source_sha256": "acd77f8dc3743b362a4bd3ddad85af98807dd426dcca062a6a1b12f337b86a6c",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_raw_height_source_adapter.olean",
+  "names": [
+    "NativeRawHeightSourceAdapter.rawTaggedKey",
+    "NativeRawHeightSourceAdapter.rawTranslatedHeight",
+    "NativeRawHeightSourceAdapter.translatedHeight_eq_raw",
+    "NativeRawHeightSourceAdapter.translatedHeight_eq_of_original_height_eq",
+    "NativeRawHeightSourceAdapter.translatedTag",
+    "NativeRawHeightSourceAdapter.translatedTags",
+    "NativeRawHeightSourceAdapter.taggedKey_eq_translatedTag",
+    "NativeRawHeightSourceAdapter.translatedTag_finalTime",
+    "NativeRawHeightSourceAdapter.translatedTags_final_image",
+    "NativeRawHeightSourceAdapter.translatedTag_injOn",
+    "NativeRawHeightSourceAdapter.translatedTags_card",
+    "NativeRawHeightSourceAdapter.translatedTags_coherent",
+    "NativeRawHeightSourceAdapter.translatedTags_subset",
+    "NativeRawHeightSourceAdapter.rawSelectedOccurrences",
+    "NativeRawHeightSourceAdapter.rawSelectedPairs",
+    "NativeRawHeightSourceAdapter.raw_selected_tagged_image",
+    "NativeRawHeightSourceAdapter.raw_selected_final_image",
+    "NativeRawHeightSourceAdapter.translated_selected_final_image",
+    "NativeRawHeightSourceAdapter.translated_selected_final_card",
+    "NativeRawHeightSourceAdapter.final_pair_mem_iff_outputCell",
+    "NativeRawHeightSourceAdapter.translated_selected_sourceCells_eq_raw",
+    "NativeRawHeightSourceAdapter.translated_selected_raw_witness",
+    "NativeRawHeightSourceAdapter.occurrence_original_injective",
+    "NativeRawHeightSourceAdapter.actual_occurrences_card",
+    "NativeRawHeightSourceAdapter.actual_occurrence_exists_unique",
+    "NativeRawHeightSourceAdapter.select_raw_height"
+  ],
+  "started_utc": "2026-10-06T21:38:07.789479+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "declarations_manifest_sha256": "aa6a8ce5e01f436b45894271942c786288aff37f9d65785baf1f90f86760374d",
+  "declaration_coverage": "Exact namespace-qualified source declaration sequence equals the frozen manifest",
+  "source_exit_code": 0,
+  "olean_sha256": "ae794b58f1f274682f9280245415aead16386dcc153f916cc0312c5af5bc97af",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T21:38:42.246598+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2139",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeRawHeightSourceAdapter.rawTaggedKey": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.rawTranslatedHeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedHeight_eq_raw": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedHeight_eq_of_original_height_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedTag": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedTags": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.taggedKey_eq_translatedTag": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedTag_finalTime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedTags_final_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedTag_injOn": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedTags_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedTags_coherent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translatedTags_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.rawSelectedOccurrences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.rawSelectedPairs": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.raw_selected_tagged_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.raw_selected_final_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translated_selected_final_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translated_selected_final_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.final_pair_mem_iff_outputCell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translated_selected_sourceCells_eq_raw": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.translated_selected_raw_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.occurrence_original_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.actual_occurrences_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.actual_occurrence_exists_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRawHeightSourceAdapter.select_raw_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T21:42:19.964782+00:00"
+}

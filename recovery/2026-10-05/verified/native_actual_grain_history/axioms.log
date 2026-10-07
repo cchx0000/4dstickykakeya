@@ -1,0 +1,25 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T133706856539", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T133706856539/AggregateReadback.lean"]
+READBACK_SHA256 adccbaaf26b3f595839dff18621970f4b2bf488e1676822331ec24a0ac68c5d4
+Dedicated staging slot 3 acquired UTC: 2026-10-05T13:37:55.628781+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8027476 kB
+'NativeActualGrainHistory.HasGrainHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.HasScaleRecord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.construct_actual_grain_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.history_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.history_of_rich_scales' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.history_step_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.lift_of_snd_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.lift_snd_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.nextPoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.nextPoints_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.original_tag_mem_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.record_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.scaleLayers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.scaleLayers_subset_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.scaleLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.scaleThreshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.terminal_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualGrainHistory.terminal_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

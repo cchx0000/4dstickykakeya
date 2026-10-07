@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_common_displaced_union_lower
+set_option autoImplicit false
+#print axioms NativeCommonDisplacedUnionLower.common_union_ball_lower

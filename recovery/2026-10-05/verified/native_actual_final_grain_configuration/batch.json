@@ -1,0 +1,41 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:25:14.462148+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T142513638092",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T142513638092/AggregateReadback.lean"
+  ],
+  "readback_sha256": "c26c0d485fd5fba6909cfce8b53393d767c35ba845b4fab2e4279ca28cd91ec1",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_final_grain_configuration",
+      "source_sha256": "593a74439ada4d7f53ff783171cd5d4948e3ebec9f02884f23b26d8aa235a538",
+      "olean_sha256": "7467a7420ab5c3472db0a741e2b9265c835d843426bde6ad86f459bf3a5e4e62",
+      "names": [
+        "NativeActualFinalGrainConfiguration.FinalCleanupData",
+        "NativeActualFinalGrainConfiguration.final_cleanup_of_history",
+        "NativeActualFinalGrainConfiguration.HasFinalRetainedHistory",
+        "NativeActualFinalGrainConfiguration.HasFinalGrainSquaredStage",
+        "NativeActualFinalGrainConfiguration.final_retained_history_of_history",
+        "NativeActualFinalGrainConfiguration.final_retained_history_readback",
+        "NativeActualFinalGrainConfiguration.final_stage_of_history",
+        "NativeActualFinalGrainConfiguration.final_stage_history",
+        "NativeActualFinalGrainConfiguration.exists_actual_final_grain_configuration"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:25:19.466491+00:00",
+  "exit_code": 0
+}

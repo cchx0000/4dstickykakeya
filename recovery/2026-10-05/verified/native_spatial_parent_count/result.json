@@ -1,0 +1,56 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_spatial_parent_count",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_spatial_parent_count.lean",
+  "source_sha256": "34da75873451d241252f14cb8a928416d384217beabfa1cc5b9efa6f5c893fd9",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_spatial_parent_count.olean",
+  "names": [
+    "NativeSpatialParentCount.raw_point_count_le_one",
+    "NativeSpatialParentCount.fine_pair_count_in_raw_cell",
+    "NativeSpatialParentCount.parent_count_le_pair_count",
+    "NativeSpatialParentCount.source_global_subset_upper",
+    "NativeSpatialParentCount.source_spatial_parent_count"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T14:59:05.470247+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "438bf9b879d0cefc510e6e0cb61c25c42aaef28851221bb94943c4a940e5d5c6",
+  "source_execution_complete_utc": "2026-10-05T14:59:11.095681+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150422049901",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSpatialParentCount.raw_point_count_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSpatialParentCount.fine_pair_count_in_raw_cell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSpatialParentCount.parent_count_le_pair_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSpatialParentCount.source_global_subset_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSpatialParentCount.source_spatial_parent_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T15:04:27.292500+00:00"
+}

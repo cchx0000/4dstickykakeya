@@ -1,0 +1,513 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/ee5a186f670440f02b32f100858fd61d5bd9d7ecdb2c7d735b2432b30f1d2899.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_final_third_total_mass.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_final_third_total_mass.lean"]
+SOURCE_SHA256 4a4880b9914fa96bb503406294bb4004ed1bd9e46dcf081d23241b0e0051c4db
+LOCK_ACQUIRED_UTC 2026-10-06T20:18:51.535400+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_final_third_total_mass.lean:214:39: error: linarith failed to find a contradiction
+totalLoss zeta53 : ℝ
+hLossTotal : 0 < totalLoss
+hzeta53 : 0 < zeta53
+hzetaSmall : zeta53 ≤ totalLoss / 16384
+etaThreshold chi : ℝ
+hThreshold : 0 < etaThreshold
+hchi : 0 < chi
+Hplanar :
+  ∀ (eta53 : ℝ),
+    0 < eta53 →
+      eta53 ≤ etaThreshold →
+        ∀ (Kcoh Ksupport g : ℕ) (meshConstant row : ℝ),
+          0 ≤ meshConstant →
+            0 ≤ row →
+              ∃ epsCut,
+                0 < epsCut ∧
+                  epsCut ≤ 1 ∧
+                    ∀ {epsilon eta0 c delta0 : ℝ} {K d J L3 n : ℕ} {D : FiniteScaleSource n} {eta : ℝ},
+                      HasBudget epsilon eta0 c g K d J L3 delta0 →
+                        0 < epsilon →
+                          IsWangZakharovNativeFiniteInput D eta →
+                            D.thickness ≤ delta0 →
+                              0 ≤ eta →
+                                ∀ (original : Fin n → Finset Index),
+                                  (∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i) →
+                                    ∀ S ⊆ incidences original,
+                                      S.Nonempty →
+                                        ∀ (F1 F2 G Q1 Q2 m : ℕ),
+                                          0 < F1 →
+                                            0 < G →
+                                              1 ≤ Q1 →
+                                                0 < Q2 →
+                                                  G ≤ F2 →
+                                                    12 ≤ m →
+                                                      ∀ (zeta lambda b tau seed c2 r q : ℝ),
+                                                        eta ≤ seed / 8 →
+                                                          0 ≤ tau →
+                                                            tau ≤ commonBudget eta0 c / 1024 →
+                                                              seed ≤ tau / 16384 →
+                                                                zeta ≤ seed / 256 →
+                                                                  c2 = commonBudget eta0 c / 4 →
+                                                                    125 * 175616 * 16384 * ↑F1 * ↑Q1 ^ 2 *
+                                                                          D.thickness ^ (-eta) ≤
+                                                                        D.thickness ^ (-(seed / 8)) →
+                                                                      125 * 175616 * 16384 * ↑F2 * ↑Q2 ^ 2 *
+                                                                            D.thickness ^ (-eta) ≤
+                                                                          D.thickness ^ (-c2) →
+                                                                        0 < r →
+                                                                          r ≤ 1 →
+                                                                            r ≤ D.thickness ^ cutoff c 1 →
+                                                                              lambda =
+                                                                                  r ^ rankLoss eta0 c 1 /
+                                                                                    (4 * (↑g + 1)) →
+                                                                                r ^ ((2 * ↑2 + 1) * rankLoss eta0 c 1) ≤
+                                                                                    b →
+                                                                                  0 < q →
+                                                                                    q ≤ 1 →
+                                                                                      1 / ↑g <
+                                                                                          NativeActualMesoscopicRankConfiguration.rankWindow
+                                                                                              tau /
+                                                                                            4 →
+                                                                                        r ^ (2 * c) /
+                                                                                              (2 *
+                                                                                                D.thickness ^
+                                                                                                  (-(1 / ↑g))) ≤
+                                                                                            q →
+                                                                                          (64 / ↑(2 ^ m)) ^ 2 ≤
+                                                                                              6144 * r →
+                                                                                            ∀ (Cpre : ℝ), ⋯
+eta53 : ℝ
+he53 : 0 < eta53
+he53Top : eta53 ≤ etaThreshold
+window eB menuTax eta0 c epsilonQ : ℝ
+hw : 0 < window
+heB : 0 < eB
+hMenuTax : 0 < menuTax
+he0 : 0 < eta0
+he01 : eta0 ≤ 1
+hc : 0 < c
+hc1 : c ≤ 1
+heQ : 0 < epsilonQ
+heQ1 : epsilonQ ≤ 1
+heQSmall : eta0 ≤ epsilonQ
+hcQ : c ≤ epsilonQ / 24
+hTax : 5 * eB / 16 + 2 * (commonBudget eta0 c / 4) / window + menuTax ≤ chi / 2 * (totalLoss / 16384)
+Kcoh Ksupport g K bins : ℕ
+meshConstant row : ℝ
+hC : 0 ≤ meshConstant
+hrow : 0 ≤ row
+epsPlanar : ℝ
+hEP : 0 < epsPlanar
+hEP1 : epsPlanar ≤ 1
+H53 :
+  ∀ {epsilon eta0 c delta0 : ℝ} {K d J L3 n : ℕ} {D : FiniteScaleSource n} {eta : ℝ},
+    HasBudget epsilon eta0 c g K d J L3 delta0 →
+      0 < epsilon →
+        IsWangZakharovNativeFiniteInput D eta →
+          D.thickness ≤ delta0 →
+            0 ≤ eta →
+              ∀ (original : Fin n → Finset Index),
+                (∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i) →
+                  ∀ S ⊆ incidences original,
+                    S.Nonempty →
+                      ∀ (F1 F2 G Q1 Q2 m : ℕ),
+                        0 < F1 →
+                          0 < G →
+                            1 ≤ Q1 →
+                              0 < Q2 →
+                                G ≤ F2 →
+                                  12 ≤ m →
+                                    ∀ (zeta lambda b tau seed c2 r q : ℝ),
+                                      eta ≤ seed / 8 →
+                                        0 ≤ tau →
+                                          tau ≤ commonBudget eta0 c / 1024 →
+                                            seed ≤ tau / 16384 →
+                                              zeta ≤ seed / 256 →
+                                                c2 = commonBudget eta0 c / 4 →
+                                                  125 * 175616 * 16384 * ↑F1 * ↑Q1 ^ 2 * D.thickness ^ (-eta) ≤
+                                                      D.thickness ^ (-(seed / 8)) →
+                                                    125 * 175616 * 16384 * ↑F2 * ↑Q2 ^ 2 * D.thickness ^ (-eta) ≤
+                                                        D.thickness ^ (-c2) →
+                                                      0 < r →
+                                                        r ≤ 1 →
+                                                          r ≤ D.thickness ^ cutoff c 1 →
+                                                            lambda = r ^ rankLoss eta0 c 1 / (4 * (↑g + 1)) →
+                                                              r ^ ((2 * ↑2 + 1) * rankLoss eta0 c 1) ≤ b →
+                                                                0 < q →
+                                                                  q ≤ 1 →
+                                                                    1 / ↑g <
+                                                                        NativeActualMesoscopicRankConfiguration.rankWindow
+                                                                            tau /
+                                                                          4 →
+                                                                      r ^ (2 * c) / (2 * D.thickness ^ (-(1 / ↑g))) ≤
+                                                                          q →
+                                                                        (64 / ↑(2 ^ m)) ^ 2 ≤ 6144 * r →
+                                                                          ∀ (Cpre : ℝ),
+                                                                            0 < Cpre →
+                                                                              ∀ (a : ℝ) (plane : Index → Submodule ℝ E4)
+                                                                                (E Hgraph T : Finset (Fin n × Index))
+                                                                                (P : Submodule ℝ E4)
+                                                                                (hP : P ≤ heightKernel)
+                                                                                (hdim : Module.finrank ℝ ↥P = 2 - 1)
+                                                                                (Fraw : ℤ → Matrix (Fin 2) (Fin 1) ℝ)
+                                                                                (p : Parent) (t : ℝ), ⋯
+epsBase : ℝ
+hEB : 0 < epsBase
+hEB1 : epsBase ≤ 1
+Hbase :
+  ∀ (delta eta lambda b tau seed t c2 rStop a rankLoss q epsilonQ loss metric epsilonGeom kappa eps : ℝ)
+    (F1 F2 G Q1 Q2 F3 Q3 m R0 normal : ℕ) (depths : Fin Kcoh → ℕ),
+    0 < delta →
+      delta ≤ 1 →
+        0 ≤ eta →
+          0 < F1 →
+            0 < G →
+              1 ≤ Q1 →
+                1 ≤ Q2 →
+                  1 ≤ Q3 →
+                    G ≤ F2 →
+                      125 * 175616 * 16384 * ↑F1 * ↑Q1 ^ 2 * delta ^ (-eta) ≤ delta ^ (-(seed / 8)) →
+                        125 * 175616 * 16384 * ↑F2 * ↑Q2 ^ 2 * delta ^ (-eta) ≤ delta ^ (-c2) →
+                          ↑F3 * ↑Q3 ^ 4 ≤ delta ^ (-(t / 4)) →
+                            0 ≤ t →
+                              tau ≤ t / 1024 →
+                                seed ≤ tau / 16384 →
+                                  c2 = t / 4 →
+                                    0 < rStop →
+                                      rStop ≤ 1 →
+                                        0 ≤ rankLoss →
+                                          rankLoss ≤ 1 →
+                                            rStop ≤ delta ^ a →
+                                              t = a * rankLoss →
+                                                lambda = rStop ^ rankLoss / (4 * (↑g + 1)) →
+                                                  rStop ^ (7 * rankLoss) ≤ b →
+                                                    0 < q →
+                                                      q ≤ 1 →
+                                                        0 ≤ epsilonQ →
+                                                          epsilonQ ≤ 1 →
+                                                            rStop ^ (epsilonQ / 6) / 2 ≤ q →
+                                                              normal ≤ 4 →
+                                                                0 ≤ loss →
+                                                                  0 ≤ metric →
+                                                                    0 ≤ epsilonGeom →
+                                                                      epsilonGeom ≤ 1 / 4 →
+                                                                        metric ≤ rStop ^ (-2 * epsilonGeom) →
+                                                                          have Rho := 64 / ↑(2 ^ m);
+                                                                          Rho ≤ 1 →
+                                                                            3072 * rStop ≤ Rho ^ 2 →
+                                                                              Rho ^ 2 ≤ 6144 * rStop →
+                                                                                ↑(8 * R0) ≤
+                                                                                    1280 *
+                                                                                      (Rho / 64) ^ (-2 * epsilonGeom) →
+                                                                                  0 < eps →
+                                                                                    eps ≤ epsBase →
+                                                                                      64 * eps ≤
+                                                                                          2 *
+                                                                                            max
+                                                                                              (5 / 4 *
+                                                                                                Rho ^
+                                                                                                  (1 - 2 * epsilonGeom))
+                                                                                              Rho →
+                                                                                        have nu :=
+                                                                                          newExponent Kcoh epsilonGeom
+                                                                                            loss rankLoss;
+                                                                                        nu ≤ 1 →
+                                                                                          4 * nu + ⋯ ≤ eB / 64 →
+                                                                                            have Ccuts := ↑⋯;
+                                                                                            ⋯ ≤ eps ^ (-(eB / 32))
+rCut : ℝ
+hRC : 0 < rCut
+Hmass :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta : ℝ) (h : IsWangZakharovNativeFiniteInput D eta)
+    (original : Fin n → Finset Index) (R : Finset (Fin n)) (level : ℕ) (a zeta : ℝ),
+    0 ≤ zeta →
+      HasOriginalBackbone D original R a level zeta →
+        ∀ (Eref H T : Finset (Fin n × Index)) (m : ℕ),
+          6 ≤ m →
+            D.thickness ≤ rho m ^ 2 →
+              ∀ (p : Parent) (etaRef : ℝ) (href : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaRef),
+                T ⊆ Eref →
+                  Eref ⊆ incidences original →
+                    (∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p) →
+                      (source h R Eref a m p).thickness ≤ rCut →
+                        etaRef ≤ window * eB / 256 →
+                          64 ^ 3 * (source h R Eref a m p).thickness ^ (window * eB / 16) ≤ D.thickness ^ zeta →
+                            ∀ (population cost : ℝ),
+                              0 < population →
+                                0 < cost →
+                                  population * ↑(#(parentLabels D R a (2 ^ m) p)) ≤ D.thickness * ↑(#H) →
+                                    ↑(#H) ≤ cost * ↑(#T) →
+                                      ∀ (u : ℕ),
+                                        m + (u + 12) ≤ level →
+                                          64 / ↑(2 ^ (u + 12)) ≤ (source h R Eref a m p).thickness ^ window →
+                                            retentionFactor cost population ≤ (64 / ↑(2 ^ (u + 12))) ^ (-(eB / 32)) →
+                                              ∀ (P : Submodule ℝ E4) (hP : P ≤ heightKernel)
+                                                (hd : Module.finrank ℝ ↥P = 1) (F Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ),
+                                                (∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |F t u v| ≤ 1 / 4) →
+                                                  (∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |Fcfg t u v| ≤ 1 / 4) →
+                                                    ∀ (R0 : ℕ),
+                                                      0 < R0 →
+                                                        rho m ≤ mu m * ↑R0 →
+                                                          mu m * ↑R0 = 4096 / ↑(2 ^ (u + 12)) →
+                                                            ∀ (d Q F3 : ℕ)
+                                                              (extra : Fin d → Fin n × Index → Fin n × Index → Prop),
+                                                              1 ≤ F3 →
+                                                                ↑F3 * ↑Q ^ 4 ≤
+                                                                    D.thickness ^ (-(commonBudget eta0 c / 4)) →
+                                                                  (∀ (j : Fin (d + 3)) (x y : Fin n × Index),
+                                                                      x ∈ T → y ∈ T → ⋯) →
+                                                                    let key := fun z =>
+                                                                      coarseYKey D a m p
+                                                                        CanonicalConfiguredE4Bridge.Split.oneTwo P hP hd
+                                                                        F Fcfg R0 z.2;
+                                                                    have cfg :=
+                                                                      NativeActualConfiguredPoint.point D a m p
+                                                                        CanonicalConfiguredE4Bridge.Split.oneTwo P hP hd
+                                                                        F Fcfg R0;
+                                                                    have graph := fun z => ⋯;
+                                                                    ∀ (t : ℝ), ⋯
+epsilon delta0 : ℝ
+dExtra J L3 n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+Hbudget : HasBudget epsilon eta0 c g K (dExtra + 3) J L3 delta0
+he : 0 < epsilon
+h : IsWangZakharovNativeFiniteInput D eta
+hsmall : D.thickness ≤ delta0
+heta : 0 ≤ eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+S : Finset (Fin n × Index)
+hS : S ⊆ incidences original
+hSn : S.Nonempty
+F1 F2 G Q1 Q2 m : ℕ
+hF1 : 0 < F1
+hG : 0 < G
+hQ1 : 1 ≤ Q1
+hQ2 : 0 < Q2
+hGF : G ≤ F2
+hm12 : 12 ≤ m
+zeta lambda b tau seed c2 r q : ℝ
+hetaSeed : eta ≤ seed / 8
+htau0 : 0 ≤ tau
+htau : tau ≤ commonBudget eta0 c / 1024
+hseed : seed ≤ tau / 16384
+hzeta : zeta ≤ seed / 256
+hc2 : c2 = commonBudget eta0 c / 4
+H1 : 125 * 175616 * 16384 * ↑F1 * ↑Q1 ^ 2 * D.thickness ^ (-eta) ≤ D.thickness ^ (-(seed / 8))
+H2 : 125 * 175616 * 16384 * ↑F2 * ↑Q2 ^ 2 * D.thickness ^ (-eta) ≤ D.thickness ^ (-c2)
+hr : 0 < r
+hr1 : r ≤ 1
+hrdelta : r ≤ D.thickness ^ cutoff c 1
+hlambda : lambda = r ^ rankLoss eta0 c 1 / (4 * (↑g + 1))
+hb : r ^ ((2 * ↑2 + 1) * rankLoss eta0 c 1) ≤ b
+hq : 0 < q
+hq1 : q ≤ 1
+hgrid : 1 / ↑g < NativeActualMesoscopicRankConfiguration.rankWindow tau / 4
+hqraw : r ^ (2 * c) / (2 * D.thickness ^ (-(1 / ↑g))) ≤ q
+hscale : (64 / ↑(2 ^ m)) ^ 2 ≤ 6144 * r
+Cpre : ℝ
+hCpre : 0 < Cpre
+a : ℝ
+plane : Index → Submodule ℝ E4
+E Hgraph T : Finset (Fin n × Index)
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hdim : Module.finrank ℝ ↥P = 2 - 1
+Fraw : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+p : Parent
+t : ℝ
+Rel3 : Fin (dExtra + 3) → Fin n × Index → Fin n × Index → Prop
+Hdata :
+  let F3 := refinementCost (dExtra + 3 + 2) (J + 1) L3;
+  let Q3 := NativeSourceSizeBounds.radix (#S) L3;
+  let w := min (boundaryWindow tau) (tau / 16 / 1000);
+  let pop := population D.thickness eta lambda b ↑F1 ↑G;
+  let eps := columnEpsilon D.thickness lambda (seed / 8) c2;
+  let CX := Cpre / quotientCost q * fiberCoefficient D.thickness eta zeta tau (seed / 8) c2 lambda b F1 G Q2 F3 Q3 q 2;
+  HasThirdXYSourceData D zeta a m plane E Hgraph S T P hP ⋯ ⋯ hdim Fraw p pop
+    (profileLower D.thickness pop eps tau (seed / 8) w) (profileUpper D.thickness eps tau) Q2 (pop / rowConstant)
+    (↑(selectionCost K)) Cpre t L3 Rel3 CX
+R : Finset (Fin n)
+level : ℕ
+HB : HasOriginalBackbone D original R a level zeta
+hFineDepth : phaseDepth m ≤ level
+Eref Hp : Finset (Fin n × Index)
+hRefOld : Eref ⊆ incidences original
+hRefR : ∀ z ∈ Eref, z.1 ∈ R
+hGraphRef : Hgraph ⊆ Eref
+etaRef : ℝ
+href : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaRef
+hScale : D.thickness ≤ rho m ^ 2
+hRefSmall : (source h R Eref a m p).thickness ≤ rCut
+hEtaRef : etaRef ≤ window * eB / 256
+hProfile : 64 ^ 3 * (source h R Eref a m p).thickness ^ (window * eB / 16) ≤ D.thickness ^ zeta
+hzeta0 : 0 ≤ zeta
+hPopulation : population D.thickness eta lambda b ↑F1 ↑G * ↑(#(parentLabels D R a (2 ^ m) p)) ≤ D.thickness * ↑(#Hp)
+hGraphRet : #Hp ≤ selectionCost K * #Hgraph
+u R0 : ℕ
+hDepth : m + (u + 12) ≤ level
+hp : ∀ z ∈ S, parentLabel D a (2 ^ m) z.1 = p
+hR0 : 0 < R0
+hBase : rho m ≤ mu m * ↑R0
+hbaseEq : mu m * ↑R0 = 2⁻¹ ^ u
+hWindow : 64 / ↑(2 ^ (u + 12)) ≤ (source h R Eref a m p).thickness ^ window
+hk : extremalExponent ≤ 2
+loss metric epsilonGeom : ℝ
+depths : Fin Kcoh → ℕ
+hLoss : 0 ≤ loss
+hmetric : 0 ≤ metric
+heGeom : 0 ≤ epsilonGeom
+heGeom4 : epsilonGeom ≤ 1 / 4
+hLip : metric ≤ r ^ (-2 * epsilonGeom)
+hstopLo : 3072 * r ≤ rho m ^ 2
+hHeight : ↑(8 * R0) ≤ 1280 * (rho m / 64) ^ (-2 * epsilonGeom)
+hCost :
+  Cpre =
+    quotientCost q *
+      ↑(newCutCharge Kcoh Ksupport 2 g R0 meshConstant row r loss (rankLoss eta0 c 1) metric extremalExponent fun j =>
+          64 / ↑(2 ^ depths j))
+hSmall : 64 / ↑(2 ^ (u + 12)) ≤ min epsPlanar epsBase
+hShape : 64 * (64 / ↑(2 ^ (u + 12))) ≤ 2 * max (5 / 4 * rho m ^ (1 - 2 * epsilonGeom)) (rho m)
+hNu : newExponent Kcoh epsilonGeom loss (rankLoss eta0 c 1) ≤ 1 / 2
+hFineMargin : 16 * newExponent Kcoh epsilonGeom loss (rankLoss eta0 c 1) + 4 * epsilon ≤ eta53 / 2
+hBaseMargin :
+  4 * newExponent Kcoh epsilonGeom loss (rankLoss eta0 c 1) + 2 * (18 * rankLoss eta0 c 1 + 4 * epsilonQ / 3) ≤ eB / 64
+Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+hCfg : ∀ (height : ℤ), ‖Fcfg height‖ ≤ 1 / 4
+extra : Fin dExtra → Fin n × Index → Fin n × Index → Prop
+Sq : Finset (Fin n × Index) :=
+  NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hdim (physicalMesh m (phaseDepth m) / 8)
+field : ℤ → Matrix (Fin (4 - 2)) (Fin (2 - 1)) ℝ := fixedField D a m 2 plane Sq Fraw
+key : Fin n × Index →
+  ℤ × CanonicalGridRecoding.Grid (CanonicalConfiguredE4Bridge.normalDim CanonicalConfiguredE4Bridge.Split.oneTwo) :=
+  fun z => coarseYKey D a m p CanonicalConfiguredE4Bridge.Split.oneTwo P hP hdim field Fcfg R0 z.2
+cfg : Index → E4 :=
+  NativeActualConfiguredPoint.point D a m p CanonicalConfiguredE4Bridge.Split.oneTwo P hP hdim field Fcfg R0
+graph : Fin n × Index → E4 × OutputIndex h R Eref a m (u + 12) p :=
+  fun z => (cfg z.2, outputTube h R Eref a m (u + 12) p href z.1)
+hRel : Rel3 = completeRelations D a m p CanonicalConfiguredE4Bridge.Split.oneTwo P hP hdim field Fcfg R0 u extra
+hfreeze : ∀ z ∈ T, field (translatedHeight D a m z.2) = Fcfg (translatedHeight D a m z.2 / ↑(8 * R0))
+Hsingle :
+  ∀ z ∈ T,
+    ∀ w ∈ T,
+      translatedHeight D a m z.2 / ↑(8 * R0) = translatedHeight D a m w.2 / ↑(8 * R0) →
+        translatedHeight D a m z.2 = translatedHeight D a m w.2
+hSeparator : ∀ x ∈ image (fun z => cfg z.2) T, ∀ y ∈ image (fun z => cfg z.2) T, x ≠ y → mu m * ↑R0 / 64 ≤ dist x y
+bin : ℝ → Fin (bins + 1)
+F3 : ℕ := refinementCost (dExtra + 3 + 2) (J + 1) L3
+Q3 : ℕ := NativeSourceSizeBounds.radix (#S) L3
+pop : ℝ := population D.thickness eta lambda b ↑F1 ↑G
+eps : ℝ := 64 / ↑(2 ^ (u + 12))
+hRank : 0 < rankLoss eta0 c 1
+hRank1 : rankLoss eta0 c 1 ≤ 1
+hm6 : 6 ≤ m
+hTS : T ⊆ S
+hTn : T.Nonempty
+_hRetST : #S ≤ refinementCost (dExtra + 3 + 2) (J + 1) L3 * #T
+hTH : T ⊆ Hgraph
+_hRetHT : ↑(#Hgraph) ≤ Cpre * ↑(refinementCost (dExtra + 3 + 2) (J + 1) L3) * ↑(#T)
+Hrel :
+  ∀ (j : Fin (dExtra + 3)) (x y : Fin n × Index),
+    x ∈ T →
+      y ∈ T →
+        degree (fun x => 1) (Rel3 j) T x ≤ NativeSourceSizeBounds.radix (#S) L3 ^ 2 * degree (fun x => 1) (Rel3 j) T y
+_hPoint : NativeJointUniformCoarseRelations.HasUniformFibers T (NativeSourceSizeBounds.radix (#S) L3) Prod.snd
+_hXY :
+  NativeJointUniformCoarseRelations.HasUniformFibers T (NativeSourceSizeBounds.radix (#S) L3) fun z =>
+    NativeTwoMapRetainedSliceActualCaps.encodedPoint D a m 2 p P hP ⋯ ⋯ hdim
+      (fixedField D a m 2 plane
+        (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hdim
+          (physicalMesh m (phaseDepth m) / 8))
+        Fraw)
+      z.2
+_hClasses :
+  ∀ (j : Fin (J + 1)),
+    NativeJointUniformCoarseRelations.HasUniformFibers T (NativeSourceSizeBounds.radix (#S) L3) fun z =>
+      NativeAnisotropicSliceLabels.horizontalCoarsen (phaseDepth m) (NativeFixedHorizontalMenu.depths J m j)
+        ((fun z =>
+            NativeTwoMapRetainedSliceActualCaps.encodedPoint D a m 2 p P hP ⋯ ⋯ hdim
+              (fixedField D a m 2 plane
+                (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hdim
+                  (physicalMesh m (phaseDepth m) / 8))
+                Fraw)
+              z.2)
+          z)
+_hGrain :
+  NativeJointUniformCoarseRelations.HasUniformFibers T (NativeSourceSizeBounds.radix (#S) L3)
+    (NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2)
+_hKey :
+  ∀ (x y : Fin n × Index),
+    x ∈ T →
+      y ∈ T →
+        NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2 x =
+            NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2 y →
+          NativeTranslatedGrainHeightFibers.referenceKey D a m 2 plane P hP ⋯ ⋯ hdim (physicalMesh m (phaseDepth m) / 8)
+              x =
+            NativeTranslatedGrainHeightFibers.referenceKey D a m 2 plane P hP ⋯ ⋯ hdim
+              (physicalMesh m (phaseDepth m) / 8) y
+_hThreshold :
+  ∀ x ∈ T,
+    t ≤
+      Cpre * ↑(refinementCost (dExtra + 3 + 2) (J + 1) L3) * ↑(NativeSourceSizeBounds.radix (#S) L3) ^ 2 *
+        ↑(#(NativeParentGrainIncidenceCleanup.mixedFiber D a m plane 2 T
+              (NativeParentGrainIncidenceCleanup.mixedLabel D a m plane 2 x)))
+_hRetParent :
+  population D.thickness eta lambda b ↑F1 ↑G / rowConstant * ↑(#(parentEdges D a (2 ^ m) E p)) ≤
+    ↑(selectionCost K) * Cpre * ↑(refinementCost (dExtra + 3 + 2) (J + 1) L3) * ↑(#T)
+_hAD :
+  ∀ (height : ℤ),
+    FiniteVoronoiRealADCoarsening.ADBounds
+      (NativeSliceClassBalls.realizedSlice
+        (image
+          (fun z =>
+            NativeTwoMapRetainedSliceActualCaps.encodedPoint D a m 2 p P hP ⋯ ⋯ hdim
+              (fixedField D a m 2 plane
+                (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hdim
+                  (physicalMesh m (phaseDepth m) / 8))
+                Fraw)
+              z.2)
+          T)
+        (mu m) height)
+      (mu m)
+      (xyConstant D.thickness zeta (population D.thickness eta lambda b ↑F1 ↑G)
+        (profileLower D.thickness (population D.thickness eta lambda b ↑F1 ↑G)
+          (columnEpsilon D.thickness lambda (seed / 8) c2) tau (seed / 8) (min (boundaryWindow tau) (tau / 16 / 1000)))
+        (profileUpper D.thickness (columnEpsilon D.thickness lambda (seed / 8) c2) tau)
+        (population D.thickness eta lambda b ↑F1 ↑G / rowConstant)
+        (↑(selectionCost K) * Cpre * ↑(refinementCost (dExtra + 3 + 2) (J + 1) L3)) Q2
+        (NativeSourceSizeBounds.radix (#S) L3) J m)
+      (3 - extremalExponent)
+_hRead :
+  ∀ x ∈ T,
+    fixedField D a m 2 plane
+        (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hdim
+          (physicalMesh m (phaseDepth m) / 8))
+        Fraw (translatedHeight D a m x.2) =
+      Fraw (rawHeight D m x.2)
+hNorm :
+  ∀ (height : ℤ),
+    ‖fixedField D a m 2 plane
+          (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hdim
+            (physicalMesh m (phaseDepth m) / 8))
+          Fraw height‖ ≤
+      1 / 4
+hTE : T ⊆ Eref
+hTparent : ∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p
+ht : 0 < commonBudget eta0 c
+hetaRaw : eta ≤ commonBudget eta0 c / 32
+H3 :
+  ↑(refinementCost (dExtra + 3 + 2) (J + 1) L3) * ↑(NativeSourceSizeBounds.radix (#S) L3) ^ 4 ≤
+    D.thickness ^ (-(commonBudget eta0 c / 4))
+hF3 : 1 ≤ F3
+hQ3 : 1 ≤ Q3
+hQ2one : 1 ≤ Q2
+hRho : 0 < rho m
+hRho1 : rho m ≤ 1
+hTauQ : tau ≤ commonBudget eta0 c / (1000 * (↑0 + 1))
+hqLower : r ^ (epsilonQ / 6) / 2 ≤ q
+a✝ : 7 * rankLoss eta0 c 1 < (2 * ↑2 + 1) * rankLoss eta0 c 1
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_final_third_total_mass.lean:230:4: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_final_third_total_mass.lean:275:25: error: `dsimp` made no progress
+LEAN_FINISHED_UTC 2026-10-06T20:20:18.065694+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

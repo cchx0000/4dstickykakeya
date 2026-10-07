@@ -1,0 +1,45 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_matched_shadow_configured_geometry",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_geometry.lean",
+  "source_sha256": "5aff23b31af19d75fae3199741b30dabbbed452cb44e09e182e19927b2150396",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_matched_shadow_configured_geometry.olean",
+  "names": [
+    "NativeMatchedShadowConfiguredGeometry.distance_of_coordinates",
+    "NativeMatchedShadowConfiguredGeometry.point_front_distance",
+    "NativeMatchedShadowConfiguredGeometry.point_shadow_center_distance"
+  ],
+  "started_utc": "2026-10-06T17:55:31.982456+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "6174f8da0a87a6dfd11de4444100e0d6db1bd21ed38cc7671e1d8d41e9cc1490",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T17:59:02.267692+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1811",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeMatchedShadowConfiguredGeometry.distance_of_coordinates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatchedShadowConfiguredGeometry.point_front_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatchedShadowConfiguredGeometry.point_shadow_center_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T18:14:59.213165+00:00",
+  "canonical_scope": "new_canonical_module"
+}

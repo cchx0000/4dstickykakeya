@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_global_angular_representatives
+
+#print axioms NativeGlobalAngularRepresentatives.globalAngularMenu
+#print axioms NativeGlobalAngularRepresentatives.global_fine_representative
+#print axioms NativeGlobalAngularRepresentatives.exists_global_representatives
+#print axioms NativeGlobalAngularRepresentatives.exists_global_transverse_packets

@@ -1,0 +1,11 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_parent_average_uniformity_readback.lean"]
+SOURCE_SHA256 cc8ed506a70f8a823e00c935d7c147f7ddfcacf620436c3701145d2def60674b
+FIFO compiler ticket: 01791179115317123747-3e6208244e744cf9b4f789cab04598ca.request
+FIFO compiler acquired UTC: 2026-10-05T05:45:15.317506+00:00
+'NativeParentAverageUniformity.multiplicity_le_of_fiber_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeParentAverageUniformity.formal_pair_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentAverageUniformity.parent_multiplicity_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

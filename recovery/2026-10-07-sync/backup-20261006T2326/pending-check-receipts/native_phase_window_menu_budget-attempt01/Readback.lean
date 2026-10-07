@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_phase_window_menu_budget
+set_option autoImplicit false
+#print axioms NativePhaseWindowMenuBudget.PreparedWindow
+#print axioms NativePhaseWindowMenuBudget.exists_source_menu_cutoff

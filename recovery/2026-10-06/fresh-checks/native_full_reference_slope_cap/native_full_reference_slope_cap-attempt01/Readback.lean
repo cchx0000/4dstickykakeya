@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_full_reference_slope_cap
+set_option autoImplicit false
+#print axioms NativeFullReferenceSlopeCap.representative_cube_card
+#print axioms NativeFullReferenceSlopeCap.full_line
+#print axioms NativeFullReferenceSlopeCap.full_direction
+#print axioms NativeFullReferenceSlopeCap.full_slope
+#print axioms NativeFullReferenceSlopeCap.full_subset_cube_card
+#print axioms NativeFullReferenceSlopeCap.full_carrier_upper

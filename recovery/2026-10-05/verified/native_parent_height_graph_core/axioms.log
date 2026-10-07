@@ -1,0 +1,19 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T163059921794", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T163059921794/AggregateReadback.lean"]
+READBACK_SHA256 a740fd8388fbb28141e0decdc29760462f42a2ff631e51ee72971178ceec4ec9
+Dedicated staging slot 3 acquired UTC: 2026-10-05T16:31:06.277777+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8529888 kB
+'NativeActualParentHeightChart.nodeCut_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualParentHeightChart.nodeCut_nested' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualParentHeightChart.select_actual_parent_height_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeParentHeightGraphCore.construct_parent_height_graph_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeParentHeightGraphCore.selectionCost' depends on axioms: [propext]
+'NativeRetainedSliceCountTransfer.point_class_homogeneity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceCountTransfer.point_image_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceCountTransfer.retained_class_count_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceCountTransfer.retained_class_count_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

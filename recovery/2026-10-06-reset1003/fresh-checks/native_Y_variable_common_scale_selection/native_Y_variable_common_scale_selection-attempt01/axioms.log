@@ -1,0 +1,13 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1419.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1419", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1419/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T14:24:38.931808+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+'NativeYCommonScaleSelection.variable_retention_select_common' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFullChartCellVisits.graphBase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullChartCellVisits.graphSlope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullChartCellVisits.actual_full_source_visits' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T14:26:31.878333+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

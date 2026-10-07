@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_joint_absorbed_near_balance
+#print axioms NativeJointAbsorbedNearBalance.HasPureNearScale
+#print axioms NativeJointAbsorbedNearBalance.joint_absorbed_near_balance

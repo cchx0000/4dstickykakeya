@@ -1,0 +1,99 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_fine_weighted_coarse_core",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_core.lean",
+  "source_sha256": "44a9b7730084aecf35b5c11e8cdc7a0ea024e7ef2db9da19c137a7f93ea0008e",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_core.olean",
+  "names": [
+    "NativeFineWeightedCoarseCore.fineCapacity",
+    "NativeFineWeightedCoarseCore.colorCost",
+    "NativeFineWeightedCoarseCore.pruneCost",
+    "NativeFineWeightedCoarseCore.fineCapacity_pos",
+    "NativeFineWeightedCoarseCore.colorCost_pos",
+    "NativeFineWeightedCoarseCore.pruneCost_pos",
+    "NativeFineWeightedCoarseCore.color_weight_retention",
+    "NativeFineWeightedCoarseCore.pruned_weight_retention",
+    "NativeFineWeightedCoarseCore.normalized_pruning_charge",
+    "NativeFineWeightedCoarseCore.same_Q_selection",
+    "NativeFineWeightedCoarseCore.actual_shading_from_fine_weights",
+    "NativeFineWeightedCoarseCore.same_Q_native_input"
+  ],
+  "started_utc": "2026-10-06T16:53:29.995278+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "4d0e318a7737cb53a7306795d27dd68b6a39e5a1005baf2bfce65be7b322de9c",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T16:59:03.801355+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1721",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeFineWeightedCoarseCore.fineCapacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.colorCost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.pruneCost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.fineCapacity_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.colorCost_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.pruneCost_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.color_weight_retention": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.pruned_weight_retention": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.normalized_pruning_charge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.same_Q_selection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.actual_shading_from_fine_weights": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCore.same_Q_native_input": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T17:24:35.264675+00:00",
+  "canonical_scope": "new_canonical_module"
+}

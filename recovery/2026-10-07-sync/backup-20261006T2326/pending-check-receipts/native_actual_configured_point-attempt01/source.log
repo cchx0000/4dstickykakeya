@@ -1,0 +1,46 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/d56f58b3a2207b78879e7d37bf2ddac27eff426821a31b884a2e5921daf4813f.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_actual_configured_point.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_point.lean"]
+SOURCE_SHA256 4a6d53b0d77436e4b9c78feed36dcc423e34e17050e738b270cc7c63451c5c4b
+LOCK_ACQUIRED_UTC 2026-10-06T14:26:46.418527+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_point.lean:84:91: error: unsolved goals
+case oneTwo
+mu : ℝ
+R : ℕ
+F Fcfg : ℤ → Matrix (Fin (normalDim Split.oneTwo)) (Fin (tangentDim Split.oneTwo)) ℝ
+z : Label ℤ (tangentDim Split.oneTwo) (normalDim Split.oneTwo)
+⊢ ![coarseX mu R z.2.1 0, configuredNormal mu R (F z.1) (Fcfg (z.1 / ↑(R * 8))) z.2.1 z.2.2 0,
+          configuredNormal mu R (F z.1) (Fcfg (z.1 / ↑(R * 8))) z.2.1 z.2.2 1,
+          mu * ↑R * (1 / 2) + mu * ↑R * ↑(z.1 / ↑(R * 8))]
+        3 *
+      (1 / 512) =
+    mu * ↑R * (1 / 1024) + mu * ↑R * ↑(z.1 / ↑(R * 8)) * (1 / 512)
+
+case twoOne
+mu : ℝ
+R : ℕ
+F Fcfg : ℤ → Matrix (Fin (normalDim Split.twoOne)) (Fin (tangentDim Split.twoOne)) ℝ
+z : Label ℤ (tangentDim Split.twoOne) (normalDim Split.twoOne)
+⊢ ![coarseX mu R z.2.1 0, coarseX mu R z.2.1 1, configuredNormal mu R (F z.1) (Fcfg (z.1 / ↑(R * 8))) z.2.1 z.2.2 0,
+          mu * ↑R * (1 / 2) + mu * ↑R * ↑(z.1 / ↑(R * 8))]
+        3 *
+      (1 / 512) =
+    mu * ↑R * (1 / 1024) + mu * ↑R * ↑(z.1 / ↑(R * 8)) * (1 / 512)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_point.lean:116:6: error: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+LEAN_FINISHED_UTC 2026-10-06T14:30:43.400726+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

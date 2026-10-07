@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_translated_grain_height_fibers
+
+#print axioms NativeTranslatedGrainHeightFibers.referenceKey
+#print axioms NativeTranslatedGrainHeightFibers.referenceX
+#print axioms NativeTranslatedGrainHeightFibers.referenceKey_column
+#print axioms NativeTranslatedGrainHeightFibers.mixed_reference_key_eq
+#print axioms NativeTranslatedGrainHeightFibers.mixed_X_subset_referenceX
+#print axioms NativeTranslatedGrainHeightFibers.every_reference_fiber_density_cross

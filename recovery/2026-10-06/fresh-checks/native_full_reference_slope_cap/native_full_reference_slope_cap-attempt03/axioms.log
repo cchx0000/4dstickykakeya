@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/846aa4927fcff9c51f49265a105152ffd4e4cd80ab97e0e038f5a97f7f75ce2d.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_full_reference_slope_cap-attempt03", "/workspace/shared/sticky-recovery-20261006/verification/native_full_reference_slope_cap-attempt03/Readback.lean"]
+SOURCE_SHA256 ade96dba2d54a63c1910b97b9cbfa5e74b2a8c44621864b747587b83d6bea968
+'NativeFullReferenceSlopeCap.representative_cube_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullReferenceSlopeCap.full_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullReferenceSlopeCap.full_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullReferenceSlopeCap.full_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullReferenceSlopeCap.full_subset_cube_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullReferenceSlopeCap.full_carrier_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

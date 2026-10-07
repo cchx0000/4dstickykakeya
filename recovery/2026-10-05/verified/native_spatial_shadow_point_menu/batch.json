@@ -1,0 +1,78 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T11:00:59.975958+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T110056975177",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T110056975177/AggregateReadback.lean"
+  ],
+  "readback_sha256": "13a6f8aaba22fa6bd739ae2c40da3abddae17640c53a0a0adc0c2d2e7f5d4263",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_retained_rank_configuration",
+      "source_sha256": "60d1a31e9806ccaee75dd0a1c9dad3dd31a9fa93405d29a75c076a812bda8fa9",
+      "olean_sha256": "cdc307790f89dce9a79386fa52ecffba498dec565fac9152cbd4e372158235ab",
+      "names": [
+        "NativeActualRetainedRankConfiguration.HasSecondStageCore",
+        "NativeActualRetainedRankConfiguration.exists_actual_retained_rank_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_approximate_fiber_iteration",
+      "source_sha256": "66ec7af933b8700fadd9c948ef8e2b21183aa30250fb0439cc501c9a02005621",
+      "olean_sha256": "7ddd89d8ff833a26933facb680afc1e0e5f4384b0902ab26880e33f99da04bcd",
+      "names": [
+        "NativeApproximateFiberIteration.radius",
+        "NativeApproximateFiberIteration.radius_pos",
+        "NativeApproximateFiberIteration.le_radius",
+        "NativeApproximateFiberIteration.radius_succ",
+        "NativeApproximateFiberIteration.directionAt",
+        "NativeApproximateFiberIteration.directionAt_eq",
+        "NativeApproximateFiberIteration.predecessorMinimum",
+        "NativeApproximateFiberIteration.overlap",
+        "NativeApproximateFiberIteration.fiber_mono_radius",
+        "NativeApproximateFiberIteration.iterated_count",
+        "NativeApproximateFiberIteration.overlap_le_common",
+        "NativeApproximateFiberIteration.iterated_lower_bound",
+        "NativeApproximateFiberIteration.full_lower_bound"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_refined_row_relations",
+      "source_sha256": "d43d793eb1f93f86f5eac0effec523fcb0918b2b6a3dfcf90e73d5326a831e5a",
+      "olean_sha256": "6b586cc269718dfc3ca4d3e06c98afd55247be624c00f625e65b7d21201cba32",
+      "names": [
+        "NativeRefinedRowRelations.rowPair",
+        "NativeRefinedRowRelations.rowRelationMenu",
+        "NativeRefinedRowRelations.rowRelationMenu_refl",
+        "NativeRefinedRowRelations.rowRelationMenu_symm",
+        "NativeRefinedRowRelations.rowRelationMenu_old",
+        "NativeRefinedRowRelations.rowRelationMenu_uniformities",
+        "NativeRefinedRowRelations.exists_refined_row_core"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_spatial_shadow_point_menu",
+      "source_sha256": "7b05dd769ecb5652b8a81a300d3bd70177cf6f6480d2b849ce2ee1d21304b8e9",
+      "olean_sha256": "51ff8a20843176195365a677179cdf8e6f04aecb44da8c440ab49c0838411e0a",
+      "names": [
+        "NativeSpatialShadowPointMenu.cellIndex_mem_box",
+        "NativeSpatialShadowPointMenu.physical_cube_close",
+        "NativeSpatialShadowPointMenu.spatial_point_image_card"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T11:07:32.423327+00:00",
+  "exit_code": 0
+}

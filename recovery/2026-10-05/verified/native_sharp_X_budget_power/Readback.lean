@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_sharp_X_budget_power
+
+#print axioms NativeSharpXBudgetPower.baseConstant
+#print axioms NativeSharpXBudgetPower.sourceConstant
+#print axioms NativeSharpXBudgetPower.baseConstant_nonneg
+#print axioms NativeSharpXBudgetPower.sourceConstant_one_le
+#print axioms NativeSharpXBudgetPower.fiber_coefficient_rank_bound
+#print axioms NativeSharpXBudgetPower.squared_scale_power
+#print axioms NativeSharpXBudgetPower.rank_bound_to_scale

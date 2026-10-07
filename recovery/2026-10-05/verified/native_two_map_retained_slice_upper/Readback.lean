@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_upper
+
+#print axioms NativeTwoMapRetainedSliceUpper.retained_class_upper

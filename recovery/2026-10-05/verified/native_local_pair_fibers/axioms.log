@@ -1,0 +1,24 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_local_pair_fibers_readback.lean"]
+SOURCE_SHA256 b18b4714f8360f80ec08f65293d3cc6e2ef71167c1377dcfd79ea2e45b90975e
+FIFO compiler ticket: 01791175651317633359-24c83d9d85c74ab0b0bd8be433c04f46.request
+FIFO compiler acquired UTC: 2026-10-05T04:48:07.266628+00:00
+'NativeLocalPairFibers.localPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.localCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.pairFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.pairRelation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.pairFiber_at_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.comparable_of_relation_uniformity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.local_cells_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.pair_image_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.pair_image_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.original_incidence_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.original_incidence_lower_weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.cardinal_le_comparable_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.pair_fiber_lower_of_richness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.occupied_pair_fiber_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.unit_degree_eq_pairFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalPairFibers.pair_fiber_lower_of_self_uniform_richness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

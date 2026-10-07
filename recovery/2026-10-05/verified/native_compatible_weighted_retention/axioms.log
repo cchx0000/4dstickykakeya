@@ -1,0 +1,43 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T131259474030", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T131259474030/AggregateReadback.lean"]
+READBACK_SHA256 484312eec2014e5cc42c394ecf0456eca8c78ed0feee441b7c303f84f64e3de9
+Dedicated staging slot 3 acquired UTC: 2026-10-05T13:17:30.405757+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8027600 kB
+'NativeCompatibleWeightedRetention.RetainedFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.cancel_terminal_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.combinedLoss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.combinedLoss_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.delta_loss_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.denominator_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.exact_retention_from_numerator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompatibleWeightedRetention.exists_rank_retention_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompatibleWeightedRetention.exists_uniform_weak_retention' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompatibleWeightedRetention.from_master_and_actual_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeCompatibleWeightedRetention.menuCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.menuCost_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.retainedFamily_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.retainedFraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCompatibleWeightedRetention.retainedFraction_closed_form' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTaggedPacketFiberIteration.actual_chain_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketFiberIteration.fixed_node_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketFiberIteration.layers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketFiberIteration.layers_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketFiberIteration.nodeVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketFiberIteration.nodeVertices_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketFiberIteration.node_minimum_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketFiberIteration.node_vertex_predecessors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedPacketFiberIteration.packet_predecessor_geometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTaggedPacketFiberIteration.step_vertex_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

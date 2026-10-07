@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_budget_extra
+
+#print axioms NativeRetainedSliceBudgetExtra.extraCoefficient
+#print axioms NativeRetainedSliceBudgetExtra.extraConstant
+#print axioms NativeRetainedSliceBudgetExtra.extraConstant_one_le
+#print axioms NativeRetainedSliceBudgetExtra.graphCost_pos
+#print axioms NativeRetainedSliceBudgetExtra.squared_loss
+#print axioms NativeRetainedSliceBudgetExtra.extra_coefficient_bound

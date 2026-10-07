@@ -1,0 +1,74 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:06:30.467469+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140629670964",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T140629670964/AggregateReadback.lean"
+  ],
+  "readback_sha256": "62bfb248cde27e178a63a64cf63bd8ea97b774cc1181fd1fac9c3a08990c8e89",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_history_configuration",
+      "source_sha256": "58acfff69fb0a722ca80f3120215a5703941ca70f877936199e0a38f4da8a5db",
+      "olean_sha256": "a81ad5c1d876148cd5cd19d37f2dac6b50926aa55492819ed5891e9b37fbba73",
+      "names": [
+        "NativeActualHistoryConfiguration.HasHistorySquaredStage",
+        "NativeActualHistoryConfiguration.history_stage_of_compatible",
+        "NativeActualHistoryConfiguration.exists_actual_history_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_rank_four_count",
+      "source_sha256": "cff509070fa1ee6a37a6db75ebafb0da9eb6e97899b532f0bafe37d65d489512",
+      "olean_sha256": "804d7faabe82c28413a4e7bbda2e4819cab8a09fb6a5206ddd2a8734f012aeb5",
+      "names": [
+        "NativeActualRankFourCount.rankFourConstant",
+        "NativeActualRankFourCount.rankFourConstant_pos",
+        "NativeActualRankFourCount.clear_four_count",
+        "NativeActualRankFourCount.actual_rank_four_count"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_horizontal_grain_slice",
+      "source_sha256": "656906617bbffa3227ea25673a24c17958e86509e978297021dadc3ff4b1c4bc",
+      "olean_sha256": "4759cda935ff1ce664df3c5fb50707dbd1311e4f8b9f2461db0872420aed0e56",
+      "names": [
+        "NativeHorizontalGrainSlice.heightKernel",
+        "NativeHorizontalGrainSlice.sliceSpace",
+        "NativeHorizontalGrainSlice.removeHeight",
+        "NativeHorizontalGrainSlice.removeHeight_mem_heightKernel",
+        "NativeHorizontalGrainSlice.removeHeight_mem_slice",
+        "NativeHorizontalGrainSlice.removeHeight_sub",
+        "NativeHorizontalGrainSlice.removeHeight_norm",
+        "NativeHorizontalGrainSlice.near_horizontal_slice",
+        "NativeHorizontalGrainSlice.affine_slice_containment",
+        "NativeHorizontalGrainSlice.heightKernel_finrank",
+        "NativeHorizontalGrainSlice.sliceSpace_finrank"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_history_grain_cleanup",
+      "source_sha256": "7884881f11a1a1ab03765d06bf5b5f72532d3e4b8bdc0d39ba5c8d2b67d195f5",
+      "olean_sha256": "bc6b7a6f32dec511e97b90e261ba43f43bf7346ec4d16cf1a1da7c7677e8f2ac",
+      "names": [
+        "NativeHistoryGrainCleanup.classical_image_eq",
+        "NativeHistoryGrainCleanup.density_from_count",
+        "NativeHistoryGrainCleanup.exists_actual_final_grain_core"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:06:35.024118+00:00",
+  "exit_code": 0
+}

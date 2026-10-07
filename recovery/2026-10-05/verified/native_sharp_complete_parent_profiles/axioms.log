@@ -1,0 +1,91 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T173620705309", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T173620705309/AggregateReadback.lean"]
+READBACK_SHA256 cf42bed4a4d22e93ff910f81203e6f0c5eaa30e9863e426b87b23147d086c2a4
+Dedicated staging slot 3 acquired UTC: 2026-10-05T17:36:21.436375+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8767968 kB
+'NativeNormalizedCellRelativeCore.backboneRepresentative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeCore.caller_relative_uniformities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNormalizedCellRelativeCore.normalizedPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeCore.normalized_cell_degree_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNormalizedCellRelativeCore.pairLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeCore.physical_fiber_relative_menu' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNormalizedCellRelativeCore.pointLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeCore.relations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeCore.relations_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeCore.relations_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeMenu.double_front_physical_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNormalizedCellRelativeMenu.double_label_mem_forward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeMenu.forwardMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeMenu.forwardMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeMenu.physicalCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeMenu.physicalPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellRelativeMenu.zero_local_front' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellSourceUpper.exists_source_normalized_degree_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNormalizedCellSourceUpper.source_native_from_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeParentLocalSliceGrainAD.exists_parent_local_slice_grain_AD' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeParentSliceRelationReadback.parentEdges_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentSliceRelationReadback.parent_relations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.coordinates_remove_vertical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.euclidean_norm_le_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.horizontal_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.inverse_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.matrix_action_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.normalCoordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.normalCoordinates_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.normalProjection_horizontal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.normal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.quotientMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.quotient_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.tangent_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.totalField' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.totalField_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.totalField_off' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.totalField_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.vertical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.vertical_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.vertical_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridLinear.vertical_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpCompleteParentProfiles.HasSharpCompleteParentProfiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpCompleteParentProfiles.complete_sharp_selected_parent_profiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpMixedGrainCore.HasMixedIncidenceThreshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpMixedGrainCore.source_sharp_mixed_grain_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpPopulationParentConfiguration.HasSharpParentRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpPopulationParentConfiguration.HasSharpPopulationParentStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpPopulationParentConfiguration.SharpParentFinalCleanupData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpPopulationParentConfiguration.exists_sharp_population_parent_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpPopulationParentConfiguration.sharp_stage_with_population_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpPopulationParentProfiles.HasSharpPopulationParentProfiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpPopulationParentProfiles.source_sharp_population_parent_profiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

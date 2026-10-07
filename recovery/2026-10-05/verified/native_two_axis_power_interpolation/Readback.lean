@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_two_axis_power_interpolation
+
+#print axioms NativeTwoAxisPowerInterpolation.depthPower
+#print axioms NativeTwoAxisPowerInterpolation.depthPower_pos
+#print axioms NativeTwoAxisPowerInterpolation.depthPower_eq_relative
+#print axioms NativeTwoAxisPowerInterpolation.depthPower_eq_nat
+#print axioms NativeTwoAxisPowerInterpolation.delta_power
+#print axioms NativeTwoAxisPowerInterpolation.upper_menu_power
+#print axioms NativeTwoAxisPowerInterpolation.lower_menu_power
+#print axioms NativeTwoAxisPowerInterpolation.nat_power_cost
+#print axioms NativeTwoAxisPowerInterpolation.upper_transfer
+#print axioms NativeTwoAxisPowerInterpolation.lower_transfer

@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_L_tuple_reference_keys
+set_option autoImplicit false
+#print axioms NativeLTupleReferenceKeys.reversed
+#print axioms NativeLTupleReferenceKeys.originalArms
+#print axioms NativeLTupleReferenceKeys.terminalIncidence
+#print axioms NativeLTupleReferenceKeys.terminal_incidence_mem
+#print axioms NativeLTupleReferenceKeys.reference_key_fiber_upper
+#print axioms NativeLTupleReferenceKeys.reference_key_count

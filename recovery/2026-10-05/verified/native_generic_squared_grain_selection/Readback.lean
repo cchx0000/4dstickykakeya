@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_generic_squared_grain_selection
+
+#print axioms NativeGenericSquaredGrainSelection.select_squared_grain_second_stage

@@ -1,0 +1,54 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_automatic_weighted_grain_core",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_automatic_weighted_grain_core.lean",
+  "source_sha256": "d905d7fb3d067a85e665a6c06cf50514b578179ad4b8c4c648b865aade119bf5",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_automatic_weighted_grain_core.olean",
+  "names": [
+    "NativeAutomaticWeightedGrainCore.threshold",
+    "NativeAutomaticWeightedGrainCore.threshold_pos",
+    "NativeAutomaticWeightedGrainCore.threshold_budget",
+    "NativeAutomaticWeightedGrainCore.threshold_crossmul",
+    "NativeAutomaticWeightedGrainCore.threshold_real",
+    "NativeAutomaticWeightedGrainCore.exists_automatic_simultaneous_dense_core"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:33:12.177208+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "d43253ae573bc6960cffd2530d55583349ccf6cb4e53efdc020eff011148e132",
+  "source_execution_complete_utc": "2026-10-05T12:40:35.891737+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T124702882429",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeAutomaticWeightedGrainCore.threshold": [],
+    "NativeAutomaticWeightedGrainCore.threshold_pos": [],
+    "NativeAutomaticWeightedGrainCore.threshold_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAutomaticWeightedGrainCore.threshold_crossmul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAutomaticWeightedGrainCore.threshold_real": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAutomaticWeightedGrainCore.exists_automatic_simultaneous_dense_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:48:51.650312+00:00"
+}

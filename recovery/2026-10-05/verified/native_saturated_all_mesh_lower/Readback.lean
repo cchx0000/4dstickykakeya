@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_saturated_all_mesh_lower
+
+#print axioms NativeSaturatedAllMeshLower.all_mesh_depth_window
+#print axioms NativeSaturatedAllMeshLower.actual_all_mesh_point_lower

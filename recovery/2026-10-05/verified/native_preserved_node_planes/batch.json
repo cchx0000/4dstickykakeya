@@ -1,0 +1,34 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:40:02.649268+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134000612481",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134000612481/AggregateReadback.lean"
+  ],
+  "readback_sha256": "8fcbb16015c4882764a9f76fa25f92aaf407afcbda57f4b8e8097007bec5b18e",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_preserved_node_planes",
+      "source_sha256": "dd89de36920797fe9c699570c6cb7449c3bb041cb0a95448519c254f3f220c58",
+      "olean_sha256": "e7706661e83188cc236a88d49c2b62b98933755d318742339ad3f8d0cd511c45",
+      "names": [
+        "NativePreservedNodePlanes.incident_near_chosen_span",
+        "NativePreservedNodePlanes.incident_near_grain_plane"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:40:25.743527+00:00",
+  "exit_code": 0
+}

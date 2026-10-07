@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_exact_height_fields",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_exact_height_fields.lean",
+  "source_sha256": "7b8cc7965ea438dd175548af92017eb600b4ddd4b0bba183cde000e186bca30e",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_exact_height_fields.olean",
+  "names": [
+    "NativeExactHeightFields.physicalHeight",
+    "NativeExactHeightFields.frozen_eq_on_selected",
+    "NativeExactHeightFields.select_two_exact_fields"
+  ],
+  "started_utc": "2026-10-06T06:33:55.352031+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "5d6880ae736a90a0d79895bb8d8f85d6ee77a23afd7fa002a5296b7db3c161a7",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeExactHeightFields.physicalHeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeExactHeightFields.frozen_eq_on_selected": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeExactHeightFields.select_two_exact_fields": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:33:59.597359+00:00"
+}

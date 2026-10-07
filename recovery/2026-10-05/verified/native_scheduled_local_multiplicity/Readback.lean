@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_scheduled_local_multiplicity
+set_option autoImplicit false
+#print axioms NativeScheduledLocalMultiplicity.exists_retained_scheduled_multiplicity
+#print axioms NativeScheduledLocalMultiplicity.exists_original_scheduled_multiplicity

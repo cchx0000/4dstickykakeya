@@ -1,0 +1,52 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1b05347832b7b162701f69604b01eebefbc042cf84446b354825df8f6df4cabc.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_effective_output_threshold.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_effective_output_threshold.lean"]
+SOURCE_SHA256 189a5bdaff62fa1ac492bc5b45bbccbf01c96c80a80ae1028725ccae33c6e456
+LOCK_ACQUIRED_UTC 2026-10-06T11:58:05.776952+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_effective_output_threshold.lean:28:6: error: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_effective_output_threshold.lean:42:62: error: unsolved goals
+epsilon Delta window e : ℝ
+heps : 0 < epsilon
+heps1 : epsilon < 1
+hDelta : 0 < Delta
+he : 0 ≤ e
+hwindow : Delta ≤ epsilon ^ window
+hlogneg : Real.log epsilon < 0
+hh : Real.log Delta ≤ window * Real.log epsilon
+hratio : window ≤ Real.log Delta / Real.log epsilon
+⊢ 0 ≤ ?m.93
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_effective_output_threshold.lean:35:46: error: unsolved goals
+epsilon Delta window e : ℝ
+heps : 0 < epsilon
+heps1 : epsilon < 1
+hDelta : 0 < Delta
+he : 0 ≤ e
+hwindow : Delta ≤ epsilon ^ window
+hlogneg : Real.log epsilon < 0
+hh : Real.log Delta ≤ window * Real.log epsilon
+hratio : window ≤ Real.log Delta / Real.log epsilon
+⊢ window * e / 16 ≤ e / 16 * (Real.log Delta / Real.log epsilon)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_effective_output_threshold.lean:84:57: error: unsolved goals
+case ha
+e : ℝ
+he : 0 < e
+C : ℝ := ⋯
+hC : 0 < C
+d0 : ℝ
+hd0 : 0 < d0
+_hd01 : d0 ≤ 1
+H : ∀ (delta : ℝ), 0 < delta → delta ≤ d0 → delta ^ (e / 32) ≤ 1 / C
+Delta F : ℝ
+hD : 0 < Delta
+hsmall : Delta ≤ min (1 / 64) d0
+hF : 0 ≤ F
+hFupper : F ≤ Delta ^ (-(e / 32))
+hD1 : Delta ≤ 1
+hbase : C * Delta ^ (e / 32) ≤ 1
+hpay : ∀ (c t : ℝ), 0 ≤ c → c ≤ C → e / 32 ≤ t → c * Delta ^ t ≤ 1
+⊢ 0 ≤ colorCost
+LEAN_FINISHED_UTC 2026-10-06T12:02:45.099604+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

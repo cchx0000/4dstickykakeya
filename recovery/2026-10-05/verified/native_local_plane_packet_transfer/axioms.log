@@ -1,0 +1,79 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T115728926894", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T115728926894/AggregateReadback.lean"]
+READBACK_SHA256 0b558a7798843637bb05c0a5fee46092c7ea936d003cdc5c394d02173b1cfe2c
+Dedicated staging slot 3 acquired UTC: 2026-10-05T12:04:22.841369+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    7972048 kB
+'NativeLocalPlanePacketTransfer.exists_global_local_plane_representatives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeLocalPlanePacketTransfer.matching_chain_plane_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeLocalPlanePacketTransfer.matching_word_near_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.abs_sub_le_of_floor_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.floor_mem_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.label_mem_box_of_normal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.mem_indexBox_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.mem_neighbors_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.near_of_label_mem_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.neighbors_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.neighbors_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.occurrence_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.occurrences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.packetLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.packetLabel_mem_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.packet_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.packet_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeQuantizedLinePackets.row_subset_occurrences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.classFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.classFiber_eq_affineFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.class_count_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.construct_independent_rich_layers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.construct_richLayers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richLayers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richLayers_card_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richLayers_half_of_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richLayers_predecessors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richLayers_step_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richLayers_subset_start' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richLayers_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richLayers_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richRestriction_card_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richRestriction_predecessors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richRestriction_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richThreshold' does not depend on any axioms
+'RichDirectionalLayers.richThreshold_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richThreshold_crossmul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richThreshold_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RichDirectionalLayers.richThreshold_positive' does not depend on any axioms
+'RichDirectionalLayers.richThreshold_product_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.active_column_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.construct_weightedLayers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.construct_weighted_independent_grains' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WeightedRichDirectionalLayers.geometric_classFiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.image_geometric_classFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.mass' depends on axioms: [propext, Quot.sound]
+'WeightedRichDirectionalLayers.mass_le_image_card_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.mass_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.mass_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.positive_predecessor_ceiling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_mass_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_predecessors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_step_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_subset_start' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedLayers_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedRestriction_mass_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weightedRestriction_predecessors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'WeightedRichDirectionalLayers.weightedRestriction_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedRichDirectionalLayers.weighted_predecessor_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

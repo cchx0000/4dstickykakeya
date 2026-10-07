@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_retained_grain_density_core
+
+#print axioms NativeRetainedGrainDensityCore.grainRelations
+#print axioms NativeRetainedGrainDensityCore.grainRelations_refl
+#print axioms NativeRetainedGrainDensityCore.grainRelations_symm
+#print axioms NativeRetainedGrainDensityCore.exists_slice_grain_core

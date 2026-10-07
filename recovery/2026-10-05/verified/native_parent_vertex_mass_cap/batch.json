@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:05:03.895020+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150503139497",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150503139497/AggregateReadback.lean"
+  ],
+  "readback_sha256": "504d09589005182bf4b797c876514f486b6e561587450fb38e875bc40265d54d",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_vertex_mass_cap",
+      "source_sha256": "359f86cc730e1f560e8ece65f8abef2473bb08aece8d144350973c110f550849",
+      "olean_sha256": "69acba78efc6873f236b8d33e2c764d4c7126714e9b702885e762797dcad9d39",
+      "names": [
+        "NativeParentVertexMassCap.uniform_subset_cross",
+        "NativeParentVertexMassCap.average_le_twice_cap",
+        "NativeParentVertexMassCap.depth_power_factor",
+        "NativeParentVertexMassCap.parentCapConstant",
+        "NativeParentVertexMassCap.parentCapConstant_pos",
+        "NativeParentVertexMassCap.cap_cross",
+        "NativeParentVertexMassCap.source_parent_vertex_cap"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:05:09.377997+00:00",
+  "exit_code": 0
+}

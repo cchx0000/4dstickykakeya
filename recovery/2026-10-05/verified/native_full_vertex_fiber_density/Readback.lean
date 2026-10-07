@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_full_vertex_fiber_density
+
+#print axioms NativeFullVertexFiberDensity.cap_le_vertex_mass
+#print axioms NativeFullVertexFiberDensity.full_vertex_fiber_mass
+#print axioms NativeFullVertexFiberDensity.full_vertex_fibers_lower
+#print axioms NativeFullVertexFiberDensity.short_closure_image
+#print axioms NativeFullVertexFiberDensity.anchor_mem_short_closure
+#print axioms NativeFullVertexFiberDensity.short_children_le_vertices
+#print axioms NativeFullVertexFiberDensity.short_closure_weight_cross
+#print axioms NativeFullVertexFiberDensity.vertex_lift_cost
+#print axioms NativeFullVertexFiberDensity.queried_short_closure_lower

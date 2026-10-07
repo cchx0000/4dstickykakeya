@@ -1,0 +1,17 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_point_angular_parent_fibers_readback.lean"]
+SOURCE_SHA256 6e82d0801bd5a18bef2e4bc326ec89118e906d5f62fb851016bd39b23111ea93
+FIFO compiler ticket: 01791183900812330384-92bdfeae9ba74586aff1247b27015a2c.request
+FIFO compiler acquired UTC: 2026-10-05T07:05:00.813326+00:00
+'NativePointAngularParentFibers.interceptCenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.floor_mem_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.incident_intercept_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.interceptMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.interceptMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.incident_parent_mem_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.pointParents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.pointAngular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.pointAngular_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.point_parent_fiber_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePointAngularParentFibers.pointParents_card_le_angular' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

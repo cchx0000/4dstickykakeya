@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_zero_parent_radius_containment",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_zero_parent_radius_containment.lean",
+  "source_sha256": "13656677071001afd755298d1806d190ece1ef89c484cdc12f20b8aebf704f2a",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_zero_parent_radius_containment.olean",
+  "names": [
+    "NativeZeroParentRadiusContainment.radius_infDist",
+    "NativeZeroParentRadiusContainment.rounded_radius_mem",
+    "NativeZeroParentRadiusContainment.actual_configured_radius_mem"
+  ],
+  "started_utc": "2026-10-06T07:20:27.687593+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "9046037cc90bee182e9097a78f113c4cfb12387f7af4394187b2c09b704d5cde",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeZeroParentRadiusContainment.radius_infDist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeZeroParentRadiusContainment.rounded_radius_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeZeroParentRadiusContainment.actual_configured_radius_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T07:26:09.262592+00:00"
+}

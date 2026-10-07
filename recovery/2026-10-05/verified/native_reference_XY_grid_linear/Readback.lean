@@ -1,0 +1,22 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_linear
+
+#print axioms NativeReferenceXYGridLinear.totalField
+#print axioms NativeReferenceXYGridLinear.totalField_on
+#print axioms NativeReferenceXYGridLinear.totalField_off
+#print axioms NativeReferenceXYGridLinear.totalField_norm
+#print axioms NativeReferenceXYGridLinear.euclidean_norm_le_sum
+#print axioms NativeReferenceXYGridLinear.matrix_action_norm
+#print axioms NativeReferenceXYGridLinear.normalCoordinates
+#print axioms NativeReferenceXYGridLinear.normalCoordinates_norm
+#print axioms NativeReferenceXYGridLinear.tangent_norm_le
+#print axioms NativeReferenceXYGridLinear.normal_norm_le
+#print axioms NativeReferenceXYGridLinear.quotientMap
+#print axioms NativeReferenceXYGridLinear.quotient_norm_le
+#print axioms NativeReferenceXYGridLinear.normalProjection_horizontal
+#print axioms NativeReferenceXYGridLinear.horizontal_inverse
+#print axioms NativeReferenceXYGridLinear.vertical
+#print axioms NativeReferenceXYGridLinear.vertical_last
+#print axioms NativeReferenceXYGridLinear.vertical_norm
+#print axioms NativeReferenceXYGridLinear.vertical_orthogonal
+#print axioms NativeReferenceXYGridLinear.coordinates_remove_vertical
+#print axioms NativeReferenceXYGridLinear.inverse_norm

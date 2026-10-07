@@ -1,0 +1,34 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_local_pair_uniform_core",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_local_pair_uniform_core.lean",
+  "source_sha256": "6ec588b55f51e7379d7be79c0ecc524acc7bbf84a9ca6908d24a0d3d41cd5eb8",
+  "names": [
+    "NativeLocalPairUniformCore.retentionCost",
+    "NativeLocalPairUniformCore.exists_retained_scheduled_pair_core",
+    "NativeLocalPairUniformCore.exists_original_scheduled_pair_core"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T04:49:07.900588+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeLocalPairUniformCore.retentionCost": [
+      "propext"
+    ],
+    "NativeLocalPairUniformCore.exists_retained_scheduled_pair_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalPairUniformCore.exists_original_scheduled_pair_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "2fb8b391f52b7ca0affb598224e0276eb7a5fc2f298224d2aa041dfa6cd98867",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T04:53:06.744076+00:00"
+}

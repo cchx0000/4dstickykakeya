@@ -1,0 +1,80 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_slab_plane_frame",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_slab_plane_frame.lean",
+  "source_sha256": "c96b44f4e1097530ef7f2a6c30e8f2913fd5d2dc368af5a4ec3b71f942de7188",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_slab_plane_frame.olean",
+  "names": [
+    "NativeSlabPlaneFrame.coordinateMap",
+    "NativeSlabPlaneFrame.coordinateMap_injective",
+    "NativeSlabPlaneFrame.coordinate_finrank",
+    "NativeSlabPlaneFrame.frameEquiv",
+    "NativeSlabPlaneFrame.frameEquiv_apply",
+    "NativeSlabPlaneFrame.inverse_coordinates",
+    "NativeSlabPlaneFrame.matrixContinuous",
+    "NativeSlabPlaneFrame.matrixContinuous_apply",
+    "NativeSlabPlaneFrame.matrixContinuous_norm"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T20:17:00.027025+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "b5be215a3f3f668ce3f1e761401d6de101a825332ed62bdbf215d3d4fd13eaa4",
+  "source_execution_complete_utc": "2026-10-05T20:17:10.130664+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T202453104102",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSlabPlaneFrame.coordinateMap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSlabPlaneFrame.coordinateMap_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSlabPlaneFrame.coordinate_finrank": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSlabPlaneFrame.frameEquiv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSlabPlaneFrame.frameEquiv_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSlabPlaneFrame.inverse_coordinates": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSlabPlaneFrame.matrixContinuous": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSlabPlaneFrame.matrixContinuous_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSlabPlaneFrame.matrixContinuous_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T20:24:58.496641+00:00"
+}

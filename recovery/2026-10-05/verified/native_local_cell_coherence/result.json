@@ -1,0 +1,132 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_local_cell_coherence",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_local_cell_coherence.lean",
+  "source_sha256": "9fe387095c4f3e72a2c648c31533d426b0d79bb955728d222c00022b5bb15349",
+  "names": [
+    "NativeLocalCellCoherence.frontPoint_coordinate_error",
+    "NativeLocalCellCoherence.physicalCell_height",
+    "NativeLocalCellCoherence.frontPoint_height_eq_physicalCell",
+    "NativeLocalCellCoherence.cellLabel_height_eq_physicalCell",
+    "NativeLocalCellCoherence.frontPoint_near_physicalCell",
+    "NativeLocalCellCoherence.neighborBox",
+    "NativeLocalCellCoherence.neighborBox_card",
+    "NativeLocalCellCoherence.cellIndex_mem_neighborBox",
+    "NativeLocalCellCoherence.original_cell_output_menu",
+    "NativeLocalCellCoherence.same_original_cell_image_card_le",
+    "NativeLocalCellCoherence.parent_original_cell_image_card_le",
+    "NativeLocalCellCoherence.output_support_card_le",
+    "NativeLocalCellCoherence.localCellLabel",
+    "NativeLocalCellCoherence.localPair",
+    "NativeLocalCellCoherence.pointShadow",
+    "NativeLocalCellCoherence.pairFiber_snd_injective",
+    "NativeLocalCellCoherence.pairFiber_card_le_shadow_fiber",
+    "NativeLocalCellCoherence.retained_shadow_card_le",
+    "NativeLocalCellCoherence.retained_shadow_compression"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T04:45:39.411078+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeLocalCellCoherence.frontPoint_coordinate_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.physicalCell_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.frontPoint_height_eq_physicalCell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.cellLabel_height_eq_physicalCell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.frontPoint_near_physicalCell": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.neighborBox": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.neighborBox_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.cellIndex_mem_neighborBox": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.original_cell_output_menu": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.same_original_cell_image_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.parent_original_cell_image_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.output_support_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.localCellLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.localPair": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.pointShadow": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.pairFiber_snd_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.pairFiber_card_le_shadow_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.retained_shadow_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalCellCoherence.retained_shadow_compression": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "1ddcb45ce6fff140c5a5da822df4606b1a371d0a625c3c7f339985e2d7ef8f83",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T04:48:07.210813+00:00"
+}

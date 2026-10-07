@@ -1,0 +1,19 @@
+import Theorems.Thm_StickyKakeya4_native_phase_window_scale_budget
+set_option autoImplicit false
+#print axioms NativePhaseWindowScaleBudget.physicalLip
+#print axioms NativePhaseWindowScaleBudget.phaseRho
+#print axioms NativePhaseWindowScaleBudget.phaseMesh
+#print axioms NativePhaseWindowScaleBudget.tangentMesh
+#print axioms NativePhaseWindowScaleBudget.offsetMesh
+#print axioms NativePhaseWindowScaleBudget.grainWidth
+#print axioms NativePhaseWindowScaleBudget.target
+#print axioms NativePhaseWindowScaleBudget.physical_lip_power
+#print axioms NativePhaseWindowScaleBudget.target_power
+#print axioms NativePhaseWindowScaleBudget.actual_base_analytic_bound
+#print axioms NativePhaseWindowScaleBudget.analytic_le_phase_square
+#print axioms NativePhaseWindowScaleBudget.exists_prepared_depth
+#print axioms NativePhaseWindowScaleBudget.physicalLip_ge_one
+#print axioms NativePhaseWindowScaleBudget.phase_mesh_readbacks
+#print axioms NativePhaseWindowScaleBudget.dyadic_width_le_offset_mesh
+#print axioms NativePhaseWindowScaleBudget.offset_population_factor
+#print axioms NativePhaseWindowScaleBudget.exists_source_window_cutoff

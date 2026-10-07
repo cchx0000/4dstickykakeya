@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_early_window_successor
+import Theorems.Thm_StickyKakeya4_native_paid_parent_scale_budget
+import Theorems.Thm_StickyKakeya4_native_window_paid_parent_lower
+
+set_option autoImplicit false
+#print axioms NativeEarlyWindowSuccessor.exists_early_successor
+#print axioms NativeEarlyWindowSuccessor.exists_early_successor_power
+#print axioms NativePaidParentScaleBudget.absorbed_lower
+#print axioms NativePaidParentScaleBudget.geometry_radix_cost
+#print axioms NativePaidParentScaleBudget.transfer_denominator_cost
+#print axioms NativePaidParentScaleBudget.uniform_radix_pos
+#print axioms NativeWindowPaidParentLower.master_parent_power_lower
+#print axioms NativeWindowPaidParentLower.window_parent_power_lower

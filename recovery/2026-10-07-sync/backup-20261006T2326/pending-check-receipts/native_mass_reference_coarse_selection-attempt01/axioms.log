@@ -1,0 +1,33 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1721.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1721", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1721/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T17:22:06.234697+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+'NativeFineWeightedCoarseCore.fineCapacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.colorCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.pruneCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.fineCapacity_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.colorCost_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.pruneCost_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.color_weight_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.pruned_weight_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.normalized_pruning_charge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.same_Q_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCore.actual_shading_from_fine_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFineWeightedCoarseCore.same_Q_native_input' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCutoff.exists_uniform_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCutoff.effective_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCutoff.exists_effective_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCutoff.two_output_power_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCutoff.two_output_lower_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFineWeightedCoarseCutoff.ordered_two_output_parameters' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFineWeightedCoarseCutoff.exists_two_output_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMassReferenceCoarseSelection.same_reference_coarse_selection_of_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T17:24:35.142272+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

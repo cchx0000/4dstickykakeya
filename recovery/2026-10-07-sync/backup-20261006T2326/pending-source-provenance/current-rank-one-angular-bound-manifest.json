@@ -1,0 +1,81 @@
+{
+  "state": "source_passed_pending_readback",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_current_rank_one_angular_bound.lean",
+  "source_sha256": "2c9fa5a463ef11cdac3501f7dd50ea3a5a413c47f6fc9c128b935c10ac3f61fc",
+  "created_utc": "2026-10-06T23:03:26.100074+00:00",
+  "namespace": "NativeCurrentRankOneAngularBound",
+  "declarations": [
+    "NativeCurrentRankOneAngularBound.pointDirections",
+    "NativeCurrentRankOneAngularBound.pointDirections_card",
+    "NativeCurrentRankOneAngularBound.ballIncidences_subset_pointSet",
+    "NativeCurrentRankOneAngularBound.current_rank_one_direction_ball",
+    "NativeCurrentRankOneAngularBound.current_rank_one_upper_of_balls",
+    "NativeCurrentRankOneAngularBound.reference_degree_lower",
+    "NativeCurrentRankOneAngularBound.normalize_angular_bound",
+    "NativeCurrentRankOneAngularBound.current_rank_one_relative_upper",
+    "NativeCurrentRankOneAngularBound.current_degree_pos",
+    "NativeCurrentRankOneAngularBound.rank_one_threshold_failure",
+    "NativeCurrentRankOneAngularBound.global_retention_from_parent",
+    "NativeCurrentRankOneAngularBound.compose_actual_parent_retention",
+    "NativeCurrentRankOneAngularBound.exists_current_rank_one_upper",
+    "NativeCurrentRankOneAngularBound.exists_rank_one_gap_cutoff",
+    "NativeCurrentRankOneAngularBound.exists_reference_rank_one_upper",
+    "NativeCurrentRankOneAngularBound.exists_reference_rank_one_exclusion",
+    "NativeCurrentRankOneAngularBound.selected_rank_ne_zero"
+  ],
+  "line_count": 392,
+  "maxHeartbeats": 1200000,
+  "imports": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile",
+      "runtime_olean_exists": true
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_one_slope_cap",
+      "runtime_olean_exists": true
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_stage_point_retention",
+      "runtime_olean_exists": true
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_incident_rank_selection",
+      "runtime_olean_exists": true
+    }
+  ],
+  "compiler_invoked": true,
+  "source_endpoints": [
+    "exists_current_rank_one_upper",
+    "exists_reference_rank_one_upper",
+    "exists_reference_rank_one_exclusion"
+  ],
+  "scope": "Actual original point/tube unit-direction count equals incidence count; rank<=1 near fibers lie in a 384s actual direction ball; derive same-reference weighted upper from all-radius angular AD. General current cuts pay actual global retention and both point radices. Fresh current=Reference.E1 has no post-cut factor or radix loss. A source-independent cutoff excludes rank1 under beta<kappa, 2*tau<a*(kappa-beta), sigma<=384s<=1 and s<=sigma^a.",
+  "downstream_requirements": [
+    "For fresh literal S-prime route: actual native S-prime and its same-source Reference must be constructed before applying the reference endpoint.",
+    "The graph-rank cap must receive literal fixed graph field/offset residual on that same Reference.E1; this offset-source preconstruction is not assumed complete here.",
+    "For old-third-T route: HasThirdXYSourceData directly retains parentEdges(E2,p), not full ref.E1. Compose the actual reference-parent retention, third cost, and actual parent/ref.E1 mass fraction, or supply a separately proved conditional parent normalization. No fraction is discarded.",
+    "Every rank1 test radius must satisfy sigma<=384s<=1, and the rank-menu exponent cutoff must pay the displayed positive gap."
+  ],
+  "no_claims": [
+    "No unconditional rank1 exclusion for arbitrary subset cuts",
+    "No projected-Phi injectivity assertion",
+    "No kappa>1 argument",
+    "No Section20 terminal contradiction"
+  ],
+  "updated_utc": "2026-10-06T23:13:08.814921+00:00",
+  "verification": "Strict source attempt03 exit0, autoImplicit=false, warningAsError=true, maxHeartbeats=1200000, slot2. Independent imported axiom gate deferred to parent slot1. Original actual retention and cutoff statements unchanged from draft.",
+  "latest_failed_receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_current_rank_one_angular_bound-attempt02/result.json",
+  "latest_failed_source_sha256": "14d873c6059406b331329fa223ff38b8a54543b5ee7385dcd1889916762a4425",
+  "next_attempt": 3,
+  "source_attempt": 3,
+  "session_id": 72032,
+  "slot": 2,
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_current_rank_one_angular_bound.olean",
+  "olean_sha256": "2471cfa223fcbdaa237e384e4fbc79f3de120ce01a2ab9e533fd27692a52e5d9",
+  "source_receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_current_rank_one_angular_bound-attempt03/result.json",
+  "source_log": "/workspace/shared/sticky-recovery-20261006/verification/native_current_rank_one_angular_bound-attempt03/source.log",
+  "readback_file": "/workspace/shared/sticky-recovery-20261006/verification/native_current_rank_one_angular_bound-attempt03/Readback.lean",
+  "verified_declaration_count": 17,
+  "source_unchanged": true,
+  "artifact_unchanged": true
+}

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_actual_reference_one_T
+set_option autoImplicit false
+#print axioms NativeRankTwoXYStageReadback.secondDimension
+#print axioms NativeRankTwoXYStageReadback.extract
+#print axioms NativeActualCoherentHeightCoreFull.integral_width
+#print axioms NativeActualCoherentHeightCoreFull.from_parent_profiles
+#print axioms NativeActualXYStageHeightJoinFull.from_xy_stage

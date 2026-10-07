@@ -1,0 +1,47 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:14:27.297572+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T131424688110",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T131424688110/AggregateReadback.lean"
+  ],
+  "readback_sha256": "8c02615bf1598aabee2ed41ad10de019c217f207962f0a10dc86e454b0524e07",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_fixed_zero_original_theorem",
+      "source_sha256": "9fd9e7efdda0d18d350a6d4a926f6e5c76b2b939cfccabb3212f0c3ac791f608",
+      "olean_sha256": "f472fa867d5bb75a5149a32487c43a5f20060d63071b025a263a22f57b89e34c",
+      "names": [
+        "NativeFixedZeroOriginalTheorem.sticky_kakeya_four_dimensional_of_fixed_zero"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_raw_point_source_profiles",
+      "source_sha256": "b50d9ac7bad7c15762a775ba6459b421095cf6b24a28c220a0b936f24dedfc86",
+      "olean_sha256": "8d2ba3c1b4a35b88f7dde358cee2c455622bfc4c4b763e0edc988eca417585e9",
+      "names": [
+        "NativeRawPointSourceProfiles.rawPointCount",
+        "NativeRawPointSourceProfiles.shadowPointCount",
+        "NativeRawPointSourceProfiles.full_mass_eq_multiplicity_point_volume",
+        "NativeRawPointSourceProfiles.raw_point_upper",
+        "NativeRawPointSourceProfiles.raw_point_lower_with_retention",
+        "NativeRawPointSourceProfiles.middle_raw_point_profile",
+        "NativeRawPointSourceProfiles.two_stage_incidence_retention"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:20:19.733445+00:00",
+  "exit_code": 0
+}

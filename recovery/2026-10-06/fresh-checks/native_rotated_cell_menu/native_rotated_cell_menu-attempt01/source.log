@@ -1,0 +1,71 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/95e79ac8684f82d925814a99af73f53a557de3f6feaa6ab94b7a020c44229d62.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_rotated_cell_menu.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_rotated_cell_menu.lean"]
+SOURCE_SHA256 8dc8f7169842dda06ec155d2250780f3ed049d99e67f7768d1bdf34dcdb76bca
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_rotated_cell_menu.lean:121:2: error: unsolved goals
+Kmatrix Krot : ℕ
+e : ℝ
+he : 0 < e
+epsilon0 rMatrix : ℝ
+hepsilon0 : 0 < epsilon0
+hepsilonBound : epsilon0 ≤ e / 2 / (16 * (↑Kmatrix + 1))
+hrMatrix : 0 < rMatrix
+hrMatrix1 : rMatrix ≤ 1
+Hmatrix :
+  ∀ (r L epsilon : ℝ),
+    0 < r →
+      r ≤ rMatrix →
+        0 ≤ L →
+          0 ≤ epsilon →
+            epsilon ≤ epsilon0 →
+              L ≤ 3 * r ^ (-2 * epsilon) →
+                (9 * (1 + L) ^ 2) ^ Kmatrix ≤ r ^ (-(e / 2)) ∧ ↑(modulus L) ^ (2 * Kmatrix) ≤ r ^ (-(e / 2))
+hC : 0 < 625 ^ Krot
+rRot : ℝ
+hrRot : 0 < rRot
+hrRot1 : rRot ≤ 1
+Hrot : ∀ (delta : ℝ), 0 < delta → delta ≤ rRot → delta ^ (e / 2) ≤ 1 / 625 ^ Krot
+⊢ e * (32 + ↑Kmatrix * 32)⁻¹ = e * (16 + ↑Kmatrix * 16)⁻¹ * (1 / 2)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_rotated_cell_menu.lean:143:54: error: unsolved goals
+Kmatrix Krot : ℕ
+e : ℝ
+he : 0 < e
+epsilon0 rMatrix : ℝ
+hepsilon0 : 0 < epsilon0
+hepsilonBound : epsilon0 ≤ e / 2 / (16 * (↑Kmatrix + 1))
+hrMatrix : 0 < rMatrix
+hrMatrix1 : rMatrix ≤ 1
+Hmatrix :
+  ∀ (r L epsilon : ℝ),
+    0 < r →
+      r ≤ rMatrix →
+        0 ≤ L →
+          0 ≤ epsilon →
+            epsilon ≤ epsilon0 →
+              L ≤ 3 * r ^ (-2 * epsilon) →
+                (9 * (1 + L) ^ 2) ^ Kmatrix ≤ r ^ (-(e / 2)) ∧ ↑(modulus L) ^ (2 * Kmatrix) ≤ r ^ (-(e / 2))
+hC : 0 < 625 ^ Krot
+rRot : ℝ
+hrRot : 0 < rRot
+hrRot1 : rRot ≤ 1
+Hrot : ∀ (delta : ℝ), 0 < delta → delta ≤ rRot → delta ^ (e / 2) ≤ 1 / 625 ^ Krot
+r L epsilon : ℝ
+hr : 0 < r
+hsmall : r ≤ min rMatrix rRot
+hL : 0 ≤ L
+heps : 0 ≤ epsilon
+hepsBound : epsilon ≤ epsilon0
+hLip : L ≤ 3 * r ^ (-2 * epsilon)
+hM : (9 * (1 + L) ^ 2) ^ Kmatrix ≤ r ^ (-(e / 2)) ∧ ↑(modulus L) ^ (2 * Kmatrix) ≤ r ^ (-(e / 2))
+hsmallPower : r ^ (e / 2) ≤ 1 / 625 ^ Krot
+hprod : 625 ^ Krot * r ^ (e / 2) ≤ 1
+hR : 625 ^ Krot ≤ r ^ (-(e / 2))
+hsplit : r ^ (-(e / 2)) * r ^ (-(e / 2)) = r ^ (-e)
+hpaid : 625 ^ Krot * (9 * (1 + L) ^ 2) ^ Kmatrix ≤ r ^ (-e)
+⊢ 625 ^ Krot * ↑(modulus L) ^ (2 * Kmatrix) = 625 ^ Krot * ↑(modulus L) ^ (2 * Kmatrix)
+
+EXIT_CODE=1

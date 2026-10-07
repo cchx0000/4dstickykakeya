@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_local_offset_menu
+set_option autoImplicit false
+#print axioms NativeLocalOffsetMenu.WholePoints
+#print axioms NativeLocalOffsetMenu.whole_refl
+#print axioms NativeLocalOffsetMenu.whole_trans
+#print axioms NativeLocalOffsetMenu.lift_point_image
+#print axioms NativeLocalOffsetMenu.LocalData
+#print axioms NativeLocalOffsetMenu.localData_of_whole
+#print axioms NativeLocalOffsetMenu.select_one
+#print axioms NativeLocalOffsetMenu.select_prepared_menu
+#print axioms NativeLocalOffsetMenu.whole_mass_eq_card
+#print axioms NativeLocalOffsetMenu.select_prepared_incidences

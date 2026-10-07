@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_source
+
+#print axioms NativeWeightedGrainQuotientSource.quotientCap
+#print axioms NativeWeightedGrainQuotientSource.quotientCap_pos
+#print axioms NativeWeightedGrainQuotientSource.source_quotient_cap
+#print axioms NativeWeightedGrainQuotientSource.source_retention
+#print axioms NativeWeightedGrainQuotientSource.threshold_transfer

@@ -1,0 +1,79 @@
+{
+  "status": "RECONSTRUCTED_UNVERIFIED",
+  "date_utc": "2026-10-06",
+  "purpose": "Recover source changes from the pre-reset conversation; no canonical overwrite, compilation, toolchain installation, or remote write was performed.",
+  "files": [
+    {
+      "file": "Thm_StickyKakeya4_native_projected_rich_class_locality.lean",
+      "bytes": 3228,
+      "sha256": "a8ce67e5587588f3ec0354f4a96b5b69c427db6a4bcd8ebfafeb64552dc3ffb1",
+      "fresh_status": "RECONSTRUCTED_UNVERIFIED",
+      "fresh_lean_check": false,
+      "namespace": "NativeProjectedRichClassLocality",
+      "historical_sha256": "a8ce67e5587588f3ec0354f4a96b5b69c427db6a4bcd8ebfafeb64552dc3ffb1",
+      "historical_status": "Oct 5 attempt02 source_passed; source_execution_complete_utc 2026-10-05T21:21:06.523567+00:00. This is historical evidence only.",
+      "reconstruction": "Exact byte reconstruction: current hash matches the historical passed source snapshot.",
+      "declarations": [
+        "phiCenter_distance",
+        "same_angular_cell_centers",
+        "same_angular_cell_ball"
+      ],
+      "historical_hash_match": true
+    },
+    {
+      "file": "Thm_StickyKakeya4_native_paired_angular_engines.lean",
+      "bytes": 11586,
+      "sha256": "6a947208e580f66c0e27fde3b9962c1bbcf71e1a99e52c23641c5dfcfb489c8a",
+      "fresh_status": "RECONSTRUCTED_UNVERIFIED",
+      "fresh_lean_check": false,
+      "namespace": "NativePairedAngularEngines",
+      "historical_sha256": "6a947208e580f66c0e27fde3b9962c1bbcf71e1a99e52c23641c5dfcfb489c8a",
+      "historical_status": "Oct 5 attempt03 structured repair was submitted around21:23. No terminal result for that attempt is visible in this worker conversation. Attempts01 and02 failed; attempt02 hit a500k-heartbeat whnf timeout.",
+      "reconstruction": "Exact byte reconstruction: current hash matches the recorded attempt03 source snapshot. The structured repair is not represented as proved.",
+      "declarations": [
+        "rich_coefficient",
+        "exists_paired_angular_engines"
+      ],
+      "historical_hash_match": true
+    },
+    {
+      "file": "Thm_StickyKakeya4_native_configuration_dyadic_eta.lean",
+      "bytes": 3489,
+      "sha256": "1dc182d418711d0703d39f3696482234bbf35604565cd0d1d2d27e5b667b6428",
+      "fresh_status": "RECONSTRUCTED_UNVERIFIED",
+      "fresh_lean_check": false,
+      "namespace": "NativeConfigurationDyadicEta",
+      "historical_sha256": null,
+      "historical_status": "Oct 5 attempt01 failed because <m parsed as Matroid notation. The comparison-token spacing was repaired after21:09; the repaired source was not resubmitted before the interruption in the visible conversation.",
+      "reconstruction": "Reconstructed latest corrected draft from the complete source write and subsequent spacing patch. No historical hash of the corrected draft was recorded.",
+      "declarations": [
+        "step",
+        "eta",
+        "depth",
+        "eta_bounds",
+        "mesh_eta_power",
+        "active_power_index",
+        "depth_bounds",
+        "active_depth_width"
+      ],
+      "historical_hash_match": null
+    },
+    {
+      "file": "Thm_StickyKakeya4_native_configuration_base_scale.lean",
+      "bytes": 3841,
+      "sha256": "522fe737bfdf13aa10af1a989ec7265febe89a0e90d4b42bdf59599a4f64c585",
+      "fresh_status": "RECONSTRUCTED_UNVERIFIED",
+      "fresh_lean_check": false,
+      "namespace": "NativeConfigurationBaseScale",
+      "historical_sha256": null,
+      "historical_status": "Oct 5 draft written around21:17 and explicitly not queued for checking.",
+      "reconstruction": "Reconstructed complete draft source from the recorded write. No historical source hash or successful Lean check was recorded.",
+      "declarations": [
+        "exists_base_above_error",
+        "total_error_envelope",
+        "exists_base_with_minimum_depth"
+      ],
+      "historical_hash_match": null
+    }
+  ]
+}

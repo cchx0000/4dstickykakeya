@@ -1,0 +1,71 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_cubical_diameter_count",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_cubical_diameter_count.lean",
+  "source_sha256": "997151f9948b27a517a8a2471095ad64976645d30929244cb14b3968d5acdf70",
+  "names": [
+    "NativeCubicalDiameterCount.indexBox",
+    "NativeCubicalDiameterCount.indexBox_card",
+    "NativeCubicalDiameterCount.capacity",
+    "NativeCubicalDiameterCount.coordinate_gap_le",
+    "NativeCubicalDiameterCount.mem_indexBox_of_dist",
+    "NativeCubicalDiameterCount.card_le_of_center_diameter",
+    "NativeCubicalDiameterCount.capacity_le_real",
+    "NativeCubicalDiameterCount.card_le_real_of_center_diameter"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T10:01:34.699778+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "1aa7fde2128047ec85e4b8da809820ce3ca3765a3bb515e591236c33eab035a1",
+  "source_execution_complete_utc": "2026-10-05T10:14:29.274677+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T101649460276",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeCubicalDiameterCount.indexBox": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCubicalDiameterCount.indexBox_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCubicalDiameterCount.capacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCubicalDiameterCount.coordinate_gap_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCubicalDiameterCount.mem_indexBox_of_dist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCubicalDiameterCount.card_le_of_center_diameter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCubicalDiameterCount.capacity_le_real": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCubicalDiameterCount.card_le_real_of_center_diameter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T10:24:29.278323+00:00"
+}

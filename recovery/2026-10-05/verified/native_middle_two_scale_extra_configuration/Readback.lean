@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_middle_two_scale_extra_configuration
+
+#print axioms NativeMiddleTwoScaleExtraConfiguration.exists_middle_two_scale_extra_configuration

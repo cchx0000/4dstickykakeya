@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_generic_reference_data
+
+#print axioms NativeGenericReferenceData.factor_pos
+#print axioms NativeGenericReferenceData.global_near

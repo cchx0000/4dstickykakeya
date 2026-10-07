@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:22:33.777900+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T142232922039",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T142232922039/AggregateReadback.lean"
+  ],
+  "readback_sha256": "5abb1889c735e3cd66116d8e45e4cc5a60f284636ab4ebc070f04a561053945d",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_slice_caller_menu",
+      "source_sha256": "8f656f5bb30b36fbf2c7ccf55098ea881758196c12f817eec538f0a2e711e2d1",
+      "olean_sha256": "830064406496ffc13593df5f93730fd62635060af42dfe6801416bb316a42c0b",
+      "names": [
+        "NativeParentSliceCallerMenu.pointLabel",
+        "NativeParentSliceCallerMenu.classLabel",
+        "NativeParentSliceCallerMenu.relations",
+        "NativeParentSliceCallerMenu.relations_refl",
+        "NativeParentSliceCallerMenu.relations_symm",
+        "NativeParentSliceCallerMenu.parent_uniformities",
+        "NativeParentSliceCallerMenu.parent_occupied_class_counts"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:22:46.824418+00:00",
+  "exit_code": 0
+}

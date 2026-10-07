@@ -1,0 +1,28 @@
+import Theorems.Thm_StickyKakeya4_native_hereditary_conditional_upper
+import Theorems.Thm_StickyKakeya4_native_rank_one_branch_budget
+import Theorems.Thm_StickyKakeya4_native_rank_radius_menu
+
+set_option autoImplicit false
+#print axioms NativeHereditaryConditionalUpper.active_parent_upper_all
+#print axioms NativeHereditaryConditionalUpper.boundary_pair_upper
+#print axioms NativeHereditaryConditionalUpper.conditional_upper
+#print axioms NativeHereditaryConditionalUpper.depthPower_mono
+#print axioms NativeHereditaryConditionalUpper.far_pair_upper
+#print axioms NativeHereditaryConditionalUpper.parent_subset_reference_ancestor
+#print axioms NativeHereditaryConditionalUpper.short_gap_upper
+#print axioms NativeHereditaryConditionalUpper.subset_outer_parent_upper
+#print axioms NativeRankOneBranchBudget.actual_rank_one_budget
+#print axioms NativeRankRadiusMenu.allowed
+#print axioms NativeRankRadiusMenu.allowed_antitone
+#print axioms NativeRankRadiusMenu.allowed_nonempty
+#print axioms NativeRankRadiusMenu.depth_lower_of_radius_cutoff
+#print axioms NativeRankRadiusMenu.exists_installed_rank_retention
+#print axioms NativeRankRadiusMenu.exists_test_radius
+#print axioms NativeRankRadiusMenu.last_depth_ge_half
+#print axioms NativeRankRadiusMenu.last_radius_le_cutoff
+#print axioms NativeRankRadiusMenu.radius
+#print axioms NativeRankRadiusMenu.radius_geometry
+#print axioms NativeRankRadiusMenu.radius_le_one_div_48
+#print axioms NativeRankRadiusMenu.radius_parent_identity
+#print axioms NativeRankRadiusMenu.radius_pos
+#print axioms NativeRankRadiusMenu.relative_power_of_radius_cutoff

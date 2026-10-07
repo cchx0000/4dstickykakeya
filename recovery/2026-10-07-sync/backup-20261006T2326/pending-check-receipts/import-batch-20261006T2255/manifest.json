@@ -1,0 +1,55 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T22:55:10.765833+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_fixed_reference_all_radius_angular_profile"
+  ],
+  "names": [
+    "NativeFixedReferenceAllRadiusAngularProfile.angularConstant",
+    "NativeFixedReferenceAllRadiusAngularProfile.ball_count_mono",
+    "NativeFixedReferenceAllRadiusAngularProfile.occupied_ball_one",
+    "NativeFixedReferenceAllRadiusAngularProfile.same_grid_close",
+    "NativeFixedReferenceAllRadiusAngularProfile.ball_upper_transfer",
+    "NativeFixedReferenceAllRadiusAngularProfile.scheduledRadius",
+    "NativeFixedReferenceAllRadiusAngularProfile.scheduledRadius_pos",
+    "NativeFixedReferenceAllRadiusAngularProfile.reference_schedule_eq",
+    "NativeFixedReferenceAllRadiusAngularProfile.scheduledRadius_rank",
+    "NativeFixedReferenceAllRadiusAngularProfile.first_radius_lower",
+    "NativeFixedReferenceAllRadiusAngularProfile.last_radius_upper",
+    "NativeFixedReferenceAllRadiusAngularProfile.middle_radius_bracket",
+    "NativeFixedReferenceAllRadiusAngularProfile.enlargement",
+    "NativeFixedReferenceAllRadiusAngularProfile.enlargement_one",
+    "NativeFixedReferenceAllRadiusAngularProfile.all_radius_alternative",
+    "NativeFixedReferenceAllRadiusAngularProfile.paid_scheduled_bounds",
+    "NativeFixedReferenceAllRadiusAngularProfile.ratio_power_le",
+    "NativeFixedReferenceAllRadiusAngularProfile.cube_le_cover_cost",
+    "NativeFixedReferenceAllRadiusAngularProfile.all_radius_rough_bounds",
+    "NativeFixedReferenceAllRadiusAngularProfile.all_radius_power_bounds",
+    "NativeFixedReferenceAllRadiusAngularProfile.exists_all_radius_cutoff"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2255.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2255",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2255/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T22:55:46.227570+00:00",
+  "results": [
+    {
+      "attempt": "native_fixed_reference_all_radius_angular_profile-attempt02",
+      "state": "passed",
+      "declarations": 21
+    }
+  ]
+}

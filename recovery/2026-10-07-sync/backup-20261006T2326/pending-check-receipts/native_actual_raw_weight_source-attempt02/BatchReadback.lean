@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_actual_raw_weight_source
+set_option autoImplicit false
+#print axioms NativeActualRawWeightSource.raw_cardinality_lower
+#print axioms NativeActualRawWeightSource.paid_raw_cardinality_lower
+#print axioms NativeActualRawWeightSource.normalization
+#print axioms NativeActualRawWeightSource.rawWeight
+#print axioms NativeActualRawWeightSource.sum_raw_weight
+#print axioms NativeActualRawWeightSource.total_raw_weight
+#print axioms NativeActualRawWeightSource.raw_shadow_card_bound
+#print axioms NativeActualRawWeightSource.raw_weight_upper
+#print axioms NativeActualRawWeightSource.same_Q_shading_bridge
+#print axioms NativeActualRawWeightSource.same_Q_source_shading
+#print axioms NativeActualRawWeightSource.exists_same_Q_source

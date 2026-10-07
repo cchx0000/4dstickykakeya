@@ -1,0 +1,67 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T09:36:13.299318+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py",
+    "--slots",
+    "2",
+    "--lock-dir",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T093609588642",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T093609588642/AggregateReadback.lean"
+  ],
+  "readback_sha256": "b385998f05288c855344d2f6ee1db242757a9cbaa8e30e5e90264c9245e5d613",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_finite_tuple_fibers",
+      "source_sha256": "9c5fcbdb8065be3f1ec962ea68de094199ada874f6b436796fa1d047b499c8ca",
+      "olean_sha256": "efd36ad0dff48b378da97be8ded46e3e8ea03539dc658d4cc2040e28581fe925",
+      "names": [
+        "NativeFiniteTupleFibers.tupleLifts",
+        "NativeFiniteTupleFibers.cons_pair_injective",
+        "NativeFiniteTupleFibers.mem_tupleLifts",
+        "NativeFiniteTupleFibers.tupleLifts_card_le",
+        "NativeFiniteTupleFibers.list_map_fiber_card_le",
+        "NativeFiniteTupleFibers.card_le_coarse_tuple_card_mul",
+        "NativeFiniteTupleFibers.coarse_tuple_card_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rank_mesoscopic_radius_menu",
+      "source_sha256": "76ade94a94adbd9765634c424ce5edd2a2147248d00b52a6e9bdec970562f5be",
+      "olean_sha256": "0ce4dcf3a6ddb843e81284dfa1cf21e637500b7fc20019dbed8d34472ff6d8f0",
+      "names": [
+        "NativeRankMesoscopicRadiusMenu.menu",
+        "NativeRankMesoscopicRadiusMenu.allowed",
+        "NativeRankMesoscopicRadiusMenu.allowed_antitone",
+        "NativeRankMesoscopicRadiusMenu.exists_middle_entry",
+        "NativeRankMesoscopicRadiusMenu.radius_le_cutoff_of_eighth_depth",
+        "NativeRankMesoscopicRadiusMenu.allowed_nonempty",
+        "NativeRankMesoscopicRadiusMenu.radius_ge_quarter_power",
+        "NativeRankMesoscopicRadiusMenu.radius_square_ge_source",
+        "NativeRankMesoscopicRadiusMenu.exists_mesoscopic_rank_retention"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_two_stage_transversality_budget",
+      "source_sha256": "2b715f0d3e552c72590e77297fc22ae76bc9906d47350c22ef4f564a08473d76",
+      "olean_sha256": "86c6336267cb2492c1179dec4c3a8013a6b520450e40e7d016758d22717ea4b4",
+      "names": [
+        "NativeTwoStageTransversalityBudget.retention_radix_le_of_transfer_cost",
+        "NativeTwoStageTransversalityBudget.test_power_le",
+        "NativeTwoStageTransversalityBudget.exists_half_mass_cutoff"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T09:46:29.152085+00:00",
+  "exit_code": 0
+}

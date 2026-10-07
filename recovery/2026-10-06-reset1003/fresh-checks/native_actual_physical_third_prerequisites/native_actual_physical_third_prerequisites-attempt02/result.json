@@ -1,0 +1,88 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_physical_third_prerequisites",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.lean",
+  "source_sha256": "b4ea9500e84c1e2d512d995b50b3b4ce10c403ad28fc0a17c22cdadfd8a33066",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_physical_third_prerequisites.olean",
+  "names": [
+    "NativePreThirdHeightSupport.configured_fine_to_support",
+    "NativePreThirdHeightSupport.select_actual_height_support",
+    "NativeSourcePhysicalCoherence.HasUpperEngine",
+    "NativeSourcePhysicalCoherence.mesh_window",
+    "NativeSourcePhysicalCoherence.HasPhysicalCoherenceEngine",
+    "NativeSourcePhysicalCoherence.coherence_of_actual_upper",
+    "NativePhysicalCoherentThirdJoin.from_actual_source",
+    "NativeActualHeightThirdJoin.source_total_charge",
+    "NativeActualHeightThirdJoin.attach_rank_two",
+    "NativeActualHeightThirdJoin.attach_rank_three"
+  ],
+  "started_utc": "2026-10-06T20:44:45.396155+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "declarations_manifest_sha256": "17886cff1eef1192d858684333013818144bcb19cb6accbe6b348fc538369499",
+  "declaration_coverage": "Exact namespace-qualified source declaration sequence equals the frozen manifest",
+  "source_exit_code": 0,
+  "olean_sha256": "3957e60feeeb8ad9ba1f08be8142628c77147fe59026813d9e109ac7fa82ee12",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T20:49:13.189711+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2051",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativePreThirdHeightSupport.configured_fine_to_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePreThirdHeightSupport.select_actual_height_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSourcePhysicalCoherence.HasUpperEngine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSourcePhysicalCoherence.mesh_window": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSourcePhysicalCoherence.HasPhysicalCoherenceEngine": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSourcePhysicalCoherence.coherence_of_actual_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePhysicalCoherentThirdJoin.from_actual_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHeightThirdJoin.source_total_charge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHeightThirdJoin.attach_rank_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHeightThirdJoin.attach_rank_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T20:54:11.997716+00:00"
+}

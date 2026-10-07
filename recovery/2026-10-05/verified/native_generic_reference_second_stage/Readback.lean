@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_generic_reference_second_stage
+
+#print axioms NativeGenericReferenceSecondStage.HasSecondStageCore
+#print axioms NativeGenericReferenceSecondStage.HasRetainedRankSelection
+#print axioms NativeGenericReferenceSecondStage.exists_second_stage_cutoff

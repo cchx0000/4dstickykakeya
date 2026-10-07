@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_reference_XY_grid_angular_cap
+
+#print axioms NativeReferenceXYGridAngularCap.angle
+#print axioms NativeReferenceXYGridAngularCap.angle_mem_box
+#print axioms NativeReferenceXYGridAngularCap.same_tangent_bin_diameter
+#print axioms NativeReferenceXYGridAngularCap.affine_angle_cap
+#print axioms NativeReferenceXYGridAngularCap.localAngle
+#print axioms NativeReferenceXYGridAngularCap.source_local_angle_cap
+#print axioms NativeReferenceXYGridAngularCap.localAngle_inverse
+#print axioms NativeReferenceXYGridAngularCap.localAngle_image_card
+#print axioms NativeReferenceXYGridAngularCap.original_angular_cap

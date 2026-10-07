@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_middle_two_scale_balance
+
+#print axioms NativeMiddleTwoScaleBalance.middle_pair_bounds

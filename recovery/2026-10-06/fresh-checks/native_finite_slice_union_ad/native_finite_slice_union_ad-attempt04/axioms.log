@@ -1,0 +1,12 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4eac14246d6e12bb718a1d72029fe1e021e55c70ccdbb4ddd03547af49a4c79f.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_finite_slice_union_ad-attempt04", "/workspace/shared/sticky-recovery-20261006/verification/native_finite_slice_union_ad-attempt04/Readback.lean"]
+SOURCE_SHA256 679878a85a8b43b85cfc18abbea225f733d30c97bf2a120780be668f45e04ab1
+'NativeFiniteSliceUnionAD.carrierBall_biUnion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteSliceUnionAD.arbitrary_center_ball_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteSliceUnionAD.finite_union_ADBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteSliceUnionAD.global_bound_of_half_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteSliceUnionAD.heightSlice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteSliceUnionAD.heightWindow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteSliceUnionAD.heightWindow_eq_biUnion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFiniteSliceUnionAD.heightWindow_eight_ADBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

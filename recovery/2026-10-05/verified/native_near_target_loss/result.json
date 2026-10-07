@@ -1,0 +1,30 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_near_target_loss",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_near_target_loss.lean",
+  "source_sha256": "430bebbc58cc1e11e5798ad97db5ec3de73d46dda7b6605ebaf6f142473e0183",
+  "names": [
+    "NativeNearTargetLoss.lower_with_target_loss",
+    "NativeNearTargetLoss.upper_with_target_loss"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:55:44.418732+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeNearTargetLoss.lower_with_target_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeNearTargetLoss.upper_with_target_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "60f30f448ed16fba9a7c2f29433e652261d9513d9835c1eeb9780577594f58aa",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T06:02:04.852577+00:00"
+}

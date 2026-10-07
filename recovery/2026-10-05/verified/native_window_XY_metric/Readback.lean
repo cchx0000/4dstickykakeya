@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_window_XY_metric
+
+#print axioms NativeWindowXYMetric.old_height_window
+#print axioms NativeWindowXYMetric.raw_height_window
+#print axioms NativeWindowXYMetric.raw_dist_of_window_pref
+#print axioms NativeWindowXYMetric.old_dist_of_window_coordinates
+#print axioms NativeWindowXYMetric.field_window_variation
+#print axioms NativeWindowXYMetric.menuRadius
+#print axioms NativeWindowXYMetric.menuRadius_lower
+#print axioms NativeWindowXYMetric.menu_cost_upper

@@ -1,0 +1,53 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T21:44:34.580294+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_actual_reference_frontend"
+  ],
+  "names": [
+    "NativePrescribedExtraPaidXYConfiguration.exists_prescribed_extra_paid_XY_configuration",
+    "NativeConditionalReferenceParentSlots.baseQuery",
+    "NativeConditionalReferenceParentSlots.parentDepth_baseQuery",
+    "NativeConditionalReferenceParentSlots.parentSlot",
+    "NativeConditionalReferenceParentSlots.factory_parent_slot",
+    "NativePrescribedConditionalPaidXYConfiguration.exists_prescribed_conditional_paid_XY_configuration",
+    "NativePrescribedPhysicalReferenceConfiguration.exists_prescribed_physical_reference_configuration",
+    "NativeActualBaselineScaleGuards.depth_guard",
+    "NativeActualBaselineScaleGuards.reference_depth_guard",
+    "NativeActualBaselineScaleGuards.source_mesh_lower",
+    "NativeActualBaselineScaleGuards.source_thickness_ge_original",
+    "NativeActualBaselineScaleGuards.exists_source_mesh_window",
+    "NativeSourceBaselineBase.exists_source_baseline_base",
+    "NativeFinalSourceScopeReadback.original_scope",
+    "NativeFinalSourceScopeReadback.parent_scope",
+    "NativeFinalSourceScopeReadback.active_reference_parent",
+    "NativeFinalSourceScopeReadback.middle_guards",
+    "NativeActualThirdHistoryReadback.fraction_lower",
+    "NativeActualThirdHistoryReadback.source_record"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2144.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2144",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2144/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T21:48:06.121263+00:00",
+  "results": [
+    {
+      "attempt": "native_actual_reference_frontend-attempt03",
+      "state": "passed",
+      "declarations": 19
+    }
+  ]
+}

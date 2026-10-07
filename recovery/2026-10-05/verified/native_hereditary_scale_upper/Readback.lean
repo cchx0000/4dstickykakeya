@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_hereditary_scale_upper
+
+#print axioms NativeHereditaryScaleUpper.middle_pair_upper
+#print axioms NativeHereditaryScaleUpper.boundary_pair_upper_separate_cost
+#print axioms NativeHereditaryScaleUpper.all_pair_upper
+#print axioms NativeHereditaryScaleUpper.reference_cost_budgets
+#print axioms NativeHereditaryScaleUpper.hereditary_three_loss

@@ -1,0 +1,24 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b3be9e69d426156fbf890a312b9eb0416378c2e05885fb9763401a8e6d55c54c.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.lean"]
+SOURCE_SHA256 cb070a6e3eb2c45d54709cba124ff840191e403d1964c0a05613cbaa4d4bef7a
+LOCK_ACQUIRED_UTC 2026-10-06T18:25:06.387681+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.lean:36:13: error: unsolved goals
+r eps d p G S : ℝ
+hr : 0 < r
+heps : 0 < eps
+hcount : G ≤ 34 * fineCapacity * r ^ (-p) * (d / eps) ^ 4 * S
+hCf : 0 < fineCapacity
+⊢ 34 * d ^ 4 * S * 2 ^ 4 = 544 * d ^ 4 * S
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.lean:113:15: error(lean.unknownIdentifier): Unknown identifier `configured_incidence_geometry`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.lean:202:6: error: mod_cast has type
+  #I = ∑ b ∈ image (fun u => u.1.ofLp 3) I, #({a_1 ∈ I | a_1.1.ofLp 3 = b})
+but is expected to have type
+  ↑(#I) = ∑ z ∈ Z, ↑(#({u ∈ I | u.1.ofLp 3 = z}))
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.lean:320:15: error(lean.unknownIdentifier): Unknown identifier `configured_incidence_geometry`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_fine_weight_shading_bridge.lean:355:46: error: Invalid projection: Type of
+  u
+is not known; cannot resolve projection `1`
+LEAN_FINISHED_UTC 2026-10-06T18:28:04.924415+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

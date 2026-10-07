@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_separated_gram_determinant
+
+#print axioms NativeSeparatedGramDeterminant.infDist_le_norm_gramSchmidt
+#print axioms NativeSeparatedGramDeterminant.inner_gramSchmidt_self
+#print axioms NativeSeparatedGramDeterminant.gram_det_eq_prod_norm_sq
+#print axioms NativeSeparatedGramDeterminant.basis_gram_det_lower
+#print axioms NativeSeparatedGramDeterminant.gram_det_lower_of_span_distance

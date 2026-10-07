@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_height_slope_coordinates
+
+#print axioms NativeHeightSlopeCoordinates.nodeSlope
+#print axioms NativeHeightSlopeCoordinates.nodeSlope_norm
+#print axioms NativeHeightSlopeCoordinates.nodeSlope_variation
+#print axioms NativeHeightSlopeCoordinates.matrixVector
+#print axioms NativeHeightSlopeCoordinates.nodeSlope_action
+#print axioms NativeHeightSlopeCoordinates.nodeSlope_graph
+#print axioms NativeHeightSlopeCoordinates.fine_heightNode_mem
+#print axioms NativeHeightSlopeCoordinates.heightSlope
+#print axioms NativeHeightSlopeCoordinates.heightSlope_zero_off
+#print axioms NativeHeightSlopeCoordinates.heightSlope_norm
+#print axioms NativeHeightSlopeCoordinates.heightSlope_readback
+#print axioms NativeHeightSlopeCoordinates.heightSlope_variation
+#print axioms NativeHeightSlopeCoordinates.exists_height_slope_chart

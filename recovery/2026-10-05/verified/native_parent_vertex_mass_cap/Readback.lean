@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_parent_vertex_mass_cap
+
+#print axioms NativeParentVertexMassCap.uniform_subset_cross
+#print axioms NativeParentVertexMassCap.average_le_twice_cap
+#print axioms NativeParentVertexMassCap.depth_power_factor
+#print axioms NativeParentVertexMassCap.parentCapConstant
+#print axioms NativeParentVertexMassCap.parentCapConstant_pos
+#print axioms NativeParentVertexMassCap.cap_cross
+#print axioms NativeParentVertexMassCap.source_parent_vertex_cap

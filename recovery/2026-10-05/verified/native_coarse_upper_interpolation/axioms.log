@@ -1,0 +1,8 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_coarse_upper_interpolation_readback.lean"]
+SOURCE_SHA256 c2c88e41a05f530eca6dedb9af342bf8e07d26bf1874070da6bfe6c4472a71b4
+FIFO compiler ticket: 01791185349112046528-4feeefd262754ab5a8874974382e5396.request
+FIFO compiler acquired UTC: 2026-10-05T07:29:09.112793+00:00
+'NativeCoarseUpperInterpolation.forward_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeCoarseUpperInterpolation.reverse_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

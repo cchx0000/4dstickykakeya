@@ -1,0 +1,35 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/8f1fbb83971ff625ebf16b9f7d234b1c9bd9929e45dc96a894afaa6f33d02d2f.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.lean"]
+SOURCE_SHA256 6b41b5bbd6ac98740d37f8fa301bf438af6dc467c2ab5139ae95ee737411fe3c
+LOCK_ACQUIRED_UTC 2026-10-06T08:43:42.947744+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+elaboration took 354ms
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.lean:72:6: error: (kernel) deterministic timeout
+type checking took 44.7s
+elaboration took 249ms
+tactic execution of Lean.Parser.Tactic.exact took 121ms
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_same_reference_chart_bounds.lean:85:8: error: (kernel) deterministic timeout
+type checking took 47.3s
+cumulative profiling times:
+	attribute application 0.0697ms
+	congr simp thm 0.9ms
+	elaboration 828ms
+	fix level params 0.847ms
+	instantiate metavars 1.66ms
+	let-to-have transformation 22ms
+	linting 155ms
+	module linting 0.00142ms
+	norm_num 27ms
+	overlappingInstancesLinter 21.8ms
+	parsing 12.2ms
+	process pre-definitions 8.75ms
+	ring 37.5ms
+	share common exprs 7.45ms
+	simp 16ms
+	tactic execution 544ms
+	tacticAnalysis 27.9ms
+	type checking 92.1s
+	typeclass inference 462ms
+LEAN_FINISHED_UTC 2026-10-06T08:46:12.813868+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

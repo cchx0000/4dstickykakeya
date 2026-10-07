@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_third_planar_height_alignment
+set_option autoImplicit false
+#print axioms NativeThirdPlanarHeightAlignment.exists_actual_height_alignment

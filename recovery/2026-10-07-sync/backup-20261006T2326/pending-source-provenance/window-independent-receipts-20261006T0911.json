@@ -1,0 +1,108 @@
+[
+  {
+    "module": "Theorems.Thm_StickyKakeya4_native_ad_fixed_mesh_refinement",
+    "receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_ad_fixed_mesh_refinement-attempt01/result.json",
+    "source_sha256": "8e855385292c0283b35a85bfc8799a6eab2f16b0a0393b0910e3a7534d7ee315",
+    "olean_sha256": "96c57da68edb593124a319da2d4dcd11fd03be469062f40f45effb4ece0a6896",
+    "names": [
+      "NativeADFixedMeshRefinement.refine_mesh"
+    ],
+    "scope": "Fresh strict source and separate imported axiom readback passed; current source frozen."
+  },
+  {
+    "module": "Theorems.Thm_StickyKakeya4_native_fine_window_endpoint",
+    "receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_fine_window_endpoint-attempt01/result.json",
+    "source_sha256": "b50dc2576a5424cfbab1351c238366997348e3fb45d843e4d40202a7f9fdc6aa",
+    "olean_sha256": "d48b1136c5986ffd469f093bb146f708b549100bf1db1464214bafa4a0347348",
+    "names": [
+      "NativeFineWindowEndpoint.short_window_ADBounds"
+    ],
+    "scope": "Fresh strict source and separate imported axiom readback passed; current source frozen."
+  },
+  {
+    "module": "Theorems.Thm_StickyKakeya4_native_grid_center_coarsening",
+    "receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_grid_center_coarsening-attempt02/result.json",
+    "source_sha256": "a00d1420245374c803eb00156219b710d18d8f19547f8fe5154554bb12d551ea",
+    "olean_sha256": "b05278c061f655e4537de4a31fd4d2dc59c5ecd4333b4933da55a2fa094cc9ef",
+    "names": [
+      "NativeGridCenterCoarsening.divide",
+      "NativeGridCenterCoarsening.center_displacement",
+      "NativeGridCenterCoarsening.coarsened_ADBounds"
+    ],
+    "scope": "Fresh strict source and separate imported axiom readback passed; current source frozen."
+  },
+  {
+    "module": "Theorems.Thm_StickyKakeya4_native_window_depth_brackets",
+    "receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_window_depth_brackets-attempt01/result.json",
+    "source_sha256": "176b325c83493825cfa12b915fc2c37377c68be0561a590fc5b29c2f75be9616",
+    "olean_sha256": "3db8c152fb2e798642f68e63d70b84cc06cf715277067dd5790403905b924418",
+    "names": [
+      "NativeWindowDepthBrackets.bracket_depth",
+      "NativeWindowDepthBrackets.dyadic_factors"
+    ],
+    "scope": "Fresh strict source and separate imported axiom readback passed; current source frozen."
+  },
+  {
+    "module": "Theorems.Thm_StickyKakeya4_native_literal_grid_cover_ad",
+    "receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_literal_grid_cover_ad-attempt03/result.json",
+    "source_sha256": "4009ab2e2610706e369cb258bcc8dd50c34cd37ae9799aa8e9ed9c605f0a29d3",
+    "olean_sha256": "d8fdeed14f5a182cd6aba79bb8c7e356b8b1f8e56fff3c0e65fbfb34206e9f6c",
+    "names": [
+      "NativeLiteralGridCoverAD.label",
+      "NativeLiteralGridCoverAD.representatives",
+      "NativeLiteralGridCoverAD.coverCount",
+      "NativeLiteralGridCoverAD.CoverADBounds",
+      "NativeLiteralGridCoverAD.center_label_close",
+      "NativeLiteralGridCoverAD.anchor_mem",
+      "NativeLiteralGridCoverAD.upper_card",
+      "NativeLiteralGridCoverAD.lower_card",
+      "NativeLiteralGridCoverAD.cover_AD_of_representatives"
+    ],
+    "scope": "Fresh strict source and separate imported axiom readback passed; current source frozen."
+  },
+  {
+    "module": "Theorems.Thm_StickyKakeya4_native_ad_fixed_contraction",
+    "receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_ad_fixed_contraction-attempt01/result.json",
+    "source_sha256": "5cb2c70ddaf078f0689aaa147bb8e9c7c42c39906469dad177a31781765e05cd",
+    "olean_sha256": "ab2f9378098a0f0906c5be2470a3a44ba4e1f0c0034cef68898646589f10aeec",
+    "names": [
+      "NativeADFixedContraction.contract_AD",
+      "NativeADFixedContraction.coarse_mesh_AD"
+    ],
+    "scope": "Fresh strict source and separate imported axiom readback passed; current source frozen."
+  },
+  {
+    "module": "Theorems.Thm_StickyKakeya4_native_grid_center_contraction",
+    "receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_grid_center_contraction-attempt07/result.json",
+    "source_sha256": "5026c02d1881268be6bc202380e8e794a8ab651ea13b6494e689b95e81a66c51",
+    "olean_sha256": "1facf4ba0e276c0d282fac5d9b25e9f8ac268c2cfb790ec0949a27636427279f",
+    "names": [
+      "NativeGridCenterContraction.contracted_grid_AD",
+      "NativeGridCenterContraction.coarsest_grid_AD"
+    ],
+    "scope": "Fresh strict source and separate imported axiom readback passed; current source frozen."
+  },
+  {
+    "module": "Theorems.Thm_StickyKakeya4_native_literal_grid_euclidean_cover",
+    "receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_literal_grid_euclidean_cover-attempt01/result.json",
+    "source_sha256": "5e85871b96f520399ede3612519fe2e24b169f03a18c197933f552cfe05a067e",
+    "olean_sha256": "f55f5663e55a6c878ced8bba285503cc97734b8b6c947bee912a09d412ced7e9",
+    "names": [
+      "NativeLiteralGridEuclideanCover.euclideanCoverCount",
+      "NativeLiteralGridEuclideanCover.EuclideanCoverAD",
+      "NativeLiteralGridEuclideanCover.euclidean_cover_of_sup_cover"
+    ],
+    "scope": "Fresh strict source and separate imported axiom readback passed; current source frozen."
+  },
+  {
+    "module": "Theorems.Thm_StickyKakeya4_native_window_full_power_cost",
+    "receipt": "/workspace/shared/sticky-recovery-20261006/verification/native_window_full_power_cost-attempt02/result.json",
+    "source_sha256": "256328b4bb8672bb2a51bf7efbf824d33e4750bbb359c37f6cf430de8fa69bc8",
+    "olean_sha256": "0b27a1c9ebde50acebb524627674e754d59dbc55f826cbdb8f86c48a02ac971b",
+    "names": [
+      "NativeWindowFullPowerCost.complete_cost_le",
+      "NativeWindowFullPowerCost.paid_complete_cost"
+    ],
+    "scope": "Fresh strict source and separate imported axiom readback passed; current source frozen."
+  }
+]

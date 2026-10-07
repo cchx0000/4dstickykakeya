@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_quotient_grid_centers
+
+#print axioms NativeQuotientGridCenters.center
+#print axioms NativeQuotientGridCenters.center_injective
+#print axioms NativeQuotientGridCenters.center_dist_iff
+#print axioms NativeQuotientGridCenters.ball_card
+#print axioms NativeQuotientGridCenters.quotient_ball_count
+#print axioms NativeQuotientGridCenters.quotient_card

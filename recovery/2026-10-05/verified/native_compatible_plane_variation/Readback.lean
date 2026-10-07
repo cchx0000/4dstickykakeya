@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_compatible_plane_variation
+
+#print axioms NativeCompatiblePlaneVariation.installed_word_coarsens
+#print axioms NativeCompatiblePlaneVariation.matching_word_span_variation
+#print axioms NativeCompatiblePlaneVariation.compatible_installed_span_variation

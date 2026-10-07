@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_slice_menu_ball_join
+
+#print axioms NativeSliceMenuBallJoin.height_card_le_of_class_bounds
+#print axioms NativeSliceMenuBallJoin.menu_classes_all_radius

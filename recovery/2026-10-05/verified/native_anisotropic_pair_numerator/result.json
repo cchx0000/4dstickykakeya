@@ -1,0 +1,60 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_pair_numerator",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_anisotropic_pair_numerator.lean",
+  "source_sha256": "1b21cb0c3bd24da106c445b2ceae3988b422270e54773fed29cd7949a006c73c",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_anisotropic_pair_numerator.olean",
+  "names": [
+    "NativeAnisotropicPairNumerator.shortRowColumnCost",
+    "NativeAnisotropicPairNumerator.pairUpperConstant",
+    "NativeAnisotropicPairNumerator.pairUpperConstant_pos",
+    "NativeAnisotropicPairNumerator.short_pair_column_image_card",
+    "NativeAnisotropicPairNumerator.fixedPair_card_sum",
+    "NativeAnisotropicPairNumerator.parent_column_pair_upper"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:11:47.411538+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "339eade9439d8d1d50c876f28f835eb792b22c635c97cec0408418dc1174dce4",
+  "source_execution_complete_utc": "2026-10-05T16:11:56.062291+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T161649745264",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeAnisotropicPairNumerator.shortRowColumnCost": [
+      "propext"
+    ],
+    "NativeAnisotropicPairNumerator.pairUpperConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicPairNumerator.pairUpperConstant_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicPairNumerator.short_pair_column_image_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicPairNumerator.fixedPair_card_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAnisotropicPairNumerator.parent_column_pair_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:16:55.397697+00:00"
+}

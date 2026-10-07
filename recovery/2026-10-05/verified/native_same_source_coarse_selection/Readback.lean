@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_same_source_coarse_selection
+#print axioms NativeSameSourceCoarseSelection.selected_dyadic_shading_transfer
+#print axioms NativeSameSourceCoarseSelection.original_mass_le_selected
+#print axioms NativeSameSourceCoarseSelection.selected_color_mass
+#print axioms NativeSameSourceCoarseSelection.same_source_coarse_selection

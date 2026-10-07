@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_finest_Y_output_budget
+import Theorems.Thm_StickyKakeya4_native_lipschitz_height_edge_lift
+set_option autoImplicit false
+#print axioms NativeFinestYOutputBudget.coarsening_constant_le
+#print axioms NativeFinestYOutputBudget.source_cost_at_output
+#print axioms NativeFinestYOutputBudget.exists_finest_Y_output_cutoff
+#print axioms NativeLipschitzHeightEdgeLift.lift_cell_card
+#print axioms NativeLipschitzHeightEdgeLift.source_cell_card
+#print axioms NativeLipschitzHeightEdgeLift.select_original_edges

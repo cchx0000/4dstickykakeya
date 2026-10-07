@@ -1,0 +1,195 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/24fee5f39b9a5a2ce177b059be7fec0f96583800fc1a3f9204227349d160a3fc.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_actual_configured_base.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean"]
+SOURCE_SHA256 f7a1f335a21895dc5cd6b4a6fb25e03fa6183d48265d9a3a9a6881c85a58bf07
+LOCK_ACQUIRED_UTC 2026-10-06T12:31:35.613587+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:50:8: error: Type mismatch
+  8 * R0
+has type
+  ℝ
+but is expected to have type
+  ℕ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:87:29: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  OfNat (Matroid ?m.1182) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Matroid ?m.1182
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:87:32: error: Function expected at
+  u
+but this term has type
+  ℕ
+
+Note: Expected a function because this term is being applied to the argument
+  m
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:87:16: error: not a positivity goal
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:50:48: error: unsolved goals
+m : ℕ
+epsilon : ℝ
+he : 0 ≤ epsilon
+he4 : epsilon ≤ 1 / 4
+hsmall : (fun m => 64 / ↑(2 ^ m)) m ≤ 1 / 16
+hr : 0 < (fun m => 64 / ↑(2 ^ m)) m
+hr1 : (fun m => 64 / ↑(2 ^ m)) m ≤ 1
+hhalf : (fun m => 64 / ↑(2 ^ m)) m ^ (1 / 2) ≤ 1 / 4
+hp : (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon) ≤ (fun m => 64 / ↑(2 ^ m)) m ^ (1 / 2)
+hrp : (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon)
+herr : (fun m => 64 / ↑(2 ^ m)) m ≤ 5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon)
+target : ℝ := max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon)) ((fun m => 64 / ↑(2 ^ m)) m)
+ht : 0 < target
+htHalf : target ≤ 1 / 2
+s : ℕ
+hs : 6 ≤ s
+hlo : target ≤ 64 / ↑(2 ^ s)
+hhi : 64 / ↑(2 ^ s) ≤ 2 * target
+u : ℕ := s - 6
+hsu : s = u + 6
+hscale : 64 / ↑(2 ^ s) = 2⁻¹ ^ u
+hdepth : u + 6 ≤ m
+R0 : ℕ := 2 ^ (m - u)
+hR0 : 0 < R0
+hpow : 2 ^ (m - u) * 2 ^ u = 2 ^ m
+hbase : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 = 2⁻¹ ^ u
+hlow : target ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0
+hhigh : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ≤ 2 * target
+⊢ ∃ u,
+    u + 6 ≤ m ∧
+      let R0 := 2 ^ (m - u);
+      0 < R0 ∧
+        (fun m => 64 / ↑(2 ^ m) / 64) m * R0 = 2⁻¹ ^ u ∧
+          (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * R0 ∧
+            5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon) ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * R0 ∧
+              (fun m => 64 / ↑(2 ^ m) / 64) m * R0 ≤
+                  2 * max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon)) ((fun m => 64 / ↑(2 ^ m)) m) ∧
+                (fun m => 64 / ↑(2 ^ m) / 64) m * R0 ≤ 1 ∧
+                  ↑sorry ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilon)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:112:27: error: Type mismatch
+  8 * R0
+has type
+  ℝ
+but is expected to have type
+  ℕ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:141:4: error: linarith failed to find a contradiction
+amin finalBound : ℝ
+ha : 0 < amin
+hB : 0 < finalBound
+bound : ℝ := min finalBound (1 / 4096)
+hBound : 0 < bound
+cap : ℝ := min (1 / 16) ((64 / 5 * bound) ^ 2)
+hcap : 0 < cap
+delta0 : ℝ
+hd0 : 0 < delta0
+hd01 : delta0 ≤ 1
+H :
+  ∀ (delta r power : ℝ),
+    0 < delta →
+      delta ≤ delta0 →
+        amin ≤ power →
+          r ≤ delta ^ power → ∀ (m : ℕ), (fun m => 64 / ↑(2 ^ m)) m ^ 2 ≤ 6144 * r → (fun m => 64 / ↑(2 ^ m)) m ≤ cap
+delta r power : ℝ
+hd : 0 < delta
+hsmall : delta ≤ delta0
+hpower : amin ≤ power
+hr : r ≤ delta ^ power
+m : ℕ
+hroot : (fun m => 64 / ↑(2 ^ m)) m ^ 2 ≤ 6144 * r
+epsilon : ℝ
+he : 0 ≤ epsilon
+he4 : epsilon ≤ 1 / 4
+hrhoCap : (fun m => 64 / ↑(2 ^ m)) m ≤ cap
+hrhoSmall : (fun m => 64 / ↑(2 ^ m)) m ≤ 1 / 16
+u : ℕ
+hdepth : u + 6 ≤ m
+hR0 : 0 < 2 ^ (m - u)
+hbase : (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u) = 2⁻¹ ^ u
+hrho : (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u)
+herror : 5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon) ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u)
+hhigh :
+  (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u) ≤
+    2 * max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon)) ((fun m => 64 / ↑(2 ^ m)) m)
+hbase1 : (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u) ≤ 1
+hheight : ↑sorry ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilon)
+hrho1 : (fun m => 64 / ↑(2 ^ m)) m ≤ 1
+hp : (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon) ≤ √((fun m => 64 / ↑(2 ^ m)) m)
+hrootCap : √((fun m => 64 / ↑(2 ^ m)) m) ≤ 64 / 5 * bound
+hlow : (fun m => 64 / ↑(2 ^ m)) m ≤ √((fun m => 64 / ↑(2 ^ m)) m)
+htarget :
+  max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon)) ((fun m => 64 / ↑(2 ^ m)) m) ≤
+    5 / 4 * √((fun m => 64 / ↑(2 ^ m)) m)
+a✝ : bound ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) / 64
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:155:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u)
+in the target expression
+  (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) / 64 < 1 / 4096
+
+amin finalBound : ℝ
+ha : 0 < amin
+hB : 0 < finalBound
+bound : ℝ := min finalBound (1 / 4096)
+hBound : 0 < bound
+cap : ℝ := min (1 / 16) ((64 / 5 * bound) ^ 2)
+hcap : 0 < cap
+delta0 : ℝ
+hd0 : 0 < delta0
+hd01 : delta0 ≤ 1
+H :
+  ∀ (delta r power : ℝ),
+    0 < delta →
+      delta ≤ delta0 →
+        amin ≤ power →
+          r ≤ delta ^ power → ∀ (m : ℕ), (fun m => 64 / ↑(2 ^ m)) m ^ 2 ≤ 6144 * r → (fun m => 64 / ↑(2 ^ m)) m ≤ cap
+delta r power : ℝ
+hd : 0 < delta
+hsmall : delta ≤ delta0
+hpower : amin ≤ power
+hr : r ≤ delta ^ power
+m : ℕ
+hroot : (fun m => 64 / ↑(2 ^ m)) m ^ 2 ≤ 6144 * r
+epsilon : ℝ
+he : 0 ≤ epsilon
+he4 : epsilon ≤ 1 / 4
+hrhoCap : (fun m => 64 / ↑(2 ^ m)) m ≤ cap
+hrhoSmall : (fun m => 64 / ↑(2 ^ m)) m ≤ 1 / 16
+u : ℕ
+hdepth : u + 6 ≤ m
+hR0 : 0 < 2 ^ (m - u)
+hbase : (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u) = 2⁻¹ ^ u
+hrho : (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u)
+herror : 5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon) ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u)
+hhigh :
+  (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u) ≤
+    2 * max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon)) ((fun m => 64 / ↑(2 ^ m)) m)
+hbase1 : (fun m => 64 / ↑(2 ^ m) / 64) m * 2 ^ (m - u) ≤ 1
+hheight : ↑sorry ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilon)
+hrho1 : (fun m => 64 / ↑(2 ^ m)) m ≤ 1
+hp : (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon) ≤ √((fun m => 64 / ↑(2 ^ m)) m)
+hrootCap : √((fun m => 64 / ↑(2 ^ m)) m) ≤ 64 / 5 * bound
+hlow : (fun m => 64 / ↑(2 ^ m)) m ≤ √((fun m => 64 / ↑(2 ^ m)) m)
+htarget :
+  max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon)) ((fun m => 64 / ↑(2 ^ m)) m) ≤
+    5 / 4 * √((fun m => 64 / ↑(2 ^ m)) m)
+hFinal : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) / 64 < bound
+hTiny : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) / 64 < 1 / 4096
+hu : ¬6 ≤ u
+hu5 : u ≤ 5
+hPow : 2 ^ u ≤ 32
+hProd : 2 ^ u * 2⁻¹ ^ u = 1
+hPos : 0 < 2⁻¹ ^ u
+hMul : 1 ≤ 32 * 2⁻¹ ^ u
+⊢ False
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_configured_base.lean:188:22: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  0 ≤ c ≤ 5
+  b ≥ 0
+  a ≥ 0
+  a - b ≥ 6
+where
+ a := ↑m
+ b := ↑u
+ c := ↑(preparedDepths u depths 0)
+LEAN_FINISHED_UTC 2026-10-06T12:33:34.871573+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

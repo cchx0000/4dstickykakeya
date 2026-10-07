@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_configured_Y_quarter_square
+import Theorems.Thm_StickyKakeya4_native_single_height_coarse_Y_ad
+import Theorems.Thm_StickyKakeya4_native_third_single_height_Y_ad
+set_option autoImplicit false
+#print axioms NativeConfiguredYQuarterSquare.contracted_midpoint_bound
+#print axioms NativeConfiguredYQuarterSquare.source_quarter_square
+#print axioms NativeSingleHeightCoarseYAD.coarseConstant
+#print axioms NativeSingleHeightCoarseYAD.finalConstant
+#print axioms NativeSingleHeightCoarseYAD.coarse_contracted_AD
+#print axioms NativeSingleHeightCoarseYAD.key_image_eq_one_height
+#print axioms NativeThirdSingleHeightYAD.from_third_data

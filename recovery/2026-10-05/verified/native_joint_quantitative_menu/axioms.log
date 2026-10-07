@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_joint_quantitative_menu_readback.lean"]
+SOURCE_SHA256 57f333db0eda2aa2d6d40a2e60f94bc8b0a74131fce153391baaf76ab4f04bfb
+FIFO compiler ticket: 01791180456265899270-61ae1855f33b4ab2ac15a9d580b6f8a6.request
+FIFO compiler acquired UTC: 2026-10-05T06:07:36.267005+00:00
+'NativeJointQuantitativeMenu.HasCoarseScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeJointQuantitativeMenu.joint_upper_with_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeJointQuantitativeMenu.joint_quantitative_relations' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_coarse_upper_interpolation
+
+#print axioms NativeCoarseUpperInterpolation.forward_upper
+#print axioms NativeCoarseUpperInterpolation.reverse_upper

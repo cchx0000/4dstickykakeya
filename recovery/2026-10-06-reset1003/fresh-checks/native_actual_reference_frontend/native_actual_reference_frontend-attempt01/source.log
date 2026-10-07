@@ -1,0 +1,435 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/6d783e5452df31dbb637f5e713dad6fe73a0d929201fb105bd915b0077d2af68.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean"]
+SOURCE_SHA256 415271b8faa59a285878e94b336d5ffeae2ab7b0956b29af25da9bbd160917ff
+LOCK_ACQUIRED_UTC 2026-10-06T21:26:25.094907+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:466:4: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:583:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u))
+in the target expression
+  mu m * ↑R0 / 64 = eps
+
+amin finalBound rBound : ℝ
+ha : 0 < amin
+hFinal : 0 < finalBound
+hBound : 0 < rBound
+deltaBase : ℝ
+hdBase : 0 < deltaBase
+hdBase1 : deltaBase ≤ 1
+Hbase :
+  ∀ (delta r power : ℝ),
+    0 < delta →
+      delta ≤ deltaBase →
+        amin ≤ power →
+          r ≤ delta ^ power →
+            ∀ (m : ℕ),
+              (fun m => 64 / ↑(2 ^ m)) m ^ 2 ≤ 6144 * r →
+                ∀ (epsilon : ℝ),
+                  0 ≤ epsilon →
+                    epsilon ≤ 1 / 4 →
+                      ∃ u,
+                        6 ≤ u ∧
+                          u + 6 ≤ m ∧
+                            have R0 := 2 ^ (m - u);
+                            0 < R0 ∧
+                              (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 = 2⁻¹ ^ u ∧
+                                (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ∧
+                                  5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon) ≤
+                                      (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ∧
+                                    (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ≤
+                                        2 *
+                                          max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon))
+                                            ((fun m => 64 / ↑(2 ^ m)) m) ∧
+                                      (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ≤ 1 ∧
+                                        ↑(8 * R0) ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilon) ∧
+                                          (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 / 64 < finalBound
+deltaWindow : ℝ
+hdWindow : 0 < deltaWindow
+_hdWindow1 : deltaWindow ≤ 1
+Hwindow :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta a : ℝ) (h : IsWangZakharovNativeFiniteInput D eta) (R : Finset (Fin n))
+    (Eref : Finset (Fin n × Index)) (m : ℕ) (p : Parent) (rStop power epsilonGeom eps : ℝ),
+    D.thickness ≤ deltaWindow →
+      amin ≤ power →
+        rStop ≤ D.thickness ^ power →
+          rho m ^ 2 ≤ 6144 * rStop →
+            rho m ≤ 1 →
+              0 < eps →
+                0 ≤ epsilonGeom →
+                  epsilonGeom ≤ 1 / 4 →
+                    64 * eps ≤ 2 * max (5 / 4 * rho m ^ (1 - 2 * epsilonGeom)) (rho m) →
+                      eps ≤ (source h R Eref a m p).thickness ^ (amin / 8)
+delta0 : ℝ := min deltaBase (min deltaWindow (rBound ^ 2))
+hd0 : 0 < delta0
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref : Finset (Fin n × Index)
+p : Parent
+level stop : ℕ
+rStop power epsilonGeom : ℝ
+hsmall : D.thickness ≤ delta0
+hdy : D.thickness = 2⁻¹ ^ level
+hstop : 6 ≤ stop
+hstopCap : stop ≤ level / 4
+hpower : amin ≤ power
+hStop : rStop ≤ D.thickness ^ power
+hRhoStop : rho (middleDepth stop) ^ 2 ≤ 6144 * rStop
+hscale : D.thickness ≤ rho (middleDepth stop) ^ 2
+heGeom : 0 ≤ epsilonGeom
+heGeom4 : epsilonGeom ≤ 1 / 4
+m : ℕ := middleDepth stop
+hBaseSmall : D.thickness ≤ deltaBase
+hWindowSmall : D.thickness ≤ deltaWindow
+hBoundSmall : D.thickness ≤ rBound ^ 2
+u : ℕ
+hu6 : 6 ≤ u
+huM : u + 6 ≤ m
+hR0 : 0 < 2 ^ (m - u)
+hbaseEq : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) = 2⁻¹ ^ u
+hRho : (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u))
+hError : 5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilonGeom) ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u))
+hHigh :
+  (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) ≤
+    2 * max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilonGeom)) ((fun m => 64 / ↑(2 ^ m)) m)
+hBase1 : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) ≤ 1
+hHeight : ↑(8 * 2 ^ (m - u)) ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilonGeom)
+hFinalSmall : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) / 64 < finalBound
+R0 : ℕ := 2 ^ (m - u)
+eps : ℝ := 64 / ↑(2 ^ (u + 12))
+heps : 0 < eps
+⊢ mu m * ↑R0 / 64 = eps
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:589:4: error: linarith failed to find a contradiction
+case h1
+amin finalBound rBound : ℝ
+ha : 0 < amin
+hFinal : 0 < finalBound
+hBound : 0 < rBound
+deltaBase : ℝ
+hdBase : 0 < deltaBase
+hdBase1 : deltaBase ≤ 1
+Hbase :
+  ∀ (delta r power : ℝ),
+    0 < delta →
+      delta ≤ deltaBase →
+        amin ≤ power →
+          r ≤ delta ^ power →
+            ∀ (m : ℕ),
+              (fun m => 64 / ↑(2 ^ m)) m ^ 2 ≤ 6144 * r →
+                ∀ (epsilon : ℝ),
+                  0 ≤ epsilon →
+                    epsilon ≤ 1 / 4 →
+                      ∃ u,
+                        6 ≤ u ∧
+                          u + 6 ≤ m ∧
+                            have R0 := 2 ^ (m - u);
+                            0 < R0 ∧
+                              (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 = 2⁻¹ ^ u ∧
+                                (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ∧
+                                  5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon) ≤
+                                      (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ∧
+                                    (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ≤
+                                        2 *
+                                          max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon))
+                                            ((fun m => 64 / ↑(2 ^ m)) m) ∧
+                                      (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ≤ 1 ∧
+                                        ↑(8 * R0) ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilon) ∧
+                                          (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 / 64 < finalBound
+deltaWindow : ℝ
+hdWindow : 0 < deltaWindow
+_hdWindow1 : deltaWindow ≤ 1
+Hwindow :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta a : ℝ) (h : IsWangZakharovNativeFiniteInput D eta) (R : Finset (Fin n))
+    (Eref : Finset (Fin n × Index)) (m : ℕ) (p : Parent) (rStop power epsilonGeom eps : ℝ),
+    D.thickness ≤ deltaWindow →
+      amin ≤ power →
+        rStop ≤ D.thickness ^ power →
+          rho m ^ 2 ≤ 6144 * rStop →
+            rho m ≤ 1 →
+              0 < eps →
+                0 ≤ epsilonGeom →
+                  epsilonGeom ≤ 1 / 4 →
+                    64 * eps ≤ 2 * max (5 / 4 * rho m ^ (1 - 2 * epsilonGeom)) (rho m) →
+                      eps ≤ (source h R Eref a m p).thickness ^ (amin / 8)
+delta0 : ℝ := min deltaBase (min deltaWindow (rBound ^ 2))
+hd0 : 0 < delta0
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref : Finset (Fin n × Index)
+p : Parent
+level stop : ℕ
+rStop power epsilonGeom : ℝ
+hsmall : D.thickness ≤ delta0
+hdy : D.thickness = 2⁻¹ ^ level
+hstop : 6 ≤ stop
+hstopCap : stop ≤ level / 4
+hpower : amin ≤ power
+hStop : rStop ≤ D.thickness ^ power
+hRhoStop : rho (middleDepth stop) ^ 2 ≤ 6144 * rStop
+hscale : D.thickness ≤ rho (middleDepth stop) ^ 2
+heGeom : 0 ≤ epsilonGeom
+heGeom4 : epsilonGeom ≤ 1 / 4
+m : ℕ := middleDepth stop
+hBaseSmall : D.thickness ≤ deltaBase
+hWindowSmall : D.thickness ≤ deltaWindow
+hBoundSmall : D.thickness ≤ rBound ^ 2
+u : ℕ
+hu6 : 6 ≤ u
+huM : u + 6 ≤ m
+hR0 : 0 < 2 ^ (m - u)
+hbaseEq : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) = 2⁻¹ ^ u
+hRho : (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u))
+hError : 5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilonGeom) ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u))
+hHigh :
+  (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) ≤
+    2 * max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilonGeom)) ((fun m => 64 / ↑(2 ^ m)) m)
+hBase1 : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) ≤ 1
+hHeight : ↑(8 * 2 ^ (m - u)) ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilonGeom)
+hFinalSmall : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) / 64 < finalBound
+R0 : ℕ := 2 ^ (m - u)
+eps : ℝ := 64 / ↑(2 ^ (u + 12))
+heps : 0 < eps
+hmesh : mu m * ↑R0 / 64 = eps
+hh : 64 * (mu m * ↑R0 / 64) = 64 * (64 / ↑(2 ^ (u + 12)))
+a✝ : mu m * ↑R0 < 4096 / ↑(2 ^ (u + 12))
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:607:7: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  mu m * ↑R0 / 64
+in the target expression
+  (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) / 64 < finalBound
+
+amin finalBound rBound : ℝ
+ha : 0 < amin
+hFinal : 0 < finalBound
+hBound : 0 < rBound
+deltaBase : ℝ
+hdBase : 0 < deltaBase
+hdBase1 : deltaBase ≤ 1
+Hbase :
+  ∀ (delta r power : ℝ),
+    0 < delta →
+      delta ≤ deltaBase →
+        amin ≤ power →
+          r ≤ delta ^ power →
+            ∀ (m : ℕ),
+              (fun m => 64 / ↑(2 ^ m)) m ^ 2 ≤ 6144 * r →
+                ∀ (epsilon : ℝ),
+                  0 ≤ epsilon →
+                    epsilon ≤ 1 / 4 →
+                      ∃ u,
+                        6 ≤ u ∧
+                          u + 6 ≤ m ∧
+                            have R0 := 2 ^ (m - u);
+                            0 < R0 ∧
+                              (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 = 2⁻¹ ^ u ∧
+                                (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ∧
+                                  5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon) ≤
+                                      (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ∧
+                                    (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ≤
+                                        2 *
+                                          max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilon))
+                                            ((fun m => 64 / ↑(2 ^ m)) m) ∧
+                                      (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 ≤ 1 ∧
+                                        ↑(8 * R0) ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilon) ∧
+                                          (fun m => 64 / ↑(2 ^ m) / 64) m * ↑R0 / 64 < finalBound
+deltaWindow : ℝ
+hdWindow : 0 < deltaWindow
+_hdWindow1 : deltaWindow ≤ 1
+Hwindow :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta a : ℝ) (h : IsWangZakharovNativeFiniteInput D eta) (R : Finset (Fin n))
+    (Eref : Finset (Fin n × Index)) (m : ℕ) (p : Parent) (rStop power epsilonGeom eps : ℝ),
+    D.thickness ≤ deltaWindow →
+      amin ≤ power →
+        rStop ≤ D.thickness ^ power →
+          rho m ^ 2 ≤ 6144 * rStop →
+            rho m ≤ 1 →
+              0 < eps →
+                0 ≤ epsilonGeom →
+                  epsilonGeom ≤ 1 / 4 →
+                    64 * eps ≤ 2 * max (5 / 4 * rho m ^ (1 - 2 * epsilonGeom)) (rho m) →
+                      eps ≤ (source h R Eref a m p).thickness ^ (amin / 8)
+delta0 : ℝ := min deltaBase (min deltaWindow (rBound ^ 2))
+hd0 : 0 < delta0
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref : Finset (Fin n × Index)
+p : Parent
+level stop : ℕ
+rStop power epsilonGeom : ℝ
+hsmall : D.thickness ≤ delta0
+hdy : D.thickness = 2⁻¹ ^ level
+hstop : 6 ≤ stop
+hstopCap : stop ≤ level / 4
+hpower : amin ≤ power
+hStop : rStop ≤ D.thickness ^ power
+hRhoStop : rho (middleDepth stop) ^ 2 ≤ 6144 * rStop
+hscale : D.thickness ≤ rho (middleDepth stop) ^ 2
+heGeom : 0 ≤ epsilonGeom
+heGeom4 : epsilonGeom ≤ 1 / 4
+m : ℕ := middleDepth stop
+hBaseSmall : D.thickness ≤ deltaBase
+hWindowSmall : D.thickness ≤ deltaWindow
+hBoundSmall : D.thickness ≤ rBound ^ 2
+u : ℕ
+hu6 : 6 ≤ u
+huM : u + 6 ≤ m
+hR0 : 0 < 2 ^ (m - u)
+hbaseEq : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) = 2⁻¹ ^ u
+hRho : (fun m => 64 / ↑(2 ^ m)) m ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u))
+hError : 5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilonGeom) ≤ (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u))
+hHigh :
+  (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) ≤
+    2 * max (5 / 4 * (fun m => 64 / ↑(2 ^ m)) m ^ (1 - 2 * epsilonGeom)) ((fun m => 64 / ↑(2 ^ m)) m)
+hBase1 : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) ≤ 1
+hHeight : ↑(8 * 2 ^ (m - u)) ≤ 1280 * (fun m => 64 / ↑(2 ^ m) / 64) m ^ (-2 * epsilonGeom)
+hFinalSmall : (fun m => 64 / ↑(2 ^ m) / 64) m * ↑(2 ^ (m - u)) / 64 < finalBound
+R0 : ℕ := 2 ^ (m - u)
+eps : ℝ := 64 / ↑(2 ^ (u + 12))
+heps : 0 < eps
+hmesh : mu m * ↑R0 / 64 = eps
+hmatch : mu m * ↑R0 = 4096 / ↑(2 ^ (u + 12))
+hdepth : middleDepth stop + (u + 12) ≤ level
+hLower : 64 * (source h R Eref a m p).thickness ≤ 64 / ↑(2 ^ (u + 12))
+hRho1 : rho m ≤ 1
+hshapeBound : 64 * eps ≤ 2 * max (5 / 4 * rho m ^ (1 - 2 * epsilonGeom)) (rho m)
+hUpper : eps ≤ (source h R Eref a m p).thickness ^ (amin / 8)
+hSq : (source h R Eref a m p).thickness ^ 2 ≤ D.thickness
+hSource0 : 0 ≤ (source h R Eref a m p).thickness
+hSourceBound : (source h R Eref a m p).thickness ≤ rBound
+⊢ 64 / ↑(2 ^ (u + 12)) < finalBound
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:674:2: error: linarith failed to find a contradiction
+stop level : ℕ
+delta r : ℝ
+hs : 6 ≤ stop
+hcap : stop ≤ level / 4
+hd : 0 < delta
+hr : 0 < r
+hr1 : r ≤ 1
+hsmall : 64 * delta ≤ r ^ 2
+hidentity : 48 * ↑(2 ^ stop) * r = 1
+m : ℕ := middleDepth stop
+_hm6 : 6 ≤ middleDepth stop
+_hms : middleDepth stop ≤ stop
+_hlo : stop - 1 ≤ phaseDepth (middleDepth stop)
+hfine : phaseDepth (middleDepth stop) ≤ stop
+_hRho : 0 < 64 / ↑(2 ^ middleDepth stop)
+_hRho1 : 64 / ↑(2 ^ middleDepth stop) ≤ 1
+_hSquare : 64 / ↑(2 ^ phaseDepth (middleDepth stop)) = (64 / ↑(2 ^ middleDepth stop)) ^ 2
+hRlo : 3072 * r ≤ (64 / ↑(2 ^ middleDepth stop)) ^ 2
+hRhi : (64 / ↑(2 ^ middleDepth stop)) ^ 2 ≤ 6144 * r
+hFine : phaseDepth m ≤ level
+hrSquare : r ^ 2 ≤ r
+a✝ : rho m ^ 2 < delta
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:718:20: error(lean.unknownIdentifier): Unknown identifier `quotientCost`
+
+Note: It is not possible to treat `quotientCost` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:721:7: error: unsolved goals
+n d J : ℕ
+D : FiniteScaleSource n
+eta zeta a : ℝ
+m : ℕ
+plane : Index → Submodule ℝ E4
+E2 Hgraph U T : Finset (Fin n × Index)
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+f : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+p : Parent
+lambda W tau seed c2 q Cpre threshold : ℝ
+F1 G Q2 K L3 : ℕ
+Rel : Fin d → Fin n × Index → Fin n × Index → Prop
+b : ℝ := W / ↑(#E2)
+pop : ℝ := lambda * W / (2 * ↑F1 * ↑G * ↑(#E2)) * D.thickness ^ eta
+popBudget : ℝ := population D.thickness eta lambda b ↑F1 ↑G
+col : ℝ := columnEpsilon D.thickness lambda (seed / 8) c2
+window : ℝ := min (boundaryWindow tau) (tau / 16 / 1000)
+F3 : ℕ := refinementCost (d + 2) (J + 1) L3
+Q3 : ℕ := NativeSourceSizeBounds.radix (#U) L3
+CX : ℝ := Cpre / sorry * fiberCoefficient D.thickness eta zeta tau (seed / 8) c2 lambda b F1 G Q2 F3 Q3 q 2
+⊢ 1 ≤ ?m.236
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:721:21: error: unsolved goals
+n d J : ℕ
+D : FiniteScaleSource n
+eta zeta a : ℝ
+m : ℕ
+plane : Index → Submodule ℝ E4
+E2 Hgraph U T : Finset (Fin n × Index)
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+f : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+p : Parent
+lambda W tau seed c2 q Cpre threshold : ℝ
+F1 G Q2 K L3 : ℕ
+Rel : Fin d → Fin n × Index → Fin n × Index → Prop
+b : ℝ := W / ↑(#E2)
+pop : ℝ := lambda * W / (2 * ↑F1 * ↑G * ↑(#E2)) * D.thickness ^ eta
+popBudget : ℝ := population D.thickness eta lambda b ↑F1 ↑G
+col : ℝ := columnEpsilon D.thickness lambda (seed / 8) c2
+window : ℝ := min (boundaryWindow tau) (tau / 16 / 1000)
+F3 : ℕ := refinementCost (d + 2) (J + 1) L3
+Q3 : ℕ := NativeSourceSizeBounds.radix (#U) L3
+CX : ℝ := Cpre / sorry * fiberCoefficient D.thickness eta zeta tau (seed / 8) c2 lambda b F1 G Q2 F3 Q3 q 2
+⊢ ?m.236 ≤ 4
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:725:7: error: unsolved goals
+n d J : ℕ
+D : FiniteScaleSource n
+eta zeta a : ℝ
+m : ℕ
+plane : Index → Submodule ℝ E4
+E2 Hgraph U T : Finset (Fin n × Index)
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+f : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+p : Parent
+lambda W tau seed c2 q Cpre threshold : ℝ
+F1 G Q2 K L3 : ℕ
+Rel : Fin d → Fin n × Index → Fin n × Index → Prop
+b : ℝ := W / ↑(#E2)
+pop : ℝ := lambda * W / (2 * ↑F1 * ↑G * ↑(#E2)) * D.thickness ^ eta
+popBudget : ℝ := population D.thickness eta lambda b ↑F1 ↑G
+col : ℝ := columnEpsilon D.thickness lambda (seed / 8) c2
+window : ℝ := min (boundaryWindow tau) (tau / 16 / 1000)
+F3 : ℕ := refinementCost (d + 2) (J + 1) L3
+Q3 : ℕ := NativeSourceSizeBounds.radix (#U) L3
+CX : ℝ := Cpre / sorry * fiberCoefficient D.thickness eta zeta tau (seed / 8) c2 lambda b F1 G Q2 F3 Q3 q 2
+⊢ 1 ≤ ?m.241
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_reference_frontend.lean:725:21: error: unsolved goals
+n d J : ℕ
+D : FiniteScaleSource n
+eta zeta a : ℝ
+m : ℕ
+plane : Index → Submodule ℝ E4
+E2 Hgraph U T : Finset (Fin n × Index)
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+f : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+p : Parent
+lambda W tau seed c2 q Cpre threshold : ℝ
+F1 G Q2 K L3 : ℕ
+Rel : Fin d → Fin n × Index → Fin n × Index → Prop
+b : ℝ := W / ↑(#E2)
+pop : ℝ := lambda * W / (2 * ↑F1 * ↑G * ↑(#E2)) * D.thickness ^ eta
+popBudget : ℝ := population D.thickness eta lambda b ↑F1 ↑G
+col : ℝ := columnEpsilon D.thickness lambda (seed / 8) c2
+window : ℝ := min (boundaryWindow tau) (tau / 16 / 1000)
+F3 : ℕ := refinementCost (d + 2) (J + 1) L3
+Q3 : ℕ := NativeSourceSizeBounds.radix (#U) L3
+CX : ℝ := Cpre / sorry * fiberCoefficient D.thickness eta zeta tau (seed / 8) c2 lambda b F1 G Q2 F3 Q3 q 2
+⊢ ?m.241 ≤ 4
+LEAN_FINISHED_UTC 2026-10-06T21:27:09.032303+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

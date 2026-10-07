@@ -1,0 +1,55 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_fixed_horizontal_menu",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_fixed_horizontal_menu.lean",
+  "source_sha256": "9c5d497659e20ae89c0e7167f3848df7843648234e771ef8494b2f663556d706",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_fixed_horizontal_menu.olean",
+  "names": [
+    "NativeFixedHorizontalMenu.depths",
+    "NativeFixedHorizontalMenu.depths_zero",
+    "NativeFixedHorizontalMenu.depths_last",
+    "NativeFixedHorizontalMenu.depths_bounds",
+    "NativeFixedHorizontalMenu.depths_monotone",
+    "NativeFixedHorizontalMenu.depths_gap"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:50:23.197991+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "0b0adb706f814b54aa11631a35f188c078daa9cfb6c3c99e2edfcf752293e09a",
+  "source_execution_complete_utc": "2026-10-05T16:50:32.843049+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T165126334039",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeFixedHorizontalMenu.depths": [
+      "propext"
+    ],
+    "NativeFixedHorizontalMenu.depths_zero": [
+      "propext"
+    ],
+    "NativeFixedHorizontalMenu.depths_last": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeFixedHorizontalMenu.depths_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedHorizontalMenu.depths_monotone": [
+      "propext"
+    ],
+    "NativeFixedHorizontalMenu.depths_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:51:31.578773+00:00"
+}

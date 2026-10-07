@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_conditional_angular_count_transfer
+
+#print axioms NativeConditionalAngularCountTransfer.nested_parent_power
+#print axioms NativeConditionalAngularCountTransfer.nested_relative_width
+#print axioms NativeConditionalAngularCountTransfer.nested_angular_count
+#print axioms NativeConditionalAngularCountTransfer.conditional_angular_count

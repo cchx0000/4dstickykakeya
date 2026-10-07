@@ -1,0 +1,6 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "-o", "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_angular_test_scale.olean", "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_angular_test_scale.lean"]
+SOURCE_SHA256 bbce8301af81e7956060e958c39897ad3cb698785be09e71496387aab568a721
+Dedicated staging slot 3 acquired UTC: 2026-10-05T18:42:36.548583+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8562128 kB
+
+EXIT_CODE=0

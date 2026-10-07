@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141744882086", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141744882086/AggregateReadback.lean"]
+READBACK_SHA256 07141c4cc085a2f3e766ce5e6d11e1ae4a29d936fa4138685db842c3806300c2
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:17:45.752853+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8769508 kB
+'NativeDensePhaseParentRetention.exists_retained_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDensePhaseParentRetention.parent_region_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDensePhaseParentRetention.source_dense_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeDensePhaseParentRetention.support_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

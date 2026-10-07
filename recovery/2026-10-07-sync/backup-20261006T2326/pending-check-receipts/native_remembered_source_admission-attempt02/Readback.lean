@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_remembered_source_admission
+set_option autoImplicit false
+#print axioms NativeRememberedSourceAdmission.native_of_selected_shading

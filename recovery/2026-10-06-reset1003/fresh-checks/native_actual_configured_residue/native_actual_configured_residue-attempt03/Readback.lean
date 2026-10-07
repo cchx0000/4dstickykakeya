@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_actual_configured_residue
+set_option autoImplicit false
+#print axioms NativeActualConfiguredResidue.parameter
+#print axioms NativeActualConfiguredResidue.parameter_height
+#print axioms NativeActualConfiguredResidue.parameterX_eq_coarse
+#print axioms NativeActualConfiguredResidue.parameterY_eq_recoded
+#print axioms NativeActualConfiguredResidue.parameterY_of_frozen
+#print axioms NativeActualConfiguredResidue.graphGrid_eq
+#print axioms NativeActualConfiguredResidue.graphGrid_eq_iff_parameter
+#print axioms NativeActualConfiguredResidue.graphGrid_eq_iff_keys
+#print axioms NativeActualConfiguredResidue.select_actual_edges

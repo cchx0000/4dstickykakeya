@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_iterated_projection_grains
+
+#print axioms NativeIteratedProjectionGrains.minimumFiber_attained
+#print axioms NativeIteratedProjectionGrains.iterated_grain_count
+#print axioms NativeIteratedProjectionGrains.native_chain_grain_count

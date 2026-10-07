@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_two_stage_point_retention_readback.lean"]
+SOURCE_SHA256 9fdf20954c11f927f674a08d750de0054bb26a0f2b5c8a0c3674b9503982b9d4
+FIFO compiler ticket: 01791189123334463373-74af8e60a6a14754a4835b6e76da4269.request
+FIFO compiler acquired UTC: 2026-10-05T08:32:03.335520+00:00
+'NativeTwoStagePointRetention.point_retention_of_two_uniformities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

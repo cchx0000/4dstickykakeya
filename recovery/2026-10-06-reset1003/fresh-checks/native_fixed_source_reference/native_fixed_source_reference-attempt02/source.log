@@ -1,0 +1,42 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/45522c4aa7dbae0d82b9697e91c71bd08dd5d5afc7049892f1def2d9903563f2.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean"]
+SOURCE_SHA256 616b950a86c589277c5085d6c0344f94de476a564fecb9cdb20eb8e8f838e292
+LOCK_ACQUIRED_UTC 2026-10-06T20:15:24.411285+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:644:47: error: Application type mismatch: The argument
+  zeta
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.32 ?m.33
+in the application
+  Graph.IsSpanningSubgraph zeta
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:644:53: error(lean.unknownIdentifier): Unknown identifier `eed`
+
+Note: It is not possible to treat `eed` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:646:15: error: Application type mismatch: The argument
+  eta0
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.81 ?m.82
+in the application
+  Graph.IsSpanningSubgraph eta0
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:646:21: error(lean.unknownIdentifier): Unknown identifier `eed`
+
+Note: It is not possible to treat `eed` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:649:21: error(lean.unknownIdentifier): Unknown identifier `fixedCompactClass`
+
+Note: It is not possible to treat `fixedCompactClass` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:653:8: error: Type mismatch
+  unionCost * D.thickness ^ eta
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.133 ?m.134
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_source_reference.lean:653:35: error(lean.unknownIdentifier): Unknown identifier `hadeLower`
+
+Note: It is not possible to treat `hadeLower` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+LEAN_FINISHED_UTC 2026-10-06T20:18:05.168570+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_joint_actual_near_balance
+#print axioms NativeJointActualNearBalance.HasNearScale
+#print axioms NativeJointActualNearBalance.joint_actual_near_balance

@@ -1,0 +1,9 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/cdf5ae2f80208e850e76e025d41be19795683c932c9c857d99ab2d5ccfb633d1.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_zero_parent_radius_containment-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_zero_parent_radius_containment-attempt01/Readback.lean"]
+SOURCE_SHA256 13656677071001afd755298d1806d190ece1ef89c484cdc12f20b8aebf704f2a
+'NativeZeroParentRadiusContainment.radius_infDist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeZeroParentRadiusContainment.rounded_radius_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeZeroParentRadiusContainment.actual_configured_radius_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

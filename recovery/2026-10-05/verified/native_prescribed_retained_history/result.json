@@ -1,0 +1,44 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_prescribed_retained_history",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_prescribed_retained_history.lean",
+  "source_sha256": "3671db769dc8e846721ed297d793d47dbf755072b7c8fef15e355306f9ea7593",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_prescribed_retained_history.olean",
+  "names": [
+    "NativePrescribedRetainedHistory.HasPrescribedRetainedHistory",
+    "NativePrescribedRetainedHistory.prescribed_retained_forget",
+    "NativePrescribedRetainedHistory.construct_prescribed_retained_history"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:32:55.776013+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "9b38bc3d6f528ab0e4923b1ef9eead20b317cc7dbbd5bfff4d85190f6bdb84cf",
+  "source_execution_complete_utc": "2026-10-05T16:33:01.209101+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164047926585",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativePrescribedRetainedHistory.HasPrescribedRetainedHistory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedRetainedHistory.prescribed_retained_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedRetainedHistory.construct_prescribed_retained_history": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:40:57.151575+00:00"
+}

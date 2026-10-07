@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_Y_variable_common_scale_selection
+import Theorems.Thm_StickyKakeya4_native_full_chart_cell_visits
+set_option autoImplicit false
+#print axioms NativeYCommonScaleSelection.variable_retention_select_common
+#print axioms NativeFullChartCellVisits.graphBase
+#print axioms NativeFullChartCellVisits.graphSlope
+#print axioms NativeFullChartCellVisits.actual_full_source_visits

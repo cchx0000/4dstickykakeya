@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_graph_physical_localization
+set_option autoImplicit false
+#print axioms NativeGraphPhysicalLocalization.vertices_le_sum_local
+#print axioms NativeGraphPhysicalLocalization.sum_local_tubes_le
+#print axioms NativeGraphPhysicalLocalization.exists_cell_with_height_density
+#print axioms NativeGraphPhysicalLocalization.actual_physical_cell

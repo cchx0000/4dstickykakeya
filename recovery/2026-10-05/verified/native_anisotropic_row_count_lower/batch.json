@@ -1,0 +1,47 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:52:57.161173+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145256331010",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T145256331010/AggregateReadback.lean"
+  ],
+  "readback_sha256": "39a24e6fcd839dff6cf52acc76f91e04da430346feba8ea2a08fc115568390f0",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_horizontal_readback",
+      "source_sha256": "e1a59f274b00a20aa1516abecb0f1a28c3f40d6422ee09e2351b019e535a71c1",
+      "olean_sha256": "7788740c0927b7cd36eebd445f2c9608151259d797ea167a9ac799ae0181631b",
+      "names": [
+        "NativeParentHorizontalReadback.local_slope_difference",
+        "NativeParentHorizontalReadback.physical_map_horizontal_difference",
+        "NativeParentHorizontalReadback.physical_map_horizontal_infDist"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_row_count_lower",
+      "source_sha256": "aef10b0d8ac080a377b8dd7b9ac76a71b39d21ff07c4d120739febd2e6a8805b",
+      "olean_sha256": "3085e486e1931ec5900e76d3c3305425b82b7a048aaa8fadc75548da4fd3464e",
+      "names": [
+        "NativeAnisotropicRowCountLower.image_row_count_lower",
+        "NativeAnisotropicRowCountLower.shortEdges_subset_parent",
+        "NativeAnisotropicRowCountLower.chargeConstant",
+        "NativeAnisotropicRowCountLower.parent_counts_of_actual_rows",
+        "NativeAnisotropicRowCountLower.queried_parent_counts_lower"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:53:01.772972+00:00",
+  "exit_code": 0
+}

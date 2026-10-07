@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_master_successor_menu
+
+#print axioms NativeMasterSuccessorMenu.from_master_reference

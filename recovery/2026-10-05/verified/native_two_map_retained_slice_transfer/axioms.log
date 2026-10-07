@@ -1,0 +1,92 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T172640548218", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T172640548218/AggregateReadback.lean"]
+READBACK_SHA256 3d584726ff047762a7dd35ccf5723a143eca74c3f7d5e84929e4ab4ffb2b938b
+Dedicated staging slot 3 acquired UTC: 2026-10-05T17:26:41.388508+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8779328 kB
+'NativeActualReferenceWCount.point_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWCount.retained_original_W_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWCount.tube_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWDirections.full_direction_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWDirections.representative_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWDirections.slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWDirections.witness_full_direction_conditions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualReferenceWGeometry.equal_column_height_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWGeometry.heightColumnCost' depends on axioms: [propext]
+'NativeActualReferenceWGeometry.incidence_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWGeometry.incidences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWGeometry.pointsAt_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWGeometry.same_phase_height_column_halo' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIncidentAffineAnchorGeometry.anchorTube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentAffineAnchorGeometry.anchorTube_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentAffineAnchorGeometry.coordinates_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentAffineAnchorGeometry.coordinates_normal_sub_matrix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIncidentAffineAnchorGeometry.exists_incident_affine_anchors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIncidentAffineAnchorGeometry.localHorizontalSlope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentAffineAnchorGeometry.localHorizontalSlope_mem_heightKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIncidentAffineAnchorGeometry.localHorizontalSlope_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeIncidentAffineAnchorGeometry.localHorizontalSlope_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentAffineAnchorGeometry.normalCoordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeIncidentAffineAnchorSource.exists_actual_incident_affine_anchors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceSliceBudgetAlgebra.actual_reference_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetAlgebra.columnEpsilon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetAlgebra.population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetAlgebra.profileLower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetAlgebra.profileUpper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetAlgebra.ratioConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetAlgebra.ratioConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetAlgebra.reference_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetCosts.first_retention_density_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceSliceBudgetCosts.pay_actual_costs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetCosts.pay_source_costs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetCosts.source_exponent_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetCutoff.absorb_remaining_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetCutoff.exists_fixed_ad_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetCutoff.exists_source_constant_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceSliceBudgetCutoff.sourceCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetCutoff.sourceCutoff_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetCutoff.sourceCutoff_pays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetCutoff.sourceCutoff_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetFinal.actual_reference_constant_le_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeReferenceSliceBudgetPowers.rank_history_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetPowers.reference_ad_constant_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetPowers.sourceConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetPowers.sourceConstant_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetPowers.squared_grain_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetReadback.parent_profiles_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetReadback.population_mass_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetSource.actualConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceSliceBudgetSource.actual_reference_constant_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTwoMapRetainedSliceCore.exists_two_map_slice_grain_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTwoMapRetainedSliceTransfer.coarse_image_count_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceTransfer.point_image_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceTransfer.retained_class_count_cross' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTwoMapRetainedSliceTransfer.retained_class_count_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,130 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T18:47:50.901715+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T184750092620",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T184750092620/AggregateReadback.lean"
+  ],
+  "readback_sha256": "b12aca1540b2ea195bd3b126ba714db63a9709a4eb5af67a0e31884452753f21",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_quotient_ad",
+      "source_sha256": "8a27b47b51b544d35237938df856ff9e080e0e29b5d4f9da08203f2353a695bb",
+      "olean_sha256": "a94e5207ebfc080fc47dd64593e541238a7a7f9402cf247d8b970ca8e173fa8c",
+      "names": [
+        "NativeActualQuotientAD.of_reference_cross"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_sharp_X_power",
+      "source_sha256": "b2a26b336243976cc868f303a3c8f38810f1ac578934da47ba138ef9f4c2bd79",
+      "olean_sha256": "03a7813f28d75f11a50e8d3631acc2310add6dc5cfdaba26f980bd3833a89b91",
+      "names": [
+        "NativeActualSharpXPower.source_reference_X_power_lower"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_angular_rank_contradiction",
+      "source_sha256": "994bc8f676da24ea6ab17d99f91478dbaf78773dd0c2f8c7c89042d6cdc5bfe7",
+      "olean_sha256": "8257c38f7c14b34cd31f094c9ecfa6d7271f12c3f44e8692b7aec0fb7b4fb1df",
+      "names": [
+        "NativeAngularRankContradiction.angular_count_cancellation",
+        "NativeAngularRankContradiction.rank_gain_survives",
+        "NativeAngularRankContradiction.incompatible_rank_two_counts",
+        "NativeAngularRankContradiction.exists_original_scale_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_angular_test_scale",
+      "source_sha256": "bbce8301af81e7956060e958c39897ad3cb698785be09e71496387aab568a721",
+      "olean_sha256": "29d6517b6ae576415fe4af8d584fb1a652e389abd2df6012d3f7882c21f18cd8",
+      "names": [
+        "NativeAngularTestScale.exists_dyadic_angular_scale",
+        "NativeAngularTestScale.exists_actual_test_scale"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_angular_test_source_window",
+      "source_sha256": "e619695474112209597ab37c254315e287b40f331dc1274c67b12a29577636b8",
+      "olean_sha256": "a8fee4b8f790d0aa8f6530e860bd96991d405e1bea920e68ba1559ac905450b8",
+      "names": [
+        "NativeAngularTestSourceWindow.original_angular_depth_window",
+        "NativeAngularTestSourceWindow.exists_original_test_cutoff"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_bounded_reference_relative_upper",
+      "source_sha256": "593b8b74d7de5cbff91abe353dc08f377ceb9260cb7d399617bd228ec636d3d7",
+      "olean_sha256": "90ebbc07e93ab1c775f7a7408641aeef3f56a37444c7a61ba1a6cad39b26b237",
+      "names": [
+        "NativeBoundedReferenceRelativeUpper.exists_bounded_reference_engine"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_quotient_constant_bound",
+      "source_sha256": "149b4cd58215738856b066b1369b0b0d5dd096ff53d79773ad28ecbdb9022f95",
+      "olean_sha256": "662df34b7241a80bd4a11f11a6f3b9eca68da37dcbb201bbd29cbcb5f4cf3146",
+      "names": [
+        "NativeQuotientConstantBound.quotientConstant_le"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_relative_menu",
+      "source_sha256": "02ce704b5db7a7f8150aee099fa8273f38adb4732f99c68b742e6d1f10254ef2",
+      "olean_sha256": "50f50e4f81100b360cec7aa3d29395f1551eef1ef49e2db4f8504e2acab88d1c",
+      "names": [
+        "NativeReferenceRelativeMenu.relations",
+        "NativeReferenceRelativeMenu.relation_count",
+        "NativeReferenceRelativeMenu.relations_refl",
+        "NativeReferenceRelativeMenu.relations_symm",
+        "NativeReferenceRelativeMenu.caller_uniformities"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_scheduled_angular_ancestor",
+      "source_sha256": "d23f177e6474f01b5081d43a422853eb2381c28c6d68120d30644f1f03740f45",
+      "olean_sha256": "c63d8daca52a5317f5e742c0073c2af57641e8c53227a7bb6e1c553b1ac81367",
+      "names": [
+        "NativeScheduledAngularAncestor.formal_uniformity_readback",
+        "NativeScheduledAngularAncestor.exists_actual_angular_ancestor"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_X_budget_power",
+      "source_sha256": "4476d24dd609e12db6f0d187e906ac8bafe4962bef42cd985aa8ad2f34bd1839",
+      "olean_sha256": "edd332c49414660e948d08aeb9710ed7142a40e971d6e8a2094e633b868229f7",
+      "names": [
+        "NativeSharpXBudgetPower.baseConstant",
+        "NativeSharpXBudgetPower.sourceConstant",
+        "NativeSharpXBudgetPower.baseConstant_nonneg",
+        "NativeSharpXBudgetPower.sourceConstant_one_le",
+        "NativeSharpXBudgetPower.fiber_coefficient_rank_bound",
+        "NativeSharpXBudgetPower.squared_scale_power",
+        "NativeSharpXBudgetPower.rank_bound_to_scale"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_sharp_X_history_power",
+      "source_sha256": "9b317405d6d70b7c6cb03a2964dc9f8320b852acd9903d260350ee854611f47c",
+      "olean_sha256": "7375f213ddb2d83d66e29ed3fb026a5dbe6a52ef2113083724daf58cd19b5c61",
+      "names": [
+        "NativeSharpXHistoryPower.actual_time_count",
+        "NativeSharpXHistoryPower.history_power_to_X"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T18:48:01.890881+00:00",
+  "exit_code": 0
+}

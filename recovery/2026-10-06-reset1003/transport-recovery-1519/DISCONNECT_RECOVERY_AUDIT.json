@@ -1,0 +1,38 @@
+{
+  "observed_utc": "2026-10-06T15:21:14.963537+00:00",
+  "old_runtime_terminal": "unknown",
+  "files_retained": true,
+  "new_output_directory": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean",
+  "old_active_attempts": [
+    {
+      "attempt": "native_graph_physical_localization-attempt02",
+      "state_observed": "running",
+      "source_sha256": "af7576b61903c43d6adc316b478cc681e5bb0e8610cf0e17c3be28e345c0d1d5",
+      "interpretation": "execution terminal unknown after transport disconnect; do not infer failure or success",
+      "old_result_path": "/workspace/shared/sticky-recovery-20261006/verification/native_graph_physical_localization-attempt02/result.json"
+    },
+    {
+      "attempt": "native_lipschitz_height_edge_lift-attempt02",
+      "state_observed": "running",
+      "source_sha256": "f79bad256f4cdadb83338cc256884ba38a140ec6a91ef191054d39a161d8f8ab",
+      "interpretation": "execution terminal unknown after transport disconnect; do not infer failure or success",
+      "old_result_path": "/workspace/shared/sticky-recovery-20261006/verification/native_lipschitz_height_edge_lift-attempt02/result.json"
+    },
+    {
+      "attempt": "native_finest_Y_output_budget-attempt01",
+      "state_observed": "running",
+      "source_sha256": "204d160c10820e8c86a50d0f6804f4e62e396f0253f4b02f3b231ab70f1125b1",
+      "interpretation": "execution terminal unknown after transport disconnect; do not infer failure or success",
+      "old_result_path": "/workspace/shared/sticky-recovery-20261006/verification/native_finest_Y_output_budget-attempt01/result.json"
+    },
+    {
+      "attempt": "native_actual_configured_residue-attempt02",
+      "state_observed": "running",
+      "source_sha256": "e32fd5f0fa05427095862d110ac71a678d9f1b255b82ada27ab207311f8d3726",
+      "interpretation": "execution terminal unknown after transport disconnect; do not infer failure or success",
+      "old_result_path": "/workspace/shared/sticky-recovery-20261006/verification/native_actual_configured_residue-attempt02/result.json"
+    }
+  ],
+  "dependency_resume": "Only missing source-success receipts from old frozen DAG; copied successful artifacts hash verified",
+  "canonical_scope": "Original all562 DAG terminal unknown; continuation may establish recovered verification, never original run exit0"
+}

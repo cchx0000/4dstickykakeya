@@ -1,0 +1,80 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_prescribed_population_parent_configuration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_prescribed_population_parent_configuration.lean",
+  "source_sha256": "6480ba23c7c9d972f699256a11a8ada8441f66e454855f6b7bfd3e85aa945a26",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_prescribed_population_parent_configuration.olean",
+  "names": [
+    "NativePrescribedPopulationParentConfiguration.PrescribedParentFinalCleanupData",
+    "NativePrescribedPopulationParentConfiguration.HasPrescribedParentRetainedHistory",
+    "NativePrescribedPopulationParentConfiguration.HasPrescribedPopulationParentStage",
+    "NativePrescribedPopulationParentConfiguration.prescribed_stage_with_population_parent",
+    "NativePrescribedPopulationParentConfiguration.exists_prescribed_population_parent_configuration",
+    "NativePrescribedPopulationParentConfiguration.complete_profiles_forget",
+    "NativePrescribedPopulationParentConfiguration.prescribed_parent_cleanup_forget",
+    "NativePrescribedPopulationParentConfiguration.prescribed_parent_retained_forget",
+    "NativePrescribedPopulationParentConfiguration.prescribed_population_stage_forget"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:43:15.108183+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "6a60b7212c24eaac1c4db0835b66a7822d93b5d66e759968ac2b19e3050251c9",
+  "source_execution_complete_utc": "2026-10-05T16:43:37.242073+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164429469021",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativePrescribedPopulationParentConfiguration.PrescribedParentFinalCleanupData": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedPopulationParentConfiguration.HasPrescribedParentRetainedHistory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedPopulationParentConfiguration.HasPrescribedPopulationParentStage": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedPopulationParentConfiguration.prescribed_stage_with_population_parent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedPopulationParentConfiguration.exists_prescribed_population_parent_configuration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedPopulationParentConfiguration.complete_profiles_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedPopulationParentConfiguration.prescribed_parent_cleanup_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedPopulationParentConfiguration.prescribed_parent_retained_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePrescribedPopulationParentConfiguration.prescribed_population_stage_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:44:34.708169+00:00"
+}

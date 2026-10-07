@@ -1,0 +1,68 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_original_cell_presentation_unique",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_original_cell_presentation_unique.lean",
+  "source_sha256": "300b3f73461ba3ceeba223609d977167f482bbb004551bd01b059e88f8b2297b",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_original_cell_presentation_unique.olean",
+  "names": [
+    "NativeOriginalCellPresentationUnique.mem_cells_iff_center_mem",
+    "NativeOriginalCellPresentationUnique.cells_eq_of_shading_eq",
+    "NativeOriginalCellPresentationUnique.restricted_cells_eq",
+    "NativeOriginalCellPresentationUnique.restricted_incidences_eq",
+    "NativeOriginalCellPresentationUnique.subset_original_cut",
+    "NativeOriginalCellPresentationUnique.core_subset_original_cut",
+    "NativeOriginalCellPresentationUnique.core_preserves_original_predicate"
+  ],
+  "started_utc": "2026-10-06T19:50:10.110478+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "0c61b3ff9d75d09839606cdcab5a170636e75e93c47c70bce5cc00b68a8a399e",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T19:53:08.154818+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2002",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeOriginalCellPresentationUnique.mem_cells_iff_center_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOriginalCellPresentationUnique.cells_eq_of_shading_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOriginalCellPresentationUnique.restricted_cells_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOriginalCellPresentationUnique.restricted_incidences_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOriginalCellPresentationUnique.subset_original_cut": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOriginalCellPresentationUnique.core_subset_original_cut": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOriginalCellPresentationUnique.core_preserves_original_predicate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T20:03:13.139598+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_configured_time_coarsening",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_configured_time_coarsening.lean",
+  "source_sha256": "981e81faec96f6f796dfdc1d0637074ec2a3c15f1b462e1c57165920084ef8e4",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_configured_time_coarsening.olean",
+  "names": [
+    "NativeConfiguredTimeCoarsening.finalTime",
+    "NativeConfiguredTimeCoarsening.floor_finalTime",
+    "NativeConfiguredTimeCoarsening.floor_from_original",
+    "NativeConfiguredTimeCoarsening.same_final_window_iff"
+  ],
+  "started_utc": "2026-10-06T07:52:49.008417+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "85b41f37b10c474893029ecab22aa93be22b12715efeb4b839a78bf202134d76",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeConfiguredTimeCoarsening.finalTime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredTimeCoarsening.floor_finalTime": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredTimeCoarsening.floor_from_original": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeConfiguredTimeCoarsening.same_final_window_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T07:53:43.470261+00:00"
+}

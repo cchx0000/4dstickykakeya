@@ -1,0 +1,57 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_matrix_height_interface",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_matrix_height_interface.lean",
+  "source_sha256": "a5424e4ef0594d8a22eaf9b47901075e09bc10249a14c555b1c3b0851c19767f",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_matrix_height_interface.olean",
+  "names": [
+    "NativeMatrixHeightInterface.two_by_one_distance",
+    "NativeMatrixHeightInterface.one_by_two_distance",
+    "NativeMatrixHeightInterface.entry_count",
+    "NativeMatrixHeightInterface.exists_entry_readback",
+    "NativeMatrixHeightInterface.select_matrix_points",
+    "NativeMatrixHeightInterface.select_matrix_edges"
+  ],
+  "started_utc": "2026-10-06T05:20:57.985901+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "1c1e28b9b245ff3b8f1575254f485259a5aa3d0717ed0ac994c9c392f41acfdb",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeMatrixHeightInterface.two_by_one_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatrixHeightInterface.one_by_two_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatrixHeightInterface.entry_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatrixHeightInterface.exists_entry_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatrixHeightInterface.select_matrix_points": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeMatrixHeightInterface.select_matrix_edges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T05:21:02.117876+00:00"
+}

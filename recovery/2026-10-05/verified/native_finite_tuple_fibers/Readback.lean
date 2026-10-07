@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_finite_tuple_fibers
+
+#print axioms NativeFiniteTupleFibers.tupleLifts
+#print axioms NativeFiniteTupleFibers.cons_pair_injective
+#print axioms NativeFiniteTupleFibers.mem_tupleLifts
+#print axioms NativeFiniteTupleFibers.tupleLifts_card_le
+#print axioms NativeFiniteTupleFibers.list_map_fiber_card_le
+#print axioms NativeFiniteTupleFibers.card_le_coarse_tuple_card_mul
+#print axioms NativeFiniteTupleFibers.coarse_tuple_card_lower

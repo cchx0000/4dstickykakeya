@@ -1,0 +1,164 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T174858706998", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T174858706998/AggregateReadback.lean"]
+READBACK_SHA256 47046c0724e9d7ce9eb2cc468e026fb4ae9326dd784d5883a7dd0fee4e1608cc
+Dedicated staging slot 3 acquired UTC: 2026-10-05T17:48:59.517357+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8760980 kB
+'NativeActualPostGraphSlice.attach_actual_post_graph_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWPhysical.geometric_incidence_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWPhysical.local_front_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWPhysical.local_front_phase_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWPhysical.original_column_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWPhysical.position' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualReferenceWPhysical.position_coordinate_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellAngularMenu.angularCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellAngularMenu.angularMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellAngularMenu.angular_menu_le_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellAngularMenu.angular_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellAngularMenu.original_angular_menu_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellAngularMenu.relativeAngle' does not depend on any axioms
+'NativeNormalizedCellReverseMenu.physical_cell_mem_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellReverseMenu.reverseMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellReverseMenu.reverseMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedCellSourceAngular.exists_source_angular_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNormalizedCellSourceUpper.exists_source_normalized_degree_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNormalizedCellSourceUpper.source_native_from_population' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOffsetAngularGeometry.incident_offsets_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOffsetAngularGeometry.matrix_action_general' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOffsetAngularGeometry.quotient_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOffsetMenuCount.exists_coherent_offset_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOffsetMenuCount.geometric_offset_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOffsetMenuCount.offset_count_from_point_menus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOffsetMenuCount.pairImage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOffsetMenuCount.right_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointAngularLower.angular_global_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointAngularLower.original_point_angular_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeOriginalPointAngularLower.pointMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointAngularLower.pointMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeOriginalPointAngularLower.translateAngle' depends on axioms: [propext]
+'NativeOriginalPointAngularLower.translateAngle_injective' depends on axioms: [propext, Quot.sound]
+'NativePostGraphSliceData.HasHeightCoreWith' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceData.HasPostGraphParentProfiles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePostGraphSliceData.HasTranslatedSliceData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMaps.coarseXY' does not depend on any axioms
+'NativeReferenceXYGridMaps.coarseXY_x' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMaps.coarseXY_y' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMaps.euclidean_coord_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMaps.floor_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMaps.pxy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMaps.pxy_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMaps.quotient_nodeSlope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMaps.same_floor_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMenus.coarseIndex_one' depends on axioms: [propext, Quot.sound]
+'NativeReferenceXYGridMenus.coarseXY_one' depends on axioms: [propext, Quot.sound]
+'NativeReferenceXYGridMenus.forward_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMenus.inverse_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMenus.pref_neighbor_of_old_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMenus.vectorBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMenus.vectorBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMenus.xyBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMenus.xyBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMetric.old_dist_le_raw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMetric.old_dist_of_coarse_XY' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMetric.old_dist_of_coordinate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMetric.old_height_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMetric.raw_dist_le_old' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMetric.raw_dist_of_coarse_pref' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridMetric.raw_height_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.coarseIndex' depends on axioms: [propext]
+'NativeReferenceXYGridPoints.coarseIndex_height' depends on axioms: [propext]
+'NativeReferenceXYGridPoints.coarseIndex_spatial' depends on axioms: [propext]
+'NativeReferenceXYGridPoints.coarse_pref_spatial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.floor_div_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.heightMesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.heightMesh_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.heightMesh_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.mu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.mu_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.mu_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.oldPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.original_phase_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.physical_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.pref' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.prefMesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.prefMesh_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.prefMesh_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.pref_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.pref_height_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.pref_spatial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.rawPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.rho' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.rho_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.sigma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceXYGridPoints.sigma_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetAlgebra.quotientCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetAlgebra.quotientCost_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetAlgebra.quotientCost_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetAlgebra.retained_constant_le_reference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRetainedSliceBudgetCosts.rank_parent_retention_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetCosts.third_core_parent_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetExtra.extraCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetExtra.extraConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetExtra.extraConstant_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetExtra.extra_coefficient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetExtra.graphCost_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRetainedSliceBudgetExtra.squared_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpParentGraphConfiguration.HasSharpCurveParentRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpParentGraphConfiguration.HasSharpCurveParentStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpParentGraphConfiguration.SharpCurveParentFinalCleanupData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpParentGraphConfiguration.exists_sharp_parent_graph_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpParentGraphConfiguration.half_depth_eq_depth' depends on axioms: [propext, Quot.sound]
+'NativeSharpParentGraphConfiguration.middleSelected' depends on axioms: [propext, Quot.sound]
+'NativeSharpParentGraphConfiguration.middle_selected_depth' depends on axioms: [propext, Quot.sound]
+'NativeSharpParentGraphConfiguration.sharp_stage_with_parent_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpParentGraphData.HasParentHeightCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpParentGraphData.HasSharpCurveParentProfiles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpParentGraphData.attach_sharp_parent_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpParentGraphData.sharp_curve_parent_profiles_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpParentGraphForget.curve_cleanup_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpParentGraphForget.curve_parent_profiles_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpParentGraphForget.curve_retained_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpParentGraphForget.curve_stage_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTranslatedSliceGrainJoin.construct_translated_slice_grain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTwoMapRetainedSliceJoin.height_card_le_of_class_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeTwoMapRetainedSliceJoin.height_image_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceJoin.menu_classes_all_radius64' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.append_div' depends on axioms: [propext, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.coarse' does not depend on any axioms
+'NativeTwoMapRetainedSliceLabels.encode' depends on axioms: [propext, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.encode_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.encode_height' depends on axioms: [propext, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.encode_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.encode_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.encode_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.encoded_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.encoded_uniformity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceLabels.image_encode_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceRadius.all_radius_bounds64' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceUpper.retained_class_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

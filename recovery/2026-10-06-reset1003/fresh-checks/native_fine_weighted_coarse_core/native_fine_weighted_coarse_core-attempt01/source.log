@@ -1,0 +1,21 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/40c0dd79f068a800836ec222275d78f8be49248696eff0afc52d4cb605507497.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_core.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_core.lean"]
+SOURCE_SHA256 1a8302e89f685257dd2db54d52654ab42736ea1caf0d94e59587b2dc299edb77
+LOCK_ACQUIRED_UTC 2026-10-06T16:43:45.373805+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_core.lean:39:55: error: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_core.lean:57:32: error: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_core.lean:101:10: error: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_core.lean:212:66: error(lean.unknownIdentifier): Unknown identifier `fixedCompactClass`
+
+Note: It is not possible to treat `fixedCompactClass` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_core.lean:260:67: error: failed to prove positivity/nonnegativity/nonzeroness
+LEAN_FINISHED_UTC 2026-10-06T16:46:51.365045+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

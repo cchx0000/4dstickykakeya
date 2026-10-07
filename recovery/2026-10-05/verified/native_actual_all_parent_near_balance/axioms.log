@@ -1,0 +1,9 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_actual_all_parent_near_balance_readback.lean"]
+SOURCE_SHA256 233f7c4c193fc2069dc4eddfa2d031d8cf871f012f66e18d08de19d60b2cced5
+FIFO compiler ticket: 01791179292952223923-b4df3e05ae2546d9baf7f3f5ebb6fd2b.request
+FIFO compiler acquired UTC: 2026-10-05T05:48:47.981668+00:00
+'NativeActualAllParentNearBalance.actual_all_parent_near_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

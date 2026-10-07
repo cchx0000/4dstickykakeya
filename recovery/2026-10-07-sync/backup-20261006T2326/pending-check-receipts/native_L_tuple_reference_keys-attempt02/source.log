@@ -1,0 +1,28 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1062e39592c07b1f0bd2f2959cb7b2ddab3ecd8c90c6c175ac68b91fb74c0535.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean"]
+SOURCE_SHA256 ea8e7d5833b1cea5ec523906a576ab0c680ca9802b846763f3778dc358971933
+LOCK_ACQUIRED_UTC 2026-10-06T23:20:33.037948+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:33:42: error: Type mismatch: After simplification, term
+  hs
+ has type
+  @Eq (Fin n × Index) z (w.2.1, w.2.2.2).swap
+but is expected to have type
+  @Eq (Fin n × Index) z (w.2.2.2, w.2.1)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_L_tuple_reference_keys.lean:69:4: error: Type mismatch: After simplification, term
+  hb
+ has type
+  @LE.le ℝ Real.instLE
+    (↑(#(image ((fun z => parentLabel D ref.a (2 ^ ↑(ref.schedule j)) z.1) ∘ terminalIncidence)
+          ({w ∈ originalArms E grain | base w = b}))))
+    (625 * ↑(coreRadix ref.original ref.R L) ^ 4 * D.thickness ^ (-seed) *
+      (64 / ↑(2 ^ ↑(ref.schedule j))) ^ (-NativeFixedCompactKakeyaExponent.extremalExponent))
+but is expected to have type
+  @LE.le ℝ Real.instLE
+    (↑(#(image (fun w => parentLabel D ref.a (2 ^ ↑(ref.schedule j)) w.2.2.2)
+          ({w ∈ originalArms E grain | base w = b}))))
+    (625 * ↑(coreRadix ref.original ref.R L) ^ 4 * D.thickness ^ (-seed) *
+      (64 / ↑(2 ^ ↑(ref.schedule j))) ^ (-NativeFixedCompactKakeyaExponent.extremalExponent))
+LEAN_FINISHED_UTC 2026-10-06T23:21:08.210356+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

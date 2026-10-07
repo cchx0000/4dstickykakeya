@@ -1,0 +1,88 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0688f39745d540ae3eb6d7f05aebf5f4900d4279d65f443fb8cb228c36454fda.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean"]
+SOURCE_SHA256 6b148d46b30bb4b8bd72a04b4598dfac7571e8fd54842793be6b62e84ef94185
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean:39:30: error(lean.unknownIdentifier): Unknown identifier `j`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean:39:41: error(lean.unknownIdentifier): Unknown identifier `j`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean:42:39: error: unsolved goals
+k : ℕ
+hk : k ≤ 2
+F G tangent tangent' : Fin k → ℝ
+normal normal' xi xi' E M v A B : ℝ
+hM : 0 < M
+hv : 0 ≤ v
+hA : 0 ≤ A
+hB : 0 ≤ B
+hF : ∀ (j : Fin k), |F j| ≤ 1 / 4
+hT : ∀ (j : Fin k), |tangent' j| ≤ B
+hTd : ∀ (j : Fin k), |tangent j - tangent' j| ≤ A / M
+hFd : ∀ (j : Fin k), |F j - G j| ≤ v
+hN : |normal - normal'| ≤ A / M
+hres : |normal - ∑ j, F j * tangent j - xi| ≤ E
+hres' : |normal' - ∑ j, G j * tangent' j - xi'| ≤ E
+hInv : 0 ≤ A / M
+hterm : ∀ (j : Fin k), |F j * tangent j - G j * tangent' j| ≤ 1 / 4 * (A / M) + v * B
+hkR : ↑k ≤ 2
+⊢ ↑k * (4⁻¹ * (A / M)) + ↑k * (v * B) = ↑k * (4⁻¹ * (A / M) + v * B)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean:50:18: error: linarith failed to find a contradiction
+case left
+k : ℕ
+hk : k ≤ 2
+F G tangent tangent' : Fin k → ℝ
+normal normal' xi xi' E M v A B : ℝ
+hM : 0 < M
+hv : 0 ≤ v
+hA : 0 ≤ A
+hB : 0 ≤ B
+hF : ∀ (j : Fin k), |F j| ≤ 1 / 4
+hT : ∀ (j : Fin k), |tangent' j| ≤ B
+hTd : ∀ (j : Fin k), |tangent j - tangent' j| ≤ A / M
+hFd : ∀ (j : Fin k), |F j - G j| ≤ v
+hN : |normal - normal'| ≤ A / M
+hres : |normal - ∑ j, F j * tangent j - xi| ≤ E
+hres' : |normal' - ∑ j, G j * tangent' j - xi'| ≤ E
+hInv : 0 ≤ A / M
+hterm : ∀ (j : Fin k), |F j * tangent j - G j * tangent' j| ≤ 1 / 4 * (A / M) + v * B
+hsum : |∑ j, F j * tangent j - ∑ j, G j * tangent' j| ≤ A / M + 2 * B * v
+hresL : -E ≤ normal - ∑ j, F j * tangent j - xi
+hresU : normal - ∑ j, F j * tangent j - xi ≤ E
+hresL' : -E ≤ normal' - ∑ j, G j * tangent' j - xi'
+hresU' : normal' - ∑ j, G j * tangent' j - xi' ≤ E
+hNL : -(A / M) ≤ normal - normal'
+hNU : normal - normal' ≤ A / M
+hSL : -(A / M + 2 * B * v) ≤ ∑ j, F j * tangent j - ∑ j, G j * tangent' j
+hSU : ∑ j, F j * tangent j - ∑ j, G j * tangent' j ≤ A / M + 2 * B * v
+a✝ : xi - xi' < -(2 * E + 2 * A / M + 2 * B * v)
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean:50:18: error: linarith failed to find a contradiction
+case right
+k : ℕ
+hk : k ≤ 2
+F G tangent tangent' : Fin k → ℝ
+normal normal' xi xi' E M v A B : ℝ
+hM : 0 < M
+hv : 0 ≤ v
+hA : 0 ≤ A
+hB : 0 ≤ B
+hF : ∀ (j : Fin k), |F j| ≤ 1 / 4
+hT : ∀ (j : Fin k), |tangent' j| ≤ B
+hTd : ∀ (j : Fin k), |tangent j - tangent' j| ≤ A / M
+hFd : ∀ (j : Fin k), |F j - G j| ≤ v
+hN : |normal - normal'| ≤ A / M
+hres : |normal - ∑ j, F j * tangent j - xi| ≤ E
+hres' : |normal' - ∑ j, G j * tangent' j - xi'| ≤ E
+hInv : 0 ≤ A / M
+hterm : ∀ (j : Fin k), |F j * tangent j - G j * tangent' j| ≤ 1 / 4 * (A / M) + v * B
+hsum : |∑ j, F j * tangent j - ∑ j, G j * tangent' j| ≤ A / M + 2 * B * v
+hresL : -E ≤ normal - ∑ j, F j * tangent j - xi
+hresU : normal - ∑ j, F j * tangent j - xi ≤ E
+hresL' : -E ≤ normal' - ∑ j, G j * tangent' j - xi'
+hresU' : normal' - ∑ j, G j * tangent' j - xi' ≤ E
+hNL : -(A / M) ≤ normal - normal'
+hNU : normal - normal' ≤ A / M
+hSL : -(A / M + 2 * B * v) ≤ ∑ j, F j * tangent j - ∑ j, G j * tangent' j
+hSU : ∑ j, F j * tangent j - ∑ j, G j * tangent' j ≤ A / M + 2 * B * v
+a✝ : 2 * E + 2 * A / M + 2 * B * v < xi - xi'
+⊢ False
+failed
+
+EXIT_CODE=1

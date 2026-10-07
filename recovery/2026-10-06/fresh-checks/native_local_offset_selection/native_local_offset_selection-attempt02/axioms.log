@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2caa847fd2f8ddce1fcff874aba3401cb54fac64c7928e884e85928a2abc3b54.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_local_offset_selection-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/native_local_offset_selection-attempt02/Readback.lean"]
+SOURCE_SHA256 ac0e733c218bd55f702117d8a3b0f860e1272863e4ae1e078ef7e2e781ccbe68
+'NativeLocalOffsetSelection.physicalFiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetSelection.fiber_points_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetSelection.point_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetSelection.same_offset_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetSelection.actual_cell_offset_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetSelection.actual_weighted_offset_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalOffsetSelection.actual_incidence_offset_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

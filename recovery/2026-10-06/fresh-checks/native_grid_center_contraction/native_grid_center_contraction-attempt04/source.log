@@ -1,0 +1,31 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/f5019c9956830e4adbf73dccf92a96dfe86f1b5e1b2bc655ce436379123cb4a4.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean"]
+SOURCE_SHA256 dc90746a2d5fa3f81908edea8a50ff3a2fe72d9dd7e4262eef6ac89e60030d25
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean:42:2: error: Tactic `constructor` failed: no applicable constructor found
+
+case e'_3
+l : ℕ
+P : Finset (Fin l → ℤ)
+mu C K G s : ℝ
+hmu : 0 < mu
+hmu1 : mu ≤ 1
+hC : 1 ≤ C
+hK : 0 < K
+hs : 0 ≤ s
+H : ADBounds (image (center mu) P) mu K s
+Hglobal : ↑(#P) ≤ G * mu ^ (-s)
+hCp : 0 < C
+f : (Fin l → ℝ) → Fin l → ℝ := fun x => (1 / C) • x
+hf : Function.Injective f
+hd : ∀ (x y : Fin l → ℝ), dist (f x) (f y) = dist x y / C
+hg : ↑(#(image (center mu) P)) ≤ G * mu ^ (-s)
+hh : ADBounds (image f (image (center mu) P)) (mu / C) (C ^ s * max K G) s
+⊢ image (center (mu / C)) P = image f (image (center mu) P)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean:41:13: error: This simp argument is unused:
+  Finset.mem_image
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+
+EXIT_CODE=1

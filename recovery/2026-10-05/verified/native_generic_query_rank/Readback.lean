@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_generic_query_rank
+
+#print axioms NativeGenericQueryRank.HasQueriedRankSelection
+#print axioms NativeGenericQueryRank.exists_query_depth_cutoff

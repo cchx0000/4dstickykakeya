@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_full_dyadic_configuration
+
+#print axioms NativeFullDyadicConfiguration.exists_full_configuration

@@ -1,0 +1,60 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T21:39:27.044350+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_raw_height_source_adapter"
+  ],
+  "names": [
+    "NativeRawHeightSourceAdapter.rawTaggedKey",
+    "NativeRawHeightSourceAdapter.rawTranslatedHeight",
+    "NativeRawHeightSourceAdapter.translatedHeight_eq_raw",
+    "NativeRawHeightSourceAdapter.translatedHeight_eq_of_original_height_eq",
+    "NativeRawHeightSourceAdapter.translatedTag",
+    "NativeRawHeightSourceAdapter.translatedTags",
+    "NativeRawHeightSourceAdapter.taggedKey_eq_translatedTag",
+    "NativeRawHeightSourceAdapter.translatedTag_finalTime",
+    "NativeRawHeightSourceAdapter.translatedTags_final_image",
+    "NativeRawHeightSourceAdapter.translatedTag_injOn",
+    "NativeRawHeightSourceAdapter.translatedTags_card",
+    "NativeRawHeightSourceAdapter.translatedTags_coherent",
+    "NativeRawHeightSourceAdapter.translatedTags_subset",
+    "NativeRawHeightSourceAdapter.rawSelectedOccurrences",
+    "NativeRawHeightSourceAdapter.rawSelectedPairs",
+    "NativeRawHeightSourceAdapter.raw_selected_tagged_image",
+    "NativeRawHeightSourceAdapter.raw_selected_final_image",
+    "NativeRawHeightSourceAdapter.translated_selected_final_image",
+    "NativeRawHeightSourceAdapter.translated_selected_final_card",
+    "NativeRawHeightSourceAdapter.final_pair_mem_iff_outputCell",
+    "NativeRawHeightSourceAdapter.translated_selected_sourceCells_eq_raw",
+    "NativeRawHeightSourceAdapter.translated_selected_raw_witness",
+    "NativeRawHeightSourceAdapter.occurrence_original_injective",
+    "NativeRawHeightSourceAdapter.actual_occurrences_card",
+    "NativeRawHeightSourceAdapter.actual_occurrence_exists_unique",
+    "NativeRawHeightSourceAdapter.select_raw_height"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2139.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2139",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2139/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T21:42:19.965640+00:00",
+  "results": [
+    {
+      "attempt": "native_raw_height_source_adapter-attempt02",
+      "state": "passed",
+      "declarations": 26
+    }
+  ]
+}

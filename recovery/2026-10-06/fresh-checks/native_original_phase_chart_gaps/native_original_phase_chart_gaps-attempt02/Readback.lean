@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_original_phase_chart_gaps
+set_option autoImplicit false
+#print axioms NativeOriginalPhaseChartGaps.chart_offset_norm
+#print axioms NativeOriginalPhaseChartGaps.intercept_gap_of_carrier
+#print axioms NativeOriginalPhaseChartGaps.original_phase_chart_gaps

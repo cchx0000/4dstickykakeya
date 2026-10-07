@@ -1,3 +1,13 @@
+## 2026-10-07 saved-progress synchronization
+
+This checkpoint preserves the owner-selected October 6 23:26 recovery archive,
+including the exact committed source snapshot `d9ee5363bde9fc9e2734538eb97eb3164c9880d5`,
+its complete Git history bundle, verification records, and 449 separately labeled
+pending source snapshots. See [synchronization scope](docs/GITHUB_SYNC_20261007.md).
+No Lean, Lake, proof search, or new mathematical verification was run for this
+synchronization. Earlier publication-blocked statements below describe their
+historical checkpoints. The final theorem and kappa = 0 remain unfinished.
+
 # 4D Sticky Kakeya
 
 Lean 4 formalization of a contact--symplectic approach to the four-dimensional
@@ -19,7 +29,68 @@ The earlier Prove2Me proposal is preserved in
 and verified progress are recorded in
 [CURRENT_MILESTONES.md](CURRENT_MILESTONES.md).
 
-The latest checked source has **903 project modules**, a successful **9,612-job** default build, and **4,944 cumulative unique checked declarations**. The [original owner and polynomial checkpoint](docs/WZ_ORIGINAL_OWNER_AND_POLYNOMIAL.md) constructs actual balanced full fibers, the unweighted planar source and inherited pairwise-cap transport, together with fixed-degree/fixed-word-length polynomial engines and actual coarse/phase source consumers. Its 244 new public closures use only foundational axioms. The subsequent [weak-profile scalar and robust projection endpoint](docs/WZ_ORIGINAL_WEAK_SCALAR_EXPANSION.md) is staging-verified; its 999-module canonical build is pending. Actual fixed-K0 coarse admission and full-coarse near-extremal bounds are included in that new source batch. A.3's geometric profile/incidence reduction, A.4, local-parent extremal bounds and the final volume theorem remain unfinished.
+## 2026-10-06 10:03 executor reset and selected-backup restoration
+
+The owner reselected the latest source/history archive and all four cache parts. The restored source tree is exactly commit `d8ec7636`, with1,628 project modules. Its complete Git bundle, source archive hash,453 source/olean hashes, pinned compiler hash and project import closure all match. Official dependencies are restored and453 archived project artifacts passed an independent cache-only import after all compiler, dependency, source and artifact hashes were checked. Fresh post-reset source/import results are listed separately in verification/final-status.json.
+
+The live tree now contains1,748 project modules;852 public declarations have fresh source and independent-import checks in this executor.
+
+The pre-reset432 strict declaration checks below remain historical receipts; cached reuse is not source recompilation. The latest767-artifact snapshot has also passed independent cache-only import after source, artifact, compiler and import-closure checks. Reconstructed drafts count as verified only when their exact hashes appear in the fresh check receipts. The original final theorem and kappa=0 remain unfinished; the earlier GitHub write approval is still unresolved.
+
+## 2026-10-06 checkpoint before the10:03 reset
+
+The user-selected 1,559-module archive has been restored byte-for-byte and merged with all 69 new October6 modules. That pre-reset checkpoint contains1,628 project modules. The archive SHA256 matches the previously recorded value, its complete Git history is verified, and all 99 pending source snapshots match their recorded hashes. Nothing from the October6 work was overwritten.
+
+The 432 new October6 public declarations passed strict source checks and independent imported-axiom audits using only foundational axioms. Targeted prerequisite closures had checked 381 distinct modules before the10:03 executor reset. The restored October5 checks retain their historical scope; the full 1,628-module tree has not been rebuilt here. The historical unconditional bound kappa_fixed<=1 and its source are restored; kappa_fixed=0 and the original final theorem remain unfinished.
+
+The new actual-source work constructs full coarse-reference AD/CW internally, preserves original incidence weight in local-offset selection, and removes the global Lipschitz coefficient from the offset menu. One-old-height selection permits exact freezing of both grain fields and a no-deletion quotient coarsening. Literal graph rounding, separation and marked isometric tube geometry are proved independently. Their original-source joins and the remaining analytic branches are still being assembled. See [the source trace](docs/RECOVERED_CONFIGURATION_RECODING_20261006.md) and [current verification status](verification/final-status.json).
+
+The old GitHub write approval is still unresolved. This merge is a local recovery; it is not a remote publication or a claim of a fresh full build.
+
+### Restored October5 checkpoint
+
+As of 2026-10-05, the recovered branch contains 1,559 project modules. The
+actual same-source route constructs both conditional multiplicity bounds,
+prescribed rank tuples, dense grains and a population-rich phase parent on
+one original R/E1/E2. Rank four is excluded, and the fixed-compact extremal
+exponent is proved to be at most one, with no additional certificate hypothesis. Its vanishing remains open.
+
+The reference and retained fixed-height slices now have actual all-radius
+AD bounds of exponent 3-kappa, with explicit source costs. One retained
+incidence core also carries actual XY regularity, dense X fibers and quotient
+Y regularity of exponent 4-rank-kappa. The enlarged-reference source factory
+preserves the original parent and delays that core until its caller supplies
+a paid coherent subset.
+The height-indexed graph construction retains the actual prescribed tuple
+words. Raw and translated height labels are synchronized by proved
+original-edge selections; they are not silently identified.
+
+The remaining work includes paying the finite coherent-offset selection,
+completing common projected-direction profiles and regularity of the literal
+Y union over coarse time windows, then the same-source W/L constructions
+needed by the final analytic branches. The angular upper uses the same
+enlarged first reference, with its parameter order repaired. None of the
+remaining conclusions is inserted as a new axiom or a final hypothesis.
+See [current mathematical scope](recovery/2026-10-05/VERIFIED_NATIVE_PROGRESS.md)
+and [the exact verification status](recovery/2026-10-05/CURRENT_RECOVERY_STATUS.json).
+
+The original frozen 1,020-module Lake run lost its terminal status after
+1,018 modules. The two remaining Solutions were strictly rebuilt in isolated
+outputs, and all 1,020 modules passed recovered import verification. Later
+additions have strict source and independent imported-axiom checks; the latest
+unified immutable-artifact closure covers 1,498 modules with unchanged source
+and artifact hashes. This is not reported as a new full Lake build. Private
+self-contained archives preserve committed history independently of the
+execution workspace. The existing GitHub publication request remains blocked.
+The original final theorem still depends on the published-volume axiom.
+
+## Historical checkpoints
+
+The reports below retain their original checkpoint scope. Statements about
+pending builds in these historical entries are superseded by the current
+recovery status linked above.
+
+The last full-build checkpoint recorded in this public baseline has **903 project modules**, a successful **9,612-job** default build, and **4,944 cumulative unique checked declarations**. The [original owner and polynomial checkpoint](docs/WZ_ORIGINAL_OWNER_AND_POLYNOMIAL.md) constructs actual balanced full fibers, the unweighted planar source and inherited pairwise-cap transport, together with fixed-degree/fixed-word-length polynomial engines and actual coarse/phase source consumers. Its 244 new public closures use only foundational axioms. The subsequent [weak-profile scalar and robust projection endpoint](docs/WZ_ORIGINAL_WEAK_SCALAR_EXPANSION.md) is staging-verified; its 999-module canonical build is pending. Actual fixed-K0 coarse admission and full-coarse near-extremal bounds are included in that new source batch. A.3's geometric profile/incidence reduction, A.4, local-parent extremal bounds and the final volume theorem remain unfinished.
 
 The [finite plane projection checkpoint](docs/WZ_FINITE_PLANE_PROJECTION.md)
 constructs a common actual linear projection, original separated

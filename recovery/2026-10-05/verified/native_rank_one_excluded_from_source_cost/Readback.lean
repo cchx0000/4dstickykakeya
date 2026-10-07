@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_rank_one_excluded_from_source_cost
+
+#print axioms NativeRankOneExcludedFromSourceCost.exists_actual_rank_one_exclusion

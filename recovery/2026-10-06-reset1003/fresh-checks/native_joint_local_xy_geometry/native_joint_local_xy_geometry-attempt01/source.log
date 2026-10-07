@@ -1,0 +1,16 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/8b0ddc1489f6ffb505ed50fdb2aea4e56e483bedf104f06b4abce438ee210ddf.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_joint_local_xy_geometry.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_joint_local_xy_geometry.lean"]
+SOURCE_SHA256 f092235a048e9405cd638948266f268aab8e495ddc54b0255595b279a9f2ccb2
+LOCK_ACQUIRED_UTC 2026-10-06T19:39:57.100783+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_joint_local_xy_geometry.lean:60:57: error: Application type mismatch: The argument
+  add_le_add_right hold (256 * mu m)
+has type
+  256 * mu m + dist (oldPoint D a m p k) (oldPoint D a m p l) ≤ 256 * mu m + 2 * Delta
+but is expected to have type
+  dist (oldPoint D a m p k) (oldPoint D a m p l) + 256 * mu m ≤ ?m.244
+in the application
+  LE.le.trans (raw_dist_le_old h m hm p i hi k l) (add_le_add_right hold (256 * mu m))
+LEAN_FINISHED_UTC 2026-10-06T19:42:20.992602+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

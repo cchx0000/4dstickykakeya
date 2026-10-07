@@ -1,0 +1,1257 @@
+{
+  "source_commit": "511a4c082f798fe6150f6c6d1b3e7b1dc02b00dd",
+  "roots": [
+    "Theorems.Thm_StickyKakeya4_original_uniform_weak_robust_projection",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_physical_map",
+    "Theorems.Thm_StickyKakeya4_native_coarse_direction_thinning",
+    "Theorems.Thm_StickyKakeya4_native_relative_parent_labels",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_ad",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_volume",
+    "Theorems.Thm_StickyKakeya4_native_local_cell_coherence",
+    "Theorems.Thm_StickyKakeya4_native_local_pair_fibers",
+    "Theorems.Thm_StickyKakeya4_native_local_pair_uniform_core",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_multiplicity",
+    "Theorems.Thm_StickyKakeya4_native_scheduled_local_multiplicity",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_cw",
+    "Theorems.Thm_StickyKakeya4_native_original_parent_density_core",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_source",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_source_counts",
+    "Theorems.Thm_StickyKakeya4_native_local_admission_budget",
+    "Theorems.Thm_StickyKakeya4_native_actual_local_density",
+    "Theorems.Thm_StickyKakeya4_native_actual_local_admission",
+    "Theorems.Thm_StickyKakeya4_native_fixed_compact_multiplicity"
+  ],
+  "project_module_count": 306,
+  "canonical_source_module_count": 1014,
+  "sources": {
+    "Definitions.Def_sticky_kakeya4_core": {
+      "path": "Definitions/Def_sticky_kakeya4_core.lean",
+      "sha256": "81aba0265acd2bd4b9d34ecec7030e57a029b6738039e6b142e65388ed450a02"
+    },
+    "Theorems.Thm_StickyKakeya4_abelian_shifted_label_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_abelian_shifted_label_energy.lean",
+      "sha256": "2de6fe4d4da7d32b906e6843cd297277193b2b8d7edf839b63a4d90db0d50326"
+    },
+    "Theorems.Thm_StickyKakeya4_actual_planar_rounded_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_actual_planar_rounded_energy.lean",
+      "sha256": "935bb789c8eca24d3b66b58c4460d7f882e6c6abec79133318d6a801462acabc"
+    },
+    "Theorems.Thm_StickyKakeya4_actual_rounded_additive_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_actual_rounded_additive_energy.lean",
+      "sha256": "2ed9d4bec2e9319406a2910dbb9f5dc46fa8a039e6fac26a9c2d746379562761"
+    },
+    "Theorems.Thm_StickyKakeya4_actual_slope_source": {
+      "path": "Theorems/Thm_StickyKakeya4_actual_slope_source.lean",
+      "sha256": "eba23a7eb33cb65b2d80c8f30774ae9743686c3eeb67769620d9fb1b31aaaafb"
+    },
+    "Theorems.Thm_StickyKakeya4_actual_tube_footprint_profiles": {
+      "path": "Theorems/Thm_StickyKakeya4_actual_tube_footprint_profiles.lean",
+      "sha256": "e27d08eb1e6f540665a856ca4f0957fa57568ae89ebb320ea0fcee03ce45f664"
+    },
+    "Theorems.Thm_StickyKakeya4_ad_grid_cover_menus": {
+      "path": "Theorems/Thm_StickyKakeya4_ad_grid_cover_menus.lean",
+      "sha256": "72b4c9ee5260b9efbbabdfe72bace19c7643d29728a78db946f138c6a71353b6"
+    },
+    "Theorems.Thm_StickyKakeya4_borel_selector_foundations": {
+      "path": "Theorems/Thm_StickyKakeya4_borel_selector_foundations.lean",
+      "sha256": "1444aeb39ab7038cd8dca2714da46a0e7cf6dc4a943e96a4b22daa89dfd9a66e"
+    },
+    "Theorems.Thm_StickyKakeya4_canonical_sphere_measure": {
+      "path": "Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean",
+      "sha256": "1dbe6c2dd74c3d2eed860e74a58253e4f2e2de530a3363513b6398ce8cb2d231"
+    },
+    "Theorems.Thm_StickyKakeya4_carrier_piece_probability": {
+      "path": "Theorems/Thm_StickyKakeya4_carrier_piece_probability.lean",
+      "sha256": "d108740a57964be8b5beaa77f338a947e229ebec2bd7238f317cea0521d5c4d8"
+    },
+    "Theorems.Thm_StickyKakeya4_coherent_boundary_shrinking_packets": {
+      "path": "Theorems/Thm_StickyKakeya4_coherent_boundary_shrinking_packets.lean",
+      "sha256": "46180c3b1cb73b4068234a32a6dc4f81890d8276c88b3a9eca258b2d481a0f92"
+    },
+    "Theorems.Thm_StickyKakeya4_collision_flow_overlap_witness": {
+      "path": "Theorems/Thm_StickyKakeya4_collision_flow_overlap_witness.lean",
+      "sha256": "3589e845c30e29e46c85adebd43c48b60de701bfe4c0cac748732d002c8a8255"
+    },
+    "Theorems.Thm_StickyKakeya4_compact_front": {
+      "path": "Theorems/Thm_StickyKakeya4_compact_front.lean",
+      "sha256": "13faaee426a54cceafeea59fdd58da63ee06ad2d68f0719acbbc9028230801b4"
+    },
+    "Theorems.Thm_StickyKakeya4_compatible_tuple_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_compatible_tuple_selection.lean",
+      "sha256": "9c7ef7286d6e8410bce53aaa97ef08b04e3afc32265313567e3d608aa5e768f2"
+    },
+    "Theorems.Thm_StickyKakeya4_conditioned_boundary_packet_chain": {
+      "path": "Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_chain.lean",
+      "sha256": "1181b7ff29acedd0d1f64595153e17dab2fa4541cc292647a4ce8e5cfe1ce5c4"
+    },
+    "Theorems.Thm_StickyKakeya4_conditioned_boundary_packet_extension": {
+      "path": "Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_extension.lean",
+      "sha256": "1674c71cc8fa8568467b68401c1426210d9ab7e577046ff29904a14f2cd976e4"
+    },
+    "Theorems.Thm_StickyKakeya4_conditioned_packet_center_control": {
+      "path": "Theorems/Thm_StickyKakeya4_conditioned_packet_center_control.lean",
+      "sha256": "1787b8e316cc53f3b210b0a251873528a1325db2e070788d02301285bdad3af8"
+    },
+    "Theorems.Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence": {
+      "path": "Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean",
+      "sha256": "20f9cb3ef162ba052485ce519dcdbc8b368e9f2a3a48473f6a59855e98cbc236"
+    },
+    "Theorems.Thm_StickyKakeya4_cover_profile_clipping": {
+      "path": "Theorems/Thm_StickyKakeya4_cover_profile_clipping.lean",
+      "sha256": "44a521b8a519e18d3d0769347637356c0cf198893f36e401dc263c5fa9e78bba"
+    },
+    "Theorems.Thm_StickyKakeya4_cover_profile_stopping": {
+      "path": "Theorems/Thm_StickyKakeya4_cover_profile_stopping.lean",
+      "sha256": "11c44716f28a48e22a5d79172b6eb4a4ecc8ff71352ad9b0a76f0efda7bf9e1e"
+    },
+    "Theorems.Thm_StickyKakeya4_dimension_witness_extraction": {
+      "path": "Theorems/Thm_StickyKakeya4_dimension_witness_extraction.lean",
+      "sha256": "148036aa9274f44e250bcb7c7237b9660df96cd8b9ed5d4d4a6dc85eb87a2307"
+    },
+    "Theorems.Thm_StickyKakeya4_disjoint_profile_epochs": {
+      "path": "Theorems/Thm_StickyKakeya4_disjoint_profile_epochs.lean",
+      "sha256": "4c44f8dce46322d4504d72d510802d36d2f288640b21a222d4dd4fdb3c7963e1"
+    },
+    "Theorems.Thm_StickyKakeya4_dyadic_original_fiber_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_dyadic_original_fiber_selection.lean",
+      "sha256": "bd6e873391cab4e726790af18247e3a354c86fe98cfdf02a4046dcd46de995fd"
+    },
+    "Theorems.Thm_StickyKakeya4_energy_preserving_original_fiber_bin": {
+      "path": "Theorems/Thm_StickyKakeya4_energy_preserving_original_fiber_bin.lean",
+      "sha256": "8bc6f7a8f3e1b35189673a8a210062a3913f8af454dfe7535350dd255bf7fa57"
+    },
+    "Theorems.Thm_StickyKakeya4_euclidean_alignment_patches": {
+      "path": "Theorems/Thm_StickyKakeya4_euclidean_alignment_patches.lean",
+      "sha256": "8065bd078daa0bc1077c7aad9cf69631d6fbba2bb89424e00c82beb325c63511"
+    },
+    "Theorems.Thm_StickyKakeya4_exact_collision_identity": {
+      "path": "Theorems/Thm_StickyKakeya4_exact_collision_identity.lean",
+      "sha256": "d0acbe15e1d9a877ccd8aa2a51d641f46a71cd2335d2f41f29f9d02c167eeda2"
+    },
+    "Theorems.Thm_StickyKakeya4_fine_point_slab_geometry": {
+      "path": "Theorems/Thm_StickyKakeya4_fine_point_slab_geometry.lean",
+      "sha256": "ec7d3ebe1ed3343e16c35060ad48063a6bdd9eb11ca745afceb102cdeebb96d6"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_cell_label_reduction": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_cell_label_reduction.lean",
+      "sha256": "074c9e54400c84327b315c9ec3e43e61815ed3654e9cae4c8bb67251cdbf4936"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_common_point_tube_representatives": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_common_point_tube_representatives.lean",
+      "sha256": "2e7aeae0f1c94502e308e5085bd1c8e8b4b5790cb436f48e9366c0b0654978f4"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_cover_profile_epochs": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_cover_profile_epochs.lean",
+      "sha256": "e1829d9f0cdd98089e958a57995e2c956eac9967e7497a91a65c11ae0963e830"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_kaufman_projection": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_kaufman_projection.lean",
+      "sha256": "ce6001999262bd04b069e3c129bc19b8f5d56324c12b2963db046c06a1aef3a7"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_allscale": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_allscale.lean",
+      "sha256": "15ce358d72431bfa203a52aeb52174086a3f4833a4dd9ad4a203399cf141bb74"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_energy.lean",
+      "sha256": "2b574c8e2371309f80876ad19afc65561bdf3ffdd2fec9b12ac654eab5e6d358"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_frostman": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_frostman.lean",
+      "sha256": "54e0c229d9a5c10d1abd2dbe01062f0f86eaf8e4b6e35ca44f1de7e5fb7c980a"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_frostman_geometry": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_frostman_geometry.lean",
+      "sha256": "cb3f7b2c53ed3388383e43bb59037cee7832e3806ab2f7bac387510381e0f5b6"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_grid": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_grid.lean",
+      "sha256": "2bdb7a8e3ff857e92896be8e31a4f057f79cb60c36f5559c7d4f654c1fbc4b38"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_joint": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_joint.lean",
+      "sha256": "bcd914d1a7cb331ff6cf27f457c54ec4124df81299c6c93574bb03c2968d281c"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_line_tubes": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_line_tubes.lean",
+      "sha256": "53b68f8b4b74c69580ec50a13534711cc9fbf7ce3f764d3fffed37305565fd4b"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_original_b": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_original_b.lean",
+      "sha256": "3d69222c474f24afc88e6ec1291152a4f2755c566c42803950fd877fe765b863"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_representatives": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_representatives.lean",
+      "sha256": "9678b005e01422187ec0153ab8216ca90bac361394950a09fcfce57a521404a1"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_selection.lean",
+      "sha256": "163ed0efd369602c807819d484290344d0956e0deb52293a4052fcbd0e8e1b12"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_plane_projection_triangles": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_plane_projection_triangles.lean",
+      "sha256": "c7e5e7a4d1d5c0e724831410996f8adf061c29e238fd1743035470ec5f7354ed"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_scale_source_mass": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_scale_source_mass.lean",
+      "sha256": "72912704fd89a85e02a65ea7fbc90f512905b566b1d411a4c482b2d77c39c50f"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_voronoi_ad_coarsening": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_voronoi_ad_coarsening.lean",
+      "sha256": "ba8bdd53483ca0ed563c0cbb3c2851103b200455b1aa18af88896c1daeb5e4b5"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_voronoi_population": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_voronoi_population.lean",
+      "sha256": "15c610d4b8d3e5f6b9e05366042b8a64daab437bdfd846caa46be24d96fe7be5"
+    },
+    "Theorems.Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening": {
+      "path": "Theorems/Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening.lean",
+      "sha256": "255eeb69dc6a7ef1c48c5d47ff6845f6293a1af3b53d45d389ef5b73aa84b56e"
+    },
+    "Theorems.Thm_StickyKakeya4_four_probe_boundary_firewall": {
+      "path": "Theorems/Thm_StickyKakeya4_four_probe_boundary_firewall.lean",
+      "sha256": "0930487c7d99ad6f65adfe4dd490295616e573b5e49f85b286d39f6719ac899b"
+    },
+    "Theorems.Thm_StickyKakeya4_four_probe_boundary_limit": {
+      "path": "Theorems/Thm_StickyKakeya4_four_probe_boundary_limit.lean",
+      "sha256": "cceea59fcc1ad838a0d9c25b401153ca8d4341292aa644d204636d9a65c1ec26"
+    },
+    "Theorems.Thm_StickyKakeya4_four_probe_cauchy_extraction": {
+      "path": "Theorems/Thm_StickyKakeya4_four_probe_cauchy_extraction.lean",
+      "sha256": "97690e674b5d73acb7631931145c150e9596af3c0e7855018321456a94c2d154"
+    },
+    "Theorems.Thm_StickyKakeya4_fractional_fiber_alignment": {
+      "path": "Theorems/Thm_StickyKakeya4_fractional_fiber_alignment.lean",
+      "sha256": "fe99c188e2d2f09978c9c91004c0bd2159cde9a3cdf62c50cc9f7c3b158d358a"
+    },
+    "Theorems.Thm_StickyKakeya4_front_direction_cap_firewall": {
+      "path": "Theorems/Thm_StickyKakeya4_front_direction_cap_firewall.lean",
+      "sha256": "4a78455576f4fc78a0aaaf4a3beeffee3b9e45ce00fac6d628a021137f4c85bd"
+    },
+    "Theorems.Thm_StickyKakeya4_front_fibre_lower_bound": {
+      "path": "Theorems/Thm_StickyKakeya4_front_fibre_lower_bound.lean",
+      "sha256": "7d9c7d389790e5f91b31b240a624b70d6d66c1ad3cd1148e3b790f24baf94990"
+    },
+    "Theorems.Thm_StickyKakeya4_front_parameter_probability": {
+      "path": "Theorems/Thm_StickyKakeya4_front_parameter_probability.lean",
+      "sha256": "f1d9ff1100790eeefad0b036d904414fa27976e16578a2a8d46040256abfa7f0"
+    },
+    "Theorems.Thm_StickyKakeya4_front_parametrization": {
+      "path": "Theorems/Thm_StickyKakeya4_front_parametrization.lean",
+      "sha256": "6e26782715c8fa467628e21512fe32633a2726d08ee393a7cf6da93a2fd90458"
+    },
+    "Theorems.Thm_StickyKakeya4_front_two_probe_direction_firewall": {
+      "path": "Theorems/Thm_StickyKakeya4_front_two_probe_direction_firewall.lean",
+      "sha256": "ba77c19265079d755f88202a02d8ce77ff6c9e1a09542795b211b1325287f883"
+    },
+    "Theorems.Thm_StickyKakeya4_frostman_mass_distribution": {
+      "path": "Theorems/Thm_StickyKakeya4_frostman_mass_distribution.lean",
+      "sha256": "7fd1f955a2a9e772351dff6567be0eb209977ab0e6b4fc9a61bf35f6f2c7f0d5"
+    },
+    "Theorems.Thm_StickyKakeya4_gkz_dilate_rounded_sums": {
+      "path": "Theorems/Thm_StickyKakeya4_gkz_dilate_rounded_sums.lean",
+      "sha256": "7314aaf224977616d688e1726975ce4cd47f9d4d2f5940779e0916ee0bc9ed6a"
+    },
+    "Theorems.Thm_StickyKakeya4_gkz_finite_anchored_plunnecke": {
+      "path": "Theorems/Thm_StickyKakeya4_gkz_finite_anchored_plunnecke.lean",
+      "sha256": "1f930bb8081ec06c39558ea616e9ada78bf70bb7a4c6d3975f6cb6d2ebaa4ac3"
+    },
+    "Theorems.Thm_StickyKakeya4_gkz_grid_code_perturbation": {
+      "path": "Theorems/Thm_StickyKakeya4_gkz_grid_code_perturbation.lean",
+      "sha256": "7df78a9c215eb9174779efcc0a085e0c3453413567c4aa78d769ea4804588b66"
+    },
+    "Theorems.Thm_StickyKakeya4_gkz_original_gap_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_gkz_original_gap_energy.lean",
+      "sha256": "c382b8fb606167ad7a2f4ddc1ad18346a8c46ae8407a3a746863cc5711e83edb"
+    },
+    "Theorems.Thm_StickyKakeya4_gkz_original_product_overlap": {
+      "path": "Theorems/Thm_StickyKakeya4_gkz_original_product_overlap.lean",
+      "sha256": "b969cccec63bccc147ec5cd66e0196016a2eb33ba21188ba01a97f540fe94fd9"
+    },
+    "Theorems.Thm_StickyKakeya4_gkz_original_ratio_gap": {
+      "path": "Theorems/Thm_StickyKakeya4_gkz_original_ratio_gap.lean",
+      "sha256": "6a62325f1a9fc514fa1f08041b6e296ffa58fe278d0d044a21267964d8934e45"
+    },
+    "Theorems.Thm_StickyKakeya4_gkz_real_dilation_union": {
+      "path": "Theorems/Thm_StickyKakeya4_gkz_real_dilation_union.lean",
+      "sha256": "1b6885215bc107a7c65b45a564538205537b98cacd81a90bc64c745f943305eb"
+    },
+    "Theorems.Thm_StickyKakeya4_graph_tube_grid_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_graph_tube_grid_cover.lean",
+      "sha256": "107b28644b152efc752f3186883dac844da161e44bd4ba6550602392c72a0b9e"
+    },
+    "Theorems.Thm_StickyKakeya4_grid_quotient_ad": {
+      "path": "Theorems/Thm_StickyKakeya4_grid_quotient_ad.lean",
+      "sha256": "d5fccfe794c4dacaeedf26b3a4532d7089fa9d9fcbe04ac28ab2aa60d1433662"
+    },
+    "Theorems.Thm_StickyKakeya4_heavy_energy_bin_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_heavy_energy_bin_selection.lean",
+      "sha256": "d52a0e2cd8e3a718b35ed7c28496a1440e7c71e5cd7e1d3d952216720f78f407"
+    },
+    "Theorems.Thm_StickyKakeya4_incidence_bin_transfer": {
+      "path": "Theorems/Thm_StickyKakeya4_incidence_bin_transfer.lean",
+      "sha256": "5e7bd70e22b4bd1ee134bb8227bcf7fd18fcc536e16c65a539ade43dbdf693c3"
+    },
+    "Theorems.Thm_StickyKakeya4_integer_bin_real_near_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_integer_bin_real_near_energy.lean",
+      "sha256": "a2a997eacbf809d5d42fae063fa962454dc7ca155809906ee3f227d3c2fbc522"
+    },
+    "Theorems.Thm_StickyKakeya4_labelled_real_energy_bin": {
+      "path": "Theorems/Thm_StickyKakeya4_labelled_real_energy_bin.lean",
+      "sha256": "30bab06d596de250571fb7e2b80fd599682f0355dfc0b43381a631319ee9962d"
+    },
+    "Theorems.Thm_StickyKakeya4_lexicographic_selector": {
+      "path": "Theorems/Thm_StickyKakeya4_lexicographic_selector.lean",
+      "sha256": "bdb07f98ba98a4dd2aa593795eec9d8675970eed3e5f5470993ef5610f8607d9"
+    },
+    "Theorems.Thm_StickyKakeya4_lossless_edge_flow_carleson": {
+      "path": "Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean",
+      "sha256": "e2c7caa0ecd6e73ad07a0db6ae9560cdb5d46441e9a22015784a9d692bdafeff"
+    },
+    "Theorems.Thm_StickyKakeya4_marked_carrier_inverse": {
+      "path": "Theorems/Thm_StickyKakeya4_marked_carrier_inverse.lean",
+      "sha256": "f63e7e89d314bc9e9e3d183615cee15fad019722da5ed1f9beeccf584e4c4f13"
+    },
+    "Theorems.Thm_StickyKakeya4_maslov_incidence_equivalence": {
+      "path": "Theorems/Thm_StickyKakeya4_maslov_incidence_equivalence.lean",
+      "sha256": "b068ad98279cc2c86c930d39262ac50a1164cfbc9a5f945ff61032a4e29404ce"
+    },
+    "Theorems.Thm_StickyKakeya4_measurable_selector_parametrization": {
+      "path": "Theorems/Thm_StickyKakeya4_measurable_selector_parametrization.lean",
+      "sha256": "af25f5eb76d021aaef5cbceeb86a4ac7518d8b1f6c8c231c98ffb83af28fe41b"
+    },
+    "Theorems.Thm_StickyKakeya4_native_actual_local_admission": {
+      "path": "Theorems/Thm_StickyKakeya4_native_actual_local_admission.lean",
+      "sha256": "73b53f1e1efb8fd6f2f187003d9f391c4865ac237233b0a00dce69d0b2293c4c"
+    },
+    "Theorems.Thm_StickyKakeya4_native_actual_local_density": {
+      "path": "Theorems/Thm_StickyKakeya4_native_actual_local_density.lean",
+      "sha256": "1adc4a80880cc044839ec4d69f84113d1fda08f5ce28a2801a043b371e77e603"
+    },
+    "Theorems.Thm_StickyKakeya4_native_coarse_ancestor_counts": {
+      "path": "Theorems/Thm_StickyKakeya4_native_coarse_ancestor_counts.lean",
+      "sha256": "9ee073e6f04fe8d16a8bee4464a8fc5545621d76f49b24aea971c936f2377720"
+    },
+    "Theorems.Thm_StickyKakeya4_native_coarse_color_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_native_coarse_color_selection.lean",
+      "sha256": "b509e04c0dc63343b94490bd42b65a42679a9cd2c8f150a41dccd263b2337b37"
+    },
+    "Theorems.Thm_StickyKakeya4_native_coarse_direction_thinning": {
+      "path": "Theorems/Thm_StickyKakeya4_native_coarse_direction_thinning.lean",
+      "sha256": "9ed99d8c98b41c2b41ef11dbce41489cb0972373e6d2569051f5799298bb7ff9"
+    },
+    "Theorems.Thm_StickyKakeya4_native_coarse_physical_containment": {
+      "path": "Theorems/Thm_StickyKakeya4_native_coarse_physical_containment.lean",
+      "sha256": "f5041a8805a5e9cf0cbd67ad73aec868a9239ed51852052d22a89723bd6e2648"
+    },
+    "Theorems.Thm_StickyKakeya4_native_coarse_representative_geometry": {
+      "path": "Theorems/Thm_StickyKakeya4_native_coarse_representative_geometry.lean",
+      "sha256": "c7eb98881eee6e259d6411db44840895d22209ba56d4f392f92cc2e3b85a9182"
+    },
+    "Theorems.Thm_StickyKakeya4_native_coarse_shading_capacity": {
+      "path": "Theorems/Thm_StickyKakeya4_native_coarse_shading_capacity.lean",
+      "sha256": "d0e86e6529ca51a92988170dc9bccadce1704df1d74c127085ed3484cb3acdcd"
+    },
+    "Theorems.Thm_StickyKakeya4_native_coarse_slope_occupancy": {
+      "path": "Theorems/Thm_StickyKakeya4_native_coarse_slope_occupancy.lean",
+      "sha256": "5ca9924bf4946a0460aa958d408de71914ece94c807c11a8436244fae7939918"
+    },
+    "Theorems.Thm_StickyKakeya4_native_common_cubical_mesh": {
+      "path": "Theorems/Thm_StickyKakeya4_native_common_cubical_mesh.lean",
+      "sha256": "60d6973407dd8b667b622c2c8729060686c7be60dc93b76b6ff9c89f4f789c3f"
+    },
+    "Theorems.Thm_StickyKakeya4_native_compact_ancestor_budget": {
+      "path": "Theorems/Thm_StickyKakeya4_native_compact_ancestor_budget.lean",
+      "sha256": "6159227069384cdfe7859c2728f57135e0f6439dcd0db3243807bb70263244c9"
+    },
+    "Theorems.Thm_StickyKakeya4_native_compact_ancestor_regularity": {
+      "path": "Theorems/Thm_StickyKakeya4_native_compact_ancestor_regularity.lean",
+      "sha256": "d4e64ffa2e6d4e4a0b3e16f499d4fdadc6364e5add8bd9769015a7a72f7c5024"
+    },
+    "Theorems.Thm_StickyKakeya4_native_compact_carrier_count": {
+      "path": "Theorems/Thm_StickyKakeya4_native_compact_carrier_count.lean",
+      "sha256": "bf81fe310c3bd813add948849490e798a8ba7afd416d5df849f2bff5d9d32d8b"
+    },
+    "Theorems.Thm_StickyKakeya4_native_compact_chart_reach": {
+      "path": "Theorems/Thm_StickyKakeya4_native_compact_chart_reach.lean",
+      "sha256": "a3ac28c33555afe35727803a194a9b67e75f4f0979779dc7051debac95073969"
+    },
+    "Theorems.Thm_StickyKakeya4_native_compact_dyadic_source": {
+      "path": "Theorems/Thm_StickyKakeya4_native_compact_dyadic_source.lean",
+      "sha256": "d106b01f25c88164c77fd4469d1a29e4a616cfc0809dd5be36290bd7d9fb364a"
+    },
+    "Theorems.Thm_StickyKakeya4_native_compact_normalized_source": {
+      "path": "Theorems/Thm_StickyKakeya4_native_compact_normalized_source.lean",
+      "sha256": "55d5ffb1fb28cfc913bfd34334c03d5febebdafbb656731441acabf01a69c59f"
+    },
+    "Theorems.Thm_StickyKakeya4_native_compact_parent_retention": {
+      "path": "Theorems/Thm_StickyKakeya4_native_compact_parent_retention.lean",
+      "sha256": "6c3dd1520a1764fb4c227ff5eba2dbb2ebced0e9d2d1bfa32d13b286c75e51da"
+    },
+    "Theorems.Thm_StickyKakeya4_native_compact_pruned_parameters": {
+      "path": "Theorems/Thm_StickyKakeya4_native_compact_pruned_parameters.lean",
+      "sha256": "0a85df84bcd3e0e158ef690cdba3d1e00a1e844de9e91b218e67f918d0323948"
+    },
+    "Theorems.Thm_StickyKakeya4_native_contracted_unit_parent": {
+      "path": "Theorems/Thm_StickyKakeya4_native_contracted_unit_parent.lean",
+      "sha256": "69d78c122df323e0dfd3df0dcdc50f86d2a095512fc04b38a62797a01febc033"
+    },
+    "Theorems.Thm_StickyKakeya4_native_cubical_incidence_counts": {
+      "path": "Theorems/Thm_StickyKakeya4_native_cubical_incidence_counts.lean",
+      "sha256": "e09687e9c0ef0a1903ed4266a555fa4e126e259713cb96442af0d981dde35714"
+    },
+    "Theorems.Thm_StickyKakeya4_native_dense_original_parent": {
+      "path": "Theorems/Thm_StickyKakeya4_native_dense_original_parent.lean",
+      "sha256": "3e1556d9e54244497bce009cac6534a44bf06f79efe61a24aa144ab0e8cb1742"
+    },
+    "Theorems.Thm_StickyKakeya4_native_dense_retained_unit_parent": {
+      "path": "Theorems/Thm_StickyKakeya4_native_dense_retained_unit_parent.lean",
+      "sha256": "79e91420b83ffd4ffb4a117cbdf52e341b8df8916c96dd8e423a1edb7540207e"
+    },
+    "Theorems.Thm_StickyKakeya4_native_dense_source_refinement": {
+      "path": "Theorems/Thm_StickyKakeya4_native_dense_source_refinement.lean",
+      "sha256": "6d4a51d3b8a1f83801993f76db001b36f103473f175adae7c54d3b88aec471e7"
+    },
+    "Theorems.Thm_StickyKakeya4_native_dyadic_parent_cells": {
+      "path": "Theorems/Thm_StickyKakeya4_native_dyadic_parent_cells.lean",
+      "sha256": "843d6a3078d1ff56d5074e6604a585717c30120f1d1425926a6371081e50f80c"
+    },
+    "Theorems.Thm_StickyKakeya4_native_dyadic_pruning_cutoff": {
+      "path": "Theorems/Thm_StickyKakeya4_native_dyadic_pruning_cutoff.lean",
+      "sha256": "26c1e9694c14d2f8c544606765b4b4e2893384813a998ed064cddd8b0b97f1b2"
+    },
+    "Theorems.Thm_StickyKakeya4_native_dyadic_tube_epoch": {
+      "path": "Theorems/Thm_StickyKakeya4_native_dyadic_tube_epoch.lean",
+      "sha256": "a95c4b4daf8a4b182857beab6bb62ef187dcbabf5ce97a939219eee8c39aba7c"
+    },
+    "Theorems.Thm_StickyKakeya4_native_dyadic_tube_stopping": {
+      "path": "Theorems/Thm_StickyKakeya4_native_dyadic_tube_stopping.lean",
+      "sha256": "4b5bf856776fb64bbb752b754cf8c9e2aa141c03fb3fed4c90a8d7afebed5386"
+    },
+    "Theorems.Thm_StickyKakeya4_native_finite_kakeya_counts": {
+      "path": "Theorems/Thm_StickyKakeya4_native_finite_kakeya_counts.lean",
+      "sha256": "d3644a6f36524d7015b0f564a45f73a158434e5b827e89bda4a1957dfa59cdac"
+    },
+    "Theorems.Thm_StickyKakeya4_native_finite_kakeya_exponent": {
+      "path": "Theorems/Thm_StickyKakeya4_native_finite_kakeya_exponent.lean",
+      "sha256": "ab71d9c6ddadea5726dda51f4a4d66a6e75fa302d3b701e3016759a1ba28c8d2"
+    },
+    "Theorems.Thm_StickyKakeya4_native_fixed_compact_kakeya_exponent": {
+      "path": "Theorems/Thm_StickyKakeya4_native_fixed_compact_kakeya_exponent.lean",
+      "sha256": "60c03dd726fa301cae060d83621dc8dab0e2ce4aa0de21d96f6532fd21b4aa10"
+    },
+    "Theorems.Thm_StickyKakeya4_native_fixed_compact_multiplicity": {
+      "path": "Theorems/Thm_StickyKakeya4_native_fixed_compact_multiplicity.lean",
+      "sha256": "3f71ff8bef9b780a623ef7df78f6b7c3c7f5addd1a4bd35c493e979b0ff5a7a2"
+    },
+    "Theorems.Thm_StickyKakeya4_native_fixed_compact_normalized_near": {
+      "path": "Theorems/Thm_StickyKakeya4_native_fixed_compact_normalized_near.lean",
+      "sha256": "9819043fc3d00102b443775ec85eb42de4aae2dbb7fb5c87b18ae1f0e919e3d9"
+    },
+    "Theorems.Thm_StickyKakeya4_native_graph_marked_line": {
+      "path": "Theorems/Thm_StickyKakeya4_native_graph_marked_line.lean",
+      "sha256": "9b13157a3d4b1b8c481adf02e234a609dfe012ee35f9419bb82a804535d408ed"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_admission_budget": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_admission_budget.lean",
+      "sha256": "ee30ca0d41cfc927f418c7af154637b6645ce6973feba0e17a249525734f2eb1"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_cell_coherence": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_cell_coherence.lean",
+      "sha256": "9fe387095c4f3e72a2c648c31533d426b0d79bb955728d222c00022b5bb15349"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_pair_fibers": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_pair_fibers.lean",
+      "sha256": "b18b4714f8360f80ec08f65293d3cc6e2ef71167c1377dcfd79ea2e45b90975e"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_pair_uniform_core": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_pair_uniform_core.lean",
+      "sha256": "6ec588b55f51e7379d7be79c0ecc524acc7bbf84a9ca6908d24a0d3d41cd5eb8"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_ad": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_ad.lean",
+      "sha256": "183f75127e1f628f6111434c7d1c252d35ccd1c937c38fac9ee45c2c8b6caf7a"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_capacity": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_capacity.lean",
+      "sha256": "93fed96916f65f61deb17291efd081f4ea5abb939cc894c099e7865035996cc8"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_cells": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_cells.lean",
+      "sha256": "faa67645e3dee2aafa2cc09889f11e6b0008e3c71c0498bc75d502c20862cd24"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_cw": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_cw.lean",
+      "sha256": "3640051060f7c56cfdaba8d80256dd3dc7291b002483fce722b680ad070c25c6"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_geometry": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_geometry.lean",
+      "sha256": "363624405ad9bca5b7436d8dcaa3157e32bee317fbaf0e7264dbc72a478c3493"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_multiplicity": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_multiplicity.lean",
+      "sha256": "12922cc3403997e7d2e226e3e6d2ff9c352109d495a00c60db756a87e07ce006"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_physical_map": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_physical_map.lean",
+      "sha256": "833f1143817f436cd16372f54429edf67fb0f39e8847a7a930aec6a15654d359"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_scales": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_scales.lean",
+      "sha256": "01037440dd29da99650039114c9d170cd9426fee8702133599d14eeabf1a66c6"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_source": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_source.lean",
+      "sha256": "f5aeb6d0ad263728623a3c5b89f3120ff37c6b624d911dfcf414f884be21d3fe"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_source_counts": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_source_counts.lean",
+      "sha256": "cf6dbcd70308536e74c862d97cdac05960abb260fb715a10d8a7d7956742668d"
+    },
+    "Theorems.Thm_StickyKakeya4_native_local_parent_volume": {
+      "path": "Theorems/Thm_StickyKakeya4_native_local_parent_volume.lean",
+      "sha256": "2a98a0c863366f46e9ad7ba08fdb823cddd39e76d1e29bb6411a09c56904eb49"
+    },
+    "Theorems.Thm_StickyKakeya4_native_near_extremal_physical_parent": {
+      "path": "Theorems/Thm_StickyKakeya4_native_near_extremal_physical_parent.lean",
+      "sha256": "e7fc89184a5aeda2484097a93033d7929df80cc8586026025c239d0fa6fd7cf7"
+    },
+    "Theorems.Thm_StickyKakeya4_native_near_source_slice_population": {
+      "path": "Theorems/Thm_StickyKakeya4_native_near_source_slice_population.lean",
+      "sha256": "f3d72d3e2f1ba0be6cd0550059293437316623fda61ab7b46c702d1ebf7574d5"
+    },
+    "Theorems.Thm_StickyKakeya4_native_normalized_parent_carrier_metric": {
+      "path": "Theorems/Thm_StickyKakeya4_native_normalized_parent_carrier_metric.lean",
+      "sha256": "49f0149b1b3de0e1850ae9d1dd4b50c30a814ac4ebac334eb9e756fb75d33a9d"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_ancestor_pruning": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_ancestor_pruning.lean",
+      "sha256": "9d24ac63e76e8c605a664f3d221cf8dceaeac7f27591fd6b76b811e4fa75fe4c"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_cell_chart_geometry": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_cell_chart_geometry.lean",
+      "sha256": "729a7e1daf3f8c4d0d06ff71ec82446926a89dd0cb3a68e07c579d11f6db20c9"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_chart_metric": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_chart_metric.lean",
+      "sha256": "8841a3a0fa9fca0ca86a2871f0edb81d7bfa72548dab2e162592145b935b6f98"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_height_vertices": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_height_vertices.lean",
+      "sha256": "c78af73fc24490611fe95c0b74e398f84b73114963af400a5f74ac0c9b73e198"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_log_budget": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_log_budget.lean",
+      "sha256": "e5986ed113574f8f78dfcf4d43f21307dd1d026fc378bdcb1b95b4e58e5602b6"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_padded_cells": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_padded_cells.lean",
+      "sha256": "e3823358a3d8526c132a4b4b4d54e1a085801589a070de76db48056fa6a79785"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_parent_count": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_parent_count.lean",
+      "sha256": "76e6469761d55bddf486576011c609768d70d1239846f76200ad583fcb765898"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_parent_density_core": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_parent_density_core.lean",
+      "sha256": "8ed0309b8dd308d32ec74dce256fc35fcaef141304afb2e8a42790a3ed1d22ce"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_parent_physical_data": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_parent_physical_data.lean",
+      "sha256": "b54d1977240929b74d1768d7614851e54c59c93d3637eee13d5470035d17bb1f"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_parent_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_parent_selection.lean",
+      "sha256": "2cc50bb0433a3810e652c36f3b5a2750032ace99386a00e1e100d9141ea19821"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_pruned_mass": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_pruned_mass.lean",
+      "sha256": "e3fbf5db4030848c86ad2cbd4e93139fb1c9e7885f5ccd82500a38ad099f5df9"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_shading_density": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_shading_density.lean",
+      "sha256": "05cdaa8e7e924b339b7c36cffd07f60defd6e0adfaba95837ded5a2222328213"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_slice_ball_population": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_slice_ball_population.lean",
+      "sha256": "57634f4d74546419cd8ee1c277950e8facbd7790e8aa778c01245a78b7f697f6"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_slice_multiplicity": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_slice_multiplicity.lean",
+      "sha256": "005152481676e2b2d5588000f8137481195643e1a22aec9d2d8985fc31deb5c2"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_slice_population": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_slice_population.lean",
+      "sha256": "5bd7b9ad9d3716b5b2f708ac0fb6659832b4b78060ddd72b1075d4721eefc390"
+    },
+    "Theorems.Thm_StickyKakeya4_native_original_slope_cube_packing": {
+      "path": "Theorems/Thm_StickyKakeya4_native_original_slope_cube_packing.lean",
+      "sha256": "3e75dcac96bb75f672bad3709cb9da2962d149158efe6616648354fe4b1a16fe"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_cell_fiber_count": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_cell_fiber_count.lean",
+      "sha256": "01668fd56fd44a2ec474bf10e9284251ea0683129a7e1b9970ade3e02685ce3c"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_cell_source": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_cell_source.lean",
+      "sha256": "ba48388d5535069ca12aa62a633900d76acc88492ab87648f21cd9ed4eedbe7b"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_cell_union_bound": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_cell_union_bound.lean",
+      "sha256": "0498df35fd35b6733531c7ddbff60bb500aefce44bc0c36abb82b074660ebe63"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_source_ad_lower": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_source_ad_lower.lean",
+      "sha256": "f61b460a80cb27476d05028c63ccaa14dfc0546b1205084cd724a1c4b4a5d29f"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_source_ad_upper": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_source_ad_upper.lean",
+      "sha256": "907a2a38fb83edc5b1f956ac62d73b44b4c10a423e3fe1abc20afb975bc18dcf"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_source_admissibility": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_source_admissibility.lean",
+      "sha256": "674f66ffd763ca8081da0ffbb6232ed29fc91be7f1afe76e08fc6f23552cf988"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_source_count_budget": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_source_count_budget.lean",
+      "sha256": "2b0b0ba60bd588132e20764ef8f927339d37ef98a0ed44537b3b6bf9b886f2b5"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_source_density": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_source_density.lean",
+      "sha256": "2a5fa55c94906ae6b85c1788ffcf5144a8077de98ed06ef3ece33eae9ab22252"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_source_mass": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_source_mass.lean",
+      "sha256": "2a9f8f70d301efe7e997b986762e6c2767afbdee184190c0706a263cbff8c4df"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_source_power_budget": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_source_power_budget.lean",
+      "sha256": "05d33f36cd04aad999d9412d4704362c456747a517c12be762862fdbc4177b7c"
+    },
+    "Theorems.Thm_StickyKakeya4_native_padded_source_transport": {
+      "path": "Theorems/Thm_StickyKakeya4_native_padded_source_transport.lean",
+      "sha256": "d2cf42998dd55345a9fd3f6d11ce08cf9df597b37aeb93c6c7e8ccb7abfed87d"
+    },
+    "Theorems.Thm_StickyKakeya4_native_pruned_power_constants": {
+      "path": "Theorems/Thm_StickyKakeya4_native_pruned_power_constants.lean",
+      "sha256": "06bcd08f8f880237df7e39b8b62c5f14fb0317202b95857c7f0994260c4e53ce"
+    },
+    "Theorems.Thm_StickyKakeya4_native_pruning_mass_budget": {
+      "path": "Theorems/Thm_StickyKakeya4_native_pruning_mass_budget.lean",
+      "sha256": "ce04dad66b4abe84842bfbae706a2bbc384e72d92cb4fda9de9017a6d66eeb78"
+    },
+    "Theorems.Thm_StickyKakeya4_native_quarter_scale_parameters": {
+      "path": "Theorems/Thm_StickyKakeya4_native_quarter_scale_parameters.lean",
+      "sha256": "f36d33014683949216277d18b245d44e969c16790447371bc55d14c14d3115ca"
+    },
+    "Theorems.Thm_StickyKakeya4_native_relative_parent_labels": {
+      "path": "Theorems/Thm_StickyKakeya4_native_relative_parent_labels.lean",
+      "sha256": "93a47cef5ec3dc96c8d95e7bb6ad69a15077af6b200d7f5783588a268a98ea29"
+    },
+    "Theorems.Thm_StickyKakeya4_native_scheduled_local_multiplicity": {
+      "path": "Theorems/Thm_StickyKakeya4_native_scheduled_local_multiplicity.lean",
+      "sha256": "5c4d4f0ca3db9f5d53cc5994dbeeef3e2bf212bb6f8aee3093f2be06b7130aea"
+    },
+    "Theorems.Thm_StickyKakeya4_native_selected_physical_multiplicity": {
+      "path": "Theorems/Thm_StickyKakeya4_native_selected_physical_multiplicity.lean",
+      "sha256": "212b7e13f83d4bf97df5b8b817a4e36515b6233ad7941e44afd466e2fe372dbf"
+    },
+    "Theorems.Thm_StickyKakeya4_native_slice_grid_geometry": {
+      "path": "Theorems/Thm_StickyKakeya4_native_slice_grid_geometry.lean",
+      "sha256": "c2542796521c72ba8975b2095a6573a823d67509cd9d3d1d06cc0a976707d2e5"
+    },
+    "Theorems.Thm_StickyKakeya4_native_source_size_bounds": {
+      "path": "Theorems/Thm_StickyKakeya4_native_source_size_bounds.lean",
+      "sha256": "a2f0eabe77331aeae7bd61c2806e128abea9cc87ddf5dee6b7cea86fc2a46e42"
+    },
+    "Theorems.Thm_StickyKakeya4_native_tangent_grid_coarsening": {
+      "path": "Theorems/Thm_StickyKakeya4_native_tangent_grid_coarsening.lean",
+      "sha256": "827b00d6b1bb0fa5751f0962cb4a550cfdf924aa73d7c9db4aecc04053330be2"
+    },
+    "Theorems.Thm_StickyKakeya4_native_unit_parent_directions": {
+      "path": "Theorems/Thm_StickyKakeya4_native_unit_parent_directions.lean",
+      "sha256": "546196e5c6d9e98bdac0364820990151a6f59307074641289789762b6f638bad"
+    },
+    "Theorems.Thm_StickyKakeya4_native_unit_parent_dyadic": {
+      "path": "Theorems/Thm_StickyKakeya4_native_unit_parent_dyadic.lean",
+      "sha256": "1914aa843e26ad578e91fc3451163fc5d9411f9ea021c75da94ebe0489cbf7dd"
+    },
+    "Theorems.Thm_StickyKakeya4_native_unit_parent_normalization": {
+      "path": "Theorems/Thm_StickyKakeya4_native_unit_parent_normalization.lean",
+      "sha256": "1335b2cd6fbc9bb80c68a33536ee74a2306591e8aa8c64d144682684adc54fa0"
+    },
+    "Theorems.Thm_StickyKakeya4_native_unit_parent_volume": {
+      "path": "Theorems/Thm_StickyKakeya4_native_unit_parent_volume.lean",
+      "sha256": "61a9d43a7a49ead4d58937a266b9171bdfa95aab01f8ebd1a648c6b21f99b909"
+    },
+    "Theorems.Thm_StickyKakeya4_native_weighted_point_populations": {
+      "path": "Theorems/Thm_StickyKakeya4_native_weighted_point_populations.lean",
+      "sha256": "14ac534b4953cc7306cff592f8c640d5960c68bbb894c398a0db8c9589580718"
+    },
+    "Theorems.Thm_StickyKakeya4_north_conditioned_boundary_packet_chain": {
+      "path": "Theorems/Thm_StickyKakeya4_north_conditioned_boundary_packet_chain.lean",
+      "sha256": "1860cdba8023ece6ff679e2bb4328105d01ddfed8577f30e951f6fa2874fef5b"
+    },
+    "Theorems.Thm_StickyKakeya4_north_graph_contact_coordinates": {
+      "path": "Theorems/Thm_StickyKakeya4_north_graph_contact_coordinates.lean",
+      "sha256": "95d7a6d0b29ebfd4ce98c5d8483e30960808d5be8209e5c2c9930566e608c1fb"
+    },
+    "Theorems.Thm_StickyKakeya4_original_affine_alphabet_recode": {
+      "path": "Theorems/Thm_StickyKakeya4_original_affine_alphabet_recode.lean",
+      "sha256": "52565b3a5eacf261334bd1ded1f799ccdf7f200b560b5dd08f940e319e131b12"
+    },
+    "Theorems.Thm_StickyKakeya4_original_angular_alphabet_translation": {
+      "path": "Theorems/Thm_StickyKakeya4_original_angular_alphabet_translation.lean",
+      "sha256": "3667afa11e50aca64a6aba8bf16c04a8c38518b48403c42573a43564c672f3d9"
+    },
+    "Theorems.Thm_StickyKakeya4_original_angular_exponent_range": {
+      "path": "Theorems/Thm_StickyKakeya4_original_angular_exponent_range.lean",
+      "sha256": "2fbe3fa133c51812cdf9e0caa95ec16ad38b826de2b48483bf6259bee41bd702"
+    },
+    "Theorems.Thm_StickyKakeya4_original_bourgain_graph_transfer": {
+      "path": "Theorems/Thm_StickyKakeya4_original_bourgain_graph_transfer.lean",
+      "sha256": "485a7e74f0c22f48d2f6fe5676fca7cee1bf63b257965f215265c867aaa391e3"
+    },
+    "Theorems.Thm_StickyKakeya4_original_coefficient_cover_net": {
+      "path": "Theorems/Thm_StickyKakeya4_original_coefficient_cover_net.lean",
+      "sha256": "d3a276c97e387161607d9786f8a21391c642b09f2f091917ae7a98b94998454d"
+    },
+    "Theorems.Thm_StickyKakeya4_original_coefficient_density_profile": {
+      "path": "Theorems/Thm_StickyKakeya4_original_coefficient_density_profile.lean",
+      "sha256": "60e0ba9ee0188ff37e01959ff55c06168e3d787f92ff0a5057ff1e3b56bd9d26"
+    },
+    "Theorems.Thm_StickyKakeya4_original_coefficient_normalization": {
+      "path": "Theorems/Thm_StickyKakeya4_original_coefficient_normalization.lean",
+      "sha256": "c9d22063d9de8712c1961b85d38a1d90348fe56d7709711ddf3bf61fe89c535d"
+    },
+    "Theorems.Thm_StickyKakeya4_original_coefficient_profile_mesh_transfer": {
+      "path": "Theorems/Thm_StickyKakeya4_original_coefficient_profile_mesh_transfer.lean",
+      "sha256": "1f0b5b53de65808e04cacddbc94993b3dc9ad53413bcca5a462e8deac60c81b7"
+    },
+    "Theorems.Thm_StickyKakeya4_original_coefficient_profile_radius": {
+      "path": "Theorems/Thm_StickyKakeya4_original_coefficient_profile_radius.lean",
+      "sha256": "01829c239a9c5a513354f177abf715eaf20927258ced65ce818a9eb042a9bb08"
+    },
+    "Theorems.Thm_StickyKakeya4_original_coefficient_radius": {
+      "path": "Theorems/Thm_StickyKakeya4_original_coefficient_radius.lean",
+      "sha256": "efabf3abed66ace1f934a4fd9e387a3bb91881f25cfddd973f778f4c05f24002"
+    },
+    "Theorems.Thm_StickyKakeya4_original_coefficient_zero_removal": {
+      "path": "Theorems/Thm_StickyKakeya4_original_coefficient_zero_removal.lean",
+      "sha256": "8c3c4bab8ab9d4681420df8b8c882c7b682fe413a680c1284e2731359f354332"
+    },
+    "Theorems.Thm_StickyKakeya4_original_common_scalar_fibers": {
+      "path": "Theorems/Thm_StickyKakeya4_original_common_scalar_fibers.lean",
+      "sha256": "2bf1acb9e450aa3728dc7f82ae4f51935e2122183a8a17239346ea8adf3d8904"
+    },
+    "Theorems.Thm_StickyKakeya4_original_dense_coefficient_counts": {
+      "path": "Theorems/Thm_StickyKakeya4_original_dense_coefficient_counts.lean",
+      "sha256": "593bf73dd296c6cc5faf5c809364847121b69b23b4c19ba67afc5968d7ee844a"
+    },
+    "Theorems.Thm_StickyKakeya4_original_dense_coefficient_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_original_dense_coefficient_energy.lean",
+      "sha256": "e54c045a28a79e21409b0a2a1db96be95292ced1b1e85c6655d6a2764a80d73c"
+    },
+    "Theorems.Thm_StickyKakeya4_original_dense_coefficient_projection": {
+      "path": "Theorems/Thm_StickyKakeya4_original_dense_coefficient_projection.lean",
+      "sha256": "786148b6816b5164d5a5f14db67273c2fb31b3be1302d8c8c20f95ab2f00d546"
+    },
+    "Theorems.Thm_StickyKakeya4_original_dense_polynomial_coefficients": {
+      "path": "Theorems/Thm_StickyKakeya4_original_dense_polynomial_coefficients.lean",
+      "sha256": "553cc36a9c3c63ca90eb47cb8e4568e918d4163bde984577e1f16a24e4fec3af"
+    },
+    "Theorems.Thm_StickyKakeya4_original_disjoint_support_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_original_disjoint_support_selection.lean",
+      "sha256": "5d1ac2ea309200f3afd24c5791c97427ed6608b6e811d5c95df0a7ebafe12ad3"
+    },
+    "Theorems.Thm_StickyKakeya4_original_edge_retaining_bsg": {
+      "path": "Theorems/Thm_StickyKakeya4_original_edge_retaining_bsg.lean",
+      "sha256": "7b9e278cb381321a3924b023dd88b7927323e63139e86095d53fb30c118efdc9"
+    },
+    "Theorems.Thm_StickyKakeya4_original_fiber_energy_collapse": {
+      "path": "Theorems/Thm_StickyKakeya4_original_fiber_energy_collapse.lean",
+      "sha256": "dab761e9e9d8c7e4fb3f7aca36ede322ade13795403ba11a5dd328f087dd53a5"
+    },
+    "Theorems.Thm_StickyKakeya4_original_finite_dimension_reduction": {
+      "path": "Theorems/Thm_StickyKakeya4_original_finite_dimension_reduction.lean",
+      "sha256": "f686e757d459fe605c69941cc9a3a92aa27d8aba060b318cc4a8c72b9ae1269b"
+    },
+    "Theorems.Thm_StickyKakeya4_original_fractional_linear_coefficient_profile": {
+      "path": "Theorems/Thm_StickyKakeya4_original_fractional_linear_coefficient_profile.lean",
+      "sha256": "22a9f85b6edee21b4e08aeb066b69add0d3da00ffdcb4f6f4f0e3c9afdec9f13"
+    },
+    "Theorems.Thm_StickyKakeya4_original_fresh_projection_queries": {
+      "path": "Theorems/Thm_StickyKakeya4_original_fresh_projection_queries.lean",
+      "sha256": "1c7b32ec60a195edc08b2b6fb13340abfa41cf258401937f7da2036883a3798d"
+    },
+    "Theorems.Thm_StickyKakeya4_original_full_coefficient_normalization": {
+      "path": "Theorems/Thm_StickyKakeya4_original_full_coefficient_normalization.lean",
+      "sha256": "8a714e754206b315337e40da8a4cdfb1f5a6b4c1323c4a649ebea4a81b50e39d"
+    },
+    "Theorems.Thm_StickyKakeya4_original_grid_bourgain_transfer": {
+      "path": "Theorems/Thm_StickyKakeya4_original_grid_bourgain_transfer.lean",
+      "sha256": "bc0794f4589c11edbccdd99a9fd6deff01bddc60aeea2425fda71c59371c9a3e"
+    },
+    "Theorems.Thm_StickyKakeya4_original_height_interval_cap": {
+      "path": "Theorems/Thm_StickyKakeya4_original_height_interval_cap.lean",
+      "sha256": "f35b2f099df86afc3797d4437013555db1b6d1e9dea8fd7e63cbd44cef6164e0"
+    },
+    "Theorems.Thm_StickyKakeya4_original_height_vertex_density": {
+      "path": "Theorems/Thm_StickyKakeya4_original_height_vertex_density.lean",
+      "sha256": "b5a026ef2b6623efec51e6a6d65ad34921649875de4f58079fec5f9cc86ff16c"
+    },
+    "Theorems.Thm_StickyKakeya4_original_high_dimensional_projection_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_original_high_dimensional_projection_energy.lean",
+      "sha256": "be877b88b84f7de7c23b52e2710f320e92cef283f0008e0eb7effe3d45b70520"
+    },
+    "Theorems.Thm_StickyKakeya4_original_integer_structured_difference": {
+      "path": "Theorems/Thm_StickyKakeya4_original_integer_structured_difference.lean",
+      "sha256": "d28c0c5a9bc29293402bd4103797f1e74546a23ec40f6827a6f81858ce89ab78"
+    },
+    "Theorems.Thm_StickyKakeya4_original_kaufman_shared_host": {
+      "path": "Theorems/Thm_StickyKakeya4_original_kaufman_shared_host.lean",
+      "sha256": "c49a18256d242b5f5e9a19577a727a14c91a4c2e3e26d99332c3f8d2568f6aa4"
+    },
+    "Theorems.Thm_StickyKakeya4_original_local_to_global_robust_projection": {
+      "path": "Theorems/Thm_StickyKakeya4_original_local_to_global_robust_projection.lean",
+      "sha256": "737f8d7d7e0e22c3ed3807de7e846acea5010de8cf87c1fd3464724bd06d5100"
+    },
+    "Theorems.Thm_StickyKakeya4_original_monomial_small_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_original_monomial_small_cover.lean",
+      "sha256": "a4c2ebc4572564192a0a5a00251d097e7f9092030a8bf4c92cc1add29dbfbcd5"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_comparison_power_algebra": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_comparison_power_algebra.lean",
+      "sha256": "994791be4edd51208c1808b15facf2704f1800464e2136a230f524422618793e"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_core_failure_obstruction": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_core_failure_obstruction.lean",
+      "sha256": "4dda93ff1442167b99684bc7c590833c8956461008c5f35ee1adb730f6a31393"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_cover_scale_budget": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_cover_scale_budget.lean",
+      "sha256": "43630ad718661548acd59c7af02de120029253341303ad7841f7d6a307828be0"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_local_robust_projection": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_local_robust_projection.lean",
+      "sha256": "9a5c9bc2aad07ace96afbc6ab563b73ddd4d5e2370f3b831c2b9f22a3383efe9"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_numeric_budgets": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_numeric_budgets.lean",
+      "sha256": "12ce2e0cc329acb554dc2f62eff54ec7e8260cef08081337ff39aa98be887e18"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_power_algebra": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_power_algebra.lean",
+      "sha256": "471dbfaac890df6fb84d6d1ba94cde0a3e7ef20f2c739a242b0210b58c14f8a2"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_profile_power_algebra": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_profile_power_algebra.lean",
+      "sha256": "8d1a5791739dd7f78f9a9d8f5a3e5c8be9513537b4ca0e4a219f2aa95d660a12"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_projection_bsg_core": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_projection_bsg_core.lean",
+      "sha256": "4494c4c1faaf20a864edca4c5e423c749481b7c2c246697d2d0718f466a10b4d"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_projection_failure_comparison": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_projection_failure_comparison.lean",
+      "sha256": "844b952042bbe105fe3f73856ae8224ef79cf9ab5ca5822f90778d4d6f67981e"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_projection_power_cutoff": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_projection_power_cutoff.lean",
+      "sha256": "63ed73b05e724539571cdc1142948c11fdd6608fc6a3db3eaad8b9c8904a5eab"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_projection_recode": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_projection_recode.lean",
+      "sha256": "965f06ec6dbb47a96b4a4fa02c9f8658c84383be60a0405384b48b1686d6ef06"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_recoded_query_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_recoded_query_cover.lean",
+      "sha256": "0634e3e09dd19288801c1ae3ff10b11ebf95316387f892d2be232906bb30fca2"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_robust_global_assembly": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_robust_global_assembly.lean",
+      "sha256": "60ca10039da3e24127e9a83b8fb3f235fafea9997798673be02adcabaf0f859b"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_robust_residuals": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_robust_residuals.lean",
+      "sha256": "f11eb50fb56dd90a5e772747e988e86d99af275fb9fea825c4aa56d6bb487cf5"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_structured_power_bounds": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_structured_power_bounds.lean",
+      "sha256": "644c3c31068e18169f1c32360f05326d14bd107aa3d43274e6978ec6c7083116"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_transverse_queries": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_transverse_queries.lean",
+      "sha256": "5c47bdd570468c7639b0f14c347baf52a758e9139d8c113cfefebd3d9cd2bad4"
+    },
+    "Theorems.Thm_StickyKakeya4_original_native_uniform_budget": {
+      "path": "Theorems/Thm_StickyKakeya4_original_native_uniform_budget.lean",
+      "sha256": "e1b2c2e925125a4ff05df3b1647a0ee50deff4889cd4c05dc8e86748f2c6300e"
+    },
+    "Theorems.Thm_StickyKakeya4_original_normalized_fractional_coefficient_profile": {
+      "path": "Theorems/Thm_StickyKakeya4_original_normalized_fractional_coefficient_profile.lean",
+      "sha256": "9e4bc5327bb1295a5263acdfb9d76c17498a338549d53edc2b391d4e60f9c935"
+    },
+    "Theorems.Thm_StickyKakeya4_original_normalized_polynomial_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_original_normalized_polynomial_cover.lean",
+      "sha256": "bd66c72a4220c3d84c6e6f6ba3b3afb16a1a29dc4c60e13f04739637cde614ab"
+    },
+    "Theorems.Thm_StickyKakeya4_original_polynomial_coefficient_grid": {
+      "path": "Theorems/Thm_StickyKakeya4_original_polynomial_coefficient_grid.lean",
+      "sha256": "4e5f0a5bc9f048bbaae54c0466db998aa92c157551e2c97467ecb688e6818c3c"
+    },
+    "Theorems.Thm_StickyKakeya4_original_polynomial_dimension_drop": {
+      "path": "Theorems/Thm_StickyKakeya4_original_polynomial_dimension_drop.lean",
+      "sha256": "f65f7888cc8626990f082de03654f0a8eff453064e838fced73b20b9af59a332"
+    },
+    "Theorems.Thm_StickyKakeya4_original_polynomial_elimination": {
+      "path": "Theorems/Thm_StickyKakeya4_original_polynomial_elimination.lean",
+      "sha256": "c139b44d21ca4cc8df3f87e8884719be11db8f3949f5a27f90646a4dc1055f98"
+    },
+    "Theorems.Thm_StickyKakeya4_original_polynomial_mesh_transfer": {
+      "path": "Theorems/Thm_StickyKakeya4_original_polynomial_mesh_transfer.lean",
+      "sha256": "7bb7d35f9092195b1437a11845104311537d149c0d0462a176d4d7e119785860"
+    },
+    "Theorems.Thm_StickyKakeya4_original_polynomial_ring_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_original_polynomial_ring_cover.lean",
+      "sha256": "9fd7b85ec78160a58199417e5ac577b4f8f0dfd2700d6365bcf98d51c0b12813"
+    },
+    "Theorems.Thm_StickyKakeya4_original_polynomial_slab": {
+      "path": "Theorems/Thm_StickyKakeya4_original_polynomial_slab.lean",
+      "sha256": "efbf2da840bb1c70914a000a7a68c319fc27b367f95be03c5dc9aef2cb81514a"
+    },
+    "Theorems.Thm_StickyKakeya4_original_polynomial_word_homogeneity": {
+      "path": "Theorems/Thm_StickyKakeya4_original_polynomial_word_homogeneity.lean",
+      "sha256": "1c7cf8380e2c916bebcc39f84b4f6a42e25eb6829a0b33d51b21a9fd6ec3bd5c"
+    },
+    "Theorems.Thm_StickyKakeya4_original_polynomial_word_length": {
+      "path": "Theorems/Thm_StickyKakeya4_original_polynomial_word_length.lean",
+      "sha256": "5180e8d8627ad199e5018b35b2fd51e388b9089c34489b9df9bea85322491aba"
+    },
+    "Theorems.Thm_StickyKakeya4_original_profiled_third_query_family": {
+      "path": "Theorems/Thm_StickyKakeya4_original_profiled_third_query_family.lean",
+      "sha256": "374b2e18ab9d164ab31718dbb59de66974e258414b27b283adeadca1dfefd241"
+    },
+    "Theorems.Thm_StickyKakeya4_original_pure_quadratic_dimension_drop": {
+      "path": "Theorems/Thm_StickyKakeya4_original_pure_quadratic_dimension_drop.lean",
+      "sha256": "247833e5b2576191aa7d162751df03905c8e0604dc3aa1d00aff566d901a0439"
+    },
+    "Theorems.Thm_StickyKakeya4_original_quadratic_word_bounds": {
+      "path": "Theorems/Thm_StickyKakeya4_original_quadratic_word_bounds.lean",
+      "sha256": "ba92a712c987f1ebdee5d2631a84dc1dd6b6b7728c2e24cc65fff3b142860ed1"
+    },
+    "Theorems.Thm_StickyKakeya4_original_quadratic_words": {
+      "path": "Theorems/Thm_StickyKakeya4_original_quadratic_words.lean",
+      "sha256": "4b492b4dc1d694bc1f214c8449da9605e10dfcf0ead17f86b896a6222d5945d9"
+    },
+    "Theorems.Thm_StickyKakeya4_original_recoded_alphabet_profile": {
+      "path": "Theorems/Thm_StickyKakeya4_original_recoded_alphabet_profile.lean",
+      "sha256": "5328ad913a3c2af21859e86e31f97d0005ed1c6b33cf88bc8a70906c4027bfe9"
+    },
+    "Theorems.Thm_StickyKakeya4_original_recoded_graph_source": {
+      "path": "Theorems/Thm_StickyKakeya4_original_recoded_graph_source.lean",
+      "sha256": "02b2be8fa6e90f6aeb7b6469a124d8a88ad4a29342af4e276cf53201deec33cd"
+    },
+    "Theorems.Thm_StickyKakeya4_original_rich_alphabet_profile": {
+      "path": "Theorems/Thm_StickyKakeya4_original_rich_alphabet_profile.lean",
+      "sha256": "5bda6a6ea8a8845efa3377bf8cde71f4cb310560684115b6a953f087d237c3d8"
+    },
+    "Theorems.Thm_StickyKakeya4_original_robust_projection_exhaustion": {
+      "path": "Theorems/Thm_StickyKakeya4_original_robust_projection_exhaustion.lean",
+      "sha256": "275a0dc56e19746123a9d0bc89abcadef206a7e513a96178ff3cb8e77bac6d1c"
+    },
+    "Theorems.Thm_StickyKakeya4_original_rounded_ring_product": {
+      "path": "Theorems/Thm_StickyKakeya4_original_rounded_ring_product.lean",
+      "sha256": "d2abc0f3c5e5450a9762cbedb4cc62c7a8f0ba375314690b3d1ca31dafa415c7"
+    },
+    "Theorems.Thm_StickyKakeya4_original_rounded_ruzsa_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_original_rounded_ruzsa_cover.lean",
+      "sha256": "3636ac02b2546b678b5106a2c6c7ea23d12b6bf0abab857d5593b685749800fd"
+    },
+    "Theorems.Thm_StickyKakeya4_original_scalar_affine_packing": {
+      "path": "Theorems/Thm_StickyKakeya4_original_scalar_affine_packing.lean",
+      "sha256": "abc0360936a2b3ec9876ba3a890b25b6fdb7374daffc1935af83891888869f82"
+    },
+    "Theorems.Thm_StickyKakeya4_original_scalar_collision_mass": {
+      "path": "Theorems/Thm_StickyKakeya4_original_scalar_collision_mass.lean",
+      "sha256": "ccaba045e241af81298a97eea82566b33220423123a8cb80ffb5526fea8e1123"
+    },
+    "Theorems.Thm_StickyKakeya4_original_selected_word_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_original_selected_word_cover.lean",
+      "sha256": "2fe1804c0762acabce2920171d3b61a0981570376575543d40f3f387e0eb77b0"
+    },
+    "Theorems.Thm_StickyKakeya4_original_separated_height_cap": {
+      "path": "Theorems/Thm_StickyKakeya4_original_separated_height_cap.lean",
+      "sha256": "70bcab38ac1c4f6c11376cad822c715151b374d6dab55cfbbea34b780559e8c8"
+    },
+    "Theorems.Thm_StickyKakeya4_original_separated_packing": {
+      "path": "Theorems/Thm_StickyKakeya4_original_separated_packing.lean",
+      "sha256": "d3e93d09ff34e388a07fa695c96a225c4e7c6a797dfc00d2a16b956d268cae62"
+    },
+    "Theorems.Thm_StickyKakeya4_original_shared_fiber_pruning": {
+      "path": "Theorems/Thm_StickyKakeya4_original_shared_fiber_pruning.lean",
+      "sha256": "1f6ba546e2863b6e435ae59d56caa1941292d39dfa1c31e9274bedfd7d3e6f14"
+    },
+    "Theorems.Thm_StickyKakeya4_original_signed_coefficient_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_original_signed_coefficient_cover.lean",
+      "sha256": "eb086c51dc99e7750c0f29269d9431f9a3b2c87f428246d54c402eaed0948198"
+    },
+    "Theorems.Thm_StickyKakeya4_original_slab_collision": {
+      "path": "Theorems/Thm_StickyKakeya4_original_slab_collision.lean",
+      "sha256": "712850d72b1cd47bb6613caee4ff6990f42eb496ec155eb6a428f52b34fffbd5"
+    },
+    "Theorems.Thm_StickyKakeya4_original_slab_overlap": {
+      "path": "Theorems/Thm_StickyKakeya4_original_slab_overlap.lean",
+      "sha256": "1b018a491237e9af0fa6cb3f00756c9b443a5e3b3fdf57c3ac34cd04d7c36b68"
+    },
+    "Theorems.Thm_StickyKakeya4_original_slab_relation": {
+      "path": "Theorems/Thm_StickyKakeya4_original_slab_relation.lean",
+      "sha256": "5fb7dc7dd88369b0f3e95de62eeecf8201f2759efc75d72e755282f077743c99"
+    },
+    "Theorems.Thm_StickyKakeya4_original_source_edge_bsg": {
+      "path": "Theorems/Thm_StickyKakeya4_original_source_edge_bsg.lean",
+      "sha256": "2f934e4683baf630ba3b6d555d62ead9bddcf4fbe53aeb1050ae6ed34d5e8b70"
+    },
+    "Theorems.Thm_StickyKakeya4_original_structured_graph_growth": {
+      "path": "Theorems/Thm_StickyKakeya4_original_structured_graph_growth.lean",
+      "sha256": "0b7e42d9175154f8a358658f3f27213183e293997b06b2302a29a714f99a0f85"
+    },
+    "Theorems.Thm_StickyKakeya4_original_tensor_coefficient_collision": {
+      "path": "Theorems/Thm_StickyKakeya4_original_tensor_coefficient_collision.lean",
+      "sha256": "b3c0fd226e28e6624d2500eafe2d98b1a5cc7cebdd681e766cd0b1e60e2346f5"
+    },
+    "Theorems.Thm_StickyKakeya4_original_tensor_coefficient_permutation": {
+      "path": "Theorems/Thm_StickyKakeya4_original_tensor_coefficient_permutation.lean",
+      "sha256": "67da225ab4afd15546b42a77337895c0975b91cf9a453defdc0c5f488ad8efb9"
+    },
+    "Theorems.Thm_StickyKakeya4_original_tensor_frostman": {
+      "path": "Theorems/Thm_StickyKakeya4_original_tensor_frostman.lean",
+      "sha256": "c345a37bef96fa945948d9a1b04dd631e854d15a108944a5593a0f53c7552b52"
+    },
+    "Theorems.Thm_StickyKakeya4_original_tensor_projection_pairs": {
+      "path": "Theorems/Thm_StickyKakeya4_original_tensor_projection_pairs.lean",
+      "sha256": "eedcb1f77d1f00cd9f6fa3ca6f80b8a2af4e22d70a63db5433603071b545c3dc"
+    },
+    "Theorems.Thm_StickyKakeya4_original_tensor_projection_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_original_tensor_projection_selection.lean",
+      "sha256": "2cced2fa113e9dfd8c5a2301f38f2e99067638368d286cb9dececf858cf9892c"
+    },
+    "Theorems.Thm_StickyKakeya4_original_tensor_quadratic_caps": {
+      "path": "Theorems/Thm_StickyKakeya4_original_tensor_quadratic_caps.lean",
+      "sha256": "f0b82722524391f692267a3955010dbf43220fc5682ac6456c313a01f7288327"
+    },
+    "Theorems.Thm_StickyKakeya4_original_transverse_query_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_original_transverse_query_selection.lean",
+      "sha256": "5b0968d83034402fc2e2d7332d9399215016ef6503172ef365b660cf5a125e89"
+    },
+    "Theorems.Thm_StickyKakeya4_original_triple_query_counts": {
+      "path": "Theorems/Thm_StickyKakeya4_original_triple_query_counts.lean",
+      "sha256": "56635f3e8b4059a5fa723a62547c8480777063f6d7c4d0647f8aa7682a0aae31"
+    },
+    "Theorems.Thm_StickyKakeya4_original_two_projection_cartesian": {
+      "path": "Theorems/Thm_StickyKakeya4_original_two_projection_cartesian.lean",
+      "sha256": "259a4b968c5be843e0a52dea6fb5e635d8185a224119e251f0e4cac4e4295e28"
+    },
+    "Theorems.Thm_StickyKakeya4_original_two_projection_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_original_two_projection_cover.lean",
+      "sha256": "082c44745bcf68f4a7e98ba1ba3d4b9d95ca41deec2484485e26610424b127ee"
+    },
+    "Theorems.Thm_StickyKakeya4_original_two_projection_real_graph": {
+      "path": "Theorems/Thm_StickyKakeya4_original_two_projection_real_graph.lean",
+      "sha256": "6bf1cba34db51b7c4f6686351921ba2f61515cf0a45c820f476b4e78c4fe1325"
+    },
+    "Theorems.Thm_StickyKakeya4_original_uniform_polynomial_iteration": {
+      "path": "Theorems/Thm_StickyKakeya4_original_uniform_polynomial_iteration.lean",
+      "sha256": "05f79382e964a58e8632a4f6795c2189194d0ac432745fc6f5a9ee47a73fe023"
+    },
+    "Theorems.Thm_StickyKakeya4_original_uniform_quadratic_step": {
+      "path": "Theorems/Thm_StickyKakeya4_original_uniform_quadratic_step.lean",
+      "sha256": "22e07aa7b311ed44ef6b3d02c73890b19ccdb2b2b931469803a465cbf2c3ead0"
+    },
+    "Theorems.Thm_StickyKakeya4_original_uniform_weak_robust_projection": {
+      "path": "Theorems/Thm_StickyKakeya4_original_uniform_weak_robust_projection.lean",
+      "sha256": "7f080921ccdf427d243a742787d32451e1cd37ced43cd9d8779712b978e0d360"
+    },
+    "Theorems.Thm_StickyKakeya4_original_w_coarse_escape_menus": {
+      "path": "Theorems/Thm_StickyKakeya4_original_w_coarse_escape_menus.lean",
+      "sha256": "649d2be271674836a28b91fef6e3c228b01e07d542602c1c1eb082d575f6afd4"
+    },
+    "Theorems.Thm_StickyKakeya4_original_w_core_dynamics": {
+      "path": "Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean",
+      "sha256": "27244c7f2a4f5f51532e772758683dd143b3ce44a364238b69fdba6789d100ae"
+    },
+    "Theorems.Thm_StickyKakeya4_original_w_successor_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_original_w_successor_selection.lean",
+      "sha256": "c050b2fede3e193f13173d0f4bd7a7d257f496fd7cf305ea372a6857783983ff"
+    },
+    "Theorems.Thm_StickyKakeya4_original_w_witness_counts": {
+      "path": "Theorems/Thm_StickyKakeya4_original_w_witness_counts.lean",
+      "sha256": "e5491a9dc6f0a67d7cf6f0355df6d51fab25af0e067bc7c3a71d5b73fefabde1"
+    },
+    "Theorems.Thm_StickyKakeya4_original_weak_alphabet_selection": {
+      "path": "Theorems/Thm_StickyKakeya4_original_weak_alphabet_selection.lean",
+      "sha256": "4cd31d15e9ba487182e0d65ed61728134ae8655a73a0f774869262e7edc94689"
+    },
+    "Theorems.Thm_StickyKakeya4_original_weak_scalar_finite_comparison": {
+      "path": "Theorems/Thm_StickyKakeya4_original_weak_scalar_finite_comparison.lean",
+      "sha256": "18d10403b14578798f70b117cf7ec7345dda2d45fe4dbd6950a4d7519acf2e61"
+    },
+    "Theorems.Thm_StickyKakeya4_original_weak_scalar_positive_power": {
+      "path": "Theorems/Thm_StickyKakeya4_original_weak_scalar_positive_power.lean",
+      "sha256": "a9d3f1034dc8749d9b9da65633fd87e8cf1c68c2067dd1cddfd9950f24c7954a"
+    },
+    "Theorems.Thm_StickyKakeya4_original_weak_scalar_power_comparison": {
+      "path": "Theorems/Thm_StickyKakeya4_original_weak_scalar_power_comparison.lean",
+      "sha256": "56dbfdb73fa7f5f9e7a292569c75c28732d16a98b4f6717aa0d4e7fb91b8fff5"
+    },
+    "Theorems.Thm_StickyKakeya4_original_weak_scalar_power_parameters": {
+      "path": "Theorems/Thm_StickyKakeya4_original_weak_scalar_power_parameters.lean",
+      "sha256": "2ea8fe654c04ad734c44dbcdd5b56ffec4961973095b4f6eea587a1b7c2ff592"
+    },
+    "Theorems.Thm_StickyKakeya4_original_weak_scalar_word_cost": {
+      "path": "Theorems/Thm_StickyKakeya4_original_weak_scalar_word_cost.lean",
+      "sha256": "711feee1ce010a2a127f9fc21c56f565a858ffa32d896119fef5d4f8d886ecb3"
+    },
+    "Theorems.Thm_StickyKakeya4_original_weighted_direction_gluing": {
+      "path": "Theorems/Thm_StickyKakeya4_original_weighted_direction_gluing.lean",
+      "sha256": "7c8d3921e9fd291716dde0bfd8bbcc001f57a56a35d0c388e1c810a0a235d612"
+    },
+    "Theorems.Thm_StickyKakeya4_original_weighted_third_query_cover": {
+      "path": "Theorems/Thm_StickyKakeya4_original_weighted_third_query_cover.lean",
+      "sha256": "3a476abf548c6b82fa0ecec990fa9f6c124582206b27f283b767f9d080403a5f"
+    },
+    "Theorems.Thm_StickyKakeya4_packing_piece_two_probe_firewall": {
+      "path": "Theorems/Thm_StickyKakeya4_packing_piece_two_probe_firewall.lean",
+      "sha256": "3250e621957ac25c4794c9af80497782eb248e01c463f788d29a9cbb3886ea4e"
+    },
+    "Theorems.Thm_StickyKakeya4_partitioned_collision_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_partitioned_collision_energy.lean",
+      "sha256": "b6302a1c65c9a023bea88d7d15ee2b8f22417eaeefc47ad097ac2dc25f569dbb"
+    },
+    "Theorems.Thm_StickyKakeya4_physical_rescaling_backbone_density": {
+      "path": "Theorems/Thm_StickyKakeya4_physical_rescaling_backbone_density.lean",
+      "sha256": "1d1bbf23d06e39285e6506c7f66d7903fef23b36fa9e4e419f875ce607d28a47"
+    },
+    "Theorems.Thm_StickyKakeya4_physical_rescaling_incidence_transfer": {
+      "path": "Theorems/Thm_StickyKakeya4_physical_rescaling_incidence_transfer.lean",
+      "sha256": "d2df9664bee998d4aea3700674485948aed151cbbe117839c4b85bcf614e73c0"
+    },
+    "Theorems.Thm_StickyKakeya4_planar_shifted_near_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_planar_shifted_near_energy.lean",
+      "sha256": "8e693dfe4b3e99fb8946406062c8fb3b8f1394d290a83c3c60f3940c8d72d96e"
+    },
+    "Theorems.Thm_StickyKakeya4_positive_carrier_piece": {
+      "path": "Theorems/Thm_StickyKakeya4_positive_carrier_piece.lean",
+      "sha256": "8e9c1319d0b7e9f938208d52532eab89a99e234aca8dd5f3a925d4ef5c56ddd5"
+    },
+    "Theorems.Thm_StickyKakeya4_projection_annulus_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_projection_annulus_energy.lean",
+      "sha256": "8379059b42c729090d9d2b957d64bfea45a8cf37690424869d98eac8f02b074a"
+    },
+    "Theorems.Thm_StickyKakeya4_projection_heavy_cells": {
+      "path": "Theorems/Thm_StickyKakeya4_projection_heavy_cells.lean",
+      "sha256": "7cbc63c93473aff7c5c29f8705502e202922db45e3fc8276661f50817164b9ea"
+    },
+    "Theorems.Thm_StickyKakeya4_projection_pair_slope_interval": {
+      "path": "Theorems/Thm_StickyKakeya4_projection_pair_slope_interval.lean",
+      "sha256": "d44004e3fbb871d5e8937837403cbcb9dffeddd448040ae3da94ba9d0be2b1ee"
+    },
+    "Theorems.Thm_StickyKakeya4_retained_parameter_cell_source": {
+      "path": "Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean",
+      "sha256": "05170899beec23a965604d9ef9f65620078514bc55d89cc13e3e1756a69a08df"
+    },
+    "Theorems.Thm_StickyKakeya4_retained_source_readback": {
+      "path": "Theorems/Thm_StickyKakeya4_retained_source_readback.lean",
+      "sha256": "a95952f5a5868405c96e0b6484faff39c4415a12e6a119ff1d766576d1b369e4"
+    },
+    "Theorems.Thm_StickyKakeya4_rich_witness_core": {
+      "path": "Theorems/Thm_StickyKakeya4_rich_witness_core.lean",
+      "sha256": "a3e4d65a1289d3cee82c949ec48e69ad476319c4e7d2fae9185fab5108688197"
+    },
+    "Theorems.Thm_StickyKakeya4_rich_witness_real_core": {
+      "path": "Theorems/Thm_StickyKakeya4_rich_witness_real_core.lean",
+      "sha256": "b433968f819582707a892fbe7531dd5e5de173a126797cdfc555f5b46b4c3ce7"
+    },
+    "Theorems.Thm_StickyKakeya4_rounded_iterated_cover_transfer": {
+      "path": "Theorems/Thm_StickyKakeya4_rounded_iterated_cover_transfer.lean",
+      "sha256": "e1c64d10019d82e59f3f89a9275d33156d58f61b6b9f2610795354ef8fefc2d2"
+    },
+    "Theorems.Thm_StickyKakeya4_selector_carrier_measure": {
+      "path": "Theorems/Thm_StickyKakeya4_selector_carrier_measure.lean",
+      "sha256": "8403108e44a146389eaaf2e86241e88b68051bb1cddbcc58d16469a280b1d522"
+    },
+    "Theorems.Thm_StickyKakeya4_selector_covering_lower_bound": {
+      "path": "Theorems/Thm_StickyKakeya4_selector_covering_lower_bound.lean",
+      "sha256": "4cebaef34921a32a518ccab59be26731a316d07e69c42d30b5539963ed6364cc"
+    },
+    "Theorems.Thm_StickyKakeya4_self_uniform_incidence_refinement": {
+      "path": "Theorems/Thm_StickyKakeya4_self_uniform_incidence_refinement.lean",
+      "sha256": "e9c47a3d33d89a40b082ba4ec5f2c67b3c0d7fe32b6b9ed63a6a77557916c6c7"
+    },
+    "Theorems.Thm_StickyKakeya4_separated_alignment_patches": {
+      "path": "Theorems/Thm_StickyKakeya4_separated_alignment_patches.lean",
+      "sha256": "32801f564d7c3a1927448f934d7b6315c4f46b4b2fcf1e0cda2954a51018aca2"
+    },
+    "Theorems.Thm_StickyKakeya4_shear_bin_fibers": {
+      "path": "Theorems/Thm_StickyKakeya4_shear_bin_fibers.lean",
+      "sha256": "a25c8494373ebd245449316eac02f141afff604584768de129284bfd20d2f260"
+    },
+    "Theorems.Thm_StickyKakeya4_sheared_grid_ad_reference": {
+      "path": "Theorems/Thm_StickyKakeya4_sheared_grid_ad_reference.lean",
+      "sha256": "512295d2498e40b72882a6bb099aa04f701b9d53bbe51aaa07efb19c4ac0c7b3"
+    },
+    "Theorems.Thm_StickyKakeya4_sheared_grid_tube_reference": {
+      "path": "Theorems/Thm_StickyKakeya4_sheared_grid_tube_reference.lean",
+      "sha256": "5e00e31d8417787a55e24b00c440977c5a7cdce77b64b2febcede1248e8373ae"
+    },
+    "Theorems.Thm_StickyKakeya4_shifted_label_energy": {
+      "path": "Theorems/Thm_StickyKakeya4_shifted_label_energy.lean",
+      "sha256": "a8bd0799e040f716cec8fe1dbd7f8a4ae367a6329a5837995c8fc2def5d059c2"
+    },
+    "Theorems.Thm_StickyKakeya4_small_fiber_alignment": {
+      "path": "Theorems/Thm_StickyKakeya4_small_fiber_alignment.lean",
+      "sha256": "c2ed7af5223a58e8e71af6311f08917ac614d07b9a1d6e62d94b3d5eb0448fd2"
+    },
+    "Theorems.Thm_StickyKakeya4_symmetry_set_difference_step": {
+      "path": "Theorems/Thm_StickyKakeya4_symmetry_set_difference_step.lean",
+      "sha256": "f189e65fa2098291da9becf3303468e0a3e19a430699b6130c4284ac67f8f7dd"
+    },
+    "Theorems.Thm_StickyKakeya4_three_packet_support": {
+      "path": "Theorems/Thm_StickyKakeya4_three_packet_support.lean",
+      "sha256": "24b76214a8b6d2636ee117912f726a4d9e7ec665770617489e9a239332921e4f"
+    },
+    "Theorems.Thm_StickyKakeya4_tube_bin_count": {
+      "path": "Theorems/Thm_StickyKakeya4_tube_bin_count.lean",
+      "sha256": "74459c8a00f50a526d1721f454ef204e8f9bf82fe91a19d86dd0e8bdd48c0d71"
+    },
+    "Theorems.Thm_StickyKakeya4_two_tube_path_collision_count": {
+      "path": "Theorems/Thm_StickyKakeya4_two_tube_path_collision_count.lean",
+      "sha256": "678b87c8d1a2b1bf17dbdbbe08055b24d2e7e4eb5bd50b31cf66e82c885f959c"
+    },
+    "Theorems.Thm_StickyKakeya4_uniform_grain_partitions": {
+      "path": "Theorems/Thm_StickyKakeya4_uniform_grain_partitions.lean",
+      "sha256": "47aa4332638a6160fba0aa423cd62abec161275ab9fbd187da313b2469fe4ac5"
+    },
+    "Theorems.Thm_StickyKakeya4_vector_center_carleson": {
+      "path": "Theorems/Thm_StickyKakeya4_vector_center_carleson.lean",
+      "sha256": "566b38ae1201a6835322054a11e577f909b8a6d03510f563083aeaee8b21bf0a"
+    },
+    "Theorems.Thm_StickyKakeya4_wang_zakharov_finite_interface": {
+      "path": "Theorems/Thm_StickyKakeya4_wang_zakharov_finite_interface.lean",
+      "sha256": "a81fa522e75cee3ffcaadf80e1ba9a31a3bba6a61b352177bf458ed3623e5e5e"
+    },
+    "Theorems.Thm_StickyKakeya4_wz_carrier_pruning": {
+      "path": "Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean",
+      "sha256": "5e42c51a706794a9c3f98f29df62f10a538a66397dfb5f1a1d22673bf9ed0c04"
+    },
+    "Theorems.Thm_StickyKakeya4_wz_common_slab": {
+      "path": "Theorems/Thm_StickyKakeya4_wz_common_slab.lean",
+      "sha256": "b23516ab6a3199a3ab6ea98ca68d1f182f4b321e5a90492463a10f4c89f91367"
+    }
+  },
+  "canonical_source_counts": {
+    "Definitions": 1,
+    "Theorems": 1005,
+    "Solutions": 8
+  }
+}

@@ -1,0 +1,17 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_local_parent_ad_readback.lean"]
+SOURCE_SHA256 183f75127e1f628f6111434c7d1c252d35ccd1c937c38fac9ee45c2c8b6caf7a
+FIFO compiler ticket: 01791176103855241553-461e5f769d4d43d39cd0bf091aa210d2.request
+FIFO compiler acquired UTC: 2026-10-05T04:55:03.855623+00:00
+'NativeLocalParentAD.carrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.parentSubset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.ballLabels' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.localIntercept_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.parameter_error_carrier_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.same_finer_cell_carrier_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.original_slope_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.ball_card_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.ball_card_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.compact_original_local_parent_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentAD.exists_native_coefficient_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

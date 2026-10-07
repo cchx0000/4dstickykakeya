@@ -1,0 +1,43 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T10:19:41.190846+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T101939684950",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T101939684950/AggregateReadback.lean"
+  ],
+  "readback_sha256": "c686ab2cee9d50a8009cf184d0920316857fd881ecede5e783ae68429a159e49",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_second_refinement_cost",
+      "source_sha256": "c8c4ae806082dbbc8078414395ed888542902cca83faa233b58b5215359ac001",
+      "olean_sha256": "14707e6c9c7c8cd0106fa1fa99cbb8102a547f5aa0e8fb9dbc34c1fb45eea35d",
+      "names": [
+        "NativeSecondRefinementCost.retained_cost_le_factor",
+        "NativeSecondRefinementCost.exists_second_refinement_cost"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_angular_packet_readback",
+      "source_sha256": "ae4b457dbbdfcacdfa8c589f28b5d38b670219c33bdf6ab125862b4955c4780e",
+      "olean_sha256": "675a509700dbc26543a48d082851a3fdc080bab07d1b02d1795ce69f8e422160",
+      "names": [
+        "NativeAngularPacketReadback.same_angular_slopeVector_dist",
+        "NativeAngularPacketReadback.original_tube_packet_from_angular_label"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T10:25:22.553472+00:00",
+  "exit_code": 0
+}

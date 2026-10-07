@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_half_scale_interpolation
+
+#print axioms NativeHalfScaleInterpolation.all_radius_counts
+#print axioms NativeHalfScaleInterpolation.constant
+#print axioms NativeHalfScaleInterpolation.constant_one_le
+#print axioms NativeHalfScaleInterpolation.ADBounds_of_counts

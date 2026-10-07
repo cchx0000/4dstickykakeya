@@ -1,0 +1,2522 @@
+{
+  "state": "running",
+  "source_commit": "912dc065d2be0bded29e47a817afd4ab89becdf1",
+  "project_module_count": 276,
+  "full_project_build": false,
+  "command": [
+    "bash",
+    "-c",
+    "source /workspace/scratch/5f2524fd4117/lean-tools/environment.sh\nexec ./scripts/build-bounded.sh \"$@\"",
+    "critical-targets",
+    "Theorems.Thm_StickyKakeya4_original_uniform_weak_robust_projection",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_physical_map",
+    "Theorems.Thm_StickyKakeya4_native_coarse_direction_thinning"
+  ],
+  "executor_start_utc": "2026-10-05T04:03:30.328252+00:00"
+}
+Using official Lean through a 2-compiler semaphore, 1 thread(s) per compiler
+ℹ [76/118] Replayed Batteries.Tactic.OpenPrivate
+info: stdout:
+FIFO compiler ticket: 01791171792875967798-b89eff94f544401bb29b80379cddaadd.request
+FIFO compiler acquired UTC: 2026-10-05T03:43:12.876318+00:00
+
+
+ℹ [8706/8710] Built LeanFormalizations.Combinatorics.Additive.BalogSzemerediGowers (97s)
+info: stdout:
+FIFO compiler ticket: 01791173019346761905-506144897e3940b18da33168cde61072.request
+FIFO compiler acquired UTC: 2026-10-05T04:03:39.347133+00:00
+
+
+ℹ [8707/8710] Built Theorems.Thm_StickyKakeya4_original_height_interval_cap (3.9s)
+info: stdout:
+FIFO compiler ticket: 01791173116248960077-11c0a1c806bb46dda6afa35b3e25fbe7.request
+FIFO compiler acquired UTC: 2026-10-05T04:05:16.249915+00:00
+
+
+ℹ [8708/8710] Built Theorems.Thm_StickyKakeya4_original_edge_retaining_bsg (23s)
+info: stdout:
+FIFO compiler ticket: 01791173120236412614-d5ae13379f5a4c33837c4180b174d7b0.request
+FIFO compiler acquired UTC: 2026-10-05T04:05:20.236883+00:00
+
+
+ℹ [8709/8712] Built Theorems.Thm_StickyKakeya4_native_tangent_grid_coarsening (4.6s)
+info: stdout:
+FIFO compiler ticket: 01791173144098140002-f505cf21bc244a7f8ad272736303b9bf.request
+FIFO compiler acquired UTC: 2026-10-05T04:05:44.099029+00:00
+
+
+ℹ [8710/8718] Built Theorems.Thm_StickyKakeya4_two_tube_path_collision_count (1.7s)
+info: stdout:
+FIFO compiler ticket: 01791173148609840820-f2da40a2641a4e65bd02fbd2586f35ef.request
+FIFO compiler acquired UTC: 2026-10-05T04:05:48.610189+00:00
+
+
+ℹ [8711/8718] Built Theorems.Thm_StickyKakeya4_abelian_shifted_label_energy (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173150367544471-52354964ef684a3e8e562f446890815b.request
+FIFO compiler acquired UTC: 2026-10-05T04:05:50.367896+00:00
+
+
+ℹ [8712/8718] Built Theorems.Thm_StickyKakeya4_shifted_label_energy (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791173152956087035-919115e3bb3a4868bc9c93fb1b139441.request
+FIFO compiler acquired UTC: 2026-10-05T04:05:52.956669+00:00
+
+
+ℹ [8713/8718] Built Theorems.Thm_StickyKakeya4_actual_rounded_additive_energy (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791173155857281582-d2ffbed10b2446bb833bcc86715b649f.request
+FIFO compiler acquired UTC: 2026-10-05T04:05:55.857761+00:00
+
+
+ℹ [8714/8718] Built Theorems.Thm_StickyKakeya4_planar_shifted_near_energy (3.1s)
+info: stdout:
+FIFO compiler ticket: 01791173158750613926-2f757769557440cd916f944f53d8e857.request
+FIFO compiler acquired UTC: 2026-10-05T04:05:58.750951+00:00
+
+
+ℹ [8715/8718] Built Theorems.Thm_StickyKakeya4_actual_planar_rounded_energy (4.0s)
+info: stdout:
+FIFO compiler ticket: 01791173161896684186-411bf8677ca84ff8af059f10422f5352.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:01.897033+00:00
+
+
+ℹ [8716/8719] Built Theorems.Thm_StickyKakeya4_original_separated_packing (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173165938710944-af1d70f79b4943c3be2083a19b9461c3.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:05.939140+00:00
+
+
+ℹ [8717/8719] Built Theorems.Thm_StickyKakeya4_original_source_edge_bsg (18s)
+info: stdout:
+FIFO compiler ticket: 01791173168364497538-8689fe426cab4af0b35ccb692490442b.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:08.364935+00:00
+
+
+ℹ [8718/8726] Built Theorems.Thm_StickyKakeya4_partitioned_collision_energy (3.6s)
+info: stdout:
+FIFO compiler ticket: 01791173186400438042-db12ea20d50b42b8aee5002cb8d37a5b.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:26.401442+00:00
+
+
+ℹ [8719/8726] Built Theorems.Thm_StickyKakeya4_symmetry_set_difference_step (3.7s)
+info: stdout:
+FIFO compiler ticket: 01791173189971480350-f929886450b44096bc53c18ac1958527.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:29.972008+00:00
+
+
+ℹ [8720/8726] Built Theorems.Thm_StickyKakeya4_dyadic_original_fiber_selection (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791173193643507193-d20924ddf05d4d09b6543c64bfb3c853.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:33.643858+00:00
+
+
+ℹ [8721/8726] Built Theorems.Thm_StickyKakeya4_original_fiber_energy_collapse (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173196563012066-eecc3c6f42c041a2bd1ef67b4c0cc1a6.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:36.563355+00:00
+
+
+ℹ [8722/8731] Built Theorems.Thm_StickyKakeya4_heavy_energy_bin_selection (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173198854530953-464ca811a0e745b88f58ff4710e93a61.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:38.854870+00:00
+
+
+ℹ [8723/8731] Built Theorems.Thm_StickyKakeya4_energy_preserving_original_fiber_bin (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173201521004842-aa402d2f41de4b3c9a1fc2d9caf2d1c0.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:41.521389+00:00
+
+
+ℹ [8724/8731] Built Theorems.Thm_StickyKakeya4_projection_pair_slope_interval (2.8s)
+info: stdout:
+FIFO compiler ticket: 01791173203929199188-ec637cf6a3a943319c6edd9e86ba55d8.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:43.929577+00:00
+
+
+ℹ [8725/8732] Built Theorems.Thm_StickyKakeya4_labelled_real_energy_bin (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173206747009480-969660f8e025408189e3d531f7a620dc.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:46.747373+00:00
+
+
+ℹ [8726/8732] Built Theorems.Thm_StickyKakeya4_projection_heavy_cells (3.9s)
+info: stdout:
+FIFO compiler ticket: 01791173209295928863-1574736f71e94924a168a870f7dff398.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:49.296263+00:00
+
+
+ℹ [8727/8732] Built Theorems.Thm_StickyKakeya4_integer_bin_real_near_energy (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173213156610437-fd4c0941a998466ab5ac9919ee615483.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:53.156979+00:00
+
+
+ℹ [8728/8732] Built Theorems.Thm_StickyKakeya4_original_bourgain_graph_transfer (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173215890709511-3c2b00f474d9471a95ced17f1babcf10.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:55.891057+00:00
+
+
+ℹ [8729/8732] Built Theorems.Thm_StickyKakeya4_gkz_original_ratio_gap (2.2s)
+info: stdout:
+FIFO compiler ticket: 01791173218292296249-aef04336b2714ac1865de2018e535cb3.request
+FIFO compiler acquired UTC: 2026-10-05T04:06:58.292741+00:00
+
+
+ℹ [8730/8732] Built Theorems.Thm_StickyKakeya4_gkz_original_gap_energy (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173220452246989-c7b2c21940e946769cf23e333295d101.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:00.452748+00:00
+
+
+ℹ [8731/8738] Built Theorems.Thm_StickyKakeya4_original_affine_alphabet_recode (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173223182826455-241992fb04f046749a526e1c779d0615.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:03.183171+00:00
+
+
+ℹ [8732/8738] Built Theorems.Thm_StickyKakeya4_original_tensor_frostman (2.1s)
+info: stdout:
+FIFO compiler ticket: 01791173225590520511-9cda3b3d109247f49c012622b84e1fcc.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:05.590867+00:00
+
+
+ℹ [8733/8738] Built Theorems.Thm_StickyKakeya4_original_coefficient_radius (2.1s)
+info: stdout:
+FIFO compiler ticket: 01791173227685295175-faa049ef1b8440ee9bc1077152de5ac5.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:07.685786+00:00
+
+
+ℹ [8734/8738] Built Theorems.Thm_StickyKakeya4_original_coefficient_density_profile (2.8s)
+info: stdout:
+FIFO compiler ticket: 01791173229807842580-882822a3262d46cc993b76a26fd0188b.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:09.808185+00:00
+
+
+ℹ [8735/8738] Built Theorems.Thm_StickyKakeya4_original_coefficient_profile_radius (2.1s)
+info: stdout:
+FIFO compiler ticket: 01791173232636562230-4053f711226a4677999c93d5d56a376e.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:12.637010+00:00
+
+
+ℹ [8736/8738] Built Theorems.Thm_StickyKakeya4_original_coefficient_normalization (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173234781524930-db8ebc8c895e47b5b056ceb3442b89ce.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:14.781918+00:00
+
+
+ℹ [8737/8740] Built Theorems.Thm_StickyKakeya4_original_full_coefficient_normalization (2.2s)
+info: stdout:
+FIFO compiler ticket: 01791173237192205396-a4e006bc0b4b4fdbac67c802f9a92947.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:17.192572+00:00
+
+
+ℹ [8738/8740] Built Theorems.Thm_StickyKakeya4_original_polynomial_slab (3.2s)
+info: stdout:
+FIFO compiler ticket: 01791173239421309783-22b6800b98084bebb3911e1beb4437c2.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:19.421755+00:00
+
+
+ℹ [8739/8746] Built Theorems.Thm_StickyKakeya4_original_slab_overlap (2.2s)
+info: stdout:
+FIFO compiler ticket: 01791173242626011755-bb4cada906bd4b698e2c844c25668853.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:22.626361+00:00
+
+
+ℹ [8740/8748] Built Theorems.Thm_StickyKakeya4_gkz_grid_code_perturbation (2.2s)
+info: stdout:
+FIFO compiler ticket: 01791173244847548393-7150f3d5387947d88a5bda28c6b25076.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:24.847889+00:00
+
+
+ℹ [8741/8750] Built Theorems.Thm_StickyKakeya4_original_polynomial_elimination (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173247097977898-c53a69babc6c4b2d9a0924f0e442fdd4.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:27.098321+00:00
+
+
+ℹ [8742/8752] Built Theorems.Thm_StickyKakeya4_original_polynomial_dimension_drop (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173249647752125-c64559868b324178be0c72421ee6e378.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:29.648090+00:00
+
+
+ℹ [8743/8752] Built Theorems.Thm_StickyKakeya4_original_slab_relation (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173251955244388-80f23187f8494b77a9f808c3e0fb97ae.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:31.955624+00:00
+
+
+ℹ [8744/8752] Built Theorems.Thm_StickyKakeya4_original_quadratic_words (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173254493632437-b10e692560ea444697b9cf41c8647ae5.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:34.494286+00:00
+
+
+ℹ [8745/8752] Built Theorems.Thm_StickyKakeya4_original_slab_collision (3.6s)
+info: stdout:
+FIFO compiler ticket: 01791173256818467909-49a3b82949184cb1b748e0a2609d4206.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:36.818808+00:00
+
+
+ℹ [8746/8752] Built Theorems.Thm_StickyKakeya4_original_polynomial_word_length (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173260462271587-2ce4e1eb9f4447e191f2fb4d1f043eb2.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:40.462662+00:00
+
+
+ℹ [8747/8752] Built Theorems.Thm_StickyKakeya4_original_quadratic_word_bounds (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173263129108642-93da31a739054e7a8e655b0aec162a79.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:43.129494+00:00
+
+
+ℹ [8748/8752] Built Theorems.Thm_StickyKakeya4_original_finite_dimension_reduction (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173265639976946-015731fc0ad74fa8a168ec362ac885e2.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:45.640513+00:00
+
+
+ℹ [8749/8752] Built Theorems.Thm_StickyKakeya4_original_pure_quadratic_dimension_drop (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173267880271815-dcc6d34bf1ee489c93de0d8052af1d49.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:47.880643+00:00
+
+
+ℹ [8750/8752] Built Theorems.Thm_StickyKakeya4_original_uniform_quadratic_step (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791173270363516362-0fc87712b4b746a28dde1a9d9d0d13df.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:50.363865+00:00
+
+
+ℹ [8751/8756] Built Theorems.Thm_StickyKakeya4_original_uniform_polynomial_iteration (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173273273040361-164898f279cb451aa86050c7b20e785c.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:53.273448+00:00
+
+
+ℹ [8752/8759] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_grid (4.2s)
+info: stdout:
+FIFO compiler ticket: 01791173275743770063-4d7500fb7d994a18971c8f95db484b37.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:55.744115+00:00
+
+
+ℹ [8753/8759] Built Theorems.Thm_StickyKakeya4_original_polynomial_coefficient_grid (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173279931120022-7abcf77da9254031bb1d376c8b44a592.request
+FIFO compiler acquired UTC: 2026-10-05T04:07:59.931491+00:00
+
+
+ℹ [8754/8759] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_energy (3.7s)
+info: stdout:
+FIFO compiler ticket: 01791173282563824289-09107dc5dcdb454c9bd6ff3789a3c9a2.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:02.564186+00:00
+
+
+ℹ [8755/8764] Built Theorems.Thm_StickyKakeya4_original_tensor_coefficient_collision (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173286301006446-5ff1719b97154098b387498e4859e8fe.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:06.301353+00:00
+
+
+ℹ [8756/8765] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_selection (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173288710113593-fd725d15183d40fe9749ba21a91b5813.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:08.710532+00:00
+
+
+ℹ [8757/8765] Built Theorems.Thm_StickyKakeya4_original_tensor_coefficient_permutation (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173291412704796-e98123b04d01419a8eed434f952df47f.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:11.413185+00:00
+
+
+ℹ [8758/8766] Built Theorems.Thm_StickyKakeya4_projection_annulus_energy (5.1s)
+info: stdout:
+FIFO compiler ticket: 01791173294062639850-45f77980680f45de9d5a047b99f2fd41.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:14.063052+00:00
+
+
+ℹ [8759/8766] Built Theorems.Thm_StickyKakeya4_original_polynomial_word_homogeneity (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173299158134269-86a2e74e7b8f42f2868d869f37e8cd38.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:19.158541+00:00
+
+
+ℹ [8760/8766] Built Theorems.Thm_StickyKakeya4_original_tensor_projection_pairs (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173301706302490-d0ceb3be66114a008b25ba2a39b69c87.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:21.706687+00:00
+
+
+ℹ [8761/8766] Built Theorems.Thm_StickyKakeya4_original_tensor_quadratic_caps (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173304216795062-477bf4f54a7145b7835bcaf5a2401a57.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:24.218069+00:00
+
+
+ℹ [8762/8769] Built Theorems.Thm_StickyKakeya4_original_polynomial_mesh_transfer (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173306511541550-45f56171fe8e4fd6ae90d1e62f800caa.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:26.511905+00:00
+
+
+ℹ [8763/8769] Built Theorems.Thm_StickyKakeya4_original_high_dimensional_projection_energy (3.7s)
+info: stdout:
+FIFO compiler ticket: 01791173308920966679-49552cae8ea44d13b2bb3df5a403d888.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:28.921311+00:00
+
+
+ℹ [8764/8769] Built Theorems.Thm_StickyKakeya4_finite_voronoi_population (1.9s)
+info: stdout:
+FIFO compiler ticket: 01791173312623228760-2594798882be4e7ea19a77ae801cf123.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:32.623605+00:00
+
+
+ℹ [8765/8769] Built Theorems.Thm_StickyKakeya4_original_tensor_projection_selection (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173314573270563-de1cff20554645419f758651f7ad1457.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:34.573674+00:00
+
+
+ℹ [8766/8769] Built Theorems.Thm_StickyKakeya4_original_coefficient_cover_net (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173316936066853-524ad3672cc14687ba495d9d46cc2c0b.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:36.936458+00:00
+
+
+ℹ [8767/8769] Built Theorems.Thm_StickyKakeya4_original_normalized_polynomial_cover (2.2s)
+info: stdout:
+FIFO compiler ticket: 01791173319205475662-8e8b6a2a56de4bb297a4882c41f0070c.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:39.205866+00:00
+
+
+ℹ [8768/8776] Built Theorems.Thm_StickyKakeya4_original_dense_polynomial_coefficients (2.8s)
+info: stdout:
+FIFO compiler ticket: 01791173321431169932-cb9ed955dbb442319920e5a7cd7486dd.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:41.431553+00:00
+
+
+ℹ [8769/8776] Built Theorems.Thm_StickyKakeya4_original_common_scalar_fibers (3.0s)
+info: stdout:
+FIFO compiler ticket: 01791173324270021040-b7f8adb47d604cf19353433442b9a2dc.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:44.270481+00:00
+
+
+ℹ [8770/8776] Built Theorems.Thm_StickyKakeya4_gkz_original_product_overlap (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173327306641355-295b40ca2ff44f8cb962d12da99608e4.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:47.306988+00:00
+
+
+ℹ [8771/8777] Built Theorems.Thm_StickyKakeya4_gkz_dilate_rounded_sums (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173329953195904-ef78ccd094f84dbe95d2ef7f764c5182.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:49.953586+00:00
+
+
+ℹ [8772/8781] Built Theorems.Thm_StickyKakeya4_original_rounded_ruzsa_cover (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791173332399212825-ed618e8fc7f749b59c39740a372ab1aa.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:52.399583+00:00
+
+
+ℹ [8773/8781] Built Theorems.Thm_StickyKakeya4_gkz_finite_anchored_plunnecke (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173335337565818-d00e15aa68b64c96991f5b99d58ded6c.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:55.338049+00:00
+
+
+ℹ [8774/8782] Built Theorems.Thm_StickyKakeya4_original_rounded_ring_product (3.0s)
+info: stdout:
+FIFO compiler ticket: 01791173338002487209-041cd96e14d6431e943841749e1a2509.request
+FIFO compiler acquired UTC: 2026-10-05T04:08:58.002837+00:00
+
+
+ℹ [8775/8782] Built Theorems.Thm_StickyKakeya4_rounded_iterated_cover_transfer (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791173341004424745-3cc2a67f9eca40ad9dd4333283c45676.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:01.004863+00:00
+
+
+ℹ [8776/8782] Built Theorems.Thm_StickyKakeya4_original_signed_coefficient_cover (2.0s)
+info: stdout:
+FIFO compiler ticket: 01791173343883977484-146fee47a154474a96b0fd6008e24ea3.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:03.884430+00:00
+
+
+ℹ [8777/8782] Built Theorems.Thm_StickyKakeya4_original_monomial_small_cover (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173346851063951-085f7477978449b7a07028c4ab7414d3.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:06.851438+00:00
+
+
+ℹ [8778/8782] Built Theorems.Thm_StickyKakeya4_gkz_real_dilation_union (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173349516704524-dc98dce711dc4bf18a4e98d7d75b6be7.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:09.517084+00:00
+
+
+ℹ [8779/8787] Built Theorems.Thm_StickyKakeya4_original_selected_word_cover (2.8s)
+info: stdout:
+FIFO compiler ticket: 01791173352111671396-5a80e99dea4b45a890395b78deb23726.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:12.112024+00:00
+
+
+ℹ [8780/8788] Built Theorems.Thm_StickyKakeya4_original_polynomial_ring_cover (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173354880480752-af06ebb499954b1e8c08d6ab254e28a4.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:14.880821+00:00
+
+
+ℹ [8781/8788] Built Theorems.Thm_StickyKakeya4_original_scalar_affine_packing (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173357268720058-d1ee83896dfc45ec9c42773640877f9b.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:17.269051+00:00
+
+
+ℹ [8782/8788] Built Theorems.Thm_StickyKakeya4_original_weak_scalar_word_cost (3.3s)
+info: stdout:
+FIFO compiler ticket: 01791173359555592904-9fe86e61f4bc477eb0afbe90060bb67a.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:19.555937+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_weak_scalar_word_cost.lean:29:57: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791173359555592904-9fe86e61f4bc477eb0afbe90060bb67a.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:19.555937+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_weak_scalar_word_cost.lean:33:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791173359555592904-9fe86e61f4bc477eb0afbe90060bb67a.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:19.555937+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_weak_scalar_word_cost.lean:42:55: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791173359555592904-9fe86e61f4bc477eb0afbe90060bb67a.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:19.555937+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_weak_scalar_word_cost.lean:46:8: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791173359555592904-9fe86e61f4bc477eb0afbe90060bb67a.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:19.555937+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_weak_scalar_word_cost.lean:51:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791173359555592904-9fe86e61f4bc477eb0afbe90060bb67a.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:19.555937+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_weak_scalar_word_cost.lean:97:8: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791173359555592904-9fe86e61f4bc477eb0afbe90060bb67a.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:19.555937+00:00
+
+
+ℹ [8783/8788] Built Theorems.Thm_StickyKakeya4_original_dense_coefficient_counts (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173362869075560-dff14f9e17f94b48948ea034398ac745.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:22.869467+00:00
+
+
+ℹ [8784/8788] Built Theorems.Thm_StickyKakeya4_original_weak_scalar_power_comparison (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173365191474962-d2715a175b9b46da917dcce1b9c86439.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:25.191832+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_weak_scalar_power_comparison.lean:70:8: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791173365191474962-d2715a175b9b46da917dcce1b9c86439.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:25.191832+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_weak_scalar_power_comparison.lean:83:8: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791173365191474962-d2715a175b9b46da917dcce1b9c86439.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:25.191832+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_weak_scalar_power_comparison.lean:90:8: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791173365191474962-d2715a175b9b46da917dcce1b9c86439.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:25.191832+00:00
+
+
+ℹ [8785/8788] Built Theorems.Thm_StickyKakeya4_original_dense_coefficient_energy (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173367919188812-4291113bd5d04aaf90f10000691efd8f.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:27.919563+00:00
+
+
+ℹ [8786/8788] Built Theorems.Thm_StickyKakeya4_original_dense_coefficient_projection (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173370518934635-7e2285c1eb2d46688a3a2c5840c145d5.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:30.519282+00:00
+
+
+ℹ [8787/8802] Built Theorems.Thm_StickyKakeya4_original_weak_scalar_finite_comparison (2.8s)
+info: stdout:
+FIFO compiler ticket: 01791173373009574405-25dab51161b347e48a7f85baf7d4ae48.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:33.011140+00:00
+
+
+ℹ [8788/8802] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_triangles (3.6s)
+info: stdout:
+FIFO compiler ticket: 01791173375756436555-ccb9605c86cd44d5866eedbe2609fae1.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:35.756792+00:00
+
+
+ℹ [8789/8802] Built Theorems.Thm_StickyKakeya4_original_coefficient_zero_removal (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791173379310072025-6d73fc66639141c796912074d801e118.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:39.310463+00:00
+
+
+ℹ [8790/8802] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_joint (3.6s)
+info: stdout:
+FIFO compiler ticket: 01791173381629957603-0969e583fd49429196ef23ed3d4bce68.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:41.630341+00:00
+
+
+ℹ [8791/8806] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_line_tubes (3.2s)
+info: stdout:
+FIFO compiler ticket: 01791173385238373021-93bd44ea79c04e88a0ca53aa901cbca1.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:45.238770+00:00
+
+
+ℹ [8792/8806] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_original_b (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173388453160883-0bca286bb2ee4910bff5ef9dcc590f8e.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:48.453532+00:00
+
+
+ℹ [8793/8806] Built Theorems.Thm_StickyKakeya4_original_two_projection_cartesian (3.9s)
+info: stdout:
+FIFO compiler ticket: 01791173391194525953-881733e95def4d13997bd413f852e194.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:51.194872+00:00
+
+
+ℹ [8794/8806] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_representatives (5.1s)
+info: stdout:
+FIFO compiler ticket: 01791173395115672438-02fd29b38a7948d084fb794aa30302ec.request
+FIFO compiler acquired UTC: 2026-10-05T04:09:55.116024+00:00
+
+
+ℹ [8795/8807] Built Theorems.Thm_StickyKakeya4_original_two_projection_cover (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173400250612203-4e131e592f6143559d3f3f6ac3d21e4a.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:00.250956+00:00
+
+
+ℹ [8796/8811] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_frostman (3.1s)
+info: stdout:
+FIFO compiler ticket: 01791173402851544668-59b4c42cab5d46d48c9cdccab314b136.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:02.851897+00:00
+
+
+ℹ [8797/8811] Built Theorems.Thm_StickyKakeya4_original_two_projection_real_graph (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791173405995655318-477439fab90a43cb93bdd6a06a726a4e.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:05.996006+00:00
+
+
+ℹ [8798/8811] Built Theorems.Thm_StickyKakeya4_original_fractional_linear_coefficient_profile (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791173408821889254-5dcc20614c044c919f4444e7389748ae.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:08.822231+00:00
+
+
+ℹ [8799/8811] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_frostman_geometry (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791173411699374844-046940d807324f9b917494db8ac008a6.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:11.699885+00:00
+
+
+ℹ [8800/8811] Built Theorems.Thm_StickyKakeya4_original_coefficient_profile_mesh_transfer (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173414571950527-7908f76430e24a87886bbfce437b012d.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:14.572336+00:00
+
+
+ℹ [8801/8811] Built Theorems.Thm_StickyKakeya4_finite_plane_projection_allscale (6.6s)
+info: stdout:
+FIFO compiler ticket: 01791173417020439342-d83b22b28df5438587595a652fea9075.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:17.020786+00:00
+
+
+ℹ [8802/8815] Built Theorems.Thm_StickyKakeya4_original_normalized_fractional_coefficient_profile (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173423621112936-9cf9c0fd60ed4e8a981cdcceb4cf16e2.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:23.621494+00:00
+
+
+ℹ [8803/8815] Built Theorems.Thm_StickyKakeya4_native_quarter_scale_parameters (4.0s)
+info: stdout:
+FIFO compiler ticket: 01791173426250288091-e25b2a6d1bcf41059168eda1a9e8502e.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:26.250717+00:00
+
+
+ℹ [8804/8815] Built Theorems.Thm_StickyKakeya4_original_weighted_third_query_cover (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173430307618382-216f142071f0401e935e1f23e7cd4b55.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:30.307994+00:00
+
+
+ℹ [8805/8815] Built Theorems.Thm_StickyKakeya4_original_triple_query_counts (3.1s)
+info: stdout:
+FIFO compiler ticket: 01791173432800995156-27c4e55eb754475ea94204715daba394.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:32.801471+00:00
+
+
+ℹ [8806/8815] Built Theorems.Thm_StickyKakeya4_original_weak_scalar_power_parameters (4.8s)
+info: stdout:
+FIFO compiler ticket: 01791173435874457414-5499d18bfb3542968b91400c51e0d459.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:35.874807+00:00
+
+
+ℹ [8807/8815] Built Theorems.Thm_StickyKakeya4_original_transverse_query_selection (3.8s)
+info: stdout:
+FIFO compiler ticket: 01791173440704618730-bc158825bda84fffa5bd8ecdeb12efce.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:40.704999+00:00
+
+
+ℹ [8808/8818] Built Theorems.Thm_StickyKakeya4_original_weak_scalar_positive_power (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173444488560941-8315fb798f90401ea91075a4b5a7746d.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:44.488915+00:00
+
+
+ℹ [8809/8818] Built Theorems.Thm_StickyKakeya4_original_native_transverse_queries (2.8s)
+info: stdout:
+FIFO compiler ticket: 01791173447054424977-06d260f6f3b34e53b1230dbf5447e8d9.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:47.054778+00:00
+
+
+ℹ [8810/8819] Built Theorems.Thm_StickyKakeya4_original_grid_bourgain_transfer (2.0s)
+info: stdout:
+FIFO compiler ticket: 01791173449813733100-ba25a339030140c388e46a247674bf51.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:49.814082+00:00
+
+
+ℹ [8811/8819] Built Theorems.Thm_StickyKakeya4_original_integer_structured_difference (2.8s)
+info: stdout:
+FIFO compiler ticket: 01791173451829739395-e5a1c018cb714ce69f7c924a7bb556ff.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:51.830084+00:00
+
+
+ℹ [8812/8819] Built Theorems.Thm_StickyKakeya4_original_recoded_graph_source (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173454581402179-643947f2fc904bc2b808704edf820a06.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:54.581780+00:00
+
+
+ℹ [8813/8819] Built Theorems.Thm_StickyKakeya4_original_recoded_alphabet_profile (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173457096650450-047011a436804d059bfb54049345a2d8.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:57.097007+00:00
+
+
+ℹ [8814/8819] Built Theorems.Thm_StickyKakeya4_original_structured_graph_growth (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173459756497546-611b7fb568ca49f4bd3878f712aab0f9.request
+FIFO compiler acquired UTC: 2026-10-05T04:10:59.756857+00:00
+
+
+ℹ [8815/8819] Built Theorems.Thm_StickyKakeya4_original_native_projection_recode (2.4s)
+info: stdout:
+FIFO compiler ticket: 01791173462261536933-140947e701bf4d7ea2eb4ef580de00f0.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:02.261928+00:00
+
+
+ℹ [8816/8819] Built Theorems.Thm_StickyKakeya4_original_native_recoded_query_cover (2.5s)
+info: stdout:
+FIFO compiler ticket: 01791173464647016769-e163c7156a064613b6d3cc72e744088b.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:04.647422+00:00
+
+
+ℹ [8817/8822] Built Theorems.Thm_StickyKakeya4_original_native_structured_power_bounds (2.0s)
+info: stdout:
+FIFO compiler ticket: 01791173467095773634-741f5494398a48b8a82dea362a2b12df.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:07.096115+00:00
+
+
+ℹ [8818/8822] Built Theorems.Thm_StickyKakeya4_original_native_projection_bsg_core (20s)
+info: stdout:
+FIFO compiler ticket: 01791173470193323087-3fc394357bb3420eb4c6abbbce44c737.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:10.193738+00:00
+
+
+ℹ [8819/8830] Built Theorems.Thm_StickyKakeya4_original_shared_fiber_pruning (3.5s)
+info: stdout:
+FIFO compiler ticket: 01791173490127416835-04aa05be8330474c87a198ad867cbbe6.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:30.128428+00:00
+
+
+ℹ [8820/8831] Built Theorems.Thm_StickyKakeya4_original_rich_alphabet_profile (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173493604117621-53ad55d121ee448b922502bb3f5137a8.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:33.604513+00:00
+
+
+ℹ [8821/8831] Built Theorems.Thm_StickyKakeya4_finite_kaufman_projection (4.3s)
+info: stdout:
+FIFO compiler ticket: 01791173496279325681-8b3bcf671ff04b68a01c7bdafa0f6a50.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:36.279699+00:00
+
+
+ℹ [8822/8832] Built Theorems.Thm_StickyKakeya4_original_weak_alphabet_selection (3.0s)
+info: stdout:
+FIFO compiler ticket: 01791173500558951635-9f3610a7a35140ec9ec5d877060a314d.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:40.559293+00:00
+
+
+ℹ [8823/8832] Built Theorems.Thm_StickyKakeya4_original_kaufman_shared_host (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173503605935486-4b2c2f35d04e45d19ff702d969674bf6.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:43.606308+00:00
+
+
+ℹ [8824/8832] Built Theorems.Thm_StickyKakeya4_native_original_log_budget (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791173506199273136-f301ea33c53c4073b0ca2878c7edd3c5.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:46.199638+00:00
+
+
+ℹ [8825/8832] Built Theorems.Thm_StickyKakeya4_original_profiled_third_query_family (3.4s)
+info: stdout:
+FIFO compiler ticket: 01791173508863644662-7389d3e39f2042569d886f238004055c.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:48.864027+00:00
+
+
+ℹ [8826/8832] Built Theorems.Thm_StickyKakeya4_original_fresh_projection_queries (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791173512232127734-3f2005ebdcba4befb81c3f6f52105301.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:52.232500+00:00
+
+
+ℹ [8827/8832] Built Theorems.Thm_StickyKakeya4_original_native_core_failure_obstruction (3.1s)
+info: stdout:
+FIFO compiler ticket: 01791173514857565628-ba5029f2a5db4462a2cb7e6cb9165427.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:54.857975+00:00
+
+
+ℹ [8828/8832] Built Theorems.Thm_StickyKakeya4_original_native_projection_failure_comparison (21s)
+info: stdout:
+FIFO compiler ticket: 01791173518110680409-6407896a3992403bb41bfa03cc181384.request
+FIFO compiler acquired UTC: 2026-10-05T04:11:58.111023+00:00
+
+
+ℹ [8829/8832] Built Theorems.Thm_StickyKakeya4_original_native_power_algebra (23s)
+info: stdout:
+FIFO compiler ticket: 01791173539230243528-93fa477324da47cbb09cae5c65f09a63.request
+FIFO compiler acquired UTC: 2026-10-05T04:12:19.231548+00:00
+
+
+ℹ [8830/8832] Built Theorems.Thm_StickyKakeya4_original_native_comparison_power_algebra (22s)
+info: stdout:
+FIFO compiler ticket: 01791173562595098714-77ccbe6d01ea4a27baa68a078451878f.request
+FIFO compiler acquired UTC: 2026-10-05T04:12:42.596165+00:00
+
+
+ℹ [8831/8834] Built Theorems.Thm_StickyKakeya4_original_native_profile_power_algebra (24s)
+info: stdout:
+FIFO compiler ticket: 01791173584687655646-9b0313fe10654ac9ab9576cbbf64d4b8.request
+FIFO compiler acquired UTC: 2026-10-05T04:13:04.688792+00:00
+
+
+ℹ [8832/8834] Built Definitions.Def_sticky_kakeya4_core (23s)
+info: stdout:
+FIFO compiler ticket: 01791173609366722033-6dd4aa83d2b74efeaca7070aea4e59ab.request
+FIFO compiler acquired UTC: 2026-10-05T04:13:29.367707+00:00
+
+
+ℹ [8833/8840] Built Theorems.Thm_StickyKakeya4_compact_front (30s)
+info: stdout:
+FIFO compiler ticket: 01791173632394141300-ae2f4b488fb54674aa24b4b5675c77f1.request
+FIFO compiler acquired UTC: 2026-10-05T04:13:52.395467+00:00
+
+
+ℹ [8834/8842] Built Theorems.Thm_StickyKakeya4_measurable_selector_parametrization (24s)
+info: stdout:
+FIFO compiler ticket: 01791173662521140061-42ea845867b94fb08485f49db8ffca14.request
+FIFO compiler acquired UTC: 2026-10-05T04:14:22.522419+00:00
+
+
+⚠ [8835/8842] Built Theorems.Thm_StickyKakeya4_frostman_mass_distribution (23s)
+info: stdout:
+FIFO compiler ticket: 01791173686811960265-0cda860916484638bdf19f864e2dbb81.request
+FIFO compiler acquired UTC: 2026-10-05T04:14:46.813120+00:00
+
+warning: Theorems/Thm_StickyKakeya4_frostman_mass_distribution.lean:257:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: stdout:
+FIFO compiler ticket: 01791173686811960265-0cda860916484638bdf19f864e2dbb81.request
+FIFO compiler acquired UTC: 2026-10-05T04:14:46.813120+00:00
+
+
+ℹ [8836/8843] Built Theorems.Thm_StickyKakeya4_front_parametrization (21s)
+info: stdout:
+FIFO compiler ticket: 01791173710381489482-afe1efabe50d44809057c8b9d7fabbdc.request
+FIFO compiler acquired UTC: 2026-10-05T04:15:10.382500+00:00
+
+
+⚠ [8837/8843] Built Theorems.Thm_StickyKakeya4_wz_common_slab (23s)
+info: stdout:
+FIFO compiler ticket: 01791173731925207988-692859df7bae4b3fa53962e21d1496a1.request
+FIFO compiler acquired UTC: 2026-10-05T04:15:31.926242+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_common_slab.lean:289:18: Variable name `hhNonneg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hhNonneg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791173731925207988-692859df7bae4b3fa53962e21d1496a1.request
+FIFO compiler acquired UTC: 2026-10-05T04:15:31.926242+00:00
+
+
+⚠ [8838/8843] Built Theorems.Thm_StickyKakeya4_canonical_sphere_measure (34s)
+info: stdout:
+FIFO compiler ticket: 01791173755872547877-4df05b4a9fd44d92b13f20acba698bdd.request
+FIFO compiler acquired UTC: 2026-10-05T04:15:55.873727+00:00
+
+warning: Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:18:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791173755872547877-4df05b4a9fd44d92b13f20acba698bdd.request
+FIFO compiler acquired UTC: 2026-10-05T04:15:55.873727+00:00
+
+warning: Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:636:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: stdout:
+FIFO compiler ticket: 01791173755872547877-4df05b4a9fd44d92b13f20acba698bdd.request
+FIFO compiler acquired UTC: 2026-10-05T04:15:55.873727+00:00
+
+warning: Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:957:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791173755872547877-4df05b4a9fd44d92b13f20acba698bdd.request
+FIFO compiler acquired UTC: 2026-10-05T04:15:55.873727+00:00
+
+warning: Theorems/Thm_StickyKakeya4_canonical_sphere_measure.lean:965:48: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791173755872547877-4df05b4a9fd44d92b13f20acba698bdd.request
+FIFO compiler acquired UTC: 2026-10-05T04:15:55.873727+00:00
+
+
+⚠ [8839/8843] Built Theorems.Thm_StickyKakeya4_dimension_witness_extraction (23s)
+info: stdout:
+FIFO compiler ticket: 01791173790075066078-30a9c73607b543cc9cf9052b40b153f3.request
+FIFO compiler acquired UTC: 2026-10-05T04:16:30.076411+00:00
+
+warning: Theorems/Thm_StickyKakeya4_dimension_witness_extraction.lean:266:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: stdout:
+FIFO compiler ticket: 01791173790075066078-30a9c73607b543cc9cf9052b40b153f3.request
+FIFO compiler acquired UTC: 2026-10-05T04:16:30.076411+00:00
+
+
+ℹ [8840/8844] Built Theorems.Thm_StickyKakeya4_selector_carrier_measure (24s)
+info: stdout:
+FIFO compiler ticket: 01791173813117366161-ea2eda6a6def479fb636310580e87e22.request
+FIFO compiler acquired UTC: 2026-10-05T04:16:53.118576+00:00
+
+
+⚠ [8841/8844] Built Theorems.Thm_StickyKakeya4_selector_covering_lower_bound (24s)
+info: stdout:
+FIFO compiler ticket: 01791173838044905410-d1887f0179844248ba88a52c71cafb20.request
+FIFO compiler acquired UTC: 2026-10-05T04:17:18.046106+00:00
+
+warning: Theorems/Thm_StickyKakeya4_selector_covering_lower_bound.lean:24:42: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791173838044905410-d1887f0179844248ba88a52c71cafb20.request
+FIFO compiler acquired UTC: 2026-10-05T04:17:18.046106+00:00
+
+
+ℹ [8842/8844] Built Theorems.Thm_StickyKakeya4_positive_carrier_piece (23s)
+info: stdout:
+FIFO compiler ticket: 01791173862158639363-1b0d7901cd4a4507a460f61c59f6bdff.request
+FIFO compiler acquired UTC: 2026-10-05T04:17:42.159715+00:00
+
+
+ℹ [8843/8849] Built Theorems.Thm_StickyKakeya4_wang_zakharov_finite_interface (23s)
+info: stdout:
+FIFO compiler ticket: 01791173885923117235-4a3dace2afec4c06abd6abeca464aa33.request
+FIFO compiler acquired UTC: 2026-10-05T04:18:05.924200+00:00
+
+
+⚠ [8844/8852] Built Theorems.Thm_StickyKakeya4_front_parameter_probability (22s)
+info: stdout:
+FIFO compiler ticket: 01791173909781054050-00270bd419e04ba4b654c8980f54fd6b.request
+FIFO compiler acquired UTC: 2026-10-05T04:18:29.782074+00:00
+
+warning: Theorems/Thm_StickyKakeya4_front_parameter_probability.lean:30:4: Try `simp at this` instead of `simpa using this`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791173909781054050-00270bd419e04ba4b654c8980f54fd6b.request
+FIFO compiler acquired UTC: 2026-10-05T04:18:29.782074+00:00
+
+warning: Theorems/Thm_StickyKakeya4_front_parameter_probability.lean:79:42: Variable name `hdelta` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hdelta
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791173909781054050-00270bd419e04ba4b654c8980f54fd6b.request
+FIFO compiler acquired UTC: 2026-10-05T04:18:29.782074+00:00
+
+warning: Theorems/Thm_StickyKakeya4_front_parameter_probability.lean:92:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: stdout:
+FIFO compiler ticket: 01791173909781054050-00270bd419e04ba4b654c8980f54fd6b.request
+FIFO compiler acquired UTC: 2026-10-05T04:18:29.782074+00:00
+
+info: Theorems/Thm_StickyKakeya4_front_parameter_probability.lean:117:0: Error in Linarith.normalizeDenominatorsLHS: Expr.rewrite may not produce subgoals.
+info: stdout:
+FIFO compiler ticket: 01791173909781054050-00270bd419e04ba4b654c8980f54fd6b.request
+FIFO compiler acquired UTC: 2026-10-05T04:18:29.782074+00:00
+
+
+⚠ [8845/8852] Built Theorems.Thm_StickyKakeya4_marked_carrier_inverse (22s)
+info: stdout:
+FIFO compiler ticket: 01791173932685925101-1c9a253556e44facb574ffa85f3d0553.request
+FIFO compiler acquired UTC: 2026-10-05T04:18:52.686983+00:00
+
+warning: Theorems/Thm_StickyKakeya4_marked_carrier_inverse.lean:37:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: stdout:
+FIFO compiler ticket: 01791173932685925101-1c9a253556e44facb574ffa85f3d0553.request
+FIFO compiler acquired UTC: 2026-10-05T04:18:52.686983+00:00
+
+warning: Theorems/Thm_StickyKakeya4_marked_carrier_inverse.lean:53:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: stdout:
+FIFO compiler ticket: 01791173932685925101-1c9a253556e44facb574ffa85f3d0553.request
+FIFO compiler acquired UTC: 2026-10-05T04:18:52.686983+00:00
+
+
+ℹ [8846/8852] Built Theorems.Thm_StickyKakeya4_native_finite_kakeya_counts (23s)
+info: stdout:
+FIFO compiler ticket: 01791173955580052781-04fce33ce7d84c29a46342b5edc0da93.request
+FIFO compiler acquired UTC: 2026-10-05T04:19:15.581317+00:00
+
+
+ℹ [8847/8854] Built Theorems.Thm_StickyKakeya4_carrier_piece_probability (26s)
+info: stdout:
+FIFO compiler ticket: 01791173979298630367-a7dbc1b33a8a4f3da3d8be2a634ef74b.request
+FIFO compiler acquired UTC: 2026-10-05T04:19:39.299655+00:00
+
+
+ℹ [8848/8856] Built Theorems.Thm_StickyKakeya4_native_finite_kakeya_exponent (23s)
+info: stdout:
+FIFO compiler ticket: 01791174005472431930-f6e323ee51214bb4b5f74471dbc9e829.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:05.473738+00:00
+
+
+⚠ [8849/8856] Built Theorems.Thm_StickyKakeya4_wz_carrier_pruning (56s)
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:1922:5: Variable name `hocc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hocc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2326:31: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2430:27: This simp argument is unused:
+  Nat.cast_ofNat
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.cast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2514:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2562:5: Variable name `htargetConstant` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _htargetConstant
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:2563:26: Variable name `hqTarget` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hqTarget
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:3668:6: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:3747:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:4089:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:4089:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:4563:5: Variable name `hdelta` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hdelta
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:4586:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:5864:5: Variable name `hradius` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hradius
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+warning: Theorems/Thm_StickyKakeya4_wz_carrier_pruning.lean:5931:19: Variable name `ell` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ell
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174029441872364-b18fa73747964c18ba64e2943dae4fa8.request
+FIFO compiler acquired UTC: 2026-10-05T04:20:29.443053+00:00
+
+
+⚠ [8850/8856] Built Theorems.Thm_StickyKakeya4_finite_scale_source_mass (29s)
+info: stdout:
+FIFO compiler ticket: 01791174085581565867-00ee5ce7611c40ff8fcfd6dc976d3bc9.request
+FIFO compiler acquired UTC: 2026-10-05T04:21:25.582570+00:00
+
+warning: Theorems/Thm_StickyKakeya4_finite_scale_source_mass.lean:797:4: Try `simp at hx` instead of `simpa using hx`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174085581565867-00ee5ce7611c40ff8fcfd6dc976d3bc9.request
+FIFO compiler acquired UTC: 2026-10-05T04:21:25.582570+00:00
+
+warning: Theorems/Thm_StickyKakeya4_finite_scale_source_mass.lean:892:6: Try `simp at hxi` instead of `simpa using hxi`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174085581565867-00ee5ce7611c40ff8fcfd6dc976d3bc9.request
+FIFO compiler acquired UTC: 2026-10-05T04:21:25.582570+00:00
+
+
+ℹ [8851/8856] Built Theorems.Thm_StickyKakeya4_shear_bin_fibers (24s)
+info: stdout:
+FIFO compiler ticket: 01791174115273335084-fff57559883646b5a979a700ed7f773d.request
+FIFO compiler acquired UTC: 2026-10-05T04:21:55.274478+00:00
+
+
+ℹ [8852/8856] Built Theorems.Thm_StickyKakeya4_native_common_cubical_mesh (23s)
+info: stdout:
+FIFO compiler ticket: 01791174139429944539-c7ef1890478a41a5ba8085e8595dec0c.request
+FIFO compiler acquired UTC: 2026-10-05T04:22:19.430923+00:00
+
+
+ℹ [8853/8857] Built Theorems.Thm_StickyKakeya4_collision_flow_overlap_witness (23s)
+info: stdout:
+FIFO compiler ticket: 01791174163176030946-dda6ff8417244b00aeca22d1a07daa3b.request
+FIFO compiler acquired UTC: 2026-10-05T04:22:43.176789+00:00
+
+
+ℹ [8854/8873] Built Theorems.Thm_StickyKakeya4_native_cubical_incidence_counts (23s)
+info: stdout:
+FIFO compiler ticket: 01791174187062687795-a77706277d3a4aec8843ce5a55ed74b0.request
+FIFO compiler acquired UTC: 2026-10-05T04:23:07.063699+00:00
+
+
+ℹ [8855/8873] Built Theorems.Thm_StickyKakeya4_incidence_bin_transfer (4.0s)
+info: stdout:
+FIFO compiler ticket: 01791174210270857707-0666509bc0f14164abda04fb9107bbd0.request
+FIFO compiler acquired UTC: 2026-10-05T04:23:30.271928+00:00
+
+
+ℹ [8856/8875] Built Theorems.Thm_StickyKakeya4_native_original_cell_chart_geometry (24s)
+info: stdout:
+FIFO compiler ticket: 01791174214426261625-b5d3c8e6cffd41c7803d5441c1d5dbec.request
+FIFO compiler acquired UTC: 2026-10-05T04:23:34.426641+00:00
+
+
+ℹ [8857/8876] Built Theorems.Thm_StickyKakeya4_tube_bin_count (23s)
+info: stdout:
+FIFO compiler ticket: 01791174238702074312-08c46b659ca94ca083ab250b72eb3b50.request
+FIFO compiler acquired UTC: 2026-10-05T04:23:58.703169+00:00
+
+
+ℹ [8858/8876] Built Theorems.Thm_StickyKakeya4_original_native_cover_scale_budget (24s)
+info: stdout:
+FIFO compiler ticket: 01791174262166575451-5d4da41f58054a928b9db659893e12a3.request
+FIFO compiler acquired UTC: 2026-10-05T04:24:22.167677+00:00
+
+
+ℹ [8859/8876] Built Theorems.Thm_StickyKakeya4_physical_rescaling_incidence_transfer (25s)
+info: stdout:
+FIFO compiler ticket: 01791174286360078319-397d676c92514acf8de234d4be352db8.request
+FIFO compiler acquired UTC: 2026-10-05T04:24:46.361931+00:00
+
+
+ℹ [8860/8876] Built Theorems.Thm_StickyKakeya4_original_native_local_robust_projection (23s)
+info: stdout:
+FIFO compiler ticket: 01791174312291320272-6953a447d3f24f64ba6f1321ad788a60.request
+FIFO compiler acquired UTC: 2026-10-05T04:25:12.292517+00:00
+
+
+ℹ [8861/8877] Built Theorems.Thm_StickyKakeya4_physical_rescaling_backbone_density (22s)
+info: stdout:
+FIFO compiler ticket: 01791174335629528638-48b7c4a2e3a1422a9901e84fd0ab47e3.request
+FIFO compiler acquired UTC: 2026-10-05T04:25:35.630517+00:00
+
+
+ℹ [8862/8877] Built Theorems.Thm_StickyKakeya4_native_original_parent_selection (23s)
+info: stdout:
+FIFO compiler ticket: 01791174358565594841-88afd6673e27486db87afadb07aa18b4.request
+FIFO compiler acquired UTC: 2026-10-05T04:25:58.566694+00:00
+
+
+ℹ [8863/8877] Built Theorems.Thm_StickyKakeya4_original_native_robust_residuals (3.9s)
+info: stdout:
+FIFO compiler ticket: 01791174382073480222-7ff53eea276a4569bd8a1aab98305f92.request
+FIFO compiler acquired UTC: 2026-10-05T04:26:22.074479+00:00
+
+
+ℹ [8864/8877] Built Theorems.Thm_StickyKakeya4_native_original_parent_physical_data (23s)
+info: stdout:
+FIFO compiler ticket: 01791174386155734932-ca84e61285624e379f5e6db2b0c10cb9.request
+FIFO compiler acquired UTC: 2026-10-05T04:26:26.156085+00:00
+
+
+ℹ [8865/8877] Built Theorems.Thm_StickyKakeya4_native_original_chart_metric (24s)
+info: stdout:
+FIFO compiler ticket: 01791174409633943997-515b2d057735479a8d37e59a67cdf0fc.request
+FIFO compiler acquired UTC: 2026-10-05T04:26:49.634979+00:00
+
+
+ℹ [8866/8877] Built Theorems.Thm_StickyKakeya4_native_original_parent_count (25s)
+info: stdout:
+FIFO compiler ticket: 01791174434491333119-be86c931fd6c40a6b384c19ce14c4e95.request
+FIFO compiler acquired UTC: 2026-10-05T04:27:14.492376+00:00
+
+
+ℹ [8867/8884] Built Theorems.Thm_StickyKakeya4_native_compact_chart_reach (23s)
+info: stdout:
+FIFO compiler ticket: 01791174460269496220-fac85eb0ba04416495a8b7f12f2ce6ba.request
+FIFO compiler acquired UTC: 2026-10-05T04:27:40.270444+00:00
+
+
+ℹ [8868/8884] Built Theorems.Thm_StickyKakeya4_native_compact_carrier_count (25s)
+info: stdout:
+FIFO compiler ticket: 01791174484000073584-e88a8b5ffe2a435a84c97a115c1f99d4.request
+FIFO compiler acquired UTC: 2026-10-05T04:28:04.001100+00:00
+
+
+ℹ [8869/8884] Built Theorems.Thm_StickyKakeya4_finite_common_point_tube_representatives (3.3s)
+info: stdout:
+FIFO compiler ticket: 01791174509342880446-25d95888bd074e3e89ad2cc700131d22.request
+FIFO compiler acquired UTC: 2026-10-05T04:28:29.343958+00:00
+
+
+ℹ [8870/8884] Built Theorems.Thm_StickyKakeya4_native_compact_parent_retention (24s)
+info: stdout:
+FIFO compiler ticket: 01791174512737198685-b4d3b01225984fcf86c837b89d63ed7d.request
+FIFO compiler acquired UTC: 2026-10-05T04:28:32.737587+00:00
+
+
+ℹ [8871/8884] Built Theorems.Thm_StickyKakeya4_original_disjoint_support_selection (3.1s)
+info: stdout:
+FIFO compiler ticket: 01791174536978340347-67587d744cbb408a8002a386db3936bd.request
+FIFO compiler acquired UTC: 2026-10-05T04:28:56.979358+00:00
+
+
+ℹ [8872/8884] Built Theorems.Thm_StickyKakeya4_native_original_ancestor_pruning (22s)
+info: stdout:
+FIFO compiler ticket: 01791174540224930806-5d9cf86252c14f1da9569d8002259c8a.request
+FIFO compiler acquired UTC: 2026-10-05T04:29:00.225371+00:00
+
+
+ℹ [8873/8884] Built Theorems.Thm_StickyKakeya4_original_robust_projection_exhaustion (3.3s)
+info: stdout:
+FIFO compiler ticket: 01791174562601959845-acc51274e2234c56b73d92fad9a48d0d.request
+FIFO compiler acquired UTC: 2026-10-05T04:29:22.602967+00:00
+
+
+ℹ [8874/8884] Built Theorems.Thm_StickyKakeya4_native_compact_ancestor_budget (22s)
+info: stdout:
+FIFO compiler ticket: 01791174566041832523-44393ad7fcbf4b5b9085ad5bacefa28e.request
+FIFO compiler acquired UTC: 2026-10-05T04:29:26.042255+00:00
+
+
+ℹ [8875/8884] Built Theorems.Thm_StickyKakeya4_original_weighted_direction_gluing (4.0s)
+info: stdout:
+FIFO compiler ticket: 01791174588738848261-6cf0a7478a8640198e4b6a83afca1f3d.request
+FIFO compiler acquired UTC: 2026-10-05T04:29:48.739981+00:00
+
+
+ℹ [8876/8884] Built Theorems.Thm_StickyKakeya4_native_original_pruned_mass (22s)
+info: stdout:
+FIFO compiler ticket: 01791174592897108539-dfea74c7e58f41eeae9ef84342d03bf3.request
+FIFO compiler acquired UTC: 2026-10-05T04:29:52.897517+00:00
+
+
+ℹ [8877/8884] Built Theorems.Thm_StickyKakeya4_original_local_to_global_robust_projection (3.3s)
+info: stdout:
+FIFO compiler ticket: 01791174615350843267-96caca4b32fb4a02b22168dafe77a508.request
+FIFO compiler acquired UTC: 2026-10-05T04:30:15.351840+00:00
+
+
+ℹ [8878/8884] Built Theorems.Thm_StickyKakeya4_native_dyadic_pruning_cutoff (24s)
+info: stdout:
+FIFO compiler ticket: 01791174618738810406-fdca110914d0413d8a05139f01e8d542.request
+FIFO compiler acquired UTC: 2026-10-05T04:30:18.739157+00:00
+
+info: Theorems/Thm_StickyKakeya4_native_dyadic_pruning_cutoff.lean:47:27: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791174618738810406-fdca110914d0413d8a05139f01e8d542.request
+FIFO compiler acquired UTC: 2026-10-05T04:30:18.739157+00:00
+
+
+ℹ [8879/8884] Built Theorems.Thm_StickyKakeya4_original_native_robust_global_assembly (3.5s)
+info: stdout:
+FIFO compiler ticket: 01791174643045049555-6e1d2126dd05445a82dc5625c1b30317.request
+FIFO compiler acquired UTC: 2026-10-05T04:30:43.046112+00:00
+
+
+ℹ [8880/8884] Built Theorems.Thm_StickyKakeya4_original_native_projection_power_cutoff (23s)
+info: stdout:
+FIFO compiler ticket: 01791174646622246786-0168dae6b64f447b8792d7bb500894e8.request
+FIFO compiler acquired UTC: 2026-10-05T04:30:46.622655+00:00
+
+
+ℹ [8881/8884] Built Theorems.Thm_StickyKakeya4_original_native_numeric_budgets (25s)
+info: stdout:
+FIFO compiler ticket: 01791174670106771607-ea59823917a74f3d9b1b7752559176ea.request
+FIFO compiler acquired UTC: 2026-10-05T04:31:10.107935+00:00
+
+
+ℹ [8882/8884] Built Theorems.Thm_StickyKakeya4_original_native_uniform_budget (25s)
+info: stdout:
+FIFO compiler ticket: 01791174696071084940-b4c209e0eef14ac8aa82aae8fa2af10c.request
+FIFO compiler acquired UTC: 2026-10-05T04:31:36.072159+00:00
+
+
+ℹ [8883/8886] Built Theorems.Thm_StickyKakeya4_original_uniform_weak_robust_projection (23s)
+info: stdout:
+FIFO compiler ticket: 01791174721434061347-200b9d50408f419e8830b34b7a5994f7.request
+FIFO compiler acquired UTC: 2026-10-05T04:32:01.435230+00:00
+
+
+ℹ [8884/8886] Built Theorems.Thm_StickyKakeya4_lexicographic_selector (24s)
+info: stdout:
+FIFO compiler ticket: 01791174745083765316-38e32924f2194899bf8cd24f1ee8e074.request
+FIFO compiler acquired UTC: 2026-10-05T04:32:25.084783+00:00
+
+
+ℹ [8885/8888] Built Theorems.Thm_StickyKakeya4_borel_selector_foundations (23s)
+info: stdout:
+FIFO compiler ticket: 01791174769358098403-eac72eca515a467196fbb7d78eb9130e.request
+FIFO compiler acquired UTC: 2026-10-05T04:32:49.359461+00:00
+
+
+ℹ [8886/8888] Built Theorems.Thm_StickyKakeya4_retained_source_readback (24s)
+info: stdout:
+FIFO compiler ticket: 01791174792522113246-145a2b90e4c34c0186975b070ae9fa72.request
+FIFO compiler acquired UTC: 2026-10-05T04:33:12.523079+00:00
+
+
+⚠ [8887/8890] Built Theorems.Thm_StickyKakeya4_retained_parameter_cell_source (25s)
+info: stdout:
+FIFO compiler ticket: 01791174816720500071-19b104185d5c45eab4626cfc57c7eb59.request
+FIFO compiler acquired UTC: 2026-10-05T04:33:36.721481+00:00
+
+warning: Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean:406:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: stdout:
+FIFO compiler ticket: 01791174816720500071-19b104185d5c45eab4626cfc57c7eb59.request
+FIFO compiler acquired UTC: 2026-10-05T04:33:36.721481+00:00
+
+warning: Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean:533:24: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174816720500071-19b104185d5c45eab4626cfc57c7eb59.request
+FIFO compiler acquired UTC: 2026-10-05T04:33:36.721481+00:00
+
+warning: Theorems/Thm_StickyKakeya4_retained_parameter_cell_source.lean:606:36: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174816720500071-19b104185d5c45eab4626cfc57c7eb59.request
+FIFO compiler acquired UTC: 2026-10-05T04:33:36.721481+00:00
+
+
+ℹ [8888/8895] Built Theorems.Thm_StickyKakeya4_exact_collision_identity (25s)
+info: stdout:
+FIFO compiler ticket: 01791174842511947344-87cbf29da2cb4fada3c0c102aa864860.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:02.512997+00:00
+
+
+ℹ [8889/8895] Built Theorems.Thm_StickyKakeya4_maslov_incidence_equivalence (8.7s)
+info: stdout:
+FIFO compiler ticket: 01791174867980744212-8bda6a9ab0d44c20b2a300ad96274512.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:27.982014+00:00
+
+
+⚠ [8890/8895] Built Theorems.Thm_StickyKakeya4_lossless_edge_flow_carleson (6.1s)
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:24:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:60:18: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:64:37: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:99:56: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:85:20: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:86:22: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:94:40: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:172:18: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:176:37: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:211:56: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:197:20: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:198:22: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+warning: Theorems/Thm_StickyKakeya4_lossless_edge_flow_carleson.lean:206:40: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: stdout:
+FIFO compiler ticket: 01791174876663576594-7ec503deffa646339305af52d2de1ba3.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:36.663951+00:00
+
+
+⚠ [8891/8895] Built Theorems.Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence (15s)
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:43:5: Variable name `hsource` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsource
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:43:32: Variable name `hK` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hK
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:43:45: Variable name `hW` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hW
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:44:5: Variable name `hnormalLoss` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnormalLoss
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:122:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:508:18: Variable name `hθ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hθ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:508:31: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:661:5: Variable name `hc₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hc₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:661:20: Variable name `hQ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hQ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:1726:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+warning: Theorems/Thm_StickyKakeya4_contact_symplectic_edge_flow_certificate_existence.lean:1906:5: Variable name `hpacking` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpacking
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174882741153941-8384b63cbd9e4af6a4d7e5364798e820.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:42.741550+00:00
+
+
+ℹ [8892/8901] Built Theorems.Thm_StickyKakeya4_coherent_boundary_shrinking_packets (4.7s)
+info: stdout:
+FIFO compiler ticket: 01791174898222712462-4d700b794a234fbea2f83bf628da8baa.request
+FIFO compiler acquired UTC: 2026-10-05T04:34:58.223079+00:00
+
+
+⚠ [8893/8903] Built Theorems.Thm_StickyKakeya4_conditioned_boundary_packet_extension (5.7s)
+info: stdout:
+FIFO compiler ticket: 01791174902944035306-e04556c2fb454bb594f1e60bde013118.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:02.944432+00:00
+
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_extension.lean:34:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: stdout:
+FIFO compiler ticket: 01791174902944035306-e04556c2fb454bb594f1e60bde013118.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:02.944432+00:00
+
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_extension.lean:53:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: stdout:
+FIFO compiler ticket: 01791174902944035306-e04556c2fb454bb594f1e60bde013118.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:02.944432+00:00
+
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_extension.lean:24:5: Variable name `hsourceMeasurable` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsourceMeasurable
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174902944035306-e04556c2fb454bb594f1e60bde013118.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:02.944432+00:00
+
+warning: Theorems/Thm_StickyKakeya4_conditioned_boundary_packet_extension.lean:27:32: Variable name `hrhoOne` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hrhoOne
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174902944035306-e04556c2fb454bb594f1e60bde013118.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:02.944432+00:00
+
+
+⚠ [8894/8903] Built Theorems.Thm_StickyKakeya4_four_probe_boundary_firewall (4.5s)
+info: stdout:
+FIFO compiler ticket: 01791174908616219384-efeb572da7b04b5095aa1a901fb235f2.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:08.616680+00:00
+
+warning: Theorems/Thm_StickyKakeya4_four_probe_boundary_firewall.lean:99:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: stdout:
+FIFO compiler ticket: 01791174908616219384-efeb572da7b04b5095aa1a901fb235f2.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:08.616680+00:00
+
+
+ℹ [8895/8905] Built Theorems.Thm_StickyKakeya4_conditioned_packet_center_control (4.5s)
+info: stdout:
+FIFO compiler ticket: 01791174913080554127-05c5529069c44df18ef5101299c2e30e.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:13.080978+00:00
+
+
+ℹ [8896/8905] Built Theorems.Thm_StickyKakeya4_north_graph_contact_coordinates (4.8s)
+info: stdout:
+FIFO compiler ticket: 01791174917590592019-ce510a25c6ce4320b82ffd393ceaba3b.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:17.590947+00:00
+
+
+ℹ [8897/8909] Built Theorems.Thm_StickyKakeya4_four_probe_boundary_limit (11s)
+info: stdout:
+FIFO compiler ticket: 01791174922342934425-d0d8a1a26a0d422faca1c5a8a8e0b89e.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:22.343298+00:00
+
+
+⚠ [8898/8909] Built Theorems.Thm_StickyKakeya4_three_packet_support (4.6s)
+info: stdout:
+FIFO compiler ticket: 01791174933775415264-42bf9a70f9f947309f55018d43f9f646.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:33.775796+00:00
+
+warning: Theorems/Thm_StickyKakeya4_three_packet_support.lean:92:4: Try `simp at hprob` instead of `simpa using hprob`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: stdout:
+FIFO compiler ticket: 01791174933775415264-42bf9a70f9f947309f55018d43f9f646.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:33.775796+00:00
+
+warning: Theorems/Thm_StickyKakeya4_three_packet_support.lean:100:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+info: stdout:
+FIFO compiler ticket: 01791174933775415264-42bf9a70f9f947309f55018d43f9f646.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:33.775796+00:00
+
+
+⚠ [8899/8909] Built Theorems.Thm_StickyKakeya4_front_fibre_lower_bound (6.2s)
+info: stdout:
+FIFO compiler ticket: 01791174938403148620-a95995a72ffb48ad8fc57312b7a0855e.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:38.403539+00:00
+
+warning: Theorems/Thm_StickyKakeya4_front_fibre_lower_bound.lean:90:5: Variable name `hdelta` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hdelta
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174938403148620-a95995a72ffb48ad8fc57312b7a0855e.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:38.403539+00:00
+
+
+⚠ [8900/8912] Built Theorems.Thm_StickyKakeya4_four_probe_cauchy_extraction (5.4s)
+info: stdout:
+FIFO compiler ticket: 01791174944670705562-d85738f62f86491fa803c0bdd94f19c4.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:44.671127+00:00
+
+warning: Theorems/Thm_StickyKakeya4_four_probe_cauchy_extraction.lean:306:4: Unused tactic linter: `change limitA.mulVec (c.ofLp - d.ofLp) = 0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: stdout:
+FIFO compiler ticket: 01791174944670705562-d85738f62f86491fa803c0bdd94f19c4.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:44.671127+00:00
+
+
+ℹ [8901/8916] Built Theorems.Thm_StickyKakeya4_conditioned_boundary_packet_chain (4.0s)
+info: stdout:
+FIFO compiler ticket: 01791174950095866773-bc561815b44c469d91d40b949ef9ddbb.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:50.096231+00:00
+
+
+ℹ [8902/8916] Built Theorems.Thm_StickyKakeya4_separated_alignment_patches (4.2s)
+info: stdout:
+FIFO compiler ticket: 01791174954946591661-c2d5fb1fc19846f89d2077d18aee9d81.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:54.946936+00:00
+
+
+ℹ [8903/8916] Built Theorems.Thm_StickyKakeya4_front_direction_cap_firewall (7.7s)
+info: stdout:
+FIFO compiler ticket: 01791174959317826406-487ae88375e04228bc949d2f0fb85e7a.request
+FIFO compiler acquired UTC: 2026-10-05T04:35:59.318173+00:00
+
+
+ℹ [8904/8916] Built Theorems.Thm_StickyKakeya4_euclidean_alignment_patches (3.9s)
+info: stdout:
+FIFO compiler ticket: 01791174966955237564-353a394fde034fab9a4a9d0e8162b44f.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:06.956308+00:00
+
+
+ℹ [8905/8916] Built Theorems.Thm_StickyKakeya4_north_conditioned_boundary_packet_chain (4.7s)
+info: stdout:
+FIFO compiler ticket: 01791174970973045005-6f202d44ce06461dbdef77f27d5f00ca.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:10.973459+00:00
+
+
+ℹ [8906/8916] Built Theorems.Thm_StickyKakeya4_front_two_probe_direction_firewall (6.3s)
+info: stdout:
+FIFO compiler ticket: 01791174975704355400-c55ec8203a9c4d059183b25c6fb54464.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:15.704745+00:00
+
+
+ℹ [8907/8918] Built Theorems.Thm_StickyKakeya4_native_original_slope_cube_packing (6.4s)
+info: stdout:
+FIFO compiler ticket: 01791174982050230942-e9d1a859f56b46d7b5e93d03f0197abc.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:22.050604+00:00
+
+
+ℹ [8908/8918] Built Theorems.Thm_StickyKakeya4_packing_piece_two_probe_firewall (5.4s)
+info: stdout:
+FIFO compiler ticket: 01791174988448348071-5d1b568b36e349d4896f325a90ec5659.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:28.448743+00:00
+
+
+ℹ [8909/8918] Built Theorems.Thm_StickyKakeya4_native_dense_original_parent (4.9s)
+info: stdout:
+FIFO compiler ticket: 01791174993814763637-05efa26c57174c2abbb78004e99a905a.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:33.815108+00:00
+
+
+⚠ [8910/8919] Built Theorems.Thm_StickyKakeya4_vector_center_carleson (8.6s)
+info: stdout:
+FIFO compiler ticket: 01791174998780125240-47aa4deb5ec341d4b3d109ff100fbb49.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:38.780523+00:00
+
+warning: Theorems/Thm_StickyKakeya4_vector_center_carleson.lean:69:5: Variable name `hR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174998780125240-47aa4deb5ec341d4b3d109ff100fbb49.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:38.780523+00:00
+
+warning: Theorems/Thm_StickyKakeya4_vector_center_carleson.lean:537:5: Variable name `hR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174998780125240-47aa4deb5ec341d4b3d109ff100fbb49.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:38.780523+00:00
+
+warning: Theorems/Thm_StickyKakeya4_vector_center_carleson.lean:890:18: Variable name `hR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174998780125240-47aa4deb5ec341d4b3d109ff100fbb49.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:38.780523+00:00
+
+warning: Theorems/Thm_StickyKakeya4_vector_center_carleson.lean:891:24: Variable name `hzetaThree` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hzetaThree
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: stdout:
+FIFO compiler ticket: 01791174998780125240-47aa4deb5ec341d4b3d109ff100fbb49.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:38.780523+00:00
+
+
+ℹ [8911/8919] Built Theorems.Thm_StickyKakeya4_native_original_shading_density (4.8s)
+info: stdout:
+FIFO compiler ticket: 01791175007414728706-3b066b391c53401e8d1cb7898680a856.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:47.415073+00:00
+
+
+⚠ [8912/8919] Built Theorems.Thm_StickyKakeya4_actual_slope_source (6.0s)
+info: stdout:
+FIFO compiler ticket: 01791175012168005888-e5d5ff074f9b48fdbc554cf082422f7b.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:52.168621+00:00
+
+warning: Theorems/Thm_StickyKakeya4_actual_slope_source.lean:67:34: `EuclideanSpace.single_apply` has been deprecated: Use `PiLp.single_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ (p : ℝ≥0∞) (𝕜 : Type u_1) {ι : Type u_2} [inst : DecidableEq ι] [inst_1 : Zero 𝕜] (i : ι) (a : 𝕜) (j : ι),
+    (PiLp.single p i a).ofLp j = if j = i then a else 0
+instead of
+  ∀ {ι : Type u_1} {𝕜 : Type u_3} [inst : RCLike 𝕜] [inst_1 : DecidableEq ι] (i : ι) (a : 𝕜) (j : ι),
+    (EuclideanSpace.single i a).ofLp j = if j = i then a else 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.single_apply` to `PiLp.single_apply x`).
+info: stdout:
+FIFO compiler ticket: 01791175012168005888-e5d5ff074f9b48fdbc554cf082422f7b.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:52.168621+00:00
+
+warning: Theorems/Thm_StickyKakeya4_actual_slope_source.lean:206:69: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: stdout:
+FIFO compiler ticket: 01791175012168005888-e5d5ff074f9b48fdbc554cf082422f7b.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:52.168621+00:00
+
+
+ℹ [8913/8919] Built Theorems.Thm_StickyKakeya4_native_near_extremal_physical_parent (4.9s)
+info: stdout:
+FIFO compiler ticket: 01791175018189563681-5b20ab5aed814bc78f3e0c3e22dd5a6c.request
+FIFO compiler acquired UTC: 2026-10-05T04:36:58.189950+00:00
+
+
+ℹ [8914/8919] Built Theorems.Thm_StickyKakeya4_native_graph_marked_line (5.7s)
+info: stdout:
+FIFO compiler ticket: 01791175023100051913-c7fd98e57dc543f8ae135cd5c38af03d.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:03.100503+00:00
+
+
+ℹ [8915/8919] Built Theorems.Thm_StickyKakeya4_native_unit_parent_normalization (7.8s)
+info: stdout:
+FIFO compiler ticket: 01791175028817728665-ab816644e1c94b36b7b7158e8fec8d70.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:08.818065+00:00
+
+
+ℹ [8916/8919] Built Theorems.Thm_StickyKakeya4_native_unit_parent_directions (5.2s)
+info: stdout:
+FIFO compiler ticket: 01791175036636498245-3e265600e6494b17a786591dea9d404b.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:16.636843+00:00
+
+
+ℹ [8917/8921] Built Theorems.Thm_StickyKakeya4_native_contracted_unit_parent (5.1s)
+info: stdout:
+FIFO compiler ticket: 01791175041791214310-85349fa1d4524d1c94fc82218c363470.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:21.791600+00:00
+
+
+ℹ [8918/8921] Built Theorems.Thm_StickyKakeya4_native_original_padded_cells (4.6s)
+info: stdout:
+FIFO compiler ticket: 01791175046894175161-a0c6d71a95994787b5fdb25d84252cb8.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:26.894554+00:00
+
+
+ℹ [8919/8921] Built Theorems.Thm_StickyKakeya4_self_uniform_incidence_refinement (7.5s)
+info: stdout:
+FIFO compiler ticket: 01791175051473162485-a68e63d994ae4470beac381891b8880c.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:31.473538+00:00
+
+
+ℹ [8920/8923] Built Theorems.Thm_StickyKakeya4_native_weighted_point_populations (4.5s)
+info: stdout:
+FIFO compiler ticket: 01791175058992464280-ab450f9a56f846a0949277433e3a8d44.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:38.992837+00:00
+
+
+ℹ [8921/8923] Built Theorems.Thm_StickyKakeya4_cover_profile_stopping (7.9s)
+info: stdout:
+FIFO compiler ticket: 01791175063464042660-14dc78ee82c6439483babcfe6fccb22c.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:43.464442+00:00
+
+
+ℹ [8922/8926] Built Theorems.Thm_StickyKakeya4_cover_profile_clipping (5.3s)
+info: stdout:
+FIFO compiler ticket: 01791175071386884278-4acf55e3b0f8442784b737765993af99.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:51.387263+00:00
+
+
+ℹ [8923/8926] Built Theorems.Thm_StickyKakeya4_finite_voronoi_ad_coarsening (7.4s)
+info: stdout:
+FIFO compiler ticket: 01791175076527478614-195ddcbf7d474d698c724f2e97c6e960.request
+FIFO compiler acquired UTC: 2026-10-05T04:37:56.527927+00:00
+
+
+ℹ [8924/8927] Built Theorems.Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening (10s)
+info: stdout:
+FIFO compiler ticket: 01791175083939195446-8a95b73356e84185a61a85c223b5f88d.request
+FIFO compiler acquired UTC: 2026-10-05T04:38:03.939631+00:00
+
+
+ℹ [8925/8931] Built Theorems.Thm_StickyKakeya4_ad_grid_cover_menus (6.6s)
+info: stdout:
+FIFO compiler ticket: 01791175095067302573-27e7a5851fbe403f8ded0fee86c5888a.request
+FIFO compiler acquired UTC: 2026-10-05T04:38:15.067693+00:00
+
+
+ℹ [8926/8931] Built Theorems.Thm_StickyKakeya4_compatible_tuple_selection (4.7s)
+info: stdout:
+FIFO compiler ticket: 01791175101618797829-48c3502aac0f49c1b74d1e3cf0f0513d.request
+FIFO compiler acquired UTC: 2026-10-05T04:38:21.619155+00:00
+
+
+ℹ [8927/8932] Built Theorems.Thm_StickyKakeya4_uniform_grain_partitions (4.2s)
+info: stdout:
+FIFO compiler ticket: 01791175106311412435-eb148957d7a54c26b50a9f9b52a74d58.request
+FIFO compiler acquired UTC: 2026-10-05T04:38:26.311772+00:00
+
+
+ℹ [8928/8932] Built Theorems.Thm_StickyKakeya4_small_fiber_alignment (6.7s)
+info: stdout:
+FIFO compiler ticket: 01791175110543359441-21771eb4a07d4cfea8d966985ab6b27d.request
+FIFO compiler acquired UTC: 2026-10-05T04:38:30.543753+00:00
+
+
+ℹ [8929/8937] Built Theorems.Thm_StickyKakeya4_graph_tube_grid_cover (5.6s)
+info: stdout:
+FIFO compiler ticket: 01791175117231002821-ebd25bf109f64556a62eadeac2f0d618.request
+FIFO compiler acquired UTC: 2026-10-05T04:38:37.231343+00:00
+
+
+ℹ [8930/8941] Built Theorems.Thm_StickyKakeya4_fractional_fiber_alignment (7.5s)
+info: stdout:
+FIFO compiler ticket: 01791175122893721118-13d78e7493a44563ae59730e9fff6e07.request
+FIFO compiler acquired UTC: 2026-10-05T04:38:42.894114+00:00
+
+
+ℹ [8931/8941] Built Theorems.Thm_StickyKakeya4_disjoint_profile_epochs (6.7s)
+info: stdout:
+FIFO compiler ticket: 01791175130417222301-b9fbf234dbc347e2806a244aa1c45632.request
+FIFO compiler acquired UTC: 2026-10-05T04:38:50.417602+00:00
+
+
+ℹ [8932/8948] Built Theorems.Thm_StickyKakeya4_sheared_grid_ad_reference (9.6s)
+info: stdout:
+FIFO compiler ticket: 01791175137121876698-ddf2afcdac1849f8af813c7f59c2d612.request
+FIFO compiler acquired UTC: 2026-10-05T04:38:57.122231+00:00
+
+
+ℹ [8933/8948] Built Theorems.Thm_StickyKakeya4_finite_cover_profile_epochs (4.9s)
+info: stdout:
+FIFO compiler ticket: 01791175146680445303-f4f770fe1c3b43d7bb6cfc62eeeff2df.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:06.680801+00:00
+
+
+ℹ [8934/8948] Built Theorems.Thm_StickyKakeya4_grid_quotient_ad (3.3s)
+info: stdout:
+FIFO compiler ticket: 01791175151398603753-057db599a8b741f0978aae57024ef470.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:11.398991+00:00
+
+
+ℹ [8935/8948] Built Theorems.Thm_StickyKakeya4_finite_cell_label_reduction (4.6s)
+info: stdout:
+FIFO compiler ticket: 01791175154879757564-43124227ef5b43e985e9ac930d78f434.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:14.880116+00:00
+
+
+ℹ [8936/8948] Built Theorems.Thm_StickyKakeya4_actual_tube_footprint_profiles (6.1s)
+info: stdout:
+FIFO compiler ticket: 01791175159470133757-debef9f60cde48d6a8db83d0af5c603a.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:19.470490+00:00
+
+
+ℹ [8937/8948] Built Theorems.Thm_StickyKakeya4_native_slice_grid_geometry (1.0s)
+info: stdout:
+FIFO compiler ticket: 01791175165391104628-7714270180af44db9ca992eddc29140f.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:25.391523+00:00
+
+
+ℹ [8938/8948] Built Theorems.Thm_StickyKakeya4_sheared_grid_tube_reference (10s)
+info: stdout:
+FIFO compiler ticket: 01791175167506649730-a5300b887391421d8cbb0f597a883da0.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:27.507043+00:00
+
+
+ℹ [8939/8948] Built Theorems.Thm_StickyKakeya4_native_dyadic_tube_stopping (5.0s)
+info: stdout:
+FIFO compiler ticket: 01791175177608706123-c5b8618830cb4f47abc2f0f44a6301f4.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:37.609161+00:00
+
+
+ℹ [8940/8949] Built Theorems.Thm_StickyKakeya4_native_dyadic_tube_epoch (6.9s)
+info: stdout:
+FIFO compiler ticket: 01791175183628443377-08f9aeb71bd644718839446fbbf0388d.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:43.628816+00:00
+
+
+ℹ [8941/8950] Built Theorems.Thm_StickyKakeya4_native_source_size_bounds (5.8s)
+info: stdout:
+FIFO compiler ticket: 01791175190458798753-93fb6112072e4c18a4a51fda2a9df53d.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:50.459161+00:00
+
+
+ℹ [8942/8950] Built Theorems.Thm_StickyKakeya4_original_w_witness_counts (3.3s)
+info: stdout:
+FIFO compiler ticket: 01791175196154076091-1b217136911c43058913237e6fb664b3.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:56.154524+00:00
+
+
+ℹ [8943/8950] Built Theorems.Thm_StickyKakeya4_native_original_slice_population (4.0s)
+info: stdout:
+FIFO compiler ticket: 01791175199592322126-365776b566544aa89bdda57fdd7829f9.request
+FIFO compiler acquired UTC: 2026-10-05T04:39:59.592773+00:00
+
+
+ℹ [8944/8950] Built Theorems.Thm_StickyKakeya4_fine_point_slab_geometry (3.8s)
+info: stdout:
+FIFO compiler ticket: 01791175204446958918-ed03ee9100e64515a040ee4a58bbec85.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:04.447311+00:00
+
+
+ℹ [8945/8956] Built Theorems.Thm_StickyKakeya4_native_original_slice_ball_population (4.2s)
+info: stdout:
+FIFO compiler ticket: 01791175208380043960-ddb3c8a4a68042e98e739d356b20bc5d.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:08.380509+00:00
+
+
+ℹ [8946/8956] Built Theorems.Thm_StickyKakeya4_native_selected_physical_multiplicity (4.0s)
+info: stdout:
+FIFO compiler ticket: 01791175212566712163-b80428e81b0a433a9539e4deaba6951e.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:12.567065+00:00
+
+
+ℹ [8947/8956] Built Theorems.Thm_StickyKakeya4_rich_witness_core (3.2s)
+info: stdout:
+FIFO compiler ticket: 01791175217428334798-4307653c6212440d893d773078e145fa.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:17.428748+00:00
+
+
+ℹ [8948/8957] Built Theorems.Thm_StickyKakeya4_native_original_slice_multiplicity (4.3s)
+info: stdout:
+FIFO compiler ticket: 01791175220767253405-a4ed1326d54c4f0386d2ba7839c43340.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:20.767759+00:00
+
+
+ℹ [8949/8963] Built Theorems.Thm_StickyKakeya4_rich_witness_real_core (2.7s)
+info: stdout:
+FIFO compiler ticket: 01791175224930775809-b6a0f2f14869479f9bb9d9a1a6358da0.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:24.931121+00:00
+
+
+ℹ [8950/8963] Built Theorems.Thm_StickyKakeya4_native_near_source_slice_population (4.5s)
+info: stdout:
+FIFO compiler ticket: 01791175227775109966-21786dadbb4544b8b1fa3cc86a9ff9e7.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:27.775502+00:00
+
+
+ℹ [8951/8963] Built Theorems.Thm_StickyKakeya4_original_w_coarse_escape_menus (3.9s)
+info: stdout:
+FIFO compiler ticket: 01791175232178726513-bb3644c1b1514d19b511909a051be2f4.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:32.179108+00:00
+
+
+ℹ [8952/8963] Built Theorems.Thm_StickyKakeya4_original_separated_height_cap (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791175236109587299-32205a5a763d4d5397c47efe24afbc04.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:36.110002+00:00
+
+
+ℹ [8953/8963] Built Theorems.Thm_StickyKakeya4_native_dense_source_refinement (4.6s)
+info: stdout:
+FIFO compiler ticket: 01791175238812543025-9cb11d17a0d44aadb649dabf364f4459.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:38.812879+00:00
+
+
+ℹ [8954/8967] Built Theorems.Thm_StickyKakeya4_original_w_successor_selection (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791175243284730502-555f703941644a2ebbd555517c6a10eb.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:43.285075+00:00
+
+
+ℹ [8955/8967] Built Theorems.Thm_StickyKakeya4_original_w_core_dynamics (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791175245538716124-ba95c892d68d497cada73962471c036b.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:45.539064+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:166:0: 'OriginalWCoreDynamics.rep_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: stdout:
+FIFO compiler ticket: 01791175245538716124-ba95c892d68d497cada73962471c036b.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:45.539064+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:167:0: 'OriginalWCoreDynamics.next_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: stdout:
+FIFO compiler ticket: 01791175245538716124-ba95c892d68d497cada73962471c036b.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:45.539064+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:168:0: 'OriginalWCoreDynamics.next_preserves_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: stdout:
+FIFO compiler ticket: 01791175245538716124-ba95c892d68d497cada73962471c036b.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:45.539064+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:169:0: 'OriginalWCoreDynamics.angles_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: stdout:
+FIFO compiler ticket: 01791175245538716124-ba95c892d68d497cada73962471c036b.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:45.539064+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:170:0: 'OriginalWCoreDynamics.M_subset_alphabet' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: stdout:
+FIFO compiler ticket: 01791175245538716124-ba95c892d68d497cada73962471c036b.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:45.539064+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:171:0: 'OriginalWCoreDynamics.exists_original_core_dynamics' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: stdout:
+FIFO compiler ticket: 01791175245538716124-ba95c892d68d497cada73962471c036b.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:45.539064+00:00
+
+info: Theorems/Thm_StickyKakeya4_original_w_core_dynamics.lean:172:0: 'OriginalWCoreDynamics.exists_original_total_core_dynamics' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: stdout:
+FIFO compiler ticket: 01791175245538716124-ba95c892d68d497cada73962471c036b.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:45.539064+00:00
+
+
+ℹ [8956/8967] Built Theorems.Thm_StickyKakeya4_native_dyadic_parent_cells (4.3s)
+info: stdout:
+FIFO compiler ticket: 01791175248279148232-aa8421ec8e09477aaa0c8c263a5a12c7.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:48.279534+00:00
+
+
+ℹ [8957/8967] Built Theorems.Thm_StickyKakeya4_original_angular_alphabet_translation (2.3s)
+info: stdout:
+FIFO compiler ticket: 01791175252490479594-6c99823d7296497f940934d42980034e.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:52.490853+00:00
+
+
+ℹ [8958/8968] Built Theorems.Thm_StickyKakeya4_original_scalar_collision_mass (4.2s)
+info: stdout:
+FIFO compiler ticket: 01791175254757491574-3fd7ae58d56a4d2b908525853a4adfd9.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:54.757881+00:00
+
+
+ℹ [8959/8968] Built Theorems.Thm_StickyKakeya4_native_unit_parent_dyadic (4.9s)
+info: stdout:
+FIFO compiler ticket: 01791175259089812203-96e6ee00750d40a1a3ec823e52105ae5.request
+FIFO compiler acquired UTC: 2026-10-05T04:40:59.090327+00:00
+
+
+ℹ [8960/8970] Built Theorems.Thm_StickyKakeya4_original_angular_exponent_range (2.9s)
+info: stdout:
+FIFO compiler ticket: 01791175263856739114-8f41a989f213406b9315e04b3735ab37.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:03.857105+00:00
+
+
+ℹ [8961/8970] Built Theorems.Thm_StickyKakeya4_native_padded_cell_source (4.5s)
+info: stdout:
+FIFO compiler ticket: 01791175266867649455-e88ad745b2c443db9f2db60013b4db7d.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:06.867993+00:00
+
+
+ℹ [8962/8975] Built Theorems.Thm_StickyKakeya4_native_normalized_parent_carrier_metric (6.8s)
+info: stdout:
+FIFO compiler ticket: 01791175271371735884-26213d15c20043669aaea9af323fc2c0.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:11.372084+00:00
+
+
+ℹ [8963/8975] Built Theorems.Thm_StickyKakeya4_original_height_vertex_density (2.6s)
+info: stdout:
+FIFO compiler ticket: 01791175278008735189-1665482250144457979c5b155fe63faf.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:18.009130+00:00
+
+
+ℹ [8964/8975] Built Theorems.Thm_StickyKakeya4_native_padded_cell_union_bound (6.9s)
+info: stdout:
+FIFO compiler ticket: 01791175280756614534-7d985a1f088947e8b268940803084c63.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:20.757239+00:00
+
+
+ℹ [8965/8975] Built Theorems.Thm_StickyKakeya4_native_unit_parent_volume (6.2s)
+info: stdout:
+FIFO compiler ticket: 01791175287666830772-ef45c50f1ded494d917eeefe199ab2d9.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:27.667202+00:00
+
+
+ℹ [8966/8975] Built Theorems.Thm_StickyKakeya4_native_original_height_vertices (5.9s)
+info: stdout:
+FIFO compiler ticket: 01791175293944006182-6ab87badbeab41ea8571e0ca3f088b08.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:33.946942+00:00
+
+
+ℹ [8967/8975] Built Theorems.Thm_StickyKakeya4_native_padded_cell_fiber_count (5.1s)
+info: stdout:
+FIFO compiler ticket: 01791175299817827738-711efae539bc48f1ba94018c8b0a8df9.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:39.818194+00:00
+
+
+ℹ [8968/8975] Built Theorems.Thm_StickyKakeya4_native_padded_source_mass (5.1s)
+info: stdout:
+FIFO compiler ticket: 01791175304928251640-88c00dfe858142ea955ea6f2e2d075c1.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:44.928726+00:00
+
+
+ℹ [8969/8975] Built Theorems.Thm_StickyKakeya4_native_coarse_shading_capacity (6.5s)
+info: stdout:
+FIFO compiler ticket: 01791175310075897427-53e50a018e544c9c9b4ebc84bc985098.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:50.076265+00:00
+
+
+ℹ [8970/8975] Built Theorems.Thm_StickyKakeya4_native_padded_source_transport (5.1s)
+info: stdout:
+FIFO compiler ticket: 01791175316601161891-17cce60c73da45e8884b599eeec0d7c5.request
+FIFO compiler acquired UTC: 2026-10-05T04:41:56.601559+00:00
+
+
+ℹ [8971/8975] Built Theorems.Thm_StickyKakeya4_native_coarse_representative_geometry (6.0s)
+info: stdout:
+FIFO compiler ticket: 01791175321647433584-404ae16e9538490dadeaba0676412d88.request
+FIFO compiler acquired UTC: 2026-10-05T04:42:01.647825+00:00
+
+
+ℹ [8972/8977] Built Theorems.Thm_StickyKakeya4_native_coarse_physical_containment (15s)
+info: stdout:
+FIFO compiler ticket: 01791175327718944932-66b286e16feb44929456a58f8b77c24f.request
+FIFO compiler acquired UTC: 2026-10-05T04:42:07.719329+00:00
+
+
+ℹ [8974/8983] Built Theorems.Thm_StickyKakeya4_native_local_parent_geometry (6.6s)
+info: stdout:
+FIFO compiler ticket: 01791175342966346178-69747902ce1b43ab8a28035b79935e19.request
+FIFO compiler acquired UTC: 2026-10-05T04:42:22.967546+00:00
+
+
+ℹ [8975/8983] Built Theorems.Thm_StickyKakeya4_native_pruning_mass_budget (23s)
+info: stdout:
+FIFO compiler ticket: 01791175349622930711-c0acd667c5364f3383ce3697064d0d66.request
+FIFO compiler acquired UTC: 2026-10-05T04:42:29.623484+00:00
+
+
+ℹ [8976/8983] Built Theorems.Thm_StickyKakeya4_native_local_parent_physical_map (22s)
+info: stdout:
+FIFO compiler ticket: 01791175373547934911-83c6d77c08264a48927072dfedde0766.request
+FIFO compiler acquired UTC: 2026-10-05T04:42:53.548305+00:00
+
+
+ℹ [8977/8983] Built Theorems.Thm_StickyKakeya4_native_pruned_power_constants (34s)
+info: stdout:
+FIFO compiler ticket: 01791175395600572435-8d2bb8dd64544318b2a9426aa18447a4.request
+FIFO compiler acquired UTC: 2026-10-05T04:43:15.600963+00:00
+
+info: Theorems/Thm_StickyKakeya4_native_pruned_power_constants.lean:20:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: stdout:
+FIFO compiler ticket: 01791175395600572435-8d2bb8dd64544318b2a9426aa18447a4.request
+FIFO compiler acquired UTC: 2026-10-05T04:43:15.600963+00:00
+
+
+ℹ [8978/8983] Built Theorems.Thm_StickyKakeya4_native_compact_dyadic_source (36s)
+info: stdout:
+FIFO compiler ticket: 01791175429859154053-5a41601ad704434ca3d8e92ae7e3eae5.request
+FIFO compiler acquired UTC: 2026-10-05T04:43:51.264229+00:00
+
+
+ℹ [8979/8983] Built Theorems.Thm_StickyKakeya4_native_compact_pruned_parameters (68s)
+info: stdout:
+FIFO compiler ticket: 01791175466789317538-8251996b860044739c744d3e4b9bb579.request
+FIFO compiler acquired UTC: 2026-10-05T04:45:00.820189+00:00
+
+
+ℹ [8980/8983] Built Theorems.Thm_StickyKakeya4_native_compact_ancestor_regularity (75s)
+info: stdout:
+FIFO compiler ticket: 01791175534868582160-204df6cfca9147c0b8711c83935fa998.request
+FIFO compiler acquired UTC: 2026-10-05T04:46:12.327168+00:00
+
+
+ℹ [8981/8983] Built Theorems.Thm_StickyKakeya4_native_coarse_slope_occupancy (81s)
+info: stdout:
+FIFO compiler ticket: 01791175610590992269-4aecaeb1754245eda4cef3091075a95b.request
+FIFO compiler acquired UTC: 2026-10-05T04:47:31.258659+00:00
+
+
+ℹ [8982/8983] Built Theorems.Thm_StickyKakeya4_native_coarse_color_selection (116s)
+info: stdout:
+FIFO compiler ticket: 01791175692328086989-77e8922b612d4210981ad9a699cf9d7a.request
+FIFO compiler acquired UTC: 2026-10-05T04:48:58.708742+00:00
+
+
+ℹ [8983/8983] Built Theorems.Thm_StickyKakeya4_native_coarse_direction_thinning (151s)
+info: stdout:
+FIFO compiler ticket: 01791175808807595517-3fbc28f3180649faa3543e777624adc4.request
+FIFO compiler acquired UTC: 2026-10-05T04:51:23.938056+00:00
+
+
+Build completed successfully (8983 jobs).
+
+{
+  "state": "passed",
+  "source_commit": "912dc065d2be0bded29e47a817afd4ab89becdf1",
+  "project_module_count": 276,
+  "full_project_build": false,
+  "command": [
+    "bash",
+    "-c",
+    "source /workspace/scratch/5f2524fd4117/lean-tools/environment.sh\nexec ./scripts/build-bounded.sh \"$@\"",
+    "critical-targets",
+    "Theorems.Thm_StickyKakeya4_original_uniform_weak_robust_projection",
+    "Theorems.Thm_StickyKakeya4_native_local_parent_physical_map",
+    "Theorems.Thm_StickyKakeya4_native_coarse_direction_thinning"
+  ],
+  "executor_start_utc": "2026-10-05T04:03:30.328252+00:00",
+  "exit_code": 0,
+  "changed_sources": [],
+  "executor_finished_utc": "2026-10-05T04:52:40.055987+00:00"
+}

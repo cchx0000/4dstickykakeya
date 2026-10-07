@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_rank_one_parent_cap
+
+#print axioms NativeRankOneParentCap.angularMenu
+#print axioms NativeRankOneParentCap.angularMenu_card
+#print axioms NativeRankOneParentCap.actual_near_angular_menu
+#print axioms NativeRankOneParentCap.actual_near_parent_card_le

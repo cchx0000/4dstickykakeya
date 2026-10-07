@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_source_output_window
+set_option autoImplicit false
+#print axioms NativeSourceOutputWindow.exists_uniform_source_window

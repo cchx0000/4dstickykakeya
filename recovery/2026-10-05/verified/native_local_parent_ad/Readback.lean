@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_local_parent_ad
+set_option autoImplicit false
+#print axioms NativeLocalParentAD.carrier
+#print axioms NativeLocalParentAD.parentSubset
+#print axioms NativeLocalParentAD.ballLabels
+#print axioms NativeLocalParentAD.localIntercept_norm_le_one
+#print axioms NativeLocalParentAD.parameter_error_carrier_dist
+#print axioms NativeLocalParentAD.same_finer_cell_carrier_dist
+#print axioms NativeLocalParentAD.original_slope_error_le
+#print axioms NativeLocalParentAD.ball_card_upper
+#print axioms NativeLocalParentAD.ball_card_lower
+#print axioms NativeLocalParentAD.compact_original_local_parent_AD
+#print axioms NativeLocalParentAD.exists_native_coefficient_cutoff

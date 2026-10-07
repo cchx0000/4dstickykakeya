@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_reference_configured_time
+set_option autoImplicit false
+#print axioms NativeReferenceConfiguredTime.raw_old_time_error
+#print axioms NativeReferenceConfiguredTime.coarse_height_readback
+#print axioms NativeReferenceConfiguredTime.coarse_height_error
+#print axioms NativeReferenceConfiguredTime.coarse_height_coordinate_budget
+#print axioms NativeReferenceConfiguredTime.final_height_floor

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_variable_height_numerator_upper
+
+#print axioms NativeVariableHeightNumeratorUpper.shortRowColumnCost
+#print axioms NativeVariableHeightNumeratorUpper.pairUpperConstant
+#print axioms NativeVariableHeightNumeratorUpper.pairUpperConstant_pos
+#print axioms NativeVariableHeightNumeratorUpper.short_pair_column_image_card
+#print axioms NativeVariableHeightNumeratorUpper.parent_column_pair_upper

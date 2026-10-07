@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_rounded_rotated_selection
+set_option autoImplicit false
+#print axioms NativeRoundedRotatedSelection.roundingModulus
+#print axioms NativeRoundedRotatedSelection.roundingModulus_pos
+#print axioms NativeRoundedRotatedSelection.same_configured_cell_dist_le
+#print axioms NativeRoundedRotatedSelection.same_color_same_original_cell
+#print axioms NativeRoundedRotatedSelection.select_one_configured_grid
+#print axioms NativeRoundedRotatedSelection.select_finite_menu
+#print axioms NativeRoundedRotatedSelection.select_original_edges
+#print axioms NativeRoundedRotatedSelection.select_edges_inheriting_predicate

@@ -1,0 +1,178 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_general_rank_scalar_budget",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_general_rank_scalar_budget.lean",
+  "source_sha256": "67348d31fbd3c9f9cd3f6aca23c4aa7a6fe3494d7b6d62c37b48cde12d3c26f1",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_general_rank_scalar_budget.olean",
+  "names": [
+    "NativeGeneralRankScalarBudget.dimension",
+    "NativeGeneralRankScalarBudget.gap",
+    "NativeGeneralRankScalarBudget.positiveGap",
+    "NativeGeneralRankScalarBudget.positiveGap_pos",
+    "NativeGeneralRankScalarBudget.positiveGap_le",
+    "NativeGeneralRankScalarBudget.exists_uniform_hierarchy",
+    "NativeGeneralRankScalarBudget.rankLoss_le_linear",
+    "NativeGeneralRankScalarBudget.rankLoss_le_one",
+    "NativeGeneralRankScalarBudget.hierarchy_margin",
+    "NativeGeneralRankScalarBudget.geometricConstant",
+    "NativeGeneralRankScalarBudget.combinedConstant",
+    "NativeGeneralRankScalarBudget.combinedConstant_pos",
+    "NativeGeneralRankScalarBudget.pointLoss",
+    "NativeGeneralRankScalarBudget.actual_count_power",
+    "NativeGeneralRankScalarBudget.totalExponent",
+    "NativeGeneralRankScalarBudget.fixedConstant",
+    "NativeGeneralRankScalarBudget.fixedConstant_pos",
+    "NativeGeneralRankScalarBudget.force_scale_power",
+    "NativeGeneralRankScalarBudget.tau_budget",
+    "NativeGeneralRankScalarBudget.exponent_budget",
+    "NativeGeneralRankScalarBudget.rank_exponent_margin",
+    "NativeGeneralRankScalarBudget.tau_le_cutoff",
+    "NativeGeneralRankScalarBudget.middle_lower",
+    "NativeGeneralRankScalarBudget.exists_uniform_cutoff",
+    "NativeGeneralRankScalarBudget.impossible_scale_power",
+    "NativeGeneralRankScalarBudget.dimension_range_from_counts"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T14:24:56.992041+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "790e9a6b5d02e290ffe84e7e693963caed0c34b45242d853c58fd32ac4c5f884",
+  "source_execution_complete_utc": "2026-10-05T14:25:06.656880+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T142728846729",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeGeneralRankScalarBudget.dimension": [],
+    "NativeGeneralRankScalarBudget.gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.positiveGap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.positiveGap_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.positiveGap_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.exists_uniform_hierarchy": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.rankLoss_le_linear": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.rankLoss_le_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.hierarchy_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.geometricConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.combinedConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.combinedConstant_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.pointLoss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.actual_count_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.totalExponent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.fixedConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.fixedConstant_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.force_scale_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.tau_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.exponent_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.rank_exponent_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.tau_le_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.middle_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.exists_uniform_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.impossible_scale_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeGeneralRankScalarBudget.dimension_range_from_counts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T14:27:34.324599+00:00"
+}

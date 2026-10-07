@@ -1,0 +1,37 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_output_alignment_menu_budget",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_output_alignment_menu_budget.lean",
+  "source_sha256": "b481c43ad7981becf05324af2352f1152f3ba1ad820002da31c8c93ef8f7ad8f",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_output_alignment_menu_budget.olean",
+  "names": [
+    "NativeOutputAlignmentMenuBudget.exists_menu_cutoff",
+    "NativeOutputAlignmentMenuBudget.inverse_selected_fraction"
+  ],
+  "started_utc": "2026-10-06T13:47:41.913775+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "d1c0b5a7d5413319a594ca93147e80bd531635d2f09ccd10d4c41fc4bb515358",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T14:02:45.497622+00:00",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1404",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeOutputAlignmentMenuBudget.exists_menu_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeOutputAlignmentMenuBudget.inverse_selected_fraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T14:11:51.480165+00:00",
+  "canonical_scope": "new_canonical_module"
+}

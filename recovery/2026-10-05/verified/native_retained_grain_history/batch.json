@@ -1,0 +1,41 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:53:10.752984+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T135309042027",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T135309042027/AggregateReadback.lean"
+  ],
+  "readback_sha256": "6b66424b07a9a77d9bfa2ace40b8c5dc89027fe870536bccc296f3cbaa92270e",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_grain_history",
+      "source_sha256": "fd16325cf6178cb995a79acb36b06384b5becb2e1f4d39aa8784267cfb1b95ea",
+      "olean_sha256": "c3173c6670666a636c4d24f85813d3609b81149e64b47c0e17252e35ae6e3948",
+      "names": [
+        "NativeRetainedGrainHistory.historyCutoff",
+        "NativeRetainedGrainHistory.historyCutoff_spec",
+        "NativeRetainedGrainHistory.rank_halving_cost",
+        "NativeRetainedGrainHistory.retained_power_after_halving",
+        "NativeRetainedGrainHistory.historyDepth",
+        "NativeRetainedGrainHistory.historyDepth_eq_depth",
+        "NativeRetainedGrainHistory.historyDepth_le_stop",
+        "NativeRetainedGrainHistory.HasRetainedHistory",
+        "NativeRetainedGrainHistory.construct_actual_retained_history"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:54:33.125337+00:00",
+  "exit_code": 0
+}

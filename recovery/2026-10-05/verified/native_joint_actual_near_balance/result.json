@@ -1,0 +1,30 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_joint_actual_near_balance",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_joint_actual_near_balance.lean",
+  "source_sha256": "191f01e4ce5db8ef9762d0cede2257a465fb1fdb9f4f652cb56852abca56b863",
+  "names": [
+    "NativeJointActualNearBalance.HasNearScale",
+    "NativeJointActualNearBalance.joint_actual_near_balance"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T06:08:48.697723+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeJointActualNearBalance.HasNearScale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeJointActualNearBalance.joint_actual_near_balance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "7b9007709e558640b48e46ccc4f1c90760b565f733086422a0a414f174e51569",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T06:19:55.004741+00:00"
+}

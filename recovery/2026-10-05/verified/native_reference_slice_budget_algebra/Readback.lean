@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_reference_slice_budget_algebra
+
+#print axioms NativeReferenceSliceBudgetAlgebra.population
+#print axioms NativeReferenceSliceBudgetAlgebra.columnEpsilon
+#print axioms NativeReferenceSliceBudgetAlgebra.profileLower
+#print axioms NativeReferenceSliceBudgetAlgebra.profileUpper
+#print axioms NativeReferenceSliceBudgetAlgebra.ratioConstant
+#print axioms NativeReferenceSliceBudgetAlgebra.ratioConstant_pos
+#print axioms NativeReferenceSliceBudgetAlgebra.reference_ratio
+#print axioms NativeReferenceSliceBudgetAlgebra.actual_reference_ratio

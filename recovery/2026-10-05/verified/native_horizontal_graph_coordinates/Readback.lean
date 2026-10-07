@@ -1,0 +1,18 @@
+import Theorems.Thm_StickyKakeya4_native_horizontal_graph_coordinates
+
+#print axioms NativeHorizontalGraphCoordinates.normalSpace
+#print axioms NativeHorizontalGraphCoordinates.horizontal_finrank
+#print axioms NativeHorizontalGraphCoordinates.normalSpace_finrank
+#print axioms NativeHorizontalGraphCoordinates.domainBasis
+#print axioms NativeHorizontalGraphCoordinates.normalBasis
+#print axioms NativeHorizontalGraphCoordinates.horizontalGraph
+#print axioms NativeHorizontalGraphCoordinates.horizontalGraph_val
+#print axioms NativeHorizontalGraphCoordinates.slopeMap
+#print axioms NativeHorizontalGraphCoordinates.slopeMap_norm
+#print axioms NativeHorizontalGraphCoordinates.slopeMap_variation
+#print axioms NativeHorizontalGraphCoordinates.slopeMatrix
+#print axioms NativeHorizontalGraphCoordinates.slopeMatrix_entry
+#print axioms NativeHorizontalGraphCoordinates.slopeMatrix_action
+#print axioms NativeHorizontalGraphCoordinates.slopeMatrix_norm
+#print axioms NativeHorizontalGraphCoordinates.slopeMatrix_variation
+#print axioms NativeHorizontalGraphCoordinates.coordinate_graph_readback

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_generic_prescribed_history
+
+#print axioms NativeGenericPrescribedHistory.HasPrescribedHistoryStage
+#print axioms NativeGenericPrescribedHistory.prescribed_history_stage_of_compatible

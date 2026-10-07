@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_fixed_source_physical_reference
+set_option autoImplicit false
+#print axioms NativeFixedSourcePhysicalReference.exists_fixed_source_physical_reference
+#print axioms NativeFixedSourcePhysicalReference.exists_physical_reference_from_volume_bounds

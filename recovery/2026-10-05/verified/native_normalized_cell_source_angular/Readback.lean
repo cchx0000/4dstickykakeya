@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_normalized_cell_source_angular
+
+#print axioms NativeNormalizedCellSourceAngular.exists_source_angular_upper

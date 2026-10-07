@@ -1,0 +1,33 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T19:00:11.238062+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T190010463252",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T190010463252/AggregateReadback.lean"
+  ],
+  "readback_sha256": "499da2e9a82b9c14f0dfd5b2c9d58a56e31ab5aa1187cdca53efa24353dbbddb",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_fixed_class_exponent_at_most_one",
+      "source_sha256": "79787d8200a73d28e091a8f4b648cb3450b5e12a99f2db2e01ad12d70bee5bd6",
+      "olean_sha256": "a80f1cd4ed04ebd25c65c299a53e2e5edef812fc8e78261d2e7bb2fff7428d51",
+      "names": [
+        "NativeFixedClassExponentAtMostOne.extremalExponent_le_one"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T19:02:26.475935+00:00",
+  "exit_code": 0
+}

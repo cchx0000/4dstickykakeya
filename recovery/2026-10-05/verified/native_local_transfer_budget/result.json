@@ -1,0 +1,36 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_local_transfer_budget",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_local_transfer_budget.lean",
+  "source_sha256": "0e84a130d9a38d18b20f6a8dbd45ccbaa37e93d6b52ae64da79cbc86cf68d6d7",
+  "names": [
+    "NativeLocalTransferBudget.transferCoefficient",
+    "NativeLocalTransferBudget.transferCoefficient_nonneg",
+    "NativeLocalTransferBudget.exists_parent_transfer_cutoff"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T05:33:04.490967+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeLocalTransferBudget.transferCoefficient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalTransferBudget.transferCoefficient_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeLocalTransferBudget.exists_parent_transfer_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "868e38515938984f201f268ce9e90e58e1e6ed569c41808e00784d9b4948ad45",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T05:33:13.778155+00:00"
+}

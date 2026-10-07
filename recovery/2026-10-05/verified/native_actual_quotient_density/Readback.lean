@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_quotient_density
+
+#print axioms NativeActualQuotientDensity.rho_halfWidth
+#print axioms NativeActualQuotientDensity.normalized_density
+#print axioms NativeActualQuotientDensity.reference_cross_dense

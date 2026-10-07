@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_retention_output_power
+set_option autoImplicit false
+#print axioms NativeRetentionOutputPower.configured_square_le_reference
+#print axioms NativeRetentionOutputPower.output_fourth_le_stop
+#print axioms NativeRetentionOutputPower.reference_loss_to_output
+#print axioms NativeRetentionOutputPower.stop_loss_to_output
+#print axioms NativeRetentionOutputPower.total_retention_at_output
+#print axioms NativeRetentionOutputPower.exists_uniform_retention_cutoff

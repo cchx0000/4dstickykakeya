@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_reference_slice_class_bounds
+
+#print axioms NativeReferenceSliceClassBounds.HasColumnPowerProfile
+#print axioms NativeReferenceSliceClassBounds.relativeWidth_ratio
+#print axioms NativeReferenceSliceClassBounds.reference_class_power_bounds

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_variable_height_row_lower
+
+#print axioms NativeVariableHeightRowLower.shortEdges_subset_parent
+#print axioms NativeVariableHeightRowLower.chargeConstant
+#print axioms NativeVariableHeightRowLower.parent_counts_of_actual_rows
+#print axioms NativeVariableHeightRowLower.queried_parent_counts_lower

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_normalized_cell_source_upper
+
+#print axioms NativeNormalizedCellSourceUpper.source_native_from_population
+#print axioms NativeNormalizedCellSourceUpper.exists_source_normalized_degree_upper

@@ -1,0 +1,14 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T152501430917", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T152501430917/AggregateReadback.lean"]
+READBACK_SHA256 ede8c34c7a864608365c3aab8c8b216a5c206309b899f67002cd5c06f93f67cb
+Dedicated staging slot 3 acquired UTC: 2026-10-05T15:25:02.252344+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8793064 kB
+'NativeEarlyWindowSuccessor.exists_early_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeEarlyWindowSuccessor.exists_early_successor_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaidParentScaleBudget.absorbed_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaidParentScaleBudget.geometry_radix_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaidParentScaleBudget.transfer_denominator_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePaidParentScaleBudget.uniform_radix_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowPaidParentLower.master_parent_power_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWindowPaidParentLower.window_parent_power_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

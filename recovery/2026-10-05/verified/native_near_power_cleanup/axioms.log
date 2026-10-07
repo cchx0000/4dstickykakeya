@@ -1,0 +1,8 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_near_power_cleanup_readback.lean"]
+SOURCE_SHA256 8f255675ae02662c4d5b697a047b15e4966abe1eb117d523ce2d833b8536b2c6
+FIFO compiler ticket: 01791179451676630580-fc8cb69b690e4954a8d6705e6e60730a.request
+FIFO compiler acquired UTC: 2026-10-05T05:52:49.381102+00:00
+'NativeNearPowerCleanup.remove_complementary_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNearPowerCleanup.absorb_and_remove_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

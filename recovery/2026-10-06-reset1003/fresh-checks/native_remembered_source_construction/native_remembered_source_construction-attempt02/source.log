@@ -1,0 +1,170 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/fc89ff8a1f453ec7424ea95779ffa352860df88cd3399852ed9c2a566287e183.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean"]
+SOURCE_SHA256 42d6022e2133c0cffc680c44190f32078799fd57c219134d28050b1305c38189
+LOCK_ACQUIRED_UTC 2026-10-06T20:12:08.094460+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:63:2: error: Tactic `tauto` failed
+
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+backbone : Finset (Fin n)
+a : ℝ
+m b : ℕ
+p : Parent
+hp : (parentLabels D backbone a (2 ^ m) p).Nonempty
+Q : Finset Parent
+cells : Fin #Q → Finset Index
+A : Finset (Fin n × Index)
+v : Fin #Q × Index
+w : Fin n × Index
+⊢ (v, w) ∈ (incidences cells).product A ∧
+      NativeCoarseCellSource.parentIndex Q v.1 = relativeLabel D a (2 ^ m) p (2 ^ b) w.1 ∧
+        v.2 = (doublePair h backbone a m p hp (2 ^ b) w).2 ↔
+    v ∈ incidences cells ∧
+      w ∈ A ∧
+        NativeCoarseCellSource.parentIndex Q v.1 = relativeLabel D a (2 ^ m) p (2 ^ b) w.1 ∧
+          v.2 = (doublePair h backbone a m p hp (2 ^ b) w).2
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:62:36: error: This simp argument is unused:
+  Finset.mem_product
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [occurrences, mem_filter]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:255:2: error: 'change' tactic failed, pattern
+  |(frontPoint C 0 N p i k).ofLp j - (cellCenter (↑N * C.thickness / 128) (localCellLabel C 0 N p (i, k))).ofLp j| ≤
+    ?m.228
+is not definitionally equal to target
+  |(cellCenter (↑N * C.thickness / 128) (wzDyadicCellIndex (↑N * C.thickness / 128) (frontPoint C 0 N p i k))).ofLp j -
+        (frontPoint C 0 N p i k).ofLp j| ≤
+    ↑N * C.thickness / 128 / 2
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:396:4: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+hK : ∀ (i : Fin n), D.line i ∈ NativeUnitParentNormalization.fixedCompactClass
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+R : Finset (Fin n)
+level b0 c : ℕ
+hb0 : 8 ≤ b0
+hc : c ≤ b0
+E : Finset (Fin n × Index)
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+i j : Fin #(image (parentLabel D a (2 ^ b0)) R)
+hphase :
+  ancestor b0 c (parentIndex (image (parentLabel D a (2 ^ b0)) R) i) =
+    ancestor b0 c (parentIndex (image (parentLabel D a (2 ^ b0)) R) j)
+x y : E4
+ht : x.ofLp 3 = y.ofLp 3
+hx : x ∈ markedUnitTube (MarkedIsometricChart.line O 0 ((fullSource h R a level b0 E).line i)) (64 / ↑(2 ^ b0))
+hy : y ∈ markedUnitTube (MarkedIsometricChart.line O 0 ((fullSource h R a level b0 E).line j)) (64 / ↑(2 ^ b0))
+li : MarkedLine := MarkedIsometricChart.line O 0 ((fullSource h R a level b0 E).line i)
+lj : MarkedLine := MarkedIsometricChart.line O 0 ((fullSource h R a level b0 E).line j)
+ri : Fin n := representative h R a (2 ^ b0) (parentIndex (image (parentLabel D a (2 ^ b0)) R) i)
+rj : Fin n := representative h R a (2 ^ b0) (parentIndex (image (parentLabel D a (2 ^ b0)) R) j)
+hi :
+  parentLabel D a (2 ^ b0) (representative h R a (2 ^ b0) (parentIndex (image (parentLabel D a (2 ^ b0)) R) i)) =
+    parentIndex (image (parentLabel D a (2 ^ b0)) R) i
+hj :
+  parentLabel D a (2 ^ b0) (representative h R a (2 ^ b0) (parentIndex (image (parentLabel D a (2 ^ b0)) R) j)) =
+    parentIndex (image (parentLabel D a (2 ^ b0)) R) j
+hp : parentLabel D a (2 ^ c) ri = parentLabel D a (2 ^ c) rj
+hg :
+  (∀ (v : Fin 3),
+      |NativeOriginalCellChartGeometry.slope li v - NativeOriginalCellChartGeometry.slope lj v| ≤ 672 / ↑(2 ^ c)) ∧
+    ∀ (v : Fin 3), |intercept li v - intercept lj v| ≤ 672 / ↑(2 ^ c)
+hxb :
+  |x.ofLp 3| ≤ 1 ∧
+    ∀ (j : Fin 3),
+      |x.ofLp j.castSucc - intercept (MarkedIsometricChart.line O 0 ((fullSource h R a level b0 E).line i)) j -
+            NativeOriginalCellChartGeometry.slope (MarkedIsometricChart.line O 0 ((fullSource h R a level b0 E).line i))
+                j *
+              x.ofLp 3| ≤
+        8 * (64 / ↑(2 ^ b0))
+hyb :
+  |y.ofLp 3| ≤ 1 ∧
+    ∀ (j_1 : Fin 3),
+      |y.ofLp j_1.castSucc - intercept (MarkedIsometricChart.line O 0 ((fullSource h R a level b0 E).line j)) j_1 -
+            NativeOriginalCellChartGeometry.slope (MarkedIsometricChart.line O 0 ((fullSource h R a level b0 E).line j))
+                j_1 *
+              y.ofLp 3| ≤
+        8 * (64 / ↑(2 ^ b0))
+hscale : 64 / ↑(2 ^ b0) ≤ 64 / ↑(2 ^ c)
+v : Fin 3
+he :
+  x.ofLp v.castSucc - y.ofLp v.castSucc =
+    x.ofLp v.castSucc - intercept li v - NativeOriginalCellChartGeometry.slope li v * x.ofLp 3 -
+          (y.ofLp v.castSucc - intercept lj v - NativeOriginalCellChartGeometry.slope lj v * y.ofLp 3) +
+        (intercept li v - intercept lj v) +
+      x.ofLp 3 * (NativeOriginalCellChartGeometry.slope li v - NativeOriginalCellChartGeometry.slope lj v)
+htprod :
+  |x.ofLp 3 * (NativeOriginalCellChartGeometry.slope li v - NativeOriginalCellChartGeometry.slope lj v)| ≤
+    672 / ↑(2 ^ c)
+hh :
+  |x.ofLp v.castSucc - intercept li v - NativeOriginalCellChartGeometry.slope li v * x.ofLp 3 -
+            (y.ofLp v.castSucc - intercept lj v - NativeOriginalCellChartGeometry.slope lj v * y.ofLp 3) +
+          (intercept li v - intercept lj v) +
+        x.ofLp 3 * (NativeOriginalCellChartGeometry.slope li v - NativeOriginalCellChartGeometry.slope lj v)| ≤
+    |x.ofLp v.castSucc - intercept li v - NativeOriginalCellChartGeometry.slope li v * x.ofLp 3 -
+            (y.ofLp v.castSucc - intercept lj v - NativeOriginalCellChartGeometry.slope lj v * y.ofLp 3) +
+          (intercept li v - intercept lj v)| +
+      |x.ofLp 3 * (NativeOriginalCellChartGeometry.slope li v - NativeOriginalCellChartGeometry.slope lj v)|
+hh2 :
+  |x.ofLp v.castSucc - intercept li v - NativeOriginalCellChartGeometry.slope li v * x.ofLp 3 -
+          (y.ofLp v.castSucc - intercept lj v - NativeOriginalCellChartGeometry.slope lj v * y.ofLp 3) +
+        (intercept li v - intercept lj v)| ≤
+    |x.ofLp v.castSucc - intercept li v - NativeOriginalCellChartGeometry.slope li v * x.ofLp 3 -
+          (y.ofLp v.castSucc - intercept lj v - NativeOriginalCellChartGeometry.slope lj v * y.ofLp 3)| +
+      |intercept li v - intercept lj v|
+hh3 :
+  |x.ofLp v.castSucc - intercept li v - NativeOriginalCellChartGeometry.slope li v * x.ofLp 3 -
+        (y.ofLp v.castSucc - intercept lj v - NativeOriginalCellChartGeometry.slope lj v * y.ofLp 3)| ≤
+    |x.ofLp v.castSucc - intercept li v - NativeOriginalCellChartGeometry.slope li v * x.ofLp 3| +
+      |y.ofLp v.castSucc - intercept lj v - NativeOriginalCellChartGeometry.slope lj v * y.ofLp 3|
+a✝ :
+  37 * (64 / ↑(2 ^ c)) <
+    |x.ofLp v.castSucc - intercept li v - NativeOriginalCellChartGeometry.slope li v * x.ofLp 3 -
+            (y.ofLp v.castSucc - intercept lj v - NativeOriginalCellChartGeometry.slope lj v * y.ofLp 3) +
+          (intercept li v - intercept lj v) +
+        x.ofLp 3 * (NativeOriginalCellChartGeometry.slope li v - NativeOriginalCellChartGeometry.slope lj v)|
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:873:2: error: 'change' tactic failed, pattern
+  |(frontPoint C 0 N p i k).ofLp 3 - (cellCenter (↑N * C.thickness / 128) (localCellLabel C 0 N p (i, k))).ofLp 3| ≤
+    ?m.254
+is not definitionally equal to target
+  |(cellCenter (↑N * C.thickness / 128) (wzDyadicCellIndex (↑N * C.thickness / 128) (frontPoint C 0 N p i k))).ofLp 3 -
+        (frontPoint C 0 N p i k).ofLp 3| ≤
+    ↑N * C.thickness / 128 / 2
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_remembered_source_construction.lean:1060:6: error: Type mismatch: After simplification, term
+  hXY
+ has type
+  @LE.le ℝ Real.instLE
+    (↑(#(image
+          ((fun z =>
+              coarseXY 2 Rd
+                (pxy D a m 2 p P hP ⋯ ⋯ hd
+                  (fixedField D a m 2 plane
+                    (NativeWeightedGrainQuotientGeometry.retained D a m 2 plane Hgraph P hP ⋯ ⋯ hd
+                      (physicalMesh m (phaseDepth m) / 8))
+                    Fraw)
+                  z.2)) ∘
+            Prod.snd)
+          W)))
+    (257 ^ 4 * 9 ^ 3 * (13 ^ 3) ^ 2 *
+          xyConstant D.thickness zeta population PL PU lambda (G * Cpre * ↑(refinementCost (d + 2) (J + 1) L3)) Qref
+              (NativeSourceSizeBounds.radix (#S) L3) J m ^
+            2 *
+        6 ^ (3 - extremalExponent) *
+      (6 * (64 / ↑(2 ^ depth)) / (↑Rd * mu m)) ^ (3 - extremalExponent))
+but is expected to have type
+  @LE.le ℝ Real.instLE (↑(#(image (fun z => coarseXY 2 Rd (pxy D a m 2 p P hP ⋯ ⋯ hd F z.2.2)) W)))
+    (257 ^ 4 * 9 ^ 3 * (13 ^ 3) ^ 2 * K ^ 2 * 6 ^ (3 - extremalExponent) *
+      (6 * (64 / ↑(2 ^ depth)) / (↑Rd * mu m)) ^ (3 - extremalExponent))
+LEAN_FINISHED_UTC 2026-10-06T20:13:10.790529+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

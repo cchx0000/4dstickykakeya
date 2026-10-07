@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_physical_local_offset_coherence
+set_option autoImplicit false
+#print axioms NativePhysicalLocalOffsetCoherence.actual_local_cell_offset_cap
+#print axioms NativePhysicalLocalOffsetCoherence.select_actual_matrix_offset_menu

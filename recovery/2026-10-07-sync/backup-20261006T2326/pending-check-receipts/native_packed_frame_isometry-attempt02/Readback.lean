@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_packed_frame_isometry
+set_option autoImplicit false
+#print axioms NativePackedFrameIsometry.assemble_norm_sq
+#print axioms NativePackedFrameIsometry.coordinate_energy
+#print axioms NativePackedFrameIsometry.packedMap
+#print axioms NativePackedFrameIsometry.packedMap_norm
+#print axioms NativePackedFrameIsometry.packedIsometry
+#print axioms NativePackedFrameIsometry.frame
+#print axioms NativePackedFrameIsometry.frame_height
+#print axioms NativePackedFrameIsometry.frame_apply_oneTwo
+#print axioms NativePackedFrameIsometry.frame_apply_twoOne

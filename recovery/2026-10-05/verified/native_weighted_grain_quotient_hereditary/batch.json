@@ -1,0 +1,103 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:51:27.088996+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T165126334039",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T165126334039/AggregateReadback.lean"
+  ],
+  "readback_sha256": "596b0f806ebba8130516ec4f002e26fe1756a49dfce299166b9fc17eb1cefb2c",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_slice_all_radii",
+      "source_sha256": "ee8551c7c2dc78032ffb9d151230cc1d00b635f6d56da8f869640788dc8b2aac",
+      "olean_sha256": "62c07fef8b43e6b58eb365127333866ad4f1b9b57136bfe8a32427c5eccebac6",
+      "names": [
+        "NativeReferenceSliceAllRadii.horizontalMesh",
+        "NativeReferenceSliceAllRadii.horizontalMesh_pos",
+        "NativeReferenceSliceAllRadii.horizontalMesh_readback",
+        "NativeReferenceSliceAllRadii.horizontalMesh_outer",
+        "NativeReferenceSliceAllRadii.caller_reference_all_radius_bounds"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_fixed_horizontal_menu",
+      "source_sha256": "9c5d497659e20ae89c0e7167f3848df7843648234e771ef8494b2f663556d706",
+      "olean_sha256": "0b0adb706f814b54aa11631a35f188c078daa9cfb6c3c99e2edfcf752293e09a",
+      "names": [
+        "NativeFixedHorizontalMenu.depths",
+        "NativeFixedHorizontalMenu.depths_zero",
+        "NativeFixedHorizontalMenu.depths_last",
+        "NativeFixedHorizontalMenu.depths_bounds",
+        "NativeFixedHorizontalMenu.depths_monotone",
+        "NativeFixedHorizontalMenu.depths_gap"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_slice_menu_ball_join",
+      "source_sha256": "a1a1eeef4e2748f17c7f00f4cd551591f7064471d05ce7f0244dcb6ce9b3b2ed",
+      "olean_sha256": "32a8e1691122b313e428c8facd3b4b0af98669937369cea03fa0ec85108ae374",
+      "names": [
+        "NativeSliceMenuBallJoin.height_card_le_of_class_bounds",
+        "NativeSliceMenuBallJoin.menu_classes_all_radius"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_reference_horizontal_menu",
+      "source_sha256": "78dacddbd4ad5c4a93bdc96308b3aece38a344d5088d1efa0188fefe91c28f38",
+      "olean_sha256": "ec556899eea509b93e8f405463898b79619e63e25a704e0ddd7dc3d5ca753004",
+      "names": [
+        "NativeReferenceHorizontalMenu.menu_width_window",
+        "NativeReferenceHorizontalMenu.caller_reference_menu_counts"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_fibers",
+      "source_sha256": "0f9d45e3ce73bc6ad631cbdc7fbdde9ad87fd132fe34023ad971aa077bee2a12",
+      "olean_sha256": "16fa93ceadd91a7d754da29ca669da8cc329a6fc3a71a5e7590b458e0f84e60f",
+      "names": [
+        "NativeWeightedGrainQuotientFibers.key",
+        "NativeWeightedGrainQuotientFibers.edgeX",
+        "NativeWeightedGrainQuotientFibers.fullX",
+        "NativeWeightedGrainQuotientFibers.mixed_edgeX_image",
+        "NativeWeightedGrainQuotientFibers.mixed_key_eq",
+        "NativeWeightedGrainQuotientFibers.wholeX_subset_fullX"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_hereditary",
+      "source_sha256": "8f64b9b2a7073dd73365f8c34c8dafc1719fce03f3fcb2e6844a4770c349adc6",
+      "olean_sha256": "5ce7151ba53c70badf2403f3aeed09c73f755c44cfce936d111dd6affd23a17c",
+      "names": [
+        "NativeWeightedGrainQuotientHereditary.subset_wholeFiber_card_le_X",
+        "NativeWeightedGrainQuotientHereditary.edgeX_image_vertices",
+        "NativeWeightedGrainQuotientHereditary.hereditary_vertices_le_X",
+        "NativeWeightedGrainQuotientHereditary.hereditary_X_cross",
+        "NativeWeightedGrainQuotientHereditary.hereditary_mixed_X_subset_fullX"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_weighted_grain_quotient_density",
+      "source_sha256": "0be589ebc3201a5863191a7fa3bd83731bc993c154a822a8480bb646c3f5272d",
+      "olean_sha256": "70fdd3be4fb5376ac3896735a76bf5abb7af8558f5ce57eef9e2e4de89c8b677",
+      "names": [
+        "NativeWeightedGrainQuotientDensity.every_retained_fiber_density",
+        "NativeWeightedGrainQuotientDensity.every_H3_fiber_density",
+        "NativeWeightedGrainQuotientDensity.every_H3_fiber_density_cross"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:51:31.582021+00:00",
+  "exit_code": 0
+}

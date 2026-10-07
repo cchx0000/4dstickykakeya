@@ -1,0 +1,62 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/32a0b6f29577a4d06d641caf271c93e6b4cafbca36f4bcb8d04908a685171d74.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean"]
+SOURCE_SHA256 afad95531b00d10d3b6d6e9e4464bb87670aecdebd7b5ed1e3c1ac2f9c3bb8da
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:36:0: error: automatically included section variable(s) unused in theorem `FiniteCoarseYThresholdSelection.keepLabels_subset`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:41:0: error: automatically included section variable(s) unused in theorem `FiniteCoarseYThresholdSelection.one_fiber_half`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:97:11: error: Invalid `⟨...⟩` notation: The expected type
+  Quot.lift (fun l => a ∈ l) ⋯
+    {a ∈ {a ∈ L | fiber a = u} | theta ≤ ↑(#(image coarseX ({z ∈ {a ∈ L | fiber a = u} | newY z = newY a})))}.val
+is not an inductive type
+
+Note: This notation can only be used when the expected type is an inductive type with a single constructor
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:98:4: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:99:11: error: Tactic `rcases` failed: `a✝ : Quot.lift (fun l => a ∈ l) ⋯
+  {a ∈ {a ∈ L | fiber a = u} |
+      theta ≤ ↑(#(image coarseX ({z ∈ {a ∈ L | fiber a = u} | newY z = newY a})))}.val` is not an inductive datatype
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:151:0: error: automatically included section variable(s) unused in theorem `FiniteCoarseYThresholdSelection.retained_branch_eq`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:214:0: error: automatically included section variable(s) unused in theorem `FiniteCoarseYThresholdSelection.half_labels_weight`:
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:245:0: error: automatically included section variable(s) unused in theorem `FiniteCoarseYThresholdSelection.liftEdges_subset`:
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:248:0: error: automatically included section variable(s) unused in theorem `FiniteCoarseYThresholdSelection.liftEdges_fiber_eq`:
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:258:0: error: automatically included section variable(s) unused in theorem `FiniteCoarseYThresholdSelection.liftEdges_image`:
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_finite_coarse_y_threshold_selection.lean:292:0: error: automatically included section variable(s) unused in theorem `FiniteCoarseYThresholdSelection.original_point_fiber_eq`:
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+
+EXIT_CODE=1

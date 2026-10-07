@@ -1,0 +1,63 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_core",
+  "source": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live/Theorems/Thm_StickyKakeya4_native_retained_slice_core.lean",
+  "source_sha256": "e840f73472b884ed5ed8b47f6ef3910519bf68f06f40ecbf012501bbc2a151ac",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean/Theorems/Thm_StickyKakeya4_native_retained_slice_core.olean",
+  "names": [
+    "NativeRetainedSliceCore.relations",
+    "NativeRetainedSliceCore.refinementCost",
+    "NativeRetainedSliceCore.refinementCost_pos",
+    "NativeRetainedSliceCore.relations_refl",
+    "NativeRetainedSliceCore.relations_symm",
+    "NativeRetainedSliceCore.exists_retained_slice_core",
+    "NativeRetainedSliceCore.exists_retained_slice_counts"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T16:32:04.252739+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "20492a1ec6e987b72e08877d01c02762308c9d7c7dc958beb61323caf1b34022",
+  "source_execution_complete_utc": "2026-10-05T16:32:12.825491+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T164047926585",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeRetainedSliceCore.relations": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedSliceCore.refinementCost": [
+      "propext"
+    ],
+    "NativeRetainedSliceCore.refinementCost_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedSliceCore.relations_refl": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedSliceCore.relations_symm": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedSliceCore.exists_retained_slice_core": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedSliceCore.exists_retained_slice_counts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T16:40:57.147374+00:00"
+}

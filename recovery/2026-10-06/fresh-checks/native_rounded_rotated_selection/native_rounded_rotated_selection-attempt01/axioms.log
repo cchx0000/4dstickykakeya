@@ -1,0 +1,14 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/c30b7fc94b46202fff44dda0b26a4d8c553a1aa700587b6b4b355397d5eda6cc.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_rounded_rotated_selection-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_rounded_rotated_selection-attempt01/Readback.lean"]
+SOURCE_SHA256 2f2b71bcd85066227aa98adbd4ef3db684158b4801938556afe60d833b57f816
+'NativeRoundedRotatedSelection.roundingModulus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRoundedRotatedSelection.roundingModulus_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRoundedRotatedSelection.same_configured_cell_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRoundedRotatedSelection.same_color_same_original_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRoundedRotatedSelection.select_one_configured_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRoundedRotatedSelection.select_finite_menu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRoundedRotatedSelection.select_original_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRoundedRotatedSelection.select_edges_inheriting_predicate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

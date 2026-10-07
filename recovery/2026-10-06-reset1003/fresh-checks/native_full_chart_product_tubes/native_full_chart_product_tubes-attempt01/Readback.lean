@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_full_chart_product_tubes
+set_option autoImplicit false
+#print axioms NativeFullChartProductTubes.scalar_tube_containment
+#print axioms NativeFullChartProductTubes.planar_tube_containment

@@ -1,0 +1,20 @@
+--- a/Thm_StickyKakeya4_native_window_constant_algebra.lean
++++ b/Thm_StickyKakeya4_native_window_constant_algebra.lean
+@@ -30,7 +30,7 @@
+   have hCp : 0 < C := lt_of_lt_of_le (by norm_num) hC
+   have hlow : (lbase/p0)/(A*C^2) ≤ lbase/(C^2*p) := by
+     calc
+-      _ = lbase/(C^2*(A*p0)) := by field_simp; ring
++      _ = lbase/(C^2*(A*p0)) := by field_simp
+       _ ≤ _ := div_le_div_of_nonneg_left hl.le (by positivity)
+         (mul_le_mul_of_nonneg_left hRatio (sq_nonneg C))
+   have hupp : 27*C^3*ubase*p ≤ (27*A*C^3)*(ubase*p0) := by
+@@ -37,7 +37,7 @@
+     calc
+       _ ≤ 27*C^3*ubase*(A*p0) := mul_le_mul_of_nonneg_left hRatio (by positivity)
+       _ = _ := by ring
+-  have hmono := constant_mono (by positivity : 0 < (lbase/p0)/(A*C^2)) hlow hupp
++  have hmono := constant_mono (s:=s) (by positivity : 0 < (lbase/p0)/(A*C^2)) hlow hupp
+     (by positivity : 0 ≤ max 64 x)
+   have hCA : 1 ≤ A*C^2 := one_le_mul_of_one_le_of_one_le hA (one_le_pow₀ hC)
+   have hCC : A*C^2 ≤ 27*A*C^3 := by

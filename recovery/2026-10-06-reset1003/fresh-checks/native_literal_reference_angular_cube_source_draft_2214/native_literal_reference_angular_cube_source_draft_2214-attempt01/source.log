@@ -1,0 +1,187 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1f3b0986d7a15b57f41a1816c32de6e4493c8491b767d620b732f26c3214ce8a.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean"]
+SOURCE_SHA256 ee6c69186acce55bb6c0e8abc13290358d8f354dda85a503e46fdeba24288787
+LOCK_ACQUIRED_UTC 2026-10-06T22:50:41.405152+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:52:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (NativeLocalParentPhysicalMap.physicalMap ?D ?a ?N ?p ?x).ofLp 3
+in the target expression
+  (NativeLocalParentPhysicalMap.physicalMap D a 1 (0, 0) x).ofLp (Fin.last 3) -
+      (NativeLocalParentPhysicalMap.physicalMap D a 1 (0, 0) y).ofLp (Fin.last 3) =
+    (x.ofLp (Fin.last 3) - y.ofLp (Fin.last 3)) / 512
+
+case refine_1
+n : ℕ
+D : FiniteScaleSource n
+a : ℝ
+x y : E4
+v : Fin 4
+⊢ (NativeLocalParentPhysicalMap.physicalMap D a 1 (0, 0) x).ofLp (Fin.last 3) -
+      (NativeLocalParentPhysicalMap.physicalMap D a 1 (0, 0) y).ofLp (Fin.last 3) =
+    (x.ofLp (Fin.last 3) - y.ofLp (Fin.last 3)) / 512
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:69:33: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:92:20: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:93:17: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:93:56: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:94:60: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:97:9: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:102:61: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:106:6: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+R : Finset (Fin n)
+level m : ℕ
+hdy : D.thickness = 2⁻¹ ^ level
+hm : m ≤ level
+E : Finset (Fin n × Index)
+hE : E ⊆ incidences original
+hR : ∀ z ∈ E, z.1 ∈ R
+x : E4
+hBall : ∀ z ∈ E, dist sorry x ≤ 128 / ↑(2 ^ m)
+N : ℕ := 2 ^ m
+e : ℝ := 32 / ↑N
+rep : Parent → Fin n := NativeCoarseDirectionThinning.representative h R a N
+center : E4 := NativeLocalParentPhysicalMap.physicalMap D a 1 (0, 0) x
+hN : 0 < N
+he : 0 < e
+hscale : ↑N * D.thickness ≤ 1
+hmesh : ↑(NativeCoarseDyadicShading.block level m) * D.thickness / 128 = 32 / ↑(2 ^ m)
+z : Fin n × Index
+hz : z ∈ E
+hk : physicalPoint h R a level m z ∈ image (physicalPoint h R a level m) E
+hOrig : z.2 ∈ original z.1
+hRep : parentLabel D a N (rep (parentLabel D a N z.1)) = parentLabel D a N z.1
+v : Fin 4
+hNative : |sorry - x.ofLp v| ≤ 4 * e
+hMove : |(NativeLocalParentPhysicalMap.physicalMap D a 1 (0, 0) sorry).ofLp v - center.ofLp v| ≤ 4 * e / 512
+hTri :
+  |(NativeOriginalPaddedCells.frontPoint D a (0, 0) (rep (parentLabel D a N z.1)) z.2).ofLp v - center.ofLp v| ≤
+    |(NativeOriginalPaddedCells.frontPoint D a (0, 0) (rep (parentLabel D a N z.1)) z.2).ofLp v -
+          (NativeLocalParentPhysicalMap.physicalMap D a 1 (0, 0) sorry).ofLp v| +
+      |(NativeLocalParentPhysicalMap.physicalMap D a 1 (0, 0) sorry).ofLp v - center.ofLp v|
+hProj :
+  |(NativeOriginalPaddedCells.frontPoint D a (0, 0) (rep (parentLabel D a N z.1)) z.2).ofLp v -
+        (NativeLocalParentPhysicalMap.physicalMap D a 1 (0, 0)
+              (NativeOriginalCellChartGeometry.cellCenter (mesh D) z.2)).ofLp
+          v| ≤
+    3 / 2 * e
+a✝ :
+  2 * e < |(NativeOriginalPaddedCells.frontPoint D a (0, 0) (rep (parentLabel D a N z.1)) z.2).ofLp v - center.ofLp v|
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:132:33: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:175:24: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:187:42: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:200:24: error(lean.unknownIdentifier): Unknown identifier `cellCenter`
+
+Note: It is not possible to treat `cellCenter` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:209:4: error(lean.unknownIdentifier): Unknown identifier `conditioned_uniformity`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:214:4: error(lean.unknownIdentifier): Unknown identifier `conditioned_uniformity`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:227:56: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:275:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ?a * ?b / ?c
+in the target expression
+  ↑Nc * (64 / ↑Nf) ≤ 64
+
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+Nc Nf : ℕ
+hNc : 0 < Nc
+hNf : 0 < Nf
+hcf : Nc ≤ Nf
+hscale : ↑Nc * D.thickness ≤ 1
+i j : Fin n
+k l : Index
+hk : k ∈ original i
+hl : l ∈ original j
+center : E4
+hkBall : dist (cellCenter (mesh D) k) center ≤ 128 / ↑Nf
+hlBall : dist (cellCenter (mesh D) l) center ≤ 128 / ↑Nf
+hAngle : (parentLabel D a Nc i).1 = (parentLabel D a Nc j).1
+v : Fin 3
+x : ShearBinFibers.Point := ShearBinFibers.oldCenter (mesh D / 4) (chartIndex (shift D a) k)
+y : ShearBinFibers.Point := ShearBinFibers.oldCenter (mesh D / 4) (chartIndex (shift D a) l)
+rho : ℝ := 64 / ↑Nf
+si : ℝ := NativeOriginalCellChartGeometry.slope (D.line i) v
+sj : ℝ := NativeOriginalCellChartGeometry.slope (D.line j) v
+bi : ℝ := shiftedIntercept (D.line i) (mesh D) (shift D a) v
+bj : ℝ := shiftedIntercept (D.line j) (mesh D) (shift D a) v
+hNr : 0 < ↑Nc
+hFr : 0 < ↑Nf
+⊢ ↑Nc * (64 / ↑Nf) ≤ 64
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:282:4: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+Nc Nf : ℕ
+hNc : 0 < Nc
+hNf : 0 < Nf
+hcf : Nc ≤ Nf
+hscale : ↑Nc * D.thickness ≤ 1
+i j : Fin n
+k l : Index
+hk : k ∈ original i
+hl : l ∈ original j
+center : E4
+hkBall : dist (cellCenter (mesh D) k) center ≤ 128 / ↑Nf
+hlBall : dist (cellCenter (mesh D) l) center ≤ 128 / ↑Nf
+hAngle : (parentLabel D a Nc i).1 = (parentLabel D a Nc j).1
+v : Fin 3
+x : ShearBinFibers.Point := ShearBinFibers.oldCenter (mesh D / 4) (chartIndex (shift D a) k)
+y : ShearBinFibers.Point := ShearBinFibers.oldCenter (mesh D / 4) (chartIndex (shift D a) l)
+rho : ℝ := 64 / ↑Nf
+si : ℝ := NativeOriginalCellChartGeometry.slope (D.line i) v
+sj : ℝ := NativeOriginalCellChartGeometry.slope (D.line j) v
+bi : ℝ := shiftedIntercept (D.line i) (mesh D) (shift D a) v
+bj : ℝ := shiftedIntercept (D.line j) (mesh D) (shift D a) v
+hNr : 0 < ↑Nc
+hFr : 0 < ↑Nf
+hNcRho : ↑Nc * rho ≤ 64
+hh :
+  dist (cellCenter (mesh D) k) (cellCenter (mesh D) l) ≤
+    dist (cellCenter (mesh D) k) center + dist (cellCenter (mesh D) l) center
+a✝ : 256 / ↑Nf < dist (cellCenter (mesh D) k) (cellCenter (mesh D) l)
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:310:4: error(lean.unknownIdentifier): Unknown identifier `same_floor_mul_close`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:407:8: error: declaration uses `sorry`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:475:2: error: 'change' tactic failed, pattern
+  ⌊↑M * (1 * NativeOriginalCellChartGeometry.slope (D.line i) v - 0) / 8⌋ =
+    ⌊↑M * NativeOriginalCellChartGeometry.slope (D.line i) v⌋ / 8
+is not definitionally equal to target
+  angularCell D 1 M (0, 0) i v = (parentLabel D a M i).1 v / 8
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_literal_reference_angular_cube_source_draft_2214.lean:542:4: error: Type mismatch
+  hh
+has type
+  ↑(#(image (fun z => parentLabel D ref.a (2 ^ ↑(ref.schedule j)) z.1) E)) ≤
+    137746087133775575625 * ↑(coreRadix ref.original ref.R L) ^ 4 * D.thickness ^ (-tau) *
+      (64 / ↑(2 ^ ↑(ref.schedule j)) / (64 / ↑(2 ^ ↑(ref.schedule i)))) ^
+        (-NativeFixedCompactKakeyaExponent.extremalExponent)
+but is expected to have type
+  ↑(#(image (fun z => parentLabel D ref.a (2 ^ ↑(ref.schedule j)) z.1) E)) ≤
+    625 * ↑(393 ^ 3) * ↑(1537 ^ 3) * ↑(coreRadix ref.original ref.R L) ^ 4 * D.thickness ^ (-tau) *
+      (64 / ↑(2 ^ ↑(ref.schedule j)) / (64 / ↑(2 ^ ↑(ref.schedule i)))) ^
+        (-NativeFixedCompactKakeyaExponent.extremalExponent)
+LEAN_FINISHED_UTC 2026-10-06T22:51:32.782644+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

@@ -1,0 +1,66 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-06T17:35:20.587461+00:00",
+  "modules": [
+    "Theorems.Thm_StickyKakeya4_native_actual_profile_coarse_admission",
+    "Theorems.Thm_StickyKakeya4_native_actual_configured_cell_selection",
+    "Theorems.Thm_StickyKakeya4_native_configured_output_pairs",
+    "Theorems.Thm_StickyKakeya4_native_actual_configured_height_caps"
+  ],
+  "names": [
+    "NativeActualProfileCoarseAdmission.exists_same_reference_admission_of_actual_profile",
+    "NativeActualConfiguredCellSelection.select_actual_edges",
+    "NativeConfiguredIncidenceFibers.localIndex",
+    "NativeConfiguredIncidenceFibers.localIndex_readback",
+    "NativeConfiguredIncidenceFibers.outputTube",
+    "NativeConfiguredIncidenceFibers.outputTube_readback",
+    "NativeConfiguredIncidenceFibers.outputTube_eq_iff",
+    "NativeConfiguredIncidenceFibers.outputPair_eq_iff",
+    "NativeConfiguredIncidenceFibers.outputPair_image_card",
+    "NativeConfiguredIncidenceFibers.outputPair_fiber_eq",
+    "NativeConfiguredIncidenceFibers.outputTube_ancestor_readback",
+    "NativeActualConfiguredHeightCaps.actual_height_image",
+    "NativeActualConfiguredHeightCaps.actual_height_separation",
+    "NativeActualConfiguredHeightCaps.actual_height_interval_cap"
+  ],
+  "command": [
+    "python",
+    "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1735.lock",
+    "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1735",
+    "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1735/Readback.lean"
+  ],
+  "canonical_project_fallback_removed": true,
+  "lean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Cli/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/batteries/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/Qq/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/aesop/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/plausible/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/shared/lean-dependency-warmup-20261006-reset1003/.lake/packages/LeanFormalizations/.lake/build/lib/lean:/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/lib/lean",
+  "scope": "Fresh independent imported axiom gate after separate strict source compilations; frozen hashes checked before and after",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T17:38:05.159180+00:00",
+  "results": [
+    {
+      "attempt": "native_actual_profile_coarse_admission-attempt01",
+      "state": "passed",
+      "declarations": 1
+    },
+    {
+      "attempt": "native_actual_configured_cell_selection-attempt02",
+      "state": "passed",
+      "declarations": 1
+    },
+    {
+      "attempt": "native_configured_output_pairs-attempt01",
+      "state": "passed",
+      "declarations": 9
+    },
+    {
+      "attempt": "native_actual_configured_height_caps-attempt01",
+      "state": "passed",
+      "declarations": 3
+    }
+  ]
+}

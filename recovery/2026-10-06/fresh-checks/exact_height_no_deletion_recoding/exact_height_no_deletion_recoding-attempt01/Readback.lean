@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_exact_height_no_deletion_recoding
+set_option autoImplicit false
+#print axioms ExactHeightNoDeletionRecoding.coarsenLabel
+#print axioms ExactHeightNoDeletionRecoding.actualLabel
+#print axioms ExactHeightNoDeletionRecoding.recodedY_zero
+#print axioms ExactHeightNoDeletionRecoding.newY_eq_oldY
+#print axioms ExactHeightNoDeletionRecoding.actualLabel_eq_coarsenLabel
+#print axioms ExactHeightNoDeletionRecoding.old_fiber_maps_into_one_Y
+#print axioms ExactHeightNoDeletionRecoding.old_fiber_coarseX_lower
+#print axioms ExactHeightNoDeletionRecoding.exact_support
+#print axioms ExactHeightNoDeletionRecoding.newY_coarseX_lower
+#print axioms ExactHeightNoDeletionRecoding.taggedEdges
+#print axioms ExactHeightNoDeletionRecoding.taggedEdges_card
+#print axioms ExactHeightNoDeletionRecoding.taggedEdges_projection
+#print axioms ExactHeightNoDeletionRecoding.tagged_point_fiber
+#print axioms ExactHeightNoDeletionRecoding.actual_no_deletion_recoding

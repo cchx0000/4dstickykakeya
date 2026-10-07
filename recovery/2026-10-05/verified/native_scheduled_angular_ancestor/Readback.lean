@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_scheduled_angular_ancestor
+
+#print axioms NativeScheduledAngularAncestor.formal_uniformity_readback
+#print axioms NativeScheduledAngularAncestor.exists_actual_angular_ancestor

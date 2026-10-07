@@ -1,0 +1,50 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_sharp_parent_graph_data",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_sharp_parent_graph_data.lean",
+  "source_sha256": "bc87ca32e1c60e081ca6c0e424e02b058e8724ab6391b2b1114f69f2472f44f8",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_sharp_parent_graph_data.olean",
+  "names": [
+    "NativeSharpParentGraphData.HasParentHeightCore",
+    "NativeSharpParentGraphData.HasSharpCurveParentProfiles",
+    "NativeSharpParentGraphData.attach_sharp_parent_graph",
+    "NativeSharpParentGraphData.sharp_curve_parent_profiles_forget"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T17:37:10.358252+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "5a93051be972cab7aeed72af7bd07cbac7a40082e49d6e07954030968e98fb9b",
+  "source_execution_complete_utc": "2026-10-05T17:37:28.710043+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T174858706998",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeSharpParentGraphData.HasParentHeightCore": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphData.HasSharpCurveParentProfiles": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphData.attach_sharp_parent_graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSharpParentGraphData.sharp_curve_parent_profiles_forget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T17:49:04.294225+00:00"
+}

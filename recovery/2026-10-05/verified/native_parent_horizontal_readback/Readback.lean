@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_parent_horizontal_readback
+
+#print axioms NativeParentHorizontalReadback.local_slope_difference
+#print axioms NativeParentHorizontalReadback.physical_map_horizontal_difference
+#print axioms NativeParentHorizontalReadback.physical_map_horizontal_infDist

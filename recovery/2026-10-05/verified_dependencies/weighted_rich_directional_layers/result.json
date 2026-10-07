@@ -1,0 +1,157 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_weighted_rich_directional_layers",
+  "source": "/workspace/shared/sticky-recovery-20261005/packet-prerequisites/live/Theorems/Thm_StickyKakeya4_weighted_rich_directional_layers.lean",
+  "source_sha256": "afd4a9a1a50f32c80fa28c7f6f341948f4f9c44c409d94315563d5c199957d6e",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/packet-prerequisites/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/packet-prerequisites/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/packet-prerequisites/olean/Theorems/Thm_StickyKakeya4_weighted_rich_directional_layers.olean",
+  "names": [
+    "WeightedRichDirectionalLayers.mass",
+    "WeightedRichDirectionalLayers.mass_mono",
+    "WeightedRichDirectionalLayers.mass_partition",
+    "WeightedRichDirectionalLayers.weightedRestriction",
+    "WeightedRichDirectionalLayers.weightedRestriction_subset",
+    "WeightedRichDirectionalLayers.weightedRestriction_predecessors",
+    "WeightedRichDirectionalLayers.weightedRestriction_mass_loss",
+    "WeightedRichDirectionalLayers.weightedLayers",
+    "WeightedRichDirectionalLayers.weightedLayers_zero",
+    "WeightedRichDirectionalLayers.weightedLayers_succ",
+    "WeightedRichDirectionalLayers.weightedLayers_step_subset",
+    "WeightedRichDirectionalLayers.weightedLayers_subset_start",
+    "WeightedRichDirectionalLayers.weightedLayers_predecessors",
+    "WeightedRichDirectionalLayers.weightedLayers_mass_loss",
+    "WeightedRichDirectionalLayers.active_column_count",
+    "WeightedRichDirectionalLayers.construct_weightedLayers",
+    "WeightedRichDirectionalLayers.mass_le_image_card_mul",
+    "WeightedRichDirectionalLayers.geometric_classFiber_eq",
+    "WeightedRichDirectionalLayers.image_geometric_classFiber",
+    "WeightedRichDirectionalLayers.weighted_predecessor_vertices",
+    "WeightedRichDirectionalLayers.positive_predecessor_ceiling",
+    "WeightedRichDirectionalLayers.construct_weighted_independent_grains"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T11:45:22.638860+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "70c98620ca461e00a375fc4ccd565a011b95b75a822a47c2d3922048f58e1224",
+  "source_execution_complete_utc": "2026-10-05T11:56:52.767322+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T115728926894",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "WeightedRichDirectionalLayers.mass": [
+      "propext",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.mass_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.mass_partition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedRestriction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedRestriction_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedRestriction_predecessors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedRestriction_mass_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedLayers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedLayers_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedLayers_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedLayers_step_subset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedLayers_subset_start": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedLayers_predecessors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weightedLayers_mass_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.active_column_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.construct_weightedLayers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.mass_le_image_card_mul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.geometric_classFiber_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.image_geometric_classFiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.weighted_predecessor_vertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.positive_predecessor_ceiling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "WeightedRichDirectionalLayers.construct_weighted_independent_grains": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:05:40.068136+00:00"
+}

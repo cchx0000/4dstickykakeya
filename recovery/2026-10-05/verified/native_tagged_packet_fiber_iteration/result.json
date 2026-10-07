@@ -1,0 +1,86 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_tagged_packet_fiber_iteration",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_tagged_packet_fiber_iteration.lean",
+  "source_sha256": "3572b015665772fc2860379b6b5a22fdd65fa467d4bf3644e46b9dcbb6a6257b",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_tagged_packet_fiber_iteration.olean",
+  "names": [
+    "NativeTaggedPacketFiberIteration.nodeVertices",
+    "NativeTaggedPacketFiberIteration.layers",
+    "NativeTaggedPacketFiberIteration.fixed_node_cap",
+    "NativeTaggedPacketFiberIteration.packet_predecessor_geometry",
+    "NativeTaggedPacketFiberIteration.step_vertex_count",
+    "NativeTaggedPacketFiberIteration.node_vertex_predecessors",
+    "NativeTaggedPacketFiberIteration.node_minimum_lower",
+    "NativeTaggedPacketFiberIteration.layers_antitone",
+    "NativeTaggedPacketFiberIteration.nodeVertices_mono",
+    "NativeTaggedPacketFiberIteration.actual_chain_lower_bound"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:57:26.813082+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "26386eec8b5fd904faceb3e496264fce63519c869b6f7c2b4c7b513a2dba6fe8",
+  "source_execution_complete_utc": "2026-10-05T13:05:07.401302+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T131259474030",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeTaggedPacketFiberIteration.nodeVertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedPacketFiberIteration.layers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedPacketFiberIteration.fixed_node_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedPacketFiberIteration.packet_predecessor_geometry": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedPacketFiberIteration.step_vertex_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedPacketFiberIteration.node_vertex_predecessors": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedPacketFiberIteration.node_minimum_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedPacketFiberIteration.layers_antitone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedPacketFiberIteration.nodeVertices_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTaggedPacketFiberIteration.actual_chain_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T13:19:05.405676+00:00"
+}

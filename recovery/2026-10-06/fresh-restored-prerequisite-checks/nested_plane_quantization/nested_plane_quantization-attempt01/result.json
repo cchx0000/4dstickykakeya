@@ -1,0 +1,297 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_nested_plane_quantization",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_nested_plane_quantization.lean",
+  "source_sha256": "30b4d84bd0ecaff9009cbf5163cd022a69371a565c60bc08c76e3a22e1c9e45a",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_nested_plane_quantization.olean",
+  "names": [
+    "NestedPlaneQuantization.H",
+    "NestedPlaneQuantization.inverse",
+    "NestedPlaneQuantization.inverse_H",
+    "NestedPlaneQuantization.H_inverse",
+    "NestedPlaneQuantization.coordinateEquiv",
+    "NestedPlaneQuantization.H_injective",
+    "NestedPlaneQuantization.correctedSlope",
+    "NestedPlaneQuantization.oldPoint",
+    "NestedPlaneQuantization.parameters",
+    "NestedPlaneQuantization.lower_representation",
+    "NestedPlaneQuantization.higher_representation",
+    "NestedPlaneQuantization.correction_difference",
+    "NestedPlaneQuantization.correction_distance",
+    "NestedPlaneQuantization.coefficientCost",
+    "NestedPlaneQuantization.coefficientCost_nonneg",
+    "NestedPlaneQuantization.H_dist_le",
+    "NestedPlaneQuantization.realize",
+    "NestedPlaneQuantization.quantizedIndex",
+    "NestedPlaneQuantization.snap",
+    "NestedPlaneQuantization.quantized",
+    "NestedPlaneQuantization.snap_dist_lt",
+    "NestedPlaneQuantization.quantized_movement",
+    "NestedPlaneQuantization.coefficientCost_le_five",
+    "NestedPlaneQuantization.quantized_movement_bounded",
+    "NestedPlaneQuantization.quantized_representations",
+    "NestedPlaneQuantization.constant_grain_labels",
+    "NestedPlaneQuantization.quantizePoint",
+    "NestedPlaneQuantization.quantizePoint_movement",
+    "NestedPlaneQuantization.quantizePoint_higher_quotient",
+    "NestedPlaneQuantization.quantizePoint_quotient_witness",
+    "NestedPlaneQuantization.constant_quotient_difference",
+    "NestedPlaneQuantization.constant_quotient_error",
+    "NestedPlaneQuantization.noisy_constant_grain_movement",
+    "NestedPlaneQuantization.residue_separation",
+    "NestedPlaneQuantization.weighted_quantized_selection",
+    "NestedPlaneQuantization.bottomHalf",
+    "NestedPlaneQuantization.bottomHalf_injective",
+    "NestedPlaneQuantization.bottomHalf_H",
+    "NestedPlaneQuantization.correctedSlope_half",
+    "NestedPlaneQuantization.bottomHalf_oldPoint",
+    "NestedPlaneQuantization.normalized_coefficients",
+    "NestedPlaneQuantization.bottomHalf_dist_le",
+    "NestedPlaneQuantization.dist_le_two_bottomHalf",
+    "NestedPlaneQuantization.contracted_quantized_movement",
+    "NestedPlaneQuantization.constant_quantized_quotient_witness",
+    "NestedPlaneQuantization.quantizePoint_representations"
+  ],
+  "started_utc": "2026-10-06T09:34:12.553335+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "47871698fa37bc85877cc08de29c8f11c08c7e2d684a858458c660872b8da1fa",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NestedPlaneQuantization.H": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.inverse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.inverse_H": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.H_inverse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.coordinateEquiv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.H_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.correctedSlope": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.oldPoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.lower_representation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.higher_representation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.correction_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.correction_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.coefficientCost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.coefficientCost_nonneg": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.H_dist_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.realize": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantizedIndex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.snap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantized": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.snap_dist_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantized_movement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.coefficientCost_le_five": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantized_movement_bounded": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantized_representations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.constant_grain_labels": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantizePoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantizePoint_movement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantizePoint_higher_quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantizePoint_quotient_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.constant_quotient_difference": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.constant_quotient_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.noisy_constant_grain_movement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.residue_separation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.weighted_quantized_selection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.bottomHalf": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.bottomHalf_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.bottomHalf_H": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.correctedSlope_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.bottomHalf_oldPoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.normalized_coefficients": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.bottomHalf_dist_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.dist_le_two_bottomHalf": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.contracted_quantized_movement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.constant_quantized_quotient_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NestedPlaneQuantization.quantizePoint_representations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T09:36:12.447708+00:00"
+}

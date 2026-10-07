@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_grain_ad
+
+#print axioms NativeRetainedSliceGrainAD.retained_slice_ADBounds
+#print axioms NativeRetainedSliceGrainAD.exists_actual_slice_grain_AD

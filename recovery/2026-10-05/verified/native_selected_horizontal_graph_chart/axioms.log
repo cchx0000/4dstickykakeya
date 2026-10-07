@@ -1,0 +1,43 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T154033020820", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T154033020820/AggregateReadback.lean"]
+READBACK_SHA256 05e40e3ee745c3bd05b0406d41b6b7be5cffd6ad0dd79414e2111a87340bb21e
+Dedicated staging slot 3 acquired UTC: 2026-10-05T15:40:33.811679+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8792340 kB
+'NativeProjectorGraphMap.graphMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.graphMap_characterization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.graphMap_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.graphMap_horizontal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.graphMap_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.graphMap_val' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.graphMap_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.inverse_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.inverse_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.projectionEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.projectionEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.projectionMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeProjectorGraphMap.projectionMap_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSelectedHorizontalGraphChart.select_horizontal_graph_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSelectedHorizontalGraphChart.totalGraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSelectedHorizontalGraphChart.totalGraph_characterization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSelectedHorizontalGraphChart.totalGraph_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSelectedHorizontalGraphChart.totalGraph_horizontal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSelectedHorizontalGraphChart.totalGraph_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSelectedHorizontalGraphChart.totalGraph_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedHeightNodeSelection.cutByNodes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedHeightNodeSelection.mem_cutByNodes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedHeightNodeSelection.surviving_grain_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedHeightNodeSelection.surviving_grain_label_fiber_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWeightedHeightNodeSelection.surviving_grain_weight_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedHeightNodeSelection.weighted_height_node_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeWeightedHeightNodeSelection.weighted_height_node_selection_nonempty' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

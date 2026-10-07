@@ -1,0 +1,20 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T094626557434", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T094626557434/AggregateReadback.lean"]
+READBACK_SHA256 246cfefe81fc6f6ae42d1d174d0bf0d85dc923c24167319d41e3d30528056e87
+FIFO compiler ticket: 01791194114002988387-33e0e38cb9694167bcb0a0d2f074ae9e.request
+FIFO compiler acquired UTC: 2026-10-05T09:55:14.004116+00:00
+'NativeRankExponentHierarchy.adjacent_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.commonBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.commonBudget_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.cutoff_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.cutoff_mul_rankLoss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.rankLoss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.rankLoss_le_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.rankLoss_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.rank_one_power_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankExponentHierarchy.test_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankOneExcludedFromSourceCost.exists_actual_rank_one_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

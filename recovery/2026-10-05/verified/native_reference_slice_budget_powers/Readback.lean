@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_reference_slice_budget_powers
+
+#print axioms NativeReferenceSliceBudgetPowers.rank_history_power
+#print axioms NativeReferenceSliceBudgetPowers.squared_grain_power
+#print axioms NativeReferenceSliceBudgetPowers.reference_ad_constant_eq
+#print axioms NativeReferenceSliceBudgetPowers.sourceConstant
+#print axioms NativeReferenceSliceBudgetPowers.sourceConstant_one_le

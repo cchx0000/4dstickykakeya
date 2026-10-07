@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_rank_plane_tube_support
+
+#print axioms NativeRankPlaneTubeSupport.direction_eq_height_slopeVector
+#print axioms NativeRankPlaneTubeSupport.tube_displacement_near_plane
+#print axioms NativeRankPlaneTubeSupport.original_incident_tube_near_plane

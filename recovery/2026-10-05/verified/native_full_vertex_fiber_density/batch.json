@@ -1,0 +1,68 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T12:35:16.246739+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T123513278205",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T123513278205/AggregateReadback.lean"
+  ],
+  "readback_sha256": "9e92d3b662a654ff9bf74ac0a5157845451a5507f820d2d09156a43e19e437d6",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_queried_vertex_weights",
+      "source_sha256": "ff9c2e8ceef68ff16e36b657a76a01c12fb5f9d5d5c4805183298bc3e40ab9c2",
+      "olean_sha256": "05b03e7a49e5161e1468f42731733d7ab7813c2a7a0381cbecdc1e7aa100abb7",
+      "names": [
+        "NativeQueriedVertexWeights.pointWeight",
+        "NativeQueriedVertexWeights.vertices",
+        "NativeQueriedVertexWeights.vertexMultiplicity",
+        "NativeQueriedVertexWeights.vertexCap",
+        "NativeQueriedVertexWeights.mass_pointWeight",
+        "NativeQueriedVertexWeights.reference_mass",
+        "NativeQueriedVertexWeights.vertex_mass_eq",
+        "NativeQueriedVertexWeights.vertex_upper_cross",
+        "NativeQueriedVertexWeights.vertex_lower_cross",
+        "NativeQueriedVertexWeights.vertex_mass_bounds",
+        "NativeQueriedVertexWeights.vertex_mass_le_cap",
+        "NativeQueriedVertexWeights.vertexCap_pos",
+        "NativeQueriedVertexWeights.vertexCap_le_average",
+        "NativeQueriedVertexWeights.mass_le_vertices_mul_cap",
+        "NativeQueriedVertexWeights.weighted_approximate_predecessor_vertices",
+        "NativeQueriedVertexWeights.center_injective",
+        "NativeQueriedVertexWeights.embedded_vertex_cap",
+        "NativeQueriedVertexWeights.weighted_predecessor_vertices",
+        "NativeQueriedVertexWeights.queried_vertex_mass_bounds",
+        "NativeQueriedVertexWeights.squared_grain_width"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_full_vertex_fiber_density",
+      "source_sha256": "3beba3eed0493ef5bacecaa855550ea696eff844bc58e7a182bb08ddb876f323",
+      "olean_sha256": "706b789a571643254492778919cf8518da6e9db835931935dab2fa252f14260e",
+      "names": [
+        "NativeFullVertexFiberDensity.cap_le_vertex_mass",
+        "NativeFullVertexFiberDensity.full_vertex_fiber_mass",
+        "NativeFullVertexFiberDensity.full_vertex_fibers_lower",
+        "NativeFullVertexFiberDensity.short_closure_image",
+        "NativeFullVertexFiberDensity.anchor_mem_short_closure",
+        "NativeFullVertexFiberDensity.short_children_le_vertices",
+        "NativeFullVertexFiberDensity.short_closure_weight_cross",
+        "NativeFullVertexFiberDensity.vertex_lift_cost",
+        "NativeFullVertexFiberDensity.queried_short_closure_lower"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T12:42:08.933932+00:00",
+  "exit_code": 0
+}

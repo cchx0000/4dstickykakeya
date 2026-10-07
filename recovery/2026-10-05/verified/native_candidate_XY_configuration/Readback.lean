@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_candidate_XY_configuration
+
+#print axioms NativeCandidateXYConfiguration.exists_candidate_XY_configuration

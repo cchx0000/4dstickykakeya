@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_generic_XY_rank
+
+#print axioms NativeGenericXYRank.HasXYRankSelection
+#print axioms NativeGenericXYRank.xy_rank_of_graph

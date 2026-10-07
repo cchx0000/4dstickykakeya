@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_V_L_contact_identity
+set_option autoImplicit false
+#print axioms NativeVLContactIdentity.v_identity
+#print axioms NativeVLContactIdentity.v_residual
+#print axioms NativeVLContactIdentity.terminal_identity
+#print axioms NativeVLContactIdentity.terminal_residual
+#print axioms NativeVLContactIdentity.l_residual_of_v

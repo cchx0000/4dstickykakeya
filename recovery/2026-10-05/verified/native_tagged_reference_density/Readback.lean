@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_tagged_reference_density
+
+#print axioms NativeTaggedReferenceDensity.tagWeight
+#print axioms NativeTaggedReferenceDensity.tag_mass
+#print axioms NativeTaggedReferenceDensity.reference_mass_le
+#print axioms NativeTaggedReferenceDensity.reference_vertex_cap
+#print axioms NativeTaggedReferenceDensity.tagged_packet_mass_ge_closure
+#print axioms NativeTaggedReferenceDensity.queried_tagged_packet_lower

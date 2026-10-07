@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_finest_Y_output_budget
+set_option autoImplicit false
+#print axioms NativeFinestYOutputBudget.coarsening_constant_le
+#print axioms NativeFinestYOutputBudget.source_cost_at_output
+#print axioms NativeFinestYOutputBudget.exists_finest_Y_output_cutoff

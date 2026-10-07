@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_raw_shadow_point_comparison
+
+#print axioms NativeRawShadowPointComparison.same_shadow_coordinate_close
+#print axioms NativeRawShadowPointComparison.shadow_spatial_image_card
+#print axioms NativeRawShadowPointComparison.point_image_card_comparison
+#print axioms NativeRawShadowPointComparison.same_R_point_image_card_comparison

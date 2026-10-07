@@ -1,0 +1,10 @@
+import Theorems.Thm_StickyKakeya4_native_local_admission_budget
+set_option autoImplicit false
+#print axioms NativeLocalAdmissionBudget.incidenceConstant
+#print axioms NativeLocalAdmissionBudget.incidenceConstant_pos
+#print axioms NativeLocalAdmissionBudget.original_incidence_card_upper
+#print axioms NativeLocalAdmissionBudget.retained_radix_sq_upper
+#print axioms NativeLocalAdmissionBudget.pay_power
+#print axioms NativeLocalAdmissionBudget.densityCoefficient
+#print axioms NativeLocalAdmissionBudget.densityCoefficient_nonneg
+#print axioms NativeLocalAdmissionBudget.exists_uniform_source_budget

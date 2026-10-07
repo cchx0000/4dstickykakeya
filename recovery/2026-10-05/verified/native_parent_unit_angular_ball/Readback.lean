@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_parent_unit_angular_ball
+
+#print axioms NativeParentUnitAngularBall.center
+#print axioms NativeParentUnitAngularBall.localSlope_in_unit_ball

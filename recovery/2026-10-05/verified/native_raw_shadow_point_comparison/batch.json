@@ -1,0 +1,75 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T13:05:18.200123+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T130516538645",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T130516538645/AggregateReadback.lean"
+  ],
+  "readback_sha256": "7ba85e1f32d7d8b42b9b9f302f920c6c9bafe79c7883aa18aadb417ace9c6686",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_compatible_node_directions",
+      "source_sha256": "6ed7d50ea8200630927d4e20b28273ab4c7f2ea095da110c1663b190e14cb705",
+      "olean_sha256": "961c96207e069c5794c74bb04301a9ee4386d7f3d6e2be5ae447d6247a654125",
+      "names": [
+        "NativeCompatibleNodeDirections.nodes",
+        "NativeCompatibleNodeDirections.IsNodeDirectionSystem",
+        "NativeCompatibleNodeDirections.angular_ofFn_coordinate",
+        "NativeCompatibleNodeDirections.terminal_fixed_tuple",
+        "NativeCompatibleNodeDirections.projected_word_global",
+        "NativeCompatibleNodeDirections.exists_node_word",
+        "NativeCompatibleNodeDirections.exists_node_direction_system",
+        "NativeCompatibleNodeDirections.node_direction_system_mono",
+        "NativeCompatibleNodeDirections.stageDirectionIndex",
+        "NativeCompatibleNodeDirections.stageAnchorIndex",
+        "NativeCompatibleNodeDirections.stage_direction_readback",
+        "NativeCompatibleNodeDirections.stage_anchor_readback",
+        "NativeCompatibleNodeDirections.stage_direction_bounds",
+        "NativeCompatibleNodeDirections.stage_index_readback",
+        "NativeCompatibleNodeDirections.natStageDirectionIndex",
+        "NativeCompatibleNodeDirections.natStageAnchorIndex",
+        "NativeCompatibleNodeDirections.nat_stage_index_readback",
+        "NativeCompatibleNodeDirections.nat_stage_anchor_readback",
+        "NativeCompatibleNodeDirections.exists_scheduled_node_directions"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_raw_shadow_point_comparison",
+      "source_sha256": "c3f6f3c86a6a9638c66ab96ac1fbd7f1f7629f84970ceba90bc6c0aa4f991cec",
+      "olean_sha256": "055fd950373662e7a0c5136da155ee65bb06a28a9c8a81175848fa6ad7f67be4",
+      "names": [
+        "NativeRawShadowPointComparison.same_shadow_coordinate_close",
+        "NativeRawShadowPointComparison.shadow_spatial_image_card",
+        "NativeRawShadowPointComparison.point_image_card_comparison",
+        "NativeRawShadowPointComparison.same_R_point_image_card_comparison"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_tagged_reference_density",
+      "source_sha256": "a854e7d392c6b13960ba089817db759576c940e5f49e27685f9c357eb0ab0f23",
+      "olean_sha256": "04e440ef71d7eda5c7ce85becb064dbf4d41ded57e30fa444dec01cffef1cfbf",
+      "names": [
+        "NativeTaggedReferenceDensity.tagWeight",
+        "NativeTaggedReferenceDensity.tag_mass",
+        "NativeTaggedReferenceDensity.reference_mass_le",
+        "NativeTaggedReferenceDensity.reference_vertex_cap",
+        "NativeTaggedReferenceDensity.tagged_packet_mass_ge_closure",
+        "NativeTaggedReferenceDensity.queried_tagged_packet_lower"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T13:09:30.665207+00:00",
+  "exit_code": 0
+}

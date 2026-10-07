@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_local_direction_tube_support
+
+#print axioms NativeLocalDirectionTubeSupport.tube_local_displacement_near_plane
+#print axioms NativeLocalDirectionTubeSupport.original_local_quadratic_packet

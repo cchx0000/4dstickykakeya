@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_full_reference_chart_AD
+set_option autoImplicit false
+#print axioms NativeFullReferenceChartAD.chart_ball_counts
+#print axioms NativeFullReferenceChartAD.full_source_chart_bounds

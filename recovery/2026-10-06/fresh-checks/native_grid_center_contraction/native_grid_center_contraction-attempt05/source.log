@@ -1,0 +1,34 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/f5019c9956830e4adbf73dccf92a96dfe86f1b5e1b2bc655ce436379123cb4a4.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean"]
+SOURCE_SHA256 a7fd2d144d707ffd6766317cd755fb31640f7e71e634c77224ac26c5a3dae50c
+LOCK_ACQUIRED_UTC 2026-10-06T08:34:18.300258+00:00
+SHARED_SLOT 3
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_grid_center_contraction.lean:40:2: error: Tactic `apply` failed: could not unify the conclusion of `@ext`
+  ?s₁ = ?s₂
+with the goal
+  pseudoMetricSpacePi = metricSpacePi.toPseudoMetricSpace
+
+Note: The full type of `@ext` is
+  ∀ {α : Type ?u.133} {s₁ s₂ : Finset α}, (∀ (a : α), a ∈ s₁ ↔ a ∈ s₂) → s₁ = s₂
+
+case e'_2
+l : ℕ
+P : Finset (Fin l → ℤ)
+mu C K G s : ℝ
+hmu : 0 < mu
+hmu1 : mu ≤ 1
+hC : 1 ≤ C
+hK : 0 < K
+hs : 0 ≤ s
+H : ADBounds (image (center mu) P) mu K s
+Hglobal : ↑(#P) ≤ G * mu ^ (-s)
+hCp : 0 < C
+f : (Fin l → ℝ) → Fin l → ℝ := fun x => (1 / C) • x
+hf : Function.Injective f
+hd : ∀ (x y : Fin l → ℝ), dist (f x) (f y) = dist x y / C
+hg : ↑(#(image (center mu) P)) ≤ G * mu ^ (-s)
+hh : ADBounds (image f (image (center mu) P)) (mu / C) (C ^ s * max K G) s
+⊢ pseudoMetricSpacePi = metricSpacePi.toPseudoMetricSpace
+LEAN_FINISHED_UTC 2026-10-06T08:38:47.856666+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

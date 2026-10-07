@@ -1,0 +1,71 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:04:22.753248+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150422049901",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T150422049901/AggregateReadback.lean"
+  ],
+  "readback_sha256": "3edfa0ebd8ecc162dc3b594dbc91b52433e6cebb88ed9b582d2f0469b6fe78d9",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_retained_fine_pair_density",
+      "source_sha256": "bed305275fd89a7e5791be2b7297a53d18f74f01809d60b20bb648f89dbf5d46",
+      "olean_sha256": "f613684709a4512dcd24c2ac273b7a376cda247e2f4285d7209e7a998b3c0dfd",
+      "names": [
+        "NativeRetainedFinePairDensity.finePairCount",
+        "NativeRetainedFinePairDensity.full_mass_eq_pair_count",
+        "NativeRetainedFinePairDensity.pairDensityConstant",
+        "NativeRetainedFinePairDensity.pairDensityConstant_pos",
+        "NativeRetainedFinePairDensity.density_cross",
+        "NativeRetainedFinePairDensity.source_fine_pair_density"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_spatial_parent_count",
+      "source_sha256": "34da75873451d241252f14cb8a928416d384217beabfa1cc5b9efa6f5c893fd9",
+      "olean_sha256": "438bf9b879d0cefc510e6e0cb61c25c42aaef28851221bb94943c4a940e5d5c6",
+      "names": [
+        "NativeSpatialParentCount.raw_point_count_le_one",
+        "NativeSpatialParentCount.fine_pair_count_in_raw_cell",
+        "NativeSpatialParentCount.parent_count_le_pair_count",
+        "NativeSpatialParentCount.source_global_subset_upper",
+        "NativeSpatialParentCount.source_spatial_parent_count"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_parent_grain_incidence_cleanup",
+      "source_sha256": "6a3483c1439a45de858ad945bac6da30407d53215b6b3b5c57216cd4f78cfc64",
+      "olean_sha256": "33fa5a65551d4d27c9cb01a8bb9053920719d9ec23ed8eafabc065f9b13973e9",
+      "names": [
+        "NativeParentGrainIncidenceCleanup.cutEdges",
+        "NativeParentGrainIncidenceCleanup.mixedLabel",
+        "NativeParentGrainIncidenceCleanup.mixedFiber",
+        "NativeParentGrainIncidenceCleanup.mixedVertices",
+        "NativeParentGrainIncidenceCleanup.cutEdges_subset",
+        "NativeParentGrainIncidenceCleanup.cutEdges_card",
+        "NativeParentGrainIncidenceCleanup.cutEdges_points",
+        "NativeParentGrainIncidenceCleanup.cutEdges_grain_image",
+        "NativeParentGrainIncidenceCleanup.parent_mixed_fiber_eq",
+        "NativeParentGrainIncidenceCleanup.mixed_fiber_geometry",
+        "NativeParentGrainIncidenceCleanup.mixed_label_count",
+        "NativeParentGrainIncidenceCleanup.mixed_fiber_vertex_cap",
+        "NativeParentGrainIncidenceCleanup.exists_mixed_dense_core",
+        "NativeParentGrainIncidenceCleanup.exists_cleaned_parent"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:04:27.293487+00:00",
+  "exit_code": 0
+}

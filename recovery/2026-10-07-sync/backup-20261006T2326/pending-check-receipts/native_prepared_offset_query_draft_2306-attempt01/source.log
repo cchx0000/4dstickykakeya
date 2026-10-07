@@ -1,0 +1,27 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/275426478b480635b9834dfdda1b71b929818292c8d2519dc9b648b71f348001.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean"]
+SOURCE_SHA256 5ea5691bdc62bae0be7b774b8e934cab904db0cbeb3ea2d042a2e1187faaec9a
+LOCK_ACQUIRED_UTC 2026-10-06T23:11:17.537369+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean:39:54: error: unexpected token ')'; expected term
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean:79:4: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean:96:4: error: Type mismatch
+  base ^ (-(1 / ↑G))
+has type
+  ℝ
+but is expected to have type
+  Graph ?m.36 ?m.37
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean:96:23: error(lean.unknownIdentifier): Unknown identifier `igma`
+
+Note: It is not possible to treat `igma` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean:96:23: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  HPow (Graph ?m.36 ?m.37) ℝ ?m.65
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean:100:26: error: not a positivity goal
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean:102:32: error: not a positivity goal
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean:107:4: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_prepared_offset_query_draft_2306.lean:125:32: error(lean.unknownIdentifier): Unknown identifier `gap_at_native_mesh`
+LEAN_FINISHED_UTC 2026-10-06T23:11:49.539108+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

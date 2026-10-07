@@ -1,0 +1,56 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_retained_slice_budget_source",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_retained_slice_budget_source.lean",
+  "source_sha256": "1f54abde3bc141a86482448c7e9c517ac89d6c49fc421875dce7ca94b24becf9",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_retained_slice_budget_source.olean",
+  "names": [
+    "NativeRetainedSliceBudgetSource.actualRetainedConstant",
+    "NativeRetainedSliceBudgetSource.actualRetainedConstant_le",
+    "NativeRetainedSliceBudgetSource.quotientTolerance",
+    "NativeRetainedSliceBudgetSource.quotientTolerance_bounds",
+    "NativeRetainedSliceBudgetSource.actual_quotient_test"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T17:49:12.100375+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "1aafaaa5784df70d192bd8a551f7a3536f25c4700328f91b46c6fe741522e0bd",
+  "source_execution_complete_utc": "2026-10-05T17:49:17.524820+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T175057422201",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeRetainedSliceBudgetSource.actualRetainedConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedSliceBudgetSource.actualRetainedConstant_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedSliceBudgetSource.quotientTolerance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedSliceBudgetSource.quotientTolerance_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedSliceBudgetSource.actual_quotient_test": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T17:51:02.808062+00:00"
+}

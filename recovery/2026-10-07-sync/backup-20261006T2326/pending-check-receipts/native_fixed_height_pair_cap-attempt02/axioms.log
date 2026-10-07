@@ -1,0 +1,36 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T1842.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1842", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1842/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T18:42:47.511092+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+'NativePhaseHeightKey.originalKey' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightKey.constant_on_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightKey.old_height_card_eq_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightKey.onPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativePhaseHeightKey.onPair_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredSliceOccupancy.height_first_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredSliceOccupancy.pointsAt_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConfiguredSliceOccupancy.full_source_pointsAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedHeightPairCap.same_height_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedHeightPairCap.full_source_old_slope_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFixedHeightPairCap.full_source_old_parent_height_fiber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeFixedHeightPairCap.same_reference_old_parent_height_fiber' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeMatchedShadowConfiguredCounts.separated_ball_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatchedShadowConfiguredCounts.shadowLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatchedShadowConfiguredCounts.inverse_point_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatchedShadowConfiguredCounts.forward_point_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatchedShadowConfiguredCounts.pair_fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatchedShadowConfiguredCounts.inverse_image_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMatchedShadowConfiguredCounts.image_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualFineWeightShadingBridge.pair_capacity_to_shading' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualFineWeightShadingBridge.fine_graph_le_shadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualFineWeightShadingBridge.same_Q_weight_shading' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualFineWeightShadingBridge.actual_weight_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T18:44:51.279747+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_pair_scale_budget
+
+#print axioms NativePairScaleBudget.radix_four_cost
+#print axioms NativePairScaleBudget.dyadic_scale_product
+#print axioms NativePairScaleBudget.relative_scale_eq
+#print axioms NativePairScaleBudget.relative_local_product
+#print axioms NativePairScaleBudget.relative_power_window
+#print axioms NativePairScaleBudget.parameter_margins
+#print axioms NativePairScaleBudget.conditional_lower

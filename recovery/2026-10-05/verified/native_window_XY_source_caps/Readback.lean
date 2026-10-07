@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_window_XY_source_caps
+
+#print axioms NativeWindowXYSourceCaps.actual_window_capacities
+#print axioms NativeWindowXYSourceCaps.scheduled_window_capacities
+#print axioms NativeWindowXYSourceCaps.finest_window_capacities

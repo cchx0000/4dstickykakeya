@@ -1,0 +1,18 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/d0c3c9d260baad23fb2ced5fa96cce2da72e09258da5159d543e7641f28548e4.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_point_support_recovery.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_point_support_recovery.lean"]
+SOURCE_SHA256 25de3407d32a68d5ce68e8ed2714c5b93365a0e396d3b4ace3610558b2d224ae
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_point_support_recovery.lean:38:40: error: Function expected at
+  image_image
+but this term has type
+  image ?m.233 (image ?m.230 ?m.231) = image (?m.233 ∘ ?m.230) ?m.231
+
+Note: Expected a function because this term is being applied to the argument
+  _
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_point_support_recovery.lean:36:63: error: Function expected at
+  image_image
+but this term has type
+  image ?m.243 (image ?m.240 ?m.241) = image (?m.243 ∘ ?m.240) ?m.241
+
+Note: Expected a function because this term is being applied to the argument
+  _
+
+EXIT_CODE=1

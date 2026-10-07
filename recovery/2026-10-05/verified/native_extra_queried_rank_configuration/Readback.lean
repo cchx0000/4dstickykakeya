@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_extra_queried_rank_configuration
+
+#print axioms NativeExtraQueriedRankConfiguration.MenuFactory
+#print axioms NativeExtraQueriedRankConfiguration.MenuRefl
+#print axioms NativeExtraQueriedRankConfiguration.MenuSymm
+#print axioms NativeExtraQueriedRankConfiguration.HasCallerUniformities
+#print axioms NativeExtraQueriedRankConfiguration.exists_extra_queried_rank_configuration

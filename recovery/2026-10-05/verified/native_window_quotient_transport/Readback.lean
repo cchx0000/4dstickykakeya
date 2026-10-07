@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_window_quotient_transport
+
+#print axioms NativeWindowQuotientTransport.factor
+#print axioms NativeWindowQuotientTransport.windowHalfWidth
+#print axioms NativeWindowQuotientTransport.width_factorization
+#print axioms NativeWindowQuotientTransport.window_mesh_halfWidth
+#print axioms NativeWindowQuotientTransport.abs_ediv_bound
+#print axioms NativeWindowQuotientTransport.window_support
+#print axioms NativeWindowQuotientTransport.window_quotient_AD

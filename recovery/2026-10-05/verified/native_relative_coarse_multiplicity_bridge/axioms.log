@@ -1,0 +1,14 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_relative_coarse_multiplicity_bridge_readback.lean"]
+SOURCE_SHA256 198542275ab45cdd9e7deb0462e6cb5d562737036ea2fdab83a047ab7ec25197
+FIFO compiler ticket: 01791183858426494810-2e781ec91fb6407f84c53400b574a685.request
+FIFO compiler acquired UTC: 2026-10-05T07:04:18.427443+00:00
+'NativeRelativeCoarseMultiplicityBridge.globalPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseMultiplicityBridge.relativePair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseMultiplicityBridge.globalPair_eq_actualPair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeRelativeCoarseMultiplicityBridge.conditional_global_relative_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

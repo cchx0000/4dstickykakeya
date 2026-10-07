@@ -1,0 +1,116 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/c2425a661586bfad3b4a8bf850477199f3f041815fffffba9747f99ee6da95b9.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_original_phase_chart_gaps.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_original_phase_chart_gaps.lean"]
+SOURCE_SHA256 88aae661f208fee3826ea25d93f8545d884cc20ca06cec4c2c05ca45a1613d66
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_original_phase_chart_gaps.lean:107:27: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+hK : ∀ (i : Fin n), D.line i ∈ fixedCompactClass
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+c : E4
+hc : ‖c‖ ≤ 1 / 2
+N : ℕ
+hN : 0 < N
+i j : Fin n
+he : parentLabel D a N i = parentLabel D a N j
+li : MarkedLine := MarkedIsometricChart.line O c (NativeContractedUnitParent.line D a (0, 0) i)
+lj : MarkedLine := MarkedIsometricChart.line O c (NativeContractedUnitParent.line D a (0, 0) j)
+hNr : 0 < ↑N
+hi :
+  IsValidLine (NativeContractedUnitParent.line D a (0, 0) i) ∧
+    1 / 2 ≤ (direction (NativeContractedUnitParent.line D a (0, 0) i)).ofLp 3 ∧
+      ContainsWZHeightSlab (NativeContractedUnitParent.line D a (0, 0) i) (Set.Icc (-(1 / 4)) (1 / 4))
+hj :
+  IsValidLine (NativeContractedUnitParent.line D a (0, 0) j) ∧
+    1 / 2 ≤ (direction (NativeContractedUnitParent.line D a (0, 0) j)).ofLp 3 ∧
+      ContainsWZHeightSlab (NativeContractedUnitParent.line D a (0, 0) j) (Set.Icc (-(1 / 4)) (1 / 4))
+hli : IsValidLine li
+hlj : IsValidLine lj
+hti : 1 / 2 ≤ (direction li).ofLp 3
+htj : 1 / 2 ≤ (direction lj).ofLp 3
+hoffj : ‖offset lj‖ ≤ 3
+hold : dist (carrier D a i) (carrier D a j) ≤ 16 / ↑N
+hchart :
+  dist (MarkedIsometricCarrier.carrier li) (MarkedIsometricCarrier.carrier lj) ≤
+    2 * dist (carrier D a i) (carrier D a j)
+a✝ : 32 / ↑N < 2 * dist (carrier D a i) (carrier D a j)
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_original_phase_chart_gaps.lean:114:65: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_original_phase_chart_gaps.lean:114:20: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+hK : ∀ (i : Fin n), D.line i ∈ fixedCompactClass
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+c : E4
+hc : ‖c‖ ≤ 1 / 2
+N : ℕ
+hN : 0 < N
+i j : Fin n
+he : parentLabel D a N i = parentLabel D a N j
+li : MarkedLine := MarkedIsometricChart.line O c (NativeContractedUnitParent.line D a (0, 0) i)
+lj : MarkedLine := MarkedIsometricChart.line O c (NativeContractedUnitParent.line D a (0, 0) j)
+hNr : 0 < ↑N
+hi :
+  IsValidLine (NativeContractedUnitParent.line D a (0, 0) i) ∧
+    1 / 2 ≤ (direction (NativeContractedUnitParent.line D a (0, 0) i)).ofLp 3 ∧
+      ContainsWZHeightSlab (NativeContractedUnitParent.line D a (0, 0) i) (Set.Icc (-(1 / 4)) (1 / 4))
+hj :
+  IsValidLine (NativeContractedUnitParent.line D a (0, 0) j) ∧
+    1 / 2 ≤ (direction (NativeContractedUnitParent.line D a (0, 0) j)).ofLp 3 ∧
+      ContainsWZHeightSlab (NativeContractedUnitParent.line D a (0, 0) j) (Set.Icc (-(1 / 4)) (1 / 4))
+hli : IsValidLine li
+hlj : IsValidLine lj
+hti : 1 / 2 ≤ (direction li).ofLp 3
+htj : 1 / 2 ≤ (direction lj).ofLp 3
+hoffj : ‖offset lj‖ ≤ 3
+hdist : dist (MarkedIsometricCarrier.carrier li) (MarkedIsometricCarrier.carrier lj) ≤ 32 / ↑N
+v : Fin 3
+hdir : dist (direction li) (direction lj) ≤ dist (MarkedIsometricCarrier.carrier li) (MarkedIsometricCarrier.carrier lj)
+hh : |NativeOriginalCellChartGeometry.slope li v - NativeOriginalCellChartGeometry.slope lj v| ≤ 6 * (32 / ↑N)
+hnon : 0 ≤ 1 / ↑N
+⊢ 6 * (32 / ↑N) ≤ 672 / ↑N
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_original_phase_chart_gaps.lean:117:10: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+hK : ∀ (i : Fin n), D.line i ∈ fixedCompactClass
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+c : E4
+hc : ‖c‖ ≤ 1 / 2
+N : ℕ
+hN : 0 < N
+i j : Fin n
+he : parentLabel D a N i = parentLabel D a N j
+li : MarkedLine := MarkedIsometricChart.line O c (NativeContractedUnitParent.line D a (0, 0) i)
+lj : MarkedLine := MarkedIsometricChart.line O c (NativeContractedUnitParent.line D a (0, 0) j)
+hNr : 0 < ↑N
+hi :
+  IsValidLine (NativeContractedUnitParent.line D a (0, 0) i) ∧
+    1 / 2 ≤ (direction (NativeContractedUnitParent.line D a (0, 0) i)).ofLp 3 ∧
+      ContainsWZHeightSlab (NativeContractedUnitParent.line D a (0, 0) i) (Set.Icc (-(1 / 4)) (1 / 4))
+hj :
+  IsValidLine (NativeContractedUnitParent.line D a (0, 0) j) ∧
+    1 / 2 ≤ (direction (NativeContractedUnitParent.line D a (0, 0) j)).ofLp 3 ∧
+      ContainsWZHeightSlab (NativeContractedUnitParent.line D a (0, 0) j) (Set.Icc (-(1 / 4)) (1 / 4))
+hli : IsValidLine li
+hlj : IsValidLine lj
+hti : 1 / 2 ≤ (direction li).ofLp 3
+htj : 1 / 2 ≤ (direction lj).ofLp 3
+hoffj : ‖offset lj‖ ≤ 3
+hdist : dist (MarkedIsometricCarrier.carrier li) (MarkedIsometricCarrier.carrier lj) ≤ 32 / ↑N
+v : Fin 3
+a✝ : 672 / ↑N < 21 * dist (MarkedIsometricCarrier.carrier li) (MarkedIsometricCarrier.carrier lj)
+⊢ False
+failed
+
+EXIT_CODE=1

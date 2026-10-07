@@ -1,0 +1,27 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141241440208", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141241440208/AggregateReadback.lean"]
+READBACK_SHA256 46f64dcc5b42156faa1cd298cbb796dd00eeb2154f59fae2738bc8041b4a821c
+Dedicated staging slot 3 acquired UTC: 2026-10-05T14:12:42.172129+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8781708 kB
+'NativeRankFourScalarBudget.actual_count_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.actual_test_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.contradiction_from_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.countConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.countConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.exists_rank_four_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.exists_rank_four_hierarchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.exists_scalar_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.exponent_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.exponent_le_half_kappa' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.fixedConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.fixedConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.force_scale_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.grid_inverse_le_tau' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.impossible_scale_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.pointLoss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.rank_four_loss_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.rank_four_middle_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.source_cost_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.tau_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankFourScalarBudget.totalExponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

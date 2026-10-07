@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0b595d0e103651aec8e3de7b6ce5961ab45470eb310f2222d55586b1b0b3fa96.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_literal_euclidean_ad-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_literal_euclidean_ad-attempt01/Readback.lean"]
+SOURCE_SHA256 68d3b84ddfd60a533174818e7b025fb5043ecbec707f922b7296fd1c41e0ce1a
+'NativeLiteralEuclideanAD.toLp_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralEuclideanAD.sup_dist_le_toLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralEuclideanAD.toLp_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralEuclideanAD.ADBounds_toLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralEuclideanAD.one_dimensional_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLiteralEuclideanAD.planar_AD' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

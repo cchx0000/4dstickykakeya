@@ -1,0 +1,23 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_relative_parent_profiles_readback.lean"]
+SOURCE_SHA256 303bb8ffba6e74985eedd626c1f9feb1e28e9c90ef78ef0c02963f76b56523cc
+FIFO compiler ticket: 01791178536135339976-909b0debca284ca19da6ad6f5d936ea8.request
+FIFO compiler acquired UTC: 2026-10-05T05:35:36.135737+00:00
+'NativeRelativeParentProfiles.relativeAtom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.relativeParents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.original_atom_in_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.relative_population_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.dyadic_relative_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.source_parentLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.source_parent_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.source_parents_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.relative_population_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.dyadic_relative_parent_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.source_dyadic_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.source_dyadic_population_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.HasRelativeProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.source_relative_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentProfiles.compact_original_scheduled_native_relative_profiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

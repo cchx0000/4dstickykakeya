@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_canonical_configured_point_rounding
+set_option autoImplicit false
+#print axioms CanonicalConfiguredPointRounding.grid
+#print axioms CanonicalConfiguredPointRounding.graphPoint
+#print axioms CanonicalConfiguredPointRounding.quotient
+#print axioms CanonicalConfiguredPointRounding.midpoint_error
+#print axioms CanonicalConfiguredPointRounding.center_grid_error
+#print axioms CanonicalConfiguredPointRounding.graph_perturbation
+#print axioms CanonicalConfiguredPointRounding.graph_recode_identity
+#print axioms CanonicalConfiguredPointRounding.coarseX
+#print axioms CanonicalConfiguredPointRounding.configuredNormal
+#print axioms CanonicalConfiguredPointRounding.coarseX_error
+#print axioms CanonicalConfiguredPointRounding.configuredNormal_error
+#print axioms CanonicalConfiguredPointRounding.fine_graph_error
+#print axioms CanonicalConfiguredPointRounding.actual_coordinate_errors

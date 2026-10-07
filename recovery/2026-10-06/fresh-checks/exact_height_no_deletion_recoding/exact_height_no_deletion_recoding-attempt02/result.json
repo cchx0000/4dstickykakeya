@@ -1,0 +1,101 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_exact_height_no_deletion_recoding",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_exact_height_no_deletion_recoding.lean",
+  "source_sha256": "47def10f6fa8fa2c91097f32180172765bd1cdab3c31b826d01444cb03fdd50b",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_exact_height_no_deletion_recoding.olean",
+  "names": [
+    "ExactHeightNoDeletionRecoding.coarsenLabel",
+    "ExactHeightNoDeletionRecoding.actualLabel",
+    "ExactHeightNoDeletionRecoding.recodedY_zero",
+    "ExactHeightNoDeletionRecoding.newY_eq_oldY",
+    "ExactHeightNoDeletionRecoding.actualLabel_eq_coarsenLabel",
+    "ExactHeightNoDeletionRecoding.old_fiber_maps_into_one_Y",
+    "ExactHeightNoDeletionRecoding.old_fiber_coarseX_lower",
+    "ExactHeightNoDeletionRecoding.exact_support",
+    "ExactHeightNoDeletionRecoding.newY_coarseX_lower",
+    "ExactHeightNoDeletionRecoding.taggedEdges",
+    "ExactHeightNoDeletionRecoding.taggedEdges_card",
+    "ExactHeightNoDeletionRecoding.taggedEdges_projection",
+    "ExactHeightNoDeletionRecoding.tagged_point_fiber",
+    "ExactHeightNoDeletionRecoding.actual_no_deletion_recoding"
+  ],
+  "started_utc": "2026-10-06T06:40:40.637420+00:00",
+  "scope": "fresh current-environment checks; historical checks are not reused",
+  "source_exit_code": 0,
+  "olean_sha256": "dfbea5948f24eaddd8354f68306f161de604ec3b5646ae184cfe894c68e0b6d8",
+  "readback_exit_code": 0,
+  "axioms": {
+    "ExactHeightNoDeletionRecoding.actualLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.recodedY_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.newY_eq_oldY": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.actualLabel_eq_coarsenLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.old_fiber_maps_into_one_Y": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.old_fiber_coarseX_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.exact_support": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.newY_coarseX_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.taggedEdges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.taggedEdges_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.taggedEdges_projection": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.tagged_point_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.actual_no_deletion_recoding": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ExactHeightNoDeletionRecoding.coarsenLabel": []
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "finished_utc": "2026-10-06T06:40:45.222981+00:00"
+}

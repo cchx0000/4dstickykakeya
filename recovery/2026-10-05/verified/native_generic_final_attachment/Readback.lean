@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_generic_final_attachment
+
+#print axioms NativeGenericFinalAttachment.retainedCutoff
+#print axioms NativeGenericFinalAttachment.retainedCutoff_pos
+#print axioms NativeGenericFinalAttachment.select_final_stage

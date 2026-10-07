@@ -1,0 +1,6 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b3d1a6a659025ac895c6284dde9ae0eb4f161e5240956a19ba5fd5bdb0269c32.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/native_full_reference_chart_AD-attempt01", "/workspace/shared/sticky-recovery-20261006/verification/native_full_reference_chart_AD-attempt01/Readback.lean"]
+SOURCE_SHA256 ecc90e4b3d18fba3be74432b820679108f0102d712be63ae5e15d14655ef50d0
+'NativeFullReferenceChartAD.chart_ball_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeFullReferenceChartAD.full_source_chart_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

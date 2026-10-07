@@ -1,0 +1,13 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_separated_gram_determinant_readback.lean"]
+SOURCE_SHA256 04a5275edd03566a995b9439240e4f324d9b1683ca9e44945de0f97a428cda38
+FIFO compiler ticket: 01791186848342267609-2c8f5085d6884131a12c5505b5c73504.request
+FIFO compiler acquired UTC: 2026-10-05T07:54:08.343278+00:00
+'NativeSeparatedGramDeterminant.infDist_le_norm_gramSchmidt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSeparatedGramDeterminant.inner_gramSchmidt_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSeparatedGramDeterminant.gram_det_eq_prod_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSeparatedGramDeterminant.basis_gram_det_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSeparatedGramDeterminant.gram_det_lower_of_span_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

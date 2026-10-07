@@ -1,0 +1,17 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/22dcd9e9e5e6337e1832997ddbb869db00f71a06d2075e68c7223d954ca58580.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_baseline_graph_mass.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_baseline_graph_mass.lean"]
+SOURCE_SHA256 a40566f00292342b0561931f00101ea831b1021d34883b68f2f4baf628fa3952
+LOCK_ACQUIRED_UTC 2026-10-06T19:25:24.759226+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_baseline_graph_mass.lean:87:27: error: `ring_nf` made no progress on the goal
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_baseline_graph_mass.lean:88:36: error: Application type mismatch: The argument
+  hh
+has type
+  16 * Delta ^ (5 * e / 16) ≤ 5 ^ 4 * (Delta ^ 4 * ↑(#G))
+but is expected to have type
+  ?m.1096 ≤ ?m.1095 * 5 ^ 4
+in the application
+  (div_le_iff₀ hc).mpr hh
+LEAN_FINISHED_UTC 2026-10-06T19:28:58.213462+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

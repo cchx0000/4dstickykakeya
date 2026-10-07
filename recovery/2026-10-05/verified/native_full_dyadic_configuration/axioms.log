@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_full_dyadic_configuration_readback.lean"]
+SOURCE_SHA256 8f92e776329564dfad2da8b1d6abf77a3066aa217584fd66879820a28f135905
+FIFO compiler ticket: 01791186664099591561-67fa3f79859b4ed9a7087ca71a9691c6.request
+FIFO compiler acquired UTC: 2026-10-05T07:51:04.101592+00:00
+'NativeFullDyadicConfiguration.exists_full_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_all_two_scale_configuration
+
+#print axioms NativeAllTwoScaleConfiguration.boundaryWindow
+#print axioms NativeAllTwoScaleConfiguration.boundaryWindow_pos
+#print axioms NativeAllTwoScaleConfiguration.fullSchedule
+#print axioms NativeAllTwoScaleConfiguration.exists_all_two_scale_configuration

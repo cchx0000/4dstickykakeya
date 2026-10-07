@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_actual_paid_X_power
+
+#print axioms NativeActualPaidXPower.source_reference_X_small_power

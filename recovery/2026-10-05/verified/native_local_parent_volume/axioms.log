@@ -1,0 +1,23 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_local_parent_volume_readback.lean"]
+SOURCE_SHA256 2a98a0c863366f46e9ad7ba08fdb823cddd39e76d1e29bb6411a09c56904eb49
+FIFO compiler ticket: 01791175651737326476-41e03fa8022e4a9ca140d3acde428574.request
+FIFO compiler acquired UTC: 2026-10-05T04:48:12.076975+00:00
+'NativeLocalParentVolume.matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.rawLinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.linearPart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.matrix_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.linearPart_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.linearPart_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.rawLinear_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.linearPart_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.physicalMap_eq_linear_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.continuous_physicalMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.homeomorph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.homeomorph_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.measurableSet_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.measurableSet_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.volume_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.volume_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeLocalParentVolume.convex_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

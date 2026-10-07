@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_slab_plane_frame
+
+#print axioms NativeSlabPlaneFrame.coordinateMap
+#print axioms NativeSlabPlaneFrame.coordinateMap_injective
+#print axioms NativeSlabPlaneFrame.coordinate_finrank
+#print axioms NativeSlabPlaneFrame.frameEquiv
+#print axioms NativeSlabPlaneFrame.frameEquiv_apply
+#print axioms NativeSlabPlaneFrame.inverse_coordinates
+#print axioms NativeSlabPlaneFrame.matrixContinuous
+#print axioms NativeSlabPlaneFrame.matrixContinuous_apply
+#print axioms NativeSlabPlaneFrame.matrixContinuous_norm

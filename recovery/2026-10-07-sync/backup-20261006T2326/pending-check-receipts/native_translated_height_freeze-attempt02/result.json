@@ -1,0 +1,48 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_translated_height_freeze",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_translated_height_freeze.lean",
+  "source_sha256": "c9feb89bffeb00e07ad29254fd7f9abecbaf7662016ede513fde0dd34298109f",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_translated_height_freeze.olean",
+  "names": [
+    "NativeTranslatedHeightFreeze.reference_height_coarse_floor",
+    "NativeTranslatedHeightFreeze.frozen",
+    "NativeTranslatedHeightFreeze.frozen_readback",
+    "NativeTranslatedHeightFreeze.select_and_freeze"
+  ],
+  "started_utc": "2026-10-06T14:19:30.544483+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "7bc26a38d8be242eb29756f606e4adb13ec1d110f6817dc8e72b0f14d38fc749",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T14:26:35.076672+00:00",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1429",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeTranslatedHeightFreeze.reference_height_coarse_floor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedHeightFreeze.frozen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedHeightFreeze.frozen_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTranslatedHeightFreeze.select_and_freeze": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T14:34:29.783136+00:00"
+}

@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_literal_Y_height_alignment
+import Theorems.Thm_StickyKakeya4_native_third_planar_height_alignment
+set_option autoImplicit false
+#print axioms NativeLiteralYHeightAlignment.heightKeys
+#print axioms NativeLiteralYHeightAlignment.heightPoints
+#print axioms NativeLiteralYHeightAlignment.heightPoints_image_keys
+#print axioms NativeLiteralYHeightAlignment.heightPoints_nonempty
+#print axioms NativeLiteralYHeightAlignment.heightPoints_card
+#print axioms NativeLiteralYHeightAlignment.bounded_depth
+#print axioms NativeLiteralYHeightAlignment.exists_height_alignment
+#print axioms NativeLiteralYHeightAlignment.pullback_selected
+#print axioms NativeLiteralYHeightAlignment.menuFraction
+#print axioms NativeLiteralYHeightAlignment.scale_ratio
+#print axioms NativeLiteralYHeightAlignment.select_aligned_common
+#print axioms NativeThirdPlanarHeightAlignment.exists_actual_height_alignment

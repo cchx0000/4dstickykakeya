@@ -1,0 +1,43 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_alignment_parent_width",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_alignment_parent_width.lean",
+  "source_sha256": "8f9775cd54d0356430fe94ab0a9870964270a85426e054d89af7bb4d8e586710",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_alignment_parent_width.olean",
+  "names": [
+    "NativeAlignmentParentWidth.exists_factor_gap_cutoff",
+    "NativeAlignmentParentWidth.parent_4096_depth",
+    "NativeAlignmentParentWidth.exists_actual_parent_cutoff"
+  ],
+  "started_utc": "2026-10-06T14:32:50.803321+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh post-reset source and independent imported-axiom checks; restored cache provenance is recorded separately",
+  "source_exit_code": 0,
+  "olean_sha256": "bd68fd3d1085780047bd2c43abe8c5c1ccde54f9c8f412519897421bdf83bc03",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T14:36:13.681003+00:00",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1443",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeAlignmentParentWidth.exists_factor_gap_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAlignmentParentWidth.parent_4096_depth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeAlignmentParentWidth.exists_actual_parent_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T14:53:13.457451+00:00",
+  "canonical_scope": "new_canonical_module"
+}

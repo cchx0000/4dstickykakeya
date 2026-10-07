@@ -1,0 +1,46 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1ddf86c7f6c7c262f6ee376cea63aefae140f2237ef117d169923cc9b70c5772.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_alignment_parent_width.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_alignment_parent_width.lean"]
+SOURCE_SHA256 631b4caab83f69fb9914f2883bfccd9930dfaace4386265a6b96c30ded6e94c6
+LOCK_ACQUIRED_UTC 2026-10-06T14:11:51.431726+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_alignment_parent_width.lean:45:53: error: unsolved goals
+u j : ℕ
+tau : ℝ
+htau : tau = 2⁻¹ ^ u / 512 * 2 ^ j
+hlower : 32768 * (2⁻¹ ^ u / 512) ≤ tau
+hupper : tau ≤ 1
+hd : 0 < 2⁻¹ ^ u / 512
+hp : 32768 ≤ 2 ^ j
+hj : 15 ≤ j
+hOriginalLower : 2⁻¹ ^ u / 64 ≤ tau
+hjup : j ≤ u + 9
+⊢ (1 / 2) ^ u * 2 ^ (j - 12) * (1 / 512) = (1 / 2) ^ u * 2 ^ (12 + (j - 12) - 12) * (1 / 512)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_alignment_parent_width.lean:53:41: error: unsolved goals
+u j : ℕ
+tau : ℝ
+htau : tau = 2⁻¹ ^ u / 512 * 2 ^ j
+hlower : 32768 * (2⁻¹ ^ u / 512) ≤ tau
+hupper : tau ≤ 1
+hd : 0 < 2⁻¹ ^ u / 512
+hp : 32768 ≤ 2 ^ j
+hj : 15 ≤ j
+hOriginalLower : 2⁻¹ ^ u / 64 ≤ tau
+hjup : j ≤ u + 9
+he : tau / 4096 = 2⁻¹ ^ u / 512 * 2 ^ (j - 12)
+hlo : 2⁻¹ ^ u / 64 ≤ tau / 4096
+hhi : tau / 4096 ≤ 1 / 4096
+s : ℕ
+_hs : 6 ≤ s
+hsu : s ≤ u + 3
+hsread : tau / 4096 = 64 / ↑(2 ^ s) / 512
+_hphase : u + 15 - (j - 12) = s + 9
+⊢ 64 * 8 = 512
+LEAN_FINISHED_UTC 2026-10-06T14:16:27.054537+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

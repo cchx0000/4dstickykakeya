@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_point_angular_parent_fibers
+
+#print axioms NativePointAngularParentFibers.interceptCenter
+#print axioms NativePointAngularParentFibers.floor_mem_seven
+#print axioms NativePointAngularParentFibers.incident_intercept_error
+#print axioms NativePointAngularParentFibers.interceptMenu
+#print axioms NativePointAngularParentFibers.interceptMenu_card
+#print axioms NativePointAngularParentFibers.incident_parent_mem_menu
+#print axioms NativePointAngularParentFibers.pointParents
+#print axioms NativePointAngularParentFibers.pointAngular
+#print axioms NativePointAngularParentFibers.pointAngular_readback
+#print axioms NativePointAngularParentFibers.point_parent_fiber_card_le
+#print axioms NativePointAngularParentFibers.pointParents_card_le_angular

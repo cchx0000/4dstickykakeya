@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_reference_original_parent_profiles
+
+#print axioms NativeReferenceOriginalParentProfiles.endpoint_constant_from_first_cost
+#print axioms NativeReferenceOriginalParentProfiles.actual_all_parent_profiles

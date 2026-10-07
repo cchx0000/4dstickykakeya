@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_fixed_height_pair_cap
+set_option autoImplicit false
+#print axioms NativeFixedHeightPairCap.same_height_card_le
+#print axioms NativeFixedHeightPairCap.full_source_old_slope_cube
+#print axioms NativeFixedHeightPairCap.full_source_old_parent_height_fiber
+#print axioms NativeFixedHeightPairCap.same_reference_old_parent_height_fiber

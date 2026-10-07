@@ -1,0 +1,58 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T121214248540", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T121214248540/AggregateReadback.lean"]
+READBACK_SHA256 4a1691dd85bca72295a391db21e5dc912f70f3f033757c7f79d6288609f108be
+Dedicated staging slot 3 acquired UTC: 2026-10-05T12:15:32.894351+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8357328 kB
+'NativeAngularCandidateCapacityProduct.costConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularCandidateCapacityProduct.costConstant_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularCandidateCapacityProduct.depthPower_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularCandidateCapacityProduct.depthPower_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularCandidateCapacityProduct.depthPower_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularCandidateCapacityProduct.depthPower_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularCandidateCapacityProduct.native_master_product_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAngularCandidateCapacityProduct.selectionBudget_product_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAngularCandidateCapacityProduct.selectionBudget_product_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAngularCandidateCapacityProduct.selectionBudget_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularCandidateCapacityProduct.selectionBudget_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeAngularCandidateCapacityProduct.singleCapacity_cast_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeAngularCandidateCapacityProduct.successor_capacity_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeShortRowPackets.projected_image_eq_rowChildren' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.projected_short_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.shortCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.shortEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.shortVertexClosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.shortVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.shortVertices_eq_cells_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.short_member_packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.short_member_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.short_vertex_closure_packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.short_vertex_cube_packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.short_vertex_rounded_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.short_vertex_rounded_packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeShortRowPackets.short_vertex_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.active_packet_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.cover_count_le_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.layers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.layers_mass_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.layers_predecessors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.layers_step_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.layers_subset_start' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.overlapCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.packetMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.packet_mass_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.packet_mass_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.restriction_mass_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.restriction_predecessors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeWeightedPacketLayers.restriction_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_horizontal_grain_slice
+
+#print axioms NativeHorizontalGrainSlice.heightKernel
+#print axioms NativeHorizontalGrainSlice.sliceSpace
+#print axioms NativeHorizontalGrainSlice.removeHeight
+#print axioms NativeHorizontalGrainSlice.removeHeight_mem_heightKernel
+#print axioms NativeHorizontalGrainSlice.removeHeight_mem_slice
+#print axioms NativeHorizontalGrainSlice.removeHeight_sub
+#print axioms NativeHorizontalGrainSlice.removeHeight_norm
+#print axioms NativeHorizontalGrainSlice.near_horizontal_slice
+#print axioms NativeHorizontalGrainSlice.affine_slice_containment
+#print axioms NativeHorizontalGrainSlice.heightKernel_finrank
+#print axioms NativeHorizontalGrainSlice.sliceSpace_finrank

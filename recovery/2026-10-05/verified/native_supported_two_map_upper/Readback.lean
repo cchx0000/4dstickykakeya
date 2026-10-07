@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_supported_two_map_upper
+
+#print axioms NativeSupportedTwoMapUpper.retained_class_upper
+#print axioms NativeSupportedTwoMapUpper.height_image_cap

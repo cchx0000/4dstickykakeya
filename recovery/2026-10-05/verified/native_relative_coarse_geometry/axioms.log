@@ -1,0 +1,14 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_relative_coarse_geometry_readback.lean"]
+SOURCE_SHA256 9d06a1bc90496d04ea907041875a942cc8f05059318a81555e893500d5331c80
+FIFO compiler ticket: 01791182529461898161-5d07f415a8a6444faf20bed7e0d96609.request
+FIFO compiler acquired UTC: 2026-10-05T06:42:09.462439+00:00
+'NativeRelativeCoarseGeometry.zeroGraphPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseGeometry.bridgePoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseGeometry.zero_front_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseGeometry.local_front_bridge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseGeometry.cell_center_coordinate_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseGeometry.zero_graph_time_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseGeometry.same_relative_front_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeCoarseGeometry.bridge_center_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

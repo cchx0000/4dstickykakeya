@@ -1,0 +1,103 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3754b2b6711f5ae70407ec542514274be55948c7b18b04cd52d4fc68f5bcb8c3.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean"]
+SOURCE_SHA256 1bd43dff8827b59461dc4498b4a1a15b9d40b86d56791d46a11186a7e5fbea1d
+LOCK_ACQUIRED_UTC 2026-10-06T21:37:04.381374+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:366:6: error: linarith failed to find a contradiction
+case «0»
+mu : ℝ
+hmu : 0 < mu
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+C F : ℤ → ℝ
+k l : Index
+hC : |C (k 3)| ≤ 1
+hF : |F (k 3)| ≤ 1
+hY : packedHigherKey mu O C F k = packedHigherKey mu O C F l
+hX : packedXKey mu O k = packedXKey mu O l
+x : E4 := O (cellCenter mu k)
+y : E4 := O (cellCenter mu l)
+ht : k 3 = l 3
+h0 : |x.ofLp 0 - y.ofLp 0| ≤ mu
+h1 : |x.ofLp 1 - y.ofLp 1| ≤ mu
+hq : |higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y| ≤ mu
+he :
+  x.ofLp 2 - y.ofLp 2 =
+    higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y + C (k 3) * (x.ofLp 0 - y.ofLp 0) +
+      F (k 3) * (x.ofLp 1 - y.ofLp 1)
+h2 : |x.ofLp 2 - y.ofLp 2| ≤ 3 * mu
+h3 : x.ofLp 3 = y.ofLp 3
+a✝ : 3 * mu < |x.ofLp ((fun i => i) ⟨0, ⋯⟩) - y.ofLp ((fun i => i) ⟨0, ⋯⟩)|
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:367:6: error: linarith failed to find a contradiction
+case «1»
+mu : ℝ
+hmu : 0 < mu
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+C F : ℤ → ℝ
+k l : Index
+hC : |C (k 3)| ≤ 1
+hF : |F (k 3)| ≤ 1
+hY : packedHigherKey mu O C F k = packedHigherKey mu O C F l
+hX : packedXKey mu O k = packedXKey mu O l
+x : E4 := O (cellCenter mu k)
+y : E4 := O (cellCenter mu l)
+ht : k 3 = l 3
+h0 : |x.ofLp 0 - y.ofLp 0| ≤ mu
+h1 : |x.ofLp 1 - y.ofLp 1| ≤ mu
+hq : |higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y| ≤ mu
+he :
+  x.ofLp 2 - y.ofLp 2 =
+    higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y + C (k 3) * (x.ofLp 0 - y.ofLp 0) +
+      F (k 3) * (x.ofLp 1 - y.ofLp 1)
+h2 : |x.ofLp 2 - y.ofLp 2| ≤ 3 * mu
+h3 : x.ofLp 3 = y.ofLp 3
+a✝ : 3 * mu < |x.ofLp ((fun i => i) ⟨1, ⋯⟩) - y.ofLp ((fun i => i) ⟨1, ⋯⟩)|
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:369:10: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  x.ofLp 3
+in the target expression
+  |x.ofLp ((fun i => i) ⟨3, ⋯⟩) - y.ofLp ((fun i => i) ⟨3, ⋯⟩)| ≤ 3 * mu
+
+case «3»
+mu : ℝ
+hmu : 0 < mu
+O : E4 ≃ₗᵢ[ℝ] E4
+hO : ∀ (x : E4), (O x).ofLp 3 = x.ofLp 3
+C F : ℤ → ℝ
+k l : Index
+hC : |C (k 3)| ≤ 1
+hF : |F (k 3)| ≤ 1
+hY : packedHigherKey mu O C F k = packedHigherKey mu O C F l
+hX : packedXKey mu O k = packedXKey mu O l
+x : E4 := O (cellCenter mu k)
+y : E4 := O (cellCenter mu l)
+ht : k 3 = l 3
+h0 : |x.ofLp 0 - y.ofLp 0| ≤ mu
+h1 : |x.ofLp 1 - y.ofLp 1| ≤ mu
+hq : |higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y| ≤ mu
+he :
+  x.ofLp 2 - y.ofLp 2 =
+    higherY (C (k 3)) (F (k 3)) x - higherY (C (k 3)) (F (k 3)) y + C (k 3) * (x.ofLp 0 - y.ofLp 0) +
+      F (k 3) * (x.ofLp 1 - y.ofLp 1)
+h2 : |x.ofLp 2 - y.ofLp 2| ≤ 3 * mu
+h3 : x.ofLp 3 = y.ofLp 3
+⊢ |x.ofLp ((fun i => i) ⟨3, ⋯⟩) - y.ofLp ((fun i => i) ⟨3, ⋯⟩)| ≤ 3 * mu
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1761:4: error: Type mismatch: After simplification, term
+  hReal
+ has type
+  shadeLower ≤ ↑(#(incidences ref.original)) * (ENNReal.ofReal (D.thickness / 2)).toReal ^ 4
+but is expected to have type
+  shadeLower ≤ ↑(#(incidences ref.original)) * (D.thickness / 2) ^ 4
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1971:4: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean:1978:4: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+LEAN_FINISHED_UTC 2026-10-06T21:37:55.574885+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

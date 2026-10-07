@@ -1,0 +1,16 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_two_axis_power_interpolation_readback.lean"]
+SOURCE_SHA256 38222912a353e2abc1058171c0fdfde4e8c4b0a94e9e556588eb970beaf5fcc4
+FIFO compiler ticket: 01791189427230011635-622d6751eafd4efaa902ac09f7699c09.request
+FIFO compiler acquired UTC: 2026-10-05T08:37:07.231190+00:00
+'NativeTwoAxisPowerInterpolation.depthPower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisPowerInterpolation.depthPower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisPowerInterpolation.depthPower_eq_relative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisPowerInterpolation.depthPower_eq_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisPowerInterpolation.delta_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisPowerInterpolation.upper_menu_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisPowerInterpolation.lower_menu_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisPowerInterpolation.nat_power_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisPowerInterpolation.upper_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoAxisPowerInterpolation.lower_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

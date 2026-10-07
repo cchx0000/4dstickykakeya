@@ -1,0 +1,49 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T15:33:26.058885+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T153325354641",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T153325354641/AggregateReadback.lean"
+  ],
+  "readback_sha256": "6a1418c1826df6380c9bbd08be975f5a1934f20bb896b556a3629d37c62ec12f",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_projector_cell_chart",
+      "source_sha256": "d972aa48c658d6ff491ee7f447ad7a07955e2bd4692f98a61aedcde8cf976bc9",
+      "olean_sha256": "63b2c74cba4d9422fa8c84e8d9972032918c1a680137893171d8d3b02729987e",
+      "names": [
+        "NativeProjectorCellChart.basis",
+        "NativeProjectorCellChart.basis_norm",
+        "NativeProjectorCellChart.basis_expansion",
+        "NativeProjectorCellChart.norm_le_coordinate_sum",
+        "NativeProjectorCellChart.entry",
+        "NativeProjectorCellChart.entry_abs_le_one",
+        "NativeProjectorCellChart.chartCount",
+        "NativeProjectorCellChart.cell",
+        "NativeProjectorCellChart.card_cell",
+        "NativeProjectorCellChart.same_cell_entry",
+        "NativeProjectorCellChart.same_cell_column",
+        "NativeProjectorCellChart.same_cell_projection_difference",
+        "NativeProjectorCellChart.same_cell_operator_norm",
+        "NativeProjectorCellChart.same_cell_forward_gap",
+        "NativeProjectorCellChart.same_cell_projection_lift",
+        "NativeProjectorCellChart.select_whole_nodes",
+        "NativeProjectorCellChart.select_whole_nodes_with_lifts"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T15:33:30.558075+00:00",
+  "exit_code": 0
+}

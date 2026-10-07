@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_generic_graph_rank_data
+
+#print axioms NativeGenericGraphRankData.HasGraphRankSelection

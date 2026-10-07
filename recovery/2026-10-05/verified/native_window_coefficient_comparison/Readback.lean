@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_window_coefficient_comparison
+
+#print axioms NativeWindowCoefficientComparison.geometric_factor_bound
+#print axioms NativeWindowCoefficientComparison.source_ratio_le

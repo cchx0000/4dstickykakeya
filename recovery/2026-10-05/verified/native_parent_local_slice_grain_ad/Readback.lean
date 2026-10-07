@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_parent_local_slice_grain_ad
+
+#print axioms NativeParentLocalSliceGrainAD.exists_parent_local_slice_grain_AD

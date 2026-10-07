@@ -1,0 +1,18 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_conditional_coarse_interpolation_readback.lean"]
+SOURCE_SHA256 a4aaba6eb817cc0227d487a35db1523c7060dd3cd25bfa3d14db627ec4de3fa8
+FIFO compiler ticket: 01791184717743044614-6e57dad956944cb78cd2c800c7b0c478.request
+FIFO compiler acquired UTC: 2026-10-05T07:18:37.744325+00:00
+'NativeConditionalCoarseInterpolation.subset_image_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConditionalCoarseInterpolation.image_parent_filter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalCoarseInterpolation.physicalPair_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalCoarseInterpolation.physical_image_parent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalCoarseInterpolation.finer_outer_parent_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConditionalCoarseInterpolation.coarser_outer_parent_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+EXIT_CODE=0

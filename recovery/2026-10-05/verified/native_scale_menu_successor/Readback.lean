@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_scale_menu_successor
+#print axioms NativeScaleMenuSuccessor.exists_successor
+#print axioms NativeScaleMenuSuccessor.exists_clipped_successor
+#print axioms NativeScaleMenuSuccessor.exists_window_successor
+#print axioms NativeScaleMenuSuccessor.partition_multiplicity_lower
+#print axioms NativeScaleMenuSuccessor.nested_parentEdges_eq
+#print axioms NativeScaleMenuSuccessor.off_menu_parent_lower
+#print axioms NativeScaleMenuSuccessor.off_menu_parent_power_lower

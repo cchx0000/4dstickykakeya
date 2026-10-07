@@ -1,0 +1,42 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_two_axis_conditional_transfer",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_two_axis_conditional_transfer.lean",
+  "source_sha256": "7819d7deedbf1e9aa55cdade67dbe7aaed53dfbad9924d41167e99274e41cdf0",
+  "names": [
+    "NativeTwoAxisConditionalTransfer.conditional_full_eq_image",
+    "NativeTwoAxisConditionalTransfer.scheduled_image_bounds",
+    "NativeTwoAxisConditionalTransfer.core_conditioned_uniformities",
+    "NativeTwoAxisConditionalTransfer.far_pair_bounds"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T08:22:34.758351+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeTwoAxisConditionalTransfer.conditional_full_eq_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoAxisConditionalTransfer.scheduled_image_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoAxisConditionalTransfer.core_conditioned_uniformities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeTwoAxisConditionalTransfer.far_pair_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "4fd9c96b6b9cb214b8d0c8a140d31bec11eba6b5b89962b4019c0470cda15717",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T08:52:19.866844+00:00"
+}

@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_equal_rank_plane_transfer
+
+set_option autoImplicit false
+#print axioms NativeEqualRankPlaneTransfer.controlled_projection_lift
+#print axioms NativeEqualRankPlaneTransfer.projection_residual_eq_infDist
+#print axioms NativeEqualRankPlaneTransfer.transfer_near_plane

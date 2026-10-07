@@ -1,0 +1,21 @@
+import Theorems.Thm_StickyKakeya4_native_actual_grain_history
+
+#print axioms NativeActualGrainHistory.scaleLift
+#print axioms NativeActualGrainHistory.scaleThreshold
+#print axioms NativeActualGrainHistory.scaleLayers
+#print axioms NativeActualGrainHistory.nextPoints
+#print axioms NativeActualGrainHistory.HasScaleRecord
+#print axioms NativeActualGrainHistory.scaleLayers_subset_lift
+#print axioms NativeActualGrainHistory.lift_of_snd_image
+#print axioms NativeActualGrainHistory.lift_snd_image
+#print axioms NativeActualGrainHistory.original_tag_mem_lift
+#print axioms NativeActualGrainHistory.terminal_lift
+#print axioms NativeActualGrainHistory.terminal_mass
+#print axioms NativeActualGrainHistory.nextPoints_subset
+#print axioms NativeActualGrainHistory.record_retention
+#print axioms NativeActualGrainHistory.history
+#print axioms NativeActualGrainHistory.history_step_subset
+#print axioms NativeActualGrainHistory.history_antitone
+#print axioms NativeActualGrainHistory.HasGrainHistory
+#print axioms NativeActualGrainHistory.history_of_rich_scales
+#print axioms NativeActualGrainHistory.construct_actual_grain_history

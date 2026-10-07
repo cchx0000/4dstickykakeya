@@ -1,0 +1,2 @@
+import Theorems.Thm_StickyKakeya4_native_actual_local_power_upper
+#print axioms NativeActualLocalPowerUpper.compact_original_scheduled_local_power_upper

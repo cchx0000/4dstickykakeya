@@ -1,0 +1,11 @@
+import Theorems.Thm_StickyKakeya4_native_window_X_fibers
+
+#print axioms NativeWindowXFibers.gridBox
+#print axioms NativeWindowXFibers.gridBox_card
+#print axioms NativeWindowXFibers.gridDiv_fiber_card
+#print axioms NativeWindowXFibers.gridDiv_card_le
+#print axioms NativeWindowXFibers.fineX
+#print axioms NativeWindowXFibers.fine_fiber_card
+#print axioms NativeWindowXFibers.fineX_image_subset
+#print axioms NativeWindowXFibers.window_fiber_card
+#print axioms NativeWindowXFibers.window_fiber_density

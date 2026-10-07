@@ -1,0 +1,83 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T16:00:18.133743+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160017276020",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T160017276020/AggregateReadback.lean"
+  ],
+  "readback_sha256": "a9fa7bbf9381226e6010882cd0a575b19adf51919a11a7dc9d0a9ea373c91357",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_anisotropic_slice_labels",
+      "source_sha256": "112007686080fe722b7fd404f498d76ab2ccca2e28550acbdbb83095448e9fb7",
+      "olean_sha256": "b6aabf355593eba934361943a0e5591d673552f37e5b5e3a0f953a3d5e837063",
+      "names": [
+        "NativeAnisotropicSliceLabels.horizontalCoarsen",
+        "NativeAnisotropicSliceLabels.horizontalCoarsen_height",
+        "NativeAnisotropicSliceLabels.columnLabel_horizontalCoarsen",
+        "NativeAnisotropicSliceLabels.slicePoint",
+        "NativeAnisotropicSliceLabels.sliceClass",
+        "NativeAnisotropicSliceLabels.sliceClass_height",
+        "NativeAnisotropicSliceLabels.sliceClass_point_eq_column",
+        "NativeAnisotropicSliceLabels.sliceRelations",
+        "NativeAnisotropicSliceLabels.sliceRelations_refl",
+        "NativeAnisotropicSliceLabels.sliceRelations_symm",
+        "NativeAnisotropicSliceLabels.caller_column_uniformities"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_combined_parent_profiles",
+      "source_sha256": "d2caf83babdbea21a627835f7d7a1f5c9406cc81fc2009ab3e3f5b797b0700fb",
+      "olean_sha256": "62db17f1400ad4d72048b4fc46051b45cadb2b6d28b3426d0aa72c17a4fbab2d",
+      "names": [
+        "NativeCombinedParentProfiles.HasParentProfiles",
+        "NativeCombinedParentProfiles.horizontal_window",
+        "NativeCombinedParentProfiles.source_parent_profiles"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_grain_quotient_fibers",
+      "source_sha256": "0f99324ab30fb721be143be1f77415b11abd3cc93ede05d6dd0f191b69800e02",
+      "olean_sha256": "8819b8ad87faa768ad1a0bc41c044781aa61147a4aa7425186efa15a4ba001e0",
+      "names": [
+        "NativeGrainQuotientFibers.mixed_height_count",
+        "NativeGrainQuotientFibers.fiber",
+        "NativeGrainQuotientFibers.exists_mixed_dense_fiber",
+        "NativeGrainQuotientFibers.physicalMesh",
+        "NativeGrainQuotientFibers.physicalMesh_pos",
+        "NativeGrainQuotientFibers.diameter_div_physicalMesh",
+        "NativeGrainQuotientFibers.phase_diameter_div_physicalMesh",
+        "NativeGrainQuotientFibers.density_transfer"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_active_phase_population",
+      "source_sha256": "a8a2de31213b5b6e97e38223084e6d6c94e6fb796b4f8869de1713bbb14c4e69",
+      "olean_sha256": "ab706866979cba81d7292e1e9dee62a06b3c087dcde4b4b13b53d567f4752967",
+      "names": [
+        "NativeActivePhasePopulation.rowConstant",
+        "NativeActivePhasePopulation.rowConstant_pos",
+        "NativeActivePhasePopulation.retained_incidence_capacity",
+        "NativeActivePhasePopulation.parent_retained_eq",
+        "NativeActivePhasePopulation.parent_incidence_capacity",
+        "NativeActivePhasePopulation.activePhases",
+        "NativeActivePhasePopulation.activePhases_subset",
+        "NativeActivePhasePopulation.active_phase_population"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T16:00:23.504694+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,11 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_rank_one_slope_cap_readback.lean"]
+SOURCE_SHA256 78d94b62acae5fdbed27b80ef9d7fbe87a12720340212da81dfd81aaf96df13f
+FIFO compiler ticket: 01791187930207412019-205c401bc1f1464dbaad7f6cf4199bb1.request
+FIFO compiler acquired UTC: 2026-10-05T08:12:10.209320+00:00
+'NativeRankOneSlopeCap.rank_one_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankOneSlopeCap.near_labels_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankOneSlopeCap.slopeVector_eq_normalized_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankOneSlopeCap.slopeVector_norm_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRankOneSlopeCap.actual_slope_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

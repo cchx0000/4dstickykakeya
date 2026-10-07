@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_native_matrix_height_wholepoint
+set_option autoImplicit false
+#print axioms NativeMatrixHeightWholePoint.mass
+#print axioms NativeMatrixHeightWholePoint.heightCell
+#print axioms NativeMatrixHeightWholePoint.modulus
+#print axioms NativeMatrixHeightWholePoint.modulus_pos
+#print axioms NativeMatrixHeightWholePoint.same_height_cell_close
+#print axioms NativeMatrixHeightWholePoint.select_color_per_cell
+#print axioms NativeMatrixHeightWholePoint.select_one_height_scale
+#print axioms NativeMatrixHeightWholePoint.select_height_menu
+#print axioms NativeMatrixHeightWholePoint.modulus_cost
+#print axioms NativeMatrixHeightWholePoint.select_above_base
+#print axioms NativeMatrixHeightWholePoint.edgeLift
+#print axioms NativeMatrixHeightWholePoint.edgeLift_fiber
+#print axioms NativeMatrixHeightWholePoint.edgeLift_card
+#print axioms NativeMatrixHeightWholePoint.select_original_edge_menu

@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_two_stage_plane_rank
+
+#print axioms NativeTwoStagePlaneRank.point_plane_rank_eq
+#print axioms NativeTwoStagePlaneRank.previous_rank_menu_plane_rank

@@ -1,0 +1,80 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_full_vertex_fiber_density",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_full_vertex_fiber_density.lean",
+  "source_sha256": "3beba3eed0493ef5bacecaa855550ea696eff844bc58e7a182bb08ddb876f323",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_full_vertex_fiber_density.olean",
+  "names": [
+    "NativeFullVertexFiberDensity.cap_le_vertex_mass",
+    "NativeFullVertexFiberDensity.full_vertex_fiber_mass",
+    "NativeFullVertexFiberDensity.full_vertex_fibers_lower",
+    "NativeFullVertexFiberDensity.short_closure_image",
+    "NativeFullVertexFiberDensity.anchor_mem_short_closure",
+    "NativeFullVertexFiberDensity.short_children_le_vertices",
+    "NativeFullVertexFiberDensity.short_closure_weight_cross",
+    "NativeFullVertexFiberDensity.vertex_lift_cost",
+    "NativeFullVertexFiberDensity.queried_short_closure_lower"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T12:25:43.834127+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "706b789a571643254492778919cf8518da6e9db835931935dab2fa252f14260e",
+  "source_execution_complete_utc": "2026-10-05T12:33:23.141169+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T123513278205",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeFullVertexFiberDensity.cap_le_vertex_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullVertexFiberDensity.full_vertex_fiber_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullVertexFiberDensity.full_vertex_fibers_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullVertexFiberDensity.short_closure_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullVertexFiberDensity.anchor_mem_short_closure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullVertexFiberDensity.short_children_le_vertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullVertexFiberDensity.short_closure_weight_cross": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullVertexFiberDensity.vertex_lift_cost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullVertexFiberDensity.queried_short_closure_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T12:42:08.932997+00:00"
+}

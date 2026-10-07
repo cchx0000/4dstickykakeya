@@ -1,0 +1,12 @@
+import Theorems.Thm_StickyKakeya4_native_actual_configured_base
+set_option autoImplicit false
+#print axioms NativeActualConfiguredBase.exists_source_rho_cutoff
+#print axioms NativeActualConfiguredBase.exists_actual_base
+#print axioms NativeActualConfiguredBase.exists_source_base
+#print axioms NativeActualConfiguredBase.prepared_multiple
+#print axioms NativeActualConfiguredBase.preparedDepths
+#print axioms NativeActualConfiguredBase.preparedDepths_zero
+#print axioms NativeActualConfiguredBase.preparedDepths_succ
+#print axioms NativeActualConfiguredBase.preparedDepths_bounds
+#print axioms NativeActualConfiguredBase.preparedDepths_base_scale
+#print axioms NativeActualConfiguredBase.preparedDepths_multiples

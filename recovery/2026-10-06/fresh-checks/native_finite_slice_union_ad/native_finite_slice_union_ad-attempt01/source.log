@@ -1,0 +1,5 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/4eac14246d6e12bb718a1d72029fe1e021e55c70ccdbb4ddd03547af49a4c79f.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_finite_slice_union_ad.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_finite_slice_union_ad.lean"]
+SOURCE_SHA256 7031f7df3345dbf7cf6abd24a8429f8995a2fba78dee4496e2e9d0051b87bcb7
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_finite_slice_union_ad.lean:1:0: error: object file '/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening.olean' of module Theorems.Thm_StickyKakeya4_finite_voronoi_real_ad_coarsening does not exist
+
+EXIT_CODE=1

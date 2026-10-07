@@ -1,0 +1,16 @@
+import Theorems.Thm_StickyKakeya4_canonical_configured_E4_bridge
+set_option autoImplicit false
+#print axioms CanonicalConfiguredE4Bridge.tangentDim
+#print axioms CanonicalConfiguredE4Bridge.normalDim
+#print axioms CanonicalConfiguredE4Bridge.tangent
+#print axioms CanonicalConfiguredE4Bridge.normal
+#print axioms CanonicalConfiguredE4Bridge.assemble
+#print axioms CanonicalConfiguredE4Bridge.configuredChart
+#print axioms CanonicalConfiguredE4Bridge.configured_coordinate_error
+#print axioms CanonicalConfiguredE4Bridge.dist_le_three_of_coordinate_error
+#print axioms CanonicalConfiguredE4Bridge.configuredChart_distance
+#print axioms CanonicalConfiguredE4Bridge.configuredPoint
+#print axioms CanonicalConfiguredE4Bridge.configuredPoint_distance
+#print axioms CanonicalConfiguredE4Bridge.actual_rounding_modulus
+#print axioms CanonicalConfiguredE4Bridge.actual_rounding_cost
+#print axioms CanonicalConfiguredE4Bridge.select_actual_original_edges

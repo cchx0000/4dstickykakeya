@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_configured_dyadic_matching
+set_option autoImplicit false
+#print axioms NativeConfiguredDyadicMatching.configured_depth_le
+#print axioms NativeConfiguredDyadicMatching.configured_scale_product
+#print axioms NativeConfiguredDyadicMatching.configured_scale_identities
+#print axioms NativeConfiguredDyadicMatching.match_actual_scales

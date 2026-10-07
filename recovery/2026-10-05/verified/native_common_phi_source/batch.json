@@ -1,0 +1,98 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T19:51:59.655501+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T195158800044",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T195158800044/AggregateReadback.lean"
+  ],
+  "readback_sha256": "77c57324382053986653c20f6e6bfcc16ca987a471fc39bd135a86d5315f8cac",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_XY_budget_comparison",
+      "source_sha256": "7c30899a97d039ad444ebb0942849ced3d89ef5769964fc7e898101349810e9b",
+      "olean_sha256": "51402621a7e95a5fa3d8b2e873156862ecb53cddfc2fd856d26b1f4997a8227f",
+      "names": [
+        "NativeActualXYBudgetComparison.actualXYConstant",
+        "NativeActualXYBudgetComparison.base_XY_le_retained"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_actual_post_graph_XY",
+      "source_sha256": "3a7b569b6790062f754c40f234dac78f5cb16d1161bd87d0856c13804c8d392c",
+      "olean_sha256": "a1b903f9c786ca4d4788e097795f60bcaafae5b7afd5a58a7c19a769332168bc",
+      "names": [
+        "NativeActualPostGraphXY.attach_actual_post_graph_XY"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_angular_ball_cell_cover",
+      "source_sha256": "1203d809295537caa1eee39dced5ab9c0100dd92c2851fa965ef564b2b54f8ea",
+      "olean_sha256": "d339babe3391d07defc77195ed189b127e8ca83aa35238312e55c59c410fecd1",
+      "names": [
+        "NativeAngularBallCellCover.angular_ball_cell_card",
+        "NativeAngularBallCellCover.angular_ball_count"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_candidate_graph_configuration",
+      "source_sha256": "c8eeb1a8f65c7b51cebd90e1a581e8a3073436abe64da091c2eddda3b45098a4",
+      "olean_sha256": "8bbeebd09f1ab58f4f3e7f530f0354197ae0e0100d1e7ddfe1e058a0d10203f1",
+      "names": [
+        "NativeCandidateGraphConfiguration.exists_candidate_graph_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_common_phi_source",
+      "source_sha256": "14a441f17f2756658c69862dea9241e5caf734198d0de965cbab8837e8e800e0",
+      "olean_sha256": "abcd7d75497e59965baf742fd82bf8b79fd9ce3f4a9d141a5751de0a9b64b9be",
+      "names": [
+        "NativeCommonPhiSource.cellThickness",
+        "NativeCommonPhiSource.cellThickness_nonneg",
+        "NativeCommonPhiSource.cellThickness_le",
+        "NativeCommonPhiSource.angularCell_readback",
+        "NativeCommonPhiSource.localSlope_distance",
+        "NativeCommonPhiSource.coherent_cell_residual",
+        "NativeCommonPhiSource.coherent_cell_projection"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_extra_graph_configuration",
+      "source_sha256": "55aa7a4202744a2210ff3ba08445b366dfd33d57c8a1045f7f100190806cffba",
+      "olean_sha256": "5d065996788bc8df1e2adbffe894b18a2cdf12494c154143911917807ceb2c25",
+      "names": [
+        "NativeExtraGraphConfiguration.exists_extra_graph_configuration"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_generic_graph_rank",
+      "source_sha256": "7df3f7ffc248cb3dea2102a0df546a9f52f75172842a3f1c3c5badf4b8fc9070",
+      "olean_sha256": "c51189bc9835e1d357c6721a4490a68cdf296ce3f66220a5ab554de4b218be67",
+      "names": [
+        "NativeGenericGraphRank.graph_rank_of_query"
+      ]
+    },
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_rich_angular_image_lower",
+      "source_sha256": "f8ac06e21e82b744bfaa0cfd8ee5fecdac4cc5e29fe3b84dacbcd3f3cf2082cc",
+      "olean_sha256": "546aeb2a7a39fca01e24d5f8264ba12f40ba968594fef9ccf4c6089f17d61a13",
+      "names": [
+        "NativeRichAngularImageLower.point_fiber_le_angular_image",
+        "NativeRichAngularImageLower.rich_class_angular_lower"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T19:52:19.369975+00:00",
+  "exit_code": 0
+}

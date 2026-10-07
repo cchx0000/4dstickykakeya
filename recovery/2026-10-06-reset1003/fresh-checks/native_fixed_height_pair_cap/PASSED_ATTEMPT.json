@@ -1,0 +1,51 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_fixed_height_pair_cap",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fixed_height_pair_cap.lean",
+  "source_sha256": "dc0a2dcfbffd11a657679f4cfb316097587134a366dead89281c334a3374eb1e",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fixed_height_pair_cap.olean",
+  "names": [
+    "NativeFixedHeightPairCap.same_height_card_le",
+    "NativeFixedHeightPairCap.full_source_old_slope_cube",
+    "NativeFixedHeightPairCap.full_source_old_parent_height_fiber",
+    "NativeFixedHeightPairCap.same_reference_old_parent_height_fiber"
+  ],
+  "started_utc": "2026-10-06T18:20:17.747380+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "4006107be49a6c0e99b7760bfc8f26571b2189d3386b4ec45a916127eeebc730",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T18:21:29.888466+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1842",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeFixedHeightPairCap.same_height_card_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedHeightPairCap.full_source_old_slope_cube": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedHeightPairCap.full_source_old_parent_height_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFixedHeightPairCap.same_reference_old_parent_height_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T18:44:51.325002+00:00",
+  "canonical_scope": "new_canonical_module"
+}

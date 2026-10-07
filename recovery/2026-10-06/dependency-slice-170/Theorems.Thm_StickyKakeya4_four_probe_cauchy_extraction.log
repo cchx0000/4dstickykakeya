@@ -1,0 +1,7 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-R", "/workspace/scratch/5f2524fd4117/4dstickykakeya", "-o", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/build/lib/lean/Theorems/Thm_StickyKakeya4_four_probe_cauchy_extraction.olean", "/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_four_probe_cauchy_extraction.lean"]
+SOURCE_SHA256 97690e674b5d73acb7631931145c150e9596af3c0e7855018321456a94c2d154
+/workspace/scratch/5f2524fd4117/4dstickykakeya/Theorems/Thm_StickyKakeya4_four_probe_cauchy_extraction.lean:306:4: warning: Unused tactic linter: `change limitA.mulVec (c.ofLp - d.ofLp) = 0` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+
+EXIT_CODE=0

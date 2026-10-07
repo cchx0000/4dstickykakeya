@@ -1,0 +1,69 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_fine_weighted_coarse_cutoff",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_cutoff.lean",
+  "source_sha256": "65c5b221da75f65ada0fe0986994a53696e94923506b70899e559632c81b0587",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_fine_weighted_coarse_cutoff.olean",
+  "names": [
+    "NativeFineWeightedCoarseCutoff.exists_uniform_cutoff",
+    "NativeFineWeightedCoarseCutoff.effective_power",
+    "NativeFineWeightedCoarseCutoff.exists_effective_cutoff",
+    "NativeFineWeightedCoarseCutoff.two_output_power_readback",
+    "NativeFineWeightedCoarseCutoff.two_output_lower_bounds",
+    "NativeFineWeightedCoarseCutoff.ordered_two_output_parameters",
+    "NativeFineWeightedCoarseCutoff.exists_two_output_cutoff"
+  ],
+  "started_utc": "2026-10-06T17:07:17.298007+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "source_exit_code": 0,
+  "olean_sha256": "76d69ba061f65b97d31a74badaa081eeac3d521e5a36d35e70cacb17f3ae7ddc",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T17:13:21.780858+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T1721",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeFineWeightedCoarseCutoff.exists_uniform_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCutoff.effective_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCutoff.exists_effective_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCutoff.two_output_power_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCutoff.two_output_lower_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCutoff.ordered_two_output_parameters": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFineWeightedCoarseCutoff.exists_two_output_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T17:24:35.278187+00:00",
+  "canonical_scope": "new_canonical_module"
+}

@@ -1,0 +1,18 @@
+import Theorems.Thm_StickyKakeya4_native_relative_coarse_point_menu
+
+#print axioms NativeRelativeCoarsePointMenu.localMesh
+#print axioms NativeRelativeCoarsePointMenu.roundedHeight
+#print axioms NativeRelativeCoarsePointMenu.doubleFront
+#print axioms NativeRelativeCoarsePointMenu.doubleLabel
+#print axioms NativeRelativeCoarsePointMenu.globalLabel
+#print axioms NativeRelativeCoarsePointMenu.pointMenu
+#print axioms NativeRelativeCoarsePointMenu.pointMenu_card
+#print axioms NativeRelativeCoarsePointMenu.rounded_height_error
+#print axioms NativeRelativeCoarsePointMenu.rounded_height_bound
+#print axioms NativeRelativeCoarsePointMenu.bridge_representative_error
+#print axioms NativeRelativeCoarsePointMenu.double_front_center_error
+#print axioms NativeRelativeCoarsePointMenu.double_label_mem_menu
+#print axioms NativeRelativeCoarsePointMenu.doubleLabel_eq_source_projected
+#print axioms NativeRelativeCoarsePointMenu.globalLabel_eq_projected
+#print axioms NativeRelativeCoarsePointMenu.dyadic_double_label_mem_menu
+#print axioms NativeRelativeCoarsePointMenu.dyadic_point_fiber_image_card_le

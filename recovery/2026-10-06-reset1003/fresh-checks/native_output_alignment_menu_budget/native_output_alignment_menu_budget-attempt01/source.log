@@ -1,0 +1,22 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/7c15e1e2f14942d520af96d38bf6538ed1086339887210f6ec9c72643b7c1c38.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_output_alignment_menu_budget.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_output_alignment_menu_budget.lean"]
+SOURCE_SHA256 6d56416e20088225e61a535e74da95333a564012f1d8bfb643b63c551a4a85c6
+LOCK_ACQUIRED_UTC 2026-10-06T13:36:47.369026+00:00
+SHARED_SLOT 2
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_output_alignment_menu_budget.lean:71:63: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  Delta ^ ?y / Delta ^ ?z
+in the target expression
+  Delta ^ (-loss) * 8 ^ zeta / Delta ^ zeta = 8 ^ zeta * Delta ^ (-(zeta + loss))
+
+Delta theta M zeta loss : ℝ
+hD : 0 < Delta
+htheta : 0 < theta
+hM : 0 < M
+hmenu : M ≤ Delta ^ (-loss)
+hret : (Delta / 8) ^ zeta / M ≤ theta
+hp : 0 < (Delta / 8) ^ zeta
+hi : 1 / theta ≤ M / (Delta / 8) ^ zeta
+⊢ Delta ^ (-loss) * 8 ^ zeta / Delta ^ zeta = 8 ^ zeta * Delta ^ (-(zeta + loss))
+LEAN_FINISHED_UTC 2026-10-06T13:39:54.005246+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

@@ -1,0 +1,20 @@
+{
+  "state": "passed",
+  "source_commit": "4e333e67d85fc38b0be1f708ca2223d4ee758f27",
+  "module_count": 1180,
+  "kind": "unified import closure of individually source-verified immutable artifacts; not a new Lake full build",
+  "prior_solutions": "8 unchanged source/artifact roots retain recovered1020 independent import results",
+  "started_utc": "2026-10-05T14:04:34.411301+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/1.lock",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "/workspace/shared/sticky-recovery-20261005/frozen-1180-import-closure-attempt03/AllCurrentTheorems.lean"
+  ],
+  "exit_code": 0,
+  "changed_sources_or_artifacts": [],
+  "finished_utc": "2026-10-05T14:04:44.897367+00:00"
+}

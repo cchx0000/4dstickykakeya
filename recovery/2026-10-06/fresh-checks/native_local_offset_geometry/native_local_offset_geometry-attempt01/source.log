@@ -1,0 +1,41 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/0688f39745d540ae3eb6d7f05aebf5f4900d4279d65f443fb8cb228c36454fda.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean"]
+SOURCE_SHA256 1e2b45d3ecb541da717706318007945c1f6cf8196bec2d8266ff0677285afae4
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean:31:14: error: unexpected token '|*'; expected '|' or '|ₘ'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean:30:65: error(lean.unknownIdentifier): Unknown identifier `abs_add`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean:27:79: error: unsolved goals
+case calc.step
+k : ℕ
+hk : k ≤ 2
+F G tangent tangent' : Fin k → ℝ
+normal normal' xi xi' E M v : ℝ
+hM : 0 < M
+hv : 0 ≤ v
+hF : ∀ (j : Fin k), |F j| ≤ 1 / 4
+hT : ∀ (j : Fin k), |tangent' j| ≤ 1
+hTd : ∀ (j : Fin k), |tangent j - tangent' j| ≤ 1 / M
+hFd : ∀ (j : Fin k), |F j - G j| ≤ v
+hN : |normal - normal'| ≤ 1 / M
+hres : |normal - ∑ j, F j * tangent j - xi| ≤ E
+hres' : |normal' - ∑ j, G j * tangent' j - xi'| ≤ E
+hInv : 0 ≤ 1 / M
+j : Fin k
+⊢ |F j| ≤ 1 / 4 * (1 / M) + v
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_local_offset_geometry.lean:25:30: error: unsolved goals
+k : ℕ
+hk : k ≤ 2
+F G tangent tangent' : Fin k → ℝ
+normal normal' xi xi' E M v : ℝ
+hM : 0 < M
+hv : 0 ≤ v
+hF : ∀ (j : Fin k), |F j| ≤ 1 / 4
+hT : ∀ (j : Fin k), |tangent' j| ≤ 1
+hTd : ∀ (j : Fin k), |tangent j - tangent' j| ≤ 1 / M
+hFd : ∀ (j : Fin k), |F j - G j| ≤ v
+hN : |normal - normal'| ≤ 1 / M
+hres : |normal - ∑ j, F j * tangent j - xi| ≤ E
+hres' : |normal' - ∑ j, G j * tangent' j - xi'| ≤ E
+hInv : 0 ≤ 1 / M
+hterm : ∀ (j : Fin k), |F j * tangent j - G j * tangent' j| ≤ 1 / 4 * (1 / M) + v
+⊢ |xi - xi'| ≤ 2 * E + 2 / M + 2 * v
+
+EXIT_CODE=1

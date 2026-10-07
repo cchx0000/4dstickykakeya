@@ -1,0 +1,49 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T192932859225", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T192932859225/AggregateReadback.lean"]
+READBACK_SHA256 ec5f75e7fced16da98fa56f65e23284c8ae191fad58bbc2f097d7095079a8156
+Dedicated staging slot 3 acquired UTC: 2026-10-05T19:29:34.265511+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8715392 kB
+'NativeCandidateQueriedRankConfiguration.exists_candidate_queried_rank_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConditionalAngularCountTransfer.conditional_angular_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeConditionalAngularCountTransfer.nested_angular_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeConditionalAngularCountTransfer.nested_parent_power' depends on axioms: [propext, Quot.sound]
+'NativeConditionalAngularCountTransfer.nested_relative_width' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExtraQueriedRankConfiguration.HasCallerUniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExtraQueriedRankConfiguration.MenuFactory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExtraQueriedRankConfiguration.MenuRefl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExtraQueriedRankConfiguration.MenuSymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeExtraQueriedRankConfiguration.exists_extra_queried_rank_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeGenericCompatibleStage.HasCompatibleSquaredStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericCompatibleStage.compatibleCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericCompatibleStage.compatibleCutoff_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeGenericCompatibleStage.pairedCount' does not depend on any axioms
+'NativeGenericCompatibleStage.select_compatible_squared_stage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeNestedParentPhysicalMenu.angular_image_global_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedParentPhysicalMenu.innerMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedParentPhysicalMenu.innerMenu_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedParentPhysicalMenu.nested_angular_image_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedParentPhysicalMenu.parent_shear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedParentPhysicalMenu.physical_cell_mem_innerMenu' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedParentPhysicalMenu.physical_rebase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedParentPhysicalMenu.rebase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNestedParentPhysicalMenu.rebase_coordinate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentAngularCoarseEndpoint.angular_image_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentAngularCoarseEndpoint.angular_menu_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentAngularCoarseEndpoint.coarse_endpoint_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeReferenceParentCompleteAngularUpper.exists_reference_parent_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeThirdXYConstantComparison.constant_grid_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYConstantComparison.gap_power_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYConstantComparison.geometryCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYConstantComparison.geometryCost_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeThirdXYConstantComparison.xyConstant_le_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

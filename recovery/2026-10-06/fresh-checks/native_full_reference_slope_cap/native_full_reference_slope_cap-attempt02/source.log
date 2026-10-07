@@ -1,0 +1,10 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/846aa4927fcff9c51f49265a105152ffd4e4cd80ab97e0e038f5a97f7f75ce2d.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean"]
+SOURCE_SHA256 54720ab3f39310570c2e92915bb5963cace59ed5dcbbc7303a940398404de043
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:80:47: error: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_full_reference_slope_cap.lean:208:33: error: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+
+EXIT_CODE=1

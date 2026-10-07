@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_rank_one_reference_upper
+
+#print axioms NativeRankOneReferenceUpper.point_degree_le_reference_mean
+#print axioms NativeRankOneReferenceUpper.selected_parent_cap_upper
+#print axioms NativeRankOneReferenceUpper.original_selected_parent_cap_upper

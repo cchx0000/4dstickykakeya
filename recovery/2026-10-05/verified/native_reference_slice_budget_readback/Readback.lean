@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_reference_slice_budget_readback
+
+#print axioms NativeReferenceSliceBudgetReadback.population_mass_ratio
+#print axioms NativeReferenceSliceBudgetReadback.parent_profiles_readback

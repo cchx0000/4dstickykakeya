@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_output_alignment_menu_budget
+set_option autoImplicit false
+#print axioms NativeOutputAlignmentMenuBudget.exists_menu_cutoff
+#print axioms NativeOutputAlignmentMenuBudget.inverse_selected_fraction

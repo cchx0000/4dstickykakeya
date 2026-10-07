@@ -1,0 +1,79 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_quotient_lattice_transport",
+  "source": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live/Theorems/Thm_StickyKakeya4_native_quotient_lattice_transport.lean",
+  "source_sha256": "57de87799500b608cde58f6fa2ae98fbca6dea6e961ead6ab1636c502da9c202",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/work/recovered-rank-four-count/olean/Theorems/Thm_StickyKakeya4_native_quotient_lattice_transport.olean",
+  "names": [
+    "NativeQuotientLatticeTransport.productSlice",
+    "NativeQuotientLatticeTransport.atHeight",
+    "NativeQuotientLatticeTransport.atHeight_injective",
+    "NativeQuotientLatticeTransport.height_slice_eq",
+    "NativeQuotientLatticeTransport.spatial_box_iff",
+    "NativeQuotientLatticeTransport.spatial_ball_eq",
+    "NativeQuotientLatticeTransport.ambient_box_real_card",
+    "NativeQuotientLatticeTransport.realized_slice_eq",
+    "NativeQuotientLatticeTransport.ambient_bounds_of_AD"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T18:23:12.249907+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "55bb8a60d1ae5d7432ef6e46aef8b802d5f5f9a70339d4c3486f7e734bd35e30",
+  "source_execution_complete_utc": "2026-10-05T18:25:04.326220+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T183254928927",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeQuotientLatticeTransport.productSlice": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuotientLatticeTransport.atHeight": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeQuotientLatticeTransport.atHeight_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuotientLatticeTransport.height_slice_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuotientLatticeTransport.spatial_box_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuotientLatticeTransport.spatial_ball_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuotientLatticeTransport.ambient_box_real_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuotientLatticeTransport.realized_slice_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeQuotientLatticeTransport.ambient_bounds_of_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T18:33:10.524092+00:00"
+}

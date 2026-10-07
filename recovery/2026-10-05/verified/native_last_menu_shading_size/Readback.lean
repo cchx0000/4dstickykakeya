@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_last_menu_shading_size
+
+#print axioms NativeLastMenuShadingSize.upperDepth_scale_lower
+#print axioms NativeLastMenuShadingSize.rowCells_eq_rows
+#print axioms NativeLastMenuShadingSize.window_core_global_row_bounds
+#print axioms NativeLastMenuShadingSize.rowCells_volume
+#print axioms NativeLastMenuShadingSize.row_volume_bounds_of_global_count
+#print axioms NativeLastMenuShadingSize.coefficient_power_lower
+#print axioms NativeLastMenuShadingSize.absorb_global_count_and_volume

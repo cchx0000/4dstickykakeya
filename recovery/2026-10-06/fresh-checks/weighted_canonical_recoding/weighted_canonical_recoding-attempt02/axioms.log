@@ -1,0 +1,16 @@
+COMMAND ["flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/b74c225a5e934337026fc1e73c04c295207b0317872f775bfb731a38302001aa.lock", "flock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/weighted_canonical_recoding-attempt02", "/workspace/shared/sticky-recovery-20261006/verification/weighted_canonical_recoding-attempt02/Readback.lean"]
+SOURCE_SHA256 d64c52556a7dc26829c2246cca22a79f6d66af0a3e78683123326bc60ad173dc
+'WeightedCanonicalRecoding.pointLabel' does not depend on any axioms
+'WeightedCanonicalRecoding.oldPoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.fineXCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.old_label_fiber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.old_label_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.label_weight_eq_sum_point_weights' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.retained_point_weight_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.threshold_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.threshold_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.real_retention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'WeightedCanonicalRecoding.exists_actual_coarse_recoding' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

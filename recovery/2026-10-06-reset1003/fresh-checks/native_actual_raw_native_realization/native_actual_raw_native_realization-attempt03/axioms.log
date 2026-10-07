@@ -1,0 +1,17 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/import-batch-20261006T2322.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/1.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2322", "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2322/Readback.lean"]
+LOCK_ACQUIRED_UTC 2026-10-06T23:22:20.527357+00:00
+SHARED_SLOT 1
+LEAN_PID 58
+'NativeActualRawNativeRealization.absoluteDepth' does not depend on any axioms
+'NativeActualRawNativeRealization.parentDepth' does not depend on any axioms
+'NativeActualRawNativeRealization.footprintDepth' does not depend on any axioms
+'NativeActualRawNativeRealization.menu_depth_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRawNativeRealization.exists_final_native_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRawNativeRealization.actual_lower_payment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRawNativeRealization.exists_raw_source_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRawNativeRealization.exists_actual_native_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+LEAN_FINISHED_UTC 2026-10-06T23:23:34.769222+00:00 EXIT_CODE=0
+
+EXIT_CODE=0

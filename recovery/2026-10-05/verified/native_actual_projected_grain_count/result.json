@@ -1,0 +1,98 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_projected_grain_count",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_actual_projected_grain_count.lean",
+  "source_sha256": "362d0f41231e953cc6bedc5da055af289f73f3a352ea4a0c1eea5caebd7ab214",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_actual_projected_grain_count.olean",
+  "names": [
+    "NativeActualProjectedGrainCount.grainWidth",
+    "NativeActualProjectedGrainCount.grainWidth_pos",
+    "NativeActualProjectedGrainCount.projectionLabel",
+    "NativeActualProjectedGrainCount.taggedLabel",
+    "NativeActualProjectedGrainCount.predecessorProduct",
+    "NativeActualProjectedGrainCount.transverseCost",
+    "NativeActualProjectedGrainCount.transverseCost_pos",
+    "NativeActualProjectedGrainCount.actual_projection_minimum_lower",
+    "NativeActualProjectedGrainCount.actual_node_grain_count",
+    "NativeActualProjectedGrainCount.restricted_node_grain_count",
+    "NativeActualProjectedGrainCount.cap_mul_raw_vertices_le",
+    "NativeActualProjectedGrainCount.tagged_same_label_near"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T13:41:19.746730+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "14fa515cb6d023415658c200dbe9374ddcc76524bd6cdc4f8822dd395d014249",
+  "source_execution_complete_utc": "2026-10-05T13:41:43.752317+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T134909250044",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeActualProjectedGrainCount.grainWidth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.grainWidth_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.projectionLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.taggedLabel": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.predecessorProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.transverseCost": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.transverseCost_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.actual_projection_minimum_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.actual_node_grain_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.restricted_node_grain_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.cap_mul_raw_vertices_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualProjectedGrainCount.tagged_same_label_near": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T13:51:26.209875+00:00"
+}

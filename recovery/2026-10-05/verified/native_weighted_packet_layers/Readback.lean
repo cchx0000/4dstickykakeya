@@ -1,0 +1,17 @@
+import Theorems.Thm_StickyKakeya4_native_weighted_packet_layers
+
+#print axioms NativeWeightedPacketLayers.packetMass
+#print axioms NativeWeightedPacketLayers.restriction
+#print axioms NativeWeightedPacketLayers.restriction_subset
+#print axioms NativeWeightedPacketLayers.restriction_predecessors
+#print axioms NativeWeightedPacketLayers.restriction_mass_loss
+#print axioms NativeWeightedPacketLayers.overlapCount
+#print axioms NativeWeightedPacketLayers.cover_count_le_overlap
+#print axioms NativeWeightedPacketLayers.packet_mass_sum
+#print axioms NativeWeightedPacketLayers.packet_mass_sum_le
+#print axioms NativeWeightedPacketLayers.active_packet_count
+#print axioms NativeWeightedPacketLayers.layers
+#print axioms NativeWeightedPacketLayers.layers_step_subset
+#print axioms NativeWeightedPacketLayers.layers_subset_start
+#print axioms NativeWeightedPacketLayers.layers_predecessors
+#print axioms NativeWeightedPacketLayers.layers_mass_loss

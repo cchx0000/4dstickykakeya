@@ -1,0 +1,79 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/51af86f88a655826212ae1adfc85e82350af7536ed1d99235244da250044b14f.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean"]
+SOURCE_SHA256 aba1591487eaa1e3bc109fcca77782c50297f31c4c9c25950a99d5301f3493cf
+LOCK_ACQUIRED_UTC 2026-10-06T12:42:50.947054+00:00
+SHARED_SLOT 2
+LEAN_PID 60
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:36:47: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:54:79: error: unexpected token '('; expected '}'
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:54:33: error: Type mismatch
+  assemble Split.oneTwo ((tangentCoordinates P 2 hd) x).ofLp
+has type
+  (Fin (normalDim Split.oneTwo) → ℝ) → ℝ → E4
+but is expected to have type
+  E4
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:54:13: error: Fields missing: `map_add'`, `map_smul'`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:52:2: error: Alternative `twoOne` has not been provided
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:80:8: error: (deterministic) timeout at `isDefEq`, maximum number of heartbeats (3000000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:83:4: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (3000000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:76:37: error: (deterministic) timeout at `«tactic execution»`, maximum number of heartbeats (3000000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:105:14: error: Tactic `rfl` failed: The left-hand side
+  ((frame Split.oneTwo P hP hd) x).ofLp 3
+is not definitionally equal to the right-hand side
+  x.ofLp 3
+
+case oneTwo
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+x : E4
+hd : Module.finrank ℝ ↥P = tangentDim Split.oneTwo
+⊢ ((frame Split.oneTwo P hP hd) x).ofLp 3 = x.ofLp 3
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:105:14: error: Tactic `rfl` failed: The left-hand side
+  ((frame Split.twoOne P hP hd) x).ofLp 3
+is not definitionally equal to the right-hand side
+  x.ofLp 3
+
+case twoOne
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+x : E4
+hd : Module.finrank ℝ ↥P = tangentDim Split.twoOne
+⊢ ((frame Split.twoOne P hP hd) x).ofLp 3 = x.ofLp 3
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:107:0: error: Not a definitional equality: the left-hand side
+  (frame Split.oneTwo P hP hd) x
+is not definitionally equal to the right-hand side
+  assemble Split.oneTwo ((tangentCoordinates P 2 hd) x).ofLp ((normalCoordinates P hP 2 ⋯ ⋯ hd) x).ofLp (x.ofLp 3)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:110:71: error: Type mismatch
+  rfl
+has type
+  ?m.28 = ?m.28
+but is expected to have type
+  (frame Split.oneTwo P hP hd) x =
+    assemble Split.oneTwo ((tangentCoordinates P 2 hd) x).ofLp ((normalCoordinates P hP 2 ⋯ ⋯ hd) x).ofLp (x.ofLp 3)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:112:0: error: Not a definitional equality: the left-hand side
+  (frame Split.twoOne P hP hd) x
+is not definitionally equal to the right-hand side
+  assemble Split.twoOne ((tangentCoordinates P 3 hd) x).ofLp ((normalCoordinates P hP 3 ⋯ ⋯ hd) x).ofLp (x.ofLp 3)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_packed_frame_isometry.lean:115:71: error: Type mismatch
+  rfl
+has type
+  ?m.28 = ?m.28
+but is expected to have type
+  (frame Split.twoOne P hP hd) x =
+    assemble Split.twoOne ((tangentCoordinates P 3 hd) x).ofLp ((normalCoordinates P hP 3 ⋯ ⋯ hd) x).ofLp (x.ofLp 3)
+LEAN_FINISHED_UTC 2026-10-06T12:56:09.466978+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

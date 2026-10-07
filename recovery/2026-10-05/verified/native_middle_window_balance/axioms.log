@@ -1,0 +1,15 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_middle_window_balance_readback.lean"]
+SOURCE_SHA256 b00409a1d82400abe842efcfa1829f0d2fb0dd0c2fa10ea04af00b462b4f1bf1
+FIFO compiler ticket: 01791183757167566161-7301c706796d44cc97e85de0e000e04f.request
+FIFO compiler acquired UTC: 2026-10-05T07:02:37.168474+00:00
+'NativeMiddleWindowBalance.HasMiddleScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleWindowBalance.radix_sq_le_of_transfer_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleWindowBalance.large_level_of_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleWindowBalance.coarse_upper_of_admission' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleWindowBalance.middle_old_parent_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleWindowBalance.middle_coarse_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleWindowBalance.HasOriginalBackbone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleWindowBalance.canonicalSchedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeMiddleWindowBalance.exists_middle_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

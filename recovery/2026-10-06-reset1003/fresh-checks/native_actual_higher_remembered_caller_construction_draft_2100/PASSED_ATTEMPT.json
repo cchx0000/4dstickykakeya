@@ -1,0 +1,511 @@
+{
+  "state": "passed",
+  "module": "Theorems.Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100",
+  "source": "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.lean",
+  "source_sha256": "94d3ae1b4d54a4f9ee887f71a42540df1dd671c9a421403c40d3a281ab9fda6b",
+  "olean_path": "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_actual_higher_remembered_caller_construction_draft_2100.olean",
+  "names": [
+    "NativeActualHigherKeyPopulationDraft1955.higherXIndex",
+    "NativeActualHigherKeyPopulationDraft1955.higherYIndex",
+    "NativeActualHigherKeyPopulationDraft1955.higherKey",
+    "NativeActualHigherKeyPopulationDraft1955.coarseHigherKey",
+    "NativeActualHigherKeyPopulationDraft1955.higherQuotient",
+    "NativeActualHigherKeyPopulationDraft1955.higherYIndex_readback",
+    "NativeActualHigherKeyPopulationDraft1955.higher_coordinates_injective",
+    "NativeActualHigherKeyPopulationDraft1955.higherX_fiber_card",
+    "NativeActualHigherKeyPopulationDraft1955.aligned_normal_scale",
+    "NativeActualHigherKeyPopulationDraft1955.aligned_mesh_in_source",
+    "NativeActualHigherKeyPopulationDraft1955.subset_card_le_point_cap",
+    "NativeActualHigherKeyPopulationDraft1955.occupied_class_point_lower",
+    "NativeActualHigherKeyPopulationDraft1955.occupied_class_label_lower",
+    "NativeActualHigherKeyPopulationDraft1955.dense_higher_X",
+    "NativeActualHigherKeyPopulationDraft1955.higher_Y_class_lower",
+    "NativePackedHigherCapacityDraft2006.packedQuotient",
+    "NativePackedHigherCapacityDraft2006.packedXKey",
+    "NativePackedHigherCapacityDraft2006.packedYIndex",
+    "NativePackedHigherCapacityDraft2006.packedHigherKey",
+    "NativePackedHigherCapacityDraft2006.packedCoarseKey",
+    "NativePackedHigherCapacityDraft2006.floor_equal_abs_le",
+    "NativePackedHigherCapacityDraft2006.same_joint_key_distance",
+    "NativePackedHigherCapacityDraft2006.joint_native_cell_capacity",
+    "NativePackedHigherCapacityDraft2006.packed_dense_X",
+    "NativePackedHigherCapacityDraft2006.packed_Y_class_lower",
+    "NativePackedHigherCapacityDraft2006.physical_difference_same_height",
+    "NativePackedHigherCapacityDraft2006.packedQuotient_sub",
+    "NativePackedHigherCapacityDraft2006.packedQuotient_smul",
+    "NativePackedHigherCapacityDraft2006.packedParentShift",
+    "NativePackedHigherCapacityDraft2006.packed_parent_readback",
+    "NativePackedHigherCapacityDraft2006.packed_quotient_motion",
+    "NativePackedHigherCapacityDraft2006.parent_scalar_witness",
+    "NativePackedHigherCapacityDraft2006.nearly_aligned_scalar_witnesses",
+    "NativePackedHigherCapacityDraft2006.normalizedLowerQuotient",
+    "NativePackedHigherCapacityDraft2006.normalized_lower_identity",
+    "NativePackedHigherCapacityDraft2006.first_aligned_native_scalar_witness",
+    "NativeFullYHaloCoverDraft2017.scalar_unit_interval_count",
+    "NativeFullYHaloCoverDraft2017.full_scalar_global_count",
+    "NativeFullYHaloCoverDraft2017.weaken_AD",
+    "NativeFullYHaloCoverDraft2017.shiftedScalar",
+    "NativeFullYHaloCoverDraft2017.scalarGrid",
+    "NativeFullYHaloCoverDraft2017.midpoint_error",
+    "NativeFullYHaloCoverDraft2017.inverse_grid_witness",
+    "NativeFullYHaloCoverDraft2017.global_grid_upper",
+    "NativeFullYHaloCoverDraft2017.scalar_halo_grid_upper",
+    "NativeFullYHaloCoverDraft2017.exponent_range_and_charge",
+    "NativeActualHigherTransferConstructionDraft2020.packed_coarse_scalar_readback",
+    "NativeActualHigherTransferConstructionDraft2020.first_aligned_native_Y_cover",
+    "NativeRememberedHigherKeyFactoryDraft2032.oldHeight",
+    "NativeRememberedHigherKeyFactoryDraft2032.oldHeight_readback",
+    "NativeRememberedHigherKeyFactoryDraft2032.source_cell_occurrence",
+    "NativeRememberedHigherKeyFactoryDraft2032.retained_cell_occurrence",
+    "NativeRememberedHigherKeyFactoryDraft2032.extraCount",
+    "NativeRememberedHigherKeyFactoryDraft2032.coarseRatio",
+    "NativeRememberedHigherKeyFactoryDraft2032.coarseXKey",
+    "NativeRememberedHigherKeyFactoryDraft2032.localXKey",
+    "NativeRememberedHigherKeyFactoryDraft2032.keyRelations",
+    "NativeRememberedHigherKeyFactoryDraft2032.factory",
+    "NativeRememberedHigherKeyFactoryDraft2032.factory_refl",
+    "NativeRememberedHigherKeyFactoryDraft2032.factory_symm",
+    "NativeRememberedHigherKeyFactoryDraft2032.reference_key_uniformities",
+    "NativeRememberedHigherKeyFactoryDraft2032.exists_reference_with_higher_keys",
+    "NativeRememberedAlignmentPatchDraft2036.normalChart",
+    "NativeRememberedAlignmentPatchDraft2036.normalChart_height",
+    "NativeRememberedAlignmentPatchDraft2036.normalChart_tangent",
+    "NativeRememberedAlignmentPatchDraft2036.chartRows",
+    "NativeRememberedAlignmentPatchDraft2036.normalChart_quotient",
+    "NativeRememberedAlignmentPatchDraft2036.normalized_chart_quotient",
+    "NativeRememberedAlignmentPatchDraft2036.permuted_witness_pullback",
+    "NativeRememberedAlignmentPatchDraft2036.actual_phase_Y_distance",
+    "NativeRememberedAlignmentPatchDraft2036.selected_key_center_mem",
+    "NativeRememberedAlignmentPatchDraft2036.selected_height_patch",
+    "NativeRememberedAlignmentPatchDraft2036.actual_old_height_scalar_family",
+    "NativeSecondReferencePaymentDraft2043.exists_volume_payment_cutoff",
+    "NativeSecondReferencePaymentDraft2043.native_input_at_half_eta0",
+    "NativeSecondReferencePaymentDraft2043.exists_original_cutoff",
+    "NativeHigherReferenceMassDraft2045.reference_factor_upper",
+    "NativeHigherReferenceMassDraft2045.actual_shading_to_reference_mass",
+    "NativeHigherReferenceMassDraft2045.normalized_reference_mass",
+    "NativeRememberedFinalTimeScalarDraft2054.timeCells",
+    "NativeRememberedFinalTimeScalarDraft2054.occupied_alignment_height",
+    "NativeRememberedFinalTimeScalarDraft2054.actual_final_time_scalar_family"
+  ],
+  "started_utc": "2026-10-06T21:44:28.104458+00:00",
+  "executor_epoch": "20261006T1003",
+  "scope": "fresh isolated output check after1510 transport loss; old incomplete attempts remain unknown; prior validated artifacts reused by exact hash",
+  "declarations_manifest_sha256": "6e16b3357824101c876841559cb6f4a9123dc324e08ac05e7eb235bfdf5eb644",
+  "declaration_coverage": "Exact namespace-qualified source declaration sequence equals the frozen manifest",
+  "source_exit_code": 0,
+  "olean_sha256": "161d5a60a41ebf489dea32eda31f1e4f01a856726768277125f5785b431dbdc9",
+  "artifact_unchanged": true,
+  "source_unchanged": true,
+  "source_finished_utc": "2026-10-06T21:47:21.089624+00:00",
+  "previous_readback_batch": null,
+  "recovery_note": "New isolated import after transport loss; former incomplete import has unknown terminal state",
+  "readback_batch": "/workspace/shared/sticky-recovery-20261006/verification/import-batch-20261006T2148",
+  "readback_exit_code": 0,
+  "axioms": {
+    "NativeActualHigherKeyPopulationDraft1955.higherXIndex": [],
+    "NativeActualHigherKeyPopulationDraft1955.higherYIndex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.higherKey": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.coarseHigherKey": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.higherQuotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.higherYIndex_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.higher_coordinates_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.higherX_fiber_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.aligned_normal_scale": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.aligned_mesh_in_source": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.subset_card_le_point_cap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.occupied_class_point_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.occupied_class_label_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.dense_higher_X": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherKeyPopulationDraft1955.higher_Y_class_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packedQuotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packedXKey": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packedYIndex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packedHigherKey": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packedCoarseKey": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.floor_equal_abs_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.same_joint_key_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.joint_native_cell_capacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packed_dense_X": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packed_Y_class_lower": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.physical_difference_same_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packedQuotient_sub": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packedQuotient_smul": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packedParentShift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packed_parent_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.packed_quotient_motion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.parent_scalar_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.nearly_aligned_scalar_witnesses": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.normalizedLowerQuotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.normalized_lower_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativePackedHigherCapacityDraft2006.first_aligned_native_scalar_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.scalar_unit_interval_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.full_scalar_global_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.weaken_AD": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.shiftedScalar": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.scalarGrid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.midpoint_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.inverse_grid_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.global_grid_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.scalar_halo_grid_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeFullYHaloCoverDraft2017.exponent_range_and_charge": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherTransferConstructionDraft2020.packed_coarse_scalar_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeActualHigherTransferConstructionDraft2020.first_aligned_native_Y_cover": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.oldHeight": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.oldHeight_readback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.source_cell_occurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.retained_cell_occurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.extraCount": [],
+    "NativeRememberedHigherKeyFactoryDraft2032.coarseRatio": [
+      "propext"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.coarseXKey": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.localXKey": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.keyRelations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.factory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.factory_refl": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.factory_symm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.reference_key_uniformities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedHigherKeyFactoryDraft2032.exists_reference_with_higher_keys": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.normalChart": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.normalChart_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.normalChart_tangent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.chartRows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.normalChart_quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.normalized_chart_quotient": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.permuted_witness_pullback": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.actual_phase_Y_distance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.selected_key_center_mem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.selected_height_patch": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedAlignmentPatchDraft2036.actual_old_height_scalar_family": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSecondReferencePaymentDraft2043.exists_volume_payment_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSecondReferencePaymentDraft2043.native_input_at_half_eta0": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeSecondReferencePaymentDraft2043.exists_original_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherReferenceMassDraft2045.reference_factor_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherReferenceMassDraft2045.actual_shading_to_reference_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeHigherReferenceMassDraft2045.normalized_reference_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedFinalTimeScalarDraft2054.timeCells": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedFinalTimeScalarDraft2054.occupied_alignment_height": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRememberedFinalTimeScalarDraft2054.actual_final_time_scalar_family": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "missing_names": [],
+  "extra_axioms": {},
+  "finished_utc": "2026-10-06T21:48:58.295138+00:00",
+  "canonical_scope": "new_canonical_module"
+}

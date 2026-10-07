@@ -1,0 +1,30 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_coarse_upper_interpolation",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_coarse_upper_interpolation.lean",
+  "source_sha256": "c2c88e41a05f530eca6dedb9af342bf8e07d26bf1874070da6bfe6c4472a71b4",
+  "names": [
+    "NativeCoarseUpperInterpolation.forward_upper",
+    "NativeCoarseUpperInterpolation.reverse_upper"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T07:16:43.076994+00:00",
+  "source_exit_code": 0,
+  "readback_exit_code": 0,
+  "missing_names": [],
+  "extra_axioms": {},
+  "axioms": {
+    "NativeCoarseUpperInterpolation.forward_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeCoarseUpperInterpolation.reverse_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "olean_sha256": "967bf9b6ec5bba34465c11e18fe8fe8678c8273ba462f418eb32fbebc0ae7beb",
+  "source_unchanged": true,
+  "executor_finished_utc": "2026-10-05T07:29:11.011880+00:00"
+}

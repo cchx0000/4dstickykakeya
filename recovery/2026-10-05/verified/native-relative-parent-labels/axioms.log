@@ -1,0 +1,15 @@
+COMMAND ["python3", "/workspace/scratch/5f2524fd4117/4dstickykakeya/scripts/lean-slot.py", "--slots", "2", "--lock-dir", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/live", "/workspace/shared/sticky-recovery-20261005/live/native_relative_parent_labels_readback.lean"]
+SOURCE_SHA256 93a47cef5ec3dc96c8d95e7bb6ad69a15077af6b200d7f5783588a268a98ea29
+FIFO compiler ticket: 01791175500785581531-f0692bc0275f41429f56a0498abde0d8.request
+FIFO compiler acquired UTC: 2026-10-05T04:45:34.616988+00:00
+'NativeRelativeParentLabels.actual_local_intercept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentLabels.actual_local_shifted_intercept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentLabels.relativeLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentLabels.projection' does not depend on any axioms
+'NativeRelativeParentLabels.projectionBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentLabels.relativeLabel_eq_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentLabels.projection_mem_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentLabels.projectionBox_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeRelativeParentLabels.relative_atom_original_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

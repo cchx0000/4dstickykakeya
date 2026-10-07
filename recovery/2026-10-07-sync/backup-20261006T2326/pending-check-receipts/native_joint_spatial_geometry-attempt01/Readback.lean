@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_joint_spatial_geometry
+set_option autoImplicit false
+#print axioms NativeJointSpatialGeometry.coarse_xy_old_dist
+#print axioms NativeJointSpatialGeometry.physical_neighbor
+#print axioms NativeJointSpatialGeometry.physical_fiber_card
+#print axioms NativeJointSpatialGeometry.physical_image_card

@@ -1,0 +1,8 @@
+import Theorems.Thm_StickyKakeya4_native_merged_point_offsets
+set_option autoImplicit false
+#print axioms NativeMergedPointOffsets.pointOffset
+#print axioms NativeMergedPointOffsets.pointOffset_witness
+#print axioms NativeMergedPointOffsets.pointOffset_norm_le
+#print axioms NativeMergedPointOffsets.old_cell_coherence_to_pointOffset
+#print axioms NativeMergedPointOffsets.residual_on_retained_source
+#print axioms NativeMergedPointOffsets.configured_direction_budget

@@ -1,0 +1,28 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T132923073754", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T132923073754/AggregateReadback.lean"]
+READBACK_SHA256 7d0c5106706fcdb92e8f260eaba40ba173eedb71bbd85ab60426532d536b8d9b
+Dedicated staging slot 3 acquired UTC: 2026-10-05T13:29:24.599635+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8018204 kB
+'NativeActualCompatibleConfiguration.HasCompatibleSquaredStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualCompatibleConfiguration.exists_actual_compatible_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeActualCompatibleConfiguration.pairedCount' does not depend on any axioms
+'NativeActualCompatibleConfiguration.pairedCount_eq' depends on axioms: [propext, Quot.sound]
+'NativeActualRichPacketLayers.computed_reference_budget_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRichPacketLayers.construct_rich_packet_layers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRichPacketLayers.original_point_mass_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRichPacketLayers.packetMass_eq_of_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRichPacketLayers.packet_overlap_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRichPacketLayers.real_le_referenceMinimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRichPacketLayers.referenceConstant' depends on axioms: [propext]
+'NativeActualRichPacketLayers.referenceConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeActualRichPacketLayers.threshold_ratio_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedNodeVertexCount.current_nodes_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedNodeVertexCount.current_tag_node' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedNodeVertexCount.layers_vertices_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedNodeVertexCount.sum_current_vertices_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTaggedNodeVertexCount.vertex_ancestor' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_matched_shadow_configured_geometry
+set_option autoImplicit false
+#print axioms NativeMatchedShadowConfiguredGeometry.distance_of_coordinates
+#print axioms NativeMatchedShadowConfiguredGeometry.point_front_distance
+#print axioms NativeMatchedShadowConfiguredGeometry.point_shadow_center_distance

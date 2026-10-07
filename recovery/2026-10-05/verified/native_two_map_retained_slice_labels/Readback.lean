@@ -1,0 +1,13 @@
+import Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_labels
+
+#print axioms NativeTwoMapRetainedSliceLabels.encode
+#print axioms NativeTwoMapRetainedSliceLabels.encode_height
+#print axioms NativeTwoMapRetainedSliceLabels.encode_left
+#print axioms NativeTwoMapRetainedSliceLabels.encode_right
+#print axioms NativeTwoMapRetainedSliceLabels.encode_injective
+#print axioms NativeTwoMapRetainedSliceLabels.coarse
+#print axioms NativeTwoMapRetainedSliceLabels.append_div
+#print axioms NativeTwoMapRetainedSliceLabels.encode_coarse
+#print axioms NativeTwoMapRetainedSliceLabels.image_encode_card
+#print axioms NativeTwoMapRetainedSliceLabels.encoded_fiber_eq
+#print axioms NativeTwoMapRetainedSliceLabels.encoded_uniformity

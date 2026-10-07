@@ -1,0 +1,15 @@
+import Theorems.Thm_StickyKakeya4_native_actual_new_cut_budget
+set_option autoImplicit false
+#print axioms NativeActualNewCutBudget.offsetCoefficient
+#print axioms NativeActualNewCutBudget.offsetCharge
+#print axioms NativeActualNewCutBudget.coherenceCharge
+#print axioms NativeActualNewCutBudget.newCutCharge
+#print axioms NativeActualNewCutBudget.fixedFactor
+#print axioms NativeActualNewCutBudget.newExponent
+#print axioms NativeActualNewCutBudget.offsetCharge_eq
+#print axioms NativeActualNewCutBudget.ceiling_power_bound
+#print axioms NativeActualNewCutBudget.offset_product_bound
+#print axioms NativeActualNewCutBudget.coherenceCharge_bound
+#print axioms NativeActualNewCutBudget.newCutCharge_bound
+#print axioms NativeActualNewCutBudget.stop_radius_le_mesh
+#print axioms NativeActualNewCutBudget.source_new_cut_cost

@@ -1,0 +1,9 @@
+import Theorems.Thm_StickyKakeya4_native_configured_tube_containment
+set_option autoImplicit false
+#print axioms NativeConfiguredTubeContainment.original_infDist
+#print axioms NativeConfiguredTubeContainment.original_infDist_sharp
+#print axioms NativeConfiguredTubeContainment.rounded_infDist
+#print axioms NativeConfiguredTubeContainment.rounded_mem_representative
+#print axioms NativeConfiguredTubeContainment.chart_pullback_dist
+#print axioms NativeConfiguredTubeContainment.charted_mem_representative
+#print axioms NativeConfiguredTubeContainment.actual_configured_mem_representative

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_same_Q_source_restriction
+set_option autoImplicit false
+#print axioms NativeSameQSourceRestriction.restrict
+#print axioms NativeSameQSourceRestriction.source_cells_restrict
+#print axioms NativeSameQSourceRestriction.source_incidences_restrict
+#print axioms NativeSameQSourceRestriction.rows_filter_parent
+#print axioms NativeSameQSourceRestriction.source_rows_restrict

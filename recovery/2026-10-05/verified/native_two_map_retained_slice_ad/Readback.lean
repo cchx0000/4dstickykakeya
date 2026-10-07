@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_two_map_retained_slice_ad
+
+#print axioms NativeTwoMapRetainedSliceAD.all_radius_bounds

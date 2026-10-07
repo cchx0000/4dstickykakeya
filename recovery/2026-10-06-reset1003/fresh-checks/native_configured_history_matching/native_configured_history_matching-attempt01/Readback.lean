@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_configured_history_matching
+set_option autoImplicit false
+#print axioms NativeConfiguredHistoryMatching.actual_history_matching
+#print axioms NativeConfiguredHistoryMatching.actual_history_population_depth

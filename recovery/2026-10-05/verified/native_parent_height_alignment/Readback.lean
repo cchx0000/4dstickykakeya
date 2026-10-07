@@ -1,0 +1,20 @@
+import Theorems.Thm_StickyKakeya4_native_parent_height_alignment
+
+#print axioms NativeParentHeightAlignment.fineNode
+#print axioms NativeParentHeightAlignment.nodeWeight
+#print axioms NativeParentHeightAlignment.nodeCut
+#print axioms NativeParentHeightAlignment.mem_nodeCut
+#print axioms NativeParentHeightAlignment.nodeWeight_total
+#print axioms NativeParentHeightAlignment.nodeCut_card
+#print axioms NativeParentHeightAlignment.nodeCut_subset
+#print axioms NativeParentHeightAlignment.nodeCut_saturated
+#print axioms NativeParentHeightAlignment.exists_height_aligned_nodes
+#print axioms NativeParentHeightAlignment.heightNode
+#print axioms NativeParentHeightAlignment.heightNode_readback
+#print axioms NativeParentHeightAlignment.heightNode_occupied
+#print axioms NativeParentHeightAlignment.spatialAncestor_self
+#print axioms NativeParentHeightAlignment.fine_heightNode_readback
+#print axioms NativeParentHeightAlignment.cut_heightNode_readback
+#print axioms NativeParentHeightAlignment.height_plane_readback
+#print axioms NativeParentHeightAlignment.nodeCut_mixed_fiber_eq
+#print axioms NativeParentHeightAlignment.nodeCut_mixed_vertices_eq

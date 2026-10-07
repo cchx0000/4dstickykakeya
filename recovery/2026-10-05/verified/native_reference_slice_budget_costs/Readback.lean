@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_reference_slice_budget_costs
+
+#print axioms NativeReferenceSliceBudgetCosts.first_retention_density_cost
+#print axioms NativeReferenceSliceBudgetCosts.pay_actual_costs
+#print axioms NativeReferenceSliceBudgetCosts.source_exponent_le
+#print axioms NativeReferenceSliceBudgetCosts.pay_source_costs

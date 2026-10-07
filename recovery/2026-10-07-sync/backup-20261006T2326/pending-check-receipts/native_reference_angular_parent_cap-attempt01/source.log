@@ -1,0 +1,88 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/62e9376a78a3027de090744a53570428f24cde825c9d9d765f48f4e2c86a10fa.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_reference_angular_parent_cap.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_reference_angular_parent_cap.lean"]
+SOURCE_SHA256 dde0db062513b04bd80f5a20043c9ef53dde10fb6208bcc5debb832129703cbe
+LOCK_ACQUIRED_UTC 2026-10-06T10:59:30.281103+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_reference_angular_parent_cap.lean:57:6: error: linarith failed to find a contradiction
+n : ℕ
+D : FiniteScaleSource n
+eta e : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+N : ℕ
+hN : 0 < N
+hscale : ↑N * D.thickness ≤ 1
+H :
+  ∀ (p : Parent),
+    {i | parentLabel D 0 N i = p}.Nonempty →
+      D.thickness ^ e * (1 / ↑N / D.thickness) ^ 3 ≤ ↑(#{i | parentLabel D 0 N i = p})
+I : Finset (Fin n)
+q : Fin 3 → ℤ
+hq : ∀ i ∈ I, slopeCell D N i = q
+Q : Finset Parent := image (parentLabel D 0 N) I
+delta : ℝ := 64 / ↑N
+rep : Parent → Fin n := representative h univ 0 N
+hNr : 0 < ↑N
+hd : 0 < delta
+hQ : Q ⊆ image (parentLabel D 0 N) univ
+hrep : ∀ p ∈ Q, parentLabel D 0 N (rep p) = p
+p : Parent
+hp : p ∈ Q
+j : Fin 3
+i : Fin n
+hi : i ∈ I
+hip : parentLabel D 0 N i = p
+he : parentLabel D 0 N i = parentLabel D 0 N (rep p)
+hclose :
+  |NativeOriginalCellChartGeometry.slope (D.line i) j - NativeOriginalCellChartGeometry.slope (D.line (rep p)) j| ≤
+    1 / ↑N
+hang : ⌊NativeOriginalCellChartGeometry.slope (D.line i) j / delta⌋ = q j
+hlo : ↑(q j) * delta ≤ NativeOriginalCellChartGeometry.slope (D.line i) j
+hhi : NativeOriginalCellChartGeometry.slope (D.line i) j < (↑(q j) + 1) * delta
+hpos : 0 < 1 / ↑N
+a✝ : 64 / ↑N / 2 < 1 / ↑N
+⊢ False
+failed
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_reference_angular_parent_cap.lean:122:17: error: don't know how to synthesize implicit argument `a`
+  @NativeSameReferenceChartBounds.source_scale_guard n D eta ?m.141 h R Eref level m b p hdy hmb
+context:
+n : ℕ
+D : FiniteScaleSource n
+eta localEta a zeta e : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+R : Finset (Fin n)
+level : ℕ
+HB : NativeMiddleWindowBalance.HasOriginalBackbone D original R a level zeta
+Eref : Finset (Fin n × Index)
+m b : ℕ
+hmb : m + b ≤ level
+p : Parent
+hReferenceNative : IsWangZakharovNativeFiniteInput (source h R Eref a m p) localEta
+hbudget : 64 ^ 3 * (source h R Eref a m p).thickness ^ e ≤ D.thickness ^ zeta
+I : Finset (Fin #(parentLabels D R a (2 ^ m) p))
+S : FiniteScaleSource #(parentLabels D R a (2 ^ m) p) := ⋯
+hdy : D.thickness = 2⁻¹ ^ level
+⊢ ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_reference_angular_parent_cap.lean:122:7: error: failed to infer `have` declaration type
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_reference_angular_parent_cap.lean:119:90: error: unsolved goals
+n : ℕ
+D : FiniteScaleSource n
+eta localEta a zeta e : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+R : Finset (Fin n)
+level : ℕ
+HB : NativeMiddleWindowBalance.HasOriginalBackbone D original R a level zeta
+Eref : Finset (Fin n × Index)
+m b : ℕ
+hmb : m + b ≤ level
+p : Parent
+hReferenceNative : IsWangZakharovNativeFiniteInput (source h R Eref a m p) localEta
+hbudget : 64 ^ 3 * (source h R Eref a m p).thickness ^ e ≤ D.thickness ^ zeta
+I : Finset (Fin #(parentLabels D R a (2 ^ m) p))
+S : FiniteScaleSource #(parentLabels D R a (2 ^ m) p) := source h R Eref a m p
+hdy : D.thickness = 2⁻¹ ^ level
+⊢ ↑(#(image (parentLabel S 0 (2 ^ b)) I)) ≤ 5832 * 130 ^ 3 * S.thickness ^ (-e) * ↑(#(image (slopeCell S (2 ^ b)) I))
+LEAN_FINISHED_UTC 2026-10-06T11:01:25.496347+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

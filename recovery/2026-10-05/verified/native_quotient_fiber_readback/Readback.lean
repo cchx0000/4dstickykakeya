@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_quotient_fiber_readback
+
+#print axioms NativeQuotientFiberReadback.product_fiber_image
+#print axioms NativeQuotientFiberReadback.product_fiber_card
+#print axioms NativeQuotientFiberReadback.actual_referenceX_card

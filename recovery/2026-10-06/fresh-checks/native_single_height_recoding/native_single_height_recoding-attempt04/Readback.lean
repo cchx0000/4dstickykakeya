@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_single_height_recoding
+set_option autoImplicit false
+#print axioms NativeSingleHeightRecoding.heightColor
+#print axioms NativeSingleHeightRecoding.select_one_old_height
+#print axioms NativeSingleHeightRecoding.coarse_height_readback
+#print axioms NativeSingleHeightRecoding.select_original_edges
+#print axioms NativeSingleHeightRecoding.frozen_matrix_consistency

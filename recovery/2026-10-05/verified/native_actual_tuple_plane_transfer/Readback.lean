@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_actual_tuple_plane_transfer
+
+#print axioms NativeActualTuplePlaneTransfer.chain_span_finrank
+#print axioms NativeActualTuplePlaneTransfer.actual_chain_plane_transfer
+#print axioms NativeActualTuplePlaneTransfer.exists_global_plane_representatives

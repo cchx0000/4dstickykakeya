@@ -1,0 +1,251 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/353011ea53aa0b00891171bc27ba29a7e953cf68631551683498af98438cf912.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/2.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/olean/Theorems/Thm_StickyKakeya4_native_actual_sparse_reference_admission.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_sparse_reference_admission.lean"]
+SOURCE_SHA256 5ca9fe05f9447e211a52ec105160b463b5204271f5f3e2eeeba4b8a1b920b834
+LOCK_ACQUIRED_UTC 2026-10-06T13:39:54.008658+00:00
+SHARED_SLOT 2
+LEAN_PID 59
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_sparse_reference_admission.lean:89:17: error: don't know how to synthesize implicit argument `a`
+  @source_scale_guard n D eta ?m.744 h R Eref level m b p hdy hmb
+context:
+e window : ℝ
+he : 0 < e
+hw : 0 < window
+eps0 : ℝ
+heps0 : 0 < eps0
+_hepsSmall : eps0 ≤ 1 / 128
+Hadmit :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta : ℝ) (h : IsWangZakharovNativeFiniteInput D eta),
+    (∀ (i : Fin n), D.line i ∈ fixedCompactClass) →
+      D.thickness ≤ eps0 →
+        eta ≤ window * e / 16 / 16 →
+          ∀ (original : Fin n → Finset Index) (a : ℝ) (level : ℕ) (R : Finset (Fin n)) (E : Finset (Fin n × Index)),
+            (∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i) →
+              D.thickness = 2⁻¹ ^ level →
+                (∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)) →
+                  R.Nonempty →
+                    E ⊆ NativeCoarseShadingCapacity.retained original R →
+                      (∀ (ell : Fin (level + 1)) (p : Parent),
+                          {i ∈ R | parentLabel D a (2 ^ ↑ell) i = p}.Nonempty →
+                            D.thickness ^ (window * e / 16) * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3 ≤
+                                ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ∧
+                              ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ≤
+                                D.thickness ^ (-(window * e / 16)) * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3) →
+                        ∀ (b : ℕ) (F : ℝ),
+                          6 ≤ b →
+                            b ≤ level →
+                              D.thickness ≤ 1 / ↑(2 ^ b) →
+                                64 / ↑(2 ^ b) ≤ D.thickness ^ window →
+                                  0 < F →
+                                    F ≤ (64 / ↑(2 ^ b)) ^ (-(e / 32)) →
+                                      ↑(#(incidences original)) ≤ F * ↑(#E) →
+                                        let rep := NativeCoarseDirectionThinning.representative h R a (2 ^ b);
+                                        ∃ Q,
+                                          ∃ (hsep :
+                                            ∀ p ∈ Q,
+                                              ∀ q ∈ Q,
+                                                p ≠ q →
+                                                  64 / ↑(2 ^ b) ≤
+                                                    dist (direction (D.line (rep p))) (direction (D.line (rep q)))),
+                                            Q ⊆ image (parentLabel D a (2 ^ b)) R ∧
+                                              Q.Nonempty ∧
+                                                have C := NativeCoarseCellSource.source h a level b Q rep E hsep;
+                                                IsWangZakharovNativeFiniteInput C e ∧
+                                                  (∀ (i : Fin #Q), C.line i ∈ fixedCompactClass) ∧
+                                                    (ENNReal.ofReal (64 / ↑(2 ^ b))).rpow (7 * e / 16) *
+                                                          NativeFiniteKakeyaCounts.multiplicity
+                                                            (NativeFullCoarseShadow.fullSource h R a level b E) ≤
+                                                        NativeFiniteKakeyaCounts.multiplicity C ∧
+                                                      (64 / ↑(2 ^ b)) ^ (5 * e / 16) ≤ (wzTotalShadingVolume C).toReal
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+R : Finset (Fin n)
+level : ℕ
+a zeta : ℝ
+hzeta : 0 ≤ zeta
+Eref H T : Finset (Fin n × Index)
+m : ℕ
+p : Parent
+etaRef : ℝ
+href : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaRef
+hTE : T ⊆ Eref
+hEorig : Eref ⊆ incidences original
+hQ : ∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p
+hsmall : (source h R Eref a m p).thickness ≤ eps0
+heta : etaRef ≤ window * e / 256
+hprofile : 64 ^ 3 * (source h R Eref a m p).thickness ^ (window * e / 16) ≤ D.thickness ^ zeta
+population cost : ℝ
+hpop : 0 < population
+hcost : 0 < cost
+hparent : population * ↑(#(parentLabels D R a (2 ^ m) p)) ≤ D.thickness * ↑(#H)
+hretain : ↑(#H) ≤ cost * ↑(#T)
+b : ℕ
+hb : 6 ≤ b
+hmb : m + b ≤ level
+hwindow : 64 / ↑(2 ^ b) ≤ (source h R Eref a m p).thickness ^ window
+hpaid : retentionFactor cost population ≤ (64 / ↑(2 ^ b)) ^ (-(e / 32))
+Sref : FiniteScaleSource #(parentLabels D R a (2 ^ m) p) := ⋯
+IT : Finset (Fin #(parentLabels D R a (2 ^ m) p) × Index) := ⋯
+rep : Parent → Fin #(parentLabels D R a (2 ^ m) p) := ⋯
+hm : m ≤ level
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+hdy : D.thickness = 2⁻¹ ^ level
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+_hR : R.Nonempty
+_hcard : n ≤ 2 * #R
+_hshade : wzTotalShadingVolume D ≤ 2 * NativeOriginalPrunedMass.shadingMass D R
+_hden :
+  (ENNReal.ofReal D.thickness).rpow zeta * NativeOriginalPrunedMass.tubeMass D R ≤
+    NativeOriginalPrunedMass.shadingMass D R
+_hCW :
+  ∀ (U : Set E4),
+    Convex ℝ U →
+      ↑(#({i ∈ R | markedUnitTube (D.line i) D.thickness ⊆ U})) ≤
+        (ENNReal.ofReal D.thickness).rpow (-zeta) * volume U * ↑(#R)
+Hpop :
+  ∀ (ell : Fin (level + 1)) (p : Parent),
+    {i ∈ R | parentLabel D a (2 ^ ↑ell) i = p}.Nonempty →
+      D.thickness ^ zeta * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3 ≤ ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ∧
+        ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ≤ D.thickness ^ (-zeta) * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3
+hTorig : T ⊆ incidences original
+hret :
+  ↑(#(incidences (sourceCells D R Eref a (2 ^ m) p))) ≤
+    1024 * 175616 * NativeOriginalPrunedMass.volumeConstant * cost / population *
+      ↑(#(incidences (sourceCells D R T a (2 ^ m) p)))
+hF : 0 < retentionFactor cost population
+hRref : univ.Nonempty
+hE : IT ⊆ NativeOriginalParentDensityCore.retained (sourceCells D R Eref a (2 ^ m) p) univ
+hProfiles : OriginalPopulationLaw (source h R Eref a m p) univ 0 (window * e / 16) (level - m + 6)
+hcompact : ∀ (i : Fin #(parentLabels D R a (2 ^ m) p)), Sref.line i ∈ fixedCompactClass
+⊢ ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_sparse_reference_admission.lean:89:7: error: failed to infer `have` declaration type
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_actual_sparse_reference_admission.lean:61:71: error: unsolved goals
+e window : ℝ
+he : 0 < e
+hw : 0 < window
+eps0 : ℝ
+heps0 : 0 < eps0
+_hepsSmall : eps0 ≤ 1 / 128
+Hadmit :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta : ℝ) (h : IsWangZakharovNativeFiniteInput D eta),
+    (∀ (i : Fin n), D.line i ∈ fixedCompactClass) →
+      D.thickness ≤ eps0 →
+        eta ≤ window * e / 16 / 16 →
+          ∀ (original : Fin n → Finset Index) (a : ℝ) (level : ℕ) (R : Finset (Fin n)) (E : Finset (Fin n × Index)),
+            (∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i) →
+              D.thickness = 2⁻¹ ^ level →
+                (∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)) →
+                  R.Nonempty →
+                    E ⊆ NativeCoarseShadingCapacity.retained original R →
+                      (∀ (ell : Fin (level + 1)) (p : Parent),
+                          {i ∈ R | parentLabel D a (2 ^ ↑ell) i = p}.Nonempty →
+                            D.thickness ^ (window * e / 16) * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3 ≤
+                                ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ∧
+                              ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ≤
+                                D.thickness ^ (-(window * e / 16)) * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3) →
+                        ∀ (b : ℕ) (F : ℝ),
+                          6 ≤ b →
+                            b ≤ level →
+                              D.thickness ≤ 1 / ↑(2 ^ b) →
+                                64 / ↑(2 ^ b) ≤ D.thickness ^ window →
+                                  0 < F →
+                                    F ≤ (64 / ↑(2 ^ b)) ^ (-(e / 32)) →
+                                      ↑(#(incidences original)) ≤ F * ↑(#E) →
+                                        let rep := NativeCoarseDirectionThinning.representative h R a (2 ^ b);
+                                        ∃ Q,
+                                          ∃ (hsep :
+                                            ∀ p ∈ Q,
+                                              ∀ q ∈ Q,
+                                                p ≠ q →
+                                                  64 / ↑(2 ^ b) ≤
+                                                    dist (direction (D.line (rep p))) (direction (D.line (rep q)))),
+                                            Q ⊆ image (parentLabel D a (2 ^ b)) R ∧
+                                              Q.Nonempty ∧
+                                                have C := NativeCoarseCellSource.source h a level b Q rep E hsep;
+                                                IsWangZakharovNativeFiniteInput C e ∧
+                                                  (∀ (i : Fin #Q), C.line i ∈ fixedCompactClass) ∧
+                                                    (ENNReal.ofReal (64 / ↑(2 ^ b))).rpow (7 * e / 16) *
+                                                          NativeFiniteKakeyaCounts.multiplicity
+                                                            (NativeFullCoarseShadow.fullSource h R a level b E) ≤
+                                                        NativeFiniteKakeyaCounts.multiplicity C ∧
+                                                      (64 / ↑(2 ^ b)) ^ (5 * e / 16) ≤ (wzTotalShadingVolume C).toReal
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+R : Finset (Fin n)
+level : ℕ
+a zeta : ℝ
+hzeta : 0 ≤ zeta
+Eref H T : Finset (Fin n × Index)
+m : ℕ
+p : Parent
+etaRef : ℝ
+href : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaRef
+hTE : T ⊆ Eref
+hEorig : Eref ⊆ incidences original
+hQ : ∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p
+hsmall : (source h R Eref a m p).thickness ≤ eps0
+heta : etaRef ≤ window * e / 256
+hprofile : 64 ^ 3 * (source h R Eref a m p).thickness ^ (window * e / 16) ≤ D.thickness ^ zeta
+population cost : ℝ
+hpop : 0 < population
+hcost : 0 < cost
+hparent : population * ↑(#(parentLabels D R a (2 ^ m) p)) ≤ D.thickness * ↑(#H)
+hretain : ↑(#H) ≤ cost * ↑(#T)
+b : ℕ
+hb : 6 ≤ b
+hmb : m + b ≤ level
+hwindow : 64 / ↑(2 ^ b) ≤ (source h R Eref a m p).thickness ^ window
+hpaid : retentionFactor cost population ≤ (64 / ↑(2 ^ b)) ^ (-(e / 32))
+Sref : FiniteScaleSource #(parentLabels D R a (2 ^ m) p) := source h R Eref a m p
+IT : Finset (Fin #(parentLabels D R a (2 ^ m) p) × Index) := incidences (sourceCells D R T a (2 ^ m) p)
+rep : Parent → Fin #(parentLabels D R a (2 ^ m) p) := NativeCoarseDirectionThinning.representative href univ 0 (2 ^ b)
+hm : m ≤ level
+horiginal : ∀ (i : Fin n), D.shading i = wzCellShading (mesh D) original i
+hdy : D.thickness = 2⁻¹ ^ level
+ha : ∀ (i : Fin n), wzGraphTime (D.line i) a - mark (D.line i) ∈ Set.Icc (-(1 / 2)) (1 / 2)
+_hR : R.Nonempty
+_hcard : n ≤ 2 * #R
+_hshade : wzTotalShadingVolume D ≤ 2 * NativeOriginalPrunedMass.shadingMass D R
+_hden :
+  (ENNReal.ofReal D.thickness).rpow zeta * NativeOriginalPrunedMass.tubeMass D R ≤
+    NativeOriginalPrunedMass.shadingMass D R
+_hCW :
+  ∀ (U : Set E4),
+    Convex ℝ U →
+      ↑(#({i ∈ R | markedUnitTube (D.line i) D.thickness ⊆ U})) ≤
+        (ENNReal.ofReal D.thickness).rpow (-zeta) * volume U * ↑(#R)
+Hpop :
+  ∀ (ell : Fin (level + 1)) (p : Parent),
+    {i ∈ R | parentLabel D a (2 ^ ↑ell) i = p}.Nonempty →
+      D.thickness ^ zeta * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3 ≤ ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ∧
+        ↑(#({i ∈ R | parentLabel D a (2 ^ ↑ell) i = p})) ≤ D.thickness ^ (-zeta) * (1 / ↑(2 ^ ↑ell) / D.thickness) ^ 3
+hTorig : T ⊆ incidences original
+hret :
+  ↑(#(incidences (sourceCells D R Eref a (2 ^ m) p))) ≤
+    1024 * 175616 * NativeOriginalPrunedMass.volumeConstant * cost / population *
+      ↑(#(incidences (sourceCells D R T a (2 ^ m) p)))
+hF : 0 < retentionFactor cost population
+hRref : univ.Nonempty
+hE : IT ⊆ NativeOriginalParentDensityCore.retained (sourceCells D R Eref a (2 ^ m) p) univ
+hProfiles : OriginalPopulationLaw (source h R Eref a m p) univ 0 (window * e / 16) (level - m + 6)
+hcompact : ∀ (i : Fin #(parentLabels D R a (2 ^ m) p)), Sref.line i ∈ fixedCompactClass
+⊢ ∃ Q,
+    ∃ (hsep :
+      ∀ u ∈ Q, ∀ v ∈ Q, u ≠ v → 64 / ↑(2 ^ b) ≤ dist (direction (Sref.line (rep u))) (direction (Sref.line (rep v)))),
+      Q ⊆ image (parentLabel Sref 0 (2 ^ b)) univ ∧
+        Q.Nonempty ∧
+          let C := NativeCoarseCellSource.source href 0 (level - m + 6) b Q rep IT hsep;
+          IsWangZakharovNativeFiniteInput C e ∧
+            (∀ (i : Fin #Q), C.line i ∈ fixedCompactClass) ∧
+              (ENNReal.ofReal (64 / ↑(2 ^ b))).rpow (7 * e / 16) *
+                    NativeFiniteKakeyaCounts.multiplicity
+                      (NativeFullCoarseShadow.fullSource href univ 0 (level - m + 6) b IT) ≤
+                  NativeFiniteKakeyaCounts.multiplicity C ∧
+                (64 / ↑(2 ^ b)) ^ (5 * e / 16) ≤ (wzTotalShadingVolume C).toReal
+LEAN_FINISHED_UTC 2026-10-06T13:44:31.105765+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

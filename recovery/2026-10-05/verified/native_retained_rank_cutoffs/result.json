@@ -1,0 +1,59 @@
+{
+  "module": "Theorems.Thm_StickyKakeya4_native_retained_rank_cutoffs",
+  "source": "/workspace/shared/sticky-recovery-20261005/live/Theorems/Thm_StickyKakeya4_native_retained_rank_cutoffs.lean",
+  "source_sha256": "b8e6d51271a14e3c71c4b797650cd9e8743359aed26974b85d1577d9b7ae8408",
+  "source_root": "/workspace/shared/sticky-recovery-20261005/live",
+  "olean_root": "/workspace/shared/sticky-recovery-20261005/olean",
+  "olean_path": "/workspace/shared/sticky-recovery-20261005/olean/Theorems/Thm_StickyKakeya4_native_retained_rank_cutoffs.olean",
+  "names": [
+    "NativeRetainedRankCutoffs.finePointMenu",
+    "NativeRetainedRankCutoffs.finePointMenu_refl",
+    "NativeRetainedRankCutoffs.finePointMenu_symm",
+    "NativeRetainedRankCutoffs.finePointMenu_uniformities",
+    "NativeRetainedRankCutoffs.exists_rank_half_mass_cutoff",
+    "NativeRetainedRankCutoffs.exists_rank_rounding_cutoff"
+  ],
+  "state": "passed",
+  "executor_started_utc": "2026-10-05T10:42:00.952228+00:00",
+  "source_exit_code": 0,
+  "source_unchanged": true,
+  "olean_sha256": "ded892c1a2dca060d833c3e1017afdce09b7010e2ba8d641d0449f8083898ffe",
+  "source_execution_complete_utc": "2026-10-05T10:44:21.033839+00:00",
+  "independent_axiom_audit_pending": false,
+  "axiom_batch": "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T105104169928",
+  "readback_exit_code": 0,
+  "artifact_unchanged": true,
+  "missing_names": [],
+  "duplicate_names": [],
+  "axioms": {
+    "NativeRetainedRankCutoffs.finePointMenu": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedRankCutoffs.finePointMenu_refl": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedRankCutoffs.finePointMenu_symm": [
+      "propext",
+      "Quot.sound"
+    ],
+    "NativeRetainedRankCutoffs.finePointMenu_uniformities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedRankCutoffs.exists_rank_half_mass_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NativeRetainedRankCutoffs.exists_rank_rounding_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "extra_axioms": {},
+  "executor_finished_utc": "2026-10-05T10:56:18.735490+00:00"
+}

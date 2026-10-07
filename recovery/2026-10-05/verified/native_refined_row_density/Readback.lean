@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_refined_row_density
+
+#print axioms NativeRefinedRowDensity.finest_pair_scale_valid
+#print axioms NativeRefinedRowDensity.finest_rich_row_bounds
+#print axioms NativeRefinedRowDensity.two_stage_finest_row_bounds

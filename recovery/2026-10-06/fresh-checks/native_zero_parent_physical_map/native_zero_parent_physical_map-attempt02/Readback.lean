@@ -1,0 +1,5 @@
+import Theorems.Thm_StickyKakeya4_native_zero_parent_physical_map
+set_option autoImplicit false
+#print axioms NativeZeroParentPhysicalMap.zero_map
+#print axioms NativeZeroParentPhysicalMap.zero_map_dist
+#print axioms NativeZeroParentPhysicalMap.zero_map_source_independent

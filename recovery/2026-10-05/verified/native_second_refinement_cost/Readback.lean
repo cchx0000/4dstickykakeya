@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_second_refinement_cost
+
+#print axioms NativeSecondRefinementCost.retained_cost_le_factor
+#print axioms NativeSecondRefinementCost.exists_second_refinement_cost

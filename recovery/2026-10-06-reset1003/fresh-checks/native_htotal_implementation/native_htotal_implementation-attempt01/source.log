@@ -1,0 +1,479 @@
+COMMAND ["python", "/workspace/shared/sticky-recovery-20261006/run_locked_lean.py", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/918b69b9cf2182de7d4ee47806f10e5f2a51ef9730207aedbce4ae379fd9a4cf.lock", "/workspace/shared/sticky-recovery-20261006/global-lean-locks/3.lock", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261006/live", "-o", "/workspace/shared/sticky-recovery-20261006/runtime-20261006T1519/olean/Theorems/Thm_StickyKakeya4_native_htotal_implementation.olean", "/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean"]
+SOURCE_SHA256 06bbc688bc26bd9c20a5b9542e7de45b9dfbbbe43b9bb6a14cd12931ae9e9198
+LOCK_ACQUIRED_UTC 2026-10-06T19:53:08.104346+00:00
+SHARED_SLOT 3
+LEAN_PID 58
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:54:23: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:85:31: error: Type mismatch: After simplification, term
+  hret
+ has type
+  menuFraction zeta c * ↑(#(image key T)) ≤ ↑(bins + 1) * (↑(u + 10) ^ 2 * 2) * ↑(#selected)
+but is expected to have type
+  menuFraction zeta c * ↑(#(image key T)) ≤ N * ↑(#selected)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:243:27: error: `field_simp` made no progress on the goal
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:273:41: error: unsolved goals
+u : ℕ
+⊢ 64 ^ 2 = 4096
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:298:4: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:303:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (source h R Eref a m p).thickness ^ 2 * rho m ^ 2
+in the target expression
+  rho m ^ 2 * (source h R Eref a m p).thickness ^ 2 ≤ rho m ^ 2 * D.thickness
+
+n : ℕ
+D : FiniteScaleSource n
+eta a : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+R : Finset (Fin n)
+Eref : Finset (Fin n × Index)
+m : ℕ
+p : Parent
+hscale : D.thickness ≤ rho m ^ 2
+hrho : 0 < rho m
+hd : 0 < D.thickness
+hid : (source h R Eref a m p).thickness * rho m = D.thickness
+hh : D.thickness * D.thickness ≤ D.thickness * rho m ^ 2
+he : (source h R Eref a m p).thickness ^ 2 * rho m ^ 2 = D.thickness ^ 2
+⊢ rho m ^ 2 * (source h R Eref a m p).thickness ^ 2 ≤ rho m ^ 2 * D.thickness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:334:4: error: Type mismatch: After simplification, term
+  hh
+ has type
+  (tau / rho)⁻¹ ≤ (eps / 8) ^ chi
+but is expected to have type
+  rho / tau ≤ (eps / 8) ^ chi
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:376:4: error: Type mismatch: After simplification, term
+  hh
+ has type
+  r ^ (a * (E / 8192)) * B ≤ 1
+but is expected to have type
+  r ^ (chi * window / 2 * (E / 8192)) * (5 ^ 4 * 32768 ^ zeta53 / 16) ≤ 1
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:380:4: error: Type mismatch
+  LE.le.trans hm (Real.rpow_le_rpow_of_nonpos hr hLower (neg_nonpos.mpr (LT.lt.le hmenuTax)))
+has type
+  2 * (↑u + 10) ^ 2 * (↑bins + 1) ≤ r ^ (-menuTax)
+but is expected to have type
+  2 * ↑(u + 10) ^ 2 * ↑(bins + 1) ≤ r ^ (-menuTax)
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:435:10: error: No goals to be solved
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:572:14: error: don't know how to synthesize implicit argument `a`
+  @source_scale_guard n D eta ?m.1495 h R Eref level m (u + 12) p HB.right.left hmb
+context:
+E zeta53 chi window eB c3 menuTax : ℝ
+hE : 0 < E
+_hzeta53 : 0 < zeta53
+hzetaSmall : zeta53 ≤ E / 16384
+hchi : 0 < chi
+hw : 0 < window
+heB : 0 < eB
+hc3 : 0 ≤ c3
+hmenuTax : 0 < menuTax
+htax : 5 * eB / 16 + 2 * c3 + menuTax ≤ window * chi / 2 * (E / 16384)
+bins : ℕ
+rCut : ℝ
+hrCut : 0 < rCut
+hrCut1 : rCut ≤ 1
+Hcut :
+  ∀ (r : ℝ),
+    0 < r →
+      r ≤ rCut →
+        32768 * r ^ (window * chi / 2) ≤ 1 ∧
+          5 ^ 4 * 32768 ^ zeta53 / 16 * r ^ (window * chi / 2 * (E / 8192)) ≤ 1 ∧
+            ∀ (u : ℕ), r ≤ 2⁻¹ ^ (u + 6) → 2⁻¹ ^ (u + 6) ≤ r ^ window → 2 * ↑(u + 10) ^ 2 * ↑(bins + 1) ≤ r ^ (-menuTax)
+baseCut : ℝ
+hbaseCut : 0 < baseCut
+Hsource :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta : ℝ) (h : IsWangZakharovNativeFiniteInput D eta)
+    (original : Fin n → Finset Index) (R : Finset (Fin n)) (level : ℕ) (a zeta : ℝ),
+    0 ≤ zeta →
+      HasOriginalBackbone D original R a level zeta →
+        ∀ (Eref H T : Finset (Fin n × Index)) (m : ℕ),
+          6 ≤ m →
+            ∀ (p : Parent) (etaRef : ℝ) (href : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaRef),
+              T ⊆ Eref →
+                Eref ⊆ incidences original →
+                  (∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p) →
+                    (source h R Eref a m p).thickness ≤ baseCut →
+                      etaRef ≤ window * eB / 256 →
+                        64 ^ 3 * (source h R Eref a m p).thickness ^ (window * eB / 16) ≤ D.thickness ^ zeta →
+                          ∀ (population cost : ℝ),
+                            0 < population →
+                              0 < cost →
+                                population * ↑(#(parentLabels D R a (2 ^ m) p)) ≤ D.thickness * ↑(#H) →
+                                  ↑(#H) ≤ cost * ↑(#T) →
+                                    ∀ (u : ℕ),
+                                      m + (u + 12) ≤ level →
+                                        64 / ↑(2 ^ (u + 12)) ≤ (source h R Eref a m p).thickness ^ window →
+                                          retentionFactor cost population ≤ (64 / ↑(2 ^ (u + 12))) ^ (-(eB / 32)) →
+                                            ∀ (P : Submodule ℝ E4) (hP : P ≤ heightKernel)
+                                              (hd : Module.finrank ℝ ↥P = 1) (F Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ),
+                                              (∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |F t u v| ≤ 1 / 4) →
+                                                (∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |Fcfg t u v| ≤ 1 / 4) →
+                                                  ∀ (R0 : ℕ),
+                                                    0 < R0 →
+                                                      rho m ≤ mu m * ↑R0 →
+                                                        mu m * ↑R0 = 4096 / ↑(2 ^ (u + 12)) →
+                                                          ∀ (d bins Q : ℕ)
+                                                            (extra : Fin d → Fin n × Index → Fin n × Index → Prop),
+                                                            (∀ (j : Fin (d + 3)) (x y : Fin n × Index),
+                                                                x ∈ T →
+                                                                  y ∈ T →
+                                                                    degree (fun x => 1)
+                                                                        (completeRelations D a m p Split.oneTwo P hP hd
+                                                                          F Fcfg R0 u extra j)
+                                                                        T x ≤
+                                                                      Q ^ 2 * degree (fun x => 1) ⋯ T y) →
+                                                              let key := fun z =>
+                                                                coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2;
+                                                              have cfg :=
+                                                                NativeActualConfiguredPoint.point D a m p Split.oneTwo P
+                                                                  hP hd F Fcfg R0;
+                                                              have graph := fun z =>
+                                                                (cfg z.2, outputTube h R Eref a m (u + 12) p href z.1);
+                                                              ∀ (t zeta53 chi : ℝ)
+                                                                (W : (height : ↥⋯) → HeightAlignment ⋯ u t zeta53 chi ⋯)
+                                                                (bin : ℝ → Fin (bins + 1)), ∃ c, ⋯
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+R : Finset (Fin n)
+level : ℕ
+a zeta : ℝ
+hzeta : 0 ≤ zeta
+HB : HasOriginalBackbone D original R a level zeta
+Eref H T : Finset (Fin n × Index)
+m : ℕ
+hm : 6 ≤ m
+hscale : D.thickness ≤ rho m ^ 2
+p : Parent
+etaRef : ℝ
+href : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaRef
+hTE : T ⊆ Eref
+hEorig : Eref ⊆ incidences original
+hparent : ∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p
+hsmall : (source h R Eref a m p).thickness ≤ min rCut baseCut
+heta : etaRef ≤ window * eB / 256
+hprofile : 64 ^ 3 * (source h R Eref a m p).thickness ^ (window * eB / 16) ≤ D.thickness ^ zeta
+population cost : ℝ
+hpop : 0 < population
+hcost : 0 < cost
+hpopulation : population * ↑(#(parentLabels D R a (2 ^ m) p)) ≤ D.thickness * ↑(#H)
+hretain : ↑(#H) ≤ cost * ↑(#T)
+u : ℕ
+hmb : m + (u + 12) ≤ level
+hwindow : 64 / ↑(2 ^ (u + 12)) ≤ (source h R Eref a m p).thickness ^ window
+hpaid : retentionFactor cost population ≤ (64 / ↑(2 ^ (u + 12))) ^ (-(eB / 32))
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+F Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+hF : ∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |F t u v| ≤ 1 / 4
+hCfg : ∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |Fcfg t u v| ≤ 1 / 4
+R0 : ℕ
+hR0 : 0 < R0
+hbase : rho m ≤ mu m * ↑R0
+hmatch : mu m * ↑R0 = 4096 / ↑(2 ^ (u + 12))
+d Q F3 : ℕ
+extra : Fin d → Fin n × Index → Fin n × Index → Prop
+hF3 : 1 ≤ F3
+H3 : ↑F3 * ↑Q ^ 4 ≤ D.thickness ^ (-c3)
+Hrel :
+  ∀ (j : Fin (d + 3)) (x y : Fin n × Index),
+    x ∈ T →
+      y ∈ T →
+        degree (fun x => 1) (completeRelations D a m p Split.oneTwo P hP hd F Fcfg R0 u extra j) T x ≤
+          Q ^ 2 * degree (fun x => 1) (completeRelations D a m p Split.oneTwo P hP hd F Fcfg R0 u extra j) T y
+key : Fin n × Index → ℤ × CanonicalGridRecoding.Grid (normalDim Split.oneTwo) := ⋯
+cfg : Index → E4 := ⋯
+graph : Fin n × Index → E4 × OutputIndex h R Eref a m (u + 12) p := ⋯
+t : ℝ
+W : (height : ↥(image Prod.fst (image key T))) → HeightAlignment (image key T) u t zeta53 chi ↑height
+bin : ℝ → Fin (bins + 1)
+hsBase : (source h R Eref a m p).thickness ≤ baseCut
+c : NativeYCommonScaleSelection.Menu u bins
+selected : Finset Key
+hsel : selected ⊆ image (fun z => coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2) T
+hsn : selected.Nonempty
+hMass :
+  16 / 5 ^ 4 * (localSigma c / 32768) ^ zeta53 * (64 / ↑(2 ^ (u + 12))) ^ (5 * eB / 16) ≤
+    2 * ↑(u + 10) ^ 2 * ↑(bins + 1) * ↑Q ^ 4 * (64 / ↑(2 ^ (u + 12))) ^ 4 *
+      ↑(#(image
+            (fun z =>
+              (NativeActualConfiguredPoint.point D a m p Split.oneTwo P hP hd F Fcfg R0 z.2,
+                outputTube h R Eref a m (u + 12) p href z.1))
+            ({z ∈ T | (fun z => coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2) z ∈ selected})))
+hwhole :
+  ∀ height ∈ image Prod.fst selected,
+    ∃ (hh : height ∈ image Prod.fst (image (fun z => coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2) T)),
+      (W ⟨height, hh⟩).chart = c.1 ∧
+        (W ⟨height, hh⟩).rhoDepth = c.2.1 ∧
+          (W ⟨height, hh⟩).tauDepth = c.2.2.1 ∧
+            bin (W ⟨height, hh⟩).exponent = c.2.2.2 ∧
+              heightPoints selected (2⁻¹ ^ u / 512) height = (W ⟨height, hh⟩).selected
+r : ℝ := ⋯
+eps : ℝ := ⋯
+N : ℝ := ⋯
+Ycut : Finset (Fin n × Index) := ⋯
+deltaY : ℝ := ⋯
+hr : 0 < r
+hrSmall : r ≤ rCut
+hr1 : r ≤ 1
+heps : 0 < eps
+⊢ ℝ
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:572:7: error: failed to infer `have` declaration type
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:549:83: error: unsolved goals
+E zeta53 chi window eB c3 menuTax : ℝ
+hE : 0 < E
+_hzeta53 : 0 < zeta53
+hzetaSmall : zeta53 ≤ E / 16384
+hchi : 0 < chi
+hw : 0 < window
+heB : 0 < eB
+hc3 : 0 ≤ c3
+hmenuTax : 0 < menuTax
+htax : 5 * eB / 16 + 2 * c3 + menuTax ≤ window * chi / 2 * (E / 16384)
+bins : ℕ
+rCut : ℝ
+hrCut : 0 < rCut
+hrCut1 : rCut ≤ 1
+Hcut :
+  ∀ (r : ℝ),
+    0 < r →
+      r ≤ rCut →
+        32768 * r ^ (window * chi / 2) ≤ 1 ∧
+          5 ^ 4 * 32768 ^ zeta53 / 16 * r ^ (window * chi / 2 * (E / 8192)) ≤ 1 ∧
+            ∀ (u : ℕ), r ≤ 2⁻¹ ^ (u + 6) → 2⁻¹ ^ (u + 6) ≤ r ^ window → 2 * ↑(u + 10) ^ 2 * ↑(bins + 1) ≤ r ^ (-menuTax)
+baseCut : ℝ
+hbaseCut : 0 < baseCut
+Hsource :
+  ∀ (n : ℕ) (D : FiniteScaleSource n) (eta : ℝ) (h : IsWangZakharovNativeFiniteInput D eta)
+    (original : Fin n → Finset Index) (R : Finset (Fin n)) (level : ℕ) (a zeta : ℝ),
+    0 ≤ zeta →
+      HasOriginalBackbone D original R a level zeta →
+        ∀ (Eref H T : Finset (Fin n × Index)) (m : ℕ),
+          6 ≤ m →
+            ∀ (p : Parent) (etaRef : ℝ) (href : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaRef),
+              T ⊆ Eref →
+                Eref ⊆ incidences original →
+                  (∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p) →
+                    (source h R Eref a m p).thickness ≤ baseCut →
+                      etaRef ≤ window * eB / 256 →
+                        64 ^ 3 * (source h R Eref a m p).thickness ^ (window * eB / 16) ≤ D.thickness ^ zeta →
+                          ∀ (population cost : ℝ),
+                            0 < population →
+                              0 < cost →
+                                population * ↑(#(parentLabels D R a (2 ^ m) p)) ≤ D.thickness * ↑(#H) →
+                                  ↑(#H) ≤ cost * ↑(#T) →
+                                    ∀ (u : ℕ),
+                                      m + (u + 12) ≤ level →
+                                        64 / ↑(2 ^ (u + 12)) ≤ (source h R Eref a m p).thickness ^ window →
+                                          retentionFactor cost population ≤ (64 / ↑(2 ^ (u + 12))) ^ (-(eB / 32)) →
+                                            ∀ (P : Submodule ℝ E4) (hP : P ≤ heightKernel)
+                                              (hd : Module.finrank ℝ ↥P = 1) (F Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ),
+                                              (∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |F t u v| ≤ 1 / 4) →
+                                                (∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |Fcfg t u v| ≤ 1 / 4) →
+                                                  ∀ (R0 : ℕ),
+                                                    0 < R0 →
+                                                      rho m ≤ mu m * ↑R0 →
+                                                        mu m * ↑R0 = 4096 / ↑(2 ^ (u + 12)) →
+                                                          ∀ (d bins Q : ℕ)
+                                                            (extra : Fin d → Fin n × Index → Fin n × Index → Prop),
+                                                            (∀ (j : Fin (d + 3)) (x y : Fin n × Index),
+                                                                x ∈ T →
+                                                                  y ∈ T →
+                                                                    degree (fun x => 1)
+                                                                        (completeRelations D a m p Split.oneTwo P hP hd
+                                                                          F Fcfg R0 u extra j)
+                                                                        T x ≤
+                                                                      Q ^ 2 * degree (fun x => 1) ⋯ T y) →
+                                                              let key := fun z =>
+                                                                coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2;
+                                                              have cfg :=
+                                                                NativeActualConfiguredPoint.point D a m p Split.oneTwo P
+                                                                  hP hd F Fcfg R0;
+                                                              have graph := fun z =>
+                                                                (cfg z.2, outputTube h R Eref a m (u + 12) p href z.1);
+                                                              ∀ (t zeta53 chi : ℝ)
+                                                                (W : (height : ↥⋯) → HeightAlignment ⋯ u t zeta53 chi ⋯)
+                                                                (bin : ℝ → Fin (bins + 1)), ∃ c, ⋯
+n : ℕ
+D : FiniteScaleSource n
+eta : ℝ
+h : IsWangZakharovNativeFiniteInput D eta
+original : Fin n → Finset Index
+R : Finset (Fin n)
+level : ℕ
+a zeta : ℝ
+hzeta : 0 ≤ zeta
+HB : HasOriginalBackbone D original R a level zeta
+Eref H T : Finset (Fin n × Index)
+m : ℕ
+hm : 6 ≤ m
+hscale : D.thickness ≤ rho m ^ 2
+p : Parent
+etaRef : ℝ
+href : IsWangZakharovNativeFiniteInput (source h R Eref a m p) etaRef
+hTE : T ⊆ Eref
+hEorig : Eref ⊆ incidences original
+hparent : ∀ z ∈ T, z.1 ∈ parentLabels D R a (2 ^ m) p
+hsmall : (source h R Eref a m p).thickness ≤ min rCut baseCut
+heta : etaRef ≤ window * eB / 256
+hprofile : 64 ^ 3 * (source h R Eref a m p).thickness ^ (window * eB / 16) ≤ D.thickness ^ zeta
+population cost : ℝ
+hpop : 0 < population
+hcost : 0 < cost
+hpopulation : population * ↑(#(parentLabels D R a (2 ^ m) p)) ≤ D.thickness * ↑(#H)
+hretain : ↑(#H) ≤ cost * ↑(#T)
+u : ℕ
+hmb : m + (u + 12) ≤ level
+hwindow : 64 / ↑(2 ^ (u + 12)) ≤ (source h R Eref a m p).thickness ^ window
+hpaid : retentionFactor cost population ≤ (64 / ↑(2 ^ (u + 12))) ^ (-(eB / 32))
+P : Submodule ℝ E4
+hP : P ≤ heightKernel
+hd : Module.finrank ℝ ↥P = 1
+F Fcfg : ℤ → Matrix (Fin 2) (Fin 1) ℝ
+hF : ∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |F t u v| ≤ 1 / 4
+hCfg : ∀ (t : ℤ) (u : Fin 2) (v : Fin 1), |Fcfg t u v| ≤ 1 / 4
+R0 : ℕ
+hR0 : 0 < R0
+hbase : rho m ≤ mu m * ↑R0
+hmatch : mu m * ↑R0 = 4096 / ↑(2 ^ (u + 12))
+d Q F3 : ℕ
+extra : Fin d → Fin n × Index → Fin n × Index → Prop
+hF3 : 1 ≤ F3
+H3 : ↑F3 * ↑Q ^ 4 ≤ D.thickness ^ (-c3)
+Hrel :
+  ∀ (j : Fin (d + 3)) (x y : Fin n × Index),
+    x ∈ T →
+      y ∈ T →
+        degree (fun x => 1) (completeRelations D a m p Split.oneTwo P hP hd F Fcfg R0 u extra j) T x ≤
+          Q ^ 2 * degree (fun x => 1) (completeRelations D a m p Split.oneTwo P hP hd F Fcfg R0 u extra j) T y
+key : Fin n × Index → ℤ × CanonicalGridRecoding.Grid (normalDim Split.oneTwo) :=
+  fun z => coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2
+cfg : Index → E4 := NativeActualConfiguredPoint.point D a m p Split.oneTwo P hP hd F Fcfg R0
+graph : Fin n × Index → E4 × OutputIndex h R Eref a m (u + 12) p :=
+  fun z => (cfg z.2, outputTube h R Eref a m (u + 12) p href z.1)
+t : ℝ
+W : (height : ↥(image Prod.fst (image key T))) → HeightAlignment (image key T) u t zeta53 chi ↑height
+bin : ℝ → Fin (bins + 1)
+hsBase : (source h R Eref a m p).thickness ≤ baseCut
+c : NativeYCommonScaleSelection.Menu u bins
+selected : Finset Key
+hsel : selected ⊆ image (fun z => coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2) T
+hsn : selected.Nonempty
+hMass :
+  16 / 5 ^ 4 * (localSigma c / 32768) ^ zeta53 * (64 / ↑(2 ^ (u + 12))) ^ (5 * eB / 16) ≤
+    2 * ↑(u + 10) ^ 2 * ↑(bins + 1) * ↑Q ^ 4 * (64 / ↑(2 ^ (u + 12))) ^ 4 *
+      ↑(#(image
+            (fun z =>
+              (NativeActualConfiguredPoint.point D a m p Split.oneTwo P hP hd F Fcfg R0 z.2,
+                outputTube h R Eref a m (u + 12) p href z.1))
+            ({z ∈ T | (fun z => coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2) z ∈ selected})))
+hwhole :
+  ∀ height ∈ image Prod.fst selected,
+    ∃ (hh : height ∈ image Prod.fst (image (fun z => coarseYKey D a m p Split.oneTwo P hP hd F Fcfg R0 z.2) T)),
+      (W ⟨height, hh⟩).chart = c.1 ∧
+        (W ⟨height, hh⟩).rhoDepth = c.2.1 ∧
+          (W ⟨height, hh⟩).tauDepth = c.2.2.1 ∧
+            bin (W ⟨height, hh⟩).exponent = c.2.2.2 ∧
+              heightPoints selected (2⁻¹ ^ u / 512) height = (W ⟨height, hh⟩).selected
+r : ℝ := (source h R Eref a m p).thickness
+eps : ℝ := 64 / ↑(2 ^ (u + 12))
+N : ℝ := 2 * ↑(u + 10) ^ 2 * ↑(bins + 1)
+Ycut : Finset (Fin n × Index) := {z ∈ T | key z ∈ selected}
+deltaY : ℝ := 2⁻¹ ^ u / 512
+hr : 0 < r
+hrSmall : r ≤ rCut
+hr1 : r ≤ 1
+heps : 0 < eps
+⊢ ∃ c,
+    ∃ selected ⊆ image key T,
+      selected.Nonempty ∧
+        let eps := 64 / ↑(2 ^ (u + 12));
+        let Ycut := {z ∈ T | key z ∈ selected};
+        0 < localSigma c ∧
+          localSigma c ≤ (source h R Eref a m p).thickness ^ (window * chi / 2) ∧
+            localSigma c ^ (E / 4096) ≤ eps ^ 4 * ↑(#(image graph Ycut)) ∧
+              (∀ b ≤ u + 12,
+                  localSigma c ^ (E / 4096) ≤
+                    eps ^ 4 *
+                      ∑ q ∈ image (parentLabel (source h R Eref a m p) 0 (2 ^ b)) univ,
+                        NativeSameQFineGraph.weight h R Eref a m (u + 12) b p href cfg Ycut q) ∧
+                ∀ height ∈ image Prod.fst selected,
+                  ∃ (hh : height ∈ image Prod.fst (image key T)),
+                    (W ⟨height, hh⟩).chart = c.1 ∧
+                      (W ⟨height, hh⟩).rhoDepth = c.2.1 ∧
+                        (W ⟨height, hh⟩).tauDepth = c.2.2.1 ∧
+                          bin (W ⟨height, hh⟩).exponent = c.2.2.2 ∧
+                            heightPoints selected (2⁻¹ ^ u / 512) height = (W ⟨height, hh⟩).selected
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:634:33: error(lean.unknownIdentifier): Unknown identifier `heightKernel`
+
+Note: It is not possible to treat `heightKernel` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:745:49: error(lean.unknownIdentifier): Unknown identifier `incidences`
+
+Note: It is not possible to treat `incidences` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:861:14: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:862:14: error: failed to prove positivity/nonnegativity/nonzeroness
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:892:32: error: not a positivity goal
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:926:4: error: Type mismatch
+  Hmenu u (LE.le.trans hsmall (min_le_left dm (min dg dc)))
+has type
+  2 * (↑u + 10) ^ 2 * (↑bins + 1) ≤ (2⁻¹ ^ (u + 6)) ^ (-menuTax)
+but is expected to have type
+  2 * ↑(u + 10) ^ 2 * ↑(bins + 1) ≤ (2⁻¹ ^ (u + 6)) ^ (-menuTax)
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:945:25: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:947:23: error: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1080:25: error(lean.unknownIdentifier): Unknown identifier `scale`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1080:53: error(lean.unknownIdentifier): Unknown identifier `scale`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1242:38: error(lean.unknownIdentifier): Unknown identifier `fixedCompactClass`
+
+Note: It is not possible to treat `fixedCompactClass` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1234:7: error(lean.unknownIdentifier): Unknown identifier `incidences`
+
+Note: It is not possible to treat `incidences` as an implicitly bound variable here because the `autoImplicit` option is set to `false`.
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1253:14: error(lean.unknownIdentifier): Unknown identifier `incidences`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1308:5: error: Variable name `heGeom` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _heGeom
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1308:32: error: Variable name `hLoss` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hLoss
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1308:51: error: Variable name `hRank` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hRank
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1308:74: error: Variable name `hQ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hQ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/sticky-recovery-20261006/live/Theorems/Thm_StickyKakeya4_native_htotal_implementation.lean:1344:5: error: Variable name `heta0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _heta0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+LEAN_FINISHED_UTC 2026-10-06T19:58:36.887579+00:00 EXIT_CODE=1
+
+EXIT_CODE=1

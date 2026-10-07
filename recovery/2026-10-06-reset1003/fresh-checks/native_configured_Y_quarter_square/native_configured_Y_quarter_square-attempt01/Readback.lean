@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_configured_Y_quarter_square
+set_option autoImplicit false
+#print axioms NativeConfiguredYQuarterSquare.contracted_midpoint_bound
+#print axioms NativeConfiguredYQuarterSquare.source_quarter_square

@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_quotient_constant_bound
+
+#print axioms NativeQuotientConstantBound.quotientConstant_le

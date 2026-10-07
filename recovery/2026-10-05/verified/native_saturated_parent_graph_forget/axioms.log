@@ -1,0 +1,93 @@
+COMMAND ["flock", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock", "python3", "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py", "--lock-file", "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock", "--", "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean", "-j1", "-DautoImplicit=false", "-DwarningAsError=true", "-R", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T181541209987", "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T181541209987/AggregateReadback.lean"]
+READBACK_SHA256 26b47e7f699fee547475265868dbfcdf56555c4d171331b7c9fdf4c7deff30c2
+Dedicated staging slot 3 acquired UTC: 2026-10-05T18:16:21.858617+00:00
+Memory at admission: MemTotal:       10206508 kB; MemAvailable:    8627372 kB
+'NativeNormalizedOffsetCount.offset_count_from_mapped_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetCount.offset_count_from_raw_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetField.mapped_raw_field_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetField.raw_field_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetField.translated_field_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetField.window_variation_le_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetTime.chart_height_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetTime.physical_cell_time_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetTime.quantized_time_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetTime.raw_height_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetTime.same_floor_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeNormalizedOffsetTime.translated_height_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentOriginalPointMenu.parent_original_point_uniformities' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeParentOriginalPointMenu.relations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentOriginalPointMenu.relations_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentOriginalPointMenu.relations_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentReferenceRelationMenu.relations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentReferenceRelationMenu.relations_refl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentReferenceRelationMenu.relations_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeParentReferenceRelationMenu.uniformities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedParentGraphConfiguration.HasSaturatedCurveParentRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedParentGraphConfiguration.HasSaturatedCurveParentStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedParentGraphConfiguration.SaturatedCurveParentFinalCleanupData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedParentGraphConfiguration.exists_saturated_parent_graph_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedParentGraphConfiguration.half_depth_eq_depth' depends on axioms: [propext, Quot.sound]
+'NativeSaturatedParentGraphConfiguration.middleSelected' depends on axioms: [propext, Quot.sound]
+'NativeSaturatedParentGraphConfiguration.middle_selected_depth' depends on axioms: [propext, Quot.sound]
+'NativeSaturatedParentGraphConfiguration.saturated_stage_with_parent_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedParentGraphData.HasParentHeightCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedParentGraphData.HasSaturatedCurveParentProfiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedParentGraphData.attach_saturated_parent_graph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedParentGraphData.saturated_curve_parent_profiles_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedParentGraphForget.curve_cleanup_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedParentGraphForget.curve_parent_profiles_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedParentGraphForget.curve_retained_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedParentGraphForget.curve_stage_forget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSaturatedPopulationParentConfiguration.HasSaturatedParentRetainedHistory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedPopulationParentConfiguration.HasSaturatedPopulationParentStage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedPopulationParentConfiguration.SaturatedParentFinalCleanupData' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedPopulationParentConfiguration.exists_saturated_population_parent_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedPopulationParentConfiguration.saturated_stage_with_population_parent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSaturatedReferenceGraphConfiguration.exists_saturated_reference_graph_configuration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpPopulationAdmission.exists_sharp_admission_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NativeSharpPopulationAdmission.hierarchy_admission_margins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpPopulationAdmission.original_refinement_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeSharpPopulationAdmission.sharp_population_readback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrimmedAngularClassCounts.coarse_fiber_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrimmedAngularClassCounts.coarse_weight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrimmedAngularClassCounts.distinct_class_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrimmedAngularClassCounts.distinct_class_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTrimmedAngularClassCounts.nested_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceActualAD.actual_ADBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NativeTwoMapRetainedSliceActualAD.actual_all_radius_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+EXIT_CODE=0

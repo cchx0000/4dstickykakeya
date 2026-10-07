@@ -1,0 +1,6 @@
+import Theorems.Thm_StickyKakeya4_native_configured_offset_field
+set_option autoImplicit false
+#print axioms NativeConfiguredOffsetField.cellField
+#print axioms NativeConfiguredOffsetField.cellField_witness
+#print axioms NativeConfiguredOffsetField.field_error_of_old_coherence
+#print axioms NativeConfiguredOffsetField.field_error_on_subset

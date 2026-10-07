@@ -1,0 +1,4 @@
+import Theorems.Thm_StickyKakeya4_native_current_reference_incidence_retention
+set_option autoImplicit false
+#print axioms NativeCurrentReferenceIncidenceRetention.source_cells_real_volume
+#print axioms NativeCurrentReferenceIncidenceRetention.retained_incidence_ratio

@@ -1,0 +1,7 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_budget_cutoff
+
+#print axioms NativeRetainedSliceBudgetCutoff.exists_extra_cutoff
+#print axioms NativeRetainedSliceBudgetCutoff.extraCutoff
+#print axioms NativeRetainedSliceBudgetCutoff.extraCutoff_pos
+#print axioms NativeRetainedSliceBudgetCutoff.extraCutoff_pays
+#print axioms NativeRetainedSliceBudgetCutoff.exists_third_budget_cutoffs

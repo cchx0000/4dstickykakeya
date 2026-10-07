@@ -1,0 +1,3 @@
+import Theorems.Thm_StickyKakeya4_native_retained_slice_actual
+
+#print axioms NativeRetainedSliceActual.exists_actual_retained_slice_counts

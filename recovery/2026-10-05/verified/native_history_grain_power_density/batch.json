@@ -1,0 +1,36 @@
+{
+  "state": "passed",
+  "started_utc": "2026-10-05T14:10:48.256542+00:00",
+  "command": [
+    "flock",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/staging-lean.lock",
+    "python3",
+    "/workspace/shared/sticky-recovery-20261005/staging_third_slot.py",
+    "--lock-file",
+    "/workspace/scratch/5f2524fd4117/4dstickykakeya/.lake/global-lean-locks/3.lock",
+    "--",
+    "/workspace/scratch/5f2524fd4117/lean-tools/lean-4.33.1-linux/bin/lean",
+    "-j1",
+    "-DautoImplicit=false",
+    "-DwarningAsError=true",
+    "-R",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141047574988",
+    "/workspace/shared/sticky-recovery-20261005/verification/axiom-batch-20261005T141047574988/AggregateReadback.lean"
+  ],
+  "readback_sha256": "988fa5e38d44504048454c4e6404d14acddf2de573b3219a20b5be94d80e3433",
+  "modules": [
+    {
+      "module": "Theorems.Thm_StickyKakeya4_native_history_grain_power_density",
+      "source_sha256": "ff1e87841a2b7368fc43977362898fbff4788991b5908ea5b4992d0aa319dcb1",
+      "olean_sha256": "101ec2a89c06ccd4ffbb0001ebd180c4d0cbf05aafaa810123418c17271bbf2f",
+      "names": [
+        "NativeHistoryGrainPowerDensity.scaleGain",
+        "NativeHistoryGrainPowerDensity.scaleGain_nonneg",
+        "NativeHistoryGrainPowerDensity.scale_predecessor_power_lower",
+        "NativeHistoryGrainPowerDensity.exists_actual_power_dense_grain_core"
+      ]
+    }
+  ],
+  "finished_utc": "2026-10-05T14:10:53.346636+00:00",
+  "exit_code": 0
+}
